@@ -17,15 +17,20 @@
   <NeedAName>Wprowadź nazwę.</NeedAName>
 
   <LoadingLongEvent>Wczytuję...</LoadingLongEvent>
-
+	
+	<!-- Colony naming-->
   <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
   <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Nazwa niepoprawna.</ColonyNameIsInvalid>
 
+  <!-- Zone naming -->
   <ZoneGainsName>Obszar nazywa się teraz {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Nazwa niepoprawna.</ZoneNameIsInvalid>
 
-
+  <!-- Save game incompatible warning -->
+  <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>Brak kompatybilności stanu gry</SaveGameIncompatibleWarningTitle>
+  
   
 
 	<!-- Res change dialog -->
@@ -64,12 +69,14 @@
   <DoXTimes>Rób X razy</DoXTimes>
   <DoUntilYouHaveX>Rób do uzyskania X</DoUntilYouHaveX>
   <DoForever>Powtarzaj bez przerwy</DoForever>
+  <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
   
   
 	<!-- Trade -->
   <TradeGoodsNearBeaconLesson>Aby wysłać przedmioty lub srebro do handlarzy, musisz wybudować NADAJNIK DO HANDLU na zewnątrz i utworzyć składowisko blisko niego.</TradeGoodsNearBeaconLesson>
   <YourTradeableSilver>Twoje srebro do handlu: {0}</YourTradeableSilver>
-  
+  	<YourTradeableSilverTip>Do handlu można używać tylko srebro znajdujące się blisko nadajnika do handlu oraz pod gołym niebem.</YourTradeableSilverTip>
+
   <!-- Comms -->
   <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
   

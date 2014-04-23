@@ -17,8 +17,7 @@
   <DyingLower>umiera</DyingLower>
   <PawnEffectiveness>Efektywność</PawnEffectiveness>
   <FilthOnFeet>Brud na nogach:</FilthOnFeet>
-  <Food>Jedzenie</Food>
-  <Rest>Odpoczynek</Rest>
+
   
   	<!-- Job reports -->
 	<ReportHaulingTo>Transportuję {0} do {1}.</ReportHaulingTo>
@@ -35,10 +34,22 @@
 	<CoverThingBlocksPercentOfShots>{0} blokuje {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>brak osłony</NoCoverLower>
   
-  <!-- Thoughts -->
+  <!-- Status levels -->
   <Loyalty>Lojalność</Loyalty>
+  <LoyaltyTip>Lojalność reprezentuję wiarę osoby w kolonię. Jeżeli spadnie zbyt nisko, osoba może się poddać, zachowywać nieracjonalnie lub wpaść w szał.\n\nLojalność równa jest Szczęściu lub Strachowi - w zależności od tego, który jest większy.</LoyaltyTip>
   <Happiness>Szczęście</Happiness>
+  <HappinessTip>Szczęście jest zapewniane poprzez spełnianie potrzeb fizycznych i psychicznych.</HappinessTip>
   <Fear>Strach</Fear>
+  <FearTip>Strach reprezentuje, jak bardzo osoba jest zastraszona przez otoczenie.\n\nWzrasta wraz z groźbami, brutalnością oraz pokazami władzy.</FearTip>
+  <Food>Jedzenie</Food>
+  <FoodTip>Jedzenie określa, jak bardzo ktoś jest usatysfakcjonowany jedzeniem, które spożywa.\n\nResetuje się, gdy ktoś spożył posiłek, aby po chwili spadać aż do momentu, gdy zje kolejny. Jeśli spadnie do zera, osoba zacznie odczuwać obrażenia wywołane głodem.</FoodTip>
+  <Rest>Odpoczynek</Rest>
+  <RestTip>Odpoczynek określa, jak dobrze ktoś wypoczął.\n\nWzrasa do maksimum gdy ktoś odpoczywa w łóżku. Gdy osoba nie odpoczywa, spada do zera.</RestTip>
+  <Environment>Środowisko</Environment>
+  <EnvironmentTip>Środowisko określa, jak bardzo ktoś jest usatysfakcjonowany okolicą, w której przebywa.\n\nJest wysokie, gdy koloniści mieszkają w przestronnych i udekorowanych pomieszczeniach. Jest niskie, jeśli okolica jest brzydka.</EnvironmentTip>
+  <Openness>Otwartość</Openness>
+  
+  <!-- Thoughts -->
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Zakończy kończyć się za: {0}</ThoughtFinishesExpiringIn>
@@ -48,7 +59,8 @@
   <EffectivenessReduced>Zmniejszona</EffectivenessReduced>
   <EffectivenessImpaired>Ograniczona</EffectivenessImpaired>
   <EffectivenessIncapacitated>Nieprzytomny</EffectivenessIncapacitated>
-  
+   <MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
+
   <!-- Time indicator-->
   <ClockDay>Dzień</ClockDay>
   <ClockTime>Godzina</ClockTime>
@@ -94,6 +106,12 @@
 	<PowerNotConnected>Nie podłączone do prądu.</PowerNotConnected>
 	<PowerConnectedRate>Zużycie energii: {0}W</PowerConnectedRate>
 	<PowerConnectedStored>Zmagazynowana energia: {0}Wd</PowerConnectedStored>
+	
+	  <PowerNeeded>Potrzebna energia</PowerNeeded>
+  <PowerOutput>Wytwarzana energia</PowerOutput>
+  <PowerBatteryStored>Zmagazynowano</PowerBatteryStored>
+  <PowerBatteryEfficiency>Efektywność</PowerBatteryEfficiency>
+  
 	
 	<!--Rotting-->
 	<RotStateFresh>Świeże</RotStateFresh>
@@ -153,5 +171,10 @@
   <FireOn>Pali się {0}</FireOn>
   <Burning>Płonący</Burning>
   <FireSizeLower>rozmiar pożaru {0}</FireSizeLower>
+  
+    <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
+  <SolarFlare>Rozbłysk słoneczny</SolarFlare>
+  <Eclipse>Zaćmienie</Eclipse>
   
 </LanguageData>
