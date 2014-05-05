@@ -16,3 +16,5 @@ http://ludeon.com/forums/index.php?topic=3100.0
 Contribution:
 - GlobusGames
 - John Fucking Rambo
+- Mateusz Raczkiewicz
+- Micha³ Hoffman
