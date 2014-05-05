@@ -66,14 +66,23 @@
   <ClockTime>Godzina</ClockTime>
   <ClockTip>Godzina oraz ilość dni od przybycia na planetę.</ClockTip>
   
-  <!-- Inspector -->
+  <!-- Pawn info readout -->
   <Health>Życie</Health>
+  <PawnMainDescWithFactionGendered>{0} {1} z {2}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>{0} z {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Frakcja</Faction>
   <Equipped>Używa</Equipped>
   <EquippedNothing>Nic</EquippedNothing>
   <Incapacitated>Nieprzytomny</Incapacitated>
   <InRestraints>Związany (spowolniony)</InRestraints>
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
+  <Carrying>Niesie</Carrying>
+  <SanityDazedWander>Załamanie: Błąka się oszołomiony</SanityDazedWander>
+  <SanityGiveUpExit>Załamanie: Poddał się i odchodzi</SanityGiveUpExit>
+  <SanityPanicFlee>Załamanie: Ucieka w panice</SanityPanicFlee>
+  <SanityPsychotic>Załamanie: Wpadł w szał</SanityPsychotic>
 
   <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
@@ -119,8 +128,7 @@
 	<RotStateDessicated>Wyschnięte</RotStateDessicated>
 	
   
-  <!-- Tooltip -->
-  <Carrying>Niesie</Carrying>
+  <!-- Shooting Tooltip -->
   <ShotBy>Atakowany przez {0}</ShotBy>
   <CannotHit>Nie można trafić w cel.</CannotHit>
 
@@ -174,7 +182,5 @@
   
     <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
-  <SolarFlare>Rozbłysk słoneczny</SolarFlare>
-  <Eclipse>Zaćmienie</Eclipse>
   
 </LanguageData>
