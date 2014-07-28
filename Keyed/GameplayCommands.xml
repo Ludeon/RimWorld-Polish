@@ -4,24 +4,28 @@
 	<CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
 	
-	  <CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
-  <CommandTogglePowerLabel>Przełącz zasilanie</CommandTogglePowerLabel>
+	<CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
+    <CommandTogglePowerLabel>Przełącz zasilanie</CommandTogglePowerLabel>
 
   <CommandGatherSpotToggleLabel>Miejsce zgromadzeń</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
   
 	
+	
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
   <IsIncapped>{0} jest nieprzytomny.</IsIncapped>
 
+  
   <CommandCancelConstructionLabel>Anuluj</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Anuluj budowę.</CommandCancelConstructionDesc>
 
+  
   <CommandBedSetForPrisonersLabel>Ustaw dla więźniów</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Nie można ustawić zewnętrznych łóżek dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Ustaw dla kolonistów</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc>Ustaw łóżka w tym pokoju do użytku kolonistów.</CommandBedSetForColonistsDesc>
   <TurningOnPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący koloniści utracą swoje łóżka:</TurningOnPrisonerBedWarning>
@@ -42,6 +46,28 @@
 
   <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
+ 
+ 
+ <!-- Artillery -->
+  <CommandSetForceAttackTarget>Włącz manualne celowanie</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Wyłącz manualne celowanie</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Wyłączenie manualnego trybu celowania pozwala tej wieżyczce wybierać cele automatycznie.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Brak trybu manualnego celowania.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>Cel poza maks. zasięgiem.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Cel poniżej min. zasięgu.</MessageTargetBelowMinimumRange>
   
   
+  <!-- Ship computer core -->
+  <CommandShipLaunch>Wystartuj</CommandShipLaunch>
+  <CommandShipLaunchDesc>Rozpoczyna sekwencję startową statku z obecną konfiguracją.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Pokaż raport startu</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Pokazuje raport o gotowości statku do startu.</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>Wyładuj</CommandPodEject>
+  <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
+
 </LanguageData>

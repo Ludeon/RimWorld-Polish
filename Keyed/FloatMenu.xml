@@ -1,17 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+
+
 	<CallOnRadio>Wezwij {0}</CallOnRadio>
 	<CannotUseSolarFlare>Nie można użyć (rozbłysk)</CannotUseSolarFlare>
 	<CannotUseNoPower>Nie można użyć (brak prądu)</CannotUseNoPower>
 	<CannotUseNoPath>Nie można użyć (brak dojścia)</CannotUseNoPath>
-	
+    <CannotUseReserved>Nie można użyć (zarezerwowane)</CannotUseReserved>
+    <CannotUseFull>Nie można użyć (pełne)</CannotUseFull>	
 
   <FireAt>Strzelaj w {0}</FireAt>
 
   <OutOfRange>Poza zasięgiem</OutOfRange>
   <CannotHitTarget>nie można trafić w cel</CannotHitTarget>
   <CannotFight>{0} nie może walczyć</CannotFight>
+  
+  <OrderManThing>Człowiek {0}</OrderManThing>
 
   <MeleeAttack>Walcz wręcz z {0}</MeleeAttack>
   <MeleeAttackToDeath>Pobij {0} na śmierć</MeleeAttackToDeath>
@@ -22,7 +27,7 @@
 	<BurningLower>płonie</BurningLower>
 	<NoEmptyPlaceLower>brak wolnego miejsca w którym można składować</NoEmptyPlaceLower>
 	<AlreadyFilledLower>już wypełnione</AlreadyFilledLower>
-	
+	<MissingMaterials>potrzebne materiały</MissingMaterials>
 	
   
   <CannotGoNoPath>Nie można się dostać (brak dojścia)</CannotGoNoPath>
@@ -47,11 +52,22 @@
   <Equip>Ekwipuj {0}</Equip>
   <CannotEquip>Nie można ekwipować {0}</CannotEquip>
 
+  <Wear>Załóż {0}</Wear>
+  <CannotWear>Nie można założyć {0}</CannotWear>
+  
+  <Strip>Zdejmij {0}</Strip>
+  <CannotStrip>Nie można zdjąć {0}</CannotStrip>
+  
   <Deposit>Zostaw {0} w {1}</Deposit>
   <CannotDeposit>Nie można zostawić {0} w {1}</CannotDeposit>
 
   <Drop>Odrzuć {0}</Drop>
 
+   <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>Wejdź do kapsuły hibernacyjnej</EnterCryptosleepPod>
+ 
+ 
+ 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Nie można {0} {1}</CannotGenericWork>
 

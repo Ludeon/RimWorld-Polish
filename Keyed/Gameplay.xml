@@ -1,31 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- Various -->
+  <!-- Various -->
   <WorkLeft>Pozostało pracy</WorkLeft>
   <Contents>Składniki</Contents>
-
-
+  <ContainedResources>Zasoby</ContainedResources>
   <ForPrisonerUse>Dla więźniów</ForPrisonerUse>
   <ForColonistUse>Dla kolonistów</ForColonistUse>
   <Owner>Właściciel</Owner>
   <Nobody>Nikt</Nobody>
   <Unowned>Wolne</Unowned>
-  <GunInstalled>Zainstalowane</GunInstalled>
   <DeadTime>Nie żyje od {0}</DeadTime>
   <WalkSpeed>szybkość ruchu: {0}</WalkSpeed>
   <DyingLower>umiera</DyingLower>
   <PawnEffectiveness>Efektywność</PawnEffectiveness>
   <FilthOnFeet>Brud na nogach:</FilthOnFeet>
+  <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
+  <NothingLower>nic</NothingLower>
 
+  <!-- Turrets -->
+  <GunInstalled>Zainstalowano: </GunInstalled>
+  <MinimumRange>Min. zasięg: </MinimumRange>
+  <CanFireIn>Przeładuje się za: </CanFireIn>
   
-  	<!-- Job reports -->
+
+    <!-- Job reports -->
 	<ReportHaulingTo>Transportuję {0} do {1}.</ReportHaulingTo>
 	<ReportHauling>Transportuję {0}.</ReportHauling>
 
 	<!-- Shooting report -->
-	<RangeSlashSkill>Zasięg/umiejętność</RangeSlashSkill>
-	<RangeSlashEquipment>Zasięg/ekwipunek</RangeSlashEquipment>
+    <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
+	<ShootReportSkill>Umiejętność</ShootReportSkill>
+	<ShootReportWeapon>Broń</ShootReportWeapon>
 	<Darkness>Ciemność</Darkness>
 	<TargetProne>Podatność celu</TargetProne>
 	<TargetSize>Rozmiar celu</TargetSize>
@@ -33,14 +39,11 @@
 	<ShootingCover>Osłona</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} blokuje {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>brak osłony</NoCoverLower>
-  
+	
+
   <!-- Status levels -->
-  <Loyalty>Lojalność</Loyalty>
-  <LoyaltyTip>Lojalność reprezentuję wiarę osoby w kolonię. Jeżeli spadnie zbyt nisko, osoba może się poddać, zachowywać nieracjonalnie lub wpaść w szał.\n\nLojalność równa jest Szczęściu lub Strachowi - w zależności od tego, który jest większy.</LoyaltyTip>
-  <Happiness>Szczęście</Happiness>
-  <HappinessTip>Szczęście jest zapewniane poprzez spełnianie potrzeb fizycznych i psychicznych.</HappinessTip>
-  <Fear>Strach</Fear>
-  <FearTip>Strach reprezentuje, jak bardzo osoba jest zastraszona przez otoczenie.\n\nWzrasta wraz z groźbami, brutalnością oraz pokazami władzy.</FearTip>
+  <Mood>Nastrój</Mood>
+  <MoodTip>Nastrój zależy od poziomu zaspokojenia psychicznych i fizycznych potrzeb. \n\nJeżeli nastrój kolonisty spadnie zbyt nisko, może się załamać psychicznie.</MoodTip>
   <Food>Jedzenie</Food>
   <FoodTip>Jedzenie określa, jak bardzo ktoś jest usatysfakcjonowany jedzeniem, które spożywa.\n\nResetuje się, gdy ktoś spożył posiłek, aby po chwili spadać aż do momentu, gdy zje kolejny. Jeśli spadnie do zera, osoba zacznie odczuwać obrażenia wywołane głodem.</FoodTip>
   <Rest>Odpoczynek</Rest>
@@ -49,22 +52,21 @@
   <EnvironmentTip>Środowisko określa, jak bardzo ktoś jest usatysfakcjonowany okolicą, w której przebywa.\n\nJest wysokie, gdy koloniści mieszkają w przestronnych i udekorowanych pomieszczeniach. Jest niskie, jeśli okolica jest brzydka.</EnvironmentTip>
   <Openness>Otwartość</Openness>
   
+
   <!-- Thoughts -->
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Zakończy kończyć się za: {0}</ThoughtFinishesExpiringIn>
+<MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
+
+
 
   <!--Effectiveness-->
   <EffectivenessFull>Pełna</EffectivenessFull>
   <EffectivenessReduced>Zmniejszona</EffectivenessReduced>
   <EffectivenessImpaired>Ograniczona</EffectivenessImpaired>
   <EffectivenessIncapacitated>Nieprzytomny</EffectivenessIncapacitated>
-   <MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
 
-  <!-- Time indicator-->
-  <ClockDay>Dzień</ClockDay>
-  <ClockTime>Godzina</ClockTime>
-  <ClockTip>Godzina oraz ilość dni od przybycia na planetę.</ClockTip>
   
   <!-- Pawn info readout -->
   <Health>Życie</Health>
@@ -77,12 +79,16 @@
   <EquippedNothing>Nic</EquippedNothing>
   <Incapacitated>Nieprzytomny</Incapacitated>
   <InRestraints>Związany (spowolniony)</InRestraints>
-  <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <Carrying>Niesie</Carrying>
   <SanityDazedWander>Załamanie: Błąka się oszołomiony</SanityDazedWander>
   <SanityGiveUpExit>Załamanie: Poddał się i odchodzi</SanityGiveUpExit>
   <SanityPanicFlee>Załamanie: Ucieka w panice</SanityPanicFlee>
   <SanityPsychotic>Załamanie: Wpadł w szał</SanityPsychotic>
+  
+  
+  <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
+  <DefInfoTip>Zobacz informację.</DefInfoTip>
 
   <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
@@ -90,9 +96,10 @@
   <TabCharacter>Charakter</TabCharacter>
   <TabNeeds>Potrzeby</TabNeeds>
   <TabPrisoner>Więzień</TabPrisoner>
+  <TabGear>Sprzęt</TabGear>
   <TabThoughts>Myśli</TabThoughts>
   <TabStorage>Skład</TabStorage>
-  
+
   	<!-- ITabs -->
 	<AddBill>Dodaj zlecenie</AddBill>
 	<RecipeRequiresSkills>Zelecenie na {0} wymaga poniżej wskazanych umiejętności. Żaden z kolonistów nie ma wskazanych umiejętności, więc zlecenie nie zostanie zrealizowane..</RecipeRequiresSkills>
@@ -107,27 +114,33 @@
 	<PrisonerMildBeating>Pobicie</PrisonerMildBeating>
 	<PrisonerViciousBeating>Dotkliwe pobicie</PrisonerViciousBeating>
 	<PrisonerExecution>Egzekucja</PrisonerExecution>
+	<Equipment>Ekwipunek</Equipment>
+	<Apparel>Strój</Apparel>
+	<Inventory>Inwentarz</Inventory>
+	<ThingInfo>Informacja</ThingInfo>
+	<DropThing>Wyrzuć</DropThing>
+	<TotalModifiers>Modyfikatory</TotalModifiers>
+	<DamageAbsorption>Absorpcja obrażeń</DamageAbsorption>
+	<MoveSpeed>Szybkość</MoveSpeed>
 
-	<!-- like 'Blood of John' -->
+    <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
 
 	<!-- Power readout -->
 	<PowerNotConnected>Nie podłączone do prądu.</PowerNotConnected>
 	<PowerConnectedRate>Zużycie energii: {0}W</PowerConnectedRate>
 	<PowerConnectedStored>Zmagazynowana energia: {0}Wd</PowerConnectedStored>
-	
-	  <PowerNeeded>Potrzebna energia</PowerNeeded>
+  <PowerNeeded>Potrzebna energia</PowerNeeded>
   <PowerOutput>Wytwarzana energia</PowerOutput>
   <PowerBatteryStored>Zmagazynowano</PowerBatteryStored>
   <PowerBatteryEfficiency>Efektywność</PowerBatteryEfficiency>
   
-	
+
 	<!--Rotting-->
 	<RotStateFresh>Świeże</RotStateFresh>
 	<RotStateRotting>Rozkładające się</RotStateRotting>
 	<RotStateDessicated>Wyschnięte</RotStateDessicated>
-	
-  
+
   <!-- Shooting Tooltip -->
   <ShotBy>Atakowany przez {0}</ShotBy>
   <CannotHit>Nie można trafić w cel.</CannotHit>
@@ -140,17 +153,14 @@
   <StoragePriorityImportant>Istotny</StoragePriorityImportant>
   <StoragePriorityCritical>Krytyczny</StoragePriorityCritical>
 
-
-
 	<!-- Meal -->
   <TimeToSpoil>Zepsuje się za {0}</TimeToSpoil>
   <Ingredients>Składniki</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>Urosło w {0}%</PercentGrowth>
-  <Growing></Growing>
+  <Growing>Rośnie</Growing>
   <NotGrowingNow>Nie rośnie (musi być {0}).</NotGrowingNow>
-  <HarvestableIn>Gotowe do zbioru za {0} wzrostu.</HarvestableIn>
   <FullyGrownIn>W pełni wyrośnięte za {0} wzrostu.</FullyGrownIn>
   <ReadyToHarvest>Gotowe do zbiorów.</ReadyToHarvest>
   <Mature>Dojrzałe.</Mature>
@@ -160,9 +170,7 @@
   <GrowingZone>Pole uprawne</GrowingZone>
   <Stockpile>Składowisko</Stockpile>
   <DumpingStockpile>Wysypisko</DumpingStockpile>
-  <SellingStockpile>Skład sprzedażowy</SellingStockpile>
 	<Priority>Priorytet</Priority>
-
 
   <!-- General use time stuff -->
   <DaysLower>dni</DaysLower>
@@ -173,14 +181,43 @@
   
     <!-- Buttons -->
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeRegionToggleButton>
+
   
   <!-- Fire -->
   <Fire>Ogień</Fire>
   <FireOn>Pali się {0}</FireOn>
   <Burning>Płonący</Burning>
   <FireSizeLower>rozmiar pożaru {0}</FireSizeLower>
+
   
-    <!-- Map conditions (eclipse, solar flare, etc )-->
+  <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
+
+  
+  
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>Nie może być zbudowane pod dachem.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>Należy umieścić głowicą do belki statku.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
+  
+  <!-- Cryptosleep pod -->
+  <PodContains>Zawiera</PodContains>
+
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>Nie można wystartować.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>Gotowy do startu.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Brakuje ważnej części.</ShipReportMissingPart>
+  <ShipReportNoFullPods>Nie są zajęte wszystkie kapsuły hibernacyjne.</ShipReportNoFullPods>
+
+  
+  
+  <!-- Game over -->
+  <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże kto inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
+  <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}\nCi koloniści pozostali na planecie:\n\n{1}\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować aby ukryć statek w lodowym asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, jak się obudzisz.</GameOverShipLaunched>
+  <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
+  <GameOverMainMenu>Główne menu</GameOverMainMenu>
+  
   
 </LanguageData>

@@ -13,10 +13,10 @@
   <LoadGameButton>Wczytaj</LoadGameButton>
   <ConfirmDelete>Jesteś pewien, że chcesz usunąć {0}?</ConfirmDelete>
   <DeleteThisSavegame>Usuń ten zapis.</DeleteThisSavegame>
-   <SavedAs>Zapisano jako {0}.</SavedAs>
+  <SavedAs>Zapisano jako {0}.</SavedAs>
   <NeedAName>Wprowadź nazwę.</NeedAName>
-
   <LoadingLongEvent>Wczytuję...</LoadingLongEvent>
+	
 	
 	<!-- Colony naming-->
   <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
@@ -31,8 +31,6 @@
   <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Brak kompatybilności stanu gry</SaveGameIncompatibleWarningTitle>
   
-  
-
 	<!-- Res change dialog -->
   <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa działa poprawnie?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Zostaw</ResolutionKeep>
@@ -47,16 +45,19 @@
   <Unresearched>Niezbadane</Unresearched>
   <Finished>Skończone</Finished>
   <InProgress>W trakcie</InProgress>
-
+  <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU DO BADAŃ, nie będziesz mógł prowadzić badań.\n\nJednak cały czas będziesz mógł wybierać i podglądać projekty do badań.</ResearchMenuWithoutBench>
+	
+	
 	<!-- Advanced game start options -->
   <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba, że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar. Rozmiary Ludeonicrous nie zostały przetestowane.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
   <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
-    <MapSizeSmall>Mały</MapSizeSmall>
+  <MapSizeSmall>Mały</MapSizeSmall>
   <MapSizeMedium>Średni</MapSizeMedium>
   <MapSizeLarge>Duży</MapSizeLarge>
-  <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
+  <MapSizeExtreme>Extremalny</MapSizeExtreme>
 
+  
   
 	<!-- Bill config -->
   <Suspended>Odwieś</Suspended>
@@ -75,10 +76,44 @@
   <DoForever>Powtarzaj bez przerwy</DoForever>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
   
-  
-	<!-- Trade -->
+ 
+ <!-- Def Card -->
+  <Type>Typ</Type>
+  <GunType>Broń</GunType>
+  <PlantType>Roślina</PlantType>
+  <FoodType>Żywność</FoodType>
+  <HumanType>Człowiek</HumanType>
+  <AnimalType>Zwierzę</AnimalType>
+  <MechanoidType>Maszyna</MechanoidType>
+  <Damage>Obrażenia</Damage>
+  <Accuracy>Celność</Accuracy>
+  <BurstShotCount>Seria strzałów</BurstShotCount>
+  <WarmupTime>Czas celowania</WarmupTime>
+  <CooldownTime>Przeładowanie</CooldownTime>
+  <BurstShotFireRate>Szybkostrzelność</BurstShotFireRate>
+  <Range>Zasięg</Range>
+  <GrowsWild>Dziko rosnący</GrowsWild>
+  <Harvestable>Można zbierać</Harvestable>
+  <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
+  <GrowingTime>Czas wzrostu</GrowingTime>
+  <Days>dni</Days>
+  <FertilityRequirement>Wymagane podłoże</FertilityRequirement>
+  <LightRequirement>Wymagane światło</LightRequirement>
+  <Attributes>Atrybuty</Attributes>
+  <LifeSpan>Żywotność</LifeSpan>
+  <Nutrition>Punkty głodu</Nutrition>
+  <FoodQuality>Jakość jedzenia</FoodQuality>
+  <WalkSpeedProperty>Szybkość</WalkSpeedProperty>
+  <MeleeDamage>Obrażenia wręcz</MeleeDamage>
+  <MeatAmount>Ilość mięsa</MeatAmount>
+  <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
+  <Diet>Dieta</Diet>
+  <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
+  <BasePrice>Cena bazowa</BasePrice>
+	
+  <!-- Trade -->
   <YourTradeableSilver>Twoje srebro do handlu: {0}</YourTradeableSilver>
-  	<YourTradeableSilverTip>Do handlu można używać tylko srebro znajdujące się blisko nadajnika handlu orbitalnego oraz pod gołym niebem.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Do handlu można używać tylko srebro znajdujące się blisko nadajnika handlu orbitalnego oraz pod gołym niebem.</YourTradeableSilverTip>
 
   <!-- Comms -->
   <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
@@ -87,5 +122,12 @@
 	<ResearchFinished>Badania zakończone: {0}</ResearchFinished>
 	<ResearchScreen>Ekran badań</ResearchScreen>
 	
-  
-</LanguageData>
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Czy zgadzasz się wysyłać dane gry na serwer RimWorld aby pomóc twórcom gry balansować rozgrywkę? Jeśli się zgodzisz, Twoje dane zostaną wysyłane co {0} dni (oraz w niektórych rzadkich przypadkach takich jak koniec gry). Opcje prywatności mogą zostać w każdej chwili zmienione w menu opcji.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Możesz podać imię, w przeciwnym razie dane zostaną wysłane anonimowo.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>ZEZWALAJ na wysyłanie</HistoryUploadYes>
+  <HistoryUploadNo>NIE ZEZWALAJ na wysyłanie</HistoryUploadNo>
+  <HistoryUploadYesOnce>Wyślij tylko tym razem</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Nie wysyłaj teraz, zapytaj mnie później</HistoryUploadNoOnce>
+
+  </LanguageData>
