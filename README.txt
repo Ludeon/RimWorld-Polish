@@ -17,4 +17,5 @@ Contribution:
 - GlobusGames
 - John Fucking Rambo
 - Mateusz Raczkiewicz
-- Micha≥ Hoffman
+- Micha≈Ç Hoffman
+- Marcin WMP Janowski
