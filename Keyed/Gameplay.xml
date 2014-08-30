@@ -7,6 +7,7 @@
   <ContainedResources>Zasoby</ContainedResources>
   <ForPrisonerUse>Dla więźniów</ForPrisonerUse>
   <ForColonistUse>Dla kolonistów</ForColonistUse>
+  <MedicalBed>Łóżko szpitalne</MedicalBed>
   <Owner>Właściciel</Owner>
   <Nobody>Nikt</Nobody>
   <Unowned>Wolne</Unowned>
@@ -17,7 +18,10 @@
   <FilthOnFeet>Brud na nogach:</FilthOnFeet>
   <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
   <NothingLower>nic</NothingLower>
-
+  <Adapted>Przystosowanie się</Adapted>
+  <Headshot>Headshot</Headshot>
+  <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
+  
   <!-- Turrets -->
   <GunInstalled>Zainstalowano: </GunInstalled>
   <MinimumRange>Min. zasięg: </MinimumRange>
@@ -85,6 +89,20 @@
   <SanityPanicFlee>Załamanie: Ucieka w panice</SanityPanicFlee>
   <SanityPsychotic>Załamanie: Wpadł w szał</SanityPsychotic>
   
+  <!-- Body and activities condition -->
+  <None>Nic</None>
+  <VeryPoor>Bardzo źle</VeryPoor>
+  <Poor>Źle</Poor>
+  <Weakened>Osłabione</Weakened>
+  <GoodCondition>OK</GoodCondition>
+  <SeriouslyImpaired>Ranny</SeriouslyImpaired>
+  <Impaired>Nadszarpnięte</Impaired>
+  <SlightlyImpaired>Skaleczenie</SlightlyImpaired>
+  <NoPain>Brak</NoPain>
+  <LittlePain>Trochę</LittlePain>
+  <MediumPain>Średni</MediumPain>
+  <SeverePain>Silny</SeverePain>
+  <ExtremePain>Skrajny</ExtremePain>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
@@ -94,20 +112,22 @@
   <TabBills>Zlecenia</TabBills>
   <TabGrowing>Uprawa</TabGrowing>
   <TabCharacter>Charakter</TabCharacter>
-<!--   <TabNeeds>Potrzeby</TabNeeds> -->
   <TabPrisoner>Więzień</TabPrisoner>
   <TabGear>Sprzęt</TabGear>
   <TabThoughts>Myśli</TabThoughts>
   <TabStorage>Skład</TabStorage>
-
+  <TabHealth>Zdrowie</TabHealth>
+  
   	<!-- ITabs -->
 	<AddBill>Dodaj zlecenie</AddBill>
-	<RecipeRequiresSkills>Zelecenie na {0} wymaga poniżej wskazanych umiejętności. Żaden z kolonistów nie ma wskazanych umiejętności, więc zlecenie nie zostanie zrealizowane..</RecipeRequiresSkills>
+	<RecipeRequiresSkills>Zlecenie na {0} wymaga poniżej wskazanych umiejętności. Żaden z kolonistów nie ma wskazanych umiejętności, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
 	<BillConfig>Opcje</BillConfig>
 	<SuspendedCaps>ZAWIESZONE</SuspendedCaps>
 	<PlantVerb>Roślina</PlantVerb>
 	<RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
-	<PrisonerGetsFood>Dostaje jeść</PrisonerGetsFood>
+	<PrisonerGetsFood>Dostaje żywność</PrisonerGetsFood>
+	<DoctorsCare>Opieka medyczna</DoctorsCare>
+	<PrisonerGetsMedicine>Więzień otrzymuje leki</PrisonerGetsMedicine>
 	<ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
 	<PrisonerNoInteraction>Brak interakcji</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>Przyjazna rozmowa</PrisonerFriendlyChat>
@@ -122,7 +142,22 @@
 	<TotalModifiers>Modyfikatory</TotalModifiers>
 	<DamageAbsorption>Absorpcja obrażeń</DamageAbsorption>
 	<MoveSpeed>Szybkość</MoveSpeed>
-
+	<Efficiency>Wydajność</Efficiency>
+	<MissingBodyPart>Stracone</MissingBodyPart>
+	<DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
+	<ShatteredBodyPart>Roztrzaskane</ShatteredBodyPart>
+	<Healthy>Zdrowy</Healthy>
+	<InPain>Obolały</InPain>
+	<PainLevel>Ból</PainLevel>
+	<Dead>Martwy</Dead>
+	<Unconscious>Nieprzypomny</Unconscious>
+	<PainShock>Doznał szoku</PainShock>
+	<NoInjuries>(bez obrażeń)</NoInjuries>
+	<WholeBody>Całe ciało</WholeBody>
+	<RenameColonist>Nadaj przydomek</RenameColonist>
+	<DataProcessing>Przetwarzanie danych</DataProcessing>
+	<Communication>Porozumiewanie się</Communication>
+	
     <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
 
@@ -161,6 +196,7 @@
   <PercentGrowth>Urosło w {0}%</PercentGrowth>
   <Growing>Rośnie</Growing>
   <NotGrowingNow>Nie rośnie (musi być {0}).</NotGrowingNow>
+  <NotGrowingNowNight>Nocą nie rośnie.</NotGrowingNowNight>
   <FullyGrownIn>W pełni wyrośnięte za {0} wzrostu.</FullyGrownIn>
   <ReadyToHarvest>Gotowe do zbiorów.</ReadyToHarvest>
   <Mature>Dojrzałe.</Mature>
