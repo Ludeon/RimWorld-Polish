@@ -89,6 +89,12 @@ if os.path.exists(defsDir):
                     elif '<reportString>' in line or '<ReportString>' in line:
                         haslabels = True
                         break
+                    elif '<verb>' in line or '<verb>' in line:
+                        haslabels = True
+                        break
+                    elif '<gerund>' in line or '<gerund>' in line:
+                        haslabels = True
+                        break
 
                 if haslabels:
 
@@ -135,6 +141,14 @@ if os.path.exists(defsDir):
                                 elif '<reportString>' in line or '<ReportString>' in line:
                                     labelType = 'reportString'
                                     template = re.findall('<reportString>(.*?)</reportString>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<verb>' in line or '<Verb>' in line:
+                                    labelType = 'verb'
+                                    template = re.findall('<verb>(.*?)</verb>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<gerund>' in line or '<Gerund>' in line:
+                                    labelType = 'gerund'
+                                    template = re.findall('<gerund>(.*?)</gerund>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
 
                             defInjectFile.write('    \n')
