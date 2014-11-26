@@ -1,4 +1,4 @@
-RimWorld-pl
+﻿RimWorld-pl
 ===========
 
 A Polish translation for RimWorld.
@@ -19,3 +19,4 @@ Contribution:
 - Mateusz Raczkiewicz
 - Michał Hoffman
 - Marcin WMP Janowski
+- Karol Pieniący
