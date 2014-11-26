@@ -14,13 +14,18 @@
   <DeadTime>Nie żyje od {0}</DeadTime>
   <WalkSpeed>szybkość ruchu: {0}</WalkSpeed>
   <DyingLower>umiera</DyingLower>
-  <PawnEffectiveness>Efektywność</PawnEffectiveness>
   <FilthOnFeet>Brud na nogach:</FilthOnFeet>
   <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
   <NothingLower>nic</NothingLower>
   <Adapted>Przystosowanie się</Adapted>
   <Headshot>Headshot</Headshot>
   <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
+  <UntreatedLower>nieleczone</UntreatedLower>
+  <DevelopedImmunityLower>uzyskano odporność</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>wymaga lekarza do wyleczenia</InjuryRequiresTreatment>
+  <NextTreatmentAfter>następne leczenie za {0} dni</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>rozwój odporności</ImmunityDevelopmentProgress>
   
   <!-- Turrets -->
   <GunInstalled>Zainstalowano: </GunInstalled>
@@ -29,8 +34,10 @@
   
 
     <!-- Job reports -->
-	<ReportHaulingTo>Transportuję {0} do {1}.</ReportHaulingTo>
-	<ReportHauling>Transportuję {0}.</ReportHauling>
+	<ReportHaulingTo>Transportuje {0} do {1}.</ReportHaulingTo>
+	<ReportHauling>Transportuje {0}.</ReportHauling>
+  <ReportSleeping>Śpi.</ReportSleeping>
+  <ReportResting>Idzie spać.</ReportResting>
 
 	<!-- Shooting report -->
     <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
@@ -60,16 +67,8 @@
   <!-- Thoughts -->
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>Zakończy kończyć się za: {0}</ThoughtFinishesExpiringIn>
-<MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
-
-
-
-  <!--Effectiveness-->
-  <EffectivenessFull>Pełna</EffectivenessFull>
-  <EffectivenessReduced>Zmniejszona</EffectivenessReduced>
-  <EffectivenessImpaired>Ograniczona</EffectivenessImpaired>
-  <EffectivenessIncapacitated>Nieprzytomny</EffectivenessIncapacitated>
+  <ThoughtFinishesExpiringIn>Przestanie kończyć się za: {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
 
   
   <!-- Pawn info readout -->
@@ -90,11 +89,12 @@
   <SanityPsychotic>Załamanie: Wpadł w szał</SanityPsychotic>
   
   <!-- Body and activities condition -->
-  <None>Nic</None>
+  <None>Zero</None>
   <VeryPoor>Bardzo źle</VeryPoor>
   <Poor>Źle</Poor>
   <Weakened>Osłabione</Weakened>
   <GoodCondition>OK</GoodCondition>
+  <Enhanced>Ulepszone</Enhanced>
   <SeriouslyImpaired>Ranny</SeriouslyImpaired>
   <Impaired>Nadszarpnięte</Impaired>
   <SlightlyImpaired>Skaleczenie</SlightlyImpaired>
@@ -106,8 +106,9 @@
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
-  <DefInfoTip>Zobacz informację.</DefInfoTip>
+  <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
+  
   <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
   <TabGrowing>Uprawa</TabGrowing>
@@ -117,6 +118,10 @@
   <TabThoughts>Myśli</TabThoughts>
   <TabStorage>Skład</TabStorage>
   <TabHealth>Zdrowie</TabHealth>
+  <TabRace>Rasa</TabRace>
+  <TabBasics>Ogólne</TabBasics>
+  <TabStats>Statystyki</TabStats>
+  
   
   	<!-- ITabs -->
 	<AddBill>Dodaj zlecenie</AddBill>
@@ -141,30 +146,40 @@
 	<DropThing>Wyrzuć</DropThing>
 	<TotalModifiers>Modyfikatory</TotalModifiers>
 	<DamageAbsorption>Absorpcja obrażeń</DamageAbsorption>
+	<DamageDeflection>0000000000000000</DamageDeflection>
 	<MoveSpeed>Szybkość</MoveSpeed>
 	<Efficiency>Wydajność</Efficiency>
 	<MissingBodyPart>Stracone</MissingBodyPart>
 	<DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
 	<ShatteredBodyPart>Roztrzaskane</ShatteredBodyPart>
+  <RemovedBodyPart>Usunięte</RemovedBodyPart>
 	<Healthy>Zdrowy</Healthy>
 	<InPain>Obolały</InPain>
 	<PainLevel>Ból</PainLevel>
 	<Dead>Martwy</Dead>
-	<Unconscious>Nieprzypomny</Unconscious>
-	<PainShock>Doznał szoku</PainShock>
+	<Unconscious>Nieprzytomny</Unconscious>
+	<PainShock>Doznał wstrząsu</PainShock>
+	<Injured>Ranny</Injured>
 	<NoInjuries>(bez obrażeń)</NoInjuries>
 	<WholeBody>Całe ciało</WholeBody>
 	<RenameColonist>Nadaj przydomek</RenameColonist>
 	<DataProcessing>Przetwarzanie danych</DataProcessing>
 	<Communication>Porozumiewanie się</Communication>
+	<AffectsLower>wpływa na</AffectsLower>
+	<BleedingRate>Tempo krwawienia</BleedingRate>
+	<HealthOverview>Podgląd</HealthOverview>
+	<MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>Operacje chirurgiczne</MedicalOperations>
+	<Amputate>Amputuj</Amputate>
+	<Harvest>Wytnij</Harvest>
 	
     <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
 
 	<!-- Power readout -->
 	<PowerNotConnected>Nie podłączone do prądu.</PowerNotConnected>
-	<PowerConnectedRate>Zużycie energii: {0}W</PowerConnectedRate>
-	<PowerConnectedStored>Zmagazynowana energia: {0}Wd</PowerConnectedStored>
+  <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Potrzebna energia</PowerNeeded>
   <PowerOutput>Wytwarzana energia</PowerOutput>
   <PowerBatteryStored>Zmagazynowano</PowerBatteryStored>
@@ -200,13 +215,14 @@
   <FullyGrownIn>W pełni wyrośnięte za {0} wzrostu.</FullyGrownIn>
   <ReadyToHarvest>Gotowe do zbiorów.</ReadyToHarvest>
   <Mature>Dojrzałe.</Mature>
+  <SeedLabel>Nasiono {0}</SeedLabel>
   
   <!-- Zones -->
   <Zone>Obszar</Zone>
   <GrowingZone>Pole uprawne</GrowingZone>
   <Stockpile>Składowisko</Stockpile>
   <DumpingStockpile>Wysypisko</DumpingStockpile>
-	<Priority>Priorytet</Priority>
+  <Priority>Priorytet</Priority>
 
   <!-- General use time stuff -->
   <DaysLower>dni</DaysLower>
@@ -218,7 +234,7 @@
     <!-- Buttons -->
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeRegionToggleButton>
-
+  <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
   
   <!-- Fire -->
   <Fire>Ogień</Fire>
@@ -230,8 +246,9 @@
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
 
-  
-  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>Nie masz materiałów, z których możesz to zbudować.</NoStuffsToBuildWith>
+
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Nie może być zbudowane pod dachem.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicą do belki statku.</MustPlaceHeadOnShipBeam>
@@ -247,6 +264,10 @@
   <ShipReportMissingPart>Brakuje ważnej części.</ShipReportMissingPart>
   <ShipReportNoFullPods>Nie są zajęte wszystkie kapsuły hibernacyjne.</ShipReportNoFullPods>
 
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>Użyj neurotrenera {0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
+  
   
   
   <!-- Game over -->

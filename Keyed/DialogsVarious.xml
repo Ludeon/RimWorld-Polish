@@ -74,6 +74,8 @@
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości ponieważ ma on różne lub nieprzewidywalne rezultaty.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Dozwolone składniki</PermittedIngredients>
   <MinimumSkills>Minimalna umiejętność:</MinimumSkills>
+  <BillRequires>Wymaga {0} {1}</BillRequires>
+  <UsableIngredients>składniki, których można użyć</UsableIngredients>
   <DoXTimes>Rób X razy</DoXTimes>
   <DoUntilYouHaveX>Rób do uzyskania X</DoUntilYouHaveX>
   <DoForever>Powtarzaj bez przerwy</DoForever>
@@ -114,20 +116,48 @@
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
-  <BasePrice>Cena bazowa</BasePrice>
+  <baseMarketValue>Wartość podstawowa</baseMarketValue>
   <Covers>Osłona</Covers>
+  <NaturalArmorCovers>Natural armor covers</NaturalArmorCovers>
+  <BodyPartEfficiency>Efektywność części ciała</BodyPartEfficiency>
   
   <!-- Trade -->
-  <YourTradeableSilver>Twoje srebro do handlu: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Do handlu można używać tylko srebro znajdujące się blisko nadajnika handlu orbitalnego oraz pod gołym niebem.</YourTradeableSilverTip>
-
+  <DragToTrade>Przeciągnij, aby handlować</DragToTrade>
+  <BuyPriceDesc>Cena jaką za to zapłacisz.</BuyPriceDesc>
+  <SellPriceDesc>Srebro jakie za to dostaniesz</SellPriceDesc>
+  <PriceTypeDesc>Cena tego przedmiotu to {0}.</PriceTypeDesc>
+  <ColonyCount>Ile tego przedmiotu kolonia posiada na handel.\n\nMożesz sprzedać tylko przedmioty, które nie są pod dachem i leżą w zasięgu nadajnika handlu orbitalnego.</ColonyCount>
+  <TraderCount>Ile tego przedmiotu posiada handlarz.</TraderCount>
+  <AcceptButton>Akceptuj</AcceptButton>
+  <ResetButton>Zresetuj</ResetButton>
+  <CancelButton>Anuluj</CancelButton>
+  <YourTradeableSilver>Twoje Srebro, którym możesz handlować: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
+  <TraderHasNoMore>Handlarz nie ma więcej.</TraderHasNoMore>
+  <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
+  <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
+  
   <!-- Comms -->
   <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
   
-  	<!--Other-->
-	<ResearchFinished>Badania zakończone: {0}</ResearchFinished>
-	<ResearchScreen>Ekran badań</ResearchScreen>
-	
+  <!-- Stats report -->
+  <StatsReport_BaseValue>Wartość podstawowa</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Istotne cechy</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Istotny ekwipunek</StatsReport_RelevantGear>
+  <StatsReport_Material>Materiał</StatsReport_Material>
+  <StatsReport_CharacterQuality>Cecha charakteru</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Czynniki umiejętności</StatsReport_Skills>
+  <StatsReport_OtherStats>Inne czynniki</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Czynniki zdrowotne</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} ważność</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Wartość końcowa</StatsReport_FinalValue>
+  
+  
+  <!--Research-->
+  <ResearchFinished>Badanie ukończone: {0}</ResearchFinished>
+  <ResearchScreen>Ekran badań</ResearchScreen>
+  
   <!--HistoryUpload-->
   <HistoryUploadMessage>Czy zgadzasz się wysyłać dane gry na serwer RimWorld aby pomóc twórcom gry balansować rozgrywkę? Jeśli się zgodzisz, Twoje dane zostaną wysyłane co {0} dni (oraz w niektórych rzadkich przypadkach takich jak koniec gry). Opcje prywatności mogą zostać w każdej chwili zmienione w menu opcji.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Możesz podać imię, w przeciwnym razie dane zostaną wysłane anonimowo.</HistoryUploadMessagePlayerName>

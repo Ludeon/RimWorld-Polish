@@ -21,14 +21,23 @@
   
    <MeatLabel>Mięso ({0})</MeatLabel>
    <MeatDesc>Surowe mięso ({0}).</MeatDesc>
+
+  <LeatherLabel>Skóra ({0})</LeatherLabel>
+  <LeatherDesc>Skóra zwierzęcia {0}.</LeatherDesc>
   
   	<CorpseLabel>Zwłoki {0}</CorpseLabel>
 	<CorpseDesc>Martwe ciało {0}.</CorpseDesc>
+  <DeadLabel>{0} (ciało)</DeadLabel>
   
   
     <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
   <FrameLabelExtra> (budowa)</FrameLabelExtra>
  
+   <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(różne)</VariousLabel>
   
   <!-- History events -->
   <ColonistDied>Kolonista umarł</ColonistDied>
