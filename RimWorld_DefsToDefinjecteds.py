@@ -99,7 +99,6 @@ if os.path.exists(defsDir):
         fullpath = os.path.join(defsDir, directory)
         for filename in [f for f in os.listdir(fullpath) if os.path.isfile(os.path.join(fullpath, f))]:
             if filename.endswith(".xml"):
-                #                filelist.append(os.path.join(root, filename))
                 data = open(os.path.join(fullpath, filename), 'r')
                 lines = data.readlines()
 
