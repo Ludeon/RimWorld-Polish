@@ -106,7 +106,7 @@ if os.path.exists(defsDir):
                 haslabels = False
                 # Go through the lines one by one and check if there is something to translate
                 # If there is, change haslabels to True and stop searching
-                # There are some thigs to translate which are either uppercase or lowercase
+                # Some of the things to translate are either uppercase or lowercase
                 for line in lines:
                     if '<label>' in line or '<Label>' in line:
                         haslabels = True
@@ -137,6 +137,7 @@ if os.path.exists(defsDir):
                 if haslabels:
 
                     # Save the name of the directory to create, but remove the s at the end
+                    # ThingDefs -> ThingDef
                     defInjectDirectory = directory[:-1] + '\\'
 
                     # Create the directory in the translationDir if it doesn't exist
@@ -157,12 +158,12 @@ if os.path.exists(defsDir):
                     ignoring = False
                     # Start going through the file line by line
                     for i, line in enumerate(lines):
-                        # If there is a def on the line, look in the next lines for something to translate
-                        # if we are not inside a comment
+                        # If there is a def on the line, look in the next lines for 
+                        # something to translate if we are not inside a comment
                         if ('<defName>' in line or '<DefName>' in line) and not ignoring:
                             # Store the name of the def
                             defName = re.findall('<defName>(.*?)</defName>', line, re.IGNORECASE)[0]
-                            # Look in the next lines for something to traslate
+                            # Look in the next lines for something to translate
                             for j, line in enumerate(lines[i + 1:]):
                                 # If there is something else defined, we know that there is nothing left to translate
                                 # so stop looking
@@ -210,7 +211,7 @@ if os.path.exists(defsDir):
                                     template = re.findall('<gerund>(.*?)</gerund>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
 
-                            # Move to the next line
+                            # Move to the next line in the template
                             defInjectFile.write('    \n')
                         # If a comment starts on this line
                         elif not ignoring and '<!--' in line:
@@ -219,7 +220,7 @@ if os.path.exists(defsDir):
                                 # then don't parse the comment
                                 ignoring = True
                             else:
-                                # Else if a comment starts and ends on the same lane
+                                # Else if a comment starts and ends on the same line
                                 # it is something useful so write it in the file too
                                 defInjectFile.write('  ' + line)
                                 defInjectFile.write('    \n')
