@@ -1,101 +1,305 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+    <rep>
+        <path>AteRawFood.stages[0].label</path>
+        <trans>imprisoned</trans>
+    </rep>
+    <rep>
+        <path>AteRawFood.stages[0].description</path>
+        <trans>I had to eat raw food. Can't we cook it, or at least synthesize some nutrient paste?</trans>
+    </rep>
     
-    <AteRawFood.label>ate raw food</AteRawFood.label>
-    <AteRawFood.description>I had to eat raw food. Can't we cook it, or at least synthesize some nutrient paste?</AteRawFood.description>
+    <rep>
+        <path>AteNutrientPasteMeal.stages[0].label</path>
+        <trans>imprisoned</trans>
+    </rep>
+    <rep>
+        <path>AteNutrientPasteMeal.stages[0].description</path>
+        <trans>I had to eat nutrient paste. I know it keeps you alive, but nobody wants to swallow that glop.</trans>
+    </rep>
     
-    <AteNutrientPasteMeal.label>ate nutrient paste</AteNutrientPasteMeal.label>
-    <AteNutrientPasteMeal.description>I had to eat nutrient paste. I know it keeps you alive, but nobody wants to swallow that glop.</AteNutrientPasteMeal.description>
+    <rep>
+        <path>AteFineMeal.stages[0].label</path>
+        <trans>ate fine meal</trans>
+    </rep>
+    <rep>
+        <path>AteFineMeal.stages[0].description</path>
+        <trans>I ate a really tasty fine meal. Yum!</trans>
+    </rep>
     
-    <AteFineMeal.label>ate fine meal</AteFineMeal.label>
-    <AteFineMeal.description>I ate a really tasty fine meal. Yum!</AteFineMeal.description>
-    
-    <AteLavishMeal.label>ate lavish meal</AteLavishMeal.label>
-    <AteLavishMeal.description>That lavish meal was amazing. It nourished my body and my soul.</AteLavishMeal.description>
-    
+    <rep>
+        <path>AteLavishMeal.stages[0].label</path>
+        <trans>ate lavish meal</trans>
+    </rep>
+    <rep>
+        <path>AteLavishMeal.stages[0].description</path>
+        <trans>That lavish meal was amazing. It nourished my body and my soul.</trans>
+    </rep>
+        
     <!-- =========== Cannibalism ===============-->
     
-    <AteHumanoidMeatDirect.label>raw cannibalism</AteHumanoidMeatDirect.label>
-    <AteHumanoidMeatDirect.description>I ate the meat of another human, raw, like an animal. This is a nightmare.</AteHumanoidMeatDirect.description>
+    <rep>
+        <path>AteHumanoidMeatDirect.stages[0].label</path>
+        <trans>raw cannibalism</trans>
+    </rep>
+    <rep>
+        <path>AteHumanoidMeatDirect.stages[0].description</path>
+        <trans>I ate the meat of another human, raw, like an animal. This is a nightmare.</trans>
+    </rep>
+
+    <rep>
+        <path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+        <trans>cooked cannibalism</trans>
+    </rep>
+    <rep>
+        <path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+        <trans>I ate a meal made from the meat of another human. This is horrible.</trans>
+    </rep>
     
-    <AteHumanoidMeatAsIngredient.label>cooked cannibalism</AteHumanoidMeatAsIngredient.label>
-    <AteHumanoidMeatAsIngredient.description>I ate a meal made from the meat of another human. This is horrible.</AteHumanoidMeatAsIngredient.description>
+    <rep>
+        <path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+        <trans>raw cannibalism</trans>
+    </rep>
+    <rep>
+        <path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+        <trans>I ate the meat of another human, raw, like an animal. It was so... succulent.</trans>
+    </rep>
     
-    <AteHumanoidMeatDirectCannibal.label>raw cannibalism</AteHumanoidMeatDirectCannibal.label>
-    <AteHumanoidMeatDirectCannibal.description>I ate the meat of another human, raw, like an animal. It was so... succulent.</AteHumanoidMeatDirectCannibal.description>
+    <rep>
+        <path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+        <trans>cooked cannibalism</trans>
+    </rep>
+    <rep>
+        <path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+        <trans>I ate a meal made from the meat of another human. So pleasurable. If only I had some fava beans and a nice chianti.</trans>
+    </rep>
     
-    <AteHumanoidMeatAsIngredientCannibal.label>cooked cannibalism</AteHumanoidMeatAsIngredientCannibal.label>
-    <AteHumanoidMeatAsIngredientCannibal.description>I ate a meal made from the meat of another human. So pleasurable. If only I had some fava beans and a nice chianti.</AteHumanoidMeatAsIngredientCannibal.description>
+    <rep>
+        <path>ButcheredHumanoidCorpse.stages[0].label</path>
+        <trans>butchered humanoid</trans>
+    </rep>
+    <rep>
+        <path>ButcheredHumanoidCorpse.stages[0].description</path>
+        <trans>I just butchered someone up like an animal.</trans>
+    </rep>
     
-    <ButcheredHumanoidCorpse.label>butchered humanoid</ButcheredHumanoidCorpse.label>
-    <ButcheredHumanoidCorpse.description>I just butchered someone up like an animal.</ButcheredHumanoidCorpse.description>
-    
-    <AteWithoutTable.label>ate off the ground </AteWithoutTable.label>
-    <AteWithoutTable.description>I had to eat a meal off the ground. Can't we get a table around here?</AteWithoutTable.description>
+    <rep>
+        <path>AteWithoutTable.stages[0].label</path>
+        <trans>ate off the ground </trans>
+    </rep>
+    <rep>
+        <path>AteWithoutTable.stages[0].description</path>
+        <trans>I had to eat a meal off the ground. Can't we get a table around here?</trans>
+    </rep>
     
     <!-- Combat -->
     
-    <ObservedLayingCorpse.label>observed corpse</ObservedLayingCorpse.label>
-    <ObservedLayingCorpse.description>I saw a dead body laying on the ground.</ObservedLayingCorpse.description>
+    <rep>
+        <path>ObservedLayingCorpse.stages[0].label</path>
+        <trans>observed corpse</trans>
+    </rep>
+    <rep>
+        <path>ObservedLayingCorpse.stages[0].description</path>
+        <trans>I saw a dead body laying on the ground.</trans>
+    </rep>
     
-    <ObservedLayingRottingCorpse.label>observed rotting corpse</ObservedLayingRottingCorpse.label>
-    <ObservedLayingRottingCorpse.description>I saw a rotting corpse laying on the ground. It was disgusting.</ObservedLayingRottingCorpse.description>
+    <rep>
+        <path>ObservedLayingRottingCorpse.stages[0].label</path>
+        <trans>observed rotting corpse</trans>
+    </rep>
+    <rep>
+        <path>ObservedLayingRottingCorpse.stages[0].description</path>
+        <trans>I saw a rotting corpse laying on the ground. It was disgusting.</trans>
+    </rep>
     
-    <WitnessedDeathAlly.label>witnessed ally's death</WitnessedDeathAlly.label>
-    <WitnessedDeathAlly.description>I saw one of my people die. They were alive one moment, and dead the next.</WitnessedDeathAlly.description>
+    <rep>
+        <path>WitnessedDeathAlly.stages[0].label</path>
+        <trans>witnessed ally's death</trans>
+    </rep>
+    <rep>
+        <path>WitnessedDeathAlly.stages[0].description</path>
+        <trans>I saw one of my people die. They were alive one moment, and dead the next.</trans>
+    </rep>
     
-    <WitnessedDeathStranger.label>witnessed stranger's death</WitnessedDeathStranger.label>
-    <WitnessedDeathStranger.description>I saw someone die. They were alive one moment, and dead the next.</WitnessedDeathStranger.description>
+    <rep>
+        <path>WitnessedDeathStranger.stages[0].label</path>
+        <trans>witnessed stranger's death</trans>
+    </rep>
+    <rep>
+        <path>WitnessedDeathStranger.stages[0].description</path>
+        <trans>I saw someone die. They were alive one moment, and dead the next.</trans>
+    </rep>
     
-    <WitnessedDeathStrangerBloodlust.label>witnessed stranger's death</WitnessedDeathStrangerBloodlust.label>
-    <WitnessedDeathStrangerBloodlust.description>I saw someone die! That was intense!</WitnessedDeathStrangerBloodlust.description>
+    <rep>
+        <path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
+        <trans>witnessed stranger's death</trans>
+    </rep>
+    <rep>
+        <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
+        <trans>I saw someone die! That was intense!</trans>
+    </rep>
     
-    <KilledHumanoidBloodlust.label>killed someone</KilledHumanoidBloodlust.label>
-    <KilledHumanoidBloodlust.description>I killed someone! What a rush!</KilledHumanoidBloodlust.description>
+    <rep>
+        <path>KilledHumanoidBloodlust.stages[0].label</path>
+        <trans>killed someone</trans>
+    </rep>
+    <rep>
+        <path>KilledHumanoidBloodlust.stages[0].description</path>
+        <trans>I killed someone! What a rush!</trans>
+    </rep>
     
-    <BattleWounded.label>wounded</BattleWounded.label>
-    <BattleWounded.description>That's my blood! I've been wounded in a fight!</BattleWounded.description>
+    <rep>
+        <path>BattleWounded.stages[0].label</path>
+        <trans>wounded</trans>
+    </rep>
+    <rep>
+        <path>BattleWounded.stages[0].description</path>
+        <trans>That's my blood! I've been wounded in a fight!</trans>
+    </rep>
     
-    <NewColonyOptimism.label>new colony optimism</NewColonyOptimism.label>
-    <NewColonyOptimism.description>We just landed here. It's a tough situation, but I'm excited to be founding a new colony.</NewColonyOptimism.description>
+    <rep>
+        <path>NewColonyOptimism.stages[0].label</path>
+        <trans>new colony optimism</trans>
+    </rep>
+    <rep>
+        <path>NewColonyOptimism.stages[0].description</path>
+        <trans>We just landed here. It's a tough situation, but I'm excited to be founding a new colony.</trans>
+    </rep>
     
-    <NewColonyHope.label>new colony hope</NewColonyHope.label>
-    <NewColonyHope.description>I'm getting used to this, but it's still an exciting new situation. I hope this works out...</NewColonyHope.description>
+    <rep>
+        <path>NewColonyHope.stages[0].label</path>
+        <trans>new colony hope</trans>
+    </rep>
+    <rep>
+        <path>NewColonyHope.stages[0].description</path>
+        <trans>I'm getting used to this, but it's still an exciting new situation. I hope this works out...</trans>
+    </rep>
     
-    <SleptOutside.label>slept outside</SleptOutside.label>
-    <SleptOutside.description>I had to sleep outdoors without any protection from the elements.</SleptOutside.description>
+    <rep>
+        <path>SleptOutside.stages[0].label</path>
+        <trans>slept outside</trans>
+    </rep>
+    <rep>
+        <path>SleptOutside.stages[0].description</path>
+        <trans>I had to sleep outdoors without any protection from the elements.</trans>
+    </rep>
     
-    <SleptOnGround.label>slept on ground</SleptOnGround.label>
-    <SleptOnGround.description>I had to sleep on the ground like an animal.</SleptOnGround.description>
+    <rep>
+        <path>SleptOnGround.stages[0].label</path>
+        <trans>slept on ground</trans>
+    </rep>
+    <rep>
+        <path>SleptOnGround.stages[0].description</path>
+        <trans>I had to sleep on the ground like an animal.</trans>
+    </rep>
     
-    <KnowPrisonerBeaten.label>a prisoner was beaten</KnowPrisonerBeaten.label>
-    <KnowPrisonerBeaten.description>They're beating a prisoner.</KnowPrisonerBeaten.description>
+    <rep>
+        <path>SleptInCold.stages[0].label</path>
+        <trans>slept in the cold</trans>
+    </rep>
+    <rep>
+        <path>SleptInCold.stages[0].description</path>
+        <trans>I had to sleep in the cold. We really need some heaters.</trans>
+    </rep>
     
-    <KnowPrisonerSold.label>a prisoner was sold</KnowPrisonerSold.label>
-    <KnowPrisonerSold.description>This colony sold a prisoner into slavery. That's a worrying thought.</KnowPrisonerSold.description>
+    <rep>
+        <path>SleptInHeat.stages[0].label</path>
+        <trans>slept in the heat</trans>
+    </rep>
+    <rep>
+        <path>SleptInHeat.stages[0].description</path>
+        <trans>I had to sleep in unbearable heat. Can't we have air conditioning?</trans>
+    </rep>
     
-    <KnowPrisonerExecuted.label>a prisoner was executed</KnowPrisonerExecuted.label>
-    <KnowPrisonerExecuted.description>A prisoner was executed in cold blood. This colony seems more evil by the day.</KnowPrisonerExecuted.description>
+    <rep>
+        <path>KnowPrisonerSold.stages[0].label</path>
+        <trans>a prisoner was sold</trans>
+    </rep>
+    <rep>
+        <path>KnowPrisonerSold.stages[0].description</path>
+        <trans>This colony sold a prisoner into slavery. That's a worrying thought.</trans>
+    </rep>
     
-    <JustImprisoned.label>just imprisoned</JustImprisoned.label>
-    <JustImprisoned.description>I just got thrown in a prison. I'd better keep myself together and deal with this.</JustImprisoned.description>
+    <rep>
+        <path>KnowPrisonerExecuted.stages[0].label</path>
+        <trans>a prisoner was executed</trans>
+    </rep>
+    <rep>
+        <path>KnowPrisonerExecuted.stages[0].description</path>
+        <trans>A prisoner was executed in cold blood. This colony seems more evil by the day.</trans>
+    </rep>
     
-    <PrisonerFriendlyChat.label>convinced by warden</PrisonerFriendlyChat.label>
-    <PrisonerFriendlyChat.description>That warden and I had a talk about the colony. It sounds like a good place...</PrisonerFriendlyChat.description>
+    <rep>
+        <path>KnowPrisonerOrganHarvested.stages[0].label</path>
+        <trans>prisoner organ harvested</trans>
+    </rep>
+    <rep>
+        <path>KnowPrisonerOrganHarvested.stages[0].description</path>
+        <trans>The colony took body parts from a prisoner. It's horrible, breaking someone down for parts when they have no choice.</trans>
+    </rep>
     
-    <PrisonerBeatenMild.label>beaten by warden</PrisonerBeatenMild.label>
-    <PrisonerBeatenMild.description>That warden just beat me up. He didn't break anything but, damn, it hurts.</PrisonerBeatenMild.description>
+    <rep>
+        <path>MePrisonerOrganHarvested.stages[0].label</path>
+        <trans>organ harvested</trans>
+    </rep>
+    <rep>
+        <path>MePrisonerOrganHarvested.stages[0].description</path>
+        <trans>The colony harvested body parts from me! They're breaking me down like an old engine!</trans>
+    </rep>
     
-    <PrisonerBeatenVicious.label>beaten viciously by warden</PrisonerBeatenVicious.label>
-    <PrisonerBeatenVicious.description>That warden just beat the hell from me. I could die from this...</PrisonerBeatenVicious.description>
+    <rep>
+        <path>WasImprisoned.stages[0].label</path>
+        <trans>was imprisoned</trans>
+    </rep>
+    <rep>
+        <path>WasImprisoned.stages[0].description</path>
+        <trans>The colony had me in jail for a while, like a caged animal.</trans>
+    </rep>
+
+    <rep>
+        <path>PrisonerFriendlyChat.stages[0].label</path>
+        <trans>convinced by warden</trans>
+    </rep>
+    <rep>
+        <path>PrisonerFriendlyChat.stages[0].description</path>
+        <trans>That warden and I had a talk about the colony. It sounds like a good place...</trans>
+    </rep>
     
-    <SocialTalk.label>had social chat</SocialTalk.label>
-    <SocialTalk.description>I just had a good chat with someone.</SocialTalk.description>
+    <rep>
+        <path>SocialTalk.stages[0].label</path>
+        <trans>had social chat</trans>
+    </rep>
+    <rep>
+        <path>SocialTalk.stages[0].description</path>
+        <trans>I just had a good chat with someone.</trans>
+    </rep>
     
-    <AbrasiveTalk.label>had an unpleasant conversation</AbrasiveTalk.label>
-    <AbrasiveTalk.description>Someone was rude to me. The worst part is, I don't even think that person realized it...</AbrasiveTalk.description>
+    <rep>
+        <path>AbrasiveTalk.stages[0].label</path>
+        <trans>had an unpleasant conversation</trans>
+    </rep>
+    <rep>
+        <path>AbrasiveTalk.stages[0].description</path>
+        <trans>Someone was rude to me. The worst part is, I don't even think that person realized it...</trans>
+    </rep>
     
-    <GreenThumbHappy.label>sowed a plant</GreenThumbHappy.label>
-    <GreenThumbHappy.description>What the world needs is more plants!</GreenThumbHappy.description>
+    <rep>
+        <path>GreenThumbHappy.stages[0].label</path>
+        <trans>sowed a plant</trans>
+    </rep>
+    <rep>
+        <path>GreenThumbHappy.stages[0].description</path>
+        <trans>What the world needs is more plants!</trans>
+    </rep>
+    
+    <rep>
+        <path>Catharsis.stages[0].label</path>
+        <trans>catharsis</trans>
+    </rep>
+    <rep>
+        <path>Catharsis.stages[0].description</path>
+        <trans>What just happened... That wasn't me. I know I can do better.</trans>
+    </rep>
     
 </LanguageData>
