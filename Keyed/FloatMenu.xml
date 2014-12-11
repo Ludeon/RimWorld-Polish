@@ -43,10 +43,14 @@
   <Rescue>Rescue {0}</Rescue>
   <CannotRescue>Cannot rescue</CannotRescue>
 
+  <CarryToCryptosleepCasket>Carry {0} to cryptosleep casket</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Cannot carry to cryptosleep casket</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>No available cryptosleep casket.</NoCryptosleepCasket>
   <NoPrisonerBed>No available enclosed prisoner-marked bed.</NoPrisonerBed>
   <NoNonPrisonerBed>No available usable non-prisoner bed.</NoNonPrisonerBed>
   <Reserved>Reserved by someone else.</Reserved>
-  <ReservedBy>Reserved by {0}.</ReservedBy>
+  <ReservedBy>Reserved by {0}</ReservedBy>
   <IsReservedBy>{0} is reserved by {1}.</IsReservedBy>
 
   <NoManipulationSkill>incapable</NoManipulationSkill>
@@ -64,6 +68,8 @@
   <Deposit>Deposit {0} in {1}</Deposit>
   <CannotDeposit>Cannot deposit {0} in {1}</CannotDeposit>
 
+  <SelfDestructHere>Self-destruct here</SelfDestructHere>
+  
   <Drop>Drop {0}</Drop>
   
   <UseMedicalBed>Rest until fully healed</UseMedicalBed>
@@ -71,14 +77,17 @@
   <SomeoneElseSleeping>Occupied</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Enter cryptosleep pod</EnterCryptosleepPod>
-  
-  
-  
+  <EnterCryptosleepCasket>Enter cryptosleep casket</EnterCryptosleepCasket>
+  <OpenCryptosleepCasket>Open cryptosleep casket</OpenCryptosleepCasket>
+
+
+
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Cannot {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Cannot prioritize (Health problem: {0})</CannotMissingHealthActivities>
+
   <CannotGenericAlreadyAm>Already {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Cannot prioritize ({0} is not a {1})</CannotPrioritizeIsNotA>
@@ -86,7 +95,8 @@
   <CannotPrioritizeResearch>Cannot prioritize (research is a long-term task)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>Cannot prioritize ({0} is forbidden)</CannotPrioritizeForbidden>
-
+  
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Prioritize {0} {1}</PrioritizeGeneric>
   

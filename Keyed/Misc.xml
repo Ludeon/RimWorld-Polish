@@ -19,6 +19,10 @@
   <DevelopmentBuildLower>development build</DevelopmentBuildLower>
   <CompiledOn>Compiled {0}</CompiledOn>
 
+
+
+  <!-- Content generation-->
+  
 	<MeatLabel>{0} meat</MeatLabel>
   <MeatDesc>Raw flesh of a {0}.</MeatDesc>
 
@@ -29,12 +33,19 @@
 	<CorpseDesc>Dead body of a {0}.</CorpseDesc>
   <DeadLabel>{0} (dead)</DeadLabel>
 
+  <RoughStoneTerrainLabel>rough {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Rough, natural {0} ground.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>rough-hewn {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Roughly cut natural {0} floor.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>smooth {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Smoothed natural {0} floor.</SmoothStoneTerrainDesc>
 
-	<BlueprintLabelExtra> (blueprint)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (blueprint)</BlueprintLabelExtra>
   <FrameLabelExtra> (building)</FrameLabelExtra>
-  
+
+
   <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
   <VariousLabel>(various)</VariousLabel>

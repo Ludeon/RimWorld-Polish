@@ -52,14 +52,16 @@
   
   
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>WARNING: Performance may degrade at larger map sizes unless your computer is quite powerful.\n\nIf you have a weak machine, choose Small.\n\nLudeonicrous size is untested and will almost certainly not play well.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or month.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Warning: Performance may degrade at larger map sizes. Ludeonicrous size is untested and will almost certainly not play well.</MapSizePerformanceWarning>
   <MapSize>Map size</MapSize>
   <MapSizeDesc>{0}x{0} ({1} squares)</MapSizeDesc>
   <MapSizeSmall>Small</MapSizeSmall>
   <MapSizeMedium>Medium</MapSizeMedium>
   <MapSizeLarge>Large</MapSizeLarge>
   <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
-
+  <MapStartMonth>Starting month:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
 
 
   <!-- Bill config -->
@@ -71,10 +73,13 @@
   <IngredientSearchRadius>Ingredient search radius</IngredientSearchRadius>
   <TargetCount>Make until you have: {0}</TargetCount>
   <Infinite>Infinite</Infinite>
+  
   <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Permitted ingredients</PermittedIngredients>
+  <WorkAmount>Work amount</WorkAmount>
   <MinimumSkills>Minimum skills:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Counts may vary for item with nonstandard volumes, like gold.)</BillRequiresMayVary>
   <UsableIngredients>usable ingredients</UsableIngredients>
   <DoXTimes>Do X times</DoXTimes>
   <DoUntilYouHaveX>Do until you have X</DoUntilYouHaveX>
@@ -84,14 +89,7 @@
   <BillStoreMode_BestStockpile>Take to best stockpile</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Take to nearest stockpile</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Def Card -->
-  <Type>Type</Type>
-  <GunType>Gun</GunType>
-  <PlantType>Plant</PlantType>
-  <FoodType>Food</FoodType>
-  <HumanType>Human</HumanType>
-  <AnimalType>Animal</AnimalType>
-  <MechanoidType>Mechanoid</MechanoidType>
+  <!-- Info card -->
   <Damage>Damage</Damage>
   <Accuracy>Accuracy</Accuracy>
   <BurstShotCount>Burst shot count</BurstShotCount>
@@ -116,9 +114,8 @@
   <MinFoodQuality>Min. food quality</MinFoodQuality>
   <Diet>Diet</Diet>
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
-  <baseMarketValue>Base price</baseMarketValue>
+  <MarketValue>Base price</MarketValue>
   <Covers>Covers</Covers>
-  <NaturalArmorCovers>Natural armor covers</NaturalArmorCovers>
   <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
   
   <!-- Trade -->
@@ -139,20 +136,6 @@
   
   <!-- Comms -->
   <SocialSkillIs>Social skill: {0}</SocialSkillIs>
-
-  <!-- Stats report -->
-  <StatsReport_BaseValue>Base value</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Relevant traits</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Relevant gear</StatsReport_RelevantGear>
-  <StatsReport_Material>Material</StatsReport_Material>
-  <StatsReport_CharacterQuality>Character quality</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Skill factors</StatsReport_Skills>
-  <StatsReport_OtherStats>Other stat factors</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Health factors</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0} importance</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>Final value</StatsReport_FinalValue>
-  
   
   <!--Research-->
   <ResearchFinished>Research finished: {0}</ResearchFinished>

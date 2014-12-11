@@ -26,7 +26,24 @@
   <NextTreatmentAfter>next treatment after {0} days</NextTreatmentAfter>
   <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>immunity development progress</ImmunityDevelopmentProgress>
+  <Race>Race</Race>
+  <Description>Description</Description>
+  <Equipment>Equipment</Equipment>
+  <Apparel>Apparel</Apparel>
+  <Inventory>Inventory</Inventory>
+  <ThingInfo>Information</ThingInfo>
+  <DropThing>Drop</DropThing>
+  <RenameColonist>Rename colonist</RenameColonist>
+  <UnknownLower>unknown</UnknownLower>
+  
+  <!-- Snow -->
+  <SnowNone>No snow</SnowNone>
+  <SnowDusting>Snow (dusting)</SnowDusting>
+  <SnowThin>Snow (thin)</SnowThin>
+  <SnowMedium>Snow (medium)</SnowMedium>
+  <SnowThick>Snow (thick)</SnowThick>
 
+  
   <!-- Turrets -->
   <GunInstalled>Installed</GunInstalled>
   <MinimumRange>Minimum range</MinimumRange>
@@ -51,7 +68,10 @@
 	<CoverThingBlocksPercentOfShots>{0} stops {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>no cover</NoCoverLower>
 	
-	
+  <!-- Generated recipes -->
+  <RecipeMake>Make {0}</RecipeMake>
+  <RecipeMakeJobString>Making {0}.</RecipeMakeJobString>
+  
 	<!-- Status levels -->
   <Mood>Mood</Mood>
   <MoodTip>Mood is sustained by fulfilling physical and psychological needs.\n\nIf someone's mood gets too low, they may suffer a mental break.</MoodTip>
@@ -87,93 +107,12 @@
   <SanityGiveUpExit>Broken: Given up and leaving</SanityGiveUpExit>
   <SanityPanicFlee>Broken: Fleeing in panic</SanityPanicFlee>
   <SanityPsychotic>Broken: Psychotic rampage</SanityPsychotic>
-  
-  <!-- Body and activities condition -->
-  <None>None</None>
-  <VeryPoor>Very poor</VeryPoor>
-  <Poor>Poor</Poor>
-  <Weakened>Weakened</Weakened>
-  <GoodCondition>OK</GoodCondition>
-  <Enhanced>Enhanced</Enhanced>
-  <SeriouslyImpaired>Seriously impaired</SeriouslyImpaired>
-  <Impaired>Impaired</Impaired>
-  <SlightlyImpaired>Slightly impaired</SlightlyImpaired>
-  <NoPain>None</NoPain>
-  <LittlePain>Little</LittlePain>
-  <MediumPain>Medium</MediumPain>
-  <SeverePain>Severe</SeverePain>
-  <ExtremePain>Extreme</ExtremePain>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
   <DefInfoTip>View information about this object.</DefInfoTip>
   
   
-  <!-- ITab titles -->
-  <TabBills>Bills</TabBills>
-  <TabGrowing>Growing</TabGrowing>
-  <TabCharacter>Character</TabCharacter>
-  <TabPrisoner>Prisoner</TabPrisoner>
-  <TabGear>Gear</TabGear>
-  <TabThoughts>Thoughts</TabThoughts>
-  <TabStorage>Storage</TabStorage>
-  <TabHealth>Health</TabHealth>
-  <TabRace>Race</TabRace>
-  <TabBasics>Basics</TabBasics>
-  <TabStats>Stats</TabStats>
-
-
-  <!-- ITabs -->
-	<AddBill>Add bill</AddBill>
-	<RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
-	<BillConfig>Config</BillConfig>
-	<SuspendedCaps>SUSPENDED</SuspendedCaps>
-	<PlantVerb>Plant</PlantVerb>
-	<RecruitmentDifficulty>Recruitment difficulty</RecruitmentDifficulty>
-	<PrisonerGetsFood>Gets food</PrisonerGetsFood>
-	<DoctorsCare>Doctors care</DoctorsCare>
-	<PrisonerGetsMedicine>Gets medicine</PrisonerGetsMedicine>
-	<ShouldTryToRecruit>Try to recruit</ShouldTryToRecruit>
-	<PrisonerNoInteraction>No interaction</PrisonerNoInteraction>
-	<PrisonerFriendlyChat>Friendly chat</PrisonerFriendlyChat>
-	<PrisonerMildBeating>Mild beating</PrisonerMildBeating>
-	<PrisonerViciousBeating>Vicious beating</PrisonerViciousBeating>
-	<PrisonerExecution>Execution</PrisonerExecution>
-	<Equipment>Equipment</Equipment>
-	<Apparel>Apparel</Apparel>
-	<Inventory>Inventory</Inventory>
-	<ThingInfo>Information</ThingInfo>
-	<DropThing>Drop</DropThing>
-	<TotalModifiers>Total modifiers</TotalModifiers>
-	<DamageAbsorption>Damage absorption</DamageAbsorption>
-	<DamageDeflection>Damage deflection</DamageDeflection>
-	<MoveSpeed>Move speed</MoveSpeed>
-	<Efficiency>Efficiency</Efficiency>
-	<MissingBodyPart>Gone</MissingBodyPart>
-	<DestroyedBodyPart>Destroyed</DestroyedBodyPart>
-	<ShatteredBodyPart>Shattered</ShatteredBodyPart>
-  <RemovedBodyPart>Removed</RemovedBodyPart>
-	<Healthy>Healthy</Healthy>
-	<InPain>In pain</InPain>
-	<PainLevel>Pain</PainLevel>
-	<Dead>Dead</Dead>
-	<Unconscious>Unconscious</Unconscious>
-	<PainShock>In shock</PainShock>
-	<Injured>Injured</Injured>
-	<NoInjuries>(no injuries)</NoInjuries>
-	<WholeBody>Whole body</WholeBody>
-	<RenameColonist>Rename colonist</RenameColonist>
-	<DataProcessing>Data processing</DataProcessing>
-	<Communication>Communication</Communication>
-	<AffectsLower>affects</AffectsLower>
-	<BleedingRate>Bleeding rate</BleedingRate>
-	<HealthOverview>Overview</HealthOverview>
-	<MedicalOperationsShort>Operations ({0})</MedicalOperationsShort>
-	<MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
-	<MedicalOperations>Medical operations</MedicalOperations>
-	<Amputate>Amputate</Amputate>
-	<Harvest>Harvest</Harvest>
-
 	<!-- like 'Blood of John' -->
 	<OfLower>of</OfLower>
 
@@ -185,8 +124,17 @@
   <PowerBatteryStored>Stored</PowerBatteryStored>
   <PowerBatteryEfficiency>Efficiency</PowerBatteryEfficiency>
 
+  <!-- Temperature control -->
+  <TargetTemperature>Target temperature</TargetTemperature>
+  <PowerConsumptionMode>Current power use</PowerConsumptionMode>
+  <PowerConsumptionHigh>High</PowerConsumptionHigh>
+  <PowerConsumptionLow>Low</PowerConsumptionLow>
   
-	<!--Rotting-->
+  <!-- Temperature readout -->
+  <Indoors>Indoors</Indoors>
+  <Outdoors>Outdoors</Outdoors>
+  
+  <!--Rotting-->
 	<RotStateFresh>Fresh</RotStateFresh>
 	<RotStateRotting>Rotting</RotStateRotting>
 	<RotStateDessicated>Dessicated</RotStateDessicated>
@@ -203,8 +151,14 @@
   <StoragePriorityImportant>Important</StoragePriorityImportant>
   <StoragePriorityCritical>Critical</StoragePriorityCritical>
 
+
+  <!-- Rotting -->
+  <CurrentlyFrozen>Frozen (won't spoil)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>Refrigerated (Spoils in {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Not refrigerated (Spoils in {0})</NotRefrigerated>
+  <OverADecade>over a decade</OverADecade>
+  
   <!-- Meal -->
-  <TimeToSpoil>Spoils in {0}</TimeToSpoil>
   <Ingredients>Ingredients</Ingredients>
 
   <!-- Plants -->
@@ -213,21 +167,24 @@
   <NotGrowingNow>Not growing now (needs to be {0}).</NotGrowingNow>
   <NotGrowingNowNight>Not growing now (night time).</NotGrowingNowNight>
   <FullyGrownIn>Fully grown in {0} of growth.</FullyGrownIn>
+  <OutOfIdealTemperatureRange>Out of ideal temperature range (growing at {0}% of normal speed)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Out of ideal temperature range (not growing)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Ready to harvest.</ReadyToHarvest>
   <Mature>Mature.</Mature>
   <SeedLabel>{0} seed</SeedLabel>
-  
+  <OutdoorGrowingPeriod>Growing period: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>Never</NoGrowingPeriod>
+  <GrowYearRound>Year-round</GrowYearRound>
+  <CannotGrowTooCold>Cannot grow - too cold.</CannotGrowTooCold>
+
   <!-- Zones -->
   <Zone>Zone</Zone>
   <GrowingZone>Growing zone</GrowingZone>
   <Stockpile>Stockpile</Stockpile>
   <DumpingStockpile>Dumping stockpile</DumpingStockpile>
   <Priority>Priority</Priority>
+  <ClearAll>Clear all</ClearAll>
 
-  <!-- General time stuff -->
-  <DaysLower>days</DaysLower>
-  <SecondsLower>seconds</SecondsLower>
-  
   <!-- Mouseover indicator -->
   <Undiscovered>Undiscovered</Undiscovered>
   
@@ -241,8 +198,7 @@
   <FireOn>Fire on {0}</FireOn>
   <Burning>Burning</Burning>
   <FireSizeLower>fire size {0}</FireSizeLower>
-  
-
+ 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Special conditions affecting the area right now.</MapConditionsTip>
 
@@ -254,28 +210,49 @@
   <MustPlaceHeadOnShipBeam>Must place with head attached to ship structural beam.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Must be placed next to something that needs a hopper.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Must be placed directly on a steam geyser.</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>Both the hot and cold sides of the cooler must be exposed.</MustPlaceCoolerWithFreeSpaces>
+  
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>Blocked by</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>Blocked by roof</WindTurbine_WindPathIsBlockedByRoof>
 
-
-
-  <!-- Cryptosleep pod -->
-  <PodContains>Contains</PodContains>
+  <!-- Cryptosleep casket -->
+  <CasketContains>Contains</CasketContains>
+  <CasketUnknownContents>Unknown</CasketUnknownContents>
+  <CasketWarning>Warning!\n\nNAME is your last free-standing colonist! If you let HIM step into that casket, you may not be able to continue playing. Are you sure you want to proceed?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Cannot launch.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Ready for launch.</ShipReportCanLaunch>
   <ShipReportMissingPart>Missing critical component</ShipReportMissingPart>
-  <ShipReportNoFullPods>No full cryptosleep pods</ShipReportNoFullPods>
+  <ShipReportNoFullPods>No full cryptosleep caskets</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Use neurotrainer to learn {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} used {1} neurotrainer to go from level {2} to level {3}.</NeurotrainerUsed>
   
+  <!-- Minification -->
+  <Installed>Installed</Installed>
+  <NotInstalled>Not installed</NotInstalled>
+
+  <!-- Art -->
+  <Title>Title</Title>
+  <Untitled>Untitled</Untitled>
   
+  <!-- Unfinished thing -->
+  <UnfinishedItem>Unfinished {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>Unfinished {0} {1}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>Quality</Quality>
+  <QualityDescription>An item's quality is how well-made it is.</QualityDescription>
+  <QualityIs>Quality: {0}</QualityIs>
+    
   <!-- Game over -->
   <GameOverEveryoneDead>Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place.</GameOverEveryoneDead>
-  <GameOverShipLaunched>You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might deposit you on a better planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for a better period of history.\n\nYou'll find out when you wake up.</GameOverShipLaunched>
+  <GameOverShipLaunched>You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll found out when you wake up.</GameOverShipLaunched>
   <GameOverKeepPlaying>Keep playing</GameOverKeepPlaying>
   <GameOverMainMenu>Main menu</GameOverMainMenu>
-  
-  
+    
+
 </LanguageData>

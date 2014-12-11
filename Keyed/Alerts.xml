@@ -18,9 +18,6 @@
   <NeedSawmill>Need sawmill</NeedSawmill>
   <NeedSawmillDesc>You need some kind of sawmill to chop logs into more versatile wood planks.\n\nBuild a HAND SAWMILL or an ELECTRIC SAWMILL.</NeedSawmillDesc>
 
-  <EquipStartingEquipment>Take your equipment</EquipStartingEquipment>
-  <EquipStartingEquipmentDesc>You landed with some weapons. Take them from your landing site.\n\nTo equip something, select a colonist and right-click the item you want to equip.</EquipStartingEquipmentDesc>
-
   <MentalBreakSoon>Mental break soon</MentalBreakSoon>
   <MentalBreakSoonDesc>These colonists are approaching the point of having a mental break:\n\n{0}\nImprove these colonists' psychology soon or bad things will happen.</MentalBreakSoonDesc>
 
@@ -55,6 +52,9 @@
   <NeedColonistBeds>Need colonist beds</NeedColonistBeds>
   <NeedColonistBedsDesc>You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly.</NeedColonistBedsDesc>
 
+  <HunterLacksWeapon>Hunter lacks weapon</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>A colonist is assigned as a hunter but has no weapon. They will not hunt until they are carrying a weapon.\n\nTo reduce injury, we recommend giving them a ranged weapon.</HunterLacksWeaponDesc>
+
   <Starvation>Starvation</Starvation>
   <StarvationDesc>These colonists are starving:\n\n{0}\nGet them some food. You'll need a food source like a nutrient paste dispenser and some food to feed it. Also, make sure they're not drafted.</StarvationDesc>
 
@@ -81,9 +81,12 @@
   <NoTradingCapacity>No trading capacity</NoTradingCapacity>
   <NoTradingCapacityDesc>You have no way of trading with passing ships.\n\nBuild a comms console.</NoTradingCapacityDesc>
 
+  <BrawlerHasRangedWeapon>Brawler has ranged weapon</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeaponDesc>One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy.</BrawlerHasRangedWeaponDesc>
+
   <NeedResearchProject>Need research project</NeedResearchProject>
   <NeedResearchProjectDesc>You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project.</NeedResearchProjectDesc>
-
+  
   <NeedDump>Need dump</NeedDump>
   <NeedDumpDesc>You have marked {0} to be hauled, but the colonists have nowhere to take it.\n\nDesignate a stockpile and set its storage settings to accept {0}.</NeedDumpDesc>
 
@@ -102,12 +105,15 @@
   <ColonistNeedsTreatment>Colonist needs treatment</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.)</ColonistNeedsTreatmentDesc>
 
+  <AlertHypothermia>Hypothermia</AlertHypothermia>
+  <AlertHypothermiaDesc>These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated.</AlertHypothermiaDesc>
+  
   <ColonistsAwaitingMedicalOperation>{0} colonists await medical operation</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>These colonists await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available.</ColonistsAwaitingMedicalOperationDesc>
 
-  <PawnsWithLifeThreateningDisease>Severe diseases</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>These colonists are at risk for death because of severe diseases:\n\n{0}\nMake sure that they get as much doctors care as possible.</PawnsWithLifeThreateningDiseaseDesc>
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>These colonists are at risk for death because of severe diseases:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <PawnsWithLifeThreateningDisease>Severe illness</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get as much doctors care as possible.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
   
