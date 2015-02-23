@@ -8,6 +8,15 @@ See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 ===========
 
+Currently working on translation:
+
+- Oskar 'volf3n' Nowak [Leader]
+- Deralian
+- t3m4
+- TralalAlf
+
+PAST PROJECT CREW:
+
 Lead translator: Neone (pmduda86@gmail.com)
 
 Info on current version:
