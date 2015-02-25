@@ -1,39 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <DamageDef Name="GlobalInjuryBase" Abstract="True">
-    <workerClass>DamageWorker_AddGlobalInjury</workerClass>
-    <interruptJobs>false</interruptJobs>
-    <hasForcefulImpact>false</hasForcefulImpact>
-    <makesBlood>false</makesBlood>
-  </DamageDef>
-
-  <DamageDef ParentName="GlobalInjuryBase">
-    <defName>Bleeding</defName>
-    <label>krwawienie</label>
-    <deathMessage>{0} wykrawił się.</deathMessage>
-    <hediff>BloodLoss</hediff>
-  </DamageDef>
-
-  <DamageDef ParentName="GlobalInjuryBase">
-    <defName>Suffocation</defName>
-    <label>duszenie</label>
-    <deathMessage>{0} udusił się.</deathMessage>
-    <hediff>Suffocation</hediff>
-  </DamageDef>
-
-  <DamageDef ParentName="GlobalInjuryBase">
-    <defName>Starvation</defName>
-    <label>głodowanie</label>
-    <deathMessage>{0} umarł z głodu.</deathMessage>
-    <hediff>Starvation</hediff>
-  </DamageDef>
-
-  <DamageDef ParentName="GlobalInjuryBase">
-    <defName>Hypothermia</defName>
-    <label>hipotermia</label>
-    <deathMessage>{0} wychłodził się.</deathMessage>
-    <hediff>Hypothermia</hediff>
-  </DamageDef>
-
+	<Bleeding.label>Krwawienie</Bleeding.label>
+	<Bleeding.deathMessage>{0} wykrawił się.</Bleeding.deathMessage>
+	
+	<Suffocation.label>Duszenie</Suffocation.label>
+	<Suffocation.deathMessage>{0} udusił się.</Suffocation.deathMessage>
+	
+	<Starvation.label>Głodowanie</Starvation.label>
+	<Starvation.deathMessage>{0} umarł z głodu.</Starvation.deathMessage>
+	
+	<Hypothermia.label>Hipotermia</Hypothermia.label>
+	<Hypothermia.deathMessage>{0} wychłodził się.</Hypothermia.deathMessage>
+	
 </LanguageData>
