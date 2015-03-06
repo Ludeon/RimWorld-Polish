@@ -10,15 +10,14 @@
   <DesignatorDeconstruct>Rozbierz</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Rozbierz konstrukcje i odzyskaj część zasobów.</DesignatorDeconstructDesc>
 
-  <DesignatorHarvestFood>Zbieraj plony</DesignatorHarvestFood>
-  <DesignatorHarvestFoodDesc>Oznacz rośliny do zebrania. Żywność zostanie zebrana z roślin, ale same rośliny nie zostaną zniszczone.</DesignatorHarvestFoodDesc>
+  <DesignatorHarvest>Zbieraj plony</DesignatorHarvest>
+  <DesignatorHarvestDesc>Oznacz rośliny do zebrania. Żywność zostanie zebrana z roślin, ale same rośliny nie zostaną zniszczone.</DesignatorHarvestDesc>
   
   <DesignatorHarvestWood>Rąb drzewo</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Oznacz drzewa do porąbania na drewno.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>Transportuj</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Oznacz gruz i inne śmieci w celu przetransportowania na wysypisko. Nie jest to wymagane dla żywności czy zwłok, które są transportowane automatycznie.</DesignatorHaulThingsDesc>
-  <NothingToHaulHere>Nie ma tu nic do transportowania</NothingToHaulHere>
   <MustHaulHaulables>Można tylko zaplanować transport nie automatycznie transportowanych elementów (jak gruz).</MustHaulHaulables>
 
   <DesignatorHunt>Poluj</DesignatorHunt>
@@ -26,6 +25,9 @@
 
   <DesignatorMine>Kop</DesignatorMine>
   <DesignatorMineDesc>Oznacz obszar skał, który ma zostać wykopany.</DesignatorMineDesc>
+  
+  <DesignatorSmoothFloor>Wygładź podłogę</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>Oznacz nierówny obszar do wygładzenia.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Planuj</DesignatorPlan>
   <DesignatorPlanDesc>Nanieś plany na mapę. Pomagają one tylko i wyłącznie zaplanować przyszły wygląd kolonii.</DesignatorPlanDesc>
@@ -45,12 +47,17 @@
   <DesignatorRegionNoRoofRemove>Usuń obszar bez dachu</DesignatorRegionNoRoofRemove>
   <DesignatorRegionNoRoofRemoveDesc>Usuwa oznaczenie obszaru bez dachu. Dachy będą tworzone w tym rejonie, a istniejące dachy nie zostaną rozebrane.</DesignatorRegionNoRoofRemoveDesc>
 
+  <DesignatorRegionSnowClearAdd>Oznacz obszar odśnieżania</DesignatorRegionSnowClearAdd>
+  <DesignatorRegionSnowClearAddDesc>Oznacz obszar, który koloniści będą w miarę swoich możliwości odśnieżać.</DesignatorRegionSnowClearAddDesc>
+  
+  <DesignatorRegionSnowClearRemove>Usuń obszar odśnieżania</DesignatorRegionSnowClearRemove>
+  <DesignatorRegionSnowClearRemoveDesc>Usuwa obszar odśnieżania. Koloniści przestaną tutaj odśnieżać.</DesignatorRegionSnowClearRemoveDesc>
+
   <DesignatorGrowingZoneDesc>Utwórz obszar na którym koloniści będą uprawiać rośliny.</DesignatorGrowingZoneDesc>
 
   <DesignatorZoneCreateStorageResourcesDesc>Utwórz obszar na którym koloniści będą składować surowce.\nMożna również rozszerzyć obecne składowisko.</DesignatorZoneCreateStorageResourcesDesc>
 
   <DesignatorZoneCreateStorageDumpingDesc>Utwór obszar na którym koloniści będą składować śmieci.\nMożna również rozszerzyć obecne wysypisko.</DesignatorZoneCreateStorageDumpingDesc>
-
 
   <DesignatorZoneDelete>Usuń obszar</DesignatorZoneDelete>
   <DesignatorZoneDeleteDesc>Usuń obszar, taki jak składowisko, pola czy wysypisko.</DesignatorZoneDeleteDesc>
@@ -69,6 +76,7 @@
   <InteractionSpotWillBeBlocked>Obszar zostanie zablokowany.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} zablokuje miejsce ustawienia {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Wskazany obszar jest już {0}.</TerrainIsAlready>
+  <TerrainBeingSmoothed>Wskazany obszar jest już przeznaczony do wygładzenia.</TerrainBeingSmoothed>
   <IdenticalThingExists>Identyczny element istnieje we wskazanym miejscu.</IdenticalThingExists>
   <IdenticalBlueprintExists>Identyczny element jest już zaplanowany dla wskazanego miejsca.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Na wskazanym terenie nie można ustawić wybranego elementu.</TerrainCannotSupport>

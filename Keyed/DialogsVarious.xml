@@ -31,10 +31,12 @@
   <PawnGainsName>Kolonista od teraz ma przydomek {0}.</PawnGainsName>
   
   <!-- Save game incompatible warning -->
+  <VersionMismatch>Różne wersje gry</VersionMismatch>
   <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Brak kompatybilności stanu gry</SaveGameIncompatibleWarningTitle>
+  <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
   
-	<!-- Res change dialog -->
+  
+	<!-- Resolution change dialog -->
   <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa działa poprawnie?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Zostaw</ResolutionKeep>
   <ResolutionRevert>Przywróć</ResolutionRevert>
@@ -52,6 +54,7 @@
 	
 	
 	<!-- Advanced game start options -->
+	<MapTemperatureDangerWarning>Uwaga: Wylądujesz w mroźnej okolicy. Przetrwanie w tych warunkach może okazać się trudne bądź nawet prawie zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba, że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar. Rozmiary Ludeonicrous nie zostały przetestowane.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
   <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
@@ -59,7 +62,8 @@
   <MapSizeMedium>Średni</MapSizeMedium>
   <MapSizeLarge>Duży</MapSizeLarge>
   <MapSizeExtreme>Extremalny</MapSizeExtreme>
-
+	<MapStartMonth>Miesiąc lądowania:</MapStartMonth>
+  <MapStartMonthDefault>Automatyczny</MapStartMonthDefault>
   
   
 	<!-- Bill config -->
@@ -69,12 +73,17 @@
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <Forever>Ciągle</Forever>
   <IngredientSearchRadius>Obszar poszukiwania składników</IngredientSearchRadius>
-  <TargetCount>Rób do uzyskania: {0}</TargetCount>
+  <CurrentlyHave>Obecnie masz</CurrentlyHave>
+	<CountingProducts>Liczy</CountingProducts>
   <Infinite>W nieskończoność</Infinite>
+  
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości ponieważ ma on różne lub nieprzewidywalne rezultaty.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Dozwolone składniki</PermittedIngredients>
+  <WorkAmount>Ilość pracy</WorkAmount>
   <MinimumSkills>Minimalna umiejętność:</MinimumSkills>
   <BillRequires>Wymaga {0} {1}</BillRequires>
+  <BillRequiresMayVary>Uwaga: małych składników, takich jak złoto, potrzeba 20x więcej.</BillRequiresMayVary>
+  <ThisIsSmallVolume>To mały składnik. Oznacza to, że każda jego "jednostka" odpowiada zaledwie 1/20 składnika normalnej wielkości. Dlatego też potrzebujesz go 20 razy więcej niż innych skłądników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
   <UsableIngredients>składniki, których można użyć</UsableIngredients>
   <DoXTimes>Rób X razy</DoXTimes>
   <DoUntilYouHaveX>Rób do uzyskania X</DoUntilYouHaveX>
@@ -84,14 +93,7 @@
   <BillStoreMode_BestStockpile>Najważniejszy magazyn</BillStoreMode_BestStockpile> <!-- Dłuższe się nie mieści -->
   <BillStoreMode_NearestStockpileAnyPriority>Najbliższy magazyn</BillStoreMode_NearestStockpileAnyPriority>
  
- <!-- Def Card -->
-  <Type>Typ</Type>
-  <GunType>Broń</GunType>
-  <PlantType>Roślina</PlantType>
-  <FoodType>Żywność</FoodType>
-  <HumanType>Człowiek</HumanType>
-  <AnimalType>Zwierzę</AnimalType>
-  <MechanoidType>Maszyna</MechanoidType>
+ <!-- Info Card -->
   <Damage>Obrażenia</Damage>
   <Accuracy>Celność</Accuracy>
   <BurstShotCount>Seria strzałów</BurstShotCount>
@@ -103,6 +105,7 @@
   <Harvestable>Można zbierać</Harvestable>
   <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
   <GrowingTime>Czas wzrostu</GrowingTime>
+  <GrowingTimeDesc>Rośliny rosną tylko przez pewną część dnia i tylko w świetle. Ta statystyka pokazuje ile czasu zajmie roślinom osiągnięcie maksymalnych rozmiarów. Prawdziwy czas wzrostu jest zazwyczaj mniej więcej dwa razy dłuższy. Rozwój spowalniają także niskie temperatury.</GrowingTimeDesc>
   <Days>dni</Days>
   <FertilityRequirement>Wymagana żyzność gleby</FertilityRequirement>
   <LightRequirement>Wymagany typ światła</LightRequirement>
@@ -111,14 +114,12 @@
   <Nutrition>Punkty głodu</Nutrition>
   <FoodQuality>Jakość jedzenia</FoodQuality>
   <WalkSpeedProperty>Szybkość</WalkSpeedProperty>
-  <MeleeDamage>Obrażenia wręcz</MeleeDamage>
   <MeatAmount>Ilość mięsa</MeatAmount>
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
-  <baseMarketValue>Wartość podstawowa</baseMarketValue>
+  <MarketValue>Wartość podstawowa</MarketValue>
   <Covers>Osłona</Covers>
-  <NaturalArmorCovers>Natural armor covers</NaturalArmorCovers>
   <BodyPartEfficiency>Efektywność części ciała</BodyPartEfficiency>
   
   <!-- Trade -->
@@ -136,23 +137,10 @@
   <TraderHasNoMore>Handlarz nie ma więcej.</TraderHasNoMore>
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmów z powodu słabego zdrowia.\n\nWpłynie to na ceny towarów.\n\nRozważ wysłanie zdrowego negocjatora.</NegotiatorTalkingImpaired>
   
   <!-- Comms -->
   <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
-  
-  <!-- Stats report -->
-  <StatsReport_BaseValue>Wartość podstawowa</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Istotne cechy</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Istotny ekwipunek</StatsReport_RelevantGear>
-  <StatsReport_Material>Materiał</StatsReport_Material>
-  <StatsReport_CharacterQuality>Cecha charakteru</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Czynniki umiejętności</StatsReport_Skills>
-  <StatsReport_OtherStats>Inne czynniki</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Czynniki zdrowotne</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0} ważność</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>Wartość końcowa</StatsReport_FinalValue>
-  
   
   <!--Research-->
   <ResearchFinished>Badanie ukończone: {0}</ResearchFinished>
