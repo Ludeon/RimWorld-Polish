@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Various -->
@@ -26,11 +26,38 @@
   <NextTreatmentAfter>następne leczenie za {0} dni</NextTreatmentAfter>
   <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>rozwój odporności</ImmunityDevelopmentProgress>
+  <Race>Rasa</Race>
+  <Description>Description</Description>
+  <Equipment>Ekwipunek</Equipment>
+  <Apparel>Strój</Apparel>
+  <Inventory>Inwentarz</Inventory>
+  <ThingInfo>Informacja</ThingInfo>
+  <DropThing>Wyrzuć</DropThing>
+  <RenameColonist>Nadaj przydomek</RenameColonist>
+  <UnknownLower>nieznane</UnknownLower>
+  <On>Włączone</On>
+  <Off>Wyłączone</Off>
+  <PowerSwitch_Power>Zasilanie</PowerSwitch_Power>
   
-  <!-- Turrets -->
+  <!-- Control -->
+  <CannotOrderNonControlled>Nie można rozkazywać nie kontrolowanym jednostką.</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0} jest niezdolny do przemocy.</IsIncapableOfViolence>
+  <IsNotDrafted>{0} nie został powołany..</IsNotDrafted>
+  
+  <!-- Snow -->
+  <SnowNone>Brak śniegu</SnowNone>
+  <SnowDusting>Śnieg (pruszy)</SnowDusting>
+  <SnowThin>Śnieg (mało)</SnowThin>
+  <SnowMedium>Śnieg (średnio)</SnowMedium>
+  <SnowThick>Śnieg (dużo)</SnowThick>
+
+  
+    <!-- Turrets -->
   <GunInstalled>Zainstalowano: </GunInstalled>
   <MinimumRange>Min. zasięg: </MinimumRange>
   <CanFireIn>Przeładuje się za: </CanFireIn>
+  <ShellLoaded>Załadowany</ShellLoaded>
+  <ShellNotLoaded>Nie załadowany</ShellNotLoaded>
   
 
     <!-- Job reports -->
@@ -51,8 +78,11 @@
 	<CoverThingBlocksPercentOfShots>{0} blokuje {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>brak osłony</NoCoverLower>
 	
-
-  <!-- Status levels -->
+  <!-- Generated recipes -->
+  <RecipeMake>Robi {0}</RecipeMake>
+  <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
+  
+	<!-- Status levels -->
   <Mood>Nastrój</Mood>
   <MoodTip>Nastrój zależy od poziomu zaspokojenia psychicznych i fizycznych potrzeb. \n\nJeżeli nastrój kolonisty spadnie zbyt nisko, może się załamać psychicznie.</MoodTip>
   <Food>Jedzenie</Food>
@@ -68,7 +98,8 @@
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Przestanie kończyć się za: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Poziom załamania nerwowego</MentalBreakThreshold>
+  <MentalBreakThresholdHard>Poziom ciężkiego załamania nerwowego</MentalBreakThresholdHard>
+  <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
 
   
   <!-- Pawn info readout -->
@@ -83,97 +114,12 @@
   <Incapacitated>Nieprzytomny</Incapacitated>
   <InRestraints>Związany (spowolniony)</InRestraints>
   <Carrying>Niesie</Carrying>
-  <SanityDazedWander>Załamanie: Błąka się oszołomiony</SanityDazedWander>
-  <SanityGiveUpExit>Załamanie: Poddał się i odchodzi</SanityGiveUpExit>
-  <SanityPanicFlee>Załamanie: Ucieka w panice</SanityPanicFlee>
-  <SanityPsychotic>Załamanie: Wpadł w szał</SanityPsychotic>
-  
-  <!-- Body and activities condition -->
-  <None>Brak</None>
-  <VeryPoor>Bardzo źle</VeryPoor>
-  <Poor>Źle</Poor>
-  <Weakened>Osłabione</Weakened>
-  <GoodCondition>Ok</GoodCondition>
-  <Enhanced>Ulepszone</Enhanced>
-  <SeriouslyImpaired>Poważnie uszkodzone</SeriouslyImpaired>
-  <Impaired>Uszkodzone</Impaired>
-  <SlightlyImpaired>Lekko uszkodzone</SlightlyImpaired>
-  <NoPain>Brak</NoPain>
-  <LittlePain>Trochę</LittlePain>
-  <MediumPain>Średni</MediumPain>
-  <SeverePain>Silny</SeverePain>
-  <ExtremePain>Skrajny</ExtremePain>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
-  
-  <!-- ITab titles -->
-  <TabBills>Zlecenia</TabBills>
-  <TabGrowing>Uprawa</TabGrowing>
-  <TabCharacter>Charakter</TabCharacter>
-  <TabPrisoner>Więzień</TabPrisoner>
-  <TabGear>Sprzęt</TabGear>
-  <TabThoughts>Myśli</TabThoughts>
-  <TabStorage>Skład</TabStorage>
-  <TabHealth>Zdrowie</TabHealth>
-  <TabRace>Rasa</TabRace>
-  <TabBasics>Ogólne</TabBasics>
-  <TabStats>Statystyki</TabStats>
-  
-  
-  	<!-- ITabs -->
-	<AddBill>Dodaj zlecenie</AddBill>
-	<RecipeRequiresSkills>Zlecenie na {0} wymaga poniżej wskazanych umiejętności. Żaden z kolonistów nie ma wskazanych umiejętności, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
-	<BillConfig>Opcje</BillConfig>
-	<SuspendedCaps>ZAWIESZONE</SuspendedCaps>
-	<PlantVerb>Roślina</PlantVerb>
-	<RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
-	<PrisonerGetsFood>Dostaje żywność</PrisonerGetsFood>
-	<DoctorsCare>Opieka medyczna</DoctorsCare>
-	<PrisonerGetsMedicine>Więzień otrzymuje leki</PrisonerGetsMedicine>
-	<ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
-	<PrisonerNoInteraction>Brak interakcji</PrisonerNoInteraction>
-	<PrisonerFriendlyChat>Przyjazna rozmowa</PrisonerFriendlyChat>
-	<PrisonerMildBeating>Pobicie</PrisonerMildBeating>
-	<PrisonerViciousBeating>Dotkliwe pobicie</PrisonerViciousBeating>
-	<PrisonerExecution>Egzekucja</PrisonerExecution>
-	<Equipment>Ekwipunek</Equipment>
-	<Apparel>Strój</Apparel>
-	<Inventory>Inwentarz</Inventory>
-	<ThingInfo>Informacja</ThingInfo>
-	<DropThing>Wyrzuć</DropThing>
-	<TotalModifiers>Modyfikatory</TotalModifiers>
-	<DamageAbsorption>Absorpcja obrażeń</DamageAbsorption>
-	<DamageDeflection>0000000000000000</DamageDeflection>
-	<MoveSpeed>Szybkość</MoveSpeed>
-	<Efficiency>Wydajność</Efficiency>
-	<MissingBodyPart>Stracone</MissingBodyPart>
-	<DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
-	<ShatteredBodyPart>Roztrzaskane</ShatteredBodyPart>
-  <RemovedBodyPart>Usunięte</RemovedBodyPart>
-	<Healthy>Zdrowy</Healthy>
-	<InPain>Obolały</InPain>
-	<PainLevel>Ból</PainLevel>
-	<Dead>Martwy</Dead>
-	<Unconscious>Nieprzytomny</Unconscious>
-	<PainShock>Szok pourazowy</PainShock>
-	<Injured>Ranny</Injured>
-	<NoInjuries>(bez obrażeń)</NoInjuries>
-	<WholeBody>Całe ciało</WholeBody>
-	<RenameColonist>Nadaj przydomek</RenameColonist>
-	<DataProcessing>Przetwarzanie danych</DataProcessing>
-	<Communication>Porozumiewanie się</Communication>
-	<AffectsLower>wpływa na</AffectsLower>
-	<BleedingRate>Tempo krwawienia</BleedingRate>
-	<HealthOverview>Podgląd</HealthOverview>
-	<MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
-	<MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
-	<MedicalOperations>Operacje chirurgiczne</MedicalOperations>
-	<Amputate>Amputuj</Amputate>
-	<Harvest>Wytnij</Harvest>
-	
+ 
     <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
 
@@ -184,9 +130,19 @@
   <PowerOutput>Wytwarzana energia</PowerOutput>
   <PowerBatteryStored>Zmagazynowano</PowerBatteryStored>
   <PowerBatteryEfficiency>Efektywność</PowerBatteryEfficiency>
-  
 
-	<!--Rotting-->
+  <!-- Temperature control -->
+  <TargetTemperature>Temperatura docelowa.</TargetTemperature>
+  <PowerConsumptionMode>Aktualne zużycie energii</PowerConsumptionMode>
+  <PowerConsumptionHigh>Wysokie</PowerConsumptionHigh>
+  <PowerConsumptionLow>Niskie</PowerConsumptionLow>
+  
+  <!-- Temperature readout -->
+  <Indoors>W pomieszczeniu</Indoors>
+  <IndoorsUnroofed>Nie zadaszone</IndoorsUnroofed>
+  <Outdoors>Na zewnątrz</Outdoors>
+  
+  <!--Rotting-->
 	<RotStateFresh>Świeże</RotStateFresh>
 	<RotStateRotting>Rozkładające się</RotStateRotting>
 	<RotStateDessicated>Wyschnięte</RotStateDessicated>
@@ -203,36 +159,47 @@
   <StoragePriorityImportant>Istotny</StoragePriorityImportant>
   <StoragePriorityCritical>Krytyczny</StoragePriorityCritical>
 
-	<!-- Meal -->
-  <TimeToSpoil>Zepsuje się za {0}</TimeToSpoil>
+
+  <!-- Rotting -->
+  <CurrentlyFrozen>Zamrożone (nie zepsuje się)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>Schłodzone (zepsuje się za {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Nie schłodzone (zepsuje się za {0})</NotRefrigerated>
+  <OverADecade>ponad dekadę</OverADecade>
+  
+  <!-- Meal -->
   <Ingredients>Składniki</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>Urosło w {0}%</PercentGrowth>
   <Growing>Rośnie</Growing>
   <NotGrowingNow>Nie rośnie (musi być {0}).</NotGrowingNow>
-  <NotGrowingNowNight>Nocą nie rośnie.</NotGrowingNowNight>
+  <NotGrowingNowResting> Nie rośnie teraz (odpoczywa).</NotGrowingNowResting>
   <FullyGrownIn>W pełni wyrośnięte za {0} wzrostu.</FullyGrownIn>
+  <OutOfIdealTemperatureRange>Nieodpowiednia temperatura (rośnie z {0}% normalnej prędkości wzrostu)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Gotowe do zbiorów.</ReadyToHarvest>
   <Mature>Dojrzałe.</Mature>
   <SeedLabel>Nasiono {0}</SeedLabel>
-  
+  <OutdoorGrowingPeriod>Okres uprawy: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>Nigdy</NoGrowingPeriod>
+  <GrowYearRound>Cały rok</GrowYearRound>
+  <GrowSeasonHereNow>Można uprawiać. </GrowSeasonHereNow>
+  <CannotGrowTooCold>Nie można uprawiać sezon zimowy.</CannotGrowTooCold>
+
   <!-- Zones -->
   <Zone>Obszar</Zone>
   <GrowingZone>Pole uprawne</GrowingZone>
   <Stockpile>Składowisko</Stockpile>
   <DumpingStockpile>Wysypisko</DumpingStockpile>
   <Priority>Priorytet</Priority>
-
-  <!-- General use time stuff -->
-  <DaysLower>dni</DaysLower>
-  <SecondsLower>sekund</SecondsLower>
+  <ClearAll>Wyczyść</ClearAll>
   
   <!-- Mouseover indicator -->
   <Undiscovered>Nieodkryte</Undiscovered>
   
     <!-- Buttons -->
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
   <AutoHomeRegionToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
   
@@ -242,7 +209,6 @@
   <Burning>Płonący</Burning>
   <FireSizeLower>rozmiar pożaru {0}</FireSizeLower>
 
-  
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
 
@@ -254,9 +220,16 @@
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicą do belki statku.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
   
-  <!-- Cryptosleep pod -->
-  <PodContains>Zawiera</PodContains>
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>Zablokowane przez dach</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Cryptosleep casket -->
+  <CasketContains>Zawartość</CasketContains>
+  <CasketUnknownContents>Nieznana</CasketUnknownContents>
+  <CasketWarning>Uwaga!\n\nNAME jest twoim ostatnim kolonistą! Jak pozwolisz HIM wejść do kapsuły hibernacyjnej nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Nie można wystartować.</ShipReportCannotLaunch>
@@ -268,13 +241,38 @@
   <UseNeurotrainer>Użyj neurotrenera {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
   
+  <!-- Minification -->
+  <Installed>Ustawione.</Installed>
+  <NotInstalled>Nie ustawione.</NotInstalled>
+
+  <!-- Art -->
+  <Title>Tytuł</Title>
+  <Untitled>Nienazwane</Untitled>
   
+  <!-- Unfinished thing -->
+  <UnfinishedItem>Niedokończone {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>Niedokończone {0} {1}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>Jakość</Quality>
+  <QualityDescription>Jakość oznacza jak dobrze dany przedmiot został wykonany.</QualityDescription>
+  <QualityIs>Jakość: {0}</QualityIs>
+    
+  <!-- Mood descriptions -->
+  <Mood_Broken>Załamany!</Mood_Broken>
+  <Mood_AboutToBreak>Zaraz się załamie!</Mood_AboutToBreak>
+  <Mood_OnEdge>Na krawędzi załamania.</Mood_OnEdge>
+  <Mood_Stressed>Zestresowany.</Mood_Stressed>
+  <Mood_Neutral>Normalny.</Mood_Neutral>
+	<Mood_Content>Zadowolony.</Mood_Content>
+  <Mood_Happy>Szczęśliwy!</Mood_Happy>
   
   <!-- Game over -->
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże kto inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}\nCi koloniści pozostali na planecie:\n\n{1}\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować aby ukryć statek w lodowym asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, jak się obudzisz.</GameOverShipLaunched>
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Główne menu</GameOverMainMenu>
+  
   
   
 </LanguageData>
