@@ -29,7 +29,10 @@
 	<NoEmptyPlaceLower>brak wolnego miejsca w którym można składować</NoEmptyPlaceLower>
 	<AlreadyFilledLower>już wypełnione</AlreadyFilledLower>
 	<MissingMaterials>potrzebne materiały</MissingMaterials>
-	
+
+
+  <ConsumeThing>Zjedz {0}</ConsumeThing>
+  
   
   <CannotGoNoPath>Nie można się dostać (brak dojścia)</CannotGoNoPath>
   <GoHere>Idź tam</GoHere>
@@ -43,6 +46,10 @@
   <Rescue>Uratuj {0}</Rescue>
   <CannotRescue>Nie można uratować</CannotRescue>
 
+  <CarryToCryptosleepCasket>Zanieś do {0} kapsuły hibernacyjnej</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Nie można zanieść do kapsuły hibernacyjnej</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>Brak wolnych kapsuł hibernacyjnych.</NoCryptosleepCasket>
   <NoPrisonerBed>Nie ma odgrodzonych łóżek oznaczonych dla więźniów.</NoPrisonerBed>
   <NoNonPrisonerBed>Nie ma wolnych łóżek nie dla więźniów.</NoNonPrisonerBed>
   <Reserved>Zarezerwowane przez kogoś innego.</Reserved>
@@ -64,6 +71,8 @@
   <Deposit>Zostaw {0} w {1}</Deposit>
   <CannotDeposit>Nie można zostawić {0} w {1}</CannotDeposit>
 
+  <SelfDestructHere>Autodestrukcja</SelfDestructHere>
+  
   <Drop>Odrzuć {0}</Drop>
 
   <UseMedicalBed>Odpoczywaj aż wyzdrowiejesz</UseMedicalBed>
@@ -72,6 +81,7 @@
   
    <!-- Specific thing interactions -->
   <EnterCryptosleepPod>Wejdź do kapsuły hibernacyjnej</EnterCryptosleepPod>
+  <OpenCryptosleepCasket>Otwórz kapsułę hibernacyjną</OpenCryptosleepCasket>
  
  
  
@@ -79,6 +89,8 @@
   <CannotGenericWork>Nie można {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Nie mogę się tym zająć! (Health problem: {0})</CannotMissingHealthActivities>
+
   <CannotGenericAlreadyAm>Już zajmuję się {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Nie mogę się tym zająć! ({0} nie jest {1})</CannotPrioritizeIsNotA>
@@ -86,6 +98,7 @@
   <CannotPrioritizeResearch>Nie mogę się tym zająć! (badania są zadaniem długoterminowym)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>Nie mogę się tym zająć! ({0} jest zabronione)</CannotPrioritizeForbidden>
+
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Zajmij się {0} {1}</PrioritizeGeneric>
