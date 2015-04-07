@@ -14,6 +14,7 @@ Currently working on translation:
 - Deralian
 - t3m4
 - TralalAlf
+- maxdyner
 
 PAST PROJECT CREW:
 
