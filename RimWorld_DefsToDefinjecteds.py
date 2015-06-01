@@ -10,11 +10,11 @@ def printhelp():
     """  Prints instructions in case of incorrect usage
     or when asked to.
     """
-    print "RimWorld Translation Template Script"
-    print "Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them."
-    print "Usage: RimWorld_DefsToDefInject.py <RimWorld installation folder> <Folder for templates>"
-    print ""
-    print "Use -h to get this message."
+    print("RimWorld Translation Template Script")
+    print("Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them.")
+    print("Usage: RimWorld_DefsToDefInject.py <RimWorld installation folder> <Folder for templates>")
+    print("")
+    print("Use -h to get this message.")
 
 
 def writeheader(filename):
@@ -75,12 +75,12 @@ else:
     sys.exit(2)
 
 # Print information about the script
-print "--------------------------------------------------------------------"
-print "RimWorld Translation Template Script"
-print ""
-print "RimWorld installation folder is \"" + defsDir + "\""
-print "Templates will be created in folder \"" + translationDir + "\""
-print "--------------------------------------------------------------------"
+print("--------------------------------------------------------------------")
+print("RimWorld Translation Template Script")
+print("")
+print("RimWorld installation folder is \"" + defsDir + "\"")
+print("Templates will be created in folder \"" + translationDir + "\"")
+print("--------------------------------------------------------------------")
 
 # Move to the directories where the files are
 defsDir += '\\Mods\\Core\\Defs\\'
@@ -130,6 +130,18 @@ if os.path.exists(defsDir):
                         haslabels = True
                         break
                     elif '<gerund>' in line or '<gerund>' in line:
+                        haslabels = True
+                        break
+                    elif '<deathMessage>' in line or '<DeathMessage>' in line:
+                        haslabels = True
+                        break
+                    elif '<pawnsPlural>' in line or '<PawnsPlural>' in line:
+                        haslabels = True
+                        break
+                    elif '<jobString>' in line or '<JobString>' in line:
+                        haslabels = True
+                        break
+                    elif '<quotation>' in line or '<Quotation>' in line:
                         haslabels = True
                         break
 
@@ -210,6 +222,22 @@ if os.path.exists(defsDir):
                                     labelType = 'gerund'
                                     template = re.findall('<gerund>(.*?)</gerund>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<deathMessage>' in line or '<DeathMessage>' in line:
+                                    labelType = 'gerund'
+                                    template = re.findall('<deathMessage>(.*?)</deathMessage>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<pawnsPlural>' in line or '<PawnsPlural>' in line:
+                                    labelType = 'pawnsPlural'
+                                    template = re.findall('<pawnsPlural>(.*?)</pawnsPlural>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<jobString>' in line or '<JobString>' in line:
+                                    labelType = 'jobString'
+                                    template = re.findall('<jobString>(.*?)</jobString>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<quotation>' in line or '<Quotation>' in line:
+                                    labelType = 'quotation'
+                                    template = re.findall('<quotation>(.*?)</quotation>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
 
                             # Move to the next line in the template
                             defInjectFile.write('    \n')
@@ -240,5 +268,5 @@ if os.path.exists(defsDir):
 # If the specified directory doesn't exist,
 # print an error
 else:
-    print "Invalid RimWorld installation folder"
+    print("Invalid RimWorld installation folder")
     sys.exit(2)
