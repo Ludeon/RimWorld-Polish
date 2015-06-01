@@ -31,9 +31,11 @@
   <PawnGainsName>The colonist nick-name is now {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>Version mismatch: Map was saved with game version {0}, we are running version {1}.\n\n Loading this save will probably cause bugs and crashes.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Save game incompatibility</SaveGameIncompatibleWarningTitle>
-  
+  <VersionMismatch>Version mismatch</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Warning: This map was saved with game version {0}, but we are running version {1}.\n\nLoading this save will probably cause bugs and crashes.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Warning: This world was generated with game version {0}, but we are running version {1}.\n\nLoading this world will probably cause bugs and crashes. We recommend you generate a new world from scratch.</WorldFileVersionMismatch>
+
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Keep</ResolutionKeep>
@@ -55,7 +57,7 @@
   <MapTemperatureDangerWarning>Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or month.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Warning: Performance may degrade at larger map sizes. Ludeonicrous size is untested and will almost certainly not play well.</MapSizePerformanceWarning>
   <MapSize>Map size</MapSize>
-  <MapSizeDesc>{0}x{0} ({1} squares)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} cells)</MapSizeDesc>
   <MapSizeSmall>Small</MapSizeSmall>
   <MapSizeMedium>Medium</MapSizeMedium>
   <MapSizeLarge>Large</MapSizeLarge>
@@ -70,17 +72,20 @@
   <SuspendedAllCaps>SUSPENDED</SuspendedAllCaps>
   <RepeatCount>Repeat: {0}</RepeatCount>
   <Forever>Forever</Forever>
-  <IngredientSearchRadius>Ingredient search radius</IngredientSearchRadius>
-  <TargetCount>Make until you have: {0}</TargetCount>
+	<Details>Details</Details>
+  <IngredientSearchRadius>Ingredient radius</IngredientSearchRadius>
+  <CurrentlyHave>Currently have</CurrentlyHave>
+  <CountingProducts>Counting</CountingProducts>
   <Infinite>Infinite</Infinite>
+  <MinimumSkillLevel>Min {0} skill</MinimumSkillLevel>
   
   <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Permitted ingredients</PermittedIngredients>
   <WorkAmount>Work amount</WorkAmount>
   <MinimumSkills>Minimum skills:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
-  <BillRequiresMayVary>(Counts may vary for item with nonstandard volumes, like gold.)</BillRequiresMayVary>
-  <UsableIngredients>usable ingredients</UsableIngredients>
+  <BillRequiresMayVary>Note: small-volume ingredients like gold require 20x as much.</BillRequiresMayVary>
+  <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/20 as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need 20x as much as usual.</ThisIsSmallVolume>
+  <UsableIngredients>ingredients</UsableIngredients>
   <DoXTimes>Do X times</DoXTimes>
   <DoUntilYouHaveX>Do until you have X</DoUntilYouHaveX>
   <DoForever>Do forever</DoForever>
@@ -101,16 +106,17 @@
   <Harvestable>Harvestable</Harvestable>
   <LimitedLifespan>Limited lifespan</LimitedLifespan>
   <GrowingTime>Growing time</GrowingTime>
+  <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
   <Days>days</Days>
   <FertilityRequirement>Fertility requirement</FertilityRequirement>
   <LightRequirement>Light requirement</LightRequirement>
   <Attributes>Attributes</Attributes>
   <LifeSpan>Lifespan</LifeSpan>
   <Nutrition>Nutrition</Nutrition>
+  <Joy>Joy</Joy>
   <FoodQuality>Food quality</FoodQuality>
   <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
-  <MeleeDamage>Melee damage</MeleeDamage>
-  <MeatAmount>Meat amount</MeatAmount>
+  <ButcherYield>Butcher yield</ButcherYield>
   <MinFoodQuality>Min. food quality</MinFoodQuality>
   <Diet>Diet</Diet>
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
@@ -133,6 +139,8 @@
   <TraderHasNoMore>Trader has no more.</TraderHasNoMore>
   <ColonyHasNoMore>No more to sell.</ColonyHasNoMore>
   <TraderWillNotTrade>Trader is not willing to trade in this item.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.\n\nThis will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
   
   <!-- Comms -->
   <SocialSkillIs>Social skill: {0}</SocialSkillIs>
@@ -149,4 +157,12 @@
   <HistoryUploadYesOnce>Upload only this time</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Do not upload this time, ask me later</HistoryUploadNoOnce>
 	
+  <!-- Outfit management -->
+  <Outfit>Outfit</Outfit>
+  <SelectOutfit>Select outfit...</SelectOutfit>
+  <NewOutfit>New outfit</NewOutfit>
+  <DeleteOutfit>Delete outfit...</DeleteOutfit>
+  <OutfitInUse>Outfit is in use by {0}.</OutfitInUse>
+  <NoOutfitSelected>No outfit selected</NoOutfitSelected>
+  
 </LanguageData>

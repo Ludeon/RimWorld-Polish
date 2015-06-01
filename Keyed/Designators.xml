@@ -5,10 +5,13 @@
   <DesignatorCancelDesc>Cancel designated building, mining, hauling, harvesting, and all other designations.</DesignatorCancelDesc>
 
   <DesignatorCutPlants>Cut plants</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>Marks plants to be cut and destroyed. The plant will be completely removed, and any food will be harvested.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>Deconstruct</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Deconstruct buildings and reclaim part of their resources.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Deconstruct this and reclaim part of its resources.</DesignatorDeconstructDesc>
+
+  <DesignatorUninstall>Uninstall</DesignatorUninstall>
+  <DesignatorUninstallDesc>Uninstall this so it can be moved, sold, or installed somewhere else.</DesignatorUninstallDesc>
 
   <DesignatorHarvest>Harvest</DesignatorHarvest>
   <DesignatorHarvestDesc>Marks plants to be harvested for their food or other products.</DesignatorHarvestDesc>
@@ -18,8 +21,7 @@
 
   <DesignatorHaulThings>Haul things</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable.</DesignatorHaulThingsDesc>
-  <NothingToHaulHere>Nothing to haul here.</NothingToHaulHere>
-  <MustHaulHaulables>Can only designate haulable non-automatic things (like rock chunks).</MustHaulHaulables>
+  <MustHaulHaulables>Can only designate haulable but non-always-hauled things (like rock chunks).</MustHaulHaulables>
 
   <DesignatorHunt>Hunt</DesignatorHunt>
   <DesignatorHuntDesc>Mark animals to be hunted by your hunters.</DesignatorHuntDesc>
@@ -28,7 +30,7 @@
   <DesignatorMineDesc>Designate areas of rock to be mined out.</DesignatorMineDesc>
 
   <DesignatorSmoothFloor>Smooth floor</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Designate rough stone floors to be smoothed.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothFloorDesc>Designate rough stone terrain to be smoothed.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Plan</DesignatorPlan>
   <DesignatorPlanDesc>Place planning designations. These don't do anything except help you plan future expansions.</DesignatorPlanDesc>
@@ -67,7 +69,7 @@
   <DesignatorClaimDesc>Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists.</DesignatorClaimDesc>
   
   
-  <!-- placement of blueprints -->
+  <!-- Failure messages -->
   <UnchosenStuff>Unchosen material</UnchosenStuff>
   <TooCloseToMapEdge>Too close to map edge.</TooCloseToMapEdge>
   <OutOfBounds>Out of bounds.</OutOfBounds>
@@ -75,8 +77,9 @@
   <InteractionSpotBlocked>Interaction spot is blocked by {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>Interaction spot is out of bounds.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>Interaction spot will be blocked by {0}.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} would block {1}'s interaction square.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} would block {1}'s interaction spot.</WouldBlockInteractionSpot>
   <TerrainIsAlready>The terrain here is already {0}.</TerrainIsAlready>
+  <TerrainBeingSmoothed>The terrain is already marked for smoothing.</TerrainBeingSmoothed>
   <IdenticalThingExists>Identical thing already exists here.</IdenticalThingExists>
   <IdenticalBlueprintExists>Identical blueprint already exists here.</IdenticalBlueprintExists>
   <TerrainCannotSupport>The terrain here cannot support this.</TerrainCannotSupport>

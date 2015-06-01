@@ -2,9 +2,10 @@
 <LanguageData>
 
   <JumpToLocation>Jump to location</JumpToLocation>
-
-  <FirstSummerWarning>Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store several months' worth of food now, while you still can.\n\nYou can build a walk-in refrigeration room to prevent food from spoiling.\n\nAnd try to buy, steal, or make some parkas, or you'll freeze when you step outside.</FirstSummerWarning>
   
+  <LetterLabelFirstSummerWarning>Summer</LetterLabelFirstSummerWarning>
+  <FirstSummerWarning>Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store several months' worth of food now, while you still can.\n\nYou can build a walk-in refrigeration room to prevent food from spoiling.\n\nAnd try to buy, steal, or make some parkas, or you'll freeze when you step outside.</FirstSummerWarning>
+
   <RelationsBrokenDown>Relations with {0} have broken down. They are now hostile to you.</RelationsBrokenDown>
   <RelationsWarmed>Relations have with {0} have warmed. They are no longer hostile to you.</RelationsWarmed>
 
@@ -14,28 +15,42 @@
   <Neutral>Neutral</Neutral>
 
   <ShortCircuitRain>A {0} has short-circuited in the rain and started a fire.</ShortCircuitRain>
+
+  <LetterLabelAreaRevealed>Area revealed</LetterLabelAreaRevealed>
   <AreaRevealed>A new area has been revealed.</AreaRevealed>
+  <AreaRevealedWithMechanoids>A new area has been revealed. It contains ancient, hostile mechanoids.</AreaRevealedWithMechanoids>
 
   <RoofCollapsed>A roof has collapsed because it was too far from any support.</RoofCollapsed>
   <TheseThingsCrushed>These things were crushed:</TheseThingsCrushed>
   <NothingCrushed>Nothing was crushed.</NothingCrushed>
+  <LetterLabelRoofCollapsed>Roof collapse</LetterLabelRoofCollapsed>
   
-  <MentalBreakRampage>{0} has had a mental break and is going on a rampage.</MentalBreakRampage>
-  <MentalBreakDaze>{0} has given up and is wandering around in a daze.</MentalBreakDaze>
-  <MentalBreakLeave>{0} has given up and is leaving the colony.</MentalBreakLeave>
-
-  <MentalBreakRecoveryRampage>{0}'s violent rampage has come to an end.</MentalBreakRecoveryRampage>
-  <MentalBreakRecoveryDaze>{0} is no longer dazed.</MentalBreakRecoveryDaze>
-  <MentalBreakRecoveryLeave>{0} has had a change of heart and is coming back to the colony.</MentalBreakRecoveryLeave>
-
   <RecruitSuccess>{0} successfully recruited {1} ({2} chance).</RecruitSuccess>
   <RecruitFail>{0} failed to recruit {1} ({2} chance).</RecruitFail>
-  
-  <Birthday>It's {0}'s birthday today! {1} just turned {2}.</Birthday>
-  <BirthdayWithInjuries>It's {0}'s birthday today! {1} just turned {2}.\n\nUnfortunately, {0} has gained the following diseases due to aging:\n{3}</BirthdayWithInjuries>
-  
+
+  <LetterLabelBirthday>Birthday</LetterLabelBirthday>
+  <BirthdayChronological>It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0} has reached the biological age of {1}.\n\nUnfortunately, {0} has gained the following diseases due to aging:\n{2}</BirthdayBiologicalAgeInjuries>
+
+  <LetterLabelNewDisease>Disease</LetterLabelNewDisease>
   <NewDisease>{0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {0} gets proper treatment and spends as much time in bed as possible.</NewDisease>
   <NewPartDisease>{0} has developed an infection in HIS {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {0} gets proper treatment and spends as much time in bed as possible.</NewPartDisease>
+
+  <LetterLabelAncientShrineWarning>Ancient danger</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>As {0} draws near the ancient wall, a sense of foreboding overcomes HIM. HECAP isn't sure why, but HE feels that this dusty structure may contain great danger.</AncientShrineWarning>
+
+  <StruckMineable>We have struck {0}!</StruckMineable>
+
+
+  <LetterLabelAnimalBerserkFromDamage>{0} revenge</LetterLabelAnimalBerserkFromDamage>
+  <AnimalBerserkFromDamage>A {0} has gone berserk after being harmed!</AnimalBerserkFromDamage>  
   
+  <!-- Generalized letter labels -->
+  <LetterLabelRelationsChangeGood>Good will</LetterLabelRelationsChangeGood>
+  <LetterLabelRelationsChangeBad>Bad will</LetterLabelRelationsChangeBad>
+  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelMentalBreakdown>Mental break</LetterLabelMentalBreakdown>
+
+
 
 </LanguageData>

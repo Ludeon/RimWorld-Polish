@@ -3,26 +3,16 @@
 
 	<ClickToJumpToProblem>Click to jump to problem</ClickToJumpToProblem>
 
-
-
-
-  <AlertNeedStockpile>Need stockpile</AlertNeedStockpile>
-  <AlertNeedStockpileDesc>Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left.</AlertNeedStockpileDesc>
-
-  <AlertUnforbidStartingResources>Unforbid resources</AlertUnforbidStartingResources>
-  <AlertUnforbidStartingResourcesDesc>Starting resources on the map are FORBIDDEN.\n\nFor colonists to take them, you must UNFORBID them by selecting them and hitting the UNFORBID command at the bottom of the screen.</AlertUnforbidStartingResourcesDesc>
-
-  <AlertEquipStartingWeapons>Equip weapons</AlertEquipStartingWeapons>
-  <AlertEquipStartingWeaponsDesc>Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip.</AlertEquipStartingWeaponsDesc>
+  
   
   <NeedSawmill>Need sawmill</NeedSawmill>
   <NeedSawmillDesc>You need some kind of sawmill to chop logs into more versatile wood planks.\n\nBuild a HAND SAWMILL or an ELECTRIC SAWMILL.</NeedSawmillDesc>
 
-  <MentalBreakSoon>Mental break soon</MentalBreakSoon>
-  <MentalBreakSoonDesc>These colonists are approaching the point of having a mental break:\n\n{0}\nImprove these colonists' psychology soon or bad things will happen.</MentalBreakSoonDesc>
+  <PoorMood>Poor mood</PoorMood>
+  <PoorMoodDesc>These colonists are in a poor mood and may have a soft mental break at any time:\n\n{0}\nCheck these colonists' Needs tab to see what's bothering them.</PoorMoodDesc>
 
-  <MentalBreakImminent>Mental break imminent</MentalBreakImminent>
-  <MentalBreakImminentDesc>These colonists are critically stressed and may have a mental break at any moment:\n\n{0}</MentalBreakImminentDesc>
+  <TerribleMood>Terrible mood</TerribleMood>
+  <TerribleMoodDesc>These colonists are critically stressed and may have a hard - and potentially violent - mental break at any moment:\n\n{0}\nCheck these colonists' Needs tab to see what's bothering them</TerribleMoodDesc>
 
   <ColonistNeedsRescue>Colonist needs rescue</ColonistNeedsRescue>
   <ColonistsNeedRescue>Colonists need rescue</ColonistsNeedRescue>
@@ -30,9 +20,6 @@
 
   <BuildARoom>Build a room</BuildARoom>
   <BuildARoomDesc>A room is composed of separate wall pieces with a door.\n\nUse the ARCHITECT menu at the bottom left of the screen to designate where you want things built. Once you designate something to be built, your colonists will do the work when they can.</BuildARoomDesc>
-
-  <NeedGrowingZone>Need growing zone</NeedGrowingZone>
-  <NeedGrowingZoneDesc>You have no growing zones.\n\nPlace a growing zone on fertile soil through the ARCHITECT menu.</NeedGrowingZoneDesc>
 
   <NeedDefenses>Need defenses</NeedDefenses>
   <NeedDefensesDesc>You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses.\n\nBuild some turrets.</NeedDefensesDesc>
@@ -84,6 +71,9 @@
   <BrawlerHasRangedWeapon>Brawler has ranged weapon</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy.</BrawlerHasRangedWeaponDesc>
 
+  <ShieldUserHasRangedWeapon>Shield user has ranged weapon</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeaponDesc>One of your colonists has a personal shield and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them).</ShieldUserHasRangedWeaponDesc>
+
   <NeedResearchProject>Need research project</NeedResearchProject>
   <NeedResearchProjectDesc>You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project.</NeedResearchProjectDesc>
   
@@ -97,10 +87,7 @@
   <ColonistsIdleDesc>These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do.</ColonistsIdleDesc>
 
   <HaltedConstructions>{0} constructions are missing materials</HaltedConstructions>
-  <HaltedConstructionsDesc>These constructions are missing materials:\n\n{0}\nYou should probably make required materials available for your colonists.</HaltedConstructionsDesc>
-
-  <TableNeedsChairs>Table needs chairs</TableNeedsChairs>
-  <TableNeedsChairsDesc>You have a table with no chairs next to it. Tables are useless unless people can sit at them.</TableNeedsChairsDesc>
+  <HaltedConstructionsDesc>These kinds of constructions are missing materials:\n\n{0}\nYou should probably make required materials available for your colonists.</HaltedConstructionsDesc>
 
   <ColonistNeedsTreatment>Colonist needs treatment</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.)</ColonistNeedsTreatmentDesc>
@@ -111,10 +98,14 @@
   <ColonistsAwaitingMedicalOperation>{0} colonists await medical operation</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>These colonists await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available.</ColonistsAwaitingMedicalOperationDesc>
 
+  <FireInHomeRegion>Fire!</FireInHomeRegion>
+  <FireInHomeRegionDesc>There is a fire in the home region.</FireInHomeRegionDesc>
+
   <PawnsWithLifeThreateningDisease>Severe illness</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get as much doctors care as possible.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical possible.</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
-  <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
-  
+  <BilliardsNeedsSpace>Billiards needs space</BilliardsNeedsSpace>
+  <BilliardsNeedsSpaceDesc>One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable.</BilliardsNeedsSpaceDesc>
+
 </LanguageData>
