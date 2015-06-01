@@ -7,7 +7,7 @@
     <Mine.gerund>mining</Mine.gerund>
     
     <Research.verb>research</Research.verb>
-    <Research.gerund>researching</Research.gerund>
+    <Research.gerund>researching at</Research.gerund>
     
     <PlantsCut.verb>cut</PlantsCut.verb>
     <PlantsCut.gerund>cutting</PlantsCut.gerund>
@@ -32,13 +32,21 @@
     <CleanFilth.verb>clean</CleanFilth.verb>
     <CleanFilth.gerund>cleaning</CleanFilth.gerund>
     
+    <!-- =========== Flick ============-->
+    
+    <Flick.verb>flick switch on</Flick.verb>
+    <Flick.gerund>flicking switch on</Flick.gerund>
+    
     <!-- ============= Hauling ============= -->
     
-    <HaulGeneral.verb>haul</HaulGeneral.verb>
-    <HaulGeneral.gerund>hauling</HaulGeneral.gerund>
+    <DoBillsCremate.verb>cremate</DoBillsCremate.verb>
+    <DoBillsCremate.gerund>cremating at</DoBillsCremate.gerund>
     
     <HaulCorpses.verb>haul</HaulCorpses.verb>
     <HaulCorpses.gerund>hauling</HaulCorpses.gerund>
+    
+    <HaulGeneral.verb>haul</HaulGeneral.verb>
+    <HaulGeneral.gerund>hauling</HaulGeneral.gerund>
     
     <!-- ============= Growing ============= -->
     
@@ -58,23 +66,26 @@
     
     <!-- ============= Doctor ============= -->
     
+    <DoctorTreatEmergency.verb>treat</DoctorTreatEmergency.verb>
+    <DoctorTreatEmergency.gerund>treating</DoctorTreatEmergency.gerund>
+    
+    <DoctorRescue.verb>rescue</DoctorRescue.verb>
+    <DoctorRescue.gerund>rescuing</DoctorRescue.gerund>
+    
+    <DoctorTreat.verb>treat</DoctorTreat.verb>
+    <DoctorTreat.gerund>treating</DoctorTreat.gerund>
+    
     <DoctorFeed.verb>feed</DoctorFeed.verb>
     <DoctorFeed.gerund>feeding</DoctorFeed.gerund>
     
-    <DoctorEmergencyHeal.verb>heal</DoctorEmergencyHeal.verb>
-    <DoctorEmergencyHeal.gerund>healing</DoctorEmergencyHeal.gerund>
+    <DoBillsMedicalHumanOperation.verb>operate</DoBillsMedicalHumanOperation.verb>
+    <DoBillsMedicalHumanOperation.gerund>operating on</DoBillsMedicalHumanOperation.gerund>
     
-    <DoctorHeal.verb>heal</DoctorHeal.verb>
-    <DoctorHeal.gerund>healing</DoctorHeal.gerund>
+    <DoBillsMedicalAnimalOperation.verb>operate</DoBillsMedicalAnimalOperation.verb>
+    <DoBillsMedicalAnimalOperation.gerund>operating on</DoBillsMedicalAnimalOperation.gerund>
     
     <TakeToBedToOperate.verb>take to operate</TakeToBedToOperate.verb>
     <TakeToBedToOperate.gerund>taking to operate</TakeToBedToOperate.gerund>
-    
-    <DoBillsMedicalHumanOperation.verb>operate</DoBillsMedicalHumanOperation.verb>
-    <DoBillsMedicalHumanOperation.gerund>operating</DoBillsMedicalHumanOperation.gerund>
-    
-    <DoBillsMedicalAnimalOperation.verb>operate</DoBillsMedicalAnimalOperation.verb>
-    <DoBillsMedicalAnimalOperation.gerund>operating</DoBillsMedicalAnimalOperation.gerund>
     
     <!-- ============= Construction ============= -->
     
@@ -98,8 +109,14 @@
     <DoBillsCook.verb>cook</DoBillsCook.verb>
     <DoBillsCook.gerund>cooking</DoBillsCook.gerund>
     
+    <DoBillsCookCampfire.verb>cook</DoBillsCookCampfire.verb>
+    <DoBillsCookCampfire.gerund>cooking</DoBillsCookCampfire.gerund>
+    
+    <DoBillsBrew.verb>brew</DoBillsBrew.verb>
+    <DoBillsBrew.gerund>brewing</DoBillsBrew.gerund>
+    
     <DoBillsButcherFlesh.verb>butcher</DoBillsButcherFlesh.verb>
-    <DoBillsButcherFlesh.gerund>butchering</DoBillsButcherFlesh.gerund>
+    <DoBillsButcherFlesh.gerund>butchering at</DoBillsButcherFlesh.gerund>
     
     <CookFillHopper.verb>fill</CookFillHopper.verb>
     <CookFillHopper.gerund>filling</CookFillHopper.gerund>
@@ -107,41 +124,38 @@
     <!-- ============= Crafting - art - sculpture ============= -->
     
     <FinishUnfinishedSculptures.verb>sculpt</FinishUnfinishedSculptures.verb>
-    <FinishUnfinishedSculptures.gerund>sculpting</FinishUnfinishedSculptures.gerund>
+    <FinishUnfinishedSculptures.gerund>sculpting at</FinishUnfinishedSculptures.gerund>
     
     <DoBillsSculpt.verb>sculpt</DoBillsSculpt.verb>
-    <DoBillsSculpt.gerund>sculpting</DoBillsSculpt.gerund>
+    <DoBillsSculpt.gerund>sculpting at</DoBillsSculpt.gerund>
     
     <!-- ==================================== Crafting ====================================== -->
     
-    <DoBillsCremate.verb>cremate</DoBillsCremate.verb>
-    <DoBillsCremate.gerund>cremating</DoBillsCremate.gerund>
-    
-    <!-- ============= Crafting - weapons ============= -->
+    <!-- ============= Crafting - Smithing ============= -->
     
     <FinishUnfinishedWeapons.verb>smith</FinishUnfinishedWeapons.verb>
-    <FinishUnfinishedWeapons.gerund>smithing</FinishUnfinishedWeapons.gerund>
+    <FinishUnfinishedWeapons.gerund>smithing at</FinishUnfinishedWeapons.gerund>
     
     <DoBillsMakeWeapons.verb>smith</DoBillsMakeWeapons.verb>
-    <DoBillsMakeWeapons.gerund>smithing</DoBillsMakeWeapons.gerund>
+    <DoBillsMakeWeapons.gerund>smithing at</DoBillsMakeWeapons.gerund>
     
     <!-- ============= Crafting - apparel ============= -->
     
     <FinishUnfinishedApparel.verb>tailor</FinishUnfinishedApparel.verb>
-    <FinishUnfinishedApparel.gerund>tailoring</FinishUnfinishedApparel.gerund>
+    <FinishUnfinishedApparel.gerund>tailoring at</FinishUnfinishedApparel.gerund>
     
     <DoBillsMakeApparel.verb>tailor</DoBillsMakeApparel.verb>
-    <DoBillsMakeApparel.gerund>tailoring</DoBillsMakeApparel.gerund>
+    <DoBillsMakeApparel.gerund>tailoring at</DoBillsMakeApparel.gerund>
     
     <!-- ============= Crafting - misc ============= -->
     
     <DoBillsStonecut.verb>stonecut</DoBillsStonecut.verb>
-    <DoBillsStonecut.gerund>stonecutting</DoBillsStonecut.gerund>
+    <DoBillsStonecut.gerund>stonecutting at</DoBillsStonecut.gerund>
     
     <DoBillsSlagRefining.verb>refine</DoBillsSlagRefining.verb>
-    <DoBillsSlagRefining.gerund>refining</DoBillsSlagRefining.gerund>
+    <DoBillsSlagRefining.gerund>refining at</DoBillsSlagRefining.gerund>
     
     <DoBillsButcherMechanoid.verb>disassemble</DoBillsButcherMechanoid.verb>
-    <DoBillsButcherMechanoid.gerund>disassembling</DoBillsButcherMechanoid.gerund>
+    <DoBillsButcherMechanoid.gerund>disassembling at</DoBillsButcherMechanoid.gerund>
     
 </LanguageData>
