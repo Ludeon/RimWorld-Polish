@@ -48,7 +48,6 @@ def writefooter(filename):
     """
     filename.write('</LanguageData>\n')
 
-
 # Save the arguments
 arguments = sys.argv[1:]
 # Parse the arguments and look for the -h option
@@ -144,6 +143,18 @@ if os.path.exists(defsDir):
                     elif '<quotation>' in line or '<Quotation>' in line:
                         haslabels = True
                         break
+                    elif '<beginLetterLabel>' in line or '<BeginLetterLabel>' in line:
+                        haslabels = True
+                        break
+                    elif '<beginLetter>' in line or '<BeginLetter>' in line:
+                        haslabels = True
+                        break
+                    elif '<recoveryMessage>' in line or '<RecoveryMessage>' in line:
+                        haslabels = True
+                        break
+                    elif '<inspectLine>' in line or '<InspectLine>' in line:
+                        haslabels = True
+                        break
 
                 # If the file has something to traslate
                 if haslabels:
@@ -223,7 +234,7 @@ if os.path.exists(defsDir):
                                     template = re.findall('<gerund>(.*?)</gerund>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
                                 elif '<deathMessage>' in line or '<DeathMessage>' in line:
-                                    labelType = 'gerund'
+                                    labelType = 'deathMessage'
                                     template = re.findall('<deathMessage>(.*?)</deathMessage>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
                                 elif '<pawnsPlural>' in line or '<PawnsPlural>' in line:
@@ -237,6 +248,36 @@ if os.path.exists(defsDir):
                                 elif '<quotation>' in line or '<Quotation>' in line:
                                     labelType = 'quotation'
                                     template = re.findall('<quotation>(.*?)</quotation>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<beginLetterLabel>' in line or '<BeginLetterLabel>' in line:
+                                    labelType = 'beginLetterLabel'
+                                    template = \
+                                        re.findall('<beginLetterLabel>(.*?)</beginLetterLabel>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<beginLetter>' in line or '<BeginLetter>' in line:
+                                    labelType = 'beginLetter'
+                                    template = re.findall('<beginLetter>(.*?)</beginLetter>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<recoveryMessage>' in line or '<RecoveryMessage>' in line:
+                                    labelType = 'recoveryMessage'
+                                    template = \
+                                        re.findall('<recoveryMessage>(.*?)</recoveryMessage>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<inspectLine>' in line or '<InspectLine>' in line:
+                                    labelType = 'inspectLine'
+                                    template = re.findall('<inspectLine>(.*?)</inspectLine>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<graphLabelY>' in line or '<GraphLabelY>' in line:
+                                    labelType = 'graphLabelY'
+                                    template = re.findall('<graphLabelY>(.*?)</graphLabelY>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<labelMechanoids>' in line or '<LabelMechanoids>' in line:
+                                    labelType = 'labelMechanoids'
+                                    template = re.findall('<labelMechanoids>(.*?)</labelMechanoids>', line, re.IGNORECASE)[0]
+                                    writedeflabel(defInjectFile, labelType, defName, template)
+                                elif '<labelShort>' in line or '<LabelShort>' in line:
+                                    labelType = 'labelShort'
+                                    template = re.findall('<labelShort>(.*?)</labelShort>', line, re.IGNORECASE)[0]
                                     writedeflabel(defInjectFile, labelType, defName, template)
 
                             # Move to the next line in the template
@@ -269,4 +310,5 @@ if os.path.exists(defsDir):
 # print an error
 else:
     print("Invalid RimWorld installation folder")
-    sys.exit(2)
+    sys
+exit(2)
