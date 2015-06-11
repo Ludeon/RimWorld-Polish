@@ -3,23 +3,23 @@
     
     <BloodLoss.label>blood loss</BloodLoss.label>
     <rep>
-        <path>BloodLoss.stagedProps.severityStages[0].label</path>
+        <path>BloodLoss.stages[0].label</path>
         <trans>trivial</trans>
     </rep>
     <rep>
-        <path>BloodLoss.stagedProps.severityStages[1].label</path>
+        <path>BloodLoss.stages[1].label</path>
         <trans>minor</trans>
     </rep>
     <rep>
-        <path>BloodLoss.stagedProps.severityStages[2].label</path>
+        <path>BloodLoss.stages[2].label</path>
         <trans>moderate</trans>
     </rep>
     <rep>
-        <path>BloodLoss.stagedProps.severityStages[3].label</path>
+        <path>BloodLoss.stages[3].label</path>
         <trans>severe</trans>
     </rep>
     <rep>
-        <path>BloodLoss.stagedProps.severityStages[4].label</path>
+        <path>BloodLoss.stages[4].label</path>
         <trans>extreme</trans>
     </rep>
     
@@ -30,5 +30,31 @@
     <CryptosleepSickness.label>cryptosleep sickness</CryptosleepSickness.label>
     
     <FoodPoisoning.label>food poisoning</FoodPoisoning.label>
+    
+    <ToxicBuildup.label>toxic buildup</ToxicBuildup.label>
+    <rep>
+        <path>ToxicBuildup.stages[0].label</path>
+        <trans>initial-hidden</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[1].label</path>
+        <trans>initial</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[2].label</path>
+        <trans>minor</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[3].label</path>
+        <trans>moderate</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[4].label</path>
+        <trans>serious</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[5].label</path>
+        <trans>extreme</trans>
+    </rep>
     
 </LanguageData>
