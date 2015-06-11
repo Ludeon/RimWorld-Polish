@@ -48,22 +48,28 @@
   <TurningOffPrisonerBedWarning>Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOffPrisonerBedWarning>
   <AreYouSure>Are you sure you want to do this?</AreYouSure>
 
-  
-  
-  <CommandDetonateDesc>Start the countdown to detonation.</CommandDetonateDesc>
   <CommandDetonateLabel>Detonate</CommandDetonateLabel>
+  <CommandDetonateDesc>Start the countdown to detonation.</CommandDetonateDesc>
 
-  <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>Rename</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
 
-  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
   <CommandHideZoneLabel>Hide</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
+  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
 
-  <CommandDeleteZoneDesc>Delete this zone.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Delete</CommandDeleteZoneLabel>
-  
-  
+  <CommandDeleteZoneDesc>Delete this zone.</CommandDeleteZoneDesc>
+
+  <CommandCopyZoneSettingsLabel>Copy settings</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Copy this zone's settings to the clipboard so you can paste them onto another zone.</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>Paste settings</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Overwrite this zone's settings with those previously copied to the clipboard.</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>Allow sowing</CommandAllowSow>
+  <CommandAllowSowDesc>When disabled, colonists will never sow plants in this zone. They will still harvest.</CommandAllowSowDesc>
+
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Set forced target</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Sets a target that this turret must attack continuously as long as it can.</CommandSetForceAttackTargetDesc>
@@ -87,8 +93,11 @@
   <CommandPodEjectFailEmpty>Contains nobody.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  <CommandToggleDoorLock>Toggle locked</CommandToggleDoorLock>
-  <CommandToggleDoorLockDesc>Lock or unlock a door. Locked doors will not open for anyone.</CommandToggleDoorLockDesc>
+  <CommandToggleDoorForbid>Passage forbidden</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorHoldOpen>Hold open</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>When active, your colonists will not close the door. If the door is automatic and powered, it will open.</CommandToggleDoorHoldOpenDesc>
+
 
   <!-- Temperature control -->
   <CommandResetTemp>Reset</CommandResetTemp>
@@ -108,4 +117,8 @@
   <CommandSunLampMakeGrowingZoneDesc>Create a growing zone around this building exactly matching the shape of the lamp's light radius.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Create growing zone</CommandSunLampMakeGrowingZoneLabel>
 
+  <!-- Trap -->
+  <CommandAutoRearm>Auto Rearm</CommandAutoRearm>
+  <CommandAutoRearmDesc>If this is on, this trap will automatically be designated for rearming when it springs.</CommandAutoRearmDesc>
+  
 </LanguageData>

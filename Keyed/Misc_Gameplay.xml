@@ -33,14 +33,18 @@
   <Inventory>Inventory</Inventory>
   <ThingInfo>Information</ThingInfo>
   <DropThing>Drop</DropThing>
+  <Rename>Rename</Rename>
   <RenameColonist>Rename colonist</RenameColonist>
   <UnknownLower>unknown</UnknownLower>
   <On>On</On>
   <Off>Off</Off>
   <PowerSwitch_Power>Power</PowerSwitch_Power>
-  <AreaLower>area</AreaLower>
   <JoyTolerances>Joy tolerances</JoyTolerances>
   <BrokenLetterLabel>Broken</BrokenLetterLabel>
+  <AreaDefaultLabel>Area {0}</AreaDefaultLabel>
+  <NoAreaAllowed>Unrestricted</NoAreaAllowed>
+  <NewArea>New area</NewArea>
+  <InvertArea>Invert</InvertArea>
   
   <!-- Control -->
   <CannotOrderNonControlled>Cannot order non-controlled units.</CannotOrderNonControlled>
@@ -66,6 +70,14 @@
 	<ReportHauling>Hauling {0}.</ReportHauling>
   <ReportSleeping>Sleeping.</ReportSleeping>
   <ReportResting>Resting.</ReportResting>
+  <WatchingSunrise>Watching the sunrise</WatchingSunrise>
+  <CloudWatching>Cloudwatching</CloudWatching>
+  <WatchingSunset>Watching the sunset</WatchingSunset>
+  <Stargazing>Stargazing</Stargazing>
+  <WatchingEclipse>Watching the eclipse</WatchingEclipse>
+  <DeliveringFood>Delivering food to {0}.</DeliveringFood>
+  <UsingVerb>Using {0} on {1}.</UsingVerb>
+  <AreaLower>area</AreaLower>
   
 	<!-- Shooting report -->
   <WeaponMissRadius>Weapon miss radius</WeaponMissRadius>
@@ -175,10 +187,11 @@
   <!-- Zones -->
   <Zone>Zone</Zone>
   <GrowingZone>Growing zone</GrowingZone>
-  <Stockpile>Stockpile</Stockpile>
-  <DumpingStockpile>Dumping stockpile</DumpingStockpile>
+  <Stockpile>Stockpile zone</Stockpile>
+  <DumpingStockpile>Dumping stockpile zone</DumpingStockpile>
   <Priority>Priority</Priority>
   <ClearAll>Clear all</ClearAll>
+  <AllowAll>Allow all</AllowAll>
 
   <!-- ThingFilter -->
 	<HitPoints>{0} hit points</HitPoints>
@@ -191,7 +204,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Toggle visiblity of zones.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
-  <AutoHomeRegionToggleButton>Toggle automatically adding the home region around new constructions.</AutoHomeRegionToggleButton>
+  <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
 
   <!-- Fire -->
@@ -269,11 +282,9 @@
   <!-- Generic lifespan -->
   <LifespanExpiry>Expires in:</LifespanExpiry>
 
-  <!-- JobDriver reports -->
-  <WatchingSunrise>Watching the sunrise</WatchingSunrise>
-  <CloudWatching>Cloudwatching</CloudWatching>
-  <WatchingSunset>Watching the sunset</WatchingSunset>
-  <Stargazing>Stargazing</Stargazing>
-  <WatchingEclipse>Watching the eclipse</WatchingEclipse>
-
+  <!-- Traps -->
+  <TrapArmed>Armed</TrapArmed>
+  <TrapNotArmed>Not armed</TrapNotArmed>
+  <TrapRearmingCost>Rearming cost: {0}</TrapRearmingCost>
+  
 </LanguageData>

@@ -4,6 +4,7 @@
 
   
 	<CallOnRadio>Call {0}</CallOnRadio>
+  <CannotUseReason>Cannot use ({0})</CannotUseReason>
 	<CannotUseSolarFlare>Cannot use (solar flare)</CannotUseSolarFlare>
 	<CannotUseNoPower>Cannot use (no power)</CannotUseNoPower>
 	<CannotUseNoPath>Cannot use (no path)</CannotUseNoPath>
@@ -29,6 +30,7 @@
 	<NoEmptyPlaceLower>no empty place configured to store it</NoEmptyPlaceLower>
 	<AlreadyFilledLower>already filled enough</AlreadyFilledLower>
 	<MissingMaterials>need materials</MissingMaterials>
+  <MissingSkill>skill too low</MissingSkill>
 
 
   <ConsumeThing>Consume {0}</ConsumeThing>
@@ -51,13 +53,14 @@
   <CannotCarryToCryptosleepCasket>Cannot carry to cryptosleep casket</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>No available cryptosleep casket.</NoCryptosleepCasket>
-  <NoPrisonerBed>No available enclosed prisoner-marked bed.</NoPrisonerBed>
-  <NoNonPrisonerBed>No available usable non-prisoner bed.</NoNonPrisonerBed>
+  <NoPrisonerBed>No reachable, un-reserved, enclosed prisoner-marked bed.</NoPrisonerBed>
+  <NoNonPrisonerBed>No reachable, un-reserved non-prisoner bed.</NoNonPrisonerBed>
   <Reserved>Reserved by someone else.</Reserved>
   <ReservedBy>Reserved by {0}</ReservedBy>
   <IsReservedBy>{0} is reserved by {1}.</IsReservedBy>
 
   <Incapable>incapable</Incapable>
+  <IncapableOfCapacity>incapable of {0}</IncapableOfCapacity>
 
   <Equip>Equip {0}</Equip>
   <EquipWarningBrawler>(brawler will be unhappy)</EquipWarningBrawler>
@@ -75,7 +78,7 @@
   <SelfDestructHere>Self-destruct here</SelfDestructHere>
   
   <Drop>Drop {0}</Drop>
-  
+
   <UseMedicalBed>Rest until healed</UseMedicalBed>
   <NotInjured>Not injured</NotInjured>
   <SomeoneElseSleeping>Occupied</SomeoneElseSleeping>
@@ -90,7 +93,7 @@
   <CannotGenericWork>Cannot {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>Cannot prioritize (Health problem: {0})</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Cannot prioritize (incapable of {0})</CannotMissingHealthActivities>
 
   <CannotGenericAlreadyAm>Already {0} {1}</CannotGenericAlreadyAm>
 

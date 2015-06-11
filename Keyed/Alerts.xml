@@ -9,11 +9,11 @@
   <NeedSawmillDesc>You need some kind of sawmill to chop logs into more versatile wood planks.\n\nBuild a HAND SAWMILL or an ELECTRIC SAWMILL.</NeedSawmillDesc>
 
   <PoorMood>Poor mood</PoorMood>
-  <PoorMoodDesc>These colonists are in a poor mood and may have a soft mental break at any time:\n\n{0}\nCheck these colonists' Needs tab to see what's bothering them.</PoorMoodDesc>
-
+  <PoorMoodDesc>These colonists are in a poor mood and may have a soft mental break at any time:\n\n{0}</PoorMoodDesc>
   <TerribleMood>Terrible mood</TerribleMood>
-  <TerribleMoodDesc>These colonists are critically stressed and may have a hard - and potentially violent - mental break at any moment:\n\n{0}\nCheck these colonists' Needs tab to see what's bothering them</TerribleMoodDesc>
-
+  <TerribleMoodDesc>These colonists are critically stressed and may have a hard - and potentially violent - mental break at any moment:\n\n{0}</TerribleMoodDesc>
+  <LowMoodDescEnding>Check these colonists' Needs tab to see what's bothering them.</LowMoodDescEnding>
+  
   <ColonistNeedsRescue>Colonist needs rescue</ColonistNeedsRescue>
   <ColonistsNeedRescue>Colonists need rescue</ColonistsNeedRescue>
   <ColonistsNeedRescueDesc>  These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.</ColonistsNeedRescueDesc>
@@ -34,7 +34,7 @@
   <NeedWardenDesc>You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type.</NeedWardenDesc>
 
   <LowFood>Low food</LowFood>
-  <LowFoodDesc>You only have {0} nutrition worth of food in storage. This is dangerously low.\n\nGrow, buy, find, or kill some food.</LowFoodDesc>
+  <LowFoodDesc>You only have {0} full bars worth of food in storage. This is dangerously low.\n\nGrow, buy, find, or kill some food.</LowFoodDesc>
 
   <NeedColonistBeds>Need colonist beds</NeedColonistBeds>
   <NeedColonistBedsDesc>You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly.</NeedColonistBedsDesc>
@@ -59,8 +59,8 @@
   <NeedMealSource>Need meal source</NeedMealSource>
   <NeedMealSourceDesc>You have no way of preparing proper meals from raw food.\n\nBuild a nutrient paste dispenser or a cook stove.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.)</NeedMealSourceDesc>
 
-  <NeedHomeRegion>Need home region</NeedHomeRegion>
-  <NeedHomeRegionDesc>You need to define a HOME REGION where your colonists will clean, extinguish fires, and repair things.\n\nDefine a home region using the ZONES section of the ARCHITECT menu.</NeedHomeRegionDesc>
+  <NeedHomeArea>Need home area</NeedHomeArea>
+  <NeedHomeAreaDesc>You need to define a HOME AREA where your colonists will clean, extinguish fires, and repair things.\n\nDefine a home area using the ZONES section of the ARCHITECT menu.</NeedHomeAreaDesc>
 
   <NeedBatteries>Need batteries</NeedBatteries>
   <NeedBatteriesDesc>You only have solar generators and no batteries. This means you'll lose power every time the sun goes down.\n\nBuild a battery or two to get you through the night.</NeedBatteriesDesc>
@@ -80,15 +80,19 @@
   <NeedDump>Need dump</NeedDump>
   <NeedDumpDesc>You have marked {0} to be hauled, but the colonists have nowhere to take it.\n\nDesignate a stockpile and set its storage settings to accept {0}.</NeedDumpDesc>
 
+  <!-- Removed
   <NeedGrave>Need grave</NeedGrave>
   <NeedGraveDesc>There is a dead body laying on the ground and nowhere for your colonists to take it.\n\nBuild a grave or a dumping zone and set their storage settings.</NeedGraveDesc>
+  -->
 
   <ColonistsIdle>{0} colonists idle</ColonistsIdle>
   <ColonistsIdleDesc>These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do.</ColonistsIdleDesc>
 
+  <!-- Removed
   <HaltedConstructions>{0} constructions are missing materials</HaltedConstructions>
   <HaltedConstructionsDesc>These kinds of constructions are missing materials:\n\n{0}\nYou should probably make required materials available for your colonists.</HaltedConstructionsDesc>
-
+  -->
+  
   <ColonistNeedsTreatment>Colonist needs treatment</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.)</ColonistNeedsTreatmentDesc>
 
@@ -98,8 +102,8 @@
   <ColonistsAwaitingMedicalOperation>{0} colonists await medical operation</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>These colonists await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available.</ColonistsAwaitingMedicalOperationDesc>
 
-  <FireInHomeRegion>Fire!</FireInHomeRegion>
-  <FireInHomeRegionDesc>There is a fire in the home region.</FireInHomeRegionDesc>
+  <FireInHomeArea>Fire!</FireInHomeArea>
+  <FireInHomeAreaDesc>There is a fire in the home area.</FireInHomeAreaDesc>
 
   <PawnsWithLifeThreateningDisease>Severe illness</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical possible.</PawnsWithLifeThreateningDiseaseDesc>

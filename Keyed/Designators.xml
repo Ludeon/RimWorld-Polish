@@ -38,23 +38,20 @@
   <DesignatorPlanRemove>Remove plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Remove planning designations.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionAdd>Add Home Region</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Colonists will repair buildings, clean floors, and extinguish fires only in the home region.</DesignatorHomeRegionAddDesc>
+  <DesignatorAreaHomeExpand>Expand Home Area</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Colonists will repair buildings, clean floors, and extinguish fires only in the home area.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Clear Home Area</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Removes a home area. Colonists will no longer clean, repair, or extinguish fires here.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorHomeRegionRemove>Remove Home Region</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Removes a home region. Colonists will no longer clean, repair, or extinguish fires here.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorAreaNoRoofExpand>Expand No Roof Area</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Create an area where roofs will not generate. This will also tear down existing thin roofs.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Clear No Roof Area</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Removes a no-roof area. Roofs will generate here, and existing roofs will not be torn down.</DesignatorAreaNoRoofClearDesc>
 
-  <DesignatorRegionNoRoofAdd>Add No Roof Region</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Create a region where roofs will not generate. Colonists will also tear down existing roofs here.</DesignatorRegionNoRoofAddDesc>
-
-  <DesignatorRegionNoRoofRemove>Remove No Roof Region</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Removes a no-roof region. Roofs will generate here, and existing roofs will not be torn down.</DesignatorRegionNoRoofRemoveDesc>
-
-  <DesignatorRegionSnowClearAdd>Add Snow Clear Region</DesignatorRegionSnowClearAdd>
-  <DesignatorRegionSnowClearAddDesc>Create a region which colonists will try to keep clear of snow.</DesignatorRegionSnowClearAddDesc>
-
-  <DesignatorRegionSnowClearRemove>Remove Snow Clear Region</DesignatorRegionSnowClearRemove>
-  <DesignatorRegionSnowClearRemoveDesc>Removes a snow clearing. Colonists will no longer try to keep this area clear of snow.</DesignatorRegionSnowClearRemoveDesc>
+  <DesignatorAreaSnowClearExpand>Expand Snow Clear Area</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Create a area which colonists will try to keep clear of snow.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>Clear Snow Clear Area</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorGrowingZoneDesc>Create a zone where your colonists will try to grow a certain kind of plant.</DesignatorGrowingZoneDesc>
 
@@ -67,8 +64,23 @@
   
   <DesignatorClaim>Claim</DesignatorClaim>
   <DesignatorClaimDesc>Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists.</DesignatorClaimDesc>
-  
-  
+
+  <DesignatorRemoveFloor>Remove floor</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Remove floors to reveal the terrain underneath.</DesignatorRemoveFloorDesc>
+
+  <DesignatorStrip>Strip</DesignatorStrip>
+  <DesignatorStripDesc>Strip apparel from corpses and the wounded.</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>Rearm trap</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Rearm a sprung trap so it can be triggered again.</DesignatorRearmTrapDesc>
+
+  <DesignatorExpandAreaAllowed>Expand Allowed Area</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Clear Allowed Area</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area.</DesignatorClearAreaAllowedDesc>
+  <ManageAreaAlloweds>Manage allowed areas...</ManageAreaAlloweds>
+
+
   <!-- Failure messages -->
   <UnchosenStuff>Unchosen material</UnchosenStuff>
   <TooCloseToMapEdge>Too close to map edge.</TooCloseToMapEdge>
@@ -84,15 +96,15 @@
   <IdenticalBlueprintExists>Identical blueprint already exists here.</IdenticalBlueprintExists>
   <TerrainCannotSupport>The terrain here cannot support this.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Space already occupied.</SpaceAlreadyOccupied>
-
+  <TerrainMustBeRemovable>Must target a removable floor.</TerrainMustBeRemovable>
   
   
-  <!-- placement of zones -->
+  <!-- Mouse attachments -->
   <ExpandOrCreateZone>Expand {0} or\nCreate new {1}</ExpandOrCreateZone>
   <CreateNewZone>Create new {0}</CreateNewZone>
   
   
-  <!-- desc helpers -->
+  <!-- Desc helpers -->
   <TransmitsPower>Transmits power</TransmitsPower>
 
 

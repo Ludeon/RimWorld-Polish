@@ -16,25 +16,30 @@
   <SavedAs>Saved as {0}.</SavedAs>
   <NeedAName>Please enter a name.</NeedAName>
   <LoadingLongEvent>Loading...</LoadingLongEvent>
-  
+  <SaveIsFromDifferentGameVersion>We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
   
   <!-- Colony naming-->
-  <NameColonyMessage>Everyone knows that you don't want to stay on this rock for long. But {0} is suggesting that you give the colony a name anyway.\n\nWhat should it be called?</NameColonyMessage>
+  <NameColonyMessage>It looks like you'll be here for a while. {0} is suggesting that you give the colony a name.\n\nWhat should it be called?</NameColonyMessage>
   <ColonyGainsName>The colony is now known as {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>That colony name isn't valid.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
+  <!-- Renaming -->
+  <NameIsInvalid>Please enter a valid name.</NameIsInvalid>
+  <NameIsInUse>Name is already in use.</NameIsInUse>
   <ZoneGainsName>The zone is now called {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Please enter a valid zone name.</ZoneNameIsInvalid>
   
   <!-- Pawn naming -->
   <PawnGainsName>The colonist nick-name is now {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Version mismatch</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Warning: This map was saved with game version {0}, but we are running version {1}.\n\nLoading this save will probably cause bugs and crashes.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Warning: This world was generated with game version {0}, but we are running version {1}.\n\nLoading this world will probably cause bugs and crashes. We recommend you generate a new world from scratch.</WorldFileVersionMismatch>
-
+  <SaveGameIncompatibleWarningText>Map was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch.</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
@@ -99,6 +104,7 @@
   <Accuracy>Accuracy</Accuracy>
   <BurstShotCount>Burst shot count</BurstShotCount>
   <WarmupTime>Warmup</WarmupTime>
+  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
   <CooldownTime>Cooldown</CooldownTime>
   <BurstShotFireRate>Fire rate</BurstShotFireRate>
   <Range>Range</Range>
