@@ -15,6 +15,7 @@ Currently working on translation:
 - t3m4
 - TralalAlf
 - maxdyner
+- "Reco" Mateusz Zaborski
 
 PAST PROJECT CREW:
 
