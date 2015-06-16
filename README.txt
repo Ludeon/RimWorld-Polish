@@ -16,7 +16,7 @@ Currently working on translation:
 - t3m4
 - TralalAlf
 - maxdyner
-- "Reco" Mateusz Zaborski (Alpha 9 to 11 Update)
+- "Reco" Mateusz Zaborski (Alpha 9 to 11 Update) [reco754@gmail.com]
 
 PAST PROJECT CREW:
 
