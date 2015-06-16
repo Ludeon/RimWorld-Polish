@@ -6,6 +6,7 @@ A Polish translation for RimWorld.
 See this page for license info:
 
 http://ludeon.com/forums/index.php?topic=2933.0
+
 ===========
 
 Currently working on translation:
@@ -15,7 +16,7 @@ Currently working on translation:
 - t3m4
 - TralalAlf
 - maxdyner
-- "Reco" Mateusz Zaborski
+- "Reco" Mateusz Zaborski (Alpha 9 to 11 Update)
 
 PAST PROJECT CREW:
 
