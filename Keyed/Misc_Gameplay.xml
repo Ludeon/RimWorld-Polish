@@ -33,14 +33,21 @@
   <Inventory>Inwentarz</Inventory>
   <ThingInfo>Informacja</ThingInfo>
   <DropThing>Wyrzuć</DropThing>
+  <Rename>Przemianuj</Rename>
   <RenameColonist>Nadaj przydomek</RenameColonist>
   <UnknownLower>nieznane</UnknownLower>
   <On>Włączone</On>
   <Off>Wyłączone</Off>
   <PowerSwitch_Power>Zasilanie</PowerSwitch_Power>
+  <JoyTolerances>Tolerancja radości</JoyTolerances>
+  <BrokenLetterLabel>Złamany</BrokenLetterLabel>
+  <AreaDefaultLabel>Obszar {0}</AreaDefaultLabel>
+  <NoAreaAllowed>Nieograniczony</NoAreaAllowed>
+  <NewArea>Nowy obszar</NewArea>
+  <InvertArea>Odwracać</InvertArea>
   
   <!-- Control -->
-  <CannotOrderNonControlled>Nie można rozkazywać nie kontrolowanym jednostką.</CannotOrderNonControlled>
+  <CannotOrderNonControlled>Nie można rozkazywać nie kontrolowanym jednostkom.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} jest niezdolny do przemocy.</IsIncapableOfViolence>
   <IsNotDrafted>{0} nie został powołany..</IsNotDrafted>
   
@@ -51,21 +58,27 @@
   <SnowMedium>Śnieg (średnio)</SnowMedium>
   <SnowThick>Śnieg (dużo)</SnowThick>
 
-  
-    <!-- Turrets -->
+  <!-- Turrets -->
   <GunInstalled>Zainstalowano: </GunInstalled>
   <MinimumRange>Min. zasięg: </MinimumRange>
   <CanFireIn>Przeładuje się za: </CanFireIn>
   <ShellLoaded>Załadowany</ShellLoaded>
   <ShellNotLoaded>Nie załadowany</ShellNotLoaded>
   
-
-    <!-- Job reports -->
+  <!-- Job reports -->
 	<ReportHaulingTo>Transportuje {0} do {1}.</ReportHaulingTo>
 	<ReportHauling>Transportuje {0}.</ReportHauling>
   <ReportSleeping>Śpi.</ReportSleeping>
   <ReportResting>Idzie spać.</ReportResting>
-
+  <WatchingSunrise>Watching the sunrise</WatchingSunrise>
+  <CloudWatching>Ogląda chmury</CloudWatching>
+  <WatchingSunset>Ogląda zachód słońca</WatchingSunset>
+  <Stargazing>Ogląda gwiazdy</Stargazing>
+  <WatchingEclipse>Obserwuje zaćmienie</WatchingEclipse>
+  <DeliveringFood>Dostarcza żywność do {0}.</DeliveringFood>
+  <UsingVerb>Używa {0} na {1}.</UsingVerb>
+  <AreaLower>obszar</AreaLower>
+  
 	<!-- Shooting report -->
     <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
 	<ShootReportSkill>Umiejętność</ShootReportSkill>
@@ -82,18 +95,6 @@
   <RecipeMake>Robi {0}</RecipeMake>
   <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
   
-	<!-- Status levels -->
-  <Mood>Nastrój</Mood>
-  <MoodTip>Nastrój zależy od poziomu zaspokojenia psychicznych i fizycznych potrzeb. \n\nJeżeli nastrój kolonisty spadnie zbyt nisko, może się załamać psychicznie.</MoodTip>
-  <Food>Jedzenie</Food>
-  <FoodTip>Jedzenie określa, jak bardzo ktoś jest usatysfakcjonowany jedzeniem, które spożywa.\n\nResetuje się, gdy ktoś spożył posiłek, aby po chwili spadać aż do momentu, gdy zje kolejny. Jeśli spadnie do zera, osoba zacznie odczuwać obrażenia wywołane głodem.</FoodTip>
-  <Rest>Odpoczynek</Rest>
-  <RestTip>Odpoczynek określa, jak dobrze ktoś wypoczął.\n\nWzrasa do maksimum gdy ktoś odpoczywa w łóżku. Gdy osoba nie odpoczywa, spada do zera.</RestTip>
-  <Environment>Środowisko</Environment>
-  <EnvironmentTip>Środowisko określa, jak bardzo ktoś jest usatysfakcjonowany okolicą, w której przebywa.\n\nJest wysokie, gdy koloniści mieszkają w przestronnych i udekorowanych pomieszczeniach. Jest niskie, jeśli okolica jest brzydka.</EnvironmentTip>
-  <Openness>Otwartość</Openness>
-  
-
   <!-- Thoughts -->
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
@@ -101,7 +102,6 @@
   <MentalBreakThresholdHard>Poziom ciężkiego załamania nerwowego</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
 
-  
   <!-- Pawn info readout -->
   <Health>Życie</Health>
   <PawnMainDescWithFactionGendered>{0} {1} z {2}</PawnMainDescWithFactionGendered>
@@ -159,7 +159,6 @@
   <StoragePriorityImportant>Istotny</StoragePriorityImportant>
   <StoragePriorityCritical>Krytyczny</StoragePriorityCritical>
 
-
   <!-- Rotting -->
   <CurrentlyFrozen>Zamrożone (nie zepsuje się)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Schłodzone (zepsuje się za {0})</CurrentlyRefrigerated>
@@ -194,10 +193,15 @@
   <Priority>Priorytet</Priority>
   <ClearAll>Wyczyść</ClearAll>
   
+  <!-- ThingFilter -->
+	<HitPoints>{0} punktów obrażeń</HitPoints>
+	<AnyQuality>Jakakolwiek jakość</AnyQuality>
+	<OnlyQuality>{0} tylko</OnlyQuality>
+  
   <!-- Mouseover indicator -->
   <Undiscovered>Nieodkryte</Undiscovered>
   
-    <!-- Buttons -->
+  <!-- Buttons -->
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
   <AutoHomeRegionToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeRegionToggleButton>
@@ -221,7 +225,9 @@
   <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
-  
+    <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
+	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Zablokowane przez dach</WindTurbine_WindPathIsBlockedByRoof>
@@ -273,6 +279,12 @@
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Główne menu</GameOverMainMenu>
   
-  
+  <!-- Generic lifespan -->
+  <LifespanExpiry>Wygasa w:</LifespanExpiry>
+
+  <!-- Traps -->
+  <TrapArmed>Uzbrojony</TrapArmed>
+  <TrapNotArmed>nie uzbrojony</TrapNotArmed>
+  <TrapRearmingCost>Koszt przezbrojenia: {0}</TrapRearmingCost>
   
 </LanguageData>

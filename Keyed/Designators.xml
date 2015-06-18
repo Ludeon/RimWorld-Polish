@@ -10,9 +10,12 @@
   <DesignatorDeconstruct>Rozbierz</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Rozbierz konstrukcje i odzyskaj część zasobów.</DesignatorDeconstructDesc>
 
+  <DesignatorUninstall>Odinstaluj</DesignatorUninstall>
+  <DesignatorUninstallDesc>Odinstalowanie pozwoli ci na przeniesienie, sprzedanie lub instalacje czegoś w innym miejscu.</DesignatorUninstallDesc>
+
   <DesignatorHarvest>Zbieraj plony</DesignatorHarvest>
   <DesignatorHarvestDesc>Oznacz rośliny do zebrania. Żywność zostanie zebrana z roślin, ale same rośliny nie zostaną zniszczone.</DesignatorHarvestDesc>
-  
+
   <DesignatorHarvestWood>Rąb drzewo</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Oznacz drzewa do porąbania na drewno.</DesignatorHarvestWoodDesc>
 
@@ -25,7 +28,7 @@
 
   <DesignatorMine>Kop</DesignatorMine>
   <DesignatorMineDesc>Oznacz obszar skał, który ma zostać wykopany.</DesignatorMineDesc>
-  
+
   <DesignatorSmoothFloor>Wygładź podłogę</DesignatorSmoothFloor>
   <DesignatorSmoothFloorDesc>Oznacz nierówny obszar do wygładzenia.</DesignatorSmoothFloorDesc>
 
@@ -35,23 +38,20 @@
   <DesignatorPlanRemove>Usuń plany</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Usuń naniesione na mapę plany.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionAdd>Oznacz obszar domu</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Koloniści będą naprawiać budynki, sprzątać i gasić pożary tylko w obszarze oznaczonym jako dom.</DesignatorHomeRegionAddDesc>
+  <DesignatorAreaHomeExpand>Oznacz obszar domu</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Koloniści będą naprawiać budynki, sprzątać i gasić pożary tylko w obszarze oznaczonym jako dom.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Usuń obszar domu</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Usuwa oznaczenie obszaru domu. Koloniści nie będą więcej naprawiać, sprzątać ani gasić pożarów w tym obszarze.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorHomeRegionRemove>Usuń obszar domu</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Usuwa oznaczenie obszaru domu. Koloniści nie będą więcej naprawiać, sprzątać ani gasić pożarów w tym obszarze.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorAreaNoRoofExpand>Oznacz obszar bez dachu</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Oznacz obszar nad którym dach nie zostanie utworzony. Koloniści rozbiorą również dotychczasowe dachy.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Usuń obszar bez dachu</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Usuwa oznaczenie obszaru bez dachu. Dachy będą tworzone w tym rejonie, a istniejące dachy nie zostaną rozebrane.</DesignatorAreaNoRoofClearDesc>
 
-  <DesignatorRegionNoRoofAdd>Oznacz obszar bez dachu</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Oznacz obszar nad którym dach nie zostanie utworzony. Koloniści rozbiorą również dotychczasowe dachy.</DesignatorRegionNoRoofAddDesc>
-
-  <DesignatorRegionNoRoofRemove>Usuń obszar bez dachu</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Usuwa oznaczenie obszaru bez dachu. Dachy będą tworzone w tym rejonie, a istniejące dachy nie zostaną rozebrane.</DesignatorRegionNoRoofRemoveDesc>
-
-  <DesignatorRegionSnowClearAdd>Oznacz obszar odśnieżania</DesignatorRegionSnowClearAdd>
-  <DesignatorRegionSnowClearAddDesc>Oznacz obszar, który koloniści będą w miarę swoich możliwości odśnieżać.</DesignatorRegionSnowClearAddDesc>
-  
-  <DesignatorRegionSnowClearRemove>Usuń obszar odśnieżania</DesignatorRegionSnowClearRemove>
-  <DesignatorRegionSnowClearRemoveDesc>Usuwa obszar odśnieżania. Koloniści przestaną tutaj odśnieżać.</DesignatorRegionSnowClearRemoveDesc>
+  <DesignatorAreaSnowClearExpand>Oznacz obszar odśnieżania</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Oznacz obszar, który koloniści będą w miarę swoich możliwości odśnieżać.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>Usuń obszar odśnieżania</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Usuwa obszar odśnieżania. Koloniści przestaną tutaj odśnieżać.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorGrowingZoneDesc>Utwórz obszar na którym koloniści będą uprawiać rośliny.</DesignatorGrowingZoneDesc>
 
@@ -64,16 +64,31 @@
   
   <DesignatorClaim>Przejmij</DesignatorClaim>
   <DesignatorClaimDesc>Przejmij neutralne budynki, włącznie ze starożytnymi ruinami i opuszczonymi bazami. Przejęte budynki mogą być naprawione i utrzymywane przez twoich kolonistów.</DesignatorClaimDesc>
-  
-  
-  <!-- placement of blueprints -->
+
+  <DesignatorRemoveFloor>Usuń podłogę</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Usuń podłogę do terenu pod nią.</DesignatorRemoveFloorDesc>
+
+  <DesignatorStrip>Zdejmij</DesignatorStrip>
+  <DesignatorStripDesc>Zdejmij odzież z trupów i rannych.</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>Uzbrój pułapkę</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Pułapka może być uzbrojona ponownie.</DesignatorRearmTrapDesc>
+
+  <DesignatorExpandAreaAllowed>Powiększ Dozwoloną Strefę</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Powiększa dozwoloną strefę\n\nDozwoloną strefę można przypisać kolonistom. Koloniści nie będą wykonywać swojej pracy i zaspokajać swoich potrzeb poza wyznaczoną strefą.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Usuń Dozwoloną Strefę</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Usuń obszar z wyznaczonej strefy.\n\nDozwoloną strefę można przypisać kolonistom. Koloniści nie będą wykonywać swojej pracy i zaspokajać swoich potrzeb poza wyznaczoną strefą.</DesignatorClearAreaAllowedDesc>
+  <ManageAreaAlloweds>Zarządzaj dozwoloną strefą...</ManageAreaAlloweds>
+
+
+  <!-- Failure messages -->
   <UnchosenStuff>Niewybrany materiał</UnchosenStuff>
   <TooCloseToMapEdge>Zbyt blisko końca mapy.</TooCloseToMapEdge>
   <OutOfBounds>Poza granicami.</OutOfBounds>
   <CannotPlaceInUndiscovered>Nie można ustawić na nieodkrytym terenie.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>Obszar jest zablokowany.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>Obszar jest zablokowany przez {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>Obszar niedozwolony.</InteractionSpotOutOfBounds>
-  <InteractionSpotWillBeBlocked>Obszar zostanie zablokowany.</InteractionSpotWillBeBlocked>
+  <InteractionSpotWillBeBlocked>Obszar zostanie zablokowany przez {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} zablokuje miejsce ustawienia {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Wskazany obszar jest już {0}.</TerrainIsAlready>
   <TerrainBeingSmoothed>Wskazany obszar jest już przeznaczony do wygładzenia.</TerrainBeingSmoothed>
@@ -81,15 +96,15 @@
   <IdenticalBlueprintExists>Identyczny element jest już zaplanowany dla wskazanego miejsca.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Na wskazanym terenie nie można ustawić wybranego elementu.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Obszar już zajęty.</SpaceAlreadyOccupied>
-
+  <TerrainMustBeRemovable>Musi być zaznaczona usuwalna podłoga.</TerrainMustBeRemovable>
   
   
-  <!-- placement of zones -->
+  <!-- Mouse attachments -->
   <ExpandOrCreateZone>Rozszerz {0} lub\nStwórz nowy {1}</ExpandOrCreateZone>
   <CreateNewZone>Stwórz nowy {0}</CreateNewZone>
   
   
-  <!-- desc helpers -->
+  <!-- Desc helpers -->
   <TransmitsPower>Przewodzi prąd</TransmitsPower>
 
 

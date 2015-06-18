@@ -9,19 +9,21 @@
   <MessageRaidersKidnapping>{0} z {1} postanowili porwać kogo się da i odejść.</MessageRaidersKidnapping>
 
   <MessageRaidersLeaving>{0} z {1} opuszczają kolonię.</MessageRaidersLeaving>
-  <MessageRaidersGivenUpLeaving>{0} z {1} poddali się i opuszczają kolonię.</MessageRaidersGivenUpLeaving>
+    <MessageRaidersGivenUpLeaving>{0} z {1} poddali się i opuszczają kolonię.</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>{0} z {1} są zadowoleni ze spowodowanych zniszczeń i odchodzą.</MessageRaidersSatisfiedLeaving>
 	
   <MessageFightersFleeing>{0} z {1} uciekają.</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>Przyjaźni {0} z {1} opuszczają kolonię.</MessageFriendlyFightersLeaving>
 
+  <MessageVisitorsTakingWounded>{0} z {1} biorą rannego gościa.</MessageVisitorsTakingWounded>
+  
   <MessageWornApparelDeterioratedAway>{0} noszony przez {1} rozpadł się całkiem.</MessageWornApparelDeterioratedAway>
   
   <MessageSeasonBegun>{0} sezon się zaczyna.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>{0} opuścił zasięg komunikatora.</MessageShipHasLeftCommsRange>
 
-  <MessageNeedBeaconToTradeWithShip>Potrzebujesz nadajnika handlu orbitalnego aby wymieniać dobra ze statkiem.</MessageNeedBeaconToTradeWithShip>
+    <MessageNeedBeaconToTradeWithShip>Potrzebujesz nadajnika handlu orbitalnego aby wymieniać dobra ze statkiem.</MessageNeedBeaconToTradeWithShip>
 	
   <MessageBillComplete>Zlecenie gotowe: {0}.</MessageBillComplete>
   
@@ -31,21 +33,22 @@
 
   <MessageOutOfNearbyShellsFor>{0} nie może znaleźć amunicji do {1}.</MessageOutOfNearbyShellsFor>
 
+  <MessageAnimalsGoPsychoHunted>Uwaga: {0} zazwyczaj atakują gdy się je zaczepi.</MessageAnimalsGoPsychoHunted>
+  
+  <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} zrekrutował {1} ({2} szansy).</MessageRecruitSuccess>
-  <MessageRecruitFail>{0} nie dał rady zrekrutować {1} ({2} szansy).</MessageRecruitFail>
-  <MessageRecruitFailBecauseLoyalty>{0} nie dał rady zrekrutować {1} (zbyt niska lojalność więźnia).</MessageRecruitFailBecauseLoyalty>
+    <MessageRecruitFail>{0} nie dał rady zrekrutować {1} ({2} szansy).</MessageRecruitFail>
+    <MessageRecruitFailBecauseMood>{0} nie dał rady zrekrutować {1} (Więzień poniżej nastroju {2}).</MessageRecruitFailBecauseMood>
 	
   <MessagePoorlyTreated>{0} otrzymał pomoc lekarską słabej jakości od {1} ({2} szansy).</MessagePoorlyTreated>
   <MessageWellTreated>{0} otrzymał pomoc lekarską dobrej jakości od {1} ({2} szansy).</MessageWellTreated>
   
-  <MessageTraderCannotAfford>Handlarza nie stać na tą transakcję.</MessageTraderCannotAfford>
   <MessageColonyCannotAfford>Kolonii nie stać na tą transakcję.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Nie masz wystarczającej ilości srebra przygotowanego do handlu.</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>Handlarz nie ma wystarczająco srebra.</MessageTraderNotEnoughSilver>
-
+ 
   <MessageCriticalAlert>Alarm krytyczny: {0}</MessageCriticalAlert>
 
-  <MessageMustDesignateHarvestableFood>Należy wskazać do zbierania dojrzałe, rodzące owoce rośliny.</MessageMustDesignateHarvestableFood>
+  <MessageMustDesignateHarvestable>Należy wskazać do zbierania dojrzałe, rodzące owoce rośliny.</MessageMustDesignateHarvestable>
   <MessageMustDesignateHarvestableWood>Należy wskazać do wycinania wyrośnięte drzewa.</MessageMustDesignateHarvestableWood>
   <MessageMustDesignatePlants>Należy wskazać rośliny.</MessageMustDesignatePlants>
   <MessageMustDesignateHaulable>Należy wskazać przedmioty do przetransportowania.</MessageMustDesignateHaulable>
@@ -53,15 +56,25 @@
   <MessageMustDesignateHuntable>Musisz wyznaczyć zwierzęta aby na nie polować.</MessageMustDesignateHuntable>
   <MessageMustDesignateClaimable>Musisz wyznaczyć porzucone budynki.</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>Musisz wyznaczyć surowe podłoże skalne.</MessageMustDesignateSmoothableFloor>
+  <MessageNothingCanRemoveThickRoofs>Ten dach jest zbyt gruby aby można było go usunąć</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>To już znajduje się w składzie i w razie potrzeby zostanie przeniesione do składu o wyższym priorytecie.</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>Musisz zaznaczyć zwłoki lub powalone postacie aby zdjąć z nich odzież.</MessageMustDesignateStrippable>
   
+  <MessageRefusedArrest>{0} nie chciał być aresztowany!</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>Nie ma dostępnych łóżek medycznych.</MessageNoMedicalBeds>
   
   <PawnDiedBecauseOf>{0} nie żyje z powodu {1}.</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0} może już chodzić.</MessageNoLongerDowned>
+  
+  <MessageInvoluntarySleep>{0} załamał się z powodu skrajnego wyczerpania.</MessageInvoluntarySleep>
 
   <MessageMedicalOperationFailureCatastrophic>{0} popełnił straszny błąd operując na {1}.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0} popełnił błąd operując na {1}.</MessageMedicalOperationFailureMinor>
+  
+  <MessageMedicalOperationWillAngerFaction>Operacja rozgniewała {0}.</MessageMedicalOperationWillAngerFaction>
+
+  <MessagePawnExitMapRelationsGain>Ponieważ {0} opuścił mapę zdrowy, relacje z {1} poprawiły się przez {2}.</MessagePawnExitMapRelationsGain>
   
   </LanguageData>
