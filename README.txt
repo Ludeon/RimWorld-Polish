@@ -10,8 +10,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ===========
 
 Working crew:
-- Reco Mateusz Zaborski [reco754@gmail.com]
-- 2piotrek
+- Reco [reco754@gmail.com]
+- 2piotrek [piotr.ch2@onet.eu]
 
 
 
