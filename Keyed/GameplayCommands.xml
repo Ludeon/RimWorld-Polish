@@ -19,7 +19,7 @@
   <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
   
 	
-	
+  <!-- Drafting -->
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
@@ -48,8 +48,6 @@
   <TurningOffPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący więźniowie utracą swoje łóżka:</TurningOffPrisonerBedWarning>
   <AreYouSure>Czy jesteś pewien?</AreYouSure>
 
-  
-  
   <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
 
@@ -60,11 +58,19 @@
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Pokaż</CommandUnhideZoneLabel>
 
-  <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
+  <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
  
+  <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Kopiuje ustawienia tej strefy do schowka, dzięki czemu można je wkleić do innej strefy.</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>Wklej ustawienia</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Zastępuje ustawienia tej strefy wcześniej skopiowanymi do schowka.</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>Pozwól siać</CommandAllowSow>
+  <CommandAllowSowDesc>Kiedy wyłączone, koloniści nigdy nie będą sadzić roślin w tej strefie. Będą mogli ciągle je zbierać.</CommandAllowSowDesc>
  
- <!-- Artillery -->
+  <!-- Artillery -->
   <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
@@ -87,9 +93,12 @@
   <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
   
   <!-- Door -->
-  <CommandToggleDoorLock>Przełącz zablokowanie</CommandToggleDoorLock>
-  <CommandToggleDoorLockDesc>Zablokuj lub odblokuj drzwi. Zablokowane drzwi nie otworzą się dla nikogo.</CommandToggleDoorLockDesc>
+  <CommandToggleDoorForbid>Zakaz przejścia</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>Jeśli drzwi mają zakaz przejścia, koloniści i sojusznicy nie będą przez nie przechodzić. Nie wpływa to na interakcję wrogów lub zwierząt z drzwiami.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>Jeśli jest aktywne, twoi koloniści nie będą zamykać drzwi. Jeśli drzwi są automatyczne i mają zasilanie, pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
+  
   <!-- Temperature control -->
   <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
   <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
@@ -103,5 +112,13 @@
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
- 
+  
+  <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>Tworzy strefę uprawy wokół tej konstrukcji dokładnie dopasowaną do kształtu promieni światła lampy słonecznej.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Stwórz strefę upraw</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <CommandAutoRearm>Automatyczne uzbrojenie</CommandAutoRearm>
+  <CommandAutoRearmDesc>Jeśli jest to włączone, ta pułapka zostanie automatycznie uzbrojona jeśli coś w nią wpadnie.</CommandAutoRearmDesc>
+  
 </LanguageData>

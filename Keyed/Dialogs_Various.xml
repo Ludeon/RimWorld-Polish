@@ -7,7 +7,7 @@
   <GoBack>Wstecz</GoBack>
   <OK>Ok</OK>
   
-    <!-- Save/load -->
+   <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
   <OverwriteButton>Nadpisz</OverwriteButton>
   <LoadGameButton>Wczytaj</LoadGameButton>
@@ -16,14 +16,18 @@
   <SavedAs>Zapisano jako {0}.</SavedAs>
   <NeedAName>Wprowadź nazwę.</NeedAName>
   <LoadingLongEvent>Wczytuję...</LoadingLongEvent>
-	
-	
-	<!-- Colony naming-->
+  <SaveIsFromDifferentGameVersion>Używamy wersji {0} ale zapis gry jest z {1}, która jest całkowicie inną wersją.\n\nPróba ładowania tego zapisu prawdopodobnie nie zadziała.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Używamy wersji {0} ale zapis gry jest z {1}, która jest inna od tej.\n\nPróba ładowania tego zapisu powinna zadziałać.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Zapis gry został zapisany w innej wersji gry i powinien działać bez problemu.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Zapis gry jest w nieznanym formacie i prawie na pewno zostanie nieprawidłowo wczytany.</SaveIsUnknownFormat>
+
+  <!-- Colony naming-->
   <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
   <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Nazwa niepoprawna.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
+  <!-- Renaming -->
+  <NameIsInvalid>Proszę wprowadzić poprawną nazwę.</NameIsInvalid>
   <ZoneGainsName>Obszar nazywa się teraz {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Nazwa niepoprawna.</ZoneNameIsInvalid>
   
@@ -34,9 +38,10 @@
   <VersionMismatch>Różne wersje gry</VersionMismatch>
   <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
-  
-  
-	<!-- Resolution change dialog -->
+  <ModsMismatchWarningTitle>Niezgodne mody</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
+	
+  <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa działa poprawnie?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Zostaw</ResolutionKeep>
   <ResolutionRevert>Przywróć</ResolutionRevert>
@@ -44,7 +49,7 @@
   <!-- Overview -->
   <OverviewOf>Przegląd {0}</OverviewOf>
   
-   <!-- Research -->
+  <!-- Research -->
   <Research>Badania</Research>
   <Researched>Zbadane</Researched>
   <Unresearched>Niezbadane</Unresearched>
@@ -53,8 +58,8 @@
   <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU DO BADAŃ, nie będziesz mógł prowadzić badań.\n\nJednak cały czas będziesz mógł wybierać i podglądać projekty do badań.</ResearchMenuWithoutBench>
 	
 	
-	<!-- Advanced game start options -->
-	<MapTemperatureDangerWarning>Uwaga: Wylądujesz w mroźnej okolicy. Przetrwanie w tych warunkach może okazać się trudne bądź nawet prawie zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Uwaga: Wylądujesz w mroźnej okolicy. Przetrwanie w tych warunkach może okazać się trudne bądź nawet prawie zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba, że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar. Rozmiary Ludeonicrous nie zostały przetestowane.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
   <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
@@ -62,23 +67,24 @@
   <MapSizeMedium>Średni</MapSizeMedium>
   <MapSizeLarge>Duży</MapSizeLarge>
   <MapSizeExtreme>Extremalny</MapSizeExtreme>
-	<MapStartMonth>Miesiąc lądowania:</MapStartMonth>
+  <MapStartMonth>Miesiąc lądowania:</MapStartMonth>
   <MapStartMonthDefault>Automatyczny</MapStartMonthDefault>
   
   
-	<!-- Bill config -->
+  <!-- Bill config -->
   <Suspended>Odwieś</Suspended>
   <NotSuspended>Zawieś</NotSuspended>
   <SuspendedAllCaps>ZAWIESZONY</SuspendedAllCaps>
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <Forever>Ciągle</Forever>
+    <Details>Szczegóły</Details>
   <IngredientSearchRadius>Obszar poszukiwania składników</IngredientSearchRadius>
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
-	<CountingProducts>Liczy</CountingProducts>
+  <CountingProducts>Liczy</CountingProducts>
   <Infinite>W nieskończoność</Infinite>
+  <MinimumSkillLevel>Min {0} poziom umiejętności</MinimumSkillLevel>
   
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości ponieważ ma on różne lub nieprzewidywalne rezultaty.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Dozwolone składniki</PermittedIngredients>
   <WorkAmount>Ilość pracy</WorkAmount>
   <MinimumSkills>Minimalna umiejętność:</MinimumSkills>
   <BillRequires>Wymaga {0} {1}</BillRequires>
@@ -93,11 +99,12 @@
   <BillStoreMode_BestStockpile>Najważniejszy magazyn</BillStoreMode_BestStockpile> <!-- Dłuższe się nie mieści -->
   <BillStoreMode_NearestStockpileAnyPriority>Najbliższy magazyn</BillStoreMode_NearestStockpileAnyPriority>
  
- <!-- Info Card -->
+  <!-- Info Card -->
   <Damage>Obrażenia</Damage>
   <Accuracy>Celność</Accuracy>
   <BurstShotCount>Seria strzałów</BurstShotCount>
   <WarmupTime>Czas celowania</WarmupTime>
+  <MeleeWarmupTime>Czas do uderzenia</MeleeWarmupTime>
   <CooldownTime>Przeładowanie</CooldownTime>
   <BurstShotFireRate>Szybkostrzelność</BurstShotFireRate>
   <Range>Zasięg</Range>
@@ -112,9 +119,10 @@
   <Attributes>Atrybuty</Attributes>
   <LifeSpan>Żywotność</LifeSpan>
   <Nutrition>Punkty głodu</Nutrition>
+  <Joy>Rozrywka</Joy>
   <FoodQuality>Jakość jedzenia</FoodQuality>
   <WalkSpeedProperty>Szybkość</WalkSpeedProperty>
-  <MeatAmount>Ilość mięsa</MeatAmount>
+  <ButcherYield>Wydajność rzeźnika</ButcherYield>
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
@@ -138,6 +146,7 @@
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmów z powodu słabego zdrowia.\n\nWpłynie to na ceny towarów.\n\nRozważ wysłanie zdrowego negocjatora.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>Handlarz nie ma wystarczająco srebra aby w pełni pokryć koszty transkacji.  Kontynuować mimo to?</ConfirmTraderShortFunds>
   
   <!-- Comms -->
   <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
@@ -154,4 +163,12 @@
   <HistoryUploadYesOnce>Wyślij tylko tym razem</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Nie wysyłaj teraz, zapytaj mnie później</HistoryUploadNoOnce>
 
-  </LanguageData>
+  <!-- Outfit management -->
+  <Outfit>Outfit</Outfit>
+  <SelectOutfit>Select outfit...</SelectOutfit>
+  <NewOutfit>New outfit</NewOutfit>
+  <DeleteOutfit>Delete outfit...</DeleteOutfit>
+  <OutfitInUse>Outfit is in use by {0}.</OutfitInUse>
+  <NoOutfitSelected>No outfit selected</NoOutfitSelected>
+  
+</LanguageData>

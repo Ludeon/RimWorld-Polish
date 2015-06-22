@@ -4,11 +4,12 @@
 
 
 	<CallOnRadio>Wezwij {0}</CallOnRadio>
+  <CannotUseReason>Nie można użyć ({0})</CannotUseReason>
 	<CannotUseSolarFlare>Nie można użyć (rozbłysk)</CannotUseSolarFlare>
 	<CannotUseNoPower>Nie można użyć (brak prądu)</CannotUseNoPower>
 	<CannotUseNoPath>Nie można użyć (brak dojścia)</CannotUseNoPath>
-    <CannotUseReserved>Nie można użyć (zarezerwowane)</CannotUseReserved>
-    <CannotUseFull>Nie można użyć (pełne)</CannotUseFull>	
+  <CannotUseReserved>Nie można użyć (zarezerwowane)</CannotUseReserved>
+  <CannotUseFull>Nie można użyć (pełne)</CannotUseFull>	
 
   <FireAt>Strzelaj w {0}</FireAt>
 
@@ -29,8 +30,9 @@
 	<NoEmptyPlaceLower>brak wolnego miejsca w którym można składować</NoEmptyPlaceLower>
 	<AlreadyFilledLower>już wypełnione</AlreadyFilledLower>
 	<MissingMaterials>potrzebne materiały</MissingMaterials>
+  <MissingSkill>zbyt niskie umiejętności</MissingSkill>
 
-
+  
   <ConsumeThing>Zjedz {0}</ConsumeThing>
   
   
@@ -38,6 +40,7 @@
   <GoHere>Idź tam</GoHere>
   
   <Arrest>Aresztuj {0}</Arrest>
+  <TryToArrest>Spróbuj zaaresztować {0}</TryToArrest>
   <CannotArrest>Nie można aresztować</CannotArrest>
 
   <Capture>Weź do niewoli {0}</Capture>
@@ -56,7 +59,8 @@
   <ReservedBy>Zarezerwowane przez {0}.</ReservedBy>
   <IsReservedBy>{0} jest zarezerwowane przez {1}.</IsReservedBy>
 
-  <NoManipulationSkill>nie jest w stanie</NoManipulationSkill>
+  <Incapable>niezdolny</Incapable>
+  <IncapableOfCapacity>niezdolny do {0}</IncapableOfCapacity>
 
   <Equip>Ekwipuj {0}</Equip>
   <EquipWarningBrawler>(zawadiaka będzie niezadowolony)</EquipWarningBrawler>
@@ -79,7 +83,7 @@
   <NotInjured>Nie jesteś ranny</NotInjured>
   <SomeoneElseSleeping>Zajęte</SomeoneElseSleeping>
   
-   <!-- Specific thing interactions -->
+  <!-- Specific thing interactions -->
   <EnterCryptosleepPod>Wejdź do kapsuły hibernacyjnej</EnterCryptosleepPod>
   <OpenCryptosleepCasket>Otwórz kapsułę hibernacyjną</OpenCryptosleepCasket>
  
