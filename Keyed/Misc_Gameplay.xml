@@ -18,16 +18,17 @@
   <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
   <NothingLower>nic</NothingLower>
   <Adapted>Przystosowanie się</Adapted>
-  <Headshot>Headshot</Headshot>
+  <Headshot>Strzał w głowę</Headshot>
   <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
   <UntreatedLower>nieleczone</UntreatedLower>
   <DevelopedImmunityLower>uzyskano odporność</DevelopedImmunityLower>
   <InjuryRequiresTreatment>wymaga lekarza do wyleczenia</InjuryRequiresTreatment>
+  <NextTreatmentIn>Następne leczenie za {0}</NextTreatmentIn>
   <NextTreatmentAfter>następne leczenie za {0} dni</NextTreatmentAfter>
   <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>rozwój odporności</ImmunityDevelopmentProgress>
   <Race>Rasa</Race>
-  <Description>Description</Description>
+  <Description>Opis</Description>
   <Equipment>Ekwipunek</Equipment>
   <Apparel>Strój</Apparel>
   <Inventory>Inwentarz</Inventory>
@@ -53,7 +54,7 @@
   
   <!-- Snow -->
   <SnowNone>Brak śniegu</SnowNone>
-  <SnowDusting>Śnieg (pruszy)</SnowDusting>
+  <SnowDusting>Śnieg (prószy)</SnowDusting>
   <SnowThin>Śnieg (mało)</SnowThin>
   <SnowMedium>Śnieg (średnio)</SnowMedium>
   <SnowThick>Śnieg (dużo)</SnowThick>
@@ -70,7 +71,7 @@
 	<ReportHauling>Transportuje {0}.</ReportHauling>
   <ReportSleeping>Śpi.</ReportSleeping>
   <ReportResting>Idzie spać.</ReportResting>
-  <WatchingSunrise>Watching the sunrise</WatchingSunrise>
+  <WatchingSunrise>Obserwuje wschód słońca</WatchingSunrise>
   <CloudWatching>Ogląda chmury</CloudWatching>
   <WatchingSunset>Ogląda zachód słońca</WatchingSunset>
   <Stargazing>Ogląda gwiazdy</Stargazing>
@@ -80,6 +81,7 @@
   <AreaLower>obszar</AreaLower>
   
 	<!-- Shooting report -->
+	<ShootReportShooterAbility>Strzelec</ShootReportShooterAbility>
     <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
 	<ShootReportSkill>Umiejętność</ShootReportSkill>
 	<ShootReportWeapon>Broń</ShootReportWeapon>
@@ -103,6 +105,7 @@
   <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
 
   <!-- Pawn info readout -->
+  <hitPoints>Życie</hitPoints>
   <Health>Życie</Health>
   <PawnMainDescWithFactionGendered>{0} {1} z {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -168,6 +171,7 @@
   <Ingredients>Składniki</Ingredients>
 
   <!-- Plants -->
+  <GrowthRate>Szybkość wzrostu</GrowthRate>
   <PercentGrowth>Urosło w {0}%</PercentGrowth>
   <Growing>Rośnie</Growing>
   <NotGrowingNow>Nie rośnie (musi być {0}).</NotGrowingNow>
@@ -227,7 +231,7 @@
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
     <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
-	<MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
+	<MustPlaceAdjacentStandable>Musi mieć dookoła możliwość przejścia.</MustPlaceAdjacentStandable>
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
@@ -246,7 +250,7 @@
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Użyj neurotrenera {0}</UseNeurotrainer>
-  <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umiejętności z {2} na {3}.</NeurotrainerUsed>
   
   <!-- Minification -->
   <Installed>Ustawione.</Installed>
