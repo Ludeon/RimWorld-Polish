@@ -78,7 +78,7 @@ translationDirPath += '\\DefInjected'
 # Define list of labels that need to be translated
 labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'reportstring', 'verb', 'gerund',
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
-          'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort']
+          'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText']
 
 # Check if the entered RimWorld installation folder was correct
 if os.path.exists(defsDirPath):
@@ -144,12 +144,13 @@ if os.path.exists(defsDirPath):
                 writeheader(defInjectFile)
 
                 # Store whether we are in a comment or not
-                ignoring = False
+                ignoreComment = False
+                ignoreList = False
                 # Start going through the file line by line
                 for i, line in enumerate(lines):
                     # If there is a def on the line, look in the next lines for
                     # something to translate if we are not inside a comment
-                    if ('<defName>'.lower() in line.lower()) and not ignoring:
+                    if ('<defName>'.lower() in line.lower()) and not ignoreComment:
                         # Store the name of the def
                         defName = re.findall('<defName>(.*?)</defName>', line, re.IGNORECASE)[0]
                         # Look in the next lines for something to translate
@@ -160,23 +161,24 @@ if os.path.exists(defsDirPath):
                                 break
                             # If there is a list of things which are defined, ignore it completely
                             # I don't know how to parse them yet
-                            elif '<li>' in nextline:
-                                for nextnestedline in lines[j + 1:]:
-                                    if '<\li>' in nextnestedline:
-                                        break
-                            else:
+                            elif '<li>' in nextline and '</li>' not in nextline:
+                                ignoreList = True
+                            elif '</li>' in nextline:
+                                ignoreList = False
+                            elif not ignoreList:
                                 # If there is something to translate, write it to the DefInjected file
                                 for label in labels:
-                                    if '<' + label + '>'.lower() in nextline.lower():
+                                    if '<' + label.lower() + '>' in nextline.lower():
                                         # Store the untranslated string from between the tags
                                         template = re.findall('<' + label + '>(.*?)</' + label + '>', nextline, re.IGNORECASE)[0]
                                         # Write the line
                                         writedeflabel(defInjectFile, label, defName, template)
+                                        break
 
                         # Move to the next line in the template
                         defInjectFile.write('    \n')
                     # If a comment starts on this line
-                    elif not ignoring and '<!--' in line:
+                    elif not ignoreComment and '<!--' in line:
                         if '-->' in line:
                             # If a comment starts and ends on the same line
                             # it is something useful so write it in the file too
@@ -184,11 +186,11 @@ if os.path.exists(defsDirPath):
                             defInjectFile.write('    \n')
                         else:
                             # Else don't parse the comment
-                            ignoring = True
+                            ignoreComment = True
                     # else if a comment ends on this line
-                    elif ignoring and '-->' in line:
+                    elif ignoreComment and '-->' in line:
                         # Start parsing again
-                        ignoring = False
+                        ignoreComment = False
 
                 # Clean up after parsing the file
                 # Write the end of the xml file
@@ -210,4 +212,3 @@ print("")
 print("")
 
 print("Succesfully processed all files.")
-print("")
