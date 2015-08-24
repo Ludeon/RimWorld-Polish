@@ -76,9 +76,10 @@ defsDirPath += '\\Mods\\Core\\Defs'
 translationDirPath += '\\DefInjected'
 
 # Define list of labels that need to be translated
-labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'reportstring', 'verb', 'gerund',
+labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'reportString', 'verb', 'gerund',
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
-          'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText']
+          'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText',
+          'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly']
 
 # Check if the entered RimWorld installation folder was correct
 if os.path.exists(defsDirPath):
