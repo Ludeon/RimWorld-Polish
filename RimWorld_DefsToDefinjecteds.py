@@ -43,6 +43,25 @@ def writedeflabel(file, labeltype, defname, deflabel):
     file.write('    <' + defname + '.' + labeltype + '>' + deflabel + '</' + defname + '.' + labeltype + '>\n')
 
 
+def writepathreplace(file, defname, path, text):
+    """ Writes the translation data of a DefInjected file in the correct syntax:
+    <rep>
+        <path>Misc.comps[0].labelTreatedWell</path>
+        <trans>bandaged</trans>
+    </rep>
+
+    Arguments:
+        file: File to write to
+         defname: The name of the def the label belongs to		         defname: The name of the def the label belongs to
+        path: Path to the thing to translate
+         deflabel: The untranslated text in the label		         deflabel: The untranslated text in the label
+    """
+    file.write('    <rep>\n')
+    file.write('        <path>' + defname + '.' + path + '</path>\n')
+    file.write('        <trans>' + text + '</trans>\n')
+    file.write('    </rep>\n')
+
+
 def writefooter(file):
     """ Writes the last lines of a DefInjected file.
     Arguments:
@@ -80,6 +99,9 @@ labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'rep
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
           'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText',
           'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly']
+liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas']
+listlabels = ['label', 'description', 'labelTreatedWell', 'labelTreated', 'labelTreatedWellInner', 'labelTreatedInner',
+              'labelSolidTreatedWell', 'labelSolidTreated']
 
 # Check if the entered RimWorld installation folder was correct
 if os.path.exists(defsDirPath):
@@ -123,8 +145,14 @@ if os.path.exists(defsDirPath):
                     if child.find(label) is not None:
                         haslabels = True
                         break
+
                 if haslabels:
                     break
+                else:
+                    for liststartlabel in liststartlabels:
+                        if child.find(liststartlabel) is not None:
+                            haslabels = True
+                            break
 
             # If the file has something to traslate
             if haslabels:
@@ -162,6 +190,21 @@ if os.path.exists(defsDirPath):
                     for label, text in labelDict:
                         writedeflabel(defInjectFile, label, defName, text)
                         labelDict = []
+                    for liststartlabel in liststartlabels:
+                        if child.find(liststartlabel) is not None:
+                            liststart = child.find(liststartlabel)
+                            listelements = liststart.findall('li')
+                            for i, listelement in enumerate(listelements):
+                                test = listelement.text
+                                if listelement.text is not None:
+                                    if len(list(listelement)) == 0:
+                                        writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + ']', listelement.text)
+                                    else:
+                                        for listlabel in listlabels:
+                                            if listelement.find(listlabel) is not None:
+                                                listsubelement = listelement.find(listlabel)
+                                                writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + '].' + listsubelement.tag, listsubelement.text)
+
 
                     # Move to the next line in the template
                     defInjectFile.write('    \n')
