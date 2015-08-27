@@ -1,6 +1,6 @@
 import os
 import sys
-import re
+import xml.etree.ElementTree as ETree
 
 __author__ = 'Sakuukuli'
 
@@ -110,17 +110,17 @@ if os.path.exists(defsDirPath):
 
         for filename in [f for f in filenames if f.endswith('xml')]:
 
-            defFile = open(os.path.join(dirpath, filename), 'r')
-            lines = defFile.readlines()
+            defFile = ETree.parse(os.path.join(dirpath, filename))
+            defRoot = defFile.getroot()
 
             # Assume that the file doesn't have anything to translate
             haslabels = False
             # Go through the lines one by one and check if there is something to translate
             # If there is, change haslabels to True and stop searching
             # Some of the things to translate are either uppercase or lowercase
-            for line in lines:
+            for child in defRoot:
                 for label in labels:
-                    if label.lower() in line.lower():
+                    if child.find(label) is not None:
                         haslabels = True
                         break
                 if haslabels:
@@ -144,62 +144,29 @@ if os.path.exists(defsDirPath):
                 # Write the header of the file
                 writeheader(defInjectFile)
 
-                # Store whether we are in a comment or not
-                ignoreComment = False
-                ignoreList = False
+                labelDict = []
+                defName = ""
                 # Start going through the file line by line
-                for i, line in enumerate(lines):
-                    # If there is a def on the line, look in the next lines for
-                    # something to translate if we are not inside a comment
-                    if ('<defName>'.lower() in line.lower()) and not ignoreComment:
-                        # Store the name of the def
-                        defName = re.findall('<defName>(.*?)</defName>', line, re.IGNORECASE)[0]
-                        # Look in the next lines for something to translate
-                        for j, nextline in enumerate(lines[i + 1:]):
-                            # If there is something else defined, we know that there is nothing left to translate
-                            # so stop looking
-                            if '<defName>'.lower() in nextline.lower():
-                                break
-                            # If there is a list of things which are defined, ignore it completely
-                            # I don't know how to parse them yet
-                            elif '<li>' in nextline and '</li>' not in nextline:
-                                ignoreList = True
-                            elif '</li>' in nextline:
-                                ignoreList = False
-                            elif not ignoreList:
-                                # If there is something to translate, write it to the DefInjected file
-                                for label in labels:
-                                    if '<' + label.lower() + '>' in nextline.lower():
-                                        # Store the untranslated string from between the tags
-                                        template = re.findall('<' + label + '>(.*?)</' + label + '>', nextline, re.IGNORECASE)[0]
-                                        # Write the line
-                                        writedeflabel(defInjectFile, label, defName, template)
-                                        break
+                for child in defRoot:
+                    defElement = child.find('defName')
+                    if defElement is not None:
+                        defName = defElement.text
+                    for label in labels:
+                        labelElement = child.find(label)
+                        if labelElement is not None:
+                            labelDict.append((labelElement.tag, labelElement.text))
+                    for label, text in labelDict:
+                        writedeflabel(defInjectFile, label, defName, text)
+                        labelDict = []
 
-                        # Move to the next line in the template
-                        defInjectFile.write('    \n')
-                    # If a comment starts on this line
-                    elif not ignoreComment and '<!--' in line:
-                        if '-->' in line:
-                            # If a comment starts and ends on the same line
-                            # it is something useful so write it in the file too
-                            defInjectFile.write('  ' + line)
-                            defInjectFile.write('    \n')
-                        else:
-                            # Else don't parse the comment
-                            ignoreComment = True
-                    # else if a comment ends on this line
-                    elif ignoreComment and '-->' in line:
-                        # Start parsing again
-                        ignoreComment = False
+                    # Move to the next line in the template
+                    defInjectFile.write('    \n')
 
                 # Clean up after parsing the file
                 # Write the end of the xml file
                 writefooter(defInjectFile)
                 # Close the translateable file
                 defInjectFile.close()
-                # Close the original Def file
-                defFile.close()
 
             index += 1
 
