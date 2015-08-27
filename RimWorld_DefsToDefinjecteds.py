@@ -151,6 +151,10 @@ if os.path.exists(defsDirPath):
                     defElement = child.find('defName')
                     if defElement is not None:
                         defName = defElement.text
+                    else:
+                        defElement = child.find('DefName')
+                        if defElement is not None:
+                            defName = defElement.text
                     for label in labels:
                         labelElement = child.find(label)
                         if labelElement is not None:
