@@ -6,6 +6,9 @@ __author__ = 'Sakuukuli'
 
 
 def printhelp():
+    """ Print information about the script in case of incorrect usage.
+    :return:
+    """
     print("RimWorld Translation Template Script")
     print("Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them.")
     print("Usage: RimWorld_DefsToDefInject.py <RimWorld installation folder> <Folder for templates>")
@@ -13,32 +16,41 @@ def printhelp():
     print("Invalid number of arguments.")
 
 
-def update_progress(progress, total):
+def print_progress(progress, total):
+    """Prints the number of files processed, total number of files and a percentage.
+
+    Replaces itself automatically and animates.
+    The format is progress/total percent%
+    :param progress: Number of files processed
+    :param total: Total number of files
+    :return:
+    """
+    # Calculate the percent, multiply with 1.0 to force floating point math
     percent = 1.0 * progress / total
+    # Write the line, '\r' moves the write head back to the start for overwriting.
     sys.stdout.write('\r{}/{} {}%'.format(progress, total, round(percent * 100)))
     sys.stdout.flush()
 
 
 def writeheader(file):
-    """ Writes the first lines of a DefInjected file.
-    Arguments:
-        filename: name of the file to write to
+    """Writes the first lines of a DefInjected file.
+    :param file: File to write to
+    :return:
     """
     file.write('<?xml version="1.0" encoding="utf-8" ?>\n')
     file.write('<LanguageData>\n')
     file.write('    \n')
 
 
-def writedeflabel(file, labeltype, defname, deflabel):
+def writedeflabel(file, defname, labeltype, deflabel):
     """ Writes the translation data of a DefInjected file in the correct syntax:
     <Ocean.label>ocean</Ocean.label>
     <Ocean.description>Open ocean. Great for fish - not so great for you.</Ocean.description>
-
-    Arguments:
-        filename: Name of the file to write to
-        labelType: A designation string for the label, for example 'description'
-        defname: The name of the def the label belongs to
-        deflabel: The untranslated text in the label
+    :param file: File to write to
+    :param defname: Name of the Def to write
+    :param labeltype: Tag of the label to write
+    :param deflabel: Text inside tags
+    :return:
     """
     file.write('    <' + defname + '.' + labeltype + '>' + deflabel + '</' + defname + '.' + labeltype + '>\n')
 
@@ -49,12 +61,11 @@ def writepathreplace(file, defname, path, text):
         <path>Misc.comps[0].labelTreatedWell</path>
         <trans>bandaged</trans>
     </rep>
-
-    Arguments:
-        file: File to write to
-         defname: The name of the def the label belongs to		         defname: The name of the def the label belongs to
-        path: Path to the thing to translate
-         deflabel: The untranslated text in the label		         deflabel: The untranslated text in the label
+    :param file: File to write to
+    :param defname: Name of the Def to write
+    :param path: Path to the label to write
+    :param text: Text inside tags
+    :return:
     """
     file.write('    <rep>\n')
     file.write('        <path>' + defname + '.' + path + '</path>\n')
@@ -64,8 +75,8 @@ def writepathreplace(file, defname, path, text):
 
 def writefooter(file):
     """ Writes the last lines of a DefInjected file.
-    Arguments:
-        filename: Name of the file to write to
+    :param file: File to write to
+    :return:
     """
     file.write('</LanguageData>\n')
 
@@ -76,7 +87,7 @@ arguments = sys.argv[1:]
 if len(arguments) == 2:
     defsDirPath = arguments[0]
     translationDirPath = arguments[1]
-# If no directories entered then print help
+# If incorrect number of arguments then print help
 else:
     printhelp()
     sys.exit(2)
@@ -99,13 +110,16 @@ labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'rep
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
           'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText',
           'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly']
-liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas']
+liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack']
+nestedliststartlabels = ['rulesStrings']
 listlabels = ['label', 'description', 'labelTreatedWell', 'labelTreated', 'labelTreatedWellInner', 'labelTreatedInner',
               'labelSolidTreatedWell', 'labelSolidTreated']
 
 # Check if the entered RimWorld installation folder was correct
-if os.path.exists(defsDirPath):
-
+if not os.path.exists(defsDirPath):
+    print("Invalid RimWorld installation folder.")
+    sys.exit(2)
+else:
     print("Valid installation folder.")
     print("")
 
@@ -113,33 +127,34 @@ if os.path.exists(defsDirPath):
     if not os.path.exists(translationDirPath):
         os.makedirs(translationDirPath)
 
+    # Count the number of files
     numfiles = 0
     for p, d, fs in os.walk(defsDirPath):
         for f in fs:
             if f.endswith('.xml'):
                 numfiles += 1
 
-    # Start going through all the folders
-    # dirpath is the full path to the current def directory
-    index = 0
-    # sys.stdout.write('\r1/{} 0%'.format(numfiles))
-    # sys.stdout.flush()
+    # Go through all the folders one by one
+    # dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
+    # and filenames is a list of files
+    processedfiles = 0
     for dirpath, dirnames, filenames in os.walk(defsDirPath):
 
         # Save the name of the directory to create, but remove the s at the end
         # ThingDefs -> ThingDef
         defInjectDirectory = os.path.basename(dirpath)[:-1]
 
+        # Go through all the files one by one
         for filename in [f for f in filenames if f.endswith('xml')]:
 
+            # Parse the .xml file with ElementTree
             defFile = ETree.parse(os.path.join(dirpath, filename))
             defRoot = defFile.getroot()
 
             # Assume that the file doesn't have anything to translate
             haslabels = False
-            # Go through the lines one by one and check if there is something to translate
+            # Go through the tags one by one and check if there is something to translate
             # If there is, change haslabels to True and stop searching
-            # Some of the things to translate are either uppercase or lowercase
             for child in defRoot:
                 for label in labels:
                     if child.find(label) is not None:
@@ -148,21 +163,20 @@ if os.path.exists(defsDirPath):
 
                 if haslabels:
                     break
+                # If there were no tags found check for list thingies
                 else:
                     for liststartlabel in liststartlabels:
                         if child.find(liststartlabel) is not None:
                             haslabels = True
                             break
 
-            # If the file has something to traslate
+            # If the file has something to translate
             if haslabels:
-
                 # Create the directory in the translationDir if it doesn't exist
                 if not os.path.exists(os.path.join(translationDirPath, defInjectDirectory)):
                     os.mkdir(os.path.join(translationDirPath, defInjectDirectory))
 
-                # Assume that an already existing file is incorrect
-                # and remove it to start fresh
+                # Assume that an already existing file is incorrect and remove it to start fresh
                 if os.path.exists(os.path.join(translationDirPath, defInjectDirectory, filename)):
                     os.remove(os.path.join(translationDirPath, defInjectDirectory, filename))
 
@@ -172,39 +186,59 @@ if os.path.exists(defsDirPath):
                 # Write the header of the file
                 writeheader(defInjectFile)
 
-                labelDict = []
                 defName = ""
-                # Start going through the file line by line
+                labelDict = []
+                # Go through the file tag by tag
+                # child is ThingDef, TraitDef etc.
                 for child in defRoot:
+                    # Look for the defName of the Def
                     defElement = child.find('defName')
+                    # Check if we found anything
                     if defElement is not None:
+                        # Save the defname
                         defName = defElement.text
                     else:
+                        # Check for alternate capitalization
                         defElement = child.find('DefName')
                         if defElement is not None:
                             defName = defElement.text
+                    # Go through the labels one by one
                     for label in labels:
+                        # Look for the label in tags
                         labelElement = child.find(label)
+                        # Check if we found anything
                         if labelElement is not None:
+                            # Add the label and its text to the list
                             labelDict.append((labelElement.tag, labelElement.text))
+                    # Go through the list of collected labels
                     for label, text in labelDict:
-                        writedeflabel(defInjectFile, label, defName, text)
+                        # Write the lines to the file
+                        writedeflabel(defInjectFile, defName, label, text)
+                        # Clear the list of collected labels
                         labelDict = []
+                    # Go through list thingies one by one
                     for liststartlabel in liststartlabels:
+                        # Check if there are them
                         if child.find(liststartlabel) is not None:
                             liststart = child.find(liststartlabel)
+                            # Store the elements of the list
                             listelements = liststart.findall('li')
-                            for i, listelement in enumerate(listelements):
-                                test = listelement.text
-                                if listelement.text is not None:
-                                    if len(list(listelement)) == 0:
-                                        writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + ']', listelement.text)
-                                    else:
-                                        for listlabel in listlabels:
-                                            if listelement.find(listlabel) is not None:
-                                                listsubelement = listelement.find(listlabel)
-                                                writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + '].' + listsubelement.tag, listsubelement.text)
-
+                            if len(listelements) != 0:
+                                for i, listelement in enumerate(listelements):
+                                    if listelement.text is not None:
+                                        # If the list element has no children, it has the text to translate in itself
+                                        if len(list(listelement)) == 0:
+                                            # Write the path replacement syntax to the file
+                                            writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + ']', listelement.text)
+                                        else:
+                                            # Go through the in-list labels
+                                            for listlabel in listlabels:
+                                                # Look for them in the list
+                                                if listelement.find(listlabel) is not None:
+                                                    # Store the label tag
+                                                    listsubelement = listelement.find(listlabel)
+                                                    # Write the path replacement syntax to the file
+                                                    writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + '].' + listsubelement.tag, listsubelement.text)
 
                     # Move to the next line in the template
                     defInjectFile.write('    \n')
@@ -212,18 +246,14 @@ if os.path.exists(defsDirPath):
                 # Clean up after parsing the file
                 # Write the end of the xml file
                 writefooter(defInjectFile)
-                # Close the translateable file
+                # Close the translatable file
                 defInjectFile.close()
 
-            index += 1
+            processedfiles += 1
 
-            update_progress(index, numfiles)
-
-else:
-    print("Invalid RimWorld installation folder.")
-    sys.exit(2)
+            print_progress(processedfiles, numfiles)
 
 print("")
 print("")
 
-print("Succesfully processed all files.")
+print("Successfully processed all files.")
