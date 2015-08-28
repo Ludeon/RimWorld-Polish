@@ -14,6 +14,7 @@ def printhelp():
     print("Usage: RimWorld_DefsToDefInject.py <RimWorld installation folder> <Folder for templates>")
     print("")
     print("Invalid number of arguments.")
+    print("Enclose folder names in double quotes.")
 
 
 def print_progress(progress, total):
