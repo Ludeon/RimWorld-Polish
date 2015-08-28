@@ -161,6 +161,12 @@ else:
             # Go through the tags one by one and check if there is something to translate
             # If there is, change haslabels to True and stop searching
             for child in defRoot:
+                defElement = child.find('defName')
+                if defElement is None:
+                    defElement = child.find('DefName')
+                    if defElement is None:
+                        continue
+
                 for label in labels:
                     if child.find(label) is not None:
                         haslabels = True
@@ -207,6 +213,9 @@ else:
                         defElement = child.find('DefName')
                         if defElement is not None:
                             defName = defElement.text
+                        else:
+                            continue
+
                     # Go through the labels one by one
                     for label in labels:
                         # Look for the label in tags
@@ -255,6 +264,7 @@ else:
                                                 if len(list(nestedlistelement)) == 0:
                                                     # Write the path replacement syntax to the file
                                                     writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '[' + str(i) + ']', nestedlistelement.text)
+
                     for nestedstartlabel in nestedstartlabels:
                         nestedstart = child.find(nestedstartlabel)
                         if nestedstart is not None:
