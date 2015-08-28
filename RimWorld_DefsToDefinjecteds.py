@@ -52,6 +52,7 @@ def writedeflabel(file, defname, labeltype, deflabel):
     :param deflabel: Text inside tags
     :return:
     """
+    labeltype = labeltype[:1].lower() + labeltype[1:]
     file.write('    <' + defname + '.' + labeltype + '>' + deflabel + '</' + defname + '.' + labeltype + '>\n')
 
 
@@ -109,7 +110,7 @@ translationDirPath += '\\DefInjected'
 labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'reportString', 'verb', 'gerund',
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
           'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText',
-          'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly']
+          'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly', 'Description']
 nestedstartlabels = ['injuryProps']
 nestedlabels = ['destroyedLabel', 'destroyedOutLabel']
 liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack']
