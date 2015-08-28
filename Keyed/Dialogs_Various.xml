@@ -7,6 +7,10 @@
   <GoBack>Go back</GoBack>
   <OK>OK</OK>
   
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Recovered from incompatible or corrupted mods errors</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
+  
   <!-- Save/load -->
   <SaveGameButton>Save</SaveGameButton>
   <OverwriteButton>Overwrite</OverwriteButton>
@@ -20,6 +24,7 @@
   <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
+  <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}</ProblemSavingFile>
   
   <!-- Colony naming-->
   <NameColonyMessage>It looks like you'll be here for a while. {0} is suggesting that you give the colony a name.\n\nWhat should it be called?</NameColonyMessage>
@@ -45,9 +50,6 @@
   <ConfirmResolutionChange>You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Keep</ResolutionKeep>
   <ResolutionRevert>Revert</ResolutionRevert>
-
-  <!-- Overview -->
-  <OverviewOf>Overview of {0}</OverviewOf>
 
   <!-- Research -->
   <Research>Research</Research>
@@ -88,6 +90,7 @@
   <WorkAmount>Work amount</WorkAmount>
   <MinimumSkills>Minimum skills:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
+  <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>
   <BillRequiresMayVary>Note: small-volume ingredients like gold require 20x as much.</BillRequiresMayVary>
   <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/20 as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need 20x as much as usual.</ThisIsSmallVolume>
   <UsableIngredients>ingredients</UsableIngredients>
@@ -122,16 +125,18 @@
   <Joy>Joy</Joy>
   <FoodQuality>Food quality</FoodQuality>
   <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
-  <ButcherYield>Butcher yield</ButcherYield>
   <MinFoodQuality>Min. food quality</MinFoodQuality>
   <Diet>Diet</Diet>
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
   <MarketValue>Base price</MarketValue>
   <Covers>Covers</Covers>
   <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
+  <MoodChange>Mood change</MoodChange>
+  <Wildness>Wildness</Wildness>
+  <WildnessExplanation>Wilder creatures are naturally more difficult to tame, train, and handle.</WildnessExplanation>
   
   <!-- Trade -->
-  <DragToTrade>Drag to trade</DragToTrade>
+  <DragToTrade>Drag number\nto trade</DragToTrade>
   <BuyPriceDesc>Price you pay to buy this.</BuyPriceDesc>
   <SellPriceDesc>Price you receive for selling this.</SellPriceDesc>
   <PriceTypeDesc>For this item, this price is {0}.</PriceTypeDesc>
@@ -147,6 +152,7 @@
   <TraderWillNotTrade>Trader is not willing to trade in this item.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.\n\nThis will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
+  <SortBy>Sort by</SortBy>
   
   <!-- Comms -->
   <SocialSkillIs>Social skill: {0}</SocialSkillIs>

@@ -7,7 +7,7 @@
     </rep>
     <rep>
         <path>SleepDisturbed.stages[0].description</path>
-        <trans>I was disturbed during sleep by people moving around inside the room.</trans>
+        <trans>I was disturbed during sleep by people moving around nearby. A private room would solve this.</trans>
     </rep>
     
     <rep>
@@ -45,8 +45,6 @@
         <path>AteLavishMeal.stages[0].description</path>
         <trans>That lavish meal was amazing. It nourished my body and my soul.</trans>
     </rep>
-        
-    <!-- =========== Cannibalism ===============-->
     
     <rep>
         <path>AteHumanlikeMeatDirect.stages[0].label</path>
@@ -56,7 +54,7 @@
         <path>AteHumanlikeMeatDirect.stages[0].description</path>
         <trans>I ate the meat of another human, raw, like an animal. This is a nightmare.</trans>
     </rep>
-
+    
     <rep>
         <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
         <trans>cooked cannibalism</trans>
@@ -95,14 +93,12 @@
     
     <rep>
         <path>AteWithoutTable.stages[0].label</path>
-        <trans>ate off the ground </trans>
+        <trans>ate off the ground</trans>
     </rep>
     <rep>
         <path>AteWithoutTable.stages[0].description</path>
         <trans>I had to eat a meal off the ground. Can't we get a table around here?</trans>
     </rep>
-    
-    <!-- Combat -->
     
     <rep>
         <path>ObservedLayingCorpse.stages[0].label</path>
@@ -231,29 +227,79 @@
     </rep>
     
     <rep>
-        <path>KnowPrisonerExecuted.stages[0].label</path>
-        <trans>a prisoner was executed</trans>
+        <path>KnowGuestExecuted.stages[0].label</path>
+        <trans>someone put to death</trans>
     </rep>
     <rep>
-        <path>KnowPrisonerExecuted.stages[0].description</path>
-        <trans>A prisoner was executed in cold blood. This colony seems more evil by the day.</trans>
+        <path>KnowGuestExecuted.stages[0].description</path>
+        <trans>A prisoner or guest was put to death.</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[1].label</path>
+        <trans>someone was executed</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[1].description</path>
+        <trans>A prisoner or guest was killed in cold blood. This colony seems more evil by the day.</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[2].label</path>
+        <trans>organ harvested and killed</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[2].description</path>
+        <trans>A prisoner or guest died because the colony took body parts from him. It's horrible.</trans>
     </rep>
     
     <rep>
-        <path>KnowPrisonerOrganHarvested.stages[0].label</path>
-        <trans>prisoner organ harvested</trans>
+        <path>KnowColonistExecuted.stages[0].label</path>
+        <trans>colonist put to death</trans>
     </rep>
     <rep>
-        <path>KnowPrisonerOrganHarvested.stages[0].description</path>
-        <trans>The colony took body parts from a prisoner. It's horrible, breaking someone down for parts when they have no choice.</trans>
+        <path>KnowColonistExecuted.stages[0].description</path>
+        <trans>A colonist was put to death.</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[1].label</path>
+        <trans>colonist was executed</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[1].description</path>
+        <trans>A colonist was killed in cold blood. This colony seems more evil by the day.</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[2].label</path>
+        <trans>colonist's organ harvested, killed</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[2].description</path>
+        <trans>A colonist died because someone took body parts from him. It's horrible.</trans>
     </rep>
     
     <rep>
-        <path>MePrisonerOrganHarvested.stages[0].label</path>
-        <trans>organ harvested</trans>
+        <path>KnowGuestOrganHarvested.stages[0].label</path>
+        <trans>someone's organ harvested</trans>
     </rep>
     <rep>
-        <path>MePrisonerOrganHarvested.stages[0].description</path>
+        <path>KnowGuestOrganHarvested.stages[0].description</path>
+        <trans>The colony took body parts from a guest or prisoner. It's horrible, breaking someone down for parts when they have no choice.</trans>
+    </rep>
+    
+    <rep>
+        <path>KnowColonistOrganHarvested.stages[0].label</path>
+        <trans>colonist's organ harvested</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistOrganHarvested.stages[0].description</path>
+        <trans>Someone took body parts from a colonist. It's horrible, breaking someone down for parts when they have no choice.</trans>
+    </rep>
+    
+    <rep>
+        <path>MyOrganHarvested.stages[0].label</path>
+        <trans>my organ harvested</trans>
+    </rep>
+    <rep>
+        <path>MyOrganHarvested.stages[0].description</path>
         <trans>The colony harvested body parts from me! They're breaking me down like an old engine!</trans>
     </rep>
     
@@ -265,7 +311,7 @@
         <path>WasImprisoned.stages[0].description</path>
         <trans>The colony had me in jail for a while, like a caged animal.</trans>
     </rep>
-
+    
     <rep>
         <path>PrisonerFriendlyChat.stages[0].label</path>
         <trans>convinced by warden</trans>
@@ -281,16 +327,16 @@
     </rep>
     <rep>
         <path>SocialTalk.stages[0].description</path>
-        <trans>I just had a good chat with someone.</trans>
+        <trans>I had a good chat with someone.</trans>
     </rep>
     
     <rep>
         <path>AbrasiveTalk.stages[0].label</path>
-        <trans>had an unpleasant conversation</trans>
+        <trans>had an unpleasant chat</trans>
     </rep>
     <rep>
         <path>AbrasiveTalk.stages[0].description</path>
-        <trans>Someone was rude to me. The worst part is, I don't even think that person realized it...</trans>
+        <trans>Someone was rather abrasive towards me.</trans>
     </rep>
     
     <rep>
@@ -309,6 +355,24 @@
     <rep>
         <path>Catharsis.stages[0].description</path>
         <trans>What just happened... That wasn't me. I know I can do better.</trans>
+    </rep>
+    
+    <rep>
+        <path>Nuzzled.stages[0].label</path>
+        <trans>nuzzled</trans>
+    </rep>
+    <rep>
+        <path>Nuzzled.stages[0].description</path>
+        <trans>A cute animal nuzzled me.</trans>
+    </rep>
+    
+    <rep>
+        <path>SomeoneBuriedInSarcophagus.stages[0].label</path>
+        <trans>buried in sarcophagus</trans>
+    </rep>
+    <rep>
+        <path>SomeoneBuriedInSarcophagus.stages[0].description</path>
+        <trans>This colony buried someone in an ornamented sarcophagus. May his soul rest in peace.</trans>
     </rep>
     
 </LanguageData>

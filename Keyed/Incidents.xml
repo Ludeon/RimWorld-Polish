@@ -48,11 +48,9 @@
   <WandererJoin>A {0} named NAME has arrived and is joining the colony. HECAP is a {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>A pack of man-hunting {0}s have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey can't pass doors, so if you stay behind walls you should be safe.\n\nThey'll leave the area in a few days.</ManhunterPackArrived>
+  <ManhunterPackArrived>A pack of man-hunting {0}s have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey can't pass doors, so if you stay behind walls you should be safe. They won't attack inactive turrets, so turn your turrets off if you want to save them.\n\nThey'll leave the area in a few days.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <LetterLabelSpaceshipPartCrash>Evil ship</LetterLabelSpaceshipPartCrash>
-  <SpaceshipPartCrash>A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy it as soon as possible.</SpaceshipPartCrash>
   <MessageAnimalInsanityPulse>The ancient structure has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Awoke {0} days ago</AwokeDaysAgo>
@@ -85,6 +83,18 @@
   <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>
 
+  <!-- Self-tame -->
+  <LetterLabelAnimalSelfTame>{0} self-tamed</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} has become tame.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0} has become tame. It is now designated {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0} has become tame. Colonists have decided to name it {1}.</LetterAnimalSelfTameAndName>
 
-
+  <!-- Farm animals wander in -->
+  <LetterLabelFarmAnimalsWanderIn>{0}s join</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>A group of {0}s, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony.</LetterFarmAnimalsWanderIn>
+  
+  <!-- Thrumbo passes -->
+  <LetterLabelThrumboPasses>Rare thrumbos</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days.</LetterThrumboPasses>
+  
 </LanguageData>

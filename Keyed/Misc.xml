@@ -14,13 +14,12 @@
 
   <CloseButton>Close</CloseButton>
 
-
   <VersionIndicator>Version {0}</VersionIndicator>
   <DevelopmentBuildLower>development build</DevelopmentBuildLower>
   <CompiledOn>Compiled {0}</CompiledOn>
+  <LoggedIntoSteamAs>Logged into Steam as {0}</LoggedIntoSteamAs>
 
-
-
+  
   <!-- Content generation-->
   
 	<MeatLabel>{0} meat</MeatLabel>
@@ -48,6 +47,10 @@
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
+  <!-- To express ownership. -->
+  <!-- For example Jack's Bedroom -->
+  <SomeonesSomething>{0}'s {1}</SomeonesSomething>
+  
   <VariousLabel>(various)</VariousLabel>
 
   <!-- History events -->
