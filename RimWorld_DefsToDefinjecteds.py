@@ -52,6 +52,7 @@ def writedeflabel(file, defname, labeltype, deflabel):
     :param deflabel: Text inside tags
     :return:
     """
+    # Revert capitalization
     labeltype = labeltype[:1].lower() + labeltype[1:]
     file.write('    <' + defname + '.' + labeltype + '>' + deflabel + '</' + defname + '.' + labeltype + '>\n')
 
