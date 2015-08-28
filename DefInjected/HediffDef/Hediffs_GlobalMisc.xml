@@ -27,6 +27,8 @@
     
     <Concussion.label>concussion</Concussion.label>
     
+    <PsychicShock.label>psychic shock</PsychicShock.label>
+    
     <CryptosleepSickness.label>cryptosleep sickness</CryptosleepSickness.label>
     
     <FoodPoisoning.label>food poisoning</FoodPoisoning.label>
@@ -55,6 +57,20 @@
     <rep>
         <path>ToxicBuildup.stages[5].label</path>
         <trans>extreme</trans>
+    </rep>
+    
+    <Pregnant.label>pregnant</Pregnant.label>
+    <rep>
+        <path>Pregnant.stages[0].label</path>
+        <trans>early-stage-hidden</trans>
+    </rep>
+    <rep>
+        <path>Pregnant.stages[1].label</path>
+        <trans>middle-stage</trans>
+    </rep>
+    <rep>
+        <path>Pregnant.stages[2].label</path>
+        <trans>late-stage</trans>
     </rep>
     
 </LanguageData>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <!-- Special concepts with modal dialogs -->
-    
     <rep>
         <path>CameraDolly.helpTexts[0]</path>
         <trans>Move the camera by clicking and dragging the MIDDLE MOUSE BUTTON or with the WASD keys.</trans>
@@ -33,12 +31,17 @@
     
     <rep>
         <path>AnimalsDontAttackDoors.helpTexts[0]</path>
-        <trans>Attacking animals generally won't attack doors.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you.</trans>
+        <trans>Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you.</trans>
     </rep>
     
     <rep>
         <path>BillsTab.helpTexts[0]</path>
         <trans>To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher.</trans>
+    </rep>
+    
+    <rep>
+        <path>AnimalTraining.helpTexts[0]</path>
+        <trans>You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions.</trans>
     </rep>
     
     <rep>
@@ -53,7 +56,7 @@
     
     <rep>
         <path>OpeningComms.helpTexts[0]</path>
-        <trans>To communicate, select a working colonist and right-click on the comms console.</trans>
+        <trans>To communicate, select a colonist and right-click on the comms console.</trans>
     </rep>
     
     <rep>
@@ -61,5 +64,9 @@
         <trans>Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them under a roof.</trans>
     </rep>
     
+    <rep>
+        <path>InspectRoomStats.helpTexts[0]</path>
+        <trans>You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right.</trans>
+    </rep>
     
 </LanguageData>
