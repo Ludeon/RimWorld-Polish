@@ -36,8 +36,8 @@
   <NoWorldsFilesFound>No world files found. Create a world first.</NoWorldsFilesFound>
   
   <!--=========== Version info ==========-->
-  <BuildNowAvailable>Build {0} is now available. Check ludeon.com for more info.</BuildNowAvailable>
-	<BuildUpToDate>Build is up to date.</BuildUpToDate>
+  <BuildNowAvailable>Version {0} is now available. Check ludeon.com for more info.</BuildNowAvailable>
+	<BuildUpToDate>This is the latest version.</BuildUpToDate>
 	<ErrorGettingVersionInfo>Error getting version info: {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Loading version info...</LoadingVersionInfo>
 
@@ -45,12 +45,23 @@
   <GenerateWorld>Generate world</GenerateWorld>
 
   <!--=========== Mods screen ==========-->
-  <GetMods>Get mods</GetMods>
+  <OpenSteamWorkshop>Open Steam Workshop</OpenSteamWorkshop>
+  <GetModsFromForum>Get mods from forum</GetModsFromForum>
   <OpenModsDataFolder>Open mods data folder</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Are you sure you want to delete all the content for {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Unsubscribe</Unsubscribe>
+  <ConfirmUnsubscribe>Are you sure you want to unsubscribe from {0}?</ConfirmUnsubscribe>
   <Author>Author</Author>
-
-
+  <WorkshopPage>Workshop page</WorkshopPage>
+  <UploadToSteamWorkshop>Upload to Steam Workshop</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Update on Steam Workshop</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Upload already in progress.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Workshop submission failed.\n\nReason: {0}</WorkshopSubmissionFailed>
+  <YouAgreeToSteamWorkshopLegal>By submitting this mod, you agree to the Steam Workshop terms of service. Click here for more info.</YouAgreeToSteamWorkshopLegal>
+  <WorkshopUploadSucceeded>Successfully uploaded {0}.</WorkshopUploadSucceeded>
+  <DownloadingMod>Downloading {0}</DownloadingMod>
+  
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Choose AI Storyteller</ChooseAIStoryteller>
   <HowStorytellersWork>The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony.</HowStorytellersWork>
@@ -62,6 +73,7 @@
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Select landing site</SelectLandingSite>
+  <SelectRandomSite>Select random site</SelectRandomSite>
   <SelectSite>Select site</SelectSite>
   <MustSelectLandingSite>Please select a landing site.</MustSelectLandingSite>
   <CannotLandBiome>You cannot land on this biome: {0}</CannotLandBiome>
@@ -105,8 +117,8 @@
   <NoneLower>none</NoneLower>
   <Adulthood>Adulthood</Adulthood>
   <Childhood>Childhood</Childhood>
-  <Male>Male</Male>
-  <Female>Female</Female>
+  <Male>male</Male>
+  <Female>female</Female>
   <Pain>Pain</Pain>
   
   
