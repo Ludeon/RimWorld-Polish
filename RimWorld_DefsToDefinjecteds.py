@@ -110,10 +110,12 @@ labels = ['label', 'description', 'pawnLabel', 'gerundLabel', 'skillLabel', 'rep
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
           'inspectLine', 'graphLabelY', 'labelMechanoids', 'labelShort', 'fixedName', 'letterLabel', 'letterText',
           'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly']
+nestedstartlabels = ['injuryProps']
+nestedlabels = ['destroyedLabel', 'destroyedOutLabel']
 liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack']
 nestedliststartlabels = ['rulesStrings']
 listlabels = ['label', 'description', 'labelTreatedWell', 'labelTreated', 'labelTreatedWellInner', 'labelTreatedInner',
-              'labelSolidTreatedWell', 'labelSolidTreated']
+              'labelSolidTreatedWell', 'labelSolidTreated', 'oldLabel']
 
 # Check if the entered RimWorld installation folder was correct
 if not os.path.exists(defsDirPath):
@@ -250,6 +252,13 @@ else:
                                                 if len(list(nestedlistelement)) == 0:
                                                     # Write the path replacement syntax to the file
                                                     writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '[' + str(i) + ']', nestedlistelement.text)
+                    for nestedstartlabel in nestedstartlabels:
+                        nestedstart = child.find(nestedstartlabel)
+                        if nestedstart is not None:
+                            for nestedlabel in nestedlabels:
+                                nestedelement = nestedstart.find(nestedlabel)
+                                if nestedelement is not None:
+                                    writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
 
                     # Move to the next line in the template
                     defInjectFile.write('    \n')
