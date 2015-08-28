@@ -239,6 +239,17 @@ else:
                                                     listsubelement = listelement.find(listlabel)
                                                     # Write the path replacement syntax to the file
                                                     writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + '].' + listsubelement.tag, listsubelement.text)
+                            else:
+                                for nestedliststartlabel in nestedliststartlabels:
+                                    nestedliststart = liststart.find(nestedliststartlabel)
+                                    nestedlistelements = nestedliststart.findall('li')
+                                    if len(nestedlistelements) != 0:
+                                        for i, nestedlistelement in enumerate(nestedlistelements):
+                                            if nestedlistelement.text is not None:
+                                                # If the list element has no children, it has the text to translate in itself
+                                                if len(list(nestedlistelement)) == 0:
+                                                    # Write the path replacement syntax to the file
+                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '[' + str(i) + ']', nestedlistelement.text)
 
                     # Move to the next line in the template
                     defInjectFile.write('    \n')
