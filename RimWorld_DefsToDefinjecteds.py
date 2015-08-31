@@ -272,12 +272,14 @@ else:
                                 nestedelement = nestedstart.find(nestedlabel)
                                 if nestedelement is not None:
                                     writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
-                    if child.get('ParentName') == 'BaseAnimal':
+                    if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid']:
                         labelElement = child.find('label')
-                        writedeflabel(defInjectFile, defName + '_Leather', 'label', labelElement.text + ' leather')
-                        writedeflabel(defInjectFile, defName + '_Leather', 'description', 'Leather made from the skin of a ' + labelElement.text + '.')
-                        writedeflabel(defInjectFile, defName + '_Meat', 'label', labelElement.text + ' meat')
-                        writedeflabel(defInjectFile, defName + '_Meat', 'description', 'Raw flesh of a ' + labelElement.text + '.')
+                        if defName not in ['Chicken', 'Megascarab', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
+                            writedeflabel(defInjectFile, defName + '_Leather', 'label', labelElement.text + ' leather')
+                            writedeflabel(defInjectFile, defName + '_Leather', 'description', 'Leather made from the skin of a ' + labelElement.text + '.')
+                        if defName not in ['Mechanoid_Centipede', 'Mechanoid_Scyther']:
+                            writedeflabel(defInjectFile, defName + '_Meat', 'label', labelElement.text + ' meat')
+                            writedeflabel(defInjectFile, defName + '_Meat', 'description', 'Raw flesh of a ' + labelElement.text + '.')
                         writedeflabel(defInjectFile, defName + '_Corpse', 'label', labelElement.text + ' corpse')
                         writedeflabel(defInjectFile, defName + '_Corpse', 'description', 'Dead body of a ' + labelElement.text + '.')
                     if child.get('ParentName') == 'StoneBlocksBase':
