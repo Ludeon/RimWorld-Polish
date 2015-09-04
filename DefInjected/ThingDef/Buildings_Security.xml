@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  
     <Sandbags.label>Worki z piaskiem</Sandbags.label>
 	<Sandbags.description>Można się ukryć przed ostrzałem.</Sandbags.description>
   
     <!--=============== Improvised turret ===============-->
-	<TurretGun.label>Słaba wieżyczka</TurretGun.label>
+	
+	<TurretGun.label>Prowizoryczna wieżyczka</TurretGun.label>
 	<TurretGun.description>Słaba prowizoryczna wieżyczka, która automatycznie strzela w przeciwników. Wybucha, gdy ulegnie zniszczeniu.</TurretGun.description>
 	
-	<!-- ================== Incendiary mortar ================== -->
-	<Turret_MortarIncendiary.label>Moździerz podpalający</Turret_MortarIncendiary.label>
-	<Turret_MortarIncendiary.description>Wystrzeliwuje podpalające pociski nad murami. Musi być obsługiwany przez kolonistę. Bardzo niecelny, ale posiada daleki zasięg. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarIncendiary.description>
+	<!--=============== Mortar turret ===============-->
 	
-	<!-- ================= Bomb mortar ================= -->
 	<Turret_MortarBomb.label>Moździerz</Turret_MortarBomb.label>
-	<Turret_MortarBomb.description>Wystrzeliwuje pociski nad murami. Musi być obsługiwany przez kolonistę. Bardzo niecelny, ale posiada daleki zasięg. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarBomb.description>
+	<Turret_MortarBomb.description>Wystrzeliwuje eksplodujące pociski. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarBomb.description>
+	
+	<!--=============== Mortar turret ===============-->
+	
+	<Turret_MortarIncendiary.label>Moździerz podpalający</Turret_MortarIncendiary.label>
+	<Turret_MortarIncendiary.description>Wystrzeliwuje podpalające pociski. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarIncendiary.description>
+	
+	<!--=============== Mortar EMP ===============-->
 	
 	<Turret_MortarEMP.label>Moździerz EMP</Turret_MortarEMP.label>
-	<Turret_MortarEMP.description>Wystrzeliwuje pociski nad murami. Musi być obsługiwany przez kolonistę. Bardzo niecelny, ale posiada daleki zasięg. Gdy wybucha, poraża i unieruchamia roboty..</Turret_MortarEMP.description>
+	<Turret_MortarEMP.description>Wystrzeliwuje pociski elektromagnetyczne. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarEMP.description>
 	
+	<!--==================== Traps ======================== -->
 	
-	
-	
+    <TrapDeadfall.label>Spadająca pułapka</TrapDeadfall.label>
+	<TrapDeadfall.description>Zawieszony ciężar z kolcami utrzymywany przez delikatny spust. Kiedy ofiara naruszy spust pułapka spada na głowę i tułów</TrapDeadfall.description>
+  
+    <TrapIEDBomb.label>Improwizowany ładunek wybuchowy</TrapIEDBomb.label>
+	<TrapIEDBomb.description>Pocisk artyleryjski połączony z domowej roboty zapalnikiem. Kiedy ktoś naruszy zapalnik, pocisk wybucha. Domowej roboty zapalnik ma różne opóźnienia wybuchu więc zwinny przeciwnik może uciec</TrapIEDBomb.description>
+  
+    <TrapIEDIncendiary.label>Improwizowany ładunek zapalający</TrapIEDIncendiary.label>
+	<TrapIEDIncendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Chemiczny zapalnik jest prosty i można na nim polegać  .</TrapIEDIncendiary.description>
+  
 </LanguageData>
