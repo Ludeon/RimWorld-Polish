@@ -11,7 +11,13 @@ def printhelp():
     """
     print("RimWorld Translation Template Script")
     print("Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them.")
-    print("Usage: RimWorld_DefsToDefInject.py <RimWorld installation folder> <Folder for templates>")
+    print("Usage: RimWorld_DefsToDefInjecteds.py <RimWorld installation folder> <Folder for templates>")
+
+
+def printhelperror():
+    """ Print information about the script in case of incorrect usage.
+    :return:
+    """
     print("")
     print("Invalid number of arguments.")
     print("Enclose folder names in double quotes.")
@@ -91,8 +97,11 @@ if len(arguments) == 2:
     defsDirPath = arguments[0]
     translationDirPath = arguments[1]
 # If incorrect number of arguments then print help
-else:
+elif len(arguments) == 0:
     printhelp()
+    sys.exit(2)
+else:
+    printhelperror()
     sys.exit(2)
 
 # Print information about the script
