@@ -133,194 +133,194 @@ else:
     print("Valid installation folder.")
     print("")
 
-    # Create the translation folder
-    if not os.path.exists(translationDirPath):
-        os.makedirs(translationDirPath)
+# Create the translation folder
+if not os.path.exists(translationDirPath):
+    os.makedirs(translationDirPath)
 
-    # Count the number of files
-    numfiles = 0
-    for p, d, fs in os.walk(defsDirPath):
-        for f in fs:
-            if f.endswith('.xml'):
-                numfiles += 1
+# Count the number of files
+numfiles = 0
+for p, ds, fs in os.walk(defsDirPath):
+    for f in fs:
+        if f.endswith('.xml'):
+            numfiles += 1
 
-    # Go through all the folders one by one
-    # dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
-    # and filenames is a list of files
-    processedfiles = 0
-    for dirpath, dirnames, filenames in os.walk(defsDirPath):
+# Go through all the folders one by one
+# dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
+# and filenames is a list of files
+processedfiles = 0
+for dirpath, dirnames, filenames in os.walk(defsDirPath):
 
-        # Save the name of the directory to create, but remove the s at the end
-        # ThingDefs -> ThingDef
-        defInjectDirectory = os.path.basename(dirpath)[:-1]
+    # Save the name of the directory to create, but remove the s at the end
+    # ThingDefs -> ThingDef
+    defInjectDirectory = os.path.basename(dirpath)[:-1]
 
-        # Go through all the files one by one
-        for filename in [f for f in filenames if f.endswith('xml')]:
+    # Go through all the files one by one
+    for filename in [f for f in filenames if f.endswith('.xml')]:
 
-            # Parse the .xml file with ElementTree
-            defFile = ETree.parse(os.path.join(dirpath, filename))
-            defRoot = defFile.getroot()
+        # Parse the .xml file with ElementTree
+        defFile = ETree.parse(os.path.join(dirpath, filename))
+        defRoot = defFile.getroot()
 
-            # Assume that the file doesn't have anything to translate
-            haslabels = False
-            # Go through the tags one by one and check if there is something to translate
-            # If there is, change haslabels to True and stop searching
-            for child in defRoot:
-                defElement = child.find('defName')
+        # Assume that the file doesn't have anything to translate
+        haslabels = False
+        # Go through the tags one by one and check if there is something to translate
+        # If there is, change haslabels to True and stop searching
+        for child in defRoot:
+            defElement = child.find('defName')
+            if defElement is None:
+                defElement = child.find('DefName')
                 if defElement is None:
-                    defElement = child.find('DefName')
-                    if defElement is None:
-                        continue
+                    continue
 
-                for label in labels:
-                    if child.find(label) is not None:
+            for label in labels:
+                if child.find(label) is not None:
+                    haslabels = True
+                    break
+
+            if haslabels:
+                break
+            # If there were no tags found check for list thingies
+            else:
+                for liststartlabel in liststartlabels:
+                    if child.find(liststartlabel) is not None:
                         haslabels = True
                         break
 
-                if haslabels:
-                    break
-                # If there were no tags found check for list thingies
+        # If the file has something to translate
+        if haslabels:
+            # Create the directory in the translationDir if it doesn't exist
+            if not os.path.exists(os.path.join(translationDirPath, defInjectDirectory)):
+                os.mkdir(os.path.join(translationDirPath, defInjectDirectory))
+
+            # Assume that an already existing file is incorrect and remove it to start fresh
+            if os.path.exists(os.path.join(translationDirPath, defInjectDirectory, filename)):
+                os.remove(os.path.join(translationDirPath, defInjectDirectory, filename))
+
+            # Open the file for writing
+            defInjectFile = open(os.path.join(translationDirPath, defInjectDirectory, filename), 'w+')
+
+            # Write the header of the file
+            writeheader(defInjectFile)
+
+            defName = ""
+            defNamePrev = ""
+            labelDict = []
+            # Go through the file tag by tag
+            # child is ThingDef, TraitDef etc.
+            for child in defRoot:
+                # Look for the defName of the Def
+                defElement = child.find('defName')
+                # Check if we found anything
+                if defElement is not None:
+                    # Save the defname
+                    defName = defElement.text
                 else:
-                    for liststartlabel in liststartlabels:
-                        if child.find(liststartlabel) is not None:
-                            haslabels = True
-                            break
-
-            # If the file has something to translate
-            if haslabels:
-                # Create the directory in the translationDir if it doesn't exist
-                if not os.path.exists(os.path.join(translationDirPath, defInjectDirectory)):
-                    os.mkdir(os.path.join(translationDirPath, defInjectDirectory))
-
-                # Assume that an already existing file is incorrect and remove it to start fresh
-                if os.path.exists(os.path.join(translationDirPath, defInjectDirectory, filename)):
-                    os.remove(os.path.join(translationDirPath, defInjectDirectory, filename))
-
-                # Open the file for writing
-                defInjectFile = open(os.path.join(translationDirPath, defInjectDirectory, filename), 'w+')
-
-                # Write the header of the file
-                writeheader(defInjectFile)
-
-                defName = ""
-                defNamePrev = ""
-                labelDict = []
-                # Go through the file tag by tag
-                # child is ThingDef, TraitDef etc.
-                for child in defRoot:
-                    # Look for the defName of the Def
-                    defElement = child.find('defName')
-                    # Check if we found anything
+                    # Check for alternate capitalization
+                    defElement = child.find('DefName')
                     if defElement is not None:
-                        # Save the defname
                         defName = defElement.text
                     else:
-                        # Check for alternate capitalization
-                        defElement = child.find('DefName')
-                        if defElement is not None:
-                            defName = defElement.text
+                        continue
+
+                if defNamePrev == 'MossyTerrain' and defName == 'Ice':
+                    stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
+                    roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
+                    for stone in stonelist:
+                        for roughness in roughnesslist:
+                            writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
+
+                        defInjectFile.write('    \n')
+
+                # Go through the labels one by one
+                for label in labels:
+                    # Look for the label in tags
+                    labelElement = child.find(label)
+                    # Check if we found anything
+                    if labelElement is not None:
+                        # Add the label and its text to the list
+                        labelDict.append((labelElement.tag, labelElement.text))
+                # Go through the list of collected labels
+                for label, text in labelDict:
+                    # Write the lines to the file
+                    writedeflabel(defInjectFile, defName, label, text)
+                    # Clear the list of collected labels
+                    labelDict = []
+                # Go through list thingies one by one
+                for liststartlabel in liststartlabels:
+                    # Check if there are them
+                    if child.find(liststartlabel) is not None:
+                        liststart = child.find(liststartlabel)
+                        # Store the elements of the list
+                        listelements = liststart.findall('li')
+                        if len(listelements) != 0:
+                            for i, listelement in enumerate(listelements):
+                                if listelement.text is not None:
+                                    # If the list element has no children, it has the text to translate in itself
+                                    if len(list(listelement)) == 0:
+                                        # Write the path replacement syntax to the file
+                                        writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i), listelement.text)
+                                    else:
+                                        # Go through the in-list labels
+                                        for listlabel in listlabels:
+                                            # Look for them in the list
+                                            if listelement.find(listlabel) is not None:
+                                                # Store the label tag
+                                                listsubelement = listelement.find(listlabel)
+                                                # Write the path replacement syntax to the file
+                                                writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i) + '.' + listsubelement.tag, listsubelement.text)
                         else:
-                            continue
+                            for nestedliststartlabel in nestedliststartlabels:
+                                nestedliststart = liststart.find(nestedliststartlabel)
+                                nestedlistelements = nestedliststart.findall('li')
+                                if len(nestedlistelements) != 0:
+                                    for i, nestedlistelement in enumerate(nestedlistelements):
+                                        if nestedlistelement.text is not None:
+                                            # If the list element has no children, it has the text to translate in itself
+                                            if len(list(nestedlistelement)) == 0:
+                                                # Write the path replacement syntax to the file
+                                                writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '.' + str(i), nestedlistelement.text)
 
-                    if defNamePrev == 'MossyTerrain' and defName == 'Ice':
-                        stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
-                        roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
-                        for stone in stonelist:
-                            for roughness in roughnesslist:
-                                writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
-
-                            defInjectFile.write('    \n')
-
-                    # Go through the labels one by one
-                    for label in labels:
-                        # Look for the label in tags
-                        labelElement = child.find(label)
-                        # Check if we found anything
-                        if labelElement is not None:
-                            # Add the label and its text to the list
-                            labelDict.append((labelElement.tag, labelElement.text))
-                    # Go through the list of collected labels
-                    for label, text in labelDict:
-                        # Write the lines to the file
-                        writedeflabel(defInjectFile, defName, label, text)
-                        # Clear the list of collected labels
-                        labelDict = []
-                    # Go through list thingies one by one
-                    for liststartlabel in liststartlabels:
-                        # Check if there are them
-                        if child.find(liststartlabel) is not None:
-                            liststart = child.find(liststartlabel)
-                            # Store the elements of the list
-                            listelements = liststart.findall('li')
-                            if len(listelements) != 0:
-                                for i, listelement in enumerate(listelements):
-                                    if listelement.text is not None:
-                                        # If the list element has no children, it has the text to translate in itself
-                                        if len(list(listelement)) == 0:
-                                            # Write the path replacement syntax to the file
-                                            writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i), listelement.text)
-                                        else:
-                                            # Go through the in-list labels
-                                            for listlabel in listlabels:
-                                                # Look for them in the list
-                                                if listelement.find(listlabel) is not None:
-                                                    # Store the label tag
-                                                    listsubelement = listelement.find(listlabel)
-                                                    # Write the path replacement syntax to the file
-                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i) + '.' + listsubelement.tag, listsubelement.text)
-                            else:
-                                for nestedliststartlabel in nestedliststartlabels:
-                                    nestedliststart = liststart.find(nestedliststartlabel)
-                                    nestedlistelements = nestedliststart.findall('li')
-                                    if len(nestedlistelements) != 0:
-                                        for i, nestedlistelement in enumerate(nestedlistelements):
-                                            if nestedlistelement.text is not None:
-                                                # If the list element has no children, it has the text to translate in itself
-                                                if len(list(nestedlistelement)) == 0:
-                                                    # Write the path replacement syntax to the file
-                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '.' + str(i), nestedlistelement.text)
-
-                    for nestedstartlabel in nestedstartlabels:
-                        nestedstart = child.find(nestedstartlabel)
-                        if nestedstart is not None:
-                            for nestedlabel in nestedlabels:
-                                nestedelement = nestedstart.find(nestedlabel)
-                                if nestedelement is not None:
-                                    writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
-                    if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid']:
+                for nestedstartlabel in nestedstartlabels:
+                    nestedstart = child.find(nestedstartlabel)
+                    if nestedstart is not None:
+                        for nestedlabel in nestedlabels:
+                            nestedelement = nestedstart.find(nestedlabel)
+                            if nestedelement is not None:
+                                writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
+                if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid']:
+                    labelElement = child.find('label')
+                    if defName not in ['Chicken', 'Megascarab', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
+                        writedeflabel(defInjectFile, defName + '_Leather', 'label', labelElement.text + ' leather')
+                        writedeflabel(defInjectFile, defName + '_Leather', 'description', 'Leather made from the skin of a ' + labelElement.text + '.')
+                    if defName not in ['Mechanoid_Centipede', 'Mechanoid_Scyther']:
+                        writedeflabel(defInjectFile, defName + '_Meat', 'label', labelElement.text + ' meat')
+                        writedeflabel(defInjectFile, defName + '_Meat', 'description', 'Raw flesh of a ' + labelElement.text + '.')
+                    writedeflabel(defInjectFile, defName + '_Corpse', 'label', labelElement.text + ' corpse')
+                    writedeflabel(defInjectFile, defName + '_Corpse', 'description', 'Dead body of a ' + labelElement.text + '.')
+                if child.get('ParentName') == 'StoneBlocksBase':
+                    labelElement = child.find('label')
+                    writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text[:-7])
+                if child.get('ParentName') == 'TileStoneBase':
+                    writedeflabel(defInjectFile, defName, 'description', 'Solid stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.')
+                if child.get('ParentName') == 'TableBase':
+                    writedeflabel(defInjectFile, defName, 'description', 'People eat off tables when chairs are placed facing them.')
+                if child.get('ParentName') == 'ResourceBase':
+                    if child.find('stuffProps') is not None:
                         labelElement = child.find('label')
-                        if defName not in ['Chicken', 'Megascarab', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
-                            writedeflabel(defInjectFile, defName + '_Leather', 'label', labelElement.text + ' leather')
-                            writedeflabel(defInjectFile, defName + '_Leather', 'description', 'Leather made from the skin of a ' + labelElement.text + '.')
-                        if defName not in ['Mechanoid_Centipede', 'Mechanoid_Scyther']:
-                            writedeflabel(defInjectFile, defName + '_Meat', 'label', labelElement.text + ' meat')
-                            writedeflabel(defInjectFile, defName + '_Meat', 'description', 'Raw flesh of a ' + labelElement.text + '.')
-                        writedeflabel(defInjectFile, defName + '_Corpse', 'label', labelElement.text + ' corpse')
-                        writedeflabel(defInjectFile, defName + '_Corpse', 'description', 'Dead body of a ' + labelElement.text + '.')
-                    if child.get('ParentName') == 'StoneBlocksBase':
-                        labelElement = child.find('label')
-                        writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text[:-7])
-                    if child.get('ParentName') == 'TileStoneBase':
-                        writedeflabel(defInjectFile, defName, 'description', 'Solid stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.')
-                    if child.get('ParentName') == 'TableBase':
-                        writedeflabel(defInjectFile, defName, 'description', 'People eat off tables when chairs are placed facing them.')
-                    if child.get('ParentName') == 'ResourceBase':
-                        if child.find('stuffProps') is not None:
-                            labelElement = child.find('label')
-                            writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text)
+                        writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text)
 
-                    # Move to the next line in the template
-                    defInjectFile.write('    \n')
-                    defNamePrev = defName
+                # Move to the next line in the template
+                defInjectFile.write('    \n')
+                defNamePrev = defName
 
-                # Clean up after parsing the file
-                # Write the end of the xml file
-                writefooter(defInjectFile)
-                # Close the translatable file
-                defInjectFile.close()
+            # Clean up after parsing the file
+            # Write the end of the xml file
+            writefooter(defInjectFile)
+            # Close the translatable file
+            defInjectFile.close()
 
-            processedfiles += 1
-            print_progress(processedfiles, numfiles)
+        processedfiles += 1
+        print_progress(processedfiles, numfiles)
 
 print("")
 print("")
