@@ -6,8 +6,7 @@ __author__ = 'Sakuukuli'
 
 
 def printhelp():
-    """ Print information about the script in case of incorrect usage.
-    :return:
+    """ Print information about the script.
     """
     print("RimWorld Translation Template Script")
     print("Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them.")
@@ -16,7 +15,6 @@ def printhelp():
 
 def printhelperror():
     """ Print information about the script in case of incorrect usage.
-    :return:
     """
     print("")
     print("Invalid number of arguments.")
@@ -28,9 +26,9 @@ def print_progress(progress, total):
 
     Replaces itself automatically and animates.
     The format is progress/total percent%
+
     :param progress: Number of files processed
     :param total: Total number of files
-    :return:
     """
     # Calculate the percent, multiply with 1.0 to force floating point math
     percent = 1.0 * progress / total
@@ -41,27 +39,29 @@ def print_progress(progress, total):
 
 def writeheader(file):
     """Writes the first lines of a DefInjected file.
+
     :param file: File to write to
-    :return:
     """
     file.write('<?xml version="1.0" encoding="utf-8" ?>\n')
     file.write('<LanguageData>\n')
     file.write('    \n')
 
 
-def writedeflabel(file, defname, labeltype, deflabel):
-    """ Writes the translation data of a DefInjected file in the correct syntax:
+def writedeflabel(file, defname, labeltype, text):
+    """ Writes the translation data of a DefInjected file.
+
+    Uses the correct syntax:
     <Ocean.label>ocean</Ocean.label>
     <Ocean.description>Open ocean. Great for fish - not so great for you.</Ocean.description>
+
     :param file: File to write to
     :param defname: Name of the Def to write
     :param labeltype: Tag of the label to write
-    :param deflabel: Text inside tags
-    :return:
+    :param text: Text inside tags
     """
     # Revert capitalization
     labeltype = labeltype[:1].lower() + labeltype[1:]
-    file.write('    <' + defname + '.' + labeltype + '>' + deflabel + '</' + defname + '.' + labeltype + '>\n')
+    file.write('    <' + defname + '.' + labeltype + '>' + text + '</' + defname + '.' + labeltype + '>\n')
 
 
 def writepathreplace(file, defname, path, text):
@@ -80,8 +80,8 @@ def writepathreplace(file, defname, path, text):
 
 def writefooter(file):
     """ Writes the last lines of a DefInjected file.
+
     :param file: File to write to
-    :return:
     """
     file.write('</LanguageData>\n')
 
@@ -320,7 +320,6 @@ else:
                 defInjectFile.close()
 
             processedfiles += 1
-
             print_progress(processedfiles, numfiles)
 
 print("")
