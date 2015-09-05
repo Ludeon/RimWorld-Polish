@@ -93,7 +93,7 @@ if len(arguments) == 2:
     defsDirPath = arguments[0]
     translationDirPath = arguments[1]
 # If incorrect number of arguments then print help
-elif len(arguments) == 0:
+elif not arguments:
     printhelp()
     sys.exit(2)
 else:
@@ -110,8 +110,8 @@ print("--------------------------------------------------------------------")
 print("")
 
 # Move to the directories where the files are
-defsDirPath += '\\Mods\\Core\\Defs'
-translationDirPath += '\\DefInjected'
+defsDirPath = os.path.join(defsDirPath, 'Mods', 'Core', 'Defs')
+translationDirPath = os.path.join(translationDirPath, 'DefInjected')
 
 # Define list of labels that need to be translated
 labels = ['label', 'labelMechanoids', 'labelMale', 'labelFemale', 'labelShort', 'skillLabel', 'description', 'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund',
