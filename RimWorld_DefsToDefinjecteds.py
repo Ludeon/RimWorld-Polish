@@ -207,6 +207,7 @@ else:
                 writeheader(defInjectFile)
 
                 defName = ""
+                defNamePrev = ""
                 labelDict = []
                 # Go through the file tag by tag
                 # child is ThingDef, TraitDef etc.
@@ -224,6 +225,15 @@ else:
                             defName = defElement.text
                         else:
                             continue
+
+                    if defNamePrev == 'MossyTerrain' and defName == 'Ice':
+                        stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
+                        roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
+                        for stone in stonelist:
+                            for roughness in roughnesslist:
+                                writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
+
+                            defInjectFile.write('    \n')
 
                     # Go through the labels one by one
                     for label in labels:
@@ -305,6 +315,7 @@ else:
 
                     # Move to the next line in the template
                     defInjectFile.write('    \n')
+                    defNamePrev = defName
 
                 # Clean up after parsing the file
                 # Write the end of the xml file
