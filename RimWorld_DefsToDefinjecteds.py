@@ -114,7 +114,7 @@ defsDirPath += '\\Mods\\Core\\Defs'
 translationDirPath += '\\DefInjected'
 
 # Define list of labels that need to be translated
-labels = ['label', 'labelMechanoids', 'labelFemale', 'labelShort', 'skillLabel', 'description', 'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund',
+labels = ['label', 'labelMechanoids', 'labelMale', 'labelFemale', 'labelShort', 'skillLabel', 'description', 'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund',
           'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
           'inspectLine', 'graphLabelY', 'fixedName', 'letterLabel', 'letterText',
           'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly', 'Description']
