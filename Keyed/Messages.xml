@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   
@@ -19,7 +19,7 @@
   
   <MessageWornApparelDeterioratedAway>{0} noszony przez {1} rozpadł się całkiem.</MessageWornApparelDeterioratedAway>
   
-  <MessageSeasonBegun>{0} sezon się zaczyna.</MessageSeasonBegun>
+  <MessageSeasonBegun>{0} się zaczyna.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>{0} opuścił zasięg komunikatora.</MessageShipHasLeftCommsRange>
 
@@ -34,14 +34,15 @@
   <MessageOutOfNearbyShellsFor>{0} nie może znaleźć amunicji do {1}.</MessageOutOfNearbyShellsFor>
 
   <MessageAnimalsGoPsychoHunted>Uwaga: {0} zazwyczaj atakują gdy się je zaczepi.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>Uwaga {0} mogą zaatakować przy nieudanej próbie oswojenia ({1} szans).</MessageAnimalManhuntsOnTameFailed>
   
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} zrekrutował {1} ({2} szansy).</MessageRecruitSuccess>
     <MessageRecruitFail>{0} nie dał rady zrekrutować {1} ({2} szansy).</MessageRecruitFail>
     <MessageRecruitFailBecauseMood>{0} nie dał rady zrekrutować {1} (Więzień poniżej nastroju {2}).</MessageRecruitFailBecauseMood>
-	
-  <MessagePoorlyTreated>{0} otrzymał pomoc lekarską słabej jakości od {1} ({2} szansy).</MessagePoorlyTreated>
-  <MessageWellTreated>{0} otrzymał pomoc lekarską dobrej jakości od {1} ({2} szansy).</MessageWellTreated>
+  <MessageTameSuccess>{0} skutecznie oswoił {1} ({2} szansy).</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0} skutecznie oswoił  {1} ({2} szansy) i nazwał go {3}.</MessageTameAndNameSuccess>
+
   
   <MessageColonyCannotAfford>Kolonii nie stać na tą transakcję.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Nie masz wystarczającej ilości srebra przygotowanego do handlu.</MessageColonyNotEnoughSilver>
@@ -54,12 +55,15 @@
   <MessageMustDesignateHaulable>Należy wskazać przedmioty do przetransportowania.</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>Brak skał w których można kopać!</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>Musisz wyznaczyć zwierzęta aby na nie polować.</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>Musisz wyznaczyć zwierzęta które można oswoić.</MessageMustDesignateTameable>
   <MessageMustDesignateClaimable>Musisz wyznaczyć porzucone budynki.</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>Musisz wyznaczyć surowe podłoże skalne.</MessageMustDesignateSmoothableFloor>
   <MessageNothingCanRemoveThickRoofs>Ten dach jest zbyt gruby aby można było go usunąć</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>To już znajduje się w składzie i w razie potrzeby zostanie przeniesione do składu o wyższym priorytecie.</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>Musisz zaznaczyć zwłoki lub powalone postacie aby zdjąć z nich odzież.</MessageMustDesignateStrippable>
-  
+  <MessageMustDesignateSlaughterable>Musisz wyznaczyć oswojone zwierzę które należy do kolonii.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>Musisz wskazać pełny grób lub pojemnik.</MessageMustDesignateOpenable>
+
   <MessageRefusedArrest>{0} nie chciał być aresztowany!</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>Nie ma dostępnych łóżek medycznych.</MessageNoMedicalBeds>
@@ -76,5 +80,13 @@
   <MessageMedicalOperationWillAngerFaction>Operacja rozgniewała {0}.</MessageMedicalOperationWillAngerFaction>
 
   <MessagePawnExitMapRelationsGain>Ponieważ {0} opuścił mapę zdrowy, relacje z {1} poprawiły się przez {2}.</MessagePawnExitMapRelationsGain>
+  
+  <MessageMiscarriedStarvation>{0} poroniła z powodu niedożywienia.</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0} poroniła z powodu złego stanu zdrowia.</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0} urodziła.</MessageGaveBirth>
+
+  <MessageNuzzledPawnGaveNameTo>{0} nazwał {1} {2} po tym jak się przytulili.</MessageNuzzledPawnGaveNameTo>
+
+  <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić {0} (Wymaga {1} poziomu w {2}, najlepszy trener {3} ma {4}).</MessageNoHandlerSkilledEnough>
   
   </LanguageData>
