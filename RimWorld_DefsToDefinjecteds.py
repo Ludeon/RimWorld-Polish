@@ -65,21 +65,17 @@ def writedeflabel(file, defname, labeltype, deflabel):
 
 
 def writepathreplace(file, defname, path, text):
-    """ Writes the translation data of a DefInjected file in the correct syntax:
-    <rep>
-        <path>Misc.comps[0].labelTreatedWell</path>
-        <trans>bandaged</trans>
-    </rep>
+    """ Writes the translation data of a DefInjected file.
+
+    Uses the new simplified syntax:
+    <Misc.comps.0.labelTreatedWell>bandaged</Misc.comps.0.labelTreatedWell>
+
     :param file: File to write to
     :param defname: Name of the Def to write
     :param path: Path to the label to write
     :param text: Text inside tags
-    :return:
     """
-    file.write('    <rep>\n')
-    file.write('        <path>' + defname + '.' + path + '</path>\n')
-    file.write('        <trans>' + text + '</trans>\n')
-    file.write('    </rep>\n')
+    file.write('    <' + defname + '.' + path + '>' + text + '</' + defname + '.' + path + '>\n')
 
 
 def writefooter(file):
@@ -262,7 +258,7 @@ else:
                                         # If the list element has no children, it has the text to translate in itself
                                         if len(list(listelement)) == 0:
                                             # Write the path replacement syntax to the file
-                                            writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + ']', listelement.text)
+                                            writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i), listelement.text)
                                         else:
                                             # Go through the in-list labels
                                             for listlabel in listlabels:
@@ -271,7 +267,7 @@ else:
                                                     # Store the label tag
                                                     listsubelement = listelement.find(listlabel)
                                                     # Write the path replacement syntax to the file
-                                                    writepathreplace(defInjectFile, defName, liststartlabel + '[' + str(i) + '].' + listsubelement.tag, listsubelement.text)
+                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i) + '.' + listsubelement.tag, listsubelement.text)
                             else:
                                 for nestedliststartlabel in nestedliststartlabels:
                                     nestedliststart = liststart.find(nestedliststartlabel)
@@ -282,7 +278,7 @@ else:
                                                 # If the list element has no children, it has the text to translate in itself
                                                 if len(list(nestedlistelement)) == 0:
                                                     # Write the path replacement syntax to the file
-                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '[' + str(i) + ']', nestedlistelement.text)
+                                                    writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '.' + str(i), nestedlistelement.text)
 
                     for nestedstartlabel in nestedstartlabels:
                         nestedstart = child.find(nestedstartlabel)
