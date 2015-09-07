@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ETree
 __author__ = 'Sakuukuli'
 
 
-def printhelp():
+def print_help():
     """ Print information about the script.
     """
     print("RimWorld Translation Comparison Script")
@@ -13,7 +13,7 @@ def printhelp():
     print("Usage: RimWorld_CompareTranslations.py <Directory 1> <Directory 2>")
 
 
-def printhelperror():
+def print_help_error():
     """ Print information about the script in case of incorrect usage.
     """
     print("")
@@ -21,7 +21,7 @@ def printhelperror():
     print("Enclose folder names in double quotes.")
 
 
-def list_tags(translationdir):
+def collect_tags(translationdir):
     """
 
     :param translationdir:
@@ -39,7 +39,7 @@ def list_tags(translationdir):
                 defroot = deffile.getroot()
 
                 for child in defroot:
-                    templist.append((child.tag, os.path.join('Keyed', filename)))
+                    templist.append((os.path.join('Keyed', filename), child.tag))
 
         if os.path.basename(os.path.split(dirpath)[0]) == 'DefInjected':
             # Go through all the files one by one
@@ -50,9 +50,29 @@ def list_tags(translationdir):
                 defroot = deffile.getroot()
 
                 for child in defroot:
-                    templist.append((child.tag, os.path.join('DefInjected', os.path.basename(dirpath), filename)))
+                    templist.append((os.path.join('DefInjected', os.path.basename(dirpath), filename), child.tag))
 
     return templist
+
+
+def sort_tags_by_file(file_tag_list):
+    filelist = []
+    filetaglist = []
+    newlist = []
+
+    for file, tag in file_tag_list:
+        if file not in filelist:
+            filelist.append(file)
+
+    for file in filelist:
+        for f, tag in file_tag_list:
+            if f == file:
+                filetaglist.append(tag)
+
+        newlist.append((file, filetaglist))
+        filetaglist = []
+
+    return newlist
 
 
 # Save the arguments
@@ -63,10 +83,10 @@ if len(arguments) == 2:
     secondDirPath = arguments[1]
 # If incorrect number of arguments then print help
 elif not arguments:
-    printhelp()
+    print_help()
     sys.exit(2)
 else:
-    printhelperror()
+    print_help_error()
     sys.exit(2)
 
 # Print information about the script
@@ -90,8 +110,8 @@ elif not os.path.exists(secondDirPath):
 # dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
 # and filenames is a list of files
 
-firstList = list_tags(firstDirPath)
-secondList = list_tags(secondDirPath)
+firstList = collect_tags(firstDirPath)
+secondList = collect_tags(secondDirPath)
 
 firstUnique = []
 secondUnique = []
@@ -104,7 +124,17 @@ for element in secondList:
     if element not in firstList:
         secondUnique.append(element)
 
+firstUnique = sort_tags_by_file(firstUnique)
+secondUnique = sort_tags_by_file(secondUnique)
 
-print(firstUnique)
-print(secondUnique)
+print("Tags only in \"" + firstDirPath + "\":")
+for file, taglist in firstUnique:
+    print("    " + file)
+    for tag in taglist:
+        print("        " + tag)
+print("Tags only in \"" + secondDirPath + "\":")
+for file, taglist in secondUnique:
+    print("    " + file)
+    for tag in taglist:
+        print("        " + tag)
 print("")
