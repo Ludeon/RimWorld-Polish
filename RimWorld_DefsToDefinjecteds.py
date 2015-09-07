@@ -204,7 +204,6 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
             writeheader(defInjectFile)
 
             defName = ""
-            defNamePrev = ""
             labelDict = []
             # Go through the file tag by tag
             # child is ThingDef, TraitDef etc.
@@ -222,15 +221,6 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                         defName = defElement.text
                     else:
                         continue
-
-                if defNamePrev == 'MossyTerrain' and defName == 'Ice':
-                    stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
-                    roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
-                    for stone in stonelist:
-                        for roughness in roughnesslist:
-                            writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
-
-                        defInjectFile.write('    \n')
 
                 # Go through the labels one by one
                 for label in labels:
@@ -288,6 +278,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                             nestedelement = nestedstart.find(nestedlabel)
                             if nestedelement is not None:
                                 writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
+
                 if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid']:
                     labelElement = child.find('label')
                     if defName not in ['Chicken', 'Megascarab', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
@@ -309,10 +300,17 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                     if child.find('stuffProps') is not None:
                         labelElement = child.find('label')
                         writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text)
+                if defName == 'CarpetDark':
+                    defInjectFile.write('    \n')
+                    stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
+                    roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
+                    for stone in stonelist:
+                        for roughness in roughnesslist:
+                            writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
+
 
                 # Move to the next line in the template
                 defInjectFile.write('    \n')
-                defNamePrev = defName
 
             # Clean up after parsing the file
             # Write the end of the xml file
