@@ -114,10 +114,11 @@ defsDirPath = os.path.join(defsDirPath, 'Mods', 'Core', 'Defs')
 translationDirPath = os.path.join(translationDirPath, 'DefInjected')
 
 # Define list of labels that need to be translated
-labels = ['label', 'labelMechanoids', 'labelMale', 'labelFemale', 'labelShort', 'skillLabel', 'description', 'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund',
-          'deathMessage', 'pawnsPlural', 'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage',
-          'inspectLine', 'graphLabelY', 'fixedName', 'letterLabel', 'letterText',
-          'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly', 'arrivalTextFriendly', 'Description']
+labels = ['label', 'labelMechanoids', 'labelMale', 'labelFemale', 'labelShort', 'skillLabel', 'description',
+          'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund', 'deathMessage', 'pawnsPlural', 'leaderTitle',
+          'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage', 'inspectLine', 'graphLabelY',
+          'fixedName', 'letterLabel', 'letterText', 'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly',
+          'arrivalTextFriendly', 'Description']
 nestedstartlabels = ['injuryProps']
 nestedlabels = ['destroyedLabel', 'destroyedOutLabel']
 liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack', 'lifeStages']
