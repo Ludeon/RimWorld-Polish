@@ -118,13 +118,13 @@ labels = ['label', 'labelMechanoids', 'labelMale', 'labelFemale', 'labelShort', 
           'pawnLabel', 'gerundLabel', 'reportString', 'verb', 'gerund', 'deathMessage', 'pawnsPlural', 'leaderTitle',
           'jobString', 'quotation', 'beginLetterLabel', 'beginLetter', 'recoveryMessage', 'inspectLine', 'graphLabelY',
           'fixedName', 'letterLabel', 'letterText', 'letterLabelEnemy', 'arrivalTextEnemy', 'letterLabelFriendly',
-          'arrivalTextFriendly', 'Description']
+          'arrivalTextFriendly', 'Description', 'endMessage']
 nestedstartlabels = ['injuryProps']
 nestedlabels = ['destroyedLabel', 'destroyedOutLabel']
-liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack', 'lifeStages']
+liststartlabels = ['helpTexts', 'comps', 'stages', 'degreeDatas', 'rulePack', 'lifeStages', 'scoreStages', 'verbs']
 nestedliststartlabels = ['rulesStrings']
 listlabels = ['label', 'description', 'labelTreatedWell', 'labelTreated', 'labelTreatedWellInner', 'labelTreatedInner',
-              'labelSolidTreatedWell', 'labelSolidTreated', 'oldLabel']
+              'labelSolidTreatedWell', 'labelSolidTreated', 'oldLabel', 'discoverLetterLabel', 'discoverLetterText']
 
 # Check if the entered RimWorld installation folder was correct
 if not os.path.exists(defsDirPath):
@@ -305,7 +305,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                     writedeflabel(defInjectFile, defName, 'description', 'Solid stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.')
                 if child.get('ParentName') == 'TableBase':
                     writedeflabel(defInjectFile, defName, 'description', 'People eat off tables when chairs are placed facing them.')
-                if child.get('ParentName') == 'ResourceBase':
+                if child.get('ParentName') in ['ResourceBase', 'ResourceVerbBase']:
                     if child.find('stuffProps') is not None:
                         labelElement = child.find('label')
                         writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text)
