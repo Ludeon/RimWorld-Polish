@@ -300,17 +300,17 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                     if child.find('stuffProps') is not None:
                         labelElement = child.find('label')
                         writedeflabel(defInjectFile, defName, 'stuffProps.stuffAdjective', labelElement.text)
+
+                # Move to the next line in the template
+                defInjectFile.write('    \n')
+
                 if defName == 'CarpetDark':
-                    defInjectFile.write('    \n')
                     stonelist = ['Sandstone', 'Granite', 'Limestone', 'Slate', 'Marble']
                     roughnesslist = [('Rough', 'rough'), ('RoughHewn', 'rough-hewn'), ('Smooth', 'smooth')]
                     for stone in stonelist:
                         for roughness in roughnesslist:
                             writedeflabel(defInjectFile, stone + '_' + roughness[0], 'label', roughness[1] + ' ' + stone.lower())
-
-
-                # Move to the next line in the template
-                defInjectFile.write('    \n')
+                        defInjectFile.write('    \n')
 
             # Clean up after parsing the file
             # Write the end of the xml file
