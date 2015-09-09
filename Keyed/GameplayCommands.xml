@@ -19,7 +19,7 @@
   <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
   
 	
-  <!-- Drafting -->
+	
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
@@ -34,7 +34,11 @@
   
   <CommandBedSetOwnerLabel>Wybierz właściciela</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
-  <BedAssign>Ustaw</BedAssign>
+  <CommandGraveAssignColonistLabel>Przydziel koloniste</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>Pzydziel ten grób dla konkretnego kolonisty.</CommandGraveAssignColonistDesc>
+  <CommandGraveSetToUnassignedLabel>Pozostaw nieprzydzielony</CommandGraveSetToUnassignedLabel>
+  <CommandGraveSetToUnassignedDesc>Pozostaw ten grób aby był nieprzydzielony do nikogo.</CommandGraveSetToUnassignedDesc>
+  <BuildingAssign>Przydziel</BuildingAssign>
   <CommandBedSetForPrisonersLabel>Ustaw dla więźniów</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Nie można ustawić zewnętrznych łóżek dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
@@ -48,29 +52,29 @@
   <TurningOffPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący więźniowie utracą swoje łóżka:</TurningOffPrisonerBedWarning>
   <AreYouSure>Czy jesteś pewien?</AreYouSure>
 
-  <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
-
-  <CommandRenameZoneDesc>Zmień nazwę obszaru.</CommandRenameZoneDesc>
+  <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
+  
   <CommandRenameZoneLabel>Zmień</CommandRenameZoneLabel>
-
-  <CommandHideZoneDesc>Pokaż/ukryj ten obszar.</CommandHideZoneDesc>
+  <CommandRenameZoneDesc>Zmień nazwę obszaru.</CommandRenameZoneDesc>
+  
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Pokaż</CommandUnhideZoneLabel>
-
+  <CommandHideZoneDesc>Pokaż/ukryj ten obszar.</CommandHideZoneDesc>
+  
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
- 
+  
   <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
-  <CommandCopyZoneSettingsDesc>Kopiuje ustawienia tej strefy do schowka, dzięki czemu można je wkleić do innej strefy.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tego obszaru, żeby można bylo je wkleić do innego.</CommandCopyZoneSettingsDesc>
 
   <CommandPasteZoneSettingsLabel>Wklej ustawienia</CommandPasteZoneSettingsLabel>
-  <CommandPasteZoneSettingsDesc>Zastępuje ustawienia tej strefy wcześniej skopiowanymi do schowka.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Nadpisz ustawienia tego obszaru ustawieniami skopiowanymi z innego obszaru.</CommandPasteZoneSettingsDesc>
 
-  <CommandAllowSow>Pozwól siać</CommandAllowSow>
-  <CommandAllowSowDesc>Kiedy wyłączone, koloniści nigdy nie będą sadzić roślin w tej strefie. Będą mogli ciągle je zbierać.</CommandAllowSowDesc>
+  <CommandAllowSow>Zabroń sadzenia</CommandAllowSow>
+  <CommandAllowSowDesc>Kiedy wyłączone, koloniści nie będą siać w tym obszarze. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
  
-  <!-- Artillery -->
+ <!-- Artillery -->
   <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
@@ -91,14 +95,14 @@
   <CommandPodEject>Wyładuj</CommandPodEject>
   <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
-  
-  <!-- Door -->
-  <CommandToggleDoorForbid>Zakaz przejścia</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>Jeśli drzwi mają zakaz przejścia, koloniści i sojusznicy nie będą przez nie przechodzić. Nie wpływa to na interakcję wrogów lub zwierząt z drzwiami.</CommandToggleDoorForbidDesc>
-  <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Jeśli jest aktywne, twoi koloniści nie będą zamykać drzwi. Jeśli drzwi są automatyczne i mają zasilanie, pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
-  
+  <!-- Door -->
+  <CommandToggleDoorForbid>Przejście zabronione</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione koloniści i sojusznicy nie będa przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>Kiedy aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
+
+
   <!-- Temperature control -->
   <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
   <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
@@ -107,18 +111,22 @@
 
   <!-- Art -->
   <CommandInstall>Ustaw</CommandInstall>
-  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
+  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
 
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
-  
+ 
   <!-- Sun lamp -->
-  <CommandSunLampMakeGrowingZoneDesc>Tworzy strefę uprawy wokół tej konstrukcji dokładnie dopasowaną do kształtu promieni światła lampy słonecznej.</CommandSunLampMakeGrowingZoneDesc>
-  <CommandSunLampMakeGrowingZoneLabel>Stwórz strefę upraw</CommandSunLampMakeGrowingZoneLabel>
+  <CommandSunLampMakeGrowingZoneDesc>Ustaw obszar pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <CommandAutoRearm>Automatyczne uzbrojenie</CommandAutoRearm>
-  <CommandAutoRearmDesc>Jeśli jest to włączone, ta pułapka zostanie automatycznie uzbrojona jeśli coś w nią wpadnie.</CommandAutoRearmDesc>
+  <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
+  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie</CommandAutoRearmDesc>
+  
+  <!-- Animal control -->
+  <CommandReleaseAnimalsLabel>Spuść zwierzęta</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>Kiedy włączone zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone pozostaną i będą bronić swoje pana.</CommandReleaseAnimalsDesc>
   
 </LanguageData>

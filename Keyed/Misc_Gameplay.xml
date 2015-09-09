@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Various -->
@@ -9,6 +9,7 @@
   <ForColonistUse>Dla kolonistów</ForColonistUse>
   <MedicalBed>Łóżko szpitalne</MedicalBed>
   <Owner>Właściciel</Owner>
+  <AssignedColonist>Przydzielony kolonista</AssignedColonist>
   <Nobody>Nikt</Nobody>
   <Unowned>Wolne</Unowned>
   <DeadTime>Nie żyje od {0}</DeadTime>
@@ -18,17 +19,15 @@
   <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
   <NothingLower>nic</NothingLower>
   <Adapted>Przystosowanie się</Adapted>
-  <Headshot>Strzał w głowę</Headshot>
   <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
   <UntreatedLower>nieleczone</UntreatedLower>
   <DevelopedImmunityLower>uzyskano odporność</DevelopedImmunityLower>
   <InjuryRequiresTreatment>wymaga lekarza do wyleczenia</InjuryRequiresTreatment>
-  <NextTreatmentIn>Następne leczenie za {0}</NextTreatmentIn>
   <NextTreatmentAfter>następne leczenie za {0} dni</NextTreatmentAfter>
   <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>rozwój odporności</ImmunityDevelopmentProgress>
+  <Immunity>Odporność</Immunity>
   <Race>Rasa</Race>
-  <Description>Opis</Description>
+  <Description>Description</Description>
   <Equipment>Ekwipunek</Equipment>
   <Apparel>Strój</Apparel>
   <Inventory>Inwentarz</Inventory>
@@ -42,19 +41,47 @@
   <PowerSwitch_Power>Zasilanie</PowerSwitch_Power>
   <JoyTolerances>Tolerancja radości</JoyTolerances>
   <BrokenLetterLabel>Złamany</BrokenLetterLabel>
-  <AreaDefaultLabel>Obszar {0}</AreaDefaultLabel>
+   <MilkFullness>Postęp produkcji mleka</MilkFullness>
+  <WoolGrowth>Postęp produkcji wełny</WoolGrowth>
+  <EggProgress>Postęp produkcji jajka</EggProgress>
+  <Fertilized>Zapłodniona</Fertilized>
+  <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
+  <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
+  
+  <!--TextMotes-->
+  <Headshot>Strzał w głowę</Headshot>
+  <TreatQuality>Jakość leczenia {0}</TreatQuality>
+  <PoorResult>słaby wynik</PoorResult>
+  <GoodResult>dobry wynik</GoodResult>
+  <TextMote_TreatSuccess>Leczenie udane!\n{0} szans</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>Leczenie nieudane\n{0} szans</TextMote_TreatFailed>
+  <HarvestFailed>Zbiór \nnieudany</HarvestFailed>
+  <TextMote_TameFail>Oswajanie nieudane \n{0} szans</TextMote_TameFail>
+  <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
+  <TextMote_TrainFail>Szkolenie nieudany: {0}\n{1} szans</TextMote_TrainFail>
+  <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
+ 
+ 
+  <!-- Areas -->
+  <Home>Dom</Home>
+  <NoRoof>Brak dachu</NoRoof>
+  <SnowClear>Bez śniegu</SnowClear>
+  <AreaDefaultLabel>Obszar  {0}</AreaDefaultLabel>
+  <AreaAnimalDefaultLabel>Obszar dla zwierząt {0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>Nieograniczony</NoAreaAllowed>
   <NewArea>Nowy obszar</NewArea>
-  <InvertArea>Odwracać</InvertArea>
+  <NewAreaAnimal>Nowy obszar dla zwierząt</NewAreaAnimal>
+  <InvertArea>Cofnij</InvertArea>
   
   <!-- Control -->
   <CannotOrderNonControlled>Nie można rozkazywać nie kontrolowanym jednostkom.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} jest niezdolny do przemocy.</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>niezdolny do przemocy.</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0} nie został powołany..</IsNotDrafted>
   
   <!-- Snow -->
   <SnowNone>Brak śniegu</SnowNone>
-  <SnowDusting>Śnieg (prószy)</SnowDusting>
+  <SnowDusting>Śnieg (pruszy)</SnowDusting>
   <SnowThin>Śnieg (mało)</SnowThin>
   <SnowMedium>Śnieg (średnio)</SnowMedium>
   <SnowThick>Śnieg (dużo)</SnowThick>
@@ -71,7 +98,7 @@
 	<ReportHauling>Transportuje {0}.</ReportHauling>
   <ReportSleeping>Śpi.</ReportSleeping>
   <ReportResting>Idzie spać.</ReportResting>
-  <WatchingSunrise>Obserwuje wschód słońca</WatchingSunrise>
+  <WatchingSunrise>Ogląda wschód słońca</WatchingSunrise>
   <CloudWatching>Ogląda chmury</CloudWatching>
   <WatchingSunset>Ogląda zachód słońca</WatchingSunset>
   <Stargazing>Ogląda gwiazdy</Stargazing>
@@ -81,9 +108,8 @@
   <AreaLower>obszar</AreaLower>
   
 	<!-- Shooting report -->
-	<ShootReportShooterAbility>Strzelec</ShootReportShooterAbility>
     <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
-	<ShootReportSkill>Umiejętność</ShootReportSkill>
+	<ShootReportShooterAbility>Strzelec</ShootReportShooterAbility>
 	<ShootReportWeapon>Broń</ShootReportWeapon>
 	<Darkness>Ciemność</Darkness>
 	<TargetProne>Podatność celu</TargetProne>
@@ -105,12 +131,9 @@
   <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
 
   <!-- Pawn info readout -->
-  <hitPoints>Życie</hitPoints>
-  <Health>Życie</Health>
-  <PawnMainDescWithFactionGendered>{0} {1} z {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-  <PawnMainDescWithFactionGenderless>{0} z {1}</PawnMainDescWithFactionGenderless>
-  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+  <PawnMainDescFactionedWrap>{0} z {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
   <Faction>Frakcja</Faction>
   <Equipped>Używa</Equipped>
   <EquippedNothing>Nic</EquippedNothing>
@@ -122,7 +145,7 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
-    <!-- like 'Blood of John' -->
+     <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
 
 	<!-- Power readout -->
@@ -145,15 +168,15 @@
   <Outdoors>Na zewnątrz</Outdoors>
   
   <!--Rotting-->
-	<RotStateFresh>Świeże</RotStateFresh>
-	<RotStateRotting>Rozkładające się</RotStateRotting>
-	<RotStateDessicated>Wyschnięte</RotStateDessicated>
+  <RotStateFresh>Świeże</RotStateFresh>
+  <RotStateRotting>Rozkładające się</RotStateRotting>
+  <RotStateDessicated>Wyschnięte</RotStateDessicated>
 
   <!-- Shooting Tooltip -->
   <ShotBy>Atakowany przez {0}</ShotBy>
   <CannotHit>Nie można trafić w cel.</CannotHit>
 
-	<!-- Storage priority labels -->
+  <!-- Storage priority labels -->
   <StoragePriorityUnstored>Nie składuj</StoragePriorityUnstored>
   <StoragePriorityLow>Niski</StoragePriorityLow>
   <StoragePriorityNormal>Normalny</StoragePriorityNormal>
@@ -171,12 +194,11 @@
   <Ingredients>Składniki</Ingredients>
 
   <!-- Plants -->
-  <GrowthRate>Szybkość wzrostu</GrowthRate>
   <PercentGrowth>Urosło w {0}%</PercentGrowth>
-  <Growing>Rośnie</Growing>
-  <NotGrowingNow>Nie rośnie (musi być {0}).</NotGrowingNow>
-  <NotGrowingNowResting> Nie rośnie teraz (odpoczywa).</NotGrowingNowResting>
-  <FullyGrownIn>W pełni wyrośnięte za {0} wzrostu.</FullyGrownIn>
+  <GrowthRate>Tempo wzrostu</GrowthRate>
+  <FullyGrownIn>Wzrośnie w pełni za {0}.</FullyGrownIn>
+  <PlantNeedsLightLevel> Potrzebuje światła.</PlantNeedsLightLevel>
+  <PlantResting>W pełni wyrośnięte za {0} wzrostu.</PlantResting>
   <OutOfIdealTemperatureRange>Nieodpowiednia temperatura (rośnie z {0}% normalnej prędkości wzrostu)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Gotowe do zbiorów.</ReadyToHarvest>
@@ -194,8 +216,7 @@
   <Stockpile>Składowisko</Stockpile>
   <DumpingStockpile>Wysypisko</DumpingStockpile>
   <Priority>Priorytet</Priority>
-  <ClearAll>Wyczyść</ClearAll>
-  <AllowAll>Zezwól na wszystko</AllowAll>
+  <ClearAll>Wyczyść wszystko</ClearAll>
   <AllowAll>Zezwól na wszystko</AllowAll>
   
   <!-- ThingFilter -->
@@ -209,8 +230,10 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
-  <AutoHomeRegionToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeRegionToggleButton>
+  <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju nad którym znajduję się kursor.</ShowRoomStatsToggleButton>
+  <AutoHomeAreaToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>Włącz/Wyłącz imiona oswojonych zwierząt</ShowAnimalNamesToggleButton>
   
   <!-- Fire -->
   <Fire>Ogień</Fire>
@@ -231,7 +254,7 @@
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
     <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
-	<MustPlaceAdjacentStandable>Musi mieć dookoła możliwość przejścia.</MustPlaceAdjacentStandable>
+	<MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
@@ -250,7 +273,10 @@
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Użyj neurotrenera {0}</UseNeurotrainer>
-  <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umiejętności z {2} na {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{0} użył {1} neurotrenera zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
+  
+  <!-- Artifact -->
+  <UseArtifact>Aktywuj</UseArtifact>
   
   <!-- Minification -->
   <Installed>Ustawione.</Installed>
@@ -291,5 +317,9 @@
   <TrapArmed>Uzbrojony</TrapArmed>
   <TrapNotArmed>nie uzbrojony</TrapNotArmed>
   <TrapRearmingCost>Koszt przezbrojenia: {0}</TrapRearmingCost>
+  
+  <!-- Facilities -->
+  <InactiveFacility>nieaktywne</InactiveFacility>
+  
   
 </LanguageData>
