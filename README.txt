@@ -12,8 +12,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 Working crew:
 - Reco [reco754@gmail.com]
 - 2piotrek [piotr.ch2@onet.eu]
-
-
+- Damian, aka. Bucu [ganelot@yahoo.com]
 
 PAST TEAM:
 - Oskar 'volf3n' Nowak [Leader]

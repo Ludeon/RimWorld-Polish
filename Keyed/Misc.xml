@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <Autosaving>Autozapis</Autosaving>
@@ -14,11 +14,10 @@
   
   <CloseButton>Zamknij</CloseButton>
 
-
   <VersionIndicator>Wersja {0}</VersionIndicator>
   <DevelopmentBuildLower>wersja deweloperska</DevelopmentBuildLower>
   <CompiledOn>Kompilacja {0}</CompiledOn>
-
+  <LoggedIntoSteamAs>Zalogowany do Steam jako {0}</LoggedIntoSteamAs>
 
 
   <!-- Content generation-->
@@ -27,7 +26,7 @@
   <MeatDesc>Surowe mięso ({0}).</MeatDesc>
 
   <LeatherLabel>Skóra ({0})</LeatherLabel>
-  <LeatherDesc>Skóra zwierzęcia {0}.</LeatherDesc>
+  <LeatherDesc>Skóra zrobiona z {0}.</LeatherDesc>
   
   <CorpseLabel>Zwłoki {0}</CorpseLabel>
   <CorpseDesc>Martwe ciało {0}.</CorpseDesc>
@@ -43,10 +42,15 @@
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
   <FrameLabelExtra> (budowa)</FrameLabelExtra>
  
+ 
    <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
+  <!-- To express ownership. -->
+  <!-- For example Jack's Bedroom -->
+  <SomeonesSomething>{0} {1}</SomeonesSomething>
+  
   <VariousLabel>(różne)</VariousLabel>
   
   <!-- History events -->
