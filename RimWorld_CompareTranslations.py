@@ -159,6 +159,7 @@ if firstUnique:
         print("    " + file)
         for tag in taglist:
             print("        " + tag)
+    print("")
 if secondUnique:
     print("Tags only in \"" + secondDirPath + "\":")
     for file, taglist in secondUnique:
