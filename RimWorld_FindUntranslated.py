@@ -66,7 +66,8 @@ def collect_tags_and_text(translationdir):
                 defroot = deffile.getroot()
 
                 for child in defroot:
-                    templist.append((os.path.join('DefInjected', os.path.basename(dirpath), filename), child.tag, child.text))
+                    templist.append(
+                        (os.path.join('DefInjected', os.path.basename(dirpath), filename), child.tag, child.text))
 
     return templist
 
@@ -146,6 +147,7 @@ if untranslated:
     for file, taglist in untranslated:
         print("    " + file)
         for tag, text in taglist:
-            print("        " + tag + ": " + text)
+            print("        " + tag + ": " + text)  # with text
+            # print("        " + tag)  # no text
     print("")
 print("")
