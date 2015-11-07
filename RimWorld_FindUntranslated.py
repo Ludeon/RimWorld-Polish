@@ -115,7 +115,7 @@ print("")
 
 # Check if the entered RimWorld installation folder was correct
 if not os.path.exists(dirPath):
-    print("Directory 1 is invalid.")
+    print("Directory is invalid.")
     sys.exit(2)
 elif not (os.path.exists("DefInjected") and os.path.exists("Keyed")):
     print("Templates are invalid.")
