@@ -14,7 +14,7 @@ Working crew:
 - 2piotrek [piotr.ch2@onet.eu]
 - Damian, aka. Bucu [ganelot@yahoo.com]
 - Apoc
-- GruSha26
+- GruSha26 [grusha1122@gmail.com]
 
 PAST TEAM:
 - Oskar 'volf3n' Nowak [Leader]
