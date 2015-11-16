@@ -44,29 +44,21 @@ def collect_tags(translationdir):
     :return:
     """
     templist = []
+    temppath = ""
     for dirpath, dirnames, filenames in os.walk(translationdir):
 
-        if os.path.basename(dirpath) == 'Keyed':
-            # Go through all the files one by one
-            for filename in [f for f in filenames if f.endswith('.xml')]:
+        for filename in [f for f in filenames if f.endswith('.xml')]:
+            if os.path.basename(dirpath) == "Keyed":
+                temppath = "Keyed"
+            elif os.path.basename(os.path.split(dirpath)[0]) == "DefInjected":
+                temppath = os.path.join("DefInjected", os.path.basename(dirpath))
 
-                # Parse the .xml file with ElementTree
-                deffile = ETree.parse(os.path.join(dirpath, filename))
-                defroot = deffile.getroot()
+            # Parse the .xml file with ElementTree
+            deffile = ETree.parse(os.path.join(dirpath, filename))
+            defroot = deffile.getroot()
 
-                for child in defroot:
-                    templist.append((os.path.join('Keyed', filename), child.tag))
-
-        if os.path.basename(os.path.split(dirpath)[0]) == 'DefInjected':
-            # Go through all the files one by one
-            for filename in [f for f in filenames if f.endswith('.xml')]:
-
-                # Parse the .xml file with ElementTree
-                deffile = ETree.parse(os.path.join(dirpath, filename))
-                defroot = deffile.getroot()
-
-                for child in defroot:
-                    templist.append((os.path.join('DefInjected', os.path.basename(dirpath), filename), child.tag))
+            for child in defroot:
+                templist.append((os.path.join(temppath, filename), child.tag))
 
     return templist
 
