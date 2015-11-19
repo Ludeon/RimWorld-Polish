@@ -176,8 +176,8 @@ def sort_tags_and_text_by_file(file_tag_list):
 arguments = sys.argv[1:]
 # Save the directory in a variable
 if len(arguments) == 2:
-    transPath = arguments[0]
-    outPath = arguments[1]
+    transPath = os.path.abspath(arguments[0])
+    outPath = os.path.abspath(arguments[1])
 # If incorrect number of arguments then print help
 elif not arguments:
     print_help()
@@ -187,14 +187,21 @@ else:
     sys.exit(2)
 
 # Check if the entered RimWorld installation folder was correct
+if transPath == outPath:
+    print("Input and output directories can't be the same.")
+    sys.exit(2)
 if not os.path.exists(transPath):
-        print("Directory is invalid.")
-        sys.exit(2)
+    print("Directory is invalid.")
+    sys.exit(2)
 if not (os.path.exists("DefInjected") and os.path.exists("Keyed")):
     print("Templates are missing.")
     sys.exit(2)
 if not os.path.exists(outPath):
-    os.makedirs(outPath)
+    try:
+        os.makedirs(outPath)
+    except OSError as err:
+        print("OS error: {}".format(err))
+        sys.exit(2)
 else:
     if not (os.path.exists(os.path.join(transPath, "DefInjected")) and os.path.exists(os.path.join(transPath, "Keyed"))):
         print("Directory is invalid.")
@@ -221,18 +228,18 @@ print("OK")
 
 simplify_path_translations(outPath)
 
-os.rename(os.path.join(outPath, "DefInjected"), os.path.join(outPath, "DefInjected temp"))
-os.rename(os.path.join(outPath, "Keyed"), os.path.join(outPath, "Keyed temp"))
-
 # Go through all the folders one by one
 # transPath is the full path to the current def directory, dirnames is a list of directories in the current directory
 # and filenames is a list of files
 
-transTagsDict = collect_tags_and_text(transPath)
+transTagsDict = collect_tags_and_text(outPath)
 print("")
 templateTagsDict = collect_tags_and_text(os.curdir)
 print("")
 print("")
+
+os.rename(os.path.join(outPath, "DefInjected"), os.path.join(outPath, "DefInjected temp"))
+os.rename(os.path.join(outPath, "Keyed"), os.path.join(outPath, "Keyed temp"))
 
 os.mkdir(os.path.join(outPath, "DefInjected"))
 copytree("DefInjected", os.path.join(outPath, "DefInjected"))
@@ -274,13 +281,16 @@ for dirpath, dirnames, filenames in os.walk(outPath):
             if child.tag in transTagsDict.keys():
                 child.text = transTagsDict[child.tag][0]
             else:
-                untranslatedList.append((temppath, child.tag, child.text))
+                untranslatedList.append((os.path.join(temppath, filename), child.tag, child.text))
 
-        defFile.write(os.path.join(dirpath, filename), encoding="utf-8")
+        defFile.write(os.path.join(dirpath, filename), encoding="utf-8", xml_declaration=True)
 
         os.remove(os.path.join(dirpath, filename + ".temp"))
 print("OK")
 print("")
+
+untranslatedNum = len(untranslatedList)
+obsoleteNum = len(obsoleteList)
 
 untranslatedList = sort_tags_and_text_by_file(untranslatedList)
 obsoleteList = sort_tags_and_text_by_file(obsoleteList)
@@ -289,7 +299,7 @@ if untranslatedList:
     untranslatedFile = open(os.path.join(outPath, "untranslated.txt"), 'w+')
 
     untranslatedFile.write("List of untranslated tags in this translation. It includes tags which have the same \n"
-                           "appearance as their english equivalents, such as Dementia and Tundra.\n\n")
+                           "appearance as their english equivalents, such as 'dementia' and 'tundra'.\n\n")
     for file, taglist in untranslatedList:
         untranslatedFile.write(file + "\n")
         for tag, text in taglist:
@@ -301,7 +311,8 @@ if untranslatedList:
 if obsoleteList:
     obsoleteFile = open(os.path.join(outPath, "obsolete.txt"), 'w+')
 
-    obsoleteFile.write("List of obsolete tags in this translation. These tags have been removed from the game.\n\n")
+    obsoleteFile.write("List of obsolete tags in this translation. These tags have been removed from the game \n"
+                       "or have changed their name.\n\n")
     for file, taglist in obsoleteList:
         obsoleteFile.write(file + "\n")
         for tag, text in taglist:
@@ -312,3 +323,5 @@ if obsoleteList:
 
 shutil.rmtree(os.path.join(outPath, "DefInjected temp"))
 shutil.rmtree(os.path.join(outPath, "Keyed temp"))
+
+print("Upgrade complete! Found {} untranslated tags and {} obsolete tags.".format(untranslatedNum, obsoleteNum))
