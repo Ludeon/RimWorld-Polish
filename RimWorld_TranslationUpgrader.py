@@ -3,6 +3,8 @@ import sys
 import xml.etree.ElementTree as ETree
 import shutil
 
+from datetime import date
+
 __author__ = 'Sakuukuli'
 
 
@@ -11,7 +13,8 @@ def print_help():
     """
     print("RimWorld Translation Upgrader script")
     print("Compares a translation to the templates and adds missing tags and removes obsolete tags.")
-    print("Usage: RimWorld_TranslationUpgrader.py <Directory> <Output>, where <Directory> is the translation to upgrade and <Output> is the output folder.")
+    print(
+            "Usage: RimWorld_TranslationUpgrader.py <Directory> <Output>, where <Directory> is the translation to upgrade and <Output> is the output folder.")
 
 
 def print_help_error():
@@ -62,7 +65,8 @@ def simplify_path_translations(translationdirpath):
                         defroot[index].text = trans
                         defroot[index].tail = whitespace
 
-                deffile.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False, method="html")
+                deffile.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False,
+                              method="html")
 
                 deffile = open(os.path.join(dirpath, filename), 'w+')
                 processedfile = open(os.path.join(dirpath, tempfilename), 'r')
@@ -122,7 +126,9 @@ def print_counter(message, progress):
 
 
 def collect_tags_and_text(translationdir):
-    """
+    """Collect tags in a translation folder into a dict
+
+    Dict has tags as keys and each tag has a list of tuples (text, file) as occurences
 
     :param translationdir:
     :return:
@@ -146,8 +152,14 @@ def collect_tags_and_text(translationdir):
             defroot = deffile.getroot()
 
             for child in defroot:
-                tempdict[child.tag] = (child.text, os.path.join(temppath, filename))
-        print_counter("Collecting tags", len(tempdict))
+                if child.tag not in tempdict.keys():
+                    tempdict[child.tag] = [(child.text, os.path.join(temppath, filename))]
+                else:
+                    tempdict[child.tag].append((child.text, os.path.join(temppath, filename)))
+        if translationdir == ".":
+            print_counter("Collecting tags from templates", len(tempdict))
+        else:
+            print_counter("Collecting tags from " + translationdir, len(tempdict))
 
     return tempdict
 
@@ -232,9 +244,11 @@ simplify_path_translations(outPath)
 # transPath is the full path to the current def directory, dirnames is a list of directories in the current directory
 # and filenames is a list of files
 
-transTagsDict = collect_tags_and_text(outPath)
+transTagsDict_byTag = collect_tags_and_text(
+    outPath)  # List of tags in translation, in a dict with tag as a key and list of tuples of occurences (text, file)
 print("")
-templateTagsDict = collect_tags_and_text(os.curdir)
+templateTagsDict_byTag = collect_tags_and_text(
+    os.curdir)  # List of tags in templates, in a dict with tag as a key and list of tuples of occurences (text, file)
 print("")
 print("")
 
@@ -246,20 +260,34 @@ copytree("DefInjected", os.path.join(outPath, "DefInjected"))
 os.mkdir(os.path.join(outPath, "Keyed"))
 copytree("Keyed", os.path.join(outPath, "Keyed"))
 
-untranslatedList = []
-obsoleteList = []
+untranslatedList = []  # List of tags with unmodified texts, in tuples (file, tag, text)
+obsoleteList = []  # List of obsolete tags, in tuples (file, tag, text)
+unmatchedTags = 0
 
 print("Comparing tags...", end=" ")
-for transtag in transTagsDict.keys():
-    if transtag in templateTagsDict.keys():
-        if transTagsDict[transtag][0] == templateTagsDict[transtag][0]:
-            untranslatedList.append((transTagsDict[transtag][1], transtag, (transTagsDict[transtag][0])))
+for transtag in transTagsDict_byTag.keys():
+    if transtag in templateTagsDict_byTag.keys():
+        unmatchedTags = len(transTagsDict_byTag[transtag])
+        for transtext, transfile in transTagsDict_byTag[transtag]:
+            for templatetext, templatefile in templateTagsDict_byTag[transtag]:
+                if templatefile == transfile and templatetext == transtext:
+                    untranslatedList.append((transfile, transtag, transtext))
+                    unmatchedTags -= 1
+        if unmatchedTags > 0:
+            for transtext, transfile in transTagsDict_byTag[transtag]:
+                for templatetext, templatefile in templateTagsDict_byTag[transtag]:
+                    if templatetext == transtext and (transfile, transtag, transtext) not in untranslatedList:
+                        untranslatedList.append((transfile, transtag, transtext))
+        unmatchedTags = 0
+
     else:
-        obsoleteList.append((transTagsDict[transtag][1], transtag, (transTagsDict[transtag][0])))
+        for transtext, transfile in transTagsDict_byTag[transtag]:
+            obsoleteList.append((transfile, transtag, transtext))
 print("OK")
 
 print("Replacing templates...", end=" ")
 temppath = ""
+foundExactMatch = False
 for dirpath, dirnames, filenames in os.walk(outPath):
 
     if not (os.path.basename(os.path.split(dirpath)[0]) == 'DefInjected' or os.path.basename(dirpath) == 'Keyed'):
@@ -278,8 +306,15 @@ for dirpath, dirnames, filenames in os.walk(outPath):
         defRoot = defFile.getroot()
 
         for child in defRoot:
-            if child.tag in transTagsDict.keys():
-                child.text = transTagsDict[child.tag][0]
+            if child.tag in transTagsDict_byTag.keys():
+                for transtext, transfile in transTagsDict_byTag[child.tag]:
+                    temptest = os.path.split(transfile)[1]
+                    if os.path.split(transfile)[1] == filename:
+                        child.text = transtext
+                        foundExactMatch = True
+                if not foundExactMatch:
+                    child.text = transTagsDict_byTag[child.tag][0][0]
+                foundExactMatch = False
             else:
                 untranslatedList.append((os.path.join(temppath, filename), child.tag, child.text))
 
@@ -296,7 +331,7 @@ untranslatedList = sort_tags_and_text_by_file(untranslatedList)
 obsoleteList = sort_tags_and_text_by_file(obsoleteList)
 
 if untranslatedList:
-    untranslatedFile = open(os.path.join(outPath, "untranslated.txt"), 'w+')
+    untranslatedFile = open(os.path.join(outPath, "untranslated-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+')
 
     untranslatedFile.write("List of untranslated tags in this translation. It includes tags which have the same \n"
                            "appearance as their english equivalents, such as 'dementia' and 'tundra'.\n\n")
@@ -309,7 +344,7 @@ if untranslatedList:
     untranslatedFile.close()
 
 if obsoleteList:
-    obsoleteFile = open(os.path.join(outPath, "obsolete.txt"), 'w+')
+    obsoleteFile = open(os.path.join(outPath, "obsolete-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+')
 
     obsoleteFile.write("List of obsolete tags in this translation. These tags have been removed from the game \n"
                        "or have changed their name.\n\n")
