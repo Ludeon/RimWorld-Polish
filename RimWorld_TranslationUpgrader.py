@@ -1,6 +1,6 @@
 import os
 import sys
-import xml.etree.ElementTree as ETree
+import xml.etree.ElementTree as ET
 import shutil
 
 from datetime import date
@@ -25,59 +25,62 @@ def print_help_error():
     print("REMEMBER: Enclose folder names in double quotes.")
 
 
-def copytree(sourcepath, destinationpath, symlinks=False, ignore=None):
-    for item in os.listdir(sourcepath):
-        src = os.path.join(sourcepath, item)
-        dst = os.path.join(destinationpath, item)
-        if os.path.isdir(src):
-            shutil.copytree(src, dst, symlinks, ignore)
-        else:
-            shutil.copy2(src, dst)
-
-
 def simplify_path_translations(translationdirpath):
+    """ Change the multiline path translations to the new simpler format
+
+    :param translationdirpath: Path to the translation to change
+    :return:
+    """
     # Go through all the folders one by one
     # dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
     # and filenames is a list of files
-
     for dirpath, dirnames, filenames in os.walk(translationdirpath):
 
+        # Only parse .xml files
         for filename in [f for f in filenames if f.endswith('.xml')]:
 
             # Parse the .xml file with ElementTree
-            deffile = ETree.parse(os.path.join(dirpath, filename))
-            defroot = deffile.getroot()
+            deftree = ET.parse(os.path.join(dirpath, filename))
+            defroot = deftree.getroot()
 
-            tempfilename = filename + '.temp'
-
+            # Check if the file has path translations
             if defroot.find('rep'):
+                # Go through all the elements in the xml file
                 for index, repElement in enumerate(defroot):
+                    # Check if this element is a path translation
                     if repElement.tag == 'rep':
+                        # Store the information in the element
                         path = repElement.find('path').text
                         trans = repElement.find('trans').text
                         whitespace = repElement.tail
 
+                        # Change the path to the new format
                         path = format_path(path)
 
+                        # Remove the element in the old format
                         defroot.remove(repElement)
 
-                        defroot.insert(index, ETree.Element(path))
+                        # Insert an element in the new format in its place
+                        defroot.insert(index, ET.Element(path))
                         defroot[index].text = trans
                         defroot[index].tail = whitespace
 
-                deffile.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False,
-                              method="html")
+                # Write the tree into a temporary file
+                tempfilename = filename + '.temp'
+                # Do not add a header, because it will be '<?xml version='1.0' encoding='utf-8'?>\n'
+                deftree.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False)
 
+                # Open the file for writing
                 deffile = open(os.path.join(dirpath, filename), 'w+')
-                processedfile = open(os.path.join(dirpath, tempfilename), 'r')
-                processedfiletext = replace_escapechars(processedfile.read())
+                tempfile = open(os.path.join(dirpath, tempfilename), 'r')
+                # Add header in the RimWorld way
                 deffile.write('<?xml version="1.0" encoding="utf-8" ?>\n')
-                deffile.write(processedfiletext)
+                deffile.write(replace_escapechars(tempfile.read()))
                 deffile.write('\n')
 
+                # Clean up
                 deffile.close()
-                processedfile.close()
-
+                tempfile.close()
                 os.remove(os.path.join(dirpath, tempfilename))
 
 
@@ -148,7 +151,7 @@ def collect_tags_and_text(translationdir):
                 temppath = os.path.join("DefInjected", os.path.basename(dirpath))
 
             # Parse the .xml file with ElementTree
-            deffile = ETree.parse(os.path.join(dirpath, filename))
+            deffile = ET.parse(os.path.join(dirpath, filename))
             defroot = deffile.getroot()
 
             for child in defroot:
@@ -199,31 +202,33 @@ else:
     sys.exit(2)
 
 # Check if the entered RimWorld installation folder was correct
-if transPath == outPath:
+if transPath == outPath:  # input and output paths are the same
     print("Input and output directories can't be the same.")
     sys.exit(2)
+# input path doesn't exist
 if not os.path.exists(transPath):
     print("Directory is invalid.")
     sys.exit(2)
+# input path doesn't have 'DefInjected' and 'Keyed' folders
+if not (os.path.exists(os.path.join(transPath, "DefInjected")) and os.path.exists(os.path.join(transPath, "Keyed"))):
+    print("Directory is invalid.")
+    sys.exit(2)
+# templates don't exist
 if not (os.path.exists("DefInjected") and os.path.exists("Keyed")):
     print("Templates are missing.")
     sys.exit(2)
-if not os.path.exists(outPath):
-    try:
-        os.makedirs(outPath)
-    except OSError as err:
-        print("OS error: {}".format(err))
-        sys.exit(2)
-else:
-    if not (os.path.exists(os.path.join(transPath, "DefInjected")) and os.path.exists(os.path.join(transPath, "Keyed"))):
-        print("Directory is invalid.")
-        sys.exit(2)
+# check if the output path exists
+if os.path.exists(outPath):
+    # check if it's empty
     if os.listdir(outPath):
+        # if it's not, make a subfolder with the name of the translation
         if os.path.basename(outPath) != os.path.basename(transPath):
             outPath = os.path.join(outPath, os.path.basename(transPath))
         while os.path.exists(outPath):
             outPath += " new"
-        os.mkdir(outPath)
+    else:
+        # remove the empty directory for shutil.copytree to create it again
+        os.rmdir(outPath)
 
 # Print information about the script
 print("--------------------------------------------------------------------")
@@ -235,9 +240,10 @@ print("--------------------------------------------------------------------")
 print("")
 
 print("Copying files to output folder...", end=" ")
-copytree(transPath, outPath)
+shutil.copytree(transPath, outPath)
 print("OK")
 
+# simplify old format multiline path translations
 simplify_path_translations(outPath)
 
 # Go through all the folders one by one
@@ -245,20 +251,18 @@ simplify_path_translations(outPath)
 # and filenames is a list of files
 
 transTagsDict_byTag = collect_tags_and_text(
-    outPath)  # List of tags in translation, in a dict with tag as a key and list of tuples of occurences (text, file)
+        outPath)  # List of tags in translation, in a dict with tag as a key and list of tuples of occurences (text, file)
 print("")
 templateTagsDict_byTag = collect_tags_and_text(
-    os.curdir)  # List of tags in templates, in a dict with tag as a key and list of tuples of occurences (text, file)
+        os.curdir)  # List of tags in templates, in a dict with tag as a key and list of tuples of occurences (text, file)
 print("")
 print("")
 
 os.rename(os.path.join(outPath, "DefInjected"), os.path.join(outPath, "DefInjected temp"))
 os.rename(os.path.join(outPath, "Keyed"), os.path.join(outPath, "Keyed temp"))
 
-os.mkdir(os.path.join(outPath, "DefInjected"))
-copytree("DefInjected", os.path.join(outPath, "DefInjected"))
-os.mkdir(os.path.join(outPath, "Keyed"))
-copytree("Keyed", os.path.join(outPath, "Keyed"))
+shutil.copytree("DefInjected", os.path.join(outPath, "DefInjected"))
+shutil.copytree("Keyed", os.path.join(outPath, "Keyed"))
 
 untranslatedList = []  # List of tags with unmodified texts, in tuples (file, tag, text)
 obsoleteList = []  # List of obsolete tags, in tuples (file, tag, text)
@@ -302,7 +306,7 @@ for dirpath, dirnames, filenames in os.walk(outPath):
         os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename + ".temp"))
 
         # Parse the .xml file with ElementTree
-        defFile = ETree.parse(os.path.join(dirpath, filename + ".temp"))
+        defFile = ET.parse(os.path.join(dirpath, filename + ".temp"))
         defRoot = defFile.getroot()
 
         for child in defRoot:
