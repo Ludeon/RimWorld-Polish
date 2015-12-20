@@ -1,6 +1,7 @@
 import os
 import sys
 import xml.etree.ElementTree as ET
+
 import rwtutil
 
 __author__ = 'Sakuukuli'
@@ -14,14 +15,6 @@ def printhelp():
     print("Usage: RimWorld_SimplifyPathTranslations.py <Directory>")
 
 
-def printhelperror():
-    """ Print information about the script in case of incorrect usage.
-    """
-    print("")
-    print("Invalid number of arguments.")
-    print("Enclose folder names in double quotes.")
-
-
 # Save the arguments
 arguments = sys.argv[1:]
 # Save the directories in variables
@@ -33,7 +26,7 @@ elif not arguments:
     sys.exit(2)
 else:
     printhelp()
-    printhelperror()
+    rwtutil.print_help_error()
     sys.exit(2)
 
 # Print information about the script

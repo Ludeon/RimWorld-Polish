@@ -2,9 +2,9 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 import shutil
-import rwtutil
-
 from datetime import date
+
+import rwtutil
 
 __author__ = 'Sakuukuli'
 
@@ -14,106 +14,8 @@ def print_help():
     """
     print("RimWorld Translation Upgrader script")
     print("Compares a translation to the templates and adds missing tags and removes obsolete tags.")
-    print(
-            "Usage: RimWorld_TranslationUpgrader.py <Directory> <Output>, where <Directory> is the translation to upgrade and <Output> is the output folder.")
-
-
-def print_help_error():
-    """ Print information about the script in case of incorrect usage.
-    """
-    print("")
-    print("Invalid number of arguments.")
-    print("REMEMBER: Enclose folder names in double quotes.")
-
-
-def print_progress(message, progress, total):
-    """Prints the number of files processed, total number of files and a percentage.
-
-    Replaces itself automatically and animates.
-    The format is progress/total percent%
-
-    :param message: Progress label
-    :param progress: Number of files processed
-    :param total: Total number of files
-    """
-    # Calculate the percent, multiply with 1.0 to force floating point math
-    percent = 1.0 * progress / total
-    # Write the line, '\r' moves the write head back to the start for overwriting.
-    sys.stdout.write('\r{}: {}/{} {}%'.format(message, progress, total, round(percent * 100)))
-    sys.stdout.flush()
-
-
-def print_counter(message, progress):
-    """Prints the number of files processed, total number of files and a percentage.
-
-    Replaces itself automatically and animates.
-    The format is progress/total percent%
-
-    :param message: Progress label
-    :param progress: Number of files processed
-    """
-    # Write the line, '\r' moves the write head back to the start for overwriting.
-    sys.stdout.write('\r{}: {}'.format(message, progress))
-    sys.stdout.flush()
-
-
-def collect_tags_and_text(translationdir):
-    """Collect tags in a translation folder into a dict
-
-    Dict has tags as keys and each tag has a list of tuples (text, file) as occurences
-
-    :param translationdir:
-    :return:
-    """
-    tempdict = {}
-    temppath = ""
-    for dirpath, dirnames, filenames in os.walk(translationdir):
-
-        if not (os.path.basename(os.path.split(dirpath)[0]) == 'DefInjected' or os.path.basename(dirpath) == 'Keyed'):
-            continue
-
-        # Go through all the files one by one
-        for filename in [f for f in filenames if f.endswith('.xml')]:
-            if os.path.basename(dirpath) == "Keyed":
-                temppath = "Keyed"
-            elif os.path.basename(os.path.split(dirpath)[0]) == "DefInjected":
-                temppath = os.path.join("DefInjected", os.path.basename(dirpath))
-
-            # Parse the .xml file with ElementTree
-            deffile = ET.parse(os.path.join(dirpath, filename))
-            defroot = deffile.getroot()
-
-            for child in defroot:
-                if child.tag not in tempdict.keys():
-                    tempdict[child.tag] = [(child.text, os.path.join(temppath, filename))]
-                else:
-                    tempdict[child.tag].append((child.text, os.path.join(temppath, filename)))
-        if translationdir == ".":
-            print_counter("Collecting tags from templates", len(tempdict))
-        else:
-            print_counter("Collecting tags from " + translationdir, len(tempdict))
-
-    return tempdict
-
-
-def sort_tags_and_text_by_file(file_tag_list):
-    filelist = []
-    filetaglist = []
-    newlist = []
-
-    for file, tag, text in file_tag_list:
-        if file not in filelist:
-            filelist.append(file)
-
-    for file in filelist:
-        for f, tag, text in file_tag_list:
-            if f == file:
-                filetaglist.append((tag, text))
-
-        newlist.append((file, filetaglist))
-        filetaglist = []
-
-    return sorted(newlist)
+    print("Usage: RimWorld_TranslationUpgrader.py <Directory> <Output>, where <Directory> is the translation to upgrade"
+          "and <Output> is the output folder.")
 
 
 # Save the arguments
@@ -127,7 +29,7 @@ elif not arguments:
     print_help()
     sys.exit(2)
 else:
-    print_help_error()
+    rwtutil.print_help_error()
     sys.exit(2)
 
 # Check if the entered RimWorld installation folder was correct
@@ -179,12 +81,8 @@ rwtutil.simplify_path_translations(outPath)
 # transPath is the full path to the current def directory, dirnames is a list of directories in the current directory
 # and filenames is a list of files
 
-transTagsDict_byTag = collect_tags_and_text(
-        outPath)  # List of tags in translation, in a dict with tag as a key and list of tuples of occurences (text, file)
-print("")
-templateTagsDict_byTag = collect_tags_and_text(
-        os.curdir)  # List of tags in templates, in a dict with tag as a key and list of tuples of occurences (text, file)
-print("")
+transTagsDict_byTag = rwtutil.collect_tags_and_text_to_dict(outPath)  # List of tags in translation, in a dict with tag as a key and list of tuples of occurences (text, file)
+templateTagsDict_byTag = rwtutil.collect_tags_and_text_to_dict(os.curdir)  # List of tags in templates, in a dict with tag as a key and list of tuples of occurences (text, file)
 print("")
 
 os.rename(os.path.join(outPath, "DefInjected"), os.path.join(outPath, "DefInjected temp"))
@@ -260,8 +158,8 @@ print("")
 untranslatedNum = len(untranslatedList)
 obsoleteNum = len(obsoleteList)
 
-untranslatedList = sort_tags_and_text_by_file(untranslatedList)
-obsoleteList = sort_tags_and_text_by_file(obsoleteList)
+untranslatedList = rwtutil.sort_list_of_tags_by_file(untranslatedList)
+obsoleteList = rwtutil.sort_list_of_tags_by_file(obsoleteList)
 
 if untranslatedList:
     untranslatedFile = open(os.path.join(outPath, "untranslated-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+')

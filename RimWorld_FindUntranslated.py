@@ -1,6 +1,8 @@
 import os
 import sys
-import xml.etree.ElementTree as ETree
+import xml.etree.ElementTree as ET
+
+import rwtutil
 
 __author__ = 'Sakuukuli'
 
@@ -11,14 +13,6 @@ def print_help():
     print("RimWorld Translation Comparison Script")
     print("Compares two translation directories and finds differences in tags.")
     print("Usage: RimWorld_CompareTranslations.py <Directory 1> <Directory 2>")
-
-
-def print_help_error():
-    """ Print information about the script in case of incorrect usage.
-    """
-    print("")
-    print("Invalid number of arguments.")
-    print("Enclose folder names in double quotes.")
 
 
 def print_progress(message, progress, total):
@@ -37,61 +31,6 @@ def print_progress(message, progress, total):
     sys.stdout.flush()
 
 
-def collect_tags_and_text(translationdir):
-    """
-
-    :param translationdir:
-    :return:
-    """
-    templist = []
-    for dirpath, dirnames, filenames in os.walk(translationdir):
-
-        if os.path.basename(dirpath) == 'Keyed':
-            # Go through all the files one by one
-            for filename in [f for f in filenames if f.endswith('.xml')]:
-
-                # Parse the .xml file with ElementTree
-                deffile = ETree.parse(os.path.join(dirpath, filename))
-                defroot = deffile.getroot()
-
-                for child in defroot:
-                    templist.append((os.path.join('Keyed', filename), child.tag, child.text))
-
-        if os.path.basename(os.path.split(dirpath)[0]) == 'DefInjected':
-            # Go through all the files one by one
-            for filename in [f for f in filenames if f.endswith('.xml')]:
-
-                # Parse the .xml file with ElementTree
-                deffile = ETree.parse(os.path.join(dirpath, filename))
-                defroot = deffile.getroot()
-
-                for child in defroot:
-                    templist.append(
-                        (os.path.join('DefInjected', os.path.basename(dirpath), filename), child.tag, child.text))
-
-    return templist
-
-
-def sort_tags_and_text_by_file(file_tag_list):
-    filelist = []
-    filetaglist = []
-    newlist = []
-
-    for file, tag, text in file_tag_list:
-        if file not in filelist:
-            filelist.append(file)
-
-    for file in filelist:
-        for f, tag, text in file_tag_list:
-            if f == file:
-                filetaglist.append((tag, text))
-
-        newlist.append((file, filetaglist))
-        filetaglist = []
-
-    return newlist
-
-
 # Save the arguments
 arguments = sys.argv[1:]
 # Save the directory in a variable
@@ -102,7 +41,7 @@ elif not arguments:
     print_help()
     sys.exit(2)
 else:
-    print_help_error()
+    rwtutil.print_help_error()
     sys.exit(2)
 
 # Print information about the script
@@ -125,26 +64,35 @@ elif not (os.path.exists("DefInjected") and os.path.exists("Keyed")):
 # dirpath is the full path to the current def directory, dirnames is a list of directories in the current directory
 # and filenames is a list of files
 
-print("Collecting tags...")
-firstList = collect_tags_and_text(dirPath)
-print("{} tags found in the first directory.".format(len(firstList)))
-secondList = collect_tags_and_text(os.curdir)
-print("{} tags found in the second directory.".format(len(secondList)))
+transDict = rwtutil.collect_tags_and_text_to_dict(dirPath)
+templateDict = rwtutil.collect_tags_and_text_to_dict(os.curdir)
+
+print("Comparing directories...", end=' ')
+untranslatedList = []
+
+for transtag in transDict.keys():
+    if transtag in templateDict.keys():
+        unmatchedTags = len(transDict[transtag])
+        for transtext, transfile in transDict[transtag]:
+            for templatetext, templatefile in templateDict[transtag]:
+                if templatefile == transfile and templatetext == transtext:
+                    untranslatedList.append((transfile, transtag, transtext))
+                    unmatchedTags -= 1
+        if unmatchedTags > 0:
+            for transtext, transfile in transDict[transtag]:
+                for templatetext, templatefile in templateDict[transtag]:
+                    if templatetext == transtext and (transfile, transtag, transtext) not in untranslatedList:
+                        untranslatedList.append((transfile, transtag, transtext))
+        unmatchedTags = 0
+
+print("OK")
 print("")
 
-print("Comparing directories...")
-untranslated = []
+untranslatedList = rwtutil.sort_list_of_tags_by_file(untranslatedList)
 
-for firstfile, firsttag, firsttext in firstList:
-    for secondfile, secondtag, secondtext in secondList:
-        if firsttag == secondtag and firsttext == secondtext:
-            untranslated.append((firstfile, firsttag, firsttext))
-
-untranslated = sort_tags_and_text_by_file(untranslated)
-
-if untranslated:
+if untranslatedList:
     print("Untranslated tags in \"" + dirPath + "\":")
-    for file, taglist in untranslated:
+    for file, taglist in untranslatedList:
         print("    " + file)
         for tag, text in taglist:
             print("        " + tag + ": " + text)  # with text

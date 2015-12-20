@@ -1,6 +1,8 @@
 import os
 import sys
-import xml.etree.ElementTree as ETree
+import xml.etree.ElementTree as ET
+
+import rwtutil
 
 __author__ = 'Sakuukuli'
 
@@ -11,76 +13,6 @@ def print_help():
     print("RimWorld Translation Comparison Script")
     print("Compares two translation directories and finds differences in tags.")
     print("Usage: RimWorld_CompareTranslations.py <Directory 1> <Directory 2>")
-
-
-def print_help_error():
-    """ Print information about the script in case of incorrect usage.
-    """
-    print("")
-    print("Invalid number of arguments.")
-    print("Enclose folder names in double quotes.")
-
-
-def print_progress(message, progress, total):
-    """Prints the number of files processed, total number of files and a percentage.
-
-    Replaces itself automatically and animates.
-    The format is progress/total percent%
-
-    :param progress: Number of files processed
-    :param total: Total number of files
-    """
-    # Calculate the percent, multiply with 1.0 to force floating point math
-    percent = 1.0 * progress / total
-    # Write the line, '\r' moves the write head back to the start for overwriting.
-    sys.stdout.write('\r{}: {}/{} {}%'.format(message, progress, total, round(percent * 100)))
-    sys.stdout.flush()
-
-
-def collect_tags(translationdir):
-    """
-
-    :param translationdir:
-    :return:
-    """
-    templist = []
-    temppath = ""
-    for dirpath, dirnames, filenames in os.walk(translationdir):
-
-        for filename in [f for f in filenames if f.endswith('.xml')]:
-            if os.path.basename(dirpath) == "Keyed":
-                temppath = "Keyed"
-            elif os.path.basename(os.path.split(dirpath)[0]) == "DefInjected":
-                temppath = os.path.join("DefInjected", os.path.basename(dirpath))
-
-            # Parse the .xml file with ElementTree
-            deffile = ETree.parse(os.path.join(dirpath, filename))
-            defroot = deffile.getroot()
-
-            for child in defroot:
-                templist.append((os.path.join(temppath, filename), child.tag))
-
-    return templist
-
-
-def sort_tags_by_file(file_tag_list):
-    filelist = []
-    filetaglist = []
-    newlist = []
-
-    for file, tag in file_tag_list:
-        if file not in filelist:
-            filelist.append(file)
-
-    for file in filelist:
-        for f, tag in file_tag_list:
-            if f == file:
-                filetaglist.append(tag)
-
-        newlist.append((file, filetaglist))
-        filetaglist = []
-
-    return newlist
 
 
 # Save the arguments
@@ -94,7 +26,7 @@ elif not arguments:
     print_help()
     sys.exit(2)
 else:
-    print_help_error()
+    rwtutil.print_help_error()
     sys.exit(2)
 
 # Print information about the script
@@ -119,43 +51,46 @@ elif not os.path.exists(secondDirPath):
 # and filenames is a list of files
 
 print("Collecting tags...")
-firstList = collect_tags(firstDirPath)
-print("{} tags found in the first directory.".format(len(firstList)))
-secondList = collect_tags(secondDirPath)
-print("{} tags found in the second directory.".format(len(secondList)))
+firstDict = rwtutil.collect_tags_and_text_to_dict(firstDirPath)
+print("{} tags found in the first directory.".format(len(firstDict)))
+secondDict = rwtutil.collect_tags_and_text_to_dict(secondDirPath)
+print("{} tags found in the second directory.".format(len(secondDict)))
 print("")
 
-print("Comparing directories...")
-firstUnique = []
-secondUnique = []
+print("Comparing directories...", end=' ')
+firstUniqueList = []
+secondUniqueList = []
 
-for i, element in enumerate(firstList):
-    if element not in secondList:
-        firstUnique.append(element)
+for tag in firstDict.keys():
+    if tag not in secondDict.keys():
+        for text, file in firstDict[tag]:
+            firstUniqueList.append((tag, text, file))
     # print_progress('Comparing the first directory to the second one', i, len(firstList))
 
-for i, element in enumerate(secondList):
-    if element not in firstList:
-        secondUnique.append(element)
+for tag in secondDict.keys():
+    if tag not in firstDict.keys():
+        for text, file in secondDict[tag]:
+            secondUniqueList.append((tag, text, file))
     # print_progress('Comparing the second directory to the first one', i, len(firstList))
+print("OK")
 
-firstUnique = sort_tags_by_file(firstUnique)
-print("{} tags unique to the first directory.".format(len(firstUnique)))
-secondUnique = sort_tags_by_file(secondUnique)
-print("{} tags unique to the second directory.".format(len(secondUnique)))
+firstUniqueList = rwtutil.sort_list_of_tags_by_file(firstUniqueList)
+print("{} tags unique to the first directory.".format(len(firstUniqueList)))
+secondUniqueList = rwtutil.sort_list_of_tags_by_file(secondUniqueList)
+print("{} tags unique to the second directory.".format(len(secondUniqueList)))
 print("")
 
-if firstUnique:
+if firstUniqueList:
     print("Tags only in \"" + firstDirPath + "\":")
-    for file, taglist in firstUnique:
+    for file, taglist in firstUniqueList:
         print("    " + file)
-        for tag in taglist:
+        for tag, text in taglist:
             print("        " + tag)
     print("")
-if secondUnique:
+if secondUniqueList:
     print("Tags only in \"" + secondDirPath + "\":")
-    for file, taglist in secondUnique:
+    for file, taglist in secondUniqueList:
         print("    " + file)
-        for tag in taglist:
+        for tag, text in taglist:
             print("        " + tag)
 print("")

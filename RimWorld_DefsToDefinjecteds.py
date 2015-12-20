@@ -1,6 +1,8 @@
 import os
 import sys
-import xml.etree.ElementTree as ETree
+import xml.etree.ElementTree as ET
+
+import rwtutil
 
 __author__ = 'Sakuukuli'
 
@@ -11,30 +13,6 @@ def printhelp():
     print("RimWorld Translation Template Script")
     print("Copies all Def's from the RimWorld Core mod folder and creates DefInject templates for them.")
     print("Usage: RimWorld_DefsToDefInjecteds.py <RimWorld installation folder> <Folder for templates>")
-
-
-def printhelperror():
-    """ Print information about the script in case of incorrect usage.
-    """
-    print("")
-    print("Invalid number of arguments.")
-    print("Enclose folder names in double quotes.")
-
-
-def print_progress(progress, total):
-    """Prints the number of files processed, total number of files and a percentage.
-
-    Replaces itself automatically and animates.
-    The format is progress/total percent%
-
-    :param progress: Number of files processed
-    :param total: Total number of files
-    """
-    # Calculate the percent, multiply with 1.0 to force floating point math
-    percent = 1.0 * progress / total
-    # Write the line, '\r' moves the write head back to the start for overwriting.
-    sys.stdout.write('\r{}/{} {}%'.format(progress, total, round(percent * 100)))
-    sys.stdout.flush()
 
 
 def writeheader(file):
@@ -97,7 +75,7 @@ elif not arguments:
     printhelp()
     sys.exit(2)
 else:
-    printhelperror()
+    rwtutil.print_help_error()
     sys.exit(2)
 
 # Print information about the script
@@ -159,7 +137,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
     for filename in [f for f in filenames if f.endswith('.xml')]:
 
         # Parse the .xml file with ElementTree
-        defFile = ETree.parse(os.path.join(dirpath, filename))
+        defFile = ET.parse(os.path.join(dirpath, filename))
         defRoot = defFile.getroot()
 
         # Assume that the file doesn't have anything to translate
@@ -319,7 +297,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
             defInjectFile.close()
 
         processedfiles += 1
-        print_progress(processedfiles, numfiles)
+        rwtutil.print_progress("Collecting tags", processedfiles, numfiles)
 
 print("")
 print("")
