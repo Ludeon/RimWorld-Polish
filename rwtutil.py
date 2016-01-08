@@ -143,23 +143,7 @@ def simplify_path_translations(translationdirpath):
                         defroot[index].text = trans
                         defroot[index].tail = whitespace
 
-                # Write the tree into a temporary file
-                tempfilename = filename + '.temp'
-                # Do not add a header, because it will be '<?xml version='1.0' encoding='utf-8'?>\n'
-                deftree.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False)
-
-                # Open the file for writing
-                deffile = open(os.path.join(dirpath, filename), 'w+')
-                tempfile = open(os.path.join(dirpath, tempfilename), 'r')
-                # Add header in the RimWorld way
-                deffile.write('<?xml version="1.0" encoding="utf-8" ?>\n')
-                deffile.write(replace_escapechars(tempfile.read()))
-                deffile.write('\n')
-
-                # Clean up
-                deffile.close()
-                tempfile.close()
-                os.remove(os.path.join(dirpath, tempfilename))
+                write_tree_to_file(deftree, filename, dirpath)
 
 
 def format_path(path):
@@ -183,3 +167,23 @@ def replace_escapechars(text):
     for i, j in escapechars.items():
         text = text.replace(i, j)
     return text
+
+
+def write_tree_to_file(tree, filename, dirpath):
+    # Write the tree into a temporary file
+    tempfilename = filename + '.temp'
+    # Do not add a header, because it will be different from the RimWorld conventions
+    tree.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False)
+
+    # Open the file for writing
+    deffile = open(os.path.join(dirpath, filename), 'w+')
+    tempfile = open(os.path.join(dirpath, tempfilename), 'r')
+    # Add header in the RimWorld way
+    deffile.write('<?xml version="1.0" encoding="utf-8" ?>\n')
+    deffile.write(replace_escapechars(tempfile.read()))
+    deffile.write('\n')
+
+    # Clean up
+    deffile.close()
+    tempfile.close()
+    os.remove(os.path.join(dirpath, tempfilename))

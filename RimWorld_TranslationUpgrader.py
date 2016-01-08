@@ -130,11 +130,11 @@ for dirpath, dirnames, filenames in os.walk(outPath):
         elif os.path.basename(os.path.split(dirpath)[0]) == "DefInjected":
             temppath = os.path.join("DefInjected", os.path.basename(dirpath))
 
-        os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename + ".temp"))
+        # os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename + ".temp"))
 
         # Parse the .xml file with ElementTree
-        defFile = ET.parse(os.path.join(dirpath, filename + ".temp"))
-        defRoot = defFile.getroot()
+        defTree = ET.parse(os.path.join(dirpath, filename))
+        defRoot = defTree.getroot()
 
         for child in defRoot:
             if child.tag in transTagsDict_byTag.keys():
@@ -149,9 +149,8 @@ for dirpath, dirnames, filenames in os.walk(outPath):
             else:
                 untranslatedList.append((os.path.join(temppath, filename), child.tag, child.text))
 
-        defFile.write(os.path.join(dirpath, filename), encoding="utf-8", xml_declaration=True)
+        rwtutil.write_tree_to_file(defTree, filename, dirpath)
 
-        os.remove(os.path.join(dirpath, filename + ".temp"))
 print("OK")
 print("")
 
