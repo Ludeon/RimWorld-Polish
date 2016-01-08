@@ -221,11 +221,11 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                         liststart = child.find(liststartlabel)
                         # Store the elements of the list
                         listelements = liststart.findall('li')
-                        if len(listelements) != 0:
+                        if listelements:
                             for i, listelement in enumerate(listelements):
                                 if listelement.text is not None:
                                     # If the list element has no children, it has the text to translate in itself
-                                    if len(list(listelement)) == 0:
+                                    if not list(listelement):
                                         # Write the path replacement syntax to the file
                                         writepathreplace(defInjectFile, defName, liststartlabel + '.' + str(i), listelement.text)
                                     else:
@@ -241,11 +241,11 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                             for nestedliststartlabel in nestedliststartlabels:
                                 nestedliststart = liststart.find(nestedliststartlabel)
                                 nestedlistelements = nestedliststart.findall('li')
-                                if len(nestedlistelements) != 0:
+                                if nestedlistelements:
                                     for i, nestedlistelement in enumerate(nestedlistelements):
                                         if nestedlistelement.text is not None:
                                             # If the list element has no children, it has the text to translate in itself
-                                            if len(list(nestedlistelement)) == 0:
+                                            if not list(nestedlistelement):
                                                 # Write the path replacement syntax to the file
                                                 writepathreplace(defInjectFile, defName, liststartlabel + '.' + nestedliststartlabel + '.' + str(i), nestedlistelement.text)
 
