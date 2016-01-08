@@ -64,21 +64,22 @@ secondUniqueList = []
 for tag in firstDict.keys():
     if tag not in secondDict.keys():
         for text, file in firstDict[tag]:
-            firstUniqueList.append((tag, text, file))
+            firstUniqueList.append((file, tag, text))
     # print_progress('Comparing the first directory to the second one', i, len(firstList))
 
 for tag in secondDict.keys():
     if tag not in firstDict.keys():
         for text, file in secondDict[tag]:
-            secondUniqueList.append((tag, text, file))
+            secondUniqueList.append((file, tag, text))
     # print_progress('Comparing the second directory to the first one', i, len(firstList))
 print("OK")
 
-firstUniqueList = rwtutil.sort_list_of_tags_by_file(firstUniqueList)
 print("{} tags unique to the first directory.".format(len(firstUniqueList)))
-secondUniqueList = rwtutil.sort_list_of_tags_by_file(secondUniqueList)
 print("{} tags unique to the second directory.".format(len(secondUniqueList)))
 print("")
+
+firstUniqueList = rwtutil.sort_list_of_tags_by_file(firstUniqueList)
+secondUniqueList = rwtutil.sort_list_of_tags_by_file(secondUniqueList)
 
 if firstUniqueList:
     print("Tags only in \"" + firstDirPath + "\":")

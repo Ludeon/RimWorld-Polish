@@ -66,6 +66,7 @@ elif not (os.path.exists("DefInjected") and os.path.exists("Keyed")):
 
 transDict = rwtutil.collect_tags_and_text_to_dict(dirPath)
 templateDict = rwtutil.collect_tags_and_text_to_dict(os.curdir)
+print("")
 
 print("Comparing directories...", end=' ')
 untranslatedList = []
