@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 	<CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
 
-  <!-- Power -->
+  
   <CommandTogglePowerLabel>Przełącz zasilanie</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>Oznacz do przełączenia</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i czekan aż jeden z nich to zrobi</CommandDesignateTogglePowerDesc>
-
+  
   <CommandTryReconnectLabel>Przełącz</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Próbuje podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
 
@@ -18,8 +18,8 @@
   <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
   
-	
-	
+  
+  
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
@@ -31,7 +31,7 @@
 
   <CommandGetOutOfBedLabel>Wyjdź z łóżka</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>Wyjdź z tego łóżka.</CommandGetOutOfBedDesc>
-  
+
   <CommandBedSetOwnerLabel>Wybierz właściciela</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>Przydziel koloniste</CommandGraveAssignColonistLabel>
@@ -54,17 +54,17 @@
 
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
   <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
-  
+
   <CommandRenameZoneLabel>Zmień</CommandRenameZoneLabel>
   <CommandRenameZoneDesc>Zmień nazwę obszaru.</CommandRenameZoneDesc>
-  
+
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Pokaż</CommandUnhideZoneLabel>
   <CommandHideZoneDesc>Pokaż/ukryj ten obszar.</CommandHideZoneDesc>
-  
+
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
-  
+
   <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tego obszaru, żeby można bylo je wkleić do innego.</CommandCopyZoneSettingsDesc>
 
@@ -73,8 +73,8 @@
 
   <CommandAllowSow>Zabroń sadzenia</CommandAllowSow>
   <CommandAllowSowDesc>Kiedy wyłączone, koloniści nie będą siać w tym obszarze. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
- 
- <!-- Artillery -->
+
+  
   <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
@@ -84,49 +84,50 @@
   <MessageTargetBelowMinimumRange>Cel poniżej min. zasięgu.</MessageTargetBelowMinimumRange>
   
   
-  <!-- Ship computer core -->
+  
   <CommandShipLaunch>Wystartuj</CommandShipLaunch>
   <CommandShipLaunchDesc>Rozpoczyna sekwencję startową statku z obecną konfiguracją.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Pokaż raport startu</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Pokazuje raport o gotowości statku do startu.</CommandShipLaunchReportDesc>
 
 
-  <!-- Pod -->
+  
   <CommandPodEject>Wyładuj</CommandPodEject>
   <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
 
-  <!-- Door -->
+  
   <CommandToggleDoorForbid>Przejście zabronione</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione koloniści i sojusznicy nie będa przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Kiedy aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
 
-  <!-- Temperature control -->
+  
   <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
   <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Ustaw wyższą temperaturę.</CommandRaiseTempDesc>
   <CommandLowerTempDesc>Ustaw niższą  temperaturę.</CommandLowerTempDesc>
 
-  <!-- Art -->
+  
   <CommandInstall>Ustaw</CommandInstall>
   <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
 
-  <!-- Trade beacon -->
+  
   <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
- 
-  <!-- Sun lamp -->
+
+  
   <CommandSunLampMakeGrowingZoneDesc>Ustaw obszar pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
-  <!-- Trap -->
+  
   <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
   <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie</CommandAutoRearmDesc>
   
-  <!-- Animal control -->
+  
   <CommandReleaseAnimalsLabel>Spuść zwierzęta</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>Kiedy włączone zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone pozostaną i będą bronić swoje pana.</CommandReleaseAnimalsDesc>
+  
   
 </LanguageData>
