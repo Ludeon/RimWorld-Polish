@@ -1,6 +1,7 @@
 import os
 import sys
 import xml.etree.ElementTree as ET
+from datetime import date
 
 import rwtutil
 
@@ -70,6 +71,7 @@ print("")
 
 print("Comparing directories...", end=' ')
 untranslatedList = []
+obsoleteList = []
 
 for transtag in transDict.keys():
     if transtag in templateDict.keys():
@@ -85,18 +87,39 @@ for transtag in transDict.keys():
                     if templatetext == transtext and (transfile, transtag, transtext) not in untranslatedList:
                         untranslatedList.append((transfile, transtag, transtext))
         unmatchedTags = 0
+    else:
+        for transtext, transfile in transDict[transtag]:
+            obsoleteList.append((transfile, transtag, transtext))
+
 
 print("OK")
 print("")
 
 untranslatedList = rwtutil.sort_list_of_tags_by_file(untranslatedList)
+obsoleteList = rwtutil.sort_list_of_tags_by_file(obsoleteList)
 
 if untranslatedList:
-    print("Untranslated tags in \"" + dirPath + "\":")
+    untranslatedFile = open(os.path.join(dirPath, "untranslated-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+', encoding="utf8")
+
+    untranslatedFile.write("List of untranslated tags in this translation. It includes tags which have the same \n"
+                           "appearance as their english equivalents, such as 'dementia' and 'tundra'.\n\n")
     for file, taglist in untranslatedList:
-        print("    " + file)
+        untranslatedFile.write(file + "\n")
         for tag, text in taglist:
-            print("        " + tag + ": " + text)  # with text
-            # print("        " + tag)  # no text
-    print("")
-print("")
+            untranslatedFile.write("    <" + tag + ">" + text + "</" + tag + ">\n")
+        untranslatedFile.write("\n")
+
+    untranslatedFile.close()
+
+if obsoleteList:
+    obsoleteFile = open(os.path.join(dirPath, "obsolete-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+', encoding="utf8")
+
+    obsoleteFile.write("List of obsolete tags in this translation. These tags have been removed from the game \n"
+                       "or have changed their name.\n\n")
+    for file, taglist in obsoleteList:
+        obsoleteFile.write(file + "\n")
+        for tag, text in taglist:
+            obsoleteFile.write("    <" + tag + ">" + text + "</" + tag + ">\n")
+        obsoleteFile.write("\n")
+
+    obsoleteFile.close()
