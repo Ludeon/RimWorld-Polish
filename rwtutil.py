@@ -176,10 +176,11 @@ def write_tree_to_file(tree, filename, dirpath):
     tree.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False)
 
     # Open the file for writing
-    deffile = open(os.path.join(dirpath, filename), 'w+')
-    tempfile = open(os.path.join(dirpath, tempfilename), 'r')
+    deffile = open(os.path.join(dirpath, filename), 'w+', encoding="utf8")
+    tempfile = open(os.path.join(dirpath, tempfilename), 'r', encoding="utf8")
     # Add header in the RimWorld way
     deffile.write('<?xml version="1.0" encoding="utf-8" ?>\n')
+    # deffile.write(tempfile.read())
     deffile.write(replace_escapechars(tempfile.read()))
     deffile.write('\n')
 

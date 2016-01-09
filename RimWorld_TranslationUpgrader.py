@@ -161,27 +161,27 @@ untranslatedList = rwtutil.sort_list_of_tags_by_file(untranslatedList)
 obsoleteList = rwtutil.sort_list_of_tags_by_file(obsoleteList)
 
 if untranslatedList:
-    untranslatedFile = open(os.path.join(outPath, "untranslated-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+')
+    untranslatedFile = open(os.path.join(outPath, "untranslated-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+', encoding="utf8")
 
     untranslatedFile.write("List of untranslated tags in this translation. It includes tags which have the same \n"
                            "appearance as their english equivalents, such as 'dementia' and 'tundra'.\n\n")
     for file, taglist in untranslatedList:
         untranslatedFile.write(file + "\n")
         for tag, text in taglist:
-            untranslatedFile.write("    <" + tag + ">" + text + "<" + tag + ">\n")
+            untranslatedFile.write("    <" + tag + ">" + text + "</" + tag + ">\n")
         untranslatedFile.write("\n")
 
     untranslatedFile.close()
 
 if obsoleteList:
-    obsoleteFile = open(os.path.join(outPath, "obsolete-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+')
+    obsoleteFile = open(os.path.join(outPath, "obsolete-" + date.today().strftime("%Y-%m-%d") + ".txt"), 'w+', encoding="utf8")
 
     obsoleteFile.write("List of obsolete tags in this translation. These tags have been removed from the game \n"
                        "or have changed their name.\n\n")
     for file, taglist in obsoleteList:
         obsoleteFile.write(file + "\n")
         for tag, text in taglist:
-            obsoleteFile.write("    <" + tag + ">" + text + "<" + tag + ">\n")
+            obsoleteFile.write("    <" + tag + ">" + text + "</" + tag + ">\n")
         obsoleteFile.write("\n")
 
     obsoleteFile.close()
