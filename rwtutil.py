@@ -97,7 +97,7 @@ def sort_list_of_tags_by_file(tag_list):
             if f == file:
                 filetaglist.append((tag, text))
 
-        newlist.append((file, filetaglist))
+        newlist.append((file, sorted(filetaglist)))
         filetaglist = []
 
     return sorted(newlist)
