@@ -207,8 +207,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                     # Check if we found anything
                     if labelElement is not None:
                         # Add the label and its text to the list
-                        if "RectTrigger" not in labelElement.text:
-                            labelDict.append((labelElement.tag, labelElement.text))
+                        labelDict.append((labelElement.tag, labelElement.text))
                 # Go through the list of collected labels
                 for label, text in labelDict:
                     # Write the lines to the file
