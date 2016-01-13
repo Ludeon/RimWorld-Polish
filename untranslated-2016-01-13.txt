@@ -3,10 +3,13 @@ appearance as their english equivalents, such as 'dementia' and 'tundra'.
 
 DefInjected\BrokenStateDef\BrokenStates.xml
     <ConfusedWander.recoveryMessage>{0} is no longer confused.</ConfusedWander.recoveryMessage>
-    
+
 DefInjected\DamageDef\Damages_LocalInjury.xml
     <ToxicBite.deathMessage>{0} has been poisoned to death.</ToxicBite.deathMessage>
-    
+
+DefInjected\DamageDef\Damages_Misc.xml
+    <EMP.label>EMP</EMP.label>
+
 DefInjected\FactionDef\Factions.xml
     <Spacer.fixedName>Spacer</Spacer.fixedName>
     <SpacerHostile.fixedName>Spacer</SpacerHostile.fixedName>
@@ -38,7 +41,6 @@ DefInjected\PawnKindDef\PawnKinds_Animal_Farm.xml
     <Alpaca.lifeStages.1.label>young alpaca</Alpaca.lifeStages.1.label>
     <Alpaca.lifeStages.2.label>alpaca</Alpaca.lifeStages.2.label>
     <Chicken.lifeStages.1.labelFemale>young hen</Chicken.lifeStages.1.labelFemale>
-    <Chicken.lifeStages.1.labelMale>young rooster</Chicken.lifeStages.1.labelMale>
     <Chicken.lifeStages.2.labelFemale>hen</Chicken.lifeStages.2.labelFemale>
     <Chicken.lifeStages.2.labelMale>rooster</Chicken.lifeStages.2.labelMale>
     <Cow.lifeStages.1.labelFemale>young cow</Cow.lifeStages.1.labelFemale>
@@ -282,10 +284,12 @@ DefInjected\ThingDef\Buildings_Temperature.xml
     <Vent.label>vent</Vent.label>
 
 DefInjected\ThingDef\Items_Resource_Stuff.xml
+    <AlpacaWool.stuffProps.stuffAdjective>alpaca woolen</AlpacaWool.stuffProps.stuffAdjective>
     <CamelHair.stuffProps.stuffAdjective>camelhair</CamelHair.stuffProps.stuffAdjective>
     <Cloth.stuffProps.stuffAdjective>cloth</Cloth.stuffProps.stuffAdjective>
     <DevilstrandCloth.stuffProps.stuffAdjective>devilstrand</DevilstrandCloth.stuffProps.stuffAdjective>
     <Hyperweave.stuffProps.stuffAdjective>hyperweave</Hyperweave.stuffProps.stuffAdjective>
+    <MuffaloWool.stuffProps.stuffAdjective>muffalo woolen</MuffaloWool.stuffProps.stuffAdjective>
     <Plasteel.stuffProps.stuffAdjective>plasteel</Plasteel.stuffProps.stuffAdjective>
     <Synthread.stuffProps.stuffAdjective>synthread</Synthread.stuffProps.stuffAdjective>
 
@@ -560,3 +564,4 @@ Keyed\Time.xml
     <LetterDay>d</LetterDay>
     <LetterMinute>m</LetterMinute>
     <LetterSecond>s</LetterSecond>
+
