@@ -173,7 +173,7 @@ def write_tree_to_file(tree, filename, dirpath):
     # Write the tree into a temporary file
     tempfilename = filename + '.temp'
     # Do not add a header, because it will be different from the RimWorld conventions
-    tree.write(os.path.join(dirpath, tempfilename), encoding="utf-8", xml_declaration=False)
+    tree.write(os.path.join(dirpath, tempfilename), method='html', encoding="utf-8", xml_declaration=False)
 
     # Open the file for writing
     deffile = open(os.path.join(dirpath, filename), 'w+', encoding="utf8")
