@@ -1,42 +1,94 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <!-- ====================================================== -->
-	
-	<Deer.label>Jeleń</Deer.label>
-	<Deer.description>Średni, roślinożerny jelonek. Spokojny, o ile mu się nie przeszkodzi.</Deer.description>
-	<Deer_Leather.label>skóra jelenia</Deer_Leather.label>
-	<Deer_Meat.label>jelenina</Deer_Meat.label>
-	
-	<Squirrel.label>Wiewiórka</Squirrel.label>
-	<Squirrel.description>Jeden z wielu gatunków odpornych, wszechstronnych gryzoni, który podąża za ludzkością wszędzie.</Squirrel.description>
-	<Squirrel_Leather.label>skóra wiewiórki</Squirrel_Leather.label>
-	
-	<Elk.label>Łoś</Elk.label>
-	<Elk.description>Duży członek rodziny jeleniowatych, dobrze przystosowany do życia w zimnym klimacie.</Elk.description>
-	<Elk_Meat.label>łosina</Elk_Meat.label>
-	<Elk_Leather.label>skóra łosia</Elk_Leather.label>
-	
-	<Alphabeaver.label>Alfa-bóbr</Alphabeaver.label>
-	<Alphabeaver.description>Duży bóbr genetycznie zmodyfikowany do zbierania ogromnych ilości drewna. W przypadku braku specjalistycznej paszy, zwierzęta te wchodzą w stan maniakalny i jedzą całe drzewa.</Alphabeaver.description>
-	<Alphabeaver_Leather.label>skóra bobra</Alphabeaver_Leather.label>
-	
-	<WildBoar.label>Dzik</WildBoar.label>
-	<WildBoar.description>Mimo, uważania za nieczystego w niektórych kulturach, ten włochaty przodek udomowionych świń jest ceniony za smak jego mięsa.</WildBoar.description>
-	<WildBoar_Leather.label>skóra dzika</WildBoar_Leather.label>
-	<WildBoar_Meat.label>dziczyzna</WildBoar_Meat.label>
-	
-	<Boomrat.label>Wybuchowy szczur</Boomrat.label>
-	<Boomrat.description>Przez celowe uzbrojenie genetyczne, lub jako niezwykły mechanizm obronny, gryzonie te tworzą potężną eksplozję gdy się je zabije.</Boomrat.description>
-	
-	<Hare.label>Zając</Hare.label>
-	<Hare.description>Ten mały, samotny roślinożerca może szybko odskoczyć w razie niebezpieczeństwa.</Hare.description>
-	
-	<Tortoise.label>Żółw</Tortoise.label>
-	<Tortoise.description>Ten silnie opancerzony gad jest znany z małej prędkości i zaskakująco złośliwego ukąszenia.</Tortoise.description>
-	
-	<Thrumbo.label>Thrumbo</Thrumbo.label>
-	<Thrumbo.description>Gigantyczne zwierzę niewiadomego pochodzenia. Thrumbo jest łagodne z natury, ale ekstremalnie niebezpieczne kiedy mu się zagrozi. Jego długe futro jest wyjątkoweo piękne i wartościowe a jego ostry jak brzytwa jest bardzo ceniony na większości rynków. Legenda głosi, że Thrumbo jest najmądrzejszą kreaturą we wszechświecie - po prostu nie chce się odezwać </Thrumbo.description>
-	<Thrumbo_Leather.label>skóra Thrumbo</Thrumbo_Leather.label>
-
+    <Deer.label>Jeleń</Deer.label>
+    <Deer.description>Średni, roślinożerny jelonek. Spokojny, o ile mu się nie przeszkodzi.</Deer.description>
+    <Deer_Leather.label>skóra jelenia</Deer_Leather.label>
+    <Deer_Leather.description>Leather made from the skin of a deer.</Deer_Leather.description>
+    <Deer_Leather.stuffProps.stuffAdjective>deer leathery</Deer_Leather.stuffProps.stuffAdjective>
+    <Deer_Meat.label>jelenina</Deer_Meat.label>
+    <Deer_Meat.description>Raw flesh of a deer.</Deer_Meat.description>
+    <Deer_Corpse.label>deer corpse</Deer_Corpse.label>
+    <Deer_Corpse.description>Dead body of a deer.</Deer_Corpse.description>
+    
+    <Squirrel.label>Wiewiórka</Squirrel.label>
+    <Squirrel.description>Jeden z wielu gatunków odpornych, wszechstronnych gryzoni, który podąża za ludzkością wszędzie.</Squirrel.description>
+    <Squirrel_Leather.label>skóra wiewiórki</Squirrel_Leather.label>
+    <Squirrel_Leather.description>Leather made from the skin of a squirrel.</Squirrel_Leather.description>
+    <Squirrel_Leather.stuffProps.stuffAdjective>squirrel leathery</Squirrel_Leather.stuffProps.stuffAdjective>
+    <Squirrel_Meat.label>squirrel meat</Squirrel_Meat.label>
+    <Squirrel_Meat.description>Raw flesh of a squirrel.</Squirrel_Meat.description>
+    <Squirrel_Corpse.label>squirrel corpse</Squirrel_Corpse.label>
+    <Squirrel_Corpse.description>Dead body of a squirrel.</Squirrel_Corpse.description>
+    
+    <Elk.label>Łoś</Elk.label>
+    <Elk.description>Duży członek rodziny jeleniowatych, dobrze przystosowany do życia w zimnym klimacie.</Elk.description>
+    <Elk_Leather.label>skóra łosia</Elk_Leather.label>
+    <Elk_Leather.description>Leather made from the skin of a elk.</Elk_Leather.description>
+    <Elk_Leather.stuffProps.stuffAdjective>elk leathery</Elk_Leather.stuffProps.stuffAdjective>
+    <Elk_Meat.label>łosina</Elk_Meat.label>
+    <Elk_Meat.description>Raw flesh of a elk.</Elk_Meat.description>
+    <Elk_Corpse.label>elk corpse</Elk_Corpse.label>
+    <Elk_Corpse.description>Dead body of a elk.</Elk_Corpse.description>
+    
+    <Alphabeaver.label>Alfa-bóbr</Alphabeaver.label>
+    <Alphabeaver.description>Duży bóbr genetycznie zmodyfikowany do zbierania ogromnych ilości drewna. W przypadku braku specjalistycznej paszy, zwierzęta te wchodzą w stan maniakalny i jedzą całe drzewa.</Alphabeaver.description>
+    <Alphabeaver_Leather.label>skóra bobra</Alphabeaver_Leather.label>
+    <Alphabeaver_Leather.description>Leather made from the skin of a alphabeaver.</Alphabeaver_Leather.description>
+    <Alphabeaver_Leather.stuffProps.stuffAdjective>alphabeaver leathery</Alphabeaver_Leather.stuffProps.stuffAdjective>
+    <Alphabeaver_Meat.label>alphabeaver meat</Alphabeaver_Meat.label>
+    <Alphabeaver_Meat.description>Raw flesh of a alphabeaver.</Alphabeaver_Meat.description>
+    <Alphabeaver_Corpse.label>alphabeaver corpse</Alphabeaver_Corpse.label>
+    <Alphabeaver_Corpse.description>Dead body of a alphabeaver.</Alphabeaver_Corpse.description>
+    
+    <WildBoar.label>Dzik</WildBoar.label>
+    <WildBoar.description>Mimo, uważania za nieczystego w niektórych kulturach, ten włochaty przodek udomowionych świń jest ceniony za smak jego mięsa.</WildBoar.description>
+    <WildBoar_Leather.label>skóra dzika</WildBoar_Leather.label>
+    <WildBoar_Leather.description>Leather made from the skin of a wild boar.</WildBoar_Leather.description>
+    <WildBoar_Leather.stuffProps.stuffAdjective>boar leathery</WildBoar_Leather.stuffProps.stuffAdjective>
+    <WildBoar_Meat.label>dziczyzna</WildBoar_Meat.label>
+    <WildBoar_Meat.description>Raw flesh of a wild boar.</WildBoar_Meat.description>
+    <WildBoar_Corpse.label>wild boar corpse</WildBoar_Corpse.label>
+    <WildBoar_Corpse.description>Dead body of a wild boar.</WildBoar_Corpse.description>
+    
+    <Boomrat.label>Wybuchowy szczur</Boomrat.label>
+    <Boomrat.description>Przez celowe uzbrojenie genetyczne, lub jako niezwykły mechanizm obronny, gryzonie te tworzą potężną eksplozję gdy się je zabije.</Boomrat.description>
+    <Boomrat_Leather.label>boomrat leather</Boomrat_Leather.label>
+    <Boomrat_Leather.description>Leather made from the skin of a boomrat.</Boomrat_Leather.description>
+    <Boomrat_Leather.stuffProps.stuffAdjective>boomrat leathery</Boomrat_Leather.stuffProps.stuffAdjective>
+    <Boomrat_Meat.label>boomrat meat</Boomrat_Meat.label>
+    <Boomrat_Meat.description>Raw flesh of a boomrat.</Boomrat_Meat.description>
+    <Boomrat_Corpse.label>boomrat corpse</Boomrat_Corpse.label>
+    <Boomrat_Corpse.description>Dead body of a boomrat.</Boomrat_Corpse.description>
+    
+    <Hare.label>Zając</Hare.label>
+    <Hare.description>Ten mały, samotny roślinożerca może szybko odskoczyć w razie niebezpieczeństwa.</Hare.description>
+    <Hare_Leather.label>hare leather</Hare_Leather.label>
+    <Hare_Leather.description>Leather made from the skin of a hare.</Hare_Leather.description>
+    <Hare_Leather.stuffProps.stuffAdjective>hare leathery</Hare_Leather.stuffProps.stuffAdjective>
+    <Hare_Meat.label>hare meat</Hare_Meat.label>
+    <Hare_Meat.description>Raw flesh of a hare.</Hare_Meat.description>
+    <Hare_Corpse.label>hare corpse</Hare_Corpse.label>
+    <Hare_Corpse.description>Dead body of a hare.</Hare_Corpse.description>
+    
+    <Tortoise.label>Żółw</Tortoise.label>
+    <Tortoise.description>Ten silnie opancerzony gad jest znany z małej prędkości i zaskakująco złośliwego ukąszenia.</Tortoise.description>
+    <Tortoise_Leather.label>tortoise leather</Tortoise_Leather.label>
+    <Tortoise_Leather.description>Leather made from the skin of a tortoise.</Tortoise_Leather.description>
+    <Tortoise_Leather.stuffProps.stuffAdjective>tortoise leathery</Tortoise_Leather.stuffProps.stuffAdjective>
+    <Tortoise_Meat.label>tortoise meat</Tortoise_Meat.label>
+    <Tortoise_Meat.description>Raw flesh of a tortoise.</Tortoise_Meat.description>
+    <Tortoise_Corpse.label>tortoise corpse</Tortoise_Corpse.label>
+    <Tortoise_Corpse.description>Dead body of a tortoise.</Tortoise_Corpse.description>
+    
+    <Thrumbo.label>Thrumbo</Thrumbo.label>
+    <Thrumbo.description>Gigantyczne zwierzę niewiadomego pochodzenia. Thrumbo jest łagodne z natury, ale ekstremalnie niebezpieczne kiedy mu się zagrozi. Jego długe futro jest wyjątkoweo piękne i wartościowe a jego ostry jak brzytwa jest bardzo ceniony na większości rynków. Legenda głosi, że Thrumbo jest najmądrzejszą kreaturą we wszechświecie - po prostu nie chce się odezwać </Thrumbo.description>
+    <Thrumbo_Leather.label>skóra Thrumbo</Thrumbo_Leather.label>
+    <Thrumbo_Leather.description>Leather made from the skin of a thrumbo.</Thrumbo_Leather.description>
+    <Thrumbo_Leather.stuffProps.stuffAdjective>thrumbo leathery</Thrumbo_Leather.stuffProps.stuffAdjective>
+    <Thrumbo_Meat.label>thrumbo meat</Thrumbo_Meat.label>
+    <Thrumbo_Meat.description>Raw flesh of a thrumbo.</Thrumbo_Meat.description>
+    <Thrumbo_Corpse.label>thrumbo corpse</Thrumbo_Corpse.label>
+    <Thrumbo_Corpse.description>Dead body of a thrumbo.</Thrumbo_Corpse.description>
+    
 </LanguageData>
