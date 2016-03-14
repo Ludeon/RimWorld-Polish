@@ -16,6 +16,8 @@ Working crew:
 - Damian, aka. Bucu [ganelot@yahoo.com]
 - Apoc
 - GruSha26 [grusha1122@gmail.com]
+- Nalthe [How2Play.pl]
+- Kunegard
 
 PAST TEAM:
 - Oskar 'volf3n' Nowak [Leader]
