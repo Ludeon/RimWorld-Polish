@@ -11,7 +11,6 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 Working crew:
 - maxdyner
-- Reco [reco754@gmail.com]
 - 2piotrek [piotr.ch2@onet.eu]
 - Damian, aka. Bucu [ganelot@yahoo.com]
 - Apoc
@@ -20,10 +19,11 @@ Working crew:
 - Kunegard
 
 PAST TEAM:
-- Oskar 'volf3n' Nowak [Leader]
+- Oskar 'volf3n' Nowak 
 - Deralian
 - t3m4
 - TralalAlf
+- Reco [reco754@gmail.com]
 
 PAST PROJECT CREW:
 Lead translator: Neone (pmduda86@gmail.com)
