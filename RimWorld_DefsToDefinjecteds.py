@@ -133,6 +133,8 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
     # ThingDefs -> ThingDef
     defInjectDirectory = os.path.basename(dirpath)
     defInjectDirectory = defInjectDirectory.replace('Defs', 'Def')
+    if '_' in defInjectDirectory:
+        defInjectDirectory = defInjectDirectory[:defInjectDirectory.index('_')]
 
     # Go through all the files one by one
     for filename in [f for f in filenames if f.endswith('.xml')]:
