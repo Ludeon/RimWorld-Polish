@@ -266,7 +266,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
 
                 if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid', 'BaseInsect', 'BaseHare', 'BaseBear']:
                     labelElement = child.find('label')
-                    if defName not in ['Chicken', 'Megascarab', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
+                    if defName not in ['Chicken', 'Megascarab', 'Megaspider', 'Spelopede', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
                         if child.find('race').find('leatherLabel') is not None:
                             leatherLabel = child.find('race').find('leatherLabel').text
                         else:
