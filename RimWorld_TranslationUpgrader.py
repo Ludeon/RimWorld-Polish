@@ -133,7 +133,8 @@ for dirpath, dirnames, filenames in os.walk(outPath):
         # os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename + ".temp"))
 
         # Parse the .xml file with ElementTree
-        defTree = ET.parse(os.path.join(dirpath, filename))
+        parser = ET.XMLParser(encoding="utf-8")
+        defTree = ET.parse(os.path.join(dirpath, filename), parser=parser)
         defRoot = defTree.getroot()
 
         for child in defRoot:

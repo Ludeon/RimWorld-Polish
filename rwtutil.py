@@ -1,4 +1,4 @@
-import os,sys
+import os, sys
 import xml.etree.ElementTree as ET
 
 __author__ = 'Sakuukuli'
@@ -66,8 +66,9 @@ def collect_tags_and_text_to_dict(translationdir):
                 temppath = os.path.join("DefInjected", os.path.basename(dirpath))
 
             # Parse the .xml file with ElementTree
-            deffile = ET.parse(os.path.join(dirpath, filename))
-            defroot = deffile.getroot()
+            parser = ET.XMLParser(encoding="utf-8")
+            deftree = ET.parse(os.path.join(dirpath, filename), parser=parser)
+            defroot = deftree.getroot()
 
             for child in defroot:
                 if child.tag not in tempdict.keys():
@@ -118,7 +119,8 @@ def simplify_path_translations(translationdirpath):
         for filename in [f for f in filenames if f.endswith('.xml')]:
 
             # Parse the .xml file with ElementTree
-            deftree = ET.parse(os.path.join(dirpath, filename))
+            parser = ET.XMLParser(encoding="utf-8")
+            deftree = ET.parse(os.path.join(dirpath, filename), parser=parser)
             defroot = deftree.getroot()
 
             # Check if the file has path translations
