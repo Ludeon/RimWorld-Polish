@@ -8,10 +8,31 @@
   <OK>Ok</OK>
   
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Odzyskanow sprawność spowodowaną błędami niekompatybilnych albo zepsutych mod`ów</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>Odzyskanow sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Wygląda na to że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowane do inne wersji RimWorld`a albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
   
-    <!-- Save/load -->
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Error while loading assets</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>An error occured while loading game assets. See error log for more information.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>The game is currently running with custom mods - they may or may not cause these problems.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Error while generating a map</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>An error occured while generating a new map. See error log for more information.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Error while loading a map</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>An error occured while loading a map. See error log for more information.</ErrorWhileLoadingMap>
+  
+  <!-- Long events -->
+  <InitializingInterface>Initializing interface</InitializingInterface>
+  <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Loading all active mods</LoadingAllActiveMods>
+  <LoadingDefs>Loading defs</LoadingDefs>
+  <LoadingAssets>Loading assets</LoadingAssets>
+  <Initializing>Initializing</Initializing>
+  <LoadingWorld>Loading world</LoadingWorld>
+  <LoadingMap>Loading map</LoadingMap>
+  <InitializingMap>Initializing map</InitializingMap>
+  <SpawningAllThings>Spawning all things</SpawningAllThings>
+  
+  <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
   <OverwriteButton>Nadpisz</OverwriteButton>
   <LoadGameButton>Wczytaj</LoadGameButton>
@@ -20,13 +41,15 @@
   <SavedAs>Zapisano jako {0}.</SavedAs>
   <NeedAName>Wprowadź nazwę.</NeedAName>
   <LoadingLongEvent>Wczytuję...</LoadingLongEvent>
+  <SavingLongEvent>Zapisuje</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Permanentna śmierć)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Aktualna wersja to {0} ale zapis gry jest z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Aktualna wersja to {0} ale zapis gry jest z wersji {1}. Jest to inna budowa.\n\nTen stan zapisu gry powinien działać.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i prawie na pewno nie będzie działał.</SaveIsUnknownFormat>
   <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}</ProblemSavingFile>
   	
-	<!-- Colony naming-->
+  <!-- Colony naming-->
   <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
   <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Nazwa niepoprawna.</ColonyNameIsInvalid>
@@ -57,8 +80,11 @@
   <Unresearched>Niezbadane</Unresearched>
   <Finished>Skończone</Finished>
   <InProgress>W trakcie</InProgress>
+  <Locked>Zablokowane</Locked>
   <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU DO BADAŃ, nie będziesz mógł prowadzić badań.\n\nJednak cały czas będziesz mógł wybierać i podglądać projekty do badań.</ResearchMenuWithoutBench>
-	
+  <ResearchPrerequisites>Badania wstępne</ResearchPrerequisites>
+  <RequiredResearchBench>Potrzeba stołu do badań</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
 	
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>Uwaga: Wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
@@ -71,15 +97,16 @@
   <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
   <MapStartMonth>Miesiąc lądowania:</MapStartMonth>
   <MapStartMonthDefault>Automatyczny</MapStartMonthDefault>
+  <PermadeathMode>Permanentna śmierć</PermadeathMode>
+  <PermadeathModeInfo>W trybie permanentnej śmierci, masz tylko jeden plik z zapisem rozgrywki który zapisuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak rozgrywka w RimWorld miała wyglądać, z każdą dramatyczną zmianą - tragiczną czy też pomocną - grana do samego końca.</PermadeathModeInfo>
   
-  
-	<!-- Bill config -->
+  <!-- Bill config -->
   <Suspended>Odwieś</Suspended>
   <NotSuspended>Zawieś</NotSuspended>
   <SuspendedAllCaps>ZAWIESZONY</SuspendedAllCaps>
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <Forever>Ciągle</Forever>
-  <Details>Szczegóły</Details>
+    <Details>Szczegóły</Details>
   <IngredientSearchRadius>Obszar poszukiwania składników</IngredientSearchRadius>
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <CountingProducts>Liczy</CountingProducts>
@@ -102,7 +129,7 @@
   <BillStoreMode_BestStockpile>Najważniejszy magazyn</BillStoreMode_BestStockpile> <!-- Dłuższe się nie mieści -->
   <BillStoreMode_NearestStockpileAnyPriority>Najbliższy magazyn</BillStoreMode_NearestStockpileAnyPriority>
  
- <!-- Info Card -->
+  <!-- Info Card -->
   <Damage>Obrażenia</Damage>
   <Accuracy>Celność</Accuracy>
   <BurstShotCount>Seria strzałów</BurstShotCount>
@@ -134,6 +161,10 @@
   <MoodChange>Zmiana nastroju</MoodChange>
   <Wildness>Dzikość</Wildness>
   <WildnessExplanation>Dziksze zwierzęta są naturalnie cieższe do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
+  <AnimalFilthRate>Wskaźnik produkcji niczystości</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Zwierzęta produkują nieczystości kiedy poruszają się po wybudowanych podłogach. To jest średnia ilość takich nieczystości wytwarzanych na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Czas</TimeRecordsCategory>
+  <MiscRecordsCategory>Różne</MiscRecordsCategory>
   
   <!-- Trade -->
   <DragToTrade>Przeciągnij, aby handlować</DragToTrade>
@@ -146,7 +177,7 @@
   <ResetButton>Zresetuj</ResetButton>
   <CancelButton>Anuluj</CancelButton>
   <YourTradeableSilver>Twoje Srebro, którym możesz handlować: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
+    <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
   <TraderHasNoMore>Handlarz nie ma więcej.</TraderHasNoMore>
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
@@ -177,4 +208,4 @@
   <OutfitInUse>Strój używany przez {0}.</OutfitInUse>
   <NoOutfitSelected>Żaden strój nie został wybrany</NoOutfitSelected>
   
-  </LanguageData>
+</LanguageData>
