@@ -190,3 +190,23 @@ def write_tree_to_file(tree, filename, dirpath):
     deffile.close()
     tempfile.close()
     os.remove(os.path.join(dirpath, tempfilename))
+
+
+def sort_list_of_changes_by_file(tag_list):
+    filelist = []
+    filetaglist = []
+    newlist = []
+
+    for (firstfile, firsttag, firsttext), (secondfile, secondtag, secondtext) in tag_list:
+        if firstfile not in filelist:
+            filelist.append(firstfile)
+
+    for file in filelist:
+        for (f, tag, firsttext), (f, tag, secondtext) in tag_list:
+            if f == file:
+                filetaglist.append((tag, firsttext, secondtext))
+
+        newlist.append((file, sorted(filetaglist)))
+        filetaglist = []
+
+    return sorted(newlist)

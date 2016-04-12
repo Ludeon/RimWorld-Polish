@@ -102,7 +102,7 @@ for transtag in transTagsDict_byTag.keys():
         for transtext, transfile in transTagsDict_byTag[transtag]:
             for templatetext, templatefile in templateTagsDict_byTag[transtag]:
                 if templatefile == transfile and templatetext == transtext:
-                    untranslatedList.append((transfile, transtag, transtext))
+                    untranslatedList.append((templatefile, transtag, templatetext))
                     unmatchedTags -= 1
         if unmatchedTags > 0:
             for transtext, transfile in transTagsDict_byTag[transtag]:

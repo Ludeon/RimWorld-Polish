@@ -13,7 +13,7 @@ def print_help():
     """
     print("RimWorld Translation Comparison Script")
     print("Compares two translation directories and finds differences in tags.")
-    print("Usage: RimWorld_CompareTranslations.py <Directory 1> <Directory 2>")
+    print("Usage: RimWorld_FindUntranslated.py <Directory>")
 
 
 def print_progress(message, progress, total):
