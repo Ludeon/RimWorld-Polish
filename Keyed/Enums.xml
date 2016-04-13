@@ -1,31 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- glow -->
+  
   <Dark>Ciemno</Dark>
   <Lit>Szaro</Lit>
   <LitBrightly>Jasno</LitBrightly>
-    
-  <!-- diet type -->
-  <NeverEats>Nigdy nie je</NeverEats>
-  <Omnivorous>Wszystkożerny</Omnivorous>
-  <Herbivorous>Roślinożerny</Herbivorous>
-  <Carnivorous>Mięsożerny</Carnivorous>
-  <Dendrovorous>Drzewożerny</Dendrovorous>
   
-  <!-- history upload pref -->
+  
   <Unspecified>Nie zdecydowano</Unspecified>
   <Always>Zezwalaj</Always>
   <Never>Nie zezwalaj</Never>
   
-  <!-- Price types -->
+  
   <PriceTypeVeryCheap>bardzo tanio</PriceTypeVeryCheap>
   <PriceTypeCheap>tanio</PriceTypeCheap>
   <PriceTypeNormal>normalnie</PriceTypeNormal>
   <PriceTypeExpensive>drogo</PriceTypeExpensive>
   <PriceTypeExorbitant>skrajnie drogo</PriceTypeExorbitant>
 
-  <!-- Quality category -->
+  
+  <FoodTypeFlags_VegetableOrFruit>vegetables</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>raw meat</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>corpses</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>seeds</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>animal products</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>live plants</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>live trees</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>meals</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>processed foods</FoodTypeFlags_Processed>
+  <FoodTypeFlags_NutritionalDrug>liquor</FoodTypeFlags_NutritionalDrug>
+  <FoodTypeFlags_AnimalKibble>kibble</FoodTypeFlags_AnimalKibble>
+
+  
   <QualityCategory_Awful>bardzo zły</QualityCategory_Awful>
   <QualityCategory_Shoddy>tandetny</QualityCategory_Shoddy>
   <QualityCategory_Poor>słaby</QualityCategory_Poor>
@@ -46,26 +52,26 @@
   <QualityCategoryShort_Masterwork>arc</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
   
- 
-  <!-- Hunger -->
+  
+  
   <HungerLevel_Starving>Głoduje</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Bardzo głodny</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>Głodny</HungerLevel_Hungry>
   <HungerLevel_Fed>Najedzony</HungerLevel_Fed>
 
-  <!-- -Fatigue -->
+  
   <HungerLevel_Exhausted>Wyczerpany</HungerLevel_Exhausted>
   <HungerLevel_VeryTired>Bardzo zmęczony</HungerLevel_VeryTired>
   <HungerLevel_Tired>Zmęczony</HungerLevel_Tired>
   <HungerLevel_Rested>Wypoczęty</HungerLevel_Rested>
+
   
-  <!-- Hilliness -->
   <Hilliness_Flat>Płaski</Hilliness_Flat>
   <Hilliness_SmallHills>Niskie wzgórza</Hilliness_SmallHills>
   <Hilliness_LargeHills>Wysokie wzórza</Hilliness_LargeHills>
   <Hilliness_Mountainous>Góry</Hilliness_Mountainous>
   
-  <!-- Steam workshop interaction -->
+  
   <WorkshopInteractStage_CreatingItem>Tworzy</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>Zatwierdza</WorkshopInteractStage_SubmittingItem>
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Niepoprawnie</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
@@ -75,17 +81,28 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wgrywa plik podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdza zmiany</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
-  <!-- Trainable intelligence -->
+  
   <TrainableIntelligence_None>Brak</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>Prosta</TrainableIntelligence_Simple>
   <TrainableIntelligence_Intermediate>Średnia</TrainableIntelligence_Intermediate>
   <TrainableIntelligence_Advanced>Zaawansowana</TrainableIntelligence_Advanced>
 
-  <!-- Medical care category -->
+  
   <MedicalCareCategory_NoCare>Bez pomocy medycznej</MedicalCareCategory_NoCare>
   <MedicalCareCategory_NoMeds>Opieka lekarska ale bez leków</MedicalCareCategory_NoMeds>
   <MedicalCareCategory_HerbalOrWorse>Ziołowe leki, albo gorsze</MedicalCareCategory_HerbalOrWorse>
   <MedicalCareCategory_NormalOrWorse>Zwykłe leki, albo gorsze</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>Leki najlepszej jakości</MedicalCareCategory_Best>
+
+  
+  <HostilityResponseMode_Ignore>Ignore</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Attack</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Flee</HostilityResponseMode_Flee>
+  
+  
+  <HediffGrowthMode_Growing>growing</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>stable</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>remission</HediffGrowthMode_Remission>
+
 
 </LanguageData>
