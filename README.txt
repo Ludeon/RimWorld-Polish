@@ -17,6 +17,7 @@ Working crew:
 - GruSha26 [grusha1122@gmail.com]
 - Nalthe [How2Play.pl]
 - Kunegard
+- Marcin Mareo Zdziarski
 
 PAST TEAM:
 - Oskar 'volf3n' Nowak 
