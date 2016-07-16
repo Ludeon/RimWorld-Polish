@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 import xml.etree.ElementTree as ET
 
 import rwtutil
@@ -113,8 +114,10 @@ else:
     print("")
 
 # Create the translation folder
-if not os.path.exists(translationDirPath):
-    os.makedirs(translationDirPath)
+if os.path.exists(translationDirPath):
+    shutil.rmtree(translationDirPath)
+
+os.makedirs(translationDirPath)
 
 # Count the number of files
 numfiles = 0
@@ -175,10 +178,6 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
             # Create the directory in the translationDir if it doesn't exist
             if not os.path.exists(os.path.join(translationDirPath, defInjectDirectory)):
                 os.mkdir(os.path.join(translationDirPath, defInjectDirectory))
-
-            # Assume that an already existing file is incorrect and remove it to start fresh
-            if os.path.exists(os.path.join(translationDirPath, defInjectDirectory, filename)):
-                os.remove(os.path.join(translationDirPath, defInjectDirectory, filename))
 
             # Open the file for writing
             defInjectFile = open(os.path.join(translationDirPath, defInjectDirectory, filename), 'w+', encoding="utf-8")
@@ -264,7 +263,7 @@ for dirpath, dirnames, filenames in os.walk(defsDirPath):
                                 writepathreplace(defInjectFile, defName, nestedstartlabel + '.' + nestedelement.tag, nestedelement.text)
 
 
-                if child.get('ParentName') in ['BasePawn', 'BaseAnimal', 'BaseMechanoid', 'BaseInsect', 'BaseHare', 'BaseBear']:
+                if child.get('ParentName') in ['BasePawn', 'AnimalThingBase', 'BaseMechanoid', 'BaseInsect', 'BaseHare', 'BaseBear']:
                     labelElement = child.find('label')
                     if defName not in ['Chicken', 'Megascarab', 'Megaspider', 'Spelopede', 'Mechanoid_Centipede', 'Mechanoid_Scyther']:
                         if child.find('race').find('leatherLabel') is not None:
