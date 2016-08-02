@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Potwierdź</Confirm>
   <GoBack>Wstecz</GoBack>
   <OK>Ok</OK>
@@ -20,6 +18,9 @@
   <ErrorWhileLoadingMapTitle>Bład podczas ładowania mapy</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Wystąpił bład poczas ładowania mapy. Sprawdż logi po wiecej informacji .</ErrorWhileLoadingMap>
   
+  <!-- Missing Steam -->
+  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono bez użycia Steam bez steam_appid.txt we właściwym miejscu.\n-Uruchomiony z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW Większości przypatków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
+  
   <!-- Long events -->
   <InitializingInterface>Inicjalizacja interfejsu</InitializingInterface>
   <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
@@ -34,8 +35,8 @@
   
   <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
-  <OverwriteButton>Nadpisz</OverwriteButton>
   <LoadGameButton>Wczytaj</LoadGameButton>
+  <OverwriteButton>Nadpisz</OverwriteButton>
   <ConfirmDelete>Czy jesteś pewien, że chcesz usunąć {0}?</ConfirmDelete>
   <DeleteThisSavegame>Usuń ten zapis.</DeleteThisSavegame>
   <SavedAs>Zapisano jako {0}.</SavedAs>
@@ -48,7 +49,8 @@
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i prawie na pewno nie będzie działał.</SaveIsUnknownFormat>
   <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}</ProblemSavingFile>
-  	
+  <LoadAnyway>Wczytaj mimo to</LoadAnyway>
+  
   <!-- Colony naming-->
   <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
   <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
@@ -66,6 +68,7 @@
   <VersionMismatch>Różne wersje gry</VersionMismatch>
   <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Ta gra była zapisany z grą w wersji: {0}\nWObecnie używamy wersji: {1}\n\nZaładowanie tej gry może spowodować błędy i bugi</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mody nie są kompatybilne</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Mapa została zapisana z innymi modami niż te które obecnie działają. To może ale nie musi spowodować problemy, zależnie od tego co dane mody robią.\n\nMapa została zapisana z (w tej kolejności):\n\n{0}\n\nMy działamy z:\n\n{1}</ModsMismatchWarningText>
   
@@ -144,7 +147,10 @@
   <GrowingTime>Czas wzrostu</GrowingTime>
   <GrowingTimeDesc>Rośliny rosną tylko przez pewną część dnia i tylko w świetle. Ta statystyka pokazuje ile czasu zajmie roślinom osiągnięcie maksymalnych rozmiarów. Prawdziwy czas wzrostu jest zazwyczaj mniej więcej dwa razy dłuższy. Rozwój spowalniają także niskie temperatury.</GrowingTimeDesc>
   <Days>dni</Days>
+  <MinGrowingSkillToSow>Minimalna umiejętność hodowli zbyt niska</MinGrowingSkillToSow>
   <FertilityRequirement>Wymagana żyzność gleby</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Uwarunkowania żyzności gleby (szybkość wzrostu)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Uwarunkowania żyzności gleby (szansa na zasadzenie)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>Wymagany typ światła</LightRequirement>
   <Attributes>Atrybuty</Attributes>
   <LifeSpan>Żywotność</LifeSpan>
@@ -157,6 +163,7 @@
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
   <MarketValue>Wartość podstawowa</MarketValue>
   <Covers>Osłona</Covers>
+  <MedicineXpGainFactor>Wskaźnik zdobywania doświadczenia</MedicineXpGainFactor>
   <BodyPartEfficiency>Efektywność części ciała</BodyPartEfficiency>
   <MoodChange>Zmiana nastroju</MoodChange>
   <Wildness>Dzikość</Wildness>
@@ -207,5 +214,8 @@
   <DeleteOutfit>Usuń strój...</DeleteOutfit>
   <OutfitInUse>Strój używany przez {0}.</OutfitInUse>
   <NoOutfitSelected>Żaden strój nie został wybrany</NoOutfitSelected>
+ 
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} wymaga {1} punktów zdolności hodowla aby zasiać.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
   
 </LanguageData>
