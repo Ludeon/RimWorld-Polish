@@ -1,17 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!--=========== Main menu ==========-->
   <CreateWorld>Stwórz świat</CreateWorld>
   <NewColony>Nowa kolonia</NewColony>
   <BackToGame>Wróć do gry</BackToGame>
+  <ReviewScenario>Zobacz scenariusz</ReviewScenario>
   <Save>Zapisz</Save>
   <LoadGame>Wczytaj</LoadGame>
   <Options>Opcje</Options>
   <Mods>Modyfikacje</Mods>
   <Credits>Autorzy</Credits>
   <QuitToMainMenu>Wróć do menu</QuitToMainMenu>
+  <SaveAndQuitToMainMenu>Zapisz i wyjdź do menu</SaveAndQuitToMainMenu>
   <QuitToOS>Wyjście z gry</QuitToOS>
+  <SaveAndQuitToOS>Zapisz i wyjdź do pulpitu</SaveAndQuitToOS>
   <FictionPrimer>Info o świecie</FictionPrimer>
   <LudeonBlog>Blog Ludeon</LudeonBlog>
   <Forums>Forum</Forums>
@@ -19,6 +22,7 @@
   <TynansTwitter>Twitter Tynan'a</TynansTwitter>
   <TynansDesignBook>Książka Tynan'a</TynansDesignBook>
   <HelpTranslate>Pomóż tłumaczyć RimWorld</HelpTranslate>
+  <BuySoundtrack>Ścieżka dźwiękowa</BuySoundtrack>
  
     <!--=========== Create/review world ================-->
   <ReviewWorld>Mapa świata</ReviewWorld>
@@ -58,14 +62,37 @@
   <UpdateOnSteamWorkshop>Aktualizuj na Steam Workshop</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>Aktualizacja w toku.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Zgłoszenie do Workshop nie udało się.\n\nPowód: {0}</WorkshopSubmissionFailed>
-  <YouAgreeToSteamWorkshopLegal>Zgłaszając ten mod do Steam Workshop akceptujesz warunki umowy. Kliknij tutaj po więcej informacji.</YouAgreeToSteamWorkshopLegal>
   <WorkshopUploadSucceeded>Aktualizacja {0} powiodła się.</WorkshopUploadSucceeded>
-  <DownloadingMod>Pobieranie {0}</DownloadingMod>
+  <Downloading>Pobieranie</Downloading>
+  <Source>Źródło</Source>
+  <ModTargetVersion>Dla wersji: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Ten mod nie był stworzony dla tej wersji gry, może nie działać poprawnie.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mody potrzebują dobrze określonej wersji gry w pliku About.xml. Np. &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Wybierz scenariusz</ChooseScenario>
+  <ScenariosCustom>Niestandardowe</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  <ScenarioEditor>Edytuj screnariusz</ScenarioEditor>
+  <Delete>Usuń</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>ziarno</Seed>
+  <Load>Wczytaj</Load>
+  <EditMode>włącz tryb edycji</EditMode>
+  <Summary>Podsumowanie</Summary>
+  <AddPart>Dodaj element</AddPart>
+  <TextFieldsMustBeFilled>Wszystkie pola tekstowe muszą być wypełnione.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Czy jesteś pewien że chcesz wgrać to na Steam Workshop?\n\nMusisz zaakceptować Steam Workshop ToS. Pełne zasady znajdziesz tutaj:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Powinieneś dodawać jedynie zawartość stworzoną przez Ciebie.\n\nCzy stworzyłeś tą zawartość osobiście?</ConfirmContentAuthor>
+  <Incompatible>Niekompatybilne</Incompatible>
+  <TooMany>Za dużo (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Możesz wgrać do Steam Workshop, jako że jesteś autorem.</CanBeUpdatedOnWorkshop>
   
   <!--=========== Select storyteller ==========-->
 	<ChooseAIStoryteller>Wybierz swojego pisarza SI</ChooseAIStoryteller>
-	<HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię.</HowStorytellersWork>
-	<MustChooseChallengeScale>Proszę wybrać poziom trudności.</MustChooseChallengeScale>
+	<HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię.</HowStorytellersWork>  
+	<MustChooseChallengeScale>Proszę wybrać poziom trudności.</MustChooseChallengeScale> 
 	<Difficulty>Poziom trudności</Difficulty>
 
   <!--=========== Landing site select =========-->
@@ -117,7 +144,8 @@
   <Male>Mężczyzna</Male>
   <Female>Kobieta</Female>
   <Pain>Ból</Pain>
- 
+  <Health>Zdrowie</Health>
+  <Relations>Relacje</Relations>
 
  <!--=========== Misc ==========-->
   <Start>Start</Start>
