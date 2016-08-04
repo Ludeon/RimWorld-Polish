@@ -9,7 +9,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ============
 
-Working crew:
+WORKING CREW:
 - maxdyner
 - 2piotrek [piotr.ch2@onet.eu]
 - Damian, aka. Bucu [ganelot@yahoo.com]
@@ -19,17 +19,10 @@ Working crew:
 - Kunegard
 - Marcin Mareo Zdziarski
 
-PAST TEAM:
-- Oskar 'volf3n' Nowak 
-- Deralian
-- t3m4
-- TralalAlf
-- Reco [reco754@gmail.com]
+============
 
 PAST PROJECT CREW:
 Lead translator: Neone (pmduda86@gmail.com)
-Info on current version:
-http://ludeon.com/forums/index.php?topic=3100.0
 Contribution:
 - GlobusGames
 - John Fucking Rambo
@@ -37,3 +30,8 @@ Contribution:
 - Michał Hoffman
 - Marcin WMP Janowski
 - Karol Pieniący
+- Oskar 'volf3n' Nowak 
+- Deralian
+- t3m4
+- TralalAlf
+- Reco [reco754@gmail.com]
