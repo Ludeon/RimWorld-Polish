@@ -18,6 +18,7 @@ Working crew:
 - Nalthe [How2Play.pl]
 - Kunegard
 - Marcin Mareo Zdziarski
+- Fejm
 
 PAST TEAM:
 - Oskar 'volf3n' Nowak 
