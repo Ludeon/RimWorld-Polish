@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
 	<CallOnRadio>Wezwij {0}</CallOnRadio>
 	<CannotUseReason>Nie można użyć ({0})</CannotUseReason>
 	<CannotUseSolarFlare>Nie można użyć (rozbłysk)</CannotUseSolarFlare>
@@ -15,7 +13,9 @@
 
 	<OutOfRange>Poza zasięgiem</OutOfRange>
 	<CannotHitTarget>nie można trafić w cel</CannotHitTarget>
-	<CannotFight>{0} nie może walczyć</CannotFight>
+	<IsIncapableOfViolenceLower>{0} jest niezdolny do przemocy</IsIncapableOfViolenceLower>
+    <IsNotDraftedLower>{0} nie jest powołany</IsNotDraftedLower>
+    <CannotOrderNonControlledLower>nie może wydawać poleceń jednostką niekontrolowanym</CannotOrderNonControlledLower>
   
 	<OrderManThing>Człowiek {0}</OrderManThing>
 
@@ -24,6 +24,7 @@
 	<NoPath>brak dojścia</NoPath>
 
   	<ForbiddenLower>zabronione</ForbiddenLower>
+	<ForbiddenOutsideAllowedAreaLower>poza dozwolonym obszarem</ForbiddenOutsideAllowedAreaLower>
 	<SociallyImproperLower>społecznie niepoprawne</SociallyImproperLower>
 	<PrisonerRoomLower>więzienie</PrisonerRoomLower>
 	<BurningLower>płonie</BurningLower>
@@ -34,12 +35,14 @@
 	<NoEmptyGraveLower>brak pustego grobu</NoEmptyGraveLower>
 	<AnimalInteractedTooRecently>zbyt krótki czas interakcji ze zwierzęciem</AnimalInteractedTooRecently>
 	<NoUsableFood>brak zdatnego jedzenia</NoUsableFood>
+	<NoFood>brak jedzenia</NoFood>
 	<AnimalsSkillTooLow>umiejętności zwierząt zbyt niskie</AnimalsSkillTooLow>
-
+    <NoComponentsToRepair>wymaga komponentów</NoComponentsToRepair>
+	<NoFuelToRefuel>potrzebuje {0}</NoFuelToRefuel>
+	
 	<ConsumeThing>Zjedz {0}</ConsumeThing>
 	<Teetotaler>abstynent</Teetotaler>
-  
-  
+    
     <CannotGoNoPath>Nie można się dostać (brak dojścia)</CannotGoNoPath>
 	<GoHere>Idź tam</GoHere>
   
@@ -59,6 +62,7 @@
 	<NoCryptosleepCasket>Brak wolnych kapsuł hibernacyjnych.</NoCryptosleepCasket>
 	<NoPrisonerBed>Nie ma odgrodzonych łóżek oznaczonych dla więźniów.</NoPrisonerBed>
 	<NoNonPrisonerBed>Nie ma wolnych łóżek nie dla więźniów.</NoNonPrisonerBed>
+	<NoAnimalBed>Brak zwierzęcych legowisk.</NoAnimalBed>
 	<Reserved>Zarezerwowane przez kogoś innego.</Reserved>
 	<ReservedBy>Zarezerwowane przez {0}.</ReservedBy>
 	<IsReservedBy>{0} jest zarezerwowane przez {1}.</IsReservedBy>
@@ -66,12 +70,15 @@
 	<Incapable>niezdolny</Incapable>
 	<IncapableOfCapacity>niezdolny do {0}</IncapableOfCapacity>
 	
+	<MinSkill>min umiejętność</MinSkill>
+  
 	<Equip>Ekwipuj {0}</Equip>
 	<EquipWarningBrawler>(zawadiaka będzie niezadowolony)</EquipWarningBrawler>
 	<CannotEquip>Nie można ekwipować {0}</CannotEquip>
 
 	<ForceWear>Załóż {0}</ForceWear>
 	<CannotWear>Nie można założyć {0}</CannotWear>
+	<CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
   
 	<Strip>Zdejmij {0}</Strip>
 	<CannotStrip>Nie można zdjąć {0}</CannotStrip>
@@ -86,13 +93,14 @@
 	<UseMedicalBed>Odpoczywaj, aż wyzdrowiejesz</UseMedicalBed>
 	<NotInjured>Nie jesteś ranny</NotInjured>
 	<SomeoneElseSleeping>Zajęte</SomeoneElseSleeping>
-  
-	<!-- Specific thing interactions -->
+	
+	<TradeWith>Handluj z {0}</TradeWith>
+	<CannotTrade>Nie można handlować</CannotTrade>
+
+  	<!-- Specific thing interactions -->
 	<EnterCryptosleepPod>Wejdź do kapsuły hibernacyjnej</EnterCryptosleepPod>
 	<OpenCryptosleepCasket>Otwórz kapsułę hibernacyjną</OpenCryptosleepCasket>
- 
- 
- 
+  
 	<!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
 	<CannotGenericWork>Nie można {0} {1}</CannotGenericWork>
 
@@ -106,7 +114,7 @@
 	<CannotPrioritizeResearch>Nie mogę się tym zająć! (Badania są zadaniem długoterminowym).</CannotPrioritizeResearch>
 
 	<CannotPrioritizeForbidden>Nie mogę się tym zająć! ({0} jest zabronione).</CannotPrioritizeForbidden>
-
+	<CannotPrioritizeForbiddenOutsideAllowedArea>Nie może być priorytetem({0} jest poza dozwlolonym obszarem)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<PrioritizeGeneric>Zajmij się {0} {1}</PrioritizeGeneric>

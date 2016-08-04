@@ -5,25 +5,39 @@
   <Dark>Ciemno</Dark>
   <Lit>Szaro</Lit>
   <LitBrightly>Jasno</LitBrightly>
-    
-  <!-- diet type -->
-  <NeverEats>Nigdy nie je</NeverEats>
-  <Omnivorous>Wszystkożerny</Omnivorous>
-  <Herbivorous>Roślinożerny</Herbivorous>
-  <Carnivorous>Mięsożerny</Carnivorous>
-  <Dendrovorous>Drzewożerny</Dendrovorous>
-  
+   
   <!-- history upload pref -->
   <Unspecified>Nie zdecydowano</Unspecified>
   <Always>Zezwalaj</Always>
   <Never>Nie zezwalaj</Never>
-  
+
   <!-- Price types -->
   <PriceTypeVeryCheap>bardzo tanio</PriceTypeVeryCheap>
   <PriceTypeCheap>tanio</PriceTypeCheap>
   <PriceTypeNormal>normalnie</PriceTypeNormal>
   <PriceTypeExpensive>drogo</PriceTypeExpensive>
   <PriceTypeExorbitant>skrajnie drogo</PriceTypeExorbitant>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>nieposortowane</StoragePriorityUnstored>
+  <StoragePriorityLow>niski</StoragePriorityLow>
+  <StoragePriorityNormal>normalny</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferowany</StoragePriorityPreferred>
+  <StoragePriorityImportant>iważny</StoragePriorityImportant>
+  <StoragePriorityCritical>krytyczny</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>ważywa</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>surowe mięso</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>ciała</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>nasiona</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>produkty zwierzęce</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>żywe rośliny</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>żywe drzewa</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>posiłki</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>przetworzone jedzenie</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>alkohol</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>karma</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <QualityCategory_Awful>bardzo zły</QualityCategory_Awful>
@@ -35,7 +49,6 @@
   <QualityCategory_Excellent>wspaniały</QualityCategory_Excellent>
   <QualityCategory_Masterwork>arcydzieło</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendarny</QualityCategory_Legendary>
-
   <QualityCategoryShort_Awful>bzł</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>tndt</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>słb</QualityCategoryShort_Poor>
@@ -45,8 +58,7 @@
   <QualityCategoryShort_Excellent>wsp</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>arc</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
-  
- 
+   
   <!-- Hunger -->
   <HungerLevel_Starving>Głoduje</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Bardzo głodny</HungerLevel_UrgentlyHungry>
@@ -75,6 +87,10 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wgrywa plik podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdza zmiany</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>folder lokalny</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+  
   <!-- Trainable intelligence -->
   <TrainableIntelligence_None>Brak</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>Prosta</TrainableIntelligence_Simple>
@@ -87,5 +103,44 @@
   <MedicalCareCategory_HerbalOrWorse>Ziołowe leki, albo gorsze</MedicalCareCategory_HerbalOrWorse>
   <MedicalCareCategory_NormalOrWorse>Zwykłe leki, albo gorsze</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>Leki najlepszej jakości</MedicalCareCategory_Best>
+
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignoruj</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Atakuj</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Uciekaj</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>rośnie</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>stabilny</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>reemisja</HediffGrowthMode_Remission>
+
+  <!-- TechLevel -->
+  <TechLevel_Animal>zwierzę</TechLevel_Animal>
+  <TechLevel_Neolithic>neolici</TechLevel_Neolithic>
+  <TechLevel_Medieval>średniowiecze</TechLevel_Medieval>
+  <TechLevel_Industrial>industrialny</TechLevel_Industrial>
+  <TechLevel_Spacer>kosmiczny</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>transcendent</TechLevel_Transcendent>
+
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>Stoją</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Kapsuły ratunkowe</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>wszystkie postacie</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>początkowe posatcie gracza</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Pokazuj imiona zwierząt</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Oswojone (tylko nazwane)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Oswojone (wszystkie)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Celsiusz</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelvin</Kelvin>
+  
 
 </LanguageData>
