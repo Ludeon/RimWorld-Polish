@@ -12,11 +12,11 @@ http://ludeon.com/forums/index.php?topic=2933.0
 WORKING CREW:
 - maxdyner
 - 2piotrek [piotr.ch2@onet.eu]
-- Damian, aka. Bucu [ganelot@yahoo.com]
+- Damian aka. Bucu [ganelot@yahoo.com]
 - Apoc
 - GruSha26 [grusha1122@gmail.com]
-- Nalthe [How2Play.pl]
-- Kunegard
+- Nalthe [Parapisalni]
+- Kunegard [Parapisalni]
 - Marcin Mareo Zdziarski
 
 ============
@@ -30,7 +30,7 @@ Contribution:
 - Michał Hoffman
 - Marcin WMP Janowski
 - Karol Pieniący
-- Oskar 'volf3n' Nowak 
+- Oskar "volf3n" Nowak 
 - Deralian
 - t3m4
 - TralalAlf
