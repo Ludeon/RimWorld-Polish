@@ -13,7 +13,7 @@ WORKING CREW:
 - Damian aka. Bucu [ganelot@yahoo.com]
 - Nalthe [Parapisalni]
 - Kunegard [Parapisalni]
-- Marcin Mareo Zdziarski
+- Marcin "Mareo" Zdziarski
 
 ============
 
