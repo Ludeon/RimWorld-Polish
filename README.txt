@@ -13,8 +13,8 @@ WORKING CREW:
 - Damian aka. Bucu [ganelot@yahoo.com]
 - Nalthe [Parapisalni]
 - Kunegard [Parapisalni]
-- Marcin Mareo Zdziarski
-- Fejm
+- Marcin "Mareo" Zdziarski
+- Mateusz "Fejm" Filipczak
 
 ============
 
