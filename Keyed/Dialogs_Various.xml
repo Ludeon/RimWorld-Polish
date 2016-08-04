@@ -7,27 +7,27 @@
   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Wygląda na to że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowane do inne wersji RimWorld`a albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Wygląda na to, że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowane do innej wersji RimWorlda albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>Wystapił bład podczas ładowania elementow</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Wystapił bład poczas ładowania elementow. Zobacz logi po wiecej informacji.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z niestandardowymi modami - Moga byc przyczyna problemu.</ErrorWhileLoadingAssets_ModsInfo>
-  <ErrorWhileGeneratingMapTitle>Wystąpił bład podczas tworzenia mapy.</ErrorWhileGeneratingMapTitle>
-  <ErrorWhileGeneratingMap>Wystąpił bład podczas tworzenia mapy. Sprawdz logi po wiecej infomacji.</ErrorWhileGeneratingMap>
-  <ErrorWhileLoadingMapTitle>Bład podczas ładowania mapy</ErrorWhileLoadingMapTitle>
-  <ErrorWhileLoadingMap>Wystąpił bład poczas ładowania mapy. Sprawdż logi po wiecej informacji .</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingAssetsTitle>Wystąpił błąd podczas ładowania elementów</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Wystąpił błąd poczas ładowania elementów. Zobacz logi po wiecej informacji.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z niestandardowymi modami - mogą być one przyczyną problemu.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Wystąpił błąd podczas tworzenia mapy.</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Wystąpił błąd podczas tworzenia mapy. Sprawdź logi po więcej infomacji.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Błąd podczas ładowania mapy</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Wystąpił błąd poczas ładowania mapy. Sprawdź logi po więcej informacji.</ErrorWhileLoadingMap>
   
   <!-- Missing Steam -->
   <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono bez użycia Steam bez steam_appid.txt we właściwym miejscu.\n-Uruchomiony z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW Większości przypatków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Inicjalizacja interfejsu</InitializingInterface>
-  <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Usuwanie nieużywanych plików</UnloadingUnusedAssets>
   <LoadingAllActiveMods>Ładowanie wszystkich aktywnych modów</LoadingAllActiveMods>
-  <LoadingDefs>Loading defs</LoadingDefs>
+  <LoadingDefs>Ładowanie definicji</LoadingDefs>
   <LoadingAssets>Ładowanie elementów</LoadingAssets>
-  <Initializing>Inicjalizowanie</Initializing>
+  <Initializing>Inicjalizacja</Initializing>
   <LoadingWorld>Ładowanie świata</LoadingWorld>
   <LoadingMap>Ładowanie mapy</LoadingMap>
   <InitializingMap>Inicjalizacja mapy</InitializingMap>
@@ -42,12 +42,12 @@
   <SavedAs>Zapisano jako {0}.</SavedAs>
   <NeedAName>Wprowadź nazwę.</NeedAName>
   <LoadingLongEvent>Wczytuję...</LoadingLongEvent>
-  <SavingLongEvent>Zapisuje</SavingLongEvent>
-  <PermadeathModeSaveSuffix>(Permanentna śmierć)</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>Aktualna wersja to {0} ale zapis gry jest z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0} ale zapis gry jest z wersji {1}. Jest to inna budowa.\n\nTen stan zapisu gry powinien działać.</SaveIsFromDifferentGameBuild>
+  <SavingLongEvent>Zapisuję</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(permanentna śmierć)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest ona inaczej zbudowana.\n\nTen stan zapisu gry powinien działać.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i prawie na pewno nie będzie działał.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie powinien działać.</SaveIsUnknownFormat>
   <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
   
@@ -90,18 +90,18 @@
   <RequiredResearchBenchFacilities>Wymagany dodatkowy sprzęt badawczy</RequiredResearchBenchFacilities>
 	
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Uwaga: Wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba, że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Uwaga: wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
   <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
   <MapSizeSmall>Mały</MapSizeSmall>
   <MapSizeMedium>Średni</MapSizeMedium>
   <MapSizeLarge>Duży</MapSizeLarge>
-  <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
+  <MapSizeExtreme>Ludeoniczna</MapSizeExtreme>
   <MapStartMonth>Miesiąc lądowania:</MapStartMonth>
   <MapStartMonthDefault>Automatyczny</MapStartMonthDefault>
   <PermadeathMode>Permanentna śmierć</PermadeathMode>
-  <PermadeathModeInfo>W trybie permanentnej śmierci, masz tylko jeden plik z zapisem rozgrywki który zapisuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak rozgrywka w RimWorld miała wyglądać, z każdą dramatyczną zmianą - tragiczną czy też pomocną - grana do samego końca.</PermadeathModeInfo>
+  <PermadeathModeInfo>W trybie permanentnej śmierci masz tylko jeden plik z zapisem rozgrywki, który zapisuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki, by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak rozgrywka w RimWorld miała wyglądać, z każdą dramatyczną zmianą - tragiczną czy też pomocną - grana do samego końca.</PermadeathModeInfo>
   
   <!-- Bill config -->
   <Suspended>Odwieś</Suspended>
@@ -216,6 +216,6 @@
   <NoOutfitSelected>Żaden strój nie został wybrany</NoOutfitSelected>
  
   <!-- Growing -->
-  <NoGrowerCanPlant>{0} wymaga {1} punktów zdolności hodowla aby zasiać.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} wymaga {1} punktów zdolności hodowli, aby zasiać.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
   
 </LanguageData>
