@@ -25,9 +25,9 @@ Contribution:
 - Oskar "volf3n" Nowak 
 - John Fucking Rambo
 - Mateusz Raczkiewicz
-- Micha³ Hoffman
+- MichaÅ‚ Hoffman
 - Marcin WMP Janowski
-- Karol Pieni¹cy
+- Karol PieniÄ…cy
 - Deralian
 - t3m4
 - TralalAlf
