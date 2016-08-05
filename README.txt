@@ -14,6 +14,7 @@ WORKING CREW:
 - Nalthe [Parapisalni]
 - Kunegard [Parapisalni]
 - Marcin "Mareo" Zdziarski
+- Fejm
 
 ============
 
@@ -21,12 +22,12 @@ PAST PROJECT CREW:
 Lead translator: Neone (pmduda86@gmail.com)
 Contribution:
 - GlobusGames
+- Oskar "volf3n" Nowak 
 - John Fucking Rambo
 - Mateusz Raczkiewicz
 - Michał Hoffman
 - Marcin WMP Janowski
 - Karol Pieniący
-- Oskar "volf3n" Nowak 
 - Deralian
 - t3m4
 - TralalAlf
