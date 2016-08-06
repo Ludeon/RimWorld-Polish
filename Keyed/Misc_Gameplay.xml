@@ -9,6 +9,7 @@
   <ForColonistUse>Dla kolonistów</ForColonistUse>
   <MedicalBed>Łóżko szpitalne</MedicalBed>
   <Owner>Właściciel</Owner>
+  <Owners>Właściciele</Owners>
   <AssignedColonist>Przydzielony kolonista</AssignedColonist>
   <Nobody>Nikt</Nobody>
   <Unowned>Wolne</Unowned>
@@ -47,6 +48,12 @@
   <Fertilized>Zapłodniona</Fertilized>
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
+  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
+  <CorpsePercentMissing>Brakujące części ciała</CorpsePercentMissing>
+  <HiveReproducesIn>Reproduces in</HiveReproducesIn>
+  <BrokenDown>Broken down</BrokenDown>
+  <BondBrackets>(bond)</BondBrackets>
+  <Fuel>Paliwo</Fuel>
   
   <!--TextMotes-->
   <Headshot>Strzał w głowę</Headshot>
@@ -60,7 +67,8 @@
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
   <TextMote_TrainFail>Szkolenie nieudany: {0}\n{1} szans</TextMote_TrainFail>
   <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
- 
+  <TextMote_FixBrokenDownBuildingFail>Repair\nfailed</TextMote_FixBrokenDownBuildingFail>
+
  
   <!-- Areas -->
   <Home>Dom</Home>
@@ -106,6 +114,7 @@
   <DeliveringFood>dostarcza żywność do {0}.</DeliveringFood>
   <UsingVerb>używa {0} na {1}.</UsingVerb>
   <AreaLower>obszar</AreaLower>
+  <ReportCowering>Cowering.</ReportCowering>
   
 	<!-- Shooting report -->
     <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
@@ -144,6 +153,10 @@
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
+
+  <HostilityReponseTip>Change how to react to nearby enemies when the colonist is not drafted.</HostilityReponseTip>
+  <HostilityResponseCurrentMode>Current mode</HostilityResponseCurrentMode>
+ 
 
      <!-- like 'Blood of John' -->
 	<OfLower></OfLower>
@@ -278,6 +291,8 @@
   <!-- Artifact -->
   <UseArtifact>Aktywuj</UseArtifact>
   
+  <TriggerFirefoamPopper>Trigger firefoam popper</TriggerFirefoamPopper>
+   
   <!-- Minification -->
   <Installed>Ustawione</Installed>
   <NotInstalled>Nieustawione</NotInstalled>
@@ -296,6 +311,7 @@
   <QualityIs>Jakość: {0}</QualityIs>
     
   <!-- Mood descriptions -->
+  <Mood_MentalState>mental state</Mood_MentalState>
   <Mood_Broken>Załamany!</Mood_Broken>
   <Mood_AboutToBreak>Zaraz się załamie!</Mood_AboutToBreak>
   <Mood_OnEdge>Na krawędzi załamania</Mood_OnEdge>
@@ -321,5 +337,9 @@
   <!-- Facilities -->
   <InactiveFacility>Nieaktywne</InactiveFacility>
   
+  <DiseaseGrowthModeChanged_Growing>{0}'s {1} is now growing.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0}'s {1} is now stable.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0}'s {1} is now in remission.</DiseaseGrowthModeChanged_Remission>
+
   
 </LanguageData>
