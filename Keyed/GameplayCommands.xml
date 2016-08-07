@@ -4,13 +4,13 @@
 	<CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
 
-  
+  <!-- Power -->
   <CommandTogglePowerLabel>Przełącz zasilanie</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>Oznacz do przełączenia</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i czekan aż jeden z nich to zrobi</CommandDesignateTogglePowerDesc>
-  
+
   <CommandTryReconnectLabel>Przełącz</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Próbuje podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
 
@@ -19,12 +19,14 @@
   <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
   
   
-  
+  <!-- Drafting -->
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
   <IsIncapped>{0} jest niesprawny.</IsIncapped>
 
+  <CommandClearPrioritizedWork>Anuluj zadanie piorytetowe</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Przerywa piorytetową pracę zleconą przez Ciebie. Postać wróci do swoich zwyczajnych zadań.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Anuluj</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Anuluj budowę.</CommandCancelConstructionDesc>
@@ -41,16 +43,12 @@
   <CommandBedSetForPrisonersLabel>Ustaw dla więźniów</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Nie można ustawić zewnętrznych łóżek dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Ustaw dla kolonistów</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Ustaw łóżka w tym pokoju do użytku kolonistów.</CommandBedSetForColonistsDesc>
   <CommandBedSetAsMedicalLabel>Ustaw jako łóżko szpitalne</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc> Ustaw to łóżko do użytku medycznego.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Ustaw jako zwykłe łóżko</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc> Po ustawieniu łóżka jako zwykłe, koloniści nie będą w nim leczeni.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący koloniści utracą swoje łóżka:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący więźniowie utracą swoje łóżka:</TurningOffPrisonerBedWarning>
   <AreYouSure>Czy jesteś pewien?</AreYouSure>
-
+  
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
   <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
 
@@ -73,7 +71,7 @@
   <CommandAllowSow>Zabroń sadzenia</CommandAllowSow>
   <CommandAllowSowDesc>Kiedy wyłączone, koloniści nie będą siać w tym obszarze. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
 
-  
+  <!-- Artillery -->
   <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
@@ -82,57 +80,62 @@
   <MessageTargetBeyondMaximumRange>Cel poza maks. zasięgiem.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Cel poniżej min. zasięgu.</MessageTargetBelowMinimumRange>
   
-  
-  
+  <!-- Ship computer core -->
   <CommandShipLaunch>Wystartuj</CommandShipLaunch>
   <CommandShipLaunchDesc>Rozpoczyna sekwencję startową statku z obecną konfiguracją.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Pokaż raport startu</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Pokazuje raport o gotowości statku do startu.</CommandShipLaunchReportDesc>
 
-
-  
+  <!-- Pod -->
   <CommandPodEject>Wyładuj</CommandPodEject>
   <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
 
-  
+  <!-- Door -->
   <CommandToggleDoorForbid>Przejście zabronione</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione koloniści i sojusznicy nie będa przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Kiedy aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
-
-  
+  <!-- Temperature control --
   <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
   <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Ustaw wyższą temperaturę.</CommandRaiseTempDesc>
   <CommandLowerTempDesc>Ustaw niższą  temperaturę.</CommandLowerTempDesc>
 
-  
-  <CommandInstall>Ustaw</CommandInstall>
+   <!-- Install/reinstall -->
+  <CommandInstall>Zamontuj</CommandInstall>
   <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
-  <CommandReinstall>Reinstall at...</CommandReinstall>
-  <CommandReinstallDesc>Designate this item to be uninstalled and reinstalled somewhere else.</CommandReinstallDesc>
+  <CommandReinstall>Przenieś w inne miejsce</CommandReinstall>
+  <CommandReinstallDesc>Oznacza ten przedmiot do zdemontowania i zamontowania w innym miejscu.</CommandReinstallDesc>
   
-  
+  <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
 
-  
+  <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Ustaw obszar pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
-  
+  <!-- Trap -->
   <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
   <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie</CommandAutoRearmDesc>
   
-  
+  <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Spuść zwierzęta</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>Kiedy włączone zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone pozostaną i będą bronić swoje pana.</CommandReleaseAnimalsDesc>
   
-  
-  <CommandSquadAttack>Attack</CommandSquadAttack>
-  <CommandSquadAttackDesc>Order selected colonists to attack designated target.</CommandSquadAttackDesc>
+  <!-- Squad attack -->
+  <CommandSquadAttack>Atakuj</CommandSquadAttack>
+  <CommandSquadAttackDesc>Każ kolonistom zaatakować wskazany cel.</CommandSquadAttackDesc>
 
+  <!-- Hold fire -->
+  <CommandHoldFire>Wstrzymaj ostrzał</CommandHoldFire>
+  <CommandHoldFireDesc>Zatrzymaj wszystkie wychodzące ataki.</CommandHoldFireDesc>
   
+  <!-- Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>Wybierz roślinę do zasadzenia</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrow>Roślina: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>Określa jaka roślina powinna tutaj rosnąć.</CommandSelectPlantToGrowDesc>
+ 
 </LanguageData>

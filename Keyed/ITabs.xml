@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  
+  <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
   <TabGrowing>Uprawa</TabGrowing>
   <TabCharacter>Charakter</TabCharacter>
@@ -20,7 +20,7 @@
   <TabSocial>Social</TabSocial>
 
   
-  
+  <!-- Bills tab  -->
   <AddBill>Dodaj zlecenie</AddBill>
   <RecipeRequiresSkills>Zlecenie na {0} wymaga poniżej wskazanych umiejętności. Żaden z kolonistów nie ma wskazanych umiejętności, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
   <MinimumSkill>Min poziom umiejętności</MinimumSkill>
@@ -29,7 +29,7 @@
   <PlantVerb>Roślina</PlantVerb>
 
 
-  
+  <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
   <GetsFood>Dostaje żywność</GetsFood>
   <DoctorsCare>Opieka medyczna</DoctorsCare>
@@ -42,7 +42,7 @@
   <PrisonerExecution>Egzekucja</PrisonerExecution>
 
 
-  
+  <!-- Medical - general -->
   <MoveSpeed>Szybkość</MoveSpeed>
   <Efficiency>Wydajność</Efficiency>
   <MissingBodyPart>Stracone</MissingBodyPart>
@@ -68,13 +68,14 @@
   <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
   <Amputate>Amputuj</Amputate>
   <Harvest>Wytnij</Harvest>
-  <MemoryLower>memory</MemoryLower>
+  <RemoveOrgan>Usuń organ</RemoveOrgan>
+  <MemoryLower>pamięć</MemoryLower>
   <SocialInteractionsLower>social interactions</SocialInteractionsLower>
-  <HungerRate>Hunger rate</HungerRate>
-  <Tiredness>Tiredness</Tiredness>
+  <HungerRate>Poziom głodu</HungerRate>
+  <Tiredness>Zmęczenie</Tiredness>
   
 
-  
+  <!-- Medical - Body and activities condition -->
   <None>Brak</None>
   <VeryPoor>Bardzo źle</VeryPoor>
   <Poor>Źle</Poor>
@@ -91,21 +92,21 @@
   <ExtremePain>Skrajny</ExtremePain>
 
 
-  
+  <!-- Training tab-->
   <TrainableIntelligence>Inteligencja</TrainableIntelligence>
   <CannotTrainNotSmartEnough>Wymagana inteligencja: {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0} jest zbyt mały żeby się tego nauczyć.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Niezbędne wymagania: {0}</TrainingNeedsPrerequisite>
   
-  
-  <NoRelationships>(no relationships)</NoRelationships>
-  <Kidnapped>Kidnapped</Kidnapped>
-  <Slave>Slave</Slave>
-  <FactionLeader>Faction leader</FactionLeader>
-  <OpinionOf>Opinion of {0}</OpinionOf>
-  <SomeonesOpinionOfMe>{0}'s opinion of me</SomeonesOpinionOfMe>
-  <IAmDead>I'm dead</IAmDead>
-  <IAmPsychopath>I'm a psychopath</IAmPsychopath>
+  <!-- Social tab -->
+  <NoRelationships>(brak relacji)</NoRelationships>
+  <Kidnapped>Porwany</Kidnapped>
+  <Slave>Niewolnik</Slave>
+  <FactionLeader>Lider frakcji</FactionLeader>
+  <OpinionOf>Opinia o {0}</OpinionOf>
+  <SomeonesOpinionOfMe>{0} opinia o mnie</SomeonesOpinionOfMe>
+  <IAmDead>Jestem trupem</IAmDead>
+  <IAmPsychopath>Jestem psychopatą</IAmPsychopath>
 
 </LanguageData>

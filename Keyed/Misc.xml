@@ -19,17 +19,28 @@
   <CompiledOn>Kompilacja {0}</CompiledOn>
   <LoggedIntoSteamAs>Zalogowany do Steam jako {0}</LoggedIntoSteamAs>
 
+  <!-- General-use words -->
+  <Yes>Tak</Yes>
+  <No>Nie</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>szansa</chance>
+  <context>kontekst</context>
+  <multiplier>mnożnik</multiplier>
+  <damage>obrażenia</damage>
+  <radius>zasięg</radius>
+  <durationDays>czas trwania (dni)</durationDays>
   
+  <!-- Content generation-->
   
-  
-	<MeatLabel>Mięso ({0})</MeatLabel>
+  <MeatLabel>Mięso ({0})</MeatLabel>
   <MeatDesc>Surowe mięso ({0}).</MeatDesc>
 
   <LeatherLabel>Skóra ({0})</LeatherLabel>
   <LeatherDesc>Skóra zrobiona z {0}.</LeatherDesc>
 
   <CorpseLabel>Zwłoki {0}</CorpseLabel>
-	<CorpseDesc>Martwe ciało {0}.</CorpseDesc>
+  <CorpseDesc>Martwe ciało {0}.</CorpseDesc>
   <DeadLabel>{0} (ciało)</DeadLabel>
 
   <RoughStoneTerrainLabel>surowy {0}</RoughStoneTerrainLabel>
@@ -43,8 +54,8 @@
   <FrameLabelExtra> (budowa)</FrameLabelExtra>
 
 
-  
-  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
   <SomeonesRoom>{0}'s {1}</SomeonesRoom>
@@ -52,9 +63,9 @@
   
   <VariousLabel>(różne)</VariousLabel>
 
-  
+  <!-- History events -->
   <ColonistDied>Kolonista umarł</ColonistDied>
   
   
-  
+
 </LanguageData>
