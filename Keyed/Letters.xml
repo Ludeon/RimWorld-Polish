@@ -51,12 +51,58 @@
 
   <LetterHealthComplications>{0} doznał {1} w wyniku komplikacji {2}.</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
-
+  
+  <LetterHediffFromRandomHediffGiver>{0} has developed a health condition: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+  
+  <LetterLeadersDeathLabel>Śmierć lidera</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>Lider frakcji {1}, {0} zmarł i został zastąpiony przez {2}.</LetterLeadersDeath>
+  
+  <MentalBreakLetterLabel>Załamanie nerwowe</MentalBreakLetterLabel>
+  <MentalBreakReason>Powód: {0}.</MentalBreakReason>
+  
+  <!-- Related pawns -->
+  <LetterLabelNoticedFamilyMembers>Rodzina</LetterLabelNoticedFamilyMembers>
+  <LetterFamilyMembersRaidEnemy>There are family members of your colonists or prisoners in the arriving group of {0}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThe family members are:</LetterFamilyMembersRaidEnemy>
+  <LetterFamilyMembersRaidFriendly>There are family members of your colonists or prisoners in the arriving group of friendly {0}:</LetterFamilyMembersRaidFriendly>
+  <LetterFamilyMembersNeutralGroup>There are family members of your colonists or prisoners in the arriving group:</LetterFamilyMembersNeutralGroup>
+  <LetterFamilyMembersTraderShipSlaves>The orbital trader is selling family members of your colonists or prisoners:</LetterFamilyMembersTraderShipSlaves>
+  
+  <FamilyLetterAppendedSuffix>(rodzina)</FamilyLetterAppendedSuffix>
+  <FamilyLetterAppendedTextColonist>NAME is a family member of a colonist. HECAP is {0}'s {1}.</FamilyLetterAppendedTextColonist>
+  <FamilyLetterAppendedTextPrisoner>NAME is a family member of one of your prisoners. HECAP is {0}'s {1}.</FamilyLetterAppendedTextPrisoner>
+  
+  
+  <!-- Attempt romance / propose interaction -->
+  <LetterLabelAffair>Romans</LetterLabelAffair>
+  <LetterAffair>{0} który(a) jest w związku małżeńskim z {1}, rozpoczeła romans z {2}.</LetterAffair>
+  <LetterLabelNewLovers>Nowa para</LetterLabelNewLovers>
+  <LetterNewLovers>{0} i {1} spotykają się i są teraz parą.</LetterNewLovers>
+  <LetterNoLongerLovers>{0} i {1} nie spotykają się już.</LetterNoLongerLovers>
+  <LetterLabelAcceptedProposal>Wesele!</LetterLabelAcceptedProposal>
+  <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>{1} zaakceptowała oświadczyny {0}.\n\nAt some point in the coming days or seasons, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs.</LetterAcceptedProposal>
+  <LetterRejectedProposal>{1} odrzuciła oświadczyny {0}. {0} jest nieszczęśliwy z tego powodu.</LetterRejectedProposal>
+    
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChangeGood>Dobra wola</LetterLabelRelationsChangeGood>
   <LetterLabelRelationsChangeBad>Zła wola</LetterLabelRelationsChangeBad>
   <LetterLabelShortCircuit>Bzzt...</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>Załamanie nerwowe</LetterLabelMentalBreakdown>
+   
+  <!-- Bonded animals -->
+  <LetterLabelBondedAnimalDied>Śmierć zwierzaka</LetterLabelBondedAnimalDied>
+  <LetterBondedAnimalDied>{0} przywiązany do {1} zdechł. Pogorszy to samopoczucie {1}.</LetterBondedAnimalDied>
+  <LetterNamedBondedAnimalDied>{0} nazywany {1} i przywiązany {2} zdechł. Pogorszy to samopoczucie {2}.</LetterNamedBondedAnimalDied>
+  <LetterBondedAnimalDiedMulti>{0} zdechł. Pogorszy to samopoczucie następujących osób:\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>{0} nazywany {1} zdechł. Pogorszy to samopoczucie następujących osób:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
+  <!-- Prison break -->
+  <LetterLabelPrisonBreak>Ucieczka z więzienia</LetterLabelPrisonBreak>
+  <LetterPrisonBreak>Więźniom udało się uciec! Udało im się jakimś cudem pokonać zamknięte drzwi. Mogą chwycić za broń, walczyć lub spróbować uciec. Udział w tej ucieczce biorą:\n\n{0}\n\nWięźniowwie będą próbować uciec gdy będą niezadowoleni, liczni i zdrowi.</LetterPrisonBreak>
+    
+  <!-- Party -->
+  <LetterLabelNewParty>Imprezka</LetterLabelNewParty>
+  <LetterNewParty>{0} is throwing a party! Everyone who goes will gain joy and social energy, and a lasting positive mood boost.</LetterNewParty>
 
 </LanguageData>
