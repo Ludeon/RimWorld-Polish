@@ -9,6 +9,7 @@
   <ForColonistUse>Dla kolonistów</ForColonistUse>
   <MedicalBed>Łóżko szpitalne</MedicalBed>
   <Owner>Właściciel</Owner>
+  <Owners>Właściciele</Owners>
   <AssignedColonist>Przydzielony kolonista</AssignedColonist>
   <Nobody>Nikt</Nobody>
   <Unowned>Wolne</Unowned>
@@ -47,6 +48,17 @@
   <Fertilized>Zapłodniona</Fertilized>
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
+  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
+  <CorpsePercentMissing>Brakujące części ciała</CorpsePercentMissing>
+  <HiveReproducesIn>Rozmnoży się za</HiveReproducesIn>
+  <BrokenDown>Broken down</BrokenDown>
+  <BondBrackets>(bond)</BondBrackets>
+  <Fuel>Paliwo</Fuel>
+  <Enemies>wrogowie</Enemies>
+  <TimePassed>time passed</TimePassed>
+  <CurrentRadius>current radius</CurrentRadius>
+  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+  <Permanent>stały</Permanent>
   
   <!--TextMotes-->
   <Headshot>Strzał w głowę</Headshot>
@@ -55,15 +67,18 @@
   <GoodResult>dobry wynik</GoodResult>
   <TextMote_TreatSuccess>Leczenie udane!\n{0} szans</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Leczenie nieudane\n{0} szans</TextMote_TreatFailed>
-  <HarvestFailed>Zbiór \nnieudany</HarvestFailed>
+  <HarvestFailed>Zbiór\nnieudany</HarvestFailed>
+  <TextMote_RecruitFail>Rekrutacja nie udana!\n{0} szans</TextMote_RecruitFail>
   <TextMote_TameFail>Oswajanie nieudane \n{0} szans</TextMote_TameFail>
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
   <TextMote_TrainFail>Szkolenie nieudany: {0}\n{1} szans</TextMote_TrainFail>
   <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
- 
+  <TextMote_FixBrokenDownBuildingFail>Naprawa\nnieudane</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>Konstrukcja\nnieudana</TextMote_ConstructionFail>
  
   <!-- Areas -->
   <Home>Dom</Home>
+  <BuildRoof>Zbuduj dach</BuildRoof>
   <NoRoof>Brak dachu</NoRoof>
   <SnowClear>Bez śniegu</SnowClear>
   <AreaDefaultLabel>Obszar {0}</AreaDefaultLabel>
@@ -94,8 +109,8 @@
   <ShellNotLoaded>Niezaładowany</ShellNotLoaded>
   
   <!-- Job reports -->
-	<ReportHaulingTo>Transportuje {0} do {1}.</ReportHaulingTo>
-	<ReportHauling>Transportuje {0}.</ReportHauling>
+  <ReportHaulingTo>Transportuje {0} do {1}.</ReportHaulingTo>
+  <ReportHauling>Transportuje {0}.</ReportHauling>
   <ReportSleeping>śpi.</ReportSleeping>
   <ReportResting>idzie spać.</ReportResting>
   <WatchingSunrise>ogląda wschód słońca.</WatchingSunrise>
@@ -103,25 +118,33 @@
   <WatchingSunset>ogląda zachód słońca.</WatchingSunset>
   <Stargazing>ogląda gwiazdy.</Stargazing>
   <WatchingEclipse>obserwuje zaćmienie.</WatchingEclipse>
-  <DeliveringFood>dostarcza żywność do {0}.</DeliveringFood>
   <UsingVerb>używa {0} na {1}.</UsingVerb>
   <AreaLower>obszar</AreaLower>
+  <ReportCowering>Cowering.</ReportCowering>
+  <ReportStanding>standing.</ReportStanding>
+  <ReportExtinguishingFire>extinguishing fire.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>extinguishing fire on {0}.</ReportExtinguishingFireOn>
   
-	<!-- Shooting report -->
-    <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
-	<ShootReportShooterAbility>Strzelec</ShootReportShooterAbility>
-	<ShootReportWeapon>Broń</ShootReportWeapon>
-	<Darkness>Ciemność</Darkness>
-	<TargetProne>Podatność celu</TargetProne>
-	<TargetSize>Rozmiar celu</TargetSize>
-	<Weather>Pogoda</Weather>
-	<ShootingCover>Osłona</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} blokuje {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>brak osłony</NoCoverLower>
+  <!-- Lord job reports -->
+  <LordReportAttendingMarriageCeremony>Attending marriage ceremony</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Attending party</LordReportAttendingParty>
+  
+  <!-- Shooting report -->
+  <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
+  <ShootReportShooterAbility>Strzelec</ShootReportShooterAbility>
+  <ShootReportWeapon>Broń</ShootReportWeapon>
+  <Darkness>Ciemność</Darkness>
+  <TargetProne>Podatność celu</TargetProne>
+  <TargetSize>Rozmiar celu</TargetSize>
+  <Weather>Pogoda</Weather>
+  <ShootingCover>Osłona</ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0} blokuje {1}</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>brak osłony</NoCoverLower>
+  <Execution>Execution</Execution>
 	
   <!-- Generated recipes -->
-  <RecipeMake>robi {0}.</RecipeMake>
-  <RecipeMakeJobString>robi {0}.</RecipeMakeJobString>
+  <RecipeMake>Robi {0}.</RecipeMake>
+  <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
@@ -129,6 +152,7 @@
   <ThoughtFinishesExpiringIn>Przestanie kończyć się za: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThresholdHard>Poziom ciężkiego załamania nerwowego</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
+  <MentalBreakThresholdMinor>Minor break threshold</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -145,11 +169,15 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
-     <!-- like 'Blood of John' -->
-	<OfLower></OfLower>
+  <HostilityReponseTip>Change how to react to nearby enemies when the colonist is not drafted.</HostilityReponseTip>
+  <HostilityResponseCurrentMode>Current mode</HostilityResponseCurrentMode>
+ 
 
-	<!-- Power readout -->
-	<PowerNotConnected>Niepodłączone do prądu.</PowerNotConnected>
+  <!-- like 'Blood of John' -->
+  <OfLower></OfLower>
+
+  <!-- Power readout -->
+  <PowerNotConnected>Niepodłączone do prądu.</PowerNotConnected>
   <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Potrzebna energia</PowerNeeded>
   <PowerOutput>Wytwarzana energia</PowerOutput>
@@ -175,21 +203,14 @@
   <!-- Shooting Tooltip -->
   <ShotBy>Atakowany przez: {0}.</ShotBy>
   <CannotHit>Nie można trafić w cel.</CannotHit>
-
-  <!-- Storage priority labels -->
-  <StoragePriorityUnstored>Nie składuj</StoragePriorityUnstored>
-  <StoragePriorityLow>Niski</StoragePriorityLow>
-  <StoragePriorityNormal>Normalny</StoragePriorityNormal>
-  <StoragePriorityPreferred>Preferowany</StoragePriorityPreferred>
-  <StoragePriorityImportant>Istotny</StoragePriorityImportant>
-  <StoragePriorityCritical>Krytyczny</StoragePriorityCritical>
-
+  
   <!-- Rotting -->
   <CurrentlyFrozen>Zamrożone (nie zepsuje się)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Schłodzone (zepsuje się za {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Nieschłodzone (zepsuje się za {0})</NotRefrigerated>
   <OverADecade>ponad dekadę</OverADecade>
-  
+  <LessThanADay>mniej niż dzień</LessThanADay>
+
   <!-- Meal -->
   <Ingredients>Składniki</Ingredients>
 
@@ -220,9 +241,9 @@
   <AllowAll>Zezwól na wszystko</AllowAll>
   
   <!-- ThingFilter -->
-	<HitPoints>{0} punktów obrażeń</HitPoints>
-	<AnyQuality>Jakakolwiek jakość</AnyQuality>
-	<OnlyQuality>{0} tylko</OnlyQuality>
+  <HitPoints>{0} punktów obrażeń</HitPoints>
+  <AnyQuality>Jakakolwiek jakość</AnyQuality>
+  <OnlyQuality>{0} tylko</OnlyQuality>
   
   <!-- Mouseover indicator -->
   <Undiscovered>Nieodkryte</Undiscovered>
@@ -231,6 +252,7 @@
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju nad którym znajduje się kursor.</ShowRoomStatsToggleButton>
+  <ShowColonistBarToggleButton>Włącz/Wyłącz pasek postaci.\n\nWyświetla ikony i podstawowe informacje o postaciach u góry ekranu.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Włącz/Wyłącz widoczność imion oswojonych zwierząt.</ShowAnimalNamesToggleButton>
@@ -243,6 +265,8 @@
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
+  <TimeLeft>pozostały czas</TimeLeft>
+  <ImpactDate>data uderzenia</ImpactDate>
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>Nie masz materiałów, z których możesz to zbudować.</NoStuffsToBuildWith>
@@ -253,16 +277,15 @@
   <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty odżywczej.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
-    <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
-	<MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
+  <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
-  <WindTurbine_WindPathIsBlockedByRoof>Zablokowane przez: Dach</WindTurbine_WindPathIsBlockedByRoof>
+  <WindTurbine_WindPathIsBlockedByRoof>Zablokowane przez dach</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Cryptosleep casket -->
   <CasketContains>Zawartość</CasketContains>
-  <CasketUnknownContents>Nieznana</CasketUnknownContents>
   <CasketWarning>Uwaga!\n\nNAME jest twoim ostatnim kolonistą! Jak pozwolisz HIM wejść do kapsuły hibernacyjnej nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
 
   <!-- Ship launch report -->
@@ -272,16 +295,12 @@
   <ShipReportNoFullPods>Nie są zajęte wszystkie kapsuły hibernacyjne</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <UseNeurotrainer>Użyj neurotrenera {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} użył {1} neurotrenera, zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
-  
-  <!-- Artifact -->
-  <UseArtifact>Aktywuj</UseArtifact>
   
   <!-- Minification -->
   <Installed>Ustawione</Installed>
   <NotInstalled>Nieustawione</NotInstalled>
-
+  
   <!-- Art -->
   <Title>Tytuł</Title>
   <Untitled>Nienazwane</Untitled>
@@ -289,24 +308,25 @@
   <!-- Unfinished thing -->
   <UnfinishedItem>Niedokończone {0}</UnfinishedItem>
   <UnfinishedItemWithStuff>Niedokończone {0} {1}</UnfinishedItemWithStuff>
-
+  
   <!-- Quality -->
   <Quality>Jakość</Quality>
   <QualityDescription>Jakość oznacza jak dobrze dany przedmiot został wykonany.</QualityDescription>
   <QualityIs>Jakość: {0}</QualityIs>
-    
+  
   <!-- Mood descriptions -->
-  <Mood_Broken>Załamany!</Mood_Broken>
+  <Mood_MentalState>mental state</Mood_MentalState>
   <Mood_AboutToBreak>Zaraz się załamie!</Mood_AboutToBreak>
   <Mood_OnEdge>Na krawędzi załamania</Mood_OnEdge>
   <Mood_Stressed>Zestresowany</Mood_Stressed>
   <Mood_Neutral>Normalny</Mood_Neutral>
-	<Mood_Content>Zadowolony</Mood_Content>
+  <Mood_Content>Zadowolony</Mood_Content>
   <Mood_Happy>Szczęśliwy!</Mood_Happy>
   
   <!-- Game over -->
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże kto inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}\nCi koloniści pozostali na planecie:\n\n{1}\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może Cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowym asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, jak się obudzisz.</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nNie udało Ci się przetrwać.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   
@@ -321,5 +341,32 @@
   <!-- Facilities -->
   <InactiveFacility>Nieaktywne</InactiveFacility>
   
+  <!-- Hediffs growth modes -->
+  <DiseaseGrowthModeChanged_Growing>{0}'s {1} is now growing.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0}'s {1} is now stable.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0}'s {1} is now in remission.</DiseaseGrowthModeChanged_Remission>
+
+  <!-- Marriage spot -->
+  <MarriageSpotUsable>Można teraz użyć.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Nie można użyć: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>zablokowane</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>zbyt niebezpieczne dla {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>zabronione dla {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>zarezerwowane</MarriageSpotReserved>
+  <MarriageSpotUnreachable>nieosiągalne dla {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>w więzieniu</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>niekomfortowa temperatura</NotEnjoyableOutsideTemperature>
+ 
+  <!-- Colonist bar -->
+  <ActivityIconMedicalRest>Leczy się</ActivityIconMedicalRest>
+  <ActivityIconSleeping>Śpi</ActivityIconSleeping>
+  <ActivityIconFleeing>Ucieka</ActivityIconFleeing>
+  <ActivityIconAttacking>Walczy</ActivityIconAttacking>
+  <ActivityIconIdle>Bezczynny</ActivityIconIdle>
+  <ActivityIconBurning>Pali się</ActivityIconBurning>
+  
+  <!-- Maintainable -->
+  <DueForMaintenance>Ze względu na utrzymanie.</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>Pogarsza się z powodu braku konserwacji.</DeterioratingDueToLackOfMaintenance>
   
 </LanguageData>
