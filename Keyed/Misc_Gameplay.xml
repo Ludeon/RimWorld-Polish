@@ -48,16 +48,16 @@
   <Fertilized>Zapłodniona</Fertilized>
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
-  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
+  <EggDamagedEmbryo>uszkodzony zarodek</EggDamagedEmbryo>
   <CorpsePercentMissing>Brakujące części ciała</CorpsePercentMissing>
   <HiveReproducesIn>Rozmnoży się za</HiveReproducesIn>
-  <BrokenDown>Broken down</BrokenDown>
-  <BondBrackets>(bond)</BondBrackets>
+  <BrokenDown>Awaria</BrokenDown>
+  <BondBrackets>(więź)</BondBrackets>
   <Fuel>Paliwo</Fuel>
   <Enemies>wrogowie</Enemies>
-  <TimePassed>time passed</TimePassed>
-  <CurrentRadius>current radius</CurrentRadius>
-  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+  <TimePassed>czas, który upłynął</TimePassed>
+  <CurrentRadius>aktualny promień</CurrentRadius>
+  <RadiusExpandsIn>promień powiększy się za</RadiusExpandsIn>
   <Permanent>stały</Permanent>
   
   <!--TextMotes-->
@@ -109,8 +109,8 @@
   <ShellNotLoaded>Niezaładowany</ShellNotLoaded>
   
   <!-- Job reports -->
-  <ReportHaulingTo>Transportuje {0} do {1}.</ReportHaulingTo>
-  <ReportHauling>Transportuje {0}.</ReportHauling>
+  <ReportHaulingTo>transportuje {0} do {1}.</ReportHaulingTo>
+  <ReportHauling>transportuje {0}.</ReportHauling>
   <ReportSleeping>śpi.</ReportSleeping>
   <ReportResting>idzie spać.</ReportResting>
   <WatchingSunrise>ogląda wschód słońca.</WatchingSunrise>
@@ -120,14 +120,14 @@
   <WatchingEclipse>obserwuje zaćmienie.</WatchingEclipse>
   <UsingVerb>używa {0} na {1}.</UsingVerb>
   <AreaLower>obszar</AreaLower>
-  <ReportCowering>Cowering.</ReportCowering>
-  <ReportStanding>standing.</ReportStanding>
-  <ReportExtinguishingFire>extinguishing fire.</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>extinguishing fire on {0}.</ReportExtinguishingFireOn>
+  <ReportCowering>kuca.</ReportCowering>
+  <ReportStanding>stoi.</ReportStanding>
+  <ReportExtinguishingFire>gasi ogień.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>gasi ogień na {0}.</ReportExtinguishingFireOn>
   
   <!-- Lord job reports -->
-  <LordReportAttendingMarriageCeremony>Attending marriage ceremony</LordReportAttendingMarriageCeremony>
-  <LordReportAttendingParty>Attending party</LordReportAttendingParty>
+  <LordReportAttendingMarriageCeremony>Bierze udział w ceremoni ślubnej</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Bierze udział w przyjęciu</LordReportAttendingParty>
   
   <!-- Shooting report -->
   <WeaponMissRadius>Promień chybienia broni</WeaponMissRadius>
@@ -147,12 +147,12 @@
   <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
   
   <!-- Thoughts -->
-  <ThoughtExpiresIn>Kończy się za: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Zakończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Przestanie kończyć się za: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThresholdHard>Poziom ciężkiego załamania nerwowego</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>Poziom lekkiego załamania nerwowego</MentalBreakThresholdSoft>
-  <MentalBreakThresholdMinor>Minor break threshold</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>Poziom nieznacznego załamania nerwowego</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -169,8 +169,8 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
-  <HostilityReponseTip>Change how to react to nearby enemies when the colonist is not drafted.</HostilityReponseTip>
-  <HostilityResponseCurrentMode>Current mode</HostilityResponseCurrentMode>
+  <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów jeśli nie został wezwany na służbę.</HostilityReponseTip>
+  <HostilityResponseCurrentMode>Aktualny tryb</HostilityResponseCurrentMode>
  
 
   <!-- like 'Blood of John' -->
@@ -278,7 +278,7 @@
   <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Musi posiadać wolną przestrzeń z każdej strony.</MustPlaceAdjacentStandable>
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
@@ -307,7 +307,7 @@
   
   <!-- Unfinished thing -->
   <UnfinishedItem>Niedokończone {0}</UnfinishedItem>
-  <UnfinishedItemWithStuff>Niedokończone {0} {1}</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>Niedokończone {1} {0}</UnfinishedItemWithStuff>
   
   <!-- Quality -->
   <Quality>Jakość</Quality>
@@ -315,7 +315,7 @@
   <QualityIs>Jakość: {0}</QualityIs>
   
   <!-- Mood descriptions -->
-  <Mood_MentalState>mental state</Mood_MentalState>
+  <Mood_MentalState>Stan psychiczny</Mood_MentalState>
   <Mood_AboutToBreak>Zaraz się załamie!</Mood_AboutToBreak>
   <Mood_OnEdge>Na krawędzi załamania</Mood_OnEdge>
   <Mood_Stressed>Zestresowany</Mood_Stressed>
@@ -342,9 +342,9 @@
   <InactiveFacility>Nieaktywne</InactiveFacility>
   
   <!-- Hediffs growth modes -->
-  <DiseaseGrowthModeChanged_Growing>{0}'s {1} is now growing.</DiseaseGrowthModeChanged_Growing>
-  <DiseaseGrowthModeChanged_Stable>{0}'s {1} is now stable.</DiseaseGrowthModeChanged_Stable>
-  <DiseaseGrowthModeChanged_Remission>{0}'s {1} is now in remission.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Growing>{1} {0} rośnie.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{1} {0} jest teraz stabilny.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{1} {0} jest w stanie remisji.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <MarriageSpotUsable>Można teraz użyć.</MarriageSpotUsable>
