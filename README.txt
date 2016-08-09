@@ -9,11 +9,6 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ============
 
-TO DO:
-https://github.com/Ludeon/RimWorld-Polish/blob/master/untranslated-2016-08-09.txt
-
-============
-
 WORKING CREW:
 - Damian aka. Bucu [ganelot@yahoo.com]
 - Nalthe [Parapisalni]
