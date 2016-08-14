@@ -81,7 +81,7 @@
   <BuildRoof>Zbuduj dach</BuildRoof>
   <NoRoof>Brak dachu</NoRoof>
   <SnowClear>Bez śniegu</SnowClear>
-  <AreaDefaultLabel>Obszar {0}</AreaDefaultLabel>
+  <AreaDefaultLabel>Obszar {0}</AreaDefaultzLabel>
   <AreaAnimalDefaultLabel>Obszar dla zwierząt {0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>Nieograniczony</NoAreaAllowed>
   <NewArea>Nowy obszar</NewArea>
@@ -222,21 +222,21 @@
   <PlantResting>W pełni wyrośnięte za {0} wzrostu.</PlantResting>
   <OutOfIdealTemperatureRange>Nieodpowiednia temperatura (rośnie z {0} normalnej prędkości wzrostu)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie)</OutOfIdealTemperatureRangeNotGrowing>
-  <ReadyToHarvest>Gotowe do zbioró!</ReadyToHarvest>
-  <Mature>Dojrzałe</Mature>
-  <SeedLabel>Nasiono {0}</SeedLabel>
+  <ReadyToHarvest>Gotowe do zebrania!</ReadyToHarvest>
+  <Mature>dojrzałe</Mature>
+  <SeedLabel>nasiono {0}</SeedLabel>
   <OutdoorGrowingPeriod>Okres uprawy: {0}</OutdoorGrowingPeriod>
-  <NoGrowingPeriod>Nigdy</NoGrowingPeriod>
-  <GrowYearRound>Cały rok</GrowYearRound>
-  <GrowSeasonHereNow>Można uprawiać.</GrowSeasonHereNow>
-  <CannotGrowTooCold>Nie można uprawiać (sezon zimowy).</CannotGrowTooCold>
+  <NoGrowingPeriod>nigdy</NoGrowingPeriod>
+  <GrowYearRound>cały rok</GrowYearRound>
+  <GrowSeasonHereNow>można uprawiać</GrowSeasonHereNow>
+  <CannotGrowTooCold>nie można uprawiać (sezon zimowy)</CannotGrowTooCold>
 
   <!-- Zones -->
   <Zone>Obszar</Zone>
-  <GrowingZone>Pole uprawne</GrowingZone>
-  <Stockpile>Składowisko</Stockpile>
-  <DumpingStockpile>Wysypisko</DumpingStockpile>
-  <Priority>Priorytet</Priority>
+  <GrowingZone>pole uprawne</GrowingZone>
+  <Stockpile>składowisko</Stockpile>
+  <DumpingStockpile>wysypisko</DumpingStockpile>
+  <Priority>priorytet</Priority>
   <ClearAll>Wyczyść wszystko</ClearAll>
   <AllowAll>Zezwól na wszystko</AllowAll>
   
@@ -258,7 +258,7 @@
   <ShowAnimalNamesToggleButton>Włącz/Wyłącz widoczność imion oswojonych zwierząt.</ShowAnimalNamesToggleButton>
   
   <!-- Fire -->
-  <Fire>Ogień</Fire>
+  <Fire>ogień</Fire>
   <FireOn>Pali się {0}</FireOn>
   <Burning>Płonie</Burning>
   <FireSizeLower>Rozmiar pożaru: {0}</FireSizeLower>
@@ -286,7 +286,7 @@
 
   <!-- Cryptosleep casket -->
   <CasketContains>Zawartość</CasketContains>
-  <CasketWarning>Uwaga!\n\nNAME jest twoim ostatnim kolonistą! Jak pozwolisz HIM wejść do kapsuły hibernacyjnej nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
+  <CasketWarning>Uwaga!\n\nNAME jest twoim ostatnim kolonistą! Jak pozwolisz HIM wejść do kapsuły hibernacyjnej, nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Nie można wystartować</ShipReportCannotLaunch>
@@ -302,16 +302,16 @@
   <NotInstalled>Nieustawione</NotInstalled>
   
   <!-- Art -->
-  <Title>Tytuł</Title>
-  <Untitled>Nienazwane</Untitled>
+  <Title>tytuł</Title>
+  <Untitled>nienazwane</Untitled>
   
   <!-- Unfinished thing -->
   <UnfinishedItem>Niedokończone {0}</UnfinishedItem>
   <UnfinishedItemWithStuff>Niedokończone {1} {0}</UnfinishedItemWithStuff>
   
   <!-- Quality -->
-  <Quality>Jakość</Quality>
-  <QualityDescription>Jakość oznacza jak dobrze dany przedmiot został wykonany.</QualityDescription>
+  <Quality>jakość</Quality>
+  <QualityDescription>Jakość oznacza, jak dobrze dany przedmiot został wykonany.</QualityDescription>
   <QualityIs>Jakość: {0}</QualityIs>
   
   <!-- Mood descriptions -->
@@ -324,9 +324,9 @@
   <Mood_Happy>Szczęśliwy!</Mood_Happy>
   
   <!-- Game over -->
-  <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże kto inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}\nCi koloniści pozostali na planecie:\n\n{1}\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może Cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowym asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, jak się obudzisz.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nNie udało Ci się przetrwać.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniają tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało ci się przetrwać.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   
@@ -366,7 +366,7 @@
   <ActivityIconBurning>Pali się</ActivityIconBurning>
   
   <!-- Maintainable -->
-  <DueForMaintenance>Ze względu na utrzymanie.</DueForMaintenance>
+  <DueForMaintenance>ze względu na utrzymanie</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Pogarsza się z powodu braku konserwacji.</DeterioratingDueToLackOfMaintenance>
   
 </LanguageData>
