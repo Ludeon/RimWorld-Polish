@@ -79,7 +79,7 @@ DefInjected/RulePackDef/RulePacks_Art_DescriptionRoot.xml
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.86>artstyle_adj->rokokowy</ArtDescriptionUtility_Global.rulePack.rulesStrings.86>
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.87>artstyle_adj->romański</ArtDescriptionUtility_Global.rulePack.rulesStrings.87>
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.88>artstyle_adj->romantyczny</ArtDescriptionUtility_Global.rulePack.rulesStrings.88>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.89>artstyle_adj->graffiti-like</ArtDescriptionUtility_Global.rulePack.rulesStrings.89>
+    <ArtDescriptionUtility_Global.rulePack.rulesStrings.89>artstyle_adj->styl graffiti</ArtDescriptionUtility_Global.rulePack.rulesStrings.89>
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.90>artstyle_adj->erotyczny</ArtDescriptionUtility_Global.rulePack.rulesStrings.90>
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.91>artstyle_adj->zmysłowy</ArtDescriptionUtility_Global.rulePack.rulesStrings.91>
     <ArtDescriptionUtility_Global.rulePack.rulesStrings.92>artstyle_adj->z głębi serca</ArtDescriptionUtility_Global.rulePack.rulesStrings.92>
@@ -221,16 +221,16 @@ DefInjected/RulePackDef/RulePacks_Seeds.xml
     <SeedGenerator.rulePack.rulesStrings.9>seed->[apparel]</SeedGenerator.rulePack.rulesStrings.9>
 
 DefInjected/TaleDef/Tales_DoublePawn.xml
-    <Captured.label>person captured</Captured.label>
+    <Captured.label>osoba schwytana</Captured.label>
     <Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef] kopie [prisoner_nameShortDef] bez wyraźnego powodu.</Captured.rulePack.rulesStrings.20>
-    <DidSurgery.label>surgery performed</DidSurgery.label>
+    <DidSurgery.label>w trakcie operacji</DidSurgery.label>
     <DidSurgery.rulePack.rulesStrings.10>desc_sentence->[surgeon_nameShortDef] jest wymazany krwią na [surgeon_possessive] twarzy.</DidSurgery.rulePack.rulesStrings.10>
     <DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef] wije się i trzęsie.</DidSurgery.rulePack.rulesStrings.11>
-    <DidSurgery.rulePack.rulesStrings.7>circumstance_phrase->with improvised but effective tools</DidSurgery.rulePack.rulesStrings.7>
-    <DidSurgery.rulePack.rulesStrings.8>desc_sentence->[surgeon_nameShortDef] is sweating profusely.</DidSurgery.rulePack.rulesStrings.8>
+    <DidSurgery.rulePack.rulesStrings.7>circumstance_phrase->z prowizorycznymi ale skutecznymi narzędziami</DidSurgery.rulePack.rulesStrings.7>
+    <DidSurgery.rulePack.rulesStrings.8>desc_sentence->[surgeon_nameShortDef] bardzo się poci.</DidSurgery.rulePack.rulesStrings.8>
     <DidSurgery.rulePack.rulesStrings.9>desc_sentence->[surgeon_nameShortDef] wygląda na bardzo skupionego na zadaniu.</DidSurgery.rulePack.rulesStrings.9>
-    <ExecutedPrisoner.label>prisoner executed</ExecutedPrisoner.label>
-    <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->the execution of [prisoner_nameShortDef]</ExecutedPrisoner.rulePack.rulesStrings.0>
+    <ExecutedPrisoner.label>więzień zlikwidowany</ExecutedPrisoner.label>
+    <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->egzekucja [prisoner_nameShortDef]</ExecutedPrisoner.rulePack.rulesStrings.0>
     <ExecutedPrisoner.rulePack.rulesStrings.1>image->[warden_nameFull] uśmierca [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.1>
     <ExecutedPrisoner.rulePack.rulesStrings.10>circumstance_phrase->z nadmierną siłą</ExecutedPrisoner.rulePack.rulesStrings.10>
     <ExecutedPrisoner.rulePack.rulesStrings.11>circumstance_phrase->z wyraźną przyjemnością</ExecutedPrisoner.rulePack.rulesStrings.11>
@@ -242,7 +242,7 @@ DefInjected/TaleDef/Tales_DoublePawn.xml
     <ExecutedPrisoner.rulePack.rulesStrings.17>circumstance_phrase->dla większego dobra</ExecutedPrisoner.rulePack.rulesStrings.17>
     <ExecutedPrisoner.rulePack.rulesStrings.18>desc_sentence->[warden_nameShortDef] bardzo się poci.</ExecutedPrisoner.rulePack.rulesStrings.18>
     <ExecutedPrisoner.rulePack.rulesStrings.19>desc_sentence->[warden_nameShortDef] trochę się ślini.</ExecutedPrisoner.rulePack.rulesStrings.19>
-    <ExecutedPrisoner.rulePack.rulesStrings.2>image->[warden_nameFull] putting [prisoner_nameFull] to death [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.2>
+    <ExecutedPrisoner.rulePack.rulesStrings.2>image->[warden_nameFull] poddaje [prisoner_nameFull] egzekucji [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.2>
     <ExecutedPrisoner.rulePack.rulesStrings.20>desc_sentence->[warden_nameShortDef] ma umazaną krwią [warden_possessive] twarz.</ExecutedPrisoner.rulePack.rulesStrings.20>
     <ExecutedPrisoner.rulePack.rulesStrings.21>desc_sentence->[prisoner_nameShortDef] wije się i trzęsie.</ExecutedPrisoner.rulePack.rulesStrings.21>
     <ExecutedPrisoner.rulePack.rulesStrings.22>desc_sentence->[prisoner_nameShortDef] wydaje się, że całkiem zrezygnował.</ExecutedPrisoner.rulePack.rulesStrings.22>
@@ -261,9 +261,9 @@ DefInjected/TaleDef/Tales_DoublePawn.xml
     <Hunted.rulePack.rulesStrings.8>desc_sentence->[hunter_nameShortDef] trzyma [hunter_possessive] pewnie broń.</Hunted.rulePack.rulesStrings.8>
     <Hunted.rulePack.rulesStrings.9>desc_sentence->[prey_nameShortDef] rozgląda się, [prey_pronoun] jakby czuł, że coś jest nie tak.</Hunted.rulePack.rulesStrings.9>
     <KidnappedColonist.label>kolonista porwany</KidnappedColonist.label>
-    <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->the kidnapping of [victim_nameShortDef]</KidnappedColonist.rulePack.rulesStrings.0>
+    <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->porwanie [victim_nameShortDef]</KidnappedColonist.rulePack.rulesStrings.0>
     <KidnappedColonist.rulePack.rulesStrings.1>image->[kidnapper_nameFull] transportuje [victim_nameFull] do [kidnapper_factionName] [circumstance_group]</KidnappedColonist.rulePack.rulesStrings.1>
-    <KidnappedColonist.rulePack.rulesStrings.10>circumstance_phrase->while covered in blood and filth</KidnappedColonist.rulePack.rulesStrings.10>
+    <KidnappedColonist.rulePack.rulesStrings.10>circumstance_phrase->pokryty brudem i krwią</KidnappedColonist.rulePack.rulesStrings.10>
     <KidnappedColonist.rulePack.rulesStrings.13>desc_sentence->[victim_nameShortDef] wygląda prowokująco.</KidnappedColonist.rulePack.rulesStrings.13>
     <KidnappedColonist.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] krzyczy z wściekłości i strachu.</KidnappedColonist.rulePack.rulesStrings.14>
     <KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->[victim_nameShortDef] wygląda na załamanego i wyczerpanego.</KidnappedColonist.rulePack.rulesStrings.15>
@@ -276,7 +276,7 @@ DefInjected/TaleDef/Tales_DoublePawn.xml
     <KidnappedColonist.rulePack.rulesStrings.7>circumstance_phrase->oczywiście z nadmierną siłą</KidnappedColonist.rulePack.rulesStrings.7>
     <KidnappedColonist.rulePack.rulesStrings.8>circumstance_phrase->z oczywistą przyjemnością</KidnappedColonist.rulePack.rulesStrings.8>
     <KidnappedColonist.rulePack.rulesStrings.9>circumstance_phrase->uśmiechając się z wyższością</KidnappedColonist.rulePack.rulesStrings.9>
-    <KilledBy.label>death</KilledBy.label>
+    <KilledBy.label>śmierć</KilledBy.label>
     <KilledBy.rulePack.rulesStrings.22>desc_sentence->[killer_nameShortDef] wygląda na zmartwionego tym [killer_pronoun] co robi.</KilledBy.rulePack.rulesStrings.22>
     <KilledBy.rulePack.rulesStrings.23>desc_sentence->[killer_nameShortDef] wygląda na zadowolonego z sytuacji.</KilledBy.rulePack.rulesStrings.23>
     <KilledBy.rulePack.rulesStrings.24>desc_sentence->[killer_nameShortDef] wygląda zwycięsko.</KilledBy.rulePack.rulesStrings.24>
@@ -291,7 +291,7 @@ DefInjected/TaleDef/Tales_DoublePawn.xml
     <Recruited.rulePack.rulesStrings.8>circumstance_phrase->w więziennej celi</Recruited.rulePack.rulesStrings.8>
     <Recruited.rulePack.rulesStrings.9>desc_sentence->[joiner_nameShortDef] ze zrozumieniem kiwa głową.</Recruited.rulePack.rulesStrings.9>
     <SoldPrisoner.label>więzień sprzedany</SoldPrisoner.label>
-    <SoldPrisoner.rulePack.rulesStrings.0>tale_noun->the selling of [prisoner_nameShortDef] to a trader</SoldPrisoner.rulePack.rulesStrings.0>
+    <SoldPrisoner.rulePack.rulesStrings.0>tale_noun->sprzedaż [prisoner_nameShortDef] handlarzowi</SoldPrisoner.rulePack.rulesStrings.0>
     <SoldPrisoner.rulePack.rulesStrings.1>image->[trader_nameFull] kupuję [prisoner_nameFull] od [seller_nameFull] [circumstance_group]</SoldPrisoner.rulePack.rulesStrings.1>
     <SoldPrisoner.rulePack.rulesStrings.10>desc_sentence->[prisoner_nameShortDef] patrzy stanowczo na [prisoner_possessive] nowego władce.</SoldPrisoner.rulePack.rulesStrings.10>
     <SoldPrisoner.rulePack.rulesStrings.11>desc_sentence->[trader_nameShortDef] ciągnie [prisoner_nameShortDef] za [prisoner_possessive] łańcuchy.</SoldPrisoner.rulePack.rulesStrings.11>
@@ -301,7 +301,7 @@ DefInjected/TaleDef/Tales_DoublePawn.xml
     <SoldPrisoner.rulePack.rulesStrings.15>desc_sentence->[Prisoner_nameShortDef] zapada się pod ziemie.</SoldPrisoner.rulePack.rulesStrings.15>
     <SoldPrisoner.rulePack.rulesStrings.16>desc_sentence->[Seller_nameShortDef] wpycha kajdany [prisoner_nameShortDef] w [trader_nameShortDef]'s dłonie.</SoldPrisoner.rulePack.rulesStrings.16>
     <SoldPrisoner.rulePack.rulesStrings.17>desc_sentence->Powietrze beznadziejności wypełnia tę chwilę.</SoldPrisoner.rulePack.rulesStrings.17>
-    <SoldPrisoner.rulePack.rulesStrings.3>circumstance_phrase->as the other colonists look on in disapproval</SoldPrisoner.rulePack.rulesStrings.3>
+    <SoldPrisoner.rulePack.rulesStrings.3>circumstance_phrase->jak inni koloniści patrzą z dezapropatą</SoldPrisoner.rulePack.rulesStrings.3>
     <SoldPrisoner.rulePack.rulesStrings.4>circumstance_phrase->chwilę [seller_nameShortDef] liczy [trader_possessive] pieniądze</SoldPrisoner.rulePack.rulesStrings.4>
     <SoldPrisoner.rulePack.rulesStrings.5>circumstance_phrase->while [prisoner_nameShortDef] żałośnie jęczy</SoldPrisoner.rulePack.rulesStrings.5>
     <SoldPrisoner.rulePack.rulesStrings.6>circumstance_phrase->to [prisoner_nameShortDef]'s chagrin</SoldPrisoner.rulePack.rulesStrings.6>
