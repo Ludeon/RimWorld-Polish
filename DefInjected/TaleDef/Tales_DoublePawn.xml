@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <Captured.label>person captured</Captured.label>
+    <Captured.label>schwytana osoba</Captured.label>
     <Captured.rulePack.rulesStrings.0>image->[capturer_nameFull] łapie [prisoner_nameFull] [circumstance_group]. [desc_sentence_group]</Captured.rulePack.rulesStrings.0>
     <Captured.rulePack.rulesStrings.1>image->[capturer_nameFull] związuje [prisoner_nameFull] ręce [circumstance_group] [circumstance_group]. [desc_sentence_group]</Captured.rulePack.rulesStrings.1>
     <Captured.rulePack.rulesStrings.2>image->[capturer_nameFull] przyłapał [prisoner_nameFull] podczas [prisoner_objective]. [desc_sentence_group]</Captured.rulePack.rulesStrings.2>
@@ -22,7 +22,7 @@
     <Captured.rulePack.rulesStrings.17>desc_sentence->[capturer_nameShortDefinite] pluje [prisoner_nameShortDefinite] w twarz.</Captured.rulePack.rulesStrings.17>
     <Captured.rulePack.rulesStrings.18>desc_sentence->[capturer_nameShortDefinite] śmieje się aż [prisoner_nameShortDefinite] zaświeciły się łzy w oczach.</Captured.rulePack.rulesStrings.18>
     <Captured.rulePack.rulesStrings.19>desc_sentence->[capturer_nameShortDefinite] kopie [prisoner_nameShortDefinite] więźnia bez wyraźnego powodu.</Captured.rulePack.rulesStrings.19>
-    <Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef] is kicking [prisoner_nameShortDef] for no obvious reason.</Captured.rulePack.rulesStrings.20>
+    <Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef] kopie [prisoner_nameShortDef] bez wyraźnego powodu.</Captured.rulePack.rulesStrings.20>
     
     <Recruited.label>person recruited</Recruited.label>
     <Recruited.rulePack.rulesStrings.0>image->[recruiter_nameFull] rekrutuje [joiner_nameFull] [circumstance_group]. [desc_sentence_group]</Recruited.rulePack.rulesStrings.0>
@@ -51,7 +51,7 @@
     <Hunted.rulePack.rulesStrings.8>desc_sentence->[hunter_nameShortDef] is gripping [hunter_possessive] weapon tightly.</Hunted.rulePack.rulesStrings.8>
     <Hunted.rulePack.rulesStrings.9>desc_sentence->[prey_nameShortDef] is looking around as though [prey_pronoun] senses that something is wrong.</Hunted.rulePack.rulesStrings.9>
     
-    <DidSurgery.label>surgery performed</DidSurgery.label>
+    <DidSurgery.label>przeprowadził operację</DidSurgery.label>
     <DidSurgery.rulePack.rulesStrings.0>image->[surgeon_nameFull] podaje [patient_nameFull] środek znieczulający [circumstance_group]. [desc_sentence_group]</DidSurgery.rulePack.rulesStrings.0>
     <DidSurgery.rulePack.rulesStrings.1>image->[surgeon_nameFull] na głębokość łokcia [patient_nameFull] podczas operacji[circumstance_group]. [desc_sentence_group]</DidSurgery.rulePack.rulesStrings.1>
     <DidSurgery.rulePack.rulesStrings.2>image->[surgeon_nameFull] wślizguje się w [patient_nameFull] podczas operacji [circumstance_group]. [desc_sentence_group]</DidSurgery.rulePack.rulesStrings.2>
@@ -59,38 +59,38 @@
     <DidSurgery.rulePack.rulesStrings.4>desc_sentence->[surgeon_nameShortDefinite] wygląda na niesamowicie skoncentrowanego na zadaniu.</DidSurgery.rulePack.rulesStrings.4>
     <DidSurgery.rulePack.rulesStrings.5>desc_sentence->[surgeon_nameShortDefinite] ma krew rozmazaną na [surgeon_possessive] twarzy.</DidSurgery.rulePack.rulesStrings.5>
     <DidSurgery.rulePack.rulesStrings.6>desc_sentence->[patient_nameShortDefinite] trzęsie się i wije.</DidSurgery.rulePack.rulesStrings.6>
-    <DidSurgery.rulePack.rulesStrings.7>circumstance_phrase->with improvised but effective tools</DidSurgery.rulePack.rulesStrings.7>
-    <DidSurgery.rulePack.rulesStrings.8>desc_sentence->[surgeon_nameShortDef] is sweating profusely.</DidSurgery.rulePack.rulesStrings.8>
-    <DidSurgery.rulePack.rulesStrings.9>desc_sentence->[surgeon_nameShortDef] looks incredibly focused on the task.</DidSurgery.rulePack.rulesStrings.9>
-    <DidSurgery.rulePack.rulesStrings.10>desc_sentence->[surgeon_nameShortDef] has blood smeared on [surgeon_possessive] face.</DidSurgery.rulePack.rulesStrings.10>
-    <DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef] is shaking and writhing.</DidSurgery.rulePack.rulesStrings.11>
+    <DidSurgery.rulePack.rulesStrings.7>circumstance_phrase->z prowizorycznymi, ale skutecznymi narzędziami</DidSurgery.rulePack.rulesStrings.7>
+    <DidSurgery.rulePack.rulesStrings.8>desc_sentence->[surgeon_nameShortDef] bardzo się spocił.</DidSurgery.rulePack.rulesStrings.8>
+    <DidSurgery.rulePack.rulesStrings.9>desc_sentence->[surgeon_nameShortDef] wygląda na bardzo skupionego na zadaniu.</DidSurgery.rulePack.rulesStrings.9>
+    <DidSurgery.rulePack.rulesStrings.10>desc_sentence->[surgeon_nameShortDef] ma umazaną krwią [surgeon_possessive] twarz.</DidSurgery.rulePack.rulesStrings.10>
+    <DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef] wił się i trząsł.</DidSurgery.rulePack.rulesStrings.11>
     
-    <ExecutedPrisoner.label>prisoner executed</ExecutedPrisoner.label>
-    <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->the execution of [prisoner_nameShortDef]</ExecutedPrisoner.rulePack.rulesStrings.0>
-    <ExecutedPrisoner.rulePack.rulesStrings.1>image->[warden_nameFull] executing [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.1>
-    <ExecutedPrisoner.rulePack.rulesStrings.2>image->[warden_nameFull] putting [prisoner_nameFull] to death [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.2>
-    <ExecutedPrisoner.rulePack.rulesStrings.3>image->[warden_nameFull] preparing to execute [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.3>
-    <ExecutedPrisoner.rulePack.rulesStrings.4>image->[warden_nameFull] entering a prison cell, going to execute [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.4>
-    <ExecutedPrisoner.rulePack.rulesStrings.5>circumstance_phrase->as [prisoner_pronoun] writhes on the ground</ExecutedPrisoner.rulePack.rulesStrings.5>
-    <ExecutedPrisoner.rulePack.rulesStrings.6>circumstance_phrase->as [prisoner_pronoun] twists in pain</ExecutedPrisoner.rulePack.rulesStrings.6>
-    <ExecutedPrisoner.rulePack.rulesStrings.7>circumstance_phrase->as [prisoner_pronoun] cries out in terror</ExecutedPrisoner.rulePack.rulesStrings.7>
-    <ExecutedPrisoner.rulePack.rulesStrings.8>circumstance_phrase->with professional efficiency</ExecutedPrisoner.rulePack.rulesStrings.8>
-    <ExecutedPrisoner.rulePack.rulesStrings.9>circumstance_phrase->roughly and amateurishly</ExecutedPrisoner.rulePack.rulesStrings.9>
-    <ExecutedPrisoner.rulePack.rulesStrings.10>circumstance_phrase->with obviously excessive force</ExecutedPrisoner.rulePack.rulesStrings.10>
-    <ExecutedPrisoner.rulePack.rulesStrings.11>circumstance_phrase->with obvious pleasure</ExecutedPrisoner.rulePack.rulesStrings.11>
-    <ExecutedPrisoner.rulePack.rulesStrings.12>circumstance_phrase->while smiling with dominance</ExecutedPrisoner.rulePack.rulesStrings.12>
-    <ExecutedPrisoner.rulePack.rulesStrings.13>circumstance_phrase->with tears in [warden_possessive] eyes</ExecutedPrisoner.rulePack.rulesStrings.13>
-    <ExecutedPrisoner.rulePack.rulesStrings.14>circumstance_phrase->with a look of utter indifference</ExecutedPrisoner.rulePack.rulesStrings.14>
-    <ExecutedPrisoner.rulePack.rulesStrings.15>circumstance_phrase->while inflicting unnecessary pain</ExecutedPrisoner.rulePack.rulesStrings.15>
-    <ExecutedPrisoner.rulePack.rulesStrings.16>circumstance_phrase->while thinking of something else</ExecutedPrisoner.rulePack.rulesStrings.16>
-    <ExecutedPrisoner.rulePack.rulesStrings.17>circumstance_phrase->for the greater good</ExecutedPrisoner.rulePack.rulesStrings.17>
-    <ExecutedPrisoner.rulePack.rulesStrings.18>desc_sentence->[warden_nameShortDef] is sweating profusely.</ExecutedPrisoner.rulePack.rulesStrings.18>
-    <ExecutedPrisoner.rulePack.rulesStrings.19>desc_sentence->[warden_nameShortDef] is drooling a little bit.</ExecutedPrisoner.rulePack.rulesStrings.19>
-    <ExecutedPrisoner.rulePack.rulesStrings.20>desc_sentence->[warden_nameShortDef] has blood smeared on [warden_possessive] face.</ExecutedPrisoner.rulePack.rulesStrings.20>
-    <ExecutedPrisoner.rulePack.rulesStrings.21>desc_sentence->[prisoner_nameShortDef] is shaking and writhing.</ExecutedPrisoner.rulePack.rulesStrings.21>
-    <ExecutedPrisoner.rulePack.rulesStrings.22>desc_sentence->[prisoner_nameShortDef] seems to have given up entirely.</ExecutedPrisoner.rulePack.rulesStrings.22>
-    <ExecutedPrisoner.rulePack.rulesStrings.23>desc_sentence->[prisoner_nameShortDef] has closed [prisoner_possessive] eyes, seeming to pray to a higher power.</ExecutedPrisoner.rulePack.rulesStrings.23>
-    <ExecutedPrisoner.rulePack.rulesStrings.24>desc_sentence->[prisoner_nameShortDef] looks defiant.</ExecutedPrisoner.rulePack.rulesStrings.24>
+    <ExecutedPrisoner.label>stracony więzień</ExecutedPrisoner.label>
+    <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->egzekucja [prisoner_nameShortDef]</ExecutedPrisoner.rulePack.rulesStrings.0>
+    <ExecutedPrisoner.rulePack.rulesStrings.1>image->[warden_nameFull] uśmierca [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.1>
+    <ExecutedPrisoner.rulePack.rulesStrings.2>image->[warden_nameFull] poddaje [prisoner_nameFull] egzekucji [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.2>
+    <ExecutedPrisoner.rulePack.rulesStrings.3>image->[warden_nameFull] przygotowuje się do egzekucji [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.3>
+    <ExecutedPrisoner.rulePack.rulesStrings.4>image->[warden_nameFull] wchodzi do celi, by uśmiercić [prisoner_nameFull] [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.4>
+    <ExecutedPrisoner.rulePack.rulesStrings.5>circumstance_phrase->as [prisoner_pronoun] wije się na ziemi</ExecutedPrisoner.rulePack.rulesStrings.5>
+    <ExecutedPrisoner.rulePack.rulesStrings.6>circumstance_phrase->as [prisoner_pronoun] skręca się z bólu</ExecutedPrisoner.rulePack.rulesStrings.6>
+    <ExecutedPrisoner.rulePack.rulesStrings.7>circumstance_phrase->as [prisoner_pronoun] krzyczy z przerażeniem</ExecutedPrisoner.rulePack.rulesStrings.7>
+    <ExecutedPrisoner.rulePack.rulesStrings.8>circumstance_phrase->z profesjonalną skutecznością</ExecutedPrisoner.rulePack.rulesStrings.8>
+    <ExecutedPrisoner.rulePack.rulesStrings.9>circumstance_phrase->z grubsza i amatorsko</ExecutedPrisoner.rulePack.rulesStrings.9>
+    <ExecutedPrisoner.rulePack.rulesStrings.10>circumstance_phrase->z nadmierną siłą</ExecutedPrisoner.rulePack.rulesStrings.10>
+    <ExecutedPrisoner.rulePack.rulesStrings.11>circumstance_phrase->z wyraźną przyjemnością</ExecutedPrisoner.rulePack.rulesStrings.11>
+    <ExecutedPrisoner.rulePack.rulesStrings.12>circumstance_phrase->, uśmiechając się z wyższością</ExecutedPrisoner.rulePack.rulesStrings.12>
+    <ExecutedPrisoner.rulePack.rulesStrings.13>circumstance_phrase->ze łzami w [warden_possessive] oczach</ExecutedPrisoner.rulePack.rulesStrings.13>
+    <ExecutedPrisoner.rulePack.rulesStrings.14>circumstance_phrase->z zupełną obojętnością.</ExecutedPrisoner.rulePack.rulesStrings.14>
+    <ExecutedPrisoner.rulePack.rulesStrings.15>circumstance_phrase->podczas zadawania niepotrzebnego bólu</ExecutedPrisoner.rulePack.rulesStrings.15>
+    <ExecutedPrisoner.rulePack.rulesStrings.16>circumstance_phrase->, myśląc o czymś innym</ExecutedPrisoner.rulePack.rulesStrings.16>
+    <ExecutedPrisoner.rulePack.rulesStrings.17>circumstance_phrase->dla większego dobra</ExecutedPrisoner.rulePack.rulesStrings.17>
+    <ExecutedPrisoner.rulePack.rulesStrings.18>desc_sentence->[warden_nameShortDef] bardzo się poci.</ExecutedPrisoner.rulePack.rulesStrings.18>
+    <ExecutedPrisoner.rulePack.rulesStrings.19>desc_sentence->[warden_nameShortDef] trochę się ślini.</ExecutedPrisoner.rulePack.rulesStrings.19>
+    <ExecutedPrisoner.rulePack.rulesStrings.20>desc_sentence->[warden_nameShortDef] ma umazaną krwią [warden_possessive] twarz.</ExecutedPrisoner.rulePack.rulesStrings.20>
+    <ExecutedPrisoner.rulePack.rulesStrings.21>desc_sentence->[prisoner_nameShortDef] wije się i trzęsie.</ExecutedPrisoner.rulePack.rulesStrings.21>
+    <ExecutedPrisoner.rulePack.rulesStrings.22>desc_sentence->[prisoner_nameShortDef] chyba całkiem zrezygnował.</ExecutedPrisoner.rulePack.rulesStrings.22>
+    <ExecutedPrisoner.rulePack.rulesStrings.23>desc_sentence->[prisoner_nameShortDef] ma zamknięte [prisoner_possessive] oczy, zdaje się modlić do wyższej mocy.</ExecutedPrisoner.rulePack.rulesStrings.23>
+    <ExecutedPrisoner.rulePack.rulesStrings.24>desc_sentence->[prisoner_nameShortDef] wygląda wyzywająco.</ExecutedPrisoner.rulePack.rulesStrings.24>
     
     <KidnappedColonist.label>colonist kidnapped</KidnappedColonist.label>
     <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->the kidnapping of [victim_nameShortDef]</KidnappedColonist.rulePack.rulesStrings.0>
