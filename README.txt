@@ -1,4 +1,5 @@
-﻿RimWorld-pl
+RimWorld-pl
+
 ============
 
 A Polish translation for RimWorld.
@@ -6,6 +7,15 @@ A Polish translation for RimWorld.
 See this page for license info:
 
 http://ludeon.com/forums/index.php?topic=2933.0
+
+============
+
+Pobierz aktualną wersję tłumaczenia: https://github.com/Ludeon/RimWorld-Polish (przycisk Clone or Download -> Download zip)
+
+Aby wgrać tłumaczenie:
+1. Wejdź w folder gry, np.: C:\Program Files (x86)\Steam\steamapps\common\RimWorld
+2. Następnie przejdź do folderu z tłumaczeniem (RimWorld\Mods\Core\Languages\Polish)
+3. Zamień wszystkie pliki z folderu Polish z pobranymi z GitHub (musisz wypakować z archiwum .zip)
 
 ============
 
