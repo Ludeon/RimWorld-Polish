@@ -59,6 +59,17 @@
   <CurrentRadius>aktualny promień</CurrentRadius>
   <RadiusExpandsIn>promień powiększy się za</RadiusExpandsIn>
   <Permanent>stały</Permanent>
+  <Temperature>Temperatura</Temperature>
+  <BadTemperature>nieodpowiednia temperatura</BadTemperature>
+  <IdealFermentingTemperature>idealna temperatura fermentacji</IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} mnożnik efektu</DrugEffectMultiplier>
+  
+  <!-- Fermentation barrel -->
+  <ContainsWort>Zawiera {0} / {1} brzeczki.</ContainsWort>
+  <ContainsBeer>Zawiera {0} / {1} piwa.</ContainsBeer>
+  <Fermented>Sfermentowany</Fermented>
+  <FermentationProgress>Postęp: {0} (koniec za około {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Nieidealna temperatura. Mnożnik szybkości fermentacji: {0}</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>Strzał w głowę</Headshot>
@@ -249,6 +260,7 @@
   <Undiscovered>Nieodkryte</Undiscovered>
   
   <!-- Buttons -->
+  <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność pomocnika samouczka, kiedy jest pusty.\n\nPomocnik samouczka jest zawsze widoczny, jeśli istnieje coś aktywnego, czego musisz się nauczyć. Ten przełącznik sprawia, że pomocnik przestaje być widoczny, gdy nie ma aktywnego zadania do nauki.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju nad którym znajduje się kursor.</ShowRoomStatsToggleButton>
@@ -368,5 +380,15 @@
   <!-- Maintainable -->
   <DueForMaintenance>ze względu na utrzymanie</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Pogarsza się z powodu braku konserwacji.</DeterioratingDueToLackOfMaintenance>
+  
+  <!-- Deep drill -->
+  <ProgressToNextLump>Postęp do następnej bryły</ProgressToNextLump>
+  <ResourceBelow>Źródło poniżej</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Pomocnik samouczka</LearningHelper>
+  <MarkLearned>Oznacz jako nauczone</MarkLearned>
+  <AlreadyLearned>Nauczone</AlreadyLearned>
+  <Filter>Filtruj</Filter>
   
 </LanguageData>
