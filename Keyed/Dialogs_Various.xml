@@ -5,6 +5,10 @@
   <GoBack>Wstecz</GoBack>
   <OK>Ok</OK>
   
+  <GameUpdatedToNewVersionInitial>RimWorld został zaktualizowany z wersji {0} do wersji {1}.\n\nStarsze wersje zapisanych gier i modów mogą nie działać.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Ponieważ jest to wersja DMR-free, możesz zainstalować grę w innym folderze, aby móc jednocześnie grać na nowej i starej wersji.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Jeśli chcesz kontynuować ze starą wersją, możesz wybrać dodatek "Betas" na Steamie.\n\n  1. W bibliotece Steam odszukaj RimWorld i kliknij PPM.\n  2. Wybierz "właściwości".\n  3. Wybierz zakładkę "Bety".\n  4. Z menu wybierz wersję, która Ci odpowiada.\n\nStarsze wersje mogą być usunięte z listy - nie chcemy przerywać gier w trakcie.\n\nPmaiętaj, że jeśli autor moda zaktualizuje go do nowej wersji, może on nie działać na starej. Aby tego uniknąć, wyłącz automatyczne aktualizacje.</GameUpdatedToNewVersionSteam>
+  
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Wygląda na to, że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowane do innej wersji RimWorlda albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
@@ -17,6 +21,9 @@
   <ErrorWhileGeneratingMap>Wystąpił błąd podczas tworzenia mapy. Sprawdź logi po więcej infomacji.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Błąd podczas ładowania mapy</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Wystąpił błąd poczas ładowania mapy. Sprawdź logi po więcej informacji.</ErrorWhileLoadingMap>
+  
+   <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>Gra nie mogła całkowicie usunąć zmodyfikowanego kodu nieaktywnych modów, przez co mogą być one nadal aktywne.\n\nZalecamy wyjście z gry i włączenie jej ponownie.</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
   <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n- Steam nie jest uruchomiony.\n- uruchomiono bez użycia Steam bez steam_appid.txt we właściwym miejscu.\n- uruchomiono z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
@@ -114,7 +121,7 @@
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <CountingProducts>Liczy</CountingProducts>
   <Infinite>W nieskończoność</Infinite>
-  <MinimumSkillLevel>Minimalny poziom umiejętności {0}</MinimumSkillLevel>
+  <AllowedSkillRange>Dopuszczalny poziom umiejętności {0}:</AllowedSkillRange>
   
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości ponieważ ma on różne lub nieprzewidywalne rezultaty.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Ilość pracy</WorkAmount>
@@ -172,9 +179,10 @@
   <AnimalFilthRateExplanation>Zwierzęta produkują nieczystości kiedy poruszają się po wybudowanych podłogach. To jest średnia ilość takich nieczystości wytwarzanych na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Czas</TimeRecordsCategory>
   <MiscRecordsCategory>Różne</MiscRecordsCategory>
+  <Addictiveness>Uzależnienie</Addictiveness>
   
   <!-- Trade -->
-  <DragToTrade>Przeciągnij, aby handlować</DragToTrade>
+  <PositiveBuysNegativeSells>Dodatni liczba zakupów.\nUjemna liczba sprzedaży.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Cena jaką za to zapłacisz.</BuyPriceDesc>
   <SellPriceDesc>Srebro jakie za to dostaniesz</SellPriceDesc>
   <PriceTypeDesc>Cena tego przedmiotu to {0}.</PriceTypeDesc>
@@ -183,7 +191,8 @@
   <AcceptButton>Akceptuj</AcceptButton>
   <ResetButton>Zresetuj</ResetButton>
   <CancelButton>Anuluj</CancelButton>
-  <YourTradeableSilver>Twoje Srebro, którym możesz handlować: {0}</YourTradeableSilver>
+  <CloseButton>Zamknij</CloseButton>
+  <YourTradeableSilver>Twoje srebro, którym możesz handlować: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
   <TraderHasNoMore>Handlarz nie ma więcej.</TraderHasNoMore>
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
@@ -214,6 +223,39 @@
   <DeleteOutfit>Usuń strój...</DeleteOutfit>
   <OutfitInUse>Strój używany przez {0}.</OutfitInUse>
   <NoOutfitSelected>Żaden strój nie został wybrany</NoOutfitSelected>
+ 
+ <!-- Drug policy management -->
+  <DrugPolicy>Polityka wobec narkotyków</DrugPolicy>
+  <SelectDrugPolicy>Wybierz politykę...</SelectDrugPolicy>
+  <NewDrugPolicy>Nowa polityka</NewDrugPolicy>
+  <DeleteDrugPolicy>Usuń politykę...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Polityka wobec narkotyków jest wykorzystywana przez {0}.</DrugPolicyInUse>
+  <SocialDrugs>Narkotyki społeczne</SocialDrugs>
+  <NoDrugs>Brak narkotyków</NoDrugs>
+  <OneDrinkPerDay>Jeden drink dziennie</OneDrinkPerDay>
+  <Unrestricted>Bez ograniczeń</Unrestricted>
+  <NoDrugPolicySelected>Nie wybrano polityki wobec narkotyków</NoDrugPolicySelected>
+  <AddDrug>Dodaj narkotyk...</AddDrug>
+  <DrugColumnLabel>Narkotyki</DrugColumnLabel>
+  <DrugUsageColumnLabel>Zastosowanie</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Częstotliwość</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Tylko jeśli nastrój poniżej</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Tylko jeśli zabawa poniżej</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Dodaj do sprzętu</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(brak narkotyków)</NoDrugsBrackets>
+  <EveryDay>Codziennie</EveryDay>
+  <TimesPerDay>{0} razy dziennie</TimesPerDay>
+  <EveryDays>Co każde {0} dni</EveryDays>
+  <NoDrugUseRequirement>W ogóle</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Usuń ten narkotyk.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>Nazwa narkotyku</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>Sposób, w jaki można przyjmować narkotyk.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>Jak często koloniści powinni próbować przyjmować ten narkotyk.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom zabawy spadnie poniżej granicy.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>Liczba narkotyku zabrana dodatkowo podczas zbierania go w celu konsumpcji, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>Dla zabawy.\n\nPrzyjmuj ten narkotyk dla zabawy i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNwaet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Zaplanowane.\n\nPrzyjmuj ten narkotyk o zaplanowanych porach.</DrugUsageTipScheduled>
  
   <!-- Growing -->
   <NoGrowerCanPlant>{0} wymaga {1} punktów zdolności hodowli, aby zasiać.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
