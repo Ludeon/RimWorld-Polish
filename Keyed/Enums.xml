@@ -3,8 +3,8 @@
 
   <!-- glow -->
   <Dark>Ciemno</Dark>
-  <Lit>Zmrok</Lit>
-  <LitBrightly>Jasno</LitBrightly>
+  <Lit>Oświetlone</Lit>
+  <LitBrightly>Jasno oświetlone</LitBrightly>
 
   <!-- history upload pref -->
   <Unspecified>Nie zdecydowano</Unspecified>
@@ -16,7 +16,7 @@
   <PriceTypeCheap>tanio</PriceTypeCheap>
   <PriceTypeNormal>normalnie</PriceTypeNormal>
   <PriceTypeExpensive>drogo</PriceTypeExpensive>
-  <PriceTypeExorbitant>skrajnie drogo</PriceTypeExorbitant>
+  <PriceTypeExorbitant>przesadnie drogo</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>nieposortowane</StoragePriorityUnstored>
@@ -40,7 +40,7 @@
   <FoodTypeFlags_Kibble>pasza</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
-  <QualityCategory_Awful>bardzo zły</QualityCategory_Awful>
+  <QualityCategory_Awful>fatalny</QualityCategory_Awful>
   <QualityCategory_Shoddy>tandetny</QualityCategory_Shoddy>
   <QualityCategory_Poor>słaby</QualityCategory_Poor>
   <QualityCategory_Normal>zwykły</QualityCategory_Normal>
@@ -49,7 +49,7 @@
   <QualityCategory_Excellent>wspaniały</QualityCategory_Excellent>
   <QualityCategory_Masterwork>arcydzieło</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendarny</QualityCategory_Legendary>
-  <QualityCategoryShort_Awful>bzł</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Awful>ftln</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>tndt</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>słb</QualityCategoryShort_Poor>
   <QualityCategoryShort_Normal>zwyk</QualityCategoryShort_Normal>
@@ -60,7 +60,7 @@
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
    
   <!-- Hunger -->
-  <HungerLevel_Starving>Głoduje</HungerLevel_Starving>
+  <HungerLevel_Starving>Wygłodzony</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Bardzo głodny</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>Głodny</HungerLevel_Hungry>
   <HungerLevel_Fed>Najedzony</HungerLevel_Fed>
@@ -73,19 +73,19 @@
 
   <!-- Hilliness -->
   <Hilliness_Flat>Równiny</Hilliness_Flat>
-  <Hilliness_SmallHills>Wyżyny</Hilliness_SmallHills>
-  <Hilliness_LargeHills>Przedgórza</Hilliness_LargeHills>
+  <Hilliness_SmallHills>Niziny</Hilliness_SmallHills>
+  <Hilliness_LargeHills>Wyżyny</Hilliness_LargeHills>
   <Hilliness_Mountainous>Góry</Hilliness_Mountainous>
   
   <!-- Steam workshop interaction -->
-  <WorkshopInteractStage_CreatingItem>Tworzy</WorkshopInteractStage_CreatingItem>
-  <WorkshopInteractStage_SubmittingItem>Zatwierdza</WorkshopInteractStage_SubmittingItem>
-  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Niepoprawnie</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Przygotowuje dane konfiguracyjne</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Przygotowuje pliki z zawartością</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Wgrywa zawartość</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wgrywa plik podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdza zmiany</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <WorkshopInteractStage_CreatingItem>Tworzę</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Zatwierdzam</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Nieprawidłowe</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Przygotowuję dane konfiguracyjne</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Przygotowuję pliki z zawartością</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Wgrywam zawartość</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wgrywam plik podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdzam zmiany</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
   <ContentSource_LocalFolder>folder lokalny</ContentSource_LocalFolder>
@@ -121,7 +121,7 @@
   <TechLevel_Industrial>industrialny</TechLevel_Industrial>
   <TechLevel_Spacer>kosmiczny</TechLevel_Spacer>
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>ponadzmysłowy</TechLevel_Transcendent>
+  <TechLevel_Transcendent>niedościgniony</TechLevel_Transcendent>
 
   <!-- Player pawns arrive method -->
   <PlayerPawnsArriveMethod_Standing>Stoją</PlayerPawnsArriveMethod_Standing>
@@ -133,8 +133,8 @@
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
-  <ShowAnimalNames>Pokazuj imiona zwierząt</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>Oswojone (tylko nazwane)</AnimalNameDisplayMode_TameNamed>
+  <ShowAnimalNames>Imiona zwierząt</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Oswojone (nazwane)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>Oswojone (wszystkie)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
@@ -142,7 +142,7 @@
   <Fahrenheit>Fahrenheit</Fahrenheit>
   <Kelvin>Kelwin</Kelvin>
 
- <!-- Spoil reason -->
+  <!-- Spoil reason -->
   <SpoilReason_Freezing>Zepsute przez zamrażanie.</SpoilReason_Freezing>
   <SpoilReason_HighTemperature>Zepsute przez wysoką temperaturę.</SpoilReason_HighTemperature>
   

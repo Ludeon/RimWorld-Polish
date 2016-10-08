@@ -4,12 +4,12 @@
   <JumpToLocation>Zobacz miejsce</JumpToLocation>
 
   <LetterLabelFirstSummerWarning>Lato</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>Lato już się rozpoczęło! Ale po lecie jest zima.\n\nTwoje uprawy nie będą rosły w zimowym mrozie. Pamiętaj, aby zebrać żywność kilka miesięcy wcześniej - najlepiej teraz, póki jeszcze możesz.\n\nZbuduj chłodnię, aby uchronić żywność przed zepsuciem.\n\nSpróbuj też kupić, ukraść lub zrobić kilka płaszczy zimowych - w przeciwnym razie koloniści będą zamarzać, gdy wyjdą na zewnątrz.</FirstSummerWarning>
+  <FirstSummerWarning>Lato już się rozpoczęło! Lecz zima coraz bliżej.\n\nTwoje uprawy nie będą rosły w zimowym mrozie. Pamiętaj, aby zebrać żywność kilka dni wcześniej - najlepiej teraz, póki jeszcze możesz.\n\nZbuduj chłodnię, aby uchronić żywność przed zepsuciem.\n\nSpróbuj też kupić, ukraść lub zrobić kilka płaszczy zimowych, aby przetrwać mrozy.</FirstSummerWarning>
   
   <RelationsBrokenDown>Relacje z {0} uległy pogorszeniu. Są teraz wrogo nastawieni.</RelationsBrokenDown>
   <RelationsWarmed>Relacje z {0} uległy polepszeniu. Nie są już wrogo nastawieni.</RelationsWarmed>
 
-  <RelationsBrokenCapture>Ponieważ wziąłeś do niewoli {0}, {1} są teraz wrogo nastawieni.</RelationsBrokenCapture>
+  <RelationsBrokenCapture>Ponieważ wziąłeś do niewoli {0}, {1} są teraz twoimi wrogami.</RelationsBrokenCapture>
 
   <ColonyGoodwill>Reputacja kolonii</ColonyGoodwill>
   <Neutral>Neutralny</Neutral>
@@ -30,59 +30,59 @@
   
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
   <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie {1} ma {3} lat.\n\nChronologicznie {1} skończył {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielone od biologicznych.</BirthdayChronological>
-  <BirthdayWithInjuries>Dzisiaj {0} ma urodziny! Kończy {2} lat.\n\nNiestety, {0} cierpi teraz na nastepujące choroby z powodu wieku:\n{3}</BirthdayWithInjuries>
+  <BirthdayWithInjuries>Dzisiaj {0} ma biologiczne urodziny! Kończy {1} lat.\n\nNiestety, {0} cierpi teraz na nastepujące choroby z powodu wieku:\n\n{2}</BirthdayWithInjuries>
   
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
-  <NewDisease>Choroba ({1}) męczy {0}. Upewnij się, że {0} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewDisease>
-  <NewPartDisease>Zakażenie ({1}) męczy {0}. Upewnij się, że {0} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
+  <NewDisease>{0} zachorował od {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewDisease>
+  <NewPartDisease>{0} zachorował od {3}. Infekcja jest w HIS {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
 
   <LetterLabelAncientShrineWarning>Starożytne niebezpieczeństwo</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. HECAP nie wie dlaczego, ale czuje, że w tej zakurzonej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
+  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. HECAP nie wie dlaczego, ale HE czuje, że w tej zakurzonej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
 
   <StruckMineable>Natrafiliśmy na {0}!</StruckMineable>
  
   <LetterLabelAnimalManhunterRevenge>{0} zemsta</LetterLabelAnimalManhunterRevenge>
   <AnimalManhunterFromDamage>{0} atakuje po tym, jak zsotał zraniony!</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>A {0} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>{0} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Inne {0} również będą atakować</AnimalManhunterOthers>
 
-  <LetterFriendlyTrapSprungLabel>{0} aktywował pułapkę</LetterFriendlyTrapSprungLabel>
-  <LetterFriendlyTrapSprung>{0} przypadkiem aktywował pułapkę i odniósł obrażenia.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprungLabel>{0} wpadł w pułapkę</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{0} przypadkiem wpadł w pułapkę i odniósł obrażenia.</LetterFriendlyTrapSprung>
 
-  <LetterHealthComplications>{0} doznał {1} w wyniku komplikacji {2}.</LetterHealthComplications>
+  <LetterHealthComplications>{0} doznał choroby: {1}\n\nJest to powikłanie od: {2}.</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
   
-  <LetterHediffFromRandomHediffGiver>{0} odkrył problem ze zdrowiem: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{0} doznał choroby: {1}.</LetterHediffFromRandomHediffGiver>
   <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
   
-  <LetterLeadersDeathLabel>śmierć lidera</LetterLeadersDeathLabel>
-  <LetterLeadersDeath>Lider frakcji {1} - {0} - zmarł i został zastąpiony przez {2}.</LetterLeadersDeath>
+  <LetterLeadersDeathLabel>Śmierć lidera</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>Lider {0} frakcji {1} zmarł i został zastąpiony przez {2}.</LetterLeadersDeath>
   
-  <MentalBreakLetterLabel>załamanie nerwowe</MentalBreakLetterLabel>
+  <MentalBreakLetterLabel>Załamanie nerwowe</MentalBreakLetterLabel>
   <MentalBreakReason>Powód: {0}.</MentalBreakReason>
   
   <!-- Related pawns -->
-  <LetterLabelNoticedFamilyMembers>Rodzina</LetterLabelNoticedFamilyMembers>
-  <LetterFamilyMembersRaidEnemy>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów.\n\nPamietaj, że chociaż są spokrewnieni, nadal będą się wzajemnie atakować z powozu złych relacji ich frakcji.\n\nDo jednej rodziny należą:</LetterFamilyMembersRaidEnemy>
-  <LetterFamilyMembersRaidFriendly>W przybywającej przyjaznej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterFamilyMembersRaidFriendly>
-  <LetterFamilyMembersNeutralGroup>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterFamilyMembersNeutralGroup>
-  <LetterFamilyMembersTraderShipSlaves>Orbitalny handlarz sprzedaje członków rodziny twoich kolonistów lub więźniów:</LetterFamilyMembersTraderShipSlaves>
+  <LetterLabelNoticedRelatedPawns>Relacje</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>W przybywającej grupie z {0} znajdują się osoby w relacji do twoich kolonistów lub więźniów.\n\nPamietaj, że chociaż są w relacji, nadal będą się wzajemnie atakować z powozu złych relacji ich frakcji.\n\nTe osoby to:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>W przybywającej przyjaznej grupie z {0} znajdują się osoby w relacji do twoich kolonistów lub więźniów:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>W przybywającej grupie znajdują się osoby w relacji do twoich kolonistów lub więźniów:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Orbitalny handlarz sprzedaje osoby w relacji do twoich kolonistów lub więźniów:</LetterRelatedPawnsTradeShip>
   
-  <FamilyLetterAppendedSuffix>(rodzina)</FamilyLetterAppendedSuffix>
-  <FamilyLetterAppendedTextColonist>NAME jest członkiem rodziny twojego kolonisty. HECAP jest {1} dla {0}.</FamilyLetterAppendedTextColonist>
-  <FamilyLetterAppendedTextPrisoner>NAME jest członkiem rodziny twojego więźnia. HECAP jest {1} dla {0}.</FamilyLetterAppendedTextPrisoner>
-  
+  <RelationshipAppendedLetterSuffix>(relacja)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME w relacji z twoim kolonistą. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME w relacji z jednym z twoich więźniów. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
-  <LetterLabelAffair>romans</LetterLabelAffair>
-  <LetterAffair>{0} który/-a jest w związku małżeńskim z {1}, rozpoczął/-ęła romans z {2}.</LetterAffair>
-  <LetterLabelNewLovers>nowa para</LetterLabelNewLovers>
+  <LetterLabelAffair>Romans</LetterLabelAffair>
+  <LetterAffair>{0} jest w związku małżeńskim z {1}, HE ma teraz romans z {2}.</LetterAffair>
+  <LetterLabelNewLovers>Nowa para</LetterLabelNewLovers>
   <LetterNewLovers>{0} i {1} spotykają się i są teraz parą.</LetterNewLovers>
   <LetterNoLongerLovers>{0} i {1} nie spotykają się już.</LetterNoLongerLovers>
+  <LetterLabelBreakup>Zerwanie</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>Wesele!</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1} zaakceptowała oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszenie punktu ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1} odrzuciła oświadczyny {0}. {0} jest nieszczęśliwy z tego powodu.</LetterRejectedProposal>
+  <LetterAcceptedProposal>{0} - HIS ośwadczyny zostały zaakceptowane przez {1}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszenie punktu ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
+  <LetterRejectedProposal>{0} - HIS ośwadczyny zostały odrzucone przez {1}. {0} jest nieszczęśliwy z tego powodu.</LetterRejectedProposal>
     
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChangeGood>Dobra wola</LetterLabelRelationsChangeGood>
@@ -99,18 +99,18 @@
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>Ucieczka z więzienia</LetterLabelPrisonBreak>
-  <LetterPrisonBreak>Więźniom udało się uciec! Jakimś cudem pokonali zamknięte drzwi i mogą teraz chwycić za broń, walczyć lub spróbować uciec. Udział w tej ucieczce biorą:\n\n{0}\n\nWięźniowwie będą próbować uciec, gdy będą niezadowoleni, liczni i zdrowi.</LetterPrisonBreak>
+  <LetterPrisonBreak>Więźniom udało się uciec! Jakimś cudem pokonali zamknięte drzwi i mogą teraz chwycić za broń, walczyć lub spróbować uciec. Udział w tej ucieczce biorą:\n\n{0}\n\nWięźniowie będą próbować uciec, gdy będą niezadowoleni, liczni i zdrowi.</LetterPrisonBreak>
     
   <!-- Party -->
   <LetterLabelNewParty>Przyjęcie</LetterLabelNewParty>
   <LetterNewParty>{0} organizuje przyjęcie! Każdy, kto dołączy do tej imprezy, poprawi swój nastrój oraz zwiększy energię społeczną. Wszyscy imprezowicze otrzymają długotrwały bonus do nastroju.</LetterNewParty>
 
   <!-- Newly addicted -->
-  <LetterLabelNewlyAddicted>uzależnienie: {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\nHECAP potrzebuje teraz {1}, co jest widoczne w IS zakładce "potrzeb". HECAP będzie automatycznie przyjmował narkotyk, aby zaspokoić potrzebę. Jeśli HE nie zdobędzie {1}, będzie miał objawy zespołu odstawiennego.</LetterNewlyAddicted>
+  <LetterLabelNewlyAddicted>Uzależnienie od {0}</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\nHECAP ma teraz potrzebę {1}, co jest widoczne w HIS zakładce "potrzeb". HECAP będzie automatycznie przyjmował narkotyk, aby zaspokoić potrzebę. Jeśli HE nie zdobędzie {1}, HE przejdzie na odwyk.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
-  <LetterLabelDrugBinge>brak opamiętania: {0}</LetterLabelDrugBinge>
-  <LetterDrugBinge>{0} objada się {1}.</LetterDrugBinge>
+  <LetterLabelDrugBinge>Brak opamiętania: {0}</LetterLabelDrugBinge>
+  <LetterDrugBinge>{0} przyjmuje dużo {1}.</LetterDrugBinge>
 
 </LanguageData>
