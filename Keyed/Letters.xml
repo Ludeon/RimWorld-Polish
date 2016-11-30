@@ -29,8 +29,8 @@
   <RecruitFail>{0} nie udało się zrekrutować {1} ({2} szansy).</RecruitFail>
   
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
-  <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie {1} ma {3} lat.\n\nChronologicznie {1} skończył {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielone od biologicznych.</BirthdayChronological>
-  <BirthdayWithInjuries>Dzisiaj {0} ma urodziny! Kończy {2} lat.\n\nNiestety, {0} cierpi teraz na nastepujące choroby z powodu wieku:\n{3}</BirthdayWithInjuries>
+  <BirthdayChronological>Dzisiaj {0} ma urodziny! Biologicznie {1} kończy {3} lat.\n\nChronologicznie {1} skończył {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielone od biologicznych.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>Dzisiaj {0} ma urodziny! Kończy {2} lat.\n\nNiestety, {0} cierpi teraz na nastepujące choroby z powodu wieku:\n{3}</BirthdayBiologicalAgeInjuries>
   
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
   <NewDisease>Choroba ({1}) męczy {0}. Upewnij się, że {0} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewDisease>
@@ -62,15 +62,15 @@
   <MentalBreakReason>Powód: {0}.</MentalBreakReason>
   
   <!-- Related pawns -->
-  <LetterLabelNoticedFamilyMembers>Rodzina</LetterLabelNoticedFamilyMembers>
-  <LetterFamilyMembersRaidEnemy>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów.\n\nPamietaj, że chociaż są spokrewnieni, nadal będą się wzajemnie atakować z powozu złych relacji ich frakcji.\n\nDo jednej rodziny należą:</LetterFamilyMembersRaidEnemy>
-  <LetterFamilyMembersRaidFriendly>W przybywającej przyjaznej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterFamilyMembersRaidFriendly>
-  <LetterFamilyMembersNeutralGroup>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterFamilyMembersNeutralGroup>
-  <LetterFamilyMembersTraderShipSlaves>Orbitalny handlarz sprzedaje członków rodziny twoich kolonistów lub więźniów:</LetterFamilyMembersTraderShipSlaves>
+  <LetterLabelNoticedRelatedPawns>Relacje</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów.\n\nPamietaj, że chociaż są spokrewnieni, nadal będą się wzajemnie atakować z powozu złych relacji ich frakcji.\n\nDo jednej rodziny należą:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>W przybywającej przyjaznej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Orbitalny handlarz sprzedaje członków rodziny twoich kolonistów lub więźniów:</LetterRelatedPawnsTradeShip>
   
-  <FamilyLetterAppendedSuffix>(rodzina)</FamilyLetterAppendedSuffix>
-  <FamilyLetterAppendedTextColonist>NAME jest członkiem rodziny twojego kolonisty. HECAP jest {1} dla {0}.</FamilyLetterAppendedTextColonist>
-  <FamilyLetterAppendedTextPrisoner>NAME jest członkiem rodziny twojego więźnia. HECAP jest {1} dla {0}.</FamilyLetterAppendedTextPrisoner>
+  <RelationshipAppendedLetterSuffix>(rodzina)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME jest członkiem rodziny twojego kolonisty. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME jest członkiem rodziny twojego więźnia. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextPrisoner>
   
   
   <!-- Attempt romance / propose interaction -->
@@ -79,6 +79,7 @@
   <LetterLabelNewLovers>nowa para</LetterLabelNewLovers>
   <LetterNewLovers>{0} i {1} spotykają się i są teraz parą.</LetterNewLovers>
   <LetterNoLongerLovers>{0} i {1} nie spotykają się już.</LetterNoLongerLovers>
+  <LetterLabelBreakup>rozstanie</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>Wesele!</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
   <LetterAcceptedProposal>{1} zaakceptowała oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszenie punktu ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
