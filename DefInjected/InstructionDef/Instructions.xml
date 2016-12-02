@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><LanguageData>
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
 
     <CreateWorldParams.text>Witaj w RimWorld! Ten samouczek pokaże Ci, jak grać w tę grę.\n\nPierwszy krok to wygenerowanie świata do gry.\n\nTa strona ustala, w jaki sposób powinien on zostać stworzony.\n\nDomyślne ustawienia są w porządku - zatem śmiało! Kliknij "twórz".</CreateWorldParams.text>
 
@@ -11,102 +12,77 @@
     <AcceptStartingPawns.text>Świetnie!\n\nMożesz wylosować więcej postaci, jeśli chcesz - ale nie próbuj znaleźć idealnego bohatera. Każdy ma jakieś wady, które czynią wszystko ciekawszym!\n\nMożesz także zmienić imiona postaci, klikając na ich obecne.\n\nNaciśnij "rozpocznij", kiedy będziesz gotowy.</AcceptStartingPawns.text>
 
     <MapCameraDolly.text>Jesteś już na powierzchni planety!\n\nSpróbuj przemieścić kamerę.\n\nUżyj do tego następujących klawiszy: {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} lub kliknij i przesuń ją środkowym przyciskiem myszy.\n\nZrób to teraz!</MapCameraDolly.text>
-    <MapCameraDolly.instructionClass>Instruction_LearnConcept</MapCameraDolly.instructionClass>
-
     <MapCameraZoom.text>Świetnie!\n\nMożesz również przybliżać i oddalać widok za pomocą kółka myszy lub klawisza {Key:MapZoomIn} i {Key:MapZoomOut}.\n\nZrób to teraz!</MapCameraZoom.text>
-    <MapCameraZoom.instructionClass>Instruction_LearnConcept</MapCameraZoom.instructionClass>
-
     <Pause.text>Możesz także zatrzymać czas.\n\nOznacza to, że nigdy nie musisz się śpieszyć. Zawsze możesz zatrzymać rozgrywkę i w swoim czasie wydać odpowiednie rozkazy kolonistom.\n\nSpróbuj teraz zapauzować grę, używając przycisku {Key:TogglePause} lub wykorzystując sterowniki czasu w prawym dolnym rogu.</Pause.text>
-    <Pause.instructionClass>Instruction_LearnConcept</Pause.instructionClass>
-
     <TimeControls.text>Da się też przyśpieszyć czas.\n\nSpróbuj go kontrolować, używając przycisków: {Key:TimeSpeedNormal}, {Key:TimeSpeedFast} i {Key:TimeSpeedSuperfast} lub sterowników czasu w prawym dolnym rogu.</TimeControls.text>
-    <TimeControls.instructionClass>Instruction_LearnConcept</TimeControls.instructionClass>
 
     <MakeStockpile.text>Świetnie!\n\nTeraz stwórz składowisko, aby koloniści wiedzieli, gdzie przechowywać rzeczy.\n\n1. Kliknij przycisk "architekt" w lewym dolnym rogu.\n2. Wybierz zakładkę "obszary".\n3. Wybierz narzędzie tworzenia składowiska.\n4. Kliknij na powierzchnię i zaznacz wskazany obszar na mapie.</MakeStockpile.text>
-    <MakeStockpile.instructionClass>Instruction_PlaceStockpile</MakeStockpile.instructionClass>
     <MakeStockpile.rejectInputMessage>Stwórz składowisko na wskazanym obszarze.</MakeStockpile.rejectInputMessage>
-    <MakeStockpile.onMapInstruction>Place stockpile here\n(drag corner-to-corner)</MakeStockpile.onMapInstruction>
-
+    <MakeStockpile.onMapInstruction>Utwórz tutaj składowsko \n(przesuń kursor od rogu do rogu)</MakeStockpile.onMapInstruction>
     <EndStockpileDesignating.text>Kliknij prawym przyciskiem myszy, aby wyjść z trybu zarządzania składowiskiem.</EndStockpileDesignating.text>
 
     <UnforbidStartingResources.text>Teraz pozwól kolonistom przenieść przedmioty do składowiska. Musisz je odblokować.\n\n1. Kliknij na startowe przedmioty, aby je wybrać.\n2. Kliknij przęłącznika "zabronione", aby odblokować przedmioty.\n\n(Protip: kliknij dwukrotnie na dany przedmiot, aby zaznaczyć wszystkie rzeczy tego rodzaju na ekranie).</UnforbidStartingResources.text>
-    <UnforbidStartingResources.instructionClass>Instruction_UnforbidStartingResources</UnforbidStartingResources.instructionClass>
     <UnforbidStartingResources.rejectInputMessage>Odblokuj przedmioty startowe.</UnforbidStartingResources.rejectInputMessage>
     <UnforbidStartingResources.onMapInstruction>Odblokuj to.</UnforbidStartingResources.onMapInstruction>
 
     <BuildRoomWalls.text>Fantastycznie! Następnie wybudujemy pokój.\n\n1. Kliknij przycisk "architekt".\n2. Wybierz "struktury".\n3. Wybierz przycisk "ściana".\n4. Wybierz drewno jako materiał.\n5. Postaw cztery ściany, aby stworzyć wskazany kształt na mapie.</BuildRoomWalls.text>
-    <BuildRoomWalls.instructionClass>Instruction_BuildRoomWalls</BuildRoomWalls.instructionClass>
     <BuildRoomWalls.rejectInputMessage>Wybuduj drewniane ściany wzdłuż podświetlonych na mapie krawędzi.</BuildRoomWalls.rejectInputMessage>
     <BuildRoomWalls.onMapInstruction>Build walls</BuildRoomWalls.onMapInstruction>
 
     <BuildRoomDoor.text>Teraz postaw drzwi nad jedną ze ścian pokoju.\n\nZnajdziesz je tuż obok ścian w menu Architekta.</BuildRoomDoor.text>
-    <BuildRoomDoor.instructionClass>Instruction_BuildRoomDoor</BuildRoomDoor.instructionClass>
     <BuildRoomDoor.onMapInstruction>Wybuduj drzwi nad jedną ze ścian.</BuildRoomDoor.onMapInstruction>
     <BuildRoomDoor.rejectInputMessage>Wybuduj drewniane drzwi nad jedną ze zbudowanych przez Ciebie ścian.</BuildRoomDoor.rejectInputMessage>
 
     <BuildBeds.text>Twoi koloniści zbudują pokój!\n\nBędą musieli jednak gdzieś spać. Umieść trzy łóżka w pokoju.\n\nZnajdziesz je w zakładce "meble" w menu Architekta.</BuildBeds.text>
-    <BuildBeds.instructionClass>Instruction_BuildInRoom</BuildBeds.instructionClass>
     <BuildBeds.onMapInstruction>Stwórz trzy łóżka w pokoju.</BuildBeds.onMapInstruction>
     <BuildBeds.rejectInputMessage>Stwórz trzy drewniane łóżka w pokoju.</BuildBeds.rejectInputMessage>
 
     <BuildTorchLamp.text>Będziesz również potrzebował w środku nieco światła, w przeciwnym razie Twoi koloniści zrobią się zrzędliwi przez panujące wokół ciemności.\n\nPostaw pochodnię w pokoju.</BuildTorchLamp.text>
-    <BuildTorchLamp.instructionClass>Instruction_BuildInRoom</BuildTorchLamp.instructionClass>
     <BuildTorchLamp.onMapInstruction>Postaw pochodnię w pokoju.</BuildTorchLamp.onMapInstruction>
     <BuildTorchLamp.rejectInputMessage>Postaw pochodnię w pokoju.</BuildTorchLamp.rejectInputMessage>
 
     <BuildAnimalSleepingSpot.text>Twoje zwierzę również będzie spało w środku razem z Tobą. Stwórz miejsce do spania dla zwierząt w pokoju.\n\nNie są to realne konstrukcje - wyznaczają jednak miejsce na podłodze, w których będą spać zwierzęta.</BuildAnimalSleepingSpot.text>
-    <BuildAnimalSleepingSpot.instructionClass>Instruction_BuildInRoom</BuildAnimalSleepingSpot.instructionClass>
     <BuildAnimalSleepingSpot.onMapInstruction>Stwórz miejsce do spania dla zwierząt \nw pokoju.</BuildAnimalSleepingSpot.onMapInstruction>
     <BuildAnimalSleepingSpot.rejectInputMessage>Stwórz miejsce do spania dla zwierząt w pokoju.</BuildAnimalSleepingSpot.rejectInputMessage>
 
     <BuildHorseshoesPin.text>Twoi koloniści potrzebują źródeł rozrywki, żeby nie być ciągle smutnymi.\n\nUmieść kołek do rzutu podkową na zewnątrz, obok pokoju.</BuildHorseshoesPin.text>
-    <BuildHorseshoesPin.instructionClass>Instruction_BuildNearRoom</BuildHorseshoesPin.instructionClass>
     <BuildHorseshoesPin.onMapInstruction>Umieść kołek do rzutu podkową\nna zewnątrz pokoju.</BuildHorseshoesPin.onMapInstruction>
     <BuildHorseshoesPin.rejectInputMessage>Umieść kołek do rzutu podkową obok pokoju.</BuildHorseshoesPin.rejectInputMessage>
 
     <MakeGrowingZone.text>Dom jest w trakcie budowy!\n\nTwoi koloniści muszą coś jeść, dlatego wyznacz we wskazanym miejscu obszar do uprawy.\n\nTo miejsce, w którym koloniści będą siać plony.</MakeGrowingZone.text>
-    <MakeGrowingZone.instructionClass>Instruction_PlaceGrowingZone</MakeGrowingZone.instructionClass>
     <MakeGrowingZone.rejectInputMessage>Stwórz obszar do uprawy we wskazanym miejscu.</MakeGrowingZone.rejectInputMessage>
     <MakeGrowingZone.onMapInstruction>Umieść tu obszar do uprawy.\n(Zaznacz obszar od jednego rogu do drugiego).</MakeGrowingZone.onMapInstruction>
 
     <SetToGrowRice.text>Możesz zdecydować, które rośliny Twoi koloniści powinni siać w obszarze do uprawy.\n\n1. Kliknij prawym przyciskiem myszy, aby wyjść z menu Architekta.\n2. Kliknij obszar do uprawy, aby go wybrać.\n3. Kliknij komendę "wybierz roślinę" na dole i ustaw ryż.</SetToGrowRice.text>
-    <SetToGrowRice.instructionClass>Instruction_SetGrowingZonePlant</SetToGrowRice.instructionClass>
     <SetToGrowRice.rejectInputMessage>Ustaw, aby w Twoim obszarze do uprawy rósł ryż.</SetToGrowRice.rejectInputMessage>
     <SetToGrowRice.onMapInstruction>Ustaw, aby w Twoim obszarze do uprawy rósł ryż.</SetToGrowRice.onMapInstruction>
 
     <EquipWeapons.text>Czy Twoi koloniści wyposażyli się już w bronie startowe? Aby to zrobić:\n\n1. Kliknij na kolonistę, aby go wybrać.\n2. Prawym przyciskiem myszy kliknij na broń, w którą chcesz wyposażyć postać.\n3. Wybierz przycisk "ekwipuj" w menu kontekstowym.\n\nPowtórz czynność z każdym kolonistą.</EquipWeapons.text>
-    <EquipWeapons.instructionClass>Instruction_EquipWeapons</EquipWeapons.instructionClass>
     <EquipWeapons.rejectInputMessage>Wyposaż kolonistów w bronie.</EquipWeapons.rejectInputMessage>
     <EquipWeapons.onMapInstruction>Wyposaż.</EquipWeapons.onMapInstruction>
 
     <BuildFueledStove.text>Doskonale!\n\nTeraz musimy stworzyć piec kuchenny, aby koloniści mogli gotować jedzenie.\n\nZbuduj piec w pokoju.</BuildFueledStove.text>
-    <BuildFueledStove.instructionClass>Instruction_BuildInRoom</BuildFueledStove.instructionClass>
     <BuildFueledStove.onMapInstruction>Zbuduj piec kuchenny w pokoju.</BuildFueledStove.onMapInstruction>
     <BuildFueledStove.rejectInputMessage>Zbuduj piec kuchenny we wcześniej stworzonym pokoju.</BuildFueledStove.rejectInputMessage>
 
     <AddBillSimpleMeal.text>Koloniści muszą wiedzieć, co gotować.\n\nZlecenia gotowania są dodane przy piecu. Kiedy zostanie stworzony projekt, koloniści będą wykonywać pracę automatycznie.\n\n1. Poczekaj, aż piec kuchenny zostanie wybudowany.\n2. Kliknij na piec, aby go wybrać.\n3. Otwórz zakładkę "zlecenia".\n4. Kliknij "dodaj zlecenie".\n5. Wybierz "gotuj proste danie" w menu kontekstowymn.\n6. Użyj przycisku "+", aby zwiększyć ilość do 10.\n\n Pamiętaj, możesz przyśpieszyć czas, jeśli budowa trwa zbyt długo.\n\nMożesz także wybrać kolonistę i za pomocą prawego przycisku myszy kliknąć na piec, aby zwiększyć priorytet jego budowy.</AddBillSimpleMeal.text>
-    <AddBillSimpleMeal.instructionClass>Instruction_AddBill</AddBillSimpleMeal.instructionClass>
     <AddBillSimpleMeal.rejectInputMessage>Dodaj zlecenie gotowania prostych posiłków do Twojego pieca.</AddBillSimpleMeal.rejectInputMessage>
     <AddBillSimpleMeal.onMapInstruction>Wybierz to./AddBillSimpleMeal.onMapInstruction>
 
     <MineSteel.text>Teraz koloniści mogą gotować! Pysznie!\n\nNastępnie będziesz potrzebował nieco surowców. Stworzyłem nieco stali możliwej do wydobycia w pobliżu Twojej bazy.\n\nWybierz znacznik "kop" i wskaż nim obszar stali, aby ją wykopać.</MineSteel.text>
-    <MineSteel.instructionClass>Instruction_MineSteel</MineSteel.instructionClass>
     <MineSteel.rejectInputMessage>Użyj znacznika "kop" na stali.</MineSteel.rejectInputMessage>
     <MineSteel.onMapInstruction>Oznacz to wszystko\ndo kopania.</MineSteel.onMapInstruction>
 
     <ChopTrees.text>Będziesz chciał zebrać nieco drewna. Oznacz nieco drzew do ścięcia.\n\nWybierz znacznik "rąb drzewo" i wyznacz 10 drzew do ścięcia.\n\n(Protip: możesz zaznaczyć pole, aby wyznaczyć na nim kilka drzew do ścięcia jednocześnie).</ChopTrees.text>
-    <ChopTrees.instructionClass>Instruction_ChopWood</ChopTrees.instructionClass>
     <ChopTrees.rejectInputMessage>Przenieś znacznik "rąb drzewo" nad kilkoma drzewami.</ChopTrees.rejectInputMessage>
 
     <OpenMainTabWork.text>Możesz kontrolować, który kolonista wykonuje dany rodzaj pracy.\n\nOtwórz zakładkę "praca" na dole ekranu.</OpenMainTabWork.text>
     <OpenMainTabWork.rejectInputMessage>Otwórz zakładkę "praca".</OpenMainTabWork.rejectInputMessage>
 
     <ChangeWorkSettings.text>Możesz kontrolować, kto wykonuje dany rodzaj pracy, używając pól wyboru. Koloniści będą wykonywać pracę w odpowiedniej kolejności, od lewej do prawej.\n\nSpróbuj zmienić ustawienia.\n\nOstrożnie - koloniści zawsze podążają zgodnie z priorytetem pracy, nawet jeśli zmusza ich to do robienia głupstw! Ustal mądry reżim pracy, aby odnieść sukces w Rimworld. Przygotuj ustawienia rozsądnie i często do nich zaglądaj!</ChangeWorkSettings.text>
-    <ChangeWorkSettings.instructionClass>Instruction_LearnConcept</ChangeWorkSettings.instructionClass>
     <ChangeWorkSettings.rejectInputMessage>Otwórz zakładkę "praca" i zmień nieco ustawień.</ChangeWorkSettings.rejectInputMessage>
 
     <BuildSimpleResearchBench.text>Do dalszego rozrastania się musisz wynaleźć nowe technologie.\n\nPostaw stół do badań (z drewna) w pokoju.</BuildSimpleResearchBench.text>
-    <BuildSimpleResearchBench.instructionClass>Instruction_BuildInRoom</BuildSimpleResearchBench.instructionClass>
     <BuildSimpleResearchBench.onMapInstruction>Postaw stół do badań (z drewna)\nw pokoju</BuildSimpleResearchBench.onMapInstruction>
     <BuildSimpleResearchBench.rejectInputMessage>Proszę, postaw stół do badań wewnątrz zbudowanego wcześniej pokoju.</BuildSimpleResearchBench.rejectInputMessage>
 
@@ -117,28 +93,22 @@
     <SelectResearchProject.rejectInputMessage>Wybierz dowolny projekt.</SelectResearchProject.rejectInputMessage>
 
     <ExpandAreaHome.text>Pora na powiększenie obszaru domu.\n\nKoloniści zajmują się sprzątaniem podłóg i gaszeniem pożarów tylko w wyznaczonym do tego miejscu, ignorując brud i płomienie poza nim.\n\nObszar domu tworzy się automatycznie wraz z budowaniem nowych rzeczy - nic nie stoi jednak na przeszkodzie, by powiększyć go ręcznie.\n\nWybierz narzędzie "powiększ obszar domu" i zaznacz rejon mapy.</ExpandAreaHome.text>
-    <ExpandAreaHome.instructionClass>Instruction_ExpandAreaHome</ExpandAreaHome.instructionClass>
     <ExpandAreaHome.rejectInputMessage>Wystarczy, że powiększysz obszar domu tylko odrobinkę.</ExpandAreaHome.rejectInputMessage>
 
     <ExpandAreaBuildRoof.text>"Oznacz zadaszony obszar" definiuje miejsce, w którym koloniści postarają się wybudować dach.\n\nTworzy się automatycznie wraz z budową w pełni domkniętych pomieszczeń.\n\nWybierz narzędzie "oznacz zadaszony obszar" i stwórz tym samym daszek z przodu domu.</ExpandAreaBuildRoof.text>
-    <ExpandAreaBuildRoof.instructionClass>Instruction_ExpandAreaBuildRoof</ExpandAreaBuildRoof.instructionClass>
     <ExpandAreaBuildRoof.rejectInputMessage>Powiększ zadaszony obszar.</ExpandAreaBuildRoof.rejectInputMessage>
 
     <BuildSandbags.text>Świetnie! Udało Ci się opanować podstawy zarządzania kolonią. RimWorld jest jednak grą brutalną - spokojne stawianie daszków może w każdej chwili zakłócić najazd przeciwników. Pora się na to przygotować.\n\nZbuduj "worki z piaskiem" (podobnie jak ściany) w wyznaczonym miejscu.</BuildSandbags.text>
-    <BuildSandbags.instructionClass>Instruction_BuildSandbags</BuildSandbags.instructionClass>
     <BuildSandbags.rejectInputMessage>Zbuduj worki z piaskiem na zaznaczonym obszarze.</BuildSandbags.rejectInputMessage>
     <BuildSandbags.onMapInstruction>Postaw tu worki z piaskiem.</BuildSandbags.onMapInstruction>
 
     <FinishSandbags.text>Poczekajmy na ukończenie wszystkich konstrukcji.\n\nRozważ użycie zakładki "praca", aby przydzielić więcej kolonistów do budowy.\n\nMożesz też przyśpieszyć czas.\n\nGdy wszystko będzie gotowe, naślę na Ciebie agresora, który sprawdzi Twoją obronę.</FinishSandbags.text>
-    <FinishSandbags.instructionClass>Instruction_FinishConstruction</FinishSandbags.instructionClass>
-    <FinishSandbags.rejectInputMessage>Poczekaj, aż Twoi koloniści skończą budować worki z piaskiem.</FinishSandbags.rejectInputMessage>
+     <FinishSandbags.rejectInputMessage>Poczekaj, aż Twoi koloniści skończą budować worki z piaskiem.</FinishSandbags.rejectInputMessage>
 
     <DownRaider.text>W Twoim kierunku pędzi agresor!\n\n1. Zatrzymaj grę, wciskając {Key:TogglePause}\n2. Przeczytaj czerwone powiadomienie w prawym dolnym rogu ekranu.\n3. Powołaj swoich kolonistów do służby, wybierając ich i zaznaczając "służba".\n4. Powołanemu koloniście możesz nakazać udanie się za worki z piaskiem prawym przyciskiem myszy.\n5. Odpauzuj grę.\n\nAby osłona w pełni działała, kolonista musi się z nią stykać (to znaczy pomiędzy nim a obiektem nie może być żadnej przerwy). Gdy skończysz, poczekaj na przeciwnika. Twoi koloniści zaatakują automatycznie.</DownRaider.text>
-    <DownRaider.instructionClass>Instruction_DownRaider</DownRaider.instructionClass>
     <DownRaider.onMapInstruction>Wyślij tu kolonistów.</DownRaider.onMapInstruction>
 
     <UndraftAll.text>Sukces! Odwołaj ze służby wszystkich kolonistów, używając tej samej komendy co poprzednio.\n\nPowrócą do swych normalnych zajęć.</UndraftAll.text>
-    <UndraftAll.instructionClass>Instruction_UndraftAll</UndraftAll.instructionClass>
 
     <ChooseStoryteller.text>To już koniec samouczka!\n\nPrzed Tobą jednak mnóstwo dalszej nauki, bo to były ledwie podstawy. Przed Tobą takie kwestie jak polowanie, handel, więzienie, oswajanie zwierząt i wiele, wiele innych.\n\nLosowe zdarzenia były wyłączone w trakcie samouczka. Aby rozpocząć prawdziwą grę:\n\n1. Wejdź do zakładki "menu" w prawym dolnym rogu ekranu.\n2. Przejdź do opcji, kliknij "wybierz pisarza SI".\n3. Wybierz Pisarza SI i poziom trudności, który będzie Ci odpowiadał.\n\nPowodzenia i baw się dobrze!</ChooseStoryteller.text>
     <ChooseStoryteller.rejectInputMessage>Wybierz pisarza SI, by zakończyć samouczek.</ChooseStoryteller.rejectInputMessage>
