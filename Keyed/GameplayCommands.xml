@@ -9,24 +9,24 @@
   <CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>Oznacz do przełączenia</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i czekan aż jeden z nich to zrobi</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i poczekaj, aż jeden z nich to zrobi.</CommandDesignateTogglePowerDesc>
 
   <CommandTryReconnectLabel>Przełącz</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Próbuje podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
 
   <CommandGatherSpotToggleLabel>Miejsce zgromadzeń</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić wokół tego obiektu.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić wokół tego obiektu.</CommandGatherSpotToggleDescInactive>
   
   
   <!-- Drafting -->
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść ani odpoczywać.</CommandToggleDraftDesc>
   <IsIncapped>{0} jest niesprawny.</IsIncapped>
 
   <CommandClearPrioritizedWork>Anuluj zadanie piorytetowe</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>Przerywa piorytetową pracę zleconą przez Ciebie. Postać wróci do swoich zwyczajnych zadań.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>Przerywa piorytetowe zadanie. Postać wróci do swoich zwyczajnych prac.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Anuluj</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Anuluj budowę.</CommandCancelConstructionDesc>
@@ -36,7 +36,7 @@
 
   <CommandBedSetOwnerLabel>Wybierz właściciela</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
-  <CommandGraveAssignColonistLabel>Przydziel koloniste</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistLabel>Przydziel kolonistę</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>Pzydziel ten grób dla konkretnego kolonisty.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Przydziel</BuildingAssign>
   <BuildingUnassign>Anuluj przypisanie</BuildingUnassign>
@@ -73,7 +73,7 @@
 
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tę wieżyczkę tak długo, jak będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Wyłączenie manualnego trybu celowania pozwala tej wieżyczce wybierać cele automatycznie.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Brak trybu manualnego celowania.</CommandStopAttackFailNotForceAttacking>
@@ -93,19 +93,19 @@
 
   <!-- Door -->
   <CommandToggleDoorForbid>Przejście zabronione</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione koloniści i sojusznicy nie będa przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione, koloniści i sojusznicy nie będą przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Kiedy aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
   <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Ustaw wyższą temperaturę.</CommandRaiseTempDesc>
-  <CommandLowerTempDesc>Ustaw niższą  temperaturę.</CommandLowerTempDesc>
+  <CommandLowerTempDesc>Ustaw niższą temperaturę.</CommandLowerTempDesc>
 
    <!-- Install/reinstall -->
   <CommandInstall>Zamontuj</CommandInstall>
-  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
+  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji "ustaw", aby móc z niego korzystać.</CommandInstallDesc>
   <CommandReinstall>Przenieś w inne miejsce</CommandReinstall>
   <CommandReinstallDesc>Oznacza ten przedmiot do zdemontowania i zamontowania w innym miejscu.</CommandReinstallDesc>
   
@@ -119,11 +119,11 @@
 
   <!-- Trap -->
   <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
-  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Spuść zwierzęta</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Kiedy włączone zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone pozostaną i będą bronić swoje pana.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Kiedy włączone - zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone - pozostaną i będą bronić swojego pana.</CommandReleaseAnimalsDesc>
   
   <!-- Squad attack -->
   <CommandSquadAttack>Atakuj</CommandSquadAttack>
@@ -136,7 +136,7 @@
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Wybierz roślinę do zasadzenia</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>Roślina: {0}</CommandSelectPlantToGrow>
-  <CommandSelectPlantToGrowDesc>Określa jaka roślina powinna tutaj rosnąć.</CommandSelectPlantToGrowDesc>
+  <CommandSelectPlantToGrowDesc>Określa, jaka roślina powinna tutaj rosnąć.</CommandSelectPlantToGrowDesc>
  
  <!-- Build copy -->
   <CommandBuildCopy>Stwórz kopię</CommandBuildCopy>
