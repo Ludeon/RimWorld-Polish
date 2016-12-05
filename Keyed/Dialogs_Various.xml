@@ -10,23 +10,23 @@
   <GameUpdatedToNewVersionSteam>Jeśli chcesz kontynuować ze starą wersją, możesz wybrać dodatek "Betas" na Steamie.\n\n  1. W bibliotece Steam odszukaj RimWorld i kliknij PPM.\n  2. Wybierz "właściwości".\n  3. Wybierz zakładkę "Bety".\n  4. Z menu wybierz wersję, która Ci odpowiada.\n\nStarsze wersje mogą być usunięte z listy - nie chcemy przerywać gier w trakcie.\n\nPmaiętaj, że jeśli autor moda zaktualizuje go do nowej wersji, może on nie działać na starej. Aby tego uniknąć, wyłącz automatyczne aktualizacje.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Wygląda na to, że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowane do innej wersji RimWorlda albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów.</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Wygląda na to, że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowano je do innej wersji RimWorlda albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>Wystąpił błąd podczas ładowania elementów</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Wystąpił błąd poczas ładowania elementów. Zobacz logi po wiecej informacji.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z niestandardowymi modami - mogą być one przyczyną problemu.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssetsTitle>Wystąpił błąd podczas ładowania elementów.</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Wystąpił błąd poczas ładowania elementów. Sprawdź logi po wiecej informacji.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z niestandardowymi modami - mogą one być przyczyną problemu.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Wystąpił błąd podczas tworzenia mapy.</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>Wystąpił błąd podczas tworzenia mapy. Sprawdź logi po więcej infomacji.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Błąd podczas ładowania mapy</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Wystąpił błąd poczas ładowania mapy. Sprawdź logi po więcej informacji.</ErrorWhileLoadingMap>
   
    <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>Gra nie mogła całkowicie usunąć zmodyfikowanego kodu nieaktywnych modów, przez co mogą być one nadal aktywne.\n\nZalecamy wyjście z gry i włączenie jej ponownie.</ModWithAssemblyWasUnloaded>
+  <ModWithAssemblyWasUnloaded>Gra nie byłs e dysnir całkowicie usunąć zmodyfikowanego kodu nieaktywnych modów, przez co nadal mogą one być aktywne.\n\nZalecamy wyjście z gry i włączenie jej ponownie.</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
-  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n- Steam nie jest uruchomiony.\n- uruchomiono bez użycia Steam bez steam_appid.txt we właściwym miejscu.\n- uruchomiono z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
+  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n- Steam nie jest uruchomiony;\n- uruchomiono bez steam_appid.txt we właściwym miejscu;\n- uruchomiono z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Inicjalizacja interfejsu</InitializingInterface>
@@ -38,7 +38,7 @@
   <LoadingWorld>Ładowanie świata</LoadingWorld>
   <LoadingMap>Ładowanie mapy</LoadingMap>
   <InitializingMap>Inicjalizacja mapy</InitializingMap>
-  <SpawningAllThings>Spawnowanie wszystkich obiektów</SpawningAllThings>
+  <SpawningAllThings>Wczytywanie obiektów</SpawningAllThings>
   
   <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
@@ -52,35 +52,35 @@
   <SavingLongEvent>Zapisuję</SavingLongEvent>
   <PermadeathModeSaveSuffix>(permanentna śmierć)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest ona inaczej zbudowana.\n\nTen stan zapisu gry powinien działać.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest ona inaczej zbudowana.\n\nTen stan zapisu gry powinien jednak działać.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie powinien działać.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.</ProblemSavingFile>
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
   
   <!-- Colony naming-->
-  <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo. Jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
+  <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo, jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
   <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Nazwa niepoprawna.</ColonyNameIsInvalid>
 
   <!-- Renaming -->
   <NameIsInvalid>Proszę podać poprawną nazwę.</NameIsInvalid>
-  <NameIsInUse>Nazwa już w użyciu.</NameIsInUse>
-  <ZoneGainsName>Obszar teraz nazywa się {0}.</ZoneGainsName>
+  <NameIsInUse>Nazwa jest już w użyciu.</NameIsInUse>
+  <ZoneGainsName>Nowa nazwa obszaru to {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <PawnGainsName>Kolonista od teraz ma przydomek {0}.</PawnGainsName>
+  <PawnGainsName>Nowy przydomek kolonisty to {0}.</PawnGainsName>
   
   <!-- Save game incompatible warning -->
   <VersionMismatch>Różne wersje gry</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiona została wersja {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
-  <FileIncompatibleWarning>Ta gra była zapisany z grą w wersji: {0}\nWObecnie używamy wersji: {1}\n\nZaładowanie tej gry może spowodować błędy i bugi</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>Mody nie są kompatybilne</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>Mapa została zapisana z innymi modami niż te które obecnie działają. To może ale nie musi spowodować problemy, zależnie od tego co dane mody robią.\n\nMapa została zapisana z (w tej kolejności):\n\n{0}\n\nMy działamy z:\n\n{1}</ModsMismatchWarningText>
+  <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiono wersję {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiono wersję {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Ta gra była zapisana w wersji {0}.\nObecnie używamy wersji {1}.\n\nZaładowanie tej gry może spowodować błędy.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Mody nie są kompatybilne.</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Mapa została zapisana z innymi modami niż te, które działają obecnie. Może to, ale nie musi, spowodować problemy, zależnie od działania modów.\n\nMapa została zapisana z (w tej kolejności):\n\n{0}.\n\nMy działamy z:\n\n{1}.</ModsMismatchWarningText>
   
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa działa poprawnie?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa jest odpowiednia?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Zostaw</ResolutionKeep>
   <ResolutionRevert>Przywróć</ResolutionRevert>
   
@@ -91,24 +91,24 @@
   <Finished>Skończone</Finished>
   <InProgress>W trakcie</InProgress>
   <Locked>Zablokowane</Locked>
-  <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU DO BADAŃ, nie będziesz mógł prowadzić badań.\n\nJednak cały czas będziesz mógł wybierać i podglądać projekty do badań.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Zanim nie wybudujesz stołu do badań, nie będziesz mógł ich prowadzić.\n\nNadal jednak będziesz mógł wybierać i przeglądać poszczególne projekty naukowe.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Wymagane technologie</ResearchPrerequisites>
   <RequiredResearchBench>Wymagany stół do badań</RequiredResearchBench>
   <RequiredResearchBenchFacilities>Wymagany dodatkowy sprzęt badawczy</RequiredResearchBenchFacilities>
 	
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Uwaga: wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub inne miejsce lądowania.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba że masz naprawdę mocny komputer. Jeżeli masz słaby komputer, wybierz mały rozmiar.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Uwaga: wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub miejsce lądowania.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Uwaga: wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba że masz naprawdę mocny komputer. Jeżeli jest on słabszy, wybierz mały rozmiar.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
   <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
-  <MapSizeSmall>Mały</MapSizeSmall>
-  <MapSizeMedium>Średni</MapSizeMedium>
-  <MapSizeLarge>Duży</MapSizeLarge>
+  <MapSizeSmall>Mała</MapSizeSmall>
+  <MapSizeMedium>Średnia</MapSizeMedium>
+  <MapSizeLarge>Duża</MapSizeLarge>
   <MapSizeExtreme>Ludeoniczna</MapSizeExtreme>
   <MapStartSeason>Początkowa pora roku:</MapStartSeason>
   <MapStartSeasonDefault>Automatyczna</MapStartSeasonDefault>
   <PermadeathMode>Permanentna śmierć</PermadeathMode>
-  <PermadeathModeInfo>W trybie permanentnej śmierci masz tylko jeden plik z zapisem rozgrywki, który zapisuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki, by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak rozgrywka w RimWorld miała wyglądać, z każdą dramatyczną zmianą - tragiczną czy też pomocną - grana do samego końca.</PermadeathModeInfo>
+  <PermadeathModeInfo>W trybie permanentnej śmierci masz tylko jeden plik z zapisem rozgrywki, który aktualizuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki, by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak miała wyglądać rozgrywka w RimWorld - z każdą dramatyczną zmianą, tragiczną czy też pomocną, gramy do samego końca.</PermadeathModeInfo>
   
   <!-- Bill config -->
   <Suspended>Odwieś</Suspended>
@@ -121,16 +121,16 @@
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <CountingProducts>Liczy</CountingProducts>
   <Infinite>W nieskończoność</Infinite>
-  <AllowedSkillRange>Dopuszczalny poziom umiejętności {0}:</AllowedSkillRange>
+  <AllowedSkillRange>Wymagany poziom umiejętności {0}:</AllowedSkillRange>
   
-  <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości ponieważ ma on różne lub nieprzewidywalne rezultaty.)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości, ponieważ ma on różne lub nieprzewidywalne rezultaty).</RecipeCannotHaveTargetCount>
   <WorkAmount>Ilość pracy</WorkAmount>
   <MinimumSkills>Minimalna umiejętność:</MinimumSkills>
   <BillRequires>Wymaga {0} {1}</BillRequires>
   <BillRequiresNutrition>Wymaga {0} punktów głodu</BillRequiresNutrition>
-  <BillRequiresMayVary>Uwaga: małych składników, takich jak złoto, potrzeba 20x więcej.</BillRequiresMayVary>
-  <ThisIsSmallVolume>To mały składnik. Oznacza to, że każda jego "jednostka" odpowiada zaledwie 1/20 składnika normalnej wielkości. Dlatego też potrzebujesz go 20 razy więcej niż innych skłądników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
-  <UsableIngredients>składniki, których można użyć</UsableIngredients>
+  <BillRequiresMayVary>Uwaga: potrzeba 20 razy więcej małych składników takich jak złoto.</BillRequiresMayVary>
+  <ThisIsSmallVolume>To mały składnik. Oznacza to, że każda jego jednostka odpowiada zaledwie 1/20 składnika normalnej wielkości. Dlatego też potrzebujesz go 20 razy więcej niż innych składników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
+  <UsableIngredients>Możliwe do użycia składniki</UsableIngredients>
   <DoXTimes>Rób X razy</DoXTimes>
   <DoUntilYouHaveX>Rób do uzyskania X</DoUntilYouHaveX>
   <DoForever>Powtarzaj bez przerwy</DoForever>
@@ -152,13 +152,13 @@
   <Harvestable>Można zbierać</Harvestable>
   <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
   <GrowingTime>Czas wzrostu</GrowingTime>
-  <GrowingTimeDesc>Rośliny rosną tylko przez pewną część dnia i tylko w świetle. Ta statystyka pokazuje ile czasu zajmie roślinom osiągnięcie maksymalnych rozmiarów. Prawdziwy czas wzrostu jest zazwyczaj mniej więcej dwa razy dłuższy. Rozwój spowalniają także niskie temperatury.</GrowingTimeDesc>
+  <GrowingTimeDesc>Rośliny rosną tylko przez pewną część dnia i wyłącznie w świetle. Ta statystyka pokazuje, ile czasu zajmie roślinom osiągnięcie maksymalnych rozmiarów. Prawdziwy czas wzrostu jest zazwyczaj mniej więcej dwa razy dłuższy. Rozwój spowalniają także niskie temperatury.</GrowingTimeDesc>
   <Days>dni</Days>
-  <MinGrowingSkillToSow>Minimalna umiejętność hodowli zbyt niska</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>Minimalna umiejętność hodowli jest zbyt niska</MinGrowingSkillToSow>
   <FertilityRequirement>Wymagana żyzność gleby</FertilityRequirement>
   <SoilFertilitySensitivityGrowthRate>Uwarunkowania żyzności gleby (szybkość wzrostu)</SoilFertilitySensitivityGrowthRate>
   <SoilFertilitySensitivityPlantChance>Uwarunkowania żyzności gleby (szansa na zasadzenie)</SoilFertilitySensitivityPlantChance>
-  <LightRequirement>Wymagany typ światła</LightRequirement>
+  <LightRequirement>Wymagany rodzaj światła</LightRequirement>
   <Attributes>Atrybuty</Attributes>
   <LifeSpan>Żywotność</LifeSpan>
   <Nutrition>Punkty głodu</Nutrition>
@@ -176,9 +176,9 @@
   <BodyPartEfficiency>Efektywność części ciała</BodyPartEfficiency>
   <MoodChange>Zmiana nastroju</MoodChange>
   <Wildness>Dzikość</Wildness>
-  <WildnessExplanation>Dziksze zwierzęta są naturalnie cieższe do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
+  <WildnessExplanation>Dziksze zwierzęta są naturalnie trudniejsze do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
   <AnimalFilthRate>Wskaźnik produkcji niczystości</AnimalFilthRate>
-  <AnimalFilthRateExplanation>Zwierzęta produkują nieczystości kiedy poruszają się po wybudowanych podłogach. To jest średnia ilość takich nieczystości wytwarzanych na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
+  <AnimalFilthRateExplanation>Zwierzęta produkują nieczystości, kiedy poruszają się po wybudowanych podłogach. Powstają one w średniej ilości na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Czas</TimeRecordsCategory>
   <MiscRecordsCategory>Różne</MiscRecordsCategory>
   <Addictiveness>Uzależnienie</Addictiveness>
@@ -186,35 +186,35 @@
   <!-- Trade -->
   <PositiveBuysNegativeSells>Dodatnia liczba zakupów.\nUjemna liczba sprzedaży.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Cena, jaką za to zapłacisz.</BuyPriceDesc>
-  <SellPriceDesc>Srebro, jakie za to dostaniesz</SellPriceDesc>
+  <SellPriceDesc>Srebro, jakie za to otrzymasz</SellPriceDesc>
   <PriceTypeDesc>Cena tego przedmiotu to {0}.</PriceTypeDesc>
-  <ColonyCount>Ile tego przedmiotu kolonia posiada na handel.\n\nMożesz sprzedać tylko przedmioty, które nie są pod dachem i leżą w zasięgu nadajnika handlu orbitalnego.</ColonyCount>
-  <TraderCount>Ile tego przedmiotu posiada handlarz.</TraderCount>
+  <ColonyCount>Ile tego przedmiotu kolonia posiada na handel?\n\nMożesz sprzedać tylko przedmioty, które nie są pod dachem i leżą w zasięgu nadajnika handlu orbitalnego.</ColonyCount>
+  <TraderCount>Ile tego przedmiotu posiada handlarz?</TraderCount>
   <AcceptButton>Akceptuj</AcceptButton>
   <ResetButton>Zresetuj</ResetButton>
   <CancelButton>Anuluj</CancelButton>
   <CloseButton>Zamknij</CloseButton>
   <YourTradeableSilver>Twoje srebro, którym możesz handlować: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
-  <TraderHasNoMore>Handlarz nie ma więcej.</TraderHasNoMore>
+  <TraderHasNoMore>Handlarz nie ma więcej tych przedmiotów.</TraderHasNoMore>
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmów z powodu słabego zdrowia.\n\nWpłynie to na ceny towarów.\n\nRozważ wysłanie zdrowego negocjatora.</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>Handlarz nie ma wystaczającej ilości srebra żeby ci zapłacić. Kontynuować mimo to?</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>Handlarz nie ma wystaczającej ilości srebra, żeby ci zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
   <SortBy>Sortuj</SortBy>
   
   <!-- Comms -->
-  <SocialSkillIs>Umiejętności socjalne: {0}</SocialSkillIs>
+  <SocialSkillIs>Umiejętności społeczne: {0}</SocialSkillIs>
   
   <!--Research-->
   <ResearchFinished>Badanie ukończone: {0}</ResearchFinished>
   <ResearchScreen>Ekran badań</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Czy zgadzasz się wysyłać dane gry na serwer RimWorld aby pomóc twórcom gry balansować rozgrywkę? Jeśli się zgodzisz, Twoje dane zostaną wysyłane co {0} dni (oraz w niektórych rzadkich przypadkach takich jak koniec gry). Opcje prywatności mogą zostać w każdej chwili zmienione w menu opcji.</HistoryUploadMessage>
+  <HistoryUploadMessage>Czy zgadzasz się wysyłać dane gry na serwer RimWorld, aby pomóc twórcom gry balansować rozgrywkę? Jeśli się zgodzisz, Twoje dane będą wysyłane co {0} dni (oraz w niektórych rzadkich przypadkach takich jak koniec gry). Opcje prywatności mogą zostać w każdej chwili zmienione w menu opcji.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Możesz podać imię, w przeciwnym razie dane zostaną wysłane anonimowo.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>ZEZWALAJ na wysyłanie</HistoryUploadYes>
-  <HistoryUploadNo>NIE ZEZWALAJ na wysyłanie</HistoryUploadNo>
+  <HistoryUploadYes>Zezwalaj na wysyłanie</HistoryUploadYes>
+  <HistoryUploadNo>Nie zezwalaj na wysyłanie</HistoryUploadNo>
   <HistoryUploadYesOnce>Wyślij tylko tym razem</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Nie wysyłaj teraz, zapytaj mnie później</HistoryUploadNoOnce>
 
@@ -252,14 +252,14 @@
   <DeleteDrugTooltip>Usuń ten narkotyk.</DeleteDrugTooltip>
   <DrugNameColumnDesc>Nazwa narkotyku</DrugNameColumnDesc>
   <DrugUsageColumnDesc>Sposób, w jaki można przyjmować narkotyk.</DrugUsageColumnDesc>
-  <FrequencyColumnDesc>Jak często koloniści powinni próbować przyjmować ten narkotyk.</FrequencyColumnDesc>
+  <FrequencyColumnDesc>Określa, jak często koloniści powinni próbować przyjmować ten narkotyk.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom zabawy spadnie poniżej granicy.</JoyThresholdColumnDesc>
-  <TakeToInventoryColumnDesc>Liczba narkotyku zabrana dodatkowo podczas zbierania go w celu konsumpcji, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
-  <DrugUsageTipForJoy>Dla zabawy.\n\nPrzyjmuj ten narkotyk dla zabawy i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNwaet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
+  <TakeToInventoryColumnDesc>Ilość narkotyku zabrana dodatkowo, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>Dla zabawy.\n\nPrzyjmuj ten narkotyk dla zabawy i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Zaplanowane.\n\nPrzyjmuj ten narkotyk o zaplanowanych porach.</DrugUsageTipScheduled>
  
   <!-- Growing -->
-  <NoGrowerCanPlant>{0} wymaga {1} punktów zdolności hodowli, aby zasiać.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} wymaga {1} punktów umiejętności, aby możliwe było zasianie.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
   
 </LanguageData>
