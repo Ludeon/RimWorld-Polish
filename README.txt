@@ -16,7 +16,7 @@ Aby wgrać tłumaczenie:
 ============
 
 WORKING CREW (last 3 months):
-Lead translator: Nalthe (kamila@borto.pl)
+Lead translator&copyreader: Nalthe (kamila@borto.pl)
 - Kunegard [Parapisalni]
 - Marcin "Mareo" Zdziarski
 - Mateusz "Fejm" Filipczak
