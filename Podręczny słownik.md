@@ -14,10 +14,12 @@ wysypisko (DumpingStockpile)
 zespół odstawienny (withdrawal)  
 
 #Przedmioty
+browar  
 brzytwa (Shiv)  
 czapka zimowa (Tuque)  
 długi łuk (Bow_Great)  
 długi miecz (LongSword)  
+dozownik pasty odżywczej  
 geoskaner (GroundPenetratingScanner)  
 gladius  
 hełm wojskowy (MilitaryHelmet)  
@@ -33,51 +35,78 @@ karabin (SurvivalRifle)
 karabin energetyczny (ChargeRifle)  
 karabin snajperski kalibru 7,62 mm (SniperRifle)  
 karabin szturmowy kalibru 6 mm (AssaultRifle)  
+konsola łączności (CommsConsole)
 koszula (CollarShirt)  
-krótki łuk (Bow_Short)
+krótki łuk (Bow_Short)  
+kuchenka elektryczna  
 kurtka zimowa (Jacket)  
+kuźnia  
+laboratorium narkotyków  
+laboratorium naukowe  
 lekki karabinek kalibru 8 mm (LMG)  
 lekki karabin maszynowy (HeavySMG)  
-monitor sił witalnych (VitalsMonitor)  
+monitor funkcji życiowych (VitalsMonitor)  
 maczuga (Club)  
+maszyna do szycia  
 minigun  
 multianalizer  
-nadajnik handlowy (OrbitalTradeBeacon)  
+nadajnik handlu orbitalnego (OrbitalTradeBeacon)  
 neurotrener (Neurotrainer)  
+niezasilana lodówka (PassiveCooler)  
 nóż (Knife)
 odzież plemienna (TribalA)  
 oszczep (Pila)  
 pałka (Mace)
 pancerz wspomagany (PowerArmor)  
-pasywna lodówka (PassiveCooler)  
 pianka gaśnicza (FirefoamPopper)  
+piec hutniczy  
+piec kuchenny  
 pistolet (Pistol)  
 pistolet automatyczny (MachinePistol)  
 płaszcz (Duster)  
 płaszcz zimowy (Parka)  
 podkoszulek (BasicShirt)  
+przetwórnia metalu  
 reaktor antymaterii (ShipReactor)
 spodnie (Pants)  
+stół bezglebowy  
+stół do badań  
+stół kamieniarski  
+stół roboczy  
+stół rzeźniczy  
+stół warsztatowy  
 strzelba (PumpShotgun)  
+superapteczka  
 przełącznik (Switch)  
 tarcze energetyczne (PersonalShields)  
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
+zestaw do szycia  
 
 #Rośliny, substancje, jedzenie
 bloker malarii (MalariBlock)  
 brzeczka (Wort)
 go-juice (GoJuice)  
+jadeit (Jade)  
 joint (nie dżoint)  
+liście psychodeliczne  
 lucyferium (Luciferium)  
+nanowłókno  
+neutroamina  
 pasza dla zwierząt (Kibble)  
 pemikan (Pemmican)  
 pobudzacz (WakeUp)  
 płatki psychitu (Flake)  
 psychit (Psychite)  
+sprasowane komponenty
+sprasowane żelazo  
+superstal (Plasteel)  
 włosak diabelski (Devilstrand)  
 yayo (Yayo)  
 zioło (Smokeleaf)  
+srebro  
+uran  
+żyła złota!  
 
 #Zwierzęta i inne stworzenia
 alfabóbr (alphabeaver)  
