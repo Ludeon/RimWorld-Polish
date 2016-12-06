@@ -1,11 +1,11 @@
 #Ogólne
-obszar (Zone)
-pole uprawne (GrowingZone)
-SI (nie AI)
-składowisko (nie skład! Stockpile)
-wysypisko (DumpingStockpile)
+obszar (Zone)\n
+pole uprawne (GrowingZone)\n
+SI (nie AI)\n
+składowisko (nie skład! Stockpile)\n
+wysypisko (DumpingStockpile)\n
 
 #Zwierzęta
-alfabóbr (alphabeaver)
-mawół (mufallo)
-Thrumbo (wielka litera)
+alfabóbr (alphabeaver)\n
+mawół (mufallo)\n
+Thrumbo (wielka litera)\n
