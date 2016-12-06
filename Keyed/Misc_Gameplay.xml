@@ -15,7 +15,7 @@
   <Unowned>wolne</Unowned>
   <DeadTime>Nie żyje od {0}</DeadTime>
   <WalkSpeed>Szybkość ruchu: {0}</WalkSpeed>
-  <FertShort>fert.</FertShort>
+  <FertShort>żyzn.</FertShort>
   <DyingLower>umiera</DyingLower>
   <FilthOnFeet>Brud na nogach:</FilthOnFeet>
   <NotEnoughStoredLower>za mało w magazynie</NotEnoughStoredLower>
@@ -66,27 +66,27 @@
   <DrugEffectMultiplier>{0} mnożnik efektu</DrugEffectMultiplier>
   
   <!-- Fermentation barrel -->
-  <ContainsWort>Zawiera {0} / {1} brzeczki.</ContainsWort>
-  <ContainsBeer>Zawiera {0} / {1} piwa.</ContainsBeer>
+  <ContainsWort>Zawiera {0}/{1} brzeczki.</ContainsWort>
+  <ContainsBeer>Zawiera {0}/{1} piwa.</ContainsBeer>
   <Fermented>Sfermentowany</Fermented>
   <FermentationProgress>Postęp: {0} (koniec za około {1}).</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>Nieidealna temperatura. Mnożnik szybkości fermentacji: {0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>Nieodpowiednia temperatura. Mnożnik szybkości fermentacji: {0}</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>Strzał w głowę</Headshot>
-  <TreatQuality>Jakość leczenia {0}</TreatQuality>
+  <TreatQuality>Jakość leczenia: {0}</TreatQuality>
   <PoorResult>słaby wynik</PoorResult>
   <GoodResult>dobry wynik</GoodResult>
   <TextMote_TreatSuccess>Leczenie udane!\n{0} szans</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Leczenie nieudane\n{0} szans</TextMote_TreatFailed>
   <HarvestFailed>Zbiór\nnieudany</HarvestFailed>
   <TextMote_RecruitFail>Rekrutacja nieudana!\n{0} szans</TextMote_RecruitFail>
-  <TextMote_TameFail>Oswajanie nieudane \n{0} szans</TextMote_TameFail>
+  <TextMote_TameFail>Oswajanie nieudane.\n{0} szans</TextMote_TameFail>
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
   <TextMote_TrainFail>Szkolenie nieudane: {0}\n{1} szans</TextMote_TrainFail>
   <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>Naprawa\nnieudana</TextMote_FixBrokenDownBuildingFail>
-  <TextMote_ConstructionFail>Konstrukcja\nnieudana</TextMote_ConstructionFail>
+  <TextMote_FixBrokenDownBuildingFail>Naprawa nieudana</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>Konstrukcja nieudana</TextMote_ConstructionFail>
  
   <!-- Areas -->
   <Home>Dom</Home>
@@ -162,9 +162,9 @@
   <ThoughtExpiresIn>Zakończy się za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Rozpocznie kończyć się za: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Przestanie kończyć się za: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdExtreme>Poziom ciężkiego załamania nerwowego</MentalBreakThresholdExtreme>
-  <MentalBreakThresholdMajor>Poziom lekkiego załamania nerwowego</MentalBreakThresholdMajor>
-  <MentalBreakThresholdMinor>Poziom nieznacznego załamania nerwowego</MentalBreakThresholdMinor>
+  <MentalBreakThresholdExtreme>Ciężkie załamanie nerwowe</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdMajor>Lekkie załamanie nerwowe</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMinor>Ekstremalne załamanie nerwowe</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -181,7 +181,7 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
-  <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów jeśli nie został wezwany na służbę.</HostilityReponseTip>
+  <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów, jeśli nie został wezwany na służbę.</HostilityReponseTip>
   <HostilityResponseCurrentMode>Aktualny tryb</HostilityResponseCurrentMode>
  
 
@@ -230,10 +230,10 @@
   <PercentGrowth>Urosło w {0}</PercentGrowth>
   <GrowthRate>Tempo wzrostu</GrowthRate>
   <FullyGrownIn>Wyrośnie za {0}.</FullyGrownIn>
-  <PlantNeedsLightLevel> Potrzebuje światła.</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>Potrzebuje światła.</PlantNeedsLightLevel>
   <PlantResting>W stanie spoczynku.</PlantResting>
-  <OutOfIdealTemperatureRange>Nieodpowiednia temperatura (rośnie z {0} normalnej prędkości wzrostu)</OutOfIdealTemperatureRange>
-  <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie)</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRange>Nieodpowiednia temperatura (rośnie z {0} normalnej prędkości wzrostu).</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie).</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Gotowe do zebrania!</ReadyToHarvest>
   <Mature>dojrzałe</Mature>
   <SeedLabel>nasiono {0}</SeedLabel>
@@ -264,7 +264,7 @@
   <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność pomocnika samouczka, kiedy jest pusty.\n\nPomocnik samouczka jest zawsze widoczny, jeśli istnieje coś aktywnego, czego musisz się nauczyć. Ten przełącznik sprawia, że pomocnik przestaje być widoczny, gdy nie ma aktywnego zadania do nauki.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju nad którym znajduje się kursor.</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju, nad którym znajduje się kursor.</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>Włącz/Wyłącz pasek postaci.\n\nWyświetla ikony i podstawowe informacje o postaciach u góry ekranu.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
@@ -306,7 +306,7 @@
   <ShipReportCannotLaunch>Nie można wystartować</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Gotowy do startu</ShipReportCanLaunch>
   <ShipReportMissingPart>Brakuje ważnej części</ShipReportMissingPart>
-  <ShipReportNoFullPods>Nie są zajęte wszystkie kapsuły hibernacyjne</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Nie wszystkie kapsuły hibernacyjne są zajęte.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0} użył {1} neurotrenera, zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
@@ -325,7 +325,7 @@
   
   <!-- Quality -->
   <Quality>jakość</Quality>
-  <QualityDescription>Jakość oznacza, jak dobrze dany przedmiot został wykonany.</QualityDescription>
+  <QualityDescription>Jakość określa, jak dobrze dany przedmiot został wykonany.</QualityDescription>
   <QualityIs>Jakość: {0}</QualityIs>
   
   <!-- Mood descriptions -->
@@ -339,8 +339,8 @@
   
   <!-- Game over -->
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}\nCi koloniści pozostali na planecie:\n\n{1}\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może Cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowym asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, jak się obudzisz.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniają tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało ci się przetrwać.</GameOverPlanetkillerImpact>
+  <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}.\nCi koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniając tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało ci się przetrwać.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   
