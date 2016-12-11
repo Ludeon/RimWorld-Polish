@@ -16,8 +16,8 @@ Aby wgrać tłumaczenie:
 ============
 
 WORKING CREW (last 3 months):
-Lead translator&copyreader: Nalthe (kamila@borto.pl)
-- Kunegard [Parapisalni]
+Lead translator&copyreader: Nalthe [www.RimWorldPolska.pl]
+- Kunegard [www.RimWorldPolska.pl]
 - Marcin "Mareo" Zdziarski
 - Mateusz "Fejm" Filipczak
 
