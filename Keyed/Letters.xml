@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <JumpToLocation>Zobacz miejsce</JumpToLocation>
@@ -58,7 +58,10 @@
   <LetterLeadersDeathLabel>śmierć lidera</LetterLeadersDeathLabel>
   <LetterLeadersDeath>Lider frakcji {1} - {0} - zmarł i został zastąpiony przez {2}.</LetterLeadersDeath>
   
-  <MentalBreakLetterLabel>załamanie nerwowe</MentalBreakLetterLabel>
+  <LetterLeaderChangedLabel>Nowy lider {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0} nie jest już {3} {1}.\n\nNowy {3} to {2}.</LetterLeaderChanged>
+  
+  <MentalBreakLetterLabel>Załamanie nerwowe</MentalBreakLetterLabel>
   <MentalBreakReason>Powód: {0}.</MentalBreakReason>
   
   <!-- Related pawns -->
@@ -67,12 +70,13 @@
   <LetterRelatedPawnsRaidFriendly>W przybywającej przyjaznej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>W przybywającej grupie {0} znajdują się członowie rodzin twoich kolonistów lub więźniów:</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>Orbitalny handlarz sprzedaje członków rodziny twoich kolonistów lub więźniów:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithFactionBase>Baza frakcji sprzedaje ludzi, którzy są związani z twoimi kolonistami lub więźniami:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>Karawana sprzedaje ludzi, którzy są związani z twoimi kolonistami lub więźniami:</LetterRelatedPawnsTradingWithOtherCaravan>
   
   <RelationshipAppendedLetterSuffix>(rodzina)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME jest członkiem rodziny twojego kolonisty. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME jest członkiem rodziny twojego więźnia. HECAP jest {1} dla {0}.</RelationshipAppendedLetterTextPrisoner>
-  
-  
+ 
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>romans</LetterLabelAffair>
   <LetterAffair>{0}, który jest w związku małżeńskim z {1}, rozpoczął romans z {2}.</LetterAffair>
@@ -113,5 +117,31 @@
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Brak opamiętania: {0}</LetterLabelDrugBinge>
   <LetterDrugBinge>{0} objada się {1}.</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Karawana jest już gotowa</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Twoja karawana została utworzona i czeka na polecenia na mapie świata.</LetterFormedCaravan>
+
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Karawana została zniszczona</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Wszyscy członkowie twojej karawany zmarli.</LetterAllCaravanColonistsDied>
+
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Karawana wpadła w zasadzkę</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} zostali napadnięci.</LetterCaravanEnteredAmbushMap>
+
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Rozpoczęto atak</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} przybył do {1} i jest gotowy do rozpoczęcia ataku.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} przybył do {1} i jest gotowy do rozpoczęcia ataku.\n\nPonieważ zbliża się twój wróg, {2} również jest twoim wrogiem.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Zniszczono siedzibę wroga</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Siedziba {0} została zniszczona.\n\nMasz {1} godziny, aby zabrać przedmioty, zanim twoi koloniści zmienią karawanę.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>To była ostatnia baza {0}, co oznacza, że frakcja przestała istnieć.</LetterFactionBaseDefeated_FactionDestroyed>
+
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Porzuceni</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Niektóre z twoich zwierząt lub więźniów zostały w dziczy:\n\n{0}.</LetterPawnsLostDueToMapCountdown>
 
 </LanguageData>
