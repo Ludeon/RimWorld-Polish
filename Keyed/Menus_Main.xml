@@ -30,9 +30,18 @@
   <WorldGenerate>Twórz</WorldGenerate>
   <WorldSaveAndFinish>Zapisz i zakończ</WorldSaveAndFinish>
   <Reset>Resetuj</Reset>
-  <WorldSize>Wielkość</WorldSize>
+  <PlanetCoverage>Stopień pokrycia świata</PlanetCoverage>
+  <PlanetRainfall>Suma opadów</PlanetRainfall>
+  <PlanetTemperature>Amplituda temperatur</PlanetTemperature>
+  <PlanetRainfall_Low>Niska</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normalna</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Wysoka</PlanetRainfall_High>
+  <PlanetTemperature_Low>Niska</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normalna</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Wysoka</PlanetTemperature_High>
   <WorldSeed>Ziarno</WorldSeed>
   <RandomizeSeed>Losuj ziarno</RandomizeSeed>
+  <PlanetCoverageTip>Planeta ma zawsze tę samą średnicę, ale odkąd jest znacznie większa niż obszar potrzebny do gry, nie generujemy całej jej powierzchni, ponieważ zajęło by to bardzo dużo czasu. Cecha ta określa, jaki procent powierzchni planety ma zostać wygenerowany.</PlanetCoverageTip>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Wybierz świat</SelectWorld>
@@ -91,10 +100,10 @@
   <CanBeUpdatedOnWorkshop>Możesz wgrać do Warsztatu Steam, ponieważ jesteś autorem.</CanBeUpdatedOnWorkshop>
   
   <!--=========== Select storyteller ==========-->
-	<ChooseAIStoryteller>Wybierz swojego pisarza SI</ChooseAIStoryteller>
-	<HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię.</HowStorytellersWork>  
-	<MustChooseDifficulty>Wybierz poziom trudności.</MustChooseDifficulty> 
-	<Difficulty>Poziom trudności</Difficulty>
+  <ChooseAIStoryteller>Wybierz swojego pisarza SI</ChooseAIStoryteller>
+  <HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię. Ustawienia te możesz zmienić w każdym momencie.</HowStorytellersWork>  
+  <MustChooseDifficulty>Wybierz poziom trudności.</MustChooseDifficulty> 
+  <Difficulty>Poziom trudności</Difficulty>
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Wybierz miejsce zrzutu</SelectLandingSite>
@@ -102,22 +111,17 @@
   <SelectSite>Dalej</SelectSite>
   <MustSelectLandingSite>Proszę wybrać miejsce zrzutu.</MustSelectLandingSite>
   <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}.</CannotLandBiome>
-  <WorldRenderMode>Tryb</WorldRenderMode>
-  <WorldRenderModeFull>Pełny</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Temperatura</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Wysokość</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Żyzność</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Opady</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Strefa</WorldRenderModeBiomes>
   <BiomeNotImplemented>Klimat niezaimplementowany</BiomeNotImplemented>
+  <CannotLandImpassableMountains>Nie możesz wylądować na nieprzemierzalnych górach.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>{0} already have a base there.</BaseAlreadyThere>		  
   <BaseAlreadyThere>{0} już mają tam bazę.</BaseAlreadyThere>
   <Biome>Klimat</Biome>
   <Terrain>Teren</Terrain>
   <Elevation>Wysokość</Elevation>
   <Fertility>Żyzność</Fertility>
-  <AvgTemp>Śr. temp.</AvgTemp>
-  <AvgWinterTemp>Śr. temp. (zima): {0}</AvgWinterTemp>
-  <AvgSummerTemp>Śr. temp. (lato): {0}</AvgSummerTemp>
+  <AvgTemp>Średnia temperatura</AvgTemp>
+  <AvgWinterTemp>Temperatura w zimie:</AvgWinterTemp>
+  <AvgSummerTemp>Temperatura w lecie:</AvgSummerTemp>
   <Rainfall>Opady</Rainfall>
   <HasCoast0>Północne wybrzeże</HasCoast0>
   <HasCoast1>Wschodnie wybrzeże</HasCoast1>
@@ -125,6 +129,10 @@
   <HasCoast3>Zachodnie wybrzeże</HasCoast3>
   <FactionBase>Osada</FactionBase>
   <StoneTypesHere>Rodzaje skał</StoneTypesHere>
+  <TimeZone>Strefa czasowa</TimeZone>
+  <MovementTimeNow>Obecny czas poruszania</MovementTimeNow>
+  <MovementTimeSummer>Czas poruszania w lecie</MovementTimeSummer>
+  <MovementTimeWinter>Czas poruszania w zimie</MovementTimeWinter>
     
    <!--=========== Character chooser ==========-->
   <CreateCharacters>Stwórz postacie</CreateCharacters>
@@ -158,8 +166,12 @@
   <ConfirmQuit>Czy na pewno chcesz wyjść z gry? Stracisz niezapisany postęp.</ConfirmQuit>
   
   <EveryoneNeedsValidName>Każda postać musi posiadać poprawne imię.</EveryoneNeedsValidName>
+  <Quit>Wyjdź</Quit>
+  <Ignore>Zignoruj</Ignore>
 
+  <!--============ Progress bar==============-->
   <GeneratingWorld>Tworzenie świata</GeneratingWorld>
   <GeneratingMap>Tworzenie mapy</GeneratingMap>
+  <GeneratingMapForNewEncounter>Tworzenie mapy do nowego spotkania</GeneratingMapForNewEncounter>
   
 </LanguageData>

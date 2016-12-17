@@ -40,6 +40,7 @@
   <PrisonerAttemptRecruit>Rozmowa i rekrutacja</PrisonerAttemptRecruit>
   <PrisonerRelease>Wypuszczenie</PrisonerRelease>
   <PrisonerExecution>Egzekucja</PrisonerExecution>
+  <ConsideredGuilty>Uznany za winnego (wygasa za {0})</ConsideredGuilty>
 
 
   <!-- Medical - general -->
@@ -52,9 +53,6 @@
   <Healthy>Zdrowy</Healthy>
   <InPain>Obolały</InPain>
   <PainLevel>Ból</PainLevel>
-  <Dead>Martwy</Dead>
-  <Unconscious>Nieprzytomny</Unconscious>
-  <PainShock>Szok pourazowy</PainShock>
   <Injured>Ranny</Injured>
   <NoInjuries>(bez obrażeń)</NoInjuries>
   <WholeBody>Całe ciało</WholeBody>
@@ -62,6 +60,8 @@
   <Communication>Porozumiewanie się</Communication>
   <Affects>wpływa na</Affects>
   <BleedingRate>Tempo krwawienia</BleedingRate>
+  <TimeToDeath>martwy za {0}</TimeToDeath>
+  <WontBleedOutSoon>brak bezpośredniego zagrożenia</WontBleedOutSoon>
   <HealthOverview>Podgląd</HealthOverview>
   <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
@@ -113,6 +113,7 @@
 
   <!-- Gear tab -->
   <AverageArmor>Odporność</AverageArmor>
+  <MassCarried>Przenoszona masa: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Komfortowy zakres temperatury</ComfyTemperatureRange>
   <ArmorBlunt>Obrażenia obuchowe</ArmorBlunt>
   <ArmorSharp>Obrażenia cięte</ArmorSharp>

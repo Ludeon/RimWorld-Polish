@@ -2,16 +2,13 @@
 <LanguageData>
 
   <Autosaving>Autozapis</Autosaving>
-  
   <GameStartDialog>Wasza trójka obudziła się z hibernacji na dźwięk syren i rozrywanego metalu. Cudem udało wam się dostać do kapsuł ratunkowych, zanim statek został rozerwany na strzępy.\n\nJakiś czas później wylądowaliście na tej nieznanej planecie.\n\nWraz ze spadaniem na ziemię kolejnych fragmentów rozbitego statku, zaczęliście tworzyć plany, jak przetrwać.</GameStartDialog>
-
   <Colony>Kolonia</Colony>
-  
   <ChangeLanguageFromMainMenu>Język można zmienić tylko w głównym menu gry.</ChangeLanguageFromMainMenu>
-
   <AndLower>i</AndLower>
   <DisabledLower>wykluczone</DisabledLower>
 
+  
   <VersionIndicator>Wersja {0}</VersionIndicator>
   <DevelopmentBuildLower>wersja deweloperska</DevelopmentBuildLower>
   <CompiledOn>Kompilacja {0}</CompiledOn>
@@ -58,14 +55,18 @@
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
 
-  <SomeonesRoom>{1} {0}</SomeonesRoom>
-  <CouplesRoom>{2} {0} i {1}</CouplesRoom>
+  <SomeonesRoom>{1} należący do {0}</SomeonesRoom>
+  <CouplesRoom>{2} należący do {0} i {1}</CouplesRoom>
   
   <VariousLabel>(różne)</VariousLabel>
 
   <!-- History events -->
   <ColonistDied>Kolonista umarł.</ColonistDied>
   
-  
+  <!-- Rotation -->
+  <North>Północ</North>
+  <South>Południe</South>
+  <West>Zachód</West>
+  <East>Wschód</East>
 
 </LanguageData>

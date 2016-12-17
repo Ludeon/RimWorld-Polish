@@ -10,7 +10,6 @@
     <RandomizeCharacter.rejectInputMessage>Najpierw spróbuj wylosować bohatera.</RandomizeCharacter.rejectInputMessage>
 
     <AcceptStartingPawns.text>Świetnie!\n\nMożesz wylosować więcej postaci, jeśli chcesz - ale nie próbuj znaleźć idealnego bohatera. Każdy ma jakieś wady, które czynią wszystko ciekawszym!\n\nMożesz także zmienić imiona postaci, klikając na ich obecne.\n\nNaciśnij "rozpocznij", kiedy będziesz gotowy.</AcceptStartingPawns.text>
-
     <MapCameraDolly.text>Jesteś już na powierzchni planety!\n\nSpróbuj przemieścić kamerę.\n\nUżyj do tego następujących klawiszy: {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} lub kliknij i przesuń ją środkowym przyciskiem myszy.\n\nZrób to teraz!</MapCameraDolly.text>
     <MapCameraZoom.text>Świetnie!\n\nMożesz również przybliżać i oddalać widok za pomocą kółka myszy lub klawisza {Key:MapZoomIn} i {Key:MapZoomOut}.\n\nZrób to teraz!</MapCameraZoom.text>
     <Pause.text>Możesz także zatrzymać czas.\n\nOznacza to, że nigdy nie musisz się śpieszyć. Zawsze możesz zatrzymać rozgrywkę i w swoim czasie wydać odpowiednie rozkazy kolonistom.\n\nSpróbuj teraz zapauzować grę, używając przycisku {Key:TogglePause} lub wykorzystując sterowniki czasu w prawym dolnym rogu.</Pause.text>
@@ -19,6 +18,7 @@
     <MakeStockpile.text>Świetnie!\n\nTeraz stwórz składowisko, aby koloniści wiedzieli, gdzie przechowywać rzeczy.\n\n1. Kliknij przycisk "architekt" w lewym dolnym rogu.\n2. Wybierz zakładkę "obszary".\n3. Wybierz narzędzie tworzenia składowiska.\n4. Kliknij na powierzchnię i zaznacz wskazany obszar na mapie.</MakeStockpile.text>
     <MakeStockpile.rejectInputMessage>Stwórz składowisko na wskazanym obszarze.</MakeStockpile.rejectInputMessage>
     <MakeStockpile.onMapInstruction>Utwórz tutaj składowsko \n(przesuń kursor od rogu do rogu)</MakeStockpile.onMapInstruction>
+    
     <EndStockpileDesignating.text>Kliknij prawym przyciskiem myszy, aby wyjść z trybu zarządzania składowiskiem.</EndStockpileDesignating.text>
 
     <UnforbidStartingResources.text>Teraz pozwól kolonistom przenieść przedmioty do składowiska. Musisz je odblokować.\n\n1. Kliknij na startowe przedmioty, aby je wybrać.\n2. Kliknij przęłącznika "zabronione", aby odblokować przedmioty.\n\n(Protip: kliknij dwukrotnie na dany przedmiot, aby zaznaczyć wszystkie rzeczy tego rodzaju na ekranie).</UnforbidStartingResources.text>
@@ -103,13 +103,15 @@
     <BuildSandbags.onMapInstruction>Postaw tu worki z piaskiem.</BuildSandbags.onMapInstruction>
 
     <FinishSandbags.text>Poczekajmy na ukończenie wszystkich konstrukcji.\n\nRozważ użycie zakładki "praca", aby przydzielić więcej kolonistów do budowy.\n\nMożesz też przyśpieszyć czas.\n\nGdy wszystko będzie gotowe, naślę na Ciebie agresora, który sprawdzi Twoją obronę.</FinishSandbags.text>
-     <FinishSandbags.rejectInputMessage>Poczekaj, aż Twoi koloniści skończą budować worki z piaskiem.</FinishSandbags.rejectInputMessage>
+    <FinishSandbags.rejectInputMessage>Poczekaj, aż Twoi koloniści skończą budować worki z piaskiem.</FinishSandbags.rejectInputMessage>
 
-    <DownRaider.text>W Twoim kierunku pędzi agresor!\n\n1. Zatrzymaj grę, wciskając {Key:TogglePause}\n2. Przeczytaj czerwone powiadomienie w prawym dolnym rogu ekranu.\n3. Powołaj swoich kolonistów do służby, wybierając ich i zaznaczając "służba".\n4. Powołanemu koloniście możesz nakazać udanie się za worki z piaskiem prawym przyciskiem myszy.\n5. Odpauzuj grę.\n\nAby osłona w pełni działała, kolonista musi się z nią stykać (to znaczy pomiędzy nim a obiektem nie może być żadnej przerwy). Gdy skończysz, poczekaj na przeciwnika. Twoi koloniści zaatakują automatycznie.</DownRaider.text>
+    <DownRaider.text>W twoim kierunku pędzi agresor!\n\n1. Zatrzymaj grę, wciskając {Key:TogglePause}\n2. Przeczytaj czerwone powiadomienie w prawym dolnym rogu ekranu.\n3. Powołaj swoich kolonistów do służby, wybierając ich i zaznaczając "służba".\n4. Powołanemu koloniście możesz nakazać udanie się za worki z piaskiem prawym przyciskiem myszy.\n5. Odpauzuj grę.\n\nAby osłona w pełni działała, kolonista musi się z nią stykać (to znaczy pomiędzy nim a obiektem nie może być żadnej przerwy). Gdy skończysz, poczekaj na przeciwnika. Twoi koloniści zaatakują automatycznie.</DownRaider.text>
+    <DownRaider.rejectInputMessage>Skup się na wygraniu walki!</DownRaider.rejectInputMessage>
     <DownRaider.onMapInstruction>Wyślij tu kolonistów.</DownRaider.onMapInstruction>
 
     <UndraftAll.text>Sukces! Odwołaj ze służby wszystkich kolonistów, używając tej samej komendy co poprzednio.\n\nPowrócą do swych normalnych zajęć.</UndraftAll.text>
-
+    <UndraftAll.rejectInputMessage>Odwołaj kolonistów ze służby.</UndraftAll.rejectInputMessage>
+	
     <ChooseStoryteller.text>To już koniec samouczka!\n\nPrzed Tobą jednak mnóstwo dalszej nauki, bo to były ledwie podstawy. Przed Tobą takie kwestie jak polowanie, handel, więzienie, oswajanie zwierząt i wiele, wiele innych.\n\nLosowe zdarzenia były wyłączone w trakcie samouczka. Aby rozpocząć prawdziwą grę:\n\n1. Wejdź do zakładki "menu" w prawym dolnym rogu ekranu.\n2. Przejdź do opcji, kliknij "wybierz pisarza SI".\n3. Wybierz Pisarza SI i poziom trudności, który będzie Ci odpowiadał.\n\nPowodzenia i baw się dobrze!</ChooseStoryteller.text>
     <ChooseStoryteller.rejectInputMessage>Wybierz pisarza SI, by zakończyć samouczek.</ChooseStoryteller.rejectInputMessage>
 

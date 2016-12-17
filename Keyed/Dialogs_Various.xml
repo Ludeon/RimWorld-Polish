@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <Confirm>Potwierdź</Confirm>
   <GoBack>Wstecz</GoBack>
   <OK>Ok</OK>
   
+  <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld został zaktualizowany z wersji {0} do wersji {1}.\n\nStarsze wersje zapisanych gier i modów mogą nie działać.</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>Ponieważ jest to wersja DMR-free, możesz zainstalować grę w innym folderze, aby móc jednocześnie grać na nowej i starej wersji.</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>Jeśli chcesz kontynuować ze starą wersją, możesz wybrać dodatek "Betas" na Steamie.\n\n  1. W bibliotece Steam odszukaj RimWorld i kliknij PPM.\n  2. Wybierz "właściwości".\n  3. Wybierz zakładkę "Bety".\n  4. Z menu wybierz wersję, która Ci odpowiada.\n\nStarsze wersje mogą być usunięte z listy - nie chcemy przerywać gier w trakcie.\n\nPmaiętaj, że jeśli autor moda zaktualizuje go do nowej wersji, może on nie działać na starej. Aby tego uniknąć, wyłącz automatyczne aktualizacje.</GameUpdatedToNewVersionSteam>
@@ -39,6 +40,7 @@
   <LoadingMap>Ładowanie mapy</LoadingMap>
   <InitializingMap>Inicjalizacja mapy</InitializingMap>
   <SpawningAllThings>Wczytywanie obiektów</SpawningAllThings>
+  <SpawningColonists>Wczytywanie kolonistów</SpawningColonists>
   
   <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
@@ -58,11 +60,20 @@
   <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.</ProblemSavingFile>
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
   
-  <!-- Colony naming-->
-  <NameColonyMessage>Wszyscy wiedzą, że nie chcesz zostać na tym odludziu zbyt długo, jednak {0} sugeruje, żeby nadać kolonii nazwę.\n\nJak powinna się ona nazywać?</NameColonyMessage>
-  <ColonyGainsName>Kolonia jest znana jako {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Nazwa niepoprawna.</ColonyNameIsInvalid>
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} uważa, że powinieneś nazwać frakcję. Jaką nazwę jej nadasz?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Twoja frakcja jest teraz znana jako {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Nazwa nie jest poprawna.</PlayerFactionNameIsInvalid>
 
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Ponieważ wygląda na to, że zostaniesz tu przez jakiś czas, {0} uważa, że powinieneś nadać nazwę tej społeczności. Jaką wybierzesz?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>Ta społeczność jest teraz znana jako {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Nazwa nie jest poprawna.</PlayerFactionBaseNameIsInvalid>
+
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Ponieważ wygląda na to, że zostaniesz tu przez jakiś czas, {0} uważa też, że powinieneś nadać nazwę tej społeczności. Jaką wybierzesz?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Twoja frakcja jest teraz znana jako {0}, a społeczność jako {1}.</PlayerFactionAndBaseGainsName>
+	
   <!-- Renaming -->
   <NameIsInvalid>Proszę podać poprawną nazwę.</NameIsInvalid>
   <NameIsInUse>Nazwa jest już w użyciu.</NameIsInUse>
@@ -156,9 +167,8 @@
   <Days>dni</Days>
   <MinGrowingSkillToSow>Minimalna umiejętność hodowli jest zbyt niska</MinGrowingSkillToSow>
   <FertilityRequirement>Wymagana żyzność gleby</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>Uwarunkowania żyzności gleby (szybkość wzrostu)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Uwarunkowania żyzności gleby (szansa na zasadzenie)</SoilFertilitySensitivityPlantChance>
-  <LightRequirement>Wymagany rodzaj światła</LightRequirement>
+  <FertilitySensitivity>Wrażliwość na żyzność</FertilitySensitivity>
+  <LightRequirement>Wymagana ilość światła</LightRequirement>
   <Attributes>Atrybuty</Attributes>
   <LifeSpan>Żywotność</LifeSpan>
   <Nutrition>Punkty głodu</Nutrition>
@@ -167,6 +177,7 @@
   <WalkSpeedProperty>Szybkość chodzenia</WalkSpeedProperty>
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <Diet>Dieta</Diet>
+  <BodySize>Rozmiar ciała</BodySize>
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
   <MarketValue>Wartość podstawowa</MarketValue>
   <Covers>Osłona</Covers>
@@ -202,7 +213,71 @@
   <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmów z powodu słabego zdrowia.\n\nWpłynie to na ceny towarów.\n\nRozważ wysłanie zdrowego negocjatora.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Handlarz nie ma wystaczającej ilości srebra, żeby ci zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
   <SortBy>Sortuj</SortBy>
-  
+  <TraderTypePrice>Rodzaj handlarza</TraderTypePrice>
+  <Selling>Sprzedaż</Selling>
+  <Buying>Zakup</Buying>
+  <ItemSellPriceFactor>Mnożnik ceny sprzedaży</ItemSellPriceFactor>
+  <DifficultyLevel>Poziom trudności</DifficultyLevel>
+  <PostCurve>Krzywa globalnego przebiegu</PostCurve>
+  <YourNegotiatorBonus>Bonus negocjatora</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Bonus handlu z bazą frakcji</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Ostateczna cena</FinalPrice>
+  <TradeMassUsageTooltip>Ostateczna masa i dostępna pojemność.</TradeMassUsageTooltip>
+
+  <!-- Form caravan -->
+  <FormCaravan>Stwórz karawanę</FormCaravan>
+  <FormCaravanColonyThingCountTip>Ilość przedmiotów, które kolonia może już przekazać karawanie.</FormCaravanColonyThingCountTip>
+  <PawnsTab>Ludzie i zwierzęta</PawnsTab>
+  <ItemsTab>Przedmioty</ItemsTab>
+  <CaravanConfigTab>Zmień</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>Musisz przypisać przynajmniej jednego przytomnego kolonistę.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Nie można było znaleźć odpowiedniego miejsca wyjścia.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Uwaga: niektórzy z wybranych kolonistów nie są w stanie dostać się do miejsca wyjścia.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} jest nieosiągalny dla wybranych kolonistów.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Żaden z wybranych kolonistów nie jest w stanie dostać się do {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Żaden z wybranych kolonistów nie jest w stanie dostać się do {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>Karawana nie jest w stanie unieść takiego ciężaru.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Obecna masa i pojemność.\n\nMasa obejmuje wybrane zaopatrzenie karawany i sprzęt kolonistów.\n\nNie będziesz mógł wysłać karawany w podróż, jeśli masa przekroczy pojemność.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>Liczba dni, na które posiadasz prowiant: {0}</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Nigdy nie zabraknie jedzenia</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Przybliżona liczba dni, po których karawanie zabraknie jedzenia.\n\nPod uwagę brane jest zarówno ludzkie, jak i zwierzęce pożywienie. Liczba ta bierze pod uwagę najgorszy możliwy scenariusz. Oznacza to, że gdy minie ten czas, przynajmniej jedna osoba lub zwierzę nie będzie miała jedzenia.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.\n\nCzy jesteś pewien, że chcesz stworzyć tę karawanę?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Twoja karawana nie ma jedzenia i szybko zacznie głodować.\n\nCzy jesteś pewien, że chcesz stworzyć tę karawanę?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>Musisz wybrać kierunek podróży karawany.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(brak dostępnego kierunku podróży)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Kierunek podróży</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Waga tego przedmiotu.</ItemWeightTip>
+  <MarketValueTip>Wartość rynkowa</MarketValueTip>
+  <MassCapacity>Pojemność</MassCapacity>
+  <Mass>Masa</Mass>
+  <EquipmentAndApparelMass>Masa sprzętu i ubrań</EquipmentAndApparelMass>
+  <InventoryMass>Masa wyposażenia</InventoryMass>
+  <CaravanFormationProcessStarted>Twoi koloniści wezmą teraz wybrane przedmioty i opuszczą obszar tak szybko, jak będzie to możliwe.</CaravanFormationProcessStarted>
+  <ReformCaravan>Zmień karawanę</ReformCaravan>
+  <ColonistsSection>Koloniści</ColonistsSection>
+  <PrisonersSection>Więźniowie</PrisonersSection>
+  <AnimalsSection>Zwierzęta</AnimalsSection>
+
+  <!-- Split caravan -->
+  <SplitCaravan>Podziel karawanę</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>Musisz zostawić w karawanie przynajmniej jednego przytomnego kolonistę.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Przed</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Po</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>Liczba przedmiotów, które możesz przekazać nowej karawanie.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Obecna masa i pojemność.</SplitCaravanMassUsageTooltip>
+
+  <!-- Load transporters -->
+  <LoadTransporters>Załaduj {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>Wybrane osoby i przedmioty są za ciężkie dla kapsuł transportowych.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>Nie możesz wysłać pustych kapsuł.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} nie może dostać się do kapsuł.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>Pomiędzy kapsułami i {0} nie ma przejścia.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>Pomiędzy kapsułami i {0}x {1} nie ma przejścia.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Obecna masa i dostępna pojemność.\n\nNie będziesz mógł wysłać kapsuł transportowych, jeśli masa przekroczy pojemność.</TransportersMassUsageTooltip>
+
   <!-- Comms -->
   <SocialSkillIs>Umiejętności społeczne: {0}</SocialSkillIs>
   
@@ -256,10 +331,27 @@
   <MoodThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom zabawy spadnie poniżej granicy.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Ilość narkotyku zabrana dodatkowo, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForAddiction>Dla uzależnień.\n\nUżyj tego narkotyku, aby zaspokoić potrzebę uzależnionej osoby.\n\nNawet jeśli jest zabroniony, niektóre osoby z określonymi cechami lub załamaniem nerwowym będą mogły z niego skorzystać.</DrugUsageTipForAddiction>
   <DrugUsageTipForJoy>Dla zabawy.\n\nPrzyjmuj ten narkotyk dla zabawy i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Zaplanowane.\n\nPrzyjmuj ten narkotyk o zaplanowanych porach.</DrugUsageTipScheduled>
  
   <!-- Growing -->
   <NoGrowerCanPlant>{0} wymaga {1} punktów umiejętności, aby możliwe było zasianie.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
   
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Niektórzy twoi koloniści lub zwierzęta znajdują się na tym obszarze. Czy jesteś pewien, że chcesz ich zostawić?\n\nNastępujące osoby i zwierzęta zostaną zostawione w tyle:\n\n{0}.</ConfirmAbandonHomeWithColonyPawns>
+
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>Na tym obszarze nadal znajdują się niektórzy więźniowie lub zwierzęta, a ta karawana jest jedyną, do której mogą dołączyć w tym momencie.\n\nJeśli wyruszysz z karawaną, nie będą oni mogli opuścić tego obszaru, dopóki nie wrócisz. Więźniowie zaczną uciekać, ale zwierzęta ciągle będą czekać na twój powrót.\n\nJeśli zdecydujesz się poczekać, postarają się dołączyć do karawany tak szybko, jak to tylko możliwe.\n\nCzy jesteś pewien, że chcesz już wyruszyć?</ConfirmLeavePrisonersOrAnimalsBehind>
+
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Czy na pewno chcesz zostawić {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} najprawdopodobniej umrze.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} zabierze ze sobą następujące przedmioty:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>U wszystkich kolonistów pojawią się następujące myśli:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>Zostawienie {0} spowoduje, że niektóre osoby zaczną myśleć w następujący sposób:</ConfirmAbandonPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest całkowicie załadowana. Brakuje {0}. Czy wystartować mimo to?</ConfirmSendNotCompletelyLoadedPods>
+
 </LanguageData>

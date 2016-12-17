@@ -22,9 +22,8 @@
   <NothingLower>nic</NothingLower>
   <Adapted>Przystosowanie się</Adapted>
   <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
-  <UntreatedLower>nieleczone</UntreatedLower>
   <DevelopedImmunityLower>uzyskano odporność</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>wymaga lekarza do wyleczenia</InjuryRequiresTreatment>
+  <NeedsTendingNow>Potrzebuje leczenia</NeedsTendingNow>
   <NextTreatmentIn>następne leczenie za {0} dni</NextTreatmentIn>
   <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
   <Immunity>Odporność</Immunity>
@@ -41,29 +40,68 @@
   <On>Włączone</On>
   <Off>Wyłączone</Off>
   <PowerSwitch_Power>Zasilanie</PowerSwitch_Power>
-  <JoyTolerances>Tolerancja radości</JoyTolerances>
-  <BrokenLetterLabel>Złamany</BrokenLetterLabel>
+  <JoyTolerances>Odporność na radość</JoyTolerances>
   <MilkFullness>Postęp produkcji mleka</MilkFullness>
   <WoolGrowth>Postęp produkcji wełny</WoolGrowth>
   <EggProgress>Postęp produkcji jajka</EggProgress>
   <Fertilized>Zapłodniona</Fertilized>
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
-  <EggDamagedEmbryo>uszkodzony zarodek</EggDamagedEmbryo>
+  <Freezing>Lodowato</Freezing>
+  <Overheating>Gorąco</Overheating>
+  <RuinedByTemperature>Zniszczone przez temperaturę.</RuinedByTemperature>
   <CorpsePercentMissing>Brakujące części ciała</CorpsePercentMissing>
   <HiveReproducesIn>Rozmnoży się za</HiveReproducesIn>
   <BrokenDown>awaria</BrokenDown>
   <BondBrackets>(więź)</BondBrackets>
   <Fuel>paliwo</Fuel>
+  <FuelLevelGizmoLabel>paliwo</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>Ustaw docelową ilość paliwa na {0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Ustaw docelową ilość paliwa na {0}.\nMaksymalna odległość: {1} pola</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>Docelowy poziom paliwa: {0}</ConfiguredTargetFuelLevel>
   <Enemies>wrogowie</Enemies>
   <TimePassed>czas, który upłynął</TimePassed>
   <CurrentRadius>aktualny promień</CurrentRadius>
   <RadiusExpandsIn>promień powiększy się za</RadiusExpandsIn>
   <Permanent>stały</Permanent>
+  <CaravanResting>Odpoczywa.</CaravanResting>
+  <CaravanEstimatedTimeToDestination>Szacowany czas podróży: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanImmobilizedByMass>Niemobilna: zbyt duży ciężar.</CaravanImmobilizedByMass>
+  <CaravanOutOfFood>Brak pożywienia.</CaravanOutOfFood>
+  <CaravanDaysOfFood>Czas, na który wystarczy ci jedzenia: {0} dni</CaravanDaysOfFood>
+  <CaravanMemberMentalBreak>Karawana stanęła, ponieważ {0} załamał się.</CaravanMemberMentalBreak>
+  <AllCaravanMembersDowned>Karawana stanęła, ponieważ wszyscy są nieprzytomni.</AllCaravanMembersDowned>
+  <CaravanTraveling>Podróżuje.</CaravanTraveling>
+  <CaravanWaiting>Czeka.</CaravanWaiting>
+  <CaravanHoursPerTile>h/pole</CaravanHoursPerTile>
+  <CaravanBaseMovementTime>Podstawowy czas przemieszczania się</CaravanBaseMovementTime>
+  <CurrentTileMovementTime>Obecny czas przemieszczania się</CurrentTileMovementTime>
   <Temperature>Temperatura</Temperature>
   <BadTemperature>nieodpowiednia temperatura</BadTemperature>
   <IdealFermentingTemperature>idealna temperatura fermentacji</IdealFermentingTemperature>
   <DrugEffectMultiplier>{0} mnożnik efektu</DrugEffectMultiplier>
+  <CaravanVisiting>Odwiedza {0}.</CaravanVisiting>
+  <CaravanEntering>Wchodzi do {0}.</CaravanEntering>
+  <CaravanAttacking>Atakuje {0}.</CaravanAttacking>
+  <WasWornByCorpse>Noszono po zmarłej osobie.</WasWornByCorpse>
+  <WornByCorpseChar>D</WornByCorpseChar>
+  <DeterioratingDueToBeingUnroofed>Psuje się, ponieważ nie jest pod dachem.</DeterioratingDueToBeingUnroofed>
+  <Map>Mapa</Map>
+  <ForceExitAndRemoveMapCountdown>{0} godzin do odejścia</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie zmienią karawanę i opuszczą ten obszar po {0} godzinach.</ForceExitAndRemoveMapCountdownTip>
+  <Room>Pomieszczenie</Room>
+  <BeautyHere>Piękno</BeautyHere>
+  <NoPower>Brak prądu</NoPower>
+  <WorkSpeedPenalty>Kara do szybkości pracy</WorkSpeedPenalty>
+  <DisabledCommand>WYŁĄCZONE</DisabledCommand>
+  <ReadyForLaunch>Gotowe do startu.</ReadyForLaunch>
+  <NotReadyForLaunch>Brak gotowości do startu.</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>brak portu paliwowego</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>brak paliwa</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>Załadunek w trakcie</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>Poza maksymalnym zasięgiem</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>Niewystarczająca ilość paliwa</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>{0} z {1}</FactionBaseTrader>
   
   <!-- Fermentation barrel -->
   <ContainsWort>Zawiera {0}/{1} brzeczki.</ContainsWort>
@@ -74,19 +112,16 @@
   
   <!--TextMotes-->
   <Headshot>Strzał w głowę</Headshot>
-  <TreatQuality>Jakość leczenia: {0}</TreatQuality>
-  <PoorResult>słaby wynik</PoorResult>
-  <GoodResult>dobry wynik</GoodResult>
   <TextMote_TreatSuccess>Leczenie udane!\n{0} szans</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Leczenie nieudane\n{0} szans</TextMote_TreatFailed>
   <HarvestFailed>Zbiór\nnieudany</HarvestFailed>
   <TextMote_RecruitFail>Rekrutacja nieudana!\n{0} szans</TextMote_RecruitFail>
   <TextMote_TameFail>Oswajanie nieudane.\n{0} szans</TextMote_TameFail>
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
-  <TextMote_TrainFail>Szkolenie nieudane: {0}\n{1} szans</TextMote_TrainFail>
-  <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>Naprawa nieudana</TextMote_FixBrokenDownBuildingFail>
-  <TextMote_ConstructionFail>Konstrukcja nieudana</TextMote_ConstructionFail>
+  <TextMote_TrainFail>Szkolenie nieudane: {0}.\n{1} szans</TextMote_TrainFail>
+  <TextMote_TrainSuccess>Wyszkolono: {0}.\n{1} szans</TextMote_TrainSuccess>
+  <TextMote_FixBrokenDownBuildingFail>Naprawa nieudana.</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>Konstrukcja nieudana.</TextMote_ConstructionFail>
  
   <!-- Areas -->
   <Home>Dom</Home>
@@ -157,6 +192,8 @@
   <!-- Generated recipes -->
   <RecipeMake>Robi {0}.</RecipeMake>
   <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
+  <RecipeAdminister>Zarządza {0}</RecipeAdminister>
+  <RecipeAdministerJobString>Zarządza {0}.</RecipeAdministerJobString>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Zakończy się za: {0}</ThoughtExpiresIn>
@@ -173,6 +210,9 @@
   <Faction>Frakcja</Faction>
   <Equipped>Używa</Equipped>
   <EquippedNothing>Nic</EquippedNothing>
+  <Dead>Martwy</Dead>
+  <Unconscious>Nieświadomy</Unconscious>
+  <PainShock>W szoku pourazowym</PainShock>
   <Incapacitated>Nieprzytomny</Incapacitated>
   <InRestraints>Związany (spowolniony)</InRestraints>
   <Carrying>Niesie</Carrying>
@@ -181,12 +221,12 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
+  <!-- Hostility response -->
   <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów, jeśli nie został wezwany na służbę.</HostilityReponseTip>
   <HostilityResponseCurrentMode>Aktualny tryb</HostilityResponseCurrentMode>
  
-
   <!-- like 'Blood of John' -->
-  <OfLower></OfLower>
+  <OfLower>z</OfLower>
 
   <!-- Power readout -->
   <PowerNotConnected>Niepodłączone do prądu.</PowerNotConnected>
@@ -236,8 +276,7 @@
   <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura (nie rośnie).</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Gotowe do zebrania!</ReadyToHarvest>
   <Mature>dojrzałe</Mature>
-  <SeedLabel>nasiono {0}</SeedLabel>
-  <OutdoorGrowingPeriod>Okres uprawy: {0}</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Okres uprawy:</OutdoorGrowingPeriod>
   <NoGrowingPeriod>nigdy</NoGrowingPeriod>
   <GrowYearRound>cały rok</GrowYearRound>
   <GrowSeasonHereNow>można uprawiać</GrowSeasonHereNow>
@@ -261,16 +300,18 @@
   <Undiscovered>Nieodkryte</Undiscovered>
   
   <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność pomocnika samouczka, kiedy jest pusty.\n\nPomocnik samouczka jest zawsze widoczny, jeśli istnieje coś aktywnego, czego musisz się nauczyć. Ten przełącznik sprawia, że pomocnik przestaje być widoczny, gdy nie ma aktywnego zadania do nauki.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność samouczka, kiedy jest pusty.\n\nPomocnik samouczka jest zawsze widoczny, jeśli istnieje coś aktywnego, czego musisz się nauczyć. Ten przełącznik sprawia, że pomocnik przestaje być widoczny, gdy nie ma aktywnego zadania do nauki.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Pokaż/ukryj widoczność obszarów.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Włącz wyświetlanie poziomu piękna.\n\nWyświetla poziom piękna dla osoby stojącej w miejscu wskazania kursora.</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>Włącz/Wyłącz statystyki pokoju.\n\nPokazuje statystyki pokoju, nad którym znajduje się kursor.</ShowRoomStatsToggleButton>
+  <ShowEnvironmentToggleButton>Włącz/wyłącz statystyki otoczenia.\n\nWyświetla piękno i statystyki pokoju dostrzegane przez znajdującą się w nim osobę.</ShowEnvironmentToggleButton>
   <ShowColonistBarToggleButton>Włącz/Wyłącz pasek postaci.\n\nWyświetla ikony i podstawowe informacje o postaciach u góry ekranu.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Automatycznie dodawaj obszar domu do nowych konstrukcji.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Włącz/Wyłącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Włącz/Wyłącz widoczność imion oswojonych zwierząt.</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>Włącz/Wyłącz widoczność dachów.</ShowRoofOverlayToggleButton>
-  
+  <LockNorthUpToggleButton>Zablokuj obracanie się kamery tak, aby północ była zawsze na górze.</LockNorthUpToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Włącz/wyłącz dzienny/nocny system oświetlenia.</UsePlanetDayNightSystemToggleButton>
+  <ExpandingIconsToggleButton>Włącz/wyłącz powiększające się ikony dla odległych przedmiotów.</ExpandingIconsToggleButton>
+	
   <!-- Fire -->
   <Fire>ogień</Fire>
   <FireOn>Pali się {0}</FireOn>
@@ -286,6 +327,7 @@
   <NoStuffsToBuildWith>Nie masz materiałów, z których możesz to zbudować.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
+  <WillGetWorkSpeedPenalty>{0} otrzyma karę do szybkości pracy.</WillGetWorkSpeedPenalty>
   <MustPlaceUnroofed>Nie może być zbudowane pod dachem.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicę do belki strukturalnej statku.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty odżywczej.</MustPlaceNextToHopperAccepter>
@@ -293,6 +335,7 @@
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Obie strony muszą być wystawione na przepływ powietrza przez kratkę wentylacyjną.</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>Musi posiadać wolną przestrzeń z każdej strony.</MustPlaceAdjacentStandable>
+  <MustPlaceNearFuelingPort>Musi być umieszczone obok portu paliwowego wyrzutni kapsuł.</MustPlaceNearFuelingPort>
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
@@ -309,15 +352,15 @@
   <ShipReportNoFullPods>Nie wszystkie kapsuły hibernacyjne są zajęte.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <NeurotrainerUsed>{0} użył {1} neurotrenera, zwiększając poziom umięjętności z {2} na {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{0} użył neurotrenera, zwiększając poziom umięjętności ({1}) z {2} na {3}.</NeurotrainerUsed>
   
   <!-- Minification -->
   <Installed>Ustawione</Installed>
   <NotInstalled>Nieustawione</NotInstalled>
   
   <!-- Art -->
-  <Title>tytuł</Title>
-  <Untitled>nienazwane</Untitled>
+  <Title>Tytuł</Title>
+  <Untitled>Nienazwane</Untitled>
   
   <!-- Unfinished thing -->
   <UnfinishedItem>Niedokończone: {0}</UnfinishedItem>
@@ -341,6 +384,7 @@
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}.\nCi koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniając tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało ci się przetrwać.</GameOverPlanetkillerImpact>
+  <GameOverArrivedAtJourneyDestination>Jeśli wejdziesz na pokład statku, jego załoga przyjmie cię z otwartymi ramionami. Wydają się zadowoleni, że mogą zabrać jeszcze przynajmniej jedną osobę ze sobą.\n\nNastępujący koloniści uciekli:\n\n{0}.\nNastępujący koloniści zostali opuszczeni:\n\n{1}.\nSI pomoże teraz pokierować statkiem w bezpieczne miejsce. Postara się znaleźć dobrze prosperującą planetę w tym systemie. Może też zabrać cię w tysiącletnią podróż na inną gwiazdę. Może nawet schować się pod lodem asteroidy na kilka wieków, czekają na kogoś, kto stworzy tam nowy glitterworld.\n\nGdy wejdziesz do kapsuły hibernacyjnej, przez chwilę będziesz się wahać i poczujesz niepewnie - w końcu skąd pewność, że powinieneś zaufać tym ludziom?\n\nPrzekonasz się, gdy się obudzisz.</GameOverArrivedAtJourneyDestination>
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   
@@ -388,9 +432,13 @@
   <ResourceBelow>Źródło poniżej</ResourceBelow>
   
   <!-- Learning helper -->
-  <LearningHelper>Pomocnik samouczka</LearningHelper>
+  <LearningHelper>Samouczek</LearningHelper>
   <MarkLearned>Oznacz jako nauczone</MarkLearned>
   <AlreadyLearned>Nauczone</AlreadyLearned>
   <Filter>Filtruj</Filter>
   
+  <!-- Compass -->
+  <CompassTip>Wskazuje północ. Kliknij, aby obrócić kamerę tak, by biegun północny znalazł się na górze.</CompassTip>
+
+	
 </LanguageData>

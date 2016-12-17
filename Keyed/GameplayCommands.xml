@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- Forbid -->
+  <CommandForbid>Zabroń</CommandForbid>
   <CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
 
@@ -24,6 +26,9 @@
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść ani odpoczywać.</CommandToggleDraftDesc>
   <IsIncapped>{0} jest niesprawny.</IsIncapped>
+
+  <CommandAllowFiringLabel>Pozwól na strzelanie</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>Przełącz pozwolenie na oddawanie strzałów.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na bezpośrednią walkę.</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>Anuluj zadanie piorytetowe</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Przerywa piorytetowe zadanie. Postać wróci do swoich zwyczajnych prac.</CommandClearPrioritizedWorkDesc>
@@ -142,4 +147,84 @@
   <CommandBuildCopy>Stwórz kopię</CommandBuildCopy>
   <CommandBuildCopyDesc>Stwórz kopię tej konstrukcji.</CommandBuildCopyDesc>
  
+  <!-- Form caravan -->
+  <CommandFormCaravan>Stwórz karawanę</CommandFormCaravan>
+  <CommandFormCaravanDesc>Uformuj grupę kolonistów, którzy będą podróżować do nowych obszarów. Zabiorą oni oznaczone zasoby i towarzyszące im zwierzęta, a następnie opuszczą obecny obszar i będą czekać na kolejne polecenia.</CommandFormCaravanDesc>
+
+  <!-- Reform caravan -->
+  <CommandReformCaravan>Zmień karawanę</CommandReformCaravan>
+  <CommandReformCaravanDesc>Zmień grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na kolejne polecenia.</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>Na obszarze nadal znajdują się wrogowie.</CommandReformCaravanFailHostilePawns>
+
+  <!-- Split caravan -->
+  <CommandSplitCaravan>Podziel</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>Podziel tę karawanę na dwie części. Można je potem ponownie połączyć, dopóki znajdują się blisko siebie.</CommandSplitCaravanDesc>
+
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>Połącz</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>Połącz wybrane karawany.</CommandMergeCaravansDesc>
+
+  <!-- Settle -->
+  <CommandSettle>Osiedl się</CommandSettle>
+  <CommandSettleDesc>Osiedl się na tym obszarze.\n\nTwoi koloniści wkroczą na ten obszar i zaczną budować nowy dom.</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>Aby zasiedlić obszar, twoja karawana musi być na nim jedynym obiektem.</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>Twoja frakcja może mieć tylko jedną bazę.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>Osiągnięto maksymalną liczbę kolonii.</CommandSettleFailReachedMaximumNumberOfBases>
+
+  <!-- Abandon home -->
+  <CommandAbandonHome>Opuść</CommandAbandonHome>
+  <CommandAbandonHomeDesc>Opuść ten obszar. Stanie się on nieosiągalny i nie będziesz mógł tu już nigdy wrócić. Po opuszczeniu domu możesz polecić jednej z karawan, aby zasiedliła nowy obszar.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>Wszyscy twoi koloniści są tutaj.</CommandAbandonHomeFailAllColonistsThere>
+
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>Anuluj tworzenie karawany</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>Zakończ proces tworzenia karawany.</CommandCancelFormingCaravanDesc>
+
+  <!-- Show map -->
+  <CommandShowMap>Przybliż</CommandShowMap>
+  <CommandShowMapDesc>Przybliż ten obszar.</CommandShowMapDesc>
+
+  <!-- Trade -->
+  <CommandTrade>Handluj</CommandTrade>
+  <CommandTradeDesc>Handluj z tą frakcją.</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>Nie posiadasz żadnego przytomnego negocjatora.</CommandTradeFailNoNegotiator>
+
+  <!-- Take off -->
+  <CommandTakeOff>Opuść planetę</CommandTakeOff>
+  <CommandTakeOffDesc>Wejdź na pokład statku i opuść planetę.</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>Czy jesteś pewien, że chcesz wystartować statek?\n\nWszystkie osoby z tego obszaru opuszczą planetę. Pozostali pozostaną w tyle.</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>Oznacz docelowy poziom paliwa</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>Oznacz docelowy poziom paliwa. Koloniści będą się starali uzupełniać je do tego poziomu.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Cancel load -->
+  <CommandCancelLoad>Anuluj załadunek</CommandCancelLoad>
+  <CommandCancelLoadDesc>Przerwij ładowanie przedmiotów lub ludzi i usuń wszystko już załadowane.</CommandCancelLoadDesc>
+
+  <!-- Launch group -->
+  <CommandLaunchGroup>Wystrzel grupę</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>Inicjalizuje docelowy proces wystrzału grupy kapsuł transportowych. Następny krok to wybranie celu. Kapsuły będą razem lecieć i wspólnie wylądują.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Niektóre kapsuły transportowe w tej grupie nie są połączone z portem tankującym.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>Niektóre wyrzutnie kapsuł w tej grupie nie mają paliwa.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>Niektóre wyrzutnie kapsuł znajdują się pod dachem.</CommandLaunchGroupFailUnderRoof>
+
+  <!-- Load transporter -->
+  <CommandLoadTransporter>Przygotuj wystrzelenie grupy {0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>Określa wybrane kapsuły transportowe jako grupę. Otwiera menu załadunku, w którym możesz zdecydować, kto i co zostanie załadowane.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>Kapsuła transportowa nie jest połączona z portem tankującym.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>Wyrzutnia kapsuł nie ma paliwa.</CommandLoadTransporterFailNoFuel>
+
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>Wybierz poprzednią kapsułę w grupie</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>Wybierz poprzednią kapsułę w tej grupie.</CommandSelectPreviousTransporterDesc>
+
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>Wybierz grupę kapsuł</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>Wybierz wszystkie kapsuły w tej grupie.</CommandSelectAllTransportersDesc>
+
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>Wybierz następną kapsułę w grupie</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>Wybierz następną kapsułę w tej grupie.</CommandSelectNextTransporterDesc>
+
 </LanguageData>
