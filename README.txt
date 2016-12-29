@@ -15,13 +15,13 @@ Lead translator&copyreader: Nalthe [www.RimWorldPolska.pl]
 - Marcin "Mareo" Zdziarski
 - Mateusz "Fejm" Filipczak
 - arts.fantasy
+- maxdyner
 
 If you want to join us and have any questions - feel free!
 
 ============
 
 PAST PROJECT CREW (last year):
-- maxdyner
 - Reco
 - Damian aka. Bucu
 - Oskar "volf3n" Nowak
