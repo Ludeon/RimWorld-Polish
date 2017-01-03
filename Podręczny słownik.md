@@ -1,6 +1,6 @@
 nowa linijka - dwie spacje
 #Ogólne
-insect (Insekt)  
+insekt (Insect)  
 obszar (Zone)  
 plemię (Tribe)  
 pole uprawne (GrowingZone)  
@@ -15,7 +15,6 @@ zespół odstawienny (withdrawal)
 
 #Przedmioty
 browar  
-brzytwa (Shiv)  
 czapka zimowa (Tuque)  
 długi łuk (Bow_Great)  
 długi miecz (LongSword)  
@@ -55,6 +54,7 @@ neurotrener (Neurotrainer)
 niezasilana lodówka (PassiveCooler)  
 nóż (Knife)
 odzież plemienna (TribalA)  
+ostrze (Shiv)
 oszczep (Pila)  
 pałka (Mace)
 pancerz wspomagany (PowerArmor)  
