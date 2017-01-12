@@ -18,7 +18,7 @@ Lead translator&copyreader: Nalthe [www.RimWorldPolska.pl]
 - arts.fantasy
 - maxdyner
 
-If you want to join us and have any questions - feel free!
+If you want to join us or have any questions - feel free!
 
 ============
 
