@@ -1,4 +1,5 @@
-A Polish translation for RimWorld.
+A Polish translation for RimWorld. 
+More info on http://rimworldpolska.pl/
 
 ============
 
