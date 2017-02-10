@@ -11,7 +11,7 @@ Instrukcja instalacji tłumaczenia: http://rimworldpolska.pl/jak-wgrac-tlumaczen
 ============
 
 WORKING CREW (last 3 months):
-Lead translator&copyreader: Nalthe [www.RimWorldPolska.pl]
+Lead translator&copyreader: Nika "Nalthe" Borto [www.RimWorldPolska.pl]
 - Kunegard [www.RimWorldPolska.pl]
 - Marcin "Mareo" Zdziarski
 - Mateusz "Fejm" Filipczak
