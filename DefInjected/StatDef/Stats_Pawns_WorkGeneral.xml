@@ -5,7 +5,10 @@
 	<WorkSpeedGlobal.description>Ogólny współczynnik szybkości wykonywania wszystkich prac.</WorkSpeedGlobal.description>
 	
 	<MiningSpeed.label>szybkość wydobywania surowców</MiningSpeed.label>
-	<MiningSpeed.description>Współczynnik szybkości wydobywania surowców.</MiningSpeed.description>
+	<MiningSpeed.description>Szybkość, z jaką ta osoba wydobywa surowce.</MiningSpeed.description>
+	
+	<MiningYield.label>rezultat wydobywania</MiningYield.label>
+        <MiningYield.description>Procentowe rezultaty kopiącego górnika. Im wyższy procent, tym mniejsze szanse na zniszczenie złoża. Dotyczy to zarówno zwykłego górnictwa, jak i głębokich odwiertów.</MiningYield.description>
 	
 	<SmoothingSpeed.label>szybkość wygładzania</SmoothingSpeed.label>
 	<SmoothingSpeed.description>Współczynnik szybkości wygładzania powierzchni.</SmoothingSpeed.description>
@@ -16,16 +19,22 @@
 	<ConstructionSpeed.label>szybkość budowania</ConstructionSpeed.label>
 	<ConstructionSpeed.description>Ta osoba buduje i naprawia z taką szybkością.</ConstructionSpeed.description>
 	
+	<AnimalGatherSpeed.label>szybkość zbierania dóbr od zwierząt</AnimalGatherSpeed.label>
+        <AnimalGatherSpeed.description>Prędkość, z jaką ta osoba doi zwierzęta, strzyże je i zbiera inne surowce od nich pochodzące.</AnimalGatherSpeed.description>
+ 
+	 <AnimalGatherYield.label>rezultat zbierania produktów odzwierzęcych</AnimalGatherYield.label>
+ 	<AnimalGatherYield.description>Procentowe rezultaty osoby, która doi zwierzęta, strzyże je lub zbiera od nich inne surowce. Im wyższy procent, tym mniejsze szanse na zniszczenie produktów.</AnimalGatherYield.description>
+	
 	<PlantWorkSpeed.label>szybkość uprawy</PlantWorkSpeed.label>
 	<PlantWorkSpeed.description>Prędkość, z jaką ta osoba sieje i zbiera plony.</PlantWorkSpeed.description>
 	
-	<HarvestFailChance.label>współczynnik zniszczenia plonów</HarvestFailChance.label>
-	<HarvestFailChance.description>Szansa, jaka istnieje na zniszczenie plonów podczas ich zbierania.</HarvestFailChance.description>
+	<PlantHarvestYield.label>rezultat zbierania plonów</PlantHarvestYield.label>
+	<PlantHarvestYield.description>Szansa, jaka istnieje na zniszczenie plonów podczas ich zbierania. Im mniejszy procent, tym większa szansa, że rolnik przypadkowo zniszczy zbiór.</PlantHarvestYield.description>
 	
-	<ConstructFailChance.label>szansa na niepowodzenie budowy</ConstructFailChance.label>
-	<ConstructFailChance.description>Szansa, jaka istnieje na niepowodzenie podczas budowy czegoś, zmarnowanie czasu i surowców.</ConstructFailChance.description>
+	<ConstructSuccessChance.label>szansa na niepowodzenie budowy</ConstructSuccessChance.label>
+	<ConstructSuccessChance.description>Szansa, jaka istnieje na niepowodzenie podczas budowy czegoś. Niepowodzenie oznacza zmarnowanie czasu i surowców.</ConstructSuccessChance.description>
     
-	<FixBrokenDownBuildingFailChance.label>szansa na niepowodzenie naprawy</FixBrokenDownBuildingFailChance.label>
-	<FixBrokenDownBuildingFailChance.description>Szansa, jaką ta osoba ma na niepowodzenie naprawy zniszczonej konstrukcji.</FixBrokenDownBuildingFailChance.description>
+	<FixBrokenDownBuildingSuccessChance.label>szansa na powodzenie naprawy</FixBrokenDownBuildingSuccessChance.label>
+	<FixBrokenDownBuildingSuccessChance.description>Szansa, jaką ta osoba ma na powodzenie naprawy zniszczonej konstrukcji. Niepowodzenie oznacza zmarnowanie czasu i surowców.</FixBrokenDownBuildingSuccessChance.description>
     
 </LanguageData>
