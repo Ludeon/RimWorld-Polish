@@ -84,6 +84,7 @@
   <BeaversArrived>Grupa głodnych alfabobrów właśnie przybyła.\n\nSpróbuj je upolować, zanim zjedzą wszystkie drzewa w okolicy.</BeaversArrived>
   
   <!-- Refugee chased -->
+  <RefugeeChasedTitle>Uchodźca złapany w {0}</RefugeeChasedTitle>
   <RefugeeChasedInitial>{1} wzywa cię z pobliża! Gonią go {2} pochodzący z {3}.\n\n {0} błaga cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie ma {4} lat.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na HIS ogonie.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Zaoferuj schronienie</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Zignoruj wiadomośc</RefugeeChasedInitial_Reject>
@@ -112,6 +113,7 @@
   <LetterBuildingBrokenDown>Jedna z twoich maszyn ({0}) zepsuła się. Nie będzie działać, dopóki któryś z kolonistów jej nie naprawi.</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
+  <RansomDemandTitle>Żądanie okupu z {0}</RansomDemandTitle>
   <RansomDemand>{1} skontaktowali się z tobą przez radio. Przetrzymują oni jednego z twoich kolonistów ({0}) dla okupu.\n\nSą gotowi wypuścić go z niewoli w zamian za {2} sztuk srebra.</RansomDemand>
   <RansomDemand_Accept>Akceptuj</RansomDemand_Accept>
   <RansomDemand_Reject>Odrzuć</RansomDemand_Reject>
@@ -120,9 +122,32 @@
   <JourneyOffer>Charlon Whitestone, przyjazna SI z twojej przeszłości, wysłał ci wiadomość!\n\nUjawnił, że ukrył on na tej planecie statek kosmiczny i wyśle ci jego współrzędne.\n\nJeśli do niego dotrzesz, Charlon zabierze cię z tego świata, aż do gwiazd.</JourneyOffer>
 
   <!-- Caravan meeting -->
+  <CaravanMeetingTitle>Spotkanie karawan z {0}</CaravanMeetingTitle>
   <CaravanMeeting>Twoja karawana spotkała się z inną pokojowo nastawioną grupą z {0}. Składa się ona z:\n\n{1}.</CaravanMeeting>
   <CaravanMeeting_Trade>Handluj</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Zaatakuj</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Idź dalej</CaravanMeeting_MoveOn>
+  
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>Prośba od karawany</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>Pobliska osada, {0}, kontaktuje się z tobą w celu złożenia specjalnej oferty handlowej. Chciałaby zakupić:\n\n  {1}.\n\nW zamian oferuje: {2}.\n\nTa oferta wygasa po: {3}.\n\nJeśli chcesz spełnić prośbę, wyślij karawanę z odpowiednimi dobrami. Możesz przejrzeć ofertę, wybierając {0} na mapie świata.</LetterCaravanRequest>
+  <CaravanRequestInfo>Prośba: {0}. Nagroda: {1} (pozostało: {2})</CaravanRequestInfo>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>Żądanie karawany od {0}</CaravanDemandTitle>
+  <CaravanDemand>Twoja karawana została zaskoczona przez grupę {1} {3} z {0}. Będzie ona atakować, aż dasz im:\n\n{2}.</CaravanDemand>
+  <CaravanDemand_Give>Daj i odejdź</CaravanDemand_Give>
+  <CaravanDemand_Fight>Odmów i walcz</CaravanDemand_Fight>
+  
+  <!-- Temporary item stash -->
+  <ItemStashQuestTitle>Możliwość zdobycia tajemniczych przedmiotów</ItemStashQuestTitle>
+  <ItemStashQuest_Accept>Akceptuj</ItemStashQuest_Accept>
+  <ItemStashQuest_Reject>Odmów</ItemStashQuest_Reject>
+  <ItemStashQuestFeeDemand>{0} chce nam powiedzieć miejsce, w którym znajduje się kolekcja tajemniczych przedmiotów, w zamian za {1} srebra.</ItemStashQuestFeeDemand>
+  <ItemStashSitePart_Unknown>Niestety, {0} nie ma pojęcia, kto lub co - jeśli cokolwiek - może pilnować kolekcji.</ItemStashSitePart_Unknown>
+  <ItemStashSitePart_Nothing>{0} mówi, że kolekcja nie jest pilnowana.</ItemStashSitePart_Nothing>
+  <ItemStashSitePart_Outpost>{0} mówi, że w pobliżu znajduje się wrogi bastion.</ItemStashSitePart_Outpost>
+  <ItemStashSitePart_Turrets>{0} mówi, że kolekcja jest otoczona wieżami wroga.</ItemStashSitePart_Turrets>
+  <ItemStashSitePart_Manhunters>{0} mówi, że w pobliżu spaceruje grupa zwierząt atakujących ludzi.</ItemStashSitePart_Manhunters>
   
 </LanguageData>
