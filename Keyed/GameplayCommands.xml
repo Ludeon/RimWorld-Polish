@@ -47,7 +47,7 @@
   <BuildingUnassign>Anuluj przypisanie</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Ustaw dla więźniów</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Nie można ustawić zewnętrznych łóżek dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>Tylko łóżka znajdujące się w ograniczonej przestrzeni mogą być oznaczone dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>Ustaw jako łóżko szpitalne</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc> Ustaw to łóżko do użytku medycznego.</CommandBedSetAsMedicalDesc>
   <TurningOnPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący koloniści utracą swoje łóżka:</TurningOnPrisonerBedWarning>
@@ -170,6 +170,10 @@
   <CommandSettleFailOtherWorldObjectsHere>Aby zasiedlić obszar, twoja karawana musi być na nim jedynym obiektem.</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>Twoja frakcja może mieć tylko jedną bazę.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Osiągnięto maksymalną liczbę kolonii.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailBiomeNotImplemented>Biom niezaimplementowany.</CommandSettleFailBiomeNotImplemented>
+  <CommandSettleFailFactionBaseAdjacent>Nie można osiedlać ludności bezpośrednio obok siebie.</CommandSettleFailFactionBaseAdjacent>
+  <CommandSettleFailNoColonists>Nie ma żadnej osoby, która mogłaby zająć obszar.</CommandSettleFailNoColonists>
+  <CommandSettleFailEnemies>Na tym obszarze znajdują się wrogowie.</CommandSettleFailEnemies>
 
   <!-- Abandon home -->
   <CommandAbandonHome>Opuść</CommandAbandonHome>
@@ -189,6 +193,12 @@
   <CommandTradeDesc>Handluj z tą frakcją.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>Nie posiadasz żadnego przytomnego negocjatora.</CommandTradeFailNoNegotiator>
 
+  <!-- Fulfill request -->
+  <CommandFulfillTradeOffer>Wypełnij warunki oferty</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOfferDesc>Spełnij warunki zawarte w prośbie, aby odebrać nagrodę.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferFailInsufficient>Twoja karawana musi mieć {0}, aby spełnić wartunki oferty.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferConfirm>Zaoferować {0} w zamian za {1}?</CommandFulfillTradeOfferConfirm>
+  
   <!-- Take off -->
   <CommandTakeOff>Opuść planetę</CommandTakeOff>
   <CommandTakeOffDesc>Wejdź na pokład statku i opuść planetę.</CommandTakeOffDesc>
@@ -226,5 +236,13 @@
   <!-- Select next transporter -->
   <CommandSelectNextTransporter>Wybierz następną kapsułę w grupie</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>Wybierz następną kapsułę w tej grupie.</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>Oznacz jako otwarte/zamknięte</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>Oznacz ten otwór jako otwarty lub zamknięty. Kolonista wkrótce przyjdzie, aby wykonać to zadanie.</CommandDesignateOpenCloseVentDesc>
+ 
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>Usuń</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>Usuń ten punkt orientacyjny.</CommandRemoveWaypointDesc>
 
 </LanguageData>
