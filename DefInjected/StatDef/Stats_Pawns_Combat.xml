@@ -2,7 +2,7 @@
 <LanguageData>
     
     <MeleeDPS.label>obrażenia walki wręcz</MeleeDPS.label>
-    <MeleeDPS.description>Średnie obrażenia zadawane na sekundę podczas walki wręcz.</MeleeDPS.description>
+    <MeleeDPS.description>Średnie obrażenia zadawane na sekundę podczas walki wręcz. Statystyka ta ignoruje cele defensywne, jak unikanie czy uzbrojenie.</MeleeDPS.description>
     
     <ShootingAccuracy.label>celność strzelania</ShootingAccuracy.label>
     <ShootingAccuracy.description>Podstawowa szansa trafienia na każde pole odległości od celu (im więcej pól odległości, tym mniejsza szansa trafienia).</ShootingAccuracy.description>
@@ -11,6 +11,9 @@
     <AimingDelayFactor.description>Określa, jak długo celuje.</AimingDelayFactor.description>
     
     <MeleeHitChance.label>szansa na trafienie wręcz</MeleeHitChance.label>
-    <MeleeHitChance.description>Podstawowa szansa na trafienie podczas walki wręcz.</MeleeHitChance.description>
+    <MeleeHitChance.description>Podstawowa szansa na trafienie podczas walki wręcz. Cel może zrobić unik, nawet jeśli już uderzymy.</MeleeHitChance.description>
+    
+    <MeleeDodgeChance.label>szansa na zrobienie uniku</MeleeDodgeChance.label>
+    <MeleeDodgeChance.description>Szansa na zrobienie uniku ataku, który powinien nas uderzyć. Postacie nie robią uników podczas celowania lub strzelania z broni zasięgowej.</MeleeDodgeChance.description>
     
 </LanguageData>

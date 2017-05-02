@@ -17,6 +17,7 @@
 
   <MessageVisitorsTakingWounded>{0} z {1} zabierają rannego gościa.</MessageVisitorsTakingWounded>
   <MessageVisitorsTrappedLeaving>{0} z {1} wpadli w pułapkę i próbują się wydostać.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>{0} z {1} opuszczają mapę z powodu niebezpiecznej temperatury.</MessageVisitorsDangerousTemperature>
   
   <MessageWornApparelDeterioratedAway>{0} (niesiony przez {1}) zupełnie się rozpadł.</MessageWornApparelDeterioratedAway>
   
@@ -152,6 +153,8 @@
   <MessageAccidentalOverdose>{0} przypadkowo przedawkował, gdy przyjmował {1}!</MessageAccidentalOverdose>
 
   <MessageCaravanArrivedAtDestination>{0} przybył w przeznaczone miejsce.</MessageCaravanArrivedAtDestination>
+	
+  <MessageCaravanIsVisitingSettlement>{0} przybył do {1}.</MessageCaravanIsVisitingSettlement>
 
   <MessageCaravanIsVisitingFaction>{0} przybył do {1}.</MessageCaravanIsVisitingFaction>
 
@@ -161,7 +164,7 @@
 
   <MessageSettledInExistingMap>Skutecznie zasiedliłeś nowy obszar.</MessageSettledInExistingMap>
 
-  <MessageAmbushVictory>Zwycięstwo! W ciągu {0} godzin karawana automatycznie się zmieni. Możesz zrobić to teraz w zakładce Świata.</MessageAmbushVictory>
+  <MessageAmbushVictory>Zwycięstwo! W ciągu {0} karawana automatycznie się zmieni. Możesz zrobić to teraz w zakładce Świata.</MessageAmbushVictory>
 
   <MessageAutomaticallyReformedCaravan>Twoi koloniści zmienili karawanę.</MessageAutomaticallyReformedCaravan>
 
@@ -170,6 +173,9 @@
   <MessageRescueeJoined>Ponieważ HIM ocaliłeś, {0} dołączył do twojej grupy!</MessageRescueeJoined>
 
   <MessageAttackedCaravanIsNowHostile>Ponieważ zaatakowałeś karawanę {0}, frakcja ta jest teraz dla ciebie wroga.</MessageAttackedCaravanIsNowHostile>
+	
+  <MessageFactionPawnCrushed>{0} stracił ludzi z powodu zawalenia się dachu. Relacja z frakcją: {1}.</MessageFactionPawnCrushed>
+  <MessageFactionPawnLost>{0} stracił {1}. Relacja z frakcją: {2}.</MessageFactionPawnLost>
 
   <MessageTransporterUnreachable>Niektóre kapsuły transportowe są nieosiągalne.</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>Wszystkie wyrzutnie podłączone do wybranych kapsuł muszą do siebie przylegać.</MessageTransportersNotAdjacent>
@@ -181,6 +187,9 @@
 
   <MessageTransportPodsArrived>Przybyły twoje kapsuły transportowe.</MessageTransportPodsArrived>
   <MessageTransportPodsArrivedAndLost>Przybyły twoje kapsuły transportowe, ale ponieważ nie było w środku żadnych kolonistów, zawartość została utracona.</MessageTransportPodsArrivedAndLost>
+	
+  <MessageTransportPodsArrivedAndAddedToCaravan>Twoje kapsuły transportowe już są na miejscu. Zawartość została dodana do karawany.</MessageTransportPodsArrivedAndAddedToCaravan>
+	
   <MessageTransportPodsArrived_BecameHostile>{0} jest teraz twoim wrogiem.</MessageTransportPodsArrived_BecameHostile>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>Proces załadunku został przerwany, ponieważ zagubiono jednego z kolonistów.</MessageFailedToLoadTransportersBecauseColonistLost>
@@ -204,5 +213,22 @@
   <MessageSelectOwnBaseToFormCaravan>Aby stworzyć karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
 
   <MessageScreenResTooSmallForUIScale>W tej rozdzielczości i przy tym rozmiarze interfejsu gra może nie zmieścić się na ekranie. Zmniejsz rozmiar interfejsu lub zwiększ rozdzielczość.</MessageScreenResTooSmallForUIScale>
+	
+  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić ustawienia karawany. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
+ 
+  <MessageDefendersAttacking>{0} z {1} atakują {2}.</MessageDefendersAttacking>
+ 
+  <MessageSelfTendUnsatisfied>Aby się wyleczyć, {0} musi być przypisany do pracy jako lekarz.</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{0} nie jest przypisany do pracy jako lekarz, dlatego nie może się samodzielnie wyleczyć.</MessageCannotSelfTendEver>
+
+  <MessageCantAddWaypointBecauseImpassable>Ta komórka jest nieprzekraczalna.</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>Nie da się dotrzeć na ten teren z poprzedniego punktu orientacyjnego.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>Nie możesz dodać więcej niż {0} punktów orientacyjnych.</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>Nie możesz usunąć tego punktu orientacyjnego.</MessageCantRemoveWaypointBecauseFirst>
+ 
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Żaden z twoich strażników nie jest zdolny do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+	
+  <MessageSiteCountdownBecauseNoMoreEnemies>Pokonałeś wszystkich wrogów. Za {0} karawana zostanie automatycznie zmieniona.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>Za {0} karawana zostanie automatycznie zmieniona. Możesz to zrobić teraz na mapie świata.</MessageSiteCountdownBecauseNoEnemiesInitially>
   
 </LanguageData>

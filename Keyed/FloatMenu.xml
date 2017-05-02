@@ -9,12 +9,14 @@
     	<CannotUseReserved>Nie można użyć (zarezerwowane)</CannotUseReserved>
     	<CannotUseFull>Nie można użyć (pełne)</CannotUseFull>	
 	<LeaderUnavailable>lider {0} jest niedostępny</LeaderUnavailable>
+	<LeaderUnavailableNoLeader>lider jest niedostępny</LeaderUnavailableNoLeader>
 
 	<FireAt>Strzelaj w {0}</FireAt>
 
 	<OutOfRange>Poza zasięgiem</OutOfRange>
 	<CannotHitTarget>Nie można trafić w cel</CannotHitTarget>
 	<IsIncapableOfViolenceLower>{0} jest niezdolny do przemocy</IsIncapableOfViolenceLower>
+	<IncapableOfViolenceLower>niezdolny do przemocy</IncapableOfViolenceLower>
     	<IsNotDraftedLower>{0} nie jest powołany</IsNotDraftedLower>
     	<CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   
@@ -42,6 +44,9 @@
   	<NoComponentsToRepair>wymaga komponentów</NoComponentsToRepair>
 	<NoFuelToRefuel>potrzebuje {0}</NoFuelToRefuel>
 	<NoWort>potrzebuje brzeczki</NoWort>
+	<TheOnlyAvailableFoodIsInStorageOfHigherPriority>dostępne pożywienie znajduje się w składowisku o wyższym priorytecie</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+        <NoFoodToFillHopper>brak odpowiedniego jedzenia</NoFoodToFillHopper>
+        <SelfTendDisabled>samoleczenie wyłączone</SelfTendDisabled>
 	
 	<ConsumeThing>Zjedz {0}</ConsumeThing>
     
@@ -109,14 +114,16 @@
 
 	<UseMedicalBed>Odpoczywaj, aż wyzdrowiejesz</UseMedicalBed>
 	<NotInjured>nie jesteś ranny</NotInjured>
-	<SomeoneElseSleeping>Zajęte</SomeoneElseSleeping>
+	<SomeoneElseSleeping>Zajęte przez {0}</SomeoneElseSleeping>
 	
 	<TradeWith>Handluj z {0}</TradeWith>
 	<CannotTrade>Nie można handlować</CannotTrade>
 	
 	<EnterMap>Wejdź do {0}</EnterMap>
-  	<VisitFactionBase>Odwiedź {0}</VisitFactionBase>
-  	<AttackFactionBase>Zaatakuj {0}</AttackFactionBase>
+  	<VisitSettlement>Odwiedź {0}</VisitSettlement>
+	<VisitSite>Odwiedź {0}</VisitSite>
+  	<AttackSite>Zaatakuj {0}</AttackSite>
+  	<AttackSettlement>Zaatakuj {0}</AttackSettlement>
 
   	<!-- Specific thing interactions -->
 	<EnterCryptosleepCasket>Wejdź do kapsuły hibernacyjnej</EnterCryptosleepCasket>
@@ -144,5 +151,11 @@
 	
 	<DropAtEdge>Zostaw na skraju</DropAtEdge>
   	<DropInCenter>Zostaw na środku</DropInCenter>
+	
+	 <VomitingLower>Wymioty</VomitingLower>
+	 <NotInterruptibleLower>nie można przerwać</NotInterruptibleLower>
+
+ 	 <AddWaypoint>Dodaj nowy punkt orientacyjny</AddWaypoint>
+         <RemoveWaypoint>Usuń ten punkt orientacyjny</RemoveWaypoint>
   
 </LanguageData>

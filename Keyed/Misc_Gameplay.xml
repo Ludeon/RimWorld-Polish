@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!-- Various -->
+  <HitPointsBasic>punkty zdrowia</HitPointsBasic>
   <WorkLeft>Ilość pracy, która pozostała</WorkLeft>
   <Contents>Składniki</Contents>
   <ContainedResources>Zasoby</ContainedResources>
@@ -24,7 +25,7 @@
   <FreshMissingBodyPart>świeże</FreshMissingBodyPart>
   <DevelopedImmunityLower>uzyskano odporność</DevelopedImmunityLower>
   <NeedsTendingNow>Potrzebuje leczenia</NeedsTendingNow>
-  <NextTreatmentIn>następne leczenie za {0} dni</NextTreatmentIn>
+  <NextTendIn>następne leczenie za {0} dni</NextTendIn>
   <MissingMedicalBillIngredient>brak {0}</MissingMedicalBillIngredient>
   <Immunity>Odporność</Immunity>
   <Race>Rasa</Race>
@@ -65,10 +66,11 @@
   <RadiusExpandsIn>promień powiększy się za</RadiusExpandsIn>
   <Permanent>stały</Permanent>
   <CaravanResting>Odpoczywa.</CaravanResting>
-  <CaravanEstimatedTimeToDestination>Szacowany czas podróży: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Szacowany czas podróży: {0} dni</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>Niemobilna: zbyt duży ciężar.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Brak pożywienia.</CaravanOutOfFood>
   <CaravanDaysOfFood>Czas, na który wystarczy ci jedzenia: {0} dni</CaravanDaysOfFood>
+  <CaravanDaysOfFoodRot>Czas, na który wystarczy ci jedzenia: {0}, zepsuje się za {1} dni</CaravanDaysOfFoodRot>
   <CaravanMemberMentalBreak>Karawana stanęła, ponieważ {0} załamał się.</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>Karawana stanęła, ponieważ wszyscy są nieprzytomni.</AllCaravanMembersDowned>
   <CaravanTraveling>Podróżuje.</CaravanTraveling>
@@ -79,7 +81,7 @@
   <Temperature>Temperatura</Temperature>
   <BadTemperature>nieodpowiednia temperatura</BadTemperature>
   <IdealFermentingTemperature>idealna temperatura fermentacji</IdealFermentingTemperature>
-  <DrugEffectMultiplier>{0} mnożnik efektu</DrugEffectMultiplier>
+  <DrugEffectMultiplier>{0} mnożnik efektu: {1}</DrugEffectMultiplier>
   <CaravanVisiting>Odwiedza {0}.</CaravanVisiting>
   <CaravanEntering>Wchodzi do {0}.</CaravanEntering>
   <CaravanAttacking>Atakuje {0}.</CaravanAttacking>
@@ -87,8 +89,8 @@
   <WornByCorpseChar>D</WornByCorpseChar>
   <DeterioratingDueToBeingUnroofed>Psuje się, ponieważ nie jest pod dachem.</DeterioratingDueToBeingUnroofed>
   <Map>Mapa</Map>
-  <ForceExitAndRemoveMapCountdown>{0} godzin do odejścia</ForceExitAndRemoveMapCountdown>
-  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie zmienią karawanę i opuszczą ten obszar po {0} godzinach.</ForceExitAndRemoveMapCountdownTip>
+  <ForceExitAndRemoveMapCountdown>{0} do odejścia</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie zmienią karawanę i opuszczą ten obszar za {0}.</ForceExitAndRemoveMapCountdownTip>
   <Room>Pomieszczenie</Room>
   <BeautyHere>Piękno</BeautyHere>
   <NoPower>Brak prądu</NoPower>
@@ -101,7 +103,22 @@
   <TransportPodInGroupHasSomethingLeftToLoad>Załadunek w trakcie</TransportPodInGroupHasSomethingLeftToLoad>
   <TransportPodDestinationBeyondMaximumRange>Poza maksymalnym zasięgiem</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>Niewystarczająca ilość paliwa</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>{0} z {1}</FactionBaseTrader>
+  <SettlementTrader>{0} z {1}</SettlementTrader>
+  <RoomSurgerySuccessChanceFactor>Szansa na powodzenie operacji</RoomSurgerySuccessChanceFactor>
+  <RoomInfectionChanceFactor>Szansa na wyleczenie infekcji</RoomInfectionChanceFactor>
+  <VentClosed>Zamknięte</VentClosed>
+  <WornBy>Noszone przez {0}</WornBy>
+  <EquippedBy>Wyposażone przez {0}</EquippedBy>
+  <QuestTargetDestroyInspectString>{0} chce, aby to zniszczyć.\nNagroda: {1}.</QuestTargetDestroyInspectString>
+  <WorldObjectTimeout>Pozostały czas: {0}</WorldObjectTimeout>
+  <LongRangeMineralScannerEfficiency>Wydajność: {0}</LongRangeMineralScannerEfficiency>
+  <ItemStashContents>Zawartość: {0}.</ItemStashContents>
+  <SomeItemStashContents>Częściowa zawartość: {0}.</SomeItemStashContents>
+  <ClickToSortByThisColumn>Kliknij, aby posortować według tej kolumny.</ClickToSortByThisColumn>
+  <WorkPriorityShiftClickTip>Shift + kliknięcie: zwiększ priorytet.\nShift + kliknięcie prawym przyciskiem myszy: zmniejsz priorytet.</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + kliknięcie: włącz wszystko.\nShift + kliknięcie prawym przyciskiem myszy: wyłącz wszystko.</WorkPriorityShiftClickEnableDisableTip>
+  <AllowedAreaShiftClickTip>Shift + kliknięcie: przydziel wszystkich do domu.\nShift + kliknięcie prawym przyciskiem myszy: przydziel wszystkich do nieograniczonego obszaru.</AllowedAreaShiftClickTip>
+  <CheckboxShiftClickTip>Shift + kliknięcie: zaznacz wszystko.\nShift + kliknięcie prawym przyciskiem myszy: odznacz wszystko.</CheckboxShiftClickTip>
   
   <!-- Fermentation barrel -->
   <ContainsWort>Zawiera {0}/{1} brzeczki.</ContainsWort>
@@ -114,7 +131,9 @@
   <Headshot>Strzał w głowę</Headshot>
   <TextMote_TreatSuccess>Leczenie udane!\n{0} szans</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Leczenie nieudane\n{0} szans</TextMote_TreatFailed>
-  <HarvestFailed>Zbiór\nnieudany</HarvestFailed>
+  <TextMote_HarvestFailed>Zbiór nieudany</TextMote_HarvestFailed>
+  <TextMote_YieldWasted>Zysk utracony</TextMote_YieldWasted>
+  <TextMote_ProductWasted>Produkt zmarnowany</TextMote_ProductWasted>
   <TextMote_RecruitFail>Rekrutacja nieudana!\n{0} szans</TextMote_RecruitFail>
   <TextMote_TameFail>Oswajanie nieudane.\n{0} szans</TextMote_TameFail>
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
@@ -122,6 +141,7 @@
   <TextMote_TrainSuccess>Wyszkolono: {0}.\n{1} szans</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>Naprawa nieudana.</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>Konstrukcja nieudana.</TextMote_ConstructionFail>
+  <TextMote_Dodge>Uniknięto</TextMote_Dodge>
  
   <!-- Areas -->
   <Home>Dom</Home>
@@ -175,6 +195,7 @@
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Bierze udział w ceremoni ślubnej.</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>Bierze udział w przyjęciu.</LordReportAttendingParty>
+  <LordReportFormingCaravan>Tworzy karawanę.</LordReportFormingCaravan>
   
   <!-- Shooting report -->
   <WeaponMissRadius>promień chybienia broni</WeaponMissRadius>
@@ -194,6 +215,8 @@
   <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
   <RecipeAdminister>Zarządza {0}</RecipeAdminister>
   <RecipeAdministerJobString>Zarządza {0}.</RecipeAdministerJobString>
+  <TeetotalerUnhappy>Abstynent będzie nieszczęśliwy.</TeetotalerUnhappy>
+  <ProsthophobeUnhappy>Naturalista bedzie nieszczęśliwy.</ProsthophobeUnhappy>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Zakończy się za: {0}</ThoughtExpiresIn>
@@ -213,9 +236,11 @@
   <Dead>Martwy</Dead>
   <Unconscious>Nieświadomy</Unconscious>
   <PainShock>W szoku pourazowym</PainShock>
+  <PainShockShort>W szoku</PainShockShort>
   <Incapacitated>Nieprzytomny</Incapacitated>
   <InRestraints>Związany (spowolniony)</InRestraints>
   <Carrying>Niesie</Carrying>
+  <AffectedBy>Dotknięty przez:</AffectedBy>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
@@ -318,8 +343,8 @@
   <Burning>Płonie</Burning>
   <FireSizeLower>Rozmiar pożaru: {0}</FireSizeLower>
 
-  <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</MapConditionsTip>
+  <!-- Game conditions (eclipse, solar flare, etc )-->
+  <GameConditionsTip>Specjalne sytuacje wpływające na świat w tej chwili.</GameConditionsTip>
   <TimeLeft>pozostały czas</TimeLeft>
   <ImpactDate>data uderzenia</ImpactDate>
 
@@ -440,5 +465,23 @@
   <!-- Compass -->
   <CompassTip>Wskazuje północ. Kliknij, aby obrócić kamerę tak, by biegun północny znalazł się na górze.</CompassTip>
 
+  <!-- Distance measure -->
+  <RoutePlannerButtonTip>Kliknij, aby wejść w tryb  planowania, gdzie możesz zaplanować podróż i wyliczyć odległość między poszczególnymi punktami orientacyjnymi.</RoutePlannerButtonTip>
+  <RoutePlannerAddTwoOrMoreWaypoints>Dodaj dwa lub więcej punktów orientacyjnych.</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>Dodaj jeden lub więcej punktów orientacyjnych.</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerEstTimeToFinalDest>Całkowity czas podróży: {0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>Tryb planowania wykorzystuje domyślną prędkość karawany. Rzeczywista prędkość może być inna.</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>Przeliczanie dla: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Prawy przycisk myszy: dodaj/usuń punkt orientacyjny.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressEscapeToExit>ESC: wyjdź z trybu planowania.</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: powróć do ustawień karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <EstimatedTimeToThisWaypoint>Spodziewany czas do tego punktu: {0}</EstimatedTimeToThisWaypoint>
+  <EstimatedTimeToThisWaypointFromPrevious>Spodziewany czas między tym i poprzednim punktem: {0}</EstimatedTimeToThisWaypointFromPrevious>
+	
+  <!-- Outfits -->
+  <OutfitAnything>Cokolwiek</OutfitAnything>
+  <OutfitWorker>Pracownik</OutfitWorker>
+  <OutfitSoldier>Żołnierz</OutfitSoldier>
+  <OutfitNudist>Nudysta</OutfitNudist>
 	
 </LanguageData>
