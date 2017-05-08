@@ -13,16 +13,17 @@ Instrukcja instalacji tłumaczenia: http://rimworldpolska.pl/jak-wgrac-tlumaczen
 WORKING CREW (last 3 months):
 Lead translator&copyreader: Nika "Nalthe" Borto [www.RimWorldPolska.pl]
 - Kunegard [www.RimWorldPolska.pl]
-- Marcin "Mareo" Zdziarski
-- Mateusz "Fejm" Filipczak
-- arts.fantasy
-- maxdyner
+- westwinnd
 
 If you want to join us or have any questions - feel free!
 
 ============
 
 PAST PROJECT CREW (last year):
+- Marcin "Mareo" Zdziarski
+- Mateusz "Fejm" Filipczak
+- arts.fantasy
+- maxdyner
 - Reco
 - Damian aka. Bucu
 - Oskar "volf3n" Nowak
