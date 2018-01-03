@@ -4,53 +4,50 @@
   <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
   <TabGrowing>Uprawa</TabGrowing>
-  <TabCharacter>Charakter</TabCharacter>
+  <TabCharacter>Postać</TabCharacter>
   <TabTraining>Trening</TabTraining>
   <TabPrisoner>Więzień</TabPrisoner>
   <TabGuest>Gość</TabGuest>
   <TabGear>Sprzęt</TabGear>
   <TabNeeds>Potrzeby</TabNeeds>
   <TabStorage>Skład</TabStorage>
+  <TabShells>Naboje</TabShells>
   <TabHealth>Zdrowie</TabHealth>
   <TabRace>Rasa</TabRace>
   <TabBasics>Ogólne</TabBasics>
   <TabStats>Statystyki</TabStats>
-  <TabRecords>Statystyki</TabRecords>
+  <TabRecords>Historia</TabRecords>
   <TabArt>Sztuka</TabArt>
   <TabSocial>Relacje</TabSocial>
+  <TabCombat>Walka</TabCombat>
 
   
   <!-- Bills tab  -->
   <AddBill>Dodaj zlecenie</AddBill>
-  <RecipeRequiresSkills>{0} wymaga umiejętności na wyższym poziomie niż wskazany. Żaden z kolonistów ich nie posiada, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>Przepis {0} wymaga umiejętności wskazanych poniżej. Żaden z kolonistów ich nie posiada, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
   <MinimumSkill>Min. poziom umiejętności</MinimumSkill>
   <SuspendedCaps>ZAWIESZONE</SuspendedCaps>
   <BoundWorkerIs>Pracownik: {0}</BoundWorkerIs>
-  <PlantVerb>Roślina</PlantVerb>
+  <PlantVerb>Sadzić</PlantVerb>
 
 
   <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
   <GetsFood>Dostaje żywność</GetsFood>
   <DoctorsCare>Opieka medyczna</DoctorsCare>
-  <GetsMedicine>Więzień otrzymuje leki</GetsMedicine>
+  <GetsMedicine>Otrzymuje leki</GetsMedicine>
   <ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Brak interakcji</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Przyjazna rozmowa</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>Rozmowa i rekrutacja</PrisonerAttemptRecruit>
-  <PrisonerRelease>Wypuszczenie</PrisonerRelease>
-  <PrisonerExecution>Egzekucja</PrisonerExecution>
   <ConsideredGuilty>Uznany za winnego (wygasa za {0})</ConsideredGuilty>
 
-
+  
   <!-- Medical - general -->
-  <MoveSpeed>Szybkość</MoveSpeed>
+  <MoveSpeed>Szybkość poruszania</MoveSpeed>
   <Efficiency>Wydajność</Efficiency>
   <PartEfficiency>Wydajność części</PartEfficiency>
   <BodyPartEfficiency>Wydajność części ciała</BodyPartEfficiency>
   <MissingBodyPart>Stracone</MissingBodyPart>
   <DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
-  <ShatteredBodyPart>Roztrzaskane</ShatteredBodyPart>
+  <ShatteredBodyPart>Rozbite</ShatteredBodyPart>
   <RemovedBodyPart>Usunięte</RemovedBodyPart>
   <Healthy>Zdrowy</Healthy>
   <InPain>Obolały</InPain>
@@ -59,20 +56,20 @@
   <NoInjuries>(bez obrażeń)</NoInjuries>
   <WholeBody>Całe ciało</WholeBody>
   <DataProcessing>Przetwarzanie danych</DataProcessing>
-  <Communication>Porozumiewanie się</Communication>
-  <Affects>wpływa na</Affects>
+  <Communication>Komunikacja</Communication>
+  <Affects>Wpływa na</Affects>
   <BleedingRate>Krwawienie</BleedingRate>
   <TimeToDeath>śmierć za {0}</TimeToDeath>
-  <WontBleedOutSoon>obecnie brak zagrożenia życia</WontBleedOutSoon>
+  <WontBleedOutSoon>aktualnie brak zagrożenia</WontBleedOutSoon>
   <HealthOverview>Podgląd</HealthOverview>
   <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
   <Amputate>Amputuj</Amputate>
   <Harvest>Wytnij</Harvest>
-  <RemoveOrgan>Usuń organ</RemoveOrgan>
+  <RemoveOrgan>Usuń</RemoveOrgan>
   <MemoryLower>pamięć</MemoryLower>
-  <SocialInteractionsLower>Interakcje społeczne</SocialInteractionsLower>
+  <SocialInteractionsLower>interakcje społeczne</SocialInteractionsLower>
   <HungerRate>Głód</HungerRate>
   <Tiredness>Zmęczenie</Tiredness>
   <PainFactor>Ból</PainFactor>
@@ -86,7 +83,7 @@
   <VeryPoor>Bardzo źle</VeryPoor>
   <Poor>Źle</Poor>
   <Weakened>Osłabione</Weakened>
-  <GoodCondition>Ok</GoodCondition>
+  <GoodCondition>OK</GoodCondition>
   <Enhanced>Ulepszone</Enhanced>
   <SeriouslyImpaired>Poważnie uszkodzone</SeriouslyImpaired>
   <Impaired>Uszkodzone</Impaired>
@@ -95,7 +92,7 @@
   <LittlePain>Trochę</LittlePain>
   <MediumPain>Średni</MediumPain>
   <SeverePain>Silny</SeverePain>
-  <ExtremePain>Skrajny</ExtremePain>
+  <ExtremePain>Mocny</ExtremePain>
 
 
   <!-- Training tab-->
@@ -111,18 +108,18 @@
   <Missing>Zaginiony</Missing>
   <Slave>Niewolnik</Slave>
   <FactionLeader>Lider frakcji</FactionLeader>
-  <OpinionOf>opinia o {0}</OpinionOf>
+  <OpinionOf>Opinia o {0}</OpinionOf>
   <SomeonesOpinionOfMe>{0} - opinia o mnie</SomeonesOpinionOfMe>
   <IAmDead>Jestem trupem</IAmDead>
   <IAmPsychopath>Jestem psychopatą</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>Odporność</AverageArmor>
-  <MassCarried>Przenoszona masa: {0}/{1} kg</MassCarried>
-  <ComfyTemperatureRange>Komfortowa temperatura</ComfyTemperatureRange>
-  <ArmorBlunt>Obrażenia obuchowe</ArmorBlunt>
+  <AverageArmor>Średni pancerz</AverageArmor>
+  <MassCarried>Udźwig: {0} / {1} kg</MassCarried>
+  <ComfyTemperatureRange>Zakres komfortowej temperatury</ComfyTemperatureRange>
+  <ArmorBlunt>Obrażenia tępe</ArmorBlunt>
   <ArmorSharp>Obrażenia cięte</ArmorSharp>
-  <ArmorHeat>Temperatura</ArmorHeat>
+  <ArmorHeat>Ciepło</ArmorHeat>
   <ArmorElectric>Elektryczność</ArmorElectric>
 
 </LanguageData>

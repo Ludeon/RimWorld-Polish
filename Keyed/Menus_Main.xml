@@ -26,11 +26,11 @@
   <CreateWorld>Stwórz świat</CreateWorld>
 
   <!--=========== Create/review world ================-->
-  <ReviewWorld>Mapa świata</ReviewWorld>
+  <ReviewWorld>Przejrzyj świat</ReviewWorld>
   <WorldGenerate>Twórz</WorldGenerate>
   <WorldSaveAndFinish>Zapisz i zakończ</WorldSaveAndFinish>
   <Reset>Resetuj</Reset>
-  <PlanetCoverage>Stopień pokrycia świata</PlanetCoverage>
+  <PlanetCoverage>Stopień pokrycia</PlanetCoverage>
   <PlanetRainfall>Suma opadów</PlanetRainfall>
   <PlanetTemperature>Amplituda temperatur</PlanetTemperature>
   <PlanetRainfall_Low>Niska</PlanetRainfall_Low>
@@ -50,47 +50,47 @@
   <NoWorldsFilesFound>Nie znaleziono plików świata. Najpierw stwórz świat.</NoWorldsFilesFound>
   
   <!--=========== Version info ==========--> 
-  <BuildNowAvailable>Wersja {0} jest dostępna. Powinieneś ją pobrać.</BuildNowAvailable>
+  <BuildNowAvailable>Wersja {0} jest dostępna. Zobacz ludeon.com aby uzyskać więcej informacji.</BuildNowAvailable>
   <BuildUpToDate>Wersja jest aktualna.</BuildUpToDate>
-  <ErrorGettingVersionInfo>Błąd podczas ustalenia wersji: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>Ładowanie wersji...</LoadingVersionInfo>
+  <ErrorGettingVersionInfo>Błąd podczas sprawdzania wersji: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Wczytywanie informacji o wersji...</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>Twórz świat</GenerateWorld>
   
   <!--=========== Mods screen ==========--> 
   <OpenSteamWorkshop>Otwórz Warsztat Steam</OpenSteamWorkshop>
-  <GetModsFromForum>Pobierz mody z forum</GetModsFromForum>
-  <OpenModsDataFolder>Otwórz folder z modami</OpenModsDataFolder>
+  <GetModsFromForum>Pobierz modyfikacje z forum</GetModsFromForum>
+  <OpenModsDataFolder>Otwórz folder z modyfikacjami</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Czy jesteś pewien, że chcesz wyłączyć zawartość podstawową? Gra nie będzie działać prawidłowo, jeśli nie jest uruchomiona inna modyfikacja zawierająca wszystkie główne funkcje.\n\nPamiętaj, że inne modyfikacje mogą nadpisywać podstawową zawartość, zwyczajnie używając defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Czy na pewno chcesz usunąć całą zawartość {0}?</ConfirmDeleteMod>
   <Unsubscribe>Zrezygnuj z subskrypcji</Unsubscribe>
   <ConfirmUnsubscribe>Czy na pewno chcesz zrezygnować z subskrypcji {0}?</ConfirmUnsubscribe>
   <Author>Autor</Author>
   <WorkshopPage>Strona Warsztatu Steam</WorkshopPage>
-  <UploadToSteamWorkshop>Wgraj na Warsztat Steam</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Wyślij na Warsztat Steam</UploadToSteamWorkshop>
   <UpdateOnSteamWorkshop>Aktualizuj w Warsztacie Steam</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>Aktualizacja w toku.</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>Zgłoszenie do Warsztatu nie udało się.\n\nPowód: {0}.</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>Aktualizacja {0} powiodła się.</WorkshopUploadSucceeded>
+  <UploadAlreadyInProgress>Wysyłanie w toku.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Wysłanie do Warsztatu nie udało się.\n\nPowód: {0}.</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Wysyłanie {0} powiodło się.</WorkshopUploadSucceeded>
   <Downloading>Pobieranie</Downloading>
   <Source>Źródło</Source>
   <ModTargetVersion>Dla wersji: {0}</ModTargetVersion>
-  <ModNotMadeForThisVersion>Ten mod nie był stworzony dla tej wersji gry, może nie działać poprawnie.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mody potrzebują dobrze określonej wersji gry w pliku About.xml. Np. &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-  <DragToReorder>Przytrzymaj, aby przestawić.</DragToReorder>
+  <ModNotMadeForThisVersion>Ta modyfikacja nie była stworzony dla tej wersji gry, może nie działać poprawnie.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Modyfikacje potrzebują dobrze określonej wersji gry w pliku About.xml. Np. &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Przeciągnij, aby przestawić.</DragToReorder>
   
   <!--=========== Select scenario =============-->
   <ChooseScenario>Wybierz scenariusz</ChooseScenario>
-  <ScenariosCustom>Niestandardowe</ScenariosCustom>
+  <ScenariosCustom>Własny</ScenariosCustom>
   <ScenariosSteamWorkshop>Warsztat Steam</ScenariosSteamWorkshop>
-  <ScenarioEditor>Edytuj scenariusz</ScenarioEditor>
+  <ScenarioEditor>Edytor scenariusza</ScenarioEditor>
   <Delete>Usuń</Delete>
   
   <!--============ Scenario editor ===============-->
-  <Seed>Ziarno</Seed>
+  <Seed>ziarno</Seed>
   <Load>Wczytaj</Load>
-  <EditMode>Włącz tryb edycji</EditMode>
+  <EditMode>tryb edycji</EditMode>
   <Summary>Podsumowanie</Summary>
   <AddPart>Dodaj element</AddPart>
   <TextFieldsMustBeFilled>Wszystkie pola tekstowe muszą być wypełnione.</TextFieldsMustBeFilled>
@@ -109,12 +109,13 @@
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Wybierz miejsce zrzutu</SelectLandingSite>
   <SelectRandomSite>Wybierz losowe miejsce</SelectRandomSite>
-  <SelectSite>Dalej</SelectSite>
+  <SelectSite>Wybierz miejsce</SelectSite>
   <MustSelectLandingSite>Proszę wybrać miejsce zrzutu.</MustSelectLandingSite>
   <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}.</CannotLandBiome>
   <BiomeNotImplemented>Klimat niezaimplementowany</BiomeNotImplemented>
   <CannotLandImpassableMountains>Nie możesz wylądować na nieprzemierzalnych górach.</CannotLandImpassableMountains>  
   <BaseAlreadyThere>{0} już mają tam bazę.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>Masz już tutaj swoją bazę.</YourBaseAlreadyThere>
   <TileOccupied>Ta komórka jest już zajęta.</TileOccupied>
   <FactionBaseAdjacent>Osady nie mogą być tworzone bezpośrednio przy sobie.</FactionBaseAdjacent>
   <Biome>Klimat</Biome>
@@ -127,57 +128,62 @@
   <AvgWinterTemp>Temperatura w zimie:</AvgWinterTemp>
   <AvgSummerTemp>Temperatura w lecie:</AvgSummerTemp>
   <Rainfall>Opady</Rainfall>
-  <HasCoast0>Północne wybrzeże</HasCoast0>
-  <HasCoast1>Wschodnie wybrzeże</HasCoast1>
-  <HasCoast2>Południowe wybrzeże</HasCoast2>
-  <HasCoast3>Zachodnie wybrzeże</HasCoast3>
-  <FactionBase>Osada</FactionBase>
+  <SpecialFeatures>Specialne funkcje</SpecialFeatures>
+  <HasCoast0>północne wybrzeże</HasCoast0>
+  <HasCoast1>wschodnie wybrzeże</HasCoast1>
+  <HasCoast2>południowe wybrzeże</HasCoast2>
+  <HasCoast3>zachodnie wybrzeże</HasCoast3>
+  <HasCaves>jaskinie</HasCaves>
+  <FactionBase>Baza frakcji</FactionBase>
   <StoneTypesHere>Rodzaje skał</StoneTypesHere>
   <TimeZone>Strefa czasowa</TimeZone>
   <MovementTimeNow>Obecny czas poruszania</MovementTimeNow>
   <MovementTimeSummer>Czas poruszania w lecie</MovementTimeSummer>
   <MovementTimeWinter>Czas poruszania w zimie</MovementTimeWinter>
   <AnimalsCanGrazeNow>Zwierzęta mogą się teraz paść.</AnimalsCanGrazeNow>
-    
-   <!--=========== Character chooser ==========-->
+  <AverageDiseaseFrequency>Średnia częstotliwość chorób</AverageDiseaseFrequency>
+  <PerYear>rocznie</PerYear>
+
+  
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Stwórz postacie</CreateCharacters>
   <FirstNameDesc>Imię postaci.\n\nWyświetlane tylko w wybranych miejscach.</FirstNameDesc>
   <ShortIdentifierDesc>Krótkie określenie postaci.\n\nJest ono pokazywane przez cały czas. Może być imieniem, nazwiskiem lub pseudonimem.</ShortIdentifierDesc>
   <LastNameDesc>Nazwisko postaci.\n\nWyświetlane tylko w wybranych miejscach.</LastNameDesc>
   <Randomize>Losuj</Randomize>
-  <AgeIndicator>Wiek {0}</AgeIndicator>
+  <AgeIndicator>wiek {0}</AgeIndicator>
   <Backstory>Historia</Backstory>
-  <IncapableOf>Niezdolny do wykonywania</IncapableOf>
+  <IncapableOf>Niezdolny do</IncapableOf>
   <Traits>Cechy</Traits>
   <PermanentMoodEffect>Stały efekt nastroju</PermanentMoodEffect>
   <Skills>Umiejętności</Skills>
-  <NoneLower>Brak</NoneLower>
+  <NoneLower>brak</NoneLower>
   <Adulthood>Dorosłość</Adulthood>
   <Childhood>Dzieciństwo</Childhood>
-  <Male>Mężczyzna</Male>
-  <Female>Kobieta</Female>
+  <Male>mężczyzna</Male>
+  <Female>kobieta</Female>
   <Pain>Ból</Pain>
   <Health>Zdrowie</Health>
   <Relations>Relacje</Relations>
-
- <!--=========== Misc ==========-->
+  <TeamSkills>Umiejętności grupy</TeamSkills>
+  <StartingPawnsSelected>Wybrane</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Pozostawione</StartingPawnsLeftBehind>
+  
+  <!--=========== Misc ==========-->
   <Start>Rozpocznij</Start>
   <Advanced>Zaawansowane</Advanced>
   <Next>Dalej</Next>
   <Back>Wstecz</Back>
-
   <Gameplay>Rozgrywka</Gameplay>
- 
   <ConfirmQuit>Czy na pewno chcesz wyjść z gry? Stracisz niezapisany postęp.</ConfirmQuit>
-  
   <EveryoneNeedsValidName>Każda postać musi posiadać poprawne imię.</EveryoneNeedsValidName>
   <Quit>Wyjdź</Quit>
   <Ignore>Zignoruj</Ignore>
 
   <!--============ Progress bar==============-->
-  <GeneratingWorld>Tworzenie świata</GeneratingWorld>
+  <GeneratingWorld>Generowanie świata</GeneratingWorld>
   <GeneratingPlanet>Generowanie planety</GeneratingPlanet>
-  <GeneratingMap>Tworzenie mapy</GeneratingMap>
-  <GeneratingMapForNewEncounter>Tworzenie mapy do nowego spotkania</GeneratingMapForNewEncounter>
+  <GeneratingMap>Generowanie mapy</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generowanie mapy do nowego spotkania</GeneratingMapForNewEncounter>
   
 </LanguageData>

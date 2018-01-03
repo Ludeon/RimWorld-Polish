@@ -11,14 +11,14 @@
   
   <VersionIndicator>Wersja {0}</VersionIndicator>
   <DevelopmentBuildLower>wersja deweloperska</DevelopmentBuildLower>
-  <CompiledOn>Kompilacja {0}</CompiledOn>
+  <CompiledOn>Skompilowano {0}</CompiledOn>
   <LoggedIntoSteamAs>Zalogowany do Steam jako {0}</LoggedIntoSteamAs>
 
   <!-- General-use words -->
   <Yes>Tak</Yes>
   <No>Nie</No>
-  <min>min.</min>
-  <max>max.</max>
+  <min>min</min>
+  <max>max</max>
   <chance>szansa</chance>
   <context>kontekst</context>
   <multiplier>mnożnik</multiplier>
@@ -28,25 +28,26 @@
   <intervalDays>przerwa (dni)</intervalDays>
   <repeat>powtórz</repeat>
   <default>domyślne</default>
-  
+  <distance>dystans</distance>
+
   <!-- Content generation-->
   
   <MeatLabel>Mięso ({0})</MeatLabel>
-  <MeatDesc>Surowe mięso ({0}).</MeatDesc>
+  <MeatDesc>Surowe mięso. Może być składnikiem posiłków</MeatDesc>
 
   <LeatherLabel>Skóra ({0})</LeatherLabel>
-  <LeatherDesc>Skóra zrobiona z {0}.</LeatherDesc>
+  <LeatherDesc>Skóra, wykorzystywana do tworzenia ubrań.</LeatherDesc>
 
-  <CorpseLabel>Zwłoki {0}</CorpseLabel>
-  <CorpseDesc>Martwe ciało {0}.</CorpseDesc>
-  <DeadLabel>{0} (ciało)</DeadLabel>
+  <CorpseLabel>Zwłoki ({0})</CorpseLabel>
+  <CorpseDesc>{0} - Martwe ciało.</CorpseDesc>
+  <DeadLabel>{0} (martwy)</DeadLabel>
 
   <RoughStoneTerrainLabel>surowy {0}</RoughStoneTerrainLabel>
-  <RoughStoneTerrainDesc>Surowy, naturalny {0}.</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Surowa, naturalna podłoga - {0}.</RoughStoneTerrainDesc>
   <RoughHewnStoneTerrainLabel>ociosany {0}</RoughHewnStoneTerrainLabel>
   <RoughHewnStoneTerrainDesc>Podłogę pokrywa grubo ciosany {0}.</RoughHewnStoneTerrainDesc>
   <SmoothStoneTerrainLabel>wygładzony {0}</SmoothStoneTerrainLabel>
-  <SmoothStoneTerrainDesc>Podłoga z wygładzonego {0}.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>wygładzona podłoga - {0}.</SmoothStoneTerrainDesc>
 
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
   <FrameLabelExtra> (budowa)</FrameLabelExtra>
@@ -56,8 +57,8 @@
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
 
-  <SomeonesRoom>{1} należący do {0}</SomeonesRoom>
-  <CouplesRoom>{2} należący do {0} i {1}</CouplesRoom>
+  <SomeonesRoom>{1} należy do {0}</SomeonesRoom>
+  <CouplesRoom>{2} należy do {0} i {1}</CouplesRoom>
   
   <VariousLabel>(różne)</VariousLabel>
 
@@ -70,4 +71,5 @@
   <West>Zachód</West>
   <East>Wschód</East>
 
+  
 </LanguageData>

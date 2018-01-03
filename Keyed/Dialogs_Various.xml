@@ -3,49 +3,48 @@
 
   <Confirm>Potwierdź</Confirm>
   <GoBack>Wstecz</GoBack>
-  <OK>Ok</OK>
+  <OK>OK</OK>
   
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>RimWorld został zaktualizowany z wersji {0} do wersji {1}.\n\nStarsze wersje zapisanych gier i modów mogą nie działać.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>RimWorld został zaktualizowany z wersji {0} do wersji {1}.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Zapisane gry i modyfikacje ze starszej wersji mogą nie działać.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Zapisane gry ze starszej wersji powinny być kompatybilne, jednak niektóre modyfikacje mogą nie działać.</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>Ponieważ jest to wersja DMR-free, możesz zainstalować grę w innym folderze, aby móc jednocześnie grać na nowej i starej wersji.</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>Jeśli chcesz kontynuować ze starą wersją, możesz wybrać dodatek "Betas" na Steamie.\n\n  1. W bibliotece Steam odszukaj RimWorld i kliknij PPM.\n  2. Wybierz "właściwości".\n  3. Wybierz zakładkę "Bety".\n  4. Z menu wybierz wersję, która Ci odpowiada.\n\nStarsze wersje mogą być usunięte z listy - nie chcemy przerywać gier w trakcie.\n\nPmaiętaj, że jeśli autor moda zaktualizuje go do nowej wersji, może on nie działać na starej. Aby tego uniknąć, wyłącz automatyczne aktualizacje.</GameUpdatedToNewVersionSteam>
-<GameUpdatedToNewVersionSavesIncompatible>Zapisane gry i mody ze starej wersji mogą nie działać.</GameUpdatedToNewVersionSavesIncompatible>
-<GameUpdatedToNewVersionSavesCompatible>Zapisane gry ze starej wersji powinny być kompatybilne z obecną, jednak niektóre mody mogą nie działać.</GameUpdatedToNewVersionSavesCompatible>
-	
+  <GameUpdatedToNewVersionSteam>Jeśli chcesz kontynuować ze starszą wersją, możesz wybrać zakładkę "Beta" na Steamie.\n\n  1. W bibliotece Steam odszukaj RimWorld i kliknij PPM.\n  2. Wybierz właściwości.\n  3. Wybierz zakładkę "Beta".\n  4. Z listywybierz wersję, która Ci odpowiada.\n\nStarsze wersje mogą być usunięte z listy w przyszłości - nie chcemy tylko przerywać gier w trakcie.\n\nPmaiętaj, że jeśli autor modyfikacji zaktualizuje ją do nowszej wersji, może on przestać działać na starszej wersji. Aby tego uniknąć, wyłącz automatyczne aktualizacje.</GameUpdatedToNewVersionSteam>
+
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo zepsutych modów.</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Wygląda na to, że niektóre działające mody powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowano je do innej wersji RimWorlda albo uszkodzone. \n\nWszystkie mody zostały wyłączone i mogą być ponownie włączone w oknie modów.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsDialogTitle>Odzyskano sprawność spowodowaną błędami niekompatybilnych albo uszkodzonych modyfikacji.</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Wygląda na to, że niektóre aktywne modyfikacje powodowały błędy.\n\nNie były ze sobą kompatybilne, zaprojektowano je do innej wersji RimWorlda albo uszkodzone.\n\nWszystkie modyfikacje zostały wyłączone i mogą być ponownie włączone w oknie modyfikacji.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>Wystąpił błąd podczas ładowania elementów.</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Wystąpił błąd poczas ładowania elementów. Sprawdź logi po wiecej informacji.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z niestandardowymi modami - mogą one być przyczyną problemu.</ErrorWhileLoadingAssets_ModsInfo>
-  <ErrorWhileGeneratingMapTitle>Wystąpił błąd podczas tworzenia mapy.</ErrorWhileGeneratingMapTitle>
-  <ErrorWhileGeneratingMap>Wystąpił błąd podczas tworzenia mapy. Sprawdź logi po więcej infomacji.</ErrorWhileGeneratingMap>
-  <ErrorWhileLoadingMapTitle>Błąd podczas ładowania mapy</ErrorWhileLoadingMapTitle>
-  <ErrorWhileLoadingMap>Wystąpił błąd poczas ładowania mapy. Sprawdź logi po więcej informacji.</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingAssetsTitle>Wystąpił błąd podczas wczytywania zasobów.</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Wystąpił błąd poczas wczytywania zasobów gry. Sprawdź dziennik błędów aby uzyskać więcej infomacji.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Gra jest obecnie odpalona z modyfikacjami - mogą ale nie muszą być one przyczyną problemu.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Wystąpił błąd podczas generowania mapy.</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Wystąpił błąd podczas generowania mapy. Sprawdź dziennik błędów aby uzyskać więcej infomacji.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Błąd podczas wczytywania mapy</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Wystąpił błąd poczas wczytywania mapy. Sprawdź dziennik błędów aby uzyskać więcej infomacji.</ErrorWhileLoadingMap>
   
-   <!-- Unloaded mod with an assembly -->
- 
-  <ModsChanged>Lista modów została zmieniona. Gra automatycznie uruchomi się podobnie.</ModsChanged>
-  <FailedToRestart>Coś poszło źle podczas restartowania gry. Gra nie może w pełni załadować zmodyfikowanego kodu zdeaktywowanych modów, dlatego nadal będą one nieaktywne.\n\nZaleca się wyjście i uruchomienie gry ponownie, aby ponownie załadować mody.</FailedToRestart>
-  <Restarting>Restarting</Restarting>
+  <!-- Unloaded mod with an assembly -->
+  <ModsChanged>Lista modyfikacji została zmieniona. Gra uruchomi się teraz ponownie.</ModsChanged>
+  <FailedToRestart>Coś poszło nie tak podczas restartowania gry. Gra nie może w pełni usunąć zmodyfikowanego kodu z zdeaktywowanych modyfikacji, dlatego zmodyfikowany kod nadal może być aktywny.\n\nZaleca się wyjście i uruchomienie gry ponownie, aby załadować modyfikacje na czysto.</FailedToRestart>
+  <Restarting>Ponowne uruchamianie</Restarting>
 	
   <!-- Missing Steam -->
-  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n- Steam nie jest uruchomiony;\n- uruchomiono bez steam_appid.txt we właściwym miejscu;\n- uruchomiono z innymi atrybutami niż w kliencie Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nTa wersja gry wymaga Steam i w tym momencie się wyłączy.</SteamClientMissing>
+  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono poza Steam bez pliku steam_appid.txt we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nMożesz grać mimo tego problemu, nie będą dostępne tylko funkcje oraz statystyki Steam.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Inicjalizacja interfejsu</InitializingInterface>
-  <UnloadingUnusedAssets>Usuwanie nieużywanych plików</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>Ładowanie wszystkich aktywnych modów</LoadingAllActiveMods>
-  <LoadingDefs>Ładowanie definicji</LoadingDefs>
-  <LoadingAssets>Ładowanie elementów</LoadingAssets>
+  <UnloadingUnusedAssets>Usuwanie nieużywanych zasobów</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Wczytywanie aktywnych modyfikacji</LoadingAllActiveMods>
+  <LoadingDefs>Wczytywanie definicji</LoadingDefs>
+  <LoadingAssets>Wczytywanie zasobów</LoadingAssets>
   <Initializing>Inicjalizacja</Initializing>
-  <LoadingWorld>Ładowanie świata</LoadingWorld>
-  <LoadingMap>Ładowanie mapy</LoadingMap>
-  <SpawningAllThings>Wczytywanie obiektów</SpawningAllThings>
-  <SpawningColonists>Wczytywanie kolonistów</SpawningColonists>
+  <LoadingWorld>Wczytywanie świata</LoadingWorld>
+  <LoadingMap>Wczytywanie mapy</LoadingMap>
   <InitializingGame>Inicjalizacja gry</InitializingGame>
+  <SpawningAllThings>Tworzenie obiektów</SpawningAllThings>
+  <SpawningColonists>Tworzenie kolonistów</SpawningColonists>
   
   <!-- Save/load -->
   <SaveGameButton>Zapisz</SaveGameButton>
@@ -56,14 +55,16 @@
   <SavedAs>Zapisano jako {0}.</SavedAs>
   <NeedAName>Wprowadź nazwę.</NeedAName>
   <LoadingLongEvent>Wyczytywanie</LoadingLongEvent>
-  <SavingLongEvent>Zapisuję</SavingLongEvent>
+  <SavingLongEvent>Zapisywanie</SavingLongEvent>
   <PermadeathModeSaveSuffix>(permanentna śmierć)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest ona inaczej zbudowana.\n\nTen stan zapisu gry powinien jednak działać.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameBuild>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to inny build.\n\nTen stan zapisu gry powinien jednak działać.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie powinien działać.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.</ProblemSavingFile>
+  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie będzie działać.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.\n\nSprawdź dziennik błędów aby uzyskać więcej infomacji.</ProblemSavingFile>
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
+  <ChangeLoadedMods>Wczytaj zapisaną listę modyfikacji</ChangeLoadedMods>
+  <MissingMods>Kilka modyfikacji jest niedostępnych i musi być zainstalowana</MissingMods>
   
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0} uważa, że powinieneś nazwać frakcję. Jaką nazwę jej nadasz?</NamePlayerFactionMessage>
@@ -89,14 +90,14 @@
   
   <!-- Save game incompatible warning -->
   <VersionMismatch>Różne wersje gry</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Brak kompatybilności: wczytany stan gry został zapisany z użyciem wersji {0}, a uruchomiono wersję {1}.\n\n Wczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Brak kompatybilności: ten świat gry został stworzony z użyciem wersji {0}, a uruchomiono wersję {1}.\n\nWczytanie tego stanu gry prawdopodobnie spowoduje błędy i niestabilność. Zalecamy stworzenie zupełnie nowego świata gry.</WorldFileVersionMismatch>
-  <FileIncompatibleWarning>Ta gra była zapisana w wersji {0}.\nObecnie używamy wersji {1}.\n\nZaładowanie tej gry może spowodować błędy.</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>Mody nie są kompatybilne.</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>Mapa została zapisana z innymi modami niż te, które działają obecnie. Może to, ale nie musi, spowodować problemy, zależnie od działania modów.\n\nMapa została zapisana z (w tej kolejności):\n\n{0}.\n\nMy działamy z:\n\n{1}.</ModsMismatchWarningText>
-  
+  <SaveGameIncompatibleWarningText>Ten zapis pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego zapisu może powodować błędy i niestabilność.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Plik świata pochodzi z wersji {0}\nAktualnie używasz wersji{1}\n\nWczytanie tego świata może powodować błędy i niestabilność. Powinieneś wygenerować nowy świat.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Ten plik pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego pliku może powodować błędy i niestabilność.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Różne modyfikacje</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Ten plik został zapisany z innymi modyfikacjami. Może ale nie musi powodować to problemów, zależy od tego co dana modyfikacja robi.\n\nPlik został zapisany z (w tej kolejności):\n\n{0}\n\nAktualnie używasz tych (w tej kolejności):\n\n{1}</ModsMismatchWarningText>
+ 
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Zmieniłeś rozdzielczość. Czy nowa jest odpowiednia?\n\nPowrót do poprzedniej rozdzielczości za {0}...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>Zmieniłeś ustawienia swojego ekranu. Czy te ustawienia działają w porządku?\n\nAutomatyczny powrót za {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Zostaw</ResolutionKeep>
   <ResolutionRevert>Przywróć</ResolutionRevert>
   
@@ -107,77 +108,76 @@
   <Finished>Skończone</Finished>
   <InProgress>W trakcie</InProgress>
   <Locked>Zablokowane</Locked>
-  <ResearchMenuWithoutBench>Zanim nie wybudujesz stołu do badań, nie będziesz mógł ich prowadzić.\n\nNadal jednak będziesz mógł wybierać i przeglądać poszczególne projekty naukowe.</ResearchMenuWithoutBench>
-  <ResearchPrerequisites>Wymagane technologie</ResearchPrerequisites>
+  <ResearchMenuWithoutBench>Zanim nie wybudujesz RESEARCH BENCH, twoi koloniści nie będą w stanie robić badań.\n\nNadal jednak możesz wybierać i przeglądać poszczególne badania.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Wstępne wymagania</ResearchPrerequisites>
   <RequiredResearchBench>Wymagany stół do badań</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Wymagany dodatkowy sprzęt badawczy</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Wymagane udogodnienia stołu do badań</RequiredResearchBenchFacilities>
 	
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Uwaga: wylądujesz w mroźnym okresie. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub miejsce lądowania.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Uwaga: wydajność gry może spadać wraz ze wzrostem wielkości mapy, chyba że masz naprawdę mocny komputer. Jeżeli jest on słabszy, wybierz mały rozmiar.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Uwaga: Wylądujesz w zamarzniętym środowisku. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub miejsce lądowania.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Uwaga: Wydajność gry może spadać wraz ze wzrostem wielkości mapy. Ludeoniczny rozmiar nie jest przetesowany i prawdopodobnie nie będzie działać dobrze.</MapSizePerformanceWarning>
   <MapSize>Rozmiar mapy</MapSize>
-  <MapSizeDesc>{0} na {0} ({1} pól)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} pól)</MapSizeDesc>
   <MapSizeSmall>Mała</MapSizeSmall>
   <MapSizeMedium>Średnia</MapSizeMedium>
   <MapSizeLarge>Duża</MapSizeLarge>
-  <MapSizeExtreme>Ludeoniczna</MapSizeExtreme>
+  <MapSizeExtreme>Ludeoniczny</MapSizeExtreme>
   <MapStartSeason>Początkowa pora roku:</MapStartSeason>
   <MapStartSeasonDefault>Automatyczna</MapStartSeasonDefault>
   <PermadeathMode>Permanentna śmierć</PermadeathMode>
-  <PermadeathModeInfo>W trybie permanentnej śmierci masz tylko jeden plik z zapisem rozgrywki, który aktualizuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki, by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak miała wyglądać rozgrywka w RimWorld - z każdą dramatyczną zmianą, tragiczną czy też pomocną, gramy do samego końca.</PermadeathModeInfo>
+  <PermadeathModeInfo>W trybie permanentnej śmierci masz tylko jeden plik z zapisem rozgrywki, który zapisuje się tylko przy wyjściu z gry. Nie możesz wczytać rozgrywki by naprawić swoje błędy albo gdy kolonia umrze.\n\nWłaśnie tak miała wyglądać rozgrywka w RimWorld - z każdą dramatyczną zmianą, tragiczną czy też pomocną, gramy do samego końca.</PermadeathModeInfo>
   
   <!-- Bill config -->
-  <Suspended>Odwieś</Suspended>
-  <NotSuspended>Zawieś</NotSuspended>
+  <Suspended>Zawieszony</Suspended>
+  <NotSuspended>Nie zawieszony</NotSuspended>
   <SuspendedAllCaps>ZAWIESZONY</SuspendedAllCaps>
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <Forever>Ciągle</Forever>
   <Details>Szczegóły</Details>
-  <IngredientSearchRadius>Obszar poszukiwania składników</IngredientSearchRadius>
+  <IngredientSearchRadius>Obszar składników</IngredientSearchRadius>
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <CountingProducts>Liczy</CountingProducts>
-  <Infinite>W nieskończoność</Infinite>
+  <Infinite>Nieskończoność</Infinite>
   <AllowedSkillRange>Wymagany poziom umiejętności {0}:</AllowedSkillRange>
   
-  <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości, ponieważ ma on różne lub nieprzewidywalne rezultaty).</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości, ponieważ ma on różne lub nieprzewidywalne produkty).</RecipeCannotHaveTargetCount>
   <WorkAmount>Ilość pracy</WorkAmount>
-  <MinimumSkills>Minimalna umiejętność:</MinimumSkills>
+  <MinimumSkills>Minimalny poziom umiejętności:</MinimumSkills>
   <BillRequires>Wymaga {0} {1}</BillRequires>
-  <BillRequiresNutrition>Wymaga {0} punktów głodu</BillRequiresNutrition>
-  <BillRequiresMayVary>Uwaga: potrzeba 20 razy więcej małych składników takich jak złoto.</BillRequiresMayVary>
-  <ThisIsSmallVolume>To mały składnik. Oznacza to, że każda jego jednostka odpowiada zaledwie 1/20 składnika normalnej wielkości. Dlatego też potrzebujesz go 20 razy więcej niż innych składników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
-  <UsableIngredients>Możliwe do użycia składniki</UsableIngredients>
-  <DoXTimes>Rób X razy</DoXTimes>
-  <DoUntilYouHaveX>Rób do uzyskania X</DoUntilYouHaveX>
-  <DoForever>Powtarzaj bez przerwy</DoForever>
+  <BillRequiresNutrition>Wymaga {0} wartości odżywczej</BillRequiresNutrition>
+  <BillRequiresMayVary>Uwaga: niewielkich składników takich jak złoto potrzeba {0}x więcej.</BillRequiresMayVary>
+  <ThisIsSmallVolume>To niewielki składnik. Oznacza to, że każda jego jednostka odpowiada zaledwie 1/{0} składnika normalnej wielkości. Dlatego też potrzebujesz go {0}x więcej niż innych składników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
+  <UsableIngredients>Składniki</UsableIngredients>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>Rzuć na ziemię</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>Najważniejszy magazyn</BillStoreMode_BestStockpile> <!-- Dłuższe się nie mieści -->
-  <BillStoreMode_NearestStockpileAnyPriority>Najbliższy magazyn</BillStoreMode_NearestStockpileAnyPriority>
- 
+  
+  <PauseWhenSatisfied>Zatrzymaj kiedy wystarczy</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Wznów przy</UnpauseWhenYouHave>
+  <Paused>Zatrzymany</Paused>
+  <Unpause>Wznów</Unpause>
+  
   <!-- Info Card -->
   <Damage>Obrażenia</Damage>
-  <Accuracy>Celność</Accuracy>
+  <Accuracy>Precyzja</Accuracy>
   <BurstShotCount>Seria strzałów</BurstShotCount>
   <WarmupTime>Czas celowania</WarmupTime>
   <MeleeWarmupTime>Czas uderzenia</MeleeWarmupTime>
-  <CooldownTime>Czas między obrażeniami</CooldownTime>
+  <CooldownTime>Czas między atakami</CooldownTime>
   <BurstShotFireRate>Szybkostrzelność</BurstShotFireRate>
   <Range>Zasięg</Range>
-  <GrowsWild>Dziko rosnący</GrowsWild>
+  <GrowsWild>Rośnie dziko</GrowsWild>
   <Harvestable>Można zbierać</Harvestable>
   <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
   <GrowingTime>Czas wzrostu</GrowingTime>
   <GrowingTimeDesc>Rośliny rosną tylko przez pewną część dnia i wyłącznie w świetle. Ta statystyka pokazuje, ile czasu zajmie roślinom osiągnięcie maksymalnych rozmiarów. Prawdziwy czas wzrostu jest zazwyczaj mniej więcej dwa razy dłuższy. Rozwój spowalniają także niskie temperatury.</GrowingTimeDesc>
   <Days>dni</Days>
-  <MinGrowingSkillToSow>Minimalna umiejętność hodowli jest zbyt niska</MinGrowingSkillToSow>
-  <FertilityRequirement>Wymagana żyzność gleby</FertilityRequirement>
+  <MinGrowingSkillToSow>Minimalna umiejętność sadzenia jest zbyt niska</MinGrowingSkillToSow>
+  <FertilityRequirement>Wymagana żyzność</FertilityRequirement>
   <FertilitySensitivity>Wrażliwość na żyzność</FertilitySensitivity>
   <LightRequirement>Wymagana ilość światła</LightRequirement>
   <Attributes>Atrybuty</Attributes>
   <LifeSpan>Żywotność</LifeSpan>
-  <Nutrition>Punkty głodu</Nutrition>
-  <Joy>Radość</Joy>
+  <Nutrition>Wartość odżywcza</Nutrition>
+  <Joy>Rozrywka</Joy>
   <FoodQuality>Jakość jedzenia</FoodQuality>
   <WalkSpeedProperty>Szybkość chodzenia</WalkSpeedProperty>
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
@@ -185,49 +185,58 @@
   <BodySize>Rozmiar ciała</BodySize>
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
   <MarketValue>Wartość podstawowa</MarketValue>
-  <Covers>Osłona</Covers>
+  <Covers>Osłony</Covers>
   <CoverEffectiveness>Efektywność osłony</CoverEffectiveness>
   <CoverEffectivenessExplanation>Określa efektywność danego przedmiotu jako osłony w walce. Większy odsetek oznacza blokowanie większej ilości pocisków.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Wskaźnik zdobywania doświadczenia</MedicineXpGainFactor>
   <MoodChange>Zmiana nastroju</MoodChange>
   <Wildness>Dzikość</Wildness>
   <WildnessExplanation>Dziksze zwierzęta są naturalnie trudniejsze do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
-  <AnimalFilthRate>Wskaźnik produkcji niczystości</AnimalFilthRate>
-  <AnimalFilthRateExplanation>Zwierzęta produkują nieczystości, kiedy poruszają się po wybudowanych podłogach. Powstają one w średniej ilości na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
+  <AnimalFilthRate>Stopień brudu u zwierząt</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Zwierzęta produkują brud kiedy poruszają się po wybudowanych podłogach. Powstają one w średniej ilości na {0} komórek wokół tego stworzenia.\n\nWiększe albo mniej udomowione zwierzęta produkują więcej zanieczyszczeń.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Czas</TimeRecordsCategory>
   <MiscRecordsCategory>Różne</MiscRecordsCategory>
-  <Addictiveness>Uzależnienie</Addictiveness>
+  <Addictiveness>Uzależnienia</Addictiveness>
   <PackAnimal>Pakowność zwierzęcia</PackAnimal>
-  <PackAnimalExplanation>Określa, czy zwierzę jest odpowiednie do przenoszenia przedmiotów w karawanie.</PackAnimalExplanation>
+  <PackAnimalExplanation>Określa, czy zwierzę jest odpowiednie do przenoszenia przedmiotów w karawanie na dalekie odległości.</PackAnimalExplanation>
+  <Skill>Umiejętności</Skill>
+  <SurgerySuccessChanceFactor>Mnożnik powodzenia</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Wymaga łóżka</SurgeryRequireBed>
+  <WorkSpeedStat>Szybkość pracy regulowana przez</WorkSpeedStat>
+  <EfficiencyStat>Jakość końcowa regulowana przez</EfficiencyStat>
+  <ConstructionSkillRequired>Wymagana umiejętność budowania</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Wymaga tego poziomu budowania aby to zbudować.</ConstructionSkillRequiredExplanation>
   
   <!-- Trade -->
-  <PositiveBuysNegativeSells>Dodatnia liczba zakupów.\nUjemna liczba sprzedaży.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Dodatnia liczba - kup.\nUjemna liczba - sprzedaj.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Cena, jaką za to zapłacisz.</BuyPriceDesc>
-  <SellPriceDesc>Srebro, jakie za to otrzymasz</SellPriceDesc>
+  <SellPriceDesc>Cena, jaką za to otrzymasz</SellPriceDesc>
   <PriceTypeDesc>Cena tego przedmiotu to {0}.</PriceTypeDesc>
-  <ColonyCount>Ile tego przedmiotu kolonia posiada na handel?\n\nMożesz sprzedać tylko przedmioty, które nie są pod dachem i leżą w zasięgu nadajnika handlu orbitalnego.</ColonyCount>
-  <TraderCount>Ile tego przedmiotu posiada handlarz?</TraderCount>
+  <ColonyCount>Ilość tego przedmiotu jaką kolonia posiada na sprzedaż.\n\nMożesz sprzedać tylko przedmioty, które są na zewnątrz i leżą w zasięgu nadajnika handlu orbitalnego.</ColonyCount>
+  <TraderCount>Ilość tego przedmiotu jaką handlarz posiada na sprzedaż.</TraderCount>
   <AcceptButton>Akceptuj</AcceptButton>
   <ResetButton>Zresetuj</ResetButton>
   <CancelButton>Anuluj</CancelButton>
   <CloseButton>Zamknij</CloseButton>
   <YourTradeableSilver>Twoje srebro, którym możesz handlować: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
-  <TraderHasNoMore>Handlarz nie ma więcej tych przedmiotów.</TraderHasNoMore>
+  <TraderHasNoMore>Handlarz nie ma tego więcej.</TraderHasNoMore>
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
   <Negotiator>Negocjator</Negotiator>
-  <NegotiatorTalkingImpaired>Twój negocjator nie jest zdolny do rozmów z powodu słabego zdrowia.\n\nWpłynie to na ceny towarów.\n\nRozważ wysłanie zdrowego negocjatora.</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>Handlarz nie ma wystaczającej ilości srebra, żeby ci zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
-  <SortBy>Sortuj</SortBy>
-  <TraderTypePrice>Rodzaj handlarza</TraderTypePrice>
-  <Selling>Sprzedaż</Selling>
-  <Buying>Zakup</Buying>
-  <ItemSellPriceFactor>Mnożnik ceny sprzedaży</ItemSellPriceFactor>
-  <DifficultyLevel>Poziom trudności</DifficultyLevel>
-  <PostCurve>Krzywa globalnego przebiegu</PostCurve>
+  <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmowy z powodu słabego zdrowia.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Twój negocjator {0} nie jest zdolny do słuchania z powodu słabego zdrowia.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>Ma to wpływ na ceny towarów.\n\nRozważ wysłanie zdrowszego negocjatora.</NegotiatorCapacityImpaired>
+  <ConfirmTraderShortFunds>Handlarz nie ma wystaczającej ilości srebra, żeby ci w pełni zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
+  <SortBy>Sortuj według</SortBy>
+  <TraderTypePrice>rodzaj handlarza</TraderTypePrice>
+  <Selling>sprzedaje</Selling>
+  <Buying>kupuje</Buying>
+  <ItemSellPriceFactor>mnożnik ceny sprzedaży</ItemSellPriceFactor>
+  <DifficultyLevel>poziom trudności</DifficultyLevel>
+  <PostCurve>krzywa globalnego przebiegu</PostCurve>
   <YourNegotiatorBonus>Bonus negocjatora</YourNegotiatorBonus>
-  <TradeWithFactionBaseBonus>Bonus handlu z bazą frakcji</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>Podstawowy bonus handlu z frakcją</TradeWithFactionBaseBonus>
   <minimum>minimum</minimum>
   <FinalPrice>Ostateczna cena</FinalPrice>
   <TradeMassUsageTooltip>Ostateczna masa i dostępna pojemność.</TradeMassUsageTooltip>
@@ -237,33 +246,35 @@
   <FormCaravanColonyThingCountTip>Ilość przedmiotów, które kolonia może już przekazać karawanie.</FormCaravanColonyThingCountTip>
   <PawnsTab>Ludzie i zwierzęta</PawnsTab>
   <ItemsTab>Przedmioty</ItemsTab>
-  <CaravanConfigTab>Zmień</CaravanConfigTab>
+  <CaravanConfigTab>Konfiguracja</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Musisz przypisać przynajmniej jednego przytomnego kolonistę.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>Nie można było znaleźć odpowiedniego miejsca wyjścia.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindReachableExitSpot>Uwaga: niektórzy z wybranych kolonistów nie są w stanie dostać się do miejsca wyjścia.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindExitSpot>Wybrane miejsce wyjścia ({0}) jest nieosiągalne.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Nie można znaleźć żadnego prawidłowego miejsca pakowania. Upewnij się że wybrane miejsce wyjścia ({0}) jest osiągalne.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>Uwaga: niektórzy z wybranych kolonistów nie są w stanie dostać się do miejsca wyjścia ({0}).</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} jest nieosiągalny dla wybranych kolonistów.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Żaden z wybranych kolonistów nie jest w stanie dostać się do {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Żaden z wybranych kolonistów nie jest w stanie dostać się do {0}x {1}.</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>Karawana nie jest w stanie unieść takiego ciężaru.</TooBigCaravanMassUsage>
   <CaravanMassUsageTooltip>Obecna masa i pojemność.\n\nMasa obejmuje wybrane zaopatrzenie karawany i sprzęt kolonistów.\n\nNie będziesz mógł wysłać karawany w podróż, jeśli masa przekroczy pojemność.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>Liczba dni, na które posiadasz prowiant: {0}</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfo>Jedzenia starczy na {0} dni</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>Jedzenia starczy na {0} dni, zgnije w ciągu {1} dni</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>Nigdy nie zabraknie jedzenia</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Przybliżona liczba dni, po których karawanie zabraknie jedzenia.\n\nPod uwagę brane jest zarówno ludzkie, jak i zwierzęce pożywienie. Liczba ta bierze pod uwagę najgorszy możliwy scenariusz. Oznacza to, że gdy minie ten czas, przynajmniej jedna osoba lub zwierzę nie będzie miała jedzenia.</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.\n\nCzy jesteś pewien, że chcesz stworzyć tę karawanę?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Twoja karawana nie ma jedzenia i szybko zacznie głodować.\n\nCzy jesteś pewien, że chcesz stworzyć tę karawanę?</DaysWorthOfFoodWarningDialog_NoFood>
-<DaysWorthOfFoodInfoRot>{0} dni z wystarczającą ilością jedzenia, zgnije za {1} dni</DaysWorthOfFoodInfoRot>
-<DaysWorthOfFoodTooltip_CanEatLocalPlants>Zależnie od pory roku, temperatury i otoczenia zakładamy, że będzie możliwe, aby roślinożerne zwierzęta jadły lokalne rośliny. Może się to jednak zmienić w dowolnym momencie.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-<DaysWorthOfFoodTooltip_CantEatLocalPlants>Zależnie od pory roku, temperatury i otoczenia zakładamy, że NIE będzie możliwe, aby roślinożerne zwierzęta jadły lokalne rośliny. Może się to jednak zmienić w dowolnym momencie.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-<CaravanFoodWillRotSoonWarningDialog>Ogromna część oznaczonego jedzenia wkrótce zgnije./nCzy jesteś pewien, że chcesz utworzyć tę karawanę?</CaravanFoodWillRotSoonWarningDialog>
-<DaysUntilRotTip>Liczba dni, po upłynięciu których przedmiot zacznie się psuć, zależnie od średniej temperatury na danym obszarze.</DaysUntilRotTip>
-<EstimatedTimeToDestinationButton>Szacowany czas do celu</EstimatedTimeToDestinationButton>
-  <NoExitDirectionForCaravanChosen>Musisz wybrać kierunek podróży karawany.</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(brak dostępnego kierunku podróży)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>Kierunek podróży</ExitDirection>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>Bazując na aktualnej porze roku, temperaturze oraz otoczeniu szacujemy że roślinożerne zwierząta BĘDĄ mogły jeść lokalne rośliny. Oczywiście może to się w każdej chwili zmienić.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>Bazując na aktualnej porze roku, temperaturze oraz otoczeniu szacujemy że roślinożerne zwierząta NIE BĘDĄ mogły jeść lokalnych roślin. Oczywiście może to się w każdej chwili zmienić.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+  <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Twoja karawana nie ma jedzenia i szybko zacznie głodować.</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>Ogromna część oznaczonego jedzenia wkrótce zgnije.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>W karawanie nie ma kolonisty zdolnego do handlu lub dyplomacji.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Czy na pewno chcesz stworzyć tę karawanę?</CaravanAreYouSure>
+  <NoExitDirectionForCaravanChosen>Musisz wybrać kierunek wyjścia karawany.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(brak dostępnych kierunków wyjścia)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Kierunek wyjścia</ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>Waga tego przedmiotu.</ItemWeightTip>
   <MarketValueTip>Wartość rynkowa</MarketValueTip>
+  <DaysUntilRotTip>Liczba dni w ciągu których ten przedmiot zacznie gnić, bazując na średniej temperaturze w regionie.</DaysUntilRotTip>
   <MassCapacity>Pojemność</MassCapacity>
   <Mass>Masa</Mass>
   <EquipmentAndApparelMass>Masa sprzętu i ubrań</EquipmentAndApparelMass>
@@ -273,12 +284,14 @@
   <ColonistsSection>Koloniści</ColonistsSection>
   <PrisonersSection>Więźniowie</PrisonersSection>
   <AnimalsSection>Zwierzęta</AnimalsSection>
-
+  <EstimatedTimeToDestinationButton>Szacunkowy czas do celu</EstimatedTimeToDestinationButton>
+  <AbandonButton>Porzuć</AbandonButton>
+  
   <!-- Split caravan -->
   <SplitCaravan>Podziel karawanę</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Musisz zostawić w karawanie przynajmniej jednego przytomnego kolonistę.</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>Przed</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>Po</CaravanSplitDestLabel>
+  <CaravanSplitSourceLabel>Aktualna</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Nowa</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>Liczba przedmiotów, które możesz przekazać nowej karawanie.</SplitCaravanThingCountTip>
   <SplitCaravanMassUsageTooltip>Obecna masa i pojemność.</SplitCaravanMassUsageTooltip>
 
@@ -301,8 +314,8 @@
   <!--HistoryUpload-->
   <HistoryUploadMessage>Czy zgadzasz się wysyłać dane gry na serwer RimWorld, aby pomóc twórcom gry balansować rozgrywkę? Jeśli się zgodzisz, Twoje dane będą wysyłane co {0} dni (oraz w niektórych rzadkich przypadkach takich jak koniec gry). Opcje prywatności mogą zostać w każdej chwili zmienione w menu opcji.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Możesz podać imię, w przeciwnym razie dane zostaną wysłane anonimowo.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Zezwalaj na wysyłanie</HistoryUploadYes>
-  <HistoryUploadNo>Nie zezwalaj na wysyłanie</HistoryUploadNo>
+  <HistoryUploadYes>Zezwalaj na wysyłanie danych o rozgrywce</HistoryUploadYes>
+  <HistoryUploadNo>Nie zezwalaj na wysyłanie danych o rozgrywce</HistoryUploadNo>
   <HistoryUploadYesOnce>Wyślij tylko tym razem</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Nie wysyłaj teraz, zapytaj mnie później</HistoryUploadNoOnce>
 
@@ -311,7 +324,7 @@
   <SelectOutfit>Wybierz strój...</SelectOutfit>
   <NewOutfit>Nowy strój</NewOutfit>
   <DeleteOutfit>Usuń strój...</DeleteOutfit>
-  <OutfitInUse>Strój używany przez {0}.</OutfitInUse>
+  <OutfitInUse>Strój jest używany przez {0}.</OutfitInUse>
   <NoOutfitSelected>Żaden strój nie został wybrany</NoOutfitSelected>
  
  <!-- Drug policy management -->
@@ -319,7 +332,7 @@
   <SelectDrugPolicy>Wybierz politykę...</SelectDrugPolicy>
   <NewDrugPolicy>Nowa polityka</NewDrugPolicy>
   <DeleteDrugPolicy>Usuń politykę...</DeleteDrugPolicy>
-  <DrugPolicyInUse>Polityka wobec narkotyków jest wykorzystywana przez {0}.</DrugPolicyInUse>
+  <DrugPolicyInUse>Polityka wobec narkotyków jest używana przez {0}.</DrugPolicyInUse>
   <SocialDrugs>Narkotyki społeczne</SocialDrugs>
   <NoDrugs>Brak narkotyków</NoDrugs>
   <OneDrinkPerDay>Jeden drink dziennie</OneDrinkPerDay>
@@ -327,66 +340,55 @@
   <NoDrugPolicySelected>Nie wybrano polityki wobec narkotyków</NoDrugPolicySelected>
   <AddDrug>Dodaj narkotyk...</AddDrug>
   <DrugColumnLabel>Narkotyki</DrugColumnLabel>
-  <DrugUsageColumnLabel>Zastosowanie</DrugUsageColumnLabel>
+  <DrugUsageColumnLabel>Zażywanie</DrugUsageColumnLabel>
   <FrequencyColumnLabel>Częstotliwość</FrequencyColumnLabel>
-  <MoodThresholdColumnLabel>Tylko jeśli nastrój poniżej</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>Tylko jeśli zabawa poniżej</JoyThresholdColumnLabel>
-  <TakeToInventoryColumnLabel>Dodaj do sprzętu</TakeToInventoryColumnLabel>
+  <MoodThresholdColumnLabel>Tylko jeśli nastrój jest poniżej</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Tylko jeśli rozrywka jest poniżej</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Weź do ekwipunku</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>(brak narkotyków)</NoDrugsBrackets>
   <EveryDay>Codziennie</EveryDay>
   <TimesPerDay>{0} razy dziennie</TimesPerDay>
-  <EveryDays>Co każde {0} dni</EveryDays>
-  <NoDrugUseRequirement>W ogóle</NoDrugUseRequirement>
+  <EveryDays>Co {0} dni</EveryDays>
+  <NoDrugUseRequirement>Dowolnie</NoDrugUseRequirement>
   <DeleteDrugTooltip>Usuń ten narkotyk.</DeleteDrugTooltip>
   <DrugNameColumnDesc>Nazwa narkotyku</DrugNameColumnDesc>
-  <DrugUsageColumnDesc>Sposób, w jaki można przyjmować narkotyk.</DrugUsageColumnDesc>
+  <DrugUsageColumnDesc>Sposób, w jaki można używać ten narkotyk.</DrugUsageColumnDesc>
   <FrequencyColumnDesc>Określa, jak często koloniści powinni próbować przyjmować ten narkotyk.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom zabawy spadnie poniżej granicy.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom rozrywki spadnie poniżej granicy.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Ilość narkotyku zabrana dodatkowo, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
   <DrugUsageTipForAddiction>Dla uzależnień.\n\nUżyj tego narkotyku, aby zaspokoić potrzebę uzależnionej osoby.\n\nNawet jeśli jest zabroniony, niektóre osoby z określonymi cechami lub załamaniem nerwowym będą mogły z niego skorzystać.</DrugUsageTipForAddiction>
-  <DrugUsageTipForJoy>Dla zabawy.\n\nPrzyjmuj ten narkotyk dla zabawy i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>Dla rozrywki.\n\nPrzyjmuj ten narkotyk dla rozrywki i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Zaplanowane.\n\nPrzyjmuj ten narkotyk o zaplanowanych porach.</DrugUsageTipScheduled>
  
+  <!-- Medical settings -->
+  <MedGroupDefaults>Domyślne</MedGroupDefaults>
+  <MedGroupColonist>Kolonista</MedGroupColonist>
+  <MedGroupImprisonedColonist>Zainspirowany kolonista</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Zwierzę z kolonii</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Neutralne zwierzę</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Neutralna frakcja</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Wroga frakcja</MedGroupHostileFaction>
+  
   <!-- Growing -->
   <NoGrowerCanPlant>{0} wymaga {1} punktów umiejętności, aby możliwe było zasianie.\n\nŻaden z Twoich aktywnych hodowców nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
   
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>Niektórzy twoi koloniści lub zwierzęta znajdują się na tym obszarze. Czy jesteś pewien, że chcesz ich zostawić?\n\nNastępujące osoby i zwierzęta zostaną zostawione w tyle:\n\n{0}.</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Niektórzy twoi koloniści lub zwierzęta znajdują się na tym obszarze. Czy jesteś pewien, że chcesz ich zostawić?\n\nNastępujące osoby i zwierzęta zostaną zostawione:\n\n{0}.</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>Opuszczenie {0} spowoduje, że następujące osoby otrzymają następujące myśli:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Wszyscy:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>Na tym obszarze nadal znajdują się niektórzy więźniowie lub zwierzęta, a ta karawana jest jedyną, do której mogą dołączyć w tym momencie.\n\nJeśli wyruszysz z karawaną, nie będą oni mogli opuścić tego obszaru, dopóki nie wrócisz. Więźniowie zaczną uciekać, ale zwierzęta ciągle będą czekać na twój powrót.\n\nJeśli zdecydujesz się poczekać, postarają się dołączyć do karawany tak szybko, jak to tylko możliwe.\n\nCzy jesteś pewien, że chcesz już wyruszyć?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>Czy na pewno chcesz zostawić {0}?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} najprawdopodobniej umrze.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} zabierze ze sobą następujące przedmioty:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>U wszystkich kolonistów pojawią się następujące myśli:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>Zostawienie {0} spowoduje, że niektóre osoby zaczną myśleć w następujący sposób:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog>Czy na pewno chcesz wygnać {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} prawdopodobnie umrze.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} weźnie następujące rzeczy razem z HIM:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Wszyscy koloniści będą mieli następujące myśli:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Wygnanie {0} spowoduje że następujące osoby będą miały następujące myśli:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest całkowicie załadowana. Brakuje {0}. Czy wystartować mimo to?</ConfirmSendNotCompletelyLoadedPods>
-
-	
-<PauseWhenSatisfied>Zatrzymaj w razie potrzeby</PauseWhenSatisfied>
-<UnpauseWhenYouHave>Zatrzymaj, gdy</UnpauseWhenYouHave> 
-<Paused>Zatrzymano</Paused>
-<Unpause>Odpauzuj</Unpause>
-	
-<MedGroupDefaults>Domyślne</MedGroupDefaults>
-<MedGroupColonist>Kolonista</MedGroupColonist>
-<MedGroupImprisonedColonist>Zniewolony kolonista</MedGroupImprisonedColonist>
-<MedGroupColonyAnimal>Zwierzę kolonii</MedGroupColonyAnimal>
-<MedGroupNeutralAnimal>Neutralne zwierzę</MedGroupNeutralAnimal>
-<MedGroupNeutralFaction>Neutralna frakcja</MedGroupNeutralFaction>
-<MedGroupHostileFaction>Wroga frakcja</MedGroupHostileFaction>
-	
-<ConfirmAbandonHomeNegativeThoughts>Porzucenie {0} sprawi, że następujące osoby otrzymają dodatkowe zmartwienie:</ConfirmAbandonHomeNegativeThoughts>
-<ConfirmAbandonHomeNegativeThoughts_Everyone>Wszyscy:</ConfirmAbandonHomeNegativeThoughts_Everyone>
-<PostponeLetter>Odłóż na później</PostponeLetter>
-<LetterLabelFoundPreciousLump>Znaleziono wartościowe minerały</LetterLabelFoundPreciousLump>
-<LetterFoundPreciousLump>Twój dalekozasięgowy skaner minerałów odkrył w pobliżu złoże cennych surowców./nNie wiadomo, kto lub co - jeśli cokolwiek - może go strzec.</LetterFoundPreciousLump>
-
-	<RejectLetter>Odrzuć</RejectLetter>
+  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest załadowana do końca. Brakuje {0}. Wystrzelić mimo to?</ConfirmSendNotCompletelyLoadedPods>
 	
 </LanguageData>
