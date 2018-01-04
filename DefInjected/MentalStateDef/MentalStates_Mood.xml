@@ -1,59 +1,121 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    
-    <Berserk.label>epizod psychotyczny</Berserk.label>
-    <Berserk.baseInspectLine>Stan psychiczny: epizod psychotyczny</Berserk.baseInspectLine>
-    <Berserk.beginLetterLabel>psychoza</Berserk.beginLetterLabel>
-    <Berserk.beginLetter>{0} wpadł w psychotyczny szał i zaczął mordować.</Berserk.beginLetter>
-    <Berserk.recoveryMessage>{0} ocknął się z szału.</Berserk.recoveryMessage>
-    
-    
-    <FireStartingSpree.label>piromania</FireStartingSpree.label>
-    <FireStartingSpree.baseInspectLine>Stan psychiczny: piromania</FireStartingSpree.baseInspectLine >
-    <FireStartingSpree.beginLetterLabel>piromania</FireStartingSpree.beginLetterLabel>
-    <FireStartingSpree.beginLetter>{0} podpala wszystko dookoła!</FireStartingSpree.beginLetter>
-    <FireStartingSpree.recoveryMessage>{0} już niczego nie podpala.</FireStartingSpree.recoveryMessage>
-    
-    
-    <GiveUpExit.label>opuszcza kolonię</GiveUpExit.label>
-    <GiveUpExit.baseInspectLine>Stan psychiczny: opuszcza kolonię</GiveUpExit.baseInspectLine>
-    <GiveUpExit.beginLetterLabel>odchodzi</GiveUpExit.beginLetterLabel>
-    <GiveUpExit.beginLetter>{0} poddał się i opuszcza kolonię.</GiveUpExit.beginLetter>
-    <GiveUpExit.recoveryMessage>{0} odnalazł nadzieję i wraca do kolonii.</GiveUpExit.recoveryMessage>
-    
-    
-    <BingingDrugExtreme.label>śćpanie</BingingDrugExtreme.label>
-    <BingingDrugExtreme.baseInspectLine>Stan psychiczny: śćpanie {0}</BingingDrugExtreme.baseInspectLine>
-    <BingingDrugMajor.label>ćpun</BingingDrugMajor.label>
-    <BingingDrugMajor.baseInspectLine>Stan psychiczny: ćpun - {0}</BingingDrugMajor.baseInspectLine>
+ 
+  <!-- Mental breaks: extreme -->
+  
+  <Berserk.label>epizod psychotyczny</Berserk.label>
+  <Berserk.beginLetter>{0} wpadł w psychotyczny szał.</Berserk.beginLetter>
+  <Berserk.beginLetterLabel>psychoza</Berserk.beginLetterLabel>
+  <Berserk.recoveryMessage>{0} ocknął się z szału.</Berserk.recoveryMessage>
+  <Berserk.baseInspectLine>Stan psychiczny: epizod psychotyczny</Berserk.baseInspectLine>
+
+  <FireStartingSpree.label>piromania</FireStartingSpree.label>
+  <FireStartingSpree.beginLetter>{0} podpala wszystko dookoła!</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetterLabel>piromania</FireStartingSpree.beginLetterLabel>
+  <FireStartingSpree.recoveryMessage>{0} już niczego nie podpala.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.baseInspectLine>Stan psychiczny: piromania</FireStartingSpree.baseInspectLine >
+  
+  <GiveUpExit.label>opuszcza kolonię</GiveUpExit.label>
+  <GiveUpExit.beginLetter>{0} poddał się i opuszcza kolonię.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetterLabel>odchodzi</GiveUpExit.beginLetterLabel>
+  <GiveUpExit.recoveryMessage>{0} odnalazł nadzieję i wraca do kolonii.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.baseInspectLine>Stan psychiczny: opuszcza kolonię</GiveUpExit.baseInspectLine>
+  
+  <BingingDrugExtreme.label>obsesja narkotykowa</BingingDrugExtreme.label>
+  <BingingDrugExtreme.baseInspectLine>Stan psychiczny: Obsesja narkotykowa - {0}</BingingDrugExtreme.baseInspectLine>
+
+  <Jailbreaker.label>nakłonienie więźnia do ucieczki</Jailbreaker.label>
+  <Jailbreaker.beginLetter>{0} wpadł w stan psychiczny w którym nakłania więźniów do ucieczki.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetterLabel>nakłonienie do ucieczki</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.recoveryMessage>{0} już nie nakłania więźniów do ucieczki.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.baseInspectLine>Stan psychiczny: nakłonienie do ucieczki</Jailbreaker.baseInspectLine>
+  
+  <Slaughterer.label>rzeźnik</Slaughterer.label>
+  <Slaughterer.beginLetter>{0} w padł w stan psychiczny i wyładuje HIS złość na twoich zwierzętach.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>rzeźnik</Slaughterer.beginLetterLabel>
+  <Slaughterer.recoveryMessage>{0} już nie ubija losowych zwierząt.</Slaughterer.recoveryMessage>
+  <Slaughterer.baseInspectLine>Stan psychiczny: Rzeźnik</Slaughterer.baseInspectLine>
+ 
+  <MurderousRage.label>mordercza wściekłość</MurderousRage.label>
+  <MurderousRage.beginLetter>{0} ma mordercza wściekłość. HECAP zamierza zabić {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetterLabel>mordercza wściekłość</MurderousRage.beginLetterLabel>
+  <MurderousRage.recoveryMessage>{0} nie ma już morderczej wściekłości.</MurderousRage.recoveryMessage>
+  <MurderousRage.baseInspectLine>Stan psychiczny: Mordercza wściekłość</MurderousRage.baseInspectLine>
+
+
+  <!-- Mental breaks: major -->
+  
+  <BingingDrugMajor.label>obsesja narkotykowa</BingingDrugMajor.label>
+  <BingingDrugMajor.baseInspectLine>Stan psychiczny: Obsesja narkotykowa - {0}</BingingDrugMajor.baseInspectLine>
+  
+  <WanderPsychotic.label>psychoza</WanderPsychotic.label>
+  <WanderPsychotic.beginLetter>{0} znajduje się w stanie psychozy.</WanderPsychotic.beginLetter>
+  <WanderPsychotic.beginLetterLabel>psychoza</WanderPsychotic.beginLetterLabel>
+  <WanderPsychotic.recoveryMessage>{0} stan psychozy skończył się.</WanderPsychotic.recoveryMessage>
+  <WanderPsychotic.baseInspectLine>Stan psychiczny: psychoza</WanderPsychotic.baseInspectLine>
+  
+  <Tantrum.label>furia</Tantrum.label>
+  <Tantrum.beginLetter>{0} ma napad złości.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>furia</Tantrum.beginLetterLabel>
+  <Tantrum.recoveryMessage>{0} nie ma już napadu złości.</Tantrum.recoveryMessage>
+  <Tantrum.baseInspectLine>Stan psychiczny: Furia</Tantrum.baseInspectLine>
+ 
+  <TargetedTantrum.label>furia</TargetedTantrum.label>
+  <TargetedTantrum.beginLetter>{0} wpadł w furię. HECAP zamierza rozwalić {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>furia</TargetedTantrum.beginLetterLabel>
+  <TargetedTantrum.recoveryMessage>{0} nie ma już napadu złości.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.baseInspectLine>Stan psychiczny: Furia</TargetedTantrum.baseInspectLine>
+
+  <BedroomTantrum.label>furia</BedroomTantrum.label>
+  <BedroomTantrum.beginLetter>{0} wpadł w furię. HECAP zamierza rozwalać meble w HIS pokoju.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetterLabel>furia</BedroomTantrum.beginLetterLabel>
+  <BedroomTantrum.recoveryMessage>{0} nie ma już napadu złości.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.baseInspectLine>Stan psychiczny: Furia</BedroomTantrum.baseInspectLine>
+
+  <SadisticRage.label>sadystyczna wściekłość</SadisticRage.label>
+  <SadisticRage.beginLetter>{0} wpadł w sadystyczną wściekłość. HECAP zamierza rozładować HIS złość na więźniach.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>sadystyczna wściekłość</SadisticRage.beginLetterLabel>
+  <SadisticRage.recoveryMessage>{0} nie ma już sadystycznej wściekłości.</SadisticRage.recoveryMessage>
+  <SadisticRage.baseInspectLine>Stan psychiczny: Sadystyczna wściekłość</SadisticRage.baseInspectLine>
+ 
+  <CorpseObsession.label>trupia obsesja</CorpseObsession.label>
+  <CorpseObsession.beginLetter>{0} ma obsejsę na punkcie trupów. HECAP zamierza wykopać ciało.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetterLabel>trupia obsesja</CorpseObsession.beginLetterLabel>
+  <CorpseObsession.recoveryMessage>{0} nie ma już trupiej obsesji.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.baseInspectLine>Stan psychiczny: Trupia obsesja</CorpseObsession.baseInspectLine>
+
+
+  <!-- Mental breaks: minor -->
+  
+  <BingingFood.label>obżarstwo</BingingFood.label>
+  <BingingFood.beginLetter>{0} ma obsesję na punkcie jedzenia.</BingingFood.beginLetter>
+  <BingingFood.beginLetterLabel>obżarstwo</BingingFood.beginLetterLabel>
+  <BingingFood.recoveryMessage>{0} już nie ma obsesji na punkcie jedzenia.</BingingFood.recoveryMessage>
+  <BingingFood.baseInspectLine>Stan psychiczny: obżarstwo</BingingFood.baseInspectLine>
+  
+  <WanderSad.label>włóczenie się</WanderSad.label>
+  <WanderSad.beginLetter>{0} włóczy się w poczuciu przygnębienia</WanderSad.beginLetter>
+  <WanderSad.beginLetterLabel>włóczenie się</WanderSad.beginLetterLabel>
+  <WanderSad.recoveryMessage>{0} już się nie włóczy.</WanderSad.recoveryMessage>
+  <WanderSad.baseInspectLine>Stan psychiczny: Włóczenie się</WanderSad.baseInspectLine>
    
-    
-    <WanderPsychotic.label>psychoza</WanderPsychotic.label>
-    <WanderPsychotic.baseInspectLine>Stan psychiczny: psychoza</WanderPsychotic.baseInspectLine>
-    <WanderPsychotic.beginLetterLabel>psychoza</WanderPsychotic.beginLetterLabel>
-    <WanderPsychotic.beginLetter>{0} znajduje się w stanie psychozy.</WanderPsychotic.beginLetter>
-    <WanderPsychotic.recoveryMessage>{0} - stan psychozy skończył się.</WanderPsychotic.recoveryMessage>
-    
-    
-    <BingingFood.label>obżarstwo</BingingFood.label>
-    <BingingFood.baseInspectLine>Stan psychiczny: obżarstwo</BingingFood.baseInspectLine>
-    <BingingFood.beginLetterLabel>łakomstwo</BingingFood.beginLetterLabel>
-    <BingingFood.beginLetter>{0} przechodzi gastrofazę.</BingingFood.beginLetter>
-    <BingingFood.recoveryMessage>{0} już nie przechodzi gastrofazy.</BingingFood.recoveryMessage>
-    
-    
-    <WanderSad.label>włóczenie się bez celu</WanderSad.label>
-    <WanderSad.baseInspectLine>Stan psychiczny: włóczenie się bez celu</WanderSad.baseInspectLine>
-    <WanderSad.beginLetterLabel>włóczenie się</WanderSad.beginLetterLabel>
-    <WanderSad.beginLetter>{0} przechodzi załamanie i włóczy się w poczuciu przygnębienia</WanderSad.beginLetter>
-    <WanderSad.recoveryMessage>{0} już się nie włóczy.</WanderSad.recoveryMessage>
-    
-    
-    <WanderOwnRoom.label>skrycie w pokoju</WanderOwnRoom.label>
-    <WanderOwnRoom.baseInspectLine>Stan psychiczny: skrycie w pokoju</WanderOwnRoom.baseInspectLine>
-    <WanderOwnRoom.beginLetterLabel>skrycie w pokoju</WanderOwnRoom.beginLetterLabel>
-    <WanderOwnRoom.beginLetter>{0} ukrywa się w swoim pokoju.</WanderOwnRoom.beginLetter>
-    <WanderOwnRoom.recoveryMessage>{0} nie ukrywa się już w swoim pokoju.</WanderOwnRoom.recoveryMessage>
-    
+  <WanderOwnRoom.label>samotność</WanderOwnRoom.label>
+  <WanderOwnRoom.beginLetter>{0} ukrywa się w HIS pokoju.</WanderOwnRoom.beginLetter>
+  <WanderOwnRoom.beginLetterLabel>ukrycie się w pokoju</WanderOwnRoom.beginLetterLabel>
+  <WanderOwnRoom.recoveryMessage>{0} nie ukrywa się już w HIS pokoju.</WanderOwnRoom.recoveryMessage>
+  <WanderOwnRoom.baseInspectLine>Stan psychiczny: Ukrycie się w pokoju</WanderOwnRoom.baseInspectLine>
+  
+  <InsultingSpree.label>obraźliwe szaleństwo</InsultingSpree.label>
+  <InsultingSpree.beginLetter>{0} wpadł w obraźliwe szaleństwo.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>obraźliwe szaleństwo</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.recoveryMessage>{0} nie jest już w obraźliwym szaleństwie.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.baseInspectLine>Stan psychiczny: obraźliwe szaleństwo</InsultingSpree.baseInspectLine>
+
+  <TargetedInsultingSpree.label>obraźliwe szaleństwo</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.beginLetter>{0} wpadł w obraźliwe szaleństwo przeciwko {1}.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>obraźliwe szaleństwo</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.baseInspectLine>Stan psychiczny: obraźliwe szaleństwo przeciwko {0}</TargetedInsultingSpree.baseInspectLine>
+
+  
 </LanguageData>
