@@ -1,64 +1,131 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+  
+  <OrbitalTradeBeacon.label>nadajnik handlu orbitalnego</OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon.description>Nadajnik do handlu ze statkami na orbicie. Służy do wymiany dóbr znajdujących się w jego pobliżu. Kupione przedmioty zostaną zrzucone przy nadajniku. Może być montowany pod dachem.</OrbitalTradeBeacon.description>
+  <OrbitalTradeBeacon_Blueprint.label>nadajnik handlu orbitalnego (plan)</OrbitalTradeBeacon_Blueprint.label>
+  <OrbitalTradeBeacon_Blueprint_Install.label>nadajnik handlu orbitalnego (plan)</OrbitalTradeBeacon_Blueprint_Install.label>
+  <OrbitalTradeBeacon_Frame.label>nadajnik handlu orbitalnego (budowa)</OrbitalTradeBeacon_Frame.label>
+  <OrbitalTradeBeacon_Frame.description>Nadajnik do handlu ze statkami na orbicie. Służy do wymiany dóbr znajdujących się w jego pobliżu. Kupione przedmioty zostaną zrzucone przy nadajniku. Może być montowany pod dachem.</OrbitalTradeBeacon_Frame.description>
+  
+  <CommsConsole.label>konsola łączności</CommsConsole.label>
+  <CommsConsole.description>Używana jest do komunikacji ze statkami i frakcjami w celach negocjacji lub handlu.</CommsConsole.description>
+  <CommsConsole_Blueprint.label>konsola łączności (plan)</CommsConsole_Blueprint.label>
+  <CommsConsole_Frame.label>konsola łączności (budowa)</CommsConsole_Frame.label>
+  <CommsConsole_Frame.description>Używana jest do komunikacji ze statkami i frakcjami w celach negocjacji lub handlu.</CommsConsole_Frame.description>
     
-    <OrbitalTradeBeacon.label>nadajnik handlu orbitalnego</OrbitalTradeBeacon.label>
-    <OrbitalTradeBeacon.description>Nadajnik do handlu ze statkami na orbicie. Służy do wymiany dóbr znajdujących się w jego pobliżu. Kupione przedmioty zostaną zrzucone przy nadajniku.</OrbitalTradeBeacon.description>
-    
-    <CommsConsole.label>konsola łączności</CommsConsole.label>
-    <CommsConsole.description>Używana jest do komunikacji ze statkami i frakcjami w celach negocjacji lub handlu.</CommsConsole.description>
-        
-    <FirefoamPopper.label>piana gaśnicza</FirefoamPopper.label>
-    <FirefoamPopper.description>Kiedy dostanie się do niej ogień lub zostanie przez kogoś użyta, pojawi się i zacznie rozpylać dookoła ognioodporną pianę.</FirefoamPopper.description>
-    <FirefoamPopper.comps.1.useLabel>Użyj piany gaśniczej</FirefoamPopper.comps.1.useLabel>
+  <FirefoamPopper.label>pianka gaśnicza</FirefoamPopper.label>
+  <FirefoamPopper.description>Kiedy dostanie się do niej ogień lub zostanie przez kogoś aktywowana, zacznie rozpylać dookoła ognioodporną pianę.</FirefoamPopper.description>
+  <FirefoamPopper.comps.1.useLabel>Aktywuj piankę gaśniczą</FirefoamPopper.comps.1.useLabel>
+  <FirefoamPopper_Blueprint.label>firefoam popper (plan)</FirefoamPopper_Blueprint.label>
+  <FirefoamPopper_Blueprint_Install.label>firefoam popper (plan)</FirefoamPopper_Blueprint_Install.label>
+  <FirefoamPopper_Frame.label>firefoam popper (budowa)</FirefoamPopper_Frame.label>
+  <FirefoamPopper_Frame.description>Kiedy dostanie się do niej ogień lub zostanie przez kogoś aktywowana, zacznie rozpylać dookoła ognioodporną pianę.</FirefoamPopper_Frame.description>
 
-    <MoisturePump.label>pompa wodna</MoisturePump.label>
-    <MoisturePump.description>Bardzo powoli usuwa wilgoć z pobliskiego terenu, przekształcając bagna lub płytką wodę w suchy ląd. Nie działa na głęboką wodę.</MoisturePump.description>
+  <MoisturePump.label>pompa wodna</MoisturePump.label>
+  <MoisturePump.description>Bardzo powoli usuwa wilgoć z pobliskiego terenu, przekształcając bagna lub płytką wodę w suchy ląd. Nie działa na głęboką wodę.</MoisturePump.description>
+  <MoisturePump_Blueprint.label>pompa wodna (plan)</MoisturePump_Blueprint.label>
+  <MoisturePump_Frame.label>pompa wodna (budowa)</MoisturePump_Frame.label>
+  <MoisturePump_Frame.description>Bardzo powoli usuwa wilgoć z pobliskiego terenu, przekształcając bagna lub płytką wodę w suchy ląd. Nie działa na głęboką wodę.</MoisturePump_Frame.description>
    
-    <GroundPenetratingScanner.label>geoskaner</GroundPenetratingScanner.label>
-    <GroundPenetratingScanner.description>Radar połączony z sonarem i magnetycznymi imagerami, który pozwala wykrywać (ale nie identyfikować) surowce ukryte głęboko pod powierzchnią. Wymaga ogromnej ilości energii elektrycznej.</GroundPenetratingScanner.description>
-
-    
-    <PodLauncher.label>wyrzutnia kapsuł</PodLauncher.label>
-    <PodLauncher.description>Tankujący port do wystrzelenia jednej kapsuły transportowej. Wyrzutnie kapsuł mogą działać jednocześnie, jednak muszą przylegać do siebie.</PodLauncher.description>
-
-    <TransportPod.label>kapsuła transportowa</TransportPod.label>
-    <TransportPod.description>Kapsuła przeznaczona do suborbitalnych podróży. Może przenosić ludzi, przedmioty oraz zwierzęta. Wykorzystać ją można do transportu, niespodziewanego ataku lub wysłania wsparcia wojskowego.</TransportPod.description>
-
-    
-    <MultiAnalyzer.label>multianalizator</MultiAnalyzer.label>
-    <MultiAnalyzer.description>Zwiększa prędkość badań. Musi być zainstalowany blisko stołu do badań. Jeden stół do badań może być podłączony tylko do jednego multianalizatora.</MultiAnalyzer.description>
-     
-    <VitalsMonitor.label>monitor funkcji życiowych</VitalsMonitor.label>
-    <VitalsMonitor.description>Zwiększa prędkość leczenia pacjenta. Musi być zainstalowany obok łóżka medycznego. Jeden monitor może być podłączony tylko do jednego łóżka medycznego.</VitalsMonitor.description>
-    
-    <ToolCabinet.label>szafa z narzędziami</ToolCabinet.label>
-    <ToolCabinet.description>Zwiększa szybkość pracy. Musi być zainstalowana obok jakiegoś miejsca pracy. Jedno miejsce pracy może być podłączone tylko do dwóch szafek z narzędziami.</ToolCabinet.description>
-    
-    
-    <Grave.label>grób</Grave.label>
-    <Grave.description>Umieść zmarłych w grobie, aby zapewnić im godne miejsce spoczynku.</Grave.description>
-    
-    <Sarcophagus.label>sarkofag</Sarcophagus.label>
-    <Sarcophagus.description>Ozdobny sarkofag do pochówku wyjątkowych zmarłych.</Sarcophagus.description>
-    
-    
-    <CryptosleepCasket.label>kapsuła hibernacyjna</CryptosleepCasket.label>
-    <CryptosleepCasket.description>Sarkofag z własnym zasilaniem, który jest w stanie utrzymać w letargu przez wiele lat.</CryptosleepCasket.description>
-    
-    <AncientCryptosleepCasket.label>prastara kapsuła hibernacyjna</AncientCryptosleepCasket.label>
-    <AncientCryptosleepCasket.description>Ta kapsuła hibernacyjna wygląda tak, jakby znajdowała się tu od bardzo dawna. Kto wie, co może zawierać...</AncientCryptosleepCasket.description>
-    
-    
-    <MarriageSpot.label>miejsce ślubów</MarriageSpot.label>
-    <MarriageSpot.description>Wyznacza miejsce, w którym będą odbywały się ceremonie ślubne. Oglądający mogą je obserwować z każdej strony.</MarriageSpot.description>
-    
-    <PartySpot.label>miejsce imprez</PartySpot.label>
-    <PartySpot.description>Wyznacza miejsce, w którym będą odbywały się imprezy. Wykorzystują one obszar dookoła wyznaczonego punktu.</PartySpot.description>
-    
-    <CaravanPackingSpot.label>miejsce przygotowywania karawany</CaravanPackingSpot.label>
-    <CaravanPackingSpot.description>Wyznacza miejsce, w którym karawana będzie przygotowywać się do podróży.</CaravanPackingSpot.description>
+  <GroundPenetratingScanner.label>geoskaner</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.description>Radar połączony z sonarem i magnetycznymi imagerami, który pozwala wykrywać (ale nie identyfikować) surowce ukryte głęboko pod powierzchnią. Wymaga ogromnej ilości energii elektrycznej.</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner_Blueprint.label>geoskaner (plan)</GroundPenetratingScanner_Blueprint.label>
+  <GroundPenetratingScanner_Frame.label>geoskaner (budowa)</GroundPenetratingScanner_Frame.label>
+  <GroundPenetratingScanner_Frame.description>Radar połączony z sonarem i magnetycznymi imagerami, który pozwala wykrywać (ale nie identyfikować) surowce ukryte głęboko pod powierzchnią. Wymaga ogromnej ilości energii elektrycznej.</GroundPenetratingScanner_Frame.description>
    
-    <LongRangeMineralScanner.label>dalekozasięgowy skaner minerałów</LongRangeMineralScanner.label>
-    <LongRangeMineralScanner.description>Automatycznie wykrywa drogie minerały, jak złoto czy jadeit, w okolicy (ale nie w miejscu, w którym został zbudowany). Złoża są znajdywane średnio jeden raz na 30 dni w promieniu 30 komórek.\n\nWybudowanie więcej niż jednego skanera na tym samym lub pobliskim obszarze ma bardzo słaby efekt lub w ogóle.</LongRangeMineralScanner.description>
-    
+  <LongRangeMineralScanner.label>dalekozasięgowy skaner minerałów</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.description>Automatycznie wykrywa drogie minerały, jak złoto czy jadeit, w okolicy (ale nie w miejscu, w którym został zbudowany). Złoża są znajdywane średnio jeden raz na 30 dni w promieniu 30 komórek. Wybudowanie więcej niż jednego skanera na tym samym lub pobliskim obszarze ma bardzo słaby efekt lub w ogóle.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner_Blueprint.label>dalekozasięgowy skaner minerałów (plan)</LongRangeMineralScanner_Blueprint.label>
+  <LongRangeMineralScanner_Frame.label>dalekozasięgowy skaner minerałów (budowa)</LongRangeMineralScanner_Frame.label>
+  <LongRangeMineralScanner_Frame.description>Automatycznie wykrywa drogie minerały, jak złoto czy jadeit, w okolicy (ale nie w miejscu, w którym został zbudowany). Złoża są znajdywane średnio jeden raz na 30 dni w promieniu 30 komórek. Wybudowanie więcej niż jednego skanera na tym samym lub pobliskim obszarze ma bardzo słaby efekt lub w ogóle.</LongRangeMineralScanner_Frame.description>
+ 
+
+  <!-- Transport pods -->
+ 
+  <PodLauncher.label>wyrzutnia kapsuł</PodLauncher.label>
+  <PodLauncher.description>Wyrzutnia z paliwem do wystrzelenia jednej kapsuły transportowej. Wyrzutnie kapsuł mogą działać jednocześnie, jednak muszą przylegać do siebie.</PodLauncher.description>
+  <PodLauncher_Blueprint.label>wyrzutnia kapsuł (plan)</PodLauncher_Blueprint.label>
+  <PodLauncher_Frame.label>wyrzutnia kapsuł(budowa)</PodLauncher_Frame.label>
+  <PodLauncher_Frame.description>Wyrzutnia z paliwem do wystrzelenia jednej kapsuły transportowej. Wyrzutnie kapsuł mogą działać jednocześnie, jednak muszą przylegać do siebie.</PodLauncher_Frame.description>
+
+  <TransportPod.label>kapsuła transportowa</TransportPod.label>
+  <TransportPod.description>Kapsuła przeznaczona do suborbitalnych podróży. Może przenosić ludzi, przedmioty oraz zwierzęta. Wykorzystać ją można do transportu, niespodziewanego ataku lub wysłania wsparcia wojskowego.</TransportPod.description>
+  <TransportPod_Blueprint.label>kapsuła transportowa (plan)</TransportPod_Blueprint.label>
+  <TransportPod_Frame.label>kapsuła transportowa (budowa)</TransportPod_Frame.label>
+  <TransportPod_Frame.description>Kapsuła przeznaczona do suborbitalnych podróży. Może przenosić ludzi, przedmioty oraz zwierzęta. Wykorzystać ją można do transportu, niespodziewanego ataku lub wysłania wsparcia wojskowego.</TransportPod_Frame.description>
+
+
+  <!-- Facilities -->
+  
+  <MultiAnalyzer.label>multianalizator</MultiAnalyzer.label>
+  <MultiAnalyzer.description>Zwiększa prędkość badań. Musi być zainstalowany blisko stołu do badań. Jeden stół do badań może być podłączony tylko do jednego multianalizatora.</MultiAnalyzer.description>
+  <MultiAnalyzer_Blueprint.label>multianalizator (plan)</MultiAnalyzer_Blueprint.label>
+  <MultiAnalyzer_Blueprint_Install.label>multianalizator (plan)</MultiAnalyzer_Blueprint_Install.label>
+  <MultiAnalyzer_Frame.label>multianalizator (budowa)</MultiAnalyzer_Frame.label>
+  <MultiAnalyzer_Frame.description>Zwiększa prędkość badań. Musi być zainstalowany blisko stołu do badań. Jeden stół do badań może być podłączony tylko do jednego multianalizatora.</MultiAnalyzer_Frame.description>
+  
+  <VitalsMonitor.label>monitor funkcji życiowych</VitalsMonitor.label>
+  <VitalsMonitor.description>Zwiększa prędkość leczenia pacjenta. Musi być zainstalowany obok łóżka medycznego, nie będzie działać ze zwykłymi łóżkami. Jeden monitor może być podłączony tylko do jednego łóżka medycznego.</VitalsMonitor.description>
+  <VitalsMonitor_Blueprint.label>monitor funkcji życiowych (plan)</VitalsMonitor_Blueprint.label>
+  <VitalsMonitor_Blueprint_Install.label>monitor funkcji życiowych (plan)</VitalsMonitor_Blueprint_Install.label>
+  <VitalsMonitor_Frame.label>monitor funkcji życiowych (budowa)</VitalsMonitor_Frame.label>
+  <VitalsMonitor_Frame.description>Zwiększa prędkość leczenia pacjenta. Musi być zainstalowany obok łóżka szpitalnego, nie będzie działać ze zwykłymi łóżkami. Jeden monitor może być podłączony tylko do jednego łóżka medycznego.</VitalsMonitor_Frame.description>
+  
+  <ToolCabinet.label>szafa z narzędziami</ToolCabinet.label>
+  <ToolCabinet.description>Zwiększa szybkość pracy. Musi być zainstalowana obok jakiegoś miejsca pracy. Jedno miejsce pracy może być podłączone tylko do dwóch szafek z narzędziami.</ToolCabinet.description>
+  <ToolCabinet_Blueprint.label>szafa z narzędziami (plan)</ToolCabinet_Blueprint.label>
+  <ToolCabinet_Blueprint_Install.label>szafa z narzędziami (plan)</ToolCabinet_Blueprint_Install.label>
+  <ToolCabinet_Frame.label>szafa z narzędziami (budowa)</ToolCabinet_Frame.label>
+  <ToolCabinet_Frame.description>Zwiększa szybkość pracy. Musi być zainstalowana obok jakiegoś miejsca pracy. Jedno miejsce pracy może być podłączone tylko do dwóch szafek z narzędziami.</ToolCabinet_Frame.description>
+
+
+  <!-- Graves -->
+  
+  <Grave.label>grób</Grave.label>
+  <Grave.description>Umieść zmarłych w grobie, aby zapewnić im godne miejsce spoczynku.</Grave.description>
+  <Grave_Blueprint.label>grób (plan)</Grave_Blueprint.label>
+  <Grave_Frame.label>grób (budowa)</Grave_Frame.label>
+  <Grave_Frame.description>Umieść zmarłych w grobie, aby zapewnić im godne miejsce spoczynku. Koloniści będą je odwiedzać.</Grave_Frame.description>
+ 
+  <Sarcophagus.label>sarkofag</Sarcophagus.label>
+  <Sarcophagus.description>Ozdobny sarkofag do pochówku wyjątkowych zmarłych.</Sarcophagus.description>
+  <Sarcophagus_Blueprint.label>sarkofag (plan)</Sarcophagus_Blueprint.label>
+  <Sarcophagus_Frame.label>sarkofag (budowa)</Sarcophagus_Frame.label>
+  <Sarcophagus_Frame.description>Ozdobny sarkofag do pochówku wyjątkowych zmarłych.</Sarcophagus_Frame.description>
+
+
+  <!-- Cryptosleep caskets --> 
+  
+  <CryptosleepCasket.label>kapsuła hibernacyjna</CryptosleepCasket.label>
+  <CryptosleepCasket.description>Sarkofag z własnym zasilaniem, który jest w stanie utrzymać w letargu przez wiele lat.</CryptosleepCasket.description>
+  <CryptosleepCasket_Blueprint.label>kapsuła hibernacyjna (plan)</CryptosleepCasket_Blueprint.label>
+  <CryptosleepCasket_Frame.label>kapsuła hibernacyjna (budowa)</CryptosleepCasket_Frame.label>
+  <CryptosleepCasket_Frame.description>Sarkofag z własnym zasilaniem, który jest w stanie utrzymać w letargu przez wiele lat.</CryptosleepCasket_Frame.description>
+  
+  <AncientCryptosleepCasket.label>prastara kapsuła hibernacyjna</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.description>Ta kapsuła hibernacyjna wygląda tak, jakby znajdowała się tu od bardzo dawna. Kto wie, co może zawierać...</AncientCryptosleepCasket.description>
+
+
+  <!-- Spots --> 
+  
+  <MarriageSpot.label>miejsce ślubów</MarriageSpot.label>
+  <MarriageSpot.description>Wyznacza miejsce, w którym będą odbywały się ceremonie ślubne. Oglądający mogą je obserwować z każdej strony.</MarriageSpot.description>
+  <MarriageSpot_Blueprint.label>miejsce ślubów (plan)</MarriageSpot_Blueprint.label>
+  <MarriageSpot_Frame.label>miejsce ślubów (budowa)</MarriageSpot_Frame.label>
+  <MarriageSpot_Frame.description>Wyznacza miejsce, w którym będą odbywały się ceremonie ślubne. Oglądający mogą je obserwować z każdej strony.</MarriageSpot_Frame.description>
+ 
+  <PartySpot.label>miejsce imprez</PartySpot.label>
+  <PartySpot.description>Wyznacza miejsce, w którym będą odbywały się imprezy. Wykorzystują one obszar dookoła wyznaczonego punktu.</PartySpot.description>
+  <PartySpot_Blueprint.label>miejsce imprez (plan)</PartySpot_Blueprint.label>
+  <PartySpot_Frame.label>miejsce imprez (budowa)</PartySpot_Frame.label>
+  <PartySpot_Frame.description>Wyznacza miejsce, w którym będą odbywały się imprezy. Wykorzystują one obszar dookoła wyznaczonego punktu.</PartySpot_Frame.description>
+  
+  <CaravanPackingSpot.label>miejsce przygotowywania karawany</CaravanPackingSpot.label>
+  <CaravanPackingSpot.description>Wyznacza miejsce, w którym karawana będzie przygotowywać się do podróży.</CaravanPackingSpot.description>
+  <CaravanPackingSpot_Blueprint.label>miejsce przygotowywania karawany (plan)</CaravanPackingSpot_Blueprint.label>
+  <CaravanPackingSpot_Frame.label>miejsce przygotowywania karawany (budowa)</CaravanPackingSpot_Frame.label>
+  <CaravanPackingSpot_Frame.description>Wyznacza miejsce, w którym karawana będzie przygotowywać się do podróży.</CaravanPackingSpot_Frame.description>
+
+  
 </LanguageData>
