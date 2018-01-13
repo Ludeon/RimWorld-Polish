@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
   <TabBills>Zlecenia</TabBills>
   <TabGrowing>Uprawa</TabGrowing>
-  <TabCharacter>Postać</TabCharacter>
+  <TabCharacter>Charakter</TabCharacter>
   <TabTraining>Trening</TabTraining>
   <TabPrisoner>Więzień</TabPrisoner>
   <TabGuest>Gość</TabGuest>
   <TabGear>Sprzęt</TabGear>
   <TabNeeds>Potrzeby</TabNeeds>
   <TabStorage>Skład</TabStorage>
-  <TabShells>Naboje</TabShells>
+  <TabShells>Pociski moździerzowe</TabShells>
   <TabHealth>Zdrowie</TabHealth>
   <TabRace>Rasa</TabRace>
   <TabBasics>Ogólne</TabBasics>
   <TabStats>Statystyki</TabStats>
-  <TabRecords>Historia</TabRecords>
+  <TabRecords>Statystyki</TabRecords>
   <TabArt>Sztuka</TabArt>
   <TabSocial>Relacje</TabSocial>
   <TabCombat>Walka</TabCombat>
 
-  
+
   <!-- Bills tab  -->
   <AddBill>Dodaj zlecenie</AddBill>
-  <RecipeRequiresSkills>Przepis {0} wymaga umiejętności wskazanych poniżej. Żaden z kolonistów ich nie posiada, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>{0} wymaga umiejętności na wyższym poziomie niż wskazany. Żaden z kolonistów ich nie posiada, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
   <MinimumSkill>Min. poziom umiejętności</MinimumSkill>
   <SuspendedCaps>ZAWIESZONE</SuspendedCaps>
   <BoundWorkerIs>Pracownik: {0}</BoundWorkerIs>
-  <PlantVerb>Sadzić</PlantVerb>
+  <PlantVerb>Roślina</PlantVerb>
 
 
   <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
   <GetsFood>Dostaje żywność</GetsFood>
   <DoctorsCare>Opieka medyczna</DoctorsCare>
-  <GetsMedicine>Otrzymuje leki</GetsMedicine>
+  <GetsMedicine>Więzień otrzymuje leki</GetsMedicine>
   <ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
   <ConsideredGuilty>Uznany za winnego (wygasa za {0})</ConsideredGuilty>
 
-  
+
   <!-- Medical - general -->
-  <MoveSpeed>Szybkość poruszania</MoveSpeed>
+  <MoveSpeed>Szybkość</MoveSpeed>
   <Efficiency>Wydajność</Efficiency>
   <PartEfficiency>Wydajność części</PartEfficiency>
   <BodyPartEfficiency>Wydajność części ciała</BodyPartEfficiency>
   <MissingBodyPart>Stracone</MissingBodyPart>
   <DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
-  <ShatteredBodyPart>Rozbite</ShatteredBodyPart>
+  <ShatteredBodyPart>Roztrzaskane</ShatteredBodyPart>
   <RemovedBodyPart>Usunięte</RemovedBodyPart>
   <Healthy>Zdrowy</Healthy>
   <InPain>Obolały</InPain>
@@ -56,34 +56,34 @@
   <NoInjuries>(bez obrażeń)</NoInjuries>
   <WholeBody>Całe ciało</WholeBody>
   <DataProcessing>Przetwarzanie danych</DataProcessing>
-  <Communication>Komunikacja</Communication>
-  <Affects>Wpływa na</Affects>
+  <Communication>Porozumiewanie się</Communication>
+  <Affects>wpływa na</Affects>
   <BleedingRate>Krwawienie</BleedingRate>
   <TimeToDeath>śmierć za {0}</TimeToDeath>
-  <WontBleedOutSoon>aktualnie brak zagrożenia</WontBleedOutSoon>
+  <WontBleedOutSoon>obecnie brak zagrożenia życia</WontBleedOutSoon>
   <HealthOverview>Podgląd</HealthOverview>
   <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
   <Amputate>Amputuj</Amputate>
   <Harvest>Wytnij</Harvest>
-  <RemoveOrgan>Usuń</RemoveOrgan>
+  <RemoveOrgan>Usuń organ</RemoveOrgan>
   <MemoryLower>pamięć</MemoryLower>
-  <SocialInteractionsLower>interakcje społeczne</SocialInteractionsLower>
+  <SocialInteractionsLower>Interakcje społeczne</SocialInteractionsLower>
   <HungerRate>Głód</HungerRate>
   <Tiredness>Zmęczenie</Tiredness>
   <PainFactor>Ból</PainFactor>
   <PreventsInfection>Zapobiegnij infekcji</PreventsInfection>
   <SelfTend>Samoleczenie</SelfTend>
   <SelfTendTip>{0} z włączonym samoleczeniem automatycznie nakazuje kolonistom leczyć się w {1} z normalną wydajnością.</SelfTendTip>
-  
+
 
   <!-- Medical - Body and activities condition -->
   <None>Brak</None>
   <VeryPoor>Bardzo źle</VeryPoor>
   <Poor>Źle</Poor>
   <Weakened>Osłabione</Weakened>
-  <GoodCondition>OK</GoodCondition>
+  <GoodCondition>Ok</GoodCondition>
   <Enhanced>Ulepszone</Enhanced>
   <SeriouslyImpaired>Poważnie uszkodzone</SeriouslyImpaired>
   <Impaired>Uszkodzone</Impaired>
@@ -92,7 +92,7 @@
   <LittlePain>Trochę</LittlePain>
   <MediumPain>Średni</MediumPain>
   <SeverePain>Silny</SeverePain>
-  <ExtremePain>Mocny</ExtremePain>
+  <ExtremePain>Skrajny</ExtremePain>
 
 
   <!-- Training tab-->
@@ -101,25 +101,31 @@
   <CannotTrainTooSmall>{0} jest zbyt mały, żeby się tego nauczyć.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Niezbędne wymagania: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <NoRelationships>(brak relacji)</NoRelationships>
   <Kidnapped>Porwany</Kidnapped>
   <Missing>Zaginiony</Missing>
   <Slave>Niewolnik</Slave>
   <FactionLeader>Lider frakcji</FactionLeader>
-  <OpinionOf>Opinia o {0}</OpinionOf>
+  <OpinionOf>opinia o {0}</OpinionOf>
   <SomeonesOpinionOfMe>{0} - opinia o mnie</SomeonesOpinionOfMe>
   <IAmDead>Jestem trupem</IAmDead>
   <IAmPsychopath>Jestem psychopatą</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>Średni pancerz</AverageArmor>
-  <MassCarried>Udźwig: {0} / {1} kg</MassCarried>
-  <ComfyTemperatureRange>Zakres komfortowej temperatury</ComfyTemperatureRange>
-  <ArmorBlunt>Obrażenia tępe</ArmorBlunt>
+  <AverageArmor>Odporność</AverageArmor>
+  <MassCarried>Przenoszona masa: {0}/{1} kg</MassCarried>
+  <ComfyTemperatureRange>Komfortowa temperatura</ComfyTemperatureRange>
+  <ArmorBlunt>Obrażenia obuchowe</ArmorBlunt>
   <ArmorSharp>Obrażenia cięte</ArmorSharp>
-  <ArmorHeat>Ciepło</ArmorHeat>
+  <ArmorHeat>Temperatura</ArmorHeat>
   <ArmorElectric>Elektryczność</ArmorElectric>
+
+  <!--<PrisonerNoInteraction>Brak interakcji</PrisonerNoInteraction>-->
+  <!--<PrisonerFriendlyChat>Przyjazna rozmowa</PrisonerFriendlyChat>-->
+  <!--<PrisonerAttemptRecruit>Rozmowa i rekrutacja</PrisonerAttemptRecruit>-->
+  <!--<PrisonerRelease>Wypuszczenie</PrisonerRelease>-->
+  <!--<PrisonerExecution>Egzekucja</PrisonerExecution>-->
 
 </LanguageData>
