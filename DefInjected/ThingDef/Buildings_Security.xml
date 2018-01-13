@@ -1,78 +1,111 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
+
   <Sandbags.label>worki z piaskiem</Sandbags.label>
   <Sandbags.description>Można się za nimi ukryć przed ostrzałem.</Sandbags.description>
-  <Sandbags_Blueprint.label>worki z piaskiem (plan)</Sandbags_Blueprint.label>
-  <Sandbags_Frame.label>worki z piaskiem (budowa)</Sandbags_Frame.label>
+  <Sandbags_Blueprint.label>Worki z piaskiem (plan)</Sandbags_Blueprint.label>
+  <Sandbags_Frame.label>Worki z piaskiem (budowa)</Sandbags_Frame.label>
   <Sandbags_Frame.description>Można się za nimi ukryć przed ostrzałem.</Sandbags_Frame.description>
 
 
   <!-- Improvised turret -->
-   
+
   <TurretGun.label>prowizoryczna wieżyczka</TurretGun.label>
-  <TurretGun.description>Prowizoryczna wieżyczka, która automatycznie strzela w przeciwników. Wybucha, gdy ulegnie zniszczeniu. Musisz uważać aby nie zostać postrzelonym przypadkiem.</TurretGun.description>
-  <TurretGun_Blueprint.label>prowizoryczna wieżyczka (plan)</TurretGun_Blueprint.label>
-  <TurretGun_Blueprint_Install.label>prowizoryczna wieżyczka (plan)</TurretGun_Blueprint_Install.label>
-  <TurretGun_Frame.label>prowizoryczna wieżyczka (budowa)</TurretGun_Frame.label>
-  <TurretGun_Frame.description>Prowizoryczna wieżyczka, która automatycznie strzela w przeciwników. Wybucha, gdy ulegnie zniszczeniu. Musisz uważać aby nie zostać postrzelonym przypadkiem.</TurretGun_Frame.description>
-  
+  <TurretGun.description>Słaba, prowizoryczna wieżyczka, która automatycznie strzela w przeciwników. Wybucha, gdy ulegnie zniszczeniu.</TurretGun.description>
+  <TurretGun_Blueprint.label>Prowizoryczna wieżyczka (plan)</TurretGun_Blueprint.label>
+  <TurretGun_Blueprint_Install.label>Prowizoryczna wieżyczka (plan)</TurretGun_Blueprint_Install.label>
+  <TurretGun_Frame.label>Prowizoryczna wieżyczka (budowa)</TurretGun_Frame.label>
+  <TurretGun_Frame.description>Słaba, prowizoryczna wieżyczka, która automatycznie strzela w przeciwników. Wybucha, gdy ulegnie zniszczeniu.</TurretGun_Frame.description>
+
   <Bullet_TurretImprovised.label>pocisk prowizorycznej wieżyczki</Bullet_TurretImprovised.label>
 
-  <Gun_TurretImprovised.label>działko prowizorycznej wieżyczki</Gun_TurretImprovised.label>
+  <Gun_TurretImprovised.label>broń z prowizorycznej wieżyczki</Gun_TurretImprovised.label>
   <Gun_TurretImprovised.description>Prowizoryczna broń przymocowana do wieżyczki.</Gun_TurretImprovised.description>
 
 
   <!-- Mortar turret -->
-  
+
   <Turret_Mortar.label>moździerz</Turret_Mortar.label>
-  <Turret_Mortar.description>Moździerz strzelający róznego rodzaju pociskami. Musi mieć obsługę. Wybucha gdy uszkodzony.</Turret_Mortar.description>
+  <Turret_Mortar.description>Wystrzeliwuje wszystkie typy pocisków. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_Mortar.description>
   <Turret_Mortar_Blueprint.label>moździerz (plan)</Turret_Mortar_Blueprint.label>
-  <Turret_Mortar_Blueprint_Install.label>moździerz (plan)</Turret_Mortar_Blueprint_Install.label>
+  <Turret_Mortar_Blueprint_Install.label>mortar (plan)</Turret_Mortar_Blueprint_Install.label>
   <Turret_Mortar_Frame.label>moździerz (budowa)</Turret_Mortar_Frame.label>
-  <Turret_Mortar_Frame.description>Moździerz strzelający róznego rodzaju pociskami. Musi mieć obsługę. Wybucha gdy uszkodzony.</Turret_Mortar_Frame.description>
+  <Turret_Mortar_Frame.description>ystrzeliwuje wszystkie typy pocisków. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_Mortar_Frame.description>
 
-  <Artillery_Mortar.label>moździerz</Artillery_Mortar.label>
-  <Artillery_Mortar.description>Wyrzutnia moździerzowa. Potrafi wystrzelić pocisk ponad wszelkie przeszkody. Daleki zasięg lecz słaba celność.</Artillery_Mortar.description>
-
-
+  <Artillery_Mortar.label>wybuchowy moździerz</Artillery_Mortar.label>
+  <Artillery_Mortar.description>Wyrzutnia moździerza. Przerzuca bomby przez mury. Bardzo niedokładny, ale ma duży zasięg.</Artillery_Mortar.description>
+  
   <!-- Traps -->
 
   <TrapDeadfall.label>pułapka</TrapDeadfall.label>
   <TrapDeadfall.description>Zawieszony ciężar z kolcami utrzymywany przez delikatny spust. Kiedy ofiara go naruszy, pułapka spada na głowę i tułów.</TrapDeadfall.description>
-  <TrapDeadfall_Blueprint.label>pułapka (plan)</TrapDeadfall_Blueprint.label>
-  <TrapDeadfall_Frame.label>pułapka (budowa)</TrapDeadfall_Frame.label>
+  <TrapDeadfall_Blueprint.label>Pułapka (plan)</TrapDeadfall_Blueprint.label>
+  <TrapDeadfall_Frame.label>Pułapka (budowa)</TrapDeadfall_Frame.label>
   <TrapDeadfall_Frame.description>Zawieszony ciężar z kolcami utrzymywany przez delikatny spust. Kiedy ofiara go naruszy, pułapka spada na głowę i tułów.</TrapDeadfall_Frame.description>
+
+   <!--<TrapIEDBomb.label>improwizowany ładunek wybuchowy</TrapIEDBomb.label>-->
+  <!--<TrapIEDBomb.description>Pocisk moździerza połączony z domowej roboty zapalnikiem. Kiedy ktoś naruszy zapalnik, pocisk wybucha. Domowej roboty zapalnik ma różne opóźnienia wybuchu, więc zwinny przeciwnik może uciec.</TrapIEDBomb.description>-->
+  <!--<TrapIEDIncendiary.label>improwizowany ładunek zapalający</TrapIEDIncendiary.label>-->
+  <!--<TrapIEDIncendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Jest on prosty, ale można na nim polegać.</TrapIEDIncendiary.description>-->
+
+  
+  
+  
+  
+  <TrapIED_HighExplosive.label>improwizowany ładunek wybuchowy</TrapIED_HighExplosive.label>
+  <TrapIED_HighExplosive.description>Pocisk moździerza połączony z domowej roboty zapalnikiem. Kiedy ktoś naruszy zapalnik, pocisk wybucha. Domowej roboty zapalnik ma różne opóźnienia wybuchu, więc zwinny przeciwnik może uciec.</TrapIED_HighExplosive.description>
+  <TrapIED_HighExplosive_Blueprint.label>improwizowany ładunek wybuchowy (plan)</TrapIED_HighExplosive_Blueprint.label>
+  <TrapIED_HighExplosive_Frame.label>improwizowany ładunek wybuchowy (budowa)</TrapIED_HighExplosive_Frame.label>
+  <TrapIED_HighExplosive_Frame.description>Pocisk moździerza połączony z domowej roboty zapalnikiem. Kiedy ktoś naruszy zapalnik, pocisk wybucha. Domowej roboty zapalnik ma różne opóźnienia wybuchu, więc zwinny przeciwnik może uciec.</TrapIED_HighExplosive_Frame.description>
  
-  <TrapIED_HighExplosive.label>mina</TrapIED_HighExplosive.label>
-  <TrapIED_HighExplosive.description>Pocisk moździerzowy podłączony do domowej roboty pułapki. Kiedy ofiara go naruszy, pocisk wybucha. Domowej roboty pułapka ma losowy czas reakcji, czasami ofiara zdąży uciec.</TrapIED_HighExplosive.description>
-  <TrapIED_HighExplosive_Blueprint.label>mina (plan)</TrapIED_HighExplosive_Blueprint.label>
-  <TrapIED_HighExplosive_Frame.label>mina (budowa)</TrapIED_HighExplosive_Frame.label>
-  <TrapIED_HighExplosive_Frame.description>Pocisk moździerzowy podłączony do domowej roboty pułapki. Kiedy ofiara go naruszy, pocisk wybucha. Domowej roboty pułapka ma losowy czas reakcji, czasami ofiara zdąży uciec.</TrapIED_HighExplosive_Frame.description>
+ 
+ <!--<TrapIEDIncendiary.label>improwizowany ładunek zapalający</TrapIEDIncendiary.label>-->
+  <!--<TrapIEDIncendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Jest on prosty, ale można na nim polegać.</TrapIEDIncendiary.description>-->
 
-  <TrapIED_Incendiary.label>mina zapalająca</TrapIED_Incendiary.label>
-  <TrapIED_Incendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą oraz z chemicznym czynnikiem wywołującym rozprzestrzenianie. Jego chemiczny zapalnij jest prosty i niezawodny.</TrapIED_Incendiary.description>
-  <TrapIED_Incendiary_Blueprint.label>mina zapalająca (plan)</TrapIED_Incendiary_Blueprint.label>
-  <TrapIED_Incendiary_Frame.label>mina zapalająca (budowa)</TrapIED_Incendiary_Frame.label>
-  <TrapIED_Incendiary_Frame.description>Materiały wybuchowe zmieszane z pastą zapalającą oraz z chemicznym czynnikiem wywołującym rozprzestrzenianie. Jego chemiczny zapalnij jest prosty i niezawodny.</TrapIED_Incendiary_Frame.description>
+  
+  <TrapIED_Incendiary.label>improwizowany ładunek zapalający</TrapIED_Incendiary.label>
+  <TrapIED_Incendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Jest on prosty, ale można na nim polegać.</TrapIED_Incendiary.description>
+  <TrapIED_Incendiary_Blueprint.label>improwizowany ładunek zapalający (plan)</TrapIED_Incendiary_Blueprint.label>
+  <TrapIED_Incendiary_Frame.label>improwizowany ładunek zapalający (plan)</TrapIED_Incendiary_Frame.label>
+  <TrapIED_Incendiary_Frame.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Jest on prosty, ale można na nim polegać.</TrapIED_Incendiary_Frame.description>
 
-  <TrapIED_EMP.label>mina EMP</TrapIED_EMP.label>
-  <TrapIED_EMP.description>Prosta pułapka składająca się z pocisku EMP i wyzwalacza domowej roboty. Eksplozja może paraliżować mechaniczne stworzenia na kilka sekund. Mogą być aktywowana nawet przez tych, którzy nie są narażeni na eksplozje EMP.</TrapIED_EMP.description>
-  <TrapIED_EMP_Blueprint.label>mina EMP (plan)</TrapIED_EMP_Blueprint.label>
-  <TrapIED_EMP_Frame.label>mina EMP (budowa)</TrapIED_EMP_Frame.label>
-  <TrapIED_EMP_Frame.description>Prosta pułapka składająca się z pocisku EMP i wyzwalacza domowej roboty. Eksplozja może paraliżować mechaniczne stworzenia na kilka sekund. Mogą być aktywowana nawet przez tych, którzy nie są narażeni na eksplozje EMP.</TrapIED_EMP_Frame.description>
+  <TrapIED_EMP.label>pułapka EMP</TrapIED_EMP.label>
+  <TrapIED_EMP.description>Pocisk EMP połączony z domowej roboty zapalnikiem. Eksplozja może sparaliżować wszelkiego rodzaju mechaniczne stwory na kilka sekund. Kiedy ktoś naruszy zapalnik, pocisk wybucha, nie ważne czy jest mechanoidem czy nie.</TrapIED_EMP.description>
+  <TrapIED_EMP_Blueprint.label>pułapka EMP (plan)</TrapIED_EMP_Blueprint.label>
+  <TrapIED_EMP_Frame.label>pułapka EMP (budowa)</TrapIED_EMP_Frame.label>
+  <TrapIED_EMP_Frame.description> Pocisk EMP połączony z domowej roboty zapalnikiem. Eksplozja może sparaliżować wszelkiego rodzaju mechaniczne stwory na kilka sekund. Kiedy ktoś naruszy zapalnik, pocisk wybucha, nie ważne czy jest mechanoidem czy nie.</TrapIED_EMP_Frame.description>
 
-  <TrapIED_Firefoam.label>mina gaśnicza</TrapIED_Firefoam.label>
-  <TrapIED_Firefoam.description>Kiedy ktoś aktywuje, pułapka eksploduje i rozpyla wokół niej piankę gaśniczą.</TrapIED_Firefoam.description>
-  <TrapIED_Firefoam_Blueprint.label>mina gaśnicza (plan)</TrapIED_Firefoam_Blueprint.label>
-  <TrapIED_Firefoam_Frame.label>mina gaśnicza (budowa)</TrapIED_Firefoam_Frame.label>
-  <TrapIED_Firefoam_Frame.description>Kiedy ktoś aktywuje, pułapka eksploduje i rozpyla wokół niej piankę gaśniczą.</TrapIED_Firefoam_Frame.description>
+  <TrapIED_Firefoam.label>pułapka przeciwpożarowa</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.description>Gdy ktoś aktywuje pułapkę, pułapka wybucha i rozpyla w całej okolicy pianę gaśniczą.</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam_Blueprint.label>pułapka przeciwpożarowa (plan)</TrapIED_Firefoam_Blueprint.label>
+  <TrapIED_Firefoam_Frame.label>pułapka przeciwpożarowa (budowa)</TrapIED_Firefoam_Frame.label>
+  <TrapIED_Firefoam_Frame.description>Gdy ktoś aktywuje pułapkę, pułapka wybucha i rozpyla w całej okolicy pianę gaśniczą</TrapIED_Firefoam_Frame.description>
 
-  <TrapIED_AntigrainWarhead.label>mina wybuchowo-zapalająca</TrapIED_AntigrainWarhead.label>
-  <TrapIED_AntigrainWarhead.description>Mała głowica podłączona do domowego spustu. Tworzy ogromną eksplozję i zaczyna wzniecać wokół siebie pożary.</TrapIED_AntigrainWarhead.description>
-  <TrapIED_AntigrainWarhead_Blueprint.label>mina wybuchowo-zapalająca (plan)</TrapIED_AntigrainWarhead_Blueprint.label>
-  <TrapIED_AntigrainWarhead_Frame.label>mina wybuchowo-zapalająca (budowa)</TrapIED_AntigrainWarhead_Frame.label>
-  <TrapIED_AntigrainWarhead_Frame.description>Mała głowica podłączona do domowego spustu. Tworzy ogromną eksplozję i zaczyna wzniecać wokół siebie pożary.</TrapIED_AntigrainWarhead_Frame.description>
+  <TrapIED_AntigrainWarhead.label>śmiercionośna pułapka</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.description>Mała głowica połączona z domowej roboty zapalnikiem. Tworzy śmiercionośną eksplozję i podpala okolicę.</TrapIED_AntigrainWarhead.description>
+  <TrapIED_AntigrainWarhead_Blueprint.label>śmiercionośna pułapka (plan)</TrapIED_AntigrainWarhead_Blueprint.label>
+  <TrapIED_AntigrainWarhead_Frame.label>śmiercionośna pułapka (budowa)</TrapIED_AntigrainWarhead_Frame.label>
+  <TrapIED_AntigrainWarhead_Frame.description>Mała głowica połączona z domowej roboty zapalnikiem. Tworzy śmiercionośną eksplozję i podpala okolicę.</TrapIED_AntigrainWarhead_Frame.description>
 
+
+  <!--<Turret_MortarBomb.label>moździerz</Turret_MortarBomb.label>-->
+  <!--<Turret_MortarBomb.description>Wystrzeliwuje eksplodujące pociski. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarBomb.description>-->
+  <!--<Artillery_MortarBomb.label>wybuchowy moździerz</Artillery_MortarBomb.label>-->
+  <!--<Artillery_MortarBomb.description>Wyrzutnia moździerza. Przerzuca bomby przez mury. Bardzo niedokładny, ale ma duży zasięg.</Artillery_MortarBomb.description>-->
+  <!--<Bullet_MortarBomb.label>pocisk moździerza wybuchowego</Bullet_MortarBomb.label>-->
+  <!--<Turret_MortarIncendiary.label>moździerz zapalający</Turret_MortarIncendiary.label>-->
+  <!--<Turret_MortarIncendiary.description>Wystrzeliwuje zapalające pociski. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarIncendiary.description>-->
+  <!--<Artillery_MortarIncendiary.label>moździerz zapalającyr</Artillery_MortarIncendiary.label>-->
+  <!--<Artillery_MortarIncendiary.description>Wyrzuca pociski zapalające również przez ściany. Bardzo niedokładny, ale ma duży zasięg.</Artillery_MortarIncendiary.description>-->
+  <!--<Bullet_MortarIncendiary.label>pocisk moździerza zapalającego</Bullet_MortarIncendiary.label>-->
+  <!--<Turret_MortarEMP.label>moździerz EMP</Turret_MortarEMP.label>-->
+  <!--<Turret_MortarEMP.description>Wystrzeliwuje pociski elektromagnetyczne. Musi być obsługiwany przez kolonistę. Wybucha, gdy ulegnie zniszczeniu.</Turret_MortarEMP.description>-->
+  <!--<Artillery_MortarEMP.label>moździerz EMP</Artillery_MortarEMP.label>-->
+  <!--<Artillery_MortarEMP.description>Wyrzuca bomby EMP zapalające również przez ściany. Bardzo niedokładny, ale ma duży zasięg.</Artillery_MortarEMP.description>-->
+  <!--<Bullet_MortarEMP.label>bomba EMP</Bullet_MortarEMP.label>-->
+  <!--<TrapIEDBomb.label>improwizowany ładunek wybuchowy</TrapIEDBomb.label>-->
+  <!--<TrapIEDBomb.description>Pocisk moździerza połączony z domowej roboty zapalnikiem. Kiedy ktoś naruszy zapalnik, pocisk wybucha. Domowej roboty zapalnik ma różne opóźnienia wybuchu, więc zwinny przeciwnik może uciec.</TrapIEDBomb.description>-->
+  <!--<TrapIEDIncendiary.label>improwizowany ładunek zapalający</TrapIEDIncendiary.label>-->
+  <!--<TrapIEDIncendiary.description>Materiały wybuchowe zmieszane z pastą zapalającą z chemicznym zapalnikiem. Jest on prosty, ale można na nim polegać.</TrapIEDIncendiary.description>-->
 
 </LanguageData>
