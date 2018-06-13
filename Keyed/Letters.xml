@@ -30,7 +30,7 @@
   <RecruitSuccess>{0} udało się zrekrutować więźnia {1} ({2} szans).</RecruitSuccess>
   <RecruitFail>{0} nie udało się zrekrutować więźnia {1} ({2} szans).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME to {1} {0}. Jeżeli NAME umrze, {0} będzie cierpieć z powodu długotrwałego smutku. Jeżeli jednak uratujesz NAME, {0} będzie szczęśliwy przez długi czas.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] to {1} {0}. Jeżeli [PAWN_nameDef] umrze, {0} będzie cierpieć z powodu długotrwałego smutku. Jeżeli jednak uratujesz [PAWN_nameDef], {0} będzie szczęśliwy przez długi czas.</RelatedPawnInvolvedInQuest>
    
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
   <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie {1} kończy {3} lat.\n\nChronologicznie {1} właśnie kończy {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielnie od biologicznych.</BirthdayChronological>
@@ -38,14 +38,14 @@
   
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
   <NewDisease>{0} zachorował od {1}. Upewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewDisease>
-  <NewPartDisease>{0} zachorował od {3}. Ta infekacja jest w HIS {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
+  <NewPartDisease>{0} zachorował od {3}. Ta infekacja jest w [PAWN_possessive] {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
 
   <PawnWasFormerlyColonist>{0} był poprzednio częścią twojej frakcji.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} ma relacje z twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
   <PrisonerRescueTimeout>Ten obóz zniknie za {0} dni. Jeżeli przegapisz szansę, możesz już nie usłyszeć więcej od {1}.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Starożytne niebezpieczeństwo</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. HECAP nie wie dlaczego, ale HE podejrzewa, że w tej pradawnej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
+  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. [PAWN_pronoun] nie wie dlaczego, ale [PAWN_pronoun] podejrzewa, że w tej pradawnej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
 
   <StruckMineable>Natrafiliśmy na {0}!</StruckMineable>
  
@@ -82,8 +82,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>Karawana sprzedaje ludzi, którzy są związani z twoimi kolonistami lub więźniami:</LetterRelatedPawnsTradingWithOtherCaravan>
   
   <RelationshipAppendedLetterSuffix>(związek)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME to {1} twojego kolonisty {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME to {1} twojego więźnia {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] to {1} twojego kolonisty {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] to {1} twojego więźnia {0}.</RelationshipAppendedLetterTextPrisoner>
  
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Romans</LetterLabelAffair>
@@ -120,7 +120,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>Uzależnienie: {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\nHECAP potrzebuje teraz {1}, co jest widoczne w HIS zakładce potrzeb. HECAP będzie automatycznie przyjmować narkotyk, aby zaspokoić HIS potrzebę. Jeśli HE nie zdobędzie {1}, HE będzie na odwyku.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\n[PAWN_pronoun] potrzebuje teraz {1}, co jest widoczne w [PAWN_possessive] zakładce potrzeb. [PAWN_pronoun] będzie automatycznie przyjmować narkotyk, aby zaspokoić [PAWN_possessive] potrzebę. Jeśli [PAWN_pronoun] nie zdobędzie {1}, [PAWN_pronoun] będzie na odwyku.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Obsesja: {0}</LetterLabelDrugBinge>

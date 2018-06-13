@@ -39,13 +39,13 @@
 
   <TraderArrival>Statek handlowy przelatuje w okolicy.\n\nZnani są jako {0}. Oni są {1}.</TraderArrival>
 
-  <SingleTravelerPassing>W okolicy podróżuje {0} z {1}. HECAP nazywa się {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>W okolicy podróżuje {0} z {1}. [PAWN_pronoun] nazywa się {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Grupa podróżników z {0} podróżuje w okolicy.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Gość</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Kolonię odwiedza {0} z {1}.\n\nHECAP nazywa się {2}.{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP posiada kilka przedmiotów na handel.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP jest liderem frakcji.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>Kolonię odwiedza {0} z {1}.\n\n[PAWN_pronoun] nazywa się {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] posiada kilka przedmiotów na handel.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] jest liderem frakcji.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Goście</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Grupa z {0} odwiedza kolonię.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nWygląda na to, że posiadają kilka przedmiotów na handel.</GroupVisitorsArriveTraderInfo>
@@ -53,7 +53,7 @@
   <VisitorsLeaving>Goście z {0} opuszczają kolonię.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Wędrowiec dołącza</LetterLabelWandererJoin>
-  <WandererJoin>Przybył {0} o imieniu NAME i dołącza do kolonii. HECAP jest {1}.</WandererJoin>
+  <WandererJoin>Przybył {0} o imieniu [PAWN_nameDef] i dołącza do kolonii. [PAWN_pronoun] jest {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Krwiożercza sfora</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Krwiożercza sfora {0} wkroczyła do regionu. Będzie wędrować po okolicy, poszukując ludzkiego mięsa.\n\nNie będzie jednak mogła przechodzić przez drzwi, więc jeżeli pozostaniesz za murami, powinieneś być bezpieczny. Nie zaatakuje też nieaktywnych wieżyczek, więc wyłącz je, jeżeli nie chcesz ich niepotrzebnie używać.\n\nSfora opuści obszar za kilka dni.</ManhunterPackArrived>
@@ -87,7 +87,7 @@
   
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Uchodźca złapany w {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>{1} zwany {0} wzywa cię z pobliża. HECAP jest goniony przez {2} z {3}.\n\nHECAP błaga cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie HE ma {4} lat.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na HIS ogonie.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>{1} zwany {0} wzywa cię z pobliża. [PAWN_pronoun] jest goniony przez {2} z {3}.\n\n[PAWN_pronoun] błaga cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie [PAWN_pronoun] ma {4} lat.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na [PAWN_possessive] ogonie.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Zaoferuj schronienie</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Zignoruj wiadomośc</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} krzyczy w panice, zanim wyłączasz transmisję.</RefugeeChasedRejected>
@@ -116,7 +116,7 @@
   
   <!-- Ransom demand -->
   <RansomDemandTitle>Żądanie okupu z {0}</RansomDemandTitle>
-  <RansomDemand>{1} skontaktowali się z tobą przez radio. Przetrzymują oni jednego z twoich kolonistów {0} dla okupu.\n\nSą gotowi wypuścić HIM z niewoli w zamian za {2} sztuk srebra.</RansomDemand>
+  <RansomDemand>{1} skontaktowali się z tobą przez radio. Przetrzymują oni jednego z twoich kolonistów {0} dla okupu.\n\nSą gotowi wypuścić [PAWN_objective] z niewoli w zamian za {2} sztuk srebra.</RansomDemand>
   <RansomDemand_Accept>Akceptuj</RansomDemand_Accept>
   <RansomDemand_Reject>Odrzuć</RansomDemand_Reject>
   
