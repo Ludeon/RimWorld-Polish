@@ -39,55 +39,55 @@
 		<li>result(p=0.2)->[damaged_present] [recipient_possessive] [targetlist] [flavortextadverb]</li>
 		<li>result(p=10000)->[damaged_present] [recipient_possessive] [targetlist] [flavortextsituation]</li>
 		<li>result(p=0.2)->[damaged_present] [recipient_possessive] [targetlist] i [flavortextconsequence]</li>
-		<li>flavortextadverb->painfully</li>
-		<li>flavortextadverb->brutally</li>
-		<li>flavortextadverb->horribly</li>
-		<li>flavortextadverb->agonizingly</li>
-		<li>flavortextadverb->fiercely</li>
-		<li>flavortextadverb->ruthlessly</li>
-		<li>flavortextadverb->savagely</li>
-		<li>flavortextadverb->viciously</li>
-		<li>flavortextadverb->mercilessly</li>
-		<li>flavortextadverb->heartlessly</li>
+		<li>flavortextadverb->boleśnie</li>
+		<li>flavortextadverb->brutalnie</li>
+		<li>flavortextadverb->okropnie</li>
+		<li>flavortextadverb->agonalnie</li>
+		<li>flavortextadverb->gwałtownie</li>
+		<li>flavortextadverb->bez litości</li>
+		<li>flavortextadverb->brutalnie</li>
+		<li>flavortextadverb->zajadliwie</li>
+		<li>flavortextadverb->niemiłosierne</li>
+		<li>flavortextadverb->bez serca</li>
 		<li>flavortextsituation(recipient_flesh!=Mechanoid)->in an explosion of gore</li>
-		<li>flavortextsituation(recipient_flesh==Mechanoid)->in an explosion of scrap</li>
-		<li>flavortextsituation->without emotion</li>
-		<li>flavortextsituation->while wearing a blank look</li>
-		<li>flavortextsituation(initiator_flesh==Normal)->while wearing a savage look</li>
-		<li>flavortextsituation(initiator_flesh==Normal)->while wearing a [badassadjective] look</li>
-		<li>flavortextsituation(initiator_flesh==Normal)->while grimacing</li>
-		<li>flavortextsituation(initiator_flesh==Normal)->while laughing</li>
-		<li>flavortextsituation(initiator_flesh==Normal)->while smirking</li>
-		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
-		<li>flavortextconsequence->leaving a horrific wound</li>
-		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->making [recipient_objective] [wince] [painevent]</li>
-		<li>flavortextconsequence(p=0.2)->throwing [recipient_objective] off balance</li>
-		<li>wince(recipient_flesh==Normal)->wince</li>
-		<li>wince(recipient_flesh==Normal)->grimace</li>
-		<li>wince(recipient_flesh==Normal)->cringe</li>
-		<li>wince(recipient_flesh==Normal)->groan</li>
-		<li>wince(recipient_flesh!=Mechanoid)->scream</li>
-		<li>wince(recipient_flesh!=Mechanoid)->shout</li>
-		<li>wince->recoil</li>
-		<li>wince->stumble</li>
-		<li>painstate->in</li>
-		<li>painstate->with</li>
-		<li>painstate->from the</li>
-		<li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-		<li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-		<li>painevent(recipient_flesh==Normal)->with misery</li>
-		<li>painevent->from the injury</li>
-		<li>painevent->from the wound</li>
-		<li>mortarshell->shell</li>
-		<li>mortarshell->shot</li>
-		<li>mortarshell->projectile</li>
-		<li>mortarshell->explosive</li>
-		<li>mortarshell->bomb</li>
-		<li>mortarshell(p=0.3)->ballistic shell</li>
-		<li>mortarshell(p=0.3)->ballistic shot</li>
-		<li>mortarshell(p=0.3)->ballistic projectile</li>
-		<li>to->to</li>
-		<li>to->into</li>
+		<li>flavortextsituation(recipient_flesh==Mechanoid)->w ekspozji odłamków</li>
+		<li>flavortextsituation->bez emocji</li>
+		<li>flavortextsituation->z pustym wzrokiem</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->z wrogim spojrzeniem</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->z zadziornym spojrzeniem</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->z grymasem na twarzy</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->podczas śmiechu</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->podczas niekontrolowanego śmiechu</li>
+		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->zostawić odrażającą ranę</li>
+		<li>flavortextconsequence->zostawić przerażająca ranę</li>
+		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->straszyć wroga potwornym wyrazem twarzy</li>
+		<li>flavortextconsequence(p=0.2)->przewracać wroga</li>
+		<li>wince(recipient_flesh==Normal)->wyraz twarzy</li>
+		<li>wince(recipient_flesh==Normal)->grymas</li>
+		<li>wince(recipient_flesh==Normal)->żałość</li>
+		<li>wince(recipient_flesh==Normal)->jęk</li>
+		<li>wince(recipient_flesh!=Mechanoid)->wrzask</li>
+		<li>wince(recipient_flesh!=Mechanoid)->krzyk</li>
+		<li>wince->odrzut</li>
+		<li>wince->potknięcie</li>
+		<li>painstate->w</li>
+		<li>painstate->z</li>
+		<li>painstate->od</li>
+		<li>painevent(recipient_flesh!=Mechanoid)->przenikliwy ból</li>
+		<li>painevent(recipient_flesh!=Mechanoid)->okropna agonia</li>
+		<li>painevent(recipient_flesh==Normal)->w nędzy</li>
+		<li>painevent->od rany</li>
+		<li>painevent->od rany</li>
+		<li>mortarshell->nabój</li>
+		<li>mortarshell->strzał</li>
+		<li>mortarshell->pocisk</li>
+		<li>mortarshell->eksplozja</li>
+		<li>mortarshell->bomba</li>
+		<li>mortarshell(p=0.3)->nabój balistyczny</li>
+		<li>mortarshell(p=0.3)->strzał balistyczny</li>
+		<li>mortarshell(p=0.3)->pocisk balistyczny</li>
+		<li>to->do</li>
+		<li>to->z</li>
 		<li>initiator_definite->[initiator_labelDefinite]</li>
 		<li>initiator_definite->[initiator_nameShortDef]</li>
 		<li>recipient_definite->[recipient_labelDefinite]</li>
@@ -103,46 +103,46 @@
 		<li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
 		<li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
 		<li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
-		<li>expertly->expertly</li>
-		<li>expertly->adeptly</li>
-		<li>expertly->adroitly</li>
-		<li>expertly->deftly</li>
-		<li>expertly->skillfully</li>
-		<li>expertly->slickly</li>
-		<li>expertly->professionally</li>
-		<li>expertly->aptly</li>
-		<li>expertly->dexterously</li>
-		<li>expertly->cleverly</li>
-		<li>expertly->masterfully</li>
-		<li>expertly->artistically</li>
-		<li>expertly->with skill</li>
-		<li>expertly->with impressive experience</li>
-		<li>expertly->with flair</li>
-		<li>expertly->with care</li>
-		<li>expertly->with precision</li>
-		<li>expertly->with proficiency</li>
-		<li>expertly->with strength</li>
-		<li>expertly->with dexterity</li>
-		<li>expertly->with mastery</li>
-		<li>expertly->with artistry</li>
-		<li>expertly->with professionalism</li>
-		<li>expertly->like a virtuoso</li>
-		<li>expertly->like an expert</li>
-		<li>expertly->like a master</li>
-		<li>expertly->like an artist</li>
-		<li>expertly->like a pro</li>
-		<li>expert->expert</li>
-		<li>expert->adept</li>
-		<li>expert->adroit</li>
-		<li>expert->deft</li>
-		<li>expert->skillful</li>
-		<li>expert->slick</li>
-		<li>expert->professional</li>
-		<li>expert->apt</li>
-		<li>expert->dexterous</li>
-		<li>expert->clever</li>
-		<li>expert->masterful</li>
-		<li>expert->artistic</li>
+		<li>expertly->zawodowo</li>
+		<li>expertly->początkująco</li>
+		<li>expertly->udatnie</li>
+		<li>expertly->zręcznie</li>
+		<li>expertly->umiejętnie</li>
+		<li>expertly->zwinnie</li>
+		<li>expertly->profesjonalnie</li>
+		<li>expertly->trafnie</li>
+		<li>expertly->zręcznie</li>
+		<li>expertly->sprytnie</li>
+		<li>expertly->mistrzowsko</li>
+		<li>expertly->artystycznie</li>
+		<li>expertly->z wprawą</li>
+		<li>expertly->z niesamowitym doświadczeniem</li>
+		<li>expertly->z talentem</li>
+		<li>expertly-<z dbałością</li>
+		<li>expertly->z precyzją</li>
+		<li>expertly->ze sprawnością</li>
+		<li>expertly->z siłą</li>
+		<li>expertly->ze zręcznością</li>
+		<li>expertly->z mistrzowsą ręką</li>
+		<li>expertly->z artystyczną ręką</li>
+		<li>expertly->z profesjonalizmem</li>
+		<li>expertly->jak wirtuoz</li>
+		<li>expertly->jak ekspert</li>
+		<li>expertly->jak mistrz</li>
+		<li>expertly->jak artysta</li>
+		<li>expertly->jak zawodowiec</li>
+		<li>expert->ekspert</li>
+		<li>expert->nowicjusz</li>
+		<li>expert->zręczny</li>
+		<li>expert->zgrabny</li>
+		<li>expert->umiejętny</li>
+		<li>expert->zręczny</li>
+		<li>expert->profesjonalny</li>
+		<li>expert->trafny</li>
+		<li>expert->wsprawny</li>
+		<li>expert->przebiegły</li>
+		<li>expert->mistrzowski</li>
+		<li>expert->artystyczny</li>
 	</Combat_WoundIncludes.rulePack.rulesStrings>
 
 	<Combat_Hit.rulePack.rulesStrings>
