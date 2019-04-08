@@ -1,109 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- executions and prisoner deaths -->
   
-  <KnowGuestExecuted.stages.0.label>usprawiedliwiona egzekucja</KnowGuestExecuted.stages.0.label>
-  <KnowGuestExecuted.stages.0.description>Gość lub więzień został stracony. To sprawiedliwe, ale nadal smutne.</KnowGuestExecuted.stages.0.description>
-  <KnowGuestExecuted.stages.1.label>dokonano eutanazji</KnowGuestExecuted.stages.1.label>
-  <KnowGuestExecuted.stages.1.description>Gość albo więzień został poddany eutanazji. To humanitarne, ale nadal smutne.</KnowGuestExecuted.stages.1.description>
-  <KnowGuestExecuted.stages.2.label>dokonano egzekucji</KnowGuestExecuted.stages.2.label>
-  <KnowGuestExecuted.stages.2.description>Gość albo więzień został zamordowany z zimną krwią. To złe.</KnowGuestExecuted.stages.2.description>
-  <KnowGuestExecuted.stages.3.label>wycięto organy</KnowGuestExecuted.stages.3.label>
-  <KnowGuestExecuted.stages.3.description>Więzień lub gość umarł, ponieważ kolonia odebrała mu części ciała. To potworne.</KnowGuestExecuted.stages.3.description>
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>zwierzę {0} nie żyje</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>Takie delikatne, unikatowe zwierzątko. Nasz świat jest zły!</BondedAnimalDied.stages.bonded_animal_died.description>
   
-  <KnowColonistExecuted.stages.0.label>usprawiedliwiona egzekucja kolonisty</KnowColonistExecuted.stages.0.label>
-  <KnowColonistExecuted.stages.0.description>Winny kolonista został stracony. To sprawiedliwe, ale nadal smutne.</KnowColonistExecuted.stages.0.description>
-  <KnowColonistExecuted.stages.1.label>dokonano eutanazji na koloniście</KnowColonistExecuted.stages.1.label>
-  <KnowColonistExecuted.stages.1.description>Kolonista został poddany eutanazji. To humanitarne, ale nadal smutne.</KnowColonistExecuted.stages.1.description>
-  <KnowColonistExecuted.stages.2.label>dokonano egzekucji</KnowColonistExecuted.stages.2.label>
-  <KnowColonistExecuted.stages.2.description>Kolonista został zamordowany z zimną krwią. To złe.</KnowColonistExecuted.stages.2.description>
-  <KnowColonistExecuted.stages.3.label>wycięto organy koloniście</KnowColonistExecuted.stages.3.label>
-  <KnowColonistExecuted.stages.3.description>Kolonista umarł, ponieważ wycięto mu organy. To potworne.</KnowColonistExecuted.stages.3.description>
-
-  <KnowPrisonerDiedInnocent.stages.0.label>więzień nie żyje</KnowPrisonerDiedInnocent.stages.0.label>
-  <KnowPrisonerDiedInnocent.stages.0.description>Jeden z naszych więźniów zmarł, choć był nieszkodliwy. Powinniśmy lepiej sobie radzić z naszymi więźniami. Jeżeli chcemy ich śmierci, to musimy wydać wyrok, aby uniknąć tego barbarzyństwa.</KnowPrisonerDiedInnocent.stages.0.description>
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>kolonista nie żyje</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>Jeden z naszych kolonistów zmarł. Powinniśmy być bardziej ostrożni wobec naszej kolonii.</KnowColonistDied.stages.colonist_died.description>
   
-  <KnowColonistDied.stages.0.label>kolonista nie żyje</KnowColonistDied.stages.0.label>
-  <KnowColonistDied.stages.0.description>Jeden z naszych kolonistów zmarł. Powinniśmy być bardziej ostrożni wobec naszej kolonii.</KnowColonistDied.stages.0.description>
- 
-
-  <!-- bonded animal died -->
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>usprawiedliwiona egzekucja kolonisty</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Winny kolonista został stracony. To sprawiedliwe, ale nadal smutne.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>dokonano eutanazji na koloniście</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>Kolonista został poddany eutanazji. To humanitarne, ale nadal smutne.</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>dokonano egzekucji</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>Kolonista został zamordowany z zimną krwią. To złe.</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>wycięto organy koloniście</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>Kolonista umarł, ponieważ wycięto mu organy. To potworne.</KnowColonistExecuted.stages.colonist_organharvested.description>
   
-  <BondedAnimalDied.stages.0.label>zwierzę {0} nie żyje</BondedAnimalDied.stages.0.label>
-  <BondedAnimalDied.stages.0.description>Takie delikatne, unikatowe zwierzątko. Nasz świat jest zły!</BondedAnimalDied.stages.0.description>
-
-
-  <!-- friend/rival died --> 
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>usprawiedliwiona egzekucja</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>Gość lub więzień został stracony. To sprawiedliwe, ale nadal smutne.</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>dokonano eutanazji</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>Gość albo więzień został poddany eutanazji. To humanitarne, ale nadal smutne.</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>dokonano egzekucji</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>Gość albo więzień został zamordowany z zimną krwią. To złe.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone was organ-murdered -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.label>wycięto organy</KnowGuestExecuted.stages.someone_was_organmurdered.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.description>Więzień lub gość umarł, ponieważ kolonia odebrała mu części ciała. To potworne.</KnowGuestExecuted.stages.someone_was_organmurdered.description>
   
-  <PawnWithGoodOpinionDied.stages.0.label>mój przyjaciel {0} nie żyje</PawnWithGoodOpinionDied.stages.0.label>
-  <PawnWithGoodOpinionDied.stages.0.description>To była cudowna osoba, bez niej świat z dnia na dzień staje się coraz bardziej szary.</PawnWithGoodOpinionDied.stages.0.description>
-
-  <PawnWithBadOpinionDied.stages.0.label>mój rywal {0} nie żyje</PawnWithBadOpinionDied.stages.0.label>
-  <PawnWithBadOpinionDied.stages.0.description>Tak powinno być. Jest coraz lepiej.</PawnWithBadOpinionDied.stages.0.description>
- 
-
-  <!-- Family member died thoughts -->
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>więzień nie żyje</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Jeden z naszych więźniów zmarł, choć był nieszkodliwy. Powinniśmy lepiej sobie radzić z naszymi więźniami. Jeżeli chcemy ich śmierci, to musimy wydać wyrok, aby uniknąć tego barbarzyństwa.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
   
-  <MySonDied.stages.0.label>mój syn {0} nie żyje</MySonDied.stages.0.label>
-  <MySonDied.stages.0.description>Mój syn nie żyje. Moja własna krew...</MySonDied.stages.0.description>
-
-  <MyDaughterDied.stages.0.label>moja córka {0} nie żyje</MyDaughterDied.stages.0.label>
-  <MyDaughterDied.stages.0.description>Moja córka nie żyje. Moja własna krew...</MyDaughterDied.stages.0.description>
-
-  <MyHusbandDied.stages.0.label>mój mąż {0} nie żyje</MyHusbandDied.stages.0.label>
-  <MyHusbandDied.stages.0.description>Mój mąż nie żyje, zostałam sama...</MyHusbandDied.stages.0.description>
-
-  <MyWifeDied.stages.0.label>moja żona {0} nie żyje</MyWifeDied.stages.0.label>
-  <MyWifeDied.stages.0.description>Moja żona nie żyje, zostałem sam...</MyWifeDied.stages.0.description>
-
-  <MyFianceDied.stages.0.label>mój chłopak {0} nie żyje</MyFianceDied.stages.0.label>
-  <MyFianceDied.stages.0.description>Mój chłopak nie żyje... Mój świat się zawalił.</MyFianceDied.stages.0.description>
-
-  <MyFianceeDied.stages.0.label>moja dziewczyna {0} nie żyje</MyFianceeDied.stages.0.label>
-  <MyFianceeDied.stages.0.description>Moja dziewczyna nie żyje... Mój świat się zawalił.</MyFianceeDied.stages.0.description>
-
-  <MyLoverDied.stages.0.label>mój kochanek {0} nie żyje</MyLoverDied.stages.0.label>
-  <MyLoverDied.stages.0.description>Mój kochanek nie żyje, czuję się taki samotny...</MyLoverDied.stages.0.description>
-
-  <MyBrotherDied.stages.0.label>mój brat {0} nie żyje</MyBrotherDied.stages.0.label>
-  <MyBrotherDied.stages.0.description>Mój brat nie żyje. Moja własna krew...</MyBrotherDied.stages.0.description>
-
-  <MySisterDied.stages.0.label>moja siostra {0} nie żyje</MySisterDied.stages.0.label>
-  <MySisterDied.stages.0.description>Moja siostra nie żyje. Moja własna krew...</MySisterDied.stages.0.description>
-
-  <MyGrandchildDied.stages.0.label>mój wnuk {0} nie żyje</MyGrandchildDied.stages.0.label>
-  <MyGrandchildDied.stages.0.description>Mój wnuk nie żyje. Moja własna krew...</MyGrandchildDied.stages.0.description>
-
-  <MyFatherDied.stages.0.label>mój ojciec {0} nie żyje</MyFatherDied.stages.0.label>
-  <MyFatherDied.stages.0.description>Mój ojciec nie żyje. Odszedł na zawsze...</MyFatherDied.stages.0.description>
-
-  <MyMotherDied.stages.0.label>moja matka {0} nie żyje</MyMotherDied.stages.0.label>
-  <MyMotherDied.stages.0.description>Moja matka nie żyje. Zasnęła za zawsze...</MyMotherDied.stages.0.description>
-
-  <MyNieceDied.stages.0.label>moja siostrzenica {0} nie żyje</MyNieceDied.stages.0.label>
-  <MyNieceDied.stages.0.description>Moja siostrzenica nie żyje. To było cudowne dziecko.</MyNieceDied.stages.0.description>
-
-  <MyNephewDied.stages.0.label>mój siostrzeniec {0} nie żyje</MyNephewDied.stages.0.label>
-  <MyNephewDied.stages.0.description>Mój siostrzeniec nie żyje. To było cudowne dziecko.</MyNephewDied.stages.0.description>
-
-  <MyHalfSiblingDied.stages.0.label>mój przyrodni brat {0} nie żyje</MyHalfSiblingDied.stages.0.label>
-  <MyHalfSiblingDied.stages.0.description>Mój przyrodni brat nie żyje. Moja własna krew...</MyHalfSiblingDied.stages.0.description>
-
-  <MyAuntDied.stages.0.label>moja ciotka {0} nie żyje</MyAuntDied.stages.0.label>
-  <MyAuntDied.stages.0.description>Moja ciotka nie żyje.</MyAuntDied.stages.0.description>
-
-  <MyUncleDied.stages.0.label>mój wuj {0} nie żyje</MyUncleDied.stages.0.label>
-  <MyUncleDied.stages.0.description>Mój wuj nie żyje.</MyUncleDied.stages.0.description>
-
-  <MyGrandparentDied.stages.0.label>jeden z moich dziadków nie żyje: {0}</MyGrandparentDied.stages.0.label>
-  <MyGrandparentDied.stages.0.description>Mój dziadek/babcia nie żyje.</MyGrandparentDied.stages.0.description>
-
-  <MyCousinDied.stages.0.label>mój kuzyn {0} nie żyje</MyCousinDied.stages.0.label>
-  <MyCousinDied.stages.0.description>Mój kuzyn nie żyje. Moja własna krew...</MyCousinDied.stages.0.description>
-
-  <MyKinDied.stages.0.label>mój krewny {0} nie żyje</MyKinDied.stages.0.label>
-  <MyKinDied.stages.0.description>Mój krewny nie żyje.</MyKinDied.stages.0.description>
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>moja ciotka {0} nie żyje</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>Moja ciotka nie żyje.</MyAuntDied.stages.my_aunt_died.description>
   
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>mój brat {0} nie żyje</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>Mój brat nie żyje. Moja własna krew...</MyBrotherDied.stages.my_brother_died.description>
+  
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>mój kuzyn {0} nie żyje</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>Mój kuzyn nie żyje. Moja własna krew...</MyCousinDied.stages.my_cousin_died.description>
+  
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>moja córka {0} nie żyje</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>Moja córka nie żyje. Moja własna krew...</MyDaughterDied.stages.my_daughter_died.description>
+  
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>mój ojciec {0} nie żyje</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>Mój ojciec nie żyje. Odszedł na zawsze...</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>mój chłopak {0} nie żyje</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>Mój chłopak nie żyje... Mój świat się zawalił.</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>moja dziewczyna {0} nie żyje</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>Moja dziewczyna nie żyje... Mój świat się zawalił.</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>mój wnuk {0} nie żyje</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>Mój wnuk nie żyje. Moja własna krew...</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>jeden z moich dziadków nie żyje: {0}</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>Mój dziadek/babcia nie żyje.</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>mój przyrodni brat {0} nie żyje</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Mój przyrodni brat nie żyje. Moja własna krew...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>mój mąż {0} nie żyje</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>Mój mąż nie żyje, zostałam sama...</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>mój krewny {0} nie żyje</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>Mój krewny nie żyje.</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>mój kochanek {0} nie żyje</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>Mój kochanek nie żyje, czuję się taki samotny...</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>moja matka {0} nie żyje</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>Moja matka nie żyje. Zasnęła za zawsze...</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>mój siostrzeniec {0} nie żyje</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>Mój siostrzeniec nie żyje. To było cudowne dziecko.</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>moja siostrzenica {0} nie żyje</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>Moja siostrzenica nie żyje. To było cudowne dziecko.</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>moja siostra {0} nie żyje</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>Moja siostra nie żyje. Moja własna krew...</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>mój syn {0} nie żyje</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>Mój syn nie żyje. Moja własna krew...</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>mój wuj {0} nie żyje</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>Mój wuj nie żyje.</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>moja żona {0} nie żyje</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>Moja żona nie żyje, zostałem sam...</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>mój rywal {0} nie żyje</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>Tak powinno być. Jest coraz lepiej.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>mój przyjaciel {0} nie żyje</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>To była cudowna osoba, bez niej świat z dnia na dzień staje się coraz bardziej szary.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   
 </LanguageData>

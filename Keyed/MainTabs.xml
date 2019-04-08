@@ -1,76 +1,163 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
-  <ManualPriorities>Manualne priorytety</ManualPriorities>
+  <!-- EN: Manual priorities -->
+  <ManualPriorities>Ręczne priorytety</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>wyższy priorytet</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>niższy priorytet</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>Istotne umiejętności: {0}.\nŚrednia z istotnych umiejętności: {1} / {2}.</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Kliknij, aby przejść do:</ClickToJumpTo>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
   <CannotDoThisWork>{0} nie może wykonywać tego rodzaju pracy.</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(brak)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Ten kolonista nie może wykonywać pracy tego rodzaju ze względu na jego stan zdrowia.</IncapableOfWorkTypeBecauseOfCapacities>
-  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: E -->
+  <EmergencyWorkMarker>W</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Uwaga: Średnia z istotnych umiejętności jest niska.</SelectedWorkTypeWithVeryBadSkill>
-
+  
   <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
   <ManageOutfits>Zarządzaj ubiorem</ManageOutfits>
+  <!-- EN: Clr. forced -->
   <ClearForcedApparel>Wyczyść wymuszone</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>wymuszone</ApparelForcedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>Wymuszony wygląd</ForcedApparel>
+  <!-- EN: Edit... -->
   <AssignTabEdit>Edytuj...</AssignTabEdit>
-  <ManageDrugPolicies>Zarządzaj polityką wobec narkotyków</ManageDrugPolicies>
+  <!-- EN: Manage drug policies -->
+  <ManageDrugPolicies>Zarządzaj polityką narkotyków</ManageDrugPolicies>
+  <!-- EN: Manage food restrictions -->
+  <ManageFoodRestrictions>Zarządzaj dietą</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>Kopiuj</Copy>
+  <!-- EN: Paste -->
   <Paste>Wklej</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>Dozwolony obszar</AllowedArea>
   
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>Właściciel</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Ciąża ({0} / {1})</PregnantIconDesc>
-
+  <!-- EN: Bonded to -->
+  <BondedTo>Przywiązany do</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
+  <IsPredator>To stworzenie jest drapieżnikiem. Gdy będzie głodne, zapoluje na mniejsze stworzenia - być może także na ludzi.</IsPredator>
+  
   <!-- Factions tab -->
+  <!-- EN: Hostile -->
   <Hostile>Wrogowie</Hostile>
+  <!-- EN: Ally -->
+  <Ally>Sojusznicy</Ally>
+  <!-- EN: defeated -->
   <DefeatedLower>pokonani</DefeatedLower>
-  <HostileTo>Wróg {0}</HostileTo>
-  <CurrentGoodwill>Obecny poziom reputacji z tą frakcją.</CurrentGoodwill>
+  <!-- EN: Enemy of {0} -->
+  <HostileTo>Wróg frakcji {0}</HostileTo>
+  <!-- EN: Current goodwill and relations status with this faction. -->
+  <CurrentGoodwillTip>Obecna reputacja i status relacji z tą frakcją.</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
+  <CurrentGoodwillTip_PermanentEnemy>Ta frakcja jest stale wroga. Będzie najeżdżać twoją osadę i karawany. Relacja z nimi nigdy się nie poprawi z jakiegokolwiek powodu.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Ally>Ta frakcja jest sojusznicza. Będzie wysyłać wojowników żeby ci pomóc, kiedy tylko będzie mogła. Jeśli relacja spadnie poniżej {0}, frakcja stanie się neutralna.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
+  <CurrentGoodwillTip_Neutral>Ta frakcja jest neutralna. Będzie z tobą dobrowolnie handlować i rozmawiać. Jeśli relacja spadnie poniżej {0}, frakcja stanie się wroga. Jeśli wzrośnie ponad {1}, stanie się sojusznicza i zacznie aktywnie pracować, aby ci pomóc.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Hostile>Ta frakcja jest wroga. Będzie najeżdżać twoją osadę i karawany. Jeśli relacja wzrośnie powyżej {0}, stanie się neutralna.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
+  <CurrentGoodwillTip_NaturalGoodwill>Ta frakcja ma naturalny zakres reputacji od {0} do {1}. Jeśli wartość reputacji przekroczy {1}, zacznie spadać o {3} dziennie. Jeśli wartość reputacji spadnie poniżej {0}, zacznie wzrastać o {2} dziennie.</CurrentGoodwillTip_NaturalGoodwill>
   
   <!-- Social tab -->
+  <!-- EN: Friend -->
   <Friend>Przyjaciel</Friend>
+  <!-- EN: Rival -->
   <Rival>Rywal</Rival>
+  <!-- EN: Acquaintance -->
   <Acquaintance>Znajomy</Acquaintance>
   
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>Wykres</Graph>
+  <!-- EN: Messages -->
+  <Messages>Wiadomości</Messages>
+  <!-- EN: Statistics -->
   <Statistics>Statystyki</Statistics>
   
   <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>Wybierz wykres</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>Ostatnie 30 dni</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>Ostatnie 100 dni</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>Ostatnie 300 dni</Last300Days>
+  <!-- EN: All -->
   <AllDays>Wszystkie</AllDays>
-  <Day>Dzień</Day>
+  <!-- EN: Value -->
   <Value>Wartość</Value>
+  <!-- EN: External -->
   <External>Zewnętrzne</External>
-  
+
+  <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
+  <ShowLetters>Pokaż listy</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>Pokaż wiadomości</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>Przypnij lub odepnij tę wiadomość.\n\nNajstarsze odpięte wiadomości zostaną automatycznie usunięte z listy po osiągnięciu limitu {0} wiadomości.</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>nie masz wiadomości</NoMessages>
+
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>Czas gry</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>Pisarz SI</Storyteller>
-  <ThisMapColonyWealthTotal>Majatek kolonii (ta mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (this map) -->
+  <ThisMapColonyWealthTotal>Majątek kolonii (ta mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>Majątek kolonii (przedmioty) (ta mapa)</ThisMapColonyWealthItems>
-  <ThisMapColonyWealthBuildings>Majatek kolonii (budynki) (ta mapa)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (buildings) (this map) -->
+  <ThisMapColonyWealthBuildings>Majątek kolonii (budynki) (ta mapa)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
+  <ThisMapColonyWealthColonistsAndTameAnimals>Majątek kolonii (ludzie i zwierzęta) (ta mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>Poważne zagrożenia</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>Wrogie ataki</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>Otrzymane obrażenia (ta mapa)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>Zabici koloniści</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>Koloniści wysłani w kosmos</ColonistsLaunched>
 
   <!-- Research tab -->
+  <!-- EN: project tech level -->
   <ProjectTechLevel>poziom techniczny projektu</ProjectTechLevel>
+  <!-- EN: your tech level -->
   <YourTechLevel>twój poziom techniczny</YourTechLevel>
+  <!-- EN: cost multiplier -->
   <ResearchCostMultiplier>mnożnik</ResearchCostMultiplier>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Początkowy koszt projektu {0} został zmieniony na {1} ze względu na twój poziom techniczny.</ResearchCostComparison>
   
+  <!-- UNUSED -->
+  <CurrentGoodwill>Obecny poziom reputacji z tą frakcją.</CurrentGoodwill>
+
 </LanguageData>

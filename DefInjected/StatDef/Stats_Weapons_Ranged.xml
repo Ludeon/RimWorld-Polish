@@ -1,20 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <AccuracyTouch.label>Celność (twarzą w twarz)</AccuracyTouch.label>
-  <AccuracyTouch.description>Współczynnik celności w sytuacji, gdy przeciwnik jest na wyciągnięcie ręki.</AccuracyTouch.description>
-  
-  <AccuracyShort.label>Celność (blisko)</AccuracyShort.label>
-  <AccuracyShort.description>Współczynnik celności w walce na niewielki dystans.</AccuracyShort.description>
-  
-  <AccuracyMedium.label>Celność (średni dystans)</AccuracyMedium.label>
-  <AccuracyMedium.description>Współczynnik celności w walce na średni dystans.</AccuracyMedium.description>
-  
-  <AccuracyLong.label>Celność (daleko)</AccuracyLong.label>
+  <!-- EN: Accuracy (long) -->
+  <AccuracyLong.label>Celność (daleka)</AccuracyLong.label>
+  <!-- EN: The weapon's accuracy at a distance of 40 cells or more. An actual shot's chance to hit will also be affected by other factors. -->
   <AccuracyLong.description>Współczynnik celności w walce na duży dystans.</AccuracyLong.description>
   
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>Celność (średni dystans)</AccuracyMedium.label>
+  <!-- EN: The weapon's accuracy at a distance of 25 cells. An actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyMedium.description>Współczynnik celności w walce na średni dystans.</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>Celność (krótka)</AccuracyShort.label>
+  <!-- EN: The weapon's accuracy at a distance of 12 cells. An actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyShort.description>Współczynnik celności w walce na niewielki dystans.</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (close) -->
+  <AccuracyTouch.label>Celność (bliska)</AccuracyTouch.label>
+  <!-- EN: The weapon's accuracy at a distance of 3 cells or less. An actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyTouch.description>Współczynnik celności w sytuacji, gdy przeciwnik jest na wyciągnięcie ręki.</AccuracyTouch.description>
+  
+  <!-- EN: ranged cooldown -->
   <RangedWeapon_Cooldown.label>odstęp czasowy między strzałami</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
   <RangedWeapon_Cooldown.description>Określa, jak długi czas należy odczekać między kolejnymi strzałami.</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
   <RangedWeapon_Cooldown.formatString>{0} sek.</RangedWeapon_Cooldown.formatString>
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>TODO</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
+  <RangedWeapon_DamageMultiplier.description>TODO</RangedWeapon_DamageMultiplier.description>
   
 </LanguageData>

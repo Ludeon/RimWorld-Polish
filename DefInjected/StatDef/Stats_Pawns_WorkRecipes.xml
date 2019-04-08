@@ -1,52 +1,73 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
- 
-  <SculptingSpeed.label>szybkość rzeźbienia</SculptingSpeed.label>
-  <SculptingSpeed.description>Szybkość, z jaką ta osoba rzeźbi.</SculptingSpeed.description>
   
-  <TailoringSpeed.label>szybkość szycia</TailoringSpeed.label>
-  <TailoringSpeed.description>Szybkość, z jaką ta osoba szyje ubrania.</TailoringSpeed.description>
+  <!-- EN: butchery efficiency -->
+  <ButcheryFleshEfficiency.label>efektywność ćwiartowania</ButcheryFleshEfficiency.label>
+  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>Określa ilość mięsa powstałego po ćwiartowaniu.</ButcheryFleshEfficiency.description>
   
-  <SmithingSpeed.label>szybkość wykuwania</SmithingSpeed.label>
-  <SmithingSpeed.description>Szybkość, z jaką ta osoba wykuwa bądź tworzy od podstaw bronie, maszyny, amunicję i narzędzia.</SmithingSpeed.description>
-
-
-  <!-- Production recipes - speed affected by skill because there is no output quality -->
-  
-  <DrugProductionSpeed.label>szybkość produkcji narkotyków</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>Szybkość, z jaką ta osoba produkuje narkotyki.</DrugProductionSpeed.description>
-  
-  <CookSpeed.label>szybkość gotowania</CookSpeed.label>
-  <CookSpeed.description>Szybkość, z jaką ta osoba gotuje.</CookSpeed.description>
-  
-  <FoodPoisonChance.label>szansa na zatrucie pokarmowe</FoodPoisonChance.label>
-  <FoodPoisonChance.description>Prawdopodobieństwo na zepsucie gotowanego posiłku w taki sposób, że zjedzenie go będzie skutkowało zatruciem pokarmowym.</FoodPoisonChance.description>
-  
-  <BrewingSpeed.label>szybkość warzenia</BrewingSpeed.label>
-  <BrewingSpeed.description>Szybkość, z jaką ta postać warzy piwo.</BrewingSpeed.description>
-  
+  <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>szybkość ćwiartowania</ButcheryFleshSpeed.label>
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
   <ButcheryFleshSpeed.description>Szybkość, z jaką ta osoba ćwiartuje zwierzęta.</ButcheryFleshSpeed.description>
   
+  <!-- EN: mechanoid disassembly efficiency -->
+  <ButcheryMechanoidEfficiency.label>efektywność rozmontowywania mechanoidów</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>Określa ilość materiałów powstałych z rozmontowania mechanoida przez tę osobę.</ButcheryMechanoidEfficiency.description>
+  
+  <!-- EN: mechanoid disassembly speed -->
   <ButcheryMechanoidSpeed.label>szybkość rozmontowywania mechanoidów</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
   <ButcheryMechanoidSpeed.description>Szybkość, z jaką ta osoba rozmontowuje mechanoidy.</ButcheryMechanoidSpeed.description>
- 
+  
+  <!-- EN: cooking speed -->
+  <CookSpeed.label>szybkość gotowania</CookSpeed.label>
+  <!-- EN: The speed at which this person cooks meals. -->
+  <CookSpeed.description>Szybkość, z jaką ta osoba gotuje.</CookSpeed.description>
+  
+  <!-- EN: drug cooking speed -->
+  <DrugCookingSpeed.label>szybkość warzenia</DrugCookingSpeed.label>
+  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
+  <DrugCookingSpeed.description>Szybkość, z jaką ta postać warzy piwo.</DrugCookingSpeed.description>
+  
+  <!-- EN: drug synthesis speed -->
+  <DrugSynthesisSpeed.label>szybkość produkcji narkotyków</DrugSynthesisSpeed.label>
+  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
+  <DrugSynthesisSpeed.description>Szybkość, z jaką ta osoba produkuje narkotyki.</DrugSynthesisSpeed.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>szansa na zatrucie pokarmowe</FoodPoisonChance.label>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <FoodPoisonChance.description>Prawdopodobieństwo na zepsucie gotowanego posiłku w taki sposób, że zjedzenie go będzie skutkowało zatruciem pokarmowym.</FoodPoisonChance.description>
+  
+  <!-- UNUSED -->
   <MechanoidOperationSuccessChance.label>szansa na powodzenie operacji mechanoida</MechanoidOperationSuccessChance.label>
   <MechanoidOperationSuccessChance.description>Prawdopodobieństwo, z jakim operacja się powiedzie, gdy postać przystąpi do jej przeprowadzenia na mechanoidzie. Porażka oznacza zmarnowanie czasu, a nawet katastrofalne skutki dla obiektu.</MechanoidOperationSuccessChance.description>
- 
-  <ButcheryFleshEfficiency.label>efektywność ćwiartowania</ButcheryFleshEfficiency.label>
-  <ButcheryFleshEfficiency.description>Określa ilość mięsa powstałego po ćwiartowaniu.</ButcheryFleshEfficiency.description>
-
-  <ButcheryMechanoidEfficiency.label>efektywność rozmontowywania mechanoidów</ButcheryMechanoidEfficiency.label>
-  <ButcheryMechanoidEfficiency.description>Określa ilość materiałów powstałych z rozmontowania mechanoida przez tę osobę.</ButcheryMechanoidEfficiency.description>
-
-
-  <!-- Dumb recipes - not affected by skill because there's no skill component -->
-
+  
+  <!-- EN: sculpting speed -->
+  <SculptingSpeed.label>szybkość rzeźbienia</SculptingSpeed.label>
+  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
+  <SculptingSpeed.description>Szybkość, z jaką ta osoba rzeźbi.</SculptingSpeed.description>
+  
+  <!-- EN: smelting speed -->
   <SmeltingSpeed.label>szybkość przetapiania</SmeltingSpeed.label>
+  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>Szybkość, z jaką ta osoba przetapia rzeczy.</SmeltingSpeed.description>
   
+  <!-- EN: smithing speed -->
+  <SmithingSpeed.label>szybkość wykuwania</SmithingSpeed.label>
+  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
+  <SmithingSpeed.description>Szybkość, z jaką ta osoba wykuwa bądź tworzy od podstaw bronie, maszyny, amunicję i narzędzia.</SmithingSpeed.description>
+  
+  <!-- EN: tailoring speed -->
+  <TailoringSpeed.label>szybkość szycia</TailoringSpeed.label>
+  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
+  <TailoringSpeed.description>Szybkość, z jaką ta osoba szyje ubrania.</TailoringSpeed.description>
+  
+  <!-- EN: unskilled labor speed -->
+  <UnskilledLaborSpeed.label>prędkość niewykwalifik. prac</UnskilledLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
+  <UnskilledLaborSpeed.description>Szybkość, z jaką ta osoba wykonuje niewykwalifikowaną robociznę, taką jak robienie kamiennych bloków, chemiopaliwa w rafinerii lub spalanie przedmiotów.</UnskilledLaborSpeed.description>
   
 </LanguageData>
