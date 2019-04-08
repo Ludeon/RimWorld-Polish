@@ -337,15 +337,15 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} z {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>TODO</EnterCooldown>
+  <EnterCooldown>Nie możesz wejść ponownie przez następne {0} dni.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Karawana</Caravan>
   <!-- EN: there may be danger there -->
-  <HiddenOrNoSitePartDescription>TODO</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>tam może być niebezpiecznie</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>TODO</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>TODO</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>brak aktywnego projektu badawczego</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
   <Turret>wieżyczka</Turret>
   <!-- EN: turrets -->
@@ -385,15 +385,15 @@
   <!-- EN: Recruit failed!\n{0} chance -->
   <TextMote_RecruitFail>Rekrutacja nieudana!\n{0} szans</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
-  <TextMote_ResistanceReduced>TODO</TextMote_ResistanceReduced>
+  <TextMote_ResistanceReduced>Odporność\n{0} na {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>Oswajanie nieudane.\n{0} szans</TextMote_TameFail>
   <!-- EN: Tamed!\n{0} chance -->
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>Szkolenie nieudane: {0}\n{1} szans</TextMote_TrainFail>
+  <TextMote_TrainFail>Trening nieudany: {0}\n{1} szans</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>Wyszkolono: {0}\n{1} szans</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>Wytrenowany: {0}\n{1} szans</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
   <TextMote_FixBrokenDownBuildingFail>Naprawa\nnieudana.</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
@@ -671,7 +671,7 @@
   <!-- EN: Cannot hit target. -->
   <CannotHit>Nie można trafić w cel.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>TODO</ManhunterPerHit>
+  <ManhunterPerHit>Szansa zemsty na cios</ManhunterPerHit>
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
@@ -745,7 +745,7 @@
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Przełącz widoczność obszarów.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>TODO</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Przełącz wskaźnik piękna.\n\nWyświetla piękno świata, które będzie postrzegane przez postać stojącą tam, gdzie wskazuje mysz.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
   <ShowRoomStatsToggleButton>TODO</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
@@ -753,7 +753,7 @@
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Przełącz automatyczne rozszerzenie obszaru domu do nowych konstrukcji.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>TODO</AutoRebuildButton>
+  <AutoRebuildButton>Przełącz automatyczną przebudowę zniszczonych struktur w obszarze domu.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
   <CategorizedResourceReadoutToggleButton>Przełącz kategorie przy wyświetlaniu surowców.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
@@ -811,7 +811,7 @@
   <!-- EN: Must be placed on drillable resources. -->
   <MustPlaceOnDrillable>TODO</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
-  <CannotPlaceAdjacentTrap>TODO</CannotPlaceAdjacentTrap>
+  <CannotPlaceAdjacentTrap>Nie może być ustawione naprzeciw pułapek.</CannotPlaceAdjacentTrap>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -851,11 +851,11 @@
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>TODO</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>TODO</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>Reaktor statku jest gotowy do uruchomienia. Ten proces potrwa około 15 dni.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{0} użył {1} neurotrenera, zwiększając poziom umiejętności z {2} na {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{USER_labelShort} użył {1} neurotrenera, zwiększając poziom umiejętności z {2} na {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -977,13 +977,13 @@
   <!-- EN: Resource below -->
   <ResourceBelow>Źródło poniżej</ResourceBelow>
   <!-- EN: Progress to next portion -->
-  <ProgressToNextPortion>TODO</ProgressToNextPortion>
+  <ProgressToNextPortion>Postęp do następnej pozycji</ProgressToNextPortion>
   <!-- EN: No resources below. -->
-  <DeepDrillNoResources>TODO</DeepDrillNoResources>
+  <DeepDrillNoResources>Brak zasobów poniżej.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Wyczerpano podziemne zasoby.</DeepDrillExhausted>
+  <DeepDrillExhausted>Zasoby głębokiego odwiertu zostały wyczerpane, odwierty zostały automatycznie zawieszone. Po uzyskaniu pozwolenia na odwiert będzie nadal eksploatowany {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>TODO</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>Zasoby głębokiego odwiertu zostały wyczerpane.</DeepDrillExhaustedNoFallback>
 
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
@@ -1019,13 +1019,13 @@
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: powróć do ustawień karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>TODO</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>Przyb. czas podróży: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>TODO</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>Przyb. czas podróży (od poprzedniego punktu): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>TODO</EstimatedTimeToTile>
+  <EstimatedTimeToTile>Przyb. czas podróży: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>TODO</ForagedFoodAmount>
+  <ForagedFoodAmount>Ilość zbiorów żywności</ForagedFoodAmount>
 
   <!-- Outfits -->
   <!-- EN: Anything -->
@@ -1048,26 +1048,5 @@
   <ClickToSeeAvailableOrders_WorldObject>TODO</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>TODO</ClickToSeeAvailableOrders_Empty>
-
-  <!-- UNUSED -->
-  <CaravanMemberMentalBreak>Zatrzymana ponieważ: {0} załamał się.</CaravanMemberMentalBreak>
-  <CaravanHoursPerTile>g./pole</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>Podstawowy czas przemieszczania się</CaravanBaseMovementTime>
-  <StealthFactor>Ukrycie</StealthFactor>
-  <DeterioratingDueToBeingUnroofed>Psuje się ponieważ nie jest pod dachem.</DeterioratingDueToBeingUnroofed>
-  <LongRangeMineralScannerEfficiency>Wydajność: {0}</LongRangeMineralScannerEfficiency>
-  <SomeItemStashContents>Częściowa zawartość: {0}.</SomeItemStashContents>
-  <AreaAnimalDefaultLabel>Obszar dla zwierząt {0}</AreaAnimalDefaultLabel>
-  <NewAreaAnimal>Nowy obszar dla zwierząt</NewAreaAnimal>
-  <ShowEnvironmentToggleButton>Przełącz statystyki otoczenia.\n\nWyświetla piękno i statystyki pokoju dostrzegane przez znajdującą się w nim osobę.</ShowEnvironmentToggleButton>
-  <ExpandingIconsToggleButton>Przełącz powiększające się ikony dla odległych przedmiotów.</ExpandingIconsToggleButton>
-  <Fire>Ogień</Fire>
-  <HibernateCompleteLabel>Reaktor gotowy</HibernateCompleteLabel>
-  <HibernateComplete>Charlon Whitestone ukończył procedurę startową rekatora. Jest gotowy do startu.</HibernateComplete>
-  <TrapArmed>Uzbrojony</TrapArmed>
-  <TrapNotArmed>Nieuzbrojony</TrapNotArmed>
-  <TrapRearmingCost>Koszt uzbrojenia: {0}</TrapRearmingCost>
-  <EstimatedTimeToThisWaypoint>Spodziewany czas do tego punktu: {0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>Spodziewany czas między tym i poprzednim punktem: {0}</EstimatedTimeToThisWaypointFromPrevious>
 
 </LanguageData>
