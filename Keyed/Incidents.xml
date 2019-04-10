@@ -2,11 +2,11 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>Szalone zwierzę</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} - to zwierze oszalało</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Tutejsze zwierzę oszalało - {0} zaatakuje każdego, kogo zobaczy.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>Tutejsze zwierzę oszalało - {ANIMAL_label} zaatakuje każdego, kogo zobaczy.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>Szalone zwierzęta!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>Szalone zwierzęta {0}</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Jakaś dziwna fala energii przetoczyła się przez planetę. Wygląda na to, że kolonistom nic się nie stało, ale...\n\n{0} - grupa tych zwierząt oszalała.</AnimalInsanityMultiple>
 
@@ -18,7 +18,7 @@
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Cud</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
-  <MiracleHeal>{0} został cudownie uzdrowiony!</MiracleHeal>
+  <MiracleHeal>{0} {0_gender ? został : została} cudownie {0_gender ? uzdrowiony : uzdrowiona}!</MiracleHeal>
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
@@ -134,7 +134,7 @@
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Zaoferuj schronienie</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
-  <RefugeeChasedInitial_Reject>Zignoruj wiadomośc</RefugeeChasedInitial_Reject>
+  <RefugeeChasedInitial_Reject>Zignoruj wiadomość</RefugeeChasedInitial_Reject>
   <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
   <RefugeeChasedRejected>{0} krzyczy w panice, zanim wyłączasz transmisję.</RefugeeChasedRejected>
 
@@ -178,9 +178,9 @@
   
   <!-- Journey-related -->
   <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>Charlon Whitestone, przyjazna SI z twojej przeszłości, wysłał ci wiadomość!\n\nUjawnił, że ukrył on na tej planecie statek kosmiczny i wyśle ci jego współrzędne.\n\nStatek jest aktualnie w głębokiej hibernacji. Będziesz musiał go uruchomić kiedy tam dotrzesz, następnie obronić go przed najeźdzcami próbującymi ukraść go zanim sekwencja startowa się zakończy.\n\nJeżeli uda ci się uruchomić statek, Charlon zabierze cię z tego świata, do gwiazd.</JourneyOffer>
+  <JourneyOffer>Charlon Whitestone, przyjazna SI z twojej przeszłości, wysłał ci wiadomość!\n\nUjawnił, że ukrył on na tej planecie statek kosmiczny i wyśle ci jego współrzędne.\n\nStatek jest aktualnie w głębokiej hibernacji. Będziesz musiał go uruchomić kiedy tam dotrzesz, następnie obronić go przed najeźdźcami próbującymi ukraść go zanim sekwencja startowa się zakończy.\n\nJeżeli uda ci się uruchomić statek, Charlon zabierze cię z tego świata, do gwiazd.</JourneyOffer>
   <!-- EN: Ship found -->
-  <EscapeShipFoundLabel>Statek zaleziony</EscapeShipFoundLabel>
+  <EscapeShipFoundLabel>Statek znaleziony</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <EscapeShipFound>Dotarłeś do współrzędnych otrzymanych od Charlona Whitestone i odkryłeś ukryty statek.\n\nReaktor statku jest w głębokiej hibernacji. Możesz rozpocząć uruchamianie wchodząc w interakcję z rdzeniem komputerowym.\n\nCharlon Whitestone ostrzega cię że procedura startowa może potrwać 15 dni i jego sygnatura będzie wykrywalna z bardzo daleka. Taka siła energii będzie przyciągała gangi oraz łowców nagród. Upewnij się że masz wystarczającą obronę aby przetrwać.</EscapeShipFound>
   <!-- EN: Ship destroyed -->
@@ -208,7 +208,7 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Pobliska osada, {0}, kontaktuje się z tobą w celu złożenia specjalnej oferty handlowej. Chciałaby zakupić:\n\n  {1}.\n\nW zamian oferują:\n\n {2}.\n\nTa oferta wygasa po: {3}.\n\nJeśli chcesz spełnić prośbę, wyślij karawanę z odpowiednimi dobrami. Możesz przejrzeć ofertę, wybierając {0} na mapie świata.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Prośba: {0}, Nagroda: {1} (pozostało: {2})</CaravanRequestInfo>
+  <CaravanRequestInfo>Prośba: {0} ({3}), Nagroda: {1} ({4}) (pozostało: {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>normalna lub lepsza jakość</NormalQualityOrBetter>
   <!-- EN: not tainted -->
@@ -218,7 +218,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Żądanie karawany od {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>Twoja karawana została zaskoczona przez grupę {1} {3} z {0}. Zaatakuje cię, chyba że dasz im:\n\n{2}.</CaravanDemand>
+  <CaravanDemand>Twoja karawana {0} została zaskoczona przez grupę {2} {4} z {1}. Zaatakuje cię, chyba że dasz im:\n\n{3}.</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Daj i odejdź</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
@@ -233,29 +233,5 @@
   <LetterSiteNoLongerHostile>Ponieważ nie jesteś już wrogiem z {0}, to {1} teren nie jest już dostępny.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Ponieważ nie jesteś już wrogiem z {0}, obecne tereny nie są już dostępne.</LetterSiteNoLongerHostileMulti>
-
-  <!-- UNUSED -->
-  <CropBlight>Koloniści zobaczyli zarazę na twoich plonach. Powinieneś wyciąć lub spalić zarażone rośliny zanim zaraza się rozprzestrzeni</CropBlight>
-  <EnemyRaidWalkIn>Grupa {0} z {1} pojawiła się niedaleko.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Grupa {0} z {1} wylądowała niedaleko.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Grupa {0} z {1} wylądowała dokładnie w środku kolonii!</EnemyRaidCenterDrop>
-  <FriendlyRaidWalkIn>Przyjazna grupa {0} z {1} pojawiła się niedaleko.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Przyjazna grupa {0} z {1} wylądowała niedaleko.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Przyjazna grupa {0} z {1} wylądowała dokładnie w środku kolonii!</FriendlyRaidCenterDrop>
-  <LetterLabelWandererJoin>Wędrowiec dołącza</LetterLabelWandererJoin>
-  <WandererJoin>Przybył {0} o imieniu [PAWN_nameDef] i dołącza do kolonii. [PAWN_pronoun] jest {1}.</WandererJoin>
-  <PsychicDroneLevelLow>Niskie</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Średnie</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Wysokie</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Ekstremalne</PsychicDroneLevelExtreme>
-  <LetterLabelBuildingBrokenDown>Awaria: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Jedna z twoich maszyn ({0}) zepsuła się. Nie będzie działać, dopóki któryś z kolonistów jej nie naprawi.</LetterBuildingBrokenDown>
-  <ItemStashQuestTitle>Możliwość zdobycia schowanych przedmiotów</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Akceptuj</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Odmów</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} chce nam powiedzieć miejsce, w którym znajduje się lokalizacja schowanych przedmiotów, w zamian za {1} srebra.</ItemStashQuestFeeDemand>
-  <ItemStashSitePart_Unknown>Niestety, {0} nie ma pojęcia, kto lub co - jeśli cokolwiek - może pilnować przedmiotów.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} mówi, że kolekcja nie jest pilnowana.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} mówi, że {1}.</ItemStashSitePart_Part>
 
 </LanguageData>
