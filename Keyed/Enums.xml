@@ -93,21 +93,21 @@
   <!-- EN: Starving -->
   <HungerLevel_Starving>Głoduje</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>Bardzo głodny</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>Bardzo {0_gender ? głodny : głodna}</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>Głodny</HungerLevel_Hungry>
+  <HungerLevel_Hungry>{0_gender ? Głodny : Głodna}</HungerLevel_Hungry>
   <!-- EN: Fed -->
-  <HungerLevel_Fed>Najedzony</HungerLevel_Fed>
+  <HungerLevel_Fed>{0_gender ? Najedzony : Najedzona}</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>Wyczerpany</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>{0_gender ? Wyczerpany : Wyczerpana}</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
-  <HungerLevel_VeryTired>Bardzo zmęczony</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>Bardzo {0_gender ? Zmęczony : Zmęczona}</HungerLevel_VeryTired>
   <!-- EN: Tired -->
-  <HungerLevel_Tired>Zmęczony</HungerLevel_Tired>
+  <HungerLevel_Tired>{0_gender ? Zmęczony : Zmęczona}</HungerLevel_Tired>
   <!-- EN: Rested -->
-  <HungerLevel_Rested>Wypoczęty</HungerLevel_Rested>
+  <HungerLevel_Rested>{0_gender ? Wypoczęty : Wypoczęta}</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <!-- EN: flat -->
@@ -286,15 +286,5 @@
   <PsychicDroneLevel_BadHigh>wysoki</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>ekstremalny</PsychicDroneLevel_BadExtreme>
-
-  <!-- UNUSED -->
-  <Unspecified>Nie zdecydowano</Unspecified>
-  <Always>Zezwalaj</Always>
-  <Never>Nie zezwalaj</Never>
-  <QualityCategory_Shoddy>bardzo zły</QualityCategory_Shoddy>
-  <QualityCategory_Superior>bardzo dobry</QualityCategory_Superior>
-  <QualityCategoryShort_Shoddy>bzły</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Superior>bdb</QualityCategoryShort_Superior>
-  <TechLevel_Transcendent>ponadzmysłowy</TechLevel_Transcendent>
 
 </LanguageData>

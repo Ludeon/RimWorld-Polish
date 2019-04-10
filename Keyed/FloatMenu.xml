@@ -21,7 +21,7 @@
   <LeaderUnavailableNoLeader>lider jest niedostępny</LeaderUnavailableNoLeader>
   
   <!-- EN: Fire at {1_label} -->
-  <FireAt>Strzelaj w: {0}</FireAt>
+  <FireAt>Strzelaj w: {1_label}</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>poza zasięgiem</OutOfRange>
@@ -30,11 +30,11 @@
   <!-- EN: cannot hit target -->
   <CannotHitTarget>nie można trafić w cel</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} jest niezdolny do przemocy</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort} jest {1_gender ? niezdolny : niezdolna} do przemocy</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
-  <IncapableOfViolenceLower>niezdolny do przemocy</IncapableOfViolenceLower>
+  <IncapableOfViolenceLower>{1_gender ? niezdolny : niezdolna} do przemocy</IncapableOfViolenceLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} nie jest powołany</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} nie jest {1_gender ? powołany : powołana}</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -378,11 +378,5 @@
   <FreePrisoner>Uwolnij więźnia</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Zaoferuj pomoc</OfferHelp>
-  
-  <!-- UNUSED -->
-  <MissingSkill>umiejętność zbyt niska</MissingSkill>
-  <NoEmptyGraveLower>brak pustego grobu</NoEmptyGraveLower>
-  <VisitSite>Odwiedź {0}</VisitSite>
-  <AttackSite>Zaatakuj {0}</AttackSite>
 
 </LanguageData>
