@@ -31,7 +31,7 @@
   <!-- EN: Stats -->
   <TabStats>Statystyki</TabStats>
   <!-- EN: Records -->
-  <TabRecords>Historia</TabRecords>
+  <TabRecords>Archiwum</TabRecords>
   <!-- EN: Art -->
   <TabArt>Sztuka</TabArt>
   <!-- EN: Social -->
@@ -53,11 +53,11 @@
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>WSTRZYMANE</SuspendedCaps>
   <!-- EN: Worker: {1_labelShort} -->
-  <BoundWorkerIs>Pracownik: {0}</BoundWorkerIs>
+  <BoundWorkerIs>Pracownik: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Sadzenie</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>Skopiowane zlecenie nie może być tutaj wklejone</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>Skopiowane zlecenie nie może być tutaj wklejone.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Przesuń w górę</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -81,9 +81,9 @@
   <!-- EN: Gets food -->
   <GetsFood>Dostaje żywność</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>Opieka medyczna</DoctorsCare>
+  <DoctorsCare>Pod opieką medyczną</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>Otrzymuje leki</GetsMedicine>
+  <GetsMedicine>Dostaje leki</GetsMedicine>
   <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
@@ -218,7 +218,7 @@
   <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort} - opinia o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
-  <IAmDead>Jestem trupem</IAmDead>
+  <IAmDead>Jestem {0_gender ? martwy : martwa}</IAmDead>
   <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Jestem {0_gender ? psychopatą : psychopatką}</IAmPsychopath>
   
