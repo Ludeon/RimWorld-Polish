@@ -14,16 +14,14 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->wyspa [narrative_name]</li>  
-    <li>terrain_word(p=4)->islands</li>
-    <li>terrain_word(p=3)->isles</li>
-    <li>terrain_word(p=3)->archipelag</li>
-    <li>terrain_word->rafa</li>
-    <li>terrain_word->wyspa koralowa</li>
-    <li>terrain_word->skały</li>
-    <li>terrain_word->wyspy</li>
-    <li>terrain_word->punkty</li>
-    <li>terrain_word->łańcuch</li>
+    <li>standardname(p=0.2)->isle [prefix]</li>
+    <li>suffix(p=4)->islands</li>
+    <li>suffix(p=3)->isles</li>
+    <li>suffix(p=3)->archipelago</li>
+    <li>suffix->reef</li>
+    <li>suffix->atoll</li>
+    <li>suffix->rocks</li>
+    <li>suffix->lands</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -37,14 +35,14 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->zarośla</li>
-    <li>terrain_word(p=4)->gąszcz</li>
-    <li>terrain_word(p=2)->płaskowyż</li>
-    <li>terrain_word(p=2)->gąszcz</li>
-    <li>terrain_word->pustynia</li>
-    <li>terrain_word->krzak</li>
-    <li>terrain_word->krzewy</li>
-    <li>terrain_word->polana</li>
+    <li>suffix(p=4)->shrubland</li>
+    <li>suffix(p=4)->scrubland</li>
+    <li>suffix(p=2)->plateau</li>
+    <li>suffix(p=2)->scrub</li>
+    <li>suffix->desert</li>
+    <li>suffix->bush</li>
+    <li>suffix->brush</li>
+    <li>suffix->barrens</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -56,12 +54,12 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->zatoka [narrative_name]</li>
-    <li>terrain_word(p=6)->przystań</li>
-    <li>terrain_word->wybrzeże</li>
-    <li>terrain_word->nadbrzeże</li>
-    <li>terrain_word->brzeg</li>
-    <li>terrain_word->zatoczka</li>
+    <li>standardname(p=0.2)->gulf of [prefix]</li>
+    <li>suffix(p=6)->bay</li>
+    <li>suffix->bight</li>
+    <li>suffix->gulf</li>
+    <li>suffix->anchorage</li>
+    <li>suffix->cove</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -74,13 +72,12 @@
     <li>terrain_word->thicket</li>
   -->
   <NamerBorealForest.rulePack.rulesStrings>
-	<li>terrain_word(p=6)->las</li>
-    <li>terrain_word(p=3)->tajga</li>
-    <li>terrain_word->gaj</li>
-    <li>terrain_word->puszcza</li>
-    <li>terrain_word->knieja</li>
-    <li>terrain_word->zalesie</li>
-    <li>terrain_word->zagajnik</li>
+    <li>suffix(p=6)->forest</li>
+    <li>suffix(p=3)->taiga</li>
+    <li>suffix->grove</li>
+    <li>suffix->woodland</li>
+    <li>suffix->tangle</li>
+    <li>suffix->thicket</li>
   </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -107,29 +104,14 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>    
-	<li>standardname(p=0.4)->[desert_adjective] [narrative_name]</li>
-    <li>desert_adjective->płaski</li>
-    <li>desert_adjective->biały</li>
-    <li>desert_adjective->bezkresny</li>
-    <li>desert_adjective->nieczuły</li>
-    <li>desert_adjective->parched</li>
-    <li>desert_adjective->suchy</li>
-    <li>desert_adjective->długi</li>
-    <li>desert_adjective->poparzeniowy</li>
-    <li>desert_adjective->słoneczny</li>
-    <li>desert_adjective->dazzling</li>
-    <li>desert_adjective->gorący</li>
-    <li>desert_adjective->sweaty</li>
-    <li>desert_adjective->piaszczysty</li>
-    <li>desert_adjective->skalisty</li>
-    <li>terrain_word(p=6)->pustynia</li>
-    <li>terrain_word->płaskowyż</li>
-    <li>terrain_word->równina</li>
-    <li>terrain_word->bezdroże</li>
-    <li>terrain_word->pustka</li>
-    <li>terrain_word->pustkowie</li>
-    <li>terrain_word->odludzie</li>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>suffix(p=6)->desert</li>
+    <li>suffix->plateau</li>
+    <li>suffix->flats</li>
+    <li>suffix->basin</li>
+    <li>suffix->wastes</li>
+    <li>suffix->wasteland</li>
+    <li>suffix->barrens</li>
   </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
@@ -139,10 +121,11 @@
     <li>terrain_word->thicket</li>
   -->
   <NamerForest.rulePack.rulesStrings>
-	<li>terrain_word(p=6)->las</li>
-    <li>terrain_word->gąszcz</li>
-    <li>terrain_word->puszcza</li>
-    <li>terrain_word->lasek</li></NamerForest.rulePack.rulesStrings>
+    <li>suffix(p=6)->forest</li>
+    <li>suffix->grove</li>
+    <li>suffix->woodland</li>
+    <li>suffix->thicket</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -154,7 +137,9 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>suffix->sheet</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname(p=0.2)->isle [narrative_name]</li>
@@ -166,7 +151,14 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>mainname(p=0.2)->isle [prefix]</li>
+    <li>suffix(p=4)->island</li>
+    <li>suffix(p=2)->isle</li>
+    <li>suffix->reef</li>
+    <li>suffix->rock</li>
+    <li>suffix->point</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname->lake [narrative_name]</li>
@@ -179,7 +171,11 @@
     <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>standardname->lake [prefix]</li>
+    <li>suffix(p=2)->lake</li>
+    <li>suffix->sea</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname(p=0.2)->mount [narrative_name]</li>
@@ -189,7 +185,14 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->mount [prefix]</li>
+    <li>suffix(p=5)->mountains</li>
+    <li>suffix(p=2)->range</li>
+    <li>suffix->peaks</li>
+    <li>suffix->hills</li>
+    <li>suffix->cliffs</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -210,24 +213,10 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>    
-	<li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
-    <li>ocean_adjective->blue</li>
-    <li>ocean_adjective->white</li>
-    <li>ocean_adjective->gray</li>
-    <li>ocean_adjective->clear</li>
-    <li>ocean_adjective->windy</li>
-    <li>ocean_adjective->stormy</li>
-    <li>ocean_adjective->calm</li>
-    <li>ocean_adjective->broad</li>
-    <li>ocean_adjective->endless</li>
-    <li>ocean_adjective->flat</li>
-    <li>ocean_adjective->still</li>
-    <li>ocean_adjective->wavy</li>
-    <li>ocean_adjective->gentle</li>
-    <li>terrain_word(p=6)->ocean</li>
-    <li>terrain_word(p=3)->sea</li>
-    <li>terrain_word->expanse</li>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->deep [prefix]</li>
+    <li>suffix(p=6)->ocean</li>
+    <li>suffix->expanse</li>
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
@@ -239,14 +228,14 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>    
-	<li>standardname(p=0.2)->point [narrative_name]</li>
-    <li>standardname(p=0.2)->cape [narrative_name]</li>
-    <li>terrain_word(p=5)->peninsula</li>
-    <li>terrain_word(p=2)->point</li>
-    <li>terrain_word->cape</li>
-    <li>terrain_word->headland</li>
-    <li>terrain_word->horn</li>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->point [prefix]</li>
+    <li>standardname(p=0.2)->cape [prefix]</li>
+    <li>suffix(p=8)->peninsula</li>
+    <li>suffix(p=2)->point</li>
+    <li>suffix->cape</li>
+    <li>suffix->headland</li>
+    <li>suffix->horn</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
@@ -255,11 +244,12 @@
     <li>terrain_word->ocean</li>
     <li>terrain_word->lake</li>
   -->
-  <NamerSea.rulePack.rulesStrings>    
-	<li>standardname(p=0.1)->lake [narrative_name]</li>
-    <li>terrain_word(p=6)->sea</li>
-    <li>terrain_word->ocean</li>
-    <li>terrain_word->lake</li></NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->lake [prefix]</li>
+    <li>suffix(p=6)->sea</li>
+    <li>suffix->ocean</li>
+    <li>suffix->lake</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname(p=0.1)->fen [narrative_name]</li>
@@ -281,25 +271,15 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>    
-	<li>standardname(p=0.1)->fen [narrative_name]</li>
-    <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
-    <li>swamp_adjective->wet</li>
-    <li>swamp_adjective->steamy</li>
-    <li>swamp_adjective->choking</li>
-    <li>swamp_adjective->rotten</li>
-    <li>swamp_adjective->rotting</li>
-    <li>swamp_adjective->overgrown</li>
-    <li>swamp_adjective->tangled</li>
-    <li>swamp_adjective->viny</li>
-    <li>swamp_adjective->thorny</li>
-    <li>terrain_word(p=6)->swamp</li>
-    <li>terrain_word->basin</li>
-    <li>terrain_word->wetlands</li>
-    <li>terrain_word->bayou</li>
-    <li>terrain_word->bog</li>
-    <li>terrain_word->marsh</li>
-    <li>terrain_word->fen</li>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->fen [prefix]</li>
+    <li>suffix(p=6)->swamp</li>
+    <li>suffix->basin</li>
+    <li>suffix->wetlands</li>
+    <li>suffix->bayou</li>
+    <li>suffix->bog</li>
+    <li>suffix->marsh</li>
+    <li>suffix->fen</li>
   </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
@@ -318,21 +298,13 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>    
-	<li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
-    <li>rainforest_adjective->wet</li>
-    <li>rainforest_adjective->steamy</li>
-    <li>rainforest_adjective->choking</li>
-    <li>rainforest_adjective->overgrown</li>
-    <li>rainforest_adjective->tangled</li>
-    <li>rainforest_adjective->viny</li>
-    <li>rainforest_adjective->thorny</li>
-    <li>terrain_word(p=6)->rainforest</li>
-    <li>terrain_word(p=3)->jungle</li>
-    <li>terrain_word->forest</li>
-    <li>terrain_word->grove</li>
-    <li>terrain_word->woodland</li>
-    <li>terrain_word->tangle</li>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>suffix(p=6)->rainforest</li>
+    <li>suffix(p=3)->jungle</li>
+    <li>suffix->forest</li>
+    <li>suffix->grove</li>
+    <li>suffix->woodland</li>
+    <li>suffix->tangle</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -350,18 +322,18 @@
     <li>terrain_word->flats</li>
   -->
   <NamerTundra.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->plateau</li>
-    <li>terrain_word(p=4)->barrens</li>
-    <li>terrain_word(p=2)->taiga</li>
-    <li>terrain_word->scrub</li>
-    <li>terrain_word->shrubland</li>
-    <li>terrain_word->scrubland</li>
-    <li>terrain_word->bush</li>
-    <li>terrain_word->brush</li>
-    <li>terrain_word->barrens</li>
-    <li>terrain_word->expanse</li>
-    <li>terrain_word->prairie</li>
-    <li>terrain_word->flats</li>
+    <li>suffix(p=4)->plateau</li>
+    <li>suffix(p=4)->barrens</li>
+    <li>suffix(p=2)->taiga</li>
+    <li>suffix->scrub</li>
+    <li>suffix->shrubland</li>
+    <li>suffix->scrubland</li>
+    <li>suffix->bush</li>
+    <li>suffix->brush</li>
+    <li>suffix->barrens</li>
+    <li>suffix->expanse</li>
+    <li>suffix->prairie</li>
+    <li>suffix->flats</li>
   </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
