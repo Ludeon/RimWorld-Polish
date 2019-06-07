@@ -4,21 +4,21 @@
   <!-- EN: arrow -->
   <Arrow.label>strzała</Arrow.label>
   <!-- EN: {0} has been shot to death by an arrow. -->
-  <Arrow.deathMessage>{0} {0_gender ? zginął : zginęła} w wyniku trafienia strzałą.</Arrow.deathMessage>
+  <Arrow.deathMessage>{0} {PAWN_gender ? zginął : zginęła} w wyniku trafienia strzałą.</Arrow.deathMessage>
   
   <!-- EN: arrow -->
   <ArrowHighVelocity.label>strzała</ArrowHighVelocity.label>
   <!-- EN: {0} has been shot to death by an arrow. -->
-  <ArrowHighVelocity.deathMessage>{0} {0_gender ? zginął : zginęła} w wyniku trafienia strzałą.</ArrowHighVelocity.deathMessage>
+  <ArrowHighVelocity.deathMessage>{0} {PAWN_gender ? zginął : zginęła} w wyniku trafienia strzałą.</ArrowHighVelocity.deathMessage>
   
   <!-- EN: bullet -->
   <Bullet.label>nabój</Bullet.label>
   <!-- EN: {0} has been shot to death. -->
-  <Bullet.deathMessage>{0} {0_gender ? zginął : zginęła} w wyniku postrzału.</Bullet.deathMessage>
+  <Bullet.deathMessage>{0} {PAWN_gender ? zginął : zginęła} w wyniku postrzału.</Bullet.deathMessage>
   
   <!-- EN: stab -->
   <RangedStab.label>dźgnięcie</RangedStab.label>
   <!-- EN: {0} has been stabbed to death. -->
-  <RangedStab.deathMessage>{0} został{0_gender ? : a} zadźgan{0_gender ? y : a} na śmierć.</RangedStab.deathMessage>
+  <RangedStab.deathMessage>{0} {PAWN_gender ? został : została} {PAWN_gender ? zadźgany : zadźgana} na śmierć.</RangedStab.deathMessage>
   
 </LanguageData>
