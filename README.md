@@ -22,6 +22,7 @@ Jeśli chcesz pomóc pisz śmiało.
 
 # Working crew 
 * piotrulos  
+* skill3472
 
 # Past project crew (last year)
 * Nika "Nalthe" Borto [www.rimworldpolska.pl]
