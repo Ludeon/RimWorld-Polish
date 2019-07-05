@@ -23,6 +23,7 @@ Aktualnie trwa tłumaczenie i weryfikacja po wielkich zmianach po wydaniu wersji
 * ByJacob  
 * R4nd0m24  
 * VATICANPSYCHO  
+* skill3472
 
 # Past project crew (last year)
 * Nika "Nalthe" Borto [www.rimworldpolska.pl]
