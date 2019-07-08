@@ -1,6 +1,6 @@
 # Polish translation for RimWorld 1.0.
  
-Trwają prace nad tłumaczeniem...  
+Trwają prace nad tłumaczeniem dla wersji 1.0...  
 
 Pobierz aktualną wersję tłumaczenia:  
 https://github.com/Ludeon/RimWorld-Polish (przycisk Clone or Download -> Download zip).  
@@ -9,7 +9,6 @@ https://github.com/Ludeon/RimWorld-Polish (przycisk Clone or Download -> Downloa
 
 --------
 Poprzednio:
-
 # Polish translation for RimWorld
 
 Tłumaczenie do wersji b18 jest wolne od błędów składni xml. (Brak błędów w konsoli)   
