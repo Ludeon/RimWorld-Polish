@@ -108,9 +108,9 @@
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie będzie działać.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>Stan zapisu gry jest w nierozpoznawalnym formacie i nie będzie działać.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.\n\nSprawdź dziennik błędów aby uzyskać więcej infomacji.</ProblemSavingFile>
+  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.\n\nSprawdź dziennik błędów aby uzyskać więcej informacji.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -236,7 +236,7 @@
   <!-- EN: Repeat: -->
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <!-- EN: Forever -->
-  <Forever>Ciągle</Forever>
+  <Forever>Bez końca</Forever>
   <!-- EN: Details -->
   <Details>Szczegóły</Details>
   <!-- EN: Ingredient radius -->
@@ -313,13 +313,13 @@
   <!-- EN: Cooldown -->
   <CooldownTime>Czas między atakami</CooldownTime>
   <!-- EN: Fire rate -->
-  <BurstShotFireRate>Szybkostrzelność</BurstShotFireRate>
+  <BurstShotFireRate>Częstotliwość strzałów</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>Zasięg</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>Moc obalająca</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>TODO</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Uderzenia pocisków z tej broni spowodują zachwianie celów, spowalniając ich ruch na kilka sekund. Cele o większym rozmiarze ciała niż siłą mocy obalającej, nie będą narażone na ten efekt.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Szansa bezpośredniego trafienia</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -327,7 +327,7 @@
   <!-- EN: Grows wild -->
   <GrowsWild>Rośnie dziko</GrowsWild>
   <!-- EN: Harvestable -->
-  <Harvestable>Można zbierać</Harvestable>
+  <Harvestable>Możliwość zbioru</Harvestable>
   <!-- EN: Limited lifespan -->
   <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
   <!-- EN: Growing time -->
@@ -435,7 +435,7 @@
   <!-- EN: Supports -->
   <Supports>Pomocnicy</Supports>
   <!-- EN: Trap armor penetration -->
-  <TrapArmorPenetration>TODO</TrapArmorPenetration>
+  <TrapArmorPenetration>Penetracja zbroi pułapki</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>Koszt przezbrojenia</RearmCost>
   <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
@@ -593,13 +593,13 @@
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
   <NutritionEatenPerDayTip>TODO</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
-  <MassCarriedSimple>TODO</MassCarriedSimple>
+  <MassCarriedSimple>Tolerowana masa</MassCarriedSimple>
   <!-- EN: Mass capacity -->
-  <MassCapacity>Pojemność</MassCapacity>
+  <MassCapacity>Pojemność masowa</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Masa</Mass>
   <!-- EN: Caravan mass -->
-  <CaravanMass>TODO</CaravanMass>
+  <CaravanMass>Masa karawany</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Masa sprzętu i ubrań</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -613,7 +613,7 @@
   <!-- EN: Prisoners -->
   <PrisonersSection>Więźniowie</PrisonersSection>
   <!-- EN: Capture -->
-  <CaptureSection>TODO</CaptureSection>
+  <CaptureSection>Przechwyć</CaptureSection>
   <!-- EN: Animals -->
   <AnimalsSection>Zwierzęta</AnimalsSection>
   <!-- EN: Choose route -->
@@ -621,7 +621,7 @@
   <!-- EN: Abandon -->
   <AbandonButton>Porzuć</AbandonButton>
   <!-- EN: Movement speed -->
-  <CaravanMovementSpeed>TODO</CaravanMovementSpeed>
+  <CaravanMovementSpeed>Prędkość ruchu</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
   <TilesPerDay>TODO</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
@@ -633,9 +633,9 @@
   <!-- EN: (for {0} more days) -->
   <PossibleToGrazeFor>TODO</PossibleToGrazeFor>
   <!-- EN: (forever) -->
-  <PossibleToGrazeForever>TODO</PossibleToGrazeForever>
+  <PossibleToGrazeForever>(bez końca)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
-  <CantGrazeBecauseOfBiome>TODO</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
   <CantGrazeBecauseOfTemp>TODO</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
@@ -645,9 +645,9 @@
   <!-- EN: Foraged nutrition per day -->
   <ForagedNutritionPerDay>TODO</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
-  <FactionType>TODO</FactionType>
+  <FactionType>Typ frakcji</FactionType>
   <!-- EN: Total body size -->
-  <TotalBodySize>TODO</TotalBodySize>
+  <TotalBodySize>Całkowita wielkość ciała</TotalBodySize>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
