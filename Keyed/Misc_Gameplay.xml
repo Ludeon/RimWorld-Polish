@@ -131,7 +131,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Ustaw docelową ilość paliwa na {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Ustaw docelową ilość paliwa na {0}\nMaksymalna odległość: {1} pół</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Ustaw docelową ilość paliwa na {0}\nMaksymalna odległość: {1} pól</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Docelowy poziom paliwa: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -299,7 +299,7 @@
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Prędkość przemieszczania się karawany</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>{PAWN_gender ? powalony : powalona}</DownedLower>
+  <DownedLower>{0_gender ? powalony : powalona}</DownedLower>
   <!-- EN: carried -->
   <Carried>noszony</Carried>
   <!-- EN: Avg. person move speed -->
@@ -343,7 +343,7 @@
   <!-- EN: there may be danger there -->
   <HiddenOrNoSitePartDescription>tam może być niebezpiecznie</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>TODO</PreciousLumpLabel>
+  <PreciousLumpLabel>bryła {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>brak aktywnego projektu badawczego</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
@@ -563,7 +563,7 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{1}, {PAWN_gender}</PawnMainDescGendered>
+  <PawnMainDescGendered>{1} ({PAWN_gender})</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} z frakcji {1}</PawnMainDescFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
@@ -577,7 +577,7 @@
   <!-- EN: Dead -->
   <Dead>Nie żyje</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>{PAWN_gender ? Nieprzytomny1 : Nieprzytomna2}</Unconscious>
+  <Unconscious>{0_gender ? Nieprzytomny : Nieprzytomna}</Unconscious>
   <!-- EN: In shock due to pain -->
   <PainShock>W szoku pourazowym</PainShock>
   <!-- EN: Pain shock -->
@@ -963,7 +963,7 @@
   <!-- EN: Burning -->
   <ActivityIconBurning>Pali się</ActivityIconBurning>
   <!-- EN: Forming a caravan -->
-  <ActivityIconFormingCaravan>TODO</ActivityIconFormingCaravan>
+  <ActivityIconFormingCaravan>Tworzenie karawany</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
@@ -1045,8 +1045,8 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>TODO</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: Zobacz dostępne zamówienia...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>TODO</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>Zobacz dostępne zamówienia...</ClickToSeeAvailableOrders_Empty>
 
 </LanguageData>

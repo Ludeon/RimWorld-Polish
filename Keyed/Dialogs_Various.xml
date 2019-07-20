@@ -54,7 +54,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Nie można zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono poza Steam bez pliku steam_appid.txt we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nWciąż możesz zagrać, ale statystyki Steam nie zostaną zarejestrowane a funkcje Steam będą niedostępne.</SteamClientMissing>
+  <SteamClientMissing>Nie można zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono spoza Steam bez pliku "steam_appid.txt" we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nWciąż możesz zagrać, ale statystyki Steam nie zostaną zarejestrowane a funkcje Steam będą niedostępne.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -559,7 +559,7 @@
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Przybliżona liczba dni, w których co najmniej jedna osoba lub zwierzę będzie pozbawiona żywności. Ludzie i odmienne gatunki zwierząt potrzebują różnych rodzajów żywności, więc komuś może zabraknąć pożywienia przed innymi. Ta wartość jest obliczana dokładniej po wybraniu trasy.\n\nZależne od:\n  - Ilości i typu niesionej żywności\n  - Uczestników karawany i ich diety\n  - Intensywności zbiorów\n  - Możliwości wypasu zwierząt\n  - Czasu zanim żywność zgnije\n  - Upalna pogoda przyśpiesza gnicie</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>TODO</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(uwzględniany jest tylko pierwszy punkt trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -585,13 +585,13 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>Liczba dni w ciągu których ten przedmiot zacznie gnić, bazując na średniej temperaturze w regionie.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>TODO</ItemNutritionTip>
+  <ItemNutritionTip>Jak dużo wartości odżywczych dostarcza ten pokarm.\n\nPrzykładowo: dorosła osoba potrzebuje dziennie {0} wartości odżywczej.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>TODO</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>To zwierze może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>TODO</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Wartość odżywcza zebrana w ciągu dnia. Ostateczna wartość zbioru zależy również od obfitości biomu.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
-  <NutritionEatenPerDayTip>TODO</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>Wartość odżywcza jedzona w ciągu dnia. Przykładowo, proste posiłki mają {0} wartości odżywczej.\n\nMożna jeść: {2}\n\nLegenda:\n{1}.</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Tolerowana masa</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -617,33 +617,33 @@
   <!-- EN: Animals -->
   <AnimalsSection>Zwierzęta</AnimalsSection>
   <!-- EN: Choose route -->
-  <ChooseRouteButton>TODO</ChooseRouteButton>
+  <ChooseRouteButton>Wybierz trasę</ChooseRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Porzuć</AbandonButton>
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>Prędkość ruchu</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>TODO</TilesPerDay>
+  <TilesPerDay>pól/dzień</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>TODO</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>Prędkość ruchu zależy od średniej prędkości wszystkich ludzi i zwierząt, dźwiganej masy oraz trudności poruszania się po terenie.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
-  <AnimalsWillBeAbleToGraze>TODO</AnimalsWillBeAbleToGraze>
+  <AnimalsWillBeAbleToGraze>Zwierzęta będą mogły się wypasać</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
-  <AnimalsCanGraze>TODO</AnimalsCanGraze>
+  <AnimalsCanGraze>Możliwość wypasu zwierząt</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>TODO</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(przez jeszcze {0} dni)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
   <PossibleToGrazeForever>(bez końca)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>TODO</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(zbyt zimno przez jeszcze {0} dni)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
-  <TotalNutrition>TODO</TotalNutrition>
+  <TotalNutrition>Całkowita wartość odżywcza</TotalNutrition>
   <!-- EN: Not moving -->
-  <CaravanNotMoving>TODO</CaravanNotMoving>
+  <CaravanNotMoving>Stoi</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>TODO</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>Wartość odżywcza zebrana w ciągu dnia</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
   <FactionType>Typ frakcji</FactionType>
   <!-- EN: Total body size -->
@@ -855,12 +855,12 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>TODO</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\n</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>TODO</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>TODO</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wyślesz kapsuły transportowe na puste miejsce. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>
