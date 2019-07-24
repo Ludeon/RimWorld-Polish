@@ -30,7 +30,7 @@
   <Death>Śmierć</Death>
 
   <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>Podczas deszczu nastąpiło zwarcie w {0} i wybuchł pożar.</ShortCircuitRain>
+  <ShortCircuitRain>Podczas deszczu nastąpiło zwarcie w {1_label} i wybuchł pożar.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Odkryto obszar</LetterLabelAreaRevealed>
@@ -54,7 +54,7 @@
   <RecruitFail>{0} nie udało się zrekrutować więźnia {1} ({2} szans).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] to {1} {0}. Jeżeli [PAWN_nameDef] umrze, {0} będzie cierpieć z powodu długotrwałego smutku. Jeżeli jednak uratujesz [PAWN_nameDef], {0} będzie szczęśliwy przez długi czas.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} to {1} {0}. Jeżeli {PAWN_nameDef} umrze, {0} będzie cierpieć z powodu długotrwałego smutku. Jeżeli jednak uratujesz {PAWN_nameDef}, {0} będzie szczęśliwy przez długi czas.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
@@ -70,21 +70,21 @@
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewPartDisease>{PAWN} zachorował od {3}. Ta infekcja jest w {PAWN_possessive} {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
-  <NewDiseaseAnimal>TODO</NewDiseaseAnimal>
+  <NewDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>TODO</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {3} w {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0} był poprzednio częścią twojej frakcji.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{1_labelShort} był poprzednio częścią twojej frakcji.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>{0} ma relacje z twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} ma relacje z twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>Ten obóz zniknie za {0} dni. Jeżeli przegapisz szansę, możesz już nie usłyszeć więcej od {1}.</PrisonerRescueTimeout>
+  <PrisonerRescueTimeout>Ten obóz zniknie za {0} dni. Jeżeli przegapisz szansę, możesz już nie usłyszeć więcej od {PRISONER_labelShort}.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Starożytne niebezpieczeństwo</LetterLabelAncientShrineWarning>
   <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. [PAWN_pronoun] nie wie dlaczego, ale [PAWN_pronoun] podejrzewa, że w tej pradawnej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
+  <AncientShrineWarning>Kiedy {0} zbliża się starożytnej struktury, czuje narastający niepokój. {PAWN_pronoun} nie wie dlaczego, ale {PAWN_pronoun} podejrzewa, że w tej pradawnej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>Natrafiliśmy na {0}!</StruckMineable>
@@ -168,9 +168,9 @@
   <!-- EN: (relationship) -->
   <RelationshipAppendedLetterSuffix>(związek)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] to {1} twojego kolonisty {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} to {1} twojego kolonisty {0}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] to {1} twojego więźnia {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} to {1} twojego więźnia {0}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
@@ -232,7 +232,7 @@
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Uzależnienie: {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\n[PAWN_pronoun] potrzebuje teraz {1}, co jest widoczne w [PAWN_possessive] zakładce potrzeb. [PAWN_pronoun] będzie automatycznie przyjmować narkotyk, aby zaspokoić [PAWN_possessive] potrzebę. Jeśli [PAWN_pronoun] nie zdobędzie {1}, [PAWN_pronoun] będzie na odwyku.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} uzależnił się od {1}.\n\n{PAWN_pronoun} potrzebuje teraz {1}, co jest widoczne w {PAWN_possessive} zakładce potrzeb. {PAWN_pronoun} będzie automatycznie przyjmować narkotyk, aby zaspokoić {PAWN_possessive} potrzebę. Jeśli {PAWN_pronoun} nie zdobędzie {1}, {PAWN_pronoun} będzie na odwyku.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -387,28 +387,5 @@
   <LetterLabelTraitDisease>TODO</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label} zachorował na {1}.</LetterTraitDisease>
-
-  <!-- UNUSED -->
-  <RelationsBrokenDown>Relacje z {0} uległy pogorszeniu. Od teraz są wrogo nastawieni.</RelationsBrokenDown>
-  <RelationsWarmed>Relacje z {0} uległy polepszeniu. Od teraz nie są już wrogo nastawieni.</RelationsWarmed>
-  <RelationsBrokenCapture>Ponieważ uwięziłeś {0}, frakcja {1} jest teraz wrogo nastawiona.</RelationsBrokenCapture>
-  <ColonyGoodwill>Reputacja kolonii</ColonyGoodwill>
-  <MentalBreakLetterLabel>Załamanie nerwowe</MentalBreakLetterLabel>
-  <LetterLabelRelationsChangeGood>Życzliwość</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Zła wola</LetterLabelRelationsChangeBad>
-  <LetterLabelBondedAnimalDied>Śmierć przywiązanego zwierzaka</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0} - przywiązany do {1}, umarł. Pogorszy to samopoczucie {1}.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{0} o imieniu {1}, przywiązany do {2} umarł. Pogorszy to samopoczucie {2}.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} umarł. Pogorszy to samopoczucie następujących osób:\n\n{1}.</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0} o imieniu {1} umarł. Pogorszy to samopoczucie następujących osób:\n\n{2}.</LetterNamedBondedAnimalDiedMulti>
-  <LetterLabelFormedCaravan>Karawana jest już gotowa</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>Twoja karawana została utworzona i czeka na polecenia na mapie świata.</LetterFormedCaravan>
-  <LetterLabelCaravanEnteredAmbushMap>Karawana wpadła w zasadzkę</LetterLabelCaravanEnteredAmbushMap>
-  <LetterCaravanEnteredAmbushMap>{0} zostali napadnięci.</LetterCaravanEnteredAmbushMap>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} przybył do {1} i jest gotowy do rozpoczęcia ataku.\n\nZ powodu twojego wrogiego wejścia, {2} jest teraz twoim wrogiem.</LetterCaravanEnteredEnemyBaseBecameHostile>
-  <LetterLabelPawnsLostDueToMapCountdown>Porzuceni</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Niektóre z twoich zwierząt lub więźniów zostały w dziczy:\n\n{0}.</LetterPawnsLostDueToMapCountdown>
-  <LetterLabelSleepingMechanoids>Śpiące mechanoidy</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>Jest tutaj kilka śpiących wrogich mechanoidów.\n\nMechanoidy mogą, ale nie muszą obudzić się gdy przejdziesz obok nich, więc uważaj.</LetterSleepingMechanoids>
 
 </LanguageData>
