@@ -61,26 +61,26 @@
   <TraderArrival>Statek handlowy przelatuje w okolicy.\n\nZnani są jako {0}. Oni są {1}.</TraderArrival>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>W okolicy podróżuje {0} z frakcji {1}. Nazywa się {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>W okolicy podróżuje {PAWN_title} z frakcji {1}. Nazywa się {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Grupa podróżników z frakcji {0} podróżuje w okolicy.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Gość</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>Kolonię odwiedza {0} z {1}.\n\nNazywa się {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>Kolonię odwiedza {PAWN_titleIndef} z frakcji {1}.\n\nNazywa się {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\nWygląda na to, że posiada {PAWN_pronoun} kilka przedmiotów na handel.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>Wygląda na to, że posiada {PAWN_pronoun} kilka przedmiotów na handel.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\nJest liderem frakcji.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>Jest {PAWN_pronoun} liderem frakcji.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Goście</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>Grupa z {0} odwiedza kolonię.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>Grupa z frakcji {0} odwiedza kolonię.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>\n\nWygląda na to, że posiadają kilka przedmiotów na handel.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>Wygląda na to, że posiadają kilka przedmiotów na handel.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nJeden z gości - {0}, jest liderem frakcji.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Jeden z gości - {1_labelShort}, jest liderem frakcji.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Goście z {0} opuszczają kolonię.</VisitorsLeaving>
 
@@ -113,12 +113,12 @@
   <!-- EN: Psychic drone -->
   <LetterLabelPsychicDrone>Psychiczne brzęczenie</LetterLabelPsychicDrone>
   <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>Każdy kolonista płci {0_gender ? męskiej : żeńskiej} odczuwa ból!\n\nJakaś odległa maszyna nienawiści wytwarza psychiczne brzęczenie w całym tym regionie, z częstotliwością, która tylko wydaje się wpływać tylko na płeć {0_gender ? męską : żeńską}. Przez kilka dni nastrój niektórych kolonistów będzie nieco gorszy</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Każdy(a) {0} odczuwa ból!\n\nJakaś odległa maszyna nienawiści wytwarza psychiczne brzęczenie w całym tym regionie, z częstotliwością, która tylko wydaje się wpływać tylko na tą płeć wśród kolonistów. Przez kilka dni nastrój niektórych kolonistów będzie nieco gorszy</LetterIncidentPsychicDrone>
 
   <!-- EN: Psychic soothe -->
   <LetterLabelPsychicSoothe>Uspokajająca fala</LetterLabelPsychicSoothe>
   <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
-  <LetterIncidentPsychicSoothe>Każdy kolonista płci {0_gender ? męskiej : żeńskiej} uśmiecha się z zadowoleniem.\n\nJakaś odległa maszyna szczęścia emituje potężne psychiczne drgania na cały region w częstotliwości oddziałującej tylko na płeć {0_gender ? męską : żeńską}. Przez kilka dni nastrój niektórych kolonistów będzie nieco lepszy.</LetterIncidentPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Każdy(a) {0} uśmiecha się z zadowoleniem.\n\nJakaś odległa maszyna szczęścia emituje potężne psychiczne drgania na cały region w częstotliwości oddziałującej tylko na tą  płeć wśród kolonistów. Przez kilka dni nastrój niektórych kolonistów będzie nieco lepszy.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <!-- EN: Beavers! -->
@@ -162,15 +162,15 @@
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
-  <LetterLabelTraderCaravanArrival>{0} z frakcji {1}</LetterLabelTraderCaravanArrival>
+  <LetterLabelTraderCaravanArrival>{1} z frakcji {0} </LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
-  <LetterTraderCaravanArrival>Karawana z {0} się zbliża. Są to {1}.\n\nHandlarz zatrzyma się w pobliżu na kilka dni. Możesz go zaatakować, ale to rozzłości jego frakcję!</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Karawana z frakcji {0} zbliża się. Profesja: {1}.\n\nHandlarz zatrzyma się w pobliżu na kilka dni. Możesz go zaatakować, ale to rozzłości jego frakcję!</LetterTraderCaravanArrival>
   
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Żądanie okupu z {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} skontaktowali się z tobą przez radio. Przetrzymują oni jednego z twoich kolonistów {0} dla okupu.\n\nSą gotowi wypuścić [PAWN_objective] z niewoli w zamian za {2} sztuk srebra.</RansomDemand>
+  <RansomDemand>{1} skontaktowali się z tobą przez radio. Przetrzymują oni jednego z twoich kolonistów {0} dla okupu.\n\nSą gotowi wypuścić {PAWN_objective} z niewoli w zamian za {2} sztuk srebra.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Akceptuj</RansomDemand_Accept>
   <!-- EN: Reject -->

@@ -105,7 +105,7 @@
   <!-- EN: Wanderer joins -->
   <WandererJoin.letterLabel>Wędrowiec dołączył</WandererJoin.letterLabel>
   <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>{PAWN_kind} nazywający się {PAWN_nameDef} przybył i dołączył do naszej kolonii. {PAWN_pronoun} jest {PAWN_title}.\n\n[PAWN_pronoun] jest gotów wnieść swój wkład, ale nie odejdzie dobrowolnie. Jeśli nie chcesz {PAWN_nameDef}, możesz wygnać  {PAWN_objective}, sprzedać jako niewolnika lub po prostu zabić. Aczkolwiek, inni koloniści mogą uznać to za niepokojące.
+  <WandererJoin.letterText>{PAWN_kind} o imieniu {PAWN_nameDef} {PAWN_gender ? przybył : przybyła} i {PAWN_gender ? dołączył : dołączyła} do naszej kolonii. Jest to {PAWN_title}.\n\nJest {PAWN_pronoun} gotów wnieść swój wkład, ale nie odejdzie dobrowolnie. Jeśli nie chcesz {PAWN_nameDef}, możesz {PAWN_objective} wygnać, sprzedać jako niewolnika lub po prostu zabić. Aczkolwiek, inni koloniści mogą uznać to za niepokojące.
 </WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
@@ -113,6 +113,6 @@
   <!-- EN: {PAWN_kind} wanders in -->
   <WildManWandersIn.letterLabel>{PAWN_kind} wędruje</WildManWandersIn.letterLabel>
   <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
-  <WildManWandersIn.letterText>Postać żyjąca wśród zwierząt, wędruje przez teren. {PAWN_pronoun} zwie się {0}.\n\nMożesz próbować oswoić lub aresztować {PAWN_objective}.</WildManWandersIn.letterText>
+  <WildManWandersIn.letterText>Postać żyjąca wśród zwierząt, wędruje przez teren. Zwie się {PAWN_pronoun} {0}.\n\nMożesz próbować {PAWN_objective} aresztować lub oswoić}.</WildManWandersIn.letterText>
   
 </LanguageData>
