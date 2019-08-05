@@ -130,13 +130,13 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Uchodźca złapany w {0}</RefugeeChasedTitle>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>{1} zwany {0} wzywa cię z pobliża. Jest goniony przez {2} z {3}.\n\nBłaga cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie ma {4} lat.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na [PAWN_possessive] ogonie.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>{PAWN_titleIndef} zwany {PAWN_nameDef} wzywa cię z pobliża. Jest goniony przez {2} z {3}.\n\nBłaga cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie ma {4} lat, ale teraz nie ma czasu by dowiedzieć się więcej o {PAWN_gender ? nim : niej} więcej.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na {PAWN_possessive} ogonie. Ich grupa jest  złożona z:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Zaoferuj schronienie</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>Zignoruj wiadomość</RefugeeChasedInitial_Reject>
   <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>{0} krzyczy w panice, zanim wyłączasz transmisję.</RefugeeChasedRejected>
+  <RefugeeChasedRejected>{1_labelShort} krzyczy w panice, zanim wyłączasz transmisję.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
@@ -144,9 +144,9 @@
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} - zwierzę oswoiło się.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} - zwierzę oswoiło się i jest teraz oznaczone jako {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} - zwierzę oswoiło się i jest teraz oznaczone jako {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} - zwierzę oswoiło się. Koloniści nadali mu imię: {1}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} - zwierzę oswoiło się. Koloniści nadali mu imię: {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
