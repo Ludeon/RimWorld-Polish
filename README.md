@@ -1,3 +1,6 @@
+# Team
+Używamy discorda do współpracy. Aby nam pomóc kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje i pomoc.
+
 # Polish translation for RimWorld 1.0.
  
 Trwają prace nad tłumaczeniem dla wersji 1.0...  
