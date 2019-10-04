@@ -19,7 +19,8 @@ czapka zimowa (Tuque)
 długi łuk (Bow_Great)  
 długi miecz (LongSword)  
 dozownik pasty odżywczej  
-geoskaner (GroundPenetratingScanner)  
+geoskaner (GroundPenetratingScanner)
+geoskaner planetarny (<!-- EN: long-range mineral scanner -->)
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -58,7 +59,7 @@ ostrze (Shiv)
 oszczep (Pila)  
 pałka (Mace)
 pancerz wspomagany (PowerArmor)  
-pianka gaśnicza (FirefoamPopper)  
+kapsułka z pianą gaśniczą (FirefoamPopper)  
 piec hutniczy  
 piec kuchenny  
 pistolet (Pistol)  
