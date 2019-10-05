@@ -85,7 +85,7 @@
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>{0} - Martwe ciało.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
-  <DeadLabel>{1_label} (nie żyje)</DeadLabel>
+  <DeadLabel>{1_label} {1_gender ? (martwy) : (martwa) : (martwe)}</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>chropowaty {0}</RoughStoneTerrainLabel>
