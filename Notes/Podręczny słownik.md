@@ -14,12 +14,14 @@ wysypisko (DumpingStockpile)
 zespół odstawienny (withdrawal)  
 
 #Przedmioty
+zawalone skały (collapsed rocks)
 browar  
 czapka zimowa (Tuque)  
 długi łuk (Bow_Great)  
 długi miecz (LongSword)  
 dozownik pasty odżywczej  
-geoskaner (GroundPenetratingScanner)  
+geoskaner (GroundPenetratingScanner)
+skaner minerałów dalekiego zasięgu (<!-- EN: long-range mineral scanner -->)
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -58,7 +60,7 @@ ostrze (Shiv)
 oszczep (Pila)  
 pałka (Mace)
 pancerz wspomagany (PowerArmor)  
-pianka gaśnicza (FirefoamPopper)  
+kapsułka z pianą gaśniczą (FirefoamPopper)  
 piec hutniczy  
 piec kuchenny  
 pistolet (Pistol)  
@@ -106,7 +108,9 @@ yayo (Yayo)
 zioło (Smokeleaf)  
 srebro  
 uran  
-żyła złota!  
+żyła złota!
+ul (hive)
+bioluminescencyjny kokon(glow pod)
 
 #Zwierzęta i inne stworzenia
 alfabóbr (alphabeaver)  
