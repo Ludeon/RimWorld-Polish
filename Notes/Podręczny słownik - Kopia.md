@@ -6,8 +6,7 @@ itd. (and so on.)
 Przypisz (Assign)
 Wyznacz (Designate)
 Oznacz (Mark)
-Strefa (Zone)  
-Obszar (Area)  
+Obszar (Area, zone)  
 Miejsce, punkt (Spot)  
 Miejsce (Place)
 Przestrzeń (Space)  
@@ -99,13 +98,14 @@ wyrzutnia zapalająca (IncendiaryLauncher)
 zestaw do szycia  
 
 #Rośliny, substancje, jedzenie
-bloker malarii (MalariBlock)  
-brzeczka (Wort)
+Bloker malarii (MalariBlock)  
+Brzeczka (Wort)
 Sok-go (GoJuice)  
-jadeit (Jade)  
-joint (nie dżoint)  
+Jadeit (Jade)  
+Produkty odzwierzęce (Animal products)
+Blant (Joint)  
 liście psychodeliczne  
-lucyferium (Luciferium)  
+Lucyferium (Luciferium)  
 nanowłókno  
 neutroamina  
 pasza dla zwierząt (Kibble)  
@@ -171,13 +171,14 @@ zając śnieżny (Snowhare)
 Od lewej:  
 Architekt  
 Praca  
-Harmonogram  
-Przydziel  
+Ograniczenia  
+Zachowania  
 Zwierzęta  
+Fauna  
 Badania  
-Frakcje  
 Świat  
 Historia  
+Frakcje  
 Menu  
 
 Uzupełnić tłumaczenie:  
