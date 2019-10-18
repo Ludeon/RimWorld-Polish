@@ -1,14 +1,16 @@
-nowa linijka - dwie spacje
+Nowa linijka = dwie spacje  
+  
 #Ogólne
-insekt (Insect)  
-obszar (Zone)  
-plemię (Tribe)  
-pole uprawne (GrowingZone)  
-rozbitkowie (Outlander)  
-SI (nie AI)  
-składowisko (nie skład! Stockpile)  
-tułacz (Spacer; wrogi tułacz - SpacerHostile)  
-wysypisko (DumpingStockpile)  
+Insekt										<!-- EN: Insect -->  
+Obszar										<!-- EN: Zone -->  
+Plemię										<!-- EN: Tribe -->  
+Pole uprawne								<!-- EN: GgrowingZone -->  
+Rozbitek									<!-- EN: Outlander -->  
+SI											<!-- EN: AI -->  
+Składowisko									<!-- EN: Stockpile -->  
+Wysypisko									<!-- EN: DumpingStockpile -->  
+Tułacz										<!-- EN: Spacer --> 
+Wrogi tułacz								<!-- EN: SpacerHostile -->  
 
 #Stany i czynności
 zespół odstawienny (withdrawal)  
