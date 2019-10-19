@@ -1,8 +1,11 @@
 Nowa linijka = dwie spacje  
 Przetłumaczony (Oryginalny)  
   
-#Ogólne  
+  
+#Zwroty  
 itd. (and so on.)  
+  
+#Ogólne  
 Przypisz (Assign)
 Wyznacz (Designate)
 Oznacz (Mark)
@@ -19,21 +22,26 @@ Rozbitek (Outlander)
 Tułacz (Spacer) 
 Wrogi tułacz (Spacer hostile)  
 Insekt (Insect)  
+Kamuflaż (Stealth) - w przypadku myśliwego
 SI (AI)  
-  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
-  
+Szlachtownik (Slaughterer) -szlachtuje zwierzęta w napadzie gniewu
+
+#Praca i czynność
+Rzeźnik, ćwiartuje, poćwiartowane (Butcher, butchering, butchered)  
+Rzeźnik, ubija, ubite (Slaughterer, slaughtering, slaughtered)  
+
 #Przedmioty  
 Zawalone skały (Collapsed rocks)  
 Browarnia (Brewery)
 Czapka zimowa (Tuque)  
-długi łuk (Bow_Great)  
-długi miecz (LongSword)  
+Długi łuk (Greatbow)  
+Długi miecz (Long sword)  
 dozownik pasty odżywczej  
-geoskaner (GroundPenetratingScanner)
-skaner minerałów dalekiego zasięgu <!-- EN: long-range mineral scanner -->)
+Geoskaner (GroundPenetratingScanner)
+Skaner minerałów dalekiego zasięgu (Long-range mineral scanner)
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -103,7 +111,8 @@ Brzeczka (Wort)
 Sok-go (GoJuice)  
 Jadeit (Jade)  
 Produkty odzwierzęce (Animal products)
-Blant (Joint)  
+Ganja, ganji (Smokeleaf)  
+Joint, jointy (Joint)  
 liście psychodeliczne  
 Lucyferium (Luciferium)  
 nanowłókno  
@@ -118,12 +127,11 @@ sprasowane żelazo
 Superstal (Plasteel)  
 Włosak diabelski (Devilstrand)  
 Yayo (Yayo)  
-Trawka (Smokeleaf)  
 srebro  
 uran  
-żyła złota!
-Gniazdo (hive)
-Świecący kokon (glow pod)
+żyła złota!  
+gniazdo (hive)  
+Świecący kokon (glow pod)  
 
 #Zwierzęta i inne stworzenia
 alfabóbr (alphabeaver)  
@@ -158,7 +166,7 @@ rogaty robal (Spelopede)
 ryś (Lynx)  
 struś (Ostrich)  
 szop pracz (Raccoon)  
-Thrumbo (wielka litera)  
+Thrumbo (wielką literą)  
 warg (warg)  
 wielbłąd (Dromedary)  
 wilk (WolfTimber)  
@@ -167,19 +175,36 @@ wybuchowy szczur (Boomrat)
 zając (Hare)  
 zając śnieżny (Snowhare)  
 
-#Zakładki
+#Przyciski główne
 Od lewej:  
-Architekt  
-Praca  
-Ograniczenia  
-Zachowania  
-Zwierzęta  
-Fauna  
-Badania  
-Świat  
-Historia  
-Frakcje  
+Architekt (Architect)  
+Praca (Work)  
+Ograniczenia (Restrict)  
+Zachowania (Assign - Przydział) "Zachowania" lepiej pasuje według mnie.  
+Zwierzęta (Animals)  
+Fauna (Wildlife)  
+Badania (Research)  
+Świat (World)  
+Historia (History)  
+Frakcje (Factions)  
 Menu  
-
+  
+#Menu Architekta  
+Od lewej do prawej:  
+Polecenia (Orders)  
+Obszary (Zone)  
+Struktura (Structure)  
+Produkcja (Production)  
+Meble (Furniture)  
+Zasilanie (Power)  
+Obrona (Security)  
+Różne (Misc)  
+Podłoga (Floors)  
+Rozrywka (Recreation)  
+Statek (Ship)  
+Temperatura (Temperature)  
+  
+  
+  
 Uzupełnić tłumaczenie:  
 DefInjected/ConceptDef/Concepts_NotedOpportunistic.xml
