@@ -34,6 +34,7 @@ Rzeźnik, ćwiartuje, poćwiartowane (Butcher, butchering, butchered)
 Rzeźnik, ubija, ubite (Slaughterer, slaughtering, slaughtered)  
 
 #Przedmioty  
+Pas aktywnej osłony (Shield belt)  
 Zawalone skały (Collapsed rocks)  
 Browarnia (Brewery)
 Czapka zimowa (Tuque)  
