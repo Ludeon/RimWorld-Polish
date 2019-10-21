@@ -54,7 +54,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Nie można było zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono poza Steam bez pliku steam_appid.txt we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nMożesz grać mimo tego problemu, nie będą dostępne tylko funkcje oraz statystyki Steam.</SteamClientMissing>
+  <SteamClientMissing>Nie można zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono spoza Steam bez pliku "steam_appid.txt" we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nWciąż możesz zagrać, ale statystyki Steam nie zostaną zarejestrowane a funkcje Steam będą niedostępne.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -100,7 +100,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Zapisywanie</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(permanentna śmierć)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Permanentna śmierć)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -108,9 +108,9 @@
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Gra została zapisana w aktualnej wersji i powinna działać bez problemów.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>Stan zapistu gry jest w nierozpoznawalnym formacie i nie będzie działać.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>Stan zapisu gry jest w nierozpoznawalnym formacie i nie będzie działać.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.\n\nSprawdź dziennik błędów aby uzyskać więcej infomacji.</ProblemSavingFile>
+  <ProblemSavingFile>Wystąpił problem podczas zapisywania pliku {0}:\n\n{1}.\n\nSprawdź dziennik błędów aby uzyskać więcej informacji.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Wczytaj mimo to</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -120,19 +120,19 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} uważa, że powinieneś nazwać frakcję. Jaką nazwę jej nadasz?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Wygląda na to, że będziesz tu przez jakiś czas, {0} uważa, że powinieneś nadać swojej frakcji nazwę. Jak powinna nazywać się Twoja frakcja?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Twoja frakcja jest teraz znana jako {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionNameIsInvalid>Nazwa nie jest poprawna.</PlayerFactionNameIsInvalid>
+  <PlayerFactionNameIsInvalid>Ta nazwa jest niepoprawna.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>Ponieważ wygląda na to, że zostaniesz tu przez jakiś czas, {0} uważa, że powinieneś nadać nazwę tej społeczności. Jaką wybierzesz?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} uważa, że powinieneś nadać nazwę dla tej osady. Jak powinna nazywać się ta lokalna osada?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Ta społeczność jest teraz znana jako {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionBaseNameIsInvalid>Nazwa nie jest poprawna.</PlayerFactionBaseNameIsInvalid>
+  <PlayerFactionBaseNameIsInvalid>Ta nazwa jest niepoprawna.</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
@@ -156,7 +156,7 @@
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
-  <VersionMismatch>Różne wersje gry</VersionMismatch>
+  <VersionMismatch>Niezgodność wersji</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
   <SaveGameIncompatibleWarningText>Ten zapis pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego zapisu może powodować błędy i niestabilność.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
@@ -164,7 +164,7 @@
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
   <FileIncompatibleWarning>Ten plik pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego pliku może powodować błędy i niestabilność.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
-  <ModsMismatchWarningTitle>Różne modyfikacje</ModsMismatchWarningTitle>
+  <ModsMismatchWarningTitle>Niezgodność modów</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
   <ModsMismatchWarningText>Ten plik został zapisany z innymi modyfikacjami. Może ale nie musi powodować to problemów, zależy od tego co dana modyfikacja robi.\n\nPlik został zapisany z (w tej kolejności):\n\n{0}\n\nAktualnie używasz tych (w tej kolejności):\n\n{1}</ModsMismatchWarningText>
 
@@ -178,7 +178,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>TODO</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Czy naprawdę chcesz na stałe wyłączyć tryb deweloperski na tym komputerze?.\n\nTa opcja jest dla ludzi, którzy chcą czystych wrażeń, bez pokusy skorzystania z narzędzi deweloperskich w celu zapewnienia sobie przewagi w normalnej rozgrywce.\n\nTryb deweloperski może być ponownie włączony, ale wymaga to ręcznego edytowania plików konfiguracyjnych. Będziesz musiał przeszukać Internet, aby dowiedzieć się jak to zrobić.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -194,7 +194,7 @@
   <!-- EN: Locked -->
   <Locked>Zablokowane</Locked>
   <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU BADAWCZEGO, twoi koloniści nie będą mogli robić badań.\n\nNadal jednak możesz wybierać i przeglądać poszczególne badania.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Zanim nie zostanie wybudowany STÓŁ BADAWCZY, twoi koloniści nie będą mogli przeprowadzać badań.\n\nNadal jednak możesz wybierać i przeglądać poszczególne badania.</ResearchMenuWithoutBench>
   <!-- EN: Research prerequisites -->
   <ResearchPrerequisites>Wstępne wymagania</ResearchPrerequisites>
   <!-- EN: Required research bench -->
@@ -236,11 +236,11 @@
   <!-- EN: Repeat: -->
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <!-- EN: Forever -->
-  <Forever>Ciągle</Forever>
+  <Forever>Bez końca</Forever>
   <!-- EN: Details -->
   <Details>Szczegóły</Details>
   <!-- EN: Ingredient radius -->
-  <IngredientSearchRadius>Obszar składników</IngredientSearchRadius>
+  <IngredientSearchRadius>Zasięg składników</IngredientSearchRadius>
   <!-- EN: Currently have -->
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <!-- EN: Counting -->
@@ -254,7 +254,7 @@
   <!-- EN: Any worker -->
   <AnyWorker>Każdy pracownik</AnyWorker>
   <!-- EN: Unlimited -->
-  <Unlimited>Nieograniczony</Unlimited>
+  <Unlimited>Bez limitu</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości, ponieważ ma on różne lub nieprzewidywalne produkty).</RecipeCannotHaveTargetCount>
@@ -313,13 +313,13 @@
   <!-- EN: Cooldown -->
   <CooldownTime>Czas między atakami</CooldownTime>
   <!-- EN: Fire rate -->
-  <BurstShotFireRate>Szybkostrzelność</BurstShotFireRate>
+  <BurstShotFireRate>Częstotliwość strzałów</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>Zasięg</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>Moc obalająca</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>TODO</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Uderzenia pocisków z tej broni spowodują zachwianie celów, spowalniając ich ruch na kilka sekund. Cele o większym rozmiarze ciała niż siłą mocy obalającej, nie będą narażone na ten efekt.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Szansa bezpośredniego trafienia</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -327,7 +327,7 @@
   <!-- EN: Grows wild -->
   <GrowsWild>Rośnie dziko</GrowsWild>
   <!-- EN: Harvestable -->
-  <Harvestable>Można zbierać</Harvestable>
+  <Harvestable>Możliwość zbioru</Harvestable>
   <!-- EN: Limited lifespan -->
   <LimitedLifespan>Ograniczona żywotność</LimitedLifespan>
   <!-- EN: Growing time -->
@@ -361,7 +361,7 @@
   <!-- EN: Food quality -->
   <FoodQuality>Jakość jedzenia</FoodQuality>
   <!-- EN: Walk speed -->
-  <WalkSpeedProperty>Szybkość chodzenia</WalkSpeedProperty>
+  <WalkSpeedProperty>Prędkość ruchu</WalkSpeedProperty>
   <!-- EN: Min. food quality -->
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <!-- EN: Diet -->
@@ -435,7 +435,7 @@
   <!-- EN: Supports -->
   <Supports>Pomocnicy</Supports>
   <!-- EN: Trap armor penetration -->
-  <TrapArmorPenetration>TODO</TrapArmorPenetration>
+  <TrapArmorPenetration>Penetracja zbroi pułapki</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>Koszt przezbrojenia</RearmCost>
   <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
@@ -487,7 +487,7 @@
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Ma to wpływ na ceny towarów.\n\nRozważ wysłanie zdrowszego negocjatora.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>Handlarz nie ma wystarczającej ilości srebra, żeby ci w pełni zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>Handlarz nie ma wystarczającej ilości srebra, żeby Ci w pełni zapłacić. Czy chcesz kontynuować mimo to?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
   <SortBy>Sortuj według</SortBy>
   <!-- EN: trader type -->
@@ -517,7 +517,7 @@
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
-  <SellableItemsTitle>Przedmioty które kupi ten handlarz</SellableItemsTitle>
+  <SellableItemsTitle>Przedmioty, które kupi ten handlarz</SellableItemsTitle>
   <!-- EN: Creatures -->
   <PawnsTabShort>Stworzenia</PawnsTabShort>
   
@@ -549,7 +549,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Obecna masa i pojemność.\n\nMasa obejmuje wybrane zaopatrzenie karawany i sprzęt kolonistów.\n\nNie będziesz mógł wysłać karawany w podróż, jeśli masa przekroczy pojemność.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>Widoczność określa, jak łatwo można dostrzec twoją karawanę.\n\nPodwaja szansę, że twoja karawana zostanie napadnięta przez wrogów.\n\Widzialność nie wpływa na zdolność znajdowania pożądanych przedmiotów..\n\n Widoczność opiera się na całkowitej wielkości ciała wszystkich ludzi i zwierząt w karawanie.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>Widoczność określa, jak łatwo można dostrzec twoją karawanę.\n\nPodwaja szansę, że Twoja karawana zostanie napadnięta przez wrogów.\n\Widzialność nie wpływa na zdolność znajdowania pożądanych przedmiotów..\n\n Widoczność opiera się na całkowitej wielkości ciała wszystkich ludzi i zwierząt w karawanie.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Racje żywnościowe</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -559,7 +559,7 @@
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Przybliżona liczba dni, w których co najmniej jedna osoba lub zwierzę będzie pozbawiona żywności. Ludzie i odmienne gatunki zwierząt potrzebują różnych rodzajów żywności, więc komuś może zabraknąć pożywienia przed innymi. Ta wartość jest obliczana dokładniej po wybraniu trasy.\n\nZależne od:\n  - Ilości i typu niesionej żywności\n  - Uczestników karawany i ich diety\n  - Intensywności zbiorów\n  - Możliwości wypasu zwierząt\n  - Czasu zanim żywność zgnije\n  - Upalna pogoda przyśpiesza gnicie</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>TODO</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(uwzględniany jest tylko pierwszy punkt trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -585,21 +585,21 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>Liczba dni w ciągu których ten przedmiot zacznie gnić, bazując na średniej temperaturze w regionie.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>TODO</ItemNutritionTip>
+  <ItemNutritionTip>Jak dużo wartości odżywczych dostarcza ten pokarm.\n\nPrzykładowo: dorosła osoba potrzebuje dziennie {0} wartości odżywczej.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>TODO</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>To zwierze może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>TODO</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Wartość odżywcza zebrana w ciągu dnia. Ostateczna wartość zbioru zależy również od obfitości biomu.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
-  <NutritionEatenPerDayTip>TODO</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>Wartość odżywcza jedzona w ciągu dnia. Przykładowo, proste posiłki mają {0} wartości odżywczej.\n\nMożna jeść: {2}\n\nLegenda:\n{1}.</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
-  <MassCarriedSimple>TODO</MassCarriedSimple>
+  <MassCarriedSimple>Tolerowana masa</MassCarriedSimple>
   <!-- EN: Mass capacity -->
-  <MassCapacity>Pojemność</MassCapacity>
+  <MassCapacity>Pojemność masowa</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Masa</Mass>
   <!-- EN: Caravan mass -->
-  <CaravanMass>TODO</CaravanMass>
+  <CaravanMass>Masa karawany</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Masa sprzętu i ubrań</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -613,41 +613,41 @@
   <!-- EN: Prisoners -->
   <PrisonersSection>Więźniowie</PrisonersSection>
   <!-- EN: Capture -->
-  <CaptureSection>TODO</CaptureSection>
+  <CaptureSection>Przechwyć</CaptureSection>
   <!-- EN: Animals -->
   <AnimalsSection>Zwierzęta</AnimalsSection>
   <!-- EN: Choose route -->
-  <ChooseRouteButton>TODO</ChooseRouteButton>
+  <ChooseRouteButton>Wybierz trasę</ChooseRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Porzuć</AbandonButton>
   <!-- EN: Movement speed -->
-  <CaravanMovementSpeed>TODO</CaravanMovementSpeed>
+  <CaravanMovementSpeed>Prędkość ruchu</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>TODO</TilesPerDay>
+  <TilesPerDay>pól/dzień</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>TODO</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>Prędkość ruchu zależy od średniej prędkości wszystkich ludzi i zwierząt, dźwiganej masy oraz trudności poruszania się po terenie.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
-  <AnimalsWillBeAbleToGraze>TODO</AnimalsWillBeAbleToGraze>
+  <AnimalsWillBeAbleToGraze>Zwierzęta będą mogły się wypasać</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
-  <AnimalsCanGraze>TODO</AnimalsCanGraze>
+  <AnimalsCanGraze>Możliwość wypasu zwierząt</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>TODO</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(przez jeszcze {0} dni)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
-  <PossibleToGrazeForever>TODO</PossibleToGrazeForever>
+  <PossibleToGrazeForever>(bez końca)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
-  <CantGrazeBecauseOfBiome>TODO</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>TODO</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(zbyt zimno przez jeszcze {0} dni)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
-  <TotalNutrition>TODO</TotalNutrition>
+  <TotalNutrition>Całkowita wartość odżywcza</TotalNutrition>
   <!-- EN: Not moving -->
-  <CaravanNotMoving>TODO</CaravanNotMoving>
+  <CaravanNotMoving>Stoi</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>TODO</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>Wartość odżywcza zebrana w ciągu dnia</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
-  <FactionType>TODO</FactionType>
+  <FactionType>Typ frakcji</FactionType>
   <!-- EN: Total body size -->
-  <TotalBodySize>TODO</TotalBodySize>
+  <TotalBodySize>Całkowita wielkość ciała</TotalBodySize>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -855,12 +855,12 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>TODO</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\n</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>TODO</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>TODO</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wyślesz kapsuły transportowe na puste miejsce. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>

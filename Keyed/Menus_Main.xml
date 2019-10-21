@@ -29,9 +29,9 @@
   <!-- EN: Credits -->
   <Credits>Autorzy</Credits>
   <!-- EN: Quit to main menu -->
-  <QuitToMainMenu>Wróć do menu</QuitToMainMenu>
+  <QuitToMainMenu>Wyjdź do menu</QuitToMainMenu>
   <!-- EN: Save and quit to menu -->
-  <SaveAndQuitToMainMenu>Zapisz i przejdź do menu</SaveAndQuitToMainMenu>
+  <SaveAndQuitToMainMenu>Zapisz i wyjdź do menu</SaveAndQuitToMainMenu>
   <!-- EN: Quit to OS -->
   <QuitToOS>Wyjdź z gry</QuitToOS>
   <!-- EN: Save and quit to OS -->
@@ -57,7 +57,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>Wszystkie tłumaczenia RimWorld są stworzone przez fanów. To zostało stworzone przez tych znakomitych ochotników:\n\n{0}</TranslationThanks>
+  <TranslationThanks>Wszystkie tłumaczenia RimWorld są stworzone przez fanów.\nTo zostało stworzone przez tych znakomitych ochotników:\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Kliknij poniżej, aby dowiedzieć się więcej (otwiera przeglądarkę internetową).</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -65,7 +65,7 @@
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>TODO</DevBuildWarning>
+  <DevBuildWarning>Uwaga: Jest to niestabilna kompilacja rozwojowa. Oznacza to, że wykonujemy eksperymenty projektowe i prowadzimy rozwój techniczny.\n\nNiektóre rzeczy są tymczasowo umyślnie niezbalansowane. Jest to klasyczna metoda rozwoju, w której posuwamy się daleko poza limity, aby lepiej zrozumieć granice równowagi. Możemy następnie użyć tych informacji, aby zadecydować o końcowym balansie punktów.\n\nPojawią się tu błędy, łącznie z tymi przerywającymi rozgrywkę. Kompatybilność zapisów może ulec uszkodzeniu w każdym momencie.\n\nJeśli godzisz się na to wszystko, dziękujemy za testowanie! Jeśli nie chcesz być obiektem naszych eksperymentów, radzimy zagrać w ostatnią stabilną wersję.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
@@ -147,7 +147,7 @@
   <!-- EN: Workshop page -->
   <WorkshopPage>Strona Warsztatu Steam</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Wyślij na Warsztat Steam</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Wyślij do Warsztatu Steam</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Aktualizuj w Warsztacie Steam</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
@@ -160,13 +160,13 @@
   <Downloading>Pobieranie</Downloading>
   <!-- EN: Source -->
   <Source>Źródło</Source>
-  <!-- EN: For version: {0} -->
+  <!-- EN: For version(s): {0} -->
   <ModTargetVersion>Dla wersji: {0}</ModTargetVersion>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Ta modyfikacja nie była stworzony dla tej wersji gry, może nie działać poprawnie.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Ta modyfikacja została stworzona dla nowszej wersji RimWorld niż obecna, i prawdopodobnie nie będzie działać poprawnie.</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Modyfikacje potrzebują dobrze określonej wersji gry w pliku About.xml. Np. &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Przeciągnij, aby przestawić.</DragToReorder>
@@ -223,15 +223,15 @@
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Proszę wybrać tryb zobowiązania lub wczytywania zapisów.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>Możesz zapisywać i wczytywać grę w dowolnym momencie.\n\nJest to dobry wybór, jeśli nadal uczysz się grać, jeśli pasuje on do twojego stylu gry, jeśli używasz modów, które mogą zepsuć twoją rozgrywkę, lub jeśli zamierzasz samemu "pozorować" tryb zobowiązania.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>Możesz zapisywać i wczytywać grę w dowolnym momencie.\n\nJest to dobry wybór, jeśli nadal uczysz się grać, jeśli pasuje on do Twojego stylu gry, jeśli używasz modów, które mogą zepsuć twoją rozgrywkę lub jeśli zamierzasz samemu "pozorować" tryb zobowiązania.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Możesz zapisać tylko przy wychodzeniu gry.\n\nOd kiedy RimWorld jest generatorem historii, nawet utrata wszystkich oprócz jednej osoby nie jest końcem gry - to część historii. Gra została stworzona, aby umożliwić odzysk po stratach.\n\nOdtwarzanie tych strasznych sytuacji czyni historię zarówno tragedią, jak i triumfem. RimWorld został zaprojektowany właśnie z myślą o takim sposobie rozgrywki.\n\nIstnieje jakiś powód, dla którego Luke Skywalker nie zrezygnował i nie wczytał zapisu, gdy jego rodzina zginęła - utrata i odzysk jest dramatyczna.</PermadeathModeInfo>
   <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Narrator i trudność możne zbyć zmieniony w dowolnym momencie.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Pisarza SI i poziom trudności można zmienić w dowolnym momencie.</CanChangeStorytellerSettingsDuringPlay>
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>Tryb bezlitosny</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>Tryb bezlitosny jest specjalnym trybem gry, w którym każde wyzwanie jest zwiększone na ekstremale poziomy.\n\nTryb bezlitosny odblokowuje się automatycznie po osiągnięciu określonych kamieni milowych. Jednak możesz ją odblokować teraz.\n\nTa opcja jest zalecana tylko, gdy grałeś raz lub dwa na wysokim poziomie trudności i chcesz mieć szanse śmierci, pomimo twoich najlepszych wysiłków.</ConfirmUnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>Tryb bezlitosny jest specjalnym trybem gry, w którym każde wyzwanie jest zwiększone na ekstremale poziomy.\n\nTryb bezlitosny odblokowuje się automatycznie po osiągnięciu określonych kamieni milowych. Jednak możesz ją odblokować teraz.\n\nTa opcja jest zalecana tylko, gdy grałeś raz lub dwa na wysokim poziomie trudności i chcesz mieć szanse śmierci, pomimo Twoich najlepszych wysiłków.</ConfirmUnlockExtremeDifficulty>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -293,7 +293,7 @@
   <!-- EN: Movement difficulty -->
   <MovementDifficulty>Trudność poruszania się</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>Zwierzęta mogą paść się teraz</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>Zwierzęta mogą się teraz wypasać</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Średnia częstotliwość chorób</AverageDiseaseFrequency>
   <!-- EN: per year -->
@@ -345,7 +345,7 @@
   <!-- EN: Pain -->
   <Pain>Ból</Pain>
   <!-- EN: Health -->
-  <Health>Zdrowie</Health>
+  <Health>Stan zdrowia</Health>
   <!-- EN: Relations -->
   <Relations>Relacje</Relations>
   <!-- EN: Team skills -->
@@ -367,7 +367,7 @@
   <!-- EN: Gameplay -->
   <Gameplay>Rozgrywka</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
-  <ConfirmQuit>Czy na pewno chcesz wyjść z gry? Stracisz niezapisany postęp.</ConfirmQuit>
+  <ConfirmQuit>Czy na pewno chcesz opuścić grę? Stracisz niezapisany postęp.</ConfirmQuit>
   <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>Każda postać musi posiadać poprawne imię.</EveryoneNeedsValidName>
   <!-- EN: None of the selected people can do the following jobs -->
@@ -375,7 +375,7 @@
   <!-- EN: Quit -->
   <Quit>Wyjdź</Quit>
   <!-- EN: Ignore -->
-  <Ignore>Zignoruj</Ignore>
+  <Ignore>Ignoruj</Ignore>
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->

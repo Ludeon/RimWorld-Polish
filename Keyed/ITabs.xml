@@ -165,9 +165,9 @@
   <!-- EN: None -->
   <None>Brak</None>
   <!-- EN: Very poor -->
-  <VeryPoor>Bardzo źle</VeryPoor>
+  <VeryPoor>Bardzo złe</VeryPoor>
   <!-- EN: Poor -->
-  <Poor>Źle</Poor>
+  <Poor>Złe</Poor>
   <!-- EN: Weakened -->
   <Weakened>Osłabione</Weakened>
   <!-- EN: OK -->
@@ -183,7 +183,7 @@
   <!-- EN: None -->
   <NoPain>Brak</NoPain>
   <!-- EN: Little -->
-  <LittlePain>Trochę</LittlePain>
+  <LittlePain>Niewielki</LittlePain>
   <!-- EN: Medium -->
   <MediumPain>Średni</MediumPain>
   <!-- EN: Severe -->
@@ -206,21 +206,21 @@
   <!-- EN: (no relationships) -->
   <NoRelationships>(brak relacji)</NoRelationships>
   <!-- EN: Kidnapped -->
-  <Kidnapped>{0_gender ? Porwany : Porwana}</Kidnapped>
+  <Kidnapped>{PAWN_gender ? Porwany : Porwana}</Kidnapped>
   <!-- EN: Missing -->
-  <Missing>{0_gender ? Zaginiony : Zaginiona}</Missing>
+  <Missing>{PAWN_gender ? Zaginiony : Zaginiona}</Missing>
   <!-- EN: Slave -->
-  <Slave>{0_gender ? Niewolnik : Niewolniczka}</Slave>
+  <Slave>{PAWN_gender ? Niewolnik : Niewolniczka}</Slave>
   <!-- EN: Faction leader -->
-  <FactionLeader>{0_gender ? Lider : Liderka} frakcji</FactionLeader>
+  <FactionLeader>{PAWN_gender ? Lider : Liderka} frakcji</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort} - opinia o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
-  <IAmDead>Jestem {0_gender ? martwy : martwa}</IAmDead>
+  <IAmDead>Jestem {PAWN_gender ? martwy : martwa}</IAmDead>
   <!-- EN: I'm a psychopath -->
-  <IAmPsychopath>Jestem {0_gender ? psychopatą : psychopatką}</IAmPsychopath>
+  <IAmPsychopath>Jestem {PAWN_gender ? psychopatą : psychopatką}</IAmPsychopath>
   
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
@@ -282,7 +282,7 @@
   <!-- EN: pack animals -->
   <PackAnimalsCountLower>zapakuj zwierzęta</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
-  <InMentalStateCountLower>{0_gender ? załamany : załamana} psychicznie</InMentalStateCountLower>
+  <InMentalStateCountLower>{PAWN_gender ? załamany : załamana} psychicznie</InMentalStateCountLower>
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
