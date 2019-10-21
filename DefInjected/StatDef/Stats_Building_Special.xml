@@ -9,11 +9,7 @@
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>szybkość otwierania drzwi</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>Prędkość, z jaką otwierają się drzwi.</DoorOpenSpeed.description>
-  
-  <!-- UNUSED -->
-  <EntertainmentStrengthFactor.label>czynnik siły rozrywki</EntertainmentStrengthFactor.label>
-  <EntertainmentStrengthFactor.description>Ilość rozrywki i radości dostarczanej przez przedmiot.</EntertainmentStrengthFactor.description>
+  <DoorOpenSpeed.description>Prędkość, z jaką otwierają się drzwi. Wolne drzwi spowolnią każdego, kto z nich skorzysta.</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
   <ImmunityGainSpeedFactor.label>czynnik zdobywania odporności</ImmunityGainSpeedFactor.label>
@@ -21,9 +17,9 @@
   <ImmunityGainSpeedFactor.description>Prędkość uzyskiwania odporności jest mnożona przez ten czynnik.</ImmunityGainSpeedFactor.description>
   
   <!-- EN: recreation power -->
-  <JoyGainFactor.label>TODO</JoyGainFactor.label>
+  <JoyGainFactor.label>czynnik rekreacji</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
-  <JoyGainFactor.description>TODO</JoyGainFactor.description>
+  <JoyGainFactor.description>Określa, jak efektywnie ten przedmiot zadowoli ludzi i ich zapotrzebowanie na rozrywkę.</JoyGainFactor.description>
   
   <!-- EN: medical tend quality offset -->
   <MedicalTendQualityOffset.label>czynnik efektywności medycznej</MedicalTendQualityOffset.label>
@@ -40,12 +36,12 @@
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>czynnik powodzenia operacji</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>Mnożnik szansy powodzenia operacji przeprowadzonej tutaj. Zależna jest również od operującego oraz użytych leków.</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>Mnożnik szansy powodzenia, gdy zostanie wykonana w tym miejscu. Na szanse powodzenia operacji ma również wpływ wiele innych czynników, w tym zdolność chirurga i zastosowane leki.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>Czystość pokoju</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
-  <TrapMeleeDamage.label>obrażenia pułapek</TrapMeleeDamage.label>
+  <TrapMeleeDamage.label>obrażenia od pułapki</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
   <TrapMeleeDamage.description>Podstawowe obrażenia, jakie może zadać pułapka. Faktyczne obrażenia mogą się różnić.</TrapMeleeDamage.description>
   
@@ -55,9 +51,9 @@
   <TrapSpringChance.description>Szansa, z jaką pułapka się aktywuje, kiedy niczego niespodziewająca się postać na nią nastąpi.</TrapSpringChance.description>
   
   <!-- EN: work efficiency factor -->
-  <WorkTableEfficiencyFactor.label>TODO</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.label>czynnik efektywności pracy</WorkTableEfficiencyFactor.label>
   <!-- EN: Work efficiency is multiplied by this value. -->
-  <WorkTableEfficiencyFactor.description>TODO</WorkTableEfficiencyFactor.description>
+  <WorkTableEfficiencyFactor.description>Efektywność pracy jest mnożona przez tę wartość.</WorkTableEfficiencyFactor.description>
   
   <!-- EN: work speed factor -->
   <WorkTableWorkSpeedFactor.label>czynnik szybkości pracy</WorkTableWorkSpeedFactor.label>
@@ -65,8 +61,8 @@
   <WorkTableWorkSpeedFactor.description>Szybkość, z jaką wykonywana jest praca, jest mnożona przez ten czynnik.</WorkTableWorkSpeedFactor.description>
   
   <!-- EN: work to build -->
-  <WorkToBuild.label>ilość pracy budowlanej</WorkToBuild.label>
+  <WorkToBuild.label>nakład pracy budowlanej</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
-  <WorkToBuild.description>Ilość, jaka jest potrzebna, aby zbudować strukturę, gdy zostaną zgromadzone wszystkie materiały i narzędzia.</WorkToBuild.description>
+  <WorkToBuild.description>Podstawowy nakład pracy wymagany do zbudowania struktury, gdy wszystkie materiały zostaną już zgromadzone.</WorkToBuild.description>
   
 </LanguageData>
