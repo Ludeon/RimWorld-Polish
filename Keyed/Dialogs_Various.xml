@@ -100,7 +100,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Zapisywanie</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(permanentna śmierć)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Permanentna śmierć)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Aktualna wersja to {0}, ale zapis gry pochodzi z wersji {1}. Jest to zupełnie inna wersja.\n\nTen stan zapisu gry prawdopodobnie nie będzie działał.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -120,7 +120,7 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>Wygląda na to, że będziesz tu przez jakiś czas, {0} uważa, że powinieneś nazwać frakcję. Jaką nazwę jej nadasz?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Wygląda na to, że będziesz tu przez jakiś czas, {0} uważa, że powinieneś nadać swojej frakcji nazwę. Jak powinna nazywać się Twoja frakcja?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Twoja frakcja jest teraz znana jako {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -128,7 +128,7 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>Ponieważ wygląda na to, że zostaniesz tu przez jakiś czas, {0} uważa, że powinieneś nadać nazwę tej społeczności. Jaką wybierzesz?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} uważa, że powinieneś nadać nazwę dla tej osady. Jak powinna nazywać się ta lokalna osada?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Ta społeczność jest teraz znana jako {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
@@ -156,7 +156,7 @@
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
-  <VersionMismatch>Różne wersje gry</VersionMismatch>
+  <VersionMismatch>Niezgodność wersji</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
   <SaveGameIncompatibleWarningText>Ten zapis pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego zapisu może powodować błędy i niestabilność.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
@@ -164,7 +164,7 @@
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
   <FileIncompatibleWarning>Ten plik pochodzi z wersji {0}\nAktualnie używasz wersji {1}\n\nWczytanie tego pliku może powodować błędy i niestabilność.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
-  <ModsMismatchWarningTitle>Różne modyfikacje</ModsMismatchWarningTitle>
+  <ModsMismatchWarningTitle>Niezgodność modów</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
   <ModsMismatchWarningText>Ten plik został zapisany z innymi modyfikacjami. Może ale nie musi powodować to problemów, zależy od tego co dana modyfikacja robi.\n\nPlik został zapisany z (w tej kolejności):\n\n{0}\n\nAktualnie używasz tych (w tej kolejności):\n\n{1}</ModsMismatchWarningText>
 
@@ -194,7 +194,7 @@
   <!-- EN: Locked -->
   <Locked>Zablokowane</Locked>
   <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>Zanim nie wybudujesz STOŁU BADAWCZEGO, twoi koloniści nie będą mogli robić badań.\n\nNadal jednak możesz wybierać i przeglądać poszczególne badania.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Zanim nie zostanie wybudowany STÓŁ BADAWCZY, twoi koloniści nie będą mogli przeprowadzać badań.\n\nNadal jednak możesz wybierać i przeglądać poszczególne badania.</ResearchMenuWithoutBench>
   <!-- EN: Research prerequisites -->
   <ResearchPrerequisites>Wstępne wymagania</ResearchPrerequisites>
   <!-- EN: Required research bench -->
@@ -240,7 +240,7 @@
   <!-- EN: Details -->
   <Details>Szczegóły</Details>
   <!-- EN: Ingredient radius -->
-  <IngredientSearchRadius>Obszar składników</IngredientSearchRadius>
+  <IngredientSearchRadius>Zasięg składników</IngredientSearchRadius>
   <!-- EN: Currently have -->
   <CurrentlyHave>Obecnie masz</CurrentlyHave>
   <!-- EN: Counting -->
@@ -254,7 +254,7 @@
   <!-- EN: Any worker -->
   <AnyWorker>Każdy pracownik</AnyWorker>
   <!-- EN: Unlimited -->
-  <Unlimited>Nieograniczony</Unlimited>
+  <Unlimited>Bez limitu</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Dla tego przepisu nie można ustalić docelowej ilości, ponieważ ma on różne lub nieprzewidywalne produkty).</RecipeCannotHaveTargetCount>
@@ -361,7 +361,7 @@
   <!-- EN: Food quality -->
   <FoodQuality>Jakość jedzenia</FoodQuality>
   <!-- EN: Walk speed -->
-  <WalkSpeedProperty>Szybkość chodzenia</WalkSpeedProperty>
+  <WalkSpeedProperty>Prędkość ruchu</WalkSpeedProperty>
   <!-- EN: Min. food quality -->
   <MinFoodQuality>Min. jakość jedzenia</MinFoodQuality>
   <!-- EN: Diet -->
@@ -517,7 +517,7 @@
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
-  <SellableItemsTitle>Przedmioty które kupi ten handlarz</SellableItemsTitle>
+  <SellableItemsTitle>Przedmioty, które kupi ten handlarz</SellableItemsTitle>
   <!-- EN: Creatures -->
   <PawnsTabShort>Stworzenia</PawnsTabShort>
   
@@ -549,7 +549,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Obecna masa i pojemność.\n\nMasa obejmuje wybrane zaopatrzenie karawany i sprzęt kolonistów.\n\nNie będziesz mógł wysłać karawany w podróż, jeśli masa przekroczy pojemność.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>Widoczność określa, jak łatwo można dostrzec twoją karawanę.\n\nPodwaja szansę, że twoja karawana zostanie napadnięta przez wrogów.\n\Widzialność nie wpływa na zdolność znajdowania pożądanych przedmiotów..\n\n Widoczność opiera się na całkowitej wielkości ciała wszystkich ludzi i zwierząt w karawanie.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>Widoczność określa, jak łatwo można dostrzec twoją karawanę.\n\nPodwaja szansę, że Twoja karawana zostanie napadnięta przez wrogów.\n\Widzialność nie wpływa na zdolność znajdowania pożądanych przedmiotów..\n\n Widoczność opiera się na całkowitej wielkości ciała wszystkich ludzi i zwierząt w karawanie.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Racje żywnościowe</DaysWorthOfFood>
   <!-- EN: rot in {0} -->

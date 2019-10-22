@@ -7,7 +7,7 @@
   <!-- EN: {0} from {1} are beginning their assault. -->
   <MessageRaidersBeginningAssault>{0} z frakcji {1} rozpoczynają atak.</MessageRaidersBeginningAssault>
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>{0} z frakcji {1} wykryli ciebie i rozpoczęli atak wcześniej.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>{0} z frakcji {1} wykryli Ciebie i rozpoczęli atak wcześniej.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
   <MessageRaidersKidnapping>{0} z frakcji {1} postanowili porwać kogo się da i odejść.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
@@ -48,7 +48,7 @@
   <MessageBillComplete>Zlecenie gotowe: {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{0} jest w pełni wyleczony.</MessageFullyHealed>
+  <MessageFullyHealed>{1_label} jest w pełni wyleczony.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>Więzień {1_labelShort} ucieka.</MessagePrisonerIsEscaping>
@@ -57,9 +57,9 @@
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} nie może znaleźć amunicji do {GUN_label}.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
-  <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} szans na to, że {ANIMAL_kindBasePlural} zaatakuje gdy się go zrani z dystansu. Szansa jest większa jeśli z bliższa, mniejsza z dobrym skradaniem myśliwego.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} szans na to, że {ANIMAL_kindBasePlural} zaatakują, gdy zrani się je z dystansu. Szansa jest większa jeśli cel jest bliżej, zmniejsza się wraz z umiejętnością kamuflażu myśliwego.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Uwaga: {ANIMAL_kindBasePlural} może zaatakować przy nieudanej próbie oswojenia ({1} szans).</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>Uwaga: {ANIMAL_kindBasePlural} mogą zaatakować przy nieudanej próbie oswojenia ({1} szans).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
@@ -87,7 +87,7 @@
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
   <MessageMustDesignateHaulable>Należy wskazać przedmioty do przetransportowania. Niektóre przedmioty są zawsze transportowane i nie muszą być zaznaczane.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Należy wskazać skały które można kopać.</MessageMustDesignateMineable>
+  <MessageMustDesignateMineable>Należy wskazać skały, które można kopać.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
   <MessageMustDesignateHuntable>Należy wskazać zwierzęta do polowania</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
@@ -124,7 +124,7 @@
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} nie żyje. Przyczyna: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_labelShort} właśnie umarł(a).</PawnDied>
+  <PawnDied>{1_labelShort} właśnie {1_gender ? umarł : umarła}.</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{1_label} może już chodzić.</MessageNoLongerDowned>
@@ -272,7 +272,7 @@
   <MessageCaravanArrivedAtDestination>{0} dotarła w przeznaczone miejsce.</MessageCaravanArrivedAtDestination>
   
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{0} opuściła obszar i stworzył karawanę.</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} opuszcza strefę i tworzy karawanę.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>TODO</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
@@ -283,7 +283,7 @@
   <MessagePermanentWoundHealed>TODO</MessagePermanentWoundHealed>
 
   <!-- EN: {1_labelShort} has joined your group after being rescued! -->
-  <MessageRescueeJoined>Ponieważ [PAWN_objective] ocaliłeś, {0} dołączył do twojej grupy!</MessageRescueeJoined>
+  <MessageRescueeJoined>Ponieważ [PAWN_objective] ocaliłeś, {0} dołączył do Twojej grupy!</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>Niektóre kapsuły transportowe są nieosiągalne.</MessageTransporterUnreachable>
@@ -299,9 +299,9 @@
   <MessageTransportersLoadingProcessStarted>Twoi koloniści załadują teraz wybrane przedmioty do kapsuł transportowych.</MessageTransportersLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
-  <MessageTransportPodsArrived>Przybyły twoje kapsuły transportowe.</MessageTransportPodsArrived>
+  <MessageTransportPodsArrived>Przybyły Twoje kapsuły transportowe.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>Przybyły twoje kapsuły transportowe, ale ponieważ nie było w środku żadnych kolonistów, zawartość została utracona.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>Przybyły Twoje kapsuły transportowe, ale ponieważ nie było w środku żadnych kolonistów, zawartość została utracona.</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Twoje kapsuły transportowe już są na miejscu. Zawartość została dodana do karawany.</MessageTransportPodsArrivedAndAddedToCaravan>
   
@@ -360,7 +360,7 @@
   <MessageCantRemoveWaypointBecauseFirst>Nie możesz usunąć tego punktu orientacyjnego.</MessageCantRemoveWaypointBecauseFirst>
   
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Żaden z twoich strażników nie jest zdolny do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Żaden z Twoich strażników nie jest zdolny do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
   <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
   <MessageSiteCountdownBecauseNoMoreEnemies>Pokonałeś wszystkich wrogów. Za {0} karawana zostanie automatycznie zmieniona.</MessageSiteCountdownBecauseNoMoreEnemies>
@@ -531,12 +531,12 @@
   <MessageAmbushVictory>Zwycięstwo! W ciągu {0} karawana automatycznie się przegrupuje. Możesz zrobić to teraz w zakładce Świata.</MessageAmbushVictory>
   <MessageAutomaticallyReformedCaravan>Twoi koloniści przegrupowali karawanę.</MessageAutomaticallyReformedCaravan>
   <MessageOldWoundHealed>Z powodu {0} {2} {1} wyzdrowiał.</MessageOldWoundHealed>
-  <MessageAttackedCaravanIsNowHostile>Ponieważ zaatakowałeś karawanę {0}, frakcja ta jest teraz dla ciebie wroga.</MessageAttackedCaravanIsNowHostile>
+  <MessageAttackedCaravanIsNowHostile>Ponieważ zaatakowałeś karawanę {0}, frakcja ta jest teraz dla Ciebie wroga.</MessageAttackedCaravanIsNowHostile>
   <MessageFactionPawnCrushed>{0} stracił ludzi z powodu zawalenia się dachu. Relacja z frakcją: {1}.</MessageFactionPawnCrushed>
   <MessageFactionPawnLost>{0} stracił {1}. Relacja z frakcją: {2}.</MessageFactionPawnLost>
-  <MessageTransportPodsArrived_BecameHostile>{0} jest teraz twoim wrogiem.</MessageTransportPodsArrived_BecameHostile>
+  <MessageTransportPodsArrived_BecameHostile>{0} jest teraz Twoim wrogiem.</MessageTransportPodsArrived_BecameHostile>
   <MessageFailedToLoadTransportersBecauseColonistLost>Proces załadunku został przerwany, ponieważ zagubiono jednego z kolonistów.</MessageFailedToLoadTransportersBecauseColonistLost>
   <MessageCaravanRunOutOfFood>{0} nie ma już jedzenia ({1}).</MessageCaravanRunOutOfFood>
-  <MessagePrisonerRescued>Uratowałeś [PAWN_nameDef] i [PAWN_pronoun] jest teraz członkiem twojej kolonii.</MessagePrisonerRescued>
+  <MessagePrisonerRescued>Uratowałeś [PAWN_nameDef] i [PAWN_pronoun] jest teraz członkiem Twojej kolonii.</MessagePrisonerRescued>
 
 </LanguageData>
