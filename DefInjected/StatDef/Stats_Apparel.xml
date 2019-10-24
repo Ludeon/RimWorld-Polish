@@ -6,10 +6,6 @@
   <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Blunt.description>Pancerz chroniący przed obrażeniami obuchowymi, zadawanymi przez  maczugi, spadające kamienie lub eksplozje.</ArmorRating_Blunt.description>
   
-  <!-- UNUSED -->
-  <ArmorRating_Electric.label>Pancerz - elektryczność</ArmorRating_Electric.label>
-  <ArmorRating_Electric.description>Pancerz chroniący przed obrażeniami wywołanymi elektrycznością, na przykład EMP.</ArmorRating_Electric.description>
-  
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>Pancerz - ciepło</ArmorRating_Heat.label>
   <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
@@ -35,7 +31,7 @@
   <!-- EN: equip delay -->
   <EquipDelay.label>czas założenia</EquipDelay.label>
   <!-- EN: The time it takes to equip and unequip this item. -->
-  <EquipDelay.description>Czas który upłynie przy zakładaniu lub zdejmowaniu tego przedmiotu.</EquipDelay.description>
+  <EquipDelay.description>Czas, który upłynie przy zakładaniu lub zdejmowaniu tego przedmiotu.</EquipDelay.description>
   <!-- EN: {0} s -->
   <EquipDelay.formatString>{0} sek</EquipDelay.formatString>
   
@@ -47,7 +43,7 @@
   <!-- EN: Insulation - Heat -->
   <Insulation_Heat.label>Izolacja - Ciepło</Insulation_Heat.label>
   <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
-  <Insulation_Heat.description>Określa, o ile zmienia się maksymalna komfortowa temparatura dla noszącego.</Insulation_Heat.description>
+  <Insulation_Heat.description>Określa, o ile zmienia się maksymalna komfortowa temperatura dla noszącego.</Insulation_Heat.description>
   
   <!-- EN: Smokepop belt radius -->
   <SmokepopBeltRadius.label>Promień pasa dymnego</SmokepopBeltRadius.label>
@@ -57,7 +53,7 @@
   <SmokepopBeltRadius.formatString>{0} komórek</SmokepopBeltRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->
-  <StuffEffectMultiplierArmor.label>TODO</StuffEffectMultiplierArmor.label>
+  <StuffEffectMultiplierArmor.label>Pancerz - Mnożnik efektu materialnego</StuffEffectMultiplierArmor.label>
   
   <!-- EN: Insulation - Cold - Material effect multiplier -->
   <StuffEffectMultiplierInsulation_Cold.label>Izolacja - Chłód - Mnożnik efektu materialnego</StuffEffectMultiplierInsulation_Cold.label>
