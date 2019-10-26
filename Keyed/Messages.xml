@@ -79,23 +79,23 @@
   <MessageCriticalAlert>Alarm krytyczny: {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Należy wskazać gotowe do zbierania rośliny.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Należy wyznaczyć gotowe do zbierania rośliny.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Należy wskazać gotowe do wycinania wyrośnięte drzewa.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Należy wyznaczyć gotowe do wycinania wyrośnięte drzewa.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
-  <MessageMustDesignatePlants>Należy wskazać rośliny.</MessageMustDesignatePlants>
+  <MessageMustDesignatePlants>Należy wyznaczyć rośliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Należy wskazać przedmioty do przetransportowania. Niektóre przedmioty są zawsze transportowane i nie muszą być zaznaczane.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>Należy wyznaczyć przedmioty do przetransportowania. Niektóre przedmioty są zawsze transportowane i nie muszą być zaznaczane.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Należy wskazać skały, które można kopać.</MessageMustDesignateMineable>
+  <MessageMustDesignateMineable>Należy wyznaczyć skały, które można kopać.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
-  <MessageMustDesignateHuntable>Należy wskazać zwierzęta do polowania</MessageMustDesignateHuntable>
+  <MessageMustDesignateHuntable>Należy wyznaczyć zwierzęta do polowania</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
-  <MessageMustDesignateTameable>Należy wskazać zwierzęta do oswojenia.</MessageMustDesignateTameable>
+  <MessageMustDesignateTameable>Należy wyznaczyć zwierzęta do oswojenia.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>Należy wskazać porzucone budynki.</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>Należy wyznaczyć porzucone budynki.</MessageMustDesignateClaimable>
   <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>TODO</MessageMustDesignateSmoothableSurface>
+  <MessageMustDesignateSmoothableSurface>Należy wyznaczyć szorstkie kamienne powierzchnie.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Nic nie może usunąć tak grubego dachu.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -105,11 +105,11 @@
   <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>Musisz wyznaczyć oswojone zwierzę, które należy do kolonii.</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
-  <MessageMustDesignateOpenable>Musisz wskazać pełny grób lub pojemnik.</MessageMustDesignateOpenable>
+  <MessageMustDesignateOpenable>Musisz wyznaczyć pełny grób lub pojemnik.</MessageMustDesignateOpenable>
   <!-- EN: Must designate unforbidden items. -->
-  <MessageMustDesignateForbiddable>Musisz wskazać niezabronione przedmioty.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateForbiddable>Musisz wyznaczyć niezabronione przedmioty.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
-  <MessageMustDesignateUnforbiddable>Musisz wskazać zabronione przedmioty.</MessageMustDesignateUnforbiddable>
+  <MessageMustDesignateUnforbiddable>Musisz wyznaczyć zabronione przedmioty.</MessageMustDesignateUnforbiddable>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{0} odmówił aresztowania!</MessageRefusedArrest>
@@ -323,12 +323,12 @@
   <MessageCantBanishLastColonist>Nie można wygnać ostatniego kolonisty.</MessageCantBanishLastColonist>
   
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>Nie można wyposażyć: {0} jest niezdolny do przemocy.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfViolence>Nie można wyposażyć: {1_labelShort} jest niezdolny do przemocy.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: incapable. -->
   <MessageCantEquipIncapableOfManipulation>Nie można wyposażyć: niesprawny.</MessageCantEquipIncapableOfManipulation>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>Ponieważ są związani, zabicie {0} sprawi, że {1} będzie nieszczęśliwy.</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>Ponieważ łączy ich więź, zabicie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie {BONDED_gender ? nieszczęśliwy : nieszczęśliwa}.</MessageSlaughteringBondedAnimal>
   
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>TODO</MessageCaravanRanOutOfFood>
@@ -343,7 +343,7 @@
   <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić ustawienia karawany. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{0} z frakcji {1} atakują twoją {2}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>{0} z frakcji {1} atakują Twoją {2}.</MessageDefendersAttacking>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Aby się wyleczyć, {0} musi być przypisany do pracy jako lekarz.</MessageSelfTendUnsatisfied>
@@ -523,7 +523,7 @@
   <MessageCantShootInMelee>TODO</MessageCantShootInMelee>
 
   <!-- UNUSED -->
-  <MessageMustDesignateSmoothableFloor>Należy wskazać surowe podłoże skalne.</MessageMustDesignateSmoothableFloor>
+  <MessageMustDesignateSmoothableFloor>Należy wyznaczyć surowe podłoże skalne.</MessageMustDesignateSmoothableFloor>
   <MessagePawnExitMapRelationsGain>Ponieważ {0} opuścił mapę zdrowy, relacje z {1} poprawiły się o {2}.</MessagePawnExitMapRelationsGain>
   <MessageFailedToSendCaravanBecausePawnLost>Nie udało się wysłać karawany, ponieważ jeden z kolonistów, więźniów lub zwierząt zagubił się.</MessageFailedToSendCaravanBecausePawnLost>
   <MessageCaravanIsVisitingSettlement>{0} dotarła do {1}.</MessageCaravanIsVisitingSettlement>

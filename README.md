@@ -1,5 +1,8 @@
+# Team
+Używamy discorda do współpracy. Aby nam pomóc lub zgłosić jakiś błąd kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje.
+
 # Polish translation for RimWorld 1.0.
- 
+
 Trwają prace nad tłumaczeniem dla wersji 1.0...  
 
 Pobierz aktualną wersję tłumaczenia:  
@@ -18,7 +21,7 @@ Aktualnie trwa tłumaczenie i weryfikacja po wielkich zmianach po wydaniu wersji
 * Słówka - dotyczy to tego co wyżej, aby powyższe generowane teksty miały sens, słówka z folderu "strings" muszą być poprawne (czasownik to czasownik, przymiotnik to przymiotnik itp, a nie tłumaczone losowo na odwal się)
 * I narazie wszystko inne
 
-# Working crew 
+# Working crew
 * ByJacob  
 * R4nd0m24  
 * VATICANPSYCHO  
