@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Stan psychiczny: Furia</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w furię.\n\nZamierza rozwalać meble w swoim pokoju.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w furię.\n\nZamierza rozwalać przedmioty w swoim pokoju.</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>furia</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} nie ma już napadu furii.</BedroomTantrum.recoveryMessage>
@@ -19,7 +19,7 @@
   <Berserk.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w szał.\n\nZaatakuje każdego kogo zobaczy.</Berserk.beginLetter>
   <Berserk.beginLetterLabel>psychoza</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <Berserk.recoveryMessage>{0} ocknął się z szału.</Berserk.recoveryMessage>
+  <Berserk.recoveryMessage>szał {0} dobiegł końca.</Berserk.recoveryMessage>
   
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>obsesja narkotykowa</Binging_DrugExtreme.label>
@@ -115,14 +115,14 @@
   <SadisticRage.recoveryMessage>{0} nie ma już sadystycznej wściekłości.</SadisticRage.recoveryMessage>
   
   <!-- EN: slaughterer -->
-  <Slaughterer.label>rzeźnik</Slaughterer.label>
+  <Slaughterer.label>Szlachtownik</Slaughterer.label>
   <!-- EN: Mental state: Slaughterer -->
-  <Slaughterer.baseInspectLine>Stan psychiczny: Rzeźnik</Slaughterer.baseInspectLine>
+  <Slaughterer.baseInspectLine>Stan psychiczny: Szlachtownik</Slaughterer.baseInspectLine>
   <!-- EN: {0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} {PAWN_gender ? załamał : załamała} się i zamierza rozładować swoją złość na twoich zwierzętach.</Slaughterer.beginLetter>
-  <Slaughterer.beginLetterLabel>rzeźnik</Slaughterer.beginLetterLabel>
+  <Slaughterer.beginLetter>{0} {PAWN_gender ? załamał : załamała} się psychicznie i zamierza rozładować złość na Twoich zwierzętach.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>Szlachtownik</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
-  <Slaughterer.recoveryMessage>{0} nie ubija już losowych zwierząt.</Slaughterer.recoveryMessage>
+  <Slaughterer.recoveryMessage>{0} nie szlachtuje już losowych zwierząt.</Slaughterer.recoveryMessage>
   
   <!-- EN: tantrum -->
   <Tantrum.label>furia</Tantrum.label>
@@ -156,13 +156,13 @@
   <!-- EN: sitting alone -->
   <Wander_OwnRoom.label>samotność</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
-  <Wander_OwnRoom.baseInspectLine>Stan psychiczny: Ukrycie się w pokoju</Wander_OwnRoom.baseInspectLine>
+  <Wander_OwnRoom.baseInspectLine>Stan psychiczny: Ukrywanie się w pokoju</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.beginLetter>{0} ukrywa się w swoim pokoju.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>ukrycie się w pokoju</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.recoveryMessage>{0} nie ukrywa się już w [PAWN_possessive] pokoju.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.recoveryMessage>{0} nie ukrywa się już w swoim pokoju.</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>psychotyczna wędrówka</Wander_Psychotic.label>
@@ -173,17 +173,17 @@
   <!-- EN: daze -->
   <Wander_Psychotic.beginLetterLabel>oszołomienie</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic.recoveryMessage>{0} już nie wędruje.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.recoveryMessage>{0} już nie wędruje w stanie psychozy.</Wander_Psychotic.recoveryMessage>
   
   <!-- EN: sad wandering -->
-  <Wander_Sad.label>włóczenie się</Wander_Sad.label>
+  <Wander_Sad.label>smutna wędrówka</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
-  <Wander_Sad.baseInspectLine>Stan psychiczny: Włóczenie się</Wander_Sad.baseInspectLine>
+  <Wander_Sad.baseInspectLine>Stan psychiczny: Smutna wędrówka</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} {PAWN_gender ? załamał : załamała} się i włóczy się po okolicy.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} {PAWN_gender ? załamał : załamała} się i włóczy się po okolicy w smutku.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
-  <Wander_Sad.beginLetterLabel>włóczenie się</Wander_Sad.beginLetterLabel>
+  <Wander_Sad.beginLetterLabel>smutne włóczenie się</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
-  <Wander_Sad.recoveryMessage>{0} już się nie włóczy.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.recoveryMessage>{0} już nie wędruje w smutku.</Wander_Sad.recoveryMessage>
   
 </LanguageData>

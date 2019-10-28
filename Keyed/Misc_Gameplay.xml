@@ -31,11 +31,11 @@
   <!-- EN: Unowned -->
   <Unowned>Wolne</Unowned>
   <!-- EN: Dead for {0} -->
-  <DeadTime>Nie żyje od: {0}</DeadTime>
+  <DeadTime>Od śmierci minęło: {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>szybkość ruchu: {0}</WalkSpeed>
+  <WalkSpeed>Prędkość ruchu: {0}</WalkSpeed>
   <!-- EN: fert. -->
-  <FertShort>żyzn.</FertShort>
+  <FertShort>żyzność:</FertShort>
   <!-- EN: dying -->
   <DyingLower>umiera</DyingLower>
   <!-- EN: Filth on feet: -->
@@ -83,7 +83,7 @@
   <!-- EN: Rename animal -->
   <RenameAnimal>Zmień nazwę zwierzęcia</RenameAnimal>
   <!-- EN: Rename colonist -->
-  <RenameColonist>Nadaj przydomek</RenameColonist>
+  <RenameColonist>Zmień nazwę kolonisty</RenameColonist>
   <!-- EN: unknown -->
   <UnknownLower>nieznane</UnknownLower>
   <!-- EN: On -->
@@ -159,13 +159,13 @@
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Brak pożywienia.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Czas, na który wystarczy ci jedzenia: {0} dni</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Pożywienia wystarczy na: {0} dni</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Czas, na który wystarczy ci jedzenia: {0}, zepsuje się za {1} dni</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Pożywienia wystarczy na: {0} (zgnije za {1} dni)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Zatrzymana ponieważ: wszyscy są nieprzytomni.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Zatrzymana ponieważ: Wszyscy są nieprzytomni.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone has a mental break. -->
-  <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: wszyscy są załamani.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: Wszyscy są załamani.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
@@ -299,9 +299,9 @@
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Prędkość przemieszczania się karawany</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>{0_gender ? powalony : powalona}</DownedLower>
+  <DownedLower>powalony(-a)</DownedLower>
   <!-- EN: carried -->
-  <Carried>noszony</Carried>
+  <Carried>noszony(-a)</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>Śred. prędkość ruchu osoby</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
@@ -329,7 +329,7 @@
   <!-- EN: captured by {0} -->
   <capturedBy>schwytany przez {0}</capturedBy>
   <!-- EN: your caravan -->
-  <yourCaravan>twoja karawana</yourCaravan>
+  <yourCaravan>Twoja karawana</yourCaravan>
   <!-- EN: {0} wildness -->
   <CreatureWildness>{0} dzicz</CreatureWildness>
   <!-- EN: {0} trainability -->
@@ -429,11 +429,11 @@
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Nie można rozkazywać niekontrolowanym jednostkom.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{1_labelShort jest niezdolny do przemocy.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} jest niezdolny(-a) do przemocy.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
-  <IsIncapableOfViolenceShort>niezdolny do przemocy</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolenceShort>niezdolność do przemocy</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort} nie został powołany</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} nie jest powołany(-a).</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -465,11 +465,11 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>transportuje {THING_label} do {DESTINATION}.</ReportHaulingTo>
+  <ReportHaulingTo>przenosi {THING_label} do {DESTINATION}.</ReportHaulingTo>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>transportuje {1_label}.</ReportHauling>
+  <ReportHauling>przenosi {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>transportuje.</ReportHaulingUnknown>
+  <ReportHaulingUnknown>przenosi.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
   <ReportSleeping>śpi.</ReportSleeping>
   <!-- EN: resting. -->
@@ -577,25 +577,25 @@
   <!-- EN: Dead -->
   <Dead>Nie żyje</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>{0_gender ? nieprzytomny : nieprzytomna}</Unconscious>
+  <Unconscious>Nieprzytomny(-a)</Unconscious>
   <!-- EN: In shock due to pain -->
   <PainShock>W szoku pourazowym</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>W szoku</PainShockShort>
+  <PainShockShort>Szok bólowy</PainShockShort>
   <!-- EN: Incapacitated -->
-  <Incapacitated>Niepełnosprawny(a)</Incapacitated>
+  <Incapacitated>Obezwładniony(-a)</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>Związany(a) (spowolnienie)</InRestraints>
+  <InRestraints>Związany(-a) (spowolnienie)</InRestraints>
   <!-- EN: Carrying -->
   <Carrying>Niesie</Carrying>
   <!-- EN: Affected by: -->
-  <AffectedBy>Dotknięty(a) przez:</AffectedBy>
+  <AffectedBy>Dotknięty(-a) przez:</AffectedBy>
   <!-- EN: Queued -->
   <Queued>Zakolejkowany</Queued>
   <!-- EN: State -->
   <State>Stan</State>
   <!-- EN: stun -->
-  <StunLower>ogłuszony(a)</StunLower>
+  <StunLower>ogłuszenie</StunLower>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -671,7 +671,7 @@
   <!-- EN: Cannot hit target. -->
   <CannotHit>Nie można trafić w cel.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>Szansa zemsty na cios</ManhunterPerHit>
+  <ManhunterPerHit>Szansa zemsty na trafienie</ManhunterPerHit>
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
@@ -827,7 +827,7 @@
   <!-- EN: Contains -->
   <CasketContains>Zawartość</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Uwaga!\n\n[PAWN_nameDef] jest twoim ostatnim kolonistą! Jak pozwolisz [PAWN_objective] wejść do kapsuły hibernacyjnej, nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
+  <CasketWarning>Uwaga!\n\n{PAWN_nameDef} jest Twoim ostatnim kolonistą! Jak pozwolisz {PAWN_objective} wejść do kapsuły hibernacyjnej, nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -845,7 +845,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Element nie jest jeszcze gotowy</ShipReportNotReady>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury startowej.\n\nOstrzega cię tylko że zajmie to około 15 dni, w tym czasie będzie widoczny dla innych. Przyciągnie to gangi, najeźdźców i łowców nagród. Upewnij się że twoja obrona jest wystarczająca.</HibernateWarning>
+  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury startowej.\n\nOstrzega cię tylko że zajmie to około 15 dni, w tym czasie będzie widoczny dla innych. Przyciągnie to gangi, najeźdźców i łowców nagród. Upewnij się że Twoja obrona jest wystarczająca.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>TODO</HibernateWarningStandalone>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -879,7 +879,7 @@
   <!-- EN: Quality -->
   <Quality>Jakość</Quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>Jakość określa, jak dobrze dany przedmiot został wykonany.</QualityDescription>
+  <QualityDescription>Jakość określa, jak dobrze został wykonany dany przedmiot.</QualityDescription>
   <!-- EN: Quality: {0} -->
   <QualityIs>Jakość: {0}</QualityIs>
 
@@ -903,7 +903,7 @@
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>Statek wystartował! Ci koloniści zdołali uciec:\n\n{0}.\nCi koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
+  <GameOverShipLaunched>Statek wystartował! Następujący koloniści zdołali uciec:\n\n{0}.\nNastępujący koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniając tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało ci się przetrwać.</GameOverPlanetkillerImpact>
   <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->

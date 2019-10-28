@@ -30,11 +30,11 @@
   <!-- EN: cannot hit target -->
   <CannotHitTarget>nie można trafić w cel</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} jest {1_gender ? niezdolny : niezdolna} do przemocy</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort} jest niezdolny(-a) do przemocy</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
-  <IncapableOfViolenceLower>{1_gender ? niezdolny : niezdolna} do przemocy</IncapableOfViolenceLower>
+  <IncapableOfViolenceLower>niezdolność do przemocy</IncapableOfViolenceLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} nie jest {1_gender ? powołany : powołana}</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} nie jest powołany(-a)</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -81,7 +81,7 @@
   <!-- EN: no food -->
   <NoFood>brak jedzenia</NoFood>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>umiejętność zwierzęca zbyt niska - potrzeba {0}</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>umiejętność zwierzęca jest zbyt niska - wymagana {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
   <CantInteractAnimalDowned>zwierzę poległo</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
@@ -89,7 +89,7 @@
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>zwierzę jest zajęte</CantInteractAnimalBusy>
   <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>umiejętność konstrukcji zbyt niska</ConstructionSkillTooLow>
+  <ConstructionSkillTooLow>umiejętność konstrukcji jest zbyt niska</ConstructionSkillTooLow>
   <!-- EN: need components -->
   <NoComponentsToRepair>wymaga komponentów</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -293,16 +293,16 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Nie można wykonać: {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Nie można wykonać - {0}: {1}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
-  <CannotGenericWorkCustom>Nie można wykonać: {0}</CannotGenericWorkCustom>
+  <CannotGenericWorkCustom>Nie można wykonać - {0}:</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize (incapable of {0}) -->
   <CannotMissingHealthActivities>Nie można prioryzować (niezdolność do: {0}).</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
-  <CannotGenericAlreadyAm>Już prioryzowano: {0} {2_labelShort}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Już prioryzowano {0}: {2_labelShort}</CannotGenericAlreadyAm>
 
   <!-- EN: Cannot prioritize (will never do {0}) -->
   <CannotPrioritizeWorkTypeDisabled>Nie można prioryzować (nigdy nie wykona: {0}).</CannotPrioritizeWorkTypeDisabled>
@@ -313,9 +313,9 @@
   <WillNever>nigdy nie będzie: {0}</WillNever>
 
   <!-- EN: Cannot prioritize (not assigned to {0}) -->
-  <CannotPrioritizeNotAssignedToWorkType>Nie można prioryzować (nie przypisany do: {0}).</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Nie można prioryzować (nie przypisano do: {0}).</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>nie przypisany</NotAssigned>
+  <NotAssigned>nie przypisany(-a)</NotAssigned>
 
   <!-- EN: Cannot prioritize (research is a long-term task) -->
   <CannotPrioritizeResearch>Nie można prioryzować (badania są zadaniem długoterminowym)</CannotPrioritizeResearch>
@@ -329,7 +329,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>Prioryzuj: {0} {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>Prioryzuj {0}: {1}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>Zostaw na skraju</DropAtEdge>
