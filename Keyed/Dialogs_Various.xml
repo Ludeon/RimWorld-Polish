@@ -228,11 +228,11 @@
 
   <!-- Bill config -->
   <!-- EN: Suspended -->
-  <Suspended>Zawieszony</Suspended>
+  <Suspended>Wstrzymany</Suspended>
   <!-- EN: Not suspended -->
-  <NotSuspended>Nie zawieszony</NotSuspended>
+  <NotSuspended>Nie wstrzymany</NotSuspended>
   <!-- EN: SUSPENDED -->
-  <SuspendedAllCaps>ZAWIESZONY</SuspendedAllCaps>
+  <SuspendedAllCaps>PAUZA</SuspendedAllCaps>
   <!-- EN: Repeat: -->
   <RepeatCount>Powtarzaj: {0}</RepeatCount>
   <!-- EN: Forever -->
@@ -263,11 +263,11 @@
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Min. poziom umiejętności:</MinimumSkills>
   <!-- EN: Requires {0} {1} -->
-  <BillRequires>Wymaga {0} {1}</BillRequires>
+  <BillRequires>Wymaga: {1} w liczbie {0} </BillRequires>
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Wymaga {0} wartości odżywczej</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Uwaga: niewielkich składników takich jak złoto potrzeba {0}x więcej.</BillRequiresMayVary>
+  <BillRequiresMayVary>Uwaga: Składników o małej objętości jak złoto potrzeba {0}x więcej.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
   <ThisIsSmallVolume>To niewielki składnik. Oznacza to, że każda jego jednostka odpowiada zaledwie 1/{0} składnika normalnej wielkości. Dlatego też potrzebujesz go {0}x więcej niż innych składników wykorzystywanych do tych samych celów.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
@@ -301,7 +301,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetracja pancerza</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>TODO</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>Penetracja pancerza to wartość, którą ta broń będzie ignorować za każdym razem, gdy trafi w cel.\n\nJeśli penetracja pancerza z tej broni jest większa niż pancerz celu, to tak, jakby cel nie posiadał uzbrojenia.</ArmorPenetrationExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precyzja</Accuracy>
   <!-- EN: Burst shot count -->
@@ -425,9 +425,9 @@
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Jak (średnio) często zwierzę będzie obwąchiwać przyjaznych kolonistów.\n\nObwąchiwanie jest wspólnym zachowaniem wielu gatunków zwierząt, gdzie zwierzę dotyka nosem lub pyskiem swojego przyjaciela jako znak przywiązania. Większość ludzi uważa to za słodkie i poprawi im nastrój na pewien czas.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Szansa zemsty za skrzywdzenie</HarmedRevengeChance>
+  <HarmedRevengeChance>Szansa zemsty za zranienie</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>TODO</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>Szansa, że to stworzenie będzie szukało zemsty, gdy zostanie zranione przez atakującego z dystansu.\n\nWzrasta, gdy atakujący jest bliżej. Jeśli atakujący jest bardzo blisko, szansa zwiększa się trzykrotnie.\n\nJest liczona z każdym otrzymanym obrażeniem, wiec broń która strzela wolniej, ale zadaje duże obrażenia, ma mniejsze prawdopodobieństwo na wywołanie zemsty.\n\nAby zminimalizować to ryzyko, atakuj z dużych odległości wolnostrzelnymi broniami.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Szansa zemsty za nieudane oswojenie</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -831,7 +831,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>TODO</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Niektórzy więźniowie lub zwierzęta próbują dołączyć do tej karawany. Jeśli ją przemieścisz, nie będą już w stanie tego zrobić.\n\nZwierzęta, więźniowie i powaleni koloniści zostawieni na mapie bez żadnych przytomnych kolonistów, zostaną uznani za opuszczonych i mogą zostać schwytani przez wrogów.\n\nCzy na pewno chcesz przemieścić swoją karawanę?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
@@ -851,7 +851,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>TODO</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Ponieważ ta lokacja jest w obrębie {0} komórek od osady innej frakcji, uznają, że wkraczasz na ich ziemie i relacja z tą frakcją będzie ulegać pogorszeniu co {1} dni.\n\nOsiedlić się tu mimo tego?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
