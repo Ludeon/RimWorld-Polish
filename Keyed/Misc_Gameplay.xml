@@ -725,7 +725,7 @@
   <!-- EN: Clear all -->
   <ClearAll>Wyczyść wszystko</ClearAll>
   <!-- EN: Allow all -->
-  <AllowAll>Zezwól na wszystko</AllowAll>
+  <AllowAll>Dopuść wszystko</AllowAll>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -923,11 +923,11 @@
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{1} {0} rośnie.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>{1} {PAWN_labelShort} rośnie.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{1} {0} jest teraz stabilny.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>{1} {PAWN_labelShort} jest teraz stabilny.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{1} {0} jest w stanie remisji.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{1} {PAWN_labelShort} jest w stanie remisji.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
@@ -937,13 +937,13 @@
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>zablokowane</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>zbyt niebezpieczne dla {0}</MarriageSpotDangerous>
+  <MarriageSpotDangerous>zbyt niebezpieczne dla {1_labelShort}</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>zabronione dla {0}</MarriageSpotForbidden>
+  <MarriageSpotForbidden>zakazane dla {1_labelShort}</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>zarezerwowane</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>nieosiągalne dla {0}</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>nieosiągalne dla {1_labelShort}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>w więzieniu</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
@@ -981,7 +981,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>Brak zasobów poniżej.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Zasoby głębokiego odwiertu zostały wyczerpane, odwierty zostały automatycznie zawieszone. Po uzyskaniu pozwolenia na odwiert będzie nadal eksploatowany {0}.</DeepDrillExhausted>
+  <DeepDrillExhausted>Zasoby głębokiego odwiertu zostały wyczerpane, odwierty zostały automatycznie zakazane. Odwołaj zakaz, aby rozpocząć kopanie {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Zasoby głębokiego odwiertu zostały wyczerpane.</DeepDrillExhaustedNoFallback>
 
