@@ -8,7 +8,7 @@
   <!-- EN: Cannot use (solar flare) -->
   <CannotUseSolarFlare>Nie można użyć: (rozbłysk)</CannotUseSolarFlare>
   <!-- EN: Cannot use (no power) -->
-  <CannotUseNoPower>Nie można użyć: (brak prądu)</CannotUseNoPower>
+  <CannotUseNoPower>Nie można użyć: (brak zasilania)</CannotUseNoPower>
   <!-- EN: Cannot use (no path) -->
   <CannotUseNoPath>Nie można użyć: (brak dojścia)</CannotUseNoPath>
   <!-- EN: Cannot use (reserved) -->
@@ -30,11 +30,11 @@
   <!-- EN: cannot hit target -->
   <CannotHitTarget>nie można trafić w cel</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} jest niezdolny(-a) do przemocy</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort} jest {1_gender ? niezdolny : niezdolna} do przemocy</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>niezdolność do przemocy</IncapableOfViolenceLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} nie jest powołany(-a)</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} nie jest {1_gender ? powołany : powołana} do służby</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -59,7 +59,7 @@
   <!-- EN: burning -->
   <BurningLower>płonie</BurningLower>
   <!-- EN: no empty, accessible spot configured to store it -->
-  <NoEmptyPlaceLower>brak wolnego miejsca, w którym można składować</NoEmptyPlaceLower>
+  <NoEmptyPlaceLower>brak wolnego, dostępnego miejsca, w którym można składować</NoEmptyPlaceLower>
   <!-- EN: no stack available to merge into -->
   <NoMergeTarget>nie ma dostępnego stosu do połączenia</NoMergeTarget>
   <!-- EN: already filled enough -->
@@ -67,13 +67,13 @@
   <!-- EN: need material -->
   <MissingMaterials>potrzebny materiał</MissingMaterials>
   <!-- EN: under required skill {0} -->
-  <UnderRequiredSkill>poniżej wymaganej umiejętności</UnderRequiredSkill>
+  <UnderRequiredSkill>poniżej wymaganej umiejętności {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
-  <UnderAllowedSkill>poniżej dozwolonej umiejętności</UnderAllowedSkill>
+  <UnderAllowedSkill>poniżej dozwolonej umiejętności {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
-  <AboveAllowedSkill>powyżej dozwolonej umiejętności</AboveAllowedSkill>
+  <AboveAllowedSkill>powyżej dozwolonej umiejętności {0}</AboveAllowedSkill>
   <!-- EN: missing required skill level -->
-  <MissingRequiredSkillLevel>brakujący wymagany poziom umiejętności </MissingRequiredSkillLevel>
+  <MissingRequiredSkillLevel>brakujący wymagany poziom umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>zbyt częsta interakcja ze zwierzęciem</AnimalInteractedTooRecently>
   <!-- EN: no usable food -->
@@ -293,7 +293,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Nie można wykonać - {0}: {1}</CannotGenericWork>
+  <CannotGenericWork>Nie można wykonać - {0} {1}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Nie można wykonać - {0}:</CannotGenericWorkCustom>
 
@@ -315,7 +315,7 @@
   <!-- EN: Cannot prioritize (not assigned to {0}) -->
   <CannotPrioritizeNotAssignedToWorkType>Nie można prioryzować (nie przypisano do: {0}).</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>nie przypisany(-a)</NotAssigned>
+  <NotAssigned>nie przypisano</NotAssigned>
 
   <!-- EN: Cannot prioritize (research is a long-term task) -->
   <CannotPrioritizeResearch>Nie można prioryzować (badania są zadaniem długoterminowym)</CannotPrioritizeResearch>

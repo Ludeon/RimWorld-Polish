@@ -22,8 +22,9 @@ Rozbitek (Outlander)
 Tułacz (Spacer) 
 Wrogi tułacz (Spacer hostile)  
 Insekt (Insect)  
-Kamuflaż (Stealth) - w przypadku myśliwego
-SI (AI)  
+Kamuflaż (Stealth) - w przypadku myśliwego  
+Odłamek (Chunk)  
+SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
@@ -40,6 +41,7 @@ Browarnia (Brewery)
 Czapka zimowa (Tuque)  
 Długi łuk (Greatbow)  
 Długi miecz (Long sword)  
+Łuk refleksyjny (Recurve Bow)
 dozownik pasty odżywczej  
 Geoskaner (GroundPenetratingScanner)
 Skaner minerałów dalekiego zasięgu (Long-range mineral scanner)
@@ -121,7 +123,7 @@ neutroamina
 pasza dla zwierząt (Kibble)  
 pemikan (Pemmican)  
 pobudzacz (WakeUp)  
-płatki psychitu (Flake)  
+płatki psychitu (Flake)  - myli się z płatkami śniadaniowymi (może jakaś zmiana)
 psychit (Psychite)  
 sprasowana maszyneria
 sprasowane żelazo  
