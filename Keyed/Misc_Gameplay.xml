@@ -5,7 +5,7 @@
   <!-- EN: hit points -->
   <HitPointsBasic>punkty zdrowia</HitPointsBasic>
   <!-- EN: Work left -->
-  <WorkLeft>Pozostała ilość pracy</WorkLeft>
+  <WorkLeft>Pozostały nakład pracy</WorkLeft>
   <!-- EN: Contents -->
   <Contents>Składniki</Contents>
   <!-- EN: Contained resources -->
@@ -33,7 +33,7 @@
   <!-- EN: Dead for {0} -->
   <DeadTime>Od śmierci minęło: {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>Prędkość ruchu: {0}</WalkSpeed>
+  <WalkSpeed>prędkość ruchu: {0}</WalkSpeed>
   <!-- EN: fert. -->
   <FertShort>żyzność:</FertShort>
   <!-- EN: dying -->
@@ -105,7 +105,7 @@
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>potrzeba {0} poziomu {2}, masz {1}</SkillTooLow>
+  <SkillTooLow>wymaga umiejętności '{0}' na poziome {2}, ma {1}</SkillTooLow>
   <!-- EN: Freezing -->
   <Freezing>Zamarzanie</Freezing>
   <!-- EN: Overheating -->
@@ -145,7 +145,7 @@
   <!-- EN: permanent -->
   <Permanent>stały</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>Odpoczywa.</CaravanResting>
+  <CaravanResting>Odpoczywa</CaravanResting>
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>używa 1 śpiwora</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
@@ -155,7 +155,7 @@
   <!-- EN: Estimated days to arrive: {0} -->
   <CaravanEstimatedDaysToDestination>Szacowany dni przyjazdu: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>Unieruchomiona: zbyt duży ciężar.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>Unieruchomiona: Zbyt duży ciężar.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Brak pożywienia.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
@@ -165,7 +165,7 @@
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Zatrzymana ponieważ: Wszyscy są nieprzytomni.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone has a mental break. -->
-  <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: Wszyscy są załamani.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: Wszyscy są psychicznie załamani.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
@@ -185,7 +185,7 @@
   <!-- EN: Waiting. -->
   <CaravanWaiting>Czeka.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>Jest noszony z powodu choroby</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>Jest niesiony(a) z powodu choroby</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
   <UsingBedrollsDueToIllness>Używa śpiworów z powodu choroby</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
@@ -209,7 +209,7 @@
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Oferuje podarunki dla {0}.</CaravanOfferingGifts>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>Skażone przez odzienie zwłok.</WasWornByCorpse>
+  <WasWornByCorpse>Skażone przez bycie założonym na zwłokach.</WasWornByCorpse>
   <!-- EN: T -->
   <WornByCorpseChar>D</WornByCorpseChar>
   <!-- EN: unroofed -->
@@ -227,7 +227,7 @@
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>Piękno</BeautyHere>
+  <BeautyHere>Tutejsze piękno</BeautyHere>
   <!-- EN: No power -->
   <NoPower>Brak prądu</NoPower>
   <!-- EN: Work speed penalty -->
@@ -251,9 +251,9 @@
   <!-- EN: {0} of {1} -->
   <SettlementTrader>{0} z frakcji {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Szansa na powodzenie operacji</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Szansa na powodzenie operacji TODO</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>Szansa na wyleczenie infekcji</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>Szansa na wyleczenie zakażenia TODO</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Zamknięte</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
@@ -429,17 +429,17 @@
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Nie można rozkazywać niekontrolowanym jednostkom.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{1_labelShort} jest niezdolny(-a) do przemocy.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} jest {1_gender ? niezdolny : niezdolna} do przemocy.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>niezdolność do przemocy</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort} nie jest powołany(-a).</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} nie jest {1_gender ? powołany : powołana} do służby.</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
   <SnowNone>Brak śniegu</SnowNone>
   <!-- EN: Snow (dusting) -->
-  <SnowDusting>Śnieg (prószy)</SnowDusting>
+  <SnowDusting>Śnieg (prószący)</SnowDusting>
   <!-- EN: Snow (thin) -->
   <SnowThin>Śnieg (cienki)</SnowThin>
   <!-- EN: Snow (medium) -->
@@ -449,7 +449,7 @@
 
   <!-- Turrets -->
   <!-- EN: Installed -->
-  <GunInstalled>Zainstalowano</GunInstalled>
+  <GunInstalled>Zainstalowana</GunInstalled>
   <!-- EN: Minimum range -->
   <MinimumRange>Min. zasięg</MinimumRange>
   <!-- EN: Can fire in -->
@@ -457,11 +457,11 @@
   <!-- EN: Cannot fire -->
   <CannotFire>Nie może strzelać</CannotFire>
   <!-- EN: roofed -->
-  <Roofed>zadaszony</Roofed>
+  <Roofed>zadaszona</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
   <ShellLoaded>Załadowany pocisk: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
-  <ShellNotLoaded>Niezaładowany</ShellNotLoaded>
+  <ShellNotLoaded>Niezaładowana</ShellNotLoaded>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -577,19 +577,19 @@
   <!-- EN: Dead -->
   <Dead>Nie żyje</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>Nieprzytomny(-a)</Unconscious>
+  <Unconscious>Nieprzytomny</Unconscious>
   <!-- EN: In shock due to pain -->
   <PainShock>W szoku pourazowym</PainShock>
   <!-- EN: Pain shock -->
   <PainShockShort>Szok bólowy</PainShockShort>
   <!-- EN: Incapacitated -->
-  <Incapacitated>Obezwładniony(-a)</Incapacitated>
+  <Incapacitated>Obezwładniony</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>Związany(-a) (spowolnienie)</InRestraints>
+  <InRestraints>Związany (spowolnienie)</InRestraints>
   <!-- EN: Carrying -->
   <Carrying>Niesie</Carrying>
   <!-- EN: Affected by: -->
-  <AffectedBy>Dotknięty(-a) przez:</AffectedBy>
+  <AffectedBy>Dotknięty przez:</AffectedBy>
   <!-- EN: Queued -->
   <Queued>Zakolejkowany</Queued>
   <!-- EN: State -->
@@ -617,7 +617,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Niepodłączone do prądu.</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0}W / {1}Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Potrzebna energia</PowerNeeded>
   <!-- EN: Power output -->
@@ -669,7 +669,7 @@
   <!-- EN: Shot by {1_labelShort} -->
   <ShotBy>Postrzelony przez {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
-  <CannotHit>Nie można trafić w cel.</CannotHit>
+  <CannotHit>Nie można trafić celu.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
   <ManhunterPerHit>Szansa zemsty na trafienie</ManhunterPerHit>
 
@@ -815,9 +815,9 @@
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
-  <WindTurbine_WindPathIsBlockedBy>Zablokowane przez</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedBy>Zablokowana przez</WindTurbine_WindPathIsBlockedBy>
   <!-- EN: Blocked by roof -->
-  <WindTurbine_WindPathIsBlockedByRoof>Zablokowane przez dach</WindTurbine_WindPathIsBlockedByRoof>
+  <WindTurbine_WindPathIsBlockedByRoof>Zablokowana przez dach</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
@@ -845,7 +845,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Element nie jest jeszcze gotowy</ShipReportNotReady>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury startowej.\n\nOstrzega cię tylko że zajmie to około 15 dni, w tym czasie będzie widoczny dla innych. Przyciągnie to gangi, najeźdźców i łowców nagród. Upewnij się że Twoja obrona jest wystarczająca.</HibernateWarning>
+  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury startowej.\n\nOstrzega Cię tylko że zajmie to około 15 dni, w tym czasie będzie widoczny dla innych. Przyciągnie to gangi, najeźdźców i łowców nagród. Upewnij się że Twoja obrona jest wystarczająca.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>TODO</HibernateWarningStandalone>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -903,11 +903,11 @@
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>Statek wystartował! Następujący koloniści zdołali uciec:\n\n{0}.\nNastępujący koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
+  <GameOverShipLaunched>Statek wystartował! Następujący koloniści zdołali uciec:\n\n{0}.\nNastępujący koloniści pozostali na planecie:\n\n{1}.\nSI spróbuje teraz dolecieć statkiem w bezpieczne miejsce. Może Cię zostawić na lepszej planecie w tym systemie albo zabierze na wielowiekową podróż do innego systemu gwiezdnego. Może nawet zadecydować o tym, aby ukryć statek w lodowej asteroidzie na tysiące lat, czekając na lepsze czasy.\n\nDowiesz się, gdy się obudzisz.</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z prędkością światła, uwalniając tryliony bomb wodorowych, które sprawiły, że ten świat rozprysł się na drobne kawałeczki. Część z nich utworzyła mały pas asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy. \n\nNie udało Ci się przetrwać.</GameOverPlanetkillerImpact>
   <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
-  <GameOverArrivedAtJourneyDestination>Jeśli wejdziesz na pokład statku, jego załoga przyjmie cię z otwartymi ramionami. Wydają się zadowoleni, że mogą zabrać jeszcze przynajmniej jedną osobę ze sobą.\n\nNastępujący koloniści uciekli:\n\n{0}.\nNastępujący koloniści zostali opuszczeni:\n\n{1}.\nSI pomoże teraz pokierować statkiem w bezpieczne miejsce. Postara się znaleźć dobrze prosperującą planetę w tym systemie. Może też zabrać cię w tysiącletnią podróż na inną gwiazdę. Może nawet schować się pod lodem asteroidy na kilka wieków, czekając na kogoś, kto stworzy tam nowy glitterworld.\n\nGdy wejdziesz do kapsuły hibernacyjnej, przez chwilę będziesz się wahać i poczujesz niepewnie - w końcu skąd pewność, że powinieneś zaufać tym ludziom?\n\nPrzekonasz się, gdy się obudzisz.</GameOverArrivedAtJourneyDestination>
+  <GameOverArrivedAtJourneyDestination>Jeśli wejdziesz na pokład statku, jego załoga przyjmie Cię z otwartymi ramionami. Wydają się zadowoleni, że mogą zabrać jeszcze przynajmniej jedną osobę ze sobą.\n\nNastępujący koloniści uciekli:\n\n{0}.\nNastępujący koloniści zostali opuszczeni:\n\n{1}.\nSI pomoże teraz pokierować statkiem w bezpieczne miejsce. Postara się znaleźć dobrze prosperującą planetę w tym systemie. Może też zabrać Cię w tysiącletnią podróż na inną gwiazdę. Może nawet schować się pod lodem asteroidy na kilka wieków, czekając na kogoś, kto stworzy tam nowy glitterworld.\n\nGdy wejdziesz do kapsuły hibernacyjnej, przez chwilę będziesz się wahać i poczujesz niepewnie - w końcu skąd pewność, że powinieneś zaufać tym ludziom?\n\nPrzekonasz się, gdy się obudzisz.</GameOverArrivedAtJourneyDestination>
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Graj dalej</GameOverKeepPlaying>
   <!-- EN: Main menu -->
@@ -1019,11 +1019,11 @@
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: powróć do ustawień karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>Przyb. czas podróży: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>Przybl. czas podróży: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>Przyb. czas podróży (od poprzedniego punktu): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>Przybl. czas podróży (od poprzedniego punktu): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>Przyb. czas podróży: {0}</EstimatedTimeToTile>
+  <EstimatedTimeToTile>Przybl. czas podróży: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
   <ForagedFoodAmount>Ilość zbiorów żywności</ForagedFoodAmount>
 
