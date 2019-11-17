@@ -27,7 +27,7 @@
   <!-- EN: Neutral -->
   <Neutral>Neutralna</Neutral>
   <!-- EN: Death -->
-  <Death>Śmierć</Death>
+  <Death>Zgon</Death>
 
   <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
   <ShortCircuitRain>{1_label} narażony na działanie deszczu uległ zwarciu i wybuchł pożar.</ShortCircuitRain>
@@ -66,16 +66,16 @@
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN} zachorował od {1}. Upewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewDisease>
+  <NewDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {1}\n\nUpewnij się, że otrzymuje {PAWN_definite} odpowiednią opiekę oraz spędza w łóżku jak najwięcej czasu.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} zachorował od {3}. Ta infekcja jest w {PAWN_possessive} {1}.\n\nUpewnij się, że {2} otrzymuje odpowiednią opiekę i spędza tyle czasu w łóżku, ile potrzebuje, aby szybko wyzdrowieć.</NewPartDisease>
+  <NewPartDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {3}\n\nPMiejsce zakażenia: {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku najwięcej czasu.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {3} w {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_labelShort} był poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{1_labelShort} {1_gender ? był : była} poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} ma relacje z Twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
@@ -92,26 +92,26 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0}: zemsta</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{0} atakuje po tym, jak został zraniony!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} atakuje po tym, jak został zraniony!</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>{0} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>{1_indefinite} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>Inne zwierzęta z gatunku {0} również będą atakować.</AnimalManhunterOthers>
+  <AnimalManhunterOthers>Inne zwierzęta z gatunku {1_kindBasePlural} również będą atakować.</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{0}: aktywowano pułapkę</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort}: aktywowano pułapkę</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung> {0} przypadkiem aktywował pułapkę i odnosi obrażenia.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung> {1_labelShort} przypadkiem aktywował pułapkę i odnosi obrażenia.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{0} otrzymał stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{0}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{0} otrzymał stan zdrowia: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} otrzymał stan zdrowia: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHediffFromRandomHediffGiverLabel>{0}: {1}</LetterHediffFromRandomHediffGiverLabel>
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
   
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} zmarł: {0}</LetterLeadersDeathLabel>
