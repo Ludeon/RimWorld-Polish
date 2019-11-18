@@ -6,45 +6,48 @@ Przetłumaczony (Oryginalny)
 itd. (and so on.)  
   
 #Ogólne  
-Przypisz (Assign)
-Wyznacz (Designate)
-Oznacz (Mark)
+Przypisz (Assign)  
+Wyznacz (Designate)  
+Oznacz (Mark)  
 Obszar (Area, zone)  
 Miejsce, punkt (Spot)  
-Miejsce (Place)
+Miejsce (Place)  
 Przestrzeń (Space)  
+Surowy, niewygładzony, nieobrobiony, ew. chropowaty (Rough)  
 Kosmiczny uchodźca (Space refugee)  
 Pole uprawne (Growing zone)  
 Składowisko (Stockpile zone)  
 Wysypisko (Dumping stockpile zone)  
 Plemię (Tribe)  
+Podarunek (Gift)  
 Rozbitek (Outlander)  
-Tułacz (Spacer) 
+Tułacz (Spacer)  
 Wrogi tułacz (Spacer hostile)  
 Insekt (Insect)  
 Kamuflaż (Stealth) - w przypadku myśliwego  
 Odłamek (Chunk)  
+ - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
-Szlachtownik (Slaughterer) -szlachtuje zwierzęta w napadzie gniewu
-
-#Praca i czynność
+Szlachtownik (Slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
+  
+#Praca i czynność  
 Rzeźnik, ćwiartuje, poćwiartowane (Butcher, butchering, butchered)  
 Rzeźnik, ubija, ubite (Slaughterer, slaughtering, slaughtered)  
-
+  
 #Przedmioty  
 Pas aktywnej osłony (Shield belt)  
 Zawalone skały (Collapsed rocks)  
-Browarnia (Brewery)
+Browarnia (Brewery)  
 Czapka zimowa (Tuque)  
 Długi łuk (Greatbow)  
 Długi miecz (Long sword)  
-Łuk refleksyjny (Recurve Bow)
+Łuk refleksyjny (Recurve Bow)  
 dozownik pasty odżywczej  
-Geoskaner (GroundPenetratingScanner)
-Skaner minerałów dalekiego zasięgu (Long-range mineral scanner)
+Geoskaner (GroundPenetratingScanner)  
+Skaner minerałów dalekiego zasięgu (Long-range mineral scanner)  
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -77,11 +80,11 @@ multianalizer
 nadajnik handlu orbitalnego (OrbitalTradeBeacon)  
 neurotrener (Neurotrainer)  
 niezasilana lodówka (PassiveCooler)  
-nóż (Knife)
+nóż (Knife)  
 odzież plemienna (TribalA)  
-ostrze (Shiv)
+ostrze (Shiv)  
 oszczep (Pila)  
-pałka (Mace)
+pałka (Mace)  
 pancerz wspomagany (PowerArmor)  
 kapsułka z pianą gaśniczą (FirefoamPopper)  
 piec hutniczy  
@@ -92,7 +95,7 @@ płaszcz (Duster)
 płaszcz zimowy (Parka)  
 podkoszulek (BasicShirt)  
 przetwórnia metalu  
-reaktor antymaterii (ShipReactor)
+reaktor antymaterii (ShipReactor)  
 spodnie (Pants)  
 stół bezglebowy  
 stół do badań  
@@ -107,13 +110,13 @@ tarcze energetyczne (PersonalShields)
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
 zestaw do szycia  
-
-#Rośliny, substancje, jedzenie
+  
+#Rośliny, substancje, jedzenie  
 Bloker malarii (MalariBlock)  
-Brzeczka (Wort)
+Brzeczka (Wort)  
 Sok-go (GoJuice)  
 Jadeit (Jade)  
-Produkty odzwierzęce (Animal products)
+Produkty odzwierzęce (Animal products)  
 Ganja, ganji (Smokeleaf)  
 Joint, jointy (Joint)  
 liście psychodeliczne  
@@ -123,9 +126,9 @@ neutroamina
 pasza dla zwierząt (Kibble)  
 pemikan (Pemmican)  
 pobudzacz (WakeUp)  
-płatki psychitu (Flake)  - myli się z płatkami śniadaniowymi (może jakaś zmiana)
+plasterki psychitu (Flake)
 psychit (Psychite)  
-sprasowana maszyneria
+sprasowana maszyneria  
 sprasowane żelazo  
 Superstal (Plasteel)  
 Włosak diabelski (Devilstrand)  
@@ -135,8 +138,8 @@ uran
 żyła złota!  
 gniazdo (hive)  
 Świecący kokon (glow pod)  
-
-#Zwierzęta i inne stworzenia
+  
+#Zwierzęta i inne stworzenia  
 alfabóbr (alphabeaver)  
 alpaka (Alpaca)  
 bumalopa (Boomalope)  
@@ -177,8 +180,8 @@ wilk polarny (WolfArctic)
 wybuchowy szczur (Boomrat)  
 zając (Hare)  
 zając śnieżny (Snowhare)  
-
-#Przyciski główne
+  
+#Przyciski główne  
 Od lewej:  
 Architekt (Architect)  
 Praca (Work)  

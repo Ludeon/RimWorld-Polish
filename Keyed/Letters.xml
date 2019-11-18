@@ -30,23 +30,23 @@
   <Death>Zgon</Death>
 
   <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>{1_label} narażony na działanie deszczu uległ zwarciu i wybuchł pożar.</ShortCircuitRain>
+  <ShortCircuitRain>{1_label} {1_gender ? narażony : narażona : narażone} na działanie deszczu {1_gender ? uległ : uległa : uległo} zwarciu i {1_gender ? zaczął : zaczęła : zaczęło} się palić.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Odkryto obszar</LetterLabelAreaRevealed>
   <!-- EN: A new area has been revealed. -->
   <AreaRevealed>Odkryto nowy obszar.</AreaRevealed>
   <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
-  <AreaRevealedWithMechanoids>Odkryto nowy obszar - zawiera on pradawne wrogo nastawione mechanoidy.</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>Odkryto nowy obszar. Zawiera on pradawne, wrogo nastawione cyborgi.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
-  <RoofCollapsed>Dach się zawalił, ponieważ był zbyt daleko od podpory.</RoofCollapsed>
+  <RoofCollapsed>Zawalił się dach, ponieważ był zbyt daleko od jakiejkolwiek podpory.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
   <TheseThingsCrushed>Następujące elementy uległy zniszczeniu:</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
   <NothingCrushed>Nic nie zostało zniszczone.</NothingCrushed>
   <!-- EN: Roof collapse -->
-  <LetterLabelRoofCollapsed>Dach się zawalił</LetterLabelRoofCollapsed>
+  <LetterLabelRoofCollapsed>Zawalenie się dachu</LetterLabelRoofCollapsed>
   
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <RecruitSuccess>{0} udało się zrekrutować więźnia {1} ({2} szans).</RecruitSuccess>
@@ -68,7 +68,7 @@
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {1}\n\nUpewnij się, że otrzymuje {PAWN_definite} odpowiednią opiekę oraz spędza w łóżku jak najwięcej czasu.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {3}\n\nPMiejsce zakażenia: {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku najwięcej czasu.</NewPartDisease>
+  <NewPartDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {3}\nMiejsce zakażenia: {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku najwięcej czasu.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
@@ -77,7 +77,7 @@
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{1_labelShort} {1_gender ? był : była} poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} ma relacje z Twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} ma następujące relacje z Twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
   <PrisonerRescueTimeout>Ten obóz zniknie za {0} dni. Jeżeli przegapisz szansę, możesz już nie usłyszeć więcej od {PRISONER_labelShort}.</PrisonerRescueTimeout>
 
@@ -96,12 +96,12 @@
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>{1_indefinite} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>Inne zwierzęta z gatunku {1_kindBasePlural} również będą atakować.</AnimalManhunterOthers>
+  <AnimalManhunterOthers>Inne pobliskie zwierzęta z gatunku {1_kindBasePlural} także są rozwścieczone!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{1_labelShort}: aktywowano pułapkę</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} {1_gender ? oberwał: oberwała} od pułapki</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung> {1_labelShort} przypadkiem aktywował pułapkę i odnosi obrażenia.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{1_labelShort} przypadkiem {1_gender ? aktywował : aktywowała} pułapkę i {1_gender ? odniósł : odniosła} obrażenia.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
   <LetterHealthComplications>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
@@ -114,14 +114,14 @@
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
   
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>{1} zmarł: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>{1} {1_gender ? zmarł : zmarła}: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeadersDeath>{OLDLEADER_nameFull}, {3} z {1} - zmarł.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{OLDLEADER_nameFull}, {3} frakcji {1} - zmarł.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Nowy {1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} nie jest już {3} z {1}.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {3} frakcji {1}.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeaderChanged>
   
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Ostateczny powód to: {0}.</FinalStraw>
@@ -236,9 +236,9 @@
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>Obsesja: {0}</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Nadużycie: {0}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{0} ma obsesję na punkcie {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} nadużywa: {1}.</LetterDrugBinge>
   
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -268,7 +268,7 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Zniszczono siedzibę wroga</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
-  <LetterFactionBaseDefeated>Siedziba {0} została zniszczona.\n\nMasz {1}, aby zabrać przedmioty, zanim twoi koloniści stworzą karawanę.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Siedziba {0} została zniszczona.\n\nMasz {1}, aby zabrać przedmioty, zanim Twoi koloniści stworzą karawanę.</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
   <LetterFactionBaseDefeated_FactionDestroyed>To była ostatnia baza {0}, co oznacza, że frakcja przestała istnieć.</LetterFactionBaseDefeated_FactionDestroyed>
   
@@ -354,7 +354,7 @@
   <!-- EN: Gift from {0} -->
   <LetterLabelVisitorsGaveGift>Podarunek od {0}</LetterLabelVisitorsGaveGift>
   <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
-  <LetterVisitorsGaveGift>{0} z frakcji {PAWN_factionName} zostawił podarunek:\n\n{1}</LetterVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{0} z frakcji {PAWN_factionName} zostawili podarunek:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
