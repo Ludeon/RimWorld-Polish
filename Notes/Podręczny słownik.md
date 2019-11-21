@@ -126,7 +126,7 @@ neutroamina
 pasza dla zwierząt (Kibble)  
 pemikan (Pemmican)  
 pobudzacz (WakeUp)  
-plasterki psychitu (Flake)
+plasterki psychitu (Flake)  
 psychit (Psychite)  
 sprasowana maszyneria  
 sprasowane żelazo  
