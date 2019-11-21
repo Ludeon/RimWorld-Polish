@@ -25,7 +25,7 @@
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Przydzielony kolonista</AssignedColonist>
   <!-- EN: Died on the {0} -->
-  <DiedOn>Umarł na: {0}</DiedOn>
+  <DiedOn>Data zgonu: {0}</DiedOn>
   <!-- EN: Nobody -->
   <Nobody>Nikt</Nobody>
   <!-- EN: Unowned -->
@@ -119,7 +119,7 @@
   <!-- EN: Dormant: Not reproducing. -->
   <DormantHiveNotReproducing>Uśpiony: nie rozmnoży się.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
-  <NextSpawnedItemIn>Następny {0} za</NextSpawnedItemIn>
+  <NextSpawnedItemIn>Kolejny {0} za</NextSpawnedItemIn>
   <!-- EN: Broken down -->
   <BrokenDown>Awaria</BrokenDown>
   <!-- EN: (bond) -->
@@ -185,7 +185,7 @@
   <!-- EN: Waiting. -->
   <CaravanWaiting>Czeka.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>Jest niesiony(a) z powodu choroby</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>Jest niesiony(-a) z powodu choroby</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
   <UsingBedrollsDueToIllness>Używa śpiworów z powodu choroby</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
@@ -251,9 +251,9 @@
   <!-- EN: {0} of {1} -->
   <SettlementTrader>{0} z frakcji {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Szansa na powodzenie operacji TODO</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Mnożnik szansy na powodzenie operacji w tym pokoju</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>Szansa na wyleczenie zakażenia TODO</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>Mnożnik podatności na zakażenie w tym pokoju</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Zamknięte</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
@@ -277,17 +277,17 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + kliknięcie: zaznacz wszystko.\nShift + kliknięcie prawym przyciskiem myszy: odznacz wszystko.</CheckboxShiftClickTip>
   <!-- EN: Known threat: {0} -->
-  <KnownSiteThreat>Zagrożenie: {0}</KnownSiteThreat>
+  <KnownSiteThreat>Znane zagrożenie: {0}</KnownSiteThreat>
   <!-- EN: Known threats: {0} -->
-  <KnownSiteThreats>Zagrożenia: {0}</KnownSiteThreats>
+  <KnownSiteThreats>Znane zagrożenia: {0}</KnownSiteThreats>
   <!-- EN: Threats: Unknown -->
-  <KnownSiteThreatsNone>Zagrożenia: brak</KnownSiteThreatsNone>
+  <KnownSiteThreatsNone>Zagrożenia: Nieznane</KnownSiteThreatsNone>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Wymagane umiejętności</SkillRequirements>
   <!-- EN: Products -->
   <Products>Produkty</Products>
   <!-- EN: {0} of {1} -->
-  <Relationship>{0} z {1}</Relationship>
+  <Relationship>To {0} {1}</Relationship>
   <!-- EN: Prisoner -->
   <Prisoner>Więzień</Prisoner>
   <!-- EN: Refugee -->
@@ -299,9 +299,9 @@
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Prędkość przemieszczania się karawany</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>powalony(-a)</DownedLower>
+  <DownedLower>powalony</DownedLower>
   <!-- EN: carried -->
-  <Carried>noszony(-a)</Carried>
+  <Carried>noszony</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>Śred. prędkość ruchu osoby</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
@@ -399,7 +399,7 @@
   <!-- EN: Construction\nbotched -->
   <TextMote_ConstructionFail>Konstrukcja\nnieudana</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
-  <TextMote_Dodge>Uniknięto</TextMote_Dodge>
+  <TextMote_Dodge>Unik</TextMote_Dodge>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} opatrzone</TextMote_Tended>
   <!-- EN: low mood -->
@@ -765,7 +765,7 @@
   <!-- EN: Toggle day/night lighting system. -->
   <UsePlanetDayNightSystemToggleButton>Przełącz dzienny/nocny system oświetlenia.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>TODO</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Przełącz wyświetlanie rozwijalnych ikon, zamiast zwykłych ikon dla odległych obiektów.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Przełącz widoczność nazw form terenu.</ShowWorldFeaturesToggleButton>
 
@@ -797,9 +797,9 @@
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicę do belki strukturalnej statku.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
-  <MustPlaceNextToHopperAccepter>Należy umieścić obok dozownika pasty odżywczej.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>Musi być umieszczone obok czegoś co wymaga zbiornika.</MustPlaceNextToHopperAccepter>
   <!-- EN: Must be placed directly on a steam geyser. -->
-  <MustPlaceOnSteamGeyser>Należy umieścić dokładnie na gejzerze.</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>Musi być umieszczone bezpośrednio na gejzerze.</MustPlaceOnSteamGeyser>
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
   <MustPlaceCoolerWithFreeSpaces>Strony grzejąca i chłodząca nie mogą być zablokowane.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
@@ -809,9 +809,9 @@
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
   <MustPlaceNearFuelingPort>Musi być umieszczone obok portu paliwowego wyrzutni kapsuł.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>TODO</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>Musi być umieszczone na zasobach możliwych do wiercenia.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
-  <CannotPlaceAdjacentTrap>Nie może być ustawione naprzeciw pułapek.</CannotPlaceAdjacentTrap>
+  <CannotPlaceAdjacentTrap>Nie może być umieszczone obok pułapek.</CannotPlaceAdjacentTrap>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -821,13 +821,13 @@
 
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
-  <Watermill_WaterUsedTwice>TODO</Watermill_WaterUsedTwice>
+  <Watermill_WaterUsedTwice>Zmniejszony przepływ: Turbulencje z innego młyna wodnego</Watermill_WaterUsedTwice>
 
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Zawartość</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Uwaga!\n\n{PAWN_nameDef} jest Twoim ostatnim kolonistą! Jak pozwolisz {PAWN_objective} wejść do kapsuły hibernacyjnej, nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
+  <CasketWarning>Uwaga!\n\n{PAWN_nameDef} jest Twoim ostatnim kolonistą! Jak pozwolisz {PAWN_gender : jemu : jej} wejść do kapsuły hibernacyjnej, nie będziesz mógł kontynuować gry. Na pewno chcesz to zrobić?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -845,17 +845,17 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Element nie jest jeszcze gotowy</ShipReportNotReady>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury startowej.\n\nOstrzega Cię tylko że zajmie to około 15 dni, w tym czasie będzie widoczny dla innych. Przyciągnie to gangi, najeźdźców i łowców nagród. Upewnij się że Twoja obrona jest wystarczająca.</HibernateWarning>
+  <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury odzyskującej hibernację reaktora.\n\nOstrzega, że proces ten zajmie około 15 dni, w tym czasie energia ta będzie wykrywalna z dużej odległości.\n\nRodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie to gangi zdesperowanych najeźdźców oraz roje śmiertelnych cyborgów.\n\nBędziesz atakowany(-a) z intensywnością, jakiej jeszcze nigdy nie widziałeś(-łaś). Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>TODO</HibernateWarningStandalone>
+  <HibernateWarningStandalone>Reaktor jest gotowy do podłączenia.\n\nProces ten zajmie około 15 dni, a sygnatura energetyczna będzie wykrywalna z dużej odległości. Rodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie gangi zdesperowanych najeźdźców oraz roje śmiertelnych cyborgów.\n\nBędziesz atakowany(-a) z intensywnością, jakiej jeszcze nigdy nie widziałeś(-łaś). Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarningStandalone>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>TODO</HibernateWarningPacifist>
+  <HibernateWarningPacifist>Charlon Whitestone jest gotowy do rozpoczęcia procedury odzyskującej hibernację reaktora. Ostrzega, że proces ten zajmie około 15 dni.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>Reaktor statku jest gotowy do uruchomienia. Ten proces potrwa około 15 dni.</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>Reaktor statku jest gotowy do uruchomienia. Proces ten potrwa około 15 dni.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{USER_labelShort} użył {1} neurotrenera, zwiększając poziom umiejętności z {2} na {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{USER_labelShort} użył {1} neurotrenera, przechodząc z poziomu {2} na poziom {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
