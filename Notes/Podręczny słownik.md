@@ -26,7 +26,7 @@ Wrogi tułacz (Spacer hostile)
 Insekt (Insect)  
 Kamuflaż (Stealth) - w przypadku myśliwego  
 Odłamek (Chunk)  
- - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)
+ - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
   
 #Stany i czynności  
