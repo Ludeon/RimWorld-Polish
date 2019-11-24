@@ -95,7 +95,7 @@
   <!-- EN: Recreation type tolerances -->
   <JoyTolerances>Odporność na rozrywkę</JoyTolerances>
   <!-- EN: Milk fullness -->
-  <MilkFullness>Produkcja mleka</MilkFullness>
+  <MilkFullness>Ilość mleka</MilkFullness>
   <!-- EN: Wool growth -->
   <WoolGrowth>Produkcja wełny</WoolGrowth>
   <!-- EN: Egg progress -->
@@ -157,7 +157,7 @@
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Unieruchomiona: Zbyt duży ciężar.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>Brak pożywienia.</CaravanOutOfFood>
+  <CaravanOutOfFood>Wyczerpane zapasy żywności.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>Pożywienia wystarczy na: {0} dni</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
@@ -167,19 +167,19 @@
   <!-- EN: Stopped because: Everyone has a mental break. -->
   <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: Wszyscy są załamani psychicznie.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>{0} - {1}</CaravanColonistsCount>
+  <CaravanColonistsCount>{1}: {0}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>1 zwierzę</CaravanAnimal>
+  <CaravanAnimal>zwierzę: 1</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{0} - zwierząt</CaravanAnimalsCount>
+  <CaravanAnimalsCount>zwierzęta: {0}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>1 więzień</CaravanPrisoner>
+  <CaravanPrisoner>więzień: 1</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0} - więźniów</CaravanPrisonersCount>
+  <CaravanPrisonersCount>więźniowie: {0}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} - załamanych psychicznie</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>załamani psychicznie {0}</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} - powalonych</CaravanPawnsDowned>
+  <CaravanPawnsDowned>powaleni: {0}</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Podróżuje.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -223,7 +223,7 @@
   <!-- EN: {0} until leaving -->
   <ForceExitAndRemoveMapCountdown>{0} do opuszczenia</ForceExitAndRemoveMapCountdown>
   <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie zmienią karawanę i opuszczą ten obszar za {0}.</ForceExitAndRemoveMapCountdownTip>
+  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie przegrupują karawanę i opuszczą ten obszar za {0}.</ForceExitAndRemoveMapCountdownTip>
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
   <!-- EN: Beauty here -->
@@ -251,7 +251,7 @@
   <!-- EN: {0} of {1} -->
   <SettlementTrader>{0} z frakcji {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Mnożnik szansy na powodzenie operacji w tym pokoju</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Mnożnik powodzenia operacji w tym pokoju</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
   <RoomInfectionChanceFactor>Mnożnik podatności na zakażenie w tym pokoju</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
@@ -321,7 +321,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>Wygasa za</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>Karawana {1_labelShort}</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>Karawana ({1_labelShort})</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Powód</Reason>
   <!-- EN: Relations with {0} -->
@@ -343,7 +343,7 @@
   <!-- EN: there may be danger there -->
   <HiddenOrNoSitePartDescription>tam może być niebezpiecznie</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>bryła {0}</PreciousLumpLabel>
+  <PreciousLumpLabel>złoże {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>brak aktywnego projektu badawczego</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
