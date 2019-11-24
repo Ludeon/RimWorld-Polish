@@ -317,7 +317,7 @@
   <MessageTransportPodsDestinationIsTooFar>Każda wyrzutnia będzie potrzebować przynajmniej {0}x chemiopaliwa, aby wysłać kapsuły transportowe tak daleko.</MessageTransportPodsDestinationIsTooFar>
 
   <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>Karawana została zreformowana.</MessageReformedCaravan>
+  <MessageReformedCaravan>Karawana została przegrupowana.</MessageReformedCaravan>
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Nie można wygnać ostatniego kolonisty.</MessageCantBanishLastColonist>
 
@@ -330,7 +330,7 @@
   <MessageSlaughteringBondedAnimal>Ponieważ łączy ich więź, zabicie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie {BONDED_gender ? nieszczęśliwy : nieszczęśliwa}.</MessageSlaughteringBondedAnimal>
 
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
-  <MessageCaravanRanOutOfFood>{0} nie ma już jedzenia ({PAWN_label} jest {PAWN_gender ? głodny : głodna}).</MessageCaravanRanOutOfFood>
+  <MessageCaravanRanOutOfFood>{0} nie ma już jedzenia ({PAWN_labelShort} jest {PAWN_gender ? głodny : głodna}).</MessageCaravanRanOutOfFood>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Aby stworzyć karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
@@ -339,10 +339,10 @@
   <MessageScreenResTooSmallForUIScale>W tej rozdzielczości i przy tym rozmiarze interfejsu gra może nie zmieścić się na ekranie. Zmniejsz rozmiar interfejsu lub zwiększ rozdzielczość.</MessageScreenResTooSmallForUIScale>
 
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić ustawienia karawany. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić przegrupować karawanę. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
 
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>Twoi {2} są atakowani.\nAtakujący są {0} z frakcji {1}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>Twoi {2} są atakowani.\nAtakujący to {0} z frakcji {1}.</MessageDefendersAttacking>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Aby {1_gender ? mógł : mogła} samodzielnie się leczyć, {1_labelShort} musi być {1_gender ? przypisany : przypisana} do pracy jako lekarz.</MessageSelfTendUnsatisfied>
@@ -362,21 +362,21 @@
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Wszyscy Twoi strażnicy są niezdolni do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
 
   <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>Pokonano wszystkich wrogów. Za {0}, karawana zostanie automatycznie zreformowana.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoMoreEnemies>Pokonano wszystkich wrogów. Za {0}, karawana zostanie automatycznie przegrupowana.</MessageSiteCountdownBecauseNoMoreEnemies>
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>Za {0}, karawana zostanie automatycznie zreformowana. Możesz zrobić to teraz na mapie świata.</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>Za {0}, karawana zostanie automatycznie przegrupowana. Możesz zrobić to teraz na mapie świata.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Nie można wygnać {1_labelShort} ponieważ nie może {1_pronoun} chodzić.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} {0_gender ? obudził : obudziła} się.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} obudziły się się.</MessageSleepingPawnsWokenUp>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Wyprodukowany przedmiot: {0}.</MessageCompSpawnerSpawnedItem>
 
   <!-- EN: Health condition healed: {0}. -->
-  <MessageHediffCuredByItem>Polepszony stan zdrowia: {0}.</MessageHediffCuredByItem>
+  <MessageHediffCuredByItem>Stan zdrowia polepszył się: {0}.</MessageHediffCuredByItem>
   <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>Odzyskana część ciała: {0}.</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
@@ -416,13 +416,13 @@
   <MessageRoofIncompatibleWithPlant>Nie można wybudować zadaszenia nad {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>Karawana automatycznie dojedzie do pierwszego punktu trasy.</MessageChoseRoute>
+  <MessageChoseRoute>Karawana automatycznie dotrze do pierwszego punktu.</MessageChoseRoute>
 
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
   <MessageCraftedMasterwork>{WORKER_labelShort stworzył {CRAFTED_labelShort}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'reformuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Przegrupuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Nie możesz teraz opuścić mapy.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 

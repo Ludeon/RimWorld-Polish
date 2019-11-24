@@ -212,7 +212,7 @@
   <!-- EN: bonded animal -->
   <LetterLabelSuffixBondedAnimalDied>związane zwierzę</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>{ANIMAL_definite} było związane z {HUMAN_labelShort}. Wpłynie to na nastrój {HUMAN_labelShort}.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>Zwierzę {ANIMAL_definite} było związane z {HUMAN_labelShort}.\nWpłynie to na {HUMAN_gender ? jego : jej} nastrój.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
   <LetterPartBondedAnimalDiedMulti>Wpłynie to na nastroje następujących osób:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
@@ -244,13 +244,13 @@
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Karawana została zniszczona</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>Wszyscy członkowie Twojej karawany zmarli.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Wszyscy członkowie Twojej {0} zmarli.</LetterAllCaravanColonistsDied>
   
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
-  <LetterLabelCaravanEnteredMap>Karawana dotarła do {0_label}</LetterLabelCaravanEnteredMap>
+  <LetterLabelCaravanEnteredMap>Karawana dotarła do: {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0} dotarła do {1_definite}.</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0} dotarła do: {1_definite}.</LetterCaravanEnteredMap>
   
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
@@ -268,7 +268,7 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Zniszczono bazę</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
-  <LetterFactionBaseDefeated>Baza frakcji {0} została zniszczona.\n\nW {1}, karawana zostanie automatycznie zreformowana. Możesz zrobić to teraz na mapie świata zaznaczając zniszczoną bazę i wybierając opcję "Reformuj karawanę".</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Baza frakcji {0} została zniszczona.\n\nW {1}, karawana zostanie automatycznie przegrupowana. Możesz zrobić to teraz na mapie świata zaznaczając zniszczoną bazę i wybierając opcję "Przegrupuj karawanę".</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
   <LetterFactionBaseDefeated_FactionDestroyed>To była ostatnia baza frakcji {0}, co oznacza, że ta frakcja przestaje już istnieć.</LetterFactionBaseDefeated_FactionDestroyed>
   
@@ -282,13 +282,13 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Znaleziono cenne minerały</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Z pomocą czujnika minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} w pobliżu bryłę ({0}).\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą ją jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Z pomocą czujnika minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} w pobliżu złoże ({0}).\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą ją jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
   <LetterLabelAmbushInExistingMap>Zasadzka</LetterLabelAmbushInExistingMap>
   <!-- EN: Your {0} have been ambushed! -->
-  <LetterAmbushInExistingMap>Twoja {0} wpadła w zasadzkę!</LetterAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Twoi {0} wpadli w zasadzkę!</LetterAmbushInExistingMap>
 
   <!-- Peace talks -->
   <!-- EN: Peace talks disaster -->
@@ -364,15 +364,15 @@
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
-  <LetterLabelCaravansBattlefieldVictory>Wygrana walka karawany</LetterLabelCaravansBattlefieldVictory>
+  <LetterLabelCaravansBattlefieldVictory>Wygrana bitwa karawany</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically. -->
-  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała walkę.\n\nMożesz teraz zreformować karawanę na ekranie świata wybierając pole bitwy i opcję "Reformuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do reformowania karawany może to zrobić natychmiastowo.\n\nW {0}, karawana zreformuje się automatycznie.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała bitwę.\n\nMożesz teraz przegrupować karawanę na ekranie świata wybierając pole bitwy i opcję "Przegrupuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do przegrupowywania karawany może to zrobić natychmiastowo.\n\nW {0}, karawana przegrupuje się automatycznie.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Uratowany dołącza</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Uratowano {PAWN_nameDef} i teraz {PAWN_pronoun} dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez reformowanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji "Reformuj karawanę".</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez przegrupowywanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji 'Przegrupuj karawanę'.</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
