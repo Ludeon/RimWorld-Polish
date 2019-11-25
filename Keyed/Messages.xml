@@ -269,7 +269,7 @@
   <MessageAccidentalOverdose>{INGESTER} przypadkowo {INGESTER_gender ? przedawkował : przedawkowała} podczas przyjmowania {DRUG_labelShort}!</MessageAccidentalOverdose>
 
   <!-- EN: {0} has arrived at its destination. -->
-  <MessageCaravanArrivedAtDestination>{0} dotarła w przeznaczone miejsce.</MessageCaravanArrivedAtDestination>
+  <MessageCaravanArrivedAtDestination>{0} dotarła w wyznaczone miejsce.</MessageCaravanArrivedAtDestination>
 
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} opuszcza strefę i tworzy karawanę.</MessagePawnLeftMapAndCreatedCaravan>
@@ -277,7 +277,7 @@
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Twoje zwierzęta właśnie idą, aby do niej dołączyć.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
 
   <!-- EN: You have successfully settled in a new area. -->
-  <MessageSettledInExistingMap>Skutecznie zasiedliłeś nowy obszar.</MessageSettledInExistingMap>
+  <MessageSettledInExistingMap>Skutecznie osiedlono się na nowym obszarze.</MessageSettledInExistingMap>
 
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort} {2} {PAWN_gender ? wyleczył : wyleczyła} się. Przyczyna: {0}</MessagePermanentWoundHealed>
@@ -317,7 +317,7 @@
   <MessageTransportPodsDestinationIsTooFar>Każda wyrzutnia będzie potrzebować przynajmniej {0}x chemiopaliwa, aby wysłać kapsuły transportowe tak daleko.</MessageTransportPodsDestinationIsTooFar>
 
   <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>Karawana została zreformowana.</MessageReformedCaravan>
+  <MessageReformedCaravan>Karawana została przegrupowana.</MessageReformedCaravan>
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Nie można wygnać ostatniego kolonisty.</MessageCantBanishLastColonist>
 
@@ -330,7 +330,7 @@
   <MessageSlaughteringBondedAnimal>Ponieważ łączy ich więź, zabicie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie {BONDED_gender ? nieszczęśliwy : nieszczęśliwa}.</MessageSlaughteringBondedAnimal>
 
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
-  <MessageCaravanRanOutOfFood>{0} skończyło się jedzenie ({PAWN_label}).</MessageCaravanRanOutOfFood>
+  <MessageCaravanRanOutOfFood>{0} nie ma już jedzenia ({PAWN_labelShort} jest {PAWN_gender ? głodny : głodna}).</MessageCaravanRanOutOfFood>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Aby stworzyć karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
@@ -339,10 +339,10 @@
   <MessageScreenResTooSmallForUIScale>W tej rozdzielczości i przy tym rozmiarze interfejsu gra może nie zmieścić się na ekranie. Zmniejsz rozmiar interfejsu lub zwiększ rozdzielczość.</MessageScreenResTooSmallForUIScale>
 
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić ustawienia karawany. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić przegrupować karawanę. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
 
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{0} z frakcji {1} atakują Twoją {2}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>{0} z frakcji {1} przeprowadzają atak. Celem są Twoi {2}.</MessageDefendersAttacking>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Aby {1_gender ? mógł : mogła} samodzielnie się leczyć, {1_labelShort} musi być {1_gender ? przypisany : przypisana} do pracy jako lekarz.</MessageSelfTendUnsatisfied>
@@ -362,21 +362,21 @@
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Wszyscy Twoi strażnicy są niezdolni do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
 
   <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>Pokonałeś wszystkich wrogów. Za {0} karawana zostanie automatycznie zreformowana.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoMoreEnemies>Pokonano wszystkich wrogów. Za {0}, karawana zostanie automatycznie przegrupowana.</MessageSiteCountdownBecauseNoMoreEnemies>
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>Za {0}, karawana zostanie automatycznie zreformowana. Możesz zrobić to teraz na mapie świata.</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>Za {0}, karawana zostanie automatycznie przegrupowana. Możesz zrobić to teraz na mapie świata.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Nie można wygnać {1_labelShort} ponieważ nie może {1_pronoun} chodzić.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} {0_gender ? obudził : obudziła} się.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} obudziły się się.</MessageSleepingPawnsWokenUp>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Wyprodukowany przedmiot: {0}.</MessageCompSpawnerSpawnedItem>
 
   <!-- EN: Health condition healed: {0}. -->
-  <MessageHediffCuredByItem>Polepszony stan zdrowia: {0}.</MessageHediffCuredByItem>
+  <MessageHediffCuredByItem>Stan zdrowia polepszył się: {0}.</MessageHediffCuredByItem>
   <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>Odzyskana część ciała: {0}.</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
@@ -416,20 +416,20 @@
   <MessageRoofIncompatibleWithPlant>Nie można wybudować zadaszenia nad {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>Karawana automatycznie dojedzie do pierwszego punktu trasy.</MessageChoseRoute>
+  <MessageChoseRoute>Karawana automatycznie dotrze do pierwszego punktu.</MessageChoseRoute>
 
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
   <MessageCraftedMasterwork>{WORKER_labelShort stworzył {CRAFTED_labelShort}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'reformuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Przegrupuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Nie możesz teraz opuścić mapy.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>Relacje z {0} zmieniły się z {1} do {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChanged>Relacje z frakcją {0} zmieniły się z {1} do {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>Relacje z {0} zmieniły się z {1} do {2} ({3}).</MessageGoodwillChangedWithReason>
+  <MessageGoodwillChangedWithReason>Relacje z frakcją {0} zmieniły się z {1} do {2} ({3}).</MessageGoodwillChangedWithReason>
   <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>{1_gender ? zaatakował : zaatakowała} {1_labelShort}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
@@ -451,11 +451,11 @@
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>naturalna tendencja do osiągnięcia {0} z czasem</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} Opuszcza mapę {1_gender ? zdrowy : zdrowa}</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} opuszcza mapę {1_gender ? zdrowy : zdrowa}</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>{1_gender ? miał : miała} tendencję do {1_labelShort}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>otrzymał podarunek</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>otrzymali podarunek</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
   <GoodwillChangedReason_FulfilledTradeRequest>spełnił ofertę handlową</GoodwillChangedReason_FulfilledTradeRequest>
 
@@ -468,9 +468,9 @@
   <MessageCantGiveGiftBecauseCantCarry>Karawana nie może unieść tak dużo. Podarunki ważą {0}, ale karawana może przewieźć tylko {1} więcej.</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
-  <MessageFormedCaravan>{0} została uformowana i może teraz podróżować na mapie świata.</MessageFormedCaravan>
+  <MessageFormedCaravan>{0} została uformowana i jest teraz w trybie podróży na mapie świata.</MessageFormedCaravan>
   <!-- EN: Orders -->
-  <MessageFormedCaravan_Orders>Zadania</MessageFormedCaravan_Orders>
+  <MessageFormedCaravan_Orders>Cele</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
   <MessageBillValidationStoreZoneDeleted>{1} "{0}" nie może już dostarczać do usuniętego składowiska {2}.</MessageBillValidationStoreZoneDeleted>

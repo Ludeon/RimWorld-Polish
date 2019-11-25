@@ -154,11 +154,11 @@
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Brak wolnych kapsuł hibernacyjnych.</NoCryptosleepCasket>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>Brak osiągalnego, nie zarezerwowanego, zabezpieczonego łóżka dla więźniów w bezpieczniej temperaturze.</NoPrisonerBed>
+  <NoPrisonerBed>Brak osiągalnego, wolnego, zabezpieczonego łóżka dla więźniów w bezpieczniej temperaturze.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>Brak osiągalnego, nie zarezerwowanego, normalnego łóżka w bezpiecznej temperaturze.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Brak osiągalnego, wolnego, zwykłego łóżka w bezpiecznej temperaturze.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>Brak osiągalnego, nie zarezerwowanego legowiska dla zwierząt w bezpiecznej temperaturze.</NoAnimalBed>
+  <NoAnimalBed>Brak osiągalnego, wolnego zwierzęcego legowiska w bezpiecznej temperaturze.</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Zarezerwowane przez kogoś innego.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -238,7 +238,7 @@
   <!-- EN: Carry {1_label} and leave the area -->
   <CarryToExit>Nieś: {1_label} i opuść obszar</CarryToExit>
   <!-- EN: Capture {1_label} and leave the area -->
-  <CarryToExitAndCapture>Zdobądź: {1_label} i opuść obszar</CarryToExitAndCapture>
+  <CarryToExitAndCapture>Przechwyć: {1_label} i opuść obszar</CarryToExitAndCapture>
   
   <!-- EN: Strip {1_label} -->
   <Strip>Rozbierz: {1_label}</Strip>
@@ -246,17 +246,17 @@
   <CannotStrip>Nie można rozebrać: {1_label}</CannotStrip>
 
   <!-- EN: Self-destruct here -->
-  <SelfDestructHere>Autodestrukcja tutaj</SelfDestructHere>
+  <SelfDestructHere>Dokonaj samozniszczenia tutaj</SelfDestructHere>
   
   <!-- EN: Drop {1_label} -->
   <Drop>Upuść: {1_label}</Drop>
 
   <!-- EN: Rest until healed -->
-  <UseMedicalBed>Odpoczywaj aż wyzdrowiejesz</UseMedicalBed>
+  <UseMedicalBed>Odpoczywaj, aż wyzdrowiejesz</UseMedicalBed>
   <!-- EN: not injured -->
-  <NotInjured>Nie jesteś ranny</NotInjured>
+  <NotInjured>nie posiada ran</NotInjured>
   <!-- EN: occupied by {0} -->
-  <SomeoneElseSleeping>Zajęte przez: {0}</SomeoneElseSleeping>
+  <SomeoneElseSleeping>zajęte przez: {0}</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
   <TradeWith>Handluj z: {0}</TradeWith>
@@ -269,17 +269,17 @@
   <CannotOpen>Nie można otworzyć: {0_label}</CannotOpen>
   
   <!-- EN: Enter {0} -->
-  <EnterMap>Wejdź do: {0}</EnterMap>
+  <EnterMap>Wejdź do - {0}</EnterMap>
   <!-- EN: Visit {0} -->
-  <VisitSettlement>Odwiedź: {0}</VisitSettlement>
+  <VisitSettlement>Odwiedź - {0}</VisitSettlement>
   <!-- EN: Visit {0} -->
-  <VisitPeaceTalks>Odwiedź: {0}</VisitPeaceTalks>
+  <VisitPeaceTalks>Odwiedź - {0}</VisitPeaceTalks>
   <!-- EN: Visit {0} -->
-  <VisitEscapeShip>Odwiedź: {0}</VisitEscapeShip>
+  <VisitEscapeShip>Odwiedź - {0}</VisitEscapeShip>
   <!-- EN: Attack {0} -->
-  <AttackSettlement>Zaatakuj: {0}</AttackSettlement>
+  <AttackSettlement>Zaatakuj - {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
-  <ApproachSite>Podejdź: {0}</ApproachSite>
+  <ApproachSite>Podejdź - {0}</ApproachSite>
   <!-- EN: Approaching {0} -->
   <ApproachingSite>Podchodzenie {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
@@ -336,9 +336,9 @@
   <!-- EN: Drop in center -->
   <DropInCenter>Zostaw na środku</DropInCenter>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>Zaatakuj {0}: Zostaw na skraju</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Zaatakuj - {0}: Zostaw na skraju</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>Zaatakuj {0}: Zostaw na środku</AttackAndDropInCenter>
+  <AttackAndDropInCenter>Zaatakuj - {0}: Zostaw na środku</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>wymiotuje</VomitingLower>
