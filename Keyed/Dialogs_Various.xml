@@ -146,13 +146,13 @@
   <!-- EN: Name is already in use. -->
   <NameIsInUse>Nazwa jest już w użyciu.</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
-  <ZoneGainsName>Nowa nazwa obszaru to {0}.</ZoneGainsName>
+  <ZoneGainsName>Nowa nazwa obszaru to - {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>Nowy przydomek kolonisty to {0}. {PAWN_possessive} tytuł to {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>Nowy przydomek kolonisty to - {0}. A {PAWN_possessive} tytuł to - {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>Nowe imię zwierzęcia to {0}.</AnimalGainsName>
+  <AnimalGainsName>Nowe imię zwierzęcia to - {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -851,7 +851,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Ponieważ ta lokacja jest w obrębie {0} pól od osady innej frakcji, uznają, że wkraczasz na ich działkę i relacja z tą frakcją będzie ulegać pogorszeniu co {1} dni.\n\nOsiedlić się tu mimo tego?</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Ponieważ ta lokacja jest w obrębie {0} pól od osady innej frakcji, uznają, że naruszasz ich ziemie i relacja z tą frakcją będzie ulegać pogorszeniu co {1} dni.\n\nCzy mimo tego chcesz się tu osiedlić?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
