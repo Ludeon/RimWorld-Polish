@@ -46,7 +46,7 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>Lista modyfikacji została zmieniona. Gra uruchomi się teraz ponownie.</ModsChanged>
+  <ModsChanged>Lista modyfikacji została zmieniona. Gra zostanie teraz uruchomiona ponownie.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
   <FailedToRestart>Coś poszło nie tak podczas restartowania gry. Gra nie może w pełni usunąć zmodyfikowanego kodu z zdezaktywowanych modyfikacji, dlatego zmodyfikowany kod nadal może być aktywny.\n\nZaleca się wyjście i uruchomienie gry ponownie, aby załadować modyfikacje na czysto.</FailedToRestart>
   <!-- EN: Restarting -->
@@ -116,7 +116,7 @@
   <!-- EN: Load mod list from save -->
   <ChangeLoadedMods>Wczytaj zapisaną listę modyfikacji</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>Kilka modyfikacji jest niedostępnych i musi być zainstalowana</MissingMods>
+  <MissingMods>Niektóre modyfikacje są niedostępne i muszą być zainstalowane</MissingMods>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -220,11 +220,11 @@
   <!-- EN: Extreme (test) -->
   <MapSizeExtreme>Ekstremalny (testowy)</MapSizeExtreme>
   <!-- EN: Starting season -->
-  <MapStartSeason>Początkowa pora roku:</MapStartSeason>
+  <MapStartSeason>Pora roku</MapStartSeason>
   <!-- EN: Auto -->
   <MapStartSeasonDefault>Automatyczna</MapStartSeasonDefault>
   <!-- EN: Notice -->
-  <Notice>Ogłoszenie</Notice>
+  <Notice>Wskazówka</Notice>
 
   <!-- Bill config -->
   <!-- EN: Suspended -->
@@ -373,7 +373,7 @@
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Trudność rekrutacji</RecruitDifficulty>
   <!-- EN: Base price -->
-  <MarketValue>Wartość podstawowa</MarketValue>
+  <MarketValue>Cena podstawowa</MarketValue>
   <!-- EN: Covers -->
   <Covers>Osłony</Covers>
   <!-- EN: Layer -->
@@ -389,7 +389,7 @@
   <!-- EN: Wildness -->
   <Wildness>Dzikość</Wildness>
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <WildnessExplanation>Dziksze zwierzęta są naturalnie trudniejsze do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
+  <WildnessExplanation>Bardziej dzikie zwierzęta są naturalnie trudniejsze do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Okres zaniknięcia umiejętności</TrainingDecayInterval>
   <!-- EN: Tameness will never decay. -->
@@ -409,7 +409,7 @@
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
   <PackAnimalExplanation>Określa, czy zwierzę nadaję się do przenoszenia przedmiotów w karawanie na dalekie odległości.</PackAnimalExplanation>
   <!-- EN: Skill -->
-  <Skill>Umiejętności</Skill>
+  <Skill>Umiejętność</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Mnożnik powodzenia</SurgerySuccessChanceFactor>
   <!-- EN: Work speed governed by -->
@@ -417,9 +417,9 @@
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>Jakość końcowa regulowana przez</EfficiencyStat>
   <!-- EN: Construction skill required -->
-  <ConstructionSkillRequired>Wymagana umiejętność budowania</ConstructionSkillRequired>
+  <ConstructionSkillRequired>Wymagana umiejętność budownictwa</ConstructionSkillRequired>
   <!-- EN: Requires this level of Construction in order to build. -->
-  <ConstructionSkillRequiredExplanation>Wymaga tego poziomu budowania aby to zbudować.</ConstructionSkillRequiredExplanation>
+  <ConstructionSkillRequiredExplanation>Wymaga wskazanego poziomu budownictwa ,aby to zbudować.</ConstructionSkillRequiredExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Częstotliwość trącania</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
@@ -825,7 +825,7 @@
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawns>Niektórzy Twoi koloniści lub zwierzęta znajdują się na tym obszarze. Czy jesteś pewien, że chcesz ich zostawić?\n\nNastępujące osoby i zwierzęta zostaną zostawione:\n\n{0}.</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
-  <ConfirmAbandonHomeNegativeThoughts>Opuszczenie {0} spowoduje, że następujące osoby otrzymają następujące myśli:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts>Opuszczenie {0} spowoduje, że niżej wymienione osoby otrzymają następujące myśli:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Wszyscy:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
@@ -835,19 +835,19 @@
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>Czy na pewno chcesz wygnać {1_label}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>Czy na pewno chcesz wygnać - {1_label}?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} prawdopodobnie umrze.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{1_labelShort} weźmie następujące rzeczy razem z {1_objective}:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} weźmie ze sobą następujące rzeczy:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Wszyscy koloniści będą mieli następujące myśli:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>Wygnanie {1_labelShort} spowoduje że następujące osoby będą miały następujące myśli:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Wygnanie {1_labelShort} spowoduje, że niżej wymienione osoby otrzymają następujące myśli:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest załadowana do końca. Brakuje {1_labelShort}. Wystrzelić mimo to?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest do końca załadowana. Brakuje {1_labelShort}. Wystrzelić mimo to?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
