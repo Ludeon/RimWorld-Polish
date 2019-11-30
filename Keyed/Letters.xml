@@ -18,9 +18,9 @@
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
   <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz uważają Cię za neutralnego i nie będą już Cie atakować.\n\nStało się tak, ponieważ reputacja ({1}) podniosła się do {2}. Jeśli ponownie będzie poniżej {3}, to staną się wrodzy. Jeśli reputacja zwiększy się o ponad {4}, staną się Twoimi sojusznikami oraz będą dla Ciebie walczyć.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się i teraz uważają Cię za neutralnego.\n\nDalej będą traktować Cię pokojowo, lecz nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz uważają Cię za neutralnego.\n\nDalej będą traktować Cię pokojowo, lecz nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
-  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie oraz jesteś uważany za sojusznika.\n\nSojusznicy czasem przybędą by pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc za koszt reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy czasem przybędą by pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc za koszt reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
 
   <!-- EN: goodwill -->
   <goodwill>reputacja</goodwill>
@@ -236,7 +236,7 @@
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>Nadużycie: {0}</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Nadużycie - {0}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
   <LetterDrugBinge>{2_label} nadużywa: {1}.</LetterDrugBinge>
   
@@ -276,13 +276,13 @@
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Zadanie zakończone</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>Udało Ci się pokonać posterunek wroga!\n\nZ frakcji {0} przybyła zapłata, a relacje z z nią poprawiły się o {1}.</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>Udało Ci się pokonać posterunek wroga!\n\nZ frakcji {0} przybyła zapłata, a relacje z z nią wzrosły o {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Found lump of precious resources -->
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Znaleziono cenne minerały</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Z pomocą czujnika minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} w pobliżu złoże ({0}).\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą ją jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Za pomocą czujnika minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} w pobliżu złoże {0}.\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą je jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -306,11 +306,11 @@
   <!-- EN: Peace talks success -->
   <LetterLabelPeaceTalks_Success>Rozmowy pokojowe - sukces</LetterLabelPeaceTalks_Success>
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
-  <LetterPeaceTalks_Success>Te rozmowy były sukcesem. Delegaci doszli do nowego porozumienia w kilku istotnych kwestiach.\n\nRelace z frakcją {0} polepszyły się o {1}.</LetterPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Te rozmowy były sukcesem. Delegaci doszli do nowego porozumienia w kilku istotnych kwestiach.\n\nRelace z frakcją {0} wzrosły o {1}.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
   <LetterLabelPeaceTalks_Triumph>Rozmowy pokojowe - triumf</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>Te rozmowy były wielkim triumfem!! Delegaci szybko znaleźli wspólny język, aby pomóc sobie nawzajem w najtrudniejszych problemach.\n\nRelacje z frakcją {0} polepszyły się o {1}.\n\nGdy Twoja karawana szykowała się do powrotu, {0} zaoferował Ci podarunek::\n\n{2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Te rozmowy były wielkim triumfem!! Delegaci szybko znaleźli wspólny język, aby pomóc sobie nawzajem w najtrudniejszych problemach.\n\nRelacje z frakcją {0} wzrosły o {1}.\n\nGdy Twoja karawana szykowała się do powrotu, {0} zaoferował Ci podarunek::\n\n{2}.</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
   <PeaceTalksSocialXPGain>{PAWN_labelShort}, Twój negocjator, zdobył {1} doświadczenia społecznego</PeaceTalksSocialXPGain>
 

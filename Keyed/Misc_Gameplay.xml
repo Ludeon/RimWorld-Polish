@@ -105,7 +105,7 @@
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Postęp zatrzymany do czasu zapłodnienia</ProgressStoppedUntilFertilized>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>wymaga umiejętności '{0}' na poziome {2}, ma {1}</SkillTooLow>
+  <SkillTooLow>wymaga umiejętności '{0}' na poziomie {2}, obecny {1}</SkillTooLow>
   <!-- EN: Freezing -->
   <Freezing>Zamarzanie</Freezing>
   <!-- EN: Overheating -->
@@ -169,11 +169,11 @@
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{1}: {0}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>zwierzę: 1</CaravanAnimal>
+  <CaravanAnimal>zwierzę</CaravanAnimal>
   <!-- EN: {0} animals -->
   <CaravanAnimalsCount>zwierzęta: {0}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>więzień: 1</CaravanPrisoner>
+  <CaravanPrisoner>więzień</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
   <CaravanPrisonersCount>więźniowie: {0}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
@@ -327,21 +327,21 @@
   <!-- EN: Relations with {0} -->
   <RelationsWith>Relacje z frakcją {0}</RelationsWith>
   <!-- EN: captured by {0} -->
-  <capturedBy>schwytany przez {0}</capturedBy>
+  <capturedBy>schwytany przez frakcję {0}</capturedBy>
   <!-- EN: your caravan -->
-  <yourCaravan>Twoja karawana</yourCaravan>
+  <yourCaravan>twoja karawana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>{0} dzicz</CreatureWildness>
+  <CreatureWildness>zdziczenie</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>{0} trenowalność</CreatureTrainability>
+  <CreatureTrainability>podatność na tresurę</CreatureTrainability>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>{0} z {1}</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{0} z frakcją {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>Nie możesz wejść ponownie przez następne {0} dni.</EnterCooldown>
+  <EnterCooldown>Nie możesz ponownie wejść przez następne {0} dni.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Karawana</Caravan>
   <!-- EN: there may be danger there -->
-  <HiddenOrNoSitePartDescription>tam może być niebezpiecznie</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>Może tam czyhać niebezpieczeństwo</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>złoże {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -355,7 +355,7 @@
   <!-- EN: mortars -->
   <Mortars>moździerze</Mortars>
   <!-- EN: enemy -->
-  <Enemy>przeciwnik</Enemy>
+  <Enemy>wrogowie</Enemy>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -391,9 +391,9 @@
   <!-- EN: Tamed!\n{0} chance -->
   <TextMote_TameSuccess>Oswojono!\n{0} szans</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>Trening nieudany: {0}\n{1} szans</TextMote_TrainFail>
+  <TextMote_TrainFail>Tresura nieudana: {0}\n{1} szans</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>Wytrenowano: {0}\n{1} szans</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>Wytresowano: {0}\n{1} szans</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
   <TextMote_FixBrokenDownBuildingFail>Naprawa\nnieudana</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
@@ -549,11 +549,11 @@
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>Wygasa za: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Wygaśnie za: {0}</ThoughtExpiresIn>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>Rozpocznie wygasać za: {0}</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>Rozpocznie wygasanie za: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
-  <ThoughtFinishesExpiringIn>Przestanie wygasać za: {0}</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>Zakończy wygasanie za: {0}</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
   <MentalBreakThresholdExtreme>Ekstremalne załamanie nerwowe</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
@@ -591,7 +591,7 @@
   <!-- EN: Affected by: -->
   <AffectedBy>Dotknięty przez:</AffectedBy>
   <!-- EN: Queued -->
-  <Queued>Zakolejkowany</Queued>
+  <Queued>W kolejce</Queued>
   <!-- EN: State -->
   <State>Stan</State>
   <!-- EN: stun -->
@@ -611,13 +611,13 @@
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>z</OfLower>
+  <OfLower></OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Niepodłączone do prądu.</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0}W / {1}Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Podłączona moc/zmagazynowana: {0}W  / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Potrzebna energia</PowerNeeded>
   <!-- EN: Power output -->
@@ -689,15 +689,15 @@
   <!-- EN: Resting -->
   <PlantResting>Odpoczywa</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>Nieodpowiednia temperatura. Mnożnik wzrostu: {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>Niekorzystna temperatura. Mnożnik wzrostu: {0}%</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>Nieodpowiednia temperatura. Nie rośnie.</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>Niekorzystna temperatura. Nie rośnie.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Gotowe do zbioru.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Dojrzałe.</Mature>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>Okres uprawy</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Okres upraw</OutdoorGrowingPeriod>
   <!-- EN: Never -->
   <NoGrowingPeriod>Nigdy</NoGrowingPeriod>
   <!-- EN: Year-round -->
@@ -709,7 +709,7 @@
   <!-- EN: Blighted -->
   <Blighted>Zarażona</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>Usycha z powodu światła</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>Usycha z powodu działania światła słonecznego</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <!-- EN: Zone -->
