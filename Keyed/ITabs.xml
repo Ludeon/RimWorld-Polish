@@ -226,23 +226,23 @@
   <!-- EN: (no relationships) -->
   <NoRelationships>(brak relacji)</NoRelationships>
   <!-- EN: Kidnapped -->
-  <Kidnapped>{1_gender ? Porwany : Porwana}</Kidnapped>
+  <Kidnapped>{PAWN_gender ? Porwany : Porwana}</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
   <Lent>TODO</Lent>
   <!-- EN: Missing -->
-  <Missing>{1_gender ? Zaginiony : Zaginiona}</Missing>
+  <Missing>{PAWN_gender ? Zaginiony : Zaginiona}</Missing>
   <!-- EN: Slave -->
-  <Slave>{1_gender ? Niewolnik : Niewolniczka}</Slave>
+  <Slave>{PAWN_gender ? Niewolnik : Niewolniczka}</Slave>
   <!-- EN: Faction leader -->
-  <FactionLeader>{1_gender ? Lider : Liderka} frakcji</FactionLeader>
+  <FactionLeader>{PAWN_gender ? Lider : Liderka} frakcji</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>Opinia {1_labelShort} o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
-  <IAmDead>Jestem {1_gender ? martwy : martwa}</IAmDead>
+  <IAmDead>Jestem {PAWN_gender ? martwy : martwa}</IAmDead>
   <!-- EN: I'm a psychopath -->
-  <IAmPsychopath>Jestem {1_gender ? psychopatą : psychopatką}</IAmPsychopath>
+  <IAmPsychopath>Jestem {PAWN_gender ? psychopatą : psychopatką}</IAmPsychopath>
   
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
