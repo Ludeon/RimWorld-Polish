@@ -42,7 +42,9 @@
   <TabFormingCaravan>Karawana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Treść</TabTransporterContents>
-
+  <!-- EN: Contents -->
+  <TabCasketContents>TODO</TabCasketContents>
+  
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>Dodaj zlecenie</AddBill>
@@ -78,6 +80,24 @@
   <RecruitmentResistance>Pozostały opór</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>TODO</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>TODO</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>TODO</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>TODO</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>TODO</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>TODO</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>TODO</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>TODO</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>TODO</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>Dostaje żywność</GetsFood>
   <!-- EN: Doctors care -->
@@ -194,10 +214,10 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>Podatność tresury</Trainability>
-  <!-- EN: Requires trainability {0}. -->
-  <CannotTrainNotSmartEnough>Wymagana podatności na tresurę: {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>Wymagana podatność na tresurę: {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>To zwierzę jest za małe, aby mogło wykonywać tą czynność.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>To zwierzę jest zbyt małe, aby mogło wykonywać tą czynność.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Niezbędne wymagania: {0}</TrainingNeedsPrerequisite>
@@ -206,21 +226,23 @@
   <!-- EN: (no relationships) -->
   <NoRelationships>(brak relacji)</NoRelationships>
   <!-- EN: Kidnapped -->
-  <Kidnapped>{1_gender ? Porwany : Porwana}</Kidnapped>
+  <Kidnapped>{PAWN_gender ? Porwany : Porwana}</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>TODO</Lent>
   <!-- EN: Missing -->
-  <Missing>{1_gender ? Zaginiony : Zaginiona}</Missing>
+  <Missing>{PAWN_gender ? Zaginiony : Zaginiona}</Missing>
   <!-- EN: Slave -->
-  <Slave>{1_gender ? Niewolnik : Niewolniczka}</Slave>
+  <Slave>{PAWN_gender ? Niewolnik : Niewolniczka}</Slave>
   <!-- EN: Faction leader -->
-  <FactionLeader>{1_gender ? Lider : Liderka} frakcji</FactionLeader>
+  <FactionLeader>{PAWN_gender ? Lider : Liderka} frakcji</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>Opinia {1_labelShort} o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
-  <IAmDead>Jestem {1_gender ? martwy : martwa}</IAmDead>
+  <IAmDead>Jestem {PAWN_gender ? martwy : martwa}</IAmDead>
   <!-- EN: I'm a psychopath -->
-  <IAmPsychopath>Jestem {1_gender ? psychopatą : psychopatką}</IAmPsychopath>
+  <IAmPsychopath>Jestem {PAWN_gender ? psychopatą : psychopatką}</IAmPsychopath>
   
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
@@ -287,7 +309,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Usuń {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>TODO</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Czy na pewno chcesz usunąć {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>TODO</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>TODO</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>TODO</QuestDismissed>
 
 </LanguageData>

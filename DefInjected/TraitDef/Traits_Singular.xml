@@ -13,8 +13,18 @@
   
   <!-- EN: ascetic -->
   <Ascetic.degreeDatas.ascetic.label>ascetyzm</Ascetic.degreeDatas.ascetic.label>
-  <!-- EN: {PAWN_nameDef} prefers to live in asceticism. {PAWN_pronoun} will be put in a poor mood if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw - and raw food won't bother {PAWN_objective} a bit. -->
-  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} woli żyć jak asceta. Ma obniżony nastrój, jeżeli {PAWN_possessive} sypialnia jest zbyt imponująca. Nie lubi również fantazyjnych potraw i woli jeść na surowo - a surowe jedzenie nie będzie {PAWN_gender ? mu : jej} przeszkadzało.</Ascetic.degreeDatas.ascetic.description>
+  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
+  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} {PAWN_gender ? porzucił : porzuciła} fizyczne wygody i przyjemności na rzecz prostego, czystego stylu życia. Unieszczęśliwi {PAWN_objective} zbyt imponująca sypialnia. Nie lubi również fantazyjnych potraw i woli jeść na surowo. Nigdy nie ocenia innych po wyglądzie.</Ascetic.degreeDatas.ascetic.description>
+  
+  <!-- EN: asexual -->
+  <Asexual.degreeDatas.asexual.label>aseksualizm</Asexual.degreeDatas.asexual.label>
+  <!-- EN: {PAWN_nameDef} has no sexual attraction to anyone at all. -->
+  <Asexual.degreeDatas.asexual.description>TODO</Asexual.degreeDatas.asexual.description>
+  
+  <!-- EN: bisexual -->
+  <Bisexual.degreeDatas.bisexual.label>biseksualizm</Bisexual.degreeDatas.bisexual.label>
+  <!-- EN: {PAWN_nameDef} is romantically attracted to both men and women. -->
+  <Bisexual.degreeDatas.bisexual.description>TODO</Bisexual.degreeDatas.bisexual.description>
   
   <!-- EN: bloodlust -->
   <Bloodlust.degreeDatas.bloodlust.label>żądza krwi</Bloodlust.degreeDatas.bloodlust.label>
@@ -27,7 +37,7 @@
   <BodyPurist.degreeDatas.body_purist.description>{PAWN_nameDef} uważa, że ciało ludzkie nie bez powodu posiada ograniczenia. Sądzi, że bioniczne części ciała są nieetyczne i obrzydliwe.</BodyPurist.degreeDatas.body_purist.description>
   
   <!-- EN: brawler -->
-  <Brawler.degreeDatas.brawler.label>awanturnictwo</Brawler.degreeDatas.brawler.label>
+  <Brawler.degreeDatas.brawler.label>rozbijaka</Brawler.degreeDatas.brawler.label>
   <!-- EN: {PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon. -->
   <Brawler.degreeDatas.brawler.description>{PAWN_nameDef} lubi walczyć w zwarciu. Celność {PAWN_gender ? jego : jej} ciosów jest znacznie zwiększona. Ale będzie bardzo {PAWN_gender ? nieszczęśliwy : nieszczęśliwa}, jeśli zostanie {PAWN_gender ? poproszony : poproszona} o noszenie broni dystansowej.</Brawler.degreeDatas.brawler.description>
   
@@ -83,8 +93,8 @@
   
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>uprzejmość</Kind.degreeDatas.kind.label>
-  <!-- EN: {PAWN_nameDef} is a nice person. {PAWN_pronoun} has a tendency to brighten everyone else's day and never insults others. -->
-  <Kind.degreeDatas.kind.description>{PAWN_nameDef} jest miłą osobą. Ma tendencję do polepszania nastroju wszystkich dookoła i nigdy nikogo nie obraża.</Kind.degreeDatas.kind.description>
+  <!-- EN: {PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance. -->
+  <Kind.degreeDatas.kind.description>{PAWN_nameDef} jest wyjątkowo miłą osobą. Ma specjalny sposób używania miłych słów, aby rozświetlić czyjś dzień. Nigdy nie obraża innych i nie ocenia ludzi po wyglądzie.</Kind.degreeDatas.kind.description>
   
   <!-- EN: masochist -->
   <Masochist.degreeDatas.masochist.label>masochizm</Masochist.degreeDatas.masochist.label>
@@ -121,10 +131,20 @@
   <!-- EN: {PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time. -->
   <QuickSleeper.degreeDatas.quick_sleeper.description>{PAWN_nameDef} nie potrzebuje tyle snu co przeciętna osoba. Nie ważne czy śpi na podłodze czy na łóżku, zawsze będzie w pełni {PAWN_gender ? wypoczęty : wypoczęta} w przeciągu dwóch trzecich typowego czasu.</QuickSleeper.degreeDatas.quick_sleeper.description>
   
+  <!-- EN: slow learner -->
+  <SlowLearner.degreeDatas.slow_learner.label>wolna nauka</SlowLearner.degreeDatas.slow_learner.label>
+  <!-- EN: {PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others. -->
+  <SlowLearner.degreeDatas.slow_learner.description>TODO</SlowLearner.degreeDatas.slow_learner.description>
+  
   <!-- EN: too smart -->
   <TooSmart.degreeDatas.too_smart.label>nadludzka mądrość</TooSmart.degreeDatas.too_smart.label>
   <!-- EN: {PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric. -->
   <TooSmart.degreeDatas.too_smart.description>{PAWN_nameDef} to niesamowicie inteligentna osoba. Uczy się wszystkiego znacznie szybciej, ale {PAWN_gender ? jego : jej} zachowanie może być postrzegane jako nieco... ekscentryczne.</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tortured artist -->
+  <TorturedArtist.degreeDatas.tortured_artist.label>Torturowany człowiek sztuki</TorturedArtist.degreeDatas.tortured_artist.label>
+  <!-- EN: {PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break. -->
+  <TorturedArtist.degreeDatas.tortured_artist.description>TODO</TorturedArtist.degreeDatas.tortured_artist.description>
   
   <!-- EN: tough -->
   <Tough.degreeDatas.tough.label>wytrzymałość</Tough.degreeDatas.tough.label>

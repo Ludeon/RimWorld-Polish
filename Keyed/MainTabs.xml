@@ -21,15 +21,31 @@
   <!-- EN: E -->
   <EmergencyWorkMarker>✚</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
-  <SelectedWorkTypeWithVeryBadSkill>Uwaga: Średnia z istotnych umiejętności jest niska.</SelectedWorkTypeWithVeryBadSkill>
+  <SelectedWorkTypeWithVeryBadSkill>Uwaga: Średnia z istotnych umiejętności jest bardzo niska.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>TODO</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>TODO</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>Najwyższy priorytet</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>Wysoki priorytet</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>Normalny priorytet</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>Niski priorytet</Priority4>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Zarządzaj ubiorem</ManageOutfits>
+  <!-- EN: Unchangeable -->
+  <Unchangeable>TODO</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>Wyczyść wymuszone</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>wymuszone</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>zablokowane</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Wymuszony wygląd</ForcedApparel>
   <!-- EN: Edit... -->
@@ -58,6 +74,8 @@
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>To stworzenie jest drapieżnikiem. Gdy będzie głodne, zapoluje na mniejsze stworzenia - być może także na ludzi.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>TODO</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
@@ -68,6 +86,8 @@
   <DefeatedLower>pokonani</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Wróg frakcji {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>Wróg: </EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Obecna reputacja i status relacji z tą frakcją.</CurrentGoodwillTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
@@ -121,7 +141,7 @@
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Przypnij lub odepnij tę wiadomość.\n\nNajstarsze odpięte wiadomości zostaną automatycznie usunięte z listy po osiągnięciu limitu {0} wiadomości.</PinArchivableTip>
   <!-- EN: no messages -->
-  <NoMessages>nie masz wiadomości</NoMessages>
+  <NoMessages>brak wiadomości</NoMessages>
 
   <!-- History tab - Statistics -->
   <!-- EN: Play time -->
@@ -148,13 +168,101 @@
   <ColonistsLaunched>Koloniści wysłani w kosmos</ColonistsLaunched>
 
   <!-- Research tab -->
-  <!-- EN: project tech level -->
-  <ProjectTechLevel>poziom techniczny projektu</ProjectTechLevel>
-  <!-- EN: your tech level -->
-  <YourTechLevel>Twój poziom techniczny</YourTechLevel>
-  <!-- EN: cost multiplier -->
-  <ResearchCostMultiplier>mnożnik</ResearchCostMultiplier>
+  <!-- EN: Research -->
+  <Research>Badania</Research>
+  <!-- EN: Researched -->
+  <Researched>Zbadane</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>Niezbadane</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Ukończone</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>W trakcie</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Zablokowane</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>Wstępne wymagania</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>TODO</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>TODO</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>TODO</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Wymagany stół do badań</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Wymagane udogodnienia stołu do badań</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Początkowy koszt projektu {0} został zmieniony na {1} ze względu na Twój poziom techniczny.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>TODO</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>TODO</TechLevelTooLow>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>Dostępne</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>Aktywne</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>Historyczne</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>nie wybrano zadania</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>TODO</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>TODO</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>TODO</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>TODO</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>TODO</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>TODO</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>TODO</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>TODO</QuestExpiresOn>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>TODO</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>TODO</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>TODO</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>TODO</ShuttleDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>TODO</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>Akceptuj zadanie</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>Akceptuj z {0_labelShort}</AcceptWith>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>Oferta przedawniła się.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>To zadanie zostało ukończone.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>To zadanie nie powiodło się.</QuestOutcomeInfo_Failed>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>Skocz do {0}</JumpToTargetCustom>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>TODO</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>TODO</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>TODO</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>TODO</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>TODO</QuestNoColonistWithTitle>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>TODO</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>TODO</AcceptRoyalFavorDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>TODO</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>TODO</RoyalFavorOff>
   
 </LanguageData>

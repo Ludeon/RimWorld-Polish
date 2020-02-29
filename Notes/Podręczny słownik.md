@@ -47,7 +47,7 @@ Długi miecz (Long sword)
 Łuk refleksyjny (Recurve Bow)  
 dozownik pasty odżywczej  
 Geoskaner (GroundPenetratingScanner)  
-Skaner minerałów dalekiego zasięgu (Long-range mineral scanner)  
+Dalekosiężny skaner minerałów (Long-range mineral scanner)  
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -190,6 +190,7 @@ Zachowania (Assign - Przydział) "Zachowania" lepiej pasuje według mnie.
 Zwierzęta (Animals)  
 Fauna (Wildlife)  
 Badania (Research)  
+Zadania (Quests)  
 Świat (World)  
 Historia (History)  
 Frakcje (Factions)  
