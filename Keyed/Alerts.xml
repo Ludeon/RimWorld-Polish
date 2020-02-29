@@ -18,7 +18,7 @@
   <BreakRiskExtremeDesc>Następujący koloniści są krytycznie zestresowani i mogą w każdej chwili doznać ekstremalnego załamania psychicznego (istnieje również ryzyko, że wpadną w szał):\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Sprawdź menu potrzeb kolonistów, aby dowiedzieć się, co ich martwi.\n\nAby poczuli się lepiej, możesz podać im dobry posiłek, zapewnić więcej czasu spędzonego na rozrywce, umieścić ich w ładniejszym otoczeniu, umożliwić im picie i palenie, oraz wiele więcej.</BreakRiskDescEnding>
-  
+
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Kolonista potrzebuje ratunku</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
@@ -62,21 +62,26 @@
   <NeedColonistBeds>Potrzebne łóżka dla kolonistów</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Masz więcej kolonistów niż łóżek, ktoś nie będzie miał gdzie spać.\n\nZrób więcej łóżek, lub zmień łóżko więzienne na łóżko kolonisty.\n\nJeśli nie posiadasz wymaganych zasobów, zawsze możesz wyznaczyć miejsce do spania, za darmo i natychmiastowo.</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>Kolonista nie został pochowany</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>Kolonista nie został pochowany.\n\nMoże to negatywnie wpłynąć na nastrój Twoich kolonistów.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Myśliwi nie mają broni dystansowej</HunterLacksWeapon>
   <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
-  <HunterLacksWeaponDesc>Jeden lub więcej kolonistów przypisanych na myśliwego nie ma broni dystansowej.\n\nNie będą polować, dopóki jakiejś nie dostaną.</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>Jeden lub więcej kolonistów przypisanych na myśliwego nie ma broni dystansowej.\n\nNie będą polować, dopóki nie będą w jakąś wyposażeni.</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Podarte ubrania</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>Następujący koloniści noszą podarte ubrania:\n\n{0}\nDaj im inne, mniej zniszczone ubrania.\n\nMożesz je uszyć lub kupić od handlarza.</AlertTatteredApparelDesc>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertTatteredApparelDesc>Następujący koloniści noszą podarte ubrania:\n\n{0}\nDaj im inne, mniej zniszczone ubrania.\n\nMożesz je uszyć w miejscu rzemiosła lub przy stole do szycia, albo kupić od handlarzy.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Nieszczęśliwa nagość</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>Następujący koloniści są nadzy i nieszczęśliwi z tego powodu:\n\n{0}.\nDaj im jakieś ubrania.\n\nMożesz je uszyć przy stole do szycia lub kupić je od handlarzy.</AlertUnhappyNudityDesc>
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertUnhappyNudityDesc>Następujący koloniści są nadzy i nieszczęśliwi z tego powodu:\n\n{0}.\nDaj im jakieś ubrania.\n\nMożesz je uszyć w miejscu rzemiosła lub przy stole do szycia, albo kupić od handlarzy.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>Głód</Starvation>
@@ -127,9 +132,9 @@
   <NeedBatteriesDesc>Masz panele słoneczne lub turbinę wiatrową, ale nie posiadasz baterii. Oznacza to, że tracisz energię za każdym razem gdy zachodzi słońce lub przestaje wiać.\n\nZbuduj jedną lub dwie baterie, aby przechowywać energię.</NeedBatteriesDesc>
 
   <!-- EN: Brawler has ranged weapon -->
-  <BrawlerHasRangedWeapon>Awanturnik ma broń dystansową</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeapon>Rozbijaka ma broń dystansową</BrawlerHasRangedWeapon>
   <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
-  <BrawlerHasRangedWeaponDesc>Jeden z Twoich kolonistów posiada cechę "Awanturnik", taka osoba toleruje co najwyżej bronie krótkiego zasięgu, a mimo tego posiada broń dystansową. To czyni ich bardzo nieszczęśliwymi.</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeaponDesc>Jeden z Twoich kolonistów posiada cechę "Rozbijaka", mimo tego posiada broń dystansową. To czyni te osoby bardzo nieszczęśliwymi.</BrawlerHasRangedWeaponDesc>
 
   <!-- EN: Shield user has ranged weapon -->
   <ShieldUserHasRangedWeapon>Osoba z osłoną ma broń zasięgową</ShieldUserHasRangedWeapon>
@@ -140,11 +145,16 @@
   <NeedResearchProject>Potrzebny projekt do badań</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>Masz wyposażenie do przeprowadzania badań, ale projekt do realizacji nie został wybrany.\n\nOtwórz menu badań i wybierz projekt.</NeedResearchProjectDesc>
-  
+
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>Bezczynni koloniści: {0}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Jeden lub więcej kolonistów bezczynnie krąży:\n\n{0}\nPrawdopodobnie powinieneś znaleźć im jakieś użyteczne zajęcie.</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>Bezczynna karawana</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>Te karawany czekają na ustawienie następnego miejsca docelowego:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Koloniści potrzebują leczenia</ColonistNeedsTreatment>
@@ -153,7 +163,7 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>Następujący koloniści cierpią z powodu wyziębienia organizmu:\n\n{0}\nUpewnij się, że są ubrani stosownie do pogody, a ich pokoje są odpowiednio ogrzane.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
@@ -191,10 +201,48 @@
   <NeedWarmClothesDesc1All>Wszystkim Twoim kolonistom będzie brakować ciepłych ubrań, kiedy nadejdzie zimna pora roku.</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>Temperatura na zewnątrz niedługo osiągnie poziom {0}.\n\nMożesz uszyć ciepłe ubrania przy stole do szycia lub kupić je od handlarza.</NeedWarmClothesDesc2>
-  
+
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Niemobilna karawana</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Jedna z Twoich karawan jest niemobilna, ponieważ przenosi zbyt dużo rzeczy.\n\nAby ponownie mogła się przemieszczać, porzuć niektóre z nich w zakładce - Przedmioty.</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>Budynek nie nadaje się do użytku z powodu zadaszenia</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>Z jednego lub więcej budynków można korzystać tylko, gdy nie będą zadaszone, ale nad nimi znajduje się dach. Budynki nie będą użyteczne, dopóki nie usuniesz dachu.</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>Udar cieplny</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>Następujące osoby cierpią z powodu udaru cieplnego:\n\n{0}\nWprowadź je do chłodniejszego miejsca. Możesz chłodzić pomieszczenia za pomocą pasywnych lub elektrycznych chłodnic. Chłód uzyskasz także głęboko w podziemnej przestrzeni, jeśli będzie oddzielona od zewnątrz drzwiami.</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>Gość niezadowolony</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>TODO</QuestPartMoodBelowThresholdDesc>
   
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>TODO</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>TODO</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>TODO</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>TODO</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>TODO</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>TODO</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>TODO</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>TODO</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>Zadanie wygaśnie za {0}</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>Zadanie '{0}' wygaśnie za {1}.</QuestExpiresSoonDesc>
 </LanguageData>

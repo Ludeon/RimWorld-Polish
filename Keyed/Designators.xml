@@ -181,7 +181,7 @@
   <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>Nie można ustawić na nieodkrytym terenie.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
-  <InteractionSpotBlocked>{0} blokuje punkt interakcji.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>{1_labelShort} blokuje punkt interakcji.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>Obszar interakcji poza granicami.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
@@ -196,10 +196,12 @@
   <IdenticalThingExists>We wskazanym miejscu istnieje już identyczny element.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>Dla wskazanego miejsca jest już zaplanowany identyczny element.</IdenticalBlueprintExists>
-  <!-- EN: The terrain here cannot support this. -->
-  <TerrainCannotSupport>Na wskazanym terenie nie można ustawić wybranego elementu.</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <!-- EN: {0_label} cannot be built on this terrain. -->
+  <TerrainCannotSupport>{0_label} nie może być {0_gender ? zbudowany : zbudowana : zbudowane} na tym terenie.</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_label} wymaga terenu który może obsłużyć: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>TODO</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Przestrzeń jest już zajęta.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -208,6 +210,12 @@
   <TerrainMustBeRemovable>Należy wskazać usuwalną podłogę.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>Koło wodne musi znajdować się na ruchomej wodzie.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>TODO</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>TODO</InteractionSpotOverlaps>
+  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
+  <MonumentAdjacentToBuilding>TODO</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -221,8 +229,12 @@
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Wymagana konstrukcja</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithConstructionSkillTip>Żaden z Twoich {0} nie posiada tej umiejętności.</NoColonistWithConstructionSkillTip>
+  <NoColonistWithSkillTip>Żaden z Twoich {0} nie posiada tej umiejętności.</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>Potrzebne {0}</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>Żaden z Twoich {0} nie posiada wszystkich wymaganych umiejętności.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Każdy z Twoich {0} który ma taką umiejętność nie jest przypisany do {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Każdy z Twoich {0} który ma taką umiejętność nie jest przypisany do {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>

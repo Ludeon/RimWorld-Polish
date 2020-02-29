@@ -3,10 +3,12 @@
   
   <!-- EN: bite -->
   <Bite.label>ugryzienie</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>TODO</Bite.description>
   <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Bite.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Bite.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: bite scar -->
@@ -22,11 +24,13 @@
   
   <!-- EN: bruise -->
   <Bruise.label>siniak</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>TODO</Bruise.description>
   <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>Zniszczone</Bruise.injuryProps.destroyedLabel>
@@ -36,13 +40,15 @@
   <Bruise.labelNounPretty>{0} na {1}</Bruise.labelNounPretty>
   
   <!-- EN: burn -->
-  <Burn.label>poparzenie</Burn.label>
-  <!-- EN: set -->
+  <Burn.label>oparzenie</Burn.label>
+  <!-- EN: A burn. -->
+  <Burn.description>TODO</Burn.description>
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Burn.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
-  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>opatrzone</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>blizna od oparzenia</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
@@ -50,17 +56,34 @@
   <!-- EN: Burned out -->
   <Burn.injuryProps.destroyedOutLabel>Wypalone</Burn.injuryProps.destroyedOutLabel>
   <!-- EN: a burn -->
-  <Burn.labelNoun>poparzenie</Burn.labelNoun>
+  <Burn.labelNoun>oparzenie</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{0} na {1}</Burn.labelNounPretty>
   
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>TODO</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>TODO</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>TODO</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>TODO</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>TODO</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>TODO</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>złamanie</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>TODO</Crack.description>
   <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWell>nastawione</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>nastawione</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>trwałe złamanie</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -73,10 +96,12 @@
   
   <!-- EN: crush -->
   <Crush.label>zmiażdżenie</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>TODO</Crush.description>
   <!-- EN: set -->
   <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Crush.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Crush.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: mangled scar -->
@@ -90,10 +115,12 @@
   
   <!-- EN: cut -->
   <Cut.label>rozcięcie</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>TODO</Cut.description>
   <!-- EN: set -->
   <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Cut.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Cut.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: cut scar -->
@@ -109,12 +136,14 @@
   
   <!-- EN: frostbite -->
   <Frostbite.label>odmrożenie</Frostbite.label>
-  <!-- EN: set -->
-  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>TODO</Frostbite.description>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>opatrzone</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
-  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>opatrzone</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>blizna od odmrożenia</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Lost to frostbite -->
@@ -124,10 +153,12 @@
   
   <!-- EN: gunshot -->
   <Gunshot.label>rana postrzałowa</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>TODO</Gunshot.description>
   <!-- EN: set -->
   <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent gunshot injury -->
@@ -145,10 +176,12 @@
   
   <!-- EN: misc -->
   <Misc.label>różne</Misc.label>
+  <!-- EN: Miscellanous injuries. -->
+  <Misc.description>TODO</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Misc.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Misc.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
@@ -160,6 +193,8 @@
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>brakująca część ciała</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>TODO</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>brakująca część ciała</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -167,10 +202,12 @@
   
   <!-- EN: scratch -->
   <Scratch.label>zadrapanie</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>TODO</Scratch.description>
   <!-- EN: set -->
   <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: scratch scar -->
@@ -186,10 +223,12 @@
   
   <!-- EN: shredded -->
   <Shredded.label>poszarpane</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>TODO</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: shredded scar -->
@@ -205,10 +244,12 @@
   
   <!-- EN: stab -->
   <Stab.label>rana kłuta</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>Rana powstała w wyniku dźgnięcia.</Stab.description>
   <!-- EN: set -->
   <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywnione</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Stab.comps.HediffComp_TendDuration.labelTendedWell>opatrzone</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>zabandażowane</Stab.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>zszyte</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: stab scar -->
@@ -224,6 +265,8 @@
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>rana pooperacyjna</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>Nacięcie zrobione podczas operacji.</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>usztywniona</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
