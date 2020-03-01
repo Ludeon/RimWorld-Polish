@@ -6,7 +6,7 @@ Używamy discorda do współpracy. Aby nam pomóc lub zgłosić jakiś błąd kl
 Trwają prace nad tłumaczeniem dla wersji 1.0...  
 
 Pobierz aktualną wersję tłumaczenia:  
-https://github.com/Ludeon/RimWorld-Polish (przycisk Clone or Download -> Download zip).  
+https://github.com/Ludeon/RimWorld-Polish/tree/dev (przycisk Clone or Download -> Download zip).  
 
 
 
