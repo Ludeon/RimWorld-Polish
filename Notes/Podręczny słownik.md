@@ -69,7 +69,7 @@ kuchenka elektryczna
 kurtka zimowa (Jacket)  
 kuźnia  
 laboratorium narkotyków  
-laboratorium naukowe  
+laboratorium badawcze  
 lekki karabinek kalibru 8 mm (LMG)  
 lekki karabin maszynowy (HeavySMG)  
 monitor funkcji życiowych (VitalsMonitor)  

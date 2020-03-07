@@ -177,23 +177,23 @@
   <!-- EN: Days of food: {0} (rot in {1} days) -->
   <CaravanDaysOfFoodRot>Żywności wystarczy na: {0} (zgnije za {1} dni)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Zatrzymana ponieważ: Wszyscy są powaleni.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Zatrzymana, ponieważ: Wszyscy są powaleni.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>Zatrzymana ponieważ: Wszyscy są załamani psychicznie.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Zatrzymana, ponieważ: Wszyscy są załamani psychicznie.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{1}: {0}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>zwierzę</CaravanAnimal>
+  <CaravanAnimal>1 zwierzę</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>zwierzęta: {0}</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{0} zwierząt</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>więzień</CaravanPrisoner>
+  <CaravanPrisoner>1 więzień</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>więźniowie: {0}</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0} więźniów</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>załamani psychicznie {0}</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0} w stanie załamania</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>powaleni: {0}</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} powalonych</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Podróżuje.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -215,17 +215,17 @@
   <!-- EN: {0} effect multiplier: {1} -->
   <DrugEffectMultiplier>{0} mnożnik efektu: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Odwiedza {0}.</CaravanVisiting>
+  <CaravanVisiting>Odwiedza: {0}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Wchodzi do {0}.</CaravanEntering>
+  <CaravanEntering>Wchodzi do: {0}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Atakuje {0}.</CaravanAttacking>
+  <CaravanAttacking>Atakuje: {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Oferuje podarunki dla {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Oferuje podarunki dla: {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>Handel z {0}</CaravanTrading>
+  <CaravanTrading>Handluje z: {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>Skażone przez bycie założonym na zwłokach.</WasWornByCorpse>
+  <WasWornByCorpse>Skażone przez zwłoki.</WasWornByCorpse>
   <!-- EN: T -->
   <WornByCorpseChar>D</WornByCorpseChar>
   <!-- EN: unroofed -->
@@ -557,11 +557,11 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>przenosi {THING_label} do {DESTINATION}.</ReportHaulingTo>
+  <ReportHaulingTo>przenosi: {THING_label} do - {DESTINATION}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>zagrzebuje {THING_label} w {DESTINATION}.</ReportHaulingToGrave>
+  <ReportHaulingToGrave>zagrzebuje: {THING_label} w - {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>przenosi {1_label}.</ReportHauling>
+  <ReportHauling>przenosi: {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>przenosi.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -581,7 +581,7 @@
   <!-- EN: watching the aurora. -->
   <WatchingAurora>obserwuje zorzę.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>używa {0} na {1}.</UsingVerb>
+  <UsingVerb>używa: {0} na - {1}.</UsingVerb>
   <!-- EN: area -->
   <AreaLower>obszar</AreaLower>
   <!-- EN: cowering. -->
@@ -591,7 +591,7 @@
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>gasi ogień.</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>gasi ogień na {TARGET_label}.</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>gasi ogień na: {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>wykopuje zwłoki.</ReportDiggingUpCorpse>
 
@@ -641,11 +641,11 @@
   <!-- EN: Make {0}. -->
   <RecipeMakeDescription>Zrób {0}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>Robi {0}.</RecipeMakeJobString>
+  <RecipeMakeJobString>Robi: {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
   <RecipeAdminister>zarządzaj {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Zarządza {0}.</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Zarządza: {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>abstynent będzie nieszczęśliwy</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
@@ -671,7 +671,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{1} ({PAWN_gender})</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0}, frakcja {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0}, z frakcji {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} w {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -715,7 +715,7 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nSkrót: {0}\n\nMożesz to również zrobić powoli, klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\nSkrót klawiszowy: {0}\n\nMożesz również to zrobić powoli klikając kolejny raz ten sam kwadrat.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
 
@@ -981,7 +981,7 @@
 
   <!-- Neurotrainer -->
   <!-- EN: neurotrainer ({0}) -->
-  <SkillNeurotrainerLabel>TODO</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>neurotrener ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skill neurotrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>TODO</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
@@ -1225,11 +1225,11 @@
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {PAWN_labelShort} -->
-  <BondedWith>TODO</BondedWith>
+  <BondedWith>Związany z: {PAWN_labelShort}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>TODO</NotBonded>
+  <NotBonded>Jeszcze nie związany</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>TODO</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>związany z kimś innym</BladelinkBondedToSomeoneElse>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
