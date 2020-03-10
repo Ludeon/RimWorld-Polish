@@ -129,7 +129,7 @@
   <MessageTooLowMedCare>Operacja wymaga poziomu {0} lub wyższego. Poziom opieki medycznej {PAWN_labelShort} wynosi "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} nie żyje. Przyczyna: {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? umarł : umarła}.\nPrzyczyna śmierci: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort} właśnie {1_gender ? umarł : umarła}.</PawnDied>
 
