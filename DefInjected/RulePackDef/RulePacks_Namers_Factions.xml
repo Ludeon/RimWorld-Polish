@@ -26,7 +26,7 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>r_name->[mechhive] [msyl][msyl]</li>
     <li>mechhive->mechogniazdo</li>
     <li>msyl->nyar</li>
     <li>msyl->alg</li>
@@ -50,10 +50,7 @@
     <li>msyl->lite</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
-  -->
+  <!-- EN: Ścieżki plików -->
   <NamerFactionOutlander.rulePack.rulesFiles>
     <li>political_union_outlander_mas->Words/Nouns/PoliticalUnions_Outlander</li>
     <li>political_union_outlander_fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
@@ -61,6 +58,9 @@
     <li>political_adjective_mas->Words/Adjectives/PoliticalUnions</li>
     <li>political_adjective_fem->Words/Adjectives/PoliticalUnions_Fem</li>
     <li>political_adjective_neu->Words/Adjectives/PoliticalUnions_Neu</li>
+    <li>direction_mas->Words/Adjectives/CompassDirections_Mas</li>
+    <li>direction_fem->Words/Adjectives/CompassDirections_Fem</li>
+    <li>direction_neu->Words/Adjectives/CompassDirections_Neu</li>
   </NamerFactionOutlander.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
@@ -73,18 +73,42 @@
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[political_union_outlander_mas] [nearnameinitial]</li>
-    <li>r_name->[political_union_outlander_fem] [nearnameinitial]</li>
-    <li>r_name->[political_union_outlander_neu] [nearnameinitial]</li>
-    <li>r_name->[political_adjective_mas] [political_union_outlander_mas] [nearnameinitial]</li>
-    <li>r_name->[political_adjective_fem] [political_union_outlander_fem] [nearnameinitial]</li>
-    <li>r_name->[political_adjective_neu] [political_union_outlander_neu] [nearnameinitial]</li>
-    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
-    <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
-    <li>nearnameinitial->[Direction_Fem] [PlaceOutlander]</li>
-    <li>nearnameinitial->[Direction_Neu] [PlaceOutlander]</li>
+    <li>r_name->[political_union_outlander_mas] [PlaceOutlander]</li>
+    <li>r_name->[political_union_outlander_fem] [PlaceOutlander]</li>
+    <li>r_name->[political_union_outlander_neu] [PlaceOutlander]</li>
+    <li>r_name->[political_adjective_mas] [political_union_outlander_mas] [PlaceOutlander]</li>
+    <li>r_name->[political_adjective_fem] [political_union_outlander_fem] [PlaceOutlander]</li>
+    <li>r_name->[political_adjective_neu] [political_union_outlander_neu] [PlaceOutlander]</li>
+	<li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+    <li>nearnameinitial->[direction_mas] [placeoutlander_mas]</li>
+    <li>nearnameinitial->[direction_fem] [placeoutlander_fem]</li>
+    <li>nearnameinitial->[direction_neu] [placeoutlander_neu]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
+  <!-- EN: Ścieżki plików -->
+  <NamerFactionPirate.rulePack.rulesFiles>
+    <li>gore_gen->Words/Nouns/Gore_Gen</li>
+	<li>enemy_plural->Words/Nouns/Enemies_Plu</li>
+	<li>weapon_gen->Words/Nouns/Weapons_Gen</li>
+	<li>weapon_plu->Words/Nouns/Weapons_Plu</li>
+	<li>colors_badass_neu->Words/Nouns/Colors_Badass_Neu</li>
+	<li>colors_badass_pm->Words/Nouns/Colors_Badass_Plu_Mas</li>
+	<li>allies_plu->Words/Nouns/People_Allies_Plu</li>
+	<li>pirate_weapon_gp->Words/Custom/Pirate_Weapons_Gen_Plu</li>
+	<li>pirate_weapon_plu->Words/Custom/Pirate_Weapons_Plu</li>
+	<li>pirate_enemy_plu->Words/Custom/Pirate_Enemy_Plu</li>
+	<li>pirate_enemy_pm->Words/Custom/Pirate_Enemy_ColorsA</li>
+	<li>pirate_enemy_pb->Words/Custom/Pirate_Enemy_ColorsB</li>
+	<li>pirate_animalbadass->Words/Custom/Pirate_AnimalBadass</li>
+	<li>pirate_conceptbadass->Words/Custom/Pirate_ConceptBadass</li>
+	<li>pirate_personbadass->Words/Custom/Pirate_PeopleBadass</li>
+	<li>of_pirate_personbadass->Words/Custom/Pirate_PeopleBadass_Group</li>
+	<li>pirate_personbadass_pm->Words/Custom/Pirate_PeopleBadass_ColorsA</li>
+	<li>pirate_personbadass_neu->Words/Custom/Pirate_PeopleBadass_ColorsB</li>
+	<li>adj_badass_fem->Words/Adjectives/Badass_Fem</li>
+	<li>adj_badass_neu->Words/Adjectives/Badass_Neu</li>
+	<li>adj_badass_pm->Words/Adjectives/Badass_Plu_Mas</li>
+  </NamerFactionPirate.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
     <li>r_name->The [AnimalBadass] Men</li>
@@ -115,33 +139,37 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->[AnimalBadass]</li>
-    <li>r_name->[AnimalBadass] Men</li>
-    <li>r_name->[AnimalBadass] [ConceptBadass]</li>
-    <li>r_name->[PersonBadass] [ConceptBadass]</li>
-    <li>r_name->[PersonBadass]</li>
-    <li>r_name->[Enemy]</li>
-    <li>r_name->[Weapon] Men</li>
-    <li>r_name->[Weapon]</li>
-    <li>r_name->[Weapon] [AnimalBadass]</li>
-    <li>r_name->[Weapon] [Enemy]s</li>
-    <li>r_name->[ColorBadass] [Weapon]</li>
-    <li>r_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_name->[ColorBadass] [PersonBadass]</li>
-    <li>r_name->[ColorBadass] [Enemy]</li>
-    <li>r_name->[PersonBadass] [groupname]</li>
-    <li>r_name->[Enemy] [Enemy]</li>
-    <li>r_name->[AdjectiveBadass] [groupname]</li>
-    <li>r_name->[AdjectiveBadass] [AnimalBadass]</li>
-    <li>r_name->[AdjectiveBadass] [Enemy]</li>
-    <li>r_name->[AdjectiveBadass] [PersonBadass]</li>
-    <li>r_name->[PersonAlly] [ConceptBadass]</li>
-    <li>r_name(p=0.4)->Zjadacze [Gore_Gen]</li>
+    <li>r_name->[pirate_animalbadass]</li>
+    <li>r_name->Ludzie-[pirate_animalbadass]</li>
+    <li>r_name->[pirate_animalbadass] [pirate_conceptbadass]</li>
+    <li>r_name->[pirate_personbadass] [pirate_conceptbadass]</li>
+    <li>r_name->[pirate_personbadass]</li>
+    <li>r_name->[enemy_plural]</li>
+    <li>r_name->Ludzie [weapon_gen]</li>
+    <li>r_name->[pirate_weapon_plu]</li>
+    <li>r_name->[pirate_weapon_plu] [pirate_conceptbadass]</li>
+    <li>r_name->[pirate_enemy_plu] [pirate_weapon_plu]</li>
+    <li>r_name->[colors_badass_neu] [weapon_plu]</li>
+    <li>r_name->[colors_badass_neu] [pirate_animalbadass]</li>
+    <li>r_name->[colors_badass_pm] [pirate_personbadass_pm]</li>
+    <li>r_name->[colors_badass_neu] [pirate_personbadass_neu]</li>
+    <li>r_name->[colors_badass_pm] [pirate_enemy_pm]</li>
+    <li>r_name->[colors_badass_neu] [pirate_enemy_pb]</li>
+    <li>r_name->[groupname] [of_pirate_personbadass]</li>
+    <li>r_name->[pirate_enemy_plu] [pirate_enemy_pm]</li>
+    <li>r_name->[adj_badass_fem] [groupname]</li>
+    <li>r_name->[adj_badass_neu] [pirate_animalbadass]</li>
+    <li>r_name->[adj_badass_pm] [pirate_enemy_pm]</li>
+    <li>r_name->[adj_badass_neu] [pirate_enemy_pb]</li>
+    <li>r_name->[adj_badass_pm] [pirate_personbadass_pm]</li>
+    <li>r_name->[adj_badass_neu] [pirate_personbadass_neu]</li>
+    <li>r_name->[allies_plu] [ConceptBadass]</li>
+    <li>r_name(p=0.4)->Wyjadacze [gore_gen]</li>
     <li>r_name->[NamePerson] [Enemy]</li>
     <li>r_name->[NamePerson] [AnimalBadass]</li>
     <li>r_name->[NamePerson] [Weapon]</li>
-    <li>r_name->[Weapon] [groupname]</li>
-    <li>r_name->[ConceptBadass] [groupname]</li>
+    <li>r_name->[groupname] [pirate_weapon_gp]</li>
+    <li>r_name->[groupname] [pirate_conceptbadass]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
