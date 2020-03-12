@@ -5,7 +5,7 @@
     <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
   -->
   <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] [RECIPIENT_gender ? zgodził : zgodziła] się i ta dwójka jest teraz zaręczona.</li>
+    <li>sent->[RECIPIENT_nameDef] [RECIPIENT_gender ? zgodził : zgodziła] się i są teraz zaręczeni.</li>
   </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
   
   <!-- EN:
@@ -28,9 +28,9 @@
     <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
   -->
   <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] was attracted and is now [INITIATOR_nameDef]'s lover.</li>
-    <li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
-    <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
+    <li>sent->[RECIPIENT_nameDef] [RECIPIENT_gender ? był : była] [RECIPIENT_gender ? zainteresowany : zainteresowana] i zostaje [RECIPIENT_gender ? kochankiem : kochanką] [INITIATOR_nameDef].</li>
+    <li>sent->[RECIPIENT_nameDef] dobrze [RECIPIENT_gender ? zareagował : zareagowała] i jest teraz [RECIPIENT_gender ? kochankiem : kochanką] [INITIATOR_nameDef].</li>
+    <li>sent->[RECIPIENT_nameDef] bardzo się [RECIPIENT_gender ? ucieszył : ucieszyła] i zgadza się zostać [RECIPIENT_gender ? kochankiem : kochanką] [INITIATOR_nameDef].</li>
   </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
@@ -43,13 +43,12 @@
     <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
   -->
   <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] rejected the advance.</li>
-    <li>sent->[RECIPIENT_nameDef] ignored the advance.</li>
-    <li>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</li>
-    <li>sent->[RECIPIENT_nameDef] turned away.</li>
-    <li>sent->[RECIPIENT_nameDef] gave a minimal response.</li>
-    <li>sent->[RECIPIENT_nameDef] did not respond.</li>
-    <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+    <li>sent->[RECIPIENT_nameDef] odrzuca [INITIATOR_possessive] zaloty.</li>
+    <li>sent->[RECIPIENT_nameDef] ignoruje [INITIATOR_possessive] zaloty.</li>
+    <li>sent->[RECIPIENT_nameDef] odwraca się do [INITIATOR_gender ? niego : niej] plecami.</li>
+    <li>sent->[RECIPIENT_nameDef] odwraca się.</li>
+    <li>sent->[RECIPIENT_nameDef] nie odpowiada.</li>
+    <li>sent->[RECIPIENT_nameDef] [RECIPIENT_gender ? uciszył : uciszyła] [INITIATOR_gender ? go : ją].</li>
   </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>
