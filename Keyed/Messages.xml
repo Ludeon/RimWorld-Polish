@@ -129,7 +129,7 @@
   <MessageTooLowMedCare>Operacja wymaga poziomu {0} lub wyższego. Poziom opieki medycznej {PAWN_labelShort} wynosi "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} nie żyje. Przyczyna: {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? umarł : umarła}.\nPrzyczyna śmierci: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort} właśnie {1_gender ? umarł : umarła}.</PawnDied>
 
@@ -171,7 +171,7 @@
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} {NAMER_gender ? nadał : nadała} {1} imię "{NAMEE_nameFull}" po tym, jak {NAMER_gender ? został : została} {NAMER_gender ? trącony : trącona}.</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić {ANIMAL_kindBase} (wymaga poziomu {1} w kategorii: {2}, najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić tego zwierzęcia, (wymaga poziomu {1} w kategorii: {2}, a najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? został : została} {EATEN_gender ? zjedzony : zjedzona}  przez {PREDATOR}.</MessageEatenByPredator>

@@ -40,20 +40,20 @@
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} pochodzi z {PAWN_factionName}. Jeśli {PAWN_objective} uratujesz, może dobrowolnie dołączyć. W przeciwnym razie powróci do domu i wzrośnie reputacja między waszymi frakcjami.\n\nMożesz także przechwycić {PAWN_objective} do celów rekrutacyjnych lub niewolniczych, ale to rozgniewa {PAWN_possessive} frakcję.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
-  <LetterLabelCargoPodCrash>Kapsuły ładunkowa</LetterLabelCargoPodCrash>
+  <LetterLabelCargoPodCrash>Kapsuły ładunkowe</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
   <CargoPodCrash>Wykryto kapsuły ładunkowe, które rozbiły się niedaleko.\n\nMoże uda się znaleźć coś użytecznego we wraku.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
   <AnElectricalConduit>przewód elektryczny</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>Usterka w {0} spowodowała zwarcie.</ShortCircuit>
+  <ShortCircuit>Usterka w przewodzie elektrycznym spowodowała krótkie zwarcie.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>Usterka w {0} spowodowała zwarcie, które spowodowało pożar.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>Usterka w przewodzie elektrycznym spowodowała krótkie zwarcie, które wywołało pożar.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>Cała zgromadzona energia {0} Wd została rozładowana w eksplozji.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Cała nagromadzona energia ({0} Wd) w podłączonym akumulatorze została rozładowana w wyniku eksplozji.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
-  <ShortCircuitWasLarge>Taka ilość energii spowodowała duży wybuch.</ShortCircuitWasLarge>
+  <ShortCircuitWasLarge>Taka duża ilość energii wytworzyła eksplozję znacznych rozmiarów.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>To był naprawdę wielki wybuch. Łał.</ShortCircuitWasHuge>
 
@@ -101,9 +101,9 @@
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Przebudzenie nastąpiło {0} dni temu</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>TODO</ActivatedDaysAgo>
+  <ActivatedDaysAgo>Aktywowano {0} dni temu</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>TODO</OpenedDaysAgo>
+  <OpenedDaysAgo>Otworzono {0} dni temu</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Poziom brzęczenia: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -177,9 +177,9 @@
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
-  <CaravanMeetingTitle>Spotkanie karawan z {0}</CaravanMeetingTitle>
+  <CaravanMeetingTitle>Spotkanie karawany z frakcji {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>Twoja karawana spotkała się z inną pokojowo nastawioną grupą z {0}. Składa się ona z:\n\n{1}.</CaravanMeeting>
+  <CaravanMeeting>Twoja {0} spotkała się z inną pokojową karawaną z frakcji {1}. Składa się ona z:\n\n{2}.</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Handluj</CaravanMeeting_Trade>
   <!-- EN: Attack -->
@@ -215,9 +215,9 @@
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>Misja nie jest już dostępna</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>Zadanie nie jest już dostępna</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>Misje nie są już dostępne</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>Zadania nie są już dostępne</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
   <LetterSiteNoLongerHostile>Ponieważ nie jesteś już wrogiem z {0}, to {1} teren nie jest już dostępny.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
@@ -225,32 +225,20 @@
 
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerFactionHostile>TODO</LetterLabelQuestAskerFactionHostile>
+  <LetterLabelQuestAskerFactionHostile>Zadanie nieudane</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
   <LetterQuestAskerFactionHostile>TODO</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerCaptured>TODO</LetterLabelQuestAskerCaptured>
+  <LetterLabelQuestAskerCaptured>Zadanie nieudane</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
   <LetterQuestAskerCaptured>TODO</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerDied>TODO</LetterLabelQuestAskerDied>
+  <LetterLabelQuestAskerDied>Zadanie nieudane</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>TODO</LetterQuestAskerDied>
-
-  <!-- UNUSED -->
-  <LetterLabelPsychicDrone>Psychiczne brzęczenie</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>Każdy(-a) {0} krzywi się z bólu!\n\nJakaś odległa maszyna nienawiści wytwarza psychiczne brzęczenie w całym tym regionie, z częstotliwością, która tylko wydaje się wpływać tylko na tą płeć. Przez kilka dni nastrój niektórych kolonistów będzie nieco gorszy</LetterIncidentPsychicDrone>
-  <LetterLabelPsychicSoothe>Uspokajająca fala</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>Każdy(-a) {0} uśmiecha się z zadowoleniem!\n\nJakaś odległa maszyna szczęścia emituje potężne psychiczne drgania na cały region w częstotliwości oddziałującej tylko na tą płeć. Przez kilka dni nastrój niektórych kolonistów będzie nieco lepszy.</LetterIncidentPsychicSoothe>
-  <RefugeeChasedTitle>Uchodźca złapany w {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>{PAWN_titleIndef} {PAWN_gender ? zwany : zwana} {PAWN_nameDef} wzywa Cię z pobliża. Jest goniony przez {2} z {3}.\n\nBłaga Cię o schronienie i oferuje, że dołączy do kolonii. Biologicznie ma {4} lat, ale teraz nie ma czasu by dowiedzieć się więcej o {PAWN_gender ? nim : niej} więcej.\n\nUwaga - jeżeli się zgodzisz, będziesz musiał walczyć z {2} będącymi na {PAWN_possessive} ogonie. Ich grupa jest  złożona z:\n\n{5}</RefugeeChasedInitial>
-  <RefugeeChasedInitial_Accept>Zaoferuj schronienie</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>Zignoruj wiadomość</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>{1_labelShort} krzyczy w panice, zanim wyłączasz transmisję.</RefugeeChasedRejected>
-  <JourneyOffer>Charlon Whitestone, przyjazny SI z Twojej przeszłości, wysłał Ci wiadomość!\n\nUjawnił, że ma ukryty statek kosmiczny na tej planecie i wyśle Ci jego współrzędne.\n\nStatek jest aktualnie w głębokiej hibernacji. Będziesz musiał go uruchomić kiedy tam dotrzesz, następnie obronić go przed najeźdźcami próbującymi ukraść go zanim sekwencja startowa się zakończy.\n\nJeżeli uda Ci się uruchomić statek, Charlon zabierze Cię z tego świata, do gwiazd.</JourneyOffer>
-
+  
 </LanguageData>

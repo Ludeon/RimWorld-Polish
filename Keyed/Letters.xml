@@ -23,7 +23,7 @@
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
   <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz uważają Cię za neutralnego.\n\nDalej będą traktować Cię pokojowo, lecz nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
-  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy czasem przybędą by pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc za koszt reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy czasem będą przybywać, aby pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc kosztem reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
 
   <!-- EN: goodwill -->
   <goodwill>reputacja</goodwill>
@@ -135,7 +135,7 @@
   <!-- EN: This happened because of: {0}. -->
   <MentalStateReason_Hediff>Powodem tego zdarzenia jest: {0}.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>Powodem tego zdarzenia jest śmierć {0_definite}.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>Powodem tego zdarzenia jest śmierć: {0_definite}.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Ostatnim wydarzeniem było</LastFactionRelationsEvent>
 
@@ -395,7 +395,7 @@
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
   <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} poluje na {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} poluje na {PREY_definite} dla pożywienia!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} poluje na {PREY_definite}, aby się pożywić!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
@@ -508,11 +508,5 @@
   <LetterLabelMechClusterArrived>TODO</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
   <LetterMechClusterArrived>TODO</LetterMechClusterArrived>
-
-  <!-- UNUSED -->
-  <PrisonerRescueTimeout>Ten obóz zniknie za {0} dni. Jeżeli przegapisz szansę, możesz już nie usłyszeć więcej od {PRISONER_labelShort}.</PrisonerRescueTimeout>
-  <LetterLabelMentalBreakdown>Załamanie nerwowe</LetterLabelMentalBreakdown>
-  <LetterLabelNewParty>Przyjęcie</LetterLabelNewParty>
-  <LetterNewParty>{1_labelShort} organizuje przyjęcie! Każdy, kto dołączy do tej imprezy, poprawi swój nastrój oraz zwiększy energię społeczną. Wszyscy imprezowicze otrzymają długotrwały bonus do nastroju.</LetterNewParty>
-
+  
 </LanguageData>
