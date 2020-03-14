@@ -33,12 +33,12 @@
   <MessageVisitorsDangerousTemperature>{0} z frakcji {1} opuszczają mapę z powodu niebezpiecznej temperatury.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{0} niesiony przez {1_nameFull} zupełnie się rozpadł.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{0} {0_gender ? noszony : noszona : noszone} przez {1_nameFull} zupełnie się {0_gender ? rozpadł : rozpadła : rozpadło}.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>TODO</MessageDeterioratedAway>
+  <MessageDeterioratedAway>{0} {0_gender ? zniszczył(y) : zniszczyła : zniszczyło} się w składowisku.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
-  <MessageSeasonBegun>Zaczęła się {0}.</MessageSeasonBegun>
+  <MessageSeasonBegun>{0_gender ? : zaczęła : zaczęło} się {0}.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0} opuścił zasięg komunikatora.</MessageShipHasLeftCommsRange>
@@ -47,7 +47,7 @@
   <MessageNeedBeaconToTradeWithShip>Potrzebujesz nadajnika handlu orbitalnego, aby wymieniać dobra ze statkiem.\n\nNadajnik musi być zasilony</MessageNeedBeaconToTradeWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>TODO</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0} zostało zniszczone</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Zlecenie ukończone: {0}.</MessageBillComplete>
@@ -69,11 +69,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} pomyślnie {RECRUITER_gender ? zwerbował : zwerbowała} {RECRUITEE_nameFull} ({2} szans).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} pomyślnie {RECRUITER_gender ? zwerbował : zwerbowała} - {RECRUITEE_nameFull} ({2} szans).</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} {1} ({2} szans).</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} - {1} ({2} szans).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} {1} ({2} szans). Zwie się teraz {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} - {1} ({2} szans). Zwie się teraz {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>Kolonii nie stać na tę transakcję.</MessageColonyCannotAfford>
@@ -243,7 +243,7 @@
   <MessageRottedAwayInStorage>{1_label} {1_gender ? zgnił(y) : zgniła : zgniło} w składowisku.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort} {PAWN_gender ? dostał : dostała} zatrucia od: {FOOD_labelShort}.\nPrzyczyna: {2}.</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort} {PAWN_gender ? dostał : dostała} zatrucia od: {FOOD_labelShort}. Przyczyna: {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? został : została} {0_gender ? usunięty : usunięta} z karawany.</MessagePawnLostWhileFormingCaravan>
@@ -458,52 +458,52 @@
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Nie możesz teraz opuścić mapy.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>Relacje z frakcją {0} zmieniły się z {1} do {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChanged>Relacje z frakcją {0} zmieniły się z {1} na {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>Relacje z frakcją {0} zmieniły się z {1} do {2} ({3}).</MessageGoodwillChangedWithReason>
+  <MessageGoodwillChangedWithReason>Relacje z frakcją {0} zmieniły się z {1} na {2} ({3}).</MessageGoodwillChangedWithReason>
   <!-- EN: attacked {1_labelShort} -->
-  <GoodwillChangedReason_AttackedPawn>{1_gender ? zaatakował : zaatakowała} {1_labelShort}</GoodwillChangedReason_AttackedPawn>
+  <GoodwillChangedReason_AttackedPawn>zaatakowano {1_labelShort}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
-  <GoodwillChangedReason_UsedItem>użył {ITEM_labelShort} na {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_UsedItem>użyto {ITEM_labelShort} na {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedAbility>TODO</GoodwillChangedReason_UsedAbility>
+  <GoodwillChangedReason_UsedAbility>użyto {0} na {1}</GoodwillChangedReason_UsedAbility>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>zebrano {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: downgraded {0} -->
-  <GoodwillChangedReason_DowngradedImplant>TODO</GoodwillChangedReason_DowngradedImplant>
+  <GoodwillChangedReason_DowngradedImplant>zdegradowano {0}</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>niepotrzebnie zainstalowano {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
-  <GoodwillChangedReason_CapturedPawn>{1_gender ? schwytał : schwytała} {1_labelShort}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_CapturedPawn>schwytano {1_labelShort}</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {1_labelShort} crushed -->
-  <GoodwillChangedReason_PawnCrushed>{1_labelShort} {1_gender ? zgniótł : zgniotła}</GoodwillChangedReason_PawnCrushed>
+  <GoodwillChangedReason_PawnCrushed>zgnieciono {1_labelShort}</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
-  <GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? zmarł : zmarła}</GoodwillChangedReason_PawnDied>
+  <GoodwillChangedReason_PawnDied>śmierć {1_labelShort}</GoodwillChangedReason_PawnDied>
   <!-- EN: traded -->
-  <GoodwillChangedReason_Traded>wymieniono</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_Traded>przeprowadzono wymianę</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>zaatakowano karawanę</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>naturalna tendencja do osiągnięcia {0} z czasem</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} opuszcza mapę {1_gender ? zdrowy : zdrowa}</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} {1_gender ? opuścił : opuściła} mapę {1_gender ? zdrowy : zdrowa}</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
-  <GoodwillChangedReason_Tended>{1_gender ? miał : miała} tendencję do {1_labelShort}</GoodwillChangedReason_Tended>
+  <GoodwillChangedReason_Tended>opatrzono {1_labelShort}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>otrzymali podarunek</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>otrzymywali podarunek</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>spełnił ofertę handlową</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>spełniono ofertę handlową</GoodwillChangedReason_FulfilledTradeRequest>
   <!-- EN: finished a quest -->
-  <GoodwillChangedReason_FinishedQuest>TODO</GoodwillChangedReason_FinishedQuest>
+  <GoodwillChangedReason_FinishedQuest>ukończono zadanie</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>TODO</GoodwillChangedReason_UsedForbiddenThing>
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} {PAWN_gender ? użył : użyła} {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <!-- EN: sold {0_labelShort} -->
-  <GoodwillChangedReason_SoldPawn>TODO</GoodwillChangedReason_SoldPawn>
+  <GoodwillChangedReason_SoldPawn>sprzedano {0_labelShort}</GoodwillChangedReason_SoldPawn>
   <!-- EN: euthanized {PAWN_labelShort} -->
-  <GoodwillChangedReason_EuthanizedPawn>TODO</GoodwillChangedReason_EuthanizedPawn>
+  <GoodwillChangedReason_EuthanizedPawn>poddano eutanazji {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0} przyjęli podarunek, ale go nie doceniają.</MessageGiftGivenButNotAppreciated>
+  <MessageGiftGivenButNotAppreciated>Frakcja {0} przyjęła podarunek, ale go nie docenia.</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>Karawana jest już obciążona i nie może unieść już nic więcej.</MessageCantGiveGiftBecauseCantCarryEncumbered>
@@ -543,10 +543,10 @@
   <MessageEnterCooldownBlocksEntering>Nie można ponownie wstąpić przez kolejne {0} dni.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>TODO</MessagePermitCooldownFinished>
+  <MessagePermitCooldownFinished>{0_labelShort} może teraz swobodnie używać "{1}".</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} poluje na {PREY_definite} ({PREY_kindBase}) dla pożywienia!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} poluje na {PREY_definite} ({PREY_kindBase}), aby się pożywić!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken> Opór więźnia {PRISONER_labelShort} został złamany przez {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
@@ -572,33 +572,33 @@
   <MessageCantShootInMelee>Nie można strzelać w walce wręcz.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>TODO</MessageNoColonistCanAcceptQuest>
+  <MessageNoColonistCanAcceptQuest>Żaden Twój {0} nie może teraz przyjąć tego zadania.</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
-  <MessageCannotAcceptQuest>TODO</MessageCannotAcceptQuest>
+  <MessageCannotAcceptQuest>Nie można przyjąć tego zadania.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
-  <MessageQuestAccepted>TODO</MessageQuestAccepted>
+  <MessageQuestAccepted>{0_definite} {0_gender ? przyjął : przyjęła} zadanie: {1}</MessageQuestAccepted>
   <!-- EN: {0} is leaving. -->
-  <MessagePawnLeaving>TODO</MessagePawnLeaving>
+  <MessagePawnLeaving>{0} odchodzi.</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
-  <MessagePawnsLeaving>TODO</MessagePawnsLeaving>
+  <MessagePawnsLeaving>{0} odchodzą.</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>TODO</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Pomnik został zniszczony, ponieważ zbudowano wewnątrz niedozwolony budynek.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>TODO</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>Nie można zastosować: brak dostępnego, niezarezerwowanego stołu badawczego.</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
-  <NoValidDestinationFound>TODO</NoValidDestinationFound>
+  <NoValidDestinationFound>Nie znaleziono prawidłowego miejsca docelowego dla {0}</NoValidDestinationFound>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
   <MessageResearchMenuWithoutBench>Uwaga: Zanim nie zostanie wybudowany STÓŁ BADAWCZY, nie będzie można przeprowadzać badań.</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>TODO</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? uruchomił : uruchomiła} zbliżeniowy aktywator.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>TODO</MessageCannotSelectInvisibleStat>
+  <MessageCannotSelectInvisibleStat>{0_label} jest w tej chwili ukryte.</MessageCannotSelectInvisibleStat>
 
 </LanguageData>
