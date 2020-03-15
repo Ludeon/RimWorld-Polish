@@ -54,7 +54,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Nie można zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono spoza Steam bez pliku "steam_appid.txt" we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nWciąż możesz zagrać, ale statystyki Steam nie zostaną zarejestrowane a funkcje Steam będą niedostępne.</SteamClientMissing>
+  <SteamClientMissing>Nie można zainicjować Steam API. Możliwe przyczyny:\n\n-Steam nie jest uruchomiony.\n-Uruchomiono spoza Steam, bez pliku "steam_appid.txt" we właściwym miejscu.\n-Uruchomiono z innymi uprawnieniami niż klient Steam (np. "jako administrator").\n\nW większości przypadków ponowne uruchomienie komputera naprawi problem.\n\nWciąż możesz zagrać, ale statystyki Steam nie zostaną zarejestrowane a funkcje Steam będą niedostępne.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -299,7 +299,7 @@
   <!-- EN: Cooldown -->
   <CooldownTime>Czas między atakami</CooldownTime>
   <!-- EN: Disarmed -->
-  <DisarmedTime>TODO</DisarmedTime>
+  <DisarmedTime>Czas rozbrojenia</DisarmedTime>
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Częstotliwość strzałów</BurstShotFireRate>
   <!-- EN: Range -->
@@ -365,7 +365,7 @@
   <!-- EN: Base price -->
   <MarketValue>Cena podstawowa</MarketValue>
   <!-- EN: Covers -->
-  <Covers>Osłony</Covers>
+  <Covers>Osłania</Covers>
   <!-- EN: Created at -->
   <CreatedAt>Utworzony</CreatedAt>
   <!-- EN: Layer -->
@@ -419,7 +419,7 @@
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Jak (średnio) często zwierzę będzie trącać przyjaznych kolonistów.\n\nTrącanie jest wspólnym zachowaniem wielu gatunków zwierząt, gdzie zwierzę dotyka nosem lub pyskiem swojego przyjaciela jako znak przywiązania.\nWiększość ludzi uważa to za słodkie, a także polepsza to im nastrój na pewien czas.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Szansa zemsty za zranienie</HarmedRevengeChance>
+  <HarmedRevengeChance>Szansa zemsty przy zranieniu</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>Szansa, że to stworzenie będzie szukało zemsty, gdy zostanie zranione przez atakującego z dystansu.\n\nWzrasta, gdy atakujący jest bliżej. Jeśli atakujący jest bardzo blisko, szansa zwiększa się trzykrotnie.\nJest liczona z każdym otrzymanym obrażeniem, wiec broń która strzela wolniej, ale zadaje duże obrażenia, ma mniejsze prawdopodobieństwo na wywołanie zemsty.\nAby zminimalizować to ryzyko, atakuj z dużych odległości wolnostrzelnymi broniami.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
@@ -479,17 +479,17 @@
   <!-- EN: Your tradeable silver: {0} -->
   <YourTradeableSilver>Twoje srebro, którym możesz handlować: {0}</YourTradeableSilver>
   <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
-  <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie jest pod dachem.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Możesz handlować tylko srebrem, które leży niedaleko nadajnika handlu orbitalnego i nie znajduje się pod dachem.</YourTradeableSilverTip>
   <!-- EN: Trader has no more. -->
   <TraderHasNoMore>Handlarz nie ma tego więcej.</TraderHasNoMore>
   <!-- EN: No more to sell. -->
   <ColonyHasNoMore>Nie masz więcej na sprzedaż.</ColonyHasNoMore>
   <!-- EN: Trader is not willing to buy this. -->
-  <TraderWillNotTrade>Handlarz nie chce handlować tym przedmiotem.</TraderWillNotTrade>
+  <TraderWillNotTrade>Handlarz tego nie kupi.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Negocjator</Negotiator>
   <!-- EN: Negotiator: {0} (+{1}) -->
-  <NegotiatorTradeDialogInfo>TODO</NegotiatorTradeDialogInfo>
+  <NegotiatorTradeDialogInfo>Negocjator: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Twój negocjator {0} nie jest zdolny do rozmowy z powodu słabego zdrowia.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -521,7 +521,7 @@
   <!-- EN: Final price -->
   <FinalPrice>Ostateczna cena</FinalPrice>
   <!-- EN: Gift mode - offer gifts to {0}. -->
-  <GiftModeTip>Tryb podarunku - zaoferuj podarunek {0}.</GiftModeTip>
+  <GiftModeTip>Tryb podarunku - zaoferuj podarunek dla: {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Powróć do trybu handlowania.</TradeModeTip>
 
@@ -675,7 +675,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>TODO</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>Czy na pewno chcesz zaatakować - {0}?\n\nTo sprawi, że frakcja {1} stanie się dla Ciebie wroga, możliwe, że zacznie napadać na Twoją kolonię!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -683,15 +683,15 @@
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Wybrane osoby i przedmioty są za ciężkie dla kapsuł transportowych.</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>TODO</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>Wybrane osoby i przedmioty są za ciężkie dla promu.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Nie możesz wysłać pustych kapsuł.</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
-  <CantSendEmptyTransporterSingle>TODO</CantSendEmptyTransporterSingle>
+  <CantSendEmptyTransporterSingle>Nie możesz wysłać pustego promu</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{0} nie może dostać się do kapsuł.</PawnCantReachTransporters>
   <!-- EN: {1_labelShort} can't reach the shuttle. -->
-  <PawnCantReachTransporterSingle>TODO</PawnCantReachTransporterSingle>
+  <PawnCantReachTransporterSingle>{0} nie może dostać się do promu</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>Pomiędzy kapsułami i {0} nie ma przejścia.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the shuttle and the {0}. -->
@@ -699,7 +699,7 @@
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>Pomiędzy kapsułami i {0}x {1} nie ma przejścia.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
-  <TransporterSingleItemIsUnreachableMulti>TODO</TransporterSingleItemIsUnreachableMulti>
+  <TransporterSingleItemIsUnreachableMulti>Pomiędzy promem i {0}x {1} nie ma przejścia.</TransporterSingleItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->

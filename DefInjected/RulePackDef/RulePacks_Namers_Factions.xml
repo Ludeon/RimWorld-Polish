@@ -52,7 +52,8 @@
   
   <!-- EN: Ścieżki plików -->
   <NamerFactionOutlander.rulePack.rulesFiles>
-    <li>political_union_outlander_mas->Words/Nouns/PoliticalUnions_Outlander</li>
+    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+    <li>political_union_outlander_mas->Words/Nouns/PoliticalUnions_Outlander_Mas</li>
     <li>political_union_outlander_fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
     <li>political_union_outlander_neu->Words/Nouns/PoliticalUnions_Outlander_Neu</li>
     <li>political_adjective_mas->Words/Adjectives/PoliticalUnions</li>
@@ -73,13 +74,11 @@
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[political_union_outlander_mas] [PlaceOutlander]</li>
-    <li>r_name->[political_union_outlander_fem] [PlaceOutlander]</li>
-    <li>r_name->[political_union_outlander_neu] [PlaceOutlander]</li>
+    <li>r_name->[political_union_outlander] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_mas] [political_union_outlander_mas] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_fem] [political_union_outlander_fem] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_neu] [political_union_outlander_neu] [PlaceOutlander]</li>
-	<li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[direction_mas] [placeoutlander_mas]</li>
     <li>nearnameinitial->[direction_fem] [placeoutlander_fem]</li>
     <li>nearnameinitial->[direction_neu] [placeoutlander_neu]</li>
@@ -87,27 +86,29 @@
   
   <!-- EN: Ścieżki plików -->
   <NamerFactionPirate.rulePack.rulesFiles>
+    <li>groupname->Words/Nouns/GroupNames</li>
     <li>gore_gen->Words/Nouns/Gore_Gen</li>
-	<li>enemy_plural->Words/Nouns/Enemies_Plu</li>
-	<li>weapon_gen->Words/Nouns/Weapons_Gen</li>
-	<li>weapon_plu->Words/Nouns/Weapons_Plu</li>
-	<li>colors_badass_neu->Words/Nouns/Colors_Badass_Neu</li>
-	<li>colors_badass_pm->Words/Nouns/Colors_Badass_Plu_Mas</li>
-	<li>allies_plu->Words/Nouns/People_Allies_Plu</li>
-	<li>pirate_weapon_gp->Words/Custom/Pirate_Weapons_Gen_Plu</li>
-	<li>pirate_weapon_plu->Words/Custom/Pirate_Weapons_Plu</li>
-	<li>pirate_enemy_plu->Words/Custom/Pirate_Enemy_Plu</li>
-	<li>pirate_enemy_pm->Words/Custom/Pirate_Enemy_ColorsA</li>
-	<li>pirate_enemy_pb->Words/Custom/Pirate_Enemy_ColorsB</li>
-	<li>pirate_animalbadass->Words/Custom/Pirate_AnimalBadass</li>
-	<li>pirate_conceptbadass->Words/Custom/Pirate_ConceptBadass</li>
-	<li>pirate_personbadass->Words/Custom/Pirate_PeopleBadass</li>
-	<li>of_pirate_personbadass->Words/Custom/Pirate_PeopleBadass_Group</li>
-	<li>pirate_personbadass_pm->Words/Custom/Pirate_PeopleBadass_ColorsA</li>
-	<li>pirate_personbadass_neu->Words/Custom/Pirate_PeopleBadass_ColorsB</li>
-	<li>adj_badass_fem->Words/Adjectives/Badass_Fem</li>
-	<li>adj_badass_neu->Words/Adjectives/Badass_Neu</li>
-	<li>adj_badass_pm->Words/Adjectives/Badass_Plu_Mas</li>
+    <li>enemy_plural->Words/Nouns/Enemies_Plu</li>
+    <li>weapon_gen->Words/Nouns/Weapons_Gen</li>
+    <li>weapon_plu->Words/Nouns/Weapons_Plu</li>
+    <li>colors_badass_neu->Words/Nouns/Colors_Badass_Neu</li>
+    <li>colors_badass_pm->Words/Nouns/Colors_Badass_Plu_Mas</li>
+    <li>allies_plu->Words/Nouns/People_Allies_Plu</li>
+    <li>pirate_weapon_gp->Words/Custom/Pirate_Weapons_Gen_Plu</li>
+    <li>pirate_weapon_plu->Words/Custom/Pirate_Weapons_Plu</li>
+    <li>pirate_enemy_plu->Words/Custom/Pirate_Enemy_Plu</li>
+    <li>pirate_enemy_pm->Words/Custom/Pirate_Enemy_ColorsA</li>
+    <li>pirate_enemy_pb->Words/Custom/Pirate_Enemy_ColorsB</li>
+    <li>pirate_animalbadass->Words/Custom/Pirate_AnimalBadass</li>
+    <li>pirate_conceptbadass->Words/Custom/Pirate_ConceptBadass</li>
+    <li>pirate_conceptbadass_nom->Words/Custom/Pirate_ConceptBadass_Nom</li>
+    <li>pirate_personbadass->Words/Custom/Pirate_PeopleBadass</li>
+    <li>of_pirate_personbadass->Words/Custom/Pirate_PeopleBadass_Group</li>
+    <li>pirate_personbadass_pm->Words/Custom/Pirate_PeopleBadass_ColorsA</li>
+    <li>pirate_personbadass_neu->Words/Custom/Pirate_PeopleBadass_ColorsB</li>
+    <li>adj_badass_fem->Words/Adjectives/Badass_Fem</li>
+    <li>adj_badass_neu->Words/Adjectives/Badass_Neu</li>
+    <li>adj_badass_pm->Words/Adjectives/Badass_Plu_Mas</li>
   </NamerFactionPirate.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
@@ -148,6 +149,7 @@
     <li>r_name->Ludzie [weapon_gen]</li>
     <li>r_name->[pirate_weapon_plu]</li>
     <li>r_name->[pirate_weapon_plu] [pirate_conceptbadass]</li>
+    <li>r_name->[pirate_conceptbadass_nom] [pirate_weapon_plu]</li>
     <li>r_name->[pirate_enemy_plu] [pirate_weapon_plu]</li>
     <li>r_name->[colors_badass_neu] [weapon_plu]</li>
     <li>r_name->[colors_badass_neu] [pirate_animalbadass]</li>
@@ -169,6 +171,13 @@
     <li>r_name->[groupname] [pirate_conceptbadass]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
   
+  <!-- EN: Ścieżki plików -->
+  <NamerFactionTribal.rulePack.rulesFiles>
+    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>code->Words/Nouns/Tribal colorki</li>
+    <li>code->Words/Nouns/tribal zwierzaki</li>
+    <li>code->Words/Nouns/terrain gen</li>
+  </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[tribalworld] [political_union_tribal]</li>
     <li>r_name->The [tribalworld] [political_union_tribal]</li>
@@ -178,12 +187,11 @@
     <li>r_name->The [WordTribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[tribalworld] [political_union_tribal]</li>
-    <li>r_name->[tribalworld] [political_union_tribal]</li>
-    <li>r_name->[Color] [TerrainFeature] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[Color] [Animal] [WordTribal]</li>
-    <li>r_name->[WordTribal] [TerrainFeature]</li>
+    <li>r_name->[political_union_tribal] [Color] [TerrainFeature]</li>
+    <li>r_name->[political_union_tribal] [Color] [Animal]</li>
+    <li>r_name->[Color] [Animal]</li>
+    <li>r_name->[TerrainFeature] [WordTribal] </li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -200,6 +208,11 @@
     <li>r_name->Wioska</li>
   </NamerInitialSettlementTribe.rulePack.rulesStrings>
   
+  <!-- EN: Ścieżki plików -->
+  <NamerFactionTribal.rulePack.rulesFiles>
+    <li>townname_fixed->Names/OutlanderTown</li>
+    <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+  </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
     <li>r_name(p=6)->[townname_fixed]</li>
