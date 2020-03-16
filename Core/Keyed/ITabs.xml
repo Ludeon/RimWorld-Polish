@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab titles -->
+  <!-- EN: Bills -->
+  <TabBills>Zlecenia</TabBills>
+  <!-- EN: Growing -->
+  <TabGrowing>Uprawa</TabGrowing>
+  <!-- EN: Bio -->
+  <TabCharacter>Postać</TabCharacter>
+  <!-- EN: Training -->
+  <TabTraining>Tresura</TabTraining>
+  <!-- EN: Prisoner -->
+  <TabPrisoner>Więzień</TabPrisoner>
+  <!-- EN: Guest -->
+  <TabGuest>Gość</TabGuest>
+  <!-- EN: Gear -->
+  <TabGear>Sprzęt</TabGear>
+  <!-- EN: Needs -->
+  <TabNeeds>Potrzeby</TabNeeds>
+  <!-- EN: Storage -->
+  <TabStorage>Skład</TabStorage>
+  <!-- EN: Shells -->
+  <TabShells>Naboje</TabShells>
+  <!-- EN: Health -->
+  <TabHealth>Zdrowie</TabHealth>
+  <!-- EN: Race -->
+  <TabRace>Rasa</TabRace>
+  <!-- EN: Basics -->
+  <TabBasics>Ogólne</TabBasics>
+  <!-- EN: Stats -->
+  <TabStats>Statystyki</TabStats>
+  <!-- EN: Records -->
+  <TabRecords>Archiwum</TabRecords>
+  <!-- EN: Art -->
+  <TabArt>Sztuka</TabArt>
+  <!-- EN: Social -->
+  <TabSocial>Relacje</TabSocial>
+  <!-- EN: Log -->
+  <TabLog>Logi</TabLog>
+  <!-- EN: Caravan -->
+  <TabFormingCaravan>Karawana</TabFormingCaravan>
+  <!-- EN: Contents -->
+  <TabTransporterContents>Zawartość</TabTransporterContents>
+  <!-- EN: Contents -->
+  <TabCasketContents>Zawartość</TabCasketContents>
+  
+  <!-- Bills tab  -->
+  <!-- EN: Add bill -->
+  <AddBill>Dodaj zlecenie</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
+  <RecipeRequiresSkills>Przepis {0} wymaga umiejętności wskazanych poniżej. Żaden z kolonistów ich nie posiada, więc zlecenie nie zostanie zrealizowane.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
+  <MinimumSkill>Min. umiejętność</MinimumSkill>
+  <!-- EN: SUSPENDED -->
+  <SuspendedCaps>PAUZA</SuspendedCaps>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>Pracownik: {1_labelShort}</BoundWorkerIs>
+  <!-- EN: Plant -->
+  <PlantVerb>Sadzenie</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
+  <ClipboardBillNotAvailableHere>Skopiowane zlecenie nie może być tutaj wklejone.</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
+  <ReorderBillUpTip>Przesuń w górę</ReorderBillUpTip>
+  <!-- EN: Move down -->
+  <ReorderBillDownTip>Przesuń w dól</ReorderBillDownTip>
+  <!-- EN: Delete -->
+  <DeleteBillTip>Usuń</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
+  <CopyBillTip>Kopiuj do schowka</CopyBillTip>
+  <!-- EN: Suspend -->
+  <SuspendBillTip>Wstrzymaj</SuspendBillTip>
+  <!-- EN: Paste -->
+  <PasteBillTip>Wklej</PasteBillTip>
+  <!-- EN: can't add more -->
+  <PasteBillTip_LimitReached>nie można dodać więcej</PasteBillTip_LimitReached>
+
+  <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance remaining -->
+  <RecruitmentResistance>Pozostały opór</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
+  <RecruitmentDifficulty>Trudność rekrutacji</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Szansa rekrutacji</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Współczynnik trudności rekrutacji: {0}\n Współczynnik nastroju: {1}\nWspólna podstawowa szansa: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nOstatnia próba rekrutacji\nRekrutujący: {3}\nWspółczynnik zdolności negocjacyjnych: {4}\nCzynnik opinii: {5} ({6})\nSzansa końcowa dla {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nRedukcja oporu: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Zysk relacji po wypuszczeniu</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>Poprawa relacji z frakcją, którą otrzymasz za wypuszczenie więźnia tej frakcji. Wpływa na to zdrowie i stan psychiczny więźnia.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Dni do próby ucieczki</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>Średnia liczba dni aktywności, pomiędzy próbami ucieczki z więzienia. Wpływa na to nastrój, mobilność i czas od ostatniej ucieczki z więzienia.\n\nTa liczba ignoruje czas spędzony w łóżku, więc rzeczywisty średni okres ucieczki będzie zwykle dłuższy.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>Cena niewolnika</SlavePrice>
+  <!-- EN: Gets food -->
+  <GetsFood>Dostaje żywność</GetsFood>
+  <!-- EN: Doctors care -->
+  <DoctorsCare>Pod opieką medyczną</DoctorsCare>
+  <!-- EN: Gets medicine -->
+  <GetsMedicine>Dostaje leki</GetsMedicine>
+  <!-- EN: Try to recruit -->
+  <ShouldTryToRecruit>Próba rekrutacji</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
+  <ConsideredGuilty>Uznany za winnego (wygasa za {0})</ConsideredGuilty>
+
+  <!-- Medical - general -->
+  <!-- EN: Move speed -->
+  <MoveSpeed>Szybkość poruszania</MoveSpeed>
+  <!-- EN: Efficiency -->
+  <Efficiency>Wydajność</Efficiency>
+  <!-- EN: Part efficiency -->
+  <PartEfficiency>Wydajność części</PartEfficiency>
+  <!-- EN: Body part efficiency -->
+  <BodyPartEfficiency>Wydajność części ciała</BodyPartEfficiency>
+  <!-- EN: Gone -->
+  <MissingBodyPart>Stracone</MissingBodyPart>
+  <!-- EN: Destroyed -->
+  <DestroyedBodyPart>Zniszczone</DestroyedBodyPart>
+  <!-- EN: Shattered -->
+  <ShatteredBodyPart>Rozbite</ShatteredBodyPart>
+  <!-- EN: Removed -->
+  <RemovedBodyPart>Usunięte</RemovedBodyPart>
+  <!-- EN: Healthy -->
+  <Healthy>Zdrowy</Healthy>
+  <!-- EN: In pain -->
+  <InPain>Obolały</InPain>
+  <!-- EN: Pain -->
+  <PainLevel>Ból</PainLevel>
+  <!-- EN: Injured -->
+  <Injured>Ranny</Injured>
+  <!-- EN: Untended injury -->
+  <UntendedInjury>Nieopatrzona rana</UntendedInjury>
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>brak problemów zdrowotnych</NoHealthConditions>
+  <!-- EN: Whole body -->
+  <WholeBody>Całe ciało</WholeBody>
+  <!-- EN: Data processing -->
+  <DataProcessing>Przetwarzanie danych</DataProcessing>
+  <!-- EN: Communication -->
+  <Communication>Komunikacja</Communication>
+  <!-- EN: Affects -->
+  <Affects>Wpływa na</Affects>
+  <!-- EN: Bleeding -->
+  <BleedingRate>Krwawienie</BleedingRate>
+  <!-- EN: death in {0} -->
+  <TimeToDeath>śmierć za {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
+  <WontBleedOutSoon>aktualnie brak zagrożenia</WontBleedOutSoon>
+  <!-- EN: Overview -->
+  <HealthOverview>Podgląd</HealthOverview>
+  <!-- EN: Operations ({0}) -->
+  <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
+  <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
+  <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
+  <!-- EN: amputate -->
+  <Amputate>amputuj</Amputate>
+  <!-- EN: harvest -->
+  <HarvestOrgan>wytnij</HarvestOrgan>
+  <!-- EN: remove -->
+  <RemoveOrgan>usuń</RemoveOrgan>
+  <!-- EN: memory -->
+  <MemoryLower>pamięć</MemoryLower>
+  <!-- EN: social interactions -->
+  <SocialInteractionsLower>interakcje społeczne</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
+  <HungerRate>Głód</HungerRate>
+  <!-- EN: Tiredness -->
+  <Tiredness>Zmęczenie</Tiredness>
+  <!-- EN: Pain -->
+  <PainFactor>Ból</PainFactor>
+  <!-- EN: Prevents infection -->
+  <PreventsInfection>Zapobiegnij zakażeniu</PreventsInfection>
+  <!-- EN: Self-tend -->
+  <SelfTend>Samoleczenie</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
+  <SelfTendTip>{0} z włączonym samoleczeniem automatycznie nakazuje kolonistom leczyć się w {1} z normalną wydajnością.</SelfTendTip>
+  
+  <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
+  <None>Brak</None>
+  <!-- EN: Very poor -->
+  <VeryPoor>Bardzo złe</VeryPoor>
+  <!-- EN: Poor -->
+  <Poor>Złe</Poor>
+  <!-- EN: Weakened -->
+  <Weakened>Osłabione</Weakened>
+  <!-- EN: OK -->
+  <GoodCondition>W porządku</GoodCondition>
+  <!-- EN: Enhanced -->
+  <Enhanced>Ulepszone</Enhanced>
+  <!-- EN: Seriously impaired -->
+  <SeriouslyImpaired>Poważnie uszkodzone</SeriouslyImpaired>
+  <!-- EN: Impaired -->
+  <Impaired>Uszkodzone</Impaired>
+  <!-- EN: Slightly impaired -->
+  <SlightlyImpaired>Lekko uszkodzone</SlightlyImpaired>
+  <!-- EN: None -->
+  <NoPain>Brak</NoPain>
+  <!-- EN: Little -->
+  <LittlePain>Niewielki</LittlePain>
+  <!-- EN: Medium -->
+  <MediumPain>Średni</MediumPain>
+  <!-- EN: Severe -->
+  <SeverePain>Silny</SeverePain>
+  <!-- EN: Extreme -->
+  <ExtremePain>Mocny</ExtremePain>
+
+  <!-- Training tab -->
+  <!-- EN: Trainability -->
+  <Trainability>Podatność tresury</Trainability>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>Wymagana podatność na tresurę: {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: {1_labelShort} is too small to train this. -->
+  <CannotTrainTooSmall>To zwierzę jest zbyt małe, aby mogło wykonywać tę czynność.</CannotTrainTooSmall>
+
+  <!-- EN: Prerequisite needed: {0} -->
+  <TrainingNeedsPrerequisite>Niezbędne wymagania: {0}</TrainingNeedsPrerequisite>
+  
+  <!-- Social tab -->
+  <!-- EN: (no relationships) -->
+  <NoRelationships>(brak relacji)</NoRelationships>
+  <!-- EN: Kidnapped -->
+  <Kidnapped>{PAWN_gender ? Porwany : Porwana}</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Pożyczono frakcji {FACTION_name}, powróci za {1}</Lent>
+  <!-- EN: Missing -->
+  <Missing>{PAWN_gender ? Zaginiony : Zaginiona}</Missing>
+  <!-- EN: Slave -->
+  <Slave>{PAWN_gender ? Niewolnik : Niewolniczka}</Slave>
+  <!-- EN: Faction leader -->
+  <FactionLeader>{PAWN_gender ? Lider : Liderka} frakcji</FactionLeader>
+  <!-- EN: Opinion of {1_labelShort} -->
+  <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
+  <SomeonesOpinionOfMe>Opinia {1_labelShort} o mnie</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
+  <IAmDead>Jestem {PAWN_gender ? martwy : martwa}</IAmDead>
+  <!-- EN: I'm a psychopath -->
+  <IAmPsychopath>Jestem {PAWN_gender ? psychopatą : psychopatką}</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <!-- EN: Overall armor -->
+  <OverallArmor>Całkowity pancerz</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
+  <MassCarried>Udźwig: {0} / {1} kg</MassCarried>
+  <!-- EN: Comfortable temperature range -->
+  <ComfyTemperatureRange>Zakres komfortowej temperatury</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
+  <ArmorBlunt>Obuchowe</ArmorBlunt>
+  <!-- EN: Sharp -->
+  <ArmorSharp>Cięte</ArmorSharp>
+  <!-- EN: Heat -->
+  <ArmorHeat>Cieplne</ArmorHeat>
+  
+  <!-- Log tab -->
+  <!-- EN: Show all -->
+  <ShowAll>Wszystko</ShowAll>
+  <!-- EN: Show combat -->
+  <ShowCombat>Bitewne</ShowCombat>
+  <!-- EN: Show social -->
+  <ShowSocial>Towarzyskie</ShowSocial>
+  <!-- EN: no recent entries -->
+  <NoRecentEntries>brak ostatnich wpisów</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
+  <CopyLogTip>Kopiuj logi do schowka</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
+  <FormingCaravanStatus_GatheringAnimals>Zbieranie zwierząt</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
+  <FormingCaravanStatus_GatheringAnimals_Pause>Zbieranie zwierząt (oczekuje)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
+  <FormingCaravanStatus_GatheringItems>Zbieranie przedmiotów</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
+  <FormingCaravanStatus_GatheringItems_Pause>Zbieranie przedmiotów (oczekuje)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
+  <FormingCaravanStatus_GatheringSlaves>Zbieranie niewolników</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
+  <FormingCaravanStatus_GatheringSlaves_Pause>Zbieranie niewolników (oczekuje)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Gathering downed people -->
+  <FormingCaravanStatus_GatheringDownedPawns>Zbieranie poległych</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>Zbieranie poległych (oczekuje)</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <!-- EN: Leaving -->
+  <FormingCaravanStatus_Leaving>Opuszczanie</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
+  <FormingCaravanStatus_Leaving_Pause>Opuszczanie (oczekuje)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
+  <FormingCaravanStatus_Waiting>Oczekuje</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
+  <CaravanMembers>Członkowie</CaravanMembers>
+  <!-- EN: Animals -->
+  <CaravanAnimals>Zwierzęta</CaravanAnimals>
+  <!-- EN: Items to load -->
+  <ItemsToLoad>Przedmioty do załadowania</ItemsToLoad>
+  <!-- EN: Loaded items -->
+  <LoadedItems>Załadowane przedmioty</LoadedItems>
+  <!-- EN: pack animals -->
+  <PackAnimalsCountLower>zapakuj zwierzęta</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
+  <InMentalStateCountLower>{1_gender ? załamany : załamana} psychicznie</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
+  <RemoveSliderText>Usuń {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Zawarte przedmioty</ContainedItems>
+  <!-- EN: Do you really want to remove {0}? -->
+  <ConfirmRemoveItemDialog>Czy na pewno chcesz usunąć {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Odrzuć to zadanie i przenieś je do zakładki zadań historycznych.\n\nZadanie można w każdym momencie przywrócić. Jego skutki i czasy wygaśnięcia będą przebiegać normalnie. Nie będziesz otrzymywać powiadomień o odrzuconych zadaniach.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Przywróć to zadanie.\n\nZadanie powróci do zakładki 'dostępne' lub 'aktywne', a powiadomienia zostaną ponownie włączone.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>To zadanie znajduje się tutaj, ponieważ zostało odrzucone.\n\nMożesz je przywrócić, dopóki nie wygaśnie.</QuestDismissed>
+
+</LanguageData>
