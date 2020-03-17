@@ -109,7 +109,7 @@
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
   <LetterHealthComplications>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHealthComplicationsLabel>{0}: {1}</LetterHealthComplicationsLabel>
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
   <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia: {1}.</LetterHediffFromRandomHediffGiver>
@@ -173,9 +173,9 @@
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>związek</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} to {1} Twojego kolonisty {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} to {1} Twojego kolonisty {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} to {1} Twojego więźnia {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} to {1} Twojego więźnia {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
