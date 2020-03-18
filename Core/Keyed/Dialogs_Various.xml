@@ -190,9 +190,9 @@
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Uwaga: Wylądujesz w zamarzniętym środowisku. Przetrwanie w tych warunkach może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie masz zamiaru podejmować tego wyzwania, wybierz inną porę roku lub miejsce lądowania.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Uwaga: Wylądujesz na zamarzniętym środowisku. Przetrwanie tutaj może okazać się trudne bądź zupełnie niemożliwe. Jeśli nie chcesz podjąć się tego wyzwania, wybierz inną porę roku lub miejsce.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Gra jest zaprojektowana do rozgrywki na średnich rozmiarach map. Te rozmiary zapewniają dużo miejsca!\n\nDuże rozmiary map nie tylko pogarszają wydajność - wręcz niszczą konstrukcje gry. AI podejmie głupsze decyzje, a równowaga gry zostanie poważnie naruszona na różne sposoby. Te rozmiary są uwzględniane wyłącznie do celów testowych. Nie należy ich używać bez konkretnego powodu.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Gra jest zaprojektowana do rozgrywki na średnich rozmiarach map. Te rozmiary zapewniają dużo miejsca!\n\nDuże rozmiary map nie tylko pogarszają wydajność - wręcz niszczą konstrukcje gry. SI podejmie głupsze decyzje, a równowaga gry zostanie poważnie naruszona na różne sposoby. Te rozmiary są uwzględniane wyłącznie do celów testowych. Nie należy ich używać bez konkretnego powodu.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Rozmiar mapy</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -300,6 +300,12 @@
   <CooldownTime>Czas między atakami</CooldownTime>
   <!-- EN: Disarmed -->
   <DisarmedTime>Czas rozbrojenia</DisarmedTime>
+  <!-- EN: Charging -->
+  <ChargingTime>Ładowanie</ChargingTime>
+  <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
+  <ChargingNext>Następne ładowanie (dla {1}) za: {0}\nCykl ładowania: {2}</ChargingNext>
+  <!-- EN: Shut down -->
+  <ShutDown>Wyłącz</ShutDown>
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Częstotliwość strzałów</BurstShotFireRate>
   <!-- EN: Range -->
@@ -381,7 +387,7 @@
   <!-- EN: Wildness -->
   <Wildness>Dzikość</Wildness>
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <WildnessExplanation>Bardziej dzikie zwierzęta są naturalnie trudniejsze do oswojenia, trenowania i obchodzenia się z nimi.</WildnessExplanation>
+  <WildnessExplanation>Im większy stopień dzikości stworzenia, tym naturalnie trudniej jest je oswoić, trenować oraz obchodzić się z nimi.</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Okres zaniknięcia umiejętności</TrainingDecayInterval>
   <!-- EN: Tameness will never decay. -->
@@ -885,7 +891,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\n</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Nie zalecamy graczom używania tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczy i nie ma potrzeby z niego korzystać.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
