@@ -99,9 +99,9 @@
   <!-- EN: Rename colonist -->
   <RenameColonist>Zmień nazwę kolonisty</RenameColonist>
   <!-- EN: Renounce title -->
-  <RenounceTitle>TODO</RenounceTitle>
+  <RenounceTitle>Porzuć tytuł</RenounceTitle>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>TODO</TitleOfFaction>
+  <TitleOfFaction>{0} frakcji {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>TODO</RenounceTitleDescription>
   <!-- EN: unknown -->
@@ -293,7 +293,7 @@
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Wylot za {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>TODO</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>Powinno odlecieć promem</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Pozostały czas: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
@@ -409,25 +409,25 @@
   <!-- EN: Quest -->
   <Quest>Zadanie</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>TODO</BringsRaidsEvery>
+  <BringsRaidsEvery>Sprowadza najazdy co każde {0}</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
   <GeneratesResourcesEvery>Generuje {0} co każde {1}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
-  <FoliageKillRadius>TODO</FoliageKillRadius>
+  <FoliageKillRadius>Promień niszczenia liści</FoliageKillRadius>
   <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>TODO</RadiusExpandRate>
+  <RadiusExpandRate>Promień prędkości rozszerzania</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>Zobacz: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>TODO</DetonationCountdown>
+  <DetonationCountdown>Detonacja za {0} dni</DetonationCountdown>
   <!-- EN: Large explosion if damaged -->
-  <ExplosionOnDamageWarning>TODO</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>Duża eksplozja w przypadku uszkodzenia</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Klaster mechów</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Wytworzenie za {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1} -->
-  <MechAssemblyCompleteIn>TODO</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>Montaż {0} będzie ukończony za {1}</MechAssemblyCompleteIn>
   <!-- EN: produced -->
   <ThingsProduced>wyprodukowane</ThingsProduced>
   <!-- EN: harvested -->
@@ -435,35 +435,35 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0} zabitych</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>TODO</PawnsLent>
+  <PawnsLent>Wysłany {0}, powróci za {1}</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>TODO</DormantCompInactive>
+  <DormantCompInactive>Bezczynny</DormantCompInactive>
   <!-- EN: Sealed -->
-  <DormantCompSealed>TODO</DormantCompSealed>
+  <DormantCompSealed>Zapieczętowany</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>TODO</DormantCompBeacon>
+  <DormantCompBeacon>Gotowy do zrzutu mechanoidów</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Przedawniony</DormantCompExpired>
   <!-- EN: Initiates in -->
-  <InitiatesIn>TODO</InitiatesIn>
+  <InitiatesIn>Inicjuje za</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>Aktywuje się za {0}</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>Aktywacja za {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
-  <PsychicEntropy>TODO</PsychicEntropy>
+  <PsychicEntropy>Entropia PSI</PsychicEntropy>
   <!-- EN: {0} pain focus -->
-  <PsychicEntropyPainFocus>TODO</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>{0} skupienie bólu</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
-  <ConditionCauserRadius>TODO</ConditionCauserRadius>
+  <ConditionCauserRadius>promień {0}</ConditionCauserRadius>
   <!-- EN: {0} left -->
   <DurationLeft>Pozostało {0}</DurationLeft>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
-  <UserScanAbility>TODO</UserScanAbility>
+  <UserScanAbility>Szybkość skanowania użytkownika</UserScanAbility>
   <!-- EN: Random find interval -->
-  <ScanAverageInterval>TODO</ScanAverageInterval>
+  <ScanAverageInterval>Losowy interwał wyszukiwania</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>TODO</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>Postęp do gwarantowanego znaleziska</ScanningProgressToGuaranteedFind>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -619,13 +619,13 @@
   <!-- EN: Attending party -->
   <LordReportAttendingParty>Bierze udział w przyjęciu</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>TODO</LordReportAttendingConcert>
+  <LordReportAttendingConcert>Bierze udział w koncercie</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>TODO</LordReportHoldingConcert>
+  <LordReportHoldingConcert>Organizuje koncert</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>TODO</LordReportGivingSpeech>
+  <LordReportGivingSpeech>Wygłasza przemowę</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>TODO</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Słucha przemowy {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>Tworzy karawanę</LordReportFormingCaravan>
 
@@ -693,17 +693,17 @@
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} w {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>{0} pod {1}</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{0} w ramach {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>TODO</PawnMainDescTempFactionedWrap>
+  <PawnMainDescTempFactionedWrap>{0} w ramach {1}\nDomowa frakcja: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Frakcja</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>Frakcja {PAWN_labelShort} obecnie należy do.</FactionDesc>
+  <FactionDesc>Frakcja, do której {PAWN_labelShort} obecnie należy.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>TODO</ExtraFactionDesc>
+  <ExtraFactionDesc>Frakcja, do której {PAWN_labelShort} pierwotnie należy. {PAWN_pronoun} dołączy spowrotem do swojej domowej frakcji, gdy oni odejdą od swojej obecnej.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Używa</Equipped>
   <!-- EN: nothing -->
@@ -1001,7 +1001,7 @@
   <!-- EN: neurotrainer ({0}) -->
   <SkillNeurotrainerLabel>neurotrener ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>TODO</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Użyj umięjętności neurotrenera, aby nauczyć się {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>TODO</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
@@ -1207,13 +1207,13 @@
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>TODO</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>TODO</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
-  <PawnTooltipWithPrimaryEquipNoDesc>TODO</PawnTooltipWithPrimaryEquipNoDesc>
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
-  <PawnTooltipNoDescNoPrimaryEquip>TODO</PawnTooltipNoDescNoPrimaryEquip>
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
   <PawnTooltipPsychicEntropy>TODO</PawnTooltipPsychicEntropy>
   <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
@@ -1223,7 +1223,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>TODO</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{1} - {0}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
@@ -1251,11 +1251,11 @@
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>TODO</Biocoded>
+  <Biocoded>Biokodowany {0}</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>TODO</CodedFor>
+  <CodedFor>Biokodowanie: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>TODO</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>biokodowany</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
