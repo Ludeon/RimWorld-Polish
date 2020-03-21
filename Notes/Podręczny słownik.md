@@ -1,25 +1,53 @@
-nowa linijka - dwie spacje
-#Ogólne
-insekt (Insect)  
-obszar (Zone)  
-plemię (Tribe)  
-pole uprawne (GrowingZone)  
-rozbitkowie (Outlander)  
-SI (nie AI)  
-składowisko (nie skład! Stockpile)  
-tułacz (Spacer; wrogi tułacz - SpacerHostile)  
-wysypisko (DumpingStockpile)  
-
-#Stany i czynności
-zespół odstawienny (withdrawal)  
-
-#Przedmioty
-browar  
-czapka zimowa (Tuque)  
-długi łuk (Bow_Great)  
-długi miecz (LongSword)  
+Nowa linijka = dwie spacje  
+Przetłumaczony (Oryginalny)  
+  
+  
+#Zwroty  
+itd. (and so on.)  
+  
+#Ogólne  
+Przypisz (Assign)  
+Wyznacz (Designate)  
+Oznacz (Mark)  
+Obszar (Area, zone)  
+Miejsce, punkt (Spot)  
+Miejsce (Place)  
+Przestrzeń (Space)  
+Surowy, niewygładzony, nieobrobiony, ew. chropowaty (Rough)  
+Kosmiczny uchodźca (Space refugee)  
+Pole uprawne (Growing zone)  
+Składowisko (Stockpile zone)  
+Wysypisko (Dumping stockpile zone)  
+Plemię (Tribe)  
+Podarunek (Gift)  
+Rozbitek (Outlander)  
+Tułacz (Spacer)  
+Wrogi tułacz (Spacer hostile)  
+Insekt (Insect)  
+Kamuflaż (Stealth) - w przypadku myśliwego  
+Odłamek (Chunk)  
+ - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
+SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
+  
+#Stany i czynności  
+Zespół odstawienny (Withdrawal)  
+Szlachtownik (Slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
+  
+#Praca i czynność  
+Rzeźnik, ćwiartuje, poćwiartowane (Butcher, butchering, butchered)  
+Rzeźnik, ubija, ubite (Slaughterer, slaughtering, slaughtered)  
+  
+#Przedmioty  
+Pas aktywnej osłony (Shield belt)  
+Zawalone skały (Collapsed rocks)  
+Browarnia (Brewery)  
+Czapka zimowa (Tuque)  
+Długi łuk (Greatbow)  
+Długi miecz (Long sword)  
+Łuk refleksyjny (Recurve Bow)  
 dozownik pasty odżywczej  
-geoskaner (GroundPenetratingScanner)  
+Geoskaner (GroundPenetratingScanner)  
+Dalekosiężny skaner minerałów (Long-range mineral scanner)  
 gladius  
 hełm wojskowy (MilitaryHelmet)  
 hełm wspomagany (PowerArmorHelmet)  
@@ -41,7 +69,7 @@ kuchenka elektryczna
 kurtka zimowa (Jacket)  
 kuźnia  
 laboratorium narkotyków  
-laboratorium naukowe  
+laboratorium badawcze  
 lekki karabinek kalibru 8 mm (LMG)  
 lekki karabin maszynowy (HeavySMG)  
 monitor funkcji życiowych (VitalsMonitor)  
@@ -52,13 +80,13 @@ multianalizer
 nadajnik handlu orbitalnego (OrbitalTradeBeacon)  
 neurotrener (Neurotrainer)  
 niezasilana lodówka (PassiveCooler)  
-nóż (Knife)
+nóż (Knife)  
 odzież plemienna (TribalA)  
-ostrze (Shiv)
+ostrze (Shiv)  
 oszczep (Pila)  
-pałka (Mace)
+pałka (Mace)  
 pancerz wspomagany (PowerArmor)  
-pianka gaśnicza (FirefoamPopper)  
+kapsułka z pianą gaśniczą (FirefoamPopper)  
 piec hutniczy  
 piec kuchenny  
 pistolet (Pistol)  
@@ -67,7 +95,7 @@ płaszcz (Duster)
 płaszcz zimowy (Parka)  
 podkoszulek (BasicShirt)  
 przetwórnia metalu  
-reaktor antymaterii (ShipReactor)
+reaktor antymaterii (ShipReactor)  
 spodnie (Pants)  
 stół bezglebowy  
 stół do badań  
@@ -82,33 +110,36 @@ tarcze energetyczne (PersonalShields)
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
 zestaw do szycia  
-
-#Rośliny, substancje, jedzenie
-bloker malarii (MalariBlock)  
-brzeczka (Wort)
-go-juice (GoJuice)  
-jadeit (Jade)  
-joint (nie dżoint)  
+  
+#Rośliny, substancje, jedzenie  
+Bloker malarii (MalariBlock)  
+Brzeczka (Wort)  
+Sok-go (GoJuice)  
+Jadeit (Jade)  
+Produkty odzwierzęce (Animal products)  
+Ganja, ganji (Smokeleaf)  
+Joint, jointy (Joint)  
 liście psychodeliczne  
-lucyferium (Luciferium)  
+Lucyferium (Luciferium)  
 nanowłókno  
 neutroamina  
 pasza dla zwierząt (Kibble)  
 pemikan (Pemmican)  
 pobudzacz (WakeUp)  
-płatki psychitu (Flake)  
+plasterki psychitu (Flake)  
 psychit (Psychite)  
-sprasowane komponenty  
+sprasowana maszyneria  
 sprasowane żelazo  
-superstal (Plasteel)  
-włosak diabelski (Devilstrand)  
-yayo (Yayo)  
-zioło (Smokeleaf)  
+Superstal (Plasteel)  
+Włosak diabelski (Devilstrand)  
+Yayo (Yayo)  
 srebro  
 uran  
 żyła złota!  
-
-#Zwierzęta i inne stworzenia
+gniazdo (hive)  
+Świecący kokon (glow pod)  
+  
+#Zwierzęta i inne stworzenia  
 alfabóbr (alphabeaver)  
 alpaka (Alpaca)  
 bumalopa (Boomalope)  
@@ -132,7 +163,7 @@ mawół (muffalo)
 mechaniczna stonoga (MechanicalCentipede)  
 megaskarabeusz (Megascarab)  
 megaterium (Megatherium)  
-niedźwiedź grizzly (GrizzlyBear)  
+niedźwiedź grizli (Grizzly Bear)  
 niedźwiedź polarny (PolarBear)  
 nosorożec (Rhinoceros)  
 pantera (Panther)  
@@ -141,7 +172,7 @@ rogaty robal (Spelopede)
 ryś (Lynx)  
 struś (Ostrich)  
 szop pracz (Raccoon)  
-Thrumbo (wielka litera)  
+Thrumbo (wielką literą)  
 warg (warg)  
 wielbłąd (Dromedary)  
 wilk (WolfTimber)  
@@ -149,19 +180,38 @@ wilk polarny (WolfArctic)
 wybuchowy szczur (Boomrat)  
 zając (Hare)  
 zając śnieżny (Snowhare)  
-
-#Zakładki
+  
+#Przyciski główne  
 Od lewej:  
-Architekt  
-Praca  
-Harmonogram  
-Przydziel  
-Zwierzęta  
-Badania  
-Frakcje  
-Świat  
-Historia  
+Architekt (Architect)  
+Praca (Work)  
+Ograniczenia (Restrict)  
+Zachowania (Assign - Przydział) "Zachowania" lepiej pasuje według mnie.  
+Zwierzęta (Animals)  
+Fauna (Wildlife)  
+Badania (Research)  
+Zadania (Quests)  
+Świat (World)  
+Historia (History)  
+Frakcje (Factions)  
 Menu  
-
+  
+#Menu Architekta  
+Od lewej do prawej:  
+Polecenia (Orders)  
+Obszary (Zone)  
+Struktura (Structure)  
+Produkcja (Production)  
+Meble (Furniture)  
+Zasilanie (Power)  
+Obrona (Security)  
+Różne (Misc)  
+Podłogi (Floors)  
+Rozrywka (Recreation)  
+Statek (Ship)  
+Temperatura (Temperature)  
+  
+  
+  
 Uzupełnić tłumaczenie:  
 DefInjected/ConceptDef/Concepts_NotedOpportunistic.xml
