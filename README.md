@@ -10,10 +10,10 @@ https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 # Rzeczy wymagające dopracowania:  
 * RulePackDef - Polecam zapoznać się z plikiem \Notes\Generator nazw.md
 
+
 # Working crew
 * Arczi008TV
 * ByJacob  
 * R4nd0m24  
 * skill3472
 * VATICANPSYCHO  
-
