@@ -87,6 +87,9 @@
   <!-- EN: Ścieżki plików -->
   <NamerFactionPirate.rulePack.rulesFiles>
     <li>groupname->Words/Nouns/GroupNames</li>
+    <li>groupname_mas->Words/Nouns/GroupNames_Mas</li>
+    <li>groupname_fem->Words/Nouns/GroupNames_Fem</li>
+    <li>groupname_neu->Words/Nouns/GroupNames_Neu</li>
     <li>gore_gen->Words/Nouns/Gore_Gen</li>
     <li>enemy_plural->Words/Nouns/Enemies_Plu</li>
     <li>weapon_gen->Words/Nouns/Weapons_Gen</li>
@@ -159,13 +162,15 @@
     <li>r_name->[colors_badass_neu] [pirate_enemy_pb]</li>
     <li>r_name->[groupname] [of_pirate_personbadass]</li>
     <li>r_name->[pirate_enemy_plu] [pirate_enemy_pm]</li>
-    <li>r_name->[adj_badass_fem] [groupname]</li>
+    <li>r_name->[adj_badass_mas] [groupname_mas]</li>
+    <li>r_name->[adj_badass_fem] [groupname_fem]</li>
+    <li>r_name->[adj_badass_neu] [groupname_neu]</li>
     <li>r_name->[adj_badass_neu] [pirate_animalbadass]</li>
     <li>r_name->[adj_badass_pm] [pirate_enemy_pm]</li>
     <li>r_name->[adj_badass_neu] [pirate_enemy_pb]</li>
     <li>r_name->[adj_badass_pm] [pirate_personbadass_pm]</li>
     <li>r_name->[adj_badass_neu] [pirate_personbadass_neu]</li>
-    <li>r_name->[allies_plu] [ConceptBadass]</li>
+    <li>r_name->[allies_plu] [pirate_conceptbadass]</li>
     <li>r_name(p=0.4)->Wyjadacze [gore_gen]</li>
     <li>r_name->[groupname] [pirate_weapon_gp]</li>
     <li>r_name->[groupname] [pirate_conceptbadass]</li>
@@ -174,6 +179,8 @@
   <!-- EN: Ścieżki plików -->
   <NamerFactionTribal.rulePack.rulesFiles>
     <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>animals_gen_mas->Words/Nouns/Animals_Gen_Mas</li>
+    <li>animals_gen_fem->Words/Nouns/Animals_Gen_Fem</li>
     <li>colors_gen_mas->Words/Nouns/Colors_Gen_Mas</li>
     <li>colors_gen_fem->Words/Nouns/Colors_Gen_Fem</li>
     <li>terrain_feature_nom_mas->Words/Nouns/TerrainFeatures_Nom_Mas</li>
@@ -181,7 +188,7 @@
   </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
-    <li>r_name->The [tribalworld] [political_union_tribal]</li>
+    <li>r_name->The [WordTribal] [political_union_tribal]</li>
     <li>r_name->The [Color] [TerrainFeature] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] of [WordTribal]</li>
     <li>r_name->The [Color] [Animal] [WordTribal]</li>
@@ -191,9 +198,10 @@
     <li>r_name->[political_union_tribal] [WordTribal]</li>
     <li>r_name->[political_union_tribal] [colors_gen_mas] [terrain_feature_nom_mas]</li>
     <li>r_name->[political_union_tribal] [colors_gen_fem] [terrain_feature_nom_fem]</li>
-    <li>r_name->[political_union_tribal] [Color] [Animal]</li>
-    <li>r_name->[Color] [Animal]</li>
-    <li>r_name->[TerrainFeature] [WordTribal]</li>
+    <li>r_name->[political_union_tribal] [colors_gen_mas] [animals_gen_mas]</li>
+    <li>r_name->[political_union_tribal] [colors_gen_fem] [animals_gen_fem]</li>
+    <li>r_name->[WordTribal] [colors_gen_mas] [animals_gen_mas]</li>
+    <li>r_name->[WordTribal] [colors_gen_fem] [animals_gen_fem]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
