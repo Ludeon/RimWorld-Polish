@@ -52,11 +52,11 @@
   
   <!-- EN: Ścieżki plików -->
   <NamerFactionOutlander.rulePack.rulesFiles>
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+    <li>political_union_outlander_all->Words/Nouns/PoliticalUnions_Outlander_All</li>
     <li>political_union_outlander_mas->Words/Nouns/PoliticalUnions_Outlander_Mas</li>
     <li>political_union_outlander_fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
     <li>political_union_outlander_neu->Words/Nouns/PoliticalUnions_Outlander_Neu</li>
-    <li>political_adjective_mas->Words/Adjectives/PoliticalUnions</li>
+    <li>political_adjective_mas->Words/Adjectives/PoliticalUnions_Mas</li>
     <li>political_adjective_fem->Words/Adjectives/PoliticalUnions_Fem</li>
     <li>political_adjective_neu->Words/Adjectives/PoliticalUnions_Neu</li>
     <li>direction_mas->Words/Adjectives/CompassDirections_Mas</li>
@@ -74,7 +74,7 @@
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[political_union_outlander] [PlaceOutlander]</li>
+    <li>r_name->[political_union_outlander_all] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_mas] [political_union_outlander_mas] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_fem] [political_union_outlander_fem] [PlaceOutlander]</li>
     <li>r_name->[political_adjective_neu] [political_union_outlander_neu] [PlaceOutlander]</li>
@@ -86,7 +86,7 @@
   
   <!-- EN: Ścieżki plików -->
   <NamerFactionPirate.rulePack.rulesFiles>
-    <li>groupname->Words/Nouns/GroupNames</li>
+    <li>groupname_all->Words/Nouns/GroupNames_All</li>
     <li>groupname_mas->Words/Nouns/GroupNames_Mas</li>
     <li>groupname_fem->Words/Nouns/GroupNames_Fem</li>
     <li>groupname_neu->Words/Nouns/GroupNames_Neu</li>
@@ -160,7 +160,7 @@
     <li>r_name->[colors_badass_neu] [pirate_personbadass_neu]</li>
     <li>r_name->[colors_badass_pm] [pirate_enemy_pm]</li>
     <li>r_name->[colors_badass_neu] [pirate_enemy_pb]</li>
-    <li>r_name->[groupname] [of_pirate_personbadass]</li>
+    <li>r_name->[groupname_all] [of_pirate_personbadass]</li>
     <li>r_name->[pirate_enemy_plu] [pirate_enemy_pm]</li>
     <li>r_name->[adj_badass_mas] [groupname_mas]</li>
     <li>r_name->[adj_badass_fem] [groupname_fem]</li>
@@ -172,13 +172,13 @@
     <li>r_name->[adj_badass_neu] [pirate_personbadass_neu]</li>
     <li>r_name->[allies_plu] [pirate_conceptbadass]</li>
     <li>r_name(p=0.4)->Wyjadacze [gore_gen]</li>
-    <li>r_name->[groupname] [pirate_weapon_gp]</li>
-    <li>r_name->[groupname] [pirate_conceptbadass]</li>
+    <li>r_name->[groupname_all] [pirate_weapon_gp]</li>
+    <li>r_name->[groupname_all] [pirate_conceptbadass]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN: Ścieżki plików -->
   <NamerFactionTribal.rulePack.rulesFiles>
-    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>political_union_tribal_all->Words/Nouns/PoliticalUnions_Tribal_All</li>
     <li>animals_gen_mas->Words/Nouns/Animals_Gen_Mas</li>
     <li>animals_gen_fem->Words/Nouns/Animals_Gen_Fem</li>
     <li>colors_gen_mas->Words/Nouns/Colors_Gen_Mas</li>
@@ -195,11 +195,11 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] [colors_gen_mas] [terrain_feature_nom_mas]</li>
-    <li>r_name->[political_union_tribal] [colors_gen_fem] [terrain_feature_nom_fem]</li>
-    <li>r_name->[political_union_tribal] [colors_gen_mas] [animals_gen_mas]</li>
-    <li>r_name->[political_union_tribal] [colors_gen_fem] [animals_gen_fem]</li>
+    <li>r_name->[political_union_tribal_all] [WordTribal]</li>
+    <li>r_name->[political_union_tribal_all] [colors_gen_mas] [terrain_feature_nom_mas]</li>
+    <li>r_name->[political_union_tribal_all] [colors_gen_fem] [terrain_feature_nom_fem]</li>
+    <li>r_name->[political_union_tribal_all] [colors_gen_mas] [animals_gen_mas]</li>
+    <li>r_name->[political_union_tribal_all] [colors_gen_fem] [animals_gen_fem]</li>
     <li>r_name->[WordTribal] [colors_gen_mas] [animals_gen_mas]</li>
     <li>r_name->[WordTribal] [colors_gen_fem] [animals_gen_fem]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
