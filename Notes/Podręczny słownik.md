@@ -130,7 +130,7 @@ plasterki psychitu (Flake)
 psychit (Psychite)  
 sprasowana maszyneria  
 sprasowane żelazo  
-Superstal (Plasteel)  
+Plastal (Plasteel)  
 Włosak diabelski (Devilstrand)  
 Yayo (Yayo)  
 srebro  
