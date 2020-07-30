@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <NamerArchipelago.rulePack.rulesFiles>
+  
+  </NamerArchipelago.rulePack.rulesFiles>
   <!-- EN:
     <li>standardname(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->islands</li>
@@ -13,7 +16,37 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerArchipelago.rulePack.rulesStrings>TODO</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name(p=12)->[archipelago_noun] [WordTribal]</li>
+    <li>r_name(p=12)->[archipelago_noun] [PlaceOutlander]</li>
+    <li>r_name->[archipelago_noun] [#animal]</li>
+    <li>r_name->[#animal] [archipelago_mas]</li>
+    <li>r_name->[#animal] [archipelago_fem]</li>
+    <li>r_name->[#animal] [archipelago_neu]</li>
+	
+    <li>r_name->[#color] [archipelago_mas]</li>
+    <li>r_name->[#color] [archipelago_fem]</li>
+    <li>r_name->[#color] [archipelago_neu]</li>
+	
+    <li>r_name-></li>
+    <li>r_name-></li>
+
+    <li>archipelago_narrative->[color_mas]</li>
+    <li>archipelago_narrative->[color_fem]</li>
+	
+	
+	<li>archipelago_noun->[archipelago_mas]
+	<li>archipelago_noun->[archipelago_fem]
+	<li>archipelago_noun->[archipelago_neu]
+	
+    <li>archipelago_mas(p=3)->archipelag</li>
+    <li>archipelago_mas->atol</li>
+    <li>archipelago_mas->półwysep</li>
+    <li>archipelago_fem->rafa</li>
+    <li>archipelago_neu(p=4)->wyspy</li>
+    <li>archipelago_neu(p=3)->wysepki</li>
+    <li>archipelago_neu->skały</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -234,9 +267,6 @@
     <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
     <li>narrative_name->[Animal]</li>
     <li>narrative_name->[Color]</li>
-    <li>narrative_name->[Color][Animal]</li>
-    <li>narrative_name->[AdjectiveNatural][Animal]</li>
-    <li>narrative_name->[Animal][BodyPart]</li>
     <li>narrative_name->[Color] [Animal]</li>
     <li>narrative_name->[AdjectiveNatural] [Animal]</li>
     <li>narrative_name->[Animal] [BodyPart]</li>
@@ -286,6 +316,8 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>standardname->[r_name]</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>
