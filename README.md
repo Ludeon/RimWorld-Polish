@@ -9,7 +9,8 @@ https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
 # Rzeczy wymagające dopracowania:  
 * RulePackDef - Polecam zapoznać się z plikiem \Notes\Generator nazw.md 
-* Royalty DLC
+* Royalty DLC 
+* \DefInjected\TaleDef (Oraz reszta "dużych" plików.)
 
 
 # Working crew
