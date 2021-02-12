@@ -176,7 +176,7 @@
   <UsingBedrolls>używa {0} śpiworów</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Szacowany czas do celu: {0} dni</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
+  <!-- EN: Route travel time: {0} days -->
   <CaravanEstimatedDaysToDestination>Szacowany dni przyjazdu: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Unieruchomiona: Zbyt duży ciężar.</CaravanImmobilizedByMass>
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>Niszczeje, powód</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0} do opuszczenia</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie przegrupują karawanę i opuszczą ten obszar za {0}.</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
   <!-- EN: Beauty here -->
@@ -362,20 +362,24 @@
   <CreatureWildness>Stopień dzikości</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>podatność na tresurę</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} z frakcją {1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>Nie możesz ponownie wejść przez następne {0} dni.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Karawana</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>może tam czyhać niebezpieczeństwo.</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>TODO</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>złoże {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>brak aktywnego projektu badawczego</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>Nie można badać: Brak stołu badawczego</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>wieżyczka</Turret>
   <!-- EN: turrets -->
@@ -426,8 +430,10 @@
   <MechCluster>Klaster mechów</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Wytworzenie za {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1} -->
+  <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>Montaż {0} będzie ukończony za {1}</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>TODO</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>wyprodukowane</ThingsProduced>
   <!-- EN: harvested -->
@@ -448,16 +454,24 @@
   <InitiatesIn>Inicjuje za</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Aktywacja za {0}</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
+  <!-- EN: Neural heat -->
   <PsychicEntropy>Entropia PSI</PsychicEntropy>
-  <!-- EN: {0} pain focus -->
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>TODO</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0} skupienie bólu</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>promień {0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>TODO</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>Pozostało {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>TODO</AnyOf>
+  <!-- EN: Goodwill -->
+  <Goodwill>TODO</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -466,6 +480,10 @@
   <ScanAverageInterval>Losowy interwał wyszukiwania</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Postęp do gwarantowanego znaleziska</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>TODO</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -514,6 +532,8 @@
   <TextMote_Immune>Odporność</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} opatrzone</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>TODO</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>zły nastrój</lowMood>
   <!-- EN: low opinion -->
@@ -602,6 +622,8 @@
   <WatchingAurora>obserwuje zorzę.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>używa: {0} na - {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>TODO</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>obszar</AreaLower>
   <!-- EN: cowering. -->
@@ -704,7 +726,7 @@
   <Faction>Frakcja</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>Frakcja, do której {PAWN_labelShort} obecnie należy.</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
   <ExtraFactionDesc>Frakcja, do której {PAWN_labelShort} pierwotnie należy. {PAWN_pronoun} dołączy z powrotem do swojej domowej frakcji, gdy oni odejdą od swojej obecnej.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Używa</Equipped>
@@ -928,6 +950,8 @@
   <SourceUnknown>Źródło nieznane.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Kliknij, aby przeskoczyć do źródła.</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Spowodowane przez zadanie: {0}</CausedByQuest>
 
@@ -990,19 +1014,19 @@
   <ShipReportHibernating>Element hibernacji</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Element nie jest jeszcze gotowy</ShipReportNotReady>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Charlon Whitestone jest gotowy na rozpoczęcie procedury odzyskującej hibernację reaktora.\n\nOstrzega, że proces ten zajmie około 15 dni, w tym czasie energia ta będzie wykrywalna z dużej odległości.\n\nRodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie to gangi zdesperowanych najeźdźców oraz roje śmiertelnych mechanoidów.\n\nBędziesz atakowany(-a) z intensywnością, jakiej jeszcze nigdy nie widzieliście. Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>Reaktor jest gotowy do podłączenia.\n\nProces ten zajmie około 15 dni, a sygnatura energetyczna będzie wykrywalna z dużej odległości. Rodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie gangi zdesperowanych najeźdźców oraz roje śmiertelnych mechanoidów.\n\nBędziesz atakowany(-a) z intensywnością, jakiej jeszcze nigdy nie widzieliście. Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarningStandalone>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>Charlon Whitestone jest gotowy do rozpoczęcia procedury odzyskującej hibernację reaktora. Ostrzega, że proces ten zajmie około 15 dni.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>Reaktor statku jest gotowy do uruchomienia. Proces ten potrwa około 15 dni.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
+  <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>neurotrener ({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Użyj umięjętności neurotrenera, aby nauczyć się {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>TODO</SkillNeurotrainerDescription>
@@ -1143,6 +1167,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Zasoby głębokiego odwiertu zostały wyczerpane.</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>TODO</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Samouczek</LearningHelper>
@@ -1216,12 +1244,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>TODO</PawnTooltipPsychicEntropy>
-  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>TODO</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>TODO</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>TODO</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1242,6 +1274,36 @@
   <Reward_Items_Caravan>TODO</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>TODO</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>TODO</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>TODO</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>TODO</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>TODO</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>TODO</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>TODO</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>TODO</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>TODO</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>TODO</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>TODO</Reward_Title>
+  <!-- EN: value {0} -->
+  <TotalValue>TODO</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1250,6 +1312,12 @@
   <NotBonded>Jeszcze nie związany</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>związany z kimś innym</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>TODO</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>TODO</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>TODO</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1272,8 +1340,15 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>Dotknięta płeć</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>TODO</CausedByHediff>
   
   <!-- UNUSED -->
+  <ForceExitAndRemoveMapCountdown>{0} do opuszczenia</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Twoi koloniści automatycznie przegrupują karawanę i opuszczą ten obszar za {0}.</ForceExitAndRemoveMapCountdownTip>
+  <CannotResearchNoBench>Nie można badać: Brak stołu badawczego</CannotResearchNoBench>
   <Complete>Ukończone</Complete>
 
 </LanguageData>
