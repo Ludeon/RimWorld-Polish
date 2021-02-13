@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
@@ -23,12 +23,12 @@
   -->
   <TradeRequest.questNameRules.rulesStrings>TODO</TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.root.nodes.Letter.label.slateRef>TODO</TradeRequest.root.nodes.Letter.label.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>TODO</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.root.nodes.Letter.text.slateRef>TODO</TradeRequest.root.nodes.Letter.text.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>TODO</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>TODO</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>TODO</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>TODO</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>TODO</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

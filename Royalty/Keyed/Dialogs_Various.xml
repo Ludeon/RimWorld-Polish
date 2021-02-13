@@ -14,10 +14,6 @@
   <RoyalTitleTooltipThroneroomRequirements>TODO</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>TODO</RoyalTitleTooltipPermits>
-  <!-- EN: Max allowed psycast level -->
-  <RoyalTitleTooltipMaxPsycastLevel>TODO</RoyalTitleTooltipMaxPsycastLevel>
-  <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>TODO</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>TODO</RoomRequirementArea>
   <!-- EN: room impressiveness -->
@@ -28,13 +24,17 @@
   <RoomRequirementAllBraziersMustBeLit>TODO</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>TODO</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>TODO</RoomRequirementNoProductionFacilities>
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>TODO</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>TODO</RoyalTitleRequiredApparelStatDescription>
-  <!-- EN: Any powered armor -->
-  <ApparelRequirementAnyPowerArmor>TODO</ApparelRequirementAnyPowerArmor>
+  <!-- EN: Any prestige armor -->
+  <ApparelRequirementAnyPrestigeArmor>TODO</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>TODO</ApparelRequirementAnyPsycasterApparel>
-  <!-- EN: Disabled work types -->
+  <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>TODO</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>TODO</RoyalTitleRequiredMeals>
@@ -42,29 +42,41 @@
   <RoyalTitleRequiredMealsDesc>TODO</RoyalTitleRequiredMealsDesc>
 
   <!-- Royal implants -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
   <RoyalImplantIllegalUseWarning>TODO</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>TODO</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>TODO</RoyalImplantUpgradeConfirmation>
-  <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>TODO</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>TODO</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>TODO</BladelinkEquipWarning>
+  <!-- EN: The weapon has the following traits -->
+  <BladelinkEquipWarningTraits>TODO</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
   <RoyalWeaponEquipConfirmation>TODO</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>TODO</AbilityTargetPsychicallyDeaf>
-  <!-- EN: Amplifier level -->
-  <PsycastRequiredAmplifierLevel>TODO</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>TODO</PsycastIsIllegal>
+
+  <!-- Warning -->
+  <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
+  <QuestGivesRoyalFavor>TODO</QuestGivesRoyalFavor>
+  <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
+  <RoyalIncapableOfSocial>TODO</RoyalIncapableOfSocial>
+  <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
+  <RoyalWithConceitedTrait>TODO</RoyalWithConceitedTrait>
+  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
+  <RoyalWithTraitAffectingPsylinkNegatively>TODO</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
+  <PsylinkTooLowForGainAbility>TODO</PsylinkTooLowForGainAbility>
+  <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
+  <SendShuttleWithNoContents>TODO</SendShuttleWithNoContents>
+  <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
+  <DropResourcesOverweightConfirm>TODO</DropResourcesOverweightConfirm>
 
 </LanguageData>
