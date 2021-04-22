@@ -13,9 +13,10 @@ https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 * DefInjected\TaleDef (Oraz reszta "dużych" plików.)
 * DefInjected\ThingDef
 
-# Working crew
+# Contributors
 * Arczi008TV
 * ByJacob  
 * R4nd0m24  
 * skill3472
 * VATICANPSYCHO  
+* Mr. Fossil
