@@ -41,6 +41,8 @@
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>nie można atakować siebie</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>TODO</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Człowiek {1_labelShort}</OrderManThing>
@@ -136,6 +138,8 @@
   <InstallImplantAlreadyMaxLevel>maksymalny poziom</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Ulepsz {0} do poziomu {1}</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>TODO</SurgeryViolationFellowFactionMember>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Zjedz: {1_labelShort}</ConsumeThing>
@@ -174,6 +178,8 @@
   <NoCryptosleepCasket>Brak wolnych kapsuł hibernacyjnych.</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>Nie dozwolone dla tymczasowych członków frakcji.</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>TODO</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Brak osiągalnego, wolnego, zabezpieczonego łóżka dla więźniów w bezpieczniej temperaturze.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -188,6 +194,8 @@
   <IsReservedBy>{0} jest zarezerwowane przez {1}.</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Za ciężkie</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>TODO</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>niezdolność</Incapable>
@@ -210,8 +218,19 @@
   <ForceWear>Załóż: {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>TODO</ForceEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>TODO</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>TODO</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>TODO</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>TODO</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
   <CannotPickUp>Nie można podnieść: {1_label}</CannotPickUp>
@@ -226,8 +245,8 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Podnieś: {1_labelShort} x{{0}}</PickUpCount>
   
-  <!-- EN: Load {1_label} onto pack animal -->
-  <CannotGiveToPackAnimal>Daj - {1_label}: do zapakowania zwierzęcia</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>Nie można dać - {1_label}: do zapakowania zwierzęcia</CannotGiveToPackAnimal>
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>Nie można dać - {1_label} (wszystkich): do zapakowania zwierzęcia</CannotGiveToPackAnimalAll>
   <!-- EN: Load {1_label} onto pack animal -->
@@ -372,6 +391,8 @@
   <DropAtEdge>Upuść na skraju</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>Upuść na środku</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>TODO</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>Zaatakuj - {0}: Upuść na skraju</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
@@ -418,5 +439,8 @@
 
   <!-- EN: apply {0} -->
   <ApplyTechprint>zatwierdź {0}</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>TODO</EnterCooldownBlocksEntering>
   
 </LanguageData>
