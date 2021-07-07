@@ -2,6 +2,10 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
+#Nazwy których nie tłumaczymy  
+RimWorld  
+Royalty  
+  
 #Zwroty  
 itd. (and so on.)  
   
@@ -9,7 +13,8 @@ itd. (and so on.)
 Przypisz (Assign)  
 Wyznacz (Designate)  
 Oznacz (Mark)  
-Obszar (Area, zone)  
+Obszar (Area)  
+Strefa (Zone)
 Miejsce, punkt (Spot)  
 Miejsce (Place)  
 Przestrzeń (Space)  
@@ -117,7 +122,7 @@ Brzeczka (Wort)
 Sok-go (GoJuice)  
 Jadeit (Jade)  
 Produkty odzwierzęce (Animal products)  
-Ganja, ganji (Smokeleaf)  
+Zioło (Smokeleaf)  
 Joint, jointy (Joint)  
 liście psychodeliczne  
 Lucyferium (Luciferium)  
@@ -130,7 +135,7 @@ plasterki psychitu (Flake)
 psychit (Psychite)  
 sprasowana maszyneria  
 sprasowane żelazo  
-Superstal (Plasteel)  
+Plastal (Plasteel)  
 Włosak diabelski (Devilstrand)  
 Yayo (Yayo)  
 srebro  
