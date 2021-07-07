@@ -5,10 +5,14 @@
   <Confirm>Potwierdź</Confirm>
   <!-- EN: Go back -->
   <GoBack>Wstecz</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>TODO</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
   <Close>Zamknij</Close>
+  <!-- EN: Accept -->
+  <Accept>TODO</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -400,8 +404,46 @@
   <TimeRecordsCategory>Czas</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Różne</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>TODO</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>TODO</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>TODO</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>TODO</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>TODO</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>TODO</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>TODO</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>TODO</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>Stopień uzależniania</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>TODO</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>TODO</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>TODO</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>TODO</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>TODO</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>TODO</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>TODO</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>TODO</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>TODO</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>TODO</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>TODO</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Pakowność zwierzęcia</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -448,18 +490,44 @@
   <PowerConsumption>Pobór energii</PowerConsumption>
   <!-- EN: Target -->
   <Target>Cel</Target>
-  <!-- EN: Human -->
-  <TargetHuman>Człowiek</TargetHuman>
-  <!-- EN: Animal -->
-  <TargetAnimal>Zwierze</TargetAnimal>
-  <!-- EN: Self -->
-  <TargetSelf>Siebie</TargetSelf>
-  <!-- EN: Ground -->
-  <TargetGround>Ziemia</TargetGround>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>Rodzaje celów, na których można użyć tej umiejętności.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>człowiek</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>zwierzę</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>siebie</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>ziemia</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>Kliknij, aby dowiedzieć się więcej.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Kliknij, aby zobaczyć frakcje.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>TODO</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>TODO</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -476,6 +544,8 @@
   <TraderCount>Ilość tego przedmiotu jaką handlarz posiada na sprzedaż.</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>Akceptuj</AcceptButton>
+  <!-- EN: Load selected -->
+  <LoadSelected>TODO</LoadSelected>
   <!-- EN: Reset -->
   <ResetButton>Zresetuj</ResetButton>
   <!-- EN: Cancel -->
@@ -548,12 +618,16 @@
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>Stwórz karawanę</FormCaravan>
+  <!-- EN: Send -->
+  <Send>TODO</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Ilość przedmiotów, które kolonia może już przekazać karawanie.</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Ludzie i zwierzęta</PawnsTab>
   <!-- EN: Items -->
   <ItemsTab>Przedmioty</ItemsTab>
+  <!-- EN: Travel supplies -->
+  <FoodAndMedicineTab>TODO</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Musisz przypisać przynajmniej jednego przytomnego kolonistę.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -611,11 +685,15 @@
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>Jak dużo wartości odżywczych dostarcza ten pokarm.\n\nPrzykładowo: dorosła osoba potrzebuje dziennie {0} wartości odżywczej.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>To zwierze może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>To zwierzę może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Wartość odżywcza zebrana w ciągu dnia. Ostateczna wartość zbioru zależy również od obfitości biomu.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Wartość odżywcza jedzona w ciągu dnia. Przykładowo, proste posiłki mają {0} wartości odżywczej.\n\nMożna jeść: {2}\n\nLegenda:\n{1}</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>TODO</CanEat>
+  <!-- EN: Legend -->
+  <Legend>TODO</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Tolerowana masa</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -642,6 +720,8 @@
   <AnimalsSection>Zwierzęta</AnimalsSection>
   <!-- EN: Choose route -->
   <ChooseRouteButton>Wybierz trasę</ChooseRouteButton>
+  <!-- EN: Change route -->
+  <ChangeRouteButton>TODO</ChangeRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Porzuć</AbandonButton>
   <!-- EN: Movement speed -->
@@ -672,6 +752,8 @@
   <FactionType>Typ frakcji</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>Całkowita wielkość ciała</TotalBodySize>
+  <!-- EN: Automatically select travel supplies -->
+  <AutomaticallySelectFoodAndMedicine>TODO</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -708,6 +790,8 @@
   <TransporterItemIsUnreachableMulti>Pomiędzy kapsułami i {0}x {1} nie ma przejścia.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Pomiędzy promem i {0}x {1} nie ma przejścia.</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>TODO</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -782,8 +866,8 @@
   <MoodThresholdColumnLabel>Tylko jeśli nastrój jest poniżej</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>Tylko jeśli rozrywka jest poniżej</JoyThresholdColumnLabel>
-  <!-- EN: Take to inventory -->
-  <TakeToInventoryColumnLabel>Weź do ekwipunku</TakeToInventoryColumnLabel>
+  <!-- EN: Keep in inventory -->
+  <TakeToInventoryColumnLabel>Zatrzymaj w ekwipunku</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
   <NoDrugsBrackets>(brak narkotyków)</NoDrugsBrackets>
   <!-- EN: Every day -->
@@ -893,23 +977,25 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Nie zalecamy graczom używania tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczy i nie ma potrzeby z niego korzystać.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Nie zalecamy graczom używania tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczom, bezcelowe użycie może narobić bałaganu.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
-  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wyślesz kapsuły transportowe na puste miejsce. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
+  <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wystrzelisz kapsuły transportowe do pustego miejsca. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>Czy aby na pewno chcesz usunąć ten znacznik pomnika?</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>Czy na pewno chcesz usunąć ten znacznik pomnika?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Wymagana linia widoku</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Zysk entropii</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Czas trwania efektu</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -918,9 +1004,60 @@
   <AbilityCastingTime>Czas rzucania</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Brak linii widoku do celu.</AbilityCannotHitTarget>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>TODO</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>TODO</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0} musi wybrać za cel pusty obszar.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} musi wybrać za cel obszar zdatny do chodzenia.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>TODO</AbilityRoofed>
+  <!-- EN: {0_labelShort} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>TODO</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>TODO</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>TODO</AbilityCantApplyNoResistance>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>TODO</AbilityCantApplyOnAsexual>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>TODO</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>TODO</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>TODO</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>TODO</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>TODO</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>TODO</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>TODO</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>TODO</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>TODO</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>TODO</AbilityNeedAllyToSkip>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>TODO</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>TODO</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>TODO</PsychicLoveFor>
+  <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
+  <FarskipConfirmTeleportingLodger>TODO</FarskipConfirmTeleportingLodger>
+  
+  <!-- EN: minor -->
+  <MentalBreakIntensityMinor>TODO</MentalBreakIntensityMinor>
+  <!-- EN: major -->
+  <MentalBreakIntensityMajor>TODO</MentalBreakIntensityMajor>
+  <!-- EN: extreme -->
+  <MentalBreakIntensityExtreme>TODO</MentalBreakIntensityExtreme>
   
 </LanguageData>

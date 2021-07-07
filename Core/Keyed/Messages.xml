@@ -13,6 +13,9 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{0} z frakcji {1} postanowili ukraść co się da i odejść.</MessageRaidersStealing>
 
+  <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
+  <MessageCaravanDetectedRaidArrived>TODO</MessageCaravanDetectedRaidArrived>
+
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} z frakcji {1} opuszczają kolonię.</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
@@ -45,6 +48,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Potrzebujesz nadajnika handlu orbitalnego, aby wymieniać dobra ze statkiem.\n\nNadajnik musi być zasilony</MessageNeedBeaconToTradeWithShip>
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
+  <MessageNeedRoyalTitleToCallWithShip>TODO</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} zostało zniszczone</MessageConditionCauserDespawned>
@@ -74,6 +79,8 @@
   <MessageTameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} - {1} ({2} szans).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} pomyślnie {RECRUITER_gender ? oswoił : oswoiła} - {1} ({2} szans). Zwie się teraz {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <!-- EN: {RECRUITEE} has joined your colony. -->
+  <MessageRecruitJoinOfferAccepted>TODO</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>Kolonii nie stać na tę transakcję.</MessageColonyCannotAfford>
@@ -139,15 +146,6 @@
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort} {1_gender ? upadł : upadła} z powodu silnego wyczerpania.</MessageInvoluntarySleep>
 
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niewielki błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} katastroficzny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niedorzeczny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}</MessageMedicalOperationFailureFatal>
-
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Ta operacja rozgniewa {0}.</MessageMedicalOperationWillAngerFaction>
 
@@ -158,13 +156,13 @@
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} urodziła.</MessageGaveBirth>
   
-  <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsychicAmplifierNoSensitivity>TODO</MessagePsychicAmplifierNoSensitivity>
+  <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
+  <MessagePsylinkNoSensitivity>TODO</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>TODO</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>TODO</MessageReceivedBrainDamageFromHediff>
-  <!-- EN: {PAWN_labelShort} has exceeded the safe limit of psychic entropy. -->
+  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>TODO</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
@@ -192,7 +190,7 @@
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort} {PAWN1_gender ? rozpoczął : rozpoczęła} kłótnię z {PAWN2_labelShort}.</MessageSocialFight>
   
-  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
+  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
   <MessageNewMarriageCeremony>Koloniści zbierają się, aby świętować małżeństwo {PAWN1_labelShort} i {PAWN2_labelShort}.</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort} i {PAWN2_labelShort} rozpoczynają ceremonię ślubną!</MessageMarriageCeremonyStarts>
@@ -371,8 +369,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{0} z frakcji {1} przeprowadzają atak. Celem są Twoi {2}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and are attacking. -->
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>TODO</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to assemble -->
+  <MessageMechanoidsLeftToAssemble>TODO</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>TODO</MessageMechanoidsReinforcementsDrop>
 
@@ -449,9 +449,6 @@
   <!-- EN: Cannot build a roof over {0}. -->
   <MessageRoofIncompatibleWithPlant>Nie można zbudować dachu nad tą roślina: {0}.</MessageRoofIncompatibleWithPlant>
 
-  <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>Karawana automatycznie dotrze do pierwszego punktu.</MessageChoseRoute>
-
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Przegrupuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
@@ -481,6 +478,8 @@
   <GoodwillChangedReason_PawnCrushed>zgnieciono {1_labelShort}</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>śmierć {1_labelShort}</GoodwillChangedReason_PawnDied>
+  <!-- EN: {0_labelShort} stripped -->
+  <GoodwillChangedReason_PawnStripped>TODO</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>przeprowadzono wymianę</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -507,6 +506,18 @@
   <GoodwillChangedReason_RequestedMilitaryAid>TODO</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>TODO</GoodwillChangedReason_RequestedTrader>
+  <!-- EN: caused neuroquake echo -->
+  <GoodwillChangedReason_CausedNeuroquakeEcho>TODO</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <!-- EN: caused berserk on {PAWN_labelShort} -->
+  <GoodwillChangedReason_CausedBerserk>TODO</GoodwillChangedReason_CausedBerserk>
+  <!-- EN: attacked {0_name} -->
+  <GoodwillChangeReason_AttackedFaction>TODO</GoodwillChangeReason_AttackedFaction>
+  <!-- EN: shuttle destroyed -->
+  <GoodwillChangeReason_ShuttleDestroyed>TODO</GoodwillChangeReason_ShuttleDestroyed>
+  <!-- EN: civilians lost -->
+  <GoodwillChangeReason_CiviliansLost>TODO</GoodwillChangeReason_CiviliansLost>
+  <!-- EN: commander lost -->
+  <GoodwillChangeReason_CommanderLost>TODO</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>Frakcja {0} przyjęła podarunek, ale go nie docenia.</MessageGiftGivenButNotAppreciated>
@@ -545,7 +556,7 @@
   <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>{0} nie mogła dotrzeć do celu.</MessageCaravanArrivalActionNoLongerValid>
 
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <MessageEnterCooldownBlocksEntering>Nie można ponownie wstąpić przez kolejne {0} dni.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
@@ -573,6 +584,9 @@
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>Uwaga: Schwytanie {PAWN_nameDef} rozgniewa {PAWN_possessive} frakcję {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
+  <MessageStrippingWillAngerFaction>TODO</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>Nie można strzelać w walce wręcz.</MessageCantShootInMelee>
@@ -606,5 +620,11 @@
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label} jest w tej chwili ukryte.</MessageCannotSelectInvisibleStat>
+
+  <!-- EN: {PAWN_nameDef} is a prisoner -->
+  <MessagePrisonerCannotEquipWeapon>TODO</MessagePrisonerCannotEquipWeapon>
+
+  <!-- UNUSED -->
+  <MessageChoseRoute>Karawana automatycznie dotrze do pierwszego punktu.</MessageChoseRoute>
 
 </LanguageData>
