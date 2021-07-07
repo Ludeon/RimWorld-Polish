@@ -50,6 +50,10 @@
   <StatsReport_AgeMultiplier>Mnożnik za wiek {0}</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Mnożnik za zdrowie {0}</StatsReport_HealthMultiplier>
+  <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
+  <StatsReport_ReloadMarketValue>TODO</StatsReport_ReloadMarketValue>
+  <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
+  <StatsReport_ReloadRemainingChargesMultipler>TODO</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>Mnożnik za nastrój {0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
@@ -62,6 +66,8 @@
   <StatsReport_Facilities>Udogodnienia</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>Mnożnik za rozmiar ciała {0}</StatsReport_BodySize>
+  <!-- EN: Carefully slaughtered without wounds -->
+  <StatsReport_HasHediffExplanation>TODO</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = Obrażenia w walce wręcz * Szansa trafienia / Czas między uderzeniami</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -112,11 +118,38 @@
   <StatsReport_WildMan>Dzikus</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Atak</StatsReport_NonToolAttack>
+  
+  <!-- EN: Possible offsets -->
+  <StatReport_PossibleOffsets>TODO</StatReport_PossibleOffsets>
+  <!-- EN: Room impressiveness -->
+  <StatsReport_RoomImpressiveness>TODO</StatsReport_RoomImpressiveness>
+  <!-- EN: Lit -->
+  <StatsReport_Lit>TODO</StatsReport_Lit>
+  <!-- EN: Contains {0} -->
+  <StatsReport_GraveFull>TODO</StatsReport_GraveFull>
+  <!-- EN: Contains a human corpse -->
+  <StatsReport_GraveFullAbstract>TODO</StatsReport_GraveFullAbstract>
+  <!-- EN: Meditator is related to the corpse inside -->
+  <StatsReport_GraveCorpseRelatedAbstract>TODO</StatsReport_GraveCorpseRelatedAbstract>
+  <!-- EN: From quality -->
+  <StatsReport_FromQuality>TODO</StatsReport_FromQuality>
+  <!-- EN: Nearby artificial structures -->
+  <StatsReport_NearbyArtificialStructures>TODO</StatsReport_NearbyArtificialStructures>
+  <!-- EN: Satisfies user's title requirements -->
+  <StatsReport_SatisfiesTitle>TODO</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
+  <Stat_RecreationType_Desc>TODO</Stat_RecreationType_Desc>
+  <!-- EN: All recreation types -->
+  <Stat_JoyKind_AllTypes>TODO</Stat_JoyKind_AllTypes>
   <!-- EN: Mined item -->
   <Stat_MineableThing_Name>Wydobyty przedmiot</Stat_MineableThing_Name>
   <!-- EN: The item that will be yielded when mining this. -->
   <Stat_MineableThing_Desc>Przedmiot, który zostanie pozyskany podczas wydobywania.</Stat_MineableThing_Desc>
+  <!-- EN: Mining yield -->
+  <Stat_MiningYield_Name>TODO</Stat_MiningYield_Name>
+  <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
+  <Stat_MiningYield_Desc>TODO</Stat_MiningYield_Desc>
   <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>Gatunek źródłowy</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
@@ -209,8 +242,6 @@
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>TODO</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>TODO</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-  <!-- EN: The addictiveness of this drug. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>TODO</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>TODO</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -223,7 +254,7 @@
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>TODO</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Desc>TODO</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
-  <!-- EN: The rate at which this condition is drains blood. -->
+  <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>TODO</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
   <Stat_Hediff_Pain_Desc>TODO</Stat_Hediff_Pain_Desc>
@@ -257,11 +288,67 @@
   <Stat_Thing_Terrain_Fine_Desc>TODO</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>Ilość energii, którą ta konstrukcja będzie czerpać ze źródła zasilania.</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: {CHARGENOUN_plural} remaining -->
+  <Stat_Thing_ReloadChargesRemaining_Name>TODO</Stat_Thing_ReloadChargesRemaining_Name>
+  <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
+  <Stat_Thing_ReloadChargesRemaining_Desc>TODO</Stat_Thing_ReloadChargesRemaining_Desc>
+  <!-- EN: {CHARGENOUN_plural} -->
+  <Stat_Thing_ReloadMaxCharges_Name>TODO</Stat_Thing_ReloadMaxCharges_Name>
+  <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
+  <Stat_Thing_ReloadMaxCharges_Desc>TODO</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>TODO</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>TODO</Stat_Thing_ReloadRefill_Desc>
+  <!-- EN: Reload cost per {CHARGENOUN} -->
+  <Stat_Thing_ReloadPerCharge_Name>TODO</Stat_Thing_ReloadPerCharge_Name>
+  <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
+  <Stat_Thing_ReloadPerCharge_Desc>TODO</Stat_Thing_ReloadPerCharge_Desc>
+  <!-- EN: Vanish on exhaust -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>TODO</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>TODO</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>TODO</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>TODO</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>TODO</Stat_Thing_Biocoded_Desc>
+
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>TODO</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>TODO</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>TODO</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>TODO</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>TODO</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>TODO</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>TODO</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>TODO</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>TODO</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>TODO</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>TODO</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>TODO</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>TODO</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>TODO</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>TODO</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>TODO</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>TODO</Stat_Thing_Drug_AddictionCost_Desc>
 
 </LanguageData>
