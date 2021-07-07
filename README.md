@@ -1,8 +1,8 @@
 # Team
 Używamy Discorda do współpracy. Aby nam pomóc kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje i uzyskasz ewentualną pomoc.
 
-# Polish translation for RimWorld 1.2.
-Trwają prace nad tłumaczeniem dla wersji 1.2...  
+# Polish translation for RimWorld 1.3.
+Trwają prace nad tłumaczeniem dla wersji 1.3...  
 
 Pobierz aktualną wersję tłumaczenia:  
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
