@@ -122,7 +122,7 @@ Brzeczka (Wort)
 Sok-go (GoJuice)  
 Jadeit (Jade)  
 Produkty odzwierzęce (Animal products)  
-Ganja, ganji (Smokeleaf)  
+Zioło (Smokeleaf)  
 Joint, jointy (Joint)  
 liście psychodeliczne  
 Lucyferium (Luciferium)  
