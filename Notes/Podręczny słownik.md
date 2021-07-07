@@ -2,13 +2,13 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
-#Nazwy których nie tłumaczymy  
-RimWorld  
-Royalty  
+#DLC  
+Rodzina Królewska (Royalty)
   
 #Zwroty  
 itd. (and so on.)  
   
+
 #Ogólne  
 Przypisz (Assign)  
 Wyznacz (Designate)  
