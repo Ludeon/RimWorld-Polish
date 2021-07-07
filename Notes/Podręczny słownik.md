@@ -2,19 +2,14 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
-#DLC  
-Rodzina Królewska (Royalty)
-  
 #Zwroty  
 itd. (and so on.)  
   
-
 #Ogólne  
 Przypisz (Assign)  
 Wyznacz (Designate)  
 Oznacz (Mark)  
-Obszar (Area)  
-Strefa (Zone)
+Obszar (Area, zone)  
 Miejsce, punkt (Spot)  
 Miejsce (Place)  
 Przestrzeń (Space)  
