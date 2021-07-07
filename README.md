@@ -9,6 +9,7 @@ https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
 # Rzeczy wymagające dopracowania:  
 * RulePackDef - Polecam zapoznać się z plikiem \Notes\Generator nazw.md
+* Pliki w folderze Keyed
 * Royalty DLC
 * DefInjected\TaleDef (Oraz reszta "dużych" plików.)
 * DefInjected\ThingDef
@@ -20,3 +21,5 @@ https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 * skill3472
 * VATICANPSYCHO
 * Mr. Fossil
+* MrKris7100
+* Tomikles
