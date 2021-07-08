@@ -37,6 +37,7 @@ Odłamek (Chunk)
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
 Broń dystansowa (Ranged weapon)  
 Nasycenie (Nutrition)  
+Zezwól i dopuść (forbit and allow)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
