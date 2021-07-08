@@ -76,7 +76,7 @@ krótki łuk (Bow_Short)
 kuchenka elektryczna  
 kurtka zimowa (Jacket)  
 kuźnia  
-laboratorium narkotyków  
+laboratorium używek  
 laboratorium badawcze  
 lekki karabinek kalibru 8 mm (LMG)  
 lekki karabin maszynowy (HeavySMG)  
