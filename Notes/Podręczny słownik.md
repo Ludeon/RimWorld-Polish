@@ -2,10 +2,11 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
-#Wyrazy których nie tłumaczymy  
+#Wyrazy których nie tłumaczymy (ewentualnie dajemy końcówki polskie)
 RimWorld  
 Glitterworld  
 Royalty  
+Mechanoid  
   
 #Zwroty  
 itd. (and so on.)  
