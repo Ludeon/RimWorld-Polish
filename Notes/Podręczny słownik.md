@@ -36,6 +36,7 @@ Odłamek (Chunk)
  - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
 Broń dystansowa (Ranged weapon)  
+Nasycenie (Nutrition)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
