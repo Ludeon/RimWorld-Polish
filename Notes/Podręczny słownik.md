@@ -33,6 +33,7 @@ Kamuflaż (Stealth) - w przypadku myśliwego
 Odłamek (Chunk)  
  - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
+Broń dystansowa (Ranged weapon)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
