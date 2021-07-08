@@ -2,8 +2,9 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
-#Nazwy których nie tłumaczymy  
+#Wyrazy których nie tłumaczymy  
 RimWorld  
+Glitterworld  
 Royalty  
   
 #Zwroty  
