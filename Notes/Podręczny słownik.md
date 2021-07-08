@@ -148,6 +148,7 @@ gniazdo (hive)
 Świecący kokon (glow pod)  
   
 #Zwierzęta i inne stworzenia  
+archatyczny (archotech)
 alfabóbr (alphabeaver)  
 alpaka (Alpaca)  
 bumalopa (Boomalope)  
