@@ -227,5 +227,3 @@ Temperatura (Temperature)
   
   
   
-Uzupełnić tłumaczenie:  
-DefInjected/ConceptDef/Concepts_NotedOpportunistic.xml
