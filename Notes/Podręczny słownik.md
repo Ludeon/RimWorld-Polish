@@ -224,8 +224,3 @@ Podłogi (Floors)
 Rozrywka (Recreation)  
 Statek (Ship)  
 Temperatura (Temperature)  
-  
-  
-  
-Uzupełnić tłumaczenie:  
-DefInjected/ConceptDef/Concepts_NotedOpportunistic.xml
