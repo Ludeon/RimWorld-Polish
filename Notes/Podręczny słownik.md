@@ -40,6 +40,8 @@ Nasycenie (Nutrition)
 Zakaż i dopuść (forbit and allow)  
 Skupienie PSI (psyfocus)  
 Zysk, przyrost (Gain)  
+Pól, pola (Tiles)  
+Dziecic (Heir)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
