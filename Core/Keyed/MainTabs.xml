@@ -35,7 +35,7 @@
   <!-- EN: Low priority -->
   <Priority4>Niski priorytet</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>TODO</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nFrakcja, do której należy obecnie {1_nameDef}.\n\nKliknij, aby zobaczyć frakcję.</PawnFactionInfo>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -93,7 +93,7 @@
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Obecna reputacja i status relacji z tą frakcją.</CurrentGoodwillTip>
   <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>TODO</CurrentRelationTip>
+  <CurrentRelationTip>Obecne stosunki z tą frakcją.</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Ta frakcja jest stale wroga. Będzie najeżdżać Twoją osadę i karawany. Relacja z nimi nigdy się nie poprawi z jakiegokolwiek powodu.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -207,7 +207,7 @@
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>Poziom technologiczny Twojej frakcji wynosi {0}, ale poziom technologiczny tego projektu to {1}. Szybkość badań zostanie pomnożona przez {2}</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>TODO</UnlockedWith>
+  <UnlockedWith>Odblokowany za pomocą</UnlockedWith>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -235,9 +235,9 @@
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>Wygasa {0}</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>TODO</QuestAveragePawnMood>
+  <QuestAveragePawnMood>Średni nastrój gości (poprzedni {0}): {1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
-  <QuestAveragePawnMoodTargets>TODO</QuestAveragePawnMoodTargets>
+  <QuestAveragePawnMoodTargets>Średni nastrój {0} w ciągu ostatnich {1}</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>Prom zjawi się za {0}</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -247,9 +247,9 @@
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>Prom odleci {0}</ShuttleDepartsOn>
   <!-- EN: Guests depart in {0} -->
-  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <GuestsDepartsIn>Goście odchodzą w {0}</GuestsDepartsIn>
   <!-- EN: Guests depart on {0} -->
-  <GuestsDepartsOn>TODO</GuestsDepartsOn>
+  <GuestsDepartsOn>Goście odchodzą na {0}</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Ukończone {0} temu</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -257,9 +257,9 @@
   <!-- EN: Accept with {0_labelShort} -->
   <AcceptWith>Akceptuj z {0_labelShort}</AcceptWith>
   <!-- EN: Accept for -->
-  <AcceptQuestFor>TODO</AcceptQuestFor>
+  <AcceptQuestFor>Zaakceptuj za</AcceptQuestFor>
   <!-- EN: Click to accept this quest for this reward. -->
-  <AcceptQuestForTip>TODO</AcceptQuestForTip>
+  <AcceptQuestForTip>Kliknij, aby zaakceptować to zadanie w zamian za tę nagrodę.</AcceptQuestForTip>
   <!-- EN: The offer expired. -->
   <QuestOutcomeInfo_OfferExpired>Oferta przedawniła się.</QuestOutcomeInfo_OfferExpired>
   <!-- EN: You completed this quest. -->
@@ -267,7 +267,7 @@
   <!-- EN: You failed this quest. -->
   <QuestOutcomeInfo_Failed>To zadanie nie powiodło się.</QuestOutcomeInfo_Failed>
   <!-- EN: This quest became invalid before it was accepted. -->
-  <QuestOutcomeInfo_Invalid>TODO</QuestOutcomeInfo_Invalid>
+  <QuestOutcomeInfo_Invalid>To zadanie stało się nieważne zanim zostało przyjęte.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>Skocz do {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
@@ -293,32 +293,32 @@
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>TODO</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
-  <ChooseRewards>TODO</ChooseRewards>
+  <ChooseRewards>Preferencje dotyczące nagród</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
-  <ChooseRewardsDesc>TODO</ChooseRewardsDesc>
+  <ChooseRewardsDesc>Powiedz innym frakcjom, jakie nagrody chcesz otrzymać w przyszłych misjach. Nie ma to wpływu na zadania, które już były oferowane.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>Akceptuj {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
   <AcceptRoyalFavorDesc>Czy chcesz otrzymać nagrodę '{FACTION_royalFavorLabel}' od frakcji {FACTION_name}.\n\nJeśli ta opcja jest wyłączona, {FACTION_name} będzie oferować inne rodzaje nagród.\n\nTo ustawienie będzie wpływać tylko na przyszłe zadania.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>TODO</AcceptGoodwill>
+  <AcceptGoodwill>Przyjmij reputację</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
-  <AcceptGoodwillDesc>TODO</AcceptGoodwillDesc>
+  <AcceptGoodwillDesc>Czy chcesz zostać nagrodzony poprzez poprawę stosunków z frakcją {FACTION_name}.\n\nJeśli ta opcja jest wyłączona, {FACTION_name} będzie oferować inne rodzaje nagród zamiast tego.\n\nTo ustawienie ma wpływ tylko na nowo generowane zadania.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
   <RoyalFavorOn>Obecnie decydujesz się na otrzymanie {FACTION_royalFavorLabel}.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>Obecnie rezygnujesz z otrzymywania {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>TODO</GoodwillTip>
+  <GoodwillTip>Twoja reputacja wobec {0_name} wzrośnie o {1}.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
-  <PawnQuestReward>TODO</PawnQuestReward>
+  <PawnQuestReward>{0_labelShort} dołącza</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
   <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
-  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
+  <QuestBetrayalOfferTip>{0} przyzna Ci nagrodę za zabicie wszystkich członków {1}.</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>TODO</CreatesNeed>
+  <CreatesNeed>Stwarza potrzebę</CreatesNeed>
 
 </LanguageData>
