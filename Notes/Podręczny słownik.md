@@ -122,6 +122,7 @@ tarcze energetyczne (PersonalShields)
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
 zestaw do szycia  
+wiertnica głębinowa  (deep drill)
   
 #Rośliny, substancje, jedzenie  
 Bloker malarii (MalariBlock)  
