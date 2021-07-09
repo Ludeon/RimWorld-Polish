@@ -70,6 +70,8 @@
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego tronu.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>Przypisz to miejsce medytacji do konkretnego kolonisty.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Przydziel kolonistę</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -85,7 +87,7 @@
   <!-- EN: Whether beds in this room should be used by prisoners. -->
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
   <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
-  <CommandBedSetForPrisonersFailOutdoors>Tylko łóżka znajdujące się w zamkniętej przestrzeni mogą być oznaczone dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>Tylko łóżka znajdujące się w zamkniętej przestrzeni mogą być przeznaczane więźniom.</CommandBedSetForPrisonersFailOutdoors>
   <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>Medyczne</CommandBedSetAsMedicalLabel>
   <!-- EN: Whether this bed is for medical use. -->
@@ -168,15 +170,15 @@
   <!-- EN: Start ship -->
   <CommandShipStartup>Uruchom statek</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
-  <CommandShipStartupDesc>Wznów statek z hibernacji.</CommandShipStartupDesc>
+  <CommandShipStartupDesc>Wybudź hibernujące komponenty statku.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <!-- EN: Eject sleeper -->
-  <CommandPodEject>Wyładuj śpiącego</CommandPodEject>
+  <CommandPodEject>Eksmituj śpiącego</CommandPodEject>
   <!-- EN: Wake up the cryptosleeper and eject them. -->
-  <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
+  <CommandPodEjectDesc>Wybudź kolonistę i go eksmituj.</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
-  <CommandPodEjectFailEmpty>Nie ma tam nikogo.</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>Nikogo w niej nie ma.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
   <!-- EN: Passage forbidden -->
@@ -190,7 +192,7 @@
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
-  <CommandResetTemp>Zresetuj.</CommandResetTemp>
+  <CommandResetTemp>Zresetuj</CommandResetTemp>
   <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>Resetuje zadaną temperaturę do temperatury pokojowej.</CommandResetTempDesc>
   <!-- EN: Raise the target temperature. -->
@@ -252,6 +254,12 @@
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Zatrzymaj wszystkie ataki.</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>Nie zostało {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>Wymaga przeładowania za pomocą {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Wybierz rośliny do zasiania</CommandSelectPlantToGrowMulti>
@@ -297,6 +305,8 @@
   <CommandMergeCaravansDesc>Połącz wybrane karawany.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Wybierz wszystkie karawany jakie mają zostać połączone. Muszą być blisko siebie.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>Dołącz</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -397,10 +407,10 @@
   <CommandCancelLoadDesc>Przerwij ładowanie przedmiotów lub ludzi i usuń wszystko już załadowane.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
-  <!-- EN: Launch group -->
-  <CommandLaunchGroup>Wystrzel grupę</CommandLaunchGroup>
-  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
-  <CommandLaunchGroupDesc>Rozpoczyna docelowy proces wystrzału grupy kapsuł transportowych. Następny krok to wybranie celu. Kapsuły będą razem lecieć i wspólnie wylądują.</CommandLaunchGroupDesc>
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>Wystrzel</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>Wystartuj i leć do celu.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Niektóre kapsuły transportowe w tej grupie nie są połączone z portem tankującym.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
@@ -493,12 +503,22 @@
   <CommandSendShuttleFailUnderRoof>Prom znajduje się pod dachem.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>Brakuje niektórych wymaganych przedmiotów albo osób.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>Odrzuć</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>Rozładuj całą zawartość i odeślij wahadłowiec.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
   <CommandPlaceBlueprints>Umieść plan</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Umieść wszystkie wymagane plany tam gdzie to możliwe.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>Umieść {0} plany</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>Umieść wszystkie plany {0} tam gdzie to możliwe.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -515,5 +535,11 @@
   <CommandOpenLinkedQuest>Otwórz powiązane zadanie.</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Otwórz powiązane zadanie na karcie zadań.</CommandOpenLinkedQuestDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>Weź używkę...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>Wybierz używkę z inwentarza, którą chcesz natychmiast zażyć.</TakeDrugDesc>
   
 </LanguageData>

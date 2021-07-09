@@ -2,6 +2,12 @@ Nowa linijka = dwie spacje
 Przetłumaczony (Oryginalny)  
   
   
+#Wyrazy których nie tłumaczymy (ewentualnie dajemy końcówki polskie)
+RimWorld  
+Glitterworld  
+Royalty  
+Mechanoid  
+  
 #Zwroty  
 itd. (and so on.)  
   
@@ -9,7 +15,8 @@ itd. (and so on.)
 Przypisz (Assign)  
 Wyznacz (Designate)  
 Oznacz (Mark)  
-Obszar (Area, zone)  
+Obszar (Area)  
+Strefa (Zone)
 Miejsce, punkt (Spot)  
 Miejsce (Place)  
 Przestrzeń (Space)  
@@ -28,6 +35,13 @@ Kamuflaż (Stealth) - w przypadku myśliwego
 Odłamek (Chunk)  
  - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
+Broń dystansowa (Ranged weapon)  
+Nasycenie (Nutrition)  
+Zakaż i dopuść (forbit and allow)  
+Skupienie PSI (psyfocus)  
+Zysk, przyrost (Gain)  
+Pól, pola (Tiles)  
+Dziecic (Heir)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
@@ -68,7 +82,7 @@ krótki łuk (Bow_Short)
 kuchenka elektryczna  
 kurtka zimowa (Jacket)  
 kuźnia  
-laboratorium narkotyków  
+laboratorium używek  
 laboratorium badawcze  
 lekki karabinek kalibru 8 mm (LMG)  
 lekki karabin maszynowy (HeavySMG)  
@@ -110,6 +124,7 @@ tarcze energetyczne (PersonalShields)
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
 zestaw do szycia  
+wiertnica głębinowa  (deep drill)
   
 #Rośliny, substancje, jedzenie  
 Bloker malarii (MalariBlock)  
@@ -117,7 +132,7 @@ Brzeczka (Wort)
 Sok-go (GoJuice)  
 Jadeit (Jade)  
 Produkty odzwierzęce (Animal products)  
-Ganja, ganji (Smokeleaf)  
+Zioło (Smokeleaf)  
 Joint, jointy (Joint)  
 liście psychodeliczne  
 Lucyferium (Luciferium)  
@@ -140,6 +155,7 @@ gniazdo (hive)
 Świecący kokon (glow pod)  
   
 #Zwierzęta i inne stworzenia  
+archatyczny (archotech)
 alfabóbr (alphabeaver)  
 alpaka (Alpaca)  
 bumalopa (Boomalope)  
@@ -160,7 +176,7 @@ lis arktyczny (FoxArctic)
 lis rudy (FoxRed)  
 łoś (Elk)  
 mawół (muffalo)  
-mechaniczna stonoga (MechanicalCentipede)  
+mechaniczny wij (MechanicalCentipede)  
 megaskarabeusz (Megascarab)  
 megaterium (Megatherium)  
 niedźwiedź grizli (Grizzly Bear)  
@@ -213,5 +229,3 @@ Temperatura (Temperature)
   
   
   
-Uzupełnić tłumaczenie:  
-DefInjected/ConceptDef/Concepts_NotedOpportunistic.xml

@@ -175,7 +175,7 @@
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Niewybrany materiał</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
-  <TooCloseToMapEdge>Zbyt blisko krańca mapy.</TooCloseToMapEdge>
+  <TooCloseToMapEdge>Zbyt blisko brzegu mapy.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
   <OutOfBounds>Poza granicami.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
@@ -214,8 +214,14 @@
   <InteractionSpotWillOverlap>Miejsce interakcji pokryje się z miejscem interakcji {1_labelShort}.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>Miejsce interakcji pokrywa się z miejscem interakcji {1_labelShort}.</InteractionSpotOverlaps>
-  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
-  <MonumentAdjacentToBuilding>Znaczników pomników nie mogą być bezpośrednio umieszczone w sąsiedztwie jakiegokolwiek budynku.</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>Nie można umieścić monumentu nad: {0}.</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>Nie można budować nad: {0}.</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>Nie można umieścić monumentu nad: {0}.</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>Monument nie może być umieszczony w sąsiedztwie z: {0}.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -228,13 +234,13 @@
   <TransmitsPower>Przewodzi prąd</TransmitsPower>
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Wymagana konstrukcja</ConstructionNeeded>
-  <!-- EN: None of your {0=koloniści, tubylcy} have this skill. -->
+  <!-- EN: None of your {0} have this skill. -->
   <NoColonistWithSkillTip>Żadni Twoi {0} nie posiadają tej umiejętności.</NoColonistWithSkillTip>
   <!-- EN: {0} needed -->
   <SkillNeededForConstructing>Potrzebne: {0}</SkillNeededForConstructing>
-  <!-- EN: None of your {0=koloniści, tubylcy} have all skills required. -->
+  <!-- EN: None of your {0} have all skills required. -->
   <NoColonistWithAllSkillsForConstructing>Żadni Twoi {0} nie posiadają wszystkich wymaganych umiejętności.</NoColonistWithAllSkillsForConstructing>
-  <!-- EN: All of your {0=koloniści, tubylcy} who have this skill are not assigned to {1}. -->
+  <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>Wszyscy Twoi {0}, którzy mają taką umiejętność, nie są przypisani do: {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>

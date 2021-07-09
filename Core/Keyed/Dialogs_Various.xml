@@ -5,10 +5,14 @@
   <Confirm>Potwierdź</Confirm>
   <!-- EN: Go back -->
   <GoBack>Wstecz</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>Czy chcesz kontynuować?</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
   <Close>Zamknij</Close>
+  <!-- EN: Accept -->
+  <Accept>Akceptuj</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -400,8 +404,46 @@
   <TimeRecordsCategory>Czas</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Różne</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>Chemia</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>Przyrost haju na dawkę</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>Tempo spadku haju</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>Czas trwania haju na dawkę</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>Przyrost tolerancji na dawkę</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>Tempo spadku tolerancji</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>Nowe uzależnienie min tolerancja</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>Bezpieczny przedział dawki</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>Stopień uzależniania</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>Początkowa ciężkość uzależnienia</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>Nasilenie uzależnienia na dawkę</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>Wypełnienie uzależnienia na dawkę</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>Tempo spadku uzależniania</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>Uzależnienie wymaga odstępów między dawkami</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>Czas leczenia uzależnień</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>Koszt uzależnienia</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>Losowe prawdopodobieństwo przedawkowania</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>Zawsze bezpieczny</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>Nigdy nie jest bezpieczny</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>{0} / dzień</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Pakowność zwierzęcia</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -448,18 +490,44 @@
   <PowerConsumption>Pobór energii</PowerConsumption>
   <!-- EN: Target -->
   <Target>Cel</Target>
-  <!-- EN: Human -->
-  <TargetHuman>Człowiek</TargetHuman>
-  <!-- EN: Animal -->
-  <TargetAnimal>Zwierze</TargetAnimal>
-  <!-- EN: Self -->
-  <TargetSelf>Siebie</TargetSelf>
-  <!-- EN: Ground -->
-  <TargetGround>Ziemia</TargetGround>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>Rodzaje celów, na których można użyć tej umiejętności.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>człowiek</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>zwierzę</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>siebie</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>ziemia</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>Kliknij, aby dowiedzieć się więcej.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Kliknij, aby zobaczyć frakcje.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>TODO</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>TODO</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -476,6 +544,8 @@
   <TraderCount>Ilość tego przedmiotu jaką handlarz posiada na sprzedaż.</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>Akceptuj</AcceptButton>
+  <!-- EN: Load selected -->
+  <LoadSelected>Załaduj wybrane</LoadSelected>
   <!-- EN: Reset -->
   <ResetButton>Zresetuj</ResetButton>
   <!-- EN: Cancel -->
@@ -531,7 +601,7 @@
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Powróć do trybu handlowania.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <TradeCaravanRequestDeniedDueTitle>TODO</TradeCaravanRequestDeniedDueTitle>
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} nie chce wysłać karawany, ponieważ {NEGOTIATOR_nameDef} nie posiada wymaganego tytułu {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -548,12 +618,16 @@
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>Stwórz karawanę</FormCaravan>
+  <!-- EN: Send -->
+  <Send>Wyślij</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Ilość przedmiotów, które kolonia może już przekazać karawanie.</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Ludzie i zwierzęta</PawnsTab>
   <!-- EN: Items -->
   <ItemsTab>Przedmioty</ItemsTab>
+  <!-- EN: Travel supplies -->
+  <FoodAndMedicineTab>Zaopatrzenie</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Musisz przypisać przynajmniej jednego przytomnego kolonistę.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -611,11 +685,15 @@
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>Jak dużo wartości odżywczych dostarcza ten pokarm.\n\nPrzykładowo: dorosła osoba potrzebuje dziennie {0} wartości odżywczej.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>To zwierze może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>To zwierzę może wypasać się pokarmem z otoczenia, zamiast wyjadać przenoszoną żywność. Wypas możliwy jest tylko na niektórych biomach i zakresach temperatur.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Wartość odżywcza zebrana w ciągu dnia. Ostateczna wartość zbioru zależy również od obfitości biomu.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
-  <NutritionEatenPerDayTip>Wartość odżywcza jedzona w ciągu dnia. Przykładowo, proste posiłki mają {0} wartości odżywczej.\n\nMożna jeść: {2}\n\nLegenda:\n{1}</NutritionEatenPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
+  <NutritionEatenPerDayTip>Wartość odżywcza jedzona w ciągu dnia. Przykładowo, proste posiłki mają {0} wartości odżywczej.</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>Może jeść</CanEat>
+  <!-- EN: Legend -->
+  <Legend>Legenda</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Tolerowana masa</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -642,6 +720,8 @@
   <AnimalsSection>Zwierzęta</AnimalsSection>
   <!-- EN: Choose route -->
   <ChooseRouteButton>Wybierz trasę</ChooseRouteButton>
+  <!-- EN: Change route -->
+  <ChangeRouteButton>Zmień trasę</ChangeRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Porzuć</AbandonButton>
   <!-- EN: Movement speed -->
@@ -672,6 +752,8 @@
   <FactionType>Typ frakcji</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>Całkowita wielkość ciała</TotalBodySize>
+  <!-- EN: Automatically select travel supplies -->
+  <AutomaticallySelectFoodAndMedicine>Automatyczny wybór zaopatrzenia</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -708,6 +790,8 @@
   <TransporterItemIsUnreachableMulti>Pomiędzy kapsułami i {0}x {1} nie ma przejścia.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Pomiędzy promem i {0}x {1} nie ma przejścia.</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>Tylko {0} kolonistów jest maksymalnie dozwolonych.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -749,7 +833,7 @@
   
   <!-- Drug policy management -->
   <!-- EN: Drug policy -->
-  <DrugPolicy>Polityka narkotyków</DrugPolicy>
+  <DrugPolicy>Polityka używek</DrugPolicy>
   <!-- EN: Select policy... -->
   <SelectDrugPolicy>Wybierz politykę...</SelectDrugPolicy>
   <!-- EN: New policy -->
@@ -757,23 +841,23 @@
   <!-- EN: Delete policy... -->
   <DeleteDrugPolicy>Usuń politykę...</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>Polityka narkotyków jest używana przez {0}.</DrugPolicyInUse>
+  <DrugPolicyInUse>Polityka używek jest używana przez {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>Dieta jest w użyciu przez {0}.</FoodRestrictionInUse>
   <!-- EN: Social drugs -->
-  <SocialDrugs>Narkotyki społeczne</SocialDrugs>
+  <SocialDrugs>Używki społeczne</SocialDrugs>
   <!-- EN: No drugs -->
-  <NoDrugs>Brak narkotyków</NoDrugs>
+  <NoDrugs>Brak używek</NoDrugs>
   <!-- EN: One drink per day -->
   <OneDrinkPerDay>Jeden drink dziennie</OneDrinkPerDay>
   <!-- EN: Unrestricted -->
   <Unrestricted>Bez ograniczeń</Unrestricted>
   <!-- EN: No drug policy selected -->
-  <NoDrugPolicySelected>Nie wybrano polityki narkotyków</NoDrugPolicySelected>
+  <NoDrugPolicySelected>Nie wybrano polityki używek</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
-  <AddDrug>Dodaj narkotyk...</AddDrug>
+  <AddDrug>Dodaj używkę...</AddDrug>
   <!-- EN: Drug -->
-  <DrugColumnLabel>Narkotyki</DrugColumnLabel>
+  <DrugColumnLabel>Używki</DrugColumnLabel>
   <!-- EN: Usage -->
   <DrugUsageColumnLabel>Zażywanie</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
@@ -782,10 +866,10 @@
   <MoodThresholdColumnLabel>Tylko jeśli nastrój jest poniżej</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>Tylko jeśli rozrywka jest poniżej</JoyThresholdColumnLabel>
-  <!-- EN: Take to inventory -->
-  <TakeToInventoryColumnLabel>Weź do ekwipunku</TakeToInventoryColumnLabel>
+  <!-- EN: Keep in inventory -->
+  <TakeToInventoryColumnLabel>Zatrzymaj w ekwipunku</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
-  <NoDrugsBrackets>(brak narkotyków)</NoDrugsBrackets>
+  <NoDrugsBrackets>(brak używek)</NoDrugsBrackets>
   <!-- EN: Every day -->
   <EveryDay>Codziennie</EveryDay>
   <!-- EN: {0} times per day -->
@@ -795,25 +879,25 @@
   <!-- EN: Any -->
   <NoDrugUseRequirement>Dowolnie</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
-  <DeleteDrugTooltip>Usuń ten narkotyk.</DeleteDrugTooltip>
+  <DeleteDrugTooltip>Usuń tę używkę.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
-  <DrugNameColumnDesc>Nazwa narkotyku</DrugNameColumnDesc>
+  <DrugNameColumnDesc>Nazwa używki</DrugNameColumnDesc>
   <!-- EN: How the drug is allowed to be used. -->
-  <DrugUsageColumnDesc>Sposób, w jaki można używać ten narkotyk.</DrugUsageColumnDesc>
+  <DrugUsageColumnDesc>Sposób, w jaki można korzystać z tej używki.</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
-  <FrequencyColumnDesc>Określa, jak często koloniści powinni próbować przyjmować ten narkotyk.</FrequencyColumnDesc>
+  <FrequencyColumnDesc>Określa, jak często koloniści powinni próbować przyjmować tę używkę.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>Koloniści będą przyjmować tę używkę, tylko jeśli ich poziom nastroju spadnie poniżej granicy.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>Koloniści będą przyjmować ten narkotyk, tylko jeśli ich poziom rozrywki spadnie poniżej granicy.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Koloniści będą przyjmować tę używkę, tylko jeśli ich poziom rozrywki spadnie poniżej granicy.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>Ilość narkotyku zabrana dodatkowo, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>Ilość używki zabrana dodatkowo, aby nie trzeba było ciągle chodzić do składowiska.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>Dla uzależnień.\n\nUżyj tego narkotyku, aby zaspokoić potrzebę uzależnionej osoby.\n\nNawet jeśli jest zabroniony, niektóre osoby z określonymi cechami lub załamaniem nerwowym będą mogły z niego skorzystać.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>Dla uzależnień.\n\nSkorzystaj z tej używki, aby zaspokoić potrzebę uzależnionej osoby.\n\nNawet jeśli jest zabroniony, niektóre osoby z określonymi cechami lub załamaniem nerwowym będą mogły z niego skorzystać.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>Dla rozrywki.\n\nPrzyjmuj ten narkotyk dla rozrywki i celów społecznych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą i tak przyjąć narkotyk.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>Dla rozrywki.\n\nSkorzystaj z tej używki dla celów społecznych i rozrywkowych, a także do zaspokojenia potrzeb wynikających z uzależnienia.\n\nNawet jeśli niedostępne, niektóre postacie ze specjalnymi cechami lub załamaniem mogą mimo wszystko skorzystać z używki.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
-  <DrugUsageTipScheduled>Zaplanowane.\n\nPrzyjmuj ten narkotyk o zaplanowanych porach.</DrugUsageTipScheduled>
+  <DrugUsageTipScheduled>Zaplanowane.\n\nSkorzystaj z tej używki o zaplanowanych porach.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
@@ -893,23 +977,25 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Nie zalecamy graczom używania tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczy i nie ma potrzeby z niego korzystać.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Nie zalecamy graczom używania tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczom, bezcelowe użycie może narobić bałaganu.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
-  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wyślesz kapsuły transportowe na puste miejsce. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
+  <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>Karawana nie będzie mogła się ruszyć, jeśli wystrzelisz kapsuły transportowe do pustego miejsca. Kontynuować mimo tego?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>Czy aby na pewno chcesz usunąć ten znacznik pomnika?</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>Czy na pewno chcesz usunąć ten znacznik pomnika?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Wymagana linia widoku</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
-  <AbilityEntropyGain>Zysk entropii</AbilityEntropyGain>
+  <!-- EN: Neural heat gain -->
+  <AbilityEntropyGain>Przyrost ciepła neuralnego</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>Koszt skupienia PSI</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Czas trwania efektu</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -918,9 +1004,60 @@
   <AbilityCastingTime>Czas rzucania</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Brak linii widoku do celu.</AbilityCannotHitTarget>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>Nie można dosięgnąć celu.</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>Za mało wolnego miejsca.</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0} musi wybrać za cel pusty obszar.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} musi wybrać za cel obszar zdatny do chodzenia.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>{0} musi celować w niezadaszony obszar.</AbilityRoofed>
+  <!-- EN: {0_labelShort} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>TODO</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>TODO</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>TODO</AbilityCantApplyNoResistance>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>TODO</AbilityCantApplyOnAsexual>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>TODO</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>TODO</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>TODO</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>TODO</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>TODO</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>TODO</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>TODO</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>TODO</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>TODO</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>TODO</AbilityNeedAllyToSkip>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>TODO</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>TODO</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>TODO</PsychicLoveFor>
+  <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
+  <FarskipConfirmTeleportingLodger>TODO</FarskipConfirmTeleportingLodger>
+  
+  <!-- EN: minor -->
+  <MentalBreakIntensityMinor>niewielkie</MentalBreakIntensityMinor>
+  <!-- EN: major -->
+  <MentalBreakIntensityMajor>poważne</MentalBreakIntensityMajor>
+  <!-- EN: extreme -->
+  <MentalBreakIntensityExtreme>skrajne</MentalBreakIntensityExtreme>
   
 </LanguageData>
