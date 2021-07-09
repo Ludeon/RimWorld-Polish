@@ -3,8 +3,8 @@
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nA [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -16,14 +16,14 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>TODO</Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>TODO</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>TODO</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>TODO</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>TODO</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>TODO</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>TODO</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>TODO</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>TODO</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>TODO</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>TODO</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>

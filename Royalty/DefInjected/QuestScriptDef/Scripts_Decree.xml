@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>TODO</Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -10,21 +10,23 @@
   -->
   <Decree_BuildMonument.questNameRules.rulesStrings>TODO</Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>TODO</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>TODO</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
   <!-- EN: Monument completed -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
-  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>TODO</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>TODO</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
   <!-- EN: Monument destroyed -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>TODO</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>TODO</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>TODO</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>TODO</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
+  <Decree_BuildMonument.KeepMonument.slateRef>TODO</Decree_BuildMonument.KeepMonument.slateRef>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>

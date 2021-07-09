@@ -80,6 +80,8 @@
   <Average>Średni</Average>
   <!-- EN: Cause -->
   <Cause>Przyczyna</Cause>
+  <!-- EN: etc -->
+  <Etc>itp.</Etc>
   <!-- EN: ${0} -->
   <MoneyFormat>{0}€</MoneyFormat>
 
@@ -100,7 +102,10 @@
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
 \nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>TODO</TechprintDesc>
+  <TechprintDesc>To jest druk technologiczny dla projektu badawczego '{PROJECT_label}'.
+\nFizyczna forma druków technologicznych może obejmować zarówno skrawki papieru z diagramami, jak i zaawansowane, samodzielne maszyny dydaktyczne.Niezależnie od formy, pełnią one tę samą rolę. Dają Twoim badaczom pewność, że pomysł jest możliwy do zrealizowania, a także przybliżone wyobrażenie o wzorach stosowanych w bardziej ustabilizowanych społeczeństwach.
+\nTwoi naukowcy potrzebują podstawowej wiedzy oferowanej przez druki technologiczne, aby wiedzieć, od czego zacząć pracę nad daną technologią. Dopiero po zastosowaniu wystarczającej liczby druków technologicznych twoi naukowcy mogą dopracować szczegóły dotyczące tego, jak wykorzystać daną technologię w konkretnej sytuacji.
+\nZastosowanie druków technologicznych do zrealizowanego projektu wypełnia połowę pozostałego postępu badawczego. Ponadto, stosując druki technologiczne, naukowcy zawsze zyskują wzrost swoich umiejętności intelektualnych, nawet w przypadku już ukończonych technologii.</TechprintDesc>
   <!-- EN: Unlocks -->
   <Unlocks>Odblokowuje</Unlocks>
 
@@ -141,6 +146,12 @@
   <SomeonesRoom>{1} należąca do: {PAWN_labelShort}</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
   <CouplesRoom>{2} należąca do: {PAWN1_labelShort} i {PAWN2_labelShort}</CouplesRoom>
+  
+  <!-- EN: Important for this type of room. -->
+  <StatRelatesToCurrentRoom>Ważne dla tego typu pomieszczeń</StatRelatesToCurrentRoom>
+  
+  <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
+  <DeepResourceRemaining>{COUNT} {RESOURCE_label} pod ziemią tutaj.</DeepResourceRemaining>
   
   <!-- EN: (various) -->
   <VariousLabel>(różne)</VariousLabel>
