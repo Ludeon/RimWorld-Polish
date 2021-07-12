@@ -12,7 +12,7 @@ Mechanoid
 itd. (and so on.)  
   
 #Ogólne  
-Przypisz (Assign)  
+Przydział (Assign)  
 Wyznacz (Designate)  
 Oznacz (Mark)  
 Obszar (Area)  
@@ -33,7 +33,7 @@ Wrogi tułacz (Spacer hostile)
 Insekt (Insect)  
 Kamuflaż (Stealth) - w przypadku myśliwego  
 Odłamek (Chunk)  
- - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
+Wtula się (Nuzzling) Zwierze pieszczotliwie wtula się głową do kolonisty (macie lepsze pomysły?)
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
 Broń dystansowa (Ranged weapon)  
 Nasycenie (Nutrition)  
@@ -42,6 +42,8 @@ Skupienie PSI (psyfocus)
 Zysk, przyrost (Gain)  
 Pól, pola (Tiles)  
 Dziecic (Heir)  
+Biokodowanie (Biocoding)
+Biopsygnatura (Biosignature)
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  

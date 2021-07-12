@@ -199,7 +199,7 @@
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>Rodzaj skóry, który zostanie otrzymany po oprawieniu tego stworzenia.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Szansa, że ten stwór zaatakuje, gdy oswajacz spróbuje go oswoić i nie uda mu się to.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Prawdopodobieństwo odpowiedzi atakiem tego stworzenia na nieudaną próbę oswojenia.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
   <Stat_Race_Trainability_Desc>Ogólne predyspozycje psychiczne tego stworzenia do treningu. Jest to połączenie inteligencji i uważności. Określa, do jakich zadań można to stworzenie wytrenować.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
@@ -219,7 +219,7 @@
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Promień losowego rozrzutu strzałów wystrzelonych z tej broni.\n\nWysokie wartości sprawiają, że pociski rozchodzą się losowo wokół celu.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>Szansa, że strzał trafi bezpośrednio w cel, jeśli nie zostanie przechwycony, uniknięty lub zatrzymany.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>Prawdopodobieństwo trafienia strzału bezpośrednio w cel, jeśli nie zostanie przechwycony, uniknięty lub zatrzymany.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>Wpływ tej części ciała na nastrój właściciela.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
@@ -235,13 +235,13 @@
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
   <Stat_Recipe_EfficiencyStat_Desc>Która statystyka określa jakość lub ilość produktu wyjściowego.\n\nIm wyższa jest statystyka pracownika, tym wyższa będzie jakość lub ilość.</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Mnożnik szansy, że ta operacja się powiedzie. Trudniejsze operacje mają niższe mnożniki.\n\nNa rzeczywistą szansę powodzenia operacji ma również wpływ lekarz, wyposażenie i stosowane leki.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Mnożnik prawdopodobieństwa na zakończenie się powodzeniem tej operacji. Trudniejsze operacje mają niższe mnożniki.\n\nNa rzeczywistą szansę powodzenia operacji wpływ ma również lekarz, wyposażenie i stosowane leki.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nie może się nie udać</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Wykonanie tej operacji jest bezpieczne dla pacjenta.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Szansa, że pacjent umrze po niepowodzeniu operacji.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Prawdopodobieństwo śmierci pacjenta, gdy operacja zakończy się niepowodzeniem.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>Całkowity współczynnik krwawienia</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -251,31 +251,31 @@
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
   <Stat_Hediff_NaturalHealingFactor_Desc>Mnożnik stosowany do ogólnego tempa naturalnego gojenia się ran.</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Czynnik prawdopodobieństwa zatrucia pokarmowego</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Czynnik ryzyka zatrucia pokarmowego</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Mnożnik stosowany do prawdopodobieństwa zatrucia pokarmowego.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Mnożnik stosowany jako prawdopodobieństwo zatrucia pokarmowego.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>Tempo utraty krwi w tym stanie</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
-  <Stat_Hediff_Pain_Desc>Wielkość bólu spowodowanego tym schorzeniem.</Stat_Hediff_Pain_Desc>
+  <Stat_Hediff_Pain_Desc>Ilość bólu spowodowana tym schorzeniem.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Odstępstwo w sprawności dotyczy części ciała, na które ma to wpływ.</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: The mental abilities this affects. -->
-  <Stat_Hediff_Affects_Desc>Zdolności umysłowe, na które to wpływa.</Stat_Hediff_Affects_Desc>
+  <Stat_Hediff_Affects_Desc>Wpływ na zdolności umysłowe.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
   <Stat_Hediff_HungerRateOffset_Name>Tempo głodu</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateFactor_Desc>Mnożnik tempa, w jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateOffset_Desc>Odstępstwo od tempa, w jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateOffset_Desc>
+  <Stat_Hediff_HungerRateOffset_Desc>Odstępstwo od tempa, z jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tempo odpoczynku</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Odstępstwo od tempa, w jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessOffset_Desc>
+  <Stat_Hediff_TirednessOffset_Desc>Odstępstwo od tempa, z jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Mnożnik stosowany do tempa, w jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>Mnożnik stosowany do tempa, z jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
-  <Stat_Hediff_PreventsInfection_Desc>Tak czy inaczej, zapobiegnie to infekcją.</Stat_Hediff_PreventsInfection_Desc>
+  <Stat_Hediff_PreventsInfection_Desc>Tak czy inaczej, zapobiegnie to infekcjom.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
   <Stat_Thing_Terrain_Supports_Desc>Rzeczy, jakie wspiera ten teren</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
@@ -291,7 +291,7 @@
   <!-- EN: {CHARGENOUN_plural} remaining -->
   <Stat_Thing_ReloadChargesRemaining_Name>CHARGENOUN_plural} pozostało</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>Liczba {CHARGENOUN_plural} pozostałych w tym obiekcie. Jeśli się wyczerpią, nie można już użyć tej zdolności specjalnej.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>Liczba {CHARGENOUN_plural} pozostałych w tym obiekcie. Jeśli się wyczerpią, zdolność specjalna nie może być już używana.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
@@ -313,42 +313,42 @@
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biokodowanie</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
-  <Stat_Thing_Biocoded_Desc>Ten przedmiot została zakodowana tak, aby akceptować tylko biopodpis konkretnej osoby.</Stat_Thing_Biocoded_Desc>
+  <Stat_Thing_Biocoded_Desc>Ten przedmiot została zakodowana tak, aby akceptować tylko biosygnaturę konkretnej osoby.</Stat_Thing_Biocoded_Desc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>W niektórych przypadkach ta sama substancja chemiczna jest obecna w wielu różnych narkotykach.\n\nTe różne narkotyki zaspokajają to samo uzależnienie na różne sposoby.</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>W niektórych przypadkach ta sama substancja chemiczna jest obecna w wielu różnych używkach.\n\nTe odmienne używki zaspokajają to samo uzależnienie na różne sposoby.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>Intensywność haju uzyskana na dawkę narkotyku.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Intensywność haju zapewniana jedną dawką tej używki.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>Jak bardzo ten narkotykowy haj będzie się zmniejszał każdego dnia.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Jak bardzo haj wywołany tą używką będzie słabł każdego dnia.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak długo będzie trwał haj tego narkotyku na dawkę.\n\nOblicza się to na podstawie haju na dawkę i wskaźnika schodzenia z haju.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak długo będzie trwał haj wywołany jedną dawką tej używki.\n\nOblicza się to na podstawie haju na dawkę i wskaźnika spadku z haju.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Jak bardzo tolerancja użytkownika na substancję chemiczną wzrośnie dla każdej dawki tego narkotyku.\n\nMoże się ona różnić dla różnych form tej samej substancji chemicznej.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Jak bardzo tolerancja użytkownika na substancję chemiczną wzrośnie dla każdej dawki tej używki.\n\nMoże się ona różnić dla różnych form tej samej substancji chemicznej.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Jak bardzo obniża się tolerancja użytkownika na substancję chemiczną w ciągu doby.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimalna tolerancja wymagana, aby stać się nowo uzależnionym od tego narkotyku.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimalna tolerancja wymagana, aby stać się nowo uzależnionym od tej używki.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Użytkownik nigdy nie uzależni się, jeśli nie będzie brał narkotyku częściej niż do tej pory.\n\nblicza się to na podstawie minimalnej tolerancji narkotyku na osobę uzależnioną, przyrostu tolerancji na dawkę i tempa zaniku tolerancji.\n\nNależy pamiętać, że niektóre narkotyki nie mają bezpiecznego odstępu czasowego. Takie narkotyki mogą uzależnić od każdej, nawet pierwszej dawki.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Użytkownik nigdy nie uzależni się, jeśli nie będzie brał używki częściej niż do tej pory.\n\nblicza się to na podstawie minimalnej tolerancji używki na osobę uzależnioną, przyrostu tolerancji na dawkę i tempa zaniku tolerancji.\n\nNależy pamiętać, że niektóre używki nie mają bezpiecznego odstępu czasowego. Takie używki mogą uzależnić od każdej, nawet pierwszej dawki.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>Szansa na przypadkowe przedawkowanie podczas zażywania tego leku. Przypadkowe przedawkowanie może się zdarzyć przy każdej dawce, niezależnie od tego, czy jest to pierwsza próba nowego użytkownika, czy setne uderzenie doświadczonego uzależnionego.</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>Prawdopodobieństwo na przypadkowe przedawkowanie podczas zażywania tego leku. Przypadkowe przedawkowanie może się zdarzyć przy każdej dawce, niezależnie od tego, czy jest to pierwsza próba nowego użytkownika, czy setne uderzenie doświadczonego uzależnionego.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>Szansa na uzależnienie na dawkę tego leku.\n\nJeśli narkotyk ma minimalną tolerancję na uzależnienie, tolerancja musi być powyżej tego poziomu, aby to miało zastosowanie. Jeśli nie ma minimalnej tolerancji, każda dawka może spowodować uzależnienie.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>Prawdopodobieństwo uzależnienia na dawkę tego leku.\n\nJeśli używka ma minimalną tolerancję na uzależnienie, tolerancja musi być powyżej tego poziomu, aby to miało zastosowanie. Jeśli nie ma minimalnej tolerancji, każda dawka może spowodować uzależnienie.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nowe uzależnienia spowodowane przez ten narkotyk zaczynają się na tym poziomie ciężkości.\n\nPrzyjmowanie większej ilości narkotyku zwiększa nasilenie uzależnienia, natomiast czas je zmniejsza.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nowe uzależnienia spowodowane przez tę używkę zaczynają się na tym poziomie ciężkości.\n\nPrzyjmowanie większej ilości używki zwiększa nasilenie uzależnienia, natomiast czas je zmniejsza.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak długo trwa powrót do zdrowia po początkowym uzależnieniu od tego narkotyku.\n\nOblicza się to na podstawie nowego stopnia nasilenia uzależnienia podzielonego przez tempo powrotu do nałogu. Uzależnienie, które było karmione będzie trwało dłużej.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak długo trwa powrót do zdrowia po początkowym uzależnieniu od tej używki.\n\nOblicza się to na podstawie nowego stopnia nasilenia uzależnienia podzielonego przez tempo powrotu do nałogu. Uzależnienie, które było karmione będzie trwało dłużej.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
   <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Jak bardzo nasilenie jest dodawane do istniejącego uzależnienia dla każdej dawki tego leku.\n\nNasilenie uzależnienia nie może przekroczyć 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
   <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak często osoba uzależniona musi przyjmować dawkę tego leku, aby zasilić uzależnienie i zapobiec odstawieniu.\n\nOblicza się to na podstawie wskaźnika zapotrzebowania na uzależnienie i wypełnienia zapotrzebowania na dawkę.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Jak bardzo każda dawka tego narkotyku wypełnia zapotrzebowanie uzależnionego na ten związek chemiczny.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Jak bardzo każda dawka tej używki wypełnia zapotrzebowanie uzależnionego na ten związek chemiczny.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Jak szybko spadnie zapotrzebowanie na substancję chemiczną u osoby uzależnionej.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc> Wartość rynkowa narkotyków, które muszą być spożywane dziennie, aby podtrzymać uzależnienie od tego narkotyku bez przechodzenia w stan odstawienia.\n\nWartość ta jest obliczana na podstawie zapotrzebowania uzależnionego na substancję chemiczną na dawkę, wskaźnika spadku zapotrzebowania oraz wartości rynkowej tego narkotyku.\n\nNależy pamiętać, że mogą istnieć inne sposoby uzyskania tej samej substancji chemicznej o innych kosztach.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc> Wartość rynkowa używek, które muszą być spożywane dziennie, aby podtrzymać uzależnienie od tej używki bez przechodzenia w stan odstawienia.\n\nWartość ta jest obliczana na podstawie zapotrzebowania uzależnionego na substancję chemiczną na dawkę, wskaźnika spadku zapotrzebowania oraz wartości rynkowej tej używki.\n\nNależy pamiętać, że mogą istnieć inne sposoby uzyskania tej samej substancji chemicznej o innych kosztach.</Stat_Thing_Drug_AddictionCost_Desc>
 
 </LanguageData>
