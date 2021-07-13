@@ -44,6 +44,8 @@ Pól, pola (Tiles)
 Dziecic (Heir)  
 Biokodowanie (Biocoding)
 Biopsygnatura (Biosignature)
+Persona core (rdzeń z jaźnią)
+Persona weapon (broń z jaźnią - z cechami osobowości)
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
