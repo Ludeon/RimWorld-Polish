@@ -7,6 +7,7 @@ RimWorld
 Glitterworld  
 Royalty  
 Mechanoid  
+Marine, Marines  
   
 #Zwroty  
 itd. (and so on.)  
@@ -33,7 +34,7 @@ Wrogi tułacz (Spacer hostile)
 Insekt (Insect)  
 Kamuflaż (Stealth) - w przypadku myśliwego  
 Odłamek (Chunk)  
-Wtula się (Nuzzling) Zwierze pieszczotliwie wtula się głową do kolonisty (macie lepsze pomysły?)
+Wtula się (Nuzzling) Zwierze pieszczotliwie wtula się głową do kolonisty (macie lepsze pomysły?)  
 SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
 Broń dystansowa (Ranged weapon)  
 Nasycenie (Nutrition)  
@@ -42,10 +43,10 @@ Skupienie PSI (psyfocus)
 Zysk, przyrost (Gain)  
 Pól, pola (Tiles)  
 Dziecic (Heir)  
-Biokodowanie (Biocoding)
-Biopsygnatura (Biosignature)
-Persona core (rdzeń z jaźnią)
-Persona weapon (broń z jaźnią - z cechami osobowości)
+Biokodowanie (Biocoding)  
+Biopsygnatura (Biosignature)  
+Persona core (rdzeń z jaźnią)  
+Persona weapon (broń z jaźnią - z cechami osobowości)  
   
 #Stany i czynności  
 Zespół odstawienny (Withdrawal)  
@@ -78,8 +79,8 @@ kapelusz kowbojski (CowboyHat)
 kapsuła hibernacyjna (CryptosleepCasket)  
 karabin (SurvivalRifle)  
 karabin energetyczny (ChargeRifle)  
-karabin snajperski kalibru 7,62mm (SniperRifle)  
-karabin szturmowy kalibru 6mm (AssaultRifle)  
+karabin snajperski (SniperRifle)  
+karabin szturmowy (AssaultRifle)  
 konsola łączności (CommsConsole)  
 koszula (CollarShirt)  
 krótki łuk (Bow_Short)  
@@ -88,8 +89,8 @@ kurtka zimowa (Jacket)
 kuźnia  
 laboratorium używek  
 laboratorium badawcze  
-lekki karabinek kalibru 8mm (LMG)  
-lekki karabin maszynowy (HeavySMG)  
+lekki karabin maszynowy (LMG)  
+lekki pistolet maszynowy (HeavySMG)  
 monitor funkcji życiowych (VitalsMonitor)  
 maczuga (Club)  
 maszyna do szycia  
@@ -128,7 +129,7 @@ tarcze energetyczne (PersonalShields)
 włócznia (Spear)  
 wyrzutnia zapalająca (IncendiaryLauncher)  
 zestaw do szycia  
-wiertnica głębinowa  (deep drill)
+wiertnica głębinowa (deep drill)  
   
 #Rośliny, substancje, jedzenie  
 Bloker malarii (MalariBlock)  
@@ -227,7 +228,7 @@ Zasilanie (Power)
 Obrona (Security)  
 Różne (Misc)  
 Podłogi (Floors)  
-Rozrywka (Recreation)  
+Rekreacja (Recreation)  
 Statek (Ship)  
 Temperatura (Temperature)  
   
