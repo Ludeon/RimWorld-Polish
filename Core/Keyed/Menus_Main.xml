@@ -152,6 +152,10 @@
   <ConfirmDeleteMod>Czy na pewno chcesz usunąć całą zawartość {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Auto-sortowanie modów</ResolveModOrder>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
+  <ModReorderConflict_MustLoadAfter>TODO</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
+  <ModReorderConflict_MustLoadBefore>TODO</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Anuluj subskrypcję</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -266,7 +270,7 @@
   <Incompatible>Niekompatybilne</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Oznacz jako tłumaczenie</TagAsTranslation>
-  <!-- EN: Too many (max {0}): (spacja po dwukropku) -->
+  <!-- EN: Too many (max {0}):  (1 spacja po dwukropku)-->
   <TooMany>Za dużo (max. {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Możesz wgrać do Warsztatu Steam, ponieważ jesteś autorem.</CanBeUpdatedOnWorkshop>
@@ -430,16 +434,20 @@
   <Difficulty_AllowMortars_Label>TODO</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>TODO</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>TODO</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>TODO</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
-  <!-- EN: Damage adaptation growth -->
+  <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Info>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
-  <!-- EN: Damage adaptation effect -->
+  <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>TODO</Difficulty_AdaptationEffectFactor_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
   <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
@@ -555,6 +563,8 @@
   <IncapableOfTooltipWorkTypes>Wyłączone typy pracy:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>TODO</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role: {0} -->
+  <IncapableOfTooltipRole>TODO</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>Cechy</Traits>
   <!-- EN: Permanent mood effect -->
@@ -573,6 +583,8 @@
   <Male>mężczyzna</Male>
   <!-- EN: female -->
   <Female>kobieta</Female>
+  <!-- EN: male and female -->
+  <MaleAndFemale>TODO</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>samiec</MaleAnimal>
   <!-- EN: female -->
@@ -589,6 +601,8 @@
   <StartingPawnsSelected>Wybrane</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Pozostawione</StartingPawnsLeftBehind>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <GuiltyDesc>TODO</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -628,5 +642,27 @@
   <ClickForMoreInfo>Kliknij, aby uzyskać więcej informacji</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Nie ma więcej informacji.</NoMoreInfoAvailable>
+
+  <!-- Factions -->
+  <!-- EN: Factions -->
+  <Factions>TODO</Factions>
+  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
+  <RecommendedFactionCount>TODO</RecommendedFactionCount>
+  <!-- EN: Maximum {0} visible factions allowed. -->
+  <TotalFactionsAllowed>TODO</TotalFactionsAllowed>
+  <!-- EN: There can be no more than {0} {1}. -->
+  <MaxFactionsForType>TODO</MaxFactionsForType>
+  <!-- EN: Restore defaults -->
+  <ResetFactionsToDefault>TODO</ResetFactionsToDefault>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>TODO</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>TODO</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>TODO</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>TODO</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>TODO</FactionsDisabledWarning>
 
 </LanguageData>

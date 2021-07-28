@@ -44,6 +44,8 @@
   <StatsReport_MarketValueFromStuffsAndWork>Podstawowa wartość rynkowa uwzględniająca materiały konstrukcyjne i niezbędną ilość pracy.</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
   <StatsReport_QualityMultiplier>Mnożnik jakości</StatsReport_QualityMultiplier>
+  <!-- EN: Quality offset -->
+  <StatsReport_QualityOffset>TODO</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>Maksymalny zysk</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
@@ -66,8 +68,8 @@
   <StatsReport_Facilities>Udogodnienia</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>Mnożnik za rozmiar ciała {0}</StatsReport_BodySize>
-  <!-- EN: Carefully slaughtered without wounds -->
-  <StatsReport_HasHediffExplanation>Starannie ubity bez ran</StatsReport_HasHediffExplanation>
+  <!-- EN: Damaged -->
+  <StatsReport_HasHediffExplanation>Uszkodzony</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = Obrażenia w walce wręcz * Szansa trafienia / Czas między uderzeniami w sekundach</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -78,6 +80,12 @@
   <StatsReport_MeleeHitChance>Szansa trafienia</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
   <StatsReport_CooldownFormat>{0} sek.</StatsReport_CooldownFormat>
+  <!-- EN: Blocked by fences -->
+  <StatsReport_BlockedByFences>TODO</StatsReport_BlockedByFences>
+  <!-- EN: Roam interval -->
+  <StatsReport_RoamInterval>TODO</StatsReport_RoamInterval>
+  <!-- EN: Caravan rideable age -->
+  <StatsReport_CaravanRideableAge>TODO</StatsReport_CaravanRideableAge>
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>Długość życia</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
@@ -106,6 +114,8 @@
   <StatsReport_JoyKind>typ rekreacji</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
   <StatsReport_WorkToUninstall>nakład pracy przy demontażu</StatsReport_WorkToUninstall>
+  <!-- EN: Fence -->
+  <StatsReport_Fence>TODO</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>Mnożnik wzrostu {0}</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -118,6 +128,10 @@
   <StatsReport_WildMan>Dzikus</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Atak</StatsReport_NonToolAttack>
+  <!-- EN: Ideoligion -->
+  <StatsReport_Ideoligion>TODO</StatsReport_Ideoligion>
+  <!-- EN: Multiplier for malnutrition {0} -->
+  <StatsReport_Malnutrition>TODO</StatsReport_Malnutrition>
   
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Możliwe przesunięcia</StatReport_PossibleOffsets>
@@ -166,6 +180,8 @@
   <Stat_HitPoints_Desc>Ile obrażeń może otrzymać obiekt zanim zostanie zniszczony.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>Wymagany nakład pracy, aby odinstalować ten przedmiot.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Whether this building is a type of fence. Fences block these animals -->
+  <Stat_Thing_Fence_Desc>TODO</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>W których obiektach przemysłowych można produkować ten przedmiot.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
@@ -174,6 +190,10 @@
   <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Mnożnik ilości doświadczenia zdobywanego przez lekarzy, gdy korzystają z tego żeby opatrzeć pacjenta.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Atrybuty tej rośliny.</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Clothing (for nudity) -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>TODO</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>TODO</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Które części ciała zakrywa ten ubiór.\n\nPancerz nie chroni części ciała, których nie zakrywa.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -199,15 +219,21 @@
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>Rodzaj skóry, który zostanie otrzymany po oprawieniu tego stworzenia.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Szansa, że ten stwór zaatakuje, gdy oswajacz podejmie próbę oswojenia i nie uda mu się to.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Prawdopodobieństwo odpowiedzi atakiem tego stworzenia na nieudaną próbę oswojenia.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
   <Stat_Race_Trainability_Desc>Ogólne predyspozycje psychiczne tego stworzenia do treningu. Jest to połączenie inteligencji i uważności. Określa, do jakich zadań można to stworzenie wytrenować.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>Średnia długość życia tego stworzenia.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: Whether this creature is blocked by fences and barricades. -->
+  <Stat_Race_BlockedByFences_Desc>TODO</Stat_Race_BlockedByFences_Desc>
+  <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
+  <Stat_Race_RoamInterval_Desc>TODO</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Wartość rekreacyjna konsumpcji tego. Wyższe liczby będą bardziej zaspokajać potrzeby rekreacyjne.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Wielkość ciała tej istoty w porównaniu z przeciętnym dorosłym człowiekiem.</Stat_Race_BodySize_Desc>
+  <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
+  <Stat_Race_Growth_Desc>TODO</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
   <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Ile czasu upływa od rozpoczęcia ataku tą bronią do momentu trafienia.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
@@ -219,7 +245,7 @@
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Promień losowego rozrzutu strzałów wystrzelonych z tej broni.\n\nWysokie wartości sprawiają, że pociski rozchodzą się losowo wokół celu.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>Szansa, że strzał trafi bezpośrednio w cel, jeśli nie zostanie przechwycony, uniknięty lub zatrzymany.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>Prawdopodobieństwo trafienia strzału bezpośrednio w cel, jeśli nie zostanie przechwycony, uniknięty lub zatrzymany.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>Wpływ tej części ciała na nastrój właściciela.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
@@ -235,13 +261,13 @@
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
   <Stat_Recipe_EfficiencyStat_Desc>Która statystyka określa jakość lub ilość produktu wyjściowego.\n\nIm wyższa jest statystyka pracownika, tym wyższa będzie jakość lub ilość.</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Mnożnik szansy, że ta operacja się powiedzie. Trudniejsze operacje mają niższe mnożniki.\n\nNa rzeczywistą szansę powodzenia operacji ma również wpływ lekarz, wyposażenie i stosowane leki.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Mnożnik prawdopodobieństwa na zakończenie się powodzeniem tej operacji. Trudniejsze operacje mają niższe mnożniki.\n\nNa rzeczywistą szansę powodzenia operacji wpływ ma również lekarz, wyposażenie i stosowane leki.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nie może się nie udać</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Wykonanie tej operacji jest bezpieczne dla pacjenta.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Szansa, że pacjent umrze po niepowodzeniu operacji.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Prawdopodobieństwo śmierci pacjenta, gdy operacja zakończy się niepowodzeniem.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>Całkowity współczynnik krwawienia</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -251,31 +277,31 @@
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
   <Stat_Hediff_NaturalHealingFactor_Desc>Mnożnik stosowany do ogólnego tempa naturalnego gojenia się ran.</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Czynnik prawdopodobieństwa zatrucia pokarmowego</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Czynnik ryzyka zatrucia pokarmowego</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Mnożnik stosowany do prawdopodobieństwa zatrucia pokarmowego.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Mnożnik stosowany jako prawdopodobieństwo zatrucia pokarmowego.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>Tempo utraty krwi w tym stanie</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
-  <Stat_Hediff_Pain_Desc>Wielkość bólu spowodowanego tym schorzeniem.</Stat_Hediff_Pain_Desc>
+  <Stat_Hediff_Pain_Desc>Ilość bólu spowodowana tym schorzeniem.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Odstępstwo w sprawności dotyczy części ciała, na które ma to wpływ.</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: The mental abilities this affects. -->
-  <Stat_Hediff_Affects_Desc>Zdolności umysłowe, na które to wpływa.</Stat_Hediff_Affects_Desc>
+  <Stat_Hediff_Affects_Desc>Wpływ na zdolności umysłowe.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
   <Stat_Hediff_HungerRateOffset_Name>Tempo głodu</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateFactor_Desc>Mnożnik tempa, w jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateOffset_Desc>Odstępstwo od tempa, w jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateOffset_Desc>
+  <Stat_Hediff_HungerRateOffset_Desc>Odstępstwo od tempa, z jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tempo odpoczynku</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Odstępstwo od tempa, w jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessOffset_Desc>
+  <Stat_Hediff_TirednessOffset_Desc>Odstępstwo od tempa, z jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Mnożnik stosowany do tempa, w jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>Mnożnik stosowany do tempa, z jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
-  <Stat_Hediff_PreventsInfection_Desc>Tak czy inaczej, zapobiegnie to infekcją.</Stat_Hediff_PreventsInfection_Desc>
+  <Stat_Hediff_PreventsInfection_Desc>Tak czy inaczej, zapobiegnie to infekcjom.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
   <Stat_Thing_Terrain_Supports_Desc>Rzeczy, jakie wspiera ten teren</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
@@ -289,9 +315,9 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>Ilość energii, którą ta konstrukcja będzie czerpać ze źródła zasilania.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>CHARGENOUN_plural} pozostało</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} pozostało</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>Liczba {CHARGENOUN_plural} pozostałych w tym obiekcie. Jeśli się wyczerpią, nie można już użyć tej zdolności specjalnej.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>Liczba {CHARGENOUN_plural} pozostałych w tym obiekcie. Jeśli się wyczerpią, zdolność specjalna nie może być już używana.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
@@ -313,42 +339,151 @@
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biokodowanie</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
-  <Stat_Thing_Biocoded_Desc>Ten przedmiot została zakodowana tak, aby akceptować tylko biopodpis konkretnej osoby.</Stat_Thing_Biocoded_Desc>
+  <Stat_Thing_Biocoded_Desc>Ten przedmiot została zakodowana tak, aby akceptować tylko biosygnaturę konkretnej osoby.</Stat_Thing_Biocoded_Desc>
+  <!-- EN: Required apparel -->
+  <Stat_Pawn_RequiredApparel_Name>TODO</Stat_Pawn_RequiredApparel_Name>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>W niektórych przypadkach ta sama substancja chemiczna jest obecna w wielu różnych narkotykach.\n\nTe różne narkotyki zaspokajają to samo uzależnienie na różne sposoby.</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>W niektórych przypadkach ta sama substancja chemiczna jest obecna w wielu różnych używkach.\n\nTe odmienne używki zaspokajają to samo uzależnienie na różne sposoby.</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The category this drug belongs to. -->
+  <Stat_Thing_Drug_Category_Desc>TODO</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>Intensywność haju uzyskana na dawkę narkotyku.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Intensywność haju zapewniana jedną dawką tej używki.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>Jak bardzo ten narkotykowy haj będzie się zmniejszał każdego dnia.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Jak bardzo haj wywołany tą używką będzie słabł każdego dnia.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak długo będzie trwał haj tego narkotyku na dawkę.\n\nOblicza się to na podstawie haju na dawkę i wskaźnika schodzenia z haju.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak długo będzie trwał haj wywołany jedną dawką tej używki.\n\nOblicza się to na podstawie haju na dawkę i wskaźnika spadku z haju.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Jak bardzo tolerancja użytkownika na substancję chemiczną wzrośnie dla każdej dawki tego narkotyku.\n\nMoże się ona różnić dla różnych form tej samej substancji chemicznej.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Jak bardzo tolerancja użytkownika na substancję chemiczną wzrośnie dla każdej dawki tej używki.\n\nMoże się ona różnić dla różnych form tej samej substancji chemicznej.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Jak bardzo obniża się tolerancja użytkownika na substancję chemiczną w ciągu doby.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimalna tolerancja wymagana, aby stać się nowo uzależnionym od tego narkotyku.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimalna tolerancja wymagana, aby stać się nowo uzależnionym od tej używki.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Użytkownik nigdy nie uzależni się, jeśli nie będzie brał narkotyku częściej niż do tej pory.\n\nblicza się to na podstawie minimalnej tolerancji narkotyku na osobę uzależnioną, przyrostu tolerancji na dawkę i tempa zaniku tolerancji.\n\nNależy pamiętać, że niektóre narkotyki nie mają bezpiecznego odstępu czasowego. Takie narkotyki mogą uzależnić od każdej, nawet pierwszej dawki.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Użytkownik nigdy nie uzależni się, jeśli nie będzie brał używki częściej niż do tej pory.\n\nblicza się to na podstawie minimalnej tolerancji używki na osobę uzależnioną, przyrostu tolerancji na dawkę i tempa zaniku tolerancji.\n\nNależy pamiętać, że niektóre używki nie mają bezpiecznego odstępu czasowego. Takie używki mogą uzależnić od każdej, nawet pierwszej dawki.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>Szansa na przypadkowe przedawkowanie podczas zażywania tego leku. Przypadkowe przedawkowanie może się zdarzyć przy każdej dawce, niezależnie od tego, czy jest to pierwsza próba nowego użytkownika, czy setne uderzenie doświadczonego uzależnionego.</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>Prawdopodobieństwo na przypadkowe przedawkowanie podczas zażywania tego leku. Przypadkowe przedawkowanie może się zdarzyć przy każdej dawce, niezależnie od tego, czy jest to pierwsza próba nowego użytkownika, czy setne uderzenie doświadczonego uzależnionego.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>Szansa na uzależnienie na dawkę tego leku.\n\nJeśli narkotyk ma minimalną tolerancję na uzależnienie, tolerancja musi być powyżej tego poziomu, aby to miało zastosowanie. Jeśli nie ma minimalnej tolerancji, każda dawka może spowodować uzależnienie.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>Prawdopodobieństwo uzależnienia na dawkę tego leku.\n\nJeśli używka ma minimalną tolerancję na uzależnienie, tolerancja musi być powyżej tego poziomu, aby to miało zastosowanie. Jeśli nie ma minimalnej tolerancji, każda dawka może spowodować uzależnienie.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nowe uzależnienia spowodowane przez ten narkotyk zaczynają się na tym poziomie ciężkości.\n\nPrzyjmowanie większej ilości narkotyku zwiększa nasilenie uzależnienia, natomiast czas je zmniejsza.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nowe uzależnienia spowodowane przez tę używkę zaczynają się na tym poziomie ciężkości.\n\nPrzyjmowanie większej ilości używki zwiększa nasilenie uzależnienia, natomiast czas je zmniejsza.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak długo trwa powrót do zdrowia po początkowym uzależnieniu od tego narkotyku.\n\nOblicza się to na podstawie nowego stopnia nasilenia uzależnienia podzielonego przez tempo powrotu do nałogu. Uzależnienie, które było karmione będzie trwało dłużej.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak długo trwa powrót do zdrowia po początkowym uzależnieniu od tej używki.\n\nOblicza się to na podstawie nowego stopnia nasilenia uzależnienia podzielonego przez tempo powrotu do nałogu. Uzależnienie, które było karmione będzie trwało dłużej.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
   <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Jak bardzo nasilenie jest dodawane do istniejącego uzależnienia dla każdej dawki tego leku.\n\nNasilenie uzależnienia nie może przekroczyć 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
   <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak często osoba uzależniona musi przyjmować dawkę tego leku, aby zasilić uzależnienie i zapobiec odstawieniu.\n\nOblicza się to na podstawie wskaźnika zapotrzebowania na uzależnienie i wypełnienia zapotrzebowania na dawkę.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Jak bardzo każda dawka tego narkotyku wypełnia zapotrzebowanie uzależnionego na ten związek chemiczny.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Jak bardzo każda dawka tej używki wypełnia zapotrzebowanie uzależnionego na ten związek chemiczny.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Jak szybko spadnie zapotrzebowanie na substancję chemiczną u osoby uzależnionej.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc> Wartość rynkowa narkotyków, które muszą być spożywane dziennie, aby podtrzymać uzależnienie od tego narkotyku bez przechodzenia w stan odstawienia.\n\nWartość ta jest obliczana na podstawie zapotrzebowania uzależnionego na substancję chemiczną na dawkę, wskaźnika spadku zapotrzebowania oraz wartości rynkowej tego narkotyku.\n\nNależy pamiętać, że mogą istnieć inne sposoby uzyskania tej samej substancji chemicznej o innych kosztach.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc> Wartość rynkowa używek, które muszą być spożywane dziennie, aby podtrzymać uzależnienie od tej używki bez przechodzenia w stan odstawienia.\n\nWartość ta jest obliczana na podstawie zapotrzebowania uzależnionego na substancję chemiczną na dawkę, wskaźnika spadku zapotrzebowania oraz wartości rynkowej tej używki.\n\nNależy pamiętać, że mogą istnieć inne sposoby uzyskania tej samej substancji chemicznej o innych kosztach.</Stat_Thing_Drug_AddictionCost_Desc>
 
+  <!-- EN: Style -->
+  <Stat_Thing_StyleLabel>TODO</Stat_Thing_StyleLabel>
+  <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
+  <Stat_Thing_StyleDesc>TODO</Stat_Thing_StyleDesc>
+
+  <!-- EN: Gestation time -->
+  <Stat_Animal_GestationTime>TODO</Stat_Animal_GestationTime>
+  <!-- EN: The time this species takes to gestate its offspring or eggs. -->
+  <Stat_Animal_GestationTimeDesc>TODO</Stat_Animal_GestationTimeDesc>
+  <!-- EN: Litter size -->
+  <Stat_Animal_LitterSize>TODO</Stat_Animal_LitterSize>
+  <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
+  <Stat_Animal_LitterSizeDesc>TODO</Stat_Animal_LitterSizeDesc>
+  <!-- EN: Adult meat amount -->
+  <Stat_Animal_AdultMeatAmount>TODO</Stat_Animal_AdultMeatAmount>
+  <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
+  <Stat_Animal_AdultMeatAmountDesc>TODO</Stat_Animal_AdultMeatAmountDesc>
+  <!-- EN: Growth time -->
+  <Stat_Animal_GrowthTime>TODO</Stat_Animal_GrowthTime>
+  <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
+  <Stat_Animal_GrowthTimeDesc>TODO</Stat_Animal_GrowthTimeDesc>
+  <!-- EN: Meat per day during growth -->
+  <Stat_Animal_MeatPerDayDuringGrowth>TODO</Stat_Animal_MeatPerDayDuringGrowth>
+  <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>TODO</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <!-- EN: Grass to maintain -->
+  <Stat_Animal_GrassToMaintain>TODO</Stat_Animal_GrassToMaintain>
+  <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
+  <Stat_Animal_GrassToMaintainDesc>TODO</Stat_Animal_GrassToMaintainDesc>
+  <!-- EN: Egg type -->
+  <Stat_Animal_EggType>TODO</Stat_Animal_EggType>
+  <!-- EN: The type of egg this creature lays. -->
+  <Stat_Animal_EggTypeDesc>TODO</Stat_Animal_EggTypeDesc>
+  <!-- EN: Eggs per year -->
+  <Stat_Animal_EggsPerYear>TODO</Stat_Animal_EggsPerYear>
+  <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
+  <Stat_Animal_EggsPerYearDesc>TODO</Stat_Animal_EggsPerYearDesc>
+  <!-- EN: Egg nutrition -->
+  <Stat_Animal_EggNutrition>TODO</Stat_Animal_EggNutrition>
+  <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
+  <Stat_Animal_EggNutritionDesc>TODO</Stat_Animal_EggNutritionDesc>
+  <!-- EN: Egg nutrition per year -->
+  <Stat_Animal_EggNutritionYearly>TODO</Stat_Animal_EggNutritionYearly>
+  <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
+  <Stat_Animal_EggNutritionYearlyDesc>TODO</Stat_Animal_EggNutritionYearlyDesc>
+  <!-- EN: Egg market value -->
+  <Stat_Animal_EggMarketValue>TODO</Stat_Animal_EggMarketValue>
+  <!-- EN: The market value of a single laid egg. -->
+  <Stat_Animal_EggMarketValueDesc>TODO</Stat_Animal_EggMarketValueDesc>
+  <!-- EN: Egg value per year -->
+  <Stat_Animal_EggMarketValueYearly>TODO</Stat_Animal_EggMarketValueYearly>
+  <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
+  <Stat_Animal_EggMarketValueYearlyDesc>TODO</Stat_Animal_EggMarketValueYearlyDesc>
+  <!-- EN: Milk type -->
+  <Stat_Animal_MilkType>TODO</Stat_Animal_MilkType>
+  <!-- EN: The type of milk this creature produces. -->
+  <Stat_Animal_MilkTypeDesc>TODO</Stat_Animal_MilkTypeDesc>
+  <!-- EN: Milk amount -->
+  <Stat_Animal_MilkAmount>TODO</Stat_Animal_MilkAmount>
+  <!-- EN: The amount of milk this creature produces each time it is milked. -->
+  <Stat_Animal_MilkAmountDesc>TODO</Stat_Animal_MilkAmountDesc>
+  <!-- EN: Milking inteval -->
+  <Stat_Animal_MilkGrowthTime>TODO</Stat_Animal_MilkGrowthTime>
+  <!-- EN: The amount of time this creature needs between milkings. -->
+  <Stat_Animal_MilkGrowthTimeDesc>TODO</Stat_Animal_MilkGrowthTimeDesc>
+  <!-- EN: Milk per year -->
+  <Stat_Animal_MilkPerYear>TODO</Stat_Animal_MilkPerYear>
+  <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
+  <Stat_Animal_MilkPerYearDesc>TODO</Stat_Animal_MilkPerYearDesc>
+  <!-- EN: Milk market value -->
+  <Stat_Animal_MilkValue>TODO</Stat_Animal_MilkValue>
+  <!-- EN: The value of one unit of this creature's milk. -->
+  <Stat_Animal_MilkValueDesc>TODO</Stat_Animal_MilkValueDesc>
+  <!-- EN: Milk value per year -->
+  <Stat_Animal_MilkValuePerYear>TODO</Stat_Animal_MilkValuePerYear>
+  <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
+  <Stat_Animal_MilkValuePerYearDesc>TODO</Stat_Animal_MilkValuePerYearDesc>
+  <!-- EN: Wool type -->
+  <Stat_Animal_WoolType>TODO</Stat_Animal_WoolType>
+  <!-- EN: The type of wool produced by this creature. -->
+  <Stat_Animal_WoolTypeDesc>TODO</Stat_Animal_WoolTypeDesc>
+  <!-- EN: Wool amount -->
+  <Stat_Animal_WoolAmount>TODO</Stat_Animal_WoolAmount>
+  <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
+  <Stat_Animal_WoolAmountDesc>TODO</Stat_Animal_WoolAmountDesc>
+  <!-- EN: Wool shearing interval -->
+  <Stat_Animal_WoolGrowthTime>TODO</Stat_Animal_WoolGrowthTime>
+  <!-- EN: The time after shearing before this creature can be shorn again. -->
+  <Stat_Animal_WoolGrowthTimeDesc>TODO</Stat_Animal_WoolGrowthTimeDesc>
+  <!-- EN: Wool amount per year -->
+  <Stat_Animal_WoolPerYear>TODO</Stat_Animal_WoolPerYear>
+  <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
+  <Stat_Animal_WoolPerYearDesc>TODO</Stat_Animal_WoolPerYearDesc>
+  <!-- EN: Wool market value -->
+  <Stat_Animal_WoolValue>TODO</Stat_Animal_WoolValue>
+  <!-- EN: The market value of one unit of this creature's wool. -->
+  <Stat_Animal_WoolValueDesc>TODO</Stat_Animal_WoolValueDesc>
+  <!-- EN: Wool value per year -->
+  <Stat_Animal_WoolValuePerYear>TODO</Stat_Animal_WoolValuePerYear>
+  <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
+  <Stat_Animal_WoolValuePerYearDesc>TODO</Stat_Animal_WoolValuePerYearDesc>
+
+  <!-- EN: How much of the total possible study you have performed on this object. -->
+  <Stat_Studiable_Desc>TODO</Stat_Studiable_Desc>
+  
 </LanguageData>

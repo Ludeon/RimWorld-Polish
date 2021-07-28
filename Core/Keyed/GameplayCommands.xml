@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść ani odpoczywać.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} nie może chodzić.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>TODO</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Strzelaj do woli</CommandFireAtWillLabel>
@@ -71,7 +73,7 @@
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego tronu.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>Przypisz to miejsce medytacji do konkretnego kolonisty.</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego miejsca medytacji.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Przydziel kolonistę</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -98,6 +100,9 @@
   <TurningOffPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący więźniowie utracą swoje łóżka:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Czy jesteś pewien?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>TODO</ChangingOwnerTypeBedWarning>
+
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
@@ -107,34 +112,39 @@
   <!-- EN: Rename -->
   <CommandRenameZoneLabel>Zmień nazwę</CommandRenameZoneLabel>
   <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Zmień nazwę tego obszaru.</CommandRenameZoneDesc>
+  <CommandRenameZoneDesc>Zmień nazwę tej strefy.</CommandRenameZoneDesc>
 
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Pokaż</CommandUnhideZoneLabel>
   <!-- EN: Hide/unhide this zone. -->
-  <CommandHideZoneDesc>Pokaż/ukryj ten obszar.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Pokaż/ukryj tę strefę.</CommandHideZoneDesc>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
   <!-- EN: Delete this zone. -->
-  <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneDesc>Usuń tę strefę.</CommandDeleteZoneDesc>
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tego obszaru, żeby można było je wkleić do innego.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tej strefy, żeby można było je wkleić do innego.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Wklej ustawienia</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Nadpisz ustawienia tego obszaru ustawieniami skopiowanymi z innego obszaru.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Nadpisz ustawienia tej strefy poprzednio skopiowanymi ustawieniami do schowka.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
-  <CommandAllowSow>Zezwalaj na siew</CommandAllowSow>
-  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Kiedy wyłączone, koloniści nie będą siać w tym obszarze. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
+  <CommandAllowSow>Dopuść siew</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
+  <CommandAllowSowDesc>Gdy wyłączone, koloniści nie będą siać nowych roślin w tej strefie. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>Dopuść wycinkę</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <CommandAllowCutDesc>Gdy wyłączone, koloniści nigdy nie będą ścinać roślin w tej strefie. Nadal będą siać nowe rośliny na już pustych przestrzeniach i zbierać plony.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -218,7 +228,7 @@
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>Ustaw obszar pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>Ustaw strefę pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
@@ -229,10 +239,10 @@
   <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <!-- EN: Release animals -->
-  <CommandReleaseAnimalsLabel>Wypuść zwierzęta</CommandReleaseAnimalsLabel>
+  <!-- EN: Animals attack -->
+  <CommandReleaseAnimalsLabel>Atak zwierząt</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Kiedy włączone - zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone - pozostaną i będą bronić swojego pana.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Gdy włączone - zwierzęta zostaną wysłane do ataku na odległe cele. Gdy wyłączone - pozostaną i będą bronić swojego pana.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>Brak dostępnych zwierząt.</CommandReleaseAnimalsFail_NoAnimals>
   
@@ -535,11 +545,36 @@
   <CommandOpenLinkedQuest>Otwórz powiązane zadanie.</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Otwórz powiązane zadanie na karcie zadań.</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>TODO</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>TODO</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Weź używkę...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Wybierz używkę z inwentarza, którą chcesz natychmiast zażyć.</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>TODO</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>TODO</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>TODO</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>TODO</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>TODO</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>TODO</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>TODO</CommandCancelRitualConfirm>
   
 </LanguageData>

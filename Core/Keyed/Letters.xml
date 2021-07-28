@@ -40,6 +40,8 @@
   <goodwill>reputacja</goodwill>
   <!-- EN: Neutral -->
   <Neutral>Neutralna</Neutral>
+  <!-- EN: neutral -->
+  <NeutralLower>TODO</NeutralLower>
   <!-- EN: Death -->
   <Death>Śmierć</Death>
 
@@ -349,9 +351,9 @@
   <LetterCatatonicMentalBreak>{0} {0_gender ? doznał : doznała} poważnego załamania psychicznego i {PAWN_gender ? wszedł : weszła} w stan katatoniczny. Dojdzie do siebie w ciągu kilku dni.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
-  <LetterLabelAICoreOffer>Oferta rdzenia SI</LetterLabelAICoreOffer>
+  <LetterLabelAICoreOffer>Oferta rdzenia osobowości</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} z frakcji {1} kontaktują się z Tobą ze specjalną informacją: Lokalizacja rdzenia SI, którego będziesz potrzebować, aby zbudować statek kosmiczny. Informują Cię, że rdzeń dość unikalny i zazwyczaj jego właściciele mają go pod solidną strażą.\n\nPołącz się z nimi za pomocą konsoli komunikacyjnej, jeśli jesteś zainteresowany.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} z frakcji {1} kontaktują się z Tobą ze specjalną informacją: Lokalizacja rdzenia osobowości, którego będziesz potrzebować, aby zbudować statek kosmiczny. Otrzymujesz informację, że rdzeń osobowości jest dość unikalny i zazwyczaj jego właściciele mają go pod solidną ochroną.\n\nPołącz się z nimi za pomocą konsoli komunikacyjnej, jeśli jesteś Cię to interesuje.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
@@ -372,11 +374,11 @@
   <!-- EN: Caravan lost -->
   <LetterLabelPawnsLostBecauseMapClosed_Caravan>Karawana zaginęła</LetterLabelPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
-  <LetterPawnsLostBecauseMapClosed_Caravan>Twoja karawana zaginęła. Zniknęły z nią również przypisane osoby oraz zwierzęta</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>Twoja karawana zaginęła. Zniknęły z nią również następujące osoby oraz zwierzęta</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
   <LetterLabelPawnsLostBecauseMapClosed_Home>Porzuceni koloniści</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
-  <LetterPawnsLostBecauseMapClosed_Home>Przypisane osoby i zwierzęta zostały porzucone</LetterPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>Następujące osoby i zwierzęta zostały porzucone</LetterPawnsLostBecauseMapClosed_Home>
 
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
@@ -428,13 +430,13 @@
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
   <LetterLabelSurgeryFailed>Operacja na {PATIENT_labelShort} nieudana</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niewielki błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niewielki błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} katastroficzny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} katastroficzny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niedorzeczny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niedorzeczny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -453,6 +455,12 @@
   <LetterLabelQuestDropPodsArrived>Transportowce wylądowały</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
   <LetterQuestDropPodsArrived>Transportowce zawierające: {0} wylądowały</LetterQuestDropPodsArrived>
+
+  <!-- Quest items added to caravan inventory -->
+  <!-- EN: {CARAVAN_label} received items -->
+  <LetterLabelQuestItemsAddedToCaravanInventory>TODO</LetterLabelQuestItemsAddedToCaravanInventory>
+  <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
+  <LetterQuestItemsAddedToCaravanInventory>TODO</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->

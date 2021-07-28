@@ -8,8 +8,8 @@
   <HigherPriority>wyższy priorytet</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>niższy priorytet</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
-  <RelevantSkills>Istotne umiejętności: {0}.\nŚrednia z istotnych umiejętności: {1} / {2}.</RelevantSkills>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>Istotne umiejętności: {0}.\nŚrednia z istotnych umiejętności: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Kliknij, aby przejść do:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
@@ -36,6 +36,12 @@
   <Priority4>Niski priorytet</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\nFrakcja, do której należy obecnie {1_nameDef}.\n\nKliknij, aby zobaczyć frakcję.</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -84,16 +90,20 @@
   <Hostile>Wróg</Hostile>
   <!-- EN: Ally -->
   <Ally>Sojusznik</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>TODO</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>TODO</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>pokonani</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Wróg frakcji {0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>Jest wrogiem: </EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>Obecna reputacja i status relacji z tą frakcją.</CurrentGoodwillTip>
-  <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>Obecne stosunki z tą frakcją.</CurrentRelationTip>
+  <!-- EN: Recent events -->
+  <RecentEvents>TODO</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>TODO</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Ta frakcja jest stale wroga. Będzie najeżdżać Twoją osadę i karawany. Relacja z nimi nigdy się nie poprawi z jakiegokolwiek powodu.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -102,13 +112,7 @@
   <CurrentGoodwillTip_Neutral>Ta frakcja jest neutralna. Będzie z Tobą dobrowolnie handlować i rozmawiać. Jeśli relacja spadnie poniżej {0}, frakcja stanie się wroga. Jeśli wzrośnie ponad {1}, stanie się sojusznicza i zacznie aktywnie pracować, aby Ci pomóc.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Ta frakcja jest wroga. Będzie najeżdżać Twoją osadę i karawany. Jeśli relacja wzrośnie powyżej {0}, stanie się neutralna.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Ta frakcja ma naturalny zakres reputacji od {0} do {1}.</CurrentGoodwillTip_NaturalGoodwill>
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillRise>Jeśli wartość reputacji wynosi mniej niż {0}, zacznie wzrastać o {1} co rok.</CurrentGoodwillTip_NaturalGoodwillRise>
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillFall>Jeśli wartość reputacji wynosi więcej niż {0}, zacznie spadać o {1} co rok.</CurrentGoodwillTip_NaturalGoodwillFall>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>Przyjaciel</Friend>
@@ -178,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Badaj</Research>
-  <!-- EN: Researched -->
-  <Researched>Zbadane</Researched>
+  <!-- EN: Study -->
+  <Study>TODO</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Niezbadane</Unresearched>
   <!-- EN: Finished -->
@@ -208,6 +212,12 @@
   <TechLevelTooLow>Poziom technologiczny Twojej frakcji wynosi {0}, ale poziom technologiczny tego projektu to {1}. Szybkość badań zostanie pomnożona przez {2}</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Odblokowany za pomocą</UnlockedWith>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>TODO</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>TODO</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -282,7 +292,7 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>wolną sypialnię, które spełnią wymogi tytułu</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <!-- EN: assign a throne for {PAWN_definite} -->
   <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>kolonistę z tytułem {0}.</QuestNoColonistWithTitle>
@@ -316,7 +326,17 @@
   <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} przyzna Ci nagrodę za zabicie wszystkich członków {1}.</QuestBetrayalOfferTip>
-  
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>TODO</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>TODO</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>TODO</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Stwarza potrzebę</CreatesNeed>
