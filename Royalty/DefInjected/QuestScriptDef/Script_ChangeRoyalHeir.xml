@@ -4,38 +4,36 @@
   <!-- EN:
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
-  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>TODO</ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings><li>questDescription->\nW celu dokończenia procesu ustanawiania [titleHeir_nameFull] spadkobiercą tytułu [titleHolder_nameFull], musisz zbudować monument.\n\nMonument będzie wielkości [monumentSize] i będzie wymagał tych zasobów (całkowita wartość [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nNie ukończenie monumentu w ciągu 20 dni uważane jest za profanację rytuału. Twoje relacje z [asker_factionName] obniżą się o 25, i spadkobierca tytułu nie będzie zmieniony.\n\nJeśli monument zostanie zniszczony w [keepMonumentTicks_duration] dni po ukończeniu, twoje relacje z [asker_factionName] obniżą się o [goodwillChangeIfMonumentDestroyed].</li></ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
   -->
-  <ChangeRoyalHeir.questNameRules.rulesStrings>TODO</ChangeRoyalHeir.questNameRules.rulesStrings>
+  <ChangeRoyalHeir.questNameRules.rulesStrings><li>questName->Dziedzictwo [titleHeir_nameDef]</li></ChangeRoyalHeir.questNameRules.rulesStrings>
   <!-- EN: Time left: {0} -->
-  <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>TODO</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
+  <ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>Pozostały czas: {0}</ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
-  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>TODO</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>Zmiana spadkobiercy tytułu [titleHolder_nameDef] nie powiodła się.</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>TODO</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef] jest urażony, ponieważ obiecałeś zakonsekrować nowego spadkobiercę, ale nie zbudować monumentu w wyznaczonym czasie.\n\nTwoje relacje z [asker_factionName] spadły o 25.</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>TODO</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>Posiadacz tytułu zmarł: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
-  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>TODO</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {PAWN_gender ? którego : której} spadkobierca był podczas zamiany, zmarł.</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>TODO</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>Spadkobierca zmarł: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
-  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>TODO</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, któr{PAWN_gender ? y : a} miał zostać spadkobiercą tytułu, zmarł.</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument destroyed -->
-  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>TODO</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monument zniszczony</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>TODO</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] jest urażony, ponieważ obiecałeś zakonsekrować nowego spadkobiercę, ale pozwoliłeś na zniszczenie monumentu wkrótce po budowie.\n\nTwoje relacje z [asker_factionName] obniżyły się o [goodwillChangeIfMonumentDestroyed].</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: New heir: [titleHeir_nameDef] -->
-  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>TODO</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>Nowy spadkobierca: [titleHeir_nameDef]</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
-  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>TODO</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>[titleHeir_nameDef] jest nowym spadkobiercą tytułu [titleHolder_nameDef].</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>TODO</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
-  <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>TODO</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>Nie niszcz monumentu przez {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
   <!-- EN: Keep monument {0} -->
-  <ChangeRoyalHeir.KeepMonument.slateRef>TODO</ChangeRoyalHeir.KeepMonument.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>Utrzymaj monument {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
   
 </LanguageData>
