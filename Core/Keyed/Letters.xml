@@ -216,7 +216,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie miejsca ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie ślubnego kobierca, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -298,19 +298,19 @@
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Zadanie zakończone</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>Udało Ci się pokonać posterunek wroga!\n\nZ frakcji {0} przybyła zapłata, a relacje z z nią wzrosły o {1}.</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>Udało Ci się pokonać posterunek wroga!\n\nZ frakcji {0} przybyła zapłata, a relacje z nią wzrosły o {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Przeskanowano odległe zasoby</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Za pomocą czujnika minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} w pobliżu złoże {0}.\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą je jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Przy użyciu dalekosiężnego skanera minerałów, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} na pewnej odległości bryły zawierające {0}.\n\nNiestety, nie uleżą tam zbyt długo - inni wydobędą złoże jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
   <LetterLabelDeepScannerFoundLump>Przeskanowano podziemia</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef} przy użyciu geoskanera {FINDER_gender ? znalazł : znalazła} zagrzebane bryły zawierające {0}!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -353,7 +353,7 @@
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferta rdzenia osobowości</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} z frakcji {1} kontaktują się z Tobą ze specjalną informacją: Lokalizacja rdzenia osobowości, którego będziesz potrzebować, aby zbudować statek kosmiczny. Otrzymujesz informację, że rdzeń osobowości jest dość unikalny i zazwyczaj jego właściciele mają go pod solidną ochroną.\n\nPołącz się z nimi za pomocą konsoli komunikacyjnej, jeśli jesteś Cię to interesuje.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} z frakcji {1} kontaktują się z Tobą z ofertą informacji: Lokalizacja rdzenia osobowości, którego będziesz potrzebować, aby zbudować statek kosmiczny. Otrzymujesz informację, że rdzeń osobowości jest dość unikalny i zazwyczaj jego właściciele mają go pod solidną ochroną.\n\nPołącz się z nimi za pomocą konsoli komunikacyjnej, jeśli Cię to interesuje.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
@@ -440,7 +440,7 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Zwane '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Jeżeli nie przyjmiesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
