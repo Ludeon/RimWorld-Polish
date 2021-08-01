@@ -15,28 +15,28 @@
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
   <LetterRoyalTitleApparelRequirement>TODO</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>Oczekiwania {PAWN_possessive} nigdy nie będą mniejsze niż {1}.</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>{PAWN_possessive} oczekiwania nigdy nie będą mniejsze niż {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, {PAWN_pronoun} będzie wymagał aby potrzeby jego tytułu były w pełni szanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, będzie wymagał{PAWN_gender ? a}, aby potrzeby {PAWN_possessive} tytułu były w pełni poszanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} otrzymał tytuł {TITLE} od frakcji {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>{PAWN_labelShort} nie posiada już dłużej tytułu {TITLE} w {FACTION}.</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} nie posiada już dłużej tytułu {TITLE} w {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Korzyści z tytułu</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>Aby uhonorować uzyskanie tytułu {TITLE} przez {PAWN_labelShort}, {FACTION_name} wysłało {PAWN_objective} następujące nagrody:</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>Aby uhonorować uzyskanie tytułu {TITLE} przez {PAWN_labelShort}, frakcja {FACTION_name} wysłała {PAWN_gender ? jemu : jej} następujące nagrody:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>Nagrody przybyły do koloni w kapsułach transportowych.</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>Nagrody przybyły do Twojej koloni w kapsułach transportowych.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
   <LetterRewardsForNewTitleDeliveryDirect>Nagrody zostały bezpośrednio dostarczone do ekwipunku {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>{PAWN_pronoun} ma te prawa:</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>{PAWN_pronoun} posiada następujące prawa:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>{PAWN_pronoun} stracił te prawa:</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun} stracił{PAWN_gender ? a} następujące prawa:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} odmawia wykonywania tych prac:\n{1}</LetterRoyalTitleDisabledWorkTag>
@@ -44,12 +44,12 @@
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
   <LetterRoyalTitleEnabledJoyKind>TODO </LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} odmawia tego typu rozrywki:</LetterRoyalTitleDisabledJoyKind>
+  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} odmawia tego typu rekreacji:</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} ma pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} stracił pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} stracił{PAWN_gender ? a} pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Te implanty muszą być usunięte w ciągu pięciu następnych dni w celu uniknięcia konsekwencji.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
@@ -64,21 +64,21 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} otrzyma następujące przedmioty w kapsułach transportowych:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzymał {1} {FACTION_royalFavorLabel} od {FACTION_name}</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzymał{PAWN_gender ? a} {1} {FACTION_royalFavorLabel} od frakcji {FACTION_name}</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Jeśli {PAWN_pronoun} umrze, ten tytuł będzie przekazany {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Jeśli {PAWN_pronoun} umrze, ten tytuł odziedziczy {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
   <LetterRoyalTitleNoHeir>Jeśli {PAWN_pronoun} umrze, nikt nie odziedziczy jego tytułu.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} jest członkiem {FACTION_name}</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>Nowy spadkobierca może być wyznaczony poprzez kontakt z {FACTION_name} w konsoli łączności.</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Nowy spadkobierca może być wyznaczony poprzez kontakt z frakcją {FACTION_name} w konsoli łączności.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>Spadkobierca zaginął</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} zmarł, pozostawiając {HOLDER_labelShort} bez spadkobiercy jego tytułu. Możesz skontaktować się z {FACTION_name} przez konsolę łączności i wybrać nowego spadkobiercę.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} zmarł, pozostawiając {HOLDER_labelShort} bez spadkobiercy jego tytułu. Możesz skontaktować się z frakcją {FACTION_name} przez konsolę łączności i wybrać nowego spadkobiercę.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>TODO</LetterRoyalTitleCantBeInherited>
 
@@ -100,11 +100,11 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Złamane prawo: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} wykryli nielegalne użycie: {CULPRIT} (szansa wykrycia {CHANCE}) przez {PAWN_labelShort}.\n\nWedług prawa {FACTION_name}, tylko ci którzy posiadają tytuł {TITLE} mogą używać {CULPRIT}.\n\nJako karę, twoje relacje z {FACTION_name} spadły o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>Frakcja {FACTION_name} wykryła nielegalne użycie: {CULPRIT} (szansa wykrycia {CHANCE}) przez {PAWN_labelShort}.\n\nWedług prawa {FACTION_name}, tylko ci którzy posiadają tytuł {TITLE} mogą używać {CULPRIT}.\n\nJako karę, twoje relacje z {FACTION_name} spadły o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończył {ORGANIZER_possessive} przemowę.</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończył{ORGANIZER_gender ? a} swoją przemowę.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
   <LetterTerribleSpeech>Była prawdziwie okropna - pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
@@ -128,15 +128,15 @@
   <!-- EN: Wild decree -->
   <WildDecree>Szalony dekret</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
-  <LetterLabelRandomDecree>{0_nameIndef} wydał dekret</LetterLabelRandomDecree>
+  <LetterLabelRandomDecree>{0_nameIndef} wydał{0_gender ? a} dekret</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, w celu upuszczenia {0_possessive) nerwów, wydaje szalony dekret i wymaga aby został wykonany.\n\nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} bardzo się zdenerwuje.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, w celu upuszczenia swoich nerwów, wydaje szalony dekret i wymaga, aby został wykonany.\n\nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef), w celu umocnienia {0_possessive} tytułu {0_bestRoyalTitleIndef}, wydaje dekret i wymaga aby został wykonany.\n\nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} bardzo się zdenerwuje.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef), w celu umocnienia swojego tytułu {0_bestRoyalTitleIndef}, wydaje dekret i wymaga, aby został wykonany.\n\nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>dekret jest zatytułowany "{0}".</LetterDecree_Quest>
+  <LetterDecree_Quest>Dekret nosi tytuł "{0}".</LetterDecree_Quest>
   
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
@@ -146,9 +146,9 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>psylink uzyskany</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} zdobył {USER_possessive} pierwszy poziom psylinku! {USER_pronoun} stał się teraz użytkownikiem zdolności psychicznych.\n\nAby używać tych mocy, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n Użytkownicy mocy psychicznych z jakimś tytułem królewskim medytują na swoim tronie.\n- Osoby z plemiennymi przeszłościami medytują przy drzewach anima i naturalnych kaplicach.\n- Asceci medytują do pustych ścian.\n- Psychopaci medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} zdobył{USER_gender ? a} swój pierwszy poziom psylinku! {USER_pronoun} stał się teraz użytkownikiem zdolności psychicznych.\n\nAby używać tych mocy, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n Użytkownicy mocy psychicznych z jakimś tytułem królewskim medytują na swoim tronie.\n- Osoby z plemiennymi przeszłościami medytują przy drzewach anima i naturalnych kaplicach.\n- Asceci medytują do pustych ścian.\n- Psychopaci medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} zdobył nowy poziom psylinku! {USER_pronoun} może teraz używać mocy psychicznych wyższego poziomu, ale {USER_pronoun} musi się ich najpierw nauczyć.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} zdobył nowy poziom psylinku! Może teraz używać mocy psychicznych wyższego poziomu, ale {USER_pronoun} musi się ich najpierw nauczyć.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Po uzyskaniu wyższego poziomu psylinki, {USER_labelShort} samoistnie nauczył się tych zdolności psychicznych: {2}</LetterPsylinkLevelGained_PsycastLearned>
   
