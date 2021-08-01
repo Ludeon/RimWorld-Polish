@@ -1,23 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>TODO</CommandDisabledUnconscious>
+  
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>Wybierz nowego spadkobiercę dla {HOLDER_nameIndef}:</ChooseHeir>
-  <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} recieved from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
+  <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>Zamierzasz zmienić spadkobiercę tytułu {HOLDER_nameIndef} uzyskanego od {0_name}. To wymaga wybudowania monumentu w określonym czasie, w celu konsekracji nowego spadkobiercy.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>To urazi {HOLDER_possessive} obecnego spadkobiercę, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
 
-  <!-- Call royal aid -->
-  <!-- EN: Call royal aid -->
-  <CommandCallRoyalAid>Wezwij imperialne wsparcie</CommandCallRoyalAid>
-  <!-- EN: Call for military aid using a special royal permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs royal favor to do so. -->
-  <CommandCallRoyalAidDesc>Wezwij wojsko używając specjalnej przepustki.\n\nKażdy rodzaj wsparcia może być użyty jednorazowo za darmo, po czym musisz odczekać aby użyć go ponownie. Możesz wzywać pomoc częściej, ale to będzie kosztować cię honor.</CommandCallRoyalAidDesc>
-  <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandCallRoyalAidUnconscious>{0_labelShort} jest nieprzytomny.</CommandCallRoyalAidUnconscious>
-  <!-- EN: Guests will not use their royal aid. -->
+  <!-- Call aid -->
+  <!-- EN: Call aid... -->
+  <CommandCallRoyalAid>Wezwij wsparcie...</CommandCallRoyalAid>
+  <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
+  <CommandCallRoyalAidDesc>TODO</CommandCallRoyalAidDesc>
+  <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>Goście nie będą wzywać wsparcia.</CommandCallRoyalAidLodger>
+  <!-- EN: Slaves cannot use their permits. -->
+  <CommandCallRoyalAidSlave>TODO</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>Twoje relacje z {FACTION_name} są wrogie.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -40,19 +43,56 @@
   <CommandCallLaborersNumLaborers>TODO</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>Entropia PSI przekroczy możliwy poziom.</CommandPsycastWouldExceedEntropy>
-  <!-- EN: Psychic amplifier brain implant needed. -->
-  <CommandPsycastNoAmplifier>Psylink wymagany.</CommandPsycastNoAmplifier>
-  <!-- EN: {0}x level psychic amplifier needed. -->
-  <CommandPsycastHigherLevelAmplifierRequired>{0}x poziom psylinku wymagany.</CommandPsycastHigherLevelAmplifierRequired>
+  <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>TODO</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>TODO</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>TODO</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <!-- EN: level {0} psylink is required. -->
+  <CommandPsycastHigherLevelPsylinkRequired>TODO</CommandPsycastHigherLevelPsylinkRequired>
+  <!-- EN: Zero psychic sensitivity. -->
+  <CommandPsycastZeroPsychicSensitivity>TODO</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>Użytkownik zdolności jest nieprzytomny.</CommandPsycastPawnIsUnconscious>
+  <!-- EN: Need at least {0} psyfocus to cast this. -->
+  <CommandPsycastLowPsyfocus>TODO</CommandPsycastLowPsyfocus>
+  <!-- EN: H -->
+  <NeuralHeatLetter>TODO</NeuralHeatLetter>
+  <!-- EN: P -->
+  <PsyfocusLetter>TODO</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
   <CommandSelectMonumentMarker>Wybierz monument</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Wybierz znacznik monumentu do którego to należy.</CommandSelectMonumentMarkerDesc>
+
+  <!-- Warn in building radius -->
+  <!-- EN: Build radius warning -->
+  <CommandWarnInBuildingRadius>TODO</CommandWarnInBuildingRadius>
+  <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
+  <CommandWarnInBuildingRadiusDesc>TODO</CommandWarnInBuildingRadiusDesc>
   
+  <!-- Permits -->
+  <!-- EN: Choose permit -->
+  <ChooseRoyalPermit>TODO</ChooseRoyalPermit>
+  <!-- EN: Open the permit selection screen and choose a new permit. -->
+  <ChooseRoyalPermit_Desc>TODO</ChooseRoyalPermit_Desc>
+
+  <!-- EN: Leave bestowing ceremony -->
+  <CommandLeaveBestowingCeremony>TODO</CommandLeaveBestowingCeremony>
+  <!-- EN: Stop participating in the bestowing ceremony. -->
+  <CommandLeaveBestowingCeremonyDesc>TODO</CommandLeaveBestowingCeremonyDesc>
+  <!-- EN: Cancel bestowing ceremony -->
+  <CommandCancelBestowingCeremony>TODO</CommandCancelBestowingCeremony>
+  <!-- EN: End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon. -->
+  <CommandCancelBestowingCeremonyDesc>TODO</CommandCancelBestowingCeremonyDesc>
+  <!-- EN: Are you sure you want to cancel bestowing ceremony? -->
+  <CommandCancelBestowingCeremonyConfirm>TODO</CommandCancelBestowingCeremonyConfirm>
+  <!-- UNUSED -->
+  <CommandCallRoyalAidUnconscious>{0_labelShort} jest nieprzytomny.</CommandCallRoyalAidUnconscious>
+  <CommandPsycastNoAmplifier>Psylink wymagany.</CommandPsycastNoAmplifier>
+  <CommandPsycastHigherLevelAmplifierRequired>{0}x poziom psylinku wymagany.</CommandPsycastHigherLevelAmplifierRequired>
+
 </LanguageData>
