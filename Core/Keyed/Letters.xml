@@ -216,7 +216,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie miejsca ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie ślubnego kobierca, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -304,13 +304,13 @@
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Przeskanowano odległe zasoby</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Przy użyciu skanera minerałów dalekiego zasięgu, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} {0} na pewnej odległości.\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą złoże jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Przy użyciu dalekosiężnego skanera minerałów, {WORKER_labelShort} {WORKER_gender ? znalazł : znalazła} na pewnej odległości bryły zawierające {0}.\n\nNiestety, nie uleżą tam zbyt długo - inni wydobędą złoże jako pierwsi w przeciągu {1} dni, jeśli my tego nie zrobimy.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
   <LetterLabelDeepScannerFoundLump>Przeskanowano podziemia</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>{FINDER_nameDef} {FINDER_gender ? znalazł : znalazła} {0_gender ? zasypany : zasypaną : zasypane} {0} przy użyciu geoskanera!</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef} przy użyciu geoskanera {FINDER_gender ? znalazł : znalazła} zagrzebane bryły zawierające {0}!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -440,7 +440,7 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Zwane '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Jeżeli nie przyjmiesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
