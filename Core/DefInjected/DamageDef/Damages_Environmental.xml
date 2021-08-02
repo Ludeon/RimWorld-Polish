@@ -4,21 +4,21 @@
   <!-- EN: burn -->
   <Burn.label>oparzenie</Burn.label>
   <!-- EN: {0} has burned to death. -->
-  <Burn.deathMessage>{0} {0_gender ? umarł : umarła : umarło} od oparzeń.</Burn.deathMessage>
+  <Burn.deathMessage>{0} {PAWN_gender ? umarł : umarła} od oparzeń.</Burn.deathMessage>
   
   <!-- EN: flame -->
   <Flame.label>ogień</Flame.label>
   <!-- EN: {0} has burned to death. -->
-  <Flame.deathMessage>{0} {0_gender ? spłonął : spłonęła : spłonęło}.</Flame.deathMessage>
+  <Flame.deathMessage>{0} {PAWN_gender ? spłonął : spłonęła}.</Flame.deathMessage>
   
   <!-- EN: frostbite -->
   <Frostbite.label>odmrożenie</Frostbite.label>
   <!-- EN: {0} has succumbed to frostbite. -->
-  <Frostbite.deathMessage>{0} {0_gender ? umarł : umarła : umarło} od odmrożeń.</Frostbite.deathMessage>
+  <Frostbite.deathMessage>{0} {PAWN_gender ? umarł : umarła} od odmrożeń.</Frostbite.deathMessage>
   
   <!-- EN: scratch -->
   <TornadoScratch.label>zadrapanie</TornadoScratch.label>
   <!-- EN: {0} has been killed by a tornado. -->
-  <TornadoScratch.deathMessage>{0} {0_gender ? został : została : zostało} {0_gender ? zabity : zabita : zabite} przez tornado.</TornadoScratch.deathMessage>
+  <TornadoScratch.deathMessage>{0} {PAWN_gender ? został : została} {PAWN_gender ? zabity : zabita} przez tornado.</TornadoScratch.deathMessage>
   
 </LanguageData>
