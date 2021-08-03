@@ -17,23 +17,23 @@
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Posiadacze tego tytułu muszą nosić jakąś kombinację</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
-  <ApparelRequirementAnyPrestigeArmor>TODO</ApparelRequirementAnyPrestigeArmor>
+  <ApparelRequirementAnyPrestigeArmor>Jakiejkolwiek prestiżowej zbroi</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>Jakiegokolwiek wyposażenia z elteksu</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: or any psycaster or prestige apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>albo jakiegokolwiek wyposażenia z elteksu lub prestiżowego wyposażenia</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>Niedozwolone typy pracy</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>Dozwolona żywność</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
-  <RoyalTitleRequiredMealsDesc>Posiadacz tego tytułu będzie jadł tylko ten rodzaj żywności, chyba że głoduje albo jest w karawanie.</RoyalTitleRequiredMealsDesc>
+  <RoyalTitleRequiredMealsDesc>Posiadacz tego tytułu będzie jadł tylko ten rodzaj żywności, chyba, że głoduje albo jest w karawanie.</RoyalTitleRequiredMealsDesc>
   <!-- EN: Choose who should participate in bestowing ceremony. -->
-  <ChooseParticipantsBestow>TODO</ChooseParticipantsBestow>
+  <ChooseParticipantsBestow>Wybierz kto powinien uczestniczyć w ceremonii mianowania.</ChooseParticipantsBestow>
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>Według prawa {FACTION_name}, dana osoba musi posiadać tytuł {TITLE} aby legalnie używać {IMPLANT}.\n\n{VIOLATIONTRIGGER}, istnieje szansa że {FACTION_name} wykryje sygnaturę PSY. To doprowadzi do konsekwencji.</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>Według prawa {FACTION_name}, dana osoba musi posiadać tytuł {TITLE} aby legalnie używać {IMPLANT}.\n\n{VIOLATIONTRIGGER}, istnieje szansa, że {FACTION_name} wykryje sygnaturę PSY. To doprowadzi do konsekwencji dyplomatycznych.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Zainstalować ten implant pomimo to?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -43,9 +43,9 @@
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Po związaniu z jednym użytkownikiem, osobowość SI broni odmówi bycia używaną przez kogokolwiek innego.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
-  <BladelinkEquipWarningTraits>TODO</BladelinkEquipWarningTraits>
+  <BladelinkEquipWarningTraits>Ta broń ma następujące cechy</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
-  <RoyalWeaponEquipConfirmation>Jesteś pewien że chcesz wyposażyć w ten przedmiot?</RoyalWeaponEquipConfirmation>
+  <RoyalWeaponEquipConfirmation>Czy napewno chcesz wyposażyć się w ten przedmiot?</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
@@ -55,11 +55,11 @@
 
   <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
-  <QuestGivesRoyalFavor>TODO</QuestGivesRoyalFavor>
+  <QuestGivesRoyalFavor>To zadanie przyzna {FACTION_royalFavorLabel} i tym samym nada jakiś tytuł królewski {PAWN_labelShort}</QuestGivesRoyalFavor>
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
-  <RoyalIncapableOfSocial>TODO</RoyalIncapableOfSocial>
+  <RoyalIncapableOfSocial>{PAWN_labelShort} jest {PAWN_gender ? niezdolny : niezdolna } do czynności społecznych. Posiadacze tytułów królewskich mają dużą potrzebę zdolności socjalnych, więc jeśli {PAWN_labelShort} otrzyma jakiś tytuł, może mieć później problemy. Inny kolonista może być bardziej odpowiedni.</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
-  <RoyalWithConceitedTrait>TODO</RoyalWithConceitedTrait>
+  <RoyalWithConceitedTrait>Ponieważ {PAWN_labelShort} jest {2}, Będzie {PAWN_gender ? domagał : domagałą} się pełnego poszanowania przywilejów {PAWN_possessive} tytułu. {PAWN_labelShort} może odmówić wykonywania pewnych prac lub jedzenia żywności niskiej klasy, i będzie wydawał dekrety. Inny kolonista prawdopodobnie mógłby się dostosować co do swoich oczekiwań.</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
   <RoyalWithTraitAffectingPsylinkNegatively>Ponieważ {PAWN_labelShort} jest {2}, psylink może być bezużyteczny w przypadku {PAWN_objective}.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
@@ -67,6 +67,6 @@
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
   <SendShuttleWithNoContents>Ten prom jest pusty. Jeśli go gdzieś wyślesz, nie będziesz mógł go ponownie użyć.\n\nWysłać go pomimo to?</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
-  <DropResourcesOverweightConfirm>Te zasoby przeciążą karawanę i sprawią że nie będzie mogła się poruszać.\n\nWezwać je pomimo to?</DropResourcesOverweightConfirm>
-
+  <DropResourcesOverweightConfirm>Te zasoby przeciążą karawanę i sprawią, że nie będzie mogła się poruszać.\n\nWezwać je pomimo to?</DropResourcesOverweightConfirm>
+  
 </LanguageData>
