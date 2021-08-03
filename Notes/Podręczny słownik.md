@@ -47,7 +47,8 @@ biokodowanie (biocoding)
 biopsygnatura (biosignature)  
 persona core (rdzeń z jaźnią)  
 persona weapon (broń z jaźnią - z cechami osobowości)  
-lump (złoże)
+złoże (lump)  
+najazdy (raids)  
   
 #Stany i czynności  
 zespół odstawienny (withdrawal)  

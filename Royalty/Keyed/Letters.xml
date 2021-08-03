@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive} oczekiwania nigdy nie będą mniejsze niż {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, będzie wymagał{PAWN_gender ? a}, aby potrzeby {PAWN_possessive} tytułu były w pełni poszanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, będzie wymagał{PAWN_gender ? : a}, aby potrzeby {PAWN_possessive} tytułu były w pełni poszanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} otrzymał tytuł {TITLE} od frakcji {FACTION_name}!</LetterGainedRoyalTitle>
@@ -36,7 +36,7 @@
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} posiada następujące prawa:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>{PAWN_pronoun} stracił{PAWN_gender ? a} następujące prawa:</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun} stracił{PAWN_gender ? : a} następujące prawa:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} odmawia wykonywania tych prac:\n{1}</LetterRoyalTitleDisabledWorkTag>
@@ -49,7 +49,7 @@
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} ma pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} stracił{PAWN_gender ? a} pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} stracił{PAWN_gender ? : a} pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Te implanty muszą być usunięte w ciągu pięciu następnych dni w celu uniknięcia konsekwencji.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
@@ -64,7 +64,7 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} otrzyma następujące przedmioty w kapsułach transportowych:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzymał{PAWN_gender ? a} {1} {FACTION_royalFavorLabel} od frakcji {FACTION_name}</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzymał{PAWN_gender ? : a} {1} {FACTION_royalFavorLabel} od frakcji {FACTION_name}</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
@@ -146,7 +146,7 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>psylink uzyskany</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} zdobył{USER_gender ? a} swój pierwszy poziom psylinku! {USER_pronoun} stał się teraz użytkownikiem zdolności psychicznych.\n\nAby używać tych mocy, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n Użytkownicy mocy psychicznych z jakimś tytułem królewskim medytują na swoim tronie.\n- Osoby z plemiennymi przeszłościami medytują przy drzewach anima i naturalnych kaplicach.\n- Asceci medytują do pustych ścian.\n- Psychopaci medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} zdobył{USER_gender ? : a} swój pierwszy poziom psylinku! {USER_pronoun} stał{USER_gender ? : a} się teraz użytkownikiem zdolności psychicznych.\n\nAby używać tych mocy, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n Użytkownicy mocy psychicznych z jakimś tytułem królewskim medytują na swoim tronie.\n- Osoby z plemiennymi przeszłościami medytują przy drzewach anima i naturalnych kaplicach.\n- Asceci medytują do pustych ścian.\n- Psychopaci medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} zdobył nowy poziom psylinku! Może teraz używać mocy psychicznych wyższego poziomu, ale {USER_pronoun} musi się ich najpierw nauczyć.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
