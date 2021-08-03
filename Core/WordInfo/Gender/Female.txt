@@ -1,34 +1,60 @@
 ﻿zima
+wiosna
+jesień
 ////////// ThingDef //////////
 --------------------
 # Alcohol_Beer.xml #
 --------------------
 brzeczka
-
 ----------------
 # Ambrosia.xml #
 ----------------
 ambrozja
-
 -----------------
 # Apparel_Belts #
 -----------------
 ------------------------
 # Apparel_Headgear.xml #
 ------------------------
+zimowa czapka
+maska wojenna
+chusta
+---------------------
+# Apparel_Packs.xml #
+---------------------
+paczka dymna
+-----------------------
+# Apparel_Utility.xml #
+-----------------------
+lanca obłędu PSI
+lanca porażenia PSI
+--------------
+# Breach.xml #
+--------------
 -----------------------
 # Apparel_Various.xml #
 -----------------------
+zbroja zwiadowcy
+koszulka
+koszula
+kurtka bojowa
+kamizelka kuloodporna
+kurtka
+parka
+zbroja marine
+odzież plemienna
 -------------------------
 # Buildings_Ancient.xml #
 -------------------------
+starożytna betonowa bariera
+starożytna latarnia uliczna
+urna
 ---------------------
 # Buildings_Art.xml #
 ---------------------
 wielka rzeźba
 duża rzeźba
 mała rzeźba
-
 ------------------------
 # Buildings_Exotic.xml #
 ------------------------
@@ -43,19 +69,37 @@ lampa stojąca (zielona)
 lampa stojąca (czerwona)
 lampa słoneczna
 pochodnia
-
 ---------------------
 # Buildings_Joy.xml #
 ---------------------
+plansza do gry z Ur
 ----------------------
 # Buildings_Misc.xml #
 ----------------------
+starożytna kapsuła hibernacyjna
+konsola łączności
+kapsuła hibernacyjna
+pompa wilgoci
+wyrzutnia kapsuł
+szafka z narzędziami
+kapsuła transportowa
+------------------------------------
+# Buildings_MusicalInstruments.xml #
+------------------------------------
 -------------------------
 # Buildings_Natural.xml #
 -------------------------
+ruda złota
+ruda jadeitu
+sprasowana superstal
+ruda srebra
+sprasowana stal
+ruda uranu
+ściana gruzu
 -----------------------
 # Buildings_Power.xml #
 -----------------------
+turbina wiatrowa
 ----------------------------
 # Buildings_Production.xml #
 ----------------------------
@@ -68,27 +112,45 @@ kuźnia
 kuchenka elektryczna
 maszyna do szycia
 beczka fermentacyjna
-
 --------------------------
 # Buildings_Security.xml #
 --------------------------
+barykada
+głowica IED
+pułapka IED EMP
+pułapka IED
+pułapka zapalająca IED
+pułapka dymna IED
+kolczasta pułapka
+----------------------------------
+# Buildings_Security_Turrets.xml #
+----------------------------------
+automatyczna wieżyczka
+mini wieżyczka
+wieżyczka uranowa
 ----------------------
 # Buildings_Ship.xml #
 ----------------------
+belka strukturalna statku kosmicznego
+kapsuła hibernacyjna statku kosmicznego
 -------------------------
 # Buildings_Special.xml #
 -------------------------
 ---------------------------
 # Buildings_Structure.xml #
 ---------------------------
+klapa dla zwierząt
+kolumna
+furtka ogrodzenia
 ściana
-
 -----------------------------
 # Buildings_Temperature.xml #
 -----------------------------
+kratka wentylacyjna
 -------------------------------
 # Ethereal_OrbitalStrikes.xml #
 -------------------------------
+wiązka energii
 ------------------------------
 # Ethereal_SignalActions.xml #
 ------------------------------
@@ -98,23 +160,46 @@ beczka fermentacyjna
 ------------------------
 # Ethereal_Various.xml #
 ------------------------
+zaraza
+eksplozja
 ---------------------
 # Filth_Various.xml #
 ---------------------
+krew
+wydzielina
+pianka gaśnicza
+kałuża chem-paliwa
+kałuża wody
 -------------------
 # Gas_Various.xml #
 -------------------
 ---------------
 # GoJuice.xml #
 ---------------
+-----------------------------------
+# Hediffs_BodyParts_Archotech.xml #
+-----------------------------------
+archatyczna noga
+--------------------------------
+# Hediffs_BodyParts_Bionic.xml #
+--------------------------------
+bioniczna noga
+---------------------------------
+# Hediffs_BodyParts_Natural.xml #
+---------------------------------
+nerka
+wątroba
+------------------------------------
+# Hediffs_BodyParts_Prosthetic.xml #
+------------------------------------
+proteza ramienia
+proteza serca
+proteza nogi
 -------------------
 # ImpliedDefs.xml #
 -------------------
 -----------------------
 # Items_Artifacts.xml #
------------------------
------------------------
-# Items_BodyParts.xml #
 -----------------------
 --------------------
 # Items_Exotic.xml #
@@ -122,140 +207,206 @@ beczka fermentacyjna
 ------------------
 # Items_Food.xml #
 ------------------
-pasza dla zwierząt
+karma dla zwierząt
 pasta odżywcza
-
-----------------------
-# Items_Implants.xml #
-----------------------
 --------------------
 # Items_Luxury.xml #
 --------------------
 czekolada
-
 ------------------------------------
 # Items_Resource_AnimalProduct.xml #
 ------------------------------------
+owadzia galaretka
 -----------------------------------
 # Items_Resource_Manufactured.xml #
 -----------------------------------
 neutroamina
-
+wzmocniona lufa
 -------------------------------
 # Items_Resource_RawPlant.xml #
 -------------------------------
 agawa
 kukurydza
-
 ----------------------------
 # Items_Resource_Shell.xml #
 ----------------------------
+głowica antymaterii
 ----------------------------
 # Items_Resource_Stuff.xml #
 ----------------------------
+tkanina
+włókno z włosaka diabelskiego
+superstal
+stal
+kłoda
+wełna alpaki
+wełna bizona
+wełna megaleniwca
+wełna muffalo
+wełna owcy
 ------------------------------------
 # Items_Resource_Stuff_Leather.xml #
 ------------------------------------
+niedźwiedzia skóra
+ptasia skóra
+wielbłądzia skóra
+psia skóra
+skóra ze słonia
+ludzka skóra
+lekka skóra
+skóra z jaszczurki
+skóra łatana
+świńska skóra
+zwykła skóra
+skóra z nosorożca
+wilcza skóra
 ------------------------
 # Items_Unfinished.xml #
 ------------------------
+niedokończona prosta zbroja
+niedokończony pistolet
+niedokończona bionika
+niedokończona proteza
+niedokończona metalowa zbroja
+niedokończona pakiet
+niedokończona rzeźba
+niedokończona zaawansowana zbroja
+niedokończona broń
 ------------------
 # Luciferium.xml #
 ------------------
 ---------------------
 # MeleeMedieval.xml #
 ---------------------
+buława
 ----------------------
 # MeleeNeolithic.xml #
 ----------------------
 maczuga
 ikwa
 włócznia
-
 --------------------
 # Penoxycyline.xml #
 --------------------
 penoksycylina
-
 -------------------
 # Plants_Cave.xml #
 -------------------
+aksamitówka meduzowata
+mechówka niebieska
 ------------------------------------
 # Plants_Cultivated_Decorative.xml #
 ------------------------------------
+róża
 ------------------------------
 # Plants_Cultivated_Farm.xml #
 ------------------------------
+sadzonka kukurydzy
+sadzonka ziemniaka
+sadzonka psychoidu
+sadzonka ryżu
+sadzonka zioła
 ----------------------
 # Plants_Special.xml #
 ----------------------
 ------------------------
 # Plants_Wild_Arid.xml #
 ------------------------
+agawa
+karnegia olbrzymia
+dracena smocza
 ---------------------------
 # Plants_Wild_General.xml #
 ---------------------------
+trawa
+wysoka trawa
 -------------------------
 # Plants_Wild_Swamp.xml #
 -------------------------
+winorośl
+wierzba
 -----------------------------
 # Plants_Wild_Temperate.xml #
 -----------------------------
+brzoza
+sosna
+topola
 ----------------------------
 # Plants_Wild_Tropical.xml #
 ----------------------------
+alokazja
+kliwia
+bukietnica olbrzymia
+cekropia
+teczyna
 ----------------------
 # Psychite_Flake.xml #
 ----------------------
 --------------------
 # Psychite_Tea.xml #
 --------------------
+herbata psychitowa
 ---------------------
 # Psychite_Yayo.xml #
 ---------------------
--------------------------
-# Races_Animal_Arid.xml #
--------------------------
-gazela
-iguana
-
 --------------------------
 # Races_Animal_Bears.xml #
 --------------------------
+-----------------------------
+# Races_Animal_BigBirds.xml #
+-----------------------------
 ----------------------------
 # Races_Animal_BigCats.xml #
 ----------------------------
---------------------------
-# Races_Animal_Birds.xml #
---------------------------
--------------------------
-# Races_Animal_Farm.xml #
--------------------------
---------------------------
-# Races_Animal_Giant.xml #
---------------------------
+puma
+pantera
+-----------------------------
+# Races_Animal_CatGroup.xml #
+-----------------------------
+świnka morska
+małpa
+---------------------------------
+# Races_Animal_ChickenGroup.xml #
+---------------------------------
+kura
+kaczka
+gęś
+-----------------------------
+# Races_Animal_CowGroup.xml #
+-----------------------------
+bumalopa
+krowa
+koza
 --------------------------
 # Races_Animal_Hares.xml #
 --------------------------
 ---------------------------
 # Races_Animal_Insect.xml #
 ---------------------------
-------------------------
-# Races_Animal_Pet.xml #
-------------------------
--------------------------------
-# Races_Animal_Rodentlike.xml #
--------------------------------
-kapibara
+------------------------------
+# Races_Animal_MiscGroup.xml #
+------------------------------
+kobra
+-----------------------------
+# Races_Animal_PigGroup.xml #
+-----------------------------
 szynszyla
+gazela
+świnia
+-------------------------------
+# Races_Animal_SheepGroup.xml #
+-------------------------------
+alpaka
+kapibara
+owca
+----------------------------------
+# Races_Animal_SquirrelGroup.xml #
+----------------------------------
+iguana
 wiewiórka
-
 ------------------------------
-# Races_Animal_Temperate.xml #
+# Races_Animal_WargGroup.xml #
 ------------------------------
------------------------------
-# Races_Animal_Tropical.xml #
------------------------------
 --------------------------------
 # Races_Animal_WildCanines.xml #
 --------------------------------
@@ -294,10 +445,13 @@ wiewiórka
 ----------------------
 kapsuła ratunkowa
 iskra
-
 ---------------------
 # Various_Stone.xml #
 ---------------------
 --------------
 # WakeUp.xml #
 --------------
+----------------------
+# Weapons_Breach.xml #
+----------------------
+bomba uderzeniowa

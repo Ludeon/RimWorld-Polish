@@ -41,9 +41,9 @@
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} pochodzi z {PAWN_factionName}. Jeśli {PAWN_objective} uratujesz, może dobrowolnie dołączyć. W przeciwnym razie powróci do domu i wzrośnie reputacja między waszymi frakcjami.\n\nMożesz także przechwycić {PAWN_objective} do celów rekrutacyjnych lub niewolniczych, ale to rozgniewa {PAWN_possessive} frakcję.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>TODO</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>Wędrowiec dołącza: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>TODO</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_title} o imieniu {PAWN_nameDef} zjawia się i chce dołączyć do kolonii.\n\nChce [PAWN_pronoun] wnieść swój wkład, ale nie odejdzie dobrowolnie, twierdząc, że nie ma gdzie się udać. Możesz {PAWN_objective} odrzucić i odesłać. Jednak Twoi koloniści będą zaniepokojeni odesłaniem kogoś w potrzebie.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Kapsuły ładunkowe</LetterLabelCargoPodCrash>
@@ -131,7 +131,7 @@
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} - samooswojenie</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} sa{0_gender ? m : ma : me} się oswoi{0_gender ? ł : ła : ło}.</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} {0_gender ? oswoił : oswoiła : oswoiło} się.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->

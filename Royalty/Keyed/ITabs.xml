@@ -5,15 +5,15 @@
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
   <RoyalTitleTooltipHasTitle>{PAWN_labelShort} ma obecnie tytuł {TITLE}, przyznawany przez frakcję {FACTION_name}.</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
-  <RoyalTitleTooltipConceited>{PAWN_labelShort} zażąda pełnego poszanowania przywilejów tego tytułu.</RoyalTitleTooltipConceited>
+  <RoyalTitleTooltipConceited>{PAWN_labelShort} będzie wymaga{PAWN_gender ? ł : ła}, aby potrzeby tego tytułu były w pełni poszanowane.</RoyalTitleTooltipConceited>
   <!-- EN: {PAWN_labelShort} is flexible about this title's privileges. -->
-  <RoyalTitleTooltipNonConceited>{PAWN_labelShort} jest elastyczny w kwestii przywilejów tego tytułu.</RoyalTitleTooltipNonConceited>
+  <RoyalTitleTooltipNonConceited>{PAWN_labelShort} może się dostosować odnośnie potrzeb tego tytułu.</RoyalTitleTooltipNonConceited>
   <!-- EN: Next title -->
   <RoyalTitleTooltipNextTitle>Następny tytuł</RoyalTitleTooltipNextTitle>
   <!-- EN: costs {0} {FACTION_royalFavorLabel} -->
-  <RoyalTitleTooltipNextTitleFavorCost>koszta {0} {FACTION_royalFavorLabel}</RoyalTitleTooltipNextTitleFavorCost>
+  <RoyalTitleTooltipNextTitleFavorCost>koszty {0} {FACTION_royalFavorLabel}</RoyalTitleTooltipNextTitleFavorCost>
   <!-- EN: No more earnable titles on this planet. -->
-  <RoyalTitleTooltipFinalTitle>Nie ma więcej możliwych tytułów na tej planecie.</RoyalTitleTooltipFinalTitle>
+  <RoyalTitleTooltipFinalTitle>Nie ma więcej tytułów do zdobycia na tej planecie.</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
   <RoyalTitleTooltipInheritance>Jeśli {PAWN_nameDef} umrze, {HEIR_nameFull} jest wyznaczony do dziedziczenia tytułu {PAWN_possessive}.</RoyalTitleTooltipInheritance>
   <!-- EN: {HEIR_nameFull} is not a member of any faction. -->
@@ -32,38 +32,38 @@
   <RoyalTitleTooltipRoyalFavorTotal>{0} wszystkiego</RoyalTitleTooltipRoyalFavorTotal>
 
   <!-- EN: {0} title -->
-  <RecruitmentResistanceRoyalTitleOffset>TODO</RecruitmentResistanceRoyalTitleOffset>
+  <RecruitmentResistanceRoyalTitleOffset>{0} tytuł</RecruitmentResistanceRoyalTitleOffset>
   
   <!-- Permits tab -->
   <!-- EN: Permits -->
-  <TabPermits>TODO</TabPermits>
+  <TabPermits>Upoważnienia</TabPermits>
   <!-- EN: Permits from {FACTION_name} -->
-  <PermitsFromFaction>TODO</PermitsFromFaction>
+  <PermitsFromFaction>Upoważnienia z {FACTION_name}</PermitsFromFaction>
   <!-- EN: Current title -->
-  <CurrentTitle>TODO</CurrentTitle>
+  <CurrentTitle>Obecny tytuł</CurrentTitle>
   <!-- EN: Unused permit points -->
-  <UnusedPermits>TODO</UnusedPermits>
+  <UnusedPermits>Nieużyte punkty upoważnień</UnusedPermits>
   <!-- EN: Return all permits -->
-  <ReturnAllPermits>TODO</ReturnAllPermits>
+  <ReturnAllPermits>Zwróć wszystkie upoważnienia</ReturnAllPermits>
   <!-- EN: {PAWN_nameDef} has no permits to return. -->
-  <NoPermitsToReturn>TODO</NoPermitsToReturn>
+  <NoPermitsToReturn>{PAWN_nameDef} nie ma żadnych upoważnień do zwrotu</NoPermitsToReturn>
   <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
-  <NotEnoughFavor>TODO</NotEnoughFavor>
+  <NotEnoughFavor>Zwrot upoważnień wymaga {FAVORCOST} {FAVOR}, ale {PAWN_nameDef} ma tylko {CURFAVOR}.</NotEnoughFavor>
   <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Desc>TODO</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Desc>Zwróć wszystkie wcześniej wybrane upoważnienia z tej frakcji. Dostaniesz wszystkie użyte punkty upoważnień i będziesz mógł je ponownie wykorzystać.\n\nTo działanie kosztuje {BASEFAVORCOST} {FAVOR}, oraz koszt resetu wszystkich upoważnień, które są teraz niedostępne. Całkowity koszt to {FAVORCOST}.</ReturnAllPermits_Desc>
   <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Confirm>TODO</ReturnAllPermits_Confirm>
+  <ReturnAllPermits_Confirm>Zwrócić wszystkie wcześniej wybrane upoważnienia dla frakcji {FACTION_name}?\n\nDostaniesz wszystkie użyte punkty upoważnień i będziesz mógł je ponownie wykorzystać.\n\nTo działanie kosztuje {BASEFAVORCOST} {FAVOR}, oraz koszt resetu wszystkich upoważnień, które są teraz niedostępne. Całkowity koszt to {FAVORCOST}</ReturnAllPermits_Confirm>
   <!-- EN: Switch faction -->
-  <SwitchFaction_Desc>TODO</SwitchFaction_Desc>
+  <SwitchFaction_Desc>Zmień frakcję</SwitchFaction_Desc>
   <!-- EN: Accept permit -->
-  <AcceptPermit>TODO</AcceptPermit>
+  <AcceptPermit>Przyjmij upoważnienie</AcceptPermit>
   <!-- EN: Requires title: {0} -->
-  <RequiresTitle>TODO</RequiresTitle>
+  <RequiresTitle>Wymaga tytułu: {0}</RequiresTitle>
   <!-- EN: Upgrade from: {0} -->
-  <UpgradeFrom>TODO</UpgradeFrom>
+  <UpgradeFrom>Ulepsz z: {0}</UpgradeFrom>
   <!-- EN: Cooldown -->
-  <Cooldown>TODO</Cooldown>
+  <Cooldown>Czas do ponownego użycia</Cooldown>
   <!-- EN: {HONOR} cost if used during cooldown -->
-  <CooldownUseFavorCost>TODO</CooldownUseFavorCost>
+  <CooldownUseFavorCost>Koszt {HONOR} jeśli użyte zanim będzie dostępne ponownie</CooldownUseFavorCost>
   
 </LanguageData>
