@@ -57,6 +57,7 @@ szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu
 #Praca i czynność  
 rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
 rzeźnik, ubija, ubite (slaughterer, slaughtering, slaughtered)  
+obdarzający(a) (bestbower)
   
 #Miejsca  
 posterunek (outpost)  
@@ -165,7 +166,7 @@ gniazdo (hive)
 świecący kokon (glow pod)  
   
 #Zwierzęta i inne stworzenia  
-archatyczny (archotech)
+archatyczny (archotech) - taka rozwinięta cywilizacja  
 alfabóbr (alphabeaver)  
 alpaka (alpaca)  
 bumalopa (boomalope)  
