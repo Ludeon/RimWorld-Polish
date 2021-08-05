@@ -103,7 +103,7 @@
   <AlertAgeReversalDemandDesc_Overdue>Leczenie {PAWN} jest spóźnione o {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
-  <AlertRoyalTitleNoVeneratedAnimalMeat>Wiara {PAWN_nameDef} w {IDEO_name} uniemożliwia {PAWN_objective} jedzenie mięsa {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>Wiara {PAWN_nameDef} w {IDEO_name} uniemożliwia {PAWN_gender ? mu : jej} jedzenie mięsa {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>Kasta Driad nie jest ustawiona</AlertGauranlenTreeWithoutDryadTypeLabel>
@@ -112,7 +112,7 @@
   <!-- EN: Connector not assigned to plant cutting -->
   <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Złącze nieprzypisane do cięcia roślin</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Masz drzewa Gauranlen, które są ustawione do przycinania, ale ich łączniki nie są przypisane do cięcia roślin.\n\nPowinieneś przydzielić prace związane z cięciem roślin następującym osobom</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Masz drzewa Gauranlen, które są ustawione do przycinania, ale ich łączniki nie są przypisane do cięcia roślin.\n\nNależałoby wyznaczyć następującym osobom prace związane z cięciem roślin</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>Węzeł paliwowy eksploduje w {0}</AlertFuelNodeIgniting>
@@ -120,7 +120,7 @@
   <AlertFuelNodeIgnitingDesc>Zapalił się węzeł paliwowy! Wkrótce stopi się i eksploduje.\n\nUciekaj i bądź gotowy do walki lub ucieczki z pożaru.</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
-  <AlertInfestationArriving>Owady przybywające do {0}</AlertInfestationArriving>
+  <AlertInfestationArriving>Owady zjawią się w {0}</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
   <AlertInfestationArrivingDesc>Gigantyczne owady wyczuły twoją aktywność i wygrzebują się z podziemi, aby zaatakować. Zaraz zaczną się ataki.</AlertInfestationArrivingDesc>
 
