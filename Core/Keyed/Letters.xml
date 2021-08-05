@@ -41,7 +41,7 @@
   <!-- EN: Neutral -->
   <Neutral>Neutralna</Neutral>
   <!-- EN: neutral -->
-  <NeutralLower>TODO</NeutralLower>
+  <NeutralLower>neutralna</NeutralLower>
   <!-- EN: Death -->
   <Death>Śmierć</Death>
 
@@ -466,25 +466,25 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} dołącza</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_title} o imieniu {PAWN_nameDef} przyby{PAWN_gender ? ł : a} i dołącza do kolonii.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} dołącza</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} dziękuje ci za uratowanie {PAWN_objective}. {PAWN_pronoun} postanowił zostać zamiast odejść i dołącza do twojej kolonii.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} jest wdzięczn{PAWN_gender ? y : a}, że dzięki Tobie został ocalon{PAWN_gender ? y : a}. Postan{PAWN_gender ? owił : owiła} że woli zostać niż odejść i dołącza do Twojej kolonii.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
   <LetterLabelPawnsArriveAndJoin>Ludzie dołączają</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>Ci ludzie przybyli i dołączyli do kolonii:\n\n{0}</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>Następujący ludzie przybyli i dołączyli do kolonii:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
   <LetterLabelPawnsArrive>Ludzie przybyli</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>Ci ludzie przybyli:\n\n{0}</LetterPawnsArrive>
+  <LetterPawnsArrive>Następujący ludzie przybyli:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
@@ -500,7 +500,7 @@
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>Porwano {PAWN_nameDef}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
   <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
@@ -525,19 +525,19 @@
   <!-- EN: Quest completed -->
   <LetterQuestCompletedLabel>Zadanie ukończone</LetterQuestCompletedLabel>
   <!-- EN: Quest failed -->
-  <LetterQuestFailedLabel>Zadanie zakończone niepowodzeniem</LetterQuestFailedLabel>
+  <LetterQuestFailedLabel>Zadanie nieudane</LetterQuestFailedLabel>
   <!-- EN: Quest concluded -->
   <LetterQuestConcludedLabel>TODO</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>Pomyślnie ukończyłeś zadanie '{0}'</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>Udało Ci się pomyślnie ukończyć zadanie '{0}'</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>Nie udało ci się ukończyć zadania '{0}'</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>Nie udało Ci się ukończyć zadania '{0}'</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>TODO</LetterQuestCompletedConcluded>
 
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
-  <LetterBladelinkWeaponBondedLabel>TODO</LetterBladelinkWeaponBondedLabel>
+  <LetterBladelinkWeaponBondedLabel>Więź osobowości: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
   <LetterBladelinkWeaponBonded>TODO</LetterBladelinkWeaponBonded>
@@ -549,7 +549,7 @@
   <LetterMechClusterArrived>Mechanoidy właśnie przybyły.</LetterMechClusterArrived>
 
   <!-- EN: Caravan detected -->
-  <LetterLabelSiteCountdownStarted>TODO</LetterLabelSiteCountdownStarted>
+  <LetterLabelSiteCountdownStarted>Wykryto karawanę</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>TODO</LetterTextSiteCountdownStarted>
 
