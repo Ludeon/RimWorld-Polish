@@ -53,6 +53,7 @@ najazdy (raids)
 #Stany i czynności  
 zespół odstawienny (withdrawal)  
 szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
+purysta ciała (body purist)  
   
 #Praca i czynność  
 rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
@@ -136,6 +137,7 @@ włócznia (spear)
 wyrzutnia zapalająca (incendiarylauncher)  
 zestaw do szycia  
 wiertnica głębinowa (deep drill)  
+kapsuła (pod)  
   
 #Rośliny, substancje, jedzenie  
 bloker malarii (malariblock)  
