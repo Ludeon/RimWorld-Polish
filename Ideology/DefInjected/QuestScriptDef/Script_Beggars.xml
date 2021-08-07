@@ -14,10 +14,10 @@
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere]</li>
     <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere] twojej organizacji charytatywnej [hasHave]. Koloniści z przekonaniami charytatywnymi będą nieszczęśliwi.</li>
-    <li>hasHave(beggarCount==1)->który szukał</li>
-    <li>hasHave(beggarCount>=2)->którzy szukali</li>
-    <li>wasWere(beggarCount==1)->został zdradzony</li>
-    <li>wasWere(beggarCount>=2)->zostali zdradzeni</li>
+    <li>hasHave(beggarCount==1)->został zdradzony</li>
+    <li>hasHave(beggarCount>=2)->zostali zdradzeni</li>
+    <li>wasWere(beggarCount==1)->który szukał</li>
+    <li>wasWere(beggarCount>=2)->którzy szukali</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->podróżnik</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->podróżnicy</li>
   </Beggars.questContentRules.rulesStrings>
@@ -52,14 +52,16 @@
   <Beggars.questDescriptionRules.rulesStrings>
     <li>groupLabelPlural->podróżnicy</li> 
     <li>groupLabelSingle->podróżnik</li> 
+    <li>ichGo(beggarCount==1)->go</li>
+    <li>ichGo(beggarCount>=2)->ich</li>
     <li>nieJestNieSa(beggarCount==1)->nie jest</li>
     <li>nieJestNieSa(beggarCount>=2)->nie są</li>
-    <li>travelerInfo(beggarCount==1)->Ten [groupLabelSingle] jest</li>
-    <li>travelerInfo(beggarCount>=2)->Ci [groupLabelPlural] są</li>
+    <li>travelerInfo(beggarCount==1)->Ten [groupLabelSingle]</li>
+    <li>travelerInfo(beggarCount>=2)->Ci [groupLabelPlural]</li>
     <li>beggingForInfo-> x[requestedThingCount] [requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->im</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] [nieJestNieSa] częścią żadnej frakcji. Jeśli chcesz, możesz zabić, aresztować, sprzedać lub zebrać [traverObjective] bez konsekwencji dyplomatycznych.</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] [nieJestNieSa] częścią żadnej frakcji. Jeśli chcesz, możesz [ichGo] zabić lub aresztować bez konsekwencji dyplomatycznych.</li>
     <li>approachInfo(beggarCount==1)->Biedny [groupLabelSingle] o imieniu [beggars0_nameDef] szuka pomocy</li>
     <li>approachInfo(beggarCount>=2)->Grupa biednych podróżników szuka pomocy</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] błaga o [beggingForInfo]</li>
@@ -75,7 +77,7 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Chcą [requestedThing_label], aby mogli bezpiecznie podróżować, szukając nowego miejsca, w którym mogliby się osiedlić</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Chcą, aby [requestedThing_label] pomogło im utopić smutek po utracie domu w straszliwym ataku</li>
     <li>interactionInfo(beggarCount==1)->Możesz przekazać przedmioty [beggars0_nameDef], wybierając kolonistę i klikając na podróżnika prawym przyciskiem myszy</li>
-    <li>interactionInfo(beggarCount>=2)->Możesz przekazać przedmioty grupie [groupLabelPlural], wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_nameDef]</li>
+    <li>interactionInfo(beggarCount>=2)->Możesz przekazać przedmioty grupie podróżników, wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] odejdzie za [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural] odejdą za [visitDurationTicks_duration]</li>
   </Beggars.questDescriptionRules.rulesStrings>
