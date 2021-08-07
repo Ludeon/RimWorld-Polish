@@ -43,9 +43,9 @@
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>Jesteś pewny?</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} pełni obecnie tę rolę i nie będzie zadowolony z jej utraty. (dostanie minusy do nastoju)</ChooseRoleConfirmAssignReplace>
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} pełni obecnie tę rolę i nie będzie zadowolon{PAWN_gender ? y : a} z jej utraty. (dostanie minusy do nastoju)</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} pełni obecnie rolę {ROLE_label} i nie będzie zadowolony z jej utraty. (dostanie minusy do nastoju)</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} pełni obecnie rolę {ROLE_label} i nie będzie zadowolon{PAWN_gender ? y : a} z jej utraty. (dostanie minusy do nastoju)</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
   <ChooseRoleConfirmAssignReplaceLeader>Może być tylko jeden lider. Spowoduje to zwolnienie {PAWN_labelShort} z jego roli {OTHERROLE_labelDef}, co zdenerwuje {PAWN_objective}.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
@@ -53,7 +53,7 @@
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} zyska następujące umiejętności</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>Rola {ROLE_label} wymaga następującej odzieży</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>Rola {ROLE_label} wymaga następującego stroju</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
   <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} odmówi wykonywania tego rodzaju pracy</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
@@ -69,7 +69,7 @@
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>Premia lidera</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>Pogląd {MEME} uniemożliwia dodawanie wymagań dotyczących odzieży do ról.</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>Pogląd {MEME} uniemożliwia dodawanie wymagań dotyczących stroju do ról.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>nie można nosić z {0_label}</CannotBeWornWith>
 
@@ -140,23 +140,23 @@
   <!-- EN: body tattoo -->
   <TattooBody>tatuaż na ciele</TattooBody>
   <!-- EN: apparel color -->
-  <ApparelColor>kolor odzieży</ApparelColor>
+  <ApparelColor>kolor stroju</ApparelColor>
   <!-- EN: hair color -->
   <HairColor>kolor włosów</HairColor>
   <!-- EN: Show headgear -->
   <ShowHeadgear>Pokaż nakrycie głowy</ShowHeadgear>
   <!-- EN: Show apparel -->
-  <ShowApparel>Pokaż odzież</ShowApparel>
+  <ShowApparel>Pokaż strój</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
-  <PawnUnhappyWithStyleItems>{PAWN_nameDef} będzie niezadowolony z następujących rzeczy</PawnUnhappyWithStyleItems>
+  <PawnUnhappyWithStyleItems>{PAWN_nameDef} będzie niezadowolon{PAWN_gender ? y : a} z następujących rzeczy</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>Kategorie stylów wpływają na wygląd niektórych budynków, odzieży i broni wykonanych przez {IDEO_memberNamePlural}. Jeśli więcej niż jedna kategoria wpływa na tę samą rzecz, stosuje się ostatnią kategorię.</StyleCategoryDescription>
+  <StyleCategoryDescription>Kategorie stylów wpływają na wygląd niektórych budynków, stroju i broni wykonanych przez {IDEO_memberNamePlural}. Jeśli więcej niż jedna kategoria wpływa na tę samą rzecz, stosuje się ostatnią kategorię.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>Kategorie stylów wpływają na wygląd niektórych budynków, stroju i broni produkowanych przez twoją kolonię. Jeśli więcej niż jedna kategoria dotyczy tej samej rzeczy, stosuje się najbardziej lewą kategorię.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} będzie zadowolony, jeśli zauważą budynki, podłogi i dzieła sztuki pasujące do tego stylu.</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} będzie zadowolon{PAWN_gender ? y : a}, jeśli zauważą budynki, podłogi i dzieła sztuki pasujące do tego stylu.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>Członkowie Ideologii ucieszą się, jeśli zauważą budynki, podłogi i dzieła sztuki pasujące do tego stylu.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} kategoria stylów ma wpływ</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
