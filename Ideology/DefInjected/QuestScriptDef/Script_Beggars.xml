@@ -11,8 +11,8 @@
     <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
-  <Beggars.questContentRules.rulesStrings>    
-  <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] zdradzony</li>
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] zdradzony</li>
     <li>letterTextBeggarsBetrayed->Zdradzono [groupLabelSingleOrPlural] tego, kto szukał twego miłosierdzia. Koloniści o dobroczynnych przekonaniach będą nieszczęśliwi.</li>
     <li>hasHave(beggarCount==1)->ma</li>
     <li>hasHave(beggarCount>=2)->mają</li>
@@ -49,8 +49,8 @@
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
-  <Beggars.questDescriptionRules.rulesStrings> 
-  <li>groupLabelPlural->podróżnicy</li>
+  <Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural->podróżnicy</li>
     <li>groupLabelSingle->podróżnik</li>
     <li>travelerInfo(beggarCount==1)->Ta [groupLabelSingle] jest</li>
     <li>travelerInfo(beggarCount>=2)->Te [groupLabelPlural] są</li>
@@ -76,7 +76,7 @@
     <li>interactionInfo(beggarCount>=2)->Możesz dać przedmioty wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] ruszy dalej po [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Grupa [groupLabelPlural] ruszy dalej po [visitDurationTicks_duration]</li>
-	</Beggars.questDescriptionRules.rulesStrings>
+  </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
@@ -126,6 +126,6 @@
     <li>alms->pomoc</li>
     <li>alms->dobroczynność</li>
     <li>alms->zasoby</li>
-	</Beggars.questNameRules.rulesStrings>
+  </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>
