@@ -458,9 +458,9 @@
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
-  <LetterLabelQuestItemsAddedToCaravanInventory>TODO</LetterLabelQuestItemsAddedToCaravanInventory>
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymuje przedmioty</LetterLabelQuestItemsAddedToCaravanInventory>
   <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
-  <LetterQuestItemsAddedToCaravanInventory>TODO</LetterQuestItemsAddedToCaravanInventory>
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymuje następujące przedmioty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -503,23 +503,24 @@
   <LetterLabelPawnsKidnapped>Porwano {PAWN_nameDef}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} został porwan{PAWN_gender ? y : a} przez {FACTION_name}!\nJednak {PAWN_pronoun} nie jest stracone na zawsze. Okazja do ratowania {PAWN_objective} może pojawić się w najbliższych dniach lub latach.
+  </LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>TODO</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>Zastosowany druk technologiczny: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>TODO</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>Do badań zastosowano druk technologiczny: {PROJECT_label}</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>TODO</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>Ukończono wymagania dotyczące druku technologicznego projektu! Naukowcy mogą teraz rozpocząć badania nad tym, jak właściwie wykorzystać tę technologię w swoich stołach badawczych.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>TODO</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Wymagania dotyczące druku technologicznego w ramach tego projektu nie zostały jeszcze spełnione. {0} druków technologicznych zostały zastosowane do tej pory. Projekt wymaga {1} w sumie.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>TODO</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Wymagania dotyczące druku technologicznego w ramach tego projektu zostały już spełnione. Dodatkowa technologia zaawansowana w badaniach nad {PROJECT_label}. Połowa pozostałych prac badawczych, {0} punktów, została zakończona.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>TODO</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Ten projekt jest już w pełni zbadany, więc druk techniczny w ogóle nie polepszyła Twojej wiedzy.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>TODO</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>Stosując druk technologiczny, {PAWN_labelShort} zdoby{PAWN_gender ? ł : ła} {0} doświadczenie w umiejętności {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
@@ -540,7 +541,8 @@
   <LetterBladelinkWeaponBondedLabel>Więź osobowości: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>TODO</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} nawiąza{PAWN_gender ? ł : ła} więź z {WEAPON_labelShort}.
+  \nOd tej pory nikt inny nie będzie mógł korzystać z {WEAPON_labelShort} poza {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
