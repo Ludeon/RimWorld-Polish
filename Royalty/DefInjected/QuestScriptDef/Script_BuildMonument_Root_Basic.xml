@@ -7,9 +7,9 @@
     <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->Monument jest rozmiaru [monumentSize] , a do jego budowy będziesz potrzebował tych zasobów: (cała wartość to [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nKonstrukcja musi być gotowa [constructionTimeoutTicks_duration] od zaakceptowania zadania. Nagrodę otrzymasz po zakończeniu budowy.[dontDestroyMonument]</li>
+    <li>commonEnding->Monument jest wielkości [monumentSize] i będzie wymagał tych zasobów (całkowita wartość [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nKonstrukcja musi być gotowa w [constructionTimeoutTicks_duration] od akceptacji zadania. Po ukończeniu, [allRewardsDescriptions][dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\nJeśli pomnik zostanie zniszczony w ciągu [keepMonumentTicks_duration] od jego zbudowania, twoje relacje z  [asker_factionName] spadną o [goodwillChangeIfMonumentDestroyed].</li>
-  </BuildMonument_Basic.questDescriptionRules.rulesStrings>
+    <li>dontDestroyMonument->\n\nJeśli monument zostanie zniszczony w ciągu [keepMonumentTicks_duration] dni od budowy, twoje relacje z frakcją [asker_factionName] obniżą się o [goodwillChangeIfMonumentDestroyed].
+  </li></BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>

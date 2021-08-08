@@ -22,7 +22,7 @@ Trudniejsze rzeczy w folderze DefInjected:
 * DefInjected\TaleDef - jak wyżej.
 
 # Rzeczy wymagające dopracowania:  
-* Wpierw trzeba przetłumaczyć :)
+* Najpierw trzeba przetłumaczyć :)
 
 # Contributors
 * Arczi008TV
@@ -33,3 +33,7 @@ Trudniejsze rzeczy w folderze DefInjected:
 * Mr. Fossil
 * MrKris7100
 * Tomikles
+* HogDadi
+* ŚwietyJudasz
+* Hurion
+* Oraz wielu innych...

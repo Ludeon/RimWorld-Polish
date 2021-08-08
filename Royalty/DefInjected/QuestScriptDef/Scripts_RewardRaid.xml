@@ -9,14 +9,7 @@
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z [asker_faction_name], chce, żebyś pomógł uratować jedną z [asker_possessive] karawan. Karawana jest ścigana w pobliżu [map_definite] przez (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) z [enemyFaction_name]. [asker_nameDef] chce, abyś dał sygnał [enemyFaction_pawnsPlural] i odciągnął ich od karawany, a zaprosił do siebie.[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull] [asker_royalTitleInCurrentFaction] z [asker_faction_name], składa do Ciebie prośbę.\n\n(*Threat)[groupsOf](/Threat) z [enemyFaction_name] nękają [asker_possessive] karawanę w okolicy. [asker_nameDef] prosi, abyś wysłał im wiadomość z wyzwaniem, zachęcającym ich do ataku i samodzielnie wyeliminował zagrożenie.[endingCommon]</li>
-    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
-    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nJeśli się zgodzisz, [enemyFaction_pawnsPlural] pojawi się u ciebie za [firstRaidDelayTicks_duration].</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Jeśli się zgodzisz, [enemyFaction_pawnsPlural] pojawi się u ciebie za [firstRaidDelayTicks_duration].</li>
-  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -39,27 +32,6 @@
     <li>violence->Hostility</li>
     <li>violence->Warfare</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural] dla wzbogacenia się</li>
-    <li>questName->[violence] dla wzbogacenia się</li>
-    <li>questName->[violence] za dług</li>
-    <li>questName->[violence] dla zysku</li>
-    <li>questName->Wynagrodzona/y [violence]</li>
-    <li>questName->Opłacona/y [violence]</li>
-    <li>questName->Zrekompensowana/y [violence]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] o Przysługę</li>
-    <li>questName(reward==royalFavor)->[violence] o Przysługę</li>
-    <li>violence->Przemoc</li>
-    <li>violence->Walka</li>
-    <li>violence->Bitwa</li>
-    <li>violence->Wojna</li>
-    <li>violence->Bijatyka</li>
-    <li>violence->Rozlew krwi</li>
-    <li>violence->Atak</li>
-    <li>violence->Obrona</li>
-    <li>violence->Konflikt</li>
-    <li>violence->Wrogość</li>
-    <li>violence->Działania wojenne</li>
-  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
