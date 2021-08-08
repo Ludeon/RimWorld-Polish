@@ -37,11 +37,11 @@
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\nFrakcja, do której należy obecnie {1_nameDef}.\n\nKliknij, aby zobaczyć frakcję.</PawnFactionInfo>
   <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
+  <WorkDisabledByBackstory>Wyłączone przez historię: {0}</WorkDisabledByBackstory>
   <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
+  <WorkDisabledByTrait>Wyłączone przez cechę: {0}</WorkDisabledByTrait>
   <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
+  <WorkDisabledByQuest>Wyłączone przez zadanie:{0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -101,9 +101,9 @@
   <!-- EN: Enemy of:  -->
   <EnemyOf>Jest wrogiem: </EnemyOf>
   <!-- EN: Recent events -->
-  <RecentEvents>TODO</RecentEvents>
+  <RecentEvents>Ostatnie wydarzenie</RecentEvents>
   <!-- EN: Ongoing events -->
-  <OngoingEvents>TODO</OngoingEvents>
+  <OngoingEvents>Nadchodzące wydarzenie</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Ta frakcja jest stale wroga. Będzie najeżdżać Twoją osadę i karawany. Relacja z nimi nigdy się nie poprawi z jakiegokolwiek powodu.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -183,7 +183,7 @@
   <!-- EN: Research -->
   <Research>Badaj</Research>
   <!-- EN: Study -->
-  <Study>TODO</Study>
+  <Study>Nauka</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Niezbadane</Unresearched>
   <!-- EN: Finished -->
@@ -215,9 +215,9 @@
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
-  <FactionsTab>TODO</FactionsTab>
+  <FactionsTab>Frakcje</FactionsTab>
   <!-- EN: No known factions -->
-  <NoFactions>TODO</NoFactions>
+  <NoFactions>Brak znanych frakcji</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -291,17 +291,17 @@
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>wolną sypialnię, które spełnią wymogi tytułu</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>sala tronowa, która spełnia wymagania tytułu {TITLE} {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
-  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
+  <QuestNoThroneRoom>przydziel tron {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>kolonistę z tytułem {0}.</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
-  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
+  <QuestPawnNotOnColonyMap>{PAWN_definite} jest w Twojej rodzinnej kolonii</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>TODO</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>mapa oczyszczona z wrogów frakcji obdarzającego</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
-  <QuestCanNotStartUntilBestowingCeremonyFinished>TODO</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <QuestCanNotStartUntilBestowingCeremonyFinished>aby zakończyć trwające zadanie ceremonii obdarowania</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Preferencje dotyczące nagród</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -323,19 +323,19 @@
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} dołącza</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <QuestBetrayalOffer>Oferta zdrady: {0} cele pozostają</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} przyzna Ci nagrodę za zabicie wszystkich członków {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
-  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
+  <QuestRequiredPlayerWealth>bogactwo kolonii co najmniej {0}</QuestRequiredPlayerWealth>
   <!-- EN: alliance with {0} -->
-  <QuestAlliedTo>TODO</QuestAlliedTo>
+  <QuestAlliedTo>sojusz z {0}</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
-  <QuestHostileTo>TODO</QuestHostileTo>
+  <QuestHostileTo>wróg z {0}</QuestHostileTo>
   <!-- EN: neutral to {0} -->
-  <QuestNeutralTo>TODO</QuestNeutralTo>
+  <QuestNeutralTo>neutralny z {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
-  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
+  <QuestRequiredThingStudied>zbadany {0_labelShort}</QuestRequiredThingStudied>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
