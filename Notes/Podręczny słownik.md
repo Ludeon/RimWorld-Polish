@@ -13,6 +13,7 @@ Marine, Marines
 itd. (and so on.)  
   
 #Ogólne  
+tryb bojowy (draft)  
 przydział (assign)  
 wyznacz (designate)  
 oznacz (mark)  
@@ -58,7 +59,7 @@ purysta ciała (body purist)
 #Praca i czynność  
 rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
 rzeźnik, ubija, ubite (slaughterer, slaughtering, slaughtered)  
-obdarzający(a) (bestbower)
+obdarzający(a) (bestower)
   
 #Miejsca  
 posterunek (outpost)  
@@ -151,7 +152,7 @@ liście psychodeliczne
 lucyferium (luciferium)  
 nanowłókno  
 neutroamina  
-pasza dla zwierząt (kibble)  
+karma dla zwierząt (kibble)  
 pemikan (pemmican)  
 pobudzacz (wakeup)  
 plasterki psychitu (flake)  
