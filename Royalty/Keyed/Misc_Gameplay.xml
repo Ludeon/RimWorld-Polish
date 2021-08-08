@@ -17,11 +17,11 @@
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
-  <PsycastNeurotrainerLabel>trener PSY ({0})</PsycastNeurotrainerLabel>
+  <PsycastNeurotrainerLabel>trener PSI ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Użyj trenera PSY, aby nauczyć się zdolności psychicznej: {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Użyj trenera psychicznego, aby nauczyć się zdolności psychicznej: {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Jednorazowa super-dawka mechanitów, które trenują określoną zdolność psychiczną.\n\nDawka jest przyjmowana przez orbitę oka. Po wpuszczeniu do mózgu, mechanity formują wiedzę na temat danej zdolności, poprzez przemianę w tkankę nerwową.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Jednorazowa super-dawka mechanitów, które trenują określoną zdolność psychiczną.\n\nDawka jest przyjmowana przez orbitę oka. Po wpuszczeniu do mózgu, mechanity formują wiedzę na temat danej zdolności, poprzez przemianę w tkankę neuronową.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} uży{PAWN_gender ? ł : a} neuro-trenera, aby nauczyć się zdolności psychicznej: {1}</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
@@ -137,15 +137,15 @@
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>Potrzeba {0} [1} tutaj (mają {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>Potrzeba {0} typu skupienia psylinku</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>Potrzeba {0} typu skupienia łącza PSI</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
-  <BeginLinkingRitualMaxPsylinkLevel>Maksymalny poziom psylinku</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualMaxPsylinkLevel>Maksymalny poziom łącza PSI</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>Potrzeba wolnego, osiągalnego miejsca w odległości 3 pól, aby połączyć</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Rytuał połączenia zakończony</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończył rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swój psylink, umożliwiając użytek nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończył rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swoje łącze PSI, umożliwiając użytek nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>Dodatkowo, {0} trawy anima odrosło.</LetterTextLinkingRitualCompletedAnimaGrass>
 
@@ -174,7 +174,7 @@
   <!-- EN: An anima tree. -->
   <RitualTargetAnimaTreeInfo>Drzewo anima.</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
-  <RitualTargetAnimaTreeMustBeCapableOfNature>Musi być to kolonista z naturalnym typem skupienia podczas medytacji, oraz musi być poniżej maksymalnego poziomu psylinku.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>Musi być to kolonista z naturalnym typem skupienia PSI podczas medytacji, oraz musi być poniżej maksymalnego poziomu łącza PSI.</RitualTargetAnimaTreeMustBeCapableOfNature>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>Ceremonia łączenia anima jest silniejsza z większą ilością uczestników. Im więcej ludzi uczestniczy, tym krócej ceremonia trwa, i tym więcej trawy anima natychmiastowo odrośnie.\n\nZ {0} dodatkowymi uczestnikami, {1} trawy anima odrośnie po zakończeniu ceremonii.</AnimaLinkingExplanationBase>
