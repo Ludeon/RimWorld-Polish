@@ -103,7 +103,7 @@
   <!-- EN: Execute -->
   <Execute>TODO</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>TODO</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
@@ -378,10 +378,10 @@
   <CreatureWildness>Stopień dzikości</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>podatność na tresurę</CreatureTrainability>
-  <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
-  <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
+  <!-- EN: Follow master while drafted (maks 38 znaków)-->
+  <CreatureFollowDrafted>Podążaj za właś. w trybie bojowym</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work (maks 38 znaków)-->
+  <CreatureFollowFieldwork>Podążaj za właś. pracującym w terenie</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} z frakcją {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
@@ -393,7 +393,7 @@
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
   <PreciousLumpHostileThreat>TODO</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>złoże {0}</PreciousLumpLabel>
+  <PreciousLumpLabel>złoże zawierające {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>brak aktywnego projektu badawczego</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
@@ -652,7 +652,7 @@
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>niezdolność do przemocy</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort} nie jest {1_gender ? powołany : powołana} do służby.</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} nie jest w trybie bojowym.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
 
@@ -854,7 +854,7 @@
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów, jeśli nie został wezwany na służbę.</HostilityReponseTip>
+  <HostilityReponseTip>Zmienia sposób reagowania kolonisty na pobliskich wrogów, jeśli nie jest w trybie bojowym.</HostilityReponseTip>
   <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>Aktualny tryb</HostilityResponseCurrentMode>
 
@@ -1174,7 +1174,7 @@
   <!-- EN: stressed -->
   <Mood_Stressed>zestresowany</Mood_Stressed>
   <!-- EN: neutral -->
-  <Mood_Neutral>normalny</Mood_Neutral>
+  <Mood_Neutral>neutralny</Mood_Neutral>
   <!-- EN: content -->
   <Mood_Content>zadowolony</Mood_Content>
   <!-- EN: happy -->
@@ -1182,7 +1182,7 @@
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Wszyscy zginęli albo odeszli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Wszyscy umarli albo zaginęli. Ta historia dobiegła końca.\n\nMoże ktoś inny znajdzie pomysł na użycie ruin tego miejsca.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Broń niszcząca planety uderzyła w ziemię z mocą tryliona bomb wodorowych, powodując, że świat rozprysł się na drobne kawałeczki.\n\nCzęść z - {0} jest teraz małym pasem asteroid. Reszta stanowi teraz radioaktywne piekło, które stopniowo przemierza wszechświat, powodując kolejne katastrofy.\n\nNie udało Ci się przetrwać.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->

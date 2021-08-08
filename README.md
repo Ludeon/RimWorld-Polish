@@ -22,7 +22,7 @@ Trudniejsze rzeczy w folderze DefInjected:
 * DefInjected\TaleDef - jak wyżej.
 
 # Rzeczy wymagające dopracowania:  
-* Wpierw trzeba przetłumaczyć :)
+* Najpierw trzeba przetłumaczyć :)
 
 # Contributors
 * Arczi008TV

@@ -13,6 +13,7 @@ Marine, Marines
 itd. (and so on.)  
   
 #Ogólne  
+tryb bojowy (draft)  
 przydział (assign)  
 wyznacz (designate)  
 oznacz (mark)  
@@ -151,7 +152,7 @@ liście psychodeliczne
 lucyferium (luciferium)  
 nanowłókno  
 neutroamina  
-pasza dla zwierząt (kibble)  
+karma dla zwierząt (kibble)  
 pemikan (pemmican)  
 pobudzacz (wakeup)  
 plasterki psychitu (flake)  
