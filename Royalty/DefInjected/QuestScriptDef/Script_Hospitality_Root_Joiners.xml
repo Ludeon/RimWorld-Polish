@@ -5,7 +5,9 @@
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
-  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings><li>lodgersLabel->gość</li></Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->gość</li>
+  </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -121,8 +123,8 @@
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>allyAllies(lodgersCountMinusOne==1)->sojusznikiem</li>
     <li>allyAllies(lodgersCountMinusOne>=2)->sojusznikami</li>
-	<li>allyAllies2(lodgersCountMinusOne==1)->sojusznik</li>
-	<li>allyAllies2(lodgersCountMinusOne>=2)->sojusznicy</li>
+    <li>allyAllies2(lodgersCountMinusOne==1)->sojusznik</li>
+    <li>allyAllies2(lodgersCountMinusOne>=2)->sojusznicy</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>
@@ -165,32 +167,32 @@
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef] zagrożony</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef] i wrogowie</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef] w potrzasku</li>
-	<li>questName->schronienie dla [lodgerIndef2]</li>
+    <li>questName->schronienie dla [lodgerIndef2]</li>
     <li>questName->goszczenie [lodgerIndef2]</li>
     <li>questName->[lodgerIndef3] potrzebują pomocy</li>
     <li>questName(generateThreats==true,priority=1)->chronienie [lodgerIndef2]</li>
     <li>questName(generateThreats==true,priority=1)->opieka dla [lodgerIndef2]</li>
     <li>questName(generateThreats==true,priority=1)->bezpieczeństwo dla [lodgerIndef2]</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef3] w niebezpieczeństwie</li>
-	<li>questName(generateThreats==true,priority=1)->[lodgerIndef4] w niebezpieczeństwie</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef4] w niebezpieczeństwie</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef4] zagrożony</li>
-	<li>questName(generateThreats==true,priority=1)->[lodgerIndef3] zagrożeni</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef3] zagrożeni</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef4] i wrogowie</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef4] w potrzasku</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
     <li>lodgerIndef3(askerIsNull==true,lodgersCount>=2)->podróżnicy</li>
-	<li>lodgerIndef2(askerIsNull==true,lodgersCount>=2)->podróżników</li>
+    <li>lodgerIndef2(askerIsNull==true,lodgersCount>=2)->podróżników</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_title]</li>
-	<li>lodgerIndef2(asker_factionLeader==True,lodgersCount==1)->przyjaciela</li>
+    <li>lodgerIndef2(asker_factionLeader==True,lodgersCount==1)->przyjaciela</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->sojusznik</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->kolega</li>
-	<li>lodgerIndef2(asker_factionLeader==True,lodgersCount>=2)->kolegi</li>
+    <li>lodgerIndef2(asker_factionLeader==True,lodgersCount>=2)->kolegi</li>
     <li>lodgerIndef3(asker_factionLeader==True,lodgersCount>=2)->sojusznicy</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-	<li>lodgerIndef4(asker_royalInCurrentFaction==True,lodgersCount==1)->arystokrata</li>
+    <li>lodgerIndef4(asker_royalInCurrentFaction==True,lodgersCount==1)->arystokrata</li>
   </Hospitality_Joiners.questNameRules.rulesStrings>
   
 </LanguageData>
