@@ -391,7 +391,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>może tam czyhać niebezpieczeństwo.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>Skaner wykrywa aktywność wokół bryły. To prawdopodobnie wrogie.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>Skaner wykrywa aktywność wokół złoża. Jest prawdopodobnie wroga.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>złoże zawierające {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -471,7 +471,7 @@
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Aktywacja za {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
-  <PsychicEntropy>Entropia PSI</PsychicEntropy>
+  <PsychicEntropy>Ciepło neuronów</PsychicEntropy>
   <!-- EN: Heat -->
   <PsychicEntropyShort>Ciepło</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
@@ -1130,9 +1130,9 @@
   <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>trener umiejętności ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Użyj trenera umięjętności, aby nauczyć się {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Użyj trenera umiejętności, aby nauczyć się {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Jednorazowa superdawka mechanity, która ćwiczy określoną umiejętność.\n\nDawka jest podawana przez orbitę oka. Po uwolnieniu do mózgu mechanity szybko poprawiają umiejętności podmiotu w określonym obszarze, w razie potrzeby transmutując się w tkankę nerwową.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Jednorazowa superdawka mechanitów, która ćwiczy określoną umiejętność.\n\nDawka jest podawana przez orbitę oka. Po uwolnieniu do mózgu mechanity szybko poprawiają umiejętności podmiotu w określonym obszarze, w razie potrzeby transmutując w tkankę neuronową.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort} użył{PAWN_gender ? : a} {1} neurotrenera, przechodząc z poziomu {2} na poziom {3}.</SkillNeurotrainerUsed>
 
@@ -1264,7 +1264,7 @@
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>Postęp do następnej bryły</ProgressToNextLump>
+  <ProgressToNextLump>Postęp do następnego złoża</ProgressToNextLump>
   <!-- EN: Resource below -->
   <ResourceBelow>Zasoby poniżej</ResourceBelow>
   <!-- EN: Progress to next portion -->
@@ -1354,12 +1354,12 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Ciepło neuronowe: {0} / {1}\nWspółczynnik opadania: {2} / s ({3}s do zera)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>Ciepło neuronów: {0} / {1}\nWspółczynnik opadania: {2} / s ({3}s do zera)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Ciepło neuronowe wzrasta po użyciu mocy psychicznej. Przekroczenie normalnego limitu może spowodować załamanie psychiczne trwające kilka dni.\n\nCiepło nerwowe rozprasza się naturalnie z biegiem czasu. Proces ten można przyspieszyć, nosząc odzież eltex lub odczuwając ból.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>Ciepło neuronów wzrasta po użyciu mocy psychicznej. Przekroczenie normalnego limitu może spowodować załamanie psychiczne trwające kilka dni.\n\nCiepło nerwowe rozprasza się naturalnie z biegiem czasu. Proces ten można przyspieszyć, nosząc elteksowy strój lub odczuwając ból.</PawnTooltipPsychicEntropyDesc>
 
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Wzmocnienie bólu\n\nBól skupia umysł i przyspiesza rozpraszanie ciepła w układzie nerwowym.\n\Poziom bólu: {0}\nPremia za odzysk ciepła: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Wzmocnienie bólu\n\nBól skupia umysł i przyspiesza rozpraszanie ciepła neuronów.\n\Poziom bólu: {0}\nPremia za odzysk ciepła: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Przełącz neuronowy ogranicznik ciepła. Przekroczenie limitu ciepła może spowodować załamanie psychiczne trwające kilka dni. Nie spowoduje trwałych uszkodzeń.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
@@ -1419,17 +1419,17 @@
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>Związany z: {0}</BondedWith>
+  <BondedWith>Więź z: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>Jeszcze nie związany</NotBonded>
+  <NotBonded>Jeszcze nie ma więzi</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>związany z kimś innym</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>więź z kimś innym</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(istniejąca więź)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
   <BladelinkAlreadyBondedDialog>Osoba może związać się tylko z jedną bronią personalną na raz.\n\nAby wyposażyć się i połączyć z {WEAPON labelShort}, aktualnie powiązana broń {PAWN_nameDef} {BONDED WEAPON labelShort} musi zostać najpierw zniszczona.</BladelinkAlreadyBondedDialog> <!-- Do sprawdzenia -->
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} jest już powiązany z {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} posiada już więź z {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
