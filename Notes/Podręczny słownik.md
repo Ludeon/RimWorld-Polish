@@ -59,7 +59,7 @@ purysta ciała (body purist)
 #Praca i czynność  
 rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
 rzeźnik, ubija, ubite (slaughterer, slaughtering, slaughtered)  
-obdarzający(a) (bestbower)
+obdarzający(a) (bestower)
   
 #Miejsca  
 posterunek (outpost)  

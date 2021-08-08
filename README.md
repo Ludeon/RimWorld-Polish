@@ -33,3 +33,7 @@ Trudniejsze rzeczy w folderze DefInjected:
 * Mr. Fossil
 * MrKris7100
 * Tomikles
+* HogDadi
+* ŚwietyJudasz
+* Hurion
+* Oraz wielu innych...
