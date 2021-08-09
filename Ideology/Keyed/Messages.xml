@@ -8,17 +8,17 @@
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} i {PRECEPT2} są niezgodne.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>Zapotrzebowanie na odzież {DESIREDAPPAREL} pokrywa się z wymaganiami dotyczącymi odzieży {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>Zapotrzebowanie na strój {DESIREDAPPAREL} pokrywa się z wymaganiami dotyczącymi stroju {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} pokrywa się z wymogiem dotyczącym odzieży {ROLE} ({ROLEAPPAREL}). Uniemożliwi to {ROLE} noszenie razem wymaganej i pożądanej odzieży.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} pokrywa się z wymogiem dotyczącym stroju {ROLE} ({ROLEAPPAREL}). Uniemożliwi to {ROLE} noszenie razem wymaganej i pożądanego stroju.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} potrzebuje jednego z tych budynków</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>{PRECEPT} wymaga powiązanego rytuału.</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>{PRECEPT} potrzebuje powiązanego rytuału.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} odmawia tego z powodu {0_possessive} ideologii.</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} odmawia wykonania tego z powodu {0_possessive} ideologii.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} próbowapróbowa{PAWN1_gender ? ł : a}  namówić {RECIPIENT_nameDef} do {INITIATOR_possessive} ideologi. Pewność siebie {RECIPIENT_nameDef} spadła z {CERTAINTYBEFORE} do {CERTAINTYAFTER}. {RECIPIENT_pronoun} ponownie zgłasza próbę przekształcenia.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} próbowapróbowa{INITIATOR__gender ? ł : a}  namówić {RECIPIENT_nameDef} do {INITIATOR_possessive} ideologii. Pewność siebie {RECIPIENT_nameDef} spadła z {CERTAINTYBEFORE} do {CERTAINTYAFTER}. Ponownie chce podjąć próbę konwersji.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} próbowa{PAWN1_gender ? ł : a} namówić {PAWN2_nameDef} na {PAWN1_possessive} ideologie. Doprowadziło to do społecznej walki!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
@@ -37,19 +37,19 @@
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} pełni teraz rolę {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} został więźniem, {0_pronoun} nie może już pełnić roli {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : a} więźniem, nie może {0_pronoun} już pełnić roli {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Ostrzeżenie: {0} będzie zdenerwowany, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Ostrzeżenie: {0} będzie zdenerwowany, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>Połączenie {TREE_label} z {PAWN_nameDef} zostało zerwane. Musi zostać odzyskany przez {DURATION}, zanim będzie mógł ponownie się połączyć.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>Połączenie {TREE_label} z {PAWN_nameDef} zostało zerwane. Musi zostać odzyskane przez {DURATION}, zanim będzie {PAWN_gender ? mógł : mogła} ponownie się połączyć.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>{0_nameDef} został wyzwolony przez {1_nameDef}.</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef} zosta{0_gender ? ł : ła} wyzwolon{0_gender ? y : a} przez {1_nameDef}.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>{0_nameDef} został zniewolony przez {1_nameDef}.</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} zosta{0_gender ? ł : ła} zniewolon{0_gender ? y : a} przez {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
   <MessagePrisonerWillBroken>Wola więźnia {1_nameDef} została złamana przez {0_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
@@ -75,11 +75,11 @@
   <!-- EN: {0} leaving with requested items. -->
   <MessageBeggarsLeavingWithItems>{0} wychodzi z przedmiotami o, które prosili.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>{0_nameDef} zmarł, ponieważ nie był leczony.</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} zmar{0_gender ? ł : ła}, ponieważ nie by{0_gender ? ł : ła} leczon{0_gender ? y : a}.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>{0_nameDef} został zwerbowany.</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} zosta{0_gender ? ł : ła} zwerbowan{0_gender ? y : a}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} pozostał zdrowy.</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} pozosta{0_gender ? ł : ła} zdrow{0_gender ? y : a}.</MessageWandererLeftHealthy>
   <!-- EN: {0} failed. -->
   <MessageCharityQuestEndedFailed>{0} nie powiodło się.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} succesfully completed. -->
@@ -102,9 +102,9 @@
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>Odkryłeś starożytny terminal z informacjami o {0}!</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>Odkrywasz starożytny terminal z informacjami o {0}!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>Odkryłeś tajne informacje o {0}! Wróć do wahadłowca, aby go uruchomić.</MessageAncientComplexBackToShuttle>
+  <MessageAncientComplexBackToShuttle>Odkrywasz tajne informacje o {0}! Wróć do wahadłowca, aby go uruchomić.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
   <MessageAncientSignalActivated>Aktywowano starożytnego satelitę dostawczego. W pobliżu spadną zapasy.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
@@ -118,7 +118,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Ostrzeżenie: {PAWNKINDLABELPLURAL} są czczone przez wszystkie {PAWNS} i nie będą krzywdzone.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Ostrzeżenie: {PAWNKINDLABELPLURAL} są czczone przez wszystkich {PAWNS} i nie zostaną skrzywdzone.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -128,7 +128,7 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>{0} został zapalony i eksploduje!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>{0} zosta{0_gender ? ł : ła : ło} zapalon{0_gender ? y : a : e} i eksploduje!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
@@ -136,6 +136,6 @@
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>Nadchodzi plaga.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} został zakłócony i może wkrótce wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0} zosta{0_gender ? ł : ła : ło} zakłócon{0_gender ? y : a : e} i wkrótce może wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
 </LanguageData>
