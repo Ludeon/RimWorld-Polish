@@ -20,7 +20,7 @@
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>lider jest niedostępny</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
-  <NotAllowed>Nie dozwolone</NotAllowed>
+  <NotAllowed>Nie dozwolono</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Strzelaj w: {1_label}</FireAt>
@@ -58,10 +58,10 @@
   <!-- EN: burying -->
   <Burying>zagrzebanie</Burying>
   <!-- EN: designated for {0} -->
-  <DesignatedFor>wyznaczone dla {0}</DesignatedFor>
+  <DesignatedFor>wyznaczone dla: {0}</DesignatedFor>
 
   <!-- EN: forbidden -->
-  <ForbiddenLower>zakazane</ForbiddenLower>
+  <ForbiddenLower>zakazano</ForbiddenLower>
   <!-- EN: outside allowed area -->
   <ForbiddenOutsideAllowedAreaLower>poza dozwolonym obszarem</ForbiddenOutsideAllowedAreaLower>
   <!-- EN: not in home area -->
@@ -73,7 +73,7 @@
   <!-- EN: no stack available to merge into -->
   <NoMergeTarget>nie ma dostępnego stosu do połączenia</NoMergeTarget>
   <!-- EN: already filled enough -->
-  <AlreadyFilledLower>już wypełnione</AlreadyFilledLower>
+  <AlreadyFilledLower>już wypełniono</AlreadyFilledLower>
   <!-- EN: need material -->
   <MissingMaterials>potrzebny materiał</MissingMaterials>
   <!-- EN: under required skill {0} -->
@@ -83,15 +83,15 @@
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>powyżej dozwolonej umiejętności {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
-  <NoReachableOutsideCell>nieosiągalny poza komórką</NoReachableOutsideCell>
+  <NoReachableOutsideCell>nieosiągalne poza komórką</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
-  <MissingRequiredSkillLevel>brakujący wymagany poziom umiejętności</MissingRequiredSkillLevel>
+  <MissingRequiredSkillLevel>brak wymaganego poziomu umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>zbyt częsta interakcja ze zwierzęciem</AnimalInteractedTooRecently>
   <!-- EN: no usable food -->
-  <NoUsableFood>brak użytecznego jedzenia</NoUsableFood>
+  <NoUsableFood>brak użytecznej żywności</NoUsableFood>
   <!-- EN: no food -->
-  <NoFood>brak jedzenia</NoFood>
+  <NoFood>brak żywności</NoFood>
   <!-- EN: below requirements of {0} -->
   <FoodBelowTitleRequirements>poniżej wymagań {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
@@ -121,9 +121,9 @@
   <!-- EN: need components -->
   <NoComponentsToRepair>wymaga komponentów</NoComponentsToRepair>
   <!-- EN: need {0} -->
-  <NoFuelToRefuel>potrzebuje: {0}</NoFuelToRefuel>
+  <NoFuelToRefuel>potrzeba: {0}</NoFuelToRefuel>
   <!-- EN: need wort -->
-  <NoWort>potrzebuje brzeczki</NoWort>
+  <NoWort>potrzebna brzeczka</NoWort>
   <!-- EN: available food is in storage of higher priority -->
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>dostępne pożywienie znajduje się w składowisku o wyższym priorytecie</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <!-- EN: no suitable food -->
@@ -178,7 +178,7 @@
   <!-- EN: Cannot arrest -->
   <CannotArrest>Nie można aresztować</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>{0} szansy na areszt</ArrestChance>
+  <ArrestChance>szansa aresztu {0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>Uwięź: {1_label}</Capture>
@@ -234,25 +234,25 @@
   <!-- EN: Equip {0} -->
   <Equip>Wyposaż: {0}</Equip>
   <!-- EN: (brawler will be unhappy) -->
-  <EquipWarningBrawler>(zasmuci to rozbijakę)</EquipWarningBrawler>
+  <EquipWarningBrawler>(zadziora się zasmuci)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>Nie można ekwipować: {0}</CannotEquip>
+  <CannotEquip>Nie można wyposażyć: {0}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
   <CannotManThing>Nie można obsłużyć: {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Załóż: {1_labelShort}</ForceWear>
+  <ForceWear>Zmuś do założenia: {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Wymuś wyposażenie {1_labelShort}</ForceEquipApparel>
+  <ForceEquipApparel>Zmuś do wyposażenia: {1_labelShort}</ForceEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
-  <CannotEquipApparel>Nie można wyposażyć {1_label}</CannotEquipApparel>
+  <CannotEquipApparel>Nie można wyposażyć: {1_label}</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
   
   <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
-  <Reload>Załaduj ponownie {GEAR_labelShort} za pomocą {AMMO_label}</Reload>
+  <Reload>Przeładuj: {GEAR_labelShort} za pomocą - {AMMO_label}</Reload>
   <!-- EN: Full -->
   <ReloadFull>Pełny</ReloadFull>
   <!-- EN: Too few -->
@@ -271,22 +271,22 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Podnieś: {1_labelShort} x{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUpSome>Nie można podnieść {1_labelShort}</CannotPickUpSome>
+  <CannotPickUpSome>Nie można podnieść: {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
   <MaxPickUpAllowed>{0} {1} dozwolony</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
-  <CannotGiveToPackAnimal>Nie można dać - {1_label}: do zapakowania zwierzęcia</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimal>Nie można dać: {1_label} - do zapakowania zwierzęcia</CannotGiveToPackAnimal>
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
-  <CannotGiveToPackAnimalAll>Nie można dać - {1_label} (wszystkich): do zapakowania zwierzęcia</CannotGiveToPackAnimalAll>
+  <CannotGiveToPackAnimalAll>Nie można dać: {1_label} (wszystkich) - do zapakowania zwierzęcia</CannotGiveToPackAnimalAll>
   <!-- EN: Load {1_label} onto pack animal -->
-  <GiveToPackAnimal>Daj - {1_label}: do zapakowania zwierzęcia</GiveToPackAnimal>
+  <GiveToPackAnimal>Daj: {1_label}: do zapakowania zwierzęcia</GiveToPackAnimal>
   <!-- EN: Load {1_label} (all) onto pack animal -->
-  <GiveToPackAnimalAll>Daj - {1_label} (wszystkich): do zapakowania zwierzęcia</GiveToPackAnimalAll>
+  <GiveToPackAnimalAll>Daj: {1_label} (wszystkich) - do zapakowania zwierzęcia</GiveToPackAnimalAll>
   <!-- EN: Load {1_labelShort} onto pack animal... -->
-  <GiveToPackAnimalSome>Daj - {1_labelShort}: do zapakowania zwierzęcia...</GiveToPackAnimalSome>
+  <GiveToPackAnimalSome>Daj: {1_labelShort} - do zapakowania zwierzęcia...</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>Weź - {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>Daj: {1_labelShort} x{{0}} do zapakowania zwierzęcia</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>Nie można załadować: {1_label} na karawanę</CannotLoadIntoCaravan>
@@ -317,9 +317,9 @@
   <!-- EN: Cannot drop {1_label} -->
   <CannotDrop>Nie można upuścić: {1_label}</CannotDrop>
   <!-- EN: Carry {0_label} -->
-  <Carry>Niesie {0_label}</Carry>
+  <Carry>Niesie: {0_label}</Carry>
   <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>Nie może nieść {0_label}</CannotCarry>
+  <CannotCarry>Nie może nieść: {0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>tymczasowy członek frakcji</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -328,9 +328,9 @@
   <WouldReplaceLockedApparel>zastąpiłoby zablokowany strój</WouldReplaceLockedApparel>
 
   <!-- EN: Cannot place {0_label} in {1_label} -->
-  <CannotPlaceIn>Nie można umieścić {0_label} w {1_label}</CannotPlaceIn>
+  <CannotPlaceIn>Nie można umieścić: {0_label} w {1_label}</CannotPlaceIn>
   <!-- EN: Place {0_label} in {1_label} -->
-  <PlaceIn>Umieść {0_label} w {1_label}</PlaceIn>
+  <PlaceIn>Umieść: {0_label} w {1_label}</PlaceIn>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Dokonaj samozniszczenia tutaj</SelfDestructHere>
@@ -435,11 +435,11 @@
   <!-- EN: Drop in center -->
   <DropInCenter>Upuść na środku</DropInCenter>
   <!-- EN: Attack {0} -->
-  <AttackShuttle>Zaatakuj - {0}</AttackShuttle>
+  <AttackShuttle>Zaatakuj: {0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>Zaatakuj - {0}: Upuść na skraju</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Zaatakuj: {0} - Upuść na skraju</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>Zaatakuj - {0}: Upuść na środku</AttackAndDropInCenter>
+  <AttackAndDropInCenter>Zaatakuj: {0} - Upuść na środku</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>wymiotuje</VomitingLower>
@@ -493,26 +493,26 @@
   <NoCommsTarget>Brak wezwania</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
-  <Invoke>Wywołanie {0}</Invoke>
+  <Invoke>Wywołaj: {0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>Nie można wywołać {0}</CannotInvoke>
+  <CannotInvoke>Nie można wywołać: {0}</CannotInvoke>
   <!-- EN: power -->
   <Power>Moc</Power>
   <!-- EN: already invoked -->
-  <AlreadyInvoked>już wywołane</AlreadyInvoked>
+  <AlreadyInvoked>już wywołano</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
-  <Tend>Zmierzać {0}</Tend>
+  <Tend>Zmierzaj: {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>Nie można {0}</CannotTend>
+  <CannotTend>Nie można zmierzać: {0}</CannotTend>
   <!-- EN: {0} does not require tending -->
   <TendingNotRequired>{0} nie wymaga pielęgnacji</TendingNotRequired>
   <!-- EN: without medicine -->
   <WithoutMedicine>bez lekarstw</WithoutMedicine>
 
   <!-- EN: Repair {0} -->
-  <RepairThing>Napraw {0}</RepairThing>
+  <RepairThing>Napraw: {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
-  <CannotRepair>nie można naprawić {0}</CannotRepair>
+  <CannotRepair>Nie można naprawićL {0}</CannotRepair>
   
 </LanguageData>
