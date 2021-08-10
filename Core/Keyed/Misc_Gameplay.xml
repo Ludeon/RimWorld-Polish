@@ -1367,7 +1367,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{1} - {0}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0}, {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
@@ -1376,14 +1376,10 @@
   <Reward_Pawn_WalkIn>{0_age} letn{PAWN_gender ? i : ia} {0_title} o imieniu {0_nameDef} przybędzie i dołączy do Ciebie {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age} letn{PAWN_gender ? i : ia} {0_title} o imieniu {0_nameDef} dołączy do Ciebie {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
-  <Reward_Items>Przybędą zasobniki transportowe z następującymi zasobami (łączna wartość {1}):
-\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
-  <Reward_Items_Caravan>you will receive (total value {1}):
-\n{0}</Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <Reward_Items>przybędą zasobniki transportowe z następującymi zasobami (łączna wartość {1}):\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <Reward_Items_Caravan>otrzymasz (łączna wartość {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>Twoje relacje frakcji z {0_name} poprawią się o {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -1405,7 +1401,7 @@
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>Łup z wahadłowca</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>możesz zdekonstruować i splądrować wahadłowiec</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>możesz rozebrać i splądrować prom</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
   <Reward_PossibleFutureReward_Label>Możliwa przyszła nagroda</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
