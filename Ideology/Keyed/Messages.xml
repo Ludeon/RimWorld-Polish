@@ -47,9 +47,9 @@
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>{0_nameDef} zosta{0_gemder ? ł : ła} wyzwolon{0_gemder ? y : a} przez {1_nameDef}.</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef} zosta{0_gender ? ł : ła} wyzwolon{0_gender ? y : a} przez {1_nameDef}.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>{0_nameDef} zosta{0_gemder ? ł : ła} zniewolon{0_gemder ? y : a} przez {1_nameDef}.</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} zosta{0_gender ? ł : ła} zniewolon{0_gender ? y : a} przez {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
   <MessagePrisonerWillBroken>Wola więźnia {1_nameDef} została złamana przez {0_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
@@ -75,11 +75,11 @@
   <!-- EN: {0} leaving with requested items. -->
   <MessageBeggarsLeavingWithItems>{0} wychodzi z przedmiotami o, które prosili.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>{0_nameDef} zmar{0_gemder ? ł : ła}, ponieważ nie by{0_gemder ? ł : ła} leczon{0_gemder ? y : a}.</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} zmar{0_gender ? ł : ła}, ponieważ nie by{0_gender ? ł : ła} leczon{0_gender ? y : a}.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>{0_nameDef} zosta{0_gemder ? ł : ła} zwerbowan{0_gemder ? y : a}.</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} zosta{0_gender ? ł : ła} zwerbowan{0_gender ? y : a}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} pozosta{0_gemder ? ł : ła} zdrow{0_gemder ? y : a}.</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} pozosta{0_gender ? ł : ła} zdrow{0_gender ? y : a}.</MessageWandererLeftHealthy>
   <!-- EN: {0} failed. -->
   <MessageCharityQuestEndedFailed>{0} nie powiodło się.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} succesfully completed. -->
@@ -128,7 +128,7 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>{0} zosta{0_gemder ? ł : ła : ło} zapalon{0_gemder ? y : a : e} i eksploduje!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>{0} zosta{0_gender ? ł : ła : ło} zapalon{0_gender ? y : a : e} i eksploduje!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
@@ -136,6 +136,6 @@
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>Nadchodzi plaga.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} zosta{0_gemder ? ł : ła : ło} zakłócon{0_gemder ? y : a : e} i wkrótce może wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0} zosta{0_gender ? ł : ła : ło} zakłócon{0_gender ? y : a : e} i wkrótce może wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
 </LanguageData>
