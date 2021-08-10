@@ -78,11 +78,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITEE_nameFull} {RECRUITEE_gender ? został : została} pomyślnie {RECRUITEE_gender ? zwerbowany : zwerbowana} przez {RECRUITER_nameFull}.</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} pomyślnie {RECRUITER_gender ? zwerbował : zwerbowała} - {RECRUITEE_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{1} {1_gender ? został : została : zostało} pomyślnie {1_gender ? oswojony : oswojona : oswojone} przez {RECRUITER_labelShort}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} pomyślnie oswoił zwierzę - {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{1} {1_gender ? został : została : zostało} pomyślnie {1_gender ? oswojony : oswojona : oswojone} przez {RECRUITER_labelShort}. Nosi teraz nazwę {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} pomyślnie oswoił zwierzę - {1}. Nosi teraz nazwę {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>Nie ma odpowiedniej zagrody dla nowo udomowionego zwierzęcia. {ANIMAL_labelShort} w końcu odejdzie.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -182,7 +182,7 @@
   <MessageAttackedByPredator>{PREY_labelShort} jest {PREY_gender ? atakowany : atakowana : atakowane} przez {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} {PAWN_gender ? zaczął : zaczęła : zaczęło} się oddalać! Opuści mapę, chyba że treser zwierząt przywiąże {PAWN_gender ? go : ją : je} z powrotem do zagrody.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} zaczął wędrować! {PAWN_pronoun} opuści mapę, chyba że treser zwierząt przywiąże {PAWN_objective} z powrotem do zagrody.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Gniazdo insektów samoczynnie się powieliło.</MessageHiveReproduced>
@@ -640,7 +640,7 @@
   <MessageIdeoOpposedWorkTypeSelected>Ostrzeżenie: przekonania {0_nameDef} sprzeciwiają się pracy {1}. {0_pronoun} może stać się nieszczęśliwy.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{0} nie jest już przypisan{0_gender ? y : a : e} do {1}.</MessageBedLostAssignment>
+  <MessageBedLostAssignment>{0} nie jest już przypisany do {1}nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{0} przypisane do {1_nameDef} zostało zniszczone.</MessageBedDestroyed>
 
@@ -650,7 +650,7 @@
   <!-- EN: Assign to {0} -->
   <AssignToRole>Przypisz do {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
-  <RitualBegun>{0} rozpoczyna się.</RitualBegun>
+  <RitualBegun>{0} rozpoczęło się.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>Maksymalna liczba {0}s to {1}.</MaxPawnsPerRole>
   <!-- EN: You need at least one participant. -->
