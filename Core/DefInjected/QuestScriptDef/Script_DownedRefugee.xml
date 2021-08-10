@@ -7,33 +7,17 @@
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>letni(refugee_gender==Male)->letni</li>
-    <li>letni(refugee_gender==Female)->letnia</li>
-
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] kontaktuje się z tobą i prosi o pomoc, bo ma poważne rany i nie może się ruszać.\n\n[refugee_age] [letni] [refugee_nameIndef] [refugee_title]. Obiecuje dołączyć do ciebie, jeśli [refugee_objective] uratujesz.\n\n[refugee_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
-
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z [asker_faction_name], mówi, że jego przyjaciel został ranny podczas podróży. Ofiarą jest [refugee_age] [letni] [refugee_nameIndef] [refugee_title].\n\n[asker_nameDef] nie ma nikogo, kto mógłby uratować [refugee_nameIndef], ale mówi, że jeśli zdołasz dotrzeć do [refugee_nameIndef] i [refugee_objective] uratować , [refugee_pronoun] dołączy do ciebie.\n\n[asker_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
-
-    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
-    <li>pawnInvolvedInQuestInfo-></li>
-  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
     <li>questName->The Rescue of [refugee_nameDef]</li>
     <li>questName->[refugee_nameDef]'s Rescue</li>
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Ratowanie [refugee_nameDef]</li>
-    <li>questName->Na ratunek [refugee_nameDef]</li>
-    <li>questName->Uratowanie [refugee_nameDef]</li>
-  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Zadanie wygasło: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
-    Sygnał [refugee_nameDef] został utracony, a [refugee_pronoun] nie można już uratować. Misja [resolvedQuestName] wygasła.
-  </OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
