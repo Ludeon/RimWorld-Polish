@@ -76,7 +76,7 @@
   <!-- EN: happily nude -->
   <HappyNude.stages.happily_nude.label>goło i wesoło</HappyNude.stages.happily_nude.label>
   <!-- EN: I'm nude and loving it! I feel so free and unconstrained and in touch with my surroundings! -->
-  <HappyNude.stages.happily_nude.description>Jestem nago i kocham to!. Czuję wolność i bliskość przyrody!</HappyNude.stages.happily_nude.description>
+  <HappyNude.stages.happily_nude.description>Jestem {PAWN_gender ? nagi : naga} i kocham to!. Czuję wolność i bliskość przyrody!</HappyNude.stages.happily_nude.description>
   
   <!-- EN: jealous of {0}'s bedroom -->
   <Jealous.stages.jealous_of_s_bedroom.label>zazdrość o sypialnię {0}</Jealous.stages.jealous_of_s_bedroom.label>
@@ -86,7 +86,7 @@
   <!-- EN: masochist in minor pain -->
   <MasochistPain.stages.masochist_in_minor_pain.label>masochista w lekkim bólu</MasochistPain.stages.masochist_in_minor_pain.label>
   <!-- EN: Ow... Heh heh heh... I could get used to this! -->
-  <MasochistPain.stages.masochist_in_minor_pain.description>Ała... He, he, he... Mógłbym się do tego przyzwyczaić!</MasochistPain.stages.masochist_in_minor_pain.description>
+  <MasochistPain.stages.masochist_in_minor_pain.description>Ał... He, he, he... {PAWN_gender ? Mógłbym : Mogłabym} się do tego przyzwyczaić!</MasochistPain.stages.masochist_in_minor_pain.description>
   <!-- EN: masochist in serious pain -->
   <MasochistPain.stages.masochist_in_serious_pain.label>masochista w średnim bólu</MasochistPain.stages.masochist_in_serious_pain.label>
   <!-- EN: Ughhh... It hurts, but I love it! Keep it coming! -->
@@ -94,11 +94,11 @@
   <!-- EN: masochist in intense pain -->
   <MasochistPain.stages.masochist_in_intense_pain.label>masochista w intensywnym bólu</MasochistPain.stages.masochist_in_intense_pain.label>
   <!-- EN: Ouch... I think something's broken... But what an exquisite feeling! -->
-  <MasochistPain.stages.masochist_in_intense_pain.description>Oooch... Chyba właśnie coś się we mnie złamało. Cóż za wspaniałe uczucie!</MasochistPain.stages.masochist_in_intense_pain.description>
+  <MasochistPain.stages.masochist_in_intense_pain.description>Auć... Chyba właśnie coś się we mnie złamało. Cóż za wspaniałe uczucie!</MasochistPain.stages.masochist_in_intense_pain.description>
   <!-- EN: masochist in mind-shattering pain -->
   <MasochistPain.stages.masochist_in_mindshattering_pain.label>masochista w paraliżującym bólu</MasochistPain.stages.masochist_in_mindshattering_pain.label>
   <!-- EN: Ahhh... Am I in heaven? -->
-  <MasochistPain.stages.masochist_in_mindshattering_pain.description>Aaaaaach.... Czy to już niebo?</MasochistPain.stages.masochist_in_mindshattering_pain.description>
+  <MasochistPain.stages.masochist_in_mindshattering_pain.description>Aaaach.... Jestem w niebie?</MasochistPain.stages.masochist_in_mindshattering_pain.description>
   
   <!-- EN: night owl in daytime -->
   <NightOwlDuringTheDay.stages.night_owl_in_daytime.label>nocny marek w dzień</NightOwlDuringTheDay.stages.night_owl_in_daytime.label>
@@ -136,12 +136,12 @@
   <ProsthophileHappy.stages.machine_body_is_complete.description>TODO</ProsthophileHappy.stages.machine_body_is_complete.description>
   
   <!-- EN: body modder frustrated -->
-  <ProsthophileNoProsthetic.stages.body_modder_frustrated.label>sfrustrowany moder ciała</ProsthophileNoProsthetic.stages.body_modder_frustrated.label>
+  <ProsthophileNoProsthetic.stages.body_modder_frustrated.label>sfrustrowan{PAWN_gender ? y : a} mode{PAWN_gender ? r : rka} ciała</ProsthophileNoProsthetic.stages.body_modder_frustrated.label>
   <!-- EN: Flesh is so limiting. I wish I had some kind of artificial body part. -->
   <ProsthophileNoProsthetic.stages.body_modder_frustrated.description>TODO</ProsthophileNoProsthetic.stages.body_modder_frustrated.description>
   
   <!-- EN: body purist squeamish -->
-  <ProsthophobeUnhappy.stages.body_purist_squeamish.label>naturalista ma wszczep</ProsthophobeUnhappy.stages.body_purist_squeamish.label>
+  <ProsthophobeUnhappy.stages.body_purist_squeamish.label>wyczulon{PAWN_gender ? y : a} puryst{PAWN_gender ? a : ka} ciała</ProsthophobeUnhappy.stages.body_purist_squeamish.label>
   <!-- EN: I hate having this unnatural thing attached to me. It feels so filthy! -->
   <ProsthophobeUnhappy.stages.body_purist_squeamish.description>Zmienili mnie w technologiczne paskudztwo... Gdyby tylko dali mi wybór...</ProsthophobeUnhappy.stages.body_purist_squeamish.description>
   <!-- EN: body purist disgusted -->
@@ -157,7 +157,7 @@
   <!-- EN: I have four artificial body parts; it's like I'm becoming a robot. What a horrifying sensation. -->
   <ProsthophobeUnhappy.stages.body_purist_horrified.description>TODO</ProsthophobeUnhappy.stages.body_purist_horrified.description>
   <!-- EN: body purist nightmare -->
-  <ProsthophobeUnhappy.stages.body_purist_nightmare.label>TODO</ProsthophobeUnhappy.stages.body_purist_nightmare.label>
+  <ProsthophobeUnhappy.stages.body_purist_nightmare.label>koszmar purysty</ProsthophobeUnhappy.stages.body_purist_nightmare.label>
   <!-- EN: Five artificial body parts... Is there anything left of me? Or am I just a robot that thinks it's human? -->
   <ProsthophobeUnhappy.stages.body_purist_nightmare.description>TODO</ProsthophobeUnhappy.stages.body_purist_nightmare.description>
   <!-- EN: I have become what I hate -->
