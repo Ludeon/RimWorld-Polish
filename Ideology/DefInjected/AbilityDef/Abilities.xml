@@ -6,7 +6,7 @@
   <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
   <AnimalCalm.description>użyj unikalnych metod łączenia się ze zwierzętami, aby uspokoić rozwścieczoną bestię.</AnimalCalm.description>
   <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
-  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} uspokoił {RECIPIENT_labelShort}</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} uspokoi{INITIATOR_gender ? ł : ła}  {RECIPIENT_labelShort}</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
   
   <!-- EN: berserk trance -->
   <BerserkTrance.label>szaleńczy trans</BerserkTrance.label>
@@ -28,20 +28,20 @@
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>Próba przekonania kogoś do ideologii mówcy. Zmniejszy to pewność celu we własnych przekonaniach. Zmniejszenie pewności zależy od zdolności negocjacyjnych mówcy.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} nie udało się nawrócić {RECIPIENT_labelShort}. {RECIPIENT_labelShort} był zdenerwowany tą próbą, ale pewność {RECIPIENT_possessive} spadła z {CERTAINTYBEFORE} na {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} nie udało się nawrócić {RECIPIENT_labelShort}. {RECIPIENT_labelShort} zdenerwował{RECIPIENT_gender ? : a} się tą próbą, ale pewność {RECIPIENT_possessive} spadła z {CERTAINTYBEFORE} na {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>Namówił {RECIPIENT_labelShort} do wiary w {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} namówi{INITIATOR_gender ? ł : ła} {RECIPIENT_labelShort} do wiary w {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
   <Counsel.label>Rada</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
   <Counsel.description>Zaproponuj komuś radę, jak zniwelować skutki smutnego wspomnienia. Szansa na sukces zależy od umiejętności społecznych mówiącego i jego relacji ze słuchaczem.</Counsel.description>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} spartaczył próbę porady {RECIPIENT_labelShort}. {RECIPIENT_labelShort} zdenerwował się.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} spartaczy{INITIATOR_gender ? ł : ła} próbę porady {RECIPIENT_labelShort}. {RECIPIENT_labelShort} zdenerwowa{RECIPIENT_gender ? ł : ła} się.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} skutecznie doradził {RECIPIENT_labelShort}, anulował negatywne czynniki nastroju {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} skutecznie doradzi{INITIATOR_gender ? ł : ła} {RECIPIENT_labelShort}, anulowa{INITIATOR_gender ? ł : ał} negatywne czynniki nastroju {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} skutecznie doradził {RECIPIENT_labelShort}, narastający {RECIPIENT_possessive} nastrój przez {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} skutecznie doradził{INITIATOR_gender ? : a} {RECIPIENT_labelShort}, narastający {RECIPIENT_possessive} nastrój przez {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
   <FarmingCommand.label>wskazówki rolnicze</FarmingCommand.label>
@@ -54,7 +54,7 @@
   <ImmunityDrive.description>Oferuj wsparcie moralne, które energetyzuje organizm, zwiększając czyjąś odporność na jeden dzień.</ImmunityDrive.description>
   
   <!-- EN: leader speech -->
-  <LeaderSpeech.label>przemówienie lidera</LeaderSpeech.label>
+  <LeaderSpeech.label>przemowa lidera</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
   <LeaderSpeech.description>Zainicjuj przemówienie lidera. Jeśli pójdzie dobrze, słuchacze zyskają lepszy nastrój, szacunek dla mówcy i ewentualnie nowe inspiracje. Jeśli pójdzie źle, nastąpią szkody społeczne.</LeaderSpeech.description>
   
@@ -83,7 +83,7 @@
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Zwiększ czyjąś pewność co do własnych przekonań. Będzie to zależne od zdolności negocjacyjnej mówcy.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} uspokoił {RECIPIENT_labelShort}, wiara {RECIPIENT_possessive} zwiększyła się w stosunku do {IDEO} z {BEFORECERTAINTY} na {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} uspokoi{INITIATOR_gender ? ł : ła} {RECIPIENT_labelShort}, wiara {RECIPIENT_possessive} zwiększyła się w stosunku do {IDEO} z {BEFORECERTAINTY} na {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
   <ResearchCommand.label>wskazówki badawcze</ResearchCommand.label>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <NamerArchipelago.rulePack.rulesFiles>TODO</NamerArchipelago.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->islands</li>
@@ -14,7 +13,15 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerArchipelago.rulePack.rulesStrings>TODO</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=4)->wyspy</li>
+    <li>terrain_word_mas(p=3)->archipelag</li>
+    <li>terrain_word_fem->rafa</li>
+    <li>terrain_word_mas->atol</li>
+    <li>terrain_word_neu->skały</li>
+    <li>terrain_word_neu->wysepki</li>
+    <li>terrain_word_mas->łańcuch</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -26,7 +33,18 @@
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerAridShrubland.rulePack.rulesStrings>TODO</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=4)->zarośla</li>
+    <li>terrain_word_neu(p=4)->zarośla</li>
+    <li>terrain_word_mas(p=2)->płaskowyż</li>
+    <li>terrain_word_fem->pustynia</li>
+    <li>terrain_word_mas->busz</li>
+    <li>terrain_word_mas->krzak</li>
+    <li>terrain_word_mas->krzew</li>
+    <li>terrain_word_fem->dzicz</li>
+    <li>terrain_word_neu->wrzosowisko</li>
+    <li>terrain_word_neu->pastwiska</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -36,7 +54,12 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerBay.rulePack.rulesStrings>TODO</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>terrain_word_fem(p=6)->zatoka</li>
+    <li>terrain_word_mas->zalew</li>
+    <li>terrain_word_mas->wąwóz</li>
+    <li>terrain_word_mas->fiord</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -47,7 +70,15 @@
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerBorealForest.rulePack.rulesStrings>TODO</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=6)->las</li>
+    <li>terrain_word_fem(p=3)->tajga</li>
+    <li>terrain_word_mas->gaj</li>
+    <li>terrain_word_fem->knieja</li>
+    <li>terrain_word_neu->zarośla</li>
+    <li>terrain_word_fem->gęstwina</li>
+    <li>terrain_word_mas->bór</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -73,7 +104,15 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>TODO</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>terrain_word_fem(p=6)->pustynia</li>
+    <li>terrain_word_mas->płaskowyż</li>
+    <li>terrain_word_neu->równiny</li>
+    <li>terrain_word_fem->kotlina</li>
+    <li>terrain_word_neu->odludzie</li>
+    <li>terrain_word_neu->pustkowie</li>
+    <li>terrain_word_fem->dolina</li>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -81,7 +120,11 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerForest.rulePack.rulesStrings>TODO</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=6)->las</li>
+    <li>terrain_word_mas->gaj</li>
+    <li>terrain_word_mas->gąszcz</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -93,7 +136,12 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word_fem->tafla lodu</li>
+    <li>terrain_word_neu->lądolód</li>
+    <li>terrain_word_fem->pokrywa lodu</li>
+    <li>terrain_word_mas(p=0.5)->lodowy teren</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -105,7 +153,13 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>terrain_word_fem(p=4)->wyspa</li>
+    <li>terrain_word_fem(p=2)->wysepka</li>
+    <li>terrain_word_fem->rafa</li>
+    <li>terrain_word_neu->atol</li>
+    <li>terrain_word_fem->skała</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
@@ -118,7 +172,17 @@
     <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=6)->jezioro</li>
+    <li>terrain_word_neu->morze</li>
+    <li>terrain_word_mas->staw</li>
+    <li>terrain_word_mas->rezerwuar</li>
+    <li>terrain_word_mas->zbiornik</li>
+    <li>terrain_word_neu(p=0.3)->bajoro</li>
+    <li>terrain_word_fem(p=0.3)->laguna</li>
+    <li>terrain_word_mas(p=0.3)->zalew</li>
+    <li>terrain_word_fem(p=0.3)->zatoka</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -128,7 +192,12 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=5)->góry</li>
+    <li>terrain_word_neu(p=2)->wzgórza</li>
+    <li>terrain_word_neu->szczyty</li>
+    <li>terrain_word_neu->klify</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -149,7 +218,10 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>TODO</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=6)->ocean</li>
+    <li>terrain_word_neu(p=3)->morze</li>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -160,7 +232,12 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>TODO</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=5)->półwysep</li>
+    <li>terrain_word_mas(p=2)->ostrów</li>
+    <li>terrain_word_mas->przylądek</li>
+    <li>terrain_word_mas->cypel</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->lake [narrative_name]</li>
@@ -168,7 +245,11 @@
     <li>terrain_word->ocean</li>
     <li>terrain_word->lake</li>
   -->
-  <NamerSea.rulePack.rulesStrings>TODO</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=6)->morze</li>
+    <li>terrain_word_mas->ocean</li>
+    <li>terrain_word_neu->jezioro</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -190,7 +271,14 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>terrain_word_neu(p=6)->bagno</li>
+    <li>terrain_word_neu->mokradła</li>
+    <li>terrain_word_neu->moczary</li>
+    <li>terrain_word_neu->grzęzawisko</li>
+    <li>terrain_word_neu->wrzosowisko</li>
+    <li>terrain_word_neu->torfowisko</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -208,7 +296,13 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=6)->las deszczowy</li>
+    <li>terrain_word_fem(p=3)->dżungla</li>
+    <li>terrain_word_mas->las</li>
+    <li>terrain_word_mas->gaj</li>
+    <li>terrain_word_fem->gęstwina</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -224,8 +318,26 @@
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
   -->
-  <NamerTundra.rulePack.rulesStrings>TODO</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word_mas(p=4)->płaskowyż</li>
+    <li>terrain_word_neu(p=4)->pastwiska</li>
+    <li>terrain_word_fem(p=2)->tajga</li>
+    <li>terrain_word_mas->krzak</li>
+    <li>terrain_word_neu->zarośla</li>
+    <li>terrain_word_neu->zarośla</li>
+    <li>terrain_word_mas->busz</li>
+    <li>terrain_word_mas->krzew</li>
+    <li>terrain_word_neu->pastwiska</li>
+    <li>terrain_word_fem->płaszczyzna</li>
+    <li>terrain_word_fem->preria</li>
+    <li>terrain_word_neu->równiny</li>
+  </NamerTundra.rulePack.rulesStrings>
   
+  <WorldFeatureNamerCommon.rulePack.rulesFiles>
+    <li>colors_mas->Words/Nouns/Colors_Mas</li>
+    <li>colors_fem->Words/Nouns/Colors_Fem</li>
+    <li>colors_neu->Words/Nouns/Colors_Neu</li>
+  </WorldFeatureNamerCommon.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
     <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
@@ -287,6 +399,10 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[terrain_word_mas] [colors_mas]</li>
+    <li>r_name->[terrain_word_fem] [colors_fem]</li>
+    <li>r_name->[terrain_word_neu] [colors_neu]</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

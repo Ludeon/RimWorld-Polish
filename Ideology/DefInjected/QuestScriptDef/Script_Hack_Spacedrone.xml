@@ -10,10 +10,10 @@
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>  
     <li>questDescription->Wykryłeś orbitującego drona kosmicznego, który może zawierać informacje o [relic_name]. Masz kod, który zmusi go do wylądowania na [map_definite].\n\nAby zdobyć te informacje, włam się do komputera drona. Włamywanie się zajmuje trochę czasu, ale osoby posiadające duże umiejętności intelektualne mogą przyspieszyć ten proces.[raidsDescription]\n\nPo wylądowaniu Spacedron ulegnie samozniszczeniu w [destroyDelayTicks_duration].</li>
-    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] będzie [droneDetectionMethod]. Tak długo, jak będzie obecny, będą wysyłać napastników mniej więcej co [raidIntervalAvg_duration] aby go zniszczyć i ukraść bogactwo, które według nich zawiera. Będziesz miał trochę czasu, aby przygotować obronę wokół niego, zanim oni przybędą.</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] będzie w stanie [droneDetectionMethod]. Tak długo, jak będzie obecny, będą wysyłać napastników mniej więcej co [raidIntervalAvg_duration] aby go zniszczyć i ukraść bogactwo, które według nich zawiera. Będziesz miał trochę czasu, aby przygotować obronę wokół niego, zanim oni przybędą.</li>
     <li>raidsDescription(allowViolence==false)-></li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==true)->zauważył drona podczas jego lotu</li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==false)->wykrył sygnature energetyczną drona</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->zauważyć drona podczas jego lotu</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->wykryć sygnaturę energetyczną drona</li>
 	</Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
