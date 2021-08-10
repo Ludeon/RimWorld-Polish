@@ -55,7 +55,6 @@ najazdy (raids)
 zespół odstawienny (withdrawal)  
 szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
 purysta ciała (body purist)  
-zadziora (brawler)  
   
 #Praca i czynność  
 rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
