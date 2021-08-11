@@ -111,7 +111,7 @@
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>To działanie spowoduje, że {PAWN_nameDef} straci {PAWN_possessive} tytuł {TITLE}. Nie otrzymasz żadnej rekompensaty za zrzeczenie się tytułu.\n\nBędzie to miało następujące skutki:\n\n{EFEKTY}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_possessive} strac{PAWN_gender ? i : iła} te uprawnienia</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits> {PAWN_pronoun} straci te uprawnienia</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
@@ -1430,7 +1430,7 @@
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(istniejąca więź)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>Osoba może związać się tylko z jedną bronią personalną na raz.\n\nAby wyposażyć się i połączyć z {WEAPON labelShort}, aktualnie powiązana broń {PAWN_nameDef} {BONDED WEAPON labelShort} musi zostać najpierw zniszczona.</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Osoba może związać się tylko z jedną bronią posiadającą osobowość na raz.\n\nAby wyposażyć się i połączyć z {WEAPON labelShort}, aktualnie powiązana broń {PAWN_nameDef} {BONDED WEAPON labelShort} musi zostać najpierw zniszczona.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
   <BladelinkAlreadyBondedMessage>{PAWN_nameDef} posiada już więź z {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
