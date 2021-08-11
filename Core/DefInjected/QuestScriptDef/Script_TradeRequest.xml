@@ -6,7 +6,11 @@
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
-  <TradeRequest.questDescriptionRules.rulesStrings>TODO</TradeRequest.questDescriptionRules.rulesStrings>
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Pobliska osada, [settlement_label], ma specjalną prośbę o wymianę. Chcieliby kupić:\n\n [requestedThingCount]x [requestedThing_label] [qualityInfo](warte [requestedThingMarketValue_money])\n\nJeśli chcesz dokonać wymiany, wyślij karawanę z żądanymi przedmiotami. Szacowany czas podróży to [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->Jakości normalnej+ </li>
+    <li>qualityInfo-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
     <li>questName->Trade with [settlement_label]</li>
@@ -21,14 +25,25 @@
     <li>trade->Deal</li>
     <li>trade->Offer</li>
   -->
-  <TradeRequest.questNameRules.rulesStrings>TODO</TradeRequest.questNameRules.rulesStrings>
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Karawana do [settlement_label]</li>
+    <li>questName->Wymiana z [settlement_label]</li>
+    <li>questName->Dostawa do [settlement_label]</li>
+    <li>questName->[special] [trade]</li>
+    <li>special->Specjalna</li>
+    <li>special->Unikalna</li>
+    <li>special->Nietradycyjna</li>
+    <li>trade->wymiana</li>
+    <li>trade->umowa</li>
+    <li>trade->oferta</li>
+  </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>TODO</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>Zadanie wygasło: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>TODO</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] stali się wobec ciebie wrogo nastawieni.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.LetterLabelFavorReceiver.slateRef>TODO</TradeRequest.LetterLabelFavorReceiver.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>TODO</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Komu należy przyznać [asker_faction_royalFavorLabel] za wypełnienie wniosku o wymianę handlową?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

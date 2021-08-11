@@ -684,6 +684,8 @@
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(uwzględniany jest tylko pierwszy punkt trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Twoja karawana ma jedzenie na tylko {0} dni, więc jej członkowie szybko zaczną głodować.</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
+  <DaysWorthOfFoodDietWarningDialog>TODO</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Twoja karawana nie ma jedzenia i szybko stanie się głodna.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -1093,7 +1095,7 @@
   <!-- EN: Psychic love for -->
   <PsychicLoveFor>Psychiczna miłość do</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
-  <FarskipConfirmTeleportingLodger>Jeśli przeskoczysz {PAWN_labelShort} na inną mapę lub karawanę, powiązane zadanie zakończy się niepowodzeniem i {PAWN_pronoun} natychmiast odejdzie.\n\nCzy na pewno chcesz ominąć {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
+  <FarskipConfirmTeleportingLodger>Jeśli przeskoczysz {PAWN_labelShort} na inną mapę lub karawanę, powiązane zadanie zakończy się niepowodzeniem i natychmiast {PAWN_pronoun} odejdzie.\n\nCzy na pewno chcesz ominąć {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>niewielkie</MentalBreakIntensityMinor>
@@ -1106,7 +1108,7 @@
   <!-- EN: Animal -->
   <AutoSlaugtherHeaderColLabel>Zwierze</AutoSlaugtherHeaderColLabel>
   <!-- EN: Current -->
-  <AutoSlaugtherHeaderColCurrent>Obecnych</AutoSlaugtherHeaderColCurrent>
+  <AutoSlaugtherHeaderColCurrent>Jest</AutoSlaugtherHeaderColCurrent>
   <!-- EN: Max -->
   <AutoSlaugtherHeaderColMax>Maks</AutoSlaugtherHeaderColMax>
   <!-- EN: Total -->
@@ -1114,7 +1116,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Inne</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>Koloniści najpierw ubijają nie ciężarne zwierzęta w kolejności od najstarszej do najmłodszej, następnie ciężarne zwierzęta od najwcześniejszej do najpóźniejszej ciąży .</AutoSlaugtherTip>
+  <AutoSlaugtherTip>Koloniści najpierw ubiją zwierzęta niebędące w ciąży - od najstarszych do najmłodszych, następnie te ciężarne od najwcześniejszej do najpóźniejszej ciąży.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>Dorosły samiec</AnimalMaleAdult>
   <!-- EN: Male young -->
