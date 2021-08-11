@@ -78,11 +78,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} pomyślnie {RECRUITER_gender ? zwerbował : zwerbowała} - {RECRUITEE_nameFull}.</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITEE_nameFull} {RECRUITEE_gender ? został : została} pomyślnie {RECRUITEE_gender ? zwerbowany : zwerbowana} przez {RECRUITER_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} pomyślnie oswoił zwierzę - {1}.</MessageTameSuccess>
+  <MessageTameSuccess>{1} {1_gender ? został : została : zostało} pomyślnie {1_gender ? oswojony : oswojona : oswojone} przez {RECRUITER_labelShort}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} pomyślnie oswoił zwierzę - {1}. Nosi teraz nazwę {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{1} {1_gender ? został : została : zostało} pomyślnie {1_gender ? oswojony : oswojona : oswojone} przez {RECRUITER_labelShort}. Nosi teraz nazwę {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>Nie ma odpowiedniej zagrody dla nowo udomowionego zwierzęcia. {ANIMAL_labelShort} w końcu odejdzie.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -182,7 +182,7 @@
   <MessageAttackedByPredator>{PREY_labelShort} jest {PREY_gender ? atakowany : atakowana : atakowane} przez {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} zaczął wędrować! {PAWN_pronoun} opuści mapę, chyba że treser zwierząt przywiąże {PAWN_objective} z powrotem do zagrody.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} {PAWN_gender ? zaczął : zaczęła : zaczęło} się oddalać! Opuści mapę, chyba że treser zwierząt przywiąże {PAWN_gender ? go : ją : je} z powrotem do zagrody.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Gniazdo insektów samoczynnie się powieliło.</MessageHiveReproduced>
@@ -231,7 +231,7 @@
   <MessageCannotSellItemsReason>Niektóre przedmioty nie mogą zostać wymienione z powodu: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} {WORKER_gender ? zawiódł : zawiodła} podczas budowania: {0}. Niektóre zasoby zostały zmarnowane.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} {WORKER_gender ? zawiódł : zawiodła} podczas budowania: {0}. Niektóre zasoby zmarnowały się.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Zrzut ekranu zapisany jako: {0}</MessageScreenshotSavedAs>
@@ -368,7 +368,7 @@
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} nie ma już jedzenia.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>Zwłoki {PAWN_definite} zostały zabrane przez karawanę. Jest ciężki i może unieruchomić karawane, ale można go zostawić w zakładce z przedmiotami karawany.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>Zwłoki {PAWN_definite} zostały zabrane przez karawanę. Jest ciężki i może unieruchomić karawanę, ale można go zostawić w zakładce z przedmiotami karawany.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Aby stworzyć karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
@@ -563,7 +563,7 @@
   <MessageAnimalLostSkill>Z powodu braku utrzymania szkolenia, {ANIMAL_labelShort} {ANIMAL_gender ? stracił : straciła : straciło} umiejętność: {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
-  <MessageTranslationReportSaved>Zgłoszenie tłumaczenia napisane do {0}</MessageTranslationReportSaved>
+  <MessageTranslationReportSaved>Raport tłumaczenia zapisany do {0}</MessageTranslationReportSaved>
 
   <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>{0} nie mogła dotrzeć do celu.</MessageCaravanArrivalActionNoLongerValid>
@@ -637,22 +637,22 @@
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} jest więźniem</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>Ostrzeżenie: przekonania {0_nameDef} sprzeciwiają się pracy {1}. {0_pronoun} może stać się nieszczęśliwy.</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>Ostrzeżenie: przekonania {0_nameDef} sprzeciwiają się pracy {1}. Może {0_objective} to zasmucić.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{0} nie jest już przypisany do {1}nameDef}.</MessageBedLostAssignment>
+  <MessageBedLostAssignment>{0} nie jest już przypisan{0_gender ? y : a : e} do {1_nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{0} przypisane do {1_nameDef} zostało zniszczone.</MessageBedDestroyed>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
-  <Spectate>oglądać</Spectate>
+  <Spectate>oglądaj</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>Przypisz do {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
-  <RitualBegun>{0} rozpoczęło się.</RitualBegun>
+  <RitualBegun>{0} rozpoczyna się.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
-  <MaxPawnsPerRole>Maksymalna liczba {0}s to {1}.</MaxPawnsPerRole>
+  <MaxPawnsPerRole>Maksymalna liczba {0} to {1}.</MaxPawnsPerRole>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>Potrzebujesz co najmniej jednego uczestnika.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
@@ -662,15 +662,15 @@
   <!-- EN: You need at least {1} {0}. -->
   <MessageRitualNeedsAtLeastNumRolePawn>Potrzebujesz co najmniej {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
   <!-- EN: {0_labelShort} is downed. -->
-  <MessageRitualPawnDowned>{0_labelShort} jest wyłączony.</MessageRitualPawnDowned>
+  <MessageRitualPawnDowned>{0_labelShort} jest powalon{0_gender ? y : a}.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
   <MessageRitualPawnPrisonerNotSecured>{0_labelShort} obecnie ucieka.</MessageRitualPawnPrisonerNotSecured>
   <!-- EN: {0_labelShort} is currently rebelling. -->
   <MessageRitualPawnSlaveNotSecured>{0_labelShort} obecnie buntuje się.</MessageRitualPawnSlaveNotSecured>
   <!-- EN: {0_labelShort} is being released. -->
-  <MessageRitualPawnReleased>{0_labelShort} jest wypuszczany.</MessageRitualPawnReleased>
+  <MessageRitualPawnReleased>{0_labelShort} zostaje wypuszczan{0_gender ? y : a}.</MessageRitualPawnReleased>
   <!-- EN: {0_labelShort} is injured. -->
-  <MessageRitualPawnInjured>{0_labelShort} jest ranny.</MessageRitualPawnInjured>
+  <MessageRitualPawnInjured>{0_labelShort} jest rann{0_gender ? y : a}.</MessageRitualPawnInjured>
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>{0_labelShort} musi pełnić jedną z tych ról</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
@@ -684,19 +684,19 @@
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} nie wymaga dalszej skaryfikacji.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0} must be a prisoner or slave. -->
-  <MessageRitualRoleMustBePrisonerOrSlave>{0} musi być więźniem lub niewolnikiem.</MessageRitualRoleMustBePrisonerOrSlave>
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} musi być więźniem, lub niewolnikiem.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} musi umieć walczyć.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} musi być zdoln{0_gender ? y : a} do walki.</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tej roli nie może pełnić ktoś inny.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} nie może połączyć się z drzewem Gauranlen, ponieważ połączenie {0_possessive} zostało niedawno zerwane.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} nie może połączyć się z drzewem Gauranlen, ponieważ {0_possessive} połączenie zostało niedawno zerwane.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} ma tę samą ideologie co konwerter.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} musi mieć możliwość ochrony.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} musi być zdoln{0_gender ? y : a} do ochrony.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} musi być w stanie {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} musi być być zdoln{0_gender ? y : a} do {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>więźniowie nie mogą {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -722,7 +722,7 @@
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Potrzebujesz bardziej żyznego terenu.</MessageWarningNotEnoughFertility>
   <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>zablokowany przez {0_label}.</BlockedBy>
+  <BlockedBy>zablokowane przez {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
   <AdjacentSowBlocker>Nie może zostać zasadzone obok {0_label}.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
