@@ -12,15 +12,17 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] zdradzony</li>
-    <li>letterTextBeggarsBetrayed->Zdradzono [groupLabelSingleOrPlural] tego, kto szukał twego miłosierdzia. Koloniści o dobroczynnych przekonaniach będą nieszczęśliwi.</li>
-    <li>hasHave(beggarCount==1)->ma</li>
-    <li>hasHave(beggarCount>=2)->mają</li>
-    <li>wasWere(beggarCount==1)->było</li>
-    <li>wasWere(beggarCount>=2)->były</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [zdradz]</li>
+    <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere] twojego miłosierdzia [hasHave]. Koloniści o dobroczynnych przekonaniach będą nieszczęśliwi.</li>
+    <li>zdradz(beggarCount==1)->zdradzony</li>
+    <li>zdradz(beggarCount>=2)->zdradzeni</li>
+    <li>hasHave(beggarCount==1)->został zdradzony</li>
+    <li>hasHave(beggarCount>=2)->zostali zdradzeni</li>
+    <li>wasWere(beggarCount==1)->który szukał</li>
+    <li>wasWere(beggarCount>=2)->którzy szukali</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->podróżnik</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->podróżnicy</li>
-	</Beggars.questContentRules.rulesStrings>
+  </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
     <li>groupLabelSingle->traveler</li>
@@ -50,32 +52,36 @@
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
   <Beggars.questDescriptionRules.rulesStrings>
-    <li>groupLabelPlural->podróżnicy</li>
-    <li>groupLabelSingle->podróżnik</li>
-    <li>travelerInfo(beggarCount==1)->Ta [groupLabelSingle] jest</li>
-    <li>travelerInfo(beggarCount>=2)->Te [groupLabelPlural] są</li>
-    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+    <li>groupLabelPlural->podróżnicy</li> 
+    <li>groupLabelSingle->podróżnik</li> 
+    <li>ichGo(beggarCount==1)->go</li>
+    <li>ichGo(beggarCount>=2)->ich</li>
+    <li>nieJestNieSa(beggarCount==1)->nie jest</li>
+    <li>nieJestNieSa(beggarCount>=2)->nie są</li>
+    <li>travelerInfo(beggarCount==1)->Ten [groupLabelSingle]</li>
+    <li>travelerInfo(beggarCount>=2)->Ci [groupLabelPlural]</li>
+    <li>beggingForInfo-> x[requestedThingCount] [requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
-    <li>traverObjective(beggarCount>=2)->ich</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\nnie należy do żadnej frakcji. Jeśli chcesz, możesz zabić, aresztować, sprzedać lub zebrać [traverObjective], bez konsekwencji dyplomatycznych.</li>
-    <li>approachInfo(beggarCount==1)->Biedny [groupLabelSingle] o imieniu [beggars0_nameDef] zbliża się szukając pomocy</li>
-    <li>approachInfo(beggarCount>=2)->Grupa ubogich [groupLabelPlural] zbliża się szukając pomocy</li>
-    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] to żebrak [beggingForInfo]</li>
-    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] są żebrakami [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] chce srebra, aby spłacić dług wobec gangu piratów, którzy polują na [beggars0_objective].</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] potrzebuje lekarstwa, aby pomóc podróżnemu, który jest ranny w pobliżu</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] chce lekarstwa, aby uratować [beggars0_possessive] lojalnego zwierzaka, który został ranny na drodze</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] potrzebuje [requestedThing_label], aby zaszczepić chorego przyjaciela przeciwko śmiertelnym chorobom.</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] chce utopić smutki po stracie współtowarzysza podróży w strasznym wypadku</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Chcą srebra, aby wykupić przyjaciela, który został niedawno porwany.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Potrzebują lekarstwa do przeprowadzenia operacji ratującej życie współpodróżnego, który został zaatakowany przez mechanoidy.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Potrzebują lekarstwa, aby pomóc swoim przyjaciołom z pobliskiej osady, która została zniszczona przez najeźdźców.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Chcą [requestedThing_label], aby mogli bezpiecznie podróżować, szukając nowego miejsca na dom.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Chcą, aby [requestedThing_label] pomogła im utopić smutki po utracie domu w straszliwym ataku.</li>
-    <li>interactionInfo(beggarCount==1)->Możesz przekazać przedmioty do [beggars0_nameDef] wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_objective].</li>
-    <li>interactionInfo(beggarCount>=2)->Możesz dać przedmioty wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_nameDef]</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] ruszy dalej po [visitDurationTicks_duration]</li>
-    <li>moveOnInfo(beggarCount>=2)->Grupa [groupLabelPlural] ruszy dalej po [visitDurationTicks_duration]</li>
+    <li>traverObjective(beggarCount>=2)->im</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] [nieJestNieSa] częścią żadnej frakcji. Jeśli chcesz, możesz [ichGo] zabić lub aresztować bez konsekwencji dyplomatycznych.</li>
+    <li>approachInfo(beggarCount==1)->Biedny [groupLabelSingle] o imieniu [beggars0_nameDef] szuka pomocy</li>
+    <li>approachInfo(beggarCount>=2)->Grupa biednych podróżników szuka pomocy</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] błaga o [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] błagają o [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] chce, aby srebro spłaciło dług gangu piratów, którzy na niego polują</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] potrzebuje lekarstwa, aby pomóc podróżnemu w pobliżu, który jest ranny</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] chce, aby lekarstwo uratowało jego lojalnego zwierzaka, który w drodze został ranny</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] potrzebuje [requestedThing_label], aby zaszczepić chorego przyjaciela przeciw śmiertelnej chorobie</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] chce, utopić smutek po stracie towarzysza w strasznym wypadku</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Chcą srebra, żeby odkupić niedawno porwanego przyjaciela</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Potrzebują lekarstwa, aby podjąć próbę ratowania życia innego podróżnika, który został zaatakowany przez mechanoidy</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Potrzebują lekarstwa, aby pomóc swoim przyjaciołom w pobliskiej osadzie, która została zdewastowana przez najeźdźców</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Chcą [requestedThing_label], aby mogli bezpiecznie podróżować, szukając nowego miejsca, w którym mogliby się osiedlić</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Chcą, aby [requestedThing_label] pomogło im utopić smutek po utracie domu w straszliwym ataku</li>
+    <li>interactionInfo(beggarCount==1)->Możesz przekazać przedmioty [beggars0_nameDef], wybierając kolonistę i klikając na podróżnika prawym przyciskiem myszy</li>
+    <li>interactionInfo(beggarCount>=2)->Możesz przekazać przedmioty grupie podróżników, wybierając kolonistę i klikając prawym przyciskiem myszy na [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] odejdzie za [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural] odejdą za [visitDurationTicks_duration]</li>
   </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
@@ -107,7 +113,6 @@
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
     <li>beggarSingle->żebrak</li>
     <li>beggarSingle->włóczęga</li>
-    <li>beggarSingle->drifter</li>
     <li>beggarSingle->podróżnik</li>
     <li>beggarPlural->żebracy</li>
     <li>beggarPlural->włóczędzy</li>
