@@ -24,7 +24,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-     <li>questDescription->[descriptionIntro] chcą rozszerzyć swoje terytorium i są zainteresowani przejęciem [playerSettlements] z całym [itsTheir] bogactwem i technologią. Jeśli uda Ci się zwiększyć całkowite bogactwo do poziomu [requiredWealth_money], przejmą [settlementsSingularOrPlural].\n\nW zamian oferują ci część mapy wskazującej lokalizację starożytnego nexusa archontów. Uważa się, że archonexus jest przewodnikiem, przez który archotechniczna superinteligencja wpływa na świat fizyczny. Jeśli uda ci się przywołać jego moc, to co stanie się potem, może wykroczyć poza fizyczną rzeczywistość.\n\n[OnlyHaveHas] jeden kawałek mapy. Pozostałe części są w posiadaniu innych frakcji.\n\nJeśli zaakceptujesz ich ofertę, [factionPawnsPlural] przejmie [playerSettlements], w tym wszystkie przedmioty, ludzi i zapisane badania. Sprowadzą [colonistsAllowed] z twoich ludzi i [animalsAllowed] z twoich zwierząt do dowolneo miejsca na planecie, aby założyć nową kolonię.</li>
+      <li>questDescription->[descriptionIntro] chce rozszerzyć swoje terytorium i [zaint] przejęciem [playerSettlements] z całym [itsTheir] bogactwem i technologią. Jeśli uda ci się zwiększyć całkowite bogactwo do poziomu [requiredWealth_money], przejmą [settlementsSingularOrPlural].\n\nW zamian [zamian] część mapy wskazującej lokalizację starożytnego nexusa archontów. Uważa się, że archonexus jest przewodnikiem, przez który archotechniczna superinteligencja wpływa na świat fizyczny. Jeśli uda ci się przywołać jego moc, to co stanie się potem, może wykroczyć poza fizyczną rzeczywistość.\n\n[onlyHaveHas] jeden kawałek mapy. Pozostałe części są w posiadaniu innych frakcji.\n\nJeśli zaakceptujesz tą ofertę, [factionPawnsPlural] [przejmiePrzejma] [playerSettlements], w tym wszystkie przedmioty, ludzi i zapisane badania. {wyslaWysle} [colonistsAllowed] z twoich ludzi i [animalsAllowed] z twoich zwierząt do dowolnego miejsca na planecie, aby założyć nową kolonię.</li>
     <li>itsTheir(playerSettlementsCount==1)->jego</li>
     <li>itsTheir(playerSettlementsCount>=2)->ich</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->osada</li>
@@ -33,15 +33,23 @@
     <li>onlyHaveHas(factionless==true)->Grupa ma tylko</li>
     <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
     <li>factionPawnsPlural(factionless==true)->dzicy ludzie</li>
-    <li>descriptionIntro(factionless==false)->[civilOutlander_name] jest</li>
-    <li>descriptionIntro(factionless==true)->Grupa dzikich ludzi jest</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name]</li>
+    <li>descriptionIntro(factionless==true)->Grupa dzikich ludzi</li>
+    <li>zaint(factionless==false)-> jest zainteresowany</li>
+    <li>zaint(factionless==true)->są zainteresowani</li>
+    <li>zamian(factionless==false)-> oferuje ci</li>
+    <li>zamian(factionless==true)->oferują ci</li>
+    <li>przejmiePrzejma(factionless==false)->przejmie</li>
+    <li>przejmiePrzejma(factionless==true)->przejmą</li>
+    <li>wyslaWysle(factionless==false)->Wyśle</li>
+    <li>wyslaWysle(factionless==true)->Wyślą</li>
+    
+    
 	</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
-      <li>questName->Archonexus</li>
-	  </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings><li>questName->Archonexus</li></EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
@@ -56,23 +64,22 @@
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>   
-  <li>questDescription->Mając bezpiecznie zapisaną pierwszą część mapy Archonexusa, przygotowujesz się do kolejnego etapu podróży.\n\n[cycle1Faction] opowiada o kataklizmie, który zniszczył ten świat. Ludzie zbudowali tu wieki temu wielką maszynę myślącą. Obróciła się ona przeciwko ludziom i wybuchła wielka wojna. Tylko nieliczni pozostali, gdy maszyna przeszła w stan transcendencji i zapadła w stan uśpienia.\n\nMapa do Archonexusa składa się z trzech części, a ty posiadasz jedną z nich. [otherMapPartHolders] także każdy z nich posiada część mapy. Wymienią swoje części na bogatą nową kolonię i wszystkie zapisane w niej badania. [descriptionStudyRequirement]\n\nNadszedł czas, aby rozpocząć budowę.</li>
+  <li>questDescription->Mając bezpiecznie zapisaną pierwszą część mapy Archonexusa, przygotowujesz się do kolejnego etapu podróży.\n\n[cycle1Faction] opowiada o kataklizmie, który zniszczył ten świat. Ludzie zbudowali tu wieki temu wielką maszynę myślącą. Obróciła się ona przeciwko nim i wybuchła wielka wojna. Tylko nieliczni pozostali, gdy maszyna przeszła w stan transcendencji i zapadła w stan uśpienia.\n\nMapa do Archonexusa składa się z trzech części, a ty posiadasz jedną z nich. [otherMapPartHolders] także posiada część mapy. Wymienią swoją część na bogatą nową kolonię i wszystkie zapisane w niej badania. [descriptionStudyRequirement]\n\nNadszedł czas, aby rozpocząć budowę.</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
-    <li>cycle1Faction(factionless==true)-> [wildPeople]</li>
+    <li>cycle1Faction(factionless==true)-> [wildPeopl]</li>
     <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] i [roughTribe_name]</li>
-    <li>otherMapPartHolders(factionless==true)->inni [wildPeople]</li>
+    <li>otherMapPartHolders(factionless==true)->inny [wildPeople]</li>
     <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
     <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
     <li>wildPeople->dzicy ludzie</li>
+    <li>wildPeopl->dziki człowiek</li>
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nNastępny fragment mapy jest zakodowany w bardzo dziwny sposób. Aby go zinterpretować, musisz najpierw dowiedzieć się więcej o archotechnologii, studiując strukturę tutaj.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
 	</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
-    <li>questName->Archonexus</li>
-  </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings><li>questName->Archonexus</li></EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questAcceptedLetterLabel->archonexus discovered</li>
@@ -91,12 +98,12 @@
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>  
     <li>questAcceptedLetterLabel->archonexus odkryty</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
-    <li>questDescriptionBeforeAccepted->Masz dwie części mapy Archonexus. [factionName] posiada ostatni kawałek mapy, przekazany w czasie, gdy ich przodkowie przetrwali kataklizm. Wymienią ci go za bogatą nową kolonię wraz z zapisanymi badaniami. [descriptionStudyRequirement]\n\nNadszedł czas, aby rozpocząć budowę.</li>
-    <li>questDescriptionAfterAccepted->[descriptionIntro] dostarczyli ci ostatnią część mapy Archonexusa. Wykorzystując swoją wiedzę na temat kodowania informacji archotechnicznych, rozszyfrowałeś mapę i wskazałeś lokalizację Archonexusa.\n\nTwoi sojusznicy nie spodziewają się, że wrócisz, więc po tym, jak tam pójdziesz, przejmą [playerSettlements].\n\n[descriptionThreats]Teraz pozostało tylko dostać się do Archonexusa, przywołać moc boga maszyn i dowiedzieć się, czy te historie są prawdziwe.</li>
+    <li>questDescriptionBeforeAccepted->Masz dwie części mapy Archonexus. [factionName] posiadają ostatni kawałek mapy, przekazany w czasie, gdy ich przodkowie przeżywali kataklizm. Wymienią się z tobą za nową bogatą kolonię wraz z zapisanymi badaniami. [descriptionStudyRequirement]\n\nNadszedł czas, aby rozpocząć budowę.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] ci ostatnią część mapy Archonexusa. Wykorzystując swoją wiedzę na temat kodowania informacji archotechnicznych, udało ci się rozszyfrować mapę i wskazać lokalizację Archonexusa.\n\nTwoi sojusznicy nie spodziewają się, że wrócisz, więc po tym, jak tam pójdziesz, przejmą [playerSettlements].\n\n[descriptionThreats] Teraz pozostało tylko dostać się do Archonexusa, przywołać moc boga maszyn i dowiedzieć się, czy te historie są prawdziwe.</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
     <li>factionName(factionless==true)->Dzicy ludzie</li>
-    <li>descriptionIntro(factionless==false)->Przywódca [roughTribe_name] [roughTribe_leader_nameDef] ma</li>
-    <li>descriptionIntro(factionless==true)->Dzicy ludzie mają</li>
+    <li>descriptionIntro(factionless==false)->Przywódca [roughTribe_name] [roughTribe_leader_nameDef] dostarczył</li>
+    <li>descriptionIntro(factionless==true)->Dzicy ludzie dostarczyli</li>
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nTak jak poprzednio, część mapy jest zakodowana. Aby ją odkodować, musisz najpierw zbadać strukturę archotechnologii.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
     <li>descriptionThreats(threatsEnabled==true)->Archonexus prawdopodobnie będzie miał mechanoidalnych obrońców, więc przygotuj się.\n\n</li>
@@ -109,8 +116,6 @@
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
-      <li>questName->Archonexus</li>
-	  </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings><li>questName->Archonexus</li></EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -10,10 +10,10 @@
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminal zhakowany. {COUNT} / [terminalCount] zakończone.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] niezdolny do hakerstwa.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] do hakowania.</li>
     <li>passengersIncapableOfHackingDialogText->W wahadłowcu zadania '[resolvedQuestName]' nie ma pasażerów potrafiących hakować. Musisz wysłać co najmniej jedną osobę zdolną do hakowania, aby zbadać starożytny kompleks.</li>
-    <li>passengersSingularOrPlural(colonistCount==1)->pasażer</li>
-    <li>passengersSingularOrPlural(colonistCount>=2)->pasażerowie</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->pasażer jest niezdolny</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->pasażerowie są niezdolni</li>
 	</AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
@@ -28,15 +28,13 @@
     <li>investigation->hacking</li>
   -->
   <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
-    <li>complex->złożony</li>
-    <li>complex->związek</li>
-    <li>complex->instalacja</li>
-    <li>complex->struktura</li>
-    <li>complex->konstrukcja</li>
-    <li>investigation->dochodzenie</li>
+    <li>complex->instalacji</li>
+    <li>complex->architektoniki</li>
+    <li>complex->struktury</li>
+    <li>complex->konstrukcji</li>
+    <li>investigation->dochodzenie odnośnie</li>
     <li>investigation->sprawdzenie</li>
-    <li>investigation->misja</li>
-    <li>investigation->wydobycie</li>
+    <li>investigation->misja odnośnie </li>
     <li>investigation->hakowanie</li>
 	</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
@@ -56,10 +54,9 @@
     <li>missionAdj->secret</li>
   -->
   <AncientComplex_Mission.questNameRules.rulesStrings>
-    <li>questName->[missionAdj] [complex] [investigation]</li>
-    <li>missionAdj->ukryte</li>
-    <li>missionAdj->ukryty</li>
-    <li>missionAdj->sekret</li>
+    <li>questName->[investigation] [missionAdj] [complex]</li>
+    <li>missionAdj->ukrytej</li>
+    <li>missionAdj->sekretnej</li>
 	</AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>
