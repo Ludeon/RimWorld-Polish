@@ -2501,7 +2501,7 @@
     <!-- EN: excavator -->
     <titleShort>operator koparki</titleShort>
     <!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
-    <desc>[PAWN_nameDef] pracował na wykopaliskach, wydobywając cenne przedmioty i materiały ze starożytnych, zbitych ruin. Nauczył się dostrzegać cenne przedmioty w ziemi i używać różnych narzędzi do kopania.</desc>
+    <desc>[PAWN_nameDef] pracował{PAWN_gender ? : a} na wykopaliskach, wydobywając cenne przedmioty i materiały ze starożytnych, zbitych ruin. Nauczył się dostrzegać cenne przedmioty w ziemi i używać różnych narzędzi do kopania.</desc>
   </Excavator55>
   
   <ExecutiveOfficer5>
@@ -2543,7 +2543,7 @@
     <!-- EN: ex-military -->
     <titleShort>były wojskowy</titleShort>
     <!-- EN: [PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head. -->
-    <desc>[PAWN_nameDef] zawsze miał apetyt na ryzyko. Wojsko zaspokajało tę potrzebę przez pewien czas, ale w końcu przestało wystarczać. Szukając większego ryzyka, [PAWN_nameDef] przyjął ofertę od tajemniczej postaci z maszyny i udał się na nieznany świat z tajemniczym implantem w głowie .</desc>
+    <desc>[PAWN_nameDef] zawsze miał{PAWN_gender ? : a} apetyt na ryzyko. Wojsko zaspokajało tę potrzebę przez pewien czas, ale w końcu przestało wystarczać. Szukając większego ryzyka, [PAWN_nameDef] przyj{PAWN_gender ? ął : eła} ofertę od tajemniczej postaci z maszyny i udał się na nieznany świat z tajemniczym implantem w głowie .</desc>
   </ExMilitary9>
   
   <ExoticChef96>
@@ -2808,11 +2808,11 @@
   
   <Firebomber51>
     <!-- EN: firebomber -->
-    <title>TODO</title>
+    <title>pilot bombowca</title>
     <!-- EN: firebomber -->
-    <titleShort>TODO</titleShort>
+    <titleShort>pilot bombowca</titleShort>
     <!-- EN: [PAWN_nameDef] piloted a small fighter-bomber design specialized in spreading incendiary gel on flammable targets.\n\nConditioned to love the sight of a target lighting up, [PAWN_pronoun] grew to love fire in all its forms - war, cooking, and even for cauterizing wounds in the hospital. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] pilotował{PAWN_gender ? : a} mały myśliwiec-bombowiec specjalizujący się w rozprowadzaniu żelu zapalającego na łatwopalnych celach. Nauczon{PAWN_gender ? y : a} kochać widok zapalającego się celu, dojrzał{PAWN_gender ? : a} w miłości do ognia we wszystkich jego formach - wojennej i kulinarnej.</desc>
   </Firebomber51>
   
   <FireKeeper44>
@@ -2858,11 +2858,11 @@
   
   <Forester96>
     <!-- EN: forester -->
-    <title>TODO</title>
+    <title>leśniczy</title>
     <!-- EN: forester -->
-    <titleShort>TODO</titleShort>
+    <titleShort>leśniczy</titleShort>
     <!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] uprawiał{PAWN_gender ? : a} i opierkował{PAWN_gender ? : a} się lasami. Rozumiał{PAWN_gender ? : a} zarówno praktyczne wyzwania związane z rodzajami gleby, wiatrem i deszczem, jak i długoterminowe planowanie wzrostu lasu.</desc>
   </Forester96>
   
   <ForestProwler15>
@@ -2889,11 +2889,13 @@
   
   <Framer37>
     <!-- EN: framer -->
-    <title>TODO</title>
+    <title>budowniczy</title>
+	<titleFemale>budownicza</titleFemale>
     <!-- EN: framer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>budowniczy</titleShort>
+	<titleShortFemale>budownicza</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był odpowiedzialn{PAWN_gender ? y : a} za wznoszenie budowli, w których mogli mieszkać współplemieńcy. Obejmowało to zarówno tymczasowe konstrukcje na potrzeby wędrówek koczowniczych, jak i stałe osady. Częścią tej pracy było zbieranie materiałów budowlanych z miejscowej roślinności.</desc>
   </Framer37>
   
   <Freethinker38>
@@ -2948,11 +2950,13 @@
   
   <FurnitureBuilder50>
     <!-- EN: furniture builder -->
-    <title>TODO</title>
+    <title>konstruktor mebli</title>
+	<titleFemale>konstruktorka mebli</titleFemale>
     <!-- EN: builder -->
-    <titleShort>TODO</titleShort>
+    <titleShort>konstruktor mebli</titleShort>
+	<titleShortFemale>konstruktorka mebli</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent his time building beautiful furniture for wealthy glitterworld clients. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] dorastał{PAWN_gender ? : a} w pobliżu lasów. spędzał{PAWN_gender ? : a} czas na budowaniu pięknych mebli dla bogatych klientów z glitterworld.</desc>
   </FurnitureBuilder50>
   
   <GalacticPage37>
@@ -3222,11 +3226,13 @@
   
   <GrownMate56>
     <!-- EN: grown mate -->
-    <title>TODO</title>
+    <title>kochanek</title>
+	<titleFemale>kochanka</titleFemale>
     <!-- EN: mate -->
-    <titleShort>TODO</titleShort>
+    <titleShort>kochanek</titleShort>
+	<titleShortFemale>kochanka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] został{PAWN_gender ? : a} wyhodowan{PAWN_gender ? y : a} w bardzo drogiej klinice, aby zaspokoić gusta konkretnego klienta. Zaprojektowan{PAWN_gender ? y : a}, wychowan{PAWN_gender ? y : a} i wyszkolon{PAWN_gender ? y : a} jako doskonał{PAWN_gender ? y : a}, dając{PAWN_gender ? y : a} przyjemność towarzysz{PAWN_gender ? : ka}, nauczył{PAWN_gender ? : a się umiejętności, które zadziwiłyby nawet najbardziej uwodzicielskich bazowych ludzkich kochanków.</desc>
   </GrownMate56>
   
   <Guardian55>
@@ -3304,11 +3310,11 @@
   
   <HeadButler50>
     <!-- EN: head butler -->
-    <title>TODO</title>
+    <title>główny kamerdyner</title>
     <!-- EN: butler -->
-    <titleShort>TODO</titleShort>
+    <titleShort>główny kamerdyner</titleShort>
     <!-- EN: [PAWN_nameDef] was the head servant in a royal house.\n\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był głównym sługą w królewskim domu.\n\nZarządzał innymi sługami, aby zapewnić, że wola pana została spełniona, nawet zanim pan wiedział, co to jest.</desc>
   </HeadButler50>
   
   <HeadjackAddict4>
@@ -3399,11 +3405,13 @@
   
   <Herder33>
     <!-- EN: herder -->
-    <title>TODO</title>
+    <title>pasterz</title>
+	<titleFemale>pasterka</titleFemale>
     <!-- EN: herder -->
-    <titleShort>TODO</titleShort>
+    <titleShort>pasterz</titleShort>
+	<titleShortFemale>pasterka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] wypasał różne zwierzęta, aby pomóc nakarmić i ubrać plemię podczas podróży. [PAWN_nameDef] nauczył się, jak uspokajać i kierować bestiami, a także jak polować na własne posiłki na szlaku.</desc>
   </Herder33>
   
   <Hermit82>
@@ -3439,11 +3447,13 @@
   
   <Hideaway7>
     <!-- EN: hideaway -->
-    <title>TODO</title>
+    <title>skryty</title>
+	<titleFemale>skryta</titleFemale>
     <!-- EN: hideaway -->
-    <titleShort>TODO</titleShort>
+    <titleShort>skryty</titleShort>
+	<titleShortFemale>skryta</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
-    <desc>TODO</desc>
+    <desc>Nadopiekuńczy rodzice [PAWN_nameDef] zachęcali do pozostawania w domu niemal każdego dnia. Chociaż miał{PAWN_gender ? : a} dużo czasu na czytanie i realizowanie rzemieślniczych pasji, nigdy nie rozwin{PAWN_gender ? ął : eła} normalnych umiejętności społecznych.</desc>
   </Hideaway7>
   
   <HighBaroness37>
@@ -3536,11 +3546,13 @@
   
   <HouseServant86>
     <!-- EN: house servant -->
-    <title>TODO</title>
+    <title>służący</title>
+	<titleFemale>służąca</titleFemale>
     <!-- EN: servant -->
-    <titleShort>TODO</titleShort>
+    <titleShort>służący</titleShort>
+	<titleShortFemale>służąca</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a low-level servant in a royal house.\n\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} niskiego szczebla sługą w królewskim domu.\n\nSprzątał{PAWN_gender ? : a} pokoje i przenosił{PAWN_gender ? : a} przedmioty zgodnie z poleceniami starszych pracowników, starając się przy tym pozostać niewidocznym dla panów i pań domu.</desc>
   </HouseServant86>
   
   <HumanComputer83>
@@ -3576,20 +3588,24 @@
   
   <Hunter74>
     <!-- EN: hunter -->
-    <title>TODO</title>
+    <title>łowca</title>
+	<titleFemale>łowczyni</titleFemale>
     <!-- EN: hunter -->
-    <titleShort>TODO</titleShort>
+    <titleShort>łowca</titleShort>
+	<titleShortFemale>łowczyni</titleShortFemale>
     <!-- EN: [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.\n\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] tropił{PAWN_gender ? : a}, łapał{PAWN_gender ? : a} i zabijał{PAWN_gender ? : a} zwierzęta dla ich mięsa i skóry. Używał{PAWN_gender ? : a} zarówno broni dystansowej, jak i do walki wręcz. Czasami polował{PAWN_gender ? : a} razem ze zwierzętami.</desc>
   </Hunter74>
   
   <Hunter89>
     <!-- EN: hunter -->
-    <title>TODO</title>
+    <title>łowca</title>
+	<titleFemale>łowczyni</titleFemale>
     <!-- EN: hunter -->
-    <titleShort>TODO</titleShort>
+    <titleShort>łowca</titleShort>
+	<titleShortFemale>łowczyni</titleShortFemale>
     <!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] polował{PAWN_gender ? : a} na dzikie zwierzęta, aby pomóc wyżywić społeczności. Kiedy czasy stawały się ciężkie, wszyscy wiedzieli że pomoże ludziom przetrwać ten trudny okres.</desc>
   </Hunter89>
   
   <HunterOfTheKing53>
@@ -3614,11 +3630,11 @@
   
   <HypnocultLeader61>
     <!-- EN: hypnocult leader -->
-    <title>TODO</title>
+    <title>wódz hipnokultystów</title>
     <!-- EN: cultist -->
-    <titleShort>TODO</titleShort>
+    <titleShort>wódz hipnokultystów</titleShort>
     <!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested. -->
-    <desc>TODO</desc>
+    <desc>Pragnąc zrozumieć ludzi, [PAWN_nameDef] nauczył{PAWN_gender ? : a} się hipnotyzmu i odkrył{PAWN_gender ? : a} talent do tej sztuki. Zebrał{PAWN_gender ? : a} zwolenników i stworzył{PAWN_gender ? : a} kult wokół żywiołowej osobowości. Władze odkryły nielegalną działalność, jednak [PAWN_nameDef] zdołała uciec, nim został{PAWN_gender ? : a} złapan{PAWN_gender ? y : a}.</desc>
   </HypnocultLeader61>
   
   <IcePlanetChild95>
@@ -3674,24 +3690,24 @@
   
   <ImperialInquisitor53>
     <!-- EN: imperial inquisitor -->
-    <title>TODO</title>
+    <title>cesarski inkwizytor</title>
     <!-- EN: inquisitor -->
-    <titleShort>TODO</titleShort>
+    <titleShort>inkwizytor</titleShort>
     <!-- EN: inquisitress -->
-    <titleShortFemale>TODO</titleShortFemale>
+    <titleShortFemale>inkwizytorka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was an inquisitor in the imperial church's anti-heresy school.\n\n[PAWN_nameDef] hunted unorthodox thoughts wherever they could be found - art, music, code, even private conversations. Upon finding deviance, [PAWN_pronoun] exposed it to bring on the punishment of the collective. And [PAWN_pronoun] could always find the deviance if [PAWN_pronoun] looked hard enough. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} inkwizytorem w szkole antyheretyckiej kościoła cesarskiego. \n\n[PAWN_nameDef] polował{PAWN_gender ? : a} na nieortodoksyjne myśli wszędzie, gdzie tylko można było je znaleźć - w sztuce, muzyce, kodeksie, a nawet w prywatnych rozmowach. Po znalezieniu dewiacji, ujawniał{PAWN_gender ? : a} je, aby sprowadzić na siebie karę kolektywu. I zawsze mógł znaleźć dewiację, jeśli tylko tego ał{PAWN_gender ? : a}.</desc>
   </ImperialInquisitor53>
   
   <ImperialPriest24>
     <!-- EN: imperial priest -->
-    <title>TODO</title>
+    <title>cesarski kapłan</title>
     <!-- EN: priest -->
-    <titleShort>TODO</titleShort>
+    <titleShort>kapłan</titleShort>
     <!-- EN: priestess -->
-    <titleShortFemale>TODO</titleShortFemale>
+    <titleShortFemale>kapłanka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a priest in the imperial church.\n\n[PAWN_pronoun] spent half [PAWN_possessive] time studying books to understand the relationship between God's aspects and the facets of [PAWN_possessive] society. The other half was spent preaching the evils of sloth and drink. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} kapłan{PAWN_gender ? em : ką} w kościele cesarskim. Połowę czasu spędzał{PAWN_gender ? : a} na studiowaniu ksiąg, by zrozumieć związek między aspektami boskimi a aspektami społeczeństwa. Drugą połowę spędzał{PAWN_gender ? : a} na potępianiu zła lenistwa i pijaństwa.</desc>
   </ImperialPriest24>
   
   <ImperialStudent49>
