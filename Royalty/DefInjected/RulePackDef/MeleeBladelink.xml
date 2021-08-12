@@ -59,6 +59,60 @@
     <li>endSyl->mar</li>
     <li>endSyl->gur</li>
   -->
-  <NamerWeaponBladelink.rulePack.rulesStrings>TODO</NamerWeaponBladelink.rulePack.rulesStrings>
+  <NamerWeaponBladelink.rulePack.rulesStrings>
+    <li>r_weapon_name(p=3)->[verber] [noun]</li>
+    <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[NamePerson]</li>
+    <li>r_weapon_name(p=1)->[nameAnimal]</li>
+    <li>nameAnimal->[NameAnimalUnisex]</li>
+    <li>nameAnimal->[NameAnimalMale]</li>
+    <li>nameAnimal->[NameAnimalFemale]</li>
+    <li>noun->przysiąg</li>
+    <li>noun->obietnic</li>
+    <li>noun->śmierci</li>
+    <li>noun->bólu</li>
+    <li>noun->krwi</li>
+    <li>noun->zniszczenia</li>
+    <li>noun->zabójstwa</li>
+    <li>noun->sprawiedliwości</li>
+    <li>noun->strachu</li>
+    <li>noun->terroru</li>
+    <li>noun->chaosu</li>
+    <li>noun->porządku</li>
+    <li>noun->wojny</li>
+    <li>noun->ciszy</li>
+    <li>noun->długu</li>
+    <li>verber->strażnik</li>
+    <li>verber->wysłannik</li>
+    <li>verber->dawca</li>
+    <li>verber->twórca</li>
+    <li>verber->miażdżyciel</li>
+    <li>verber->niszczyciel</li>
+    <li>verber->łamacz</li>
+    <li>verber->znawca</li>
+    <li>beginSyl->vi</li>
+    <li>beginSyl->na</li>
+    <li>beginSyl->lo</li>
+    <li>beginSyl->ra</li>
+    <li>beginSyl->to</li>
+    <li>beginSyl->ger</li>
+    <li>beginSyl->xan</li>
+    <li>beginSyl->kel</li>
+    <li>middleSyl->ser</li>
+    <li>middleSyl->gar</li>
+    <li>middleSyl->lor</li>
+    <li>middleSyl->ven</li>
+    <li>middleSyl->zan</li>
+    <li>middleSyl->xal</li>
+    <li>endSyl->ys</li>
+    <li>endSyl->or</li>
+    <li>endSyl->ar</li>
+    <li>endSyl->sum</li>
+    <li>endSyl->dor</li>
+    <li>endSyl->mar</li>
+    <li>endSyl->gur</li>
+  </NamerWeaponBladelink.rulePack.rulesStrings>
   
 </LanguageData>
