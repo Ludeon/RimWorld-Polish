@@ -266,11 +266,11 @@
   
   <AnimalFarmer21>
     <!-- EN: animal farmer -->
-    <title>TODO</title>
+    <title>hodowca zwierząt</title>
     <!-- EN: animal farmer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>hodowca zwierząt</titleShort>
     <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] hodował{PAWN_gender ? : a} różne zwierzęta, aby dostarczyć mięso, mleko, jaja i skórę.</desc>
   </AnimalFarmer21>
   
   <AnimalLabTech39>
@@ -352,7 +352,7 @@
     <!-- EN: archer -->
     <titleShort>łucznik</titleShort>
     <!-- EN: [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] walczył{PAWN_gender ? : a} dla plemienia. Specjalizował{PAWN_gender ? : a} się w używaniu łuków, włóczni i innych broni dystansowych.</desc>
   </Archer25>
   
   <Architect28>
@@ -377,11 +377,11 @@
   
   <ArmyCommander14>
     <!-- EN: Army commander -->
-    <title>TODO</title>
+    <title>dowódca armii</title>
     <!-- EN: Commander -->
-    <titleShort>TODO</titleShort>
+    <titleShort>dowódca</titleShort>
     <!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
-    <desc>TODO</desc>
+    <desc>Nieposkromiona ambicja popchnęła [PAWN_nameDef] na najwyższe szczeble wojskowego dowodzenia. [PAWN_obronn] zadowolił{PAWN_gender ? : a} się władzą, która pozwala mu zadawać śmierć i ból wrogom - i własnym żołnierzom.</desc>
   </ArmyCommander14>
   
   <ArmyCook0>
@@ -501,7 +501,7 @@
     <titleShort>artysta</titleShort>
     <titleShortFemale>artystka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] urodził{PAWN_gender ? : a} się na ciemnych rubieżach zablokowanego tidalnie urbświata. Po kłótni, ojciec sprzedał {PAWN_gender ? go : ją} lokalnemu władcy okręgu jako artystę-niewolnika. Zmuszon{PAWN_gender ? y : a} do tworzenia sztuki lub bycia ukaran{PAWN_gender ? ym : ą}, wycofał{PAWN_gender ? : a} się i stał{PAWN_gender ? : a} się niezdoln{PAWN_gender ? y : a} do tworzenia relacji z innymi.</desc>
   </ArtSlave57>
   
   <ArtsPatron54>
@@ -1441,9 +1441,9 @@
   
   <ChurchPsychic98>
     <!-- EN: church psychic -->
-    <title>TODO</title>
+    <title>medium PSI</title>
     <!-- EN: psychic -->
-    <titleShort>TODO</titleShort>
+    <titleShort>medium PSI</titleShort>
     <!-- EN: [PAWN_nameDef] was a psychic in the imperial church's psychic school.\n\n[PAWN_nameDef] trained [PAWN_possessive] mind to sense the collective emotions and impressions of the people. It was a way to touch the spirit of the empire. It was also a way to root out heretical trends in thought. -->
     <desc>[PAWN_nameDef] był medium w szkole psychiki kościoła cesarskiego.[PAWN_nameDef] trenował [PAWN_possessive] umysł, by wyczuwać zbiorowe emocje i wrażenia ludzi. Był to sposób na dotknięcie ducha imperium. Był to również sposób na wykorzenienie heretyckich nurtów myślowych.</desc>
   </ChurchPsychic98>
@@ -2057,9 +2057,9 @@
   
   <CuriousChild33>
     <!-- EN: curious child -->
-    <title>TODO</title>
+    <title>ciekawskie dziecko</title>
     <!-- EN: curious -->
-    <titleShort>TODO</titleShort>
+    <titleShort>ciekawskie dziecko</titleShort>
     <!-- EN: [PAWN_nameDef] was more interested in the systems and patterns of the world rather than its inhabitants. [PAWN_possessive] social skills suffered.\n\n[PAWN_nameDef] came to understand that all things are part of the whole, and to destroy part would be to destroy all. -->
     <desc>[PAWN_nameDef] by{PAWN_gender ? ł : ła} bardziej zainteresowan{PAWN_gender ? y : a} systemami i wzorcami świata niż jego mieszkańcami. Cierpiały na tym umiejętności społeczne [PAWN_posessive].\n\n[PAWN_nameDef] rozumia{PAWN_gender ? ł : ła}, że wszystkie rzeczy są częścią całości, a zniszczenie części byłoby zniszczeniem całości.</desc>
   </CuriousChild33>
@@ -2300,9 +2300,9 @@
   
   <DivorceKid95>
     <!-- EN: divorce kid -->
-    <title>TODO</title>
+    <title>dziecko z rozwodu</title>
     <!-- EN: divorce -->
-    <titleShort>TODO</titleShort>
+    <titleShort>dziecko z rozwodu</titleShort>
     <!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
     <desc>[PAWN_nameDef] miał szczęście uczęszczać do jednej z najlepszych prywatnych szkół na rodzinnej planecie. [PAWN_nameDef] miał też nieszczęście widzieć, jak rodzice rozchodzą się w młodym wieku.</desc>
   </DivorceKid95>
@@ -3754,29 +3754,31 @@
   
   <InfantryEngineer46>
     <!-- EN: infantry engineer -->
-    <title>TODO</title>
+    <title>inżynier piechoty</title>
     <!-- EN: engineer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>inżynier</titleShort>
     <!-- EN: Despite being in an infantry battalion, [PAWN_nameDef] rarely fired a gun. [PAWN_possessive] specialty was the rapid construction of defenses, traps, defensive installations, and sapping tunnels. -->
-    <desc>TODO</desc>
+    <desc>Pomimo przynależności do batalionu piechoty, [PAWN_nameDef] rzadko strzelał{PAWN_gender ? : a} z broni. {PAWN_gender ? Jego : Jej} specjalnością była szybka budowa obron, pułapek, instalacji obronnych i tuneli wysysających.</desc>
   </InfantryEngineer46>
   
   <InfantryMedic6>
     <!-- EN: infantry medic -->
-    <title>TODO</title>
+    <title>sanitariusz piechoty</title>
+	<titleFemale>sanitariuszka piechoty</titleFemale>
     <!-- EN: medic -->
-    <titleShort>TODO</titleShort>
+    <titleShort>sanitariusz</titleShort>
+	<titleShortFemale>sanitariuszka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] treated the combat wounds of [PAWN_possessive] fallen comrades. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] opatrywał{PAWN_gender ? : a} rany bojowe poległych towarzyszy.</desc>
   </InfantryMedic6>
   
   <InfantryOfficer49>
     <!-- EN: infantry officer -->
-    <title>TODO</title>
+    <title>oficer piechoty</title>
     <!-- EN: officer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>oficer</titleShort>
     <!-- EN: [PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} oficerem w imperialnym batalionie. Rozwin{PAWN_gender ? ął : eła} umiejętności społeczne i bojowe, aby dobrze wykonywać swoje obowiązki i być szanowan{PAWN_gender ? ym : ą} przez ludzi.</desc>
   </InfantryOfficer49>
   
   <InformationBroker77>
@@ -3792,11 +3794,13 @@
   
   <InsuranceBroker9>
     <!-- EN: insurance broker -->
-    <title>TODO</title>
+    <title>agent ubezpieczeniowy</title>
+	<titleFemale>agentka ubezpieczeniowa</titleFemale>
     <!-- EN: broker -->
-    <titleShort>TODO</titleShort>
+    <titleShort>agent</titleShort>
+	<titleShort>agentka</titleShort>
     <!-- EN: A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld. -->
-    <desc>TODO</desc>
+    <desc>Życie związane z ubezpieczeniami pochłaniało nadzieje i marzenia [PAWN_nameDef]. Kiedy tajemnicza postać z maszyny zaoferowała implant, wydawało się, że jest to sposób na ubarwienie szarej egzystencji.\n\n[PAWN_nameDef] nie sądził{PAWN_gender ? : a} jednak, że zostanie schwytan{PAWN_gender ? y : a} przez piratów i wysłan{PAWN_gender ? y : a} przez galaktykę do odległego świata.</desc>
   </InsuranceBroker9>
   
   <IntelligenceAgent10>
@@ -3812,11 +3816,13 @@
   
   <IntelligenceAgent21>
     <!-- EN: intelligence agent -->
-    <title>TODO</title>
+    <title>agent wywiadu</title>
+	<titleFemale>agentka wywiadu</titleFemale>
     <!-- EN: intel -->
-    <titleShort>TODO</titleShort>
+    <titleShort>agent</titleShort>
+	<titleShortFemale>agentka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a high-ranking counterintelligence agent tasked with thwarting enemy spies. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} wysokiej rangi agentem kontrwywiadu, które{PAWN_gender ? go : ej} zadaniem było udaremnianie działalności szpiegów wroga.</desc>
   </IntelligenceAgent21>
   
   <IntimateAssassin35>
