@@ -39,7 +39,36 @@
     <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
-  <BuildRapport.logRulesInitiator.rulesStrings>TODO</BuildRapport.logRulesInitiator.rulesStrings>
+  <BuildRapport.logRulesInitiator.rulesStrings>    
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] o [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] opisany [subject] do [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] zachęcił [RECIPIENT_nameDef] do [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] zaoferował szansę dla [RECIPIENT_nameDef], aby [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] wyraził zainteresowanie [RECIPIENT_nameDef] cechą [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] zapytał [RECIPIENT_nameDef] o [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+    <li>toldastoryabout(p=2)->opowiedział historię o</li>
+    <li>toldastoryabout->opowiedział zabawną historie o</li>
+    <li>toldastoryabout->opowiedział serdeczną opowieść o</li>
+    <li>toldastoryabout->opowiedział starą opowieść o</li>
+    <li>toldastoryabout->opowiedział rodzinną historie o</li>
+    <li>toldastoryabout->opowiedział opowieść z dzieciństwa o</li>
+    <li>toldastoryabout->wspomniał anegdotę o</li>
+    <li>talkabout->rozmawiać o</li>
+    <li>talkabout->omówić</li>
+    <li>talkabout->przeprowadzić dyskusję na temat</li>
+    <li>talkabout->zapytać o</li>
+    <li>talkabout->myśleć o</li>
+    <li>talkabout->znaleźć wspólną płaszczyznę wokół</li>
+    <li>subject->kolonii</li>
+    <li>subject->wspólnocie</li>
+    <li>subject->dołączeniu do kolonii</li>
+    <li>subject->znalezieniu przyjaciół</li>
+    <li>subject->poznawaniu nowych ludzi</li>
+    <li>subject->ponownym rozważeniu pomysłu</li>
+    <li>subject->zdrowiu</li>
+    <li>subject->przyszłości</li>
+	</BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>próba werbunku</RecruitAttempt.label>
@@ -49,7 +78,12 @@
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
-  <RecruitAttempt.logRulesInitiator.rulesStrings>TODO</RecruitAttempt.logRulesInitiator.rulesStrings>
+  <RecruitAttempt.logRulesInitiator.rulesStrings>    
+    <li>r_logentry->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przyłączenie się.</li>
+    <li>r_logentry->[INITIATOR_nameDef] obiecał [goodthing] [RECIPIENT_nameDef] i poprosił o przyłączenie się.</li>
+    <li>goodthing->równe warunki</li>
+    <li>goodthing->wolność wyboru</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>namowa do ucieczki</SparkJailbreak.label>
@@ -63,6 +97,14 @@
     <li>freedom->home</li>
     <li>freedom->self-determination</li>
   -->
-  <SparkJailbreak.logRulesInitiator.rulesStrings>TODO</SparkJailbreak.logRulesInitiator.rulesStrings>
+  <SparkJailbreak.logRulesInitiator.rulesStrings>    
+    <li>r_logentry->[INITIATOR_nameDef] mówił o radości [freedom] i oferował drogę ucieczki.</li>
+    <li>r_logentry->[INITIATOR_nameDef] mówił o tym, jak piękny jest [TerrainFeature] i oferował wolność.</li>
+    <li>r_logentry->[INITIATOR_nameDef] zademonstrował [RECIPIENT_nameDef] sposób ucieczki i obiecał [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że ochrona jest słaba i zachęcał do ucieczki.</li>
+    <li>freedom->wolność</li>
+    <li>freedom->powrót do domu</li>
+    <li>freedom->bezpieczeństwo</li>
+</SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
