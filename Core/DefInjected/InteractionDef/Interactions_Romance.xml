@@ -9,7 +9,7 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
-  <Breakup.logRulesInitiator.rulesStrings>   
+  <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przerwę.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o przerwę.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] że potrzebuje więcej wolności.</li>
@@ -18,7 +18,7 @@
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że to już nie działa</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
-	</Breakup.logRulesInitiator.rulesStrings>
+  </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>oświadczyny</MarriageProposal.label>
@@ -27,14 +27,14 @@
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
-  <MarriageProposal.logRulesInitiator.rulesStrings>    
+  <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] spytał czy [RECIPIENT_nameDef] zostanie jego żoną.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] spytała czy [RECIPIENT_nameDef] zostanie jej mężem.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o ręke.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o ręke.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
-	</MarriageProposal.logRulesInitiator.rulesStrings>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>flirt</RomanceAttempt.label>
@@ -100,12 +100,12 @@
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings>  
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] [wootactic].</li>
-	<li>wooed(INITIATOR_gender==male)->próbował flirtować z</li>
+    <li>wooed(INITIATOR_gender==male)->próbował flirtować z</li>
     <li>wooed(INITIATOR_gender==female)->próbowała flirtować z</li>
     <li>wooed(INITIATOR_gender==male)->flirtował z</li>
-	<li>wooed(INITIATOR_gender==female)->flirtowała z</li>
+    <li>wooed(INITIATOR_gender==female)->flirtowała z</li>
     <li>wooed(INITIATOR_gender==male)->próbował przyciągnąć</li>
     <li>wooed(INITIATOR_gender==female)->próbowała przyciągnąć</li>
     <li>wooed(INITIATOR_gender==male)->próbował romansować</li>
@@ -150,7 +150,7 @@
     <li>romantic_nou->gwiazdy</li>
     <li>romantic_nou->księżyca</li>
     <li>romantic_nou->słońca</li>
-    <li>romantic_nou->zorzy polarnej</li>	
-	</RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>romantic_nou->zorzy polarnej</li>
+  </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>
