@@ -11,8 +11,9 @@ Pobierz aktualną wersję tłumaczenia:
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
 # Instrukcje dla tłumaczy:  
-Wskazówki ogólne:  
-\Notes\Podręczny słownik.md - polecam korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
+Wskazówki ogólne: 
+* Przede wszystkim, zajrzyj na serwer Discord. Mamy tam dokładny stan tłumaczenia, co robić - a co nie, najrozmaitsze rady i wskazówki.
+* \Notes\Podręczny słownik.md - Warto korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
   
 Co tłumaczyć:  
 Najprościej wziąć się za foldery "Keyed", dla podstawki i wszystkich DLC.  
@@ -22,7 +23,9 @@ Trudniejsze rzeczy w folderze DefInjected:
 * DefInjected\TaleDef - jak wyżej.
 
 # Rzeczy wymagające dopracowania:  
-* Najpierw trzeba przetłumaczyć :)
+* Przede wszystkim rzeczy wymienione na górze, tj. pliki zaczynające się od Script, Tale lub RulePack.
+    Odpowiedzialne za generowanie questów czy nazw, są skomplikowane w edycji i trudne w sprawdzaniu.
+* Pozostałe pliki, tj. pola ToDo. Backstories.xml, ThoughtDef.xml oraz kilka innych plików. (11.08.21)
 
 # Contributors
 * Arczi008TV
@@ -35,5 +38,5 @@ Trudniejsze rzeczy w folderze DefInjected:
 * Tomikles
 * HogDadi
 * ŚwietyJudasz
-* Hurion
-* Oraz wielu innych...
+* Hades3623 (Hurion)
+* ProDeska (Krystianh42)

@@ -18,11 +18,11 @@
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} musi być {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} jest psychicznie pusty.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} jest psychicznie pust{PAWN_gender ? y : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>Niewystarczająco miejsca. Musi istnieć wyraźny okrąg o promieniu {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>{0_labelShort} jest niewolnikiem. Niewolnicy nie dostają pogrzebów.</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} jest niewolnikiem. Niewolnicy nie mają pogrzebów.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>Potrzebujesz łóżka podrzędnego, które jest dostępne, niezarezerwowane i w bezpiecznej temperaturze.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
@@ -140,8 +140,5 @@
   <CannotCarryToBiosculpterPod>Nie można przenieść do kapsuły biorzeźbiarza</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Brak dostępnego zasobnika biorzeźbiarza.</NoBiosculpterPod>
-
-  <!-- UNUSED -->
-  <FactionOrIdeoIncompatible>niekompatybilny</FactionOrIdeoIncompatible>
 
 </LanguageData>
