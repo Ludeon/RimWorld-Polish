@@ -4,17 +4,17 @@
   <!-- EN: ate without table -->
   <AteWithoutTable.stages.ate_without_table.label>jad{PAWN_gender ? ł : ła} na ziemi</AteWithoutTable.stages.ate_without_table.label>
   <!-- EN: I had to eat a meal off the ground. Can't we get a table around here? -->
-  <AteWithoutTable.stages.ate_without_table.description>Przyszło mi jeść posiłek na ziemi. Czy to taki problem zrobić stół i kilka krzeseł?</AteWithoutTable.stages.ate_without_table.description>
+  <AteWithoutTable.stages.ate_without_table.description>Jadł{PAWN_gender ? em : am} posiłek na ziemi. Czy to taki problem zrobić stół i kilka krzeseł?</AteWithoutTable.stages.ate_without_table.description>
   
   <!-- EN: bonded animal {0} banished -->
   <BondedAnimalBanished.stages.bonded_animal_banished.label>wygnano zwierzaka z więzią {0}</BondedAnimalBanished.stages.bonded_animal_banished.label>
   <!-- EN: My bonded animal was banished! -->
-  <BondedAnimalBanished.stages.bonded_animal_banished.description>Zwierzę, które jest mi bliskie, zostało wygnane!</BondedAnimalBanished.stages.bonded_animal_banished.description>
+  <BondedAnimalBanished.stages.bonded_animal_banished.description>Zwierzę, z którym łączy mnie więź, zostało wygnane!</BondedAnimalBanished.stages.bonded_animal_banished.description>
   
   <!-- EN: I butchered humanlike -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>oprawienie człowieka</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>oprawi{PAWN_gender ? ł : ła} człowieka</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
   <!-- EN: I butchered someone up like an animal. -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Przyszło mi oprawić człowieka jak zwierzynę.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Oprawił{PAWN_gender ? em : am} człowieka jak zwierzynę.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
   <!-- EN: butchered humanlike corpse -->
   <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>oprawiono ludzkie zwłoki</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
@@ -25,9 +25,9 @@
   <Catharsis.stages.catharsis.description>To było przyjemne, nareszcie uwolnić swoje uczucia.</Catharsis.stages.catharsis.description>
   
   <!-- EN: colonist banished -->
-  <ColonistBanished.stages.colonist_banished.label>kolonista wygnany</ColonistBanished.stages.colonist_banished.label>
+  <ColonistBanished.stages.colonist_banished.label>wygnano kolonistę</ColonistBanished.stages.colonist_banished.label>
   <!-- EN: We just banished someone. I hope they make it, but I'm worried. -->
-  <ColonistBanished.stages.colonist_banished.description>Właśnie kogoś wygnaliśmy. Mam nadzieję, że sobie poradzi, ale martwię się.</ColonistBanished.stages.colonist_banished.description>
+  <ColonistBanished.stages.colonist_banished.description>Właśnie wygnano kolonistę. Mam nadzieję, że sobie poradzi, ale martwię się.</ColonistBanished.stages.colonist_banished.description>
   
   <!-- EN: colonist banished to death -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.label>wygnano kolonistę na pewną śmierć</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
@@ -35,27 +35,27 @@
   <ColonistBanishedToDie.stages.colonist_banished_to_death.description>Nie ma praktycznie żadnych szans na przeżycie.</ColonistBanishedToDie.stages.colonist_banished_to_death.description>
   
   <!-- EN: Colonist prisoner escaped -->
-  <ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>więzień uciekł</ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>
+  <ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>ucieczka więźnia z kolonii</ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>
   <!-- EN: Can't we keep control of our own people? I feel like anything could happen to me here. -->
   <ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.description>Nie możemy upilnować więźniów? Czuję, że wszystko może się tu wydarzyć.</ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.description>
   
   <!-- EN: defeated hostile leader {0} -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>pokonano wrogiego lidera z frakcji {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
   <!-- EN: They were leading efforts to destroy us, and I took them down! -->
-  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Usiłowali nas zniszczyć, ale dzięki mnie stało się odwrotnie!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
+  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Usiłowano nas zniszczyć, ale dzięki mnie stało się odwrotnie!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
   
   <!-- EN: defeated hostile leader -->
   <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>pokonano wrogiego lidera</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
   <!-- EN: defeated mech cluster -->
-  <DefeatedMechCluster.stages.defeated_mech_cluster.label>pokonane skupisko mechów</DefeatedMechCluster.stages.defeated_mech_cluster.label>
+  <DefeatedMechCluster.stages.defeated_mech_cluster.label>pokonano skupisko mechów</DefeatedMechCluster.stages.defeated_mech_cluster.label>
   <!-- EN: Blood beats metal, you damn machines! -->
-  <DefeatedMechCluster.stages.defeated_mech_cluster.description>Krew pokonała stal, wy przeklęte maszyny!</DefeatedMechCluster.stages.defeated_mech_cluster.description>
+  <DefeatedMechCluster.stages.defeated_mech_cluster.description>Krew niszczy stal, wy przeklęte maszyny!</DefeatedMechCluster.stages.defeated_mech_cluster.description>
   
   <!-- EN: denied joining -->
   <DeniedJoining.stages.denied_joining.label>odmowa dołączenia</DeniedJoining.stages.denied_joining.label>
   <!-- EN: We just denied someone's request to join us. I hope they make it. -->
-  <DeniedJoining.stages.denied_joining.description>Właśnie odrzuciliśmy czyjąś prośbę o dołączenie do nas. Mam nadzieję, że jakoś sobie poradzi.</DeniedJoining.stages.denied_joining.description>
+  <DeniedJoining.stages.denied_joining.description>Odrzucono czyjąś prośbę dołączenia do nas. Mam nadzieję, że jakoś sobie poradzi.</DeniedJoining.stages.denied_joining.description>
   
   <!-- EN: failed to rescue {0} -->
   <FailedToRescueRelative.stages.failed_to_rescue.label>nieudany ratunek {0}</FailedToRescueRelative.stages.failed_to_rescue.label>
@@ -63,39 +63,39 @@
   <FailedToRescueRelative.stages.failed_to_rescue.description>Mieliśmy szansę na uratowanie mojego krewnego, ale zawiedliśmy. Zabrakło mojej pomocy!</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
-  <FreedFromSlavery.stages.freed_from_slavery.label>uwolnienie z niewoli</FreedFromSlavery.stages.freed_from_slavery.label>
+  <FreedFromSlavery.stages.freed_from_slavery.label>uwolniono z niewoli</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
-  <FreedFromSlavery.stages.freed_from_slavery.description>Uwolniono mnie z niewoli. Macie moją wdzięczność.</FreedFromSlavery.stages.freed_from_slavery.description>
+  <FreedFromSlavery.stages.freed_from_slavery.description>Uwolniono mnie z niewoli. Jestem bardzo wdzięczn{PAWN_gender ? y : a}.</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: bloodlust organ harvested -->
-  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>żądza krwi wycięte organy</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
+  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>wycięto organy (żądza krwi)</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
   <!-- EN: Extracting the flesh from their bodies is so bloody and satisfying. -->
-  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>Wycinanie organów z ludzich ciał jest tak krwawe i satysfakcjonujące.</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
+  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>Wycinanie organów z ludzkich ciał jest tak krwawe i satysfakcjonujące.</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>zabito kogoś</KilledHumanlikeBloodlust.stages.killed_someone.label>
   <!-- EN: I killed someone! What a rush! -->
-  <KilledHumanlikeBloodlust.stages.killed_someone.description>Jestem sprawcą zabójstwa! Co za przeżycie!</KilledHumanlikeBloodlust.stages.killed_someone.description>
+  <KilledHumanlikeBloodlust.stages.killed_someone.description>Zabił{PAWN_gender ? em : am} kogoś! Co za przeżycie!</KilledHumanlikeBloodlust.stages.killed_someone.description>
   
   <!-- EN: buried in sarcophagus -->
-  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>kolonista pochowany w sarkofagu</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>
+  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>pochówek w sarkofagu</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>
   <!-- EN: This colony buried someone in an ornamented sarcophagus. May their soul rest in peace. -->
-  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>Kolonista został pochowany w ozdobnym sarkofagu. Niech jego dusza spoczywa w spokoju.</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>
+  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>Kolonia pochowała kogoś w ozdobnym sarkofagu. Niech je{1_gender ? go: j} dusza spoczywa w spokoju.</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>
   
   <!-- EN: we butchered humanlike -->
-  <KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>oprawiliśmy człowieka</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>
+  <KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>oprawiono człowieka</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>
   <!-- EN: We butchered someone up like an animal. -->
-  <KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Oprawiliśmy kogoś jak zwierzynę.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>
+  <KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Ktoś został oprawiony jak zwierzynę.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>
   
   <!-- EN: colonist's organ harvested -->
-  <KnowColonistOrganHarvested.stages.colonists_organ_harvested.label>wycięto organy</KnowColonistOrganHarvested.stages.colonists_organ_harvested.label>
+  <KnowColonistOrganHarvested.stages.colonists_organ_harvested.label>wycięto organy koloniście</KnowColonistOrganHarvested.stages.colonists_organ_harvested.label>
   <!-- EN: Someone took body parts from a colonist. It's horrible, breaking someone down for parts when they have no choice. -->
   <KnowColonistOrganHarvested.stages.colonists_organ_harvested.description>Koloniście wycięto organy. To straszne - pobierać czyjeś organy wbrew jego woli.</KnowColonistOrganHarvested.stages.colonists_organ_harvested.description>
   
   <!-- EN: someone's organ harvested -->
-  <KnowGuestOrganHarvested.stages.someones_organ_harvested.label>wycięto organy</KnowGuestOrganHarvested.stages.someones_organ_harvested.label>
+  <KnowGuestOrganHarvested.stages.someones_organ_harvested.label>wycięto czyjeś organy</KnowGuestOrganHarvested.stages.someones_organ_harvested.label>
   <!-- EN: The colony took body parts from a guest or prisoner. It's horrible, breaking someone down for parts when they have no choice. -->
-  <KnowGuestOrganHarvested.stages.someones_organ_harvested.description>Gościowi albo więźniowi wycięto organy. To straszne - pobierać czyjeś organy wbrew jego woli.</KnowGuestOrganHarvested.stages.someones_organ_harvested.description>
+  <KnowGuestOrganHarvested.stages.someones_organ_harvested.description>Kolonia wycięła organy z gościa albo . To straszne - pobierać czyjeś organy wbrew jego woli.</KnowGuestOrganHarvested.stages.someones_organ_harvested.description>
   
   <!-- EN: prisoner sold -->
   <KnowPrisonerSold.stages.prisoner_sold.label>sprzedano więźnia</KnowPrisonerSold.stages.prisoner_sold.label>
@@ -125,12 +125,12 @@
   <!-- EN: observed corpse -->
   <ObservedLayingCorpse.stages.observed_corpse.label>zobaczy{PAWN_gender ? ł : ła} zwłoki</ObservedLayingCorpse.stages.observed_corpse.label>
   <!-- EN: I saw a dead body laying on the ground. It was disturbing. -->
-  <ObservedLayingCorpse.stages.observed_corpse.description>Przyszło mi zobaczyć martwego człowieka leżącego na ziemi. To było niepokojące.</ObservedLayingCorpse.stages.observed_corpse.description>
+  <ObservedLayingCorpse.stages.observed_corpse.description>Zobaczył{PAWN_gender ? em : am} ciało martwego człowieka leżącego na ziemi. To było niepokojące.</ObservedLayingCorpse.stages.observed_corpse.description>
   
   <!-- EN: observed rotting corpse -->
   <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>zobaczy{PAWN_gender ? ł : ła} gnijące zwłoki</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
   <!-- EN: I saw a rotting corpse laying on the ground. It was disgusting. -->
-  <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Przyszło mi zobaczyć gnijące ciało człowieka. To było obrzydliwe.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
+  <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Zobaczył{PAWN_gender ? em : am} gnijące ciało człowieka. To było obrzydliwe.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
   
   <!-- EN: on duty -->
   <OnDuty.stages.on_duty.label>na służbie</OnDuty.stages.on_duty.label>
@@ -143,44 +143,44 @@
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>Wygnaliśmy więźnia. Nie ma praktycznie żadnych szans na przeżycie.</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
   
   <!-- EN: prisoner released -->
-  <ReleasedHealthyPrisoner.stages.prisoner_released.label>wypuszczony więzień</ReleasedHealthyPrisoner.stages.prisoner_released.label>
+  <ReleasedHealthyPrisoner.stages.prisoner_released.label>wypuszczono więźnia</ReleasedHealthyPrisoner.stages.prisoner_released.label>
   <!-- EN: We released a healthy prisoner. It feels good to know we even treat prisoners well. -->
-  <ReleasedHealthyPrisoner.stages.prisoner_released.description>Wypuściliśmy zdrowego więźnia. Dobrze wiedzieć, że nawet więźniowie są dobrze traktowani.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
+  <ReleasedHealthyPrisoner.stages.prisoner_released.description>Wypuszczono zdrowego więźnia. Dobrze wiedzieć, że nawet więźniowie są dobrze traktowani.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
   <Rescued.stages.rescued.label>uratowano</Rescued.stages.rescued.label>
   <!-- EN: I was rescued! I almost thought I was done for back there. I'm so thankful. -->
-  <Rescued.stages.rescued.description>Uratowano mnie! Wydawało mi się, że już po mnie. Macie moją wdzięczność.</Rescued.stages.rescued.description>
+  <Rescued.stages.rescued.description>Został{PAWN_gender ? em : am} uratowan{PAWN_gender ? y : a}! Wydawało mi się, że już po mnie. Macie moją wdzięczność.</Rescued.stages.rescued.description>
   
   <!-- EN: rescued {0} -->
-  <RescuedRelative.stages.rescued.label>uratowaliśmy {0}</RescuedRelative.stages.rescued.label>
+  <RescuedRelative.stages.rescued.label>uratowano {0}</RescuedRelative.stages.rescued.label>
   <!-- EN: We rescued one of my relatives. Finally, I can breathe a sigh of relief. -->
   <RescuedRelative.stages.rescued.description>Uratowaliśmy jednego z moich krewnych. W końcu mogę odetchnąć z ulgą.</RescuedRelative.stages.rescued.description>
   
   <!-- EN: disturbed sleep -->
-  <SleepDisturbed.stages.disturbed_sleep.label>zakłócony sen</SleepDisturbed.stages.disturbed_sleep.label>
+  <SleepDisturbed.stages.disturbed_sleep.label>zakłócono sen</SleepDisturbed.stages.disturbed_sleep.label>
   <!-- EN: I was disturbed during sleep by people moving around nearby. A private room would solve this. -->
   <SleepDisturbed.stages.disturbed_sleep.description>Obudziło mnie przechodzenie osób w pobliżu. Własny pokój rozwiązałby ten problem.</SleepDisturbed.stages.disturbed_sleep.description>
   
   <!-- EN: slept in the cold -->
   <SleptInCold.stages.slept_in_the_cold.label>spa{PAWN_gender ? ł : ła} w zimnie</SleptInCold.stages.slept_in_the_cold.label>
   <!-- EN: I had to sleep in the cold. We really need some heaters. -->
-  <SleptInCold.stages.slept_in_the_cold.description>W czasie snu było lodowato. Musimy zbudować jakieś grzejniki.</SleptInCold.stages.slept_in_the_cold.description>
+  <SleptInCold.stages.slept_in_the_cold.description>W czasie snu było mi lodowato. Musimy zbudować jakieś grzejniki.</SleptInCold.stages.slept_in_the_cold.description>
   
   <!-- EN: slept in the heat -->
   <SleptInHeat.stages.slept_in_the_heat.label>spa{PAWN_gender ? ł : ła} w upale</SleptInHeat.stages.slept_in_the_heat.label>
   <!-- EN: I had to sleep in unbearable heat. Can't we have air conditioning? -->
-  <SleptInHeat.stages.slept_in_the_heat.description>W czasie snu było strasznie gorąco. Musimy zbudować jakieś klimatyzatory.</SleptInHeat.stages.slept_in_the_heat.description>
+  <SleptInHeat.stages.slept_in_the_heat.description>W czasie snu było mi strasznie gorąco. Musimy zbudować jakąś klimatyzacje.</SleptInHeat.stages.slept_in_the_heat.description>
   
   <!-- EN: slept on ground -->
   <SleptOnGround.stages.slept_on_ground.label>spa{PAWN_gender ? ł : ła} na ziemi</SleptOnGround.stages.slept_on_ground.label>
   <!-- EN: I had to sleep on the ground like an animal. -->
-  <SleptOnGround.stages.slept_on_ground.description>Przyszło mi spać na ziemi jak jakieś zwierzę.</SleptOnGround.stages.slept_on_ground.description>
+  <SleptOnGround.stages.slept_on_ground.description>Spał{PAWN_gender ? em : am} na ziemi jak jakieś zwierzę.</SleptOnGround.stages.slept_on_ground.description>
   
   <!-- EN: slept outside -->
   <SleptOutside.stages.slept_outside.label>spa{PAWN_gender ? ł : ła} na zewnątrz</SleptOutside.stages.slept_outside.label>
   <!-- EN: I had to sleep outdoors without any protection from the elements. -->
-  <SleptOutside.stages.slept_outside.description>Przyszło mi spać pod gołym niebem bez żadnej ochrony przed żywiołami.</SleptOutside.stages.slept_outside.description>
+  <SleptOutside.stages.slept_outside.description>Spał{PAWN_gender ? em : am} pod gołym niebem bez żadnej ochrony przed żywiołami.</SleptOutside.stages.slept_outside.description>
   
   <!-- EN: soaking wet -->
   <SoakingWet.stages.soaking_wet.label>przemokni{PAWN_gender ? ęty : ęta}</SoakingWet.stages.soaking_wet.label>
@@ -200,16 +200,16 @@
   <!-- EN: witnessed death with bloodlust -->
   <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>świadek śmierci człowieka</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
   <!-- EN: I saw someone die! That was intense! -->
-  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Przyszło mi zobaczyć, jak ktoś umiera. Co za przeżycie!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
+  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Zobaczył{PAWN_gender ? em : am} jak ktoś umiera. Co za przeżycie!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
   
   <!-- EN: witnessed family member's death -->
   <WitnessedDeathFamily.stages.witnessed_family_members_death.label>świadek śmierci członka rodziny</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
   <!-- EN: I saw a member of my family die. My own flesh and blood... -->
-  <WitnessedDeathFamily.stages.witnessed_family_members_death.description>Przyszło mi zobaczyć umierającego członka mojej rodziny. Moja własna krew...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
+  <WitnessedDeathFamily.stages.witnessed_family_members_death.description>Zobaczył{PAWN_gender ? em : am} umierającego członka mojej rodziny. Moja własna krew...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
   
   <!-- EN: witnessed outsider's death -->
   <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>świadek śmierci człowieka</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
   <!-- EN: I saw someone die. They were alive one moment, and dead the next. -->
-  <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>Przyszło mi zobaczyć, jak ktoś umiera. W jednym momencie żył, chwilę później już nie.</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>
+  <WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>Zobaczył{PAWN_gender ? em : am} jak ktoś umiera. W jednym momencie ta osoba jeszcze żyła, a chwilę później już nie.</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>
   
 </LanguageData>
