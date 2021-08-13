@@ -5,7 +5,14 @@
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Używając twojego dalekosiężnego skanera minerałów, [worker_definite] udało się znaleźć w pobliżu bryłę [targetMineable_label].\n\nNiestety, nie pobędzie tam długo, jeśli jej nie wydobędziemy inni zrobią to za nas za [timeoutTicks_duration].[lumpThreatDescription]</li>
+    <li>questDescription->Przy użyciu dalekosiężnego skanera minerałów, [worker_definite] odnajduje w pobliżu złoże bogate w [targetMineable_label_acc].\n\nNiestety, nie uleży tam zbyt długo - inni wydobędą złoże jako pierwsi w przeciągu [timeoutTicks_duration], jeśli my tego nie zrobimy.[lumpThreatDescription]</li>
+    <li>targetMineable_label_acc(targetMineable==MineableComponentsIndustrial)->sprasowaną maszynerię</li>
+    <li>targetMineable_label_acc(targetMineable==MineableGold)->rudę złota</li>
+    <li>targetMineable_label_acc(targetMineable==MineableSilver)->rudę srebra</li>
+    <li>targetMineable_label_acc(targetMineable==MineablePlasteel)->sprasowaną superstal</li>
+    <li>targetMineable_label_acc(targetMineable==MineableSteel)->sprasowaną stal</li>
+    <li>targetMineable_label_acc(targetMineable==MineableUranium)->rudę uranu</li>
+    <li>targetMineable_label_acc(targetMineable==MineableJade)->rudę jadeitu</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[lump] of [targetMineableThing_label]</li>
@@ -29,23 +36,55 @@
     <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[lump] [targetMineableThing_label]</li>
-    <li>questName->[adj] [targetMineableThing_label]</li>
-    <li>questName->[targetMineableThing_label] [discovered]</li>
-    <li>lump->fragment</li>
-    <li>lump->odłamek</li>
-    <li>lump->kawałek</li>
+    <li>questName->[lump] [targetMineableThing_label_gen]</li>
+    <li>questName->[adj] [targetMineableThing_label_fem]</li>
+    <li>questName->[discovered] [targetMineableThing_label_acc]</li>
+    
+    <li>targetMineableThing_label_gen(targetMineable==MineableComponentsIndustrial)->sprasowanej maszynerii</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineableGold)->rudy złota</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineableSilver)->rudy srebra</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineablePlasteel)->sprasowanej superstali</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineableSteel)->sprasowanej stali</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineableUranium)->rudy uranu</li>
+    <li>targetMineableThing_label_gen(targetMineable==MineableJade)->rudy jadeitu</li>
+    
+    <li>targetMineableThing_label_fem(targetMineable==MineableComponentsIndustrial)->sprasowana maszyneria</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineableGold)->ruda złota</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineableSilver)->ruda srebra</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineablePlasteel)->sprasowana superstal</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineableSteel)->sprasowana stal</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineableUranium)->rudę uranu</li>
+    <li>targetMineableThing_label_fem(targetMineable==MineableJade)->rudę jadeitu</li>
+    
+    <li>targetMineableThing_label_acc(targetMineable==MineableComponentsIndustrial)->sprasowaną maszynerię</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineableGold)->rudę złota</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineableSilver)->rudę srebra</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineablePlasteel)->sprasowaną superstal</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineableSteel)->sprasowaną stal</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineableUranium)->rudę uranu</li>
+    <li>targetMineableThing_label_acc(targetMineable==MineableJade)->rudę jadeitu</li>
+    
+    <li>lump->złoże</li>
     <li>lump->stos</li>
-    <li>adj->odległy</li>
-    <li>adj->zeskanowany</li>
-    <li>discovered->odkryty</li>
-    <li>discovered->wykryty</li>
-    <li>discovered->znaleziony</li>
-    <li>discovered->zeskanowany</li>
+    <li>lump->kopczyk</li>
+    <li>lump->kawałek</li>
+    <li>lump->warstwa</li>
+    <li>lump->odłamek</li>
+    <li>lump->stos</li>
+    <li>lump->hałda</li>
+    <li>adj->odległa</li>
+    <li>adj->daleka</li>
+    <li>adj->nieznana</li>
+    <li>adj->przeskanowana</li>
+    <li>discovered->odkryto</li>
+    <li>discovered->wykryto</li>
+    <li>discovered->znaleziono</li>
+    <li>discovered->przeskanowano</li>
+    
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Zadanie wygasło: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Inni wydobyli bryłę [targetMineable_label]. Misja [resolvedQuestName] wygasła.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Złoże bogate w [targetMineable_label_acc] zostało już wydobyte przez innych. Zadanie [resolvedQuestName] wygasło.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
