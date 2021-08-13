@@ -20,7 +20,35 @@
     <li>commentedabout->commented about</li>
     <li>commentedabout->told a joke about</li>
   -->
-  <Chitchat.logRulesInitiator.rulesStrings>TODO</Chitchat.logRulesInitiator.rulesStrings>
+  <Chitchat.logRulesInitiator.rulesStrings>   
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>talkedabout(INITIATOR_gender==male)->rozmawiał o</li>
+    <li>talkedabout(INITIATOR_gender==female)->rozmawiała o</li>
+    <li>talkedabout(INITIATOR_gender==male)->podzielił się słowem o</li>
+    <li>talkedabout(INITIATOR_gender==female)->podzieliła się słowem o</li>
+    <li>talkedabout(INITIATOR_gender==male)->mówił na temat</li>
+    <li>talkedabout(INITIATOR_gender==female)->mówiła na temat</li>
+    <li>talkedabout(INITIATOR_gender==male)->plotkował o</li>
+    <li>talkedabout(INITIATOR_gender==female)->plotkowała o</li>
+    <li>talkedabout(INITIATOR_gender==male)->mówił o</li>
+    <li>talkedabout(INITIATOR_gender==female)->mówiła o</li>
+    <li>talkedabout(INITIATOR_gender==male)->żartował</li>
+    <li>talkedabout(INITIATOR_gender==female)->żartowała</li>
+    <li>commentedabout(INITIATOR_gender==male)->powiedział coś o</li>
+    <li>commentedabout(INITIATOR_gender==female)->powiedziała coś o</li>
+    <li>commentedabout(INITIATOR_gender==male)->powiedział słowo o</li>
+    <li>commentedabout(INITIATOR_gender==female)->powiedział słowoa o</li>
+    <li>commentedabout(INITIATOR_gender==male)->wypowiedział się na temat</li>
+    <li>commentedabout(INITIATOR_gender==female)->wypowiedziała się na temat</li>
+    <li>commentedabout(INITIATOR_gender==male)->skomentował</li>
+    <li>commentedabout(INITIATOR_gender==female)->skomentowała</li>
+    <li>commentedabout(INITIATOR_gender==male)->opowiedział dowcip o</li></Chitchat.logRulesInitiator.rulesStrings>
+    <li>commentedabout(INITIATOR_gender==female)->opowiedziała dowcip o</li></Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
   <DeepTalk.label>poważna rozmowa</DeepTalk.label>
@@ -39,7 +67,19 @@
     <li>talkedabout->connected on the topic of</li>
     <li>subject->[TalkTopicHeavy]</li>
   -->
-  <DeepTalk.logRulesInitiator.rulesStrings>TODO</DeepTalk.logRulesInitiator.rulesStrings>
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] i [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>talkedabout->dyskutowali o</li>
+    <li>talkedabout->wymieniali myśli na temat</li>
+    <li>talkedabout->wymieniali się pomysłami na temat</li>
+    <li>talkedabout->mają wspólne poglądy na temat</li>
+    <li>talkedabout->mają wspólne przekyłania na temat</li>
+    <li>talkedabout->omówili temat</li>
+    <li>talkedabout->odbyli szczerą rozmowę o</li>
+    <li>talkedabout->rozmawiali cicho o</li>
+    <li>talkedabout->rozmawiali o</li>
+    <li>subject->[TalkTopicHeavy]</li>
+	</DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
   <Insult.label>zniewaga</Insult.label>
@@ -62,7 +102,30 @@
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   -->
-  <Insult.logRulesInitiator.rulesStrings>TODO</Insult.logRulesInitiator.rulesStrings>
+  <Insult.logRulesInitiator.rulesStrings> 
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [insulted] [target].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [insulted] [target].</li>
+    <li>target->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
+    <li>insulted(INITIATOR_gender==male)->znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->otwarcie znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->otwarcie znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->głośno znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->głośno znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->rażąco znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->rażąco znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->bezpośrednio znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->bezpośrednio znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->złośliwie znieważył</li>
+    <li>insulted(INITIATOR_gender==female)->złośliwie znieważyła</li>
+    <li>insulted(INITIATOR_gender==male)->rażąco lekceważył</li>
+    <li>insulted(INITIATOR_gender==female)->rażąco lekceważyła</li>
+    <li>insulted(INITIATOR_gender==male)->zniesławił</li>
+    <li>insulted(INITIATOR_gender==female)->zniesławiła</li>
+    <li>insulted(INITIATOR_gender==male)->ośmieszył</li>
+    <li>insulted(INITIATOR_gender==female)->ośmieszyła</li>
+	</Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
   <KindWords.label>uprzejme słowa</KindWords.label>
@@ -82,7 +145,32 @@
     <li>complimented->expressed appreciation for</li>
     <li>complimented->said good things about</li>
   -->
-  <KindWords.logRulesInitiator.rulesStrings>TODO</KindWords.logRulesInitiator.rulesStrings>
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef].</li>
+    <li>complimented(INITIATOR_gender==male)->komplementował</li>
+    <li>complimented(INITIATOR_gender==female)->komplementowała</li>
+    <li>complimented(INITIATOR_gender==male)->pochwalił</li>
+    <li>complimented(INITIATOR_gender==female)->pochwaliła</li>
+    <li>complimented(INITIATOR_gender==male)->wyróżnił</li>
+    <li>complimented(INITIATOR_gender==female)->wyróżniła</li>
+    <li>complimented(INITIATOR_gender==male)->chwalił</li>
+    <li>complimented(INITIATOR_gender==female)->chwaliła</li>
+    <li>complimented(INITIATOR_gender==male)->celebrował</li>
+    <li>complimented(INITIATOR_gender==female)->celebrowała</li>
+    <li>complimented(INITIATOR_gender==male)->życzliwie wypowiadał się o</li>
+    <li>complimented(INITIATOR_gender==female)->życzliwie wypowiadała się o</li>
+    <li>complimented(INITIATOR_gender==male)->wyraził dobre opinie o</li>
+    <li>complimented(INITIATOR_gender==female)->wyraziła dobre opinie o</li>
+    <li>complimented(INITIATOR_gender==male)->zaproponował miłe słowa na temat</li>
+    <li>complimented(INITIATOR_gender==female)->zaproponowała miłe słowa na temat</li>
+    <li>complimented(INITIATOR_gender==male)->docenił werbalnie</li>
+    <li>complimented(INITIATOR_gender==female)->doceniła werbalnie</li>
+    <li>complimented(INITIATOR_gender==male)->wyraził uznanie dla</li>
+    <li>complimented(INITIATOR_gender==female)->wyraziła uznanie dla</li>
+    <li>complimented(INITIATOR_gender==male)->powiedział dobre rzeczy o</li>
+    <li>complimented(INITIATOR_gender==female)->powiedziała dobre rzeczy o</li>
+	</KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
   <Slight.label>zlekceważenie</Slight.label>
@@ -103,6 +191,32 @@
     <li>madefunof->made a contemptuous remark about</li>
     <li>madefunof->offered a backhanded compliment about</li>
   -->
-  <Slight.logRulesInitiator.rulesStrings>TODO</Slight.logRulesInitiator.rulesStrings>
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target].</li>
+    <li>target->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
+    <li>madefunof(INITIATOR_gender==male)->wyśmiewał</li>
+    <li>madefunof(INITIATOR_gender==female)->wyśmiewała</li>
+    <li>madefunof(INITIATOR_gender==male)->lekceważył</li>
+    <li>madefunof(INITIATOR_gender==female)->lekceważyła</li>
+    <li>madefunof(INITIATOR_gender==male)->subtelnie wzgardził</li>
+    <li>madefunof(INITIATOR_gender==female)->subtelnie wzgardziła</li>
+    <li>madefunof(INITIATOR_gender==male)->subtelnie zawstydził</li>
+    <li>madefunof(INITIATOR_gender==female)->subtelnie zawstydziła</li>
+    <li>madefunof(INITIATOR_gender==male)->wypowiedział się źle o</li>
+    <li>madefunof(INITIATOR_gender==female)->wypowiedziała się źle o</li>
+    <li>madefunof(INITIATOR_gender==male)->negatywnie wypowiedział się o</li>
+    <li>madefunof(INITIATOR_gender==female)->negatywnie wypowiedziała się o</li>
+    <li>madefunof(INITIATOR_gender==male)->wyśmiał</li>
+    <li>madefunof(INITIATOR_gender==female)->wyśmiała</li>
+    <li>madefunof(INITIATOR_gender==male)->naśmiewał się z</li>
+    <li>madefunof(INITIATOR_gender==female)->naśmiewała się z</li>
+    <li>madefunof(INITIATOR_gender==male)->sugerował negatywne rzeczy o</li>
+    <li>madefunof(INITIATOR_gender==female)->sugerowała negatywne rzeczy o</li>
+    <li>madefunof(INITIATOR_gender==male)->pomniejszył</li>
+    <li>madefunof(INITIATOR_gender==female)->pomniejszyła</li>
+    <li>madefunof(INITIATOR_gender==male)->rzucił pogardliwą uwagę na temat</li>
+    <li>madefunof(INITIATOR_gender==female)->rzuciła pogardliwą uwagę na temat</li>
+	</Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>
