@@ -20,7 +20,7 @@
     <li>commentedabout->commented about</li>
     <li>commentedabout->told a joke about</li>
   -->
-  <Chitchat.logRulesInitiator.rulesStrings>   
+  <Chitchat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
@@ -100,7 +100,7 @@
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   -->
-  <Insult.logRulesInitiator.rulesStrings> 
+  <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
