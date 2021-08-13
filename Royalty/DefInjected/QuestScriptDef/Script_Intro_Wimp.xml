@@ -5,7 +5,13 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] wysyła sygnał z pobliża. [asker_possessive] ochroniarze zostali zabici w zasadzce. [asker_pronoun] uciekł, ale jest teraz śledzony przez (*Threat)ludożerczego [animalKindDef_label](/Threat).\n\n[asker_nameDef] chce, abyś [asker_objective] chronił przez parę godzin, aż [asker_possessive] prom może przylecieć [asker_objective] zabrać.\n\n[asker_pronoun] przyzna [royalFavorReward] [asker_faction_royalFavorLabel] komukolwiek kto przyjmie do zadanie. Ta ilość [asker_faction_royalFavorLabel] wystarczy, aby otrzymać tytuł Dzierżawcy, i wszystkie jego korzyści - włączając w to pierwszy poziom mocy psychicznych.</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] wysyła sygnał z pobliża. [asker_possessive] ochroniarze zostali zabici w zasadzce. [asker_managed] [asker_pronoun] uciec, ale teraz [asker_followed] (*Threat)[animalKindDef_label] w ludożerczym stanie(/Threat).\n\n[asker_nameDef] chce, żeby [asker_objective] chronić przez parę godzin, zanim [asker_possessive] prom będzie mógł [asker_objective] zabrać.\n\nW nagrodę przyzna [royalFavorReward] [asker_faction_royalFavorLabel] komukolwiek, kto przyjmie to zadanie. Ta ilość [asker_faction_royalFavorLabel] wystarczy, aby otrzymać tytuł Dzierżawcy i wszystkie jego korzyści - włączając w to pierwszy poziom mocy psychicznych.</li>
+    <li>asker_followed(asker_gender==Male)->śledzi go</li>
+    <li>asker_followed(asker_gender==Female)->śledzi ją</li>
+    <li>asker_managed(asker_gender==Male)->zdołał</li>
+    <li>asker_managed(asker_gender==Female)->zdołała</li>
+    <li>asker_should(asker_gender==Male)->Powinien</li>
+    <li>asker_should(asker_gender==Female)->Powinna</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
@@ -15,22 +21,29 @@
     <li>adjAny->ambushed</li>
   -->
   <Intro_Wimp.questNameRules.rulesStrings>
-    <li>questName->[adjAny] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny->goniony</li>
-    <li>adjAny->uciekający</li>
-    <li>adjAny->samotny</li>
-    <li>adjAny->zaatakowany</li>
+    <li>questName(asker_gender==Male)->[adjAny_mas] [asker_royalTitleInCurrentFaction]</li>
+    <li>questName(asker_gender==Female)->[adjAny_fem] [asker_royalTitleInCurrentFaction]</li>
+    <li>adjAny_mas->goniony</li>
+    <li>adjAny_fem->goniona</li>
+    <li>adjAny_mas->uciekający</li>
+    <li>adjAny_fem->uciekająca</li>
+    <li>adjAny_mas->samotny</li>
+    <li>adjAny_fem->samotna</li>
+    <li>adjAny_mas->zaatakowany</li>
+    <li>adjAny_fem->zaatakowana</li>
+    <li>adjAny_mas->napadnięty</li>
+    <li>adjAny_fem->napadnięta</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
-  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] przybył</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
+  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] przybywa</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.LetterTextAnimalArrived.slateRef>Przybył [animalKindDef_label], który gonił [asker_nameDef].\n\nOkazało się że był całkiem miły, i wcale nie był agresywny.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>Przybywa [animalKindDef_label], zwierzę które goniło [asker_nameDef].\n\nOkazało się że był całkiem miłe i wcale nie było agresywne.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Manhunting [animalKindDef_label] -->
   <Intro_Wimp.LetterLabelAngryAnimal.slateRef>Ludożerczy [animalKindDef_label]</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
-  <Intro_Wimp.LetterTextAngryAnimal.slateRef>Przybył [animalKindDef_label], który gonił [asker_nameFull].</Intro_Wimp.LetterTextAngryAnimal.slateRef>
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>Przybywa [animalKindDef_label], zwierzę które goniło [asker_nameFull].</Intro_Wimp.LetterTextAngryAnimal.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Intro_Wimp.InspectStringDepartShuttle.slateRef>Powinien odlecieć na promie</Intro_Wimp.InspectStringDepartShuttle.slateRef>
+  <Intro_Wimp.InspectStringDepartShuttle.slateRef>[asker_should] odlecieć promem</Intro_Wimp.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <Intro_Wimp.LetterLabelShuttleArrived.slateRef>Przybył prom</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
@@ -38,23 +51,23 @@
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelGuestDied.slateRef>Gość zmarł: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} miałeś chronić, zmar{SUBJET_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
+  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? który był : która} mięliście chronić, zmar{SUBJET_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Nieautoryzowana operacja: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Nieautoryzowana, inwazyjna operacja została przeprowadzona na {SUBJECT_definite}, {SUBJECT_gender ? którego : którą} miałeś chronić. Z powodu tego naruszenia, [asker_pronoun] spróbuje teraz odejść [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Nieautoryzowana, inwazyjna operacja została przeprowadzona na {SUBJECT_definite}, {SUBJECT_gender ? którego : którą} mieliście chronić. Z powodu tego naruszenia, spróbuje [asker_pronoun] teraz odejść [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelCaptured.slateRef>Porwano: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} miałeś chronić, zosta{SUBJECT_gender} ł : ła} porwan{SUBJECT_gender ? y : a}. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} mieliście chronić, zosta{SUBJECT_gender} ł : ła} porwan{SUBJECT_gender ? y : a}. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelGuestLost.slateRef>Gość zaginął: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} miałeś chronić, opuści{SUBJECT_gender ? ł : ła} przypisaną lokację. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
+  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} mieliście chronić, opuści{SUBJECT_gender ? ł : ła} przypisaną lokację. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Gośc zaginął: {SUBJECT_definite</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Gość zaginął: {SUBJECT_definite</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} miałeś chronić, zdzicza{SUBJECT_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} mieliście chronić, zdzicza{SUBJECT_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>Prom został zniszczony</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
@@ -62,6 +75,6 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Intro_Wimp.LetterLabelQuestFailed.slateRef>Zadanie nie powiodło się: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextQuestFailed.slateRef>prom, który miał odebrać [asker_nameDef] odleciał bez [asker_objective]. [asker_pronoun] odejdzie teraz na nogach. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>Prom, który miał odebrać [asker_nameDef] odleciał bez [asker_objective]. [asker_pronoun] odejdzie teraz na nogach. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

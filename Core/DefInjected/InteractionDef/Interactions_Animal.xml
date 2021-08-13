@@ -27,7 +27,26 @@
     <li>tamed->sat patiently near</li>
     <li>tamed->whispered a story about [TalkTopicAny] to</li>
   -->
-  <AnimalChat.logRulesInitiator.rulesStrings>TODO</AnimalChat.logRulesInitiator.rulesStrings>
+  <AnimalChat.logRulesInitiator.rulesStrings> 
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [tamed] usiadł w pobliżu [RECIPIENT_nameDef] i rozmawiał o [TalkTopicAny].</li>
+	<li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [tamed] usiadła w pobliżu [RECIPIENT_nameDef] i rozmawiał o [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [tamed] podszedł do [RECIPIENT_nameDef] szepcząc coś do siebie o [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [tamed] podeszła do [RECIPIENT_nameDef] szepcząc coś do siebie o [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [tamed] zbliżył się do [RECIPIENT_nameDef] podczas rozmowy o [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [tamed] zbliżyła się do [RECIPIENT_nameDef] podczas rozmowy o [TalkTopicAny].</li>
+    <li>tamed->wydając uspokajające dźwięki</li>
+    <li>tamed->wykonując powolne, przyjazne gesty</li>
+    <li>tamed->wydając ciche dźwięki</li>
+    <li>tamed->wydawjąc cichę, miłe odgłosy</li>
+    <li>tamed->delikatnie gestykulując</li>
+    <li>tamed->powolnym ruchem</li>
+    <li>tamed->spokojnie i zachęcająco</li>
+    <li>tamed->przyjął niską postawę</li>
+    <li>tamed->starając się nie okazywać strachu</li>
+    <li>tamed->cicho nucąc piosenkę</li>
+    <li>tamed->śpiewał starą kołysankę ,</li>
+    <li>tamed->wykazując się swobodną postawą</li>
+	</AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
   <Nuzzle.label>wtulenie</Nuzzle.label>
@@ -57,7 +76,36 @@
     <li>rubbedpart->side</li>
     <li>rubbedpart->arm</li>
   -->
-  <Nuzzle.logRulesInitiator.rulesStrings>TODO</Nuzzle.logRulesInitiator.rulesStrings>
+  <Nuzzle.logRulesInitiator.rulesStrings>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] w [rubbedpart] [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] w [rubbedpart] [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [nuzzleadverb] potarł nosem [RECIPIENT_nameDef] w [rubbedpart].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [nuzzleadverb] potarła nosem [RECIPIENT_nameDef] w [rubbedpart].</li>
+    <li>nuzzled(INITIATOR_gender==male)->wtulił się</li>
+    <li>nuzzled(INITIATOR_gender==female)->wtuliła się</li>
+    <li>nuzzled(INITIATOR_gender==male)->wtulił się</li>
+    <li>nuzzled(INITIATOR_gender==female)->wtuliła się</li>
+    <li>nuzzleadverb-></li>
+    <li>nuzzleadverb->łagodnie</li>
+    <li>nuzzleadverb->zachęcająco</li>
+    <li>nuzzleadverb->z radością</li>
+    <li>nuzzleadverb->delikatnie</li>
+    <li>nuzzleadverb->wspierająco</li>
+    <li>nuzzleadverb->lekko</li>
+    <li>nuzzleadverb->serdecznie</li>
+    <li>nuzzleadverb->żałośnie</li>
+    <li>nuzzleadverb->z miłością</li>
+    <li>nuzzleadverb->czule</li>
+    <li>rubbedpart->nogę</li>
+    <li>rubbedpart->kolano</li>
+    <li>rubbedpart->stopę</li>
+    <li>rubbedpart->łokieć</li>
+    <li>rubbedpart->biodro</li>
+    <li>rubbedpart->ramię</li>
+    <li>rubbedpart->ręke</li>
+    <li>rubbedpart->bok</li>
+    <li>rubbedpart->ramię</li>
+  </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
   <ReleaseToWild.label>wypuść na wolność</ReleaseToWild.label>
@@ -74,7 +122,21 @@
     <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
     <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
   -->
-  <ReleaseToWild.logRulesInitiator.rulesStrings>TODO</ReleaseToWild.logRulesInitiator.rulesStrings>
+  <ReleaseToWild.logRulesInitiator.rulesStrings>  
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell(INITIATOR_gender==male)->[INITIATOR_nameDef] delikatnie pogłaskał [RECIPIENT_nameDef] po raz ostatni</li>
+    <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] delikatnie pogłaskała [RECIPIENT_nameDef] po raz ostatni</li>
+    <li>farewell(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział kilka ciepłych słów do [RECIPIENT_nameDef]</li>
+    <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała kilka ciepłych słów do [RECIPIENT_nameDef]</li>
+    <li>farewell(INITIATOR_gender==male)->[INITIATOR_nameDef] zdjął obrożę [RECIPIENT_nameDef]</li>
+    <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] zdjęła obrożę [RECIPIENT_nameDef]</li>
+    <li>farewell(INITIATOR_gender==male)->[INITIATOR_nameDef] wspomina dobre chwile, jakie spędził z [RECIPIENT_nameDef]</li>
+    <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] wspomina dobre chwile, jakie spędziła z [RECIPIENT_nameDef]</li>
+    <li>released->i wypuścił [RECIPIENT_objective] na wolność.</li>
+    <li>released->i uwolnił [RECIPIENT_objective]</li>
+    <li>released->i pozwolił [RECIPIENT_objective] odejść.</li>
+    <li>released->następnie odwrócił się i pozwolił [RECIPIENT_objective] opuścić kolonię.</li>
+	</ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
   <TameAttempt.label>próba oswojenia</TameAttempt.label>
@@ -96,21 +158,36 @@
     <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
   -->
   <TameAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
-    <li>r_logentry->[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective].</li>
-    <li>r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>
-    <li>r_logentry->[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command.</li>
-    <li>r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>
-    <li>r_logentry->[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>
-    <li>r_logentry->[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community.</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community.</li>
-    <li>r_logentry->[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>
-    <li>r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>
-    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] starał się oswoić [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] starała się oswoić [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] usiłował złapać [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] usiłowała złapać [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] próbował założyć obroże [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] próbowała założyć obroże [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zażądał posłuszeństwa od [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zażądała posłuszeństwa od [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] próbował przywołać [RECIPIENT_nameDef] do siebie .</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] próbowała przywołać [RECIPIENT_nameDef] do siebie .</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] próbował sprawić, by [RECIPIENT_nameDef] siedział spokojnie.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] próbowała sprawić, by [RECIPIENT_nameDef] siedział spokojnie.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] ostro chwycił [RECIPIENT_nameDef] i wykrzyczał polecenie.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] ostro chwyciła [RECIPIENT_nameDef] i wykrzyczał polecenie.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] usiłował utrzymać [RECIPIENT_nameDef] w bezruchu.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] usiłowała utrzymać [RECIPIENT_nameDef] w bezruchu.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] sygnalizował polecenie dla [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] sygnalizowała polecenie dla [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] spoliczkował [RECIPIENT_nameDef] w geście dominacji.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] spoliczkowała [RECIPIENT_nameDef] w geście dominacji.</li>	
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] skierował [RECIPIENT_nameDef] z powrotem do kolonii.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] skierowała [RECIPIENT_nameDef] z powrotem do kolonii.</li>	
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] wezwał [RECIPIENT_nameDef] do powrotu do domu.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] wezwała [RECIPIENT_nameDef] do powrotu do domu.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] dotknął wrażliwej części ciała [RECIPIENT_nameDef], żądając posłuszeństwa.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] dotknęła wrażliwej części ciała [RECIPIENT_nameDef], żądając posłuszeństwa.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] wskazał na ziemię, żądając, by [RECIPIENT_nameDef] przyszedł.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] wskazała na ziemię, żądając, by [RECIPIENT_nameDef] przyszedł.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] wydał [RECIPIENT_nameDef] pierwsze polecenie.</li>	
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] wydała [RECIPIENT_nameDef] pierwsze polecenie.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: train attempt -->
@@ -124,9 +201,19 @@
     <li>trained->[tried] to encourage a new skill in</li>
     <li>trained->demonstrated a skill to</li>
     <li>trained->encouraged a new response from</li>
-    <li>tried->tried</li>
     <li>tried->attempted</li>
+    <li>tried->tried</li>
   -->
-  <TrainAttempt.logRulesInitiator.rulesStrings>TODO</TrainAttempt.logRulesInitiator.rulesStrings>
+  <TrainAttempt.logRulesInitiator.rulesStrings>    
+    <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
+    <li>trained->[tried] szkolić</li>
+    <li>trained->[tried] pokazać nową sztuczkę</li>
+    <li>trained->[tried] zdyscyplinować</li>
+    <li>trained->[tried] pouczać</li>
+    <li>trained->[tried] zachęcić do nauki nowej umiejętności </li>
+    <li>trained->wykazał się umiejętnością</li>
+    <li>tried->próbuje</li>
+    <li>tried->stara się</li>
+   </TrainAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>
