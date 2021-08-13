@@ -21,18 +21,17 @@
     <li>adjAny->ambushed</li>
   -->
   <Intro_Wimp.questNameRules.rulesStrings>
-    <li>questName(asker_gender==Male)->[adjAny_mas] [asker_royalTitleInCurrentFaction]</li>
-    <li>questName(asker_gender==Female)->[adjAny_fem] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny_mas->goniony</li>
-    <li>adjAny_fem->goniona</li>
-    <li>adjAny_mas->uciekający</li>
-    <li>adjAny_fem->uciekająca</li>
-    <li>adjAny_mas->samotny</li>
-    <li>adjAny_fem->samotna</li>
-    <li>adjAny_mas->zaatakowany</li>
-    <li>adjAny_fem->zaatakowana</li>
-    <li>adjAny_mas->napadnięty</li>
-    <li>adjAny_fem->napadnięta</li>
+    <li>questName->[adjAny] [asker_royalTitleInCurrentFaction]</li>
+    <li>adjAny(asker_gender==Male)->goniony</li>
+    <li>adjAny(asker_gender==Female)->goniona</li>
+    <li>adjAny(asker_gender==Male)->uciekający</li>
+    <li>adjAny(asker_gender==Female)->uciekająca</li>
+    <li>adjAny(asker_gender==Male)->samotny</li>
+    <li>adjAny(asker_gender==Female)->samotna</li>
+    <li>adjAny(asker_gender==Male)->zaatakowany</li>
+    <li>adjAny(asker_gender==Female)->zaatakowana</li>
+    <li>adjAny(asker_gender==Male)->napadnięty</li>
+    <li>adjAny(asker_gender==Female)->napadnięta</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] przybywa</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
