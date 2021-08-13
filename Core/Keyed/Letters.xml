@@ -132,12 +132,12 @@
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} {1_gender ? zmarł : zmarła}: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
-  <LetterLeadersDeath>{OLDLEADER_nameFull}, {3} frakcji {1} - zmarł.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{OLDLEADER_nameFull}, {1} z frakcji {0}, {OLDLEADER_gender ? zmarł : zmarła}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Nowy {1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {3} frakcji {1}.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {1} z frakcji {0}.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
   <LetterNewLeader>Nowy {0} to {NEWLEADER_nameFull}.</LetterNewLeader>
