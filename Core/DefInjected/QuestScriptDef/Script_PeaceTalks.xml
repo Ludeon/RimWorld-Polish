@@ -12,17 +12,11 @@
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
     <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] z [faction_name], wysłał nam wiadomość. Chce porozmawiać z nami w pobliskim miejscu.\n\nMoże to być świetna okazja, aby poprawić relacje z ich frakcją i otrzymać prezenty, ale uważaj – kiepski negocjator może wyrządzić więcej szkody niż pożytku, a nawet może go rozzłościć. [extraLeaderPart][favorRewardDetails]</li>
-
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nUdane rozmowy pokojowe mogą przynieść Twojemu negocjatorowi niewielką ilość osobistych [faction_royalFavorLabel] z [faction_name].</li>
-
     <li>favorRewardDetails-></li>
-
     <li>extraLeaderPart-></li>
-
     <li>leaderRoleEffect->Inne frakcje będą cię bardziej szanować, jeśli wyślesz swojego lidera do prowadzenia negocjacji</li>
-
     <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] otrzyma premię do szansy na pomyślny wynik.</li>
-
     <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:

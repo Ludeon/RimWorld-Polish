@@ -82,7 +82,7 @@
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Usunięto obligacje</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>{PAWN_nameDef} dokonał konwersji na {IDEO}. Ponieważ {IDEO} nie akceptuje więzi ze zwierzętami, {PAWN_pronoun} wyrzekł się {PAWN_possessive} więzi z następującymi zwierzętami:\n\n{BONDS}</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef} dokona{PAWN_gender ? ł : ła} konwersji na {IDEO}. Ponieważ {IDEO} nie akceptuje więzi ze zwierzętami, {PAWN_pronoun} wyrzek{PAWN_gender ? ł : ła} się {PAWN_possessive} więzi z następującymi zwierzętami:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
@@ -118,7 +118,7 @@
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Rozwód</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>Nowe poglądy {PAWN_nameDef} zabraniają {PAWN_possessive} obecnej liczby małżonków.\n\n{PAWN_nameDef} postanowiła rozwieść się z tymi osobami:\n{1}</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>Nowe poglądy {PAWN_nameDef} zabraniają {PAWN_possessive} obecnej liczby małżonków.\n\n{PAWN_nameDef} postanowi{PAWN_gender ? ł : ła} rozwieść się z tymi osobami:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Pożądana zmiana wyglądu</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef} chce zmienić wygląd {PAWN_possessive}, ponieważ nie pasuje on już do tego, w co wierzy {PAWN_pronoun}.\n\n{PAWN_pronoun} automatycznie użyje dostępnej stacji stylizacyjnej i wybierze wygląd. Jeśli chcesz dostosować wygląd {PAWN_possessive}, wybierz {PAWN_objective} i kliknij prawym przyciskiem myszy stację stylizacyjną.</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} chce zmienić wygląd {PAWN_possessive}, ponieważ nie pasuje on już do tego, w co wierzy.\n\n{PAWN_nameDef automatycznie użyje dostępnej stacji stylizacyjnej i wybierze wygląd. Jeśli chcesz dostosować {PAWN_possessive} wygląd, wybierz {PAWN_objective} i kliknij prawym przyciskiem myszy stację stylizacyjną.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
@@ -184,7 +184,7 @@
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>Połączenie {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>{CONNECTOR_nameDef} połączył się z {TREE_definite}.\n\n{TREE_definite} będzie produkować małe zwierzęta zwane driadami, hodując je w strąkach u podstawy. Te driady mogą specjalizować się w różnych kastach. Możesz wybrać kastę driad, którą drzewo ma produkować.\n\nIm silniejsze połączenie między drzewem a człowiekiem, tym więcej driad może podtrzymać {TREE_definite}. {CONNECTOR_nameDef} może wzmocnić połączenie, przycinając {TREE_definite}. Utrzymanie większej wytrzymałości połączenia wymaga częstszego przycinania.</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} połączy{CONNECTOR_gender ? ł : ła} się z {TREE_definite}.\n\n{TREE_definite} będzie produkować małe zwierzęta zwane driadami, hodując je w strąkach u podstawy. Te driady mogą specjalizować się w różnych kastach. Możesz wybrać kastę driad, którą drzewo ma produkować.\n\nIm silniejsze połączenie między drzewem a człowiekiem, tym więcej driad może podtrzymać {TREE_definite}. {CONNECTOR_nameDef} może wzmocnić połączenie, przycinając {TREE_definite}. Utrzymanie większej wytrzymałości połączenia wymaga częstszego przycinania.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>Połączone {TREE_label} zniszczone</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
