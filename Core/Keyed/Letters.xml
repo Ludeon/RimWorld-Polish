@@ -17,7 +17,7 @@
   <FirstSummerWarning>Lato właśnie się rozpoczęło! Ale nadciąga także zima.\n\nTwoje uprawy nie będą rosły podczas mrozów. Nie zapomnij, aby zrobić zapasy żywności, zanim rozpocznie się zima.\n\nZbuduj chłodnię, aby ochronić pożywienie przed zepsuciem.\n\nSpróbuj też kupić, uszyć lub ewentualnie ukraść kilka płaszczy zimowych - w przeciwnym razie koloniści zamarzną, gdy wyjdą na zewnątrz.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły, co oznacza, że od teraz są wrogo nastawieni.\n\nBędą atakować Twoją kolonię i karawany oraz odmówią handlu. Jeśli chcesz naprawić tę relację, wciąż możesz oferować im podarunki używając karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ reputacja ({1}) znalazła się poniżej {2}. Aby odzyskać neutralność między frakcjami, reputacja musi ponownie osiągnąć poziom {3}.</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły. Są teraz do Ciebie wrogo nastawieni.</LetterRelationsChange_Hostile>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
   <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany oraz odmówią handlu z tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ dobra wola ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, dobra wola musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>
 
@@ -374,7 +374,7 @@
   <!-- EN: Caravan lost -->
   <LetterLabelPawnsLostBecauseMapClosed_Caravan>Karawana zaginęła</LetterLabelPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
-  <LetterPawnsLostBecauseMapClosed_Caravan>Twoja karawana zaginęła. Zniknęły z nią również następujące osoby oraz zwierzęta</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>Twoja karawana zaginęła. Razem z nią tracisz również następujące osoby oraz zwierzęta</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
   <LetterLabelPawnsLostBecauseMapClosed_Home>Porzuceni koloniści</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
@@ -404,7 +404,7 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>Wygrana bitwa karawany</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała bitwę.\n\nMożesz teraz przegrupować karawanę na ekranie świata wybierając pole bitwy i opcję "Przegrupuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do przegrupowywania karawany może to zrobić natychmiastowo.\n\nW {0}, karawana przegrupuje się automatycznie.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała bitwę.\n\nMożesz teraz przegrupować karawanę na ekranie świata, wybierając pole bitwy i opcję "Przegrupuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do przegrupowywania karawany może zrobić to natychmiastowo.\n\nW ciągu {0}, karawana przegrupuje się automatycznie.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -466,7 +466,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} dołącza</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>{PAWN_title} o imieniu {PAWN_nameDef} przyby{PAWN_gender ? ł : a} i dołącza do kolonii.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>Przybywa {PAWN_title} o imieniu {PAWN_nameDef} i dołącza do kolonii.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
