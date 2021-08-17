@@ -111,7 +111,7 @@
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>To działanie spowoduje, że {PAWN_nameDef} straci {PAWN_possessive} tytuł {TITLE}. Nie otrzymasz żadnej rekompensaty za zrzeczenie się tytułu.\n\nBędzie to miało następujące skutki:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits> {PAWN_pronoun} straci te uprawnienia</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} straci te uprawnienia</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
@@ -806,7 +806,7 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{1} ({PAWN_gender})</PawnMainDescGendered>
+  <PawnMainDescGendered>{1}, ({PAWN_gender})</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0}, z frakcji {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
@@ -968,9 +968,9 @@
   <!-- EN: Cut now -->
   <AutoCutNow>Wytnij teraz</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>Zbieraj</HarvestGerund>
+  <HarvestGerund>ścinanie</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>Wycinaj</CutGerund>
+  <CutGerund>wycinanie</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1527,7 +1527,7 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Rytualny dźwięk otoczenia</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>Całkowita jakość {0} jest poniżej {1}. Postępowanie najprawdopodobniej negatywnie wpłynie na twoją kolonię.\n\nCzy na pewno?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>Całkowita jakość {0} jest poniżej {1}. Postępowanie najprawdopodobniej negatywnie wpłynie na Twoją kolonię.\n\nCzy na pewno?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Brak dostępnego odpowiedniego miejsca do rozmowy.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
