@@ -761,9 +761,9 @@
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>Prędkość ruchu zależy od średniej prędkości wszystkich ludzi i zwierząt, dźwiganej masy oraz trudności poruszania się po terenie.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
-  <AnimalsWillBeAbleToGraze>Zwierzęta będą mogły się wypasać</AnimalsWillBeAbleToGraze>
+  <AnimalsWillBeAbleToGraze>Możliwość wypasu zwierząt</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
-  <AnimalsCanGraze>Możliwość wypasu zwierząt</AnimalsCanGraze>
+  <AnimalsCanGraze>Zwierzęta mogą się wypasać</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
   <PossibleToGrazeFor>(przez jeszcze {0} dni)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
@@ -1037,11 +1037,11 @@
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} musi celować w niezadaszony obszar.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} jest zepsuty psychicznie.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} jest załaman{0_gender ? y : a} psychicznie.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} nie jest zepsuty psychicznie.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} nie jest załaman{0_gender ? y : a} psychicznie.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} nie jest szalony.</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} nie jest szalon{0_gender ? y : a}.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
   <AbilityCantApplyToScaria>{0_labelShort} ma blizny, które można leczyć tylko medycznie.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
@@ -1049,13 +1049,13 @@
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} ma zerowy opór.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} jest wyłączony.</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort} jest powalon{0_gender ? y : a}.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Nie można użyć: {0} jest bezpłciowy.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} to niewłaściwa płeć dla {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: Psyfocus cost per mental break intensity -->
-  <PsyfocusCostPerMentalBreakIntensity>Wzrost ilości potrzebnego skupienia PSi po każdym załamaniu</PsyfocusCostPerMentalBreakIntensity>
+  <PsyfocusCostPerMentalBreakIntensity>Wzrost ilości potrzebnego skupienia PSI po każdym załamaniu</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
   <AbilityAlreadyInspired>{0_labelShort} jest już zainspirowany.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
@@ -1106,7 +1106,7 @@
 
   <!-- Auto slaughter -->
   <!-- EN: Animal -->
-  <AutoSlaugtherHeaderColLabel>Zwierze</AutoSlaugtherHeaderColLabel>
+  <AutoSlaugtherHeaderColLabel>Zwierzę</AutoSlaugtherHeaderColLabel>
   <!-- EN: Current -->
   <AutoSlaugtherHeaderColCurrent>Jest</AutoSlaugtherHeaderColCurrent>
   <!-- EN: Max -->

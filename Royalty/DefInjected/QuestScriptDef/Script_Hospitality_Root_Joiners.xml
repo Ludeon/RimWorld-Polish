@@ -70,8 +70,8 @@
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>joinerEnding(priority=1)-></li>
-    <li>joinerEnding->Będziesz mógł kontrolować [lodgersDef] tak jak twoich kolonistów.[specialNeedsExplanation]</li>
-    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Będziesz musiał zaspokoić wszystkie królewskie potrzeby jakie [lodgersLabelPlural] będą mieli.</li>
+    <li>joinerEnding->Będziesz mógł kontrolować [lodgersDef] tak jak Twoich kolonistów. [specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->Będziesz musiał zaspokoić wszystkie królewskie potrzeby jakie [lodgersLabelPlural] będą mieli.</li>
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->ich</li>

@@ -23,7 +23,7 @@
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} otrzymał tytuł {TITLE} od frakcji {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>{PAWN_labelShort} nie posiada już dłużej tytułu {TITLE} w {FACTION_name}.</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} nie posiada już dłużej tytułu {TITLE} we frakcji {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Korzyści z tytułu</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
@@ -100,7 +100,7 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Złamane prawo: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>Frakcja {FACTION_name} wykryła nielegalne użycie: {CULPRIT} (szansa wykrycia {CHANCE}) przez {PAWN_labelShort}.\n\nWedług prawa {FACTION_name}, tylko ci, którzy posiadają tytuł {TITLE} mogą używać {CULPRIT}.\n\nJako karę, twoje relacje z frakcją {FACTION_name} spadły o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>Frakcja {FACTION_name} wykryła nielegalne użycie: {CULPRIT} (szansa wykrycia {CHANCE}) przez {PAWN_labelShort}.\n\nWedług prawa {FACTION_name}, tylko ci, którzy posiadają tytuł {TITLE} mogą używać {CULPRIT}.\n\nJako karę, Twoje relacje z frakcją {FACTION_name} spadły o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
@@ -120,7 +120,7 @@
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Ponieważ przemowa została zakłócona po jedynie {0}, nie była efektywna.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>Przemowa {0} została anulowana przed dotarciem do 50%. Nie ma żadnego efektu.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>Przemowa {0} została anulowana przed osiągnięciem 50%. Nie przyniosła żadnego efektu.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Przemowa odwołana.</LetterLabelSpeechCancelled>
 
@@ -160,7 +160,7 @@
   <!-- EN: Join offer: {PAWN_nameDef} -->
   <LetterJoinOfferLabel>Oferta dołączenia: {PAWN_nameDef}</LetterJoinOfferLabel>
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
-  <LetterJoinOfferTitle>{PAWN_nameDef} chciał{PAWN_gender ? by : aby} dołączyć do twojej frakcji.</LetterJoinOfferTitle>
+  <LetterJoinOfferTitle>{PAWN_nameDef} chciał{PAWN_gender ? by : aby} dołączyć do Twojej frakcji.</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
   <LetterJoinOfferText>{PAWN_nameDef} myśli, że {PAWN_pronoun} jest szczęśliw{PAWN_gender ? y : a} w {MAP_definite}. Chce na stałe do ciebie dołączyć.</LetterJoinOfferText>
   <!-- EN: Accept -->
@@ -169,12 +169,12 @@
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>Ceremonia mianowania przedawniła się</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite} nie pokazał się na ceremonii mianowania. Ceremonia została odwołana.</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} nie pokaza{TARGET_gender ? ł : ła} się na ceremonii mianowania. Ceremonia została odwołana.</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>Tytuł {TARGET_definite} zmienił się</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} zyskał nowy tytuł od momentu zaplanowania ceremonii mianowania. W celu przeprowadzenia właściwej ceremonii, w zgodności z nowym tytułem, inna ceremonia zostanie niedługo zaplanowana.\n\nNowa ceremonia bierze pod uwagę łącze PSI, który powinien być nadany przy poprzednich tytułach.</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} zyska{TARGET_gender ? ł : ła} nowy tytuł od momentu zaplanowania ceremonii mianowania. W celu przeprowadzenia właściwej ceremonii, w zgodności z nowym tytułem, inna ceremonia zostanie niedługo zaplanowana.\n\nNowa ceremonia bierze pod uwagę łącze PSI, które powinno być nadane przy poprzednich tytułach.</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : a} {1} honoru, jako znak szacunku od frakcji {FACTION_name}, za zgromadzenie {3} widzów.</LetterPartBestowingExtraHonor>
@@ -196,6 +196,6 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Rozbiła się kapsuła ratunkowa: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_title} o imieniu {0_nameDef} rozbi{PAWN_gender ? ł : ła} się w kapsule w pobliżu.\n\n{0_nameDef} cierpi na {1_label} i nie będzie w stanie chodzić.\n\n{0_pronoun} wyzdrowieje samoistnie po pewnym czasie. istnieje szansa na szybkie ozdrowienie. {1_label} może być także wyleczon{PAWN_gender ? y : a} poprzez specjalną operację, która wymaga dużej ilości ultra-zaawansowanego leku.\n\n{0_pronoun} obiecuje dołączyć do was, gdy wyzdrowieje, ale nie odejdzie dobrowolnie. Jeśli nie chcesz {0_nameDef}, możesz {0_objective} sprzedać do niewoli, lub zostawić na śmierć. Jednak innym kolonistom może się to nie spodobać.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_title} o imieniu {0_nameDef} rozbi{0_gender ? ł : ła} się w kapsule w pobliżu.\n\n{0_nameDef} cierpi na {1_label} i nie będzie w stanie chodzić.\n\nWyzdrowieje samoistnie po pewnym czasie. Istnieje także szansa na szczęśliwe szybkie ozdrowienie. {1_label} może być także wyleczon{0_gender ? y : a} poprzez specjalną operację, która wymaga dużej ilości ultra-zaawansowanego leku.\n\nObiecuje {0_pronoun} do was dołączyć, gdy wyzdrowieje, ale nie odejdzie dobrowolnie. Jeśli nie chcesz {0_nameDef}, możesz {0_objective} sprzedać do niewoli, lub zostawić na śmierć. Jednak innym kolonistom może się to nie spodobać.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>
