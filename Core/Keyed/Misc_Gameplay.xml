@@ -67,7 +67,7 @@
   <!-- EN: Immunity -->
   <Immunity>Odporność</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>{0_numCase ? dzień : dni : dni} do wyleczenia</DaysToRecover>
+  <DaysToRecover>{0} dni do wyleczenia</DaysToRecover>
   <!-- EN: Ineffective -->
   <Ineffective>Nieskuteczny</Ineffective>
   <!-- EN: illegal -->
@@ -167,7 +167,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Ustaw docelową ilość paliwa na {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Ustaw docelową ilość paliwa na {0}\nMaksymalna odległość: {1} {1_numCase ? pole : pola : pól}</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Ustaw docelową ilość paliwa na {0}\nMaksymalna odległość: {1} pól</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Docelowy poziom paliwa: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -187,19 +187,19 @@
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>używa 1 śpiwora</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>używa {0_numCase ? śpiwór : śpiwory : śpiworów}</UsingBedrolls>
+  <UsingBedrolls>używa {0} śpiworów</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>Szacowany czas do celu: {0_numCase ? dzień : dni : dni}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Szacowany czas do celu: {0} dni</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>Czas podróży na trasie: {0_numCase ? dzień : dni : dni}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Czas podróży na trasie: {0} dni</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Unieruchomiona: Zbyt duży ciężar.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Wyczerpane zapasy żywności.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Żywności wystarczy na: {0_numCase ? dzień : dni : dni}</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Żywności wystarczy na: {0} dni</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Żywności wystarczy na: {0_numCase ? dzień : dni : dni} (zgnije za {0_numCase ? dzień : dni : dni})</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Żywności wystarczy na: {0} (zgnije za {1} dni)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Zatrzymana, ponieważ: Wszyscy są powaleni.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
@@ -217,7 +217,7 @@
   <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0} w stanie załamania</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0_numCase ? powalony : powalonych : powalonych}</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} powalonych</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Podróżuje.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -381,7 +381,7 @@
   <!-- EN: {0} wildness -->
   <CreatureWildness>Stopień dzikości</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>Podatność na tresurę</CreatureTrainability>
+  <CreatureTrainability>podatność na tresurę</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>Podążaj za właś. w trybie bojowym</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
@@ -389,7 +389,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} z frakcją {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>Zbyt niebezpiecznie, aby ponownie wejść przez {0_numCase ? dzień : dni : dni}.</EnterCooldown>
+  <EnterCooldown>Zbyt niebezpiecznie, aby ponownie wejść przez {0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Karawana</Caravan>
   <!-- EN: there may be danger there. -->
@@ -443,7 +443,7 @@
   <!-- EN: View: {0} -->
   <ViewHyperlink>Zobacz: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>Detonacja za {0_numCase ? dzień : dni : dni}</DetonationCountdown>
+  <DetonationCountdown>Detonacja za {0} dni</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged -->
   <ExplosionOnDamageWarning>Duża ognista eksplozja w przypadku uszkodzenia</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
