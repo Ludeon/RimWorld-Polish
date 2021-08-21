@@ -51,7 +51,7 @@
   <QuadrumDecembary_Short>Gru</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Urodzony: {0}</Born>
+  <Born>Data urodzenia: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
   <AgeChronological>Wiek chronologiczny: {0} lat, {1} kwartały(-ów), {2} dni</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
@@ -61,23 +61,23 @@
   <!-- EN: 1 year -->
   <Period1Year>rok</Period1Year>
   <!-- EN: {0} years -->
-  <PeriodYears>{0} lat</PeriodYears>
+  <PeriodYears>{0_numCase ? rok : lata : lat}</PeriodYears>
   <!-- EN: 1 quadrum -->
   <Period1Quadrum>kwartał</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} kwartały(-ów)</PeriodQuadrums>
+  <PeriodQuadrums>{0_numCase ? kwartał : kwartały : kwartałów}</PeriodQuadrums>
   <!-- EN: 1 day -->
   <Period1Day>dzień</Period1Day>
   <!-- EN: {0} days -->
-  <PeriodDays>{0} dni</PeriodDays>
+  <PeriodDays>{0_numCase ? dzień : dni : dni}</PeriodDays>
   <!-- EN: 1 hour -->
-  <Period1Hour>godzina</Period1Hour>
+  <Period1Hour>godzinę</Period1Hour>
   <!-- EN: {0} hours -->
-  <PeriodHours>{0} godz</PeriodHours>
+  <PeriodHours>{0_numCase ? godzinę : godziny : godzin}</PeriodHours>
   <!-- EN: 1 second -->
-  <Period1Second>sekunda</Period1Second>
+  <Period1Second>sekundę</Period1Second>
   <!-- EN: {0} seconds -->
-  <PeriodSeconds>{0} sek</PeriodSeconds>
+  <PeriodSeconds>{0_numCase ? sekundę : sekundy : sekund}</PeriodSeconds>
 
   <!-- Misc -->
   <!-- EN: Started -->

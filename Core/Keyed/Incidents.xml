@@ -104,11 +104,11 @@
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>Rozbita część statku wyemitowała skupioną wiązkę psychiczną, która doprowadziła {0} do szału.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>Przebudzenie nastąpiło {0} dni temu</AwokeDaysAgo>
+  <AwokeDaysAgo>Przebudzenie nastąpiło {0_numCase ? dzień : dni : dni} temu</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>Aktywowano {0} dni temu</ActivatedDaysAgo>
+  <ActivatedDaysAgo>Aktywowano {0_numCase ? dzień : dni : dni} temu</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>Otworzono {0} dni temu</OpenedDaysAgo>
+  <OpenedDaysAgo>Otworzono {0_numCase ? dzień : dni : dni} temu</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Poziom brzęczenia PSI: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
