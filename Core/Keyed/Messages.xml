@@ -66,7 +66,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} nie może znaleźć amunicji do {GUN_label}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalaz{PAWN_gender ? ł : ła} w pobliżu zarezerwowanego paliwa {FUEL} dla {GUN_label}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalazł w pobliżu zarezerwowanego paliwa {FUEL} dla {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} podstawowej szansy na to, że {ANIMAL_kindBasePlural} zaatakują, gdy się je zrani. Szansa zależna jest od dystansu i umiejętności kamuflażu myśliwego.</MessageAnimalsGoPsychoHunted>
@@ -76,7 +76,7 @@
   <MessageInsectTameDesignated>Tylko osoby z cechą sympatii owadów mogą oswoić {INSECT_indefinite}.</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>Ostrzeżenie: {PAWN_labelShort} jest wrog{PAWN_gender ? i : a} i zaatakuje, gdy Twój kolonista spróbuje {PAWN_objective} oswoić.</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
@@ -168,13 +168,13 @@
   <MessageGaveBirth>{0} urodziła.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} nie będzie {PAWN_gender ? mógł : mogła} użyć łącza PSI, gdy ma zerową wrażliwość psychiczną.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} nie będzie mógł użyć łącza PSI, gdy {PAWN_pronoun} ma zerową wrażliwość psychiczną.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} utraci{PAWN_gender ? ł : ła} {1} poziom implantu z powodu {2}.</MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} utracił {1} poziom implantu z powodu {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} dozna{PAWN_gender ? ł : ła} {1} punktów uszkodzenia mózgu z powodu {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} przekroczy{PAWN_gender ? ł : ła} normalny limit ciepła neuronowego.</MessageWentOverPsychicEntropyLimit>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} przekroczył normalny limit ciepła neuronowego.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić zwierzęcia - {ANIMAL_kindBase}, (wymaga poziomu {1} w kategorii: {2}, a najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
