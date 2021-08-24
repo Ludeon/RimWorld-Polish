@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] wysyła sygnał z pobliża. [asker_possessive] ochroniarze zostali zabici w zasadzce. [asker_managed] [asker_pronoun] uciec, ale teraz [asker_followed] (*Threat)[animalKindDef_label] w ludożerczym stanie(/Threat).\n\n[asker_nameDef] chce, żeby [asker_objective] chronić przez parę godzin, zanim [asker_possessive] prom będzie mógł [asker_objective] zabrać.\n\nW nagrodę przyzna [royalFavorReward] [asker_faction_royalFavorLabel] komukolwiek, kto przyjmie to zadanie. Ta ilość [asker_faction_royalFavorLabel] wystarczy, aby otrzymać tytuł Dzierżawcy i wszystkie jego korzyści - włączając w to pierwszy poziom mocy psychicznych.</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] wysyła sygnał z pobliża. [asker_possessive] ochroniarze zostali zabici w zasadzce. [asker_managed] [asker_pronoun] uciec, ale teraz [asker_followed] (*Threat)[animalKindDef_label] w stanie wściekłości(/Threat).\n\n[asker_nameDef] chce, żeby [asker_objective] chronić przez parę godzin, zanim [asker_possessive] prom będzie mógł [asker_objective] zabrać.\n\nW nagrodę przyzna +[royalFavorReward]u [asker_faction_royalFavorLabel] komukolwiek, kto przyjmie to zadanie. Ta ilość [asker_faction_royalFavorLabel]u wystarczy, aby otrzymać tytuł Dzierżawcy i wszystkie jego korzyści - włączając w to pierwszy poziom mocy psychicznych.</li>
     <li>asker_followed(asker_gender==Male)->śledzi go</li>
     <li>asker_followed(asker_gender==Female)->śledzi ją</li>
     <li>asker_managed(asker_gender==Male)->zdołał</li>
@@ -21,18 +21,17 @@
     <li>adjAny->ambushed</li>
   -->
   <Intro_Wimp.questNameRules.rulesStrings>
-    <li>questName(asker_gender==Male)->[adjAny_mas] [asker_royalTitleInCurrentFaction]</li>
-    <li>questName(asker_gender==Female)->[adjAny_fem] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny_mas->goniony</li>
-    <li>adjAny_fem->goniona</li>
-    <li>adjAny_mas->uciekający</li>
-    <li>adjAny_fem->uciekająca</li>
-    <li>adjAny_mas->samotny</li>
-    <li>adjAny_fem->samotna</li>
-    <li>adjAny_mas->zaatakowany</li>
-    <li>adjAny_fem->zaatakowana</li>
-    <li>adjAny_mas->napadnięty</li>
-    <li>adjAny_fem->napadnięta</li>
+    <li>questName->[adjAny] [asker_royalTitleInCurrentFaction]</li>
+    <li>adjAny(asker_gender==Male)->goniony</li>
+    <li>adjAny(asker_gender==Female)->goniona</li>
+    <li>adjAny(asker_gender==Male)->uciekający</li>
+    <li>adjAny(asker_gender==Female)->uciekająca</li>
+    <li>adjAny(asker_gender==Male)->samotny</li>
+    <li>adjAny(asker_gender==Female)->samotna</li>
+    <li>adjAny(asker_gender==Male)->zaatakowany</li>
+    <li>adjAny(asker_gender==Female)->zaatakowana</li>
+    <li>adjAny(asker_gender==Male)->napadnięty</li>
+    <li>adjAny(asker_gender==Female)->napadnięta</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] przybywa</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
@@ -49,9 +48,9 @@
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
   <Intro_Wimp.LetterTextShuttleArrived.slateRef>Przybył prom, aby odebrać [asker_nameDef]</Intro_Wimp.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelGuestDied.slateRef>Gość zmarł: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
+  <Intro_Wimp.LetterLabelGuestDied.slateRef>Zmarł gość: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? który był : która} mięliście chronić, zmar{SUBJET_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
+  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? którego : którą} mięliście chronić, zmar{SUBJECT_gender ? ł : ła}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Nieautoryzowana operacja: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
