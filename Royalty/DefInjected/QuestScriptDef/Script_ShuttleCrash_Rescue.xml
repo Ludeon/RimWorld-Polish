@@ -25,12 +25,38 @@
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>TODO</ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->Nie udało ci się wykonać zadania '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->Udało ci się wykonać zadanie '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Nie każdy [asker_faction_pawnSingular] [pawnLabel] mógł być uratowany. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->Żadni [asker_faction_pawnSingular] [pawnLabelPlural] nie mogli być uratowani. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->Twoje relacje z frakcją [asker_faction_name] spadły za każdego [pawnLabel] pozostawionego.</li>
+    <li>commanderLandingDesc->[asker_nameDef], komandor który poprosił o wylądowanie [asker_possessive] promu w [map_definite]</li>
+    <li>raidArrivedLetterLabel->Najazd: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] z frakcji [enemyFaction_name] przybyli. Zaatakują [asker_faction_pawnsPlural], którzy rozbili się w [map_definite].\n\nBroń ich [asker_faction_pawnsPlural] dopóki nie przybędzie po nich prom za [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Przybył prom ratowniczy</li>
+    <li>rescueShuttleArrivedLetterText->Przybył prom ratowniczy zabrać [pawnLabelSingleOrPlural], którzy się rozbili. Upewnij się, że ci ludzie wsiądą na prom zanim odleci [rescueDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], uciekł. [asker_pronoun] jest wdzięczy za pomoc, którą [asker_pronoun] otrzymał w [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], uciekł.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Zadanie nie powiodło się: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] nie był na pokładzie promu, gdy ten odleciał.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Zadanie nie powiodło się: [resolvedQuestName]</li>
+    <li>allLostLetterText->Prom ratowniczy wysłany po [asker_faction_pawnsPlural] odleciał bez nikogo.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Zadanie nie powiodło się: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] zmarł.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Zadanie nie powiodło się: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->Prom wysłany aby zabrać [asker_faction_pawnsPlural] został zniszczony. [asker_faction_pawnsPlural] odejdą teraz na nogach.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+    <li>pawnLabel->cywil</li>
+    <li>pawnLabelPlural->cywile</li>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
@@ -42,7 +68,17 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->Prom frakcji [asker_faction_name] doznał uszkodzeń i szuka miejsca do lądowania. Komandor promu [asker_nameDef] chce wylądować w [map_definite].\n\n[enemyFaction_pawnsPlural] z frakcji [enemyFaction_name] zaatakują, aby zabić pasażerów. Musisz ich bronić.\n\nNa pokładzie znajdują się: [asker_nameDef][andOtherCivilians] i [soldiers_count] [soldiers0_kind]. Komandor [andCivilians] muszą zostać uratowani, ale [soldiers0_kind] mogą zginąć.\n\nPo [rescueDelay_duration], prom ratowniczy przybędzie, aby zabrać ocalałych. Musisz ich wsadzić na prom w [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, inny [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] innych [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->i [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->i [pawnLabelPlural]</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -64,6 +100,26 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[shuttle] [asker_faction_pawnSingular] [crash]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->[damaged] [shuttle] [asker_nameDef]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[emergency] [landing] [asker_nameDef]</li>
+    <li>shuttle->prom</li>
+    <li>shuttle->transportowiec</li>
+    <li>shuttle->statek</li>
+    <li>crash->rozbija się</li>
+    <li>crash->spada</li>
+    <li>damaged->uszkodzony</li>
+    <li>damaged->trafiony</li>
+    <li>damaged->wadliwy</li>
+    <li>emergency->awaryjne</li>
+    <li>emergency->wymuszone</li>
+    <li>landing->lądowanie</li>
+    <li>landing->zejście</li>
+    <li>landing->podejście</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

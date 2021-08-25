@@ -9,7 +9,16 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
-  <Breakup.logRulesInitiator.rulesStrings>TODO</Breakup.logRulesInitiator.rulesStrings>
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przerwę.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o przerwę.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] że potrzebuje więcej wolności.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef] że potrzebuje więcej wolności.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że to już nie działa</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że to już nie działa</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
+  </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>oświadczyny</MarriageProposal.label>
@@ -18,7 +27,14 @@
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
-  <MarriageProposal.logRulesInitiator.rulesStrings>TODO</MarriageProposal.logRulesInitiator.rulesStrings>
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] spytał czy [RECIPIENT_nameDef] zostanie jego żoną.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] spytała czy [RECIPIENT_nameDef] zostanie jej mężem.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o ręke.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o ręke.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>flirt</RomanceAttempt.label>
@@ -84,6 +100,57 @@
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings>TODO</RomanceAttempt.logRulesInitiator.rulesStrings>
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] [wootactic].</li>
+    <li>wooed(INITIATOR_gender==male)->próbował flirtować z</li>
+    <li>wooed(INITIATOR_gender==female)->próbowała flirtować z</li>
+    <li>wooed(INITIATOR_gender==male)->flirtował z</li>
+    <li>wooed(INITIATOR_gender==female)->flirtowała z</li>
+    <li>wooed(INITIATOR_gender==male)->próbował przyciągnąć</li>
+    <li>wooed(INITIATOR_gender==female)->próbowała przyciągnąć</li>
+    <li>wooed(INITIATOR_gender==male)->próbował romansować</li>
+    <li>wooed(INITIATOR_gender==female)->próbowała romansować</li>
+    <li>wooed(INITIATOR_gender==male)->próbował wabić</li>
+    <li>wooed(INITIATOR_gender==female)->próbowała wabić</li>
+    <li>wooed(INITIATOR_gender==male)->oczarowywał</li>
+    <li>wooed(INITIATOR_gender==female)->oczarowywała</li>
+    <li>wooed->zalecać się do</li>
+    <li>wootactic->opowiadając historię o [TalkTopicAny]</li>
+    <li>wootactic->opowiadając ciekawostkę o [TalkTopicAny]</li>
+    <li>wootactic->żartując na temat [TalkTopicAny]</li>
+    <li>wootactic->porównując [RECIPIENT_nameDef] do [romantic_adj] [romantic_nou]</li>
+    <li>wootactic->opisując [RECIPIENT_nameDef] [romantic_adj] [romantic_noun]</li>
+    <li>complimenting->komplementy</li>
+    <li>complimenting->subtelnie komplementujący</li>
+    <li>complimenting->chwaląc</li>
+    <li>complimenting->polecając</li>
+    <li>complimenting->mówiąc dobre rzeczy o</li>
+    <li>complimenting->żartobliwie nabijając się z</li>
+    <li>complimenting->żartobliwie żartując z</li>
+    <li>complimenting->żartobliwie pół-komplementując</li>
+    <li>complimenting->bezczelnie pytający</li>
+    <li>complimenting->wesoło się nabijać</li>
+    <li>romantic_adj->piękno</li>
+    <li>romantic_adj->lśnienie</li>
+    <li>romantic_adj->migotanie</li>
+    <li>romantic_adj->złoto</li>
+    <li>romantic_adj->światło</li>
+    <li>romantic_adj->urok</li>
+    <li>romantic_adj->dotyk</li>
+    <li>romantic_noun->kwiatów</li>
+    <li>romantic_noun->wiosny</li>
+    <li>romantic_noun->rzeki</li>
+    <li>romantic_noun->gwiazd</li>
+    <li>romantic_noun->księżyca</li>
+    <li>romantic_noun->słońca</li>
+    <li>romantic_noun->zorzy polarnej</li>
+    <li>romantic_nou->kwiatu</li>
+    <li>romantic_nou->wiosny</li>
+    <li>romantic_nou->rzeki</li>
+    <li>romantic_nou->gwiazdy</li>
+    <li>romantic_nou->księżyca</li>
+    <li>romantic_nou->słońca</li>
+    <li>romantic_nou->zorzy polarnej</li>
+  </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

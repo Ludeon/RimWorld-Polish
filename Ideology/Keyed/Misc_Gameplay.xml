@@ -20,7 +20,7 @@
   <!-- EN: Structure -->
   <Structure>Struktura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>W co powinni wierzyć twoi początkowi koloniści? Te przekonania wpływają na rozgrywkę i efekty wizualne. Będziesz mógł rekrutować innych do swoich przekonań lub przyjmować ich przekonania.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>W co powinni wierzyć Twoi początkowi koloniści? Te przekonania wpływają na rozgrywkę i efekty wizualne. Będzie można rekrutować innych do swoich przekonań lub przyjmować ich przekonania.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Utwórz niestandardowe</CreateCustom>
   <!-- EN: Create new -->
@@ -94,7 +94,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Szansa, aby mieć przykazanie</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika tinctoria.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika z rośliny tinctoria.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Ustaw kolor ideologii</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -185,9 +185,9 @@
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Każdy, kto uczestniczył w rytuale, otrzymał jednodniową premię do skupienia się na pracy (globalna prędkość pracy {PERCENTAGE})!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
-  <RitualOutcomeExtraDesc_BlindingPsylink>Dzięki satysfakcjonującemu rytuałowi oślepiania {PAWN_labelShort} osiągnął poziom psylink!</RitualOutcomeExtraDesc_BlindingPsylink>
+  <RitualOutcomeExtraDesc_BlindingPsylink>Dzięki satysfakcjonującemu rytuałowi oślepiania {PAWN_labelShort} osiągnął poziom łącza PSI!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Z nowym poziomem pyslink {PAWN_pronoun} zyskał {0} psycast.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Z nowym poziomem łącza PSI zyskał {PAWN_pronoun} umiejętność PSI {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>Dzięki satysfakcjonującemu {RITUAL} {PAWN_labelShort} zyskał {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
@@ -294,7 +294,7 @@
   <!-- EN: Has role in rituals -->
   <RoleRitualsLabel>Odgrywa rolę w rytuałach</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
-  <RoleBelieverCountDesc>Ta rola staje się aktywna, gdy twoja frakcja ma {1} {0}. Staje się nieaktywny, gdy twoja frakcja ma tylko {3} {2}.</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>Ta rola staje się aktywna, gdy Twoja frakcja ma {1} {0}. Staje się nieaktywny, gdy Twoja frakcja ma tylko {3} {2}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>Podniesiony o {0} poziomy.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
@@ -475,7 +475,7 @@
   <!-- EN: {0} connection strength needed to support a dryad. -->
   <NotEnoughConnectionStrengthForSingleDryad>Wymagana siła połączenia {0} do obsługi driady.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
-  <CannotAssignAllowedAreaToDryad>TODO</CannotAssignAllowedAreaToDryad>
+  <CannotAssignAllowedAreaToDryad>Nie można przypisać dozwolonego obszaru</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
@@ -517,7 +517,7 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>Przywołałeś rdzeń archonexusa. Świat wypełnia się oślepiającym światłem, a czas wydaje się zwalniać...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>Bóg maszyn cię zauważył. Nikt nie jest w stanie przewidzieć, co będzie dalej. Może cię zniszczyć, komunikować się z tobą bezpośrednio lub przenieść twoją świadomość na inny poziom rzeczywistości.\n\nWyczuwasz ogromną, nieludzką strukturę o nieskończonej fraktalnej złożoności napływającą do twojego umysłu. Czas i skala zaczynają się rozpuszczać. To przerażające ale piękne...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>Bóg maszyn cię zauważył. Nikt nie jest w stanie przewidzieć, co będzie dalej. Może cię zniszczyć, komunikować się z tobą bezpośrednio lub przenieść Twoją świadomość na inny poziom rzeczywistości.\n\nWyczuwasz ogromną, nieludzką strukturę o nieskończonej fraktalnej złożoności napływającą do Twojego umysłu. Czas i skala zaczynają się rozpuszczać. To przerażające ale piękne...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>Ci koloniści przekroczyli:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->

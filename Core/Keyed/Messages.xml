@@ -52,7 +52,7 @@
   <MessageNeedRoyalTitleToCallWithShip>Osoba dzwoniąca musi mieć tytuł {0_label} lub wyższy.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0} zostało zniszczone</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>Zniszczono: {0}.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Zlecenie ukończone: {0}.</MessageBillComplete>
@@ -66,7 +66,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} nie może znaleźć amunicji do {GUN_label}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalazł w pobliżu zarezerwowanego paliwa {FUEL} dla {GUN_label}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalaz{PAWN_gender ? ł : ła} w pobliżu zarezerwowanego paliwa {FUEL} dla {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} podstawowej szansy na to, że {ANIMAL_kindBasePlural} zaatakują, gdy się je zrani. Szansa zależna jest od dystansu i umiejętności kamuflażu myśliwego.</MessageAnimalsGoPsychoHunted>
@@ -76,7 +76,7 @@
   <MessageInsectTameDesignated>Tylko osoby z cechą sympatii owadów mogą oswoić {INSECT_indefinite}.</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>Uwaga: {PAWN_labelShort} jest wrog{PAWN_gender ? i : a} i zaatakuje, gdy Twój kolonista spróbuje {PAWN_objective} oswoić.</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nowy rekrut</LetterLabelMessageRecruitSuccess>
@@ -116,7 +116,7 @@
   <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Należy wyznaczyć porzucone budynki.</MessageMustDesignateClaimable>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Musisz pokonać klaster mechów, zanim będziesz mógł to rozebrać.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Musisz pokonać klaster mechów, zanim będzie można to rozebrać.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Należy wyznaczyć nieobrobioną, kamienną powierzchnię.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -168,16 +168,16 @@
   <MessageGaveBirth>{0} urodziła.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} nie będzie mógł użyć łącza PSI, gdy {PAWN_pronoun} ma zerową wrażliwość psychiczną.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} nie będzie {PAWN_gender ? mógł : mogła} użyć łącza PSI, gdy ma zerową wrażliwość psychiczną.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} utracił {1} poziom implantu z powodu {2}.</MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} utraci{PAWN_gender ? ł : ła} {1} poziom implantu z powodu {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
-  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} doznał {1} punktów uszkodzenia mózgu z powodu {2}.</MessageReceivedBrainDamageFromHediff>
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} dozna{PAWN_gender ? ł : ła} {1} punktów uszkodzenia mózgu z powodu {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} przekroczył normalny limit ciepła neuronowego.</MessageWentOverPsychicEntropyLimit>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} przekroczy{PAWN_gender ? ł : ła} normalny limit ciepła neuronowego.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić tego zwierzęcia, (wymaga poziomu {1} w kategorii: {2}, a najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić zwierzęcia - {ANIMAL_kindBase}, (wymaga poziomu {1} w kategorii: {2}, a najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? został : została : zostało} {EATEN_gender ? zjedzony : zjedzona : zjedzone}  przez {PREDATOR}.</MessageEatenByPredator>
@@ -448,7 +448,7 @@
   <MessagePeaceTalksNoDiplomat>Brak przytomnych, zdolnych dyplomatów.</MessagePeaceTalksNoDiplomat>
 
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
-  <MessageWarningCavePlantsExposedToLight>Uwaga: {0} nie przeżyje wystawiona na działanie światła słonecznego.</MessageWarningCavePlantsExposedToLight>
+  <MessageWarningCavePlantsExposedToLight>Uwaga: {0} nie może rosnąć w świetle słonecznym.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} nie może dosięgnąć {OLDTARGET_label} więc [PAWN_pronoun] przekierowuje [PAWN_possessive] złość na {TARGET_label}.</MessageTargetedTantrumChangedTarget>
@@ -462,7 +462,7 @@
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} nie urośnie pod zadaszeniem.</MessagePlantIncompatibleWithRoof>
   <!-- EN: Cannot build a roof over {0}. -->
-  <MessageRoofIncompatibleWithPlant>Nie można zbudować dachu nad tą roślina: {0}.</MessageRoofIncompatibleWithPlant>
+  <MessageRoofIncompatibleWithPlant>Nie można zbudować dachu nad rośliną: {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Przegrupuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
@@ -559,9 +559,9 @@
   <MessageBillValidationStoreZoneInsufficient>{1} "{0}" nie może już dostarczyć wszystkich przedmiotów do składowiska {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Z powodu braku utrzymania oswojenia, {1_labelShort} {1_gender ? wrócił : wróciła : wróciło} do życia w dziczy.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>Z powodu braku utrzymania oswojenia, {1_labelShort} {1_gender ? wrócił : wróciła} do życia w dziczy.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>{1_labelShort} powróci{ANIMAL_gender ? ł : ła} na wolność.</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>{1_labelShort} zosta{1_gender ? ł : ła} wyposzczon{1_gender ? y : a} na wolność.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Z powodu braku utrzymania szkolenia, {ANIMAL_labelShort} {ANIMAL_gender ? stracił : straciła : straciło} umiejętność: {1}</MessageAnimalLostSkill>
 
@@ -627,7 +627,7 @@
   <NoValidDestinationFound>Nie znaleziono prawidłowego miejsca docelowego dla {0}</NoValidDestinationFound>
 
   <!-- EN: An extracted tree just died. -->
-  <MessageMinifiedTreeDied>TODO</MessageMinifiedTreeDied>
+  <MessageMinifiedTreeDied>Wykopane drzewo właśnie umarło.</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->

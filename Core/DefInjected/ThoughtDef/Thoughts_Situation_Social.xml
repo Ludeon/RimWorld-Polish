@@ -14,9 +14,13 @@
   
   <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-0.label>obrzydzają mnie modyfikacje (puryzm)</BodyPuristDisgust.stages.body_purist_disgust-0.label>
+  <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-1.label>obrzydzają mnie modyfikacje (puryzm)</BodyPuristDisgust.stages.body_purist_disgust-1.label>
+  <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-2.label>obrzydzają mnie modyfikacje (puryzm)</BodyPuristDisgust.stages.body_purist_disgust-2.label>
+  <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-3.label>obrzydzają mnie modyfikacje (puryzm)</BodyPuristDisgust.stages.body_purist_disgust-3.label>
+  <!-- EN: body purist disgust -->
   <BodyPuristDisgust.stages.body_purist_disgust-4.label>obrzydzają mnie modyfikacje (puryzm)</BodyPuristDisgust.stages.body_purist_disgust-4.label>
   
   <!-- EN: {0}'s master -->
@@ -29,7 +33,7 @@
   <BondedAnimalMaster.stages.master_of.description>Przebywanie ze zwierzakami, z którymi łączy mnie więź, sprawia, że czuję się lepiej.</BondedAnimalMaster.stages.master_of.description>
   
   <!-- EN: chemical interest vs teetotaler -->
-  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>alkoholik kontra abstynent</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
+  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>miłośnik używek kontra abstynent</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
   
   <!-- EN: creepy breathing -->
   <CreepyBreathing.stages.creepy_breathing.label>przerażająco oddycha</CreepyBreathing.stages.creepy_breathing.label>
@@ -44,8 +48,8 @@
   <Drunk.stages.drunk.labelSocial>jest pijan{1_gender ? y : a}</Drunk.stages.drunk.labelSocial>
   
   <!-- EN: executed prisoner -->
-  <ExecutedPrisoner.stages.executed_prisoner.label>stracenie więźnia</ExecutedPrisoner.stages.executed_prisoner.label>
-  <ExecutedPrisoner.stages.executed_prisoner.label>straci{1_gender ? ł : ła} więźnia</ExecutedPrisoner.stages.executed_prisoner.label>
+  <ExecutedPrisoner.stages.executed_prisoner.label>stracił(a) więźnia</ExecutedPrisoner.stages.executed_prisoner.label>
+  <ExecutedPrisoner.stages.executed_prisoner.labelSocial>straci{1_gender ? ł : ła} więźnia</ExecutedPrisoner.stages.executed_prisoner.labelSocial>
   
   <!-- EN: hard worker vs lazy -->
   <HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>pracowity kontra leń</HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>
@@ -58,11 +62,12 @@
   <Incestuous.stages.incestuous.labelSocial>jest kazirodcą</Incestuous.stages.incestuous.labelSocial>
   
   <!-- EN: killed colonist -->
-  <KilledColonist.stages.killed_colonist.label>zabicie kolonisty</KilledColonist.stages.killed_colonist.label>
-  <KilledColonist.stages.killed_colonist.label>zabi{1_gender ? ł : ła} kolonist{1_gender ? ę : kę}</KilledColonist.stages.killed_colonist.label>
+  <KilledColonist.stages.killed_colonist.label>zabił(a) kolonistę(kę)</KilledColonist.stages.killed_colonist.label>
+  <KilledColonist.stages.killed_colonist.labelSocial>zabi{1_gender ? ł : ła} kolonist{1_gender ? ę : kę}</KilledColonist.stages.killed_colonist.labelSocial>
   
   <!-- EN: killed colony animal -->
-  <KilledColonyAnimal.stages.killed_colony_animal.label>zabi{1_gender ? ł : ła} zwierzaka z kolonii</KilledColonyAnimal.stages.killed_colony_animal.label>
+  <KilledColonyAnimal.stages.killed_colony_animal.label>zabił(a) zwierzaka z kolonii</KilledColonyAnimal.stages.killed_colony_animal.label>
+  <KilledColonyAnimal.stages.killed_colony_animal.labelSocial>zabi{1_gender ? ł : ła} zwierzaka z kolonii</KilledColonyAnimal.stages.killed_colony_animal.labelSocial>
   
   <!-- EN: man -->
   <Man.stages.man.label>mężczyzna</Man.stages.man.label>
@@ -78,7 +83,7 @@
   <NotBondedAnimalMaster.stages.not_master_of.description>Powinienem być razem ze swoim zwierzakami.</NotBondedAnimalMaster.stages.not_master_of.description>
   
   <!-- EN: opinion of my {0} {1} -->
-  <OpinionOfMyLover.stages.opinion_of_my.label>opinia o - {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
+  <OpinionOfMyLover.stages.opinion_of_my.label>opinia o mo{PAWN_gender ? jej : oim}{replace: {0}; "mąż"-"mężu"; "żona"-"żonie"} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
   <!-- EN: Being with them makes me feel this way. -->
   <OpinionOfMyLover.stages.opinion_of_my.description>To, że jesteśmy razem, sprawia, że czuję się w ten sposób.</OpinionOfMyLover.stages.opinion_of_my.description>
   
@@ -97,13 +102,17 @@
   <TeetotalerVsAddict.stages.teetotaler_vs_addict.label>abstynent kontra uzależniony</TeetotalerVsAddict.stages.teetotaler_vs_addict.label>
   
   <!-- EN: teetotaler vs chemical interest -->
-  <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>abstynent kontra alkoholik</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
+  <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>abstynent kontra miłośnik używek</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
   
   <!-- EN: body modder appreciation -->
   <TranshumanistAppreciation.stages.body_modder_appreciation-0.label>uznanie od modera ciała</TranshumanistAppreciation.stages.body_modder_appreciation-0.label>
+  <!-- EN: body modder appreciation -->
   <TranshumanistAppreciation.stages.body_modder_appreciation-1.label>uznanie od modera ciała</TranshumanistAppreciation.stages.body_modder_appreciation-1.label>
+  <!-- EN: body modder appreciation -->
   <TranshumanistAppreciation.stages.body_modder_appreciation-2.label>uznanie od modera ciała</TranshumanistAppreciation.stages.body_modder_appreciation-2.label>
+  <!-- EN: body modder appreciation -->
   <TranshumanistAppreciation.stages.body_modder_appreciation-3.label>uznanie od modera ciała</TranshumanistAppreciation.stages.body_modder_appreciation-3.label>
+  <!-- EN: body modder appreciation -->
   <TranshumanistAppreciation.stages.body_modder_appreciation-4.label>uznanie od modera ciała</TranshumanistAppreciation.stages.body_modder_appreciation-4.label>
   
   <!-- EN: physically unsightly -->
@@ -114,9 +123,9 @@
   <Ugly.stages.physically_hideous.labelSocial>jest brzydk{1_gender ? i : a}</Ugly.stages.physically_hideous.labelSocial>
   
   <!-- EN: sleeping alone -->
-  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>śpię sa{PAWN_gender ? m : ma}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>śpi sa{PAWN_gender ? m : ma}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
   <!-- EN: I should be sleeping with a lover or spouse. -->
-  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>Nie podoba mi się to, że śpię bez moje{PAWN_gender ? j : go} partner{PAWN_gender ? ki : a}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>Powin{PAWN_gender ? ienem : nam} spać razem z mo{PAWN_gender ? ją : im} ukochan{PAWN_gender ? ą : ym}.</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
   
   <!-- EN: woman -->
   <Woman.stages.woman.label>kobieta</Woman.stages.woman.label>

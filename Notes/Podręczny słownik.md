@@ -9,7 +9,7 @@ Mechanoid
 Marine, Marines  
 Thrumbo
   
-* #Ogólne  
+#Ogólne  
 * tryb bojowy (draft)  
 * przydział (assign)  
 * wyznacz (designate)  
@@ -48,6 +48,8 @@ Thrumbo
 * zespół odstawienny (withdrawal)  
 * szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
 * purysta ciała (body purist)  
+* moder ciała (body moder)  
+* łowca ludzi (manhunter) -istota w stanie szału polująca na ludzi (stan pojawia się u zwierząt i dzikusów)
 
 # Praca i czynność  
 *  rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
