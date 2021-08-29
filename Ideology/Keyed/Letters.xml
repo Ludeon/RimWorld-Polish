@@ -3,7 +3,7 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>namówienie</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>Konwersja</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
   <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} pomyślnie odwrócił {RECIPIENT_nameDef} od {OLDIDEO_name} w kierunku {IDEO_name}.</LetterConvertIdeoAttempt_Success>
 
@@ -86,9 +86,9 @@
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
-  <LetterLabelEnslavementSuccess>Zniewolony</LetterLabelEnslavementSuccess>
+  <LetterLabelEnslavementSuccess>Zniewolono</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
-  <LetterEnslavementSuccess>{0_nameDef} pomyślnie zniewolił {1_nameDef}.</LetterEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef} pomyślnie zniewoli{0_gender ł : ła} {1_nameDef}.</LetterEnslavementSuccess>
 
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
@@ -106,13 +106,13 @@
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>{PAWN_pronoun} uznał, że {PAWN_possessive} wiara w {OLDIDEO_name} nie ma już sensu.\n\n{PAWN_pronoun} teraz wierzy w {NEWIDEO_name}.</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>Uzna{PAWN_gender ? ł : ła}, że {PAWN_possessive} wiara w {OLDIDEO_name} nie ma już sensu.\n\n{PAWN_pronoun} teraz wierzy w {NEWIDEO_name}.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
   <LetterIdeoChangeNotConverted>Pewność {PAWN_nameDef} z {PAWN_possessive} wiarą w {OLDIDEO_name} została zmniejszona do {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>Aby pogodzić się z poglądami {PAWN_possessive}, {PAWN_nameDef} ukrywa się teraz w pokoju {PAWN_possessive}.</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>Aby pogodzić się z poglądami {PAWN_possessive}, {PAWN_nameDef} ukrywa się teraz w swoim pokoju.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef} wędruje teraz w szoku, zmagając się z poglądami {PAWN_possessive}.</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} wędruje teraz w szoku, zmagając się ze swoimi poglądami.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Pożądana zmiana wyglądu</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef} chce zmienić wygląd {PAWN_possessive}, ponieważ nie pasuje on już do tego, w co wierzy.\n\n{PAWN_nameDef automatycznie użyje dostępnej stacji stylizacyjnej i wybierze wygląd. Jeśli chcesz dostosować {PAWN_possessive} wygląd, wybierz {PAWN_objective} i kliknij prawym przyciskiem myszy stację stylizacyjną.</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} chce zmienić swój wygląd, ponieważ nie pasuje on już do {PAWN_possessive} obecnej wiary.\n\n{PAWN_nameDef} automatycznie użyje dostępnej stacji stylizacyjnej i wybierze wygląd. Jeśli chcesz dostosować {PAWN_possessive} wygląd, wybierz {PAWN_objective} i kliknij prawym przyciskiem myszy stację stylizacyjną.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
@@ -170,13 +170,13 @@
   <!-- EN: Relic found -->
   <LetterLabelRelicFound>Znaleziono relikt</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
-  <LetterTextRelicFoundLocation>W końcu poznałeś lokalizację reliktu {0}!</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundLocation>W końcu poznano lokalizację reliktu {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
   <LetterTextRelicFoundSecurityThreats>Relikwia mieści się w starożytnej konstrukcji. Jest chroniona przez system bezpieczeństwa z wieloma niezależnymi jednostkami. Możesz pokonać niebezpieczeństwa pojedynczo, zanim zabierzesz relikt, lub spróbować go złapać i uciec, zanim zdążą cię skrzywdzić.\n\nPo {0} wszystkie systemy bezpieczeństwa zostaną zaalarmowane.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
-  <LetterLabelRelicsCollected>Zabrane relikwie</LetterLabelRelicsCollected>
+  <LetterLabelRelicsCollected>Zebrano relikwie</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
   <LetterTextRelicsCollected>Wszystkie relikwie należące do {0} zostały zebrane. Następujące osoby będą zachwycone</LetterTextRelicsCollected>
 
@@ -192,16 +192,16 @@
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
-  <LetterLabelArchonexusWealthReached>Misja „{0}” dostępna</LetterLabelArchonexusWealthReached>
+  <LetterLabelArchonexusWealthReached>Misja '{0}' dostępna</LetterLabelArchonexusWealthReached>
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
-  <LetterTextArchonexusWealthReached>Osiągnąłeś wymaganie bogactwa dla zadania '{0}'. Możesz je teraz przyjąć.</LetterTextArchonexusWealthReached>
+  <LetterTextArchonexusWealthReached>Osiągnięto wymaganie bogactwa dla zadania '{0}'. Możesz je teraz przyjąć.</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
-  <LetterLabelArchonexusStructureResearched>{0_labelShort} studiował</LetterLabelArchonexusStructureResearched>
+  <LetterLabelArchonexusStructureResearched>{0_labelShort} studiowa{0_gender ? ł : ła}</LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
-  <LetterTextArchonexusStructureResearched>Ukończyłeś badanie {0_labelShort}.\n\nNie możesz powiedzieć, że rozumiesz go w pełni, ale wykryłeś wzorce w jego zachowaniu i sposobie, w jaki wydaje się wyrażać informacje.\n\nDzięki tej wiedzy, będzie można zinterpretować kolejny fragment mapy archanexusa.</LetterTextArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>Ukończono badanie {0_labelShort}.\n\nNie możesz powiedzieć, że rozumiesz go w pełni, ale wykrywasz wzorce w jego zachowaniu i sposobie, w jaki wydaje się wyrażać informacje.\n\nDzięki tej wiedzy, będzie można zinterpretować kolejny fragment mapy archanexusa.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
   <LetterLabelArchotechStructuresAbandoned>Porzucone konstrukcje archatycznych</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>Porzuciłeś struktury archatycznych w {0_definite}.\n\nOdlegli obserwatorzy mówią, że widzieli wielki błysk emanujący z tego miejsca niedługo po tym, jak wyszedłeś.</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>Porzucono struktury archatycznych w {0_definite}.\n\nOdlegli obserwatorzy mówią, że widzieli wielki błysk emanujący z tego miejsca niedługo po Twoim odejściu.</LetterTextArchotechStructuresAbandoned>
 
 </LanguageData>

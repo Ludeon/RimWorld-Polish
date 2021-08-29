@@ -7,7 +7,7 @@
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>(Wrażenie: {0})</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
-  <ThroneMustBePlacedInside>Tron musi być wewnątrz pomieszczenia.</ThroneMustBePlacedInside>
+  <ThroneMustBePlacedInside>Tron musi być umieszczony w pomieszczeniu.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
   <MinimumRoyalTitleInspectString>Minimalny tytuł ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
@@ -42,13 +42,13 @@
   <!-- EN: blocked by roof -->
   <BlockedByRoof>zablokowane przez dach</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
-  <TooCloseToOtherBeacon>Zbyt blisko innego sygnalizatora</TooCloseToOtherBeacon>
+  <TooCloseToOtherBeacon>Zbyt blisko innej latarni</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
-  <Psyfocus>Skupienie psychiczne</Psyfocus>
+  <Psyfocus>Skupienie PSI</Psyfocus>
   <!-- EN: Psyfocus -->
-  <PsyfocusLabelGizmo>Skupienie psychiczne</PsyfocusLabelGizmo>
+  <PsyfocusLabelGizmo>Skupienie PSI</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>Skupienie psychiczne to pewien typ strukturyzacji umysłowej wymaganej do użycia mocy psychicznych. Skupienie rozprasza się po pewnym czasie, więc musi być zwiększane przez regularną medytację. Utracenie całego skupienia psychicznego sprawia, że dana osoba jest niezdolna do użytku mocy psychicznych, ale nie powoduje żadnych innych konsekwencji.\n\nWiększe poziomy skupienia pozwalają na użycie bardziej zaawansowanych zdolności, ale zwiększają także częstotliwość z jaką rozprasza się skupienie.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
@@ -82,17 +82,17 @@
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
   <MeditationFocusPerFlame>{2} za każde pobliskie zapalone źródło światła ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>Zysk skupienia psychicznego: {0}/dzień</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>Zysk skupienia PSI: {0}/dzień</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
-  <DesiredPsyfocus>Wymagane skupienie psychiczne</DesiredPsyfocus>
+  <DesiredPsyfocus>Wymagane skupienie PSI</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
-  <DesiredPsyfocusDesc>Kliknij, aby ustawić wymagany poziom skupienia psychicznego.</DesiredPsyfocusDesc>
+  <DesiredPsyfocusDesc>Kliknij, aby ustawić wymagany poziom skupienia PSI.</DesiredPsyfocusDesc>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>musi być w trybie bojowym.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>zdolność w czasie przeładowania. Użycie możliwe za {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>zdolność jest w trakcie odnawiania. Użycie możliwe za {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>zdolność jest już w kolejce.</AbilityAlreadyQueued>
   <!-- EN: no heat to dump. -->
@@ -100,10 +100,10 @@
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Zdolność gotowa do użycia: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} jest gotowy, aby użyć {1}.</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} jest gotow{0_gender ? y : a}, aby użyć {1}.</AbilityReadyText>
   
   <!-- EN: no throne assigned. -->
-  <AbilitySpeechDisabledNoThroneAssigned>brak przypisanego tronu.</AbilitySpeechDisabledNoThroneAssigned>
+  <AbilitySpeechDisabledNoThroneAssigned>brak wyznaczonego tronu.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
   <AbilitySpeechDisabledNoThroneIsNotAccessible>tron jest nieosiągalny.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
@@ -111,9 +111,9 @@
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>już przemawia.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>inne zgromadzenia ma teraz miejsce.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <AbilitySpeechDisabledAnotherGatheringInProgress>trwa inne zgromadzenie.</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
-  <AbilitySpeechCooldown>Następna przemowa gotowa za:</AbilitySpeechCooldown>
+  <AbilitySpeechCooldown>Gotowość następnej przemowy za:</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
   <AbilitySpeechPossibleOutcomes>Szanse na wynik:</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
@@ -124,7 +124,7 @@
   <AbilitySpeechTargetDescThrone>Godny tron</AbilitySpeechTargetDescThrone>
   
   <!-- EN: no accessible altar. -->
-  <RitualDisabledNoAltar>brak osiągalnego ołtarza</RitualDisabledNoAltar>
+  <RitualDisabledNoAltar>brak osiągalnego ołtarza.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
   <RitualBestowingCeremony>Ceremonia obdarzania</RitualBestowingCeremony>
 
@@ -145,25 +145,25 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Rytuał połączenia zakończony</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończył rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swoje łącze PSI, umożliwiając użytek nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończy{PAWN_gender ? ł : a} rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swoje łącze PSI, umożliwiając użycie nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>Dodatkowo, {0} trawy anima odrosło.</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>Dodatkowo, odrosło {0} trawy anima.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
-  <LandHere>Wyląduj prom tutaj</LandHere>
+  <LandHere>Wyląduj promem tutaj</LandHere>
   <!-- EN: Destination is out of range. -->
-  <MessageShuttleDestinationIsTooFar>Cel jest poza zasięgiem.</MessageShuttleDestinationIsTooFar>
+  <MessageShuttleDestinationIsTooFar>Miejsce docelowe jest poza zasięgiem.</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Rozpocznij ceremonię obdarzania dla {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Sala tronowa {PAWN_definite} nie zaspokaja oczekiwań tytułu {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Obdarzyciel jest urażony tym, że sala tronowa {PAWN_definite} nie zaspokaja potrzeb tytułu {TITLE}. Ceremonia obdarzania jest odwołana.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Obdarzyciel jest urażony tym, że sala {PAWN_definite} tronowa nie zaspokaja potrzeb tytułu {TITLE}. Ceremonia obdarzania została odwołana.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
-  <BestowingCeremonyLabel>Ceremonia obdarzania</BestowingCeremonyLabel>
+  <BestowingCeremonyLabel>ceremonia obdarzania</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
-  <BestowingOutcomeQualitySpecific>Całkowita jakość ceremonii obdarzania wynosiła {0}. Wynik zależał od tych czynników</BestowingOutcomeQualitySpecific>
+  <BestowingOutcomeQualitySpecific>Całkowita jakość ceremonii obdarzania wynosiła {0}. Wynik zależał od następujących czynników</BestowingOutcomeQualitySpecific>
   
   <!-- EN: No colonists that can link with anima tree right now. -->
   <RitualTargetAnimaTreeNoPawnsToLink>Brak kolonistów, którzy mogą teraz połączyć się z drzewem anima.</RitualTargetAnimaTreeNoPawnsToLink>
@@ -177,7 +177,7 @@
   <RitualTargetAnimaTreeMustBeCapableOfNature>Musi być to kolonista z naturalnym typem skupienia PSI podczas medytacji, oraz musi być poniżej maksymalnego poziomu łącza PSI.</RitualTargetAnimaTreeMustBeCapableOfNature>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>Ceremonia łączenia anima jest silniejsza z większą ilością uczestników. Im więcej ludzi uczestniczy, tym krócej ceremonia trwa, i tym więcej trawy anima natychmiastowo odrośnie.\n\nZ {0} dodatkowymi uczestnikami, {1} trawy anima odrośnie po zakończeniu ceremonii.</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>Ceremonia łączenia anima jest potężniejsza, jeśli ma więcej uczestników. A im więcej jest uczestników, tym krócej trwa ceremonia, a także więcej trawy anima urośnie.\n\nZ {0} dodatkowymi uczestnikami, odrośnie {1} trawy anima po jej zakończeniu.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
-  <ShuttleRequiredItemsNotSatisfied>Nie załadowana wszystkich wymaganych rzeczy!</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>Nie załadowano jeszcze wszystkich wymaganych rzeczy!</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>

@@ -94,7 +94,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Szansa, aby mieć przykazanie</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika z rośliny tinctoria.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika tinctorii.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Ustaw kolor ideologii</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -239,7 +239,7 @@
   <!-- EN: cost -->
   <Cost>koszt</Cost>
   <!-- EN: optional -->
-  <Optional>opcjonalny</Optional>
+  <Optional>opcjonalne</Optional>
   <!-- EN: expectations -->
   <Expectations>oczekiwania</Expectations>
   <!-- EN: Can start any time -->
@@ -258,22 +258,22 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart2>Obecnie {0} jest uruchamiany w {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
 
   <!-- EN: For slave use -->
-  <ForSlaveUse>Do użytku jako niewolnik</ForSlaveUse>
+  <ForSlaveUse>Do użytku niewolnika</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>niewolnik</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Jeśli sprzedasz kogoś dowolnej frakcji poza własną, staje się niewolnikiem.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
-  <SellingAsRansom>Jeśli sprzedasz kogoś własnej frakcji, zostanie on wykupiony, a nie zniewolony.</SellingAsRansom>
+  <SellingAsRansom>Jeśli sprzedasz kogoś własnej frakcji, zostanie wykupiony, a nie zniewolony.</SellingAsRansom>
 
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>Jesteśmy {0}</MemeGoodwillImpact_Player>
   <!-- EN: They are {0} -->
-  <MemeGoodwillImpact_Other>Są {0}</MemeGoodwillImpact_Other>
+  <MemeGoodwillImpact_Other>Oni są {0}</MemeGoodwillImpact_Other>
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
-  <TextMote_SuppressionIncreased>Tłumienie niewolników: {0}</TextMote_SuppressionIncreased>
+  <TextMote_SuppressionIncreased>Stłumienie niewolników: {0}</TextMote_SuppressionIncreased>
 
   <!-- Role requirements -->
   <!-- EN: Requirements -->
@@ -302,7 +302,7 @@
   <!-- EN: Led by {0} -->
   <IdeoLeaderDifferentIdeoThoughtLabel>Prowadzona przez {0}</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
-  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} nie zadziała {1}.</AbilityDisabled_IncapableOfWorkTag>
+  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} nie wykona typu pracy {1}.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Brak dostępnego ołtarza lub miejsca rytualnego.</AbilityDisabledNoAltarOrRitualsSpot>
 
@@ -429,7 +429,7 @@
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>Określa, ile driad może obsłużyć to drzewo.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
-  <MaximumDryads>MAksymalna liczba driad</MaximumDryads>
+  <MaximumDryads>Maksymalna liczba driad</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
   <MaximumDryadsDesc>Maksymalna liczba driad, które może obsłużyć to drzewo.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
@@ -439,13 +439,13 @@
   <!-- EN: Hours per day to maintain -->
   <PruningHoursToMaintain>Godzin dziennie na utrzymanie</PruningHoursToMaintain>
   <!-- EN: Desired -->
-  <DesiredConnectionStrength>Pożądany</DesiredConnectionStrength>
+  <DesiredConnectionStrength>Pożądane</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
   <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} przycina {TREE_definite} wystarczająco często, aby utrzymać siłę połączenia powyżej tego poziomu.\n\nWiększa siła połączenia umożliwia obsługę większej liczby driad, ale również spada szybciej, a tym samym wymaga częstszego przycinania.\n\nMożesz kliknąć na, aby dostosować żądaną siłę połączenia docelowego.\n\nSpadek siły połączenia dziennie: {FALL}\n\nNa siłę połączenia mają wpływ pobliskie budynki.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Czeka, aż {CONNECTEDPAWN_nameDef} zmieni klasę driad.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
-  <GauranlenTreeMode>Kasta Driad</GauranlenTreeMode>
+  <GauranlenTreeMode>Kasta driad</GauranlenTreeMode>
   <!-- EN: no caste -->
   <NoCaste>brak kasty</NoCaste>
   <!-- EN: Determines the currently created dryad caste. -->
@@ -465,7 +465,7 @@
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>Siła połączenia jest zbyt niska, aby utworzyć strąk Gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
-  <Unconnected>Niepodłączony</Unconnected>
+  <Unconnected>Niepołączone</Unconnected>
   <!-- EN: Dryads -->
   <DryadPlural>Driady</DryadPlural>
   <!-- EN: Connection strength affected by -->
@@ -515,15 +515,15 @@
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>Przywołałeś rdzeń archonexusa. Świat wypełnia się oślepiającym światłem, a czas wydaje się zwalniać...\n\n</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>Przywołano rdzeń archanexusa. Świat wypełnia się oślepiającym światłem, a czas wydaje się zwalniać...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>Bóg maszyn cię zauważył. Nikt nie jest w stanie przewidzieć, co będzie dalej. Może cię zniszczyć, komunikować się z tobą bezpośrednio lub przenieść Twoją świadomość na inny poziom rzeczywistości.\n\nWyczuwasz ogromną, nieludzką strukturę o nieskończonej fraktalnej złożoności napływającą do Twojego umysłu. Czas i skala zaczynają się rozpuszczać. To przerażające ale piękne...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>Ci koloniści przekroczyli:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
-  <Reward_ArchonexusMapPart>Część mapy archonexus</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPart>Część mapy archanexusa</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>Część mapy archonexus {0}/{1}</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>Część mapy archanexusa {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>relikwie</RelicsLower>
@@ -563,7 +563,7 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Przerwij bieżący cykl. Pasażer zostanie wyrzucony bez korzystania z efektów cyklu i będzie cierpieć na krótkotrwałą chorobę biorzeźniczą.</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>Ostrzeżenie: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest ustawiony na {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
+  <BiosculpterUnderageAgeReversalMessage>Uwaga: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest ustawiony na {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>Gdy kapsułka biorzeźbiarza zostanie wypełniona pożywieniem {NUTRITION}, wybierz kolonistę i kliknij prawym przyciskiem myszy na kapsułkę biorzeźbiarza lub osobę powaloną, aby rozpocząć cykl.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
