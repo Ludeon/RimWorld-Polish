@@ -39,9 +39,9 @@
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
   <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : a} więźniem, nie może {0_pronoun} już pełnić roli {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Uwaga: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Uwaga: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
   <MessageConnectedPawnDied>Połączenie {TREE_label} z {PAWN_nameDef} zostało zerwane. Musi zostać odzyskane przez {DURATION}, zanim będzie {PAWN_gender ? mógł : mogła} ponownie się połączyć.</MessageConnectedPawnDied>
 
@@ -118,7 +118,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Ostrzeżenie: {PAWNKINDLABELPLURAL} są czczone przez wszystkich {PAWNS} i nie zostaną skrzywdzone.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Uwaga: {PAWNKINDLABELPLURAL} są czczone przez wszystkich {PAWNS} i nie zostaną skrzywdzone.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -137,5 +137,11 @@
   <MessageInfestationDelayActivated>Nadchodzi plaga.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
   <MessageFuelNodeDelayActivated>{0} zosta{0_gender ? ł : ła : ło} zakłócon{0_gender ? y : a : e} i wkrótce może wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+
+  <!-- Fluid ideo messages -->
+  <!-- EN: Development points changed from {0} to {1} ({2}). -->
+  <MessageDevelopmentPointsEarned>TODO</MessageDevelopmentPointsEarned>
+  <!-- EN: Only one change to structures, memes and styles is allowed. -->
+  <MessageFluidIdeoOneChangeAllowed>TODO</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

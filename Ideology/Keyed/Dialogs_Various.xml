@@ -12,11 +12,13 @@
   <DominantStyle>dominujący styl</DominantStyle>
   <!-- EN: Date -->
   <Date>Data</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>TODO</RitualDevelopmentPointRewards>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Wybierz symboliczną strukturę swojej ideologii. Dotyczy to tylko symboli - nie wpływa na rozgrywkę.</ChooseStructureMemesInfo>
-  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
-  <ChooseNormalMemesInfo>Wybierz poglądy {0}–{1}, aby sformułować podstawowe idee tej ideologii. Niektóre z nich mają znacznie większy wpływ na rozgrywkę niż inne.</ChooseNormalMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>Wybierz poglądy {0}–{1}, aby sformułować podstawowe idee tej ideologii.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>Wybierz co najmniej {0} pogląd.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -25,23 +27,37 @@
   <ChooseStructureMeme>Wybierz strukturę</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} i {1_label} są za sobą niezgodne.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>TODO</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>TODO</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>TODO</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>TODO</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>TODO</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} dokona ponownego losowania wszystkich przykazań, które edytowałeś.\in\Czy chcesz kontynuować?</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>TODO</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Wymagania dotyczące pokoju</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeo>TODO</ConfirmChangeMemesForFluidIdeo>
   
   <!-- EN: role -->
   <Role>role</Role>
   <!-- EN: Assign role -->
-  <ChooseRole>Przypisz role</ChooseRole>
+  <ChooseRole>Wyznacz role</ChooseRole>
   <!-- EN: No role assigned -->
-  <NoRoleAssigned>Brak przypisanej roli</NoRoleAssigned>
+  <NoRoleAssigned>Brak wyznaczonej roli</NoRoleAssigned>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>Za chwilę przypiszesz rolę {ROLE_labelDef} użytkownikowi {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>Za chwilę wyznaczysz rolę {ROLE_labelDef} użytkownikowi {PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
-  <ChooseRoleConfirmAssignPostfix>Jesteś pewny?</ChooseRoleConfirmAssignPostfix>
+  <ChooseRoleConfirmAssignPostfix>Czy na pewno?</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} pełni obecnie tę rolę i nie będzie zadowolon{PAWN_gender ? y : a} z jej utraty.</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
@@ -65,7 +81,7 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>Odblokowane rytuały</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>OSTRZEŻENIE: {PAWN_nameDef} nie może wykonać pracy wymaganej dla roli {ROLE_label}. Jeśli zdecydujesz się nadać {PAWN_objective} tę rolę, {PAWN_pronoun} może nie być w stanie korzystać z umiejętności związanych z {ROLE_label}. Brakujące typy prac to</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>Uwaga: {PAWN_nameDef} nie może wykonać pracy wymaganej dla roli {ROLE_label}. Jeśli zdecydujesz się nadać {PAWN_objective} tę rolę, {PAWN_pronoun} może nie być w stanie korzystać z umiejętności związanych z {ROLE_label}. Brakujące typy prac to</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>Premia lidera</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
@@ -98,6 +114,31 @@
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} był już ostatnio doradzany.</AbilityCantApplyAlreadyCounselled>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>TODO</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>TODO</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>TODO</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>TODO</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>TODO</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>TODO</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>TODO</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>TODO</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>TODO</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
+  <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
+  <ReformIdeoCancelRituals>TODO</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
+  <ReformIdeoContinue>TODO</ReformIdeoContinue>
 
   <!-- Slavery -->
   <!-- EN: Slave -->
@@ -239,6 +280,14 @@
   <ChoosePeopleDesc>Wybierz do {0} osób.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>Jeśli wybierzesz tylko niewolników, zagrasz ich jako kolonistów w następnej kolonii.</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>TODO</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>TODO</ShipEscapeWillEndDescription>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>TODO</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? -->
+  <WantToProceed>TODO</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Konwertuj</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -247,6 +296,8 @@
   <ExistingFollowerOfPlayerIdeoligion>Istniejący obserwator</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
   <AbandonArchotechStructuresWarningDialog>Opuszczasz miejsce, które zawiera archatyczne struktury, których jeszcze nie poznałeś w pełni.\n\nBędzie można się tu później przesiedlić, ale Twoja kolonia zostanie zmieciona.</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>TODO</ItemQuantityTooltip>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Zhakowanie tego {0} zaalarmuje wrogów i spowoduje ich atak. Czy naprawdę chcesz zhakować {0}?</ConfirmHackEnenyTerminal>
