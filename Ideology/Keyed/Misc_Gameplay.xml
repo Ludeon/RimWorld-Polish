@@ -25,12 +25,18 @@
   <ChooseYourIdeoligionDesc>W co powinni wierzyć Twoi początkowi koloniści? Te przekonania wpływają na rozgrywkę i efekty wizualne. Będzie można rekrutować innych do swoich przekonań lub przyjmować ich przekonania.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Utwórz niestandardowe</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>TODO</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Utwórz nową</CreateNew>
   <!-- EN: Load existing -->
   <LoadExisting>Załaduj istniejącą</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>Utwórz niestandardową ideologię</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>TODO</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>TODO</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>Załaduj zapisaną ideologię</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
@@ -142,6 +148,17 @@
   <!-- EN: quest -->
   <QuestLower>zadanie</QuestLower>
 
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Grób zawierający zwłoki {PAWN_labelShort}.</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
@@ -156,6 +173,8 @@
   <RitualTargetGatherSpotInfo>Dowolne miejsce spotkań, takie jak stół</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>Ołtarz lub dowolne miejsce rytualne.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>Kula dyskotekowa lub miejsce rytualne. Kula dyskotekowa i głośniki muszą być zasilane.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -327,6 +346,8 @@
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} nie wykona typu pracy {1}.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Brak dostępnego ołtarza lub miejsca rytualnego.</AbilityDisabledNoAltarOrRitualsSpot>
+  <!-- EN: No reachable altar, ideogram or ritual spot. -->
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Wola\n{0} do {1}</TextMote_WillReduced>
@@ -570,8 +591,8 @@
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>Cykl</BiosculpterPodCycleLabel>
-  <!-- EN: loading nutrition -->
-  <BiosculpterPodCycleLabelLoading>ładowanie żywienia</BiosculpterPodCycleLabelLoading>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>ładowanie składników</BiosculpterPodCycleLabelLoading>
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>gotowe</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
@@ -586,8 +607,10 @@
   <BiosculpterInteruptCycleDesc>Przerwij bieżący cykl. Pasażer zostanie wyrzucony bez korzystania z efektów cyklu i będzie cierpieć na krótkotrwałą chorobę biorzeźniczą.</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
   <BiosculpterUnderageAgeReversalMessage>Uwaga: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest ustawiony na {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>Gdy kapsułka biorzeźbiarza zostanie wypełniona pożywieniem {NUTRITION}, wybierz kolonistę i kliknij prawym przyciskiem myszy na kapsułkę biorzeźbiarza lub osobę powaloną, aby rozpocząć cykl.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {0} nutrition -->
+  <NumNutrition>TODO</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} został wyrzucony z kapsuły biorzeźbiarza z powodu braku mocy.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -606,5 +629,11 @@
   <HealingCycleOneWillHeal>Jedno z tych schorzeń zostanie uzdrowione</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Brak wymaganych badań</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>TODO</BiosculpterRequiresIngredients>
+  <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
+  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
+  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>
