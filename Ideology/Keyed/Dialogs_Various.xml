@@ -45,15 +45,23 @@
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Wymagania dotyczące pokoju</RoomRequirements>
-  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
   <ConfirmChangeMemesForFluidIdeo>TODO</ConfirmChangeMemesForFluidIdeo>
-  
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>role</Role>
   <!-- EN: Assign role -->
   <ChooseRole>Wyznacz role</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>TODO</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Brak wyznaczonej roli</NoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>TODO</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>Za chwilę wyznaczysz rolę {ROLE_labelDef} użytkownikowi {PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
@@ -147,9 +155,9 @@
   <CannotAssignBedToColonist>Kolonista</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
   <AnySlave>Każdy niewolnik</AnySlave>
-  <!-- EN: Negotiator will not sell people into slavery. -->
-  <NegotiatorWillNotTradeSlaves>Negocjator nie będzie sprzedawał ludzi w niewolę.</NegotiatorWillNotTradeSlaves>
-  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
+  <NegotiatorWillNotTradeSlaves>Negocjator {0_nameDef} nie będzie sprzedawać ludzi w niewolę zgodnie ze swoimi wierzeniami.</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>Negocjator, {0_nameDef}, nie wprowadzi ludzi w niewolę z powodu wiary {0_possessive} w {1}.\n\nZauważ, że {0_nameDef} jest skłonny wykupić kogoś z powrotem do własnej frakcji, ale nie chce kogoś sprzedać do innej frakcji.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
