@@ -50,20 +50,20 @@
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zapytała [RECIPIENT_nameDef] o [RECIPIENT_possessive] [PersonalCharacteristic].</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] wyraził zainteresowanie [RECIPIENT_nameDef] cechą [PersonalCharacteristic].</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] wyraziła zainteresowanie [RECIPIENT_nameDef] cechą [PersonalCharacteristic].</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział historię o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała historię o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział zabawną historie o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała zabawną historie o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział serdeczną opowieść o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała serdeczną opowieść o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział starą opowieść o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała starą opowieść o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział rodzinną historie o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała rodzinną historie o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->opowiedział opowieść z dzieciństwa o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->opowiedziała opowieść z dzieciństwa o</li>
-    <li>toldastoryabout(INITIATOR_gender==male)->wspomniał anegdotę o</li>
-    <li>toldastoryabout(INITIATOR_gender==female)->wspomniała anegdotę o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział historię o</li>
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała historię o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział zabawną historie o</li>
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała zabawną historie o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział serdeczną opowieść o</li>	
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała serdeczną opowieść o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział starą opowieść o</li>	
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała starą opowieść o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział rodzinną historie o</li>
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała rodzinną historie o</li>	
+    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział opowieść z dzieciństwa o</li>
+    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała opowieść z dzieciństwa o</li>
+    <li>toldastoryabout(toldastoryabout_gender==male)->wspomniał anegdotę o</li>
+    <li>toldastoryabout(toldastoryabout_gender==female)->wspomniała anegdotę o</li>
     <li>talkabout->rozmawiać o</li>
     <li>talkabout->omówić</li>
     <li>talkabout->przeprowadzić dyskusję na temat</li>
