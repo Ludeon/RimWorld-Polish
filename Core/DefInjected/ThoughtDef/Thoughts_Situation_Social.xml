@@ -62,7 +62,7 @@
   <Incestuous.stages.incestuous.labelSocial>jest kazirodcą</Incestuous.stages.incestuous.labelSocial>
   
   <!-- EN: killed colonist -->
-  <KilledColonist.stages.killed_colonist.label>zabił(a) kolonistę(kę)</KilledColonist.stages.killed_colonist.label>
+  <KilledColonist.stages.killed_colonist.label>zabito kolonistę</KilledColonist.stages.killed_colonist.label>
   <KilledColonist.stages.killed_colonist.labelSocial>zabi{1_gender ? ł : ła} kolonist{1_gender ? ę : kę}</KilledColonist.stages.killed_colonist.labelSocial>
   
   <!-- EN: killed colony animal -->
@@ -83,7 +83,7 @@
   <NotBondedAnimalMaster.stages.not_master_of.description>Powinienem być razem ze swoim zwierzakami.</NotBondedAnimalMaster.stages.not_master_of.description>
   
   <!-- EN: opinion of my {0} {1} -->
-  <OpinionOfMyLover.stages.opinion_of_my.label>opinia o mo{PAWN_gender ? jej : oim}{replace: {0}; "mąż"-"mężu"; "żona"-"żonie"} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
+  <OpinionOfMyLover.stages.opinion_of_my.label>opinia o mo{0_gender ? jej : oim} {replace: {0}; "mąż"-"mężu"; "żona"-"żonie"; "kochanek"-"kochanku"; "kochanka"-"kochance"} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
   <!-- EN: Being with them makes me feel this way. -->
   <OpinionOfMyLover.stages.opinion_of_my.description>To, że jesteśmy razem, sprawia, że czuję się w ten sposób.</OpinionOfMyLover.stages.opinion_of_my.description>
   
@@ -123,7 +123,7 @@
   <Ugly.stages.physically_hideous.labelSocial>jest brzydk{1_gender ? i : a}</Ugly.stages.physically_hideous.labelSocial>
   
   <!-- EN: sleeping alone -->
-  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>śpi sa{PAWN_gender ? m : ma}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>śpi samotnie</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
   <!-- EN: I should be sleeping with a lover or spouse. -->
   <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>Powin{PAWN_gender ? ienem : nam} spać razem z mo{PAWN_gender ? ją : im} ukochan{PAWN_gender ? ą : ym}.</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
   
