@@ -14,21 +14,20 @@
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>Nie można wylądować na nieodkrytym obszarze.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
-  <ShuttleCannotLand_Unwalkable>Obszar musi być przekraczalny.</ShuttleCannotLand_Unwalkable>
-
-  <!-- EN: Warning: Anima tree has been marked for cutting. -->
-  <MessageWarningCutAnimaTree>Uwaga: Drzewo anima zostało oznaczone do ścięcia.</MessageWarningCutAnimaTree>
+  <ShuttleCannotLand_Unwalkable>Obszar musi umożliwiać poruszanie się.</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>Wybierz {BESTOWER_definite} i kliknij 'Rozpocznij ceremonię obdarzania', aby rozpocząć ceremonię.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
-  <MessageBestowerUnreachable>Nie można dojść do obdarzyciela!</MessageBestowerUnreachable>
+  <MessageBestowerUnreachable>Nie można dotrzeć do obdarzyciela!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>{0} jest zajęty.</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0} jest zajęt{0_gender ? y : a}.</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>Obdarzyciela zirytowała ingerencją i postanawia odejść.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
   <MessageBestowingDanger>Obdarzyciel odchodzi z powodu zagrożenia swojego życia.</MessageBestowingDanger>
+  <!-- EN: The bestower is leaving due to life-threatening temperature. -->
+  <MessageBestowingDangerTemperature>Obdarzyciel odchodzi z powodu temperatury zagrażającej życiu.</MessageBestowingDangerTemperature>
   <!-- EN: The bestowing ceremony has been interrupted. -->
   <MessageBestowingInterrupted>Ceremonia obdarzania została przerwana.</MessageBestowingInterrupted>
 
@@ -40,7 +39,7 @@
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
   <MessagePermitTransportDrop>Frakcja {FACTION_name} zrzuciła w pobliżu zasoby.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
-  <MessagePermitTransportDropCaravan>Frakcja {FACTION_name} wysłało zasoby do karawany {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+  <MessagePermitTransportDropCaravan>Frakcja {FACTION_name} wysłała zasoby do karawany {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
   <MessageNoFactionForVerbMechCluster>Nie znaleziono żadnych orbitujących mechanoidów.</MessageNoFactionForVerbMechCluster>

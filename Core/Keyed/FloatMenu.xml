@@ -92,6 +92,8 @@
   <NoUsableFood>brak użytecznej żywności</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>brak żywności</NoFood>
+  <!-- EN: No {0_label} -->
+  <NoIngredient>Brak {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
   <FoodBelowTitleRequirements>poniżej wymagań {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
@@ -114,6 +116,8 @@
   <CantRopeAnimalCantTouch>nie mogę dotknąć</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>brak miejsca w zagrodzie</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>{0_labelShort} jest w stanie {1}</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
   <CantRopeAnimalAlreadyInBestPen>już w najlepszej zagrodzie</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
@@ -164,7 +168,7 @@
   <BeingCarriedBy>noszony przez {0_labelShort}</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Zjedz: {1_labelShort}</ConsumeThing>
+  <ConsumeThing>Skonsumuj: {1_labelShort}</ConsumeThing>
   
   <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>Nie można się tutaj udać: Brak dojścia</CannotGoNoPath>
@@ -259,21 +263,21 @@
   <ReloadNotEnough>Zbyt mało</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
-  <CannotPickUp>Nie można podnieść: {1_label}</CannotPickUp>
+  <CannotPickUp>Nie można wziąć: {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
-  <CannotPickUpAll>Nie można podnieść: {1_label} (wszystko)</CannotPickUpAll>
+  <CannotPickUpAll>Nie można wziąć: {1_label} (całość)</CannotPickUpAll>
   <!-- EN: Pick up {1_label} -->
-  <PickUp>Podnieś: {1_label}</PickUp>
+  <PickUp>Weź: {1_label}</PickUp>
   <!-- EN: Pick up {1_label} (all) -->
-  <PickUpAll>Podnieś: {1_label} (wszystko)</PickUpAll>
+  <PickUpAll>Weź: {1_label} (całość)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
-  <PickUpSome>Podnieś: {1_labelShort}...</PickUpSome>
+  <PickUpSome>Weź: {1_labelShort}</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
-  <PickUpCount>Podnieś: {1_labelShort} x{{0}}</PickUpCount>
+  <PickUpCount>Weź: {1_labelShort} x{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUpSome>Nie można podnieść: {1_labelShort}</CannotPickUpSome>
+  <CannotPickUpSome>Nie można wziąć: {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>{0} {1} dozwolony</MaxPickUpAllowed>
+  <MaxPickUpAllowed>Dopuszczone są {0} {replace: {1}; "zestaw medyczny"-"zestawy medyczne"; "używka"-"używki"}</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>Nie można dać: {1_label} - do zapakowania zwierzęcia</CannotGiveToPackAnimal>
@@ -317,7 +321,7 @@
   <!-- EN: Cannot drop {1_label} -->
   <CannotDrop>Nie można upuścić: {1_label}</CannotDrop>
   <!-- EN: Carry {0_label} -->
-  <Carry>Niesie: {0_label}</Carry>
+  <Carry>Nieś: {0_label}</Carry>
   <!-- EN: Cannot carry {0_label} -->
   <CannotCarry>Nie może nieść: {0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
@@ -403,16 +407,16 @@
   <MissingTitleAbility>Brak niezbędnego tytułu</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Nie można prioryzować, nigdy nie będzie: {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>Nie można prioryzować, nigdy nie wykona: {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>nigdy nie będzie: {0}</WillNever>
+  <WillNever>nigdy nie wykona: {0}</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>Nie można prioryzować, nie przydzielono do: {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Nie można prioryzować, brak przydziału do: {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>nie przydzielono</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>nie przydzielono do: {0}</NotAssignedToWorkType>
+  <NotAssignedToWorkType>brak przydziału do: {0}</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>Nie można prioryzować: Badania są zadaniem długoterminowym</CannotPrioritizeResearch>
@@ -424,7 +428,7 @@
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Znajduje się poza dozwolonym obszarem</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>Nie można sprio</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>Nie można prioryzować pochówku</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
@@ -502,13 +506,13 @@
   <AlreadyInvoked>już wywołano</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
-  <Tend>Zmierzaj: {0}</Tend>
+  <Tend>Lecz: {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>Nie można zmierzać: {0}</CannotTend>
+  <CannotTend>Nie można leczyć: {0}</CannotTend>
   <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>{0} nie wymaga pielęgnacji</TendingNotRequired>
+  <TendingNotRequired>{0} nie wymaga leczenia</TendingNotRequired>
   <!-- EN: without medicine -->
-  <WithoutMedicine>bez lekarstw</WithoutMedicine>
+  <WithoutMedicine>bez zestawu medycznego</WithoutMedicine>
 
   <!-- EN: Repair {0} -->
   <RepairThing>Napraw: {0}</RepairThing>

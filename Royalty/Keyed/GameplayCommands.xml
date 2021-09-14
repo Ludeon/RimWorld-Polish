@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandDisabledUnconscious>{0_labelShort} jest {PAWN_gender ? nieprzytomny : nieprzytomna}.</CommandDisabledUnconscious>
+  <CommandDisabledUnconscious>{0_labelShort} jest {0_gender ? nieprzytomny : nieprzytomna}.</CommandDisabledUnconscious>
   
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
@@ -16,11 +16,11 @@
   <!-- EN: Call aid... -->
   <CommandCallRoyalAid>Wezwij wsparcie...</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
-  <CommandCallRoyalAidDesc>Wezwij wsparcie używając specjalnych zezwoleń.\n\nKażdy rodzaj wsparcia może być wezwany raz za darmo, po czym trzeba będzie poczekać na kolejny darmowy użytek. Można wzywać wsparcie częściej, ale kosztem jest honor.</CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidDesc>Wezwij wsparcie używając specjalnych upoważnień.\n\nKażdy rodzaj wsparcia może być wezwany raz za darmo, po czym trzeba będzie poczekać na kolejny darmowy użytek. Można wzywać wsparcie częściej, ale kosztem jest honor.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
-  <CommandCallRoyalAidLodger>Goście nie będą korzystać ze swoich zezwoleń na wsparcie.</CommandCallRoyalAidLodger>
+  <CommandCallRoyalAidLodger>Goście nie będą korzystać ze swoich upoważnień na wsparcie.</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
-  <CommandCallRoyalAidSlave>Niewolnicy nie mogą korzystać ze swoich zezwoleń na wsparcie.</CommandCallRoyalAidSlave>
+  <CommandCallRoyalAidSlave>Niewolnicy nie mogą korzystać ze swoich upoważnień na wsparcie.</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>Twoje relacje z frakcją {FACTION_name} są wrogie.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -36,7 +36,7 @@
   <!-- EN: Call laborers -->
   <CommandCallLaborers>Wezwij robotników</CommandCallLaborers>
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
-  <CommandCallLaborersDesc>Użyj specjalnego zezwolenia, aby wezwać grupę robotników od twoich sojuszników. Ci robotnicy mogą wykonywać tylko ogólne zadania, ale możesz nimi dowodzić, jakby byli Twoimi kolonistami. Musisz zadbać o ich bezpieczeństwo.</CommandCallLaborersDesc>
+  <CommandCallLaborersDesc>Użyj specjalnego upoważnienia, aby wezwać grupę robotników od Twoich sojuszników. Ci robotnicy mogą wykonywać tylko ogólne zadania, ale możesz nimi dowodzić, jakby byli Twoimi kolonistami. Musisz zadbać o ich bezpieczeństwo.</CommandCallLaborersDesc>
   <!-- EN: On cooldown. {0} days left. -->
   <CommandOnCooldown>Nie można użyć. Pozostało {0} dni.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
@@ -52,7 +52,7 @@
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>wymagany {0} poziom łącza PSI.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
-  <CommandPsycastZeroPsychicSensitivity>Zero wrażliwości psychicznej</CommandPsycastZeroPsychicSensitivity>
+  <CommandPsycastZeroPsychicSensitivity>Zero podatności PSI</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>Użytkownik zdolności jest nieprzytomny.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
@@ -76,18 +76,18 @@
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
-  <ChooseRoyalPermit>Wybierz zezwolenie</ChooseRoyalPermit>
+  <ChooseRoyalPermit>Wybierz upoważnienie</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
-  <ChooseRoyalPermit_Desc>Otwórz okno wyboru zezwoleń i wybierz nowe zezwolenie.</ChooseRoyalPermit_Desc>
+  <ChooseRoyalPermit_Desc>Otwórz okno wyboru upoważnień i wybierz nowe upoważnienie.</ChooseRoyalPermit_Desc>
 
   <!-- EN: Leave bestowing ceremony -->
-  <CommandLeaveBestowingCeremony>opuść ceremonię obdarzania</CommandLeaveBestowingCeremony>
+  <CommandLeaveBestowingCeremony>Opuść ceremonię obdarzania</CommandLeaveBestowingCeremony>
   <!-- EN: Stop participating in the bestowing ceremony. -->
   <CommandLeaveBestowingCeremonyDesc>Przestań uczestniczyć w ceremonii obdarzania.</CommandLeaveBestowingCeremonyDesc>
   <!-- EN: Cancel bestowing ceremony -->
-  <CommandCancelBestowingCeremony>Anuluj ceremonię obdarzania.</CommandCancelBestowingCeremony>
+  <CommandCancelBestowingCeremony>Odwołaj ceremonię obdarzania</CommandCancelBestowingCeremony>
   <!-- EN: End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon. -->
-  <CommandCancelBestowingCeremonyDesc>Zakończ ceremonię obdarzania natychmiastowo. Obdarzyciel odejdzie, ale wkrótce pojawi się kolejna szansa na przeprowadzenie ceremonii.</CommandCancelBestowingCeremonyDesc>
+  <CommandCancelBestowingCeremonyDesc>Natychmiast kończy ceremonię obdarzania. Obdarzyciel odejdzie, ale wkrótce pojawi się kolejna szansa na przeprowadzenie ceremonii.</CommandCancelBestowingCeremonyDesc>
   <!-- EN: Are you sure you want to cancel bestowing ceremony? -->
-  <CommandCancelBestowingCeremonyConfirm>Czy na pewno chcesz anulować ceremonię obdarzania?</CommandCancelBestowingCeremonyConfirm>
+  <CommandCancelBestowingCeremonyConfirm>Czy na pewno chcesz odwołać ceremonię obdarzania?</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>
