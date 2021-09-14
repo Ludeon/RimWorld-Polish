@@ -42,7 +42,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Dołącza wędrowiec: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_title} o imieniu {PAWN_nameDef} zjawia się i chce dołączyć do kolonii.\n\nChciał{PAWN_gender ? by : aby} wnieść swój wkład do kolonii i twierdzi, że nie odejdzie stąd dobrowolnie, bo nie ma dokąd pójść. Możesz {PAWN_objective} odrzucić i odesłać. Jednak Twoi koloniści będą zaniepokojeni odesłaniem kogoś w potrzebie.</LetterWandererJoins>
+  <LetterWandererJoins>Zjawia się {PAWN_title} o imieniu {PAWN_nameDef} i chce dołączyć do kolonii.\n\nJest got{PAWN_gender ? ów : owa} pracować i pomagać przy rozwoju społeczności oraz twierdzi, że nie odejdzie stąd dobrowolnie, ponieważ nie ma dokąd pójść. Pomimo tego, że możesz {PAWN_objective} odrzucić i odesłać, Twoi koloniści będą zaniepokojeni odsyłaniem kogoś w potrzebie.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Kapsuły ładunkowe</LetterLabelCargoPodCrash>
@@ -241,9 +241,5 @@
   <LetterLabelQuestAskerDied>Zadanie nieudane</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>Zadanie jest teraz niemożliwe do ukończenia, ponieważ {SUBJECT_definite} {SUBJECT_gender ? umarł : umarła}.</LetterQuestAskerDied>
-
-  <!-- UNUSED -->
-  <EscapeShipLostLabel>Statek zniszczony</EscapeShipLostLabel>
-  <EscapeShipLost>(*Name)Charlon Whitestone(/Name) wysyła Ci wiadomość.\n\nZauważył, że straciliście kontrolę nad statkiem. Aby obronić go przed dostaniem się w niepowołane ręce, uruchomił sekwencję autodestrukcji. Statek to teraz krater.\n\nMusisz znaleźć inny sposób na opuszczenie tej planety.</EscapeShipLost>
 
 </LanguageData>
