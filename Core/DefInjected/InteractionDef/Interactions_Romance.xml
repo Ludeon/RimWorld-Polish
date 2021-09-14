@@ -30,8 +30,8 @@
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] spytał czy [RECIPIENT_nameDef] zostanie jego żoną.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] spytała czy [RECIPIENT_nameDef] zostanie jej mężem.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o ręke.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o ręke.</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o rękę.</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o rękę.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
@@ -102,18 +102,18 @@
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] [wootactic].</li>
-    <li>wooed(INITIATOR_gender==male)->próbował flirtować z</li>
-    <li>wooed(INITIATOR_gender==female)->próbowała flirtować z</li>
-    <li>wooed(INITIATOR_gender==male)->flirtował z</li>
-    <li>wooed(INITIATOR_gender==female)->flirtowała z</li>
-    <li>wooed(INITIATOR_gender==male)->próbował przyciągnąć</li>
-    <li>wooed(INITIATOR_gender==female)->próbowała przyciągnąć</li>
-    <li>wooed(INITIATOR_gender==male)->próbował romansować</li>
-    <li>wooed(INITIATOR_gender==female)->próbowała romansować</li>
-    <li>wooed(INITIATOR_gender==male)->próbował wabić</li>
-    <li>wooed(INITIATOR_gender==female)->próbowała wabić</li>
-    <li>wooed(INITIATOR_gender==male)->oczarowywał</li>
-    <li>wooed(INITIATOR_gender==female)->oczarowywała</li>
+	<li>wooed(wooed_gender==male)->próbował flirtować z</li>
+    <li>wooed(wooed_gender==female)->próbowała flirtować z</li>
+    <li>wooed(wooed_gender==male)->flirtował z</li>
+	<li>wooed(wooed_gender==female)->flirtowała z</li>
+    <li>wooed(wooed_gender==male)->próbował przyciągnąć</li>
+    <li>wooed(wooed_gender==female)->próbowała przyciągnąć</li>
+    <li>wooed(wooed_gender==male)->próbował romansować</li>
+    <li>wooed(wooed_gender==female)->próbowała romansować</li>
+    <li>wooed(wooed_gender==male)->próbował wabić</li>
+    <li>wooed(wooed_gender==female)->próbowała wabić</li>
+    <li>wooed(wooed_gender==male)->oczarowywał</li>
+    <li>wooed(wooed_gender==female)->oczarowywała</li>
     <li>wooed->zalecać się do</li>
     <li>wootactic->opowiadając historię o [TalkTopicAny]</li>
     <li>wootactic->opowiadając ciekawostkę o [TalkTopicAny]</li>

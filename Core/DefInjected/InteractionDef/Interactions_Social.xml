@@ -20,33 +20,35 @@
     <li>commentedabout->commented about</li>
     <li>commentedabout->told a joke about</li>
   -->
-  <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>talkedabout(INITIATOR_gender==male)->rozmawiał o</li>
-    <li>talkedabout(INITIATOR_gender==female)->rozmawiała o</li>
-    <li>talkedabout(INITIATOR_gender==male)->podzielił się słowem o</li>
-    <li>talkedabout(INITIATOR_gender==female)->podzieliła się słowem o</li>
-    <li>talkedabout(INITIATOR_gender==male)->mówił na temat</li>
-    <li>talkedabout(INITIATOR_gender==female)->mówiła na temat</li>
-    <li>talkedabout(INITIATOR_gender==male)->plotkował o</li>
-    <li>talkedabout(INITIATOR_gender==female)->plotkowała o</li>
-    <li>talkedabout(INITIATOR_gender==male)->mówił o</li>
-    <li>talkedabout(INITIATOR_gender==female)->mówiła o</li>
-    <li>talkedabout(INITIATOR_gender==male)->żartował</li>
-    <li>talkedabout(INITIATOR_gender==female)->żartowała</li>
-    <li>commentedabout(INITIATOR_gender==male)->powiedział coś o</li>
-    <li>commentedabout(INITIATOR_gender==female)->powiedziała coś o</li>
-    <li>commentedabout(INITIATOR_gender==male)->powiedział słowo o</li>
-    <li>commentedabout(INITIATOR_gender==female)->powiedziała słowo o</li>
-    <li>commentedabout(INITIATOR_gender==male)->wypowiedział się na temat</li>
-    <li>commentedabout(INITIATOR_gender==female)->wypowiedziała się na temat</li>
-    <li>commentedabout(INITIATOR_gender==male)->skomentował</li>
-    <li>commentedabout(INITIATOR_gender==female)->skomentowała</li>
-    <li>commentedabout(INITIATOR_gender==male)->opowiedział dowcip o</li>
-    <li>commentedabout(INITIATOR_gender==female)->opowiedziała dowcip o</li>
-  </Chitchat.logRulesInitiator.rulesStrings>
+  <Chitchat.logRulesInitiator.rulesStrings>   
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
+    <li>talkedabout(talkedabout_gender==male)->rozmawiał o</li>
+    <li>talkedabout(talkedabout_gender==female)->rozmawiała o</li>
+    <li>talkedabout(talkedabout_gender==male)->podzielił się słowem o</li>
+    <li>talkedabout(talkedabout_gender==female)->podzieliła się słowem o</li>
+    <li>talkedabout(talkedabout_gender==male)->mówił na temat</li>
+    <li>talkedabout(talkedabout_gender==female)->mówiła na temat</li>
+    <li>talkedabout(talkedabout_gender==male)->plotkował o</li>
+    <li>talkedabout(talkedabout_gender==female)->plotkowała o</li>
+    <li>talkedabout(talkedabout_gender==male)->mówił o</li>
+    <li>talkedabout(talkedabout_gender==female)->mówiła o</li>
+    <li>talkedabout(talkedabout_gender==male)->żartował</li>
+    <li>talkedabout(talkedabout_gender==female)->żartowała</li>
+    <li>commentedabout(commentedabout_gender==male)->powiedział coś o</li>
+    <li>commentedabout(commentedabout_gender==female)->powiedziała coś o</li>
+    <li>commentedabout(commentedabout_gender==male)->powiedział słowo o</li>
+    <li>commentedabout(commentedabout_gender==female)->powiedział słowa o</li>
+    <li>commentedabout(commentedabout_gender==male)->wypowiedział się na temat</li>
+    <li>commentedabout(commentedabout_gender==female)->wypowiedziała się na temat</li>
+    <li>commentedabout(commentedabout_gender==male)->skomentował</li>
+    <li>commentedabout(commentedabout_gender==female)->skomentowała</li>
+    <li>commentedabout(commentedabout_gender==male)->opowiedział dowcip o</li></Chitchat.logRulesInitiator.rulesStrings>
+    <li>commentedabout(commentedabout_gender==female)->opowiedziała dowcip o</li></Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
   <DeepTalk.label>poważna rozmowa</DeepTalk.label>
