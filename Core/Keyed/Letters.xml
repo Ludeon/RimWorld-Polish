@@ -501,10 +501,8 @@
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
   <LetterLabelPawnsKidnapped>Porwano {PAWN_nameDef}</LetterLabelPawnsKidnapped>
-  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
-\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} został porwan{PAWN_gender ? y : a} przez {FACTION_name}!\nJednak {PAWN_pronoun} nie jest stracone na zawsze. Okazja do ratowania {PAWN_objective} może pojawić się w najbliższych dniach lub latach.
-  </LetterPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>{PAWN_nameDef} zosta{PAWN_gender ? ł : ła} porwan{PAWN_gender ? y : a} przez frakcję {FACTION_name}!\nJednak nie jest {PAWN_pronoun} stracon{PAWN_gender ? y : a} na zawsze. Okazja do uratowania tej osoby może pojawić się w najbliższych dniach lub latach.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -541,8 +539,7 @@
   <LetterBladelinkWeaponBondedLabel>Więź osobowości: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} nawiąza{PAWN_gender ? ł : ła} więź z {WEAPON_labelShort}.
-  \nOd tej pory nikt inny nie będzie mógł korzystać z {WEAPON_labelShort} poza {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} nawiąza{PAWN_gender ? ł : ła} więź z {WEAPON_labelShort}.\n  \nOd tej pory nikt inny nie będzie mógł korzystać z {WEAPON_labelShort} poza {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->

@@ -37,14 +37,16 @@
     <li>tamed->wydając uspokajające dźwięki</li>
     <li>tamed->wykonując powolne, przyjazne gesty</li>
     <li>tamed->wydając ciche dźwięki</li>
-    <li>tamed->wydawjąc cichę, miłe odgłosy</li>
+    <li>tamed->wydając ciche, miłe odgłosy</li>
     <li>tamed->delikatnie gestykulując</li>
     <li>tamed->powolnym ruchem</li>
     <li>tamed->spokojnie i zachęcająco</li>
-    <li>tamed->przyjął niską postawę</li>
+    <li>tamed(tamed_gender==male)->przyjął niską postawę</li>
+	<li>tamed(tamed_gender==female)->przyjęła niską postawę</li>
     <li>tamed->starając się nie okazywać strachu</li>
     <li>tamed->cicho nucąc piosenkę</li>
-    <li>tamed->śpiewał starą kołysankę ,</li>
+    <li>tamed(tamed_gender==male)->śpiewał starą kołysankę ,</li>
+	<li>tamed(tamed_gender==female)->śpiewała starą kołysankę ,</li>
     <li>tamed->wykazując się swobodną postawą</li>
   </AnimalChat.logRulesInitiator.rulesStrings>
   
@@ -81,10 +83,10 @@
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] w [rubbedpart] [RECIPIENT_nameDef].</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [nuzzleadverb] potarł nosem [RECIPIENT_nameDef] w [rubbedpart].</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [nuzzleadverb] potarła nosem [RECIPIENT_nameDef] w [rubbedpart].</li>
-    <li>nuzzled(INITIATOR_gender==male)->wtulił się</li>
-    <li>nuzzled(INITIATOR_gender==female)->wtuliła się</li>
-    <li>nuzzled(INITIATOR_gender==male)->wtulił się</li>
-    <li>nuzzled(INITIATOR_gender==female)->wtuliła się</li>
+    <li>nuzzled(nuzzled_gender==male)->wtulił się</li>
+    <li>nuzzled(nuzzled_gender==female)->wtuliła się</li>
+    <li>nuzzled(nuzzled_gender==male)->wtulił się</li>
+    <li>nuzzled(nuzzled_gender==female)->wtuliła się</li>
     <li>nuzzleadverb-></li>
     <li>nuzzleadverb->łagodnie</li>
     <li>nuzzleadverb->zachęcająco</li>
@@ -102,7 +104,7 @@
     <li>rubbedpart->łokieć</li>
     <li>rubbedpart->biodro</li>
     <li>rubbedpart->ramię</li>
-    <li>rubbedpart->ręke</li>
+    <li>rubbedpart->rękę</li>
     <li>rubbedpart->bok</li>
     <li>rubbedpart->ramię</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
@@ -114,7 +116,7 @@
     <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
     <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
     <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
-    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_objective] had with [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_pronoun] had with [RECIPIENT_nameDef]</li>
     <li>released->and released [RECIPIENT_objective] to the wild.</li>
     <li>released->and set [RECIPIENT_objective] free.</li>
     <li>released->and sent [RECIPIENT_objective] off.</li>
@@ -132,11 +134,15 @@
     <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] zdjęła obrożę [RECIPIENT_nameDef]</li>
     <li>farewell(INITIATOR_gender==male)->[INITIATOR_nameDef] wspomina dobre chwile, jakie spędził z [RECIPIENT_nameDef]</li>
     <li>farewell(INITIATOR_gender==female)->[INITIATOR_nameDef] wspomina dobre chwile, jakie spędziła z [RECIPIENT_nameDef]</li>
-    <li>released->i wypuścił [RECIPIENT_objective] na wolność.</li>
-    <li>released->i uwolnił [RECIPIENT_objective]</li>
-    <li>released->i pozwolił [RECIPIENT_objective] odejść.</li>
-    <li>released->następnie odwrócił się i pozwolił [RECIPIENT_objective] opuścić kolonię.</li>
-  </ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>released(released_gender==male)->i wypuścił [RECIPIENT_objective] na wolność.</li>
+    <li>released(released_gender==female)->i wypuściła [RECIPIENT_objective] na wolność.</li>
+    <li>released(released_gender==male)->i uwolnił [RECIPIENT_objective]</li>
+    <li>released(released_gender==female)->i uwolniła [RECIPIENT_objective]</li>
+    <li>released(released_gender==male)->i pozwolił [RECIPIENT_objective] odejść.</li>
+    <li>released(released_gender==female)->i pozwoliła [RECIPIENT_objective] odejść.</li>
+    <li>released(released_gender==male)->następnie odwrócił się i pozwolił [RECIPIENT_objective] opuścić kolonię.</li>
+    <li>released(released_gender==female)->następnie odwróciła się i pozwoliła [RECIPIENT_objective] opuścić kolonię.</li>
+	</ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
   <TameAttempt.label>próba oswojenia</TameAttempt.label>

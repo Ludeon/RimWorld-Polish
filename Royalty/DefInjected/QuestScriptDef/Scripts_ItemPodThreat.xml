@@ -59,7 +59,7 @@
     <li>insects->insekty</li>
     <li>insects->robaki</li>
     <li>insects->gniazda</li>
-	<li>insects2->insektów</li>
+    <li>insects2->insektów</li>
     <li>insects2->robaków</li>
     <li>insects2->gniazd</li>
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
@@ -88,7 +88,7 @@
     <li>manhuntingBeastIndef(animalCount==1)->(*Threat)ludożerczego [animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->stado (*Threat)[animalCount] ludożerczych [animalKind_labelPlural](/Threat)</li>
     <li>endSection(animalCount==1)->[helpersParagraph] [animalKindLabelCorrect] pojawi się w [map_definite] [manhuntersDelayTicks_duration] po tym jak zaakceptujesz.</li>
-	<li>endSection(animalCount>=2)->[helpersParagraph] [animalKindLabelCorrect] pojawią się w [map_definite] [manhuntersDelayTicks_duration] po tym jak zaakceptujesz.</li>
+    <li>endSection(animalCount>=2)->[helpersParagraph] [animalKindLabelCorrect] pojawią się w [map_definite] [manhuntersDelayTicks_duration] po tym jak zaakceptujesz.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Handlarz przysyła sygnał. Poluje na niego (*Threat)dziki [animalKind_label](/Threat)! Prosi, aby odciągnięto od niego tą bestię.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] polowało na handlarza w pobliżu.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->Handlarz przysyła sygnał. Poluje na niego stado (*Threat)[animalCount] dzikich [animalKind_labelPlural](/Threat)! Prosi, aby odciągnięto od niego te zwierzęta.[endSection]</li>
