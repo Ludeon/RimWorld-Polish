@@ -16,16 +16,12 @@ Wskazówki ogólne:
 * \Notes\Podręczny słownik.md - Warto korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
   
 Co tłumaczyć:  
-Najprościej wziąć się za foldery "Keyed", dla podstawki i wszystkich DLC.  
-  
-Trudniejsze rzeczy w folderze DefInjected:  
-* DefInjected\RulePackDef - generatory, tłumaczenie mało przydatne, trzeba tworzyć kody, tylko dla dużych mózgów ;).  Polecam zapoznać się z plikiem  \\Notes\Generator nazw.md
-* DefInjected\TaleDef - jak wyżej.
+* Na obecną chwilę, do tłumaczenia zostały tylko pliki Script(s), Tale, RulePack oraz kilka innych, czyli wszystko co wymaga bogatej wiedzy, jest trudne w tłumaczeniu i niełatwe w sprawdzaniu.
 
 # Rzeczy wymagające dopracowania:  
 * Przede wszystkim rzeczy wymienione na górze, tj. pliki zaczynające się od Script, Tale lub RulePack.
     Odpowiedzialne za generowanie questów czy nazw, są skomplikowane w edycji i trudne w sprawdzaniu.
-* Pozostałe pliki, tj. pola ToDo. Backstories.xml, ThoughtDef.xml oraz kilka innych plików. (11.08.21)
+* Pozostałe pliki, tj. pola ToDo. Backstories.xml, ThoughtDef.xml oraz kilka innych plików. Ewentualnie jakiekolwiek literówki czy błędy w pisowni.
 
 # Contributors
 * Arczi008TV
