@@ -19,7 +19,7 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły. Są teraz do Ciebie wrogo nastawieni.</LetterRelationsChange_Hostile>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany oraz odmówią handlu z tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ przychylność ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, przychylność musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>
+  <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany, odmówią także handlu z Tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ przychylność ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, przychylność musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz uważają Cię za neutralnego i nie będą Cię już atakować.</LetterRelationsChange_NeutralFromHostile>
@@ -190,11 +190,11 @@
   <LetterRelatedPawnsSite>Twoi {0} lub więźniowie są powiązani z niektórymi osobami znajdującymi się na tym obszarze:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
-  <RelationshipAppendedLetterSuffix>związek</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>relacja</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} to {1} Twojego kolonisty {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} to {1} Twojego kolonisty o imieniu {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} to {1} Twojego więźnia {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} to {1} Twojego więźnia o imieniu {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
@@ -440,11 +440,11 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie.\n\nNazwa zadania:\n'{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Jeżeli nie przyjmiesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>Jeśli nie zaakceptujesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Nowe zadanie jest aktywne. Nazwa zadania: '{0}'.</LetterQuestBecameActive>
+  <LetterQuestBecameActive>Nowe zadanie jest aktywne.\n\nNazwa zadania:\n'{0}'.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
   <LetterQuestAutomaticallyAcceptedTitle>Aktywne zadanie: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
@@ -452,21 +452,21 @@
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>Transportowce wylądowały</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>Przybyły kapsuły</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>Transportowce zawierające: {0} wylądowały</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Przybyły kapsuły transportowe z następującą zawartością:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
-  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymuje przedmioty</LetterLabelQuestItemsAddedToCaravanInventory>
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymała przedmioty</LetterLabelQuestItemsAddedToCaravanInventory>
   <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
-  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymuje następujące przedmioty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymała następujące przedmioty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} dołącza</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>Przybywa {PAWN_title} o imieniu {PAWN_nameDef} i dołącza do kolonii.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>Przybywa {PAWN_nameDef} ({PAWN_title}) i dołącza do kolonii.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -543,7 +543,7 @@
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
-  <LetterLabelMechClusterArrived>Przybycie mechanoidów</LetterLabelMechClusterArrived>
+  <LetterLabelMechClusterArrived>Przybyły mechanoidy</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
   <LetterMechClusterArrived>Mechanoidy właśnie przybyły.</LetterMechClusterArrived>
 
