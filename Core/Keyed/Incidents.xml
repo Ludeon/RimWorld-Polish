@@ -6,13 +6,13 @@
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>{ANIMAL_label} w naszej okolicy {0_gender ? oszalał : oszalała : oszalało}.\n\nZaatakuje każdego, kogo zobaczy.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>Szalone zwierzęta {0}</LetterLabelAnimalInsanityMultiple>
-  <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Jakaś dziwna fala energii przetoczyła się przez planetę. Kolonistom nic się nie stało, ale...\n\nWygląda na to, że duża okoliczna grupa zwierząt z gatunku {0} popadła w szaleństwo.</AnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>Szalone {0}</LetterLabelAnimalInsanityMultiple>
+  <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. --> <!-- KOD: Zrobić {lookup} "wiele szczurów zostało doprowadzonych do szału" -->
+  <AnimalInsanityMultiple>Jakaś dziwna fala energii psychicznej przetoczyła się przez planetę. Kolonistom nic się nie stało, ale...\n\nWygląda na to, że {0} na tym obszarze popadły w szaleństwo.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Zaraza: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
-  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\nYou should cut or burn the affected plants before the blight spreads. -->
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\nYou should cut or burn the affected plants before the blight spreads. --> <!-- KOD: Zrobić {lookup} -->
   <LetterCropBlight>Zauważono zarazę na {replace: {PLANTDEF_labelPlural}; "sadzonka kukurydzy"-"sadzonkach kukurydzy"; "krzew bawełny"-"krzewach"; "włosak diabelski"-"włosakach diabelskich"; "siano"-"sianie"; "korzeń leczniczy"-"korzeniach leczniczych"; "krzew chmielu"-"krzewach chmielu"; "sadzonka ziemniaka"-"sadzonkach ziemniaka"; "sadzonka psychoidu"-"sadzonkach psychoidu"; "sadzonka ryżu"-"sadzonkach ryżu"; "sadzonka zioła"-"sadzonkach zioła"; "krzew truskawek"-"krzewach truskawek"; "drzewo kakaowca"-"drzewach kakaowca"; "tinctoria"-"tinctorii"}!\nObięte zarazą rośliny powinno się wyciąć lub spalić, zanim zaraza się rozprzestrzeni.</LetterCropBlight>
 
   <!-- EN: Miracle -->
@@ -21,11 +21,11 @@
   <MiracleHeal>{0} {PAWN_gender ? został : została} cudownie {PAWN_gender ? uzdrowiony : uzdrowiona}!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <!-- ?EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
   <EnemyRaidLeaderPresent>Jeden z {LEADER_factionPawnsPlural} - {LEADER_labelShort}, jest liderem frakcji.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <!-- ?EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
   <FriendlyRaidLeaderPresent>Jeden z {LEADER_factionPawnsPlural} - {LEADER_labelShort}, jest liderem frakcji.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
@@ -35,7 +35,7 @@
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} nie jest {PAWN_gender ? powiązany : powiązana} z żadną frakcją. Możesz {PAWN_objective} uratować i mieć nadzieję, że dobrowolnie dołączy albo możesz {PAWN_objective} przechwyć do celów rekrutacyjnych lub niewolniczych.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} pochodzi z wrogiej frakcji: {PAWN_factionName}. Możesz przechwycić {PAWN_objective} do celów rekrutacyjnych lub niewolniczych.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} pochodzi z wrogiej dla Ciebie frakcji: {PAWN_factionName}. Możesz przechwycić {PAWN_objective} do celów rekrutacyjnych lub niewolniczych.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} pochodzi z frakcji {PAWN_factionName}. Jeśli {PAWN_objective} uratujesz, może dobrowolnie dołączyć. W przeciwnym razie powróci do domu i wzrośnie przychylność między waszymi frakcjami.\n\nMożesz także przechwycić {PAWN_objective} do celów rekrutacyjnych lub niewolniczych, ale to rozgniewa {PAWN_possessive} frakcję.</RefugeePodCrash_NonHostile>
 

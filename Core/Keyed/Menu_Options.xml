@@ -29,7 +29,7 @@
   <!-- EN: UI scale -->
   <UIScale>Skala interfejsu</UIScale>
   <!-- EN: Keyboard configuration -->
-  <KeyboardConfig>Ustawienia klawiszy</KeyboardConfig>
+  <KeyboardConfig>Konfiguracja klawiszy</KeyboardConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Wybierz język</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -39,9 +39,9 @@
   <!-- EN: Run in background -->
   <RunInBackground>Zezwól na działanie gry w tle</RunInBackground>
   <!-- EN: Development mode -->
-  <DevelopmentMode>Tryb deweloperski</DevelopmentMode>
+  <DevelopmentMode>Tryb dewelopera</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
-  <ResetModsConfigOnCrash>Resetuj modyfikacje przy błędach</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>Resetuj konfiguracje modów przy awarii</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>Symuluj brak posiadania 'Royalty'</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
@@ -49,13 +49,13 @@
   <!-- EN: Verbose logging -->
   <LogVerbose>Zapis dokładnych danych</LogVerbose>
   <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Otwórz folder z zapisami</OpenSaveGameDataFolder>
+  <OpenSaveGameDataFolder>Otwórz folder zapisów gry</OpenSaveGameDataFolder>
   <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Pokaż lokacje zapisu gry</ShowSaveGameDataLocation>
+  <ShowSaveGameDataLocation>Pokaż lokacje zapisów gry</ShowSaveGameDataLocation>
   <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Otwórz folder pliku z logami</OpenLogFileFolder>
+  <OpenLogFileFolder>Otwórz folder plików z logami</OpenLogFileFolder>
   <!-- EN: Show log file location -->
-  <ShowLogFileLocation>Pokaż lokacje pliku z logami</ShowLogFileLocation>
+  <ShowLogFileLocation>Pokaż lokacje plików z logami</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>Preferowane postacie stworzone przez gracza. Te postacie będą częściej pojawiać się losowo podczas gry:</NamesYouWantToSee>
   <!-- EN: Add name -->
@@ -65,13 +65,13 @@
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>To imię znajduje się już na preferowanej liście.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Wybierz pisarza SI</ChangeStoryteller>
+  <ChangeStoryteller>Ustawienia pisarza SI</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Autozapis co:</AutosaveInterval>
   <!-- EN: Temperature mode -->
   <TemperatureMode>Jednostka temp.</TemperatureMode>
   <!-- EN: Show realtime clock -->
-  <ShowRealtimeClock>Pokaż rzeczywistą godzinę w grze</ShowRealtimeClock>
+  <ShowRealtimeClock>Pokaż czas rzeczywisty</ShowRealtimeClock>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maksymalna liczba kolonii: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
@@ -81,11 +81,11 @@
   <!-- EN: Enable test map sizes -->
   <EnableTestMapSizes>Włącz testowe rozmiary map</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
-  <MaxPermadeathAutosaveIntervalInfo>Maksymalny czas pomiędzy kolejnymi autozapisami w trybie permanentnej śmierci wynosi {0} dni.</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>Maksymalny odstęp czasowy autozapisów w trybie permanentnej śmierci wynosi {0} dni.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
-  <ModSettings>Ustawienia modyfikacji</ModSettings>
+  <ModSettings>Ustawienia modów</ModSettings>
   <!-- EN: Permanently disable development mode -->
-  <PermanentlyDisableDevMode>Wyłącz na stałe tryb deweloperski</PermanentlyDisableDevMode>
+  <PermanentlyDisableDevMode>Wyłącz na stałe tryb dewelopera</PermanentlyDisableDevMode>
   <!-- EN: Texture compression -->
   <TextureCompression>Kompresja tekstur</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
@@ -99,19 +99,19 @@
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
-  <SelectMod>Wybierz modyfikację...</SelectMod>
+  <SelectMod>Wybierz mod...</SelectMod>
   <!-- EN: No configurable mods loaded. -->
-  <NoConfigurableMods>Brak konfigurowalnych modyfikacji.</NoConfigurableMods>
+  <NoConfigurableMods>Brak konfigurowalnych modów.</NoConfigurableMods>
   
   <!-- Options reset -->
   <!-- EN: Restore to default settings -->
-  <RestoreToDefaultSettings>Przywróć domyślne ustawienia</RestoreToDefaultSettings>
+  <RestoreToDefaultSettings>Przywróć ustawienia domyślne</RestoreToDefaultSettings>
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Twoje ustawienia zostały zresetowane. Gra zostanie automatycznie uruchomiona ponownie.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Wszystkie Twoje ustawienia zostaną zresetowane do wartości domyślnych, a gra zostanie uruchomiona ponownie. Wszystkie niezapisane postępy zostaną utracone!\n\nKontynuować?</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
-  <ChangedTextureCompressionRestart>Zmiana opcji kompresji tekstur wymaga ponownego uruchomienia. Wszystkie niezapisane postępy zostaną utracone!\n\nKontynuować?</ChangedTextureCompressionRestart>
+  <ChangedTextureCompressionRestart>Zmiana opcji kompresji tekstur wymaga ponownego uruchomienia gry. Wszystkie niezapisane postępy zostaną utracone!\n\nKontynuować?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
