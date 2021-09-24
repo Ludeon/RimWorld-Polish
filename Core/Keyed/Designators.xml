@@ -4,7 +4,7 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>Anuluj</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>Oznacz plany budynków, wykopaliska, transport, zbiory i wszelkie inne prace, które mają być anulowane.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Oznacz plany budynków, wykopaliska, transport, zbiory i wszelkie inne prace, które mają zostać anulowane.</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>Wytnij rośliny</DesignatorCutPlants>
@@ -184,29 +184,29 @@
   <DesignatorReleaseAnimalToWildDesc>Wypuść zwierzę z powrotem na wolność.</DesignatorReleaseAnimalToWildDesc>
 
   <!-- EN: Study -->
-  <DesignatorStudy>Badaj</DesignatorStudy>
+  <DesignatorStudy>Analizuj</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
-  <DesignatorStudyDesc>Badaj ten obiekt, aby dowiedzieć się o nim więcej.</DesignatorStudyDesc>
+  <DesignatorStudyDesc>Analizuj ten obiekt, aby dowiedzieć się o nim więcej.</DesignatorStudyDesc>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
-  <UnchosenStuff>Niewybrany materiał</UnchosenStuff>
+  <UnchosenStuff>Nie wybrano materiału</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
-  <TooCloseToMapEdge>Zbyt blisko brzegu mapy.</TooCloseToMapEdge>
+  <TooCloseToMapEdge>Zbyt blisko krawędzi mapy.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
   <OutOfBounds>Poza granicami.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
-  <CannotPlaceInUndiscovered>Nie można ustawić na nieodkrytym terenie.</CannotPlaceInUndiscovered>
+  <CannotPlaceInUndiscovered>Nie można umieścić na nieodkrytym terenie.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
   <InteractionSpotBlocked>{1_labelShort} blokuje punkt interakcji.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>Obszar interakcji poza granicami.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
-  <InteractionSpotWillBeBlocked>Obszar interakcji będzie zablokowany przez {1_labelShort}.</InteractionSpotWillBeBlocked>
+  <InteractionSpotWillBeBlocked>{1_labelShort} będzie blokować obszar interakcji.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
   <WouldBlockInteractionSpot>{0} może zablokować obszar interakcji {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
-  <TerrainIsAlready>Na wskazanym terenie już istnieje {0}.</TerrainIsAlready>
+  <TerrainIsAlready>Teren tutaj już jest {0}.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Wskazany teren jeż just oznaczony do wygładzenia.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -218,7 +218,7 @@
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_label} wymaga obsługiwalnego terenu: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (gdy zrobiono z {2_label}) wymaga obsługiwalnego terenu: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (gdy materiał wykonania to {2_label}) wymaga obsługiwalnego terenu: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Przestrzeń jest już zajęta.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -234,13 +234,13 @@
   <!-- EN: Cannot place monument over: {0}. -->
   <CannotPlaceMonumentOver>Nie można umieścić monumentu nad: {0}.</CannotPlaceMonumentOver>
   <!-- EN: Cannot build on: {0}. -->
-  <CannotPlaceMonumentOnTerrain>Nie można budować nad: {0}.</CannotPlaceMonumentOnTerrain>
+  <CannotPlaceMonumentOnTerrain>Nie można zbudować na: {0}.</CannotPlaceMonumentOnTerrain>
   <!-- EN: Cannot place monument over: {0}. -->
   <MonumentOverlapsBuilding>Nie można umieścić monumentu nad: {0}.</MonumentOverlapsBuilding>
   <!-- EN: Monument cannot be placed adjacent to: {0}. -->
   <MonumentAdjacentToBuilding>Monument nie może być umieszczony w sąsiedztwie z: {0}.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
-  <CannotBePlantedHere>Nie można posadzić tutaj</CannotBePlantedHere>
+  <CannotBePlantedHere>Nie można tutaj zasadzić</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -260,6 +260,6 @@
   <!-- EN: None of your {0} have all skills required. -->
   <NoColonistWithAllSkillsForConstructing>Żadni Twoi {0} nie posiadają wszystkich wymaganych umiejętności.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithSkillHaveDisabledConstructingTip>Wszyscy Twoi {0}, którzy mają taką umiejętność, nie są przydzieleni do: {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Wszyscy Twoi {0}, którzy mają taką umiejętność, nie są wyznaczeni na: {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>
