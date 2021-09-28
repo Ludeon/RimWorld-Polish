@@ -1,14 +1,15 @@
-----------------------------------------------------------------------------
-//słowo klucz(x);dopełniacz(1);celownik(2);biernik(3);więcej jeśli trzeba
-//przykład {lookup: {0}; Case\Singular; 3}
-----------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+// słowo klucz(x);dopełniacz(1);celownik(2);biernik(3);więcej jeśli trzeba
+// przykład {lookup: {0}; Case\Singular; 3}
+//--------------------------------------------------------------------------
 
 //ability.xml//
 przemowa lidera;przemowy lidera;przemowie lidera;przemowę lidera
 
--------------------------------------
----------- CORE - ThingDef ----------
--------------------------------------
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
+
 //Alcohol_Beer.xml//
 piwo;piwa;piwu;piwo
 brzeczka;brzeczki;brzeczce;brzeczkę
@@ -698,9 +699,9 @@ lanca pulsacyjna;lancy pulsacyjnej;lancy pulsacyjnej;lancę pulsacyjną
 karabin pulsacyjny;karabinu pulsacyjnego;karabinowi pulsacyjnemu;karabin pulsacyjny
 
 //RangedSpecial.xml//
-namierzacz działa orbitalnego
-namierzacz orbitalnego działa inferno
-generator tornada;generatora tornada;generatorowi tornada;generator tornada
+namierzacz działa orbitalnego;
+namierzacz orbitalnego działa inferno;
+generator tornada;generatora tornada;generatorowi tornada;generator tornada;
 
 //Smokeleaf.xml//
 joint;jonta;jointu;jointa
@@ -740,9 +741,9 @@ pobudzacz;pobudzacza;pobudzaczowi;pobudzacz
 bomba uderzeniowa;bomby uderzeniowej;bombie uderzeniowej;bombę uderzeniową
 działo uderzeniowe;działa uderzeniowego;działu uderzeniowemu;działo uderzeniowe
 
-----------------------------------------
----------- ROYALTY - ThingDef ----------
-----------------------------------------
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
 //Buildings_ConditionCausers.xml//
 zmieniacz klimatu;zmieniacza klimatu;zmieniaczowi klimatu;zmieniacz klimatu
 dynamo EMI;dynama EMI;dynamu EMI;dynamo EMI
@@ -786,25 +787,25 @@ nadajnik zrzutu mechanoidów;nadajnika zrzutu mechanoidów;nadajnikowi zrzutu me
 auto-moździerz;auto-moździerza;auto-moździerzowi;auto-moździerz
 mini-pocisk;mini-pocisku;mini-pociskowi;mini-pocisk
 lekki miotacz energetyczny;lekkiego miotacza energetycznego;lekkiemu miotaczowi energetycznemu;lekki miotacz energetyczny
-piekielne działo
-mini-działko
-autom. wieżyczka energetyczna
-autom. piekielna wieżyczka
-wieżyczka z mini-działkiem
-autom. moździerz
+piekielne działo;
+mini-działko;
+autom. wieżyczka energetyczna;
+autom. piekielna wieżyczka;
+wieżyczka z mini-działkiem;
+autom. moździerz;
 
 //Buildings_Misc.xml//
-kamień animus
-miejsce medytacji
-naturalna duża kapliczka
-naturalna mała kapliczka
-nadajnik lądowania statku
+kamień animus;
+miejsce medytacji;
+naturalna duża kapliczka;
+naturalna mała kapliczka;
+nadajnik lądowania statku;
 
 //Buildings_MusicalInstruments.xml//
-harfa
-klawesyn
-fortepian
-niedokończony fortepian
+harfa;
+klawesyn;
+fortepian;
+niedokończony fortepian;
 
 //plants_special.xml//
 podręczna osłona nisko-kątowa;podręcznej osłony nisko-kątowej;podręcznej osłonie nisko-kątowej
@@ -849,140 +850,140 @@ granat odłamkowy;granatu odłamkowego;granatowi odłamkowemu;granat zapalający
 //Plants_Wild.xml//
 trawa anima;trawy anima;trawie anima;trawę anima
 drzewo anima;drzewa anima;drzewu anima;drzewo anima
------------------------------------------
----------- IDEOLOGY - ThingDef ----------
------------------------------------------
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
 //Buildings_Ancient_Active.xml//
-starożytna konsola komunikacyjna
-starożytna kapsuła hibernacyjna
-starożytny terminal wroga
-starożytny niestabilny węzeł paliwowy
-hermetyczna skrzynia
-skrzynka bezpieczeństwa
-starożytny terminal
+starożytna konsola komunikacyjna;
+starożytna kapsuła hibernacyjna;
+starożytny terminal wroga;
+starożytny niestabilny węzeł paliwowy;
+hermetyczna skrzynia;
+skrzynka bezpieczeństwa;
+starożytny terminal;
 
 //Buildings_Ancient_Indoors.xml//
-starożytna beczka
-starożytne łóżko
-starożytna skrzynia
-starożytny wyświetlacz
-starożytne bloki wyposażenia
-starożytny generator
-starożytna lampa
-starożytna szafka bankowa
-starożytna maszyna
-starożytna wojskowa skrzynia
-starożytny stół operacyjny
-starożytna kosmiczna skrzynia
-starożytny cylinder magazynowy
-starożytny regał
+starożytna beczka;
+starożytne łóżko;
+starożytna skrzynia;
+starożytny wyświetlacz;
+starożytne bloki wyposażenia;
+starożytny generator;
+starożytna lampa;
+starożytna szafka bankowa;
+starożytna maszyna;
+starożytna wojskowa skrzynia;
+starożytny stół operacyjny;
+starożytna kosmiczna skrzynia;
+starożytny cylinder magazynowy;
+starożytny regał;
 
 //Buildings_Ancient_Outdoors.xml//
-starożytny klimatyzator
-zrujnowany starożytny apc
-starożytny bankomat
-skorupa starożytnego wija
-starożytny pojemnik
-silnik starożytnego transportowca
-starożytne ogrodzenie
-wielkie starożytne koło
-starożytny hydrant
-starożytny silnik odrzutowy
-starożytny zlew kuchenny
-duża starożytna skrzynia
-starożytny makro silnik
-długa starożytna skrzynia
-blok starożytnego makro silnika
-podłużna starożytna skrzynia
-powłoka starożytnego mechanoida
-starożytna latarnia zrzutów mechanoidów
-lufa starożytnej mega armaty
-platforma starożytnej mega armaty
-starożytna mikrofalówka
-pozostałość starożyt. biegacza bojowego
-starożytny piekarnik
-odcinek starożytnego rurociągu
-starożytne rury
-starożytny samochód kapsułowy
-starożytna skrzynka pocztowa
-starożytny drut kolczasty
-starożytna lodówka
-starożytny samochód
-rama starożytnego samochodu
-starożytny transportowiec
-starożytny silnik
-starożytny transporter bojowy
-starożytna ciężarówka
-starożytna wieżyczka
-starożytna latarnia nawigacyjna
-starożytny wózek na zakupy
-mała starożytna skrzynka
-starożytny piec
-zniszczony starożytny czołg
-starożytna pułapka czołgowa
-starożytna toaleta
-starożytny automat
-szczątki starożytnego pająka bojowego
-pazur starożytnego łazika bojowego
-stopa starożytnego łazika bojowego
-noga starożytnego łazika bojowego
-skorupa starożytnego łazika bojowego
-tułów starożytnego łazika bojowego
-starożytna pralka
-starożytne koło
+starożytny klimatyzator;
+zrujnowany starożytny APC;
+starożytny bankomat;
+skorupa starożytnego wija;
+starożytny pojemnik;
+silnik starożytnego transportowca;
+starożytne ogrodzenie;
+wielkie starożytne koło;
+starożytny hydrant;
+starożytny silnik odrzutowy;
+starożytny zlew kuchenny;
+duża starożytna skrzynia;
+starożytny makro silnik;
+długa starożytna skrzynia;
+blok starożytnego makro silnika;
+podłużna starożytna skrzynia;
+powłoka starożytnego mechanoida;
+starożytna latarnia zrzutów mechanoidów;
+lufa starożytnej mega armaty;
+platforma starożytnej mega armaty;
+starożytna mikrofalówka;
+pozostałość starożyt. biegacza bojowego;
+starożytny piekarnik;
+odcinek starożytnego rurociągu;
+starożytne rury;
+starożytny samochód kapsułowy;
+starożytna skrzynka pocztowa;
+starożytny drut kolczasty;
+starożytna lodówka;
+starożytny samochód;
+rama starożytnego samochodu;
+starożytny transportowiec;
+starożytny silnik;
+starożytny transporter bojowy;
+starożytna ciężarówka;
+starożytna wieżyczka;
+starożytna latarnia nawigacyjna;
+starożytny wózek na zakupy;
+mała starożytna skrzynka;
+starożytny piec;
+zniszczony starożytny czołg;
+starożytna pułapka czołgowa;
+starożytna toaleta;
+starożytny automat;
+szczątki starożytnego pająka bojowego;
+pazur starożytnego łazika bojowego;
+stopa starożytnego łazika bojowego;
+noga starożytnego łazika bojowego;
+skorupa starożytnego łazika bojowego;
+tułów starożytnego łazika bojowego;
+starożytna pralka;
+starożytne koło;
 
 //Buildings_Art.xml//
-rzeźba terroru
+rzeźba terroru;
 
 //Buildings_Exotic.xml//
-kosmiczny dron
+kosmiczny dron;
 
 //Buildings_Ideo.xml//
-wielki ołtarz
-duży ołtarz
-średni ołtarz
-mały ołtarz
-kapsuła biorzeźbiarska
-płonące bongo
-talerz kanibali
-świąteczna choinka
-stojąca lampa nocna
-pochodnia nocna
-grzybowa pochodnia nocna
-kukła
-ideogram
-kapliczka do kadzenia
-super-doładowywacz neuronów
-stos
-miejsce rytuału
-flaga ofiarna
-akcelerator snu
+wielki ołtarz;
+duży ołtarz;
+średni ołtarz;
+mały ołtarz;
+kapsuła biorzeźbiarska;
+płonące bongo;
+talerz kanibali;
+świąteczna choinka;
+stojąca lampa nocna;
+pochodnia nocna;
+grzybowa pochodnia nocna;
+kukła;
+ideogram;
+kapliczka do kadzenia;
+super-doładowywacz neuronów;
+stos;
+miejsce rytuału;
+flaga ofiarna;
+akcelerator snu;
 
 //Buildings_Misc.xml//
-autom. bongo
-bęben
-kokon driady
-kapsuła lecząca driady
-strąk gaumaker
-klatka na zwłoki
-poduszka do klęczenia
-koc do klęczenia
-mównica
-kula disco
-głośnik
-ławka kościelna
-doniczka na bonsai
-relikwiarz
-czaszka na szpikulcu
-łóżko płytowe
-podwójne łóżko płytowe
-stacja do stylizacji
+autom. bongo;
+bęben;
+kokon driady;
+kapsuła lecząca driady;
+strąk gaumaker;
+klatka na zwłoki;
+poduszka do klęczenia;
+koc do klęczenia;
+mównica;
+kula disco;
+głośnik;
+ławka kościelna;
+doniczka na bonsai;
+relikwiarz;
+czaszka na szpikulcu;
+łóżko płytowe;
+podwójne łóżko płytowe;
+stacja do stylizacji;
 
 //Buildings_Special.xml//
-rdzeń archanexusa
-wieża archatycznych
-wielka struktura archatycznych
-duża struktura archatycznych
+rdzeń archanexusa;
+wieża archatycznych;
+wielka struktura archatycznych;
+duża struktura archatycznych;
 
 //Apparel_Various.xml//
 opaska na oczy;opaski na oczy;opasce na oczy;opaskę na oczy
