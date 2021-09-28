@@ -49,7 +49,7 @@
   <!-- EN: Low food -->
   <LowFood>Niski stan żywności</LowFood>
   <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
-  <LowFoodDesc>Niebezpiecznie niski stan dostępnej żywności.\n\n    Możliwa ilość zapełnienia paska 'jedzenie' to: {0}\n   Koloniści i więźniowie otrzymujący żywność: {1}\n    Wartość dniowa pożywienia w magazynie:  {2}\n\nZasadź, kup, znajdź lub upoluj trochę żywności.</LowFoodDesc>
+  <LowFoodDesc>Niebezpiecznie niski stan dostępnej żywności.\n\n    Możliwa ilość zapełnienia paska 'jedzenie' to: {0}\n   Koloniści i więźniowie otrzymujący żywność: {1}\n    Dzienna wartość żywności w magazynie:  {2}\n\nZasadź, kup, znajdź lub upoluj trochę żywności.</LowFoodDesc>
 
   <!-- EN: Low medicine -->
   <LowMedicine>Mało lekarstw</LowMedicine>
@@ -64,7 +64,7 @@
   <NeedColonistBedsDesc>Masz więcej kolonistów niż łóżek, ktoś nie będzie miał gdzie spać.\n\nZrób więcej łóżek, lub zmień łóżko więzienne na łóżko kolonisty.\n\nJeśli nie posiadasz wymaganych zasobów, zawsze możesz wyznaczyć miejsce do spania, za darmo i natychmiastowo.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>Kolonista nie został pochowany</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>Kolonista pozostawiony bez pochówku</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>Kolonista nie został pochowany.\n\nMoże to negatywnie wpłynąć na nastrój Twoich kolonistów.</AlertColonistLeftUnburiedDesc>
 
@@ -104,9 +104,9 @@
   <NeedFoodHopperDesc>Masz dozownik pasty odżywczej, ale nie posiadasz zbiornika na żywność.\n\nDozowniki potrzebują do działania zbiornika z surową żywnością postawionego tuż przy nich.\n\nZbuduj zbiornik obok dozownika.</NeedFoodHopperDesc>
 
   <!-- EN: Need meal source -->
-  <NeedMealSource>Potrzebne źródło pożywienia</NeedMealSource>
+  <NeedMealSource>Potrzebne źródło do gotowania posiłków</NeedMealSource>
   <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
-  <NeedMealSourceDesc>Twoi koloniści są głodni! Przygotuj posiłek z surowych składników.\n\nZbuduj piec kuchenny, kuchenkę elektryczną lub inną maszynę przetwarzającą jedzenie.</NeedMealSourceDesc>
+  <NeedMealSourceDesc>Nie masz możliwości przygotowania odpowiednich posiłków z surowej żywności.\n\nZbuduj piec kuchenny, kuchenkę elektryczną lub inną maszynę przetwarzającą jedzenie.(Nie może znajdować się w celi więziennej, w przeciwnym razie koloniści nie będą mogli z nich korzystać.)</NeedMealSourceDesc>
 
   <!-- EN: Need recreation variety -->
   <NeedJoySource>Potrzebna różnorodność rekreacji</NeedJoySource>
@@ -124,7 +124,7 @@
   <!-- EN: Boredom -->
   <Boredom>Wszechobecna nuda</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>Ci ludzie albo potrzebują rekreacji, albo są do nich przydzieleni, tak czy inaczej są już znudzeni wszystkimi dostępnymi źródłami rekreacji:\n\n{0}\n\nZapewnij im większą różnorodność.\n\nAktualnie dostępne typy rekreacji dla {PAWN_labelShort}:\n\n{2}</BoredomDesc>
+  <BoredomDesc>Ci ludzie albo potrzebują rekreacji, albo są do nich przydzieleni i znudzili się wszystkimi dostępnymi źródłami rekreacji:\n\n{0}\n\nZapewnij im większą różnorodność.\n\nAktualnie dostępne typy rekreacji dla {PAWN_labelShort}:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Potrzebne akumulatory</NeedBatteries>
@@ -134,7 +134,7 @@
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Zadziora ma broń dystansową</BrawlerHasRangedWeapon>
   <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
-  <BrawlerHasRangedWeaponDesc>Jeden z Twoich kolonistów posiada cechę "Zadziora", mimo tego posiada broń dystansową. To czyni te osoby bardzo nieszczęśliwymi.</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeaponDesc>Jeden z Twoich kolonistów posiada cechę "Zadziora" i posiada broń dystansową. To czyni te osoby bardzo nieszczęśliwe.</BrawlerHasRangedWeaponDesc>
 
   <!-- EN: Shield user has ranged weapon -->
   <ShieldUserHasRangedWeapon>Osoba z osłoną ma broń zasięgową</ShieldUserHasRangedWeapon>
@@ -208,9 +208,9 @@
   <ImmobileCaravanDesc>Jedna z Twoich karawan jest niemobilna, ponieważ przenosi zbyt dużo rzeczy.\n\nAby ponownie mogła się przemieszczać, porzuć niektóre z nich w zakładce - Przedmioty.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>Budynek nie nadaje się do użytku z powodu zadaszenia</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofed>Nieużyteczny budynek przez dach</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>Z jednego lub więcej budynków można korzystać tylko, gdy nie będą zadaszone, ale nad nimi znajduje się dach. Budynki nie będą użyteczne, dopóki nie usuniesz dachu.</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>Z jednego lub więcej budynków można korzystać tylko, gdy nie będą zadaszone, a nad nimi znajduje się dach. Budynek/budynki nie będą użyteczne, dopóki nie usuniesz dachu.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>Udar cieplny</AlertHeatstroke>
@@ -246,7 +246,7 @@
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
   <ActivatorCountdownDesc>Aktywator właśnie odlicza czas, przygotowując się do wybudzenia pobliskich mechanoidów.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>Aktywatory odliczania {0}</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>Aktywatory czasowe {0}</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
   <ActivatorCountdownDescMultiple>Aktywatory w liczbie {0} właśnie odliczają czas, przygotowując się do wybudzenia pobliskich mechanoidów.</ActivatorCountdownDescMultiple>
 
@@ -306,8 +306,8 @@
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>Poniższe frakcje staną się wrogie, jeśli zostaniesz dłużej w ich osadzie lub posterunku:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>{0} drzewo umiera</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>{0} drzew umiera</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>(0) wykopane drzewa umrą w mniej niż jeden dzień. To sprawi że niektórzy koloniści będą nie zadowoleni z powodu swoich przekonań.\n\nMożesz temu zapobiec, przesadzając te drzewa.</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>Wykopane drzewa ({0}) umrą w mniej niż jeden dzień. To sprawi że niektórzy koloniści będą nieszczęśliwi z powodu swoich przekonań.\n\nMożesz temu zapobiec, przesadzając je.</AlertMinifiedTreeAboutToDieDesc>
 
 </LanguageData>

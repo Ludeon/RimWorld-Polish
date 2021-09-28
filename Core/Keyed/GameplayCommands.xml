@@ -23,7 +23,7 @@
   <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i poczekaj, aż jeden z nich to zrobi.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
-  <CommandTryReconnectLabel>Podłącz</CommandTryReconnectLabel>
+  <CommandTryReconnectLabel>Podłącz ponownie</CommandTryReconnectLabel>
   <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
   <CommandTryReconnectDesc>Spróbuj podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
 
@@ -49,7 +49,7 @@
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Strzelaj do woli</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>Pozwolenie na oddawanie strzałów.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na walkę wręcz.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>Przełącz oddawanie strzałów do woli.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na walkę wręcz.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Anuluj zadanie priorytetowe</CommandClearPrioritizedWork>
@@ -152,11 +152,11 @@
   <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
   <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tę wieżyczkę tak długo, jak będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
   <!-- EN: Stop forced attack -->
-  <CommandStopForceAttack>Anuluj wymuszony cel</CommandStopForceAttack>
+  <CommandStopForceAttack>Zatrzymaj wymuszony atak</CommandStopForceAttack>
   <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
-  <CommandStopForceAttackDesc>Wieżyczka będzie wybierać cele po swojemu.</CommandStopForceAttackDesc>
+  <CommandStopForceAttackDesc>Zatrzymaj wymuszony atak i pozwól wieżyczce strzelać po swojemu.</CommandStopForceAttackDesc>
   <!-- EN: Not currently force-attacking. -->
-  <CommandStopAttackFailNotForceAttacking>Brak ustawionego celu.</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>Obecnie nie ma wymuszonego ataku.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
   <CommandExtractShell>Wydobądź pocisk</CommandExtractShell>
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
@@ -166,7 +166,7 @@
   <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Cel poza minimalnym zasięgu.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
-  <MessageTurretWontFireBecauseHoldFire>Uwaga: Moździerz nie będzie strzelał ponieważ jest ustawione "Wstrzymaj ogień".</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>Uwaga: Moździerz nie będzie strzelał, ponieważ aktywna jest opcja "Wstrzymaj ogień".</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
@@ -186,7 +186,7 @@
   <!-- EN: Eject sleeper -->
   <CommandPodEject>Eksmituj śpiącego</CommandPodEject>
   <!-- EN: Wake up the cryptosleeper and eject them. -->
-  <CommandPodEjectDesc>Wybudź kolonistę i go eksmituj.</CommandPodEjectDesc>
+  <CommandPodEjectDesc>Wybudź i eksmituj śpiącą osobę.</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>Nikogo w niej nie ma.</CommandPodEjectFailEmpty>
 
@@ -206,9 +206,9 @@
   <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>Resetuje zadaną temperaturę do temperatury pokojowej.</CommandResetTempDesc>
   <!-- EN: Raise the target temperature. -->
-  <CommandRaiseTempDesc>Ustaw wyższą zadaną temperaturę.</CommandRaiseTempDesc>
+  <CommandRaiseTempDesc>Ustaw wyższą żądaną temperaturę.</CommandRaiseTempDesc>
   <!-- EN: Lower the target temperature. -->
-  <CommandLowerTempDesc>Ustaw niższą zadaną temperaturę.</CommandLowerTempDesc>
+  <CommandLowerTempDesc>Ustaw niższą żądaną temperaturę.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
   <!-- EN: Install -->
