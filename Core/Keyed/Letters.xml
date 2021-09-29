@@ -77,7 +77,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie {1} kończy {3} lat.\n\nChronologicznie {1} właśnie kończy {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielnie od biologicznych.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>Dzisiaj {0} kończy biologiczny wiek {1} lat.\n\nNiestety, {0} cierpi teraz na następujące choroby z powodu wieku:\n{2}.</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>Dzisiaj {0} kończy biologiczny wiek {1} lat.\n\nNiestety, {0} cierpi teraz na następujące choroby z powodu wieku:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
@@ -108,7 +108,7 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0}: zemsta</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite} atakuje po tym, jak {1_gender ? został : została} {1_gender ? zraniony : zraniona}!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} atakuje po tym, jak {1_gender ? został : została} {1_gender ? zraniony : zraniona}!\n\nBędzie polować na każdego humanoida, którego może dosięgnąć. Uspokoi się, gdy pójdzie spać.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>{1_indefinite} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
@@ -143,7 +143,7 @@
   <LetterNewLeader>Nowy {0} to {NEWLEADER_nameFull}.</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
-  <FinalStraw>Ostateczny powód to: {0}.</FinalStraw>
+  <FinalStraw>Ostateczny powód to: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
   <MentalStateReason_Mood>Powodem tego zdarzenia jest zły nastrój.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
@@ -151,7 +151,7 @@
   <!-- EN: This happened because of: {0}. -->
   <MentalStateReason_Hediff>Powodem tego zdarzenia jest: {0}.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>Powodem tego zdarzenia jest śmierć: {0_definite}.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>Powodem tego zdarzenia jest {0_definite} śmierć.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Ostatnim wydarzeniem było</LastFactionRelationsEvent>
 
@@ -160,7 +160,7 @@
   <!-- EN: View quest -->
   <ViewQuest>Zobacz zadanie</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
-  <LastEventsInLife>Ostatnie wydarzenia w życiu {PAWN_definite}</LastEventsInLife>
+  <LastEventsInLife>Ostatnie wydarzenia w {PAWN_definite} życiu</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
   <LetterInspirationBeginThanksToHighMoodPart>Dzięki wysokiemu nastrojowi, [PAWN_nameIndef] doświadcza inspiracji!</LetterInspirationBeginThanksToHighMoodPart>
@@ -338,9 +338,9 @@
   <!-- EN: Peace talks triumph -->
   <LetterLabelPeaceTalks_Triumph>Rozmowy pokojowe - triumf</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>Te rozmowy były wielkim triumfem!! Delegaci szybko znaleźli wspólny język, aby pomóc sobie nawzajem w najtrudniejszych problemach.\n\nRelacje z frakcją {0} wzrosły o {1}.\n\nGdy Twoja karawana szykowała się do powrotu, {0} zaoferował Ci podarunek::\n\n{2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Te rozmowy były wielkim triumfem!! Delegaci szybko znaleźli wspólny język, aby pomóc sobie nawzajem w najtrudniejszych problemach.\n\nRelacje z frakcją {0} wzrosły o {1}.\n\nGdy Twoja karawana szykowała się do powrotu, {0} zaoferował Ci podarunek::\n\n{2}</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>{PAWN_labelShort}, Twój negocjator, zdobył {1} doświadczenia społecznego</PeaceTalksSocialXPGain>
+  <PeaceTalksSocialXPGain>{PAWN_labelShort}, Twój negocjator, zdobył {1} doświadczenia społecznego.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
@@ -436,7 +436,7 @@
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niedorzeczny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}.</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -508,7 +508,7 @@
   <!-- EN: Techprint applied: {PROJECT_label} -->
   <LetterTechprintAppliedLabel>Zastosowany druk technologiczny: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>Do badań zastosowano druk technologiczny: {PROJECT_label}</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>Do badań zastosowano druk technologiczny: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
   <LetterTechprintAppliedPartJustUnlocked>Ukończono wymagania dotyczące druku technologicznego projektu! Naukowcy mogą teraz rozpocząć badania nad tym, jak właściwie wykorzystać tę technologię w swoich stołach badawczych.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
@@ -516,7 +516,7 @@
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
   <LetterTechprintAppliedPartAlreadyUnlocked>Wymagania dotyczące druku technologicznego w ramach tego projektu zostały już spełnione. Dodatkowa technologia zaawansowana w badaniach nad {PROJECT_label}. Połowa pozostałych prac badawczych, {0} punktów, została zakończona.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>Ten projekt jest już w pełni zbadany, więc druk techniczny w ogóle nie polepszyła Twojej wiedzy.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Ten projekt jest już w pełni zbadany, więc druk technologiczny w ogóle nie polepszył Twojej wiedzy.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
   <LetterTechprintAppliedPartExpAwarded>Stosując druk technologiczny, {PAWN_labelShort} zdoby{PAWN_gender ? ł : ła} {0} doświadczenie w umiejętności {1}.</LetterTechprintAppliedPartExpAwarded>
   
@@ -528,9 +528,9 @@
   <!-- EN: Quest concluded -->
   <LetterQuestConcludedLabel>Zadania zawarte</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>Udało Ci się pomyślnie ukończyć zadanie '{0}'</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>Udało Ci się pomyślnie ukończyć zadanie '{0}'!</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>Nie udało Ci się ukończyć zadania '{0}'</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>Nie udało Ci się ukończyć zadania '{0}'.</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>Zawarte zadania '{0}'.</LetterQuestCompletedConcluded>
 
