@@ -204,11 +204,11 @@
   <!-- EN: Reset -->
   <CommandResetTemp>Zresetuj</CommandResetTemp>
   <!-- EN: Reset the target temperature to room temperature. -->
-  <CommandResetTempDesc>Resetuje zadaną temperaturę do temperatury pokojowej.</CommandResetTempDesc>
+  <CommandResetTempDesc>Resetuje temperature docelową do temperatury pokojowej.</CommandResetTempDesc>
   <!-- EN: Raise the target temperature. -->
-  <CommandRaiseTempDesc>Ustaw wyższą żądaną temperaturę.</CommandRaiseTempDesc>
+  <CommandRaiseTempDesc>Zwiększ docelową temperaturę.</CommandRaiseTempDesc>
   <!-- EN: Lower the target temperature. -->
-  <CommandLowerTempDesc>Ustaw niższą żądaną temperaturę.</CommandLowerTempDesc>
+  <CommandLowerTempDesc>Zmniejsz docelową temperaturę.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
   <!-- EN: Install -->
@@ -216,9 +216,9 @@
   <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
   <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj tej funkcji, aby go postawić.</CommandInstallDesc>
   <!-- EN: Reinstall at... -->
-  <CommandReinstall>Przenieś do...</CommandReinstall>
+  <CommandReinstall>Zamontuj na...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
-  <CommandReinstallDesc>Oznacza ten przedmiot do zdemontowania i zamontowania w innym miejscu.</CommandReinstallDesc>
+  <CommandReinstallDesc>Oznacz ten przedmiot do zdemontowania i zamontowania w innym miejscu.</CommandReinstallDesc>
   <!-- EN: Replant -->
   <CommandReplant>Przesadź</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
@@ -226,27 +226,27 @@
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>Utwórz składowisko dookoła tej budowli, dokładnie pasujące kształtem do promienia startowego nadajnika.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
-  <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileLabel>Utwórz składowisko</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>Ustaw strefę pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>Utwórz pole uprawne dookoła tej budowli, dokładnie pasującą do promienia padającego światła lampy.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <!-- EN: Auto Rearm -->
-  <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
+  <CommandAutoRearm>Autom. ponowne uzbrojenie</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie po użyciu.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>Atak zwierząt</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Gdy włączone - zwierzęta zostaną wysłane do ataku na odległe cele. Gdy wyłączone - pozostaną i będą bronić swojego pana.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Gdy włączone, zwierzęta zostaną wysłane do ataku na odległe cele. Gdy wyłączone, pozostaną i będą bronić swojego właściciela.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>Brak dostępnych zwierząt.</CommandReleaseAnimalsFail_NoAnimals>
   
@@ -254,23 +254,23 @@
   <!-- EN: Attack -->
   <CommandSquadAttack>Atakuj</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
-  <CommandSquadAttackDesc>Każ kolonistom zaatakować wskazany cel.</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>Rozkaż zaznaczonym kolonistom zaatakować wskazany cel.</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
   <CommandMeleeAttack>Atakuj wręcz</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>Każ kolonistom zaatakować cel używając tylko walki wręcz.</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>Rozkaż zaznaczonym kolonistom zaatakować cel, używając wyłącznie broni białej lub gołych pięści.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
   <CommandHoldFire>Wstrzymaj ogień</CommandHoldFire>
   <!-- EN: End any ongoing attacks. -->
-  <CommandHoldFireDesc>Zatrzymaj wszystkie ataki.</CommandHoldFireDesc>
+  <CommandHoldFireDesc>Zakończ wszelkie trwające ataki.</CommandHoldFireDesc>
   
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
-  <CommandReload_NoCharges>Nie zostało {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <CommandReload_NoCharges>Brak {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Wymaga przeładowania za pomocą {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -278,7 +278,7 @@
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Wybierz rośliny do zasiania</CommandSelectPlantToGrowMulti>
   <!-- EN: Plant: {0} -->
-  <CommandSelectPlantToGrow>Zasiej: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrow>Zasiej: {lookup: {0}; Case\Singular; 3}</CommandSelectPlantToGrow>
   <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>Określ, jaki typ rośliny chcesz tutaj zasiać.</CommandSelectPlantToGrowDesc>
   
@@ -294,23 +294,23 @@
 
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
-  <CommandFormCaravan>Stwórz karawanę</CommandFormCaravan>
+  <CommandFormCaravan>Uformuj karawanę</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
-  <CommandFormCaravanDesc>Uformuj grupę kolonistów, którzy będą podróżować do nowych obszarów. Zabiorą oni oznaczone zasoby i towarzyszące im zwierzęta, a następnie opuszczą obecny obszar i będą czekać na kolejne polecenia.</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>Uformuj grupę kolonistów, którzy będą podróżować do nowych obszarów. Zabiorą oni wyznaczone zasoby i towarzyszące im zwierzęta, a następnie opuszczą obecny obszar i będą czekać na dalsze polecenia.</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
   <CommandReformCaravan>Przegrupuj karawanę</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>Przegrupuj grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na kolejne polecenia.</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>Przegrupuj grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na dalsze polecenia.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
-  <CommandReformCaravanFailHostilePawns>Na obszarze nadal znajdują się wrogowie lub ich działka.</CommandReformCaravanFailHostilePawns>
+  <CommandReformCaravanFailHostilePawns>Na tym obszarze nadal znajdują się jacyś wrogowie.</CommandReformCaravanFailHostilePawns>
   
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Podziel</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
-  <CommandSplitCaravanDesc>Podziel tę karawanę na dwie części. Można je potem ponownie połączyć, dopóki znajdują się blisko siebie.</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>Podziel tę karawanę na dwie części. Można je potem ponownie połączyć, dopóki będą znajdować się blisko siebie.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <!-- EN: Merge -->
@@ -326,29 +326,29 @@
   <!-- EN: Settle -->
   <CommandSettle>Osiedl się</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>Osiedl się na tym obszarze. Twoi koloniści wkroczą na ten obszar i zaczną budować nowy dom.</CommandSettleDesc>
+  <CommandSettleDesc>Osiedl się na tym obszarze. Twoi koloniści wkroczą na ten obszar i będziesz mieć możliwość budowania nowego dom.</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Twoja frakcja może mieć tylko jedną bazę.</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
   <CommandSettleFailReachedMaximumNumberOfBases>Osiągnięto maksymalną ilość kolonii.</CommandSettleFailReachedMaximumNumberOfBases>
   <!-- EN: There isn't anybody there to claim the area. -->
-  <CommandSettleFailNoColonists>Nie ma tu nikogo, aby przejąć ten obszar.</CommandSettleFailNoColonists>
+  <CommandSettleFailNoColonists>Nie ma tu nikogo, kto mógłby przejąć ten obszar.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Na tym obszarze są wrogowie.</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
-  <CommandAbandonHome>Opuść</CommandAbandonHome>
+  <CommandAbandonHome>Porzuć</CommandAbandonHome>
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
-  <CommandAbandonHomeDesc>Opuść ten obszar. Stanie się on nieosiągalny i nie będzie można tu już nigdy wrócić. Po opuszczeniu domu możesz polecić jednej z karawan, aby zasiedliła nowy obszar.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeDesc>Porzuć ten obszar. Stanie się on niedostępny i nie będzie można już nigdy tu wrócić. Po opuszczeniu domu możesz wydać rozkaz jednej z karawan, aby zasiedliła nowy obszar.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>Są tutaj wszyscy Twoi koloniści.</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
-  <CommandCancelFormingCaravan>Anuluj tworzenie karawany</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravan>Anuluj formowanie karawany</CommandCancelFormingCaravan>
   <!-- EN: Terminate the caravan formation process. -->
-  <CommandCancelFormingCaravanDesc>Zakończ proces tworzenia karawany.</CommandCancelFormingCaravanDesc>
+  <CommandCancelFormingCaravanDesc>Zakończ proces formowania karawany.</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
   <!-- EN: Remove from caravan -->
@@ -374,25 +374,25 @@
   <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>Handluj z tą frakcją.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
-  <CommandTradeFailNoNegotiator>Nie posiadasz żadnego przytomnego negocjatora.</CommandTradeFailNoNegotiator>
+  <CommandTradeFailNoNegotiator>Nie posiadasz żadnego przytomnego kolonisty ze zdolnością negocjacji.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
   <CommandTradeFailNeedPermit>Żaden z Twoich ludzi nie ma wymaganego pozwolenia frakcji: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
-  <CommandOfferGifts>zaoferuj podarunki</CommandOfferGifts>
+  <CommandOfferGifts>Zaoferuj podarunki</CommandOfferGifts>
   <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>Zaoferuj podarunki dla tej frakcji.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <!-- EN: Fulfill trade offer -->
-  <CommandFulfillTradeOffer>Wypełnij warunki oferty</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOffer>Spełnij warunki oferty</CommandFulfillTradeOffer>
   <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>Spełnij warunki zawarte w prośbie, aby odebrać nagrodę.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Twoja karawana musi mieć {0}, aby spełnić warunki oferty.</CommandFulfillTradeOfferFailInsufficient>
   <!-- EN: Give {0}? -->
-  <CommandFulfillTradeOfferConfirm>Zaoferować {0}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>Dać: {0}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <!-- EN: Take off -->
@@ -400,25 +400,25 @@
   <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>Wejdź na pokład statku i opuść planetę.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
-  <CommandTakeOffConfirmation>Czy jesteś pewien, że chcesz wystartować statek?\n\nWszystkie osoby z tego obszaru opuszczą planetę. Pozostali pozostaną w tyle.</CommandTakeOffConfirmation>
+  <CommandTakeOffConfirmation>Czy na pewno chcesz uruchomić statek?\n\nWszystkie osoby z tego obszaru opuszczą planetę. Wszyscy inni zostaną pozostawieni.</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
-  <CommandSetTargetFuelLevel>Oznacz docelowy poziom paliwa</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevel>Ustaw docelowy poziom paliwa</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
-  <CommandSetTargetFuelLevelDesc>Oznacz docelowy poziom paliwa. Koloniści będą się starali uzupełniać je do tego poziomu.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>Ustaw docelowy poziom paliwa. Koloniści będą się starali uzupełniać je do tego poziomu.</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Przełącz automatyczne tankowanie</CommandToggleAllowAutoRefuel>
   <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>Określa, czy automatyczne tankowanie jest dozwolone.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>Określ, czy automatyczne tankowanie jest dozwolone.</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Anuluj załadunek</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
-  <CommandCancelLoadDesc>Przerwij ładowanie przedmiotów lub ludzi i usuń wszystko już załadowane.</CommandCancelLoadDesc>
+  <CommandCancelLoadDesc>Przerwij ładowanie przedmiotów lub ludzi i usuń wszystko co zostało załadowane.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
   <!-- EN: Launch -->
@@ -494,19 +494,19 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>Odpocznij</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Zacznij odpoczynek. Ma to następujące korzyści:\n\n - Ludzie mogą wchodzić w interakcje społeczne\n - Pasze dla żywności {0} razy szybciej\n - Widoczność pomnożona przez {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Zacznij odpoczynek. Ma to następujące korzyści:\n\n - Ludzie mogą wchodzić w interakcje społeczne\n - Szukanie żywności {0} raz szybsze\n - Widoczność pomnożona przez {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
-  <CommandShowSellableItems>Pokaż co zechcą kupić</CommandShowSellableItems>
+  <CommandShowSellableItems>Pokaż co kupi</CommandShowSellableItems>
   <!-- EN: Show everything this trader wants to buy. -->
-  <CommandShowSellableItemsDesc>Pokazuje wszystko co zainteresuje handlowca.</CommandShowSellableItemsDesc>
+  <CommandShowSellableItemsDesc>Pokaż wszystko co zainteresuje handlarza.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
   <!-- EN: Attack -->
   <CommandAttackSettlement>Zaatakuj</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
-  <CommandAttackSettlementDesc>Zaatakuj tę kolonię</CommandAttackSettlementDesc>
+  <CommandAttackSettlementDesc>Zaatakuj tę osadę.</CommandAttackSettlementDesc>
 
   <!-- Send shuttle -->
   <!-- EN: Send -->
@@ -516,13 +516,13 @@
   <!-- EN: The shuttle is under a roof. -->
   <CommandSendShuttleFailUnderRoof>Prom znajduje się pod dachem.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
-  <CommandSendShuttleFailMissingRequiredThing>Brakuje niektórych wymaganych przedmiotów albo osób.</CommandSendShuttleFailMissingRequiredThing>
+  <CommandSendShuttleFailMissingRequiredThing>Brakuje niektórych wymaganych przedmiotów lub osób.</CommandSendShuttleFailMissingRequiredThing>
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
   <CommandShuttleDismiss>Odrzuć</CommandShuttleDismiss>
   <!-- EN: Unload all contents and send the shuttle away. -->
-  <CommandShuttleDismissDesc>Rozładuj całą zawartość i odeślij wahadłowiec.</CommandShuttleDismissDesc>
+  <CommandShuttleDismissDesc>Rozładuj całą zawartość i odeślij prom.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
@@ -530,7 +530,7 @@
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Umieść wszystkie wymagane plany tam gdzie to możliwe.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>Umieść {0} plany</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>Umieść plany {0}</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
   <CommandPlaceBlueprintsSpecificDesc>Umieść wszystkie plany {0} tam gdzie to możliwe.</CommandPlaceBlueprintsSpecificDesc>
 
@@ -552,7 +552,7 @@
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
-  <CommandDropPawn>Upuść {0_nameDef}</CommandDropPawn>
+  <CommandDropPawn>Upuść: {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Upuść niesioną osobę.</CommandDropPawnDesc>
   
@@ -564,18 +564,18 @@
 
   <!-- Build X -->
   <!-- EN: Build {0} -->
-  <BuildThing>Zbuduj {0}</BuildThing>
+  <BuildThing>Zbuduj: {0}</BuildThing>
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Opuść {RITUAL_label}</CommandLeaveRitual>
+  <CommandLeaveRitual>Opuść: {RITUAL_label}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>Przestań brać udział w {RITUAL_labelDef}. Rytuał będzie trwał dotąd, aż będzie miał przynajmniej jednego uczestnika.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>To ostatni uczestnik w {RITUAL_labelDef}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Przerwij {RITUAL_label}</CommandCancelRitual>
+  <CommandCancelRitual>Przerwij: {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
   <CommandCancelRitualDesc>Natychmiast zakończ {RITUAL_labelDef}. Zobowiązanie rytuału pozostanie. Będzie można go ponowić później.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
