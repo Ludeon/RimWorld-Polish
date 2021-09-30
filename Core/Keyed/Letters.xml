@@ -3,9 +3,9 @@
 
   <!-- Misc -->
   <!-- EN: Jump to location -->
-  <JumpToLocation>Zobacz miejsce</JumpToLocation>
+  <JumpToLocation>Przejdź do lokacji</JumpToLocation>
   <!-- EN: Postpone -->
-  <PostponeLetter>Odłóż na później</PostponeLetter>
+  <PostponeLetter>Odłóż</PostponeLetter>
   <!-- EN: Reject -->
   <RejectLetter>Odrzuć</RejectLetter>
   <!-- EN: Read more -->
@@ -22,19 +22,19 @@
   <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany, odmówią także handlu z Tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ przychylność ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, przychylność musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
-  <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz uważają Cię za neutralnego i nie będą Cię już atakować.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz są dla Ciebie neutralni i nie będą Cię już atakować.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
   <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Stało się tak, ponieważ wartość przychylności ({1}) przekroczyła {2}. Jeśli przychylność spadnie poniżej {3}, {0} ponownie stanie się wrogi. Jeśli przychylność wzrośnie powyżej {4}, staną się Twoim sojusznikiem i będą walczyć dla ciebie.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
-  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz uważają Cię za neutralnego.\n\nDalej będą traktować Cię pokojowo.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz są dla Ciebie neutralni.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Chociaż nadal będą z Tobą współdziałać pokojowo, nie będą już wysyłać wojowników, którzy pomogą Ci, gdy jesteś zagrożony.\n\nStało się tak, ponieważ przychylność ({1}) spadła poniżej {2}. Jeśli wartość przychylności spadnie poniżej {3}, {0} stanie się wrogi. Jeśli przychylność wzrośnie powyżej {4}, znów staniecie się sojusznikami.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Chociaż nadal będą z Tobą współdziałać pokojowo, nie będą już wysyłać wojowników, którzy pomogą Ci w sytuacjach zagrożenia.\n\nStało się tak, ponieważ przychylność ({1}) spadła poniżej {2}. Jeśli wartość przychylności spadnie poniżej {3}, frakcja {0} stanie się wroga. Jeśli przychylność wzrośnie powyżej {4}, znów staniecie się sojusznikami.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
-  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy czasem będą przybywać, aby pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc kosztem reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Sojusznicy czasami przybędą, aby pomóc w walce z wrogami, gdy jesteś atakowany. Możesz również wezwać ich po pomoc w dowolnym momencie, kosztem przychylności.\n\nZostaliście sojusznikami, ponieważ Twoja przychylność ({0}) wzrosła powyżej {1}. Jeśli przychylność spadnie poniżej {2}, relacje powrócą do neutralnych.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Sojusznicy czasami przybędą, aby pomóc w walce z wrogami, kiedy Cie zaatakują. Możesz również wezwać ich po pomoc w dowolnym momencie, kosztem przychylności.\n\nZostaliście sojusznikami, ponieważ Twoja przychylność ({0}) wzrosła powyżej {1}. Jeśli przychylność spadnie poniżej {2}, relacje powrócą do neutralnych.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>przychylność</goodwill>
@@ -49,11 +49,11 @@
   <ShortCircuitRain>{1_label} {1_gender ? narażony : narażona : narażone} na działanie deszczu {1_gender ? uległ : uległa : uległo} zwarciu i {1_gender ? zaczął : zaczęła : zaczęło} się palić.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
-  <LetterLabelAreaRevealed>Odkryto obszar</LetterLabelAreaRevealed>
+  <LetterLabelAreaRevealed>Odkryty obszar</LetterLabelAreaRevealed>
   <!-- EN: A new area has been revealed. -->
   <AreaRevealed>Odkryto nowy obszar.</AreaRevealed>
   <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
-  <AreaRevealedWithMechanoids>Odkryto nowy obszar. Zawiera on pradawne, wrogo nastawione mechanoidy.</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>Odkryto nowy obszar. Zawiera on starożytne, wrogo nastawione mechanoidy.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
   <RoofCollapsed>Zawalił się dach, ponieważ był zbyt daleko od jakiejkolwiek podpory.</RoofCollapsed>
@@ -62,7 +62,7 @@
   <!-- EN: Nothing was crushed. -->
   <NothingCrushed>Nic nie zostało zniszczone.</NothingCrushed>
   <!-- EN: Roof collapse -->
-  <LetterLabelRoofCollapsed>Zawalenie się dachu</LetterLabelRoofCollapsed>
+  <LetterLabelRoofCollapsed>Zawalił się dach</LetterLabelRoofCollapsed>
 
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <RecruitSuccess>{0} pomyślnie {0_gender ? zwerbował : zwerbowała} {1} ({2} szans).</RecruitSuccess>
@@ -70,28 +70,28 @@
   <RecruitFail>{0} {0_gender ? zawiódł : zawiodła} podczas próby werbunku {1} ({2} szans).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} to {RELATIVE_labelShort} {1}. Jeżeli {PAWN_nameDef} umrze, {RELATIVE_labelShort} będzie cierpieć z powodu długotrwałego żalu. Jeżeli jednak uratujesz {PAWN_nameDef}, {RELATIVE_labelShort} przed długi czas będzie bardzo {RELATIVE_gender ? szczęśliwy : szczęśliwa}.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} to {RELATIVE_labelShort} {1}. Jeżeli {PAWN_nameDef} umrze, {RELATIVE_labelShort} będzie cierpia{RELATIVE_gender ? ł : ła} z powodu długotrwałego żalu. Jeżeli jednak uratujesz {PAWN_nameDef}, {RELATIVE_labelShort} przed długi czas będzie bardzo szczęśliw{RELATIVE_gender ? y : a}.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
-  <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie {1} kończy {3} lat.\n\nChronologicznie {1} właśnie kończy {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielnie od biologicznych.</BirthdayChronological>
+  <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie, {1} kończy {3} lat.\n\nChronologicznie, {1} właśnie kończy {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielnie od biologicznych.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
   <BirthdayBiologicalAgeInjuries>Dzisiaj {0} kończy biologiczny wiek {1} lat.\n\nNiestety, {0} cierpi teraz na następujące choroby z powodu wieku:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku jak najwięcej czasu.</NewDisease>
+  <NewDisease>{PAWN} zachorowa{PAWN_gender ? ł : ła}.\nRodzaj choroby - {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku jak najwięcej czasu.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} {PAWN_gender ? zachorował : zachorowała}.\nRodzaj choroby - {3}.\nMiejsce zakażenia: {1}.\n\nUpewnij się, że {PAWN_definite} otrzymuje odpowiednią opiekę oraz spędza w łóżku najwięcej czasu.</NewPartDisease>
+  <NewPartDisease>{PAWN} zachorowa{PAWN_gender ? ł : ła}.\nRodzaj choroby - {3}.\nMiejsce zakażenia: {1}.\n\nUpewnij się, że otrzymuje {PAWN_definite} odpowiednią opiekę oraz spędza w łóżku najwięcej czasu.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_labelShort} wykazuje objawy choroby: {3} w {PAWN_possessive} {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0} {0_gender ? był : była} poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0} by{0_gender ? ł : ła} poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
   <PawnWasFormerlyLodger>Poprzedni gospodarz {0}.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
@@ -100,44 +100,44 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Starożytne niebezpieczeństwo</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Kiedy {PAWN_nameDef} zbliża się do starożytnej ściany, czuje narastający niepokój. Nie wie dlaczego, ale podejrzewa, że wewnątrz tej pradawnej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
+  <AncientShrineWarning>Kiedy {PAWN_nameDef} zbliża się do starożytnej ściany, czuje narastający niepokój. Nie wie dlaczego, ale podejrzewa, że wewnątrz tej zakurzonej budowli może kryć się wielkie niebezpieczeństwo.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>Natrafiliśmy na {0}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
-  <LetterLabelAnimalManhunterRevenge>{0}: zemsta</LetterLabelAnimalManhunterRevenge>
+  <LetterLabelAnimalManhunterRevenge>Zemsta: {0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite} atakuje po tym, jak {1_gender ? został : została} {1_gender ? zraniony : zraniona}!\n\nBędzie polować na każdego humanoida, którego może dosięgnąć. Uspokoi się, gdy pójdzie spać.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} atakuje po tym, jak zosta{0_gender ? ł : ła : ło} zranion{0_gender ? y : a : e}!\n\nBędzie polować na każdego humanoida, którego może dosięgnąć. Uspokoi się, gdy pójdzie spać.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>{1_indefinite} atakuje po próbie oswojenia!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>{1_indefinite} atakuje po nieudanej próbie oswojenia!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
   <AnimalManhunterOthers>Inne pobliskie {1_kindBasePlural} także są rozwścieczone!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{1_labelShort} {1_gender ? oberwał: oberwała} od pułapki</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} oberwa{1_gender ? ł : ła} od pułapki</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung>{1_labelShort} przypadkiem {1_gender ? aktywował : aktywowała} pułapkę i {1_gender ? odniósł : odniosła} obrażenia.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{1_labelShort} przypadkiem aktywowa{1_gender ? ł : ła} pułapkę i odni{1_gender ? ósł : osła} obrażenia.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : ła} stan zdrowia:\n\n  {1}\n\nZostało to spowodowane przez:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} {PAWN_gender ? otrzymał : otrzymała} stan zdrowia: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : ła} stan zdrowia: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>{1} {1_gender ? zmarł : zmarła}: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>{1} zmar{1_gender ? ł : ła}: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
-  <LetterLeadersDeath>{OLDLEADER_nameFull}, {1} z frakcji {0}, {OLDLEADER_gender ? zmarł : zmarła}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{OLDLEADER_nameFull}, {1} z frakcji {0}, zmar{OLDLEADER_gender ? ł : ła}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Nowy {1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {1} z frakcji {0}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {1} we frakcji {0}.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
   <LetterNewLeader>Nowy {0} to {NEWLEADER_nameFull}.</LetterNewLeader>
@@ -204,11 +204,11 @@
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Nowa para</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
-  <LetterNewLovers>{PAWN1_labelShort} i {PAWN2_labelShort} chcą razem spać. Rozważ przydzielenie im podwójnego łóżka.</LetterNewLovers>
+  <LetterNewLovers>{PAWN1_labelShort} i {PAWN2_labelShort} chcą teraz razem spać. Rozważ przydzielenie im podwójnego łóżka.</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{PAWN1_labelShort} i {PAWN2_labelShort} nie są już parą.</LetterNoLongerLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort} i {PAWN2_labelShort} nie są już w związku.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} zmieni nazwisko {PAWN_possessive} z powrotem na nazwisko urodzenia {PAWN_possessive}.</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} zmieni swoje nazwisko z powrotem na otrzymane przy narodzinach.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rozstanie</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -218,7 +218,7 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie ślubnego kobierca, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>{PAWN_label} zmieni nazwisko {PAWN_possessive} na {1}.</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} zmieni swoje nazwisko na {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull} będzie przez to {INITIATOR_gender ? nieszczęśliwy : nieszczęśliwa}.</LetterRejectedProposal>
 
@@ -264,39 +264,39 @@
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Karawana została zniszczona</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>{0} już nie istnieje, ponieważ wszyscy jej członkowie zmarli.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Wszyscy członkowie '{0}' zmarli.</LetterAllCaravanColonistsDied>
 
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
   <LetterLabelCaravanEnteredMap>Karawana dotarła do: {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0} dotarła do: {1_definite}.</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0} - dociera do: {1_definite}.</LetterCaravanEnteredMap>
 
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelCaravanEnteredEnemyBase>Rozpoczęto atak</LetterLabelCaravanEnteredEnemyBase>
   <!-- EN: {0} has arrived at {1} and is ready to begin the attack. -->
-  <LetterCaravanEnteredEnemyBase>{0} przybyła do {1} i jest gotowa do rozpoczęcia ataku.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} - dociera do {1} i jest gotowa do rozpoczęcia ataku.</LetterCaravanEnteredEnemyBase>
 
   <!-- Transport pods landed in enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelTransportPodsLandedInEnemyBase>Rozpoczęto atak</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterLabelTransportPodsLandedInEnemyBase>Rozpoczęcie ataku</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>Twoje kapsuły transportowe dotarły do {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Twoje kapsuły transportowe dotarły do: {0}.</LetterTransportPodsLandedInEnemyBase>
   <!-- EN: The shuttle has arrived at {0}. -->
-  <LetterShuttleLandedInEnemyBase>Wahadłowiec dotarł do {0}.</LetterShuttleLandedInEnemyBase>
+  <LetterShuttleLandedInEnemyBase>Prom dotarł do: {0}.</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Zniszczono bazę</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>Baza frakcji {0} została zniszczona.\n\nW {1}, karawana zostanie automatycznie przegrupowana. Możesz zrobić to teraz na mapie świata zaznaczając zniszczoną bazę i wybierając opcję "Przegrupuj karawanę".</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Baza frakcji {0} została zniszczona.\n\nW {1}, Twoja karawana zostanie zaatakowana przez wrogów. Zaczną wysyłać siły do ataku na karawanę, chyba że się zreformuje i odejdzie. </LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>To była ostatnia baza frakcji {0}, co oznacza, że ta frakcja przestaje już istnieć.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>To była uch ostatnia baza, frakcja {0} została pokonana.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
-  <LetterLabelDefeatAllEnemiesQuestCompleted>Zadanie zakończone</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <LetterLabelDefeatAllEnemiesQuestCompleted>Zadanie ukończone</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
   <LetterDefeatAllEnemiesQuestCompleted>Udało Ci się pokonać posterunek wroga!\n\nZ frakcji {0} przybyła zapłata, a relacje z nią wzrosły o {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
@@ -326,7 +326,7 @@
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Rozmowy pokojowe - porażka</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>Te rozmowy były porażką. Pomimo wymiany uprzejmości delegaci nie poczynili żadnych postępów w kwestiach merytorycznych, a wiele oświadczeń interpretowano jako obelgi.\n\nRelacje z frakcją{0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Te rozmowy były porażką. Pomimo wymiany uprzejmości delegaci nie poczynili żadnych postępów w kwestiach merytorycznych, a wiele oświadczeń interpretowano jako obelgi.\n\nRelacje z frakcją {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
   <LetterLabelPeaceTalks_TalksFlounder>Rozmowy pokojowe - niepowodzenie</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
@@ -396,7 +396,7 @@
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
-  <LetterLabelFactionBaseProximity>Bliskość bazy frakcji</LetterLabelFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>Blisko bazy frakcji</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
   <LetterFactionBaseProximity>Ponieważ jesteś zbyt blisko innych frakcji, czują, że wkraczasz na ich terytorium.\n\nW ostatnim kwartale relacje frakcji zostały zmniejszone o:</LetterFactionBaseProximity>
 
@@ -404,19 +404,19 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>Wygrana bitwa karawany</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała bitwę.\n\nMożesz teraz przegrupować karawanę na ekranie świata, wybierając pole bitwy i opcję "Przegrupuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do przegrupowywania karawany może zrobić to natychmiastowo.\n\nW ciągu {0}, karawana przegrupuje się automatycznie.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Twoja karawana wygrała bitwę.\n\nMożesz teraz przegrupować karawanę na ekranie świata, wybierając pole bitwy i opcję "Przegrupuj karawanę".\n\nNie trzeba ręcznie zbierać przedmiotów, narzędzie do przegrupowywania karawany może zrobić to natychmiastowo.\n\nW ciągu {0}, Twoja karawana zostanie zaatakowana przez wrogów. Zaczną wysyłać siły do ataku na karawany, chyba że się zreformuje i odejdzie.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
-  <LetterLabelRescueQuestFinished>Uratowany dołącza</LetterLabelRescueQuestFinished>
+  <LetterLabelRescueQuestFinished>Ocaleniec dołącza</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez przegrupowywanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji 'Przegrupuj karawanę'.</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez przegrupowywanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji "Przegrupuj karawanę".</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
   <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} poluje na {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} poluje na {PREY_definite}, aby się pożywić!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} poluje na {PREY_definite}, by się pożywić!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
@@ -458,9 +458,9 @@
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
-  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymała przedmioty</LetterLabelQuestItemsAddedToCaravanInventory>
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} - otrzymuje przedmioty</LetterLabelQuestItemsAddedToCaravanInventory>
   <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
-  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} otrzymała następujące przedmioty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} - otrzymuje następujące przedmioty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -512,13 +512,13 @@
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
   <LetterTechprintAppliedPartJustUnlocked>Ukończono wymagania dotyczące druku technologicznego projektu! Naukowcy mogą teraz rozpocząć badania nad tym, jak właściwie wykorzystać tę technologię w swoich stołach badawczych.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>Wymagania dotyczące druku technologicznego w ramach tego projektu nie zostały jeszcze spełnione. {0} druków technologicznych zostały zastosowane do tej pory. Projekt wymaga {1} w sumie.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Wymagania dotyczące druku technologicznego w ramach tego projektu nie zostały jeszcze spełnione. Do tej pory zastosowano {0} druków technologicznych. Projekt wymaga w sumie {0}.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>Wymagania dotyczące druku technologicznego w ramach tego projektu zostały już spełnione. Dodatkowa technologia zaawansowana w badaniach nad {PROJECT_label}. Połowa pozostałych prac badawczych, {0} punktów, została zakończona.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Wymagania dotyczące druku technologicznego w ramach tego projektu zostały już spełnione. Dodatkowa technologia zaawansowana w badaniach nad {PROJECT_label}. Połowa pozostałych prac badawczych, {0} punktów, została ukończona.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
   <LetterTechprintAppliedPartAlreadyResearched>Ten projekt jest już w pełni zbadany, więc druk technologiczny w ogóle nie polepszył Twojej wiedzy.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>Stosując druk technologiczny, {PAWN_labelShort} zdoby{PAWN_gender ? ł : ła} {0} doświadczenie w umiejętności {1}.</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>Stosując druk technologiczny, {PAWN_labelShort} zdoby{PAWN_gender ? ł : ła} {0} doświadczenia w umiejętności - {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
@@ -550,6 +550,6 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Wykryto karawanę</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Twoja karawana została wykryta. W {0} do obszaru zaczną napływać posiłki {1} z {2}.\n\nPrzegrupuj swoją karawanę i zacznij się poruszać, aby uniknąć {1}. Odliczanie czasu do ich przybycia jest teraz widoczne.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Twoja karawana została wykryta. W {0} do obszaru zaczną napływać posiłki {1} z {2}.\n\nZreformuj swoją karawanę i zacznij się poruszać, aby uniknąć {1}. Odliczanie czasu do ich przybycia jest teraz widoczne.</LetterTextSiteCountdownStarted>
 
 </LanguageData>
