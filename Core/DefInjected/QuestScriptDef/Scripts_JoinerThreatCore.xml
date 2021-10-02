@@ -4,7 +4,10 @@
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
-  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription(joiner_gender==Male)->[joiner_age] letni [joiner_title] o imieniu [joiner_nameDef] dzwoni z okolicy. [joiner_nameDef] jest ścigany przez [enemyFaction_pawnsPlural] z [enemyFaction_name]!\n\nBłaga o zapewnienie bezpieczeństwa i oferuje dołączenie do [map_definite].[joiner_relationInfo]\n\nJeśli się zgodzisz, trzeba będzie odeprzeć [enemyFaction_pawnsPluralDef] na [joiner_possessive] ogonie. Grupa [enemyFaction_pawnsPlural] składa się z: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] jest zbyt zestresowany, by podać więcej informacji.</li>
+    <li>questDescription(joiner_gender==Female)->[joiner_age] letnia [joiner_title] o imieniu [joiner_nameDef] dzwoni z okolicy. [joiner_nameDef] jest ścigana przez [enemyFaction_pawnsPlural] z [enemyFaction_name]!\n\nBłaga o zapewnienie bezpieczeństwa i oferuje dołączenie do [map_definite].[joiner_relationInfo]\n\nJeśli się zgodzisz, trzeba będzie odeprzeć [enemyFaction_pawnsPluralDef] na [joiner_possessive] ogonie. Grupa [enemyFaction_pawnsPlural] składa się z: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] jest zbyt zestresowana, by podać więcej informacji.</li>
+  </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
     <li>questName->The Salvation of [runnerIndef]</li>
@@ -19,10 +22,29 @@
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->a Refugee</li>
   -->
-  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+    <li>questName->Ratunek dla [runnerIndef]</li>
+    <li>questName->Zbawienie dla [runnerIndef]</li>
+    <li>questName->Pomoc [runnerIndef]</li>
+    <li>questName->Przyjęcie [runnerIndef]</li>
+    <li>questName->[enemyFaction_pawnsPlural] polują na [runnerIndef2]</li>
+    <li>questName->[runnerIndef3] w biegu</li>
+    <li>questName->[runnerIndef3] chowa się w domu</li>
+    <li>questName->[runnerIndef3] ścigany przez [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef3] i [enemyFaction_pawnsPlural]</li>
+    <li>runnerIndef->[joiner_titleIndef]</li>
+    <li>runnerIndef->[joiner_nameIndef]</li>
+    <li>runnerIndef->uchodźcy</li>
+    <li>runnerIndef2->uchodźce</li>
+    <li>runnerIndef2->[joiner_titleIndef]</li>
+    <li>runnerIndef2->[joiner_nameIndef]</li>
+    <li>runnerIndef3->uchodźca</li>
+    <li>runnerIndef3->[joiner_titleIndef]</li>
+    <li>runnerIndef3->[joiner_nameIndef]</li>
+  </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>TODO</ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} goni [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>TODO</ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n              \n[enemyFaction_pawnsPlural] przyszli po [../joiner_nameDef].</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
   
 </LanguageData>

@@ -6,10 +6,10 @@
   <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>Inspiracja: Szalony chód</Frenzy_Go.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will move faster for the next 8 days. -->
-  <Frenzy_Go.beginLetter>[PAWN_pronoun] będzie teraz poruszał{PAWN_gender ? :a} się szybciej przez następne 8 dni.</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetter>[PAWN_pronoun] będzie teraz poruszał{PAWN_gender ? : a} się szybciej przez następne 8 dni.</Frenzy_Go.beginLetter>
   <Frenzy_Go.beginLetterLabel>Inspiracja - szalony chód</Frenzy_Go.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (go frenzy). -->
-  <Frenzy_Go.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (szalony chód).</Frenzy_Go.endMessage>
+  <Frenzy_Go.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (szalony chód).</Frenzy_Go.endMessage>
   
   <!-- EN: shoot frenzy -->
   <Frenzy_Shoot.label>szał strzelania</Frenzy_Shoot.label>
@@ -19,7 +19,7 @@
   <Frenzy_Shoot.beginLetter>[PAWN_pronoun] będzie teraz strzelał{PAWN_gender ? : a} celniej przez następne 8 dni.</Frenzy_Shoot.beginLetter>
   <Frenzy_Shoot.beginLetterLabel>Inspiracja - szał strzelania</Frenzy_Shoot.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (shoot frenzy). -->
-  <Frenzy_Shoot.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (szał strzelania).</Frenzy_Shoot.endMessage>
+  <Frenzy_Shoot.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (szał strzelania).</Frenzy_Shoot.endMessage>
   
   <!-- EN: work frenzy -->
   <Frenzy_Work.label>szał pracy</Frenzy_Work.label>
@@ -29,7 +29,7 @@
   <Frenzy_Work.beginLetter>[PAWN_pronoun] będzie pracował{PAWN_gender ? : a} szybciej przez następne 8 dni.</Frenzy_Work.beginLetter>
   <Frenzy_Work.beginLetterLabel>Inspiracja - szał pracy</Frenzy_Work.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (work frenzy). -->
-  <Frenzy_Work.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a}) (szał pracy).</Frenzy_Work.endMessage>
+  <Frenzy_Work.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a}) (szał pracy).</Frenzy_Work.endMessage>
   
   <!-- EN: inspired creativity -->
   <Inspired_Creativity.label>inspiracja sztuką</Inspired_Creativity.label>
@@ -39,7 +39,7 @@
   <Inspired_Creativity.beginLetter>Każdy kolejny przedmiot, wytwór plastyczny lub mebel, który stworzy [PAWN_pronoun] będzie dwa razy wyższej jakości niż zazwyczaj. Pozwala to nawet na tworzenie legendarnych przedmiotów.\n\nInspiracja zakończy się za 8 dni lub po ukończeniu arcydzieła.</Inspired_Creativity.beginLetter>
   <Inspired_Creativity.beginLetterLabel>Inspiracja - inspiracja sztuką</Inspired_Creativity.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired creativity). -->
-  <Inspired_Creativity.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (inspiracja sztuką).</Inspired_Creativity.endMessage>
+  <Inspired_Creativity.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (inspiracja sztuką).</Inspired_Creativity.endMessage>
   
   <!-- EN: inspired recruitment -->
   <Inspired_Recruitment.label>inspiracja rekrutacją</Inspired_Recruitment.label>
@@ -49,7 +49,7 @@
   <Inspired_Recruitment.beginLetter>[PAWN_pronoun] zwerbuje z powodzeniem następnego więźnia bez względu na trudność.\n\nInspiracja zakończy się za 8 dni lub po zrekrutowaniu więźnia.</Inspired_Recruitment.beginLetter>
   <Inspired_Recruitment.beginLetterLabel>Inspiracja - inspiracja rekrutacją</Inspired_Recruitment.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired recruitment). -->
-  <Inspired_Recruitment.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (inspiracja rekrutacją).</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (inspiracja rekrutacją).</Inspired_Recruitment.endMessage>
   
   <!-- EN: inspired surgery -->
   <Inspired_Surgery.label>inspiracja chirurgią</Inspired_Surgery.label>
@@ -59,7 +59,7 @@
   <Inspired_Surgery.beginLetter>Następnym razem, gdy [PAWN_pronoun] przeprowadzi operację, [PAWN_possessive] szansa powodzenia zostanie podwojona. Minimalna szansa na niepowodzenie nadal istnieje.\n\nInspiracja zakończy się za 8 dni lub po przeprowadzeniu operacji.</Inspired_Surgery.beginLetter>
   <Inspired_Surgery.beginLetterLabel>Inspiracja - inspiracja chirurgią</Inspired_Surgery.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired surgery). -->
-  <Inspired_Surgery.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (inspiracja chirurgią).</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (inspiracja chirurgią).</Inspired_Surgery.endMessage>
   
   <!-- EN: inspired taming -->
   <Inspired_Taming.label>Inspiracja oswajaniem</Inspired_Taming.label>
@@ -68,7 +68,7 @@
   <!-- EN: [PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
   <Inspired_Taming.beginLetter>[PAWN_pronoun] z powodzeniem oswoi następne zwierzę bez względu na trudności.\n\nInspiracja zakończy się za 8 dni lub po oswojeniu zwierzęcia.</Inspired_Taming.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired taming). -->
-  <Inspired_Taming.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (inspiracja oswajaniem).</Inspired_Taming.endMessage>
+  <Inspired_Taming.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (inspiracja oswajaniem).</Inspired_Taming.endMessage>
   
   <!-- EN: inspired trade -->
   <Inspired_Trade.label>inspiracja handlem</Inspired_Trade.label>
@@ -78,6 +78,6 @@
   <Inspired_Trade.beginLetter>[PAWN_pronoun] otrzyma znaczącą premię cenową za handel podczas [PAWN_possessive] następnej wymiany.\n\nInspiracja zakończy się za 8 dni lub po przeprowadzeniu transakcji.</Inspired_Trade.beginLetter>
   <Inspired_Trade.beginLetterLabel>Inspiracja - inspiracja handlem</Inspired_Trade.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired trade). -->
-  <Inspired_Trade.endMessage>{0} nie jest już zainspirowan{0_gender ? y : a} (inspiracja handlem).</Inspired_Trade.endMessage>
+  <Inspired_Trade.endMessage>{0} nie jest już zainspirowan{PAWN_gender ? y : a} (inspiracja handlem).</Inspired_Trade.endMessage>
   
 </LanguageData>

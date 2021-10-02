@@ -1,208 +1,174 @@
-Nowa linijka = dwie spacje  
-Przetłumaczony (Oryginalny)  
+Przetłumaczony (Oryginalny)
   
   
 #Wyrazy których nie tłumaczymy (ewentualnie dajemy końcówki polskie)
-RimWorld  
+RimWorld {Oraz wszelkie DLC}
 Glitterworld  
 Royalty  
 Mechanoid  
-  
-#Zwroty  
-itd. (and so on.)  
+Marine, Marines  
+Thrumbo
   
 #Ogólne  
-Przypisz (Assign)  
-Wyznacz (Designate)  
-Oznacz (Mark)  
-Obszar (Area)  
-Strefa (Zone)
-Miejsce, punkt (Spot)  
-Miejsce (Place)  
-Przestrzeń (Space)  
-Surowy, niewygładzony, nieobrobiony, ew. chropowaty (Rough)  
-Kosmiczny uchodźca (Space refugee)  
-Pole uprawne (Growing zone)  
-Składowisko (Stockpile zone)  
-Wysypisko (Dumping stockpile zone)  
-Plemię (Tribe)  
-Podarunek (Gift)  
-Rozbitek (Outlander)  
-Tułacz (Spacer)  
-Wrogi tułacz (Spacer hostile)  
-Insekt (Insect)  
-Kamuflaż (Stealth) - w przypadku myśliwego  
-Odłamek (Chunk)  
- - Łasić, smyrać, trącić, szturchnąć (Nuzzled) (do późniejszego uzgodnienia)  
-SI - Sztuczna Inteligencja (AI - Artificial Intelligence)  
-Broń dystansowa (Ranged weapon)  
-Nasycenie (Nutrition)  
-Zakaż i dopuść (forbit and allow)  
-Skupienie PSI (psyfocus)  
-Zysk, przyrost (Gain)  
-Pól, pola (Tiles)  
-Dziecic (Heir)  
+* tryb bojowy (draft)  
+* przydział (assign)  
+* wyznacz (designate)  
+* oznacz (mark)  
+* obszar (area)  
+* strefa (zone)
+* miejsce, punkt (spot)  
+* miejsce (place)  
+* przestrzeń (space)  
+* surowy, niewygładzony, nieobrobiony, ew. chropowaty (rough)  
+* kosmiczny uchodźca (space refugee)  
+* pole uprawne (growing zone)  
+* składowisko (stockpile zone)  
+* wysypisko (dumping stockpile zone)  
+* plemię (tribe)    
+* rozbitek (outlander)  
+* tułacz (spacer)  
+* wrogi tułacz (spacer hostile) 
+* kamuflaż (stealth) - w przypadku myśliwego  
+* odłamek (chunk)  
+* wtula się (nuzzling) zwierze pieszczotliwie wtula się głową do kolonisty (macie lepsze pomysły?)  
+* si - sztuczna inteligencja (ai - artificial intelligence)  
+* broń dystansowa (ranged weapon)  
+* nasycenie (nutrition)  
+* zakaż i dopuść (forbit and allow)  
+* skupienie psi (psyfocus)  
+* zysk, przyrost (gain)  
+* pól, pola (tiles)  
+* dziecic (heir)  
+* biokodowanie (biocoding)  
+* biosygnatura (biosignature)  
+* persona core (rdzeń z jaźnią)  
+* persona weapon (broń z jaźnią - z cechami osobowości)  
+* relic (relikwia) - nie relikt  
   
-#Stany i czynności  
-Zespół odstawienny (Withdrawal)  
-Szlachtownik (Slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
+# Stany i czynności  
+* zespół odstawienny (withdrawal)  
+* szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
+* purysta ciała (body purist)  
+* moder ciała (body moder)  
+* łowca ludzi (manhunter) -istota w stanie szału polująca na ludzi (stan pojawia się u zwierząt i dzikusów)
+
+# Praca i czynność  
+*  rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
+*  rzeźnik, ubija, ubite (slaughterer, slaughtering, slaughtered)  
+*  obdarzający(a) (bestower)
   
-#Praca i czynność  
-Rzeźnik, ćwiartuje, poćwiartowane (Butcher, butchering, butchered)  
-Rzeźnik, ubija, ubite (Slaughterer, slaughtering, slaughtered)  
+# Miejsca  
+* posterunek (outpost)  
   
-#Przedmioty  
-Pas aktywnej osłony (Shield belt)  
-Zawalone skały (Collapsed rocks)  
-Browarnia (Brewery)  
-Czapka zimowa (Tuque)  
-Długi łuk (Greatbow)  
-Długi miecz (Long sword)  
-Łuk refleksyjny (Recurve Bow)  
-dozownik pasty odżywczej  
-Geoskaner (GroundPenetratingScanner)  
-Dalekosiężny skaner minerałów (Long-range mineral scanner)  
-gladius  
-hełm wojskowy (MilitaryHelmet)  
-hełm wspomagany (PowerArmorHelmet)  
-hełm z kevlaru (KevlarHelmet)  
-implant przeciwbólowy (Painstopper)  
-implant szczęścia (Joywire)  
-impuls elektromagnetyczny (EMP)  
-kamizelka kuloodporna (VestPlate)  
-kapelusz kowbojski (CowboyHat)  
-kapsuła hibernacyjna (CryptosleepCasket)  
-karabin (SurvivalRifle)  
-karabin energetyczny (ChargeRifle)  
-karabin snajperski kalibru 7,62 mm (SniperRifle)  
-karabin szturmowy kalibru 6 mm (AssaultRifle)  
-konsola łączności (CommsConsole)  
-koszula (CollarShirt)  
-krótki łuk (Bow_Short)  
-kuchenka elektryczna  
-kurtka zimowa (Jacket)  
-kuźnia  
-laboratorium używek  
-laboratorium badawcze  
-lekki karabinek kalibru 8 mm (LMG)  
-lekki karabin maszynowy (HeavySMG)  
-monitor funkcji życiowych (VitalsMonitor)  
-maczuga (Club)  
-maszyna do szycia  
-minigun  
-multianalizer  
-nadajnik handlu orbitalnego (OrbitalTradeBeacon)  
-neurotrener (Neurotrainer)  
-niezasilana lodówka (PassiveCooler)  
-nóż (Knife)  
-odzież plemienna (TribalA)  
-ostrze (Shiv)  
-oszczep (Pila)  
-pałka (Mace)  
-pancerz wspomagany (PowerArmor)  
-kapsułka z pianą gaśniczą (FirefoamPopper)  
-piec hutniczy  
-piec kuchenny  
-pistolet (Pistol)  
-pistolet automatyczny (MachinePistol)  
-płaszcz (Duster)  
-płaszcz zimowy (Parka)  
-podkoszulek (BasicShirt)  
-przetwórnia metalu  
-reaktor antymaterii (ShipReactor)  
-spodnie (Pants)  
-stół bezglebowy  
-stół do badań  
-stół kamieniarski  
-stół roboczy  
-stół rzeźniczy  
-stół warsztatowy  
-strzelba (PumpShotgun)  
-superapteczka  
-przełącznik (Switch)  
-tarcze energetyczne (PersonalShields)  
-włócznia (Spear)  
-wyrzutnia zapalająca (IncendiaryLauncher)  
-zestaw do szycia  
-wiertnica głębinowa  (deep drill)
+# Przedmioty  
+* pas aktywnej osłony (shield belt)  
+* zawalone skały (collapsed rocks)  
+* browarnia (brewery)  
+* czapka zimowa (tuque)  
+* długi łuk (greatbow)  
+* długi miecz (long sword)  
+* łuk refleksyjny (recurve bow)  
+* dozownik pasty odżywczej (nutrient paste dispenser)
+* geoskaner (ground penetrating scanner)  
+* dalekosiężny skaner minerałów (long-range mineral scanner)  
+* hełm wojskowy (militaryhelmet)  
+* hełm wspomagany (powerarmorhelmet)  
+* hełm z kevlaru (kevlarhelmet)  
+* implant przeciwbólowy (painstopper)  
+* implant szczęścia (joywire)  
+* impuls elektromagnetyczny (emp)  
+* kamizelka kuloodporna (vestplate)  
+* kapelusz kowbojski (cowboyhat)  
+* kapsuła hibernacyjna (cryptosleepcasket)  
+* karabin (survivalrifle)  
+* karabin energetyczny (chargerifle)  
+* karabin snajperski (sniperrifle)  
+* karabin szturmowy (assaultrifle)  
+* konsola łączności (commsconsole)  
+* koszula (collarshirt)  
+* krótki łuk (bow_short)  
+* kuchenka elektryczna  
+* kurtka (jacket)  
+* lekki karabin maszynowy (lmg)  
+* lekki pistolet maszynowy (heavysmg)  
+* monitor funkcji życiowych (vitalsmonitor)  
+* maczuga (club)  
+* multianalizer (Multi-analizer)
+* nadajnik handlu orbitalnego (orbitaltradebeacon)  
+* neurotrener (neurotrainer)  
+* ewaporator (passivecooler)  
+* odzież plemienna (tribalwear)  
+* oszczep (pila)  
+* pałka (mace)  
+* pancerz wspomagany (powerarmor)  
+* kapsułka z pianą gaśniczą (firefoampopper)  
+* pistolet (pistol)  
+* pistolet automatyczny (machinepistol)  
+* płaszcz (duster)  
+* Parka (parka)  
+* podkoszulek (basicshirt)  
+* przetwórnia metalu  
+* reaktor antymaterii (shipreactor)  
+* spodnie (pants)  
+* strzelba powtarzalna (pumpshotgun)  
+* superapteczka  
+* przełącznik (switch)  
+* tarcze energetyczne (personalshields)  
+* włócznia (spear)  
+* wyrzutnia zapalająca (incendiarylauncher)  
+* zestaw do szycia  
+* wiertnica głębinowa (deep drill)  
+* kapsuła (pod)  
+
+# Rośliny, substancje, jedzenie  
+* penoksycylina (penoxycyline)
+* brzeczka (wort)  
+* sok-go (go-juice)    
+* produkty odzwierzęce (animal products)  
+* zioło (smokeleaf)  
+* joint, jointy (joint)  
+* psychit (psychite)
+* lucyferium (luciferium)   
+* neutroamina (neutroamine) 
+* karma dla zwierząt (kibble)  
+* pemikan (pemmican)  
+* pobudzacz (wakeup)  
+* płatki psychitu (flake)  
+* psychit (psychite)  
+* sprasowana maszyneria  
+* sprasowane żelazo  
+* superstal (plasteel)  
+* włosak diabelski (devilstrand)  
+* yayo (yayo)  
+* gniazdo (hive)  
+* świecący kokon (glow pod)  
+
+# Zwierzęta i inne stworzenia  
+* archatyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
+                            jakiegokolwiek stworzenia.
+                            W gruncie rzeczy, jedna wielka maszyna będąca w stanie tworzyć coś z niczego.
+* insektoid (Insectoid)
+* mechaniczny wij (Centipede)  
+* kosiarz (Scyther)  
+* lancer (Lancer)
+* pikiner (Pikeman)
+* termit (Termite)
+* alfabóbr (Alphabeaver)  
+* bumalopa (boomalope)  
+* megapająk (megaspider)  
+* spelopeda (spelopede)
+* megaskarabeusz (megascarab)  
+* jeleń (deer - samica to nie sarna, tylko łania!)  
+* mawół (muffalo)  
+* megaleniwiec (megasloth)
+* warg (warg)  
+* wybuchowy szczur (boomrat)  
   
-#Rośliny, substancje, jedzenie  
-Bloker malarii (MalariBlock)  
-Brzeczka (Wort)  
-Sok-go (GoJuice)  
-Jadeit (Jade)  
-Produkty odzwierzęce (Animal products)  
-Zioło (Smokeleaf)  
-Joint, jointy (Joint)  
-liście psychodeliczne  
-Lucyferium (Luciferium)  
-nanowłókno  
-neutroamina  
-pasza dla zwierząt (Kibble)  
-pemikan (Pemmican)  
-pobudzacz (WakeUp)  
-plasterki psychitu (Flake)  
-psychit (Psychite)  
-sprasowana maszyneria  
-sprasowane żelazo  
-Superstal (Plasteel)  
-Włosak diabelski (Devilstrand)  
-Yayo (Yayo)  
-srebro  
-uran  
-żyła złota!  
-gniazdo (hive)  
-Świecący kokon (glow pod)  
-  
-#Zwierzęta i inne stworzenia  
-archatyczny (archotech)
-alfabóbr (alphabeaver)  
-alpaka (Alpaca)  
-bumalopa (Boomalope)  
-dzik (WildBoar)  
-emu  
-fenek pustynny (FoxFennec)  
-gazela (Gazelle)  
-gigantyczny pająk (Megaspider)  
-iguana (iguana)  
-kapibara (Capybara)  
-kazuar (Cassowary)  
-kosiarz (Scyther)  
-indyk (Turkey)  
-jeleń (Deer - samica to nie sarna, tylko łania!)  
-karibu (Caribou)  
-koziorożec (Ibex)  
-lis arktyczny (FoxArctic)  
-lis rudy (FoxRed)  
-łoś (Elk)  
-mawół (muffalo)  
-mechaniczny wij (MechanicalCentipede)  
-megaskarabeusz (Megascarab)  
-megaterium (Megatherium)  
-niedźwiedź grizli (Grizzly Bear)  
-niedźwiedź polarny (PolarBear)  
-nosorożec (Rhinoceros)  
-pantera (Panther)  
-puma (Cougar)  
-rogaty robal (Spelopede)  
-ryś (Lynx)  
-struś (Ostrich)  
-szop pracz (Raccoon)  
-Thrumbo (wielką literą)  
-warg (warg)  
-wielbłąd (Dromedary)  
-wilk (WolfTimber)  
-wilk polarny (WolfArctic)  
-wybuchowy szczur (Boomrat)  
-zając (Hare)  
-zając śnieżny (Snowhare)  
-  
-#Przyciski główne  
-Od lewej:  
+# Przyciski główne  
 Architekt (Architect)  
 Praca (Work)  
-Ograniczenia (Restrict)  
-Zachowania (Assign - Przydział) "Zachowania" lepiej pasuje według mnie.  
+Harmonogram (Schedule)  
+Przydział (Assign)  
 Zwierzęta (Animals)  
 Fauna (Wildlife)  
 Badania (Research)  
@@ -210,12 +176,10 @@ Zadania (Quests)
 Świat (World)  
 Historia (History)  
 Frakcje (Factions)  
-Menu  
-  
-#Menu Architekta  
-Od lewej do prawej:  
+
+# Menu Architekta  
 Polecenia (Orders)  
-Obszary (Zone)  
+Strefa (Zone)  
 Struktura (Structure)  
 Produkcja (Production)  
 Meble (Furniture)  
@@ -223,7 +187,7 @@ Zasilanie (Power)
 Obrona (Security)  
 Różne (Misc)  
 Podłogi (Floors)  
-Rozrywka (Recreation)  
+Rekreacja (Recreation)  
 Statek (Ship)  
 Temperatura (Temperature)  
   

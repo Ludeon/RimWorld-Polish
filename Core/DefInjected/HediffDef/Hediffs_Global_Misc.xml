@@ -15,7 +15,7 @@
   <!-- EN: blood loss -->
   <BloodLoss.label>utrata krwi</BloodLoss.label>
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
-  <BloodLoss.description>Zmniejszenie ilości krwi w krwiobiegu. Lekka utrata krwi ma względnie łagodne efekty, natomiast utrata dużej ilości powoduje pogorszenie transportu tlenu w organizmie, co prowadzi do utraty przytomności. Utrata większości krwi prowadzi do śmierci.\n\nPoziom krwi w organizmie po pewnym czasie powinien się ustabilizować.</BloodLoss.description>
+  <BloodLoss.description>Zmniejszenie ilości krwi w krwiobiegu. Lekka utrata krwi ma względnie łagodne efekty, natomiast utrata dużej ilości powoduje pogorszenie transportu tlenu w organizmie, co prowadzi do utraty przytomności. Utrata znaczącej ilości krwi prowadzi do śmierci.\n\nPoziom krwi w organizmie po pewnym czasie powinien się ustabilizować.</BloodLoss.description>
   <!-- EN: minor -->
   <BloodLoss.stages.minor-0.label>lekka</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
@@ -53,7 +53,7 @@
   <!-- EN: Overdose: {0} -->
   <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>Przedawkowanie: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is overdosing! -->
-  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} przedawkował{0_gender ? : a : o}!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} przedawkował{PAWN_gender ? : a}!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
   <!-- EN: a drug overdose -->
   <DrugOverdose.labelNoun>przedawkowanie</DrugOverdose.labelNoun>
   <!-- EN: minor -->
@@ -91,10 +91,8 @@
   <Pregnant.label>ciąża</Pregnant.label>
   <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
   <Pregnant.description>Ta istota powinna wkrótce powinna urodzić potomstwo. Jeśli w czasie ciąży dojdzie do uszkodzenia płodu, lub istota w ciąży jest niedożywiona, może dojść do poronienia.</Pregnant.description>
-  <!-- EN: {0} pregnant -->
-  <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>{0} ciąża</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is pregnant! -->
-  <Pregnant.comps.HediffComp_Discoverable.discoverLetterText>{0} jest w ciąży!</Pregnant.comps.HediffComp_Discoverable.discoverLetterText>
+  <Pregnant.comps.HediffComp_MessageAfterTicks.message>{0} jest w ciąży!</Pregnant.comps.HediffComp_MessageAfterTicks.message>
   <!-- EN: pregnancy -->
   <Pregnant.labelNoun>ciąża</Pregnant.labelNoun>
   <!-- EN: early-stage -->
@@ -105,16 +103,16 @@
   <Pregnant.stages.latestage.label>faza późna</Pregnant.stages.latestage.label>
   
   <!-- EN: psychic coma -->
-  <PsychicComa.label>TODO</PsychicComa.label>
+  <PsychicComa.label>śpiączka PSI</PsychicComa.label>
   <!-- EN: A form of benign coma during which the brain recovers from a psychic overload. -->
-  <PsychicComa.description>TODO</PsychicComa.description>
+  <PsychicComa.description>Forma łagodnej śpiączki, podczas której mózg regeneruje się po psychicznym przeciążeniu.</PsychicComa.description>
   <!-- EN: a psychic coma -->
-  <PsychicComa.labelNoun>TODO</PsychicComa.labelNoun>
+  <PsychicComa.labelNoun>śpiączka PSI</PsychicComa.labelNoun>
   
   <!-- EN: psychic hangover -->
   <PsychicHangover.label>osłabienie PSI</PsychicHangover.label>
   <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
-  <PsychicHangover.description>Skutek ciepła neuralnego. Osłabienie nie jest przyjemne, ale nie zagraża życiu.</PsychicHangover.description>
+  <PsychicHangover.description>Skutek ogrzania neuronów. Osłabienie jest nieprzyjemne, ale nie zagraża życiu.</PsychicHangover.description>
   <!-- EN: a psychic hangover -->
   <PsychicHangover.labelNoun>osłabienie PSI</PsychicHangover.labelNoun>
   <!-- EN: forming -->
@@ -125,9 +123,9 @@
   <!-- EN: psychic shock -->
   <PsychicShock.label>szok PSI</PsychicShock.label>
   <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
-  <PsychicShock.description>Stan chaosu w umyśle. Spowodowany atakami PSI albo krytycznym poziomem ciepła neuralnego. Tymczasowo unieruchamia ofiarę.</PsychicShock.description>
+  <PsychicShock.description>Stan chaosu w umyśle. Spowodowany atakami psychicznymi lub krytycznym poziomem ogrzania neuronów. Tymczasowo unieruchamia ofiarę.</PsychicShock.description>
   <!-- EN: a psychic shock -->
-  <PsychicShock.labelNoun>szok psychiczny</PsychicShock.labelNoun>
+  <PsychicShock.labelNoun>szok PSI</PsychicShock.labelNoun>
   
   <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>choroba porezurekcyjna</ResurrectionSickness.label>
@@ -137,7 +135,7 @@
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>zatrucie toksynami</ToxicBuildup.label>
   <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nCreatures who die with toxic buildup cannot be eaten. -->
-  <ToxicBuildup.description>Toksyny w krwiobiegu. Mogą pochodzić z różnych źródeł; ugryzienie, zatruta broń, niebezpieczne rośliny.\n\nIm więcej toksyny w krwiobiegu, tym większe ryzyko śmierci. Nawet małe dawki mogą być powodem powstawania nowotworów.\n\nSpożycie istoty która zginęła przez toksynę jest niebezpieczne.</ToxicBuildup.description>
+  <ToxicBuildup.description>Toksyny w krwiobiegu. Mogą pochodzić z różnych źródeł; ugryzienie, zatruta broń, niebezpieczne rośliny.\n\nIm więcej toksyny w krwiobiegu, tym większe ryzyko śmierci. Nawet małe dawki mogą być powodem powstawania nowotworów.\n\nSpożycie istoty, która zginęła przez toksynę jest niebezpieczne.</ToxicBuildup.description>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>nieznaczne</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->

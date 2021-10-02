@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Ścieżki plików -->
+  <SeedGenerator.rulePack.rulesFiles>
+    <li>animals_all->Words/Nouns/Animals_All</li>
+    <li>terrainfeatures_all->Words/Nouns/TerrainFeatures_All</li>
+    <li>people_jobs_all->Words/Nouns/People_Jobs_All</li>
+    <li>enemies_all->Words/Nouns/Enemies_All</li>
+    <li>gore_all->Words/Nouns/Gore_All</li>
+    <li>apparel_all->Words/Nouns/Apparel_All</li>
+    <li>adjective_mix->Words/Adjectives/Badass_Mas</li>
+    <li>adjective_mix->Words/Adjectives/Angsty_Mas</li>
+    <li>adjective_mix->Words/Adjectives/Friendly_Mas</li>
+    <li>adjective_mix->Words/Adjectives/Natural_Mas</li>
+    <li>concept_mix->Words/Nouns/Concepts_Positive_All</li>
+    <li>concept_mix->Words/Nouns/Concepts_Badass_All</li>
+    <li>concept_mix->Words/Nouns/Concepts_Angsty_All</li>
+    <li>weapons_all->Words/Nouns/Weapons_All</li>
+    <li>colors_seed->Words/Nouns/Colors_Seed</li>
+    <li>vegetables_all->Words/Nouns/Vegetables_All</li>
+    <li>games_all->Words/Nouns/Games_All</li>
+    <li>businesstypes_all->Words/Nouns/BusinessTypes_All</li>
+    <li>communities_all->Words/Nouns/Communities_All</li>
+  </SeedGenerator.rulePack.rulesFiles>
   <!-- EN:
     <li>r_seed(p=3)->[NamePerson]</li>
     <li>r_seed->[Animal]</li>
@@ -19,6 +41,23 @@
     <li>r_seed->[businesstype]</li>
     <li>r_seed->[Community]</li>
   -->
-  <SeedGenerator.rulePack.rulesStrings>TODO</SeedGenerator.rulePack.rulesStrings>
+  <SeedGenerator.rulePack.rulesStrings>
+    <li>r_seed(p=3)->[NamePerson]</li>
+    <li>r_seed->[animals_all]</li>
+    <li>r_seed->[terrainfeatures_all]</li>
+    <li>r_seed->[people_jobs_all]</li>
+    <li>r_seed->[enemies_all]</li>
+    <li>r_seed->[gore_all]</li>
+    <li>r_seed->[apparel_all]</li>
+    <li>r_seed->[adjective_mix]</li>
+    <li>r_seed->[concept_mix]</li>
+    <li>r_seed->[weapons_all]</li>
+    <li>r_seed->[colors_seed]</li>
+    <li>r_seed->[vegetables_all]</li>
+    <li>r_seed->[games_all]</li>
+    <li>r_seed->[businessname]</li>
+    <li>r_seed->[businesstypes_all]</li>
+    <li>r_seed->[communities_all]</li>
+  </SeedGenerator.rulePack.rulesStrings>
   
 </LanguageData>
