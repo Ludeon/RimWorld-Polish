@@ -42,7 +42,8 @@ Thrumbo
 * biokodowanie (biocoding)  
 * biosygnatura (biosignature)  
 * persona core (rdzeń z jaźnią)  
-* persona weapon (broń z jaźnią - z cechami osobowości)   
+* persona weapon (broń z jaźnią - z cechami osobowości)  
+* relic (relikwia) - nie relikt  
   
 # Stany i czynności  
 * zespół odstawienny (withdrawal)  
@@ -109,7 +110,7 @@ Thrumbo
 * przetwórnia metalu  
 * reaktor antymaterii (shipreactor)  
 * spodnie (pants)  
-* strzelba (pumpshotgun)  
+* strzelba powtarzalna (pumpshotgun)  
 * superapteczka  
 * przełącznik (switch)  
 * tarcze energetyczne (personalshields)  

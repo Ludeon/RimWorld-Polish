@@ -1481,7 +1481,7 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Dowolny {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>Uczestnictwo w {0}</LordReportAttending>
+  <LordReportAttending>Uczestnictwo w {lookup: {0}; Case\Singular; 2}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} zostało anulowane.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1501,9 +1501,9 @@
   <!-- EN: Spectators -->
   <Spectators>Widzowie</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>Nie uczestniczy</NotParticipating>
+  <NotParticipating>Osoby nieuczestniczące</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Przeciągnij i upuść lub kliknij lewym/prawym przyciskiem, aby przenieść ludzi.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Przeciągnij i upuść lub klikaj LPM/PPM.</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Niewolnik. Własność ludzka innych.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1521,7 +1521,7 @@
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>całkowita jakość {0} to {1}, zależała od tych czynników:</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>Szanse na wynik w {0} jakości</RitualOutcomeChances>
+  <RitualOutcomeChances>Szansa wyniku w jakości {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Wykonywane niedawno</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1544,18 +1544,18 @@
   <!-- EN: Begin {0} -->
   <BeginRitual>Rozpocznij {lookup: {0}; Case\Singular; 3}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Rozpocznij {0} dla {1}</BeginRitualFor>
+  <BeginRitualFor>Rozpocznij {lookup: {0}; Case\Singular; 3} dla {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (z {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0} to rytuał związany z datą. Będzie można go uruchomić za {1}, na {2}.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0} to rytuał związany z datą ({2}). Będzie można go uruchomić za {1}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Zamień z</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>Miejsce rytuałów {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>Oczekiwana jakość</ExpectedRitualQuality>
+  <ExpectedRitualQuality>Przewidywana jakość</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>Jakość początkowa</StartingQuality>
   <!-- EN: Expected duration -->
@@ -1566,7 +1566,7 @@
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Piękno pokoju</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>Uczestników</RitualPredictedOutcomeDescParticipantCount>
+  <RitualPredictedOutcomeDescParticipantCount>Uczestnicy</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Oczekiwania {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
