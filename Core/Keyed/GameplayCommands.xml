@@ -568,17 +568,17 @@
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Opuść: {RITUAL_label}</CommandLeaveRitual>
+  <CommandLeaveRitual>Opuść {lookup: {RITUAL_label}; Case\Singular; 3}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Przestań brać udział w {RITUAL_labelDef}. Rytuał będzie trwał dotąd, aż będzie miał przynajmniej jednego uczestnika.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>Przestań brać udział w {lookup: {RITUAL_labelDef}; Case\Singular; 2}. Rytuał będzie trwał dotąd, aż będzie miał przynajmniej jednego uczestnika.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>To ostatni uczestnik w {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>To ostatni uczestnik w {lookup: {RITUAL_labelDef}; Case\Singular; 2}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Przerwij: {RITUAL_label}</CommandCancelRitual>
+  <CommandCancelRitual>Przerwij {lookup: {RITUAL_label}; Case\Singular; 3}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Natychmiast zakończ {RITUAL_labelDef}. Zobowiązanie rytuału pozostanie. Będzie można go ponowić później.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Natychmiast zakończ {lookup: {RITUAL_labelDef}; Case\Singular; 3}. Zobowiązanie rytuału pozostanie. Będzie można go ponowić później.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>Czy na pewno chcesz przerwać {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>Czy na pewno chcesz przerwać {lookup: {RITUAL_labelDef}; Case\Singular; 3}?</CommandCancelRitualConfirm>
   
 </LanguageData>
