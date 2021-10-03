@@ -30,20 +30,20 @@
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes>{0_label} i {1_label} są ze sobą niezgodne.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>Potrzebujesz {lookup: {0}; Case\Singular; 1}, aby uruchomić {1}.</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNoRequiredRolePawnToBeginRitual>Potrzebujesz {lookup: {0}; Case\Singular; 1}, aby rozpocząć {lookup: {0}; Case\Singular; 3}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>Aby rozpocząć {lookup: {0}; Case\Singular; 3}, potrzeba co najmniej {0} widzów.</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>Aby rozpocząć {lookup: {1}; Case\Singular; 3}, potrzeba co najmniej {0} widzów.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>Musisz wybrać rolę.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Przed uruchomieniem {1} musisz przypisać kogoś do roli "{0}".</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Przed rozpoczęciem {1} musisz przypisać kogoś do roli - {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>Potrzebujesz co najmniej jednego uczestnika {0}.</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>{0_labelShort} pełni teraz rolę "{1}".</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} pełni teraz rolę - {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : a} więźniem, nie może {0_pronoun} już pełnić roli "{1}".</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : a} więźniem, nie może {0_pronoun} już pełnić roli - {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
   <MessageWarningPlayerDesignatedTreeChopped>Uwaga: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
@@ -65,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>Żaden strażnik nie jest zdolny do tego zniewolenia.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>Nie masz strażników {MEMBERNAME} do konwersji {PRISONER_nameDef}. Tryb interakcji {PRISONER_possessive} został przywrócony na „Brak interakcji”.</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>Nie masz strażników {MEMBERNAME} do konwersji {PRISONER_nameDef}. Tryb interakcji {PRISONER_possessive} został przywrócony na "Brak interakcji”.</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
