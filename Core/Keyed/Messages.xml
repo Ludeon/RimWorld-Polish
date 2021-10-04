@@ -14,12 +14,12 @@
   <MessageRaidersStealing>{0} z frakcji {1} postanowili ukraść co się da i odejść.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>{0} z {1} przybyło i atakuje! Posiłki są w drodze i przybędą w {2}.</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>Przybyli {0} z frakcji {1} i atakują! Posiłki są w drodze i przybędą w {2}.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} z frakcji {1} opuszczają kolonię.</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
-  <MessageRaidersGivenUpLeaving>{0} z frakcji {1} poddali się i opuszczają kolonię.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersGivenUpLeaving>{0} z frakcji {1} poddali się i odchodzą.</MessageRaidersGivenUpLeaving>
   <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
   <MessageRaidersSatisfiedLeaving>{0} z frakcji {1} są zadowoleni ze spowodowanych zniszczeń i odchodzą.</MessageRaidersSatisfiedLeaving>
 
@@ -49,10 +49,10 @@
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Potrzebujesz nadajnika handlu orbitalnego, aby wymieniać dobra ze statkiem.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>Osoba dzwoniąca musi mieć tytuł {0_label} lub wyższy.</MessageNeedRoyalTitleToCallWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>Osoba dzwoniąca musi mieć tytuł '{0_label}' lub wyższy.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>Zniszczono: {0}.</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0_gender ? został(y) : została : zostało} zniszczone.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Zlecenie ukończone: {0}.</MessageBillComplete>
@@ -64,16 +64,16 @@
   <MessagePrisonerIsEscaping>Więzień {1_labelShort} ucieka.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} nie może znaleźć amunicji do {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} nie znalaz{PAWN_gender ? ł : ła} w pobliżu wolnej amunicji do {GUN_label}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalaz{PAWN_gender ? ł : ła} w pobliżu zarezerwowanego paliwa {FUEL} dla {GUN_label}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} nie znalaz{PAWN_gender ? ł : ła} w pobliżu wolnego paliwa {FUEL} do {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} podstawowej szansy na to, że {ANIMAL_kindBasePlural} zaatakują, gdy się je zrani. Szansa zależna jest od dystansu i umiejętności kamuflażu myśliwego.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Uwaga: Jest {1} podstawowej szansy na to, że {ANIMAL_kindBasePlural} zaatakują, gdy się je zrani. Szansa zależna jest od dystansu i statystyki kamuflażu myśliwego.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Uwaga: {ANIMAL_kindBasePlural} mogą zaatakować przy nieudanej próbie oswojenia ({1} szans).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>Tylko osoby z cechą sympatii owadów mogą oswoić {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <MessageInsectTameDesignated>Tylko osoby z cechą sympatii do insektów mogą oswoić {INSECT_indefinite}.</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Uwaga: {PAWN_labelShort} jest wrog{PAWN_gender ? i : a} i zaatakuje, gdy Twój kolonista spróbuje {PAWN_objective} oswoić.</MessageInsectsHostileOnTaming>
@@ -92,7 +92,7 @@
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} {RECRUITEE_gender ? dołączył : dołączyła : dołączyło} do Twojej kolonii.</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>Kolonii nie stać na tę transakcję.</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>Kolonia nie może sobie pozwolić na tę ofertę.</MessageColonyCannotAfford>
   <!-- EN: You do not have enough silver ready to trade. -->
   <MessageColonyNotEnoughSilver>Nie masz wystarczającej ilości srebra przygotowanego na handel.</MessageColonyNotEnoughSilver>
 
@@ -100,21 +100,21 @@
   <MessageCriticalAlert>Alarm krytyczny: {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Należy wyznaczyć wystarczająco dojrzałe plony.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Należy wyznaczyć wystarczająco wyrośnięte rośliny, nadające się do zbiorów.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Należy wyznaczyć odpowiednio duże drzewa.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Należy wyznaczyć wystarczająco wyrośnięte rośliny bogate w drewno.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Należy wyznaczyć rośliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Należy wyznaczyć przedmioty możliwe do przeniesienia. Niektóre przedmioty zawszę są noszone i nie mogą być wyznaczone.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>Należy wyznaczyć przedmioty możliwe do przeniesienia. Niektóre przedmioty zawszę są noszone i nie mogą być wyznaczane.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Należy wyznaczyć nieprzekraczanlne skały, które można kopać.</MessageMustDesignateMineable>
+  <MessageMustDesignateMineable>Należy wyznaczyć nieprzekraczanlne skały, które można wydobywać.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
-  <MessageMustDesignateHuntable>Należy wyznaczyć zwierzęta do polowania.</MessageMustDesignateHuntable>
+  <MessageMustDesignateHuntable>Należy wyznaczyć zwierzęta nadające się do polowania.</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
-  <MessageMustDesignateTameable>Należy wyznaczyć zwierzęta do oswojenia.</MessageMustDesignateTameable>
+  <MessageMustDesignateTameable>Należy wyznaczyć zwierzęta nadające się do oswajania.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>Należy wyznaczyć porzucone budynki.</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>Należy wyznaczyć porzucone, nienaturalne struktury.</MessageMustDesignateClaimable>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>Musisz pokonać klaster mechów, zanim będzie można to rozebrać.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -124,11 +124,11 @@
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
   <MessageAlreadyInStorage>To już znajduje się w magazynie i w razie potrzeby zostanie przeniesione do magazynu o wyższym priorytecie.</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>Należy wyznaczyć zwłoki lub powalone postacie, aby zdjąć z nich strój.</MessageMustDesignateStrippable>
+  <MessageMustDesignateStrippable>Należy wyznaczyć zwłoki lub powalone postacie ze strojem możliwym do zdjęcia.</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>Należy wyznaczyć oswojone zwierzę, które należy do kolonii.</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
-  <MessageMustDesignateOpenable>Należy wyznaczyć pełny grób lub pojemnik.</MessageMustDesignateOpenable>
+  <MessageMustDesignateOpenable>Należy wyznaczyć pełne pojemniki lub groby.</MessageMustDesignateOpenable>
   <!-- EN: Must designate unforbidden items. -->
   <MessageMustDesignateForbiddable>Należy wyznaczyć dopuszczone przedmioty.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
@@ -145,15 +145,15 @@
   <MessageTooLowMedCare>Operacja wymaga poziomu {0} lub wyższego. Poziom opieki medycznej {PAWN_labelShort} wynosi "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? umarł : umarła : umarło}.\nPrzyczyna śmierci: {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? umarł : umarła}.\nPrzyczyna śmierci: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_labelShort} właśnie {1_gender ? umarł : umarła : umarło}.</PawnDied>
+  <PawnDied>{1_labelShort} właśnie {1_gender ? umarł : umarła}.</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{1_label} może już chodzić.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} {1_gender ? upadł : upadła : upadło} z powodu silnego wyczerpania.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} {1_gender ? upadł : upadła} z powodu silnego wyczerpania.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Ta operacja rozgniewa {0}.</MessageMedicalOperationWillAngerFaction>
@@ -180,12 +180,12 @@
   <MessageNoHandlerSkilledEnough>Żaden trener nie może oswoić zwierzęcia - {ANIMAL_kindBase}, (wymaga poziomu {1} w kategorii: {2}, a najlepszy trener {HANDLER_labelShort} ma {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? został : została : zostało} {EATEN_gender ? zjedzony : zjedzona : zjedzone}  przez {PREDATOR}.</MessageEatenByPredator>
+  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? został : została} {EATEN_gender ? zjedzony : zjedzona}  przez {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort} jest {PREY_gender ? atakowany : atakowana : atakowane} przez {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} jest {PREY_gender ? atakowany : atakowana} przez {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} {PAWN_gender ? zaczął : zaczęła : zaczęło} się oddalać! Opuści mapę, chyba że treser zwierząt przywiąże {PAWN_gender ? go : ją : je} z powrotem do zagrody.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} {PAWN_gender ? zaczął : zaczęła} się oddalać! Opuści mapę, chyba że treser zwierząt przywiąże {PAWN_gender ? go : ją} z powrotem do zagrody.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Gniazdo insektów samoczynnie się powieliło.</MessageHiveReproduced>
@@ -252,19 +252,19 @@
   <MessageRottedAwayInStorage>{1_label} {1_gender ? zgnił(y) : zgniła : zgniło} w składowisku.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort} {PAWN_gender ? dostał : dostała} zatrucia od: {FOOD_labelShort}. Przyczyna: {2}.</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort} {PAWN_gender ? dostał : dostała} zatrucia od: {FOOD_labelShort}.\nPrzyczyna: {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? został : została : zostało} {0_gender ? usunięty : usunięta : usunięte} z karawany.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
-  <MessagePawnLostWhileFormingCaravan_AllLost>Proces tworzenia karawany został przerwany.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <MessagePawnLostWhileFormingCaravan_AllLost>Przerwano proces formowania karawany.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
-  <MessageCaravanFormationPaused>Proces tworzenia karawany będzie kontynuowany, gdy wszyscy wyjdą z załamania psychicznego.</MessageCaravanFormationPaused>
+  <MessageCaravanFormationPaused>Proces formowania karawany będzie kontynuowany, gdy wszyscy wyjdą z załamania psychicznego.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>Twoi koloniści będą teraz kontynuować tworzenie karawany.</MessageCaravanFormationUnpaused>
+  <MessageCaravanFormationUnpaused>Twoi koloniści będą teraz kontynuować formowanie karawany.</MessageCaravanFormationUnpaused>
   
   <!-- EN: One of the caravan members has had a mental break. -->
-  <MessageCaravanMemberHasExtremeMentalBreak>Jeden z członków karawany przechodzi załamanie psychiczne.</MessageCaravanMemberHasExtremeMentalBreak>
+  <MessageCaravanMemberHasExtremeMentalBreak>Jeden z członków karawany miał załamanie psychiczne.</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>Uwaga: Wygenerowanie całej planety może zająć bardzo dużo czasu.</MessageMaxPlanetCoveragePerformanceWarning>
@@ -292,15 +292,15 @@
   <MessageCaravanArrivedAtDestination>{0} dotarła w wyznaczone miejsce.</MessageCaravanArrivedAtDestination>
   
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} opuszcza strefę i tworzy karawanę.</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} opuści{1_gender ? ł : ła}  strefę i tworzy karawanę.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
-  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Twoje zwierzęta właśnie idą, aby do niej dołączyć.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Twoje zwierzęta idą, aby do niej dołączyć.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Skutecznie osiedlono się na nowym obszarze.</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{PAWN_labelShort} {2} {PAWN_gender ? wyleczył : wyleczyła} się. Przyczyna: {0}</MessagePermanentWoundHealed>
+  <MessagePermanentWoundHealed>{PAWN_labelShort} {2} {PAWN_gender ? wyleczył : wyleczyła} się.\nPrzyczyna: {0}</MessagePermanentWoundHealed>
   
   <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
   <MessageRescueeDidntJoin>{PAWN_nameDef} {PAWN_gender ? wyzdrowiał : wyzdrowiała} i {PAWN_gender ? zdecydował : zdecydowała} się odjeść.</MessageRescueeDidntJoin>
@@ -308,12 +308,12 @@
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>Niektóre kapsuły transportowe są nieosiągalne.</MessageTransporterUnreachable>
   <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
-  <MessageTransportersNotAdjacent>Wszystkie wyrzutnie podłączone do wybranych kapsuł muszą do siebie przylegać.</MessageTransportersNotAdjacent>
+  <MessageTransportersNotAdjacent>Wszystkie wyrzutnie podłączone do wybranych kapsuł transportowych muszą do siebie przylegać.</MessageTransportersNotAdjacent>
   
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>Proces załadunku został przerwany, ponieważ jedna z kapsuł transportowych uległa zniszczeniu.</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Proces ładowania został anulowany, ponieważ prom został zniszczony.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Proces ładowania został przerwany, ponieważ prom został zniszczony.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Proces załadunku został przerwany, ponieważ jedna z wyrzutni kapsuł uległa zniszczeniu.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
@@ -330,12 +330,12 @@
   <MessageTransportPodsArrivedAndAddedToCaravan>Twoje kapsuły transportowe już są na miejscu. Zawartość została dodana do karawany ({0}).</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Załadunek kapsuł transportowych ukończony. Wystartuj, gdy będzie gotowy.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>Ukończono załadunek kapsuł transportowych. Możesz startować.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingTransporterSingle>Prom jest załadowany wymaganym ładunkiem i jest gotowy do startu.</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Twój {1} nie może zakończyć ładowania kapsuł transportowych, ponieważ niektóre przedmioty lub osoby stały się niedostępne ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>Tw{1_gender ? ój : oja } {1} nie może zakończyć ładowania kapsuł transportowych, ponieważ niektóre przedmioty lub osoby stały się niedostępne ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Wybrany cel jest nieprawidłowy.</MessageTransportPodsDestinationIsInvalid>
@@ -343,44 +343,44 @@
   <MessageTransportPodsDestinationIsTooFar>Każda wyrzutnia będzie potrzebować przynajmniej {0}x chemiopaliwa, aby wysłać kapsuły transportowe tak daleko.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>Karawana została przegrupowana.</MessageReformedCaravan>
+  <MessageReformedCaravan>Karawana została zreformowana.</MessageReformedCaravan>
   
   <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>Nie można wygnać ostatniego kolonisty.</MessageCantBanishLastColonist>
+  <MessageCantBanishLastColonist>Nie możesz wygnać ostatniego kolonisty.</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>Nie można wyposażyć: {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Nie można wyposażyć: {1_labelShort} jest {1_gender ? niezdolny : niezdolna} do przemocy.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
-  <MessageCantEquipIncapableOfShooting>Nie można założyć: {1_labelShort} nie może strzelać.</MessageCantEquipIncapableOfShooting>
+  <MessageCantEquipIncapableOfShooting>Nie można wyposażyć: {1_labelShort} nie może strzelać.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>Nie można wyposażyć: Brak zdolności.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
-  <MessageCantWearApparelMissingBodyParts>Nie można nosić: w {1_labelShort} brakuje wymaganych części ciała.</MessageCantWearApparelMissingBodyParts>
+  <MessageCantWearApparelMissingBodyParts>Nie można założyć: W {1_labelShort} brakuje wymaganych części ciała.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
   <MessageCantUnequipLockedApparel>Ta osoba nie chce tego usunąć.</MessageCantUnequipLockedApparel>
   <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
-  <MessageWouldReplaceLockedApparel>Nie można nosić: zastąpiłoby to odzież, której {1_ labelShort} nie chce usunąć.</MessageWouldReplaceLockedApparel>
+  <MessageWouldReplaceLockedApparel>Nie można założyć: Zastąpiłoby to odzież, której {1_ labelShort} nie chce usunąć.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Ponieważ łączy ich więź, zabicie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie {BONDED_gender ? nieszczęśliwy : nieszczęśliwa}.</MessageSlaughteringBondedAnimal>
   <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageReleaseBondedAnimal>Ponieważ są związani, wydanie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie niezadowolony.</MessageReleaseBondedAnimal>
+  <MessageReleaseBondedAnimal>Ponieważ łączy ich więź, wypuszczenie {DESIGNATED_labelShort} sprawi, że {BONDED_labelShort} będzie {BONDED_gender ? nieszczęśliwy : nieszczęśliwa}.</MessageReleaseBondedAnimal>
   
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} nie ma już jedzenia.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>Zwłoki {PAWN_definite} zostały zabrane przez karawanę. Jest ciężki i może unieruchomić karawanę, ale można go zostawić w zakładce z przedmiotami karawany.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite} zwłoki zostały zabrane przez karawanę. Są ciężkie i mogą unieruchomić karawanę, ale można je porzucić korzystając z karty przedmiotów karawany.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>Aby stworzyć karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>Aby uformować karawanę, wybierz własną kolonię lub miejsce, w którym posiadasz ludzi.</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>W tej rozdzielczości i przy tym rozmiarze interfejsu gra może nie zmieścić się na ekranie. Zmniejsz rozmiar interfejsu lub zwiększ rozdzielczość.</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Musisz teraz zmienić przegrupować karawanę. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>Musisz teraz zreformować karawanę. Pozostawionych osób nie będzie można odzyskać.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{0} z frakcji {1} przeprowadzają atak. Celem są Twoi {2}.</MessageDefendersAttacking>
@@ -389,37 +389,37 @@
   <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>Pozostałe mechanoidy do montażu</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>Sygnalizator zrzutu mechanoidów wezwał posiłki w pobliskich kapsułach zrzutowych.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>Nadajnik zrzutu mechanoidów wezwał posiłki w pobliskich kapsułach zrzutowych.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Aby {1_gender ? mógł : mogła} samodzielnie się leczyć, {1_labelShort} musi być {1_gender ? przydzielony : przydzielona} do pracy jako lekarz.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Aby {1_gender ? mógł : mogła} samodzielnie się leczyć, {1_labelShort} musi być również {1_gender ? przydzielony : przydzielona} do pracy jako lekarz.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort} nie jest {1_gender ? przydzielony : przydzielona} do pracy jako lekarz, dlatego nie może się samodzielnie leczyć.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Ta komórka jest nieprzekraczalna.</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseImpassable>To pole jest nieprzekraczalne.</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
-  <MessageCantAddWaypointBecauseUnreachable>Nie da się dotrzeć na ten obszar z ostatniego punktu orientacyjnego.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseUnreachable>Nie da się dotrzeć na to pole z ostatniego punktu orientacyjnego.</MessageCantAddWaypointBecauseUnreachable>
   <!-- EN: You can't add more than {0} waypoints. -->
   <MessageCantAddWaypointBecauseLimit>Nie możesz dodać więcej niż {0} punktów orientacyjnych.</MessageCantAddWaypointBecauseLimit>
   <!-- EN: You can't remove this waypoint. -->
   <MessageCantRemoveWaypointBecauseFirst>Nie możesz usunąć tego punktu orientacyjnego.</MessageCantRemoveWaypointBecauseFirst>
   
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Wszyscy Twoi strażnicy są niezdolni do przemocy. Egzekucja nie może się odbyć.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Wszyscy Twoi strażnicy są niezdolni do przemocy. Egzekucja nie zostanie przeprowadzona.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
   <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemies>Obszar jest teraz bezpieczny. Możesz przegrupować karawanę na mapie świata.</MessageCanReformCaravanNowNoMoreEnemies>
+  <MessageCanReformCaravanNowNoMoreEnemies>Obszar jest teraz bezpieczny. Możesz zreformować karawanę na mapie świata.</MessageCanReformCaravanNowNoMoreEnemies>
   <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Okolica jest teraz bezpieczna, ale pozostało kilka niezbadanych pomieszczeń. Możesz dalej eksplorować lub przegrupować karawanę na mapie świata.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Okolica jest teraz bezpieczna, ale pozostało kilka niezbadanych pomieszczeń. Możesz dalej eksplorować lub zreformować karawanę na mapie świata.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Nie można wygnać {1_labelShort} ponieważ nie może {1_pronoun} chodzić.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} obudziły się się.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} budzą się.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Budynki klastra mechów zostały pokonane.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>Budowle klastra mechów zostały pokonane.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Wyprodukowany przedmiot: {0}.</MessageCompSpawnerSpawnedItem>
@@ -451,10 +451,10 @@
   <MessageWarningCavePlantsExposedToLight>Uwaga: {0} nie może rosnąć w świetle słonecznym.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} nie może dosięgnąć {OLDTARGET_label} więc [PAWN_pronoun] przekierowuje [PAWN_possessive] złość na {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} nie może dosięgnąć {OLDTARGET_label} więc przekierowuje {PAWN_pronoun} swoją złość na {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} nie może dosięgnąć {OLDTARGET_label} więc {PAWN_pronoun} przekierowuje swoją złość na {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} nie może dosięgnąć {OLDTARGET_label} więc przekierowuje {PAWN_pronoun} swoją złość na {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort} przekierowuje swoją złość na {TARGET_label}.</MessageMurderousRageChangedTarget>
@@ -465,7 +465,7 @@
   <MessageRoofIncompatibleWithPlant>Nie można zbudować dachu nad rośliną: {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Przegrupuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Aby opuścić obszar, użyj przycisku 'Reformuj karawanę' w widoku świata.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Nie możesz teraz opuścić mapy.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
@@ -494,7 +494,7 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>śmierć {1_labelShort}</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>{0_labelShort} rozebrany</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_PawnStripped>rozebrano {0_labelShort}</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>przeprowadzono wymianę</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -506,7 +506,7 @@
   <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>otrzymywano podarunek</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>spełniono ofertę handlową</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>spełniono ofertę wymiany</GoodwillChangedReason_FulfilledTradeRequest>
   <!-- EN: finished a quest -->
   <GoodwillChangedReason_FinishedQuest>ukończono zadanie</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
@@ -516,21 +516,21 @@
   <!-- EN: euthanized {PAWN_labelShort} -->
   <GoodwillChangedReason_EuthanizedPawn>poddano eutanazji {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
   <!-- EN: requested military aid -->
-  <GoodwillChangedReason_RequestedMilitaryAid>poproszono o pomoc wojskową</GoodwillChangedReason_RequestedMilitaryAid>
+  <GoodwillChangedReason_RequestedMilitaryAid>poproszono o pomoc militarną</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>zażądano karawanę handlowa</GoodwillChangedReason_RequestedTrader>
   <!-- EN: caused neuroquake echo -->
   <GoodwillChangedReason_CausedNeuroquakeEcho>spowodowano echo neurowstrząsu</GoodwillChangedReason_CausedNeuroquakeEcho>
   <!-- EN: caused berserk on {PAWN_labelShort} -->
-  <GoodwillChangedReason_CausedBerserk>spowodowano szał na {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
+  <GoodwillChangedReason_CausedBerserk>spowodowano szał u {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
   <!-- EN: attacked {0_name} -->
   <GoodwillChangeReason_AttackedFaction>zaatakowano {0_name}</GoodwillChangeReason_AttackedFaction>
   <!-- EN: shuttle destroyed -->
   <GoodwillChangeReason_ShuttleDestroyed>zniszczono prom</GoodwillChangeReason_ShuttleDestroyed>
   <!-- EN: civilians lost -->
-  <GoodwillChangeReason_CiviliansLost>cywile zginęli</GoodwillChangeReason_CiviliansLost>
+  <GoodwillChangeReason_CiviliansLost>zaginęli cywile</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
-  <GoodwillChangeReason_CommanderLost>dowódca zginął</GoodwillChangeReason_CommanderLost>
+  <GoodwillChangeReason_CommanderLost>zaginął dowódca</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>Frakcja {0} przyjęła podarunek, ale go nie docenia.</MessageGiftGivenButNotAppreciated>
@@ -538,7 +538,7 @@
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>Karawana jest już obciążona i nie może unieść już nic więcej.</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>Karawana nie może unieść tak dużo. Podarunki ważą {0}, ale karawana może przewieźć tylko {1} więcej.</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarry>Karawana nie może unieść tak dużo. Podarunki ważą {0}, a karawana może przewieźć tylko {1} więcej.</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0} została uformowana i jest teraz w trybie podróży na mapie świata.</MessageFormedCaravan>
@@ -563,7 +563,7 @@
   <!-- EN: {1_labelShort} has been returned to the wild. -->
   <MessageAnimalReturnedWildReleased>{1_labelShort} zosta{1_gender ? ł : ła} wyposzczon{1_gender ? y : a} na wolność.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Z powodu braku utrzymania szkolenia, {ANIMAL_labelShort} {ANIMAL_gender ? stracił : straciła : straciło} umiejętność: {1}</MessageAnimalLostSkill>
+  <MessageAnimalLostSkill>Z powodu braku utrzymania szkolenia, {ANIMAL_labelShort} {ANIMAL_gender ? stracił : straciła} umiejętność: {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>Raport tłumaczenia zapisany do {0}</MessageTranslationReportSaved>
@@ -601,10 +601,10 @@
   <MessageCapturingWillAngerFaction>Uwaga: Schwytanie {PAWN_nameDef} rozgniewa {PAWN_possessive} frakcję {PAWN_factionName}.</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>Uwaga: rozebranie {PAWN_nameDef} rozgniewa {PAWN_factionName}.</MessageStrippingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>Uwaga: Rozebranie {PAWN_nameDef} rozgniewa frakcje {PAWN_factionName}.</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>Nie można strzelać w walce wręcz.</MessageCantShootInMelee>
+  <MessageCantShootInMelee>Nie można strzelać w zwarciu.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
   <MessageNoColonistCanAcceptQuest>Żaden Twój {0} nie może teraz przyjąć tego zadania.</MessageNoColonistCanAcceptQuest>
@@ -618,53 +618,53 @@
   <MessagePawnsLeaving>{0} odchodzą.</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Pomnik został zniszczony, ponieważ wybudowano wewnątrz niedozwoloną budowlę.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Monument został zniszczony, ponieważ wybudowano wewnątrz niedozwoloną budowlę.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>Nie można zastosować: brak dostępnego, niezarezerwowanego stołu badawczego.</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
-  <NoValidDestinationFound>Nie znaleziono prawidłowego miejsca docelowego dla {0}</NoValidDestinationFound>
+  <NoValidDestinationFound>Nie znaleziono prawidłowego miejsca docelowego dla: {0}</NoValidDestinationFound>
 
   <!-- EN: An extracted tree just died. -->
-  <MessageMinifiedTreeDied>Wydobyte drzewo właśnie umarło.</MessageMinifiedTreeDied>
+  <MessageMinifiedTreeDied>Wydobyte drzewo właśnie uschło.</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>Uwaga: Zanim nie zostanie wybudowany STÓŁ BADAWCZY, nie będzie można przeprowadzać badań.</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>Uwaga: Zanim nie zostanie wybudowany STÓŁ BADAWCZY, badania nie zostaną przeprowadzone.</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? uruchomił : uruchomiła} aktywator zbliżeniowy.</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? wyzwolił : wyzwoliła} aktywator zbliżeniowy.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>{0_label} jest w tej chwili ukryte.</MessageCannotSelectInvisibleStat>
+  <MessageCannotSelectInvisibleStat>{0_label} jest w tej chwili ukryt{0_gender ? y : a : e}.</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} jest więźniem</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>Uwaga: przekonania {0_nameDef} sprzeciwiają się pracy {1}. Może {0_objective} to zasmucić.</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>Uwaga: Przekonania {0_nameDef} sprzeciwiają się pracy typu '{1}'. Może to {0_objective} zasmucić.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{0} nie jest już przypisan{0_gender ? y : a : e} do {1_nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{0} przypisane do {1_nameDef} zostało zniszczone.</MessageBedDestroyed>
+  <MessageBedDestroyed>{0} przypisane do {1_nameDef} zosta{0_gender ? ł : ła : ło} zniszczon{0_gender ? y : a : e}.</MessageBedDestroyed>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
-  <Spectate>oglądaj</Spectate>
+  <Spectate>przyglądaj się</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>Przypisz do {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
-  <RitualBegun>Rozpoczyna się {0}</RitualBegun>
+  <RitualBegun>Rozpoczyna się {0}.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>Maksymalna liczba {0} to {1}.</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
-  <RoleIsLocked>Rola {0} jest zablokowana.</RoleIsLocked>
+  <RoleIsLocked>Rola '{0}' jest zablokowana.</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>Potrzebujesz co najmniej jednego uczestnika.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
-  <MessageRitualNeedsAtLeastOneSpectator>Potrzebujesz przynajmniej jednego widza.</MessageRitualNeedsAtLeastOneSpectator>
+  <MessageRitualNeedsAtLeastOneSpectator>Potrzebujesz co najmniej jednego widza.</MessageRitualNeedsAtLeastOneSpectator>
   <!-- EN: You need a {0}. -->
   <MessageRitualNeedsAtLeastOneRolePawn>Potrzebujesz {0}.</MessageRitualNeedsAtLeastOneRolePawn>
   <!-- EN: You need at least {1} {0}. -->
@@ -722,7 +722,7 @@
   <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort} jest w stanie psychicznym.</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->
-  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} to już {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} już wyznaje {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} nie może pełnić innej roli niż widz.</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
