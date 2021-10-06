@@ -23,7 +23,7 @@
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
   <PsycastNeurotrainerDescription>Jednorazowa super-dawka mechanitów, które trenują określoną zdolność psychiczną.\n\nDawka jest przyjmowana przez orbitę oka. Po wpuszczeniu do mózgu, mechanity formują wiedzę na temat danej zdolności, przemieniając się w tkankę nerwową w razie potrzeby.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} uży{USER_gender ? ł : a} neuro-trenera, aby nauczyć się zdolności psychicznej: {1}</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} uży{PAWN_gender ? ł : ła} neuro-trenera, aby nauczyć się zdolności psychicznej: {1}</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Wymaga łącza PSI</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -145,7 +145,7 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Rytuał połączenia zakończony</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończy{PAWN_gender ? ł : a} rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swoje łącze PSI, umożliwiając użycie nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} zakończy{PAWN_gender ? ł : ła} rytuał połączenia z {LINKABLE_labelShort}.\n\n{PAWN_pronoun} ulepszy{PAWN_gender ? ł : ła} swoje łącze PSI, umożliwiając użycie nowych zdolności psychicznych.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>Dodatkowo, odrosło {0} trawy anima.</LetterTextLinkingRitualCompletedAnimaGrass>
 
@@ -157,7 +157,7 @@
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Rozpocznij ceremonię obdarzania dla {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Sala tronowa {PAWN_definite} nie zaspokaja oczekiwań tytułu {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>{PAWN_definite} sala tronowanie zaspokaja oczekiwań tytułu {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfied>Obdarzyciel jest urażony tym, że sala {PAWN_definite} tronowa nie zaspokaja potrzeb tytułu {TITLE}. Ceremonia obdarzania została odwołana.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->

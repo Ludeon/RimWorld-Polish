@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive} oczekiwania nigdy nie będą mniejsze niż {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, będzie wymaga{PAWN_gender ? ł : a}, aby potrzeby {PAWN_possessive} tytułu były w pełni poszanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Ponieważ {PAWN_labelShort} jest {1}, będzie wymaga{PAWN_gender ? ł : ła}, aby potrzeby {PAWN_possessive} tytułu były w pełni poszanowane. {PAWN_pronoun} może odmówić określonych prac, jedzenie mało prestiżowych posiłków, i będzie dawał dekrety.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} otrzymał tytuł {TITLE} od frakcji {FACTION_name}!</LetterGainedRoyalTitle>
@@ -64,7 +64,7 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>Otrzyma {PAWN_pronoun} następujące przedmioty w kapsułach transportowych:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : a} {1} {FACTION_royalFavorLabel} od frakcji {FACTION_name}</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : ła} {1} {FACTION_royalFavorLabel} od frakcji {FACTION_name}</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
@@ -116,7 +116,7 @@
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
   <LetterSpeechInspiredListeners>Następujące osoby były szczególnie poruszone przez przemowę i teraz są zainspirowane:</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>Dzięki wspaniałej przemowie {SPEAKER_nameIndef}, {PAWN_nameIndef} dozna{PAWN_gender ? ł : a} inspiracji!</LetterSpeechInspiration>
+  <LetterSpeechInspiration>Dzięki wspaniałej przemowie {SPEAKER_nameIndef}, {PAWN_nameIndef} dozna{PAWN_gender ? ł : ła} inspiracji!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Ponieważ przemowa została zakłócona po jedynie {0}, nie była efektywna.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -128,7 +128,7 @@
   <!-- EN: Wild decree -->
   <WildDecree>Szalony dekret</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
-  <LetterLabelRandomDecree>{0_nameIndef} wydał{PAWN_gender ? : a} dekret</LetterLabelRandomDecree>
+  <LetterLabelRandomDecree>{0_nameIndef} wyda{PAWN_gender ? ł : ła} dekret</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterDecreeMentalBreak>{0_nameIndef}, w celu upuszczenia swoich nerwów, wydaje szalony dekret i wymaga, aby został wykonany.\n\nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterDecreeMentalBreak>
@@ -146,11 +146,11 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>Łącze PSI uzyskane</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} zdobył{USER_gender ? : a} swój pierwszy poziom łącza psychicznego! Sta{USER_gender ? ł : a} się teraz władaczem zdolności psychicznych.\n\nAby używać zdolności psychicznych, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n- Władacze PSI z królewskimi tytułami medytują na swoich tronach.\n- Władacze PSI z plemienną przeszłością medytują przy drzewach anima i naturalnych kaplicach.\n- Ascetcy władacze medytują do pustych ścian.\n- Psychopatyczni władacze medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} zdoby{USER_gender ? ł : ła} swój pierwszy poziom łącza psychicznego! Sta{USER_gender ? ł : ła} się teraz władaczem zdolności psychicznych.\n\nAby używać zdolności psychicznych, {USER_labelShort} musi zwiększać swoje skupienie psychiczne przez medytację. Efektywność jego medytacji jest zależna od tego czy osoba skupia się na jakimś obiekcie podczas medytacji.\n\nRóżni ludzie skupiają się na różnych przedmiotach. Zależy to od ich przeszłości, cech i tytułów. Na przykład:\n\n- Władacze PSI z królewskimi tytułami medytują na swoich tronach.\n- Władacze PSI z plemienną przeszłością medytują przy drzewach anima i naturalnych kaplicach.\n- Ascetcy władacze medytują do pustych ścian.\n- Psychopatyczni władacze medytują przy grobach, najlepiej z kimś ukochanym w środku.\n\nMożesz zobaczyć typy ich skupienia podczas medytacji w karcie ich szczegółów klikając przycisk 'i'.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} zdoby{USER_gender ? ł : a} nowy poziom łącza psychicznego! Może teraz używać zdolności psychicznych wyższego poziomu, ale musi się ich najpierw nauczyć.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} zdoby{USER_gender ? ł : ła} nowy poziom łącza psychicznego! Może teraz używać zdolności psychicznych wyższego poziomu, ale musi się ich najpierw nauczyć.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>Po uzyskaniu wyższego poziomu łącza psychicznego, {USER_labelShort} samoistnie nauczy{USER_gender ? ł : a} się tych zdolności psychicznych: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>Po uzyskaniu wyższego poziomu łącza psychicznego, {USER_labelShort} samoistnie nauczy{USER_gender ? ł : ła} się tych zdolności psychicznych: {2}</LetterPsylinkLevelGained_PsycastLearned>
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
@@ -177,9 +177,9 @@
   <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} zyska{TARGET_gender ? ł : ła} nowy tytuł od momentu zaplanowania ceremonii mianowania. W celu przeprowadzenia właściwej ceremonii, w zgodności z nowym tytułem, inna ceremonia zostanie niedługo zaplanowana.\n\nNowa ceremonia bierze pod uwagę łącze PSI, które powinno być nadane przy poprzednich tytułach.</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : a} {1} honoru, jako znak szacunku od frakcji {FACTION_name}, za zgromadzenie {3} widzów.</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort} otrzyma{PAWN_gender ? ł : ła} {1} honoru, jako znak szacunku od frakcji {FACTION_name}, za zgromadzenie {3} widzów.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort} nie otrzyma{PAWN_gender ? ł : a} żadnego dodatkowego honoru, ponieważ {PAWN_possessive} ceremonia nie miała wielu widzów.</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort} nie otrzyma{PAWN_gender ? ł : ła} żadnego dodatkowego honoru, ponieważ {PAWN_possessive} ceremonia nie miała wielu widzów.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
   <LetterPartMoodBonus>Wszyscy widzowie ceremonii otrzymali bonus do nastroju.</LetterPartMoodBonus>
 
