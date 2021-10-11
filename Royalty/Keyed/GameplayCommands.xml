@@ -8,7 +8,7 @@
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>Wybierz nowego spadkobiercę dla {HOLDER_nameIndef}:</ChooseHeir>
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
-  <MakeHeirConfirm>Zamierzasz zmienić spadkobiercę tytułu {HOLDER_nameIndef} uzyskanego od {0_name}. To wymaga wybudowania monumentu w określonym czasie, w celu konsekracji nowego spadkobiercy.</MakeHeirConfirm>
+  <MakeHeirConfirm>Zamierzasz zmienić spadkobiercę tytułu, który posiada {HOLDER_nameIndef} utrzymanego od {0_name}. To wymaga wybudowania monumentu w określonym czasie, w celu konsekracji nowego spadkobiercy.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>To urazi {HOLDER_possessive} obecnego spadkobiercę, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
 
@@ -16,7 +16,7 @@
   <!-- EN: Call aid... -->
   <CommandCallRoyalAid>Wezwij wsparcie...</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
-  <CommandCallRoyalAidDesc>Wezwij wsparcie używając specjalnych upoważnień.\n\nKażdy rodzaj wsparcia może być wezwany raz za darmo, po czym trzeba będzie poczekać na kolejny darmowy użytek. Można wzywać wsparcie częściej, ale kosztem jest honor.</CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidDesc>Wezwij wsparcie używając specjalnych upoważnień.\n\nKażdy rodzaj wsparcia można wezwać za darmo jeden raz, po czym należy zaczekać, aby można było skorzystać ponownie z darmowego użycia. Możesz wzywać wsparcie częściej, ale kosztem jest honor.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>Goście nie będą korzystać ze swoich upoważnień na wsparcie.</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
@@ -28,7 +28,7 @@
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
   <CommandCallRoyalAidFavorOption>Pozostało {0} dni, kosztuje {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
   <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
-  <CommandCallRoyalAidWarningNonHostileFactions>Zamierzasz wezwać wsparcie, ale na mapie znajdują się ludzie z frakcji wobec których {0_name} nie są wrodzy. Żołnierze, których wezwiesz nie będą atakować: {1}</CommandCallRoyalAidWarningNonHostileFactions>
+  <CommandCallRoyalAidWarningNonHostileFactions>Zamierzasz wezwać wsparcie, ale na mapie znajdują się ludzie z frakcji wobec których {0_name} nie są wrodzy. Żaden z wezwanych żołnierzy nie będzie ich atakować: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
   <CommandCallRoyalAidNotEnoughFavor>Za mało honoru</CommandCallRoyalAidNotEnoughFavor>
   
@@ -36,7 +36,7 @@
   <!-- EN: Call laborers -->
   <CommandCallLaborers>Wezwij robotników</CommandCallLaborers>
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
-  <CommandCallLaborersDesc>Użyj specjalnego upoważnienia, aby wezwać grupę robotników od Twoich sojuszników. Ci robotnicy mogą wykonywać tylko ogólne zadania, ale możesz nimi dowodzić, jakby byli Twoimi kolonistami. Musisz zadbać o ich bezpieczeństwo.</CommandCallLaborersDesc>
+  <CommandCallLaborersDesc>Użyj specjalnego upoważnienia, aby wezwać robotników z sojuszniczej frakcji. Ci robotnicy mogą wykonywać tylko ogólne zadania, ale możesz nimi dowodzić, jakby byli Twoimi kolonistami. Musisz zadbać o ich bezpieczeństwo.</CommandCallLaborersDesc>
   <!-- EN: On cooldown. {0} days left. -->
   <CommandOnCooldown>Nie można użyć. Pozostało {0} dni.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
@@ -44,11 +44,11 @@
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
-  <CommandPsycastWouldExceedEntropy>Nastąpiłoby przeładowanie ciepła neuronów. Wyłącz ogranicznik ciepła neuronowego, aby skorzystać ze zdolności.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastWouldExceedEntropy>Nastąpiłoby przeładowanie ciepła neuronów. Wyłącz ogranicznik ciepła neuronowego, aby użyć zdolności.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} zużywa {0} skupienia PSI, ale {CASTERNAME} ma tylko {1}.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} zużywa {0} skupienia PSI, a {CASTERNAME} ma tylko {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
-  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} potrzebuje {0} skupienia PSI, aby zatrzymać załamanie nerwowe {1}, ale {CASTERNAME} ma tylko {2} skupienia.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} potrzebuje {0} skupienia PSI, aby zatrzymać załamanie nerwowe {1}, a {CASTERNAME} ma tylko {2} skupienia.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>wymagany {0} poziom łącza PSI.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
@@ -70,9 +70,9 @@
 
   <!-- Warn in building radius -->
   <!-- EN: Build radius warning -->
-  <CommandWarnInBuildingRadius>Ostrzeżenie o zasięgu budowania</CommandWarnInBuildingRadius>
+  <CommandWarnInBuildingRadius>Ostrzeżenie o promieniu budowania</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
-  <CommandWarnInBuildingRadiusDesc>Jeśli ta opcja jest włączona, ten obiekt będzie rysował czerwone linie do obiektów, które budujesz używając menu architekta, jeśli będą one przeszkadzać w medytacji, ponieważ będą zbyt blisko.\n\nMożesz to wyłączyć jeśli nie zamierzasz używać tego obiektu do medytacji.</CommandWarnInBuildingRadiusDesc>
+  <CommandWarnInBuildingRadiusDesc>Jeśli ta opcja jest włączona, ten obiekt będzie rysował czerwone linie do obiektów, które budujesz używając menu architekta, jeśli będą one przeszkadzać w medytacji będąc zbyt blisko.\n\nMożesz to wyłączyć jeśli nie zamierzasz używać tego obiektu do medytacji.</CommandWarnInBuildingRadiusDesc>
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
