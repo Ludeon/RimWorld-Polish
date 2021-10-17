@@ -144,7 +144,7 @@ Thrumbo
 * świecący kokon (glow pod)  
 
 # Zwierzęta i inne stworzenia  
-* archatyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
+* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
                             jakiegokolwiek stworzenia.
                             W gruncie rzeczy, jedna wielka maszyna będąca w stanie tworzyć coś z niczego.
 * insektoid (Insectoid)
