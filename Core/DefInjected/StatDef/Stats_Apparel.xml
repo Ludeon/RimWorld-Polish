@@ -16,11 +16,11 @@
   <ArmorRating_Heat.labelForFullStatList>Pancerz - Temperatura (poziom ochrony)</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
-  <ArmorRating_Sharp.label>Pancerz - Cięte</ArmorRating_Sharp.label>
+  <ArmorRating_Sharp.label>Pancerz - Ostre</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Sharp.description>Ochrona przed obrażeniami ciętymi, na przykład od pocisków, dźgnięć nożem i ugryzień zwierząt.\n\nPo otrzymaniu obrażenia wartość pancerza jest zmniejszana przez wartość penetracji pancerza podczas ataku. Pozostała wartość pancerza jest porównywana z liczbą losową od 0 do 100.\n\n    - Jeżeli losowa liczba jest mniejsza niż połowa pozostałego pancerza, to obrażenia są nieszkodliwe.\n    - Jeżeli liczba losowa przekracza połowę pozostałej wartości pancerza, ale nie jest większa niż pozostałą wartość pancerza, to obrażenia są zmniejszane o połowę i zamieniane na obrażenia tępe.\n    - Jeżeli liczba losowa jest większa niż wartość pozostałego pancerza, to wtedy pancerz jest ignorowany.\n\nNa przykład przy 90% wartości pancerza przeciwko atakowi z 10% penetracji pancerza jest szansa 40% na uniknięcie obrażeń oraz 40% szansy na zmniejszenie obrażeń.\n\nW przypadku ubrań każda warstwa odzieży jest wyliczana osobno w przypadku ataku, od zewnątrz do środka.</ArmorRating_Sharp.description>
+  <ArmorRating_Sharp.description>Ochrona przed obrażeniami ostrymi, na przykład od pocisków, dźgnięć nożem i ugryzień zwierząt.\n\nPo otrzymaniu obrażenia wartość pancerza jest zmniejszana przez wartość penetracji pancerza podczas ataku. Pozostała wartość pancerza jest porównywana z liczbą losową od 0 do 100.\n\n    - Jeżeli losowa liczba jest mniejsza niż połowa pozostałego pancerza, to obrażenia są nieszkodliwe.\n    - Jeżeli liczba losowa przekracza połowę pozostałej wartości pancerza, ale nie jest większa niż pozostałą wartość pancerza, to obrażenia są zmniejszane o połowę i zamieniane na obrażenia obuchowe.\n    - Jeżeli liczba losowa jest większa niż wartość pozostałego pancerza, to wtedy pancerz jest ignorowany.\n\nNa przykład przy 90% wartości pancerza przeciwko atakowi z 10% penetracji pancerza jest szansa 40% na uniknięcie obrażeń oraz 40% szansy na zmniejszenie obrażeń.\n\nW przypadku ubrań każda warstwa odzieży jest wyliczana osobno w przypadku ataku, od zewnątrz do środka.</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
-  <ArmorRating_Sharp.labelForFullStatList>Pancerz - Cięte (poziom ochrony)</ArmorRating_Sharp.labelForFullStatList>
+  <ArmorRating_Sharp.labelForFullStatList>Pancerz - Ostre (poziom ochrony)</ArmorRating_Sharp.labelForFullStatList>
   
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>Maksymalny poziom energii osłony</EnergyShieldEnergyMax.label>
@@ -28,7 +28,7 @@
   <EnergyShieldEnergyMax.description>Maksymalna ilość energii, jaką może mieć pas aktywnej osłony w jednej chwili.\n\nIm więcej energii, tym więcej może absorbować obrażeń.</EnergyShieldEnergyMax.description>
   
   <!-- EN: Shield recharge rate -->
-  <EnergyShieldRechargeRate.label>Prędkość regeneracji tarcz</EnergyShieldRechargeRate.label>
+  <EnergyShieldRechargeRate.label>Prędkość regeneracji tarczy</EnergyShieldRechargeRate.label>
   <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
   <EnergyShieldRechargeRate.description>Prędkość, z jaką tarcza odzyskuję energię, o ile nie jest zepsuta.</EnergyShieldRechargeRate.description>
   <!-- EN: {0}/s -->
