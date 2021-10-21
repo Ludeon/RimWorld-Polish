@@ -14,11 +14,11 @@
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
   <CantStartRitualNoConvertee>Nie ma nikogo do przekonwertowania na - {0}. Potrzebujesz kolonisty, więźnia lub niewolnika innej ideologii.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} nie może być {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} nie może posiadać roli - {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} musi być {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} musi być - {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} jest psychicznie pust{PAWN_gender ? y : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} jest psychicznie głuch{PAWN_gender ? y : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>Niewystarczająco miejsca. Musi istnieć wyraźny okrąg o promieniu {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
@@ -41,7 +41,7 @@
   <!-- EN: No choices available -->
   <NoChoicesAvailable>Brak dostępnych opcji</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>Wymagane przez opcje {0}</RequiredByMeme>
+  <RequiredByMeme>Wymagane przez pogląd {0}</RequiredByMeme>
   <!-- EN: Required -->
   <Required>Wymagane</Required>
   <!-- EN: Style category -->
@@ -61,19 +61,19 @@
   <!-- EN: must be {0} faction -->
   <RoleApparelRequirementIncompatibleFaction>musi być {0} frakcją</RoleApparelRequirementIncompatibleFaction>
   <!-- EN: tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>plemię</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>plemienne</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
   <!-- EN: non-tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>nie plemię</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>nie plemienne</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
   <RoleApparelRequirementIncompatibleAnyMemeRequired>wymaga któregokolwiek z tych poglądów</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
-  <BodyPartAlreadyCovered>nie można nosić z przypisanym ubraniem</BodyPartAlreadyCovered>
+  <BodyPartAlreadyCovered>nie można nosić z przypisanym strojem</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
   <AlreadyAssigned>już przypisane</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>Ludzie są zadowoleni, gdy ich wymagania dotyczące odzieży są spełnione i smutni, gdy naruszone.</NoteRoleApparelRequirementEffects>
+  <NoteRoleApparelRequirementEffects>Ludzie są zadowoleni, kiedy ich wymagania dotyczące odzieży są spełnione i smutni, gdy naruszone.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>doładowanie nie jest gotowe</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>stymulator nie jest gotowy</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>już otrzymuje</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
@@ -90,13 +90,13 @@
   <!-- EN: requires one of -->
   <RequiresOneOfMemes>wymaga jednego z</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>niekompatybilny z poglądem</ConflictsWithMeme>
+  <ConflictsWithMeme>sprzeczności z poglądem</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>niekompatybilny z poglądami</ConflictsWithMemes>
+  <ConflictsWithMemes>sprzeczności z poglądami</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
   <IdeoAlreadyHasAltar>może mieć tylko jeden ołtarz/ideogram</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
-  <RecolorApparel>zmienić kolor odzieży</RecolorApparel>
+  <RecolorApparel>zmienić kolor stroju</RecolorApparel>
 
   <!-- EN: Hack {0} -->
   <Hack>Zhakuj {0}</Hack>
@@ -116,7 +116,7 @@
   <!-- EN: Extract {0} to inventory ({1}) -->
   <ExtractRelicToInventory>Wydobądź {0} do ekwipunku ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>Brak reliktu do zainstalowania</NoRelicToInstall>
+  <NoRelicToInstall>Brak relikwii do zainstalowania</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
   <InstallInReliquary>Zainstaluj w relikwiarzu</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
@@ -145,7 +145,7 @@
   <!-- EN: Nutrition being loaded -->
   <BiosculpterLoadingNutrition>Ładowanie substancji odżywczych</BiosculpterLoadingNutrition>
   <!-- EN: Occupied -->
-  <BiosculpterOccupied>Zajęty</BiosculpterOccupied>
+  <BiosculpterOccupied>Zajęte</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>Nie można wejść</CannotEnter>
 

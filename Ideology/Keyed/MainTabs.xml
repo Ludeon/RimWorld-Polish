@@ -37,7 +37,7 @@
   <!-- EN: Preferred apparel -->
   <IdeoApparel>Preferowany strój</IdeoApparel>
   <!-- EN: apparel desire -->
-  <IdeoApparelDesire>pożądany strój</IdeoApparelDesire>
+  <IdeoApparelDesire>pożądanie stroju</IdeoApparelDesire>
   <!-- EN: Won't do -->
   <UnwillingToDoIdeoAction>Nie wykona</UnwillingToDoIdeoAction>
   <!-- EN: Stats -->
@@ -59,7 +59,7 @@
   <!-- EN: Choose memes -->
   <ChooseMemes>Wybierz poglądy</ChooseMemes>
   <!-- EN: Choose starting meme -->
-  <ChooseStartingMeme>Wybierz startowe zachowanie</ChooseStartingMeme>
+  <ChooseStartingMeme>Wybierz startowy pogląd</ChooseStartingMeme>
   <!-- EN: Choose structure -->
   <ChooseStructure>Wybierz strukturę</ChooseStructure>
   <!-- EN: Choose culture -->
@@ -77,9 +77,9 @@
   <!-- EN: Ritual room -->
   <WorshipRoom>Pokój rytualny</WorshipRoom>
   <!-- EN: Member noun -->
-  <IdeoMembers>Członek</IdeoMembers>
+  <IdeoMembers>Członek; rzeczownik</IdeoMembers>
   <!-- EN: Member plural -->
-  <IdeoMembersPlural>Członek liczby mnogiej</IdeoMembersPlural>
+  <IdeoMembersPlural>Członek; liczba mnoga</IdeoMembersPlural>
   <!-- EN: Edit symbols -->
   <EditSymbols>Edytuj symbole</EditSymbols>
   <!-- EN: Edit deity -->
@@ -87,7 +87,7 @@
   <!-- EN: Edit required apparel -->
   <EditApparelRequirement>Edytuj wymagany strój</EditApparelRequirement>
   <!-- EN: Edit name -->
-  <EditName>Zmień nazwę</EditName>
+  <EditName>Edytuj nazwę</EditName>
   <!-- EN: Any time -->
   <StartingCondition_Anytime>W każdej chwili</StartingCondition_Anytime>
   <!-- EN: Date -->
@@ -119,11 +119,11 @@
   <!-- EN: Related to meme -->
   <RelatedToMeme>Powiązane z poglądami</RelatedToMeme>
   <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
-  <IdeoCharityQuestInfo>To misja charytatywna. Jeśli go nie spełnisz, wierzący w {0} będą nieszczęśliwi z powodu swoich charytatywnych poglądów. Jeśli to zrobisz, wierzący w {0} będą szczęśliwi ({1}).</IdeoCharityQuestInfo>
+  <IdeoCharityQuestInfo>To zadanie charytatywne. Jeśli go nie spełnisz, wierzący w {0} będą nieszczęśliwi z powodu swoich charytatywnych poglądów. Jeśli to zrobisz, wierzący w {0} będą szczęśliwi ({1}).</IdeoCharityQuestInfo>
   <!-- EN: Slaves will not do this work -->
   <WorkDisabledSlave>Niewolnicy nie wykonają tej pracy</WorkDisabledSlave>
   <!-- EN: Disabled by {0} role -->
-  <WorkDisabledRole>Wyłączone przez {0} rolę</WorkDisabledRole>
+  <WorkDisabledRole>Wyłączone przez rolę - {0}</WorkDisabledRole>
   <!-- EN: Affected by traits -->
   <AffectedByTraits>Pod wpływem cech</AffectedByTraits>
   <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
@@ -133,23 +133,23 @@
   <!-- EN: all -->
   <All>wszystko</All>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
-  <RelicTip>Relikwie to przedmioty o znaczeniu duchowym lub ideologicznym. Można je odkryć wykonując długie i niebezpieczne zadania. Relikwię można zainstalować w relikwiarzu, aby przyciągnąć pielgrzymów, wzmocnić rytuały i wzmocnić zdolność ideologii do przekonywania obcych.</RelicTip>
+  <RelicTip>Relikwie to przedmioty o znaczeniu duchowym lub ideologicznym. Można je odkryć wykonując długie i niebezpieczne zadania. Relikwię można zainstalować w relikwiarzu, aby przyciągnąć pielgrzymów, wzmocnić rytuały i wzmocnić zdolność ideologii do przekonwertowania obcych.</RelicTip>
   <!-- EN: animal -->
   <Animal>zwierzę</Animal>
   <!-- EN: Venerated animals -->
   <VeneratedAnimals>Święte zwierzęta</VeneratedAnimals>
   <!-- EN: weapon pair -->
-  <IdeoWeapon>broń</IdeoWeapon>
+  <IdeoWeapon>para broni</IdeoWeapon>
   <!-- EN: Weapons -->
   <IdeoWeapons>Bronie</IdeoWeapons>
-  <!-- EN: Swap noble and despised -->
+  <!-- EN: Swap noble and despised -->   <!-- TIP: dopasowane przez zbyt długą nazwę -->
   <SwapNobleAndDespised>Przemień żądane i gardzone</SwapNobleAndDespised>
-  <!-- EN: noble -->
+  <!-- EN: noble -->   <!-- TIP: dopasowane przez zbyt długą nazwę -->
   <Noble>żądane</Noble>
   <!-- EN: despised -->
   <Despised>gardzone</Despised>
   <!-- EN: Unlocked craftables -->
-  <UnlockedRecipes>Odblokowane przedmioty rzemieślnicze</UnlockedRecipes>
+  <UnlockedRecipes>Odblokowano przepisy</UnlockedRecipes>
   <!-- EN: Start with research -->
   <IdeoStartWithResearch>Zacznij od badań</IdeoStartWithResearch>
   <!-- EN: Agreeing traits -->
@@ -193,11 +193,11 @@
   
   
   <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
-  <FluidIdeoTip>Ponieważ ta ideologia jest tak nowa i ma tak niewielu zwolenników na tej planecie, jest płynna. Oznacza to, że może się rozwijać z czasem.\n\nRozwój ideologii kosztuje punkty rozwoju. Możesz zdobywać punkty rozwoju, wypełniając rytuały i zadania związane z tą ideologią.\n\nZ wystarczającą liczbą punktów rozwoju, możesz zreformować ideologię za pomocą nowych przekonań, wskazań, stylów i nie tylko.</FluidIdeoTip>
+  <FluidIdeoTip>Ponieważ ta ideologia jest tak nowa i ma tak niewielu zwolenników na tej planecie, jest dynamiczna. Oznacza to, że może się rozwijać z czasem.\n\nRozwój ideologii kosztuje punkty rozwoju. Możesz zdobywać punkty rozwoju, wypełniając rytuały i zadania związane z tą ideologią.\n\nZ wystarczającą liczbą punktów rozwoju, możesz zreformować ideologię za pomocą nowych przekonań, wskazań, stylów i nie tylko.</FluidIdeoTip>
   <!-- EN: How to get development points -->
   <FluidIdeoTipGetPoints>Jak zdobywać punkty rozwoju</FluidIdeoTipGetPoints>
   <!-- EN: Convert someone to your ideoligion -->
-  <FluidIdeoTipGetPoinsByConversion>Nawróć kogoś na swoją ideologię</FluidIdeoTipGetPoinsByConversion>
+  <FluidIdeoTipGetPoinsByConversion>Konwertuj kogoś do swojej ideologii</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0} odblokowuje rzeczy, których nie możesz zbudować, ponieważ wymagają poglądów, których nikt z Twoich ludzi nie wyznaje</ResearchProjectHasDefsWithMissingMemes>
