@@ -43,7 +43,7 @@
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Kapitan orbitującego statku chce, aby chroniono więźnia o imieniu [lodgers0_nameFull] w [map_definite] przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] niedawno splunął na ukochane dziecko [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] [enemyFaction_name]. [enemyFaction_leader_nameDef] będzie wysyłać [enemyFaction_pawnsPlural] aby zemścić się na kimkolwiek, kto będzie chronić [lodgers0_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] niedawno splunął na ukochane dziecko [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] [enemyFaction_name]. [enemyFaction_leader_nameDef] będzie wysyłać [enemyFaction_pawnsPlural], aby zemścić się na kimkolwiek, kto będzie chronić [lodgers0_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
