@@ -49,8 +49,8 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Z nieznanego powodu, orbitujące skupisko mechanoidów obrało za cel [lodgersLabel]</li>
-    <li>threatsInfoMechClustersMultiAnimal->Z nieznanego, [lodgersLabelPlural] zostały namierzone przez orbitujące skupisko mechanoidów.</li>
+    <li>threatsInfoMechClustersSingleAnimal->Z nieznanego powodu, orbitująca gromada mechanoidów obrała za cel [lodgersLabel]</li>
+    <li>threatsInfoMechClustersMultiAnimal->Z nieznanego, [lodgersLabelPlural] zostały namierzone przez orbitującą gromadę mechanoidów.</li>
     <li>threatsInfoMechRaidsSingleAnimal->Z nieznanego powodu, gniazdo mechanoidów obrało za cel [lodgersLabel]</li>
     <li>threatsInfoMechRaidsMultiAnimal->Z nieznanego powodu, [lodgersLabelPlural] zostały namierzone przez gniazdo mechanoidów.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Organizacja ratująca zwierzęta chce, aby zaopiekowano się [lodgersLabel] o imieniu [lodgers0_nameDef] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
@@ -69,7 +69,7 @@
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name] szuka miejsca, które zaopiekuje się [asker_possessive] zwierzątkiem, [lodgersLabel] [lodgers0_nameDef] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] chcą zabić biedn{LODGER_gedner ? ego : ą} [lodgers0_nameDef] aby wkurzyć [asker_nameDef]. Jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] chcą zabić biedn{LODGER_gedner ? ego : ą} [lodgers0_nameDef], aby wkurzyć [asker_nameDef]. Jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
