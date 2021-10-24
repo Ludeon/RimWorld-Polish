@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: attended concert -->
-  <AttendedConcert.label>by{PAWN_gender ? ł : ła} na koncercie</AttendedConcert.label>
+  <AttendedConcert.label>uczestnictwo w koncercie</AttendedConcert.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
     <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
@@ -15,19 +15,20 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
   <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] by{PAWN_gender ? ł : ła} na koncercie [ORGANIZER_nameDef]</li>
+    <!-- TIP: tu nie działają gendery -->
+    <li>tale_noun->[ATTENDER_nameDef] był(a) na koncercie [ORGANIZER_nameDef]</li>
     <li>tale_noun->[ATTENDER_nameDef] słucha występu [ORGANIZER_nameDef]</li>
     <li>image->[ATTENDER_nameFull] słucha po cichu, [circumstance_group]</li>
     <li>image->[ATTENDER_nameFull] cieszy się z występu [ORGANIZER_nameFull] [circumstance_group]</li>
     <li>image->[ATTENDER_nameFull] kołysze się do muzyki [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] zaduży{PAWN_gender ? ł : ła} się w muzyce [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] zadużył(a) się w muzyce [circumstance_group]</li>
     <li>circumstance_phrase->podczas klaskania</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] tańczy.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] słucha uważnie.</li>
   </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
-  <HeldConcert.label>zorganizowa{PAWN_gender ? ł : ła} koncert</HeldConcert.label>
+  <HeldConcert.label>zorganizowanie koncertu</HeldConcert.label>
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
