@@ -9,7 +9,7 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Wykryłeś orbitującego drona kosmicznego, który może zawierać informacje o [relic_name]. Masz kod, który zmusi go do wylądowania na [map_definite].\n\nAby zdobyć te informacje, włam się do komputera drona. Włamywanie zajmuje trochę czasu, ale osoby posiadające duże umiejętności intelektualne mogą przyspieszyć ten proces.[raidsDescription]\n\nPo wylądowaniu Spacedron ulegnie samozniszczeniu za [destroyDelayTicks_duration].</li>
+    <li>questDescription->Wykrywasz orbitującego kosmicznego drona, który może zawierać informacje o [relic_name]. Masz kod, który zmusi go do wylądowania na [map_definite].\n\nAby zdobyć te informacje, włam się do komputera drona. Włamywanie zajmuje trochę czasu, ale osoby posiadające duże umiejętności intelektualne mogą przyspieszyć ten proces.[raidsDescription]\n\nPo wylądowaniu, kosmiczny dron ulegnie samozniszczeniu za [destroyDelayTicks_duration].</li>
     <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] mogą [droneDetectionMethod]. Tak długo, jak będzie obecny, będą wysyłać napastników mniej więcej co [raidIntervalAvg_duration], aby go zniszczyć i ukraść bogactwo, które według nich zawiera. Będziesz mieć trochę czasu, aby przygotować obronę wokół niego, zanim przybędą.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->zauważyć drona podczas jego lotu</li>
