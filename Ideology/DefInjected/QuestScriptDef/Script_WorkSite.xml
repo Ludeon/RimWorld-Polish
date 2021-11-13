@@ -6,9 +6,11 @@
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
-  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings><li>questDescription->Wykryłeś [siteLabel] w pobliżu terenu kontrolowanego przez [faction_name].\n\nJeśli chcesz, możesz najechać obóz, aby zebrać łupy ([loot]). [raidConsequences]\n\nObóz spakuje się i ruszy dalej za [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->Jeśli to zrobisz, [faction_name] stanie się twoim wrogiem.</li>
-    <li>raidConsequences(faction_temporary==true)->Ponieważ [faction_name] to tylko niewielka, niezależna grupa, możesz ich zaatakować bez większych konsekwencji dyplomatycznych.</li></OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->Wykryłeś [siteLabel] w pobliżu terenu kontrolowanego przez [faction_name].\n\nJeśli chcesz, możesz najechać obóz, aby zebrać łupy ([loot]). [raidConsequences]\n\nObóz spakuje się i ruszy dalej za [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Jeśli to zrobisz, [faction_name] stanie się Twoim wrogiem.</li>
+    <li>raidConsequences(faction_temporary==true)->Ponieważ [faction_name] to tylko niewielka, niezależna grupa, możesz ich zaatakować bez większych konsekwencji dyplomatycznych.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>

@@ -39,7 +39,7 @@
     <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
-  <BuildRapport.logRulesInitiator.rulesStrings>    
+  <BuildRapport.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] o [subject].</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef] o [subject].</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zachęcił [RECIPIENT_nameDef] do [talkabout] [subject].</li>
@@ -78,7 +78,7 @@
     <li>subject->ponownym rozważeniu pomysłu</li>
     <li>subject->zdrowiu</li>
     <li>subject->przyszłości</li>
-	</BuildRapport.logRulesInitiator.rulesStrings>
+  </BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>próba werbunku</RecruitAttempt.label>
@@ -88,14 +88,14 @@
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
-  <RecruitAttempt.logRulesInitiator.rulesStrings>    
+  <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przyłączenie się.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o przyłączenie się.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] obiecał [goodthing] [RECIPIENT_nameDef] i poprosił o przyłączenie się.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] obiecała [goodthing] [RECIPIENT_nameDef] i poprosił o przyłączenie się.</li>
     <li>goodthing->równe warunki</li>
     <li>goodthing->wolność wyboru</li>
-	</RecruitAttempt.logRulesInitiator.rulesStrings>
+  </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>namowa do ucieczki</SparkJailbreak.label>
@@ -109,7 +109,7 @@
     <li>freedom->home</li>
     <li>freedom->self-determination</li>
   -->
-  <SparkJailbreak.logRulesInitiator.rulesStrings>    
+  <SparkJailbreak.logRulesInitiator.rulesStrings>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] mówił o radości [freedom] i wskazywała drogę ucieczki.</li>
     <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] mówiła radości [freedom] i wskazywała drogę ucieczki.</li>
     <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] mówił o tym, jak piękny jest [TerrainFeature] i oferował wolność.</li>
@@ -121,6 +121,6 @@
     <li>freedom->wolność</li>
     <li>freedom->powrót do domu</li>
     <li>freedom->bezpieczeństwo</li>
-</SparkJailbreak.logRulesInitiator.rulesStrings>
+  </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
