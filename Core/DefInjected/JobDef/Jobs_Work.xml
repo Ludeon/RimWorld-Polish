@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: arresting TargetA. -->
-  <Arrest.reportString>aresztuje: TargetA.</Arrest.reportString>
+  <Arrest.reportString>dokonuje aresztu: TargetA.</Arrest.reportString>
   
   <!-- EN: building roof. -->
   <BuildRoof.reportString>buduje dach.</BuildRoof.reportString>
@@ -23,10 +23,10 @@
   <CarryToCryptosleepCasketDrafted.reportString>niesie: TargetA - do kapsuły hibernacyjnej.</CarryToCryptosleepCasketDrafted.reportString>
   
   <!-- EN: arresting TargetA. -->
-  <CarryToPrisonerBedDrafted.reportString>zatrzymuje: TargetA.</CarryToPrisonerBedDrafted.reportString>
+  <CarryToPrisonerBedDrafted.reportString>dokonuje aresztu: TargetA.</CarryToPrisonerBedDrafted.reportString>
   
   <!-- EN: cleaning TargetA. -->
-  <Clean.reportString>czyści: TargetA.</Clean.reportString>
+  <Clean.reportString>sprząta: TargetA.</Clean.reportString>
   
   <!-- EN: cutting TargetA. -->
   <CutPlant.reportString>wycina: TargetA.</CutPlant.reportString>
@@ -38,7 +38,7 @@
   <Deconstruct.reportString>rozbiera: TargetA.</Deconstruct.reportString>
   
   <!-- EN: feeding TargetA to TargetB. -->
-  <DeliverFood.reportString>niesie: TargetA - dla: TargetB.</DeliverFood.reportString>
+  <DeliverFood.reportString>karmi: TargetA (TargetB).</DeliverFood.reportString>
   
   <!-- EN: doing bill at TargetA. -->
   <DoBill.reportString>wykonuje zlecenie w: TargetA.</DoBill.reportString>
@@ -47,19 +47,19 @@
   <EscortPrisonerToBed.reportString>eskortuje więźnia: TargetA.</EscortPrisonerToBed.reportString>
   
   <!-- EN: extracting TargetA. -->
-  <ExtractTree.reportString>wykopuje: TargetA.</ExtractTree.reportString>
+  <ExtractTree.reportString>wydobywa: TargetA.</ExtractTree.reportString>
   
   <!-- EN: feeding TargetA to TargetB. -->
-  <FeedPatient.reportString>karmi: TargetB, używając - TargetA.</FeedPatient.reportString>
+  <FeedPatient.reportString>karmi: TargetB (TargetB).</FeedPatient.reportString>
   
   <!-- EN: building TargetA. -->
   <FinishFrame.reportString>buduje: TargetA.</FinishFrame.reportString>
   
   <!-- EN: replacing broken components in TargetA. -->
-  <FixBrokenDownBuilding.reportString>naprawia uszkodzone komponenty w: TargetA.</FixBrokenDownBuilding.reportString>
+  <FixBrokenDownBuilding.reportString>wymienia uszkodzone komponenty w: TargetA.</FixBrokenDownBuilding.reportString>
   
   <!-- EN: executing TargetA. -->
-  <GuiltyColonistExecution.reportString>dokonuje egzekucji: TargetA.</GuiltyColonistExecution.reportString>
+  <GuiltyColonistExecution.reportString>dokonuje egzekucji na: TargetA.</GuiltyColonistExecution.reportString>
   
   <!-- EN: harvesting TargetA. -->
   <Harvest.reportString>zbiera: TargetA.</Harvest.reportString>
@@ -71,7 +71,7 @@
   <HaulToCell.reportString>wlecze: TargetA.</HaulToCell.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulToContainer.reportString>niesie: TargetA.</HaulToContainer.reportString>
+  <HaulToContainer.reportString>wlecze: TargetA.</HaulToContainer.reportString>
   
   <!-- EN: hunting TargetA. -->
   <Hunt.reportString>poluje na: TargetA.</Hunt.reportString>
@@ -98,10 +98,10 @@
   <PrisonerAttemptRecruit.reportString>próbuje rekrutować: TargetA.</PrisonerAttemptRecruit.reportString>
   
   <!-- EN: executing TargetA. -->
-  <PrisonerExecution.reportString>przeprowadza egzekucję: TargetA.</PrisonerExecution.reportString>
+  <PrisonerExecution.reportString>dokonuje egzekucji na: TargetA.</PrisonerExecution.reportString>
   
   <!-- EN: releasing TargetA into the wild. -->
-  <ReleaseAnimalToWild.reportString>wypuszcza: TargetA.</ReleaseAnimalToWild.reportString>
+  <ReleaseAnimalToWild.reportString>wypuszcza na wolność: TargetA.</ReleaseAnimalToWild.reportString>
   
   <!-- EN: releasing TargetA. -->
   <ReleasePrisoner.reportString>wypuszcza: TargetA.</ReleasePrisoner.reportString>
@@ -124,11 +124,14 @@
   <!-- EN: researching. -->
   <Research.reportString>prowadzi badania.</Research.reportString>
   
-  <!-- EN: leading TargetA to TargetC. -->
-  <RopeRoamerToUnenclosedPen.reportString>prowadzi z: TargetA do: TargetC.</RopeRoamerToUnenclosedPen.reportString>
+  <!-- EN: leading TargetA to hitching spot. -->
+  <RopeRoamerToHitchingPost.reportString>prowadzi: TargetA do miejsca uwiązania.</RopeRoamerToHitchingPost.reportString>
   
   <!-- EN: leading TargetA to TargetC. -->
-  <RopeToPen.reportString>prowadzi z: TargetA do: TargetC.</RopeToPen.reportString>
+  <RopeRoamerToUnenclosedPen.reportString>prowadzi: TargetA do - TargetC.</RopeRoamerToUnenclosedPen.reportString>
+  
+  <!-- EN: leading TargetA to TargetC. -->
+  <RopeToPen.reportString>prowadzi: TargetA do - TargetC.</RopeToPen.reportString>
   
   <!-- EN: shearing TargetA. -->
   <Shear.reportString>strzyże: TargetA.</Shear.reportString>
@@ -137,13 +140,13 @@
   <Slaughter.reportString>ubija: TargetA.</Slaughter.reportString>
   
   <!-- EN: smoothing floor. -->
-  <SmoothFloor.reportString>wygładza podłoże.</SmoothFloor.reportString>
+  <SmoothFloor.reportString>wygładza podłogę.</SmoothFloor.reportString>
   
   <!-- EN: smoothing wall. -->
   <SmoothWall.reportString>wygładza ścianę.</SmoothWall.reportString>
   
   <!-- EN: sowing TargetA. -->
-  <Sow.reportString>sieje: TargetA.</Sow.reportString>
+  <Sow.reportString>sieje {lookup: {0}; Case\Singular; 3}.</Sow.reportString>
   
   <!-- EN: stealing TargetA. -->
   <Steal.reportString>kradnie: TargetA.</Steal.reportString>
@@ -155,7 +158,7 @@
   <TakeDownedPawnToBedDrafted.reportString>przenosi: TargetA.</TakeDownedPawnToBedDrafted.reportString>
   
   <!-- EN: taking TargetA to bed. -->
-  <TakeToBedToOperate.reportString>niesie: TargetA - do łóżka.</TakeToBedToOperate.reportString>
+  <TakeToBedToOperate.reportString>niesie: TargetA do łóżka.</TakeToBedToOperate.reportString>
   
   <!-- EN: taking wounded prisoner TargetA. -->
   <TakeWoundedPrisonerToBed.reportString>niesie rannego więźnia: TargetA.</TakeWoundedPrisonerToBed.reportString>
@@ -173,7 +176,7 @@
   <Uninstall.reportString>demontuje: TargetA.</Uninstall.reportString>
   
   <!-- EN: unroping TargetA. -->
-  <Unrope.reportString>odczepia: TargetA.</Unrope.reportString>
+  <Unrope.reportString>odwiązuje: TargetA.</Unrope.reportString>
   
   <!-- EN: using comms console. -->
   <UseCommsConsole.reportString>używa konsoli łączności.</UseCommsConsole.reportString>

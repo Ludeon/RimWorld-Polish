@@ -3,7 +3,7 @@
 
   <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
-  <RoyalFavorDescription>Ilość {FACTION_royalFavorLabel}, którą Twój negocjator osobiście otrzyma jako wynik tej wymiany.</RoyalFavorDescription>
+  <RoyalFavorDescription>Ilość {FACTION_royalFavorLabel}, którą Twój negocjator osobiście otrzyma jako wynik tej transakcji.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
   <RoyalTitleTooltipRequiredApparel>Wymagany strój</RoyalTitleTooltipRequiredApparel>
   <!-- EN: Minimum apparel quality -->
@@ -13,7 +13,7 @@
   <!-- EN: Throneroom requirements -->
   <RoyalTitleTooltipThroneroomRequirements>Wymagania dot. sali tronowej</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
-  <RoyalTitleTooltipPermits>Upoważnienia tytułu</RoyalTitleTooltipPermits>
+  <RoyalTitleTooltipPermits>Przywileje tytułu</RoyalTitleTooltipPermits>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Posiadacze tego tytułu muszą nosić jakąś kombinację</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
@@ -33,7 +33,7 @@
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>Według prawa {FACTION_name}, dana osoba musi posiadać tytuł {TITLE}, aby legalnie używać {IMPLANT}.\n\n{VIOLATIONTRIGGER}, istnieje szansa, że {FACTION_name} wykryje sygnaturę psychiczną. To doprowadzi do konsekwencji dyplomatycznych.</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>Według praw frakcji {FACTION_name}, dana osoba musi posiadać tytuł - {TITLE}, aby legalnie używać {IMPLANT}.\n\n{VIOLATIONTRIGGER}, istnieje szansa, że frakcja {FACTION_name} wykryje sygnaturę psychiczną. To doprowadzi do konsekwencji dyplomatycznych.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Zainstalować ten implant mimo to?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -41,7 +41,7 @@
 
   <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
-  <BladelinkEquipWarning>Po zawarciu więzi z jednym użytkownikiem, osobowość broni odmówi bycia używaną przez kogokolwiek innego.</BladelinkEquipWarning>
+  <BladelinkEquipWarning>Po zawarciu więzi z jednym użytkownikiem, osobowość broni odmówi bycia dzierżoną przez kogokolwiek innego.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
   <BladelinkEquipWarningTraits>Ta broń ma następujące cechy</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
@@ -51,19 +51,19 @@
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>Cel jest głuchy psychicznie.</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
-  <PsycastIsIllegal>To jest nielegalne dla {PAWN_labelShort}. Wymaga tytułu {TITLE}.</PsycastIsIllegal>
+  <PsycastIsIllegal>To jest nielegalne dla {PAWN_labelShort}. Wymaga tytułu - {TITLE}.</PsycastIsIllegal>
 
   <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
   <QuestGivesRoyalFavor>To zadanie przyzna {FACTION_royalFavorLabel} i tym samym nada jakiś tytuł królewski {PAWN_labelShort}</QuestGivesRoyalFavor>
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
-  <RoyalIncapableOfSocial>{PAWN_labelShort} jest {PAWN_gender ? niezdolny : niezdolna} do czynności społecznych. Posiadacze tytułów królewskich mają dużą potrzebę zdolności socjalnych, więc jeśli {PAWN_labelShort} otrzyma jakiś tytuł, może mieć później problemy. Inny kolonista może być bardziej odpowiedni.</RoyalIncapableOfSocial>
+  <RoyalIncapableOfSocial>{PAWN_labelShort} jest {PAWN_gender ? niezdolny : niezdolna} do czynności społecznych. Posiadacze tytułów królewskich mają dużą potrzebę zdolności socjalnych, więc jeśli {PAWN_labelShort} otrzyma jakiś tytuł, może mieć później problemy. Inny kolonista mógłby być bardziej odpowiedni.</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
   <RoyalWithConceitedTrait>Ponieważ {PAWN_labelShort} jest {2}, Będzie {PAWN_gender ? domagał : domagała} się pełnego poszanowania przywilejów {PAWN_possessive} tytułu. {PAWN_labelShort} może odmówić wykonywania pewnych prac lub jedzenia żywności niskiej klasy, i będzie wydawał dekrety. Inny kolonista prawdopodobnie mógłby się dostosować co do swoich oczekiwań.</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
   <RoyalWithTraitAffectingPsylinkNegatively>Ponieważ {PAWN_labelShort} jest {2}, łącze PSI może być bezużyteczne w {PAWN_objective} przypadku.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
-  <PsylinkTooLowForGainAbility>Poziom łącza PSI {PAWN_labelShort} nie jest wystarczająco wysoki, aby użyć {ABILITY}.\n\nUzyskać tą zdolność mimo to?</PsylinkTooLowForGainAbility>
+  <PsylinkTooLowForGainAbility>Poziom łącza PSI {PAWN_labelShort} nie jest wystarczająco wysoki, aby użyć zdolności - {ABILITY}.\n\nUzyskać tą zdolność mimo to?</PsylinkTooLowForGainAbility>
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
   <SendShuttleWithNoContents>Ten prom jest pusty. Jeśli go gdzieś wyślesz, nie będzie można go ponownie użyć.\n\nWysłać prom mimo to?</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->

@@ -81,7 +81,7 @@ gejzer parowy
 
 # Buildings_Power.xml
 akumulator
-generator na chempaliwo
+generator na chem-paliwo
 generator geotermalny
 przewód elektryczny
 przełącznik
@@ -104,7 +104,7 @@ stół rzeźbiarski
 stół kamieniarski
 
 # Buildings_Security.xml
-przeciwpożarowy IED
+pułapka przeciwpożarowa IED
 
 # Buildings_Security_Turrets.xml
 moździerz
@@ -113,14 +113,14 @@ pocisk mini wieżyczki
 pocisk uranowy
 
 # Buildings_Ship.xml
-rdzeń komputerowy statku kosmicznego
-silnik statku kosmicznego
-reaktor statku kosmicznego
+rdzeń komputerowy statku
+silnik statku
+reaktor statku
 moduł czujników
 
 # Buildings_Special.xml
-wanometryczny chemreaktor
-emanator PSY
+wanometryczny chem-reaktor
+emanator PSI
 
 # Buildings_Structure.xml
 # Buildings_Temperature.xml
@@ -177,8 +177,8 @@ pazur energetyczny
 
 # ImpliedDefs.xml
 # Items_Artifacts.xml
-zwierzęcy pulser PSY
-łagodzący pulser PSY
+zwierzęcy pulser PSI
+łagodzący pulser PSI
 
 # Items_Exotic.xml
 rdzeń osobowości
@@ -202,23 +202,22 @@ pemikan
 # Items_Resource_Manufactured.xml
 komponent
 zaawansowany komponent
-lek ziołowy
-lek
-ultrazaawansowany lek
+ziołowy zestaw medyczny
+zestaw medyczny
+zestaw medyczny z glitterworld
 
 # Items_Resource_RawPlant.xml
-psychodeliczne liście
 chmiel
+surowy grzyb
 ryż
-liście zioła
+
 
 # Items_Resource_Shell.xml
 pocisk EMP
-pocisk pianki gaśniczej
+pocisk piany gaśniczej
 pocisk silnie wybuchowy
 pocisk zapalający
 pocisk dymny
-pocisk gaśniczy
 
 # Items_Resource_Stuff.xml
 hipersplot
@@ -420,7 +419,7 @@ granat zapalający
 granat odłamkowy
 
 # Buildings_ConditionCausers.xml
-zmieniacz klimatu
+regulator klimatu
 brzęczyk PSI
 generator tłumienia PSI
 rozpylacz dymu
@@ -445,15 +444,16 @@ węzeł mechanoidów
 # Buildings_Mech_Activators.xml
 # Buildings_Mech_ShieldGenerators.xml
 aktywator czasowy
-aktywator odległościowy
+aktywator zbliżeniowy
 
 # Buildings_Mech_Spawners.xml
 monter mechanoidów
 nadajnik zrzutu mechanoidów
 
 # Buildings_Mech_Turrets.xml
-automoździerz
-miotacz energetyczny
+auto-moździerz
+mini-pocisk
+lekki miotacz energetyczny
 autom. moździerz
 
 # Buildings_Misc.xml
@@ -520,7 +520,7 @@ młot bitewny
 młot zeusa
 
 # OrbitalWeapons.xml
-namierzacz orbitalnego klastra mechanoidów
+oznacznik lądowania gromady mechów
 
 # Plants_Wild.xml
 # PsychicWeapons.xml
@@ -553,9 +553,14 @@ starożytny regał
 
 # Buildings_Ancient_Outdoors.xml
 starożytny klimatyzator
+zrujnowany starożytny APC
+starożytny bankomat
+starożytny pojemnik
+silnik starożytnego transportowca
+starożytny hydrant
 starożytny silnik odrzutowy
 starożytny zlew kuchenny
-starożytny makro silnik
+blok starożytnego makro silnika
 odcinek starożytnego rurociągu
 starożytny samochód kapsułowy
 starożytny drut kolczasty
@@ -593,7 +598,7 @@ głośnik
 relikwiarz
 
 # Buildings_Special.xml
-rdzeń archanexusa
+rdzeń archonexusa
 
 # Effecter_WorkGeneral.xml
 # Ethereal_Skyfallers.xml
@@ -627,3 +632,8 @@ kielich
 fragment
 wisiorek
 tablet
+
+-------------------------------
+---------- HediffDef ----------
+-------------------------------
+alzheimer
