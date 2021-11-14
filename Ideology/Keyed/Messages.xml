@@ -8,19 +8,19 @@
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} i {PRECEPT2} są niezgodne.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>Zapotrzebowanie na strój {DESIREDAPPAREL} pokrywa się z wymaganiami dotyczącymi stroju {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>Zapotrzebowanie na strój "{DESIREDAPPAREL}" pokrywa się z wymaganiami dotyczącymi stroju dla roli - {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} pokrywa się z wymogiem dotyczącym stroju {ROLE} ({ROLEAPPAREL}). Uniemożliwi to {ROLE} noszenie razem wymaganej i pożądanego stroju.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>Strój "{DESIREDAPPAREL}" pokrywa się z wymogiem dotyczącym stroju dla roli - {ROLE} ({ROLEAPPAREL}). Uniemożliwi to "{ROLE}" noszenie razem wymaganej i pożądanego stroju.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>{PRECEPT} potrzebuje jednego z tych budynków</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} potrzebuje jednej z tych budowli</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT} potrzebuje powiązanego rytuału.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} odmawia wykonania tego z powodu {0_possessive} ideologii.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} próbowapróbowa{INITIATOR__gender ? ł : a}  namówić {RECIPIENT_nameDef} do {INITIATOR_possessive} ideologii. Pewność siebie {RECIPIENT_nameDef} spadła z {CERTAINTYBEFORE} do {CERTAINTYAFTER}. Ponownie chce podjąć próbę konwersji.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} próbowapróbowa{INITIATOR__gender ? ł : ła}  namówić {RECIPIENT_nameDef} do {INITIATOR_possessive} ideologii. Pewność siebie {RECIPIENT_nameDef} spadła z {CERTAINTYBEFORE} do {CERTAINTYAFTER}. Ponownie chce podjąć próbę konwersji.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} próbowa{PAWN1_gender ? ł : a} namówić {PAWN2_nameDef} na {PAWN1_possessive} ideologie. Doprowadziło to do społecznej walki!</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} próbowa{PAWN1_gender ? ł : ła} namówić {PAWN2_nameDef} na {PAWN1_possessive} ideologie. Doprowadziło to do społecznej walki!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
   <MessageNotEnoughMemes>Musisz wybrać co najmniej {0} pogląd(y).</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
@@ -30,18 +30,24 @@
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes>{0_label} i {1_label} są ze sobą niezgodne.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>Potrzebujesz {0}, aby uruchomić {1}.</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNoRequiredRolePawnToBeginRitual>Potrzebujesz {lookup: {0}; Case\Singular; 1}, aby rozpocząć {lookup: {1}; Case\Singular; 3}.</MessageNoRequiredRolePawnToBeginRitual>
+  <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
+  <MessageNotEnoughSpectators>Aby rozpocząć {lookup: {1}; Case\Singular; 3}, potrzeba co najmniej {0} widzów.</MessageNotEnoughSpectators>
+  <!-- EN: You must choose a role. -->
+  <MessageRoleChangeChooseDifferentRole>Musisz wybrać rolę.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Przed uruchomieniem {1} musisz przypisać kogoś do roli {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Przed rozpoczęciem {1} musisz przypisać kogoś do roli - {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <!-- EN: Need at least one {0} participating. -->
+  <MessageNeedAtLeastOneParticipantOfIdeo>Potrzebujesz co najmniej jednego uczestnika {0}.</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>{0_labelShort} pełni teraz rolę {1}.</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} pełni teraz rolę - {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : a} więźniem, nie może {0_pronoun} już pełnić roli {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Odkąd {0_labelShort} zosta{0_gender ? ł : ła} więźniem, nie może {0_pronoun} już pełnić roli - {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Uwaga: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli drzewo zostanie ścięte.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Ostrzeżenie: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Uwaga: {0} będzie zdenerwowan{0_gender ? y : a}, jeśli nastąpi wydobywanie.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
   <MessageConnectedPawnDied>Połączenie {TREE_label} z {PAWN_nameDef} zostało zerwane. Musi zostać odzyskane przez {DURATION}, zanim będzie {PAWN_gender ? mógł : mogła} ponownie się połączyć.</MessageConnectedPawnDied>
 
@@ -59,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>Żaden strażnik nie jest zdolny do tego zniewolenia.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>Nie masz strażników {MEMBERNAME} do konwersji {PRISONER_nameDef}. Tryb interakcji {PRISONER_possessive} został przywrócony na „Brak interakcji”.</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>Nie masz strażników {MEMBERNAME} do konwersji {PRISONER_nameDef}. Tryb interakcji {PRISONER_possessive} został przywrócony na "Brak interakcji”.</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -118,7 +124,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Ostrzeżenie: {PAWNKINDLABELPLURAL} są czczone przez wszystkich {PAWNS} i nie zostaną skrzywdzone.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Uwaga: {PAWNKINDLABELPLURAL} są czczone przez wszystkich {PAWNS} i nie zostaną skrzywdzone.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -137,5 +143,11 @@
   <MessageInfestationDelayActivated>Nadchodzi plaga.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
   <MessageFuelNodeDelayActivated>{0} zosta{0_gender ? ł : ła : ło} zakłócon{0_gender ? y : a : e} i wkrótce może wybuchnąć!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+
+  <!-- Fluid ideo messages -->
+  <!-- EN: Development points changed from {0} to {1} ({2}). -->
+  <MessageDevelopmentPointsEarned>Punkty rozwoju zmieniono z {0} na {1} ({2}).</MessageDevelopmentPointsEarned>
+  <!-- EN: Only one change to structures, memes and styles is allowed. -->
+  <MessageFluidIdeoOneChangeAllowed>Dozwolona jest tylko jedna zmiana w strukturach, poglądach i stylach.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>
