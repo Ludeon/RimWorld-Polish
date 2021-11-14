@@ -17,9 +17,9 @@
   <!-- EN: Options -->
   <Options>Opcje</Options>
   <!-- EN: Mod -->
-  <Mod>Modyfikacja</Mod>
+  <Mod>Mod</Mod>
   <!-- EN: Mods -->
-  <Mods>Modyfikacje</Mods>
+  <Mods>Mody</Mods>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Zapisz raport tłumaczenia</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -75,7 +75,7 @@
   <!-- EN: Review world -->
   <ReviewWorld>Przejrzyj świat</ReviewWorld>
   <!-- EN: Generate -->
-  <WorldGenerate>Generuj</WorldGenerate>
+  <WorldGenerate>Wygeneruj</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Zapisz i zakończ</WorldSaveAndFinish>
   <!-- EN: Reset -->
@@ -143,19 +143,19 @@
   <!-- EN: Get mods from forum -->
   <GetModsFromForum>Pobierz modyfikacje z forum</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>Otwórz folder z modyfikacjami</OpenModsDataFolder>
+  <OpenModsDataFolder>Otwórz folder z modami</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Pokaż lokalizację modyfikacji</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
-  <ConfirmDisableCoreMod>Czy jesteś pewien, że chcesz wyłączyć zawartość podstawową? Gra nie będzie działać prawidłowo, jeśli nie jest uruchomiona inna modyfikacja zawierająca wszystkie główne funkcje.\n\nPamiętaj, że inne modyfikacje mogą nadpisywać podstawową zawartość, zwyczajnie używając defName.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Czy na pewno chcesz wyłączyć zawartość podstawową? Gra nie będzie działać prawidłowo, jeśli nie jest uruchomiona inna modyfikacja zawierająca wszystkie główne funkcje.\n\nPamiętaj, że inne modyfikacje mogą nadpisywać podstawową zawartość, używając tego samego defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Czy na pewno chcesz usunąć całą zawartość {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Auto-sortowanie modów</ResolveModOrder>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
-  <ModReorderConflict_MustLoadAfter>Nie można przenieść {0}: Musi zostać załadowany po {1}.</ModReorderConflict_MustLoadAfter>
+  <ModReorderConflict_MustLoadAfter>Nie można przenieść {0}: Należy to załadować po {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
-  <ModReorderConflict_MustLoadBefore>Nie można przenieść {0}: Musi zostać załadowany przed {1}.</ModReorderConflict_MustLoadBefore>
+  <ModReorderConflict_MustLoadBefore>Nie można przenieść {0}: Należy to załadować przed {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Anuluj subskrypcję</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -173,7 +173,7 @@
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>Wysłanie do Warsztatu nie udało się.\n\nPowód: {0}.</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
-  <WorkshopUploadSucceeded>Wysyłanie {0} powiodło się.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>Pomyślnie wysłano {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Pobieranie</Downloading>
   <!-- EN: Display fulfilled requirements -->
@@ -189,15 +189,15 @@
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>To musi być załadowane przed: {0}.</ModMustLoadBefore>
+  <ModMustLoadBefore>Należy to załadować przed: {0}.</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>To musi być załadowane po: {0}.</ModMustLoadAfter>
+  <ModMustLoadAfter>Należy to załadować po: {0}.</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
-  <ModDependsOn>Zależny od: {0}</ModDependsOn>
+  <ModDependsOn>Zależne od: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>Niekompatybilny z: {0}</ModIncompatibleWith>
+  <ModIncompatibleWith>Niekompatybilne z: {0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>Ten mod jest niekompatybilny z: {0}</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>Ten mod jest niekompatybilny z: {0}.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
   <ModOrderingWarning>Ten mod ładuje się w niewłaściwej kolejności w stosunku do innego modu. Użyj przycisku 'auto-sortowanie' lub zmień kolejność modów ręcznie.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
@@ -215,7 +215,7 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Modyfikacje potrzebują poprawnie sformatowanej informacji wersji gry w pliku About.xml. Jak tutaj: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> jest nieaktualny. Więcej informacji znajdziesz w logu.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod potrzebuje unikalnego, poprawnie sformatowanego identyfikatora pakietu w pliku About.xml. Musi spełniać następujące wymagania:\n\n  - Tylko znaki alfanumeryczne i kropkę.\n - Bez spacji.\n - Co najmniej jeden kropka.\n - Bez powtarzających się bezpośrednio kropek, rozpoczynających się lub kończących kropką.\n - 60 znaków lub mniej.\n - Nie może zawierać słowa "Ludeon".\n\nPrzykład można znaleźć w pliku `RimWorld\Data\Core\About\About.xml lub w internecie.</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod potrzebuje unikalnego, poprawnie sformatowanego identyfikatora pakietu w pliku About.xml. Musi spełniać następujące wymagania:\n\n  - Tylko znaki alfanumeryczne i kropkę.\n - Bez spacji.\n - Co najmniej jeden kropka.\n - Bez powtarzających się bezpośrednio kropek, rozpoczynających się lub kończących kropką.\n - 60 znaków lub mniej.\n - Nie może zawierać słowa "Ludeon".\n\nPrzykład można znaleźć w pliku 'RimWorld\Data\Core\About\About.xml' lub w internecie.</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Ten mod posiada problemy w pliku LoadFolders.xml, które należy rozwiązać przed przesłaniem:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -263,7 +263,7 @@
   <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Wszystkie pola tekstowe muszą być wypełnione.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>Czy jesteś pewien, że chcesz wgrać to do Warsztatu Steam?\n\nMusisz zaakceptować umowę użytkownika Steam. Pełny regulamin znajdziesz tutaj:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Czy na pewno chcesz wgrać to do Warsztatu Steam?\n\nMusisz zaakceptować umowę użytkownika Steam. Pełny regulamin znajdziesz tutaj:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>Należy wysyłać zawartość stworzoną tylko przez Ciebie.\n\nCzy ta zawartość została stworzona przez Ciebie?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
@@ -277,9 +277,9 @@
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Wybierz swojego pisarza SI</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Wybierz swojego narratora SI</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na Twoją kolonię. Ustawienia te możesz zmienić w każdym momencie.</HowStorytellersWork>
+  <HowStorytellersWork>Narrator SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na Twoją kolonię. Ustawienia te możesz zmienić w każdym momencie.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Wybierz poziom trudności.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -293,9 +293,9 @@
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>Możesz zapisywać i wczytywać grę w dowolnym momencie.\n\nJest to dobry wybór, jeśli nadal uczysz się grać, jeśli pasuje on do Twojego stylu gry, jeśli używasz modów, które mogą zepsuć Twoją rozgrywkę lub jeśli zamierzasz samemu "pozorować" tryb zobowiązania.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>Możesz zapisać tylko przy wychodzeniu gry.\n\nOd kiedy RimWorld jest generatorem historii, nawet utrata wszystkich oprócz jednej osoby nie jest końcem gry - to część historii. Gra została stworzona, aby umożliwić odzysk po stratach.\n\nOdtwarzanie tych strasznych sytuacji czyni historię zarówno tragedią, jak i triumfem. RimWorld został zaprojektowany właśnie z myślą o takim sposobie rozgrywki.\n\nIstnieje jakiś powód, dla którego Luke Skywalker nie zrezygnował i nie wczytał zapisu, gdy jego rodzina zginęła - utrata i odzysk jest dramatyczna.</PermadeathModeInfo>
+  <PermadeathModeInfo>Możesz zapisać tylko przy wychodzeniu z gry.\n\nOd kiedy RimWorld jest generatorem historii, nawet utrata wszystkich oprócz jednej osoby nie jest końcem gry - to część opowieści. Gra została stworzona, aby umożliwić odzysk po stratach.\n\nOdtwarzanie tych strasznych sytuacji czyni historię zarówno tragedią, jak i triumfem. RimWorld został zaprojektowany właśnie z myślą o takim sposobie rozgrywki.\n\nIstnieje jakiś powód, dla którego Luke Skywalker nie zrezygnował i nie wczytał zapisu, gdy jego rodzina zginęła - utrata i odzysk jest dramatyczna.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Pisarza SI i poziom trudności można zmienić w dowolnym momencie.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Narratora i styl gry można w każdej chwili zmienić.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -306,7 +306,7 @@
   <!-- EN: Threats -->
   <DifficultyThreatSection>Zagrożenia</DifficultyThreatSection>
   <!-- EN: Threat scale -->
-  <Difficulty_ThreatScale_Label>Skala zagrożenia</Difficulty_ThreatScale_Label>
+  <Difficulty_ThreatScale_Label>Skala zagrożeń</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
   <Difficulty_ThreatScale_Info>Dostosuj rozmiar zagrożeń, takich jak najazdy i plagi, oraz poziom trudności zadań.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
@@ -314,9 +314,9 @@
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
   <Difficulty_AllowBigThreats_Info>Zezwalaj na poważne zagrożenia, takie jak naloty, plagi, pakiety łowców ludzi, rozbite statki mechanoidalne i inne.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
-  <Difficulty_AllowViolentQuests_Label>Zagrożenia związane z zadaniami</Difficulty_AllowViolentQuests_Label>
+  <Difficulty_AllowViolentQuests_Label>Zagrożenia w zadaniach</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>Pozwól, aby zadania przedstawiały brutalne groźby i wyzwania. Jeśli ta opcja jest wyłączona, zadania zostaną zmodyfikowane tak, aby nie zawierały przemocy.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Pozwól, aby zadania przedstawiały brutalne zagrożenia i wyzwania. Jeśli ta opcja jest wyłączona, zadania zostaną zmodyfikowane tak, aby nie zawierały przemocy.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>Wprowadzenie zagrożeń</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
@@ -345,15 +345,15 @@
   <!-- EN: Adjust the amount of materials produced when mining. -->
   <Difficulty_MineYieldFactor_Info>Dostosuj ilość materiałów wytwarzanych podczas wydobycia.</Difficulty_MineYieldFactor_Info>
   <!-- EN: Butchering yield -->
-  <Difficulty_ButcherYieldFactor_Label>Plon rzeźniczy</Difficulty_ButcherYieldFactor_Label>
+  <Difficulty_ButcherYieldFactor_Label>Plon uboju</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>Dostosuj ilość materiałów wytwarzanych podczas rzezi. Obejmuje to mięso, skórę i plon z mechanoidów rozdrabniających.</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>Dostosuj ilość materiałów wytwarzanych podczas ubojów. Obejmuje to mięso, skórę i plon z mechanoidów rozdrabniających.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>Szybkość badań</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
   <Difficulty_ResearchSpeedFactor_Info>Dostosuj szybkość badań.</Difficulty_ResearchSpeedFactor_Info>
   <!-- EN: Quest rewards -->
-  <Difficulty_QuestRewardValueFactor_Label>Nagrody za misje</Difficulty_QuestRewardValueFactor_Label>
+  <Difficulty_QuestRewardValueFactor_Label>Nagrody za zadania</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_QuestRewardValueFactor_Info>Dostosuj wartość nagród przyznawanych za zadania.\n\nUwaga: Wartość nagrody za zadanie jest również automatycznie skalowana, aby zrekompensować skalę zagrożenia. Jeśli dostosujesz to ustawienie, dodasz dodatkowy mnożnik.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
@@ -361,26 +361,26 @@
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_RaidLootPointsFactor_Info>Dostosuj wartość łupów przenoszonych przez najeźdźców.\n\nUwaga: Wartość łupów z najazdu jest również automatycznie skalowana, aby zrekompensować skalę zagrożenia. Jeśli dostosujesz to ustawienie, dodasz dodatkowy mnożnik.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>Koszt uzbrojenia wieży</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>Koszt przezbrojenia wieżyczki</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
   <Difficulty_MaintenanceCostFactor_Info>Dostosuj koszt przezbrojenia wieżyczek.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>Skaria szansa zgnicia</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>Skaria - szansa zgnicia</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>Prawdopodobieństwo, że zwłoki natychmiast zgniją po śmierci, jeśli stworzenie ma chorobę scaria.\n\nUwaga: Ustawienia domyślne są zaprojektowane tak, aby dokładnie zrównoważyć wzrost liczby zwierząt na wyższych poziomach trudności, aby wszyscy gracze otrzymywali takie same nagrody mięsne .</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>Prawdopodobieństwo, że zwłoki natychmiast zgniją po śmierci, jeśli stworzenie jest chore na skarię.\n\nUwaga: ustawienia domyślne są zaprojektowane tak, aby dokładnie zrównoważyć wzrost liczby zwierząt na wyższych poziomach trudności, aby wszyscy gracze otrzymywali takie same nagrody mięsne.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Śmierć wroga podczas powalenia</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Śmierć wroga podczas nokautu</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Dostosuj dodatkową szansę na to, że powalony wróg natychmiast zginie. Wpływa to na szanse wzięcia jeńców, a tym samym na tempo wzrostu populacji kolonii.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Dostosuj dodatkową szansę na to, że znokautowany wróg natychmiast zginie. Wpływa to na szanse wzięcia jeńców, a tym samym na tempo wzrostu populacji kolonii.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>Ogólne</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
   <Difficulty_ColonistMoodOffset_Label>Nastroje kolonistów</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
-  <Difficulty_ColonistMoodOffset_Info>Stała kompensacja nastroju stosowana wobec każdego kolonisty i więźnia. Koloniści mają nastrój bazowy 50%.</Difficulty_ColonistMoodOffset_Info>
+  <Difficulty_ColonistMoodOffset_Info>Stałe przesunięcie nastroju stosowane wobec każdego kolonisty i więźnia. Koloniści mają podstawowy nastrój równy 50%.</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>Szansa na truciznę pokarmową</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>Szansa na zatrucie pokarmowe</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
   <Difficulty_FoodPoisonChanceFactor_Info>Dostosuj szansę na zatrucie pokarmowe po zjedzeniu potencjalnie zatrutego posiłku.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
@@ -390,35 +390,35 @@
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Ogień przyjacielski</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Dostosuj szansę na ogień przyjacielski.\n\nUwaga: To ustawienie wpływa tylko na strzały bezpośrednie, które miały trafić w cel. Nie chroni przed obrażeniami od eksplozji lub strzałów, które nie trafią w cel.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Dostosuj szansę na ogień przyjacielski.\n\nUwaga: to ustawienie wpływa tylko na strzały bezpośrednie, które miały trafić w cel. Nie chroni przed obrażeniami od eksplozji lub strzałów, które nie trafią w cel.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
-  <Difficulty_AllowInstantKillChance_Label>Koloniści natychmiast zabijają</Difficulty_AllowInstantKillChance_Label>
+  <Difficulty_AllowInstantKillChance_Label>Natychmiastowa śmierć</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Dostosuj szansę na to, że kolonista może zginąć od razu w wyniku ataku. Przychodzące obrażenia są dostosowywane tak, aby zamiast tego powaliły kolonistę.\n\nZapobiega to tylko niektórym rodzajom natychmiastowych zabójstw – koloniści nadal mogą zostać powaleni i wykrwawić się na śmierć, umrzeć od ognia, eksplozji, chorób i tak dalej.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Dostosuj szansę natychmiastowej śmierci kolonisty w wyniku ataku. Przychodzące obrażenia są dostosowywane tak, aby zamiast tego powaliły kolonistę.\n\nZapobiega to tylko niektórym rodzajom natychmiastowych zabójstw – koloniści nadal mogą zostać powaleni i wykrwawić się na śmierć, umrzeć od ognia, eksplozji, chorób i tak dalej.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Szansa na infekcję</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Szansa infekcji</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Info>Dostosuj prawdopodobieństwo zakażenia rany.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Częstotliwość choroby</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Częstotliwość chorób</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Info>Dostosuj częstotliwość losowych zdarzeń chorobowych.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>Szybkość powstawania nowych owadów</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>Szybkość powstawania nowych insektów</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Dostosuj szybkość, z jaką istniejące ule owadów generują nowe owady. Niższe wartości oznaczają więcej czasu między spawnami.\n\nNie ma to wpływu na to, czy może dojść do inwazji – tylko na prędkość, z jaką aktywne ule produkują owady.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Dostosuj szybkość, z jaką istniejące gniazda insektów generują nowe insekty. Niższe wartości oznaczają więcej czasu między spawnem.\n\nNie ma to wpływu na to, czy może dojść do inwazji – jedynie na prędkość, z jaką aktywne gniazda produkują insekty.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>Głębokie inwazje wiertnicze</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>Inwazje przy odwiertach głębinowych</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>Dostosuj prawdopodobieństwo, że głębokie wiercenie wywoła inwazję.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>Dostosuj prawdopodobieństwo, że odwierty głębinowe wywołają inwazję.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
-  <Difficulty_PeacefulTemples_Inverted_Label>Generacja map starożytnych zagrożeń</Difficulty_PeacefulTemples_Inverted_Label>
+  <Difficulty_PeacefulTemples_Inverted_Label>Generacja starożytnych zagrożeń na mapie</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
   <Difficulty_PeacefulTemples_Inverted_Info>Starożytne budowle mogą zawierać niebezpieczne zagrożenia.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
-  <Difficulty_AllowCaveHives_Label>Generacja map naturalnych uli</Difficulty_AllowCaveHives_Label>
+  <Difficulty_AllowCaveHives_Label>Generacja naturalnych uli na mapie</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Uśpione ule owadów mogą pojawiać się w naturalnych jaskiniach.\n\nTo ustawienie dotyczy tylko generowania map i nie wpływa na aktywne owady, które mogą wydmuchiwać się podczas gry.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>Uśpione gniazda owadów mogą pojawiać się w naturalnych jaskiniach.\n\nTo ustawienie dotyczy tylko generowania map i nie wpływa na aktywne owady, które mogą wykopywać się podczas gry.</Difficulty_AllowCaveHives_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Narzędzia gracza</DifficultyPlayerToolsSection>
@@ -429,7 +429,7 @@
   <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>Gracz może budować wieżyczki</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>Gracz może budować statyczne wieżyczki, takie jak mini-wieżyczki, wieżyczki z działkami automatycznymi i wieżyczki ze ślimakami uranowymi.\n\nMożesz nadal używać przechwyconych wieżyczek, nawet jeśli ta funkcja jest wyłączona.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>Gracz może budować statyczne wieżyczki, takie jak mini-wieżyczki, wieżyczki z działkami automatycznymi i wieżyczki z pociskami uranowymi.\n\nMożesz nadal używać przechwyconych wieżyczek, nawet jeśli ta funkcja jest wyłączona.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>Gracz może budować moździerze</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
@@ -444,26 +444,26 @@
   <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Tempo wzrostu adaptacji</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptacja oznacza, że gawędziarz sprawia, że gra jest trudniejsza, gdy dobrze sobie radzisz. Wynik adaptacji rośnie w czasie i jest powalony po otrzymaniu obrażeń.\n\n To ustawienie dostosowuje szybkość, jak szybko wynik adaptacji rośnie w czasie.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptacja oznacza, że narrator SI uczyni grę trudniejszą, jeśli dobrze sobie radzisz. Wynik adaptacji rośnie w czasie i jest znokautowany po otrzymaniu obrażeń.\n\n To ustawienie dostosowuje, jak szybko wynik adaptacji rośnie z czasem.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>Wpływ adaptacji</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>Adaptacja oznacza, że gawędziarz sprawia, że gra jest trudniejsza, gdy dobrze sobie radzisz. Wynik adaptacji rośnie w miarę czasu i jest powalony po otrzymaniu obrażeń.\n\n To ustawienie dostosowuje, jak bardzo wynik adaptacji wpływa na poziom trudności.</Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>Adaptacja oznacza, że narrator SI uczyni grę trudniejszą, jeśli dobrze sobie radzisz. Wynik adaptacji rośnie w czasie i jest znokautowany po otrzymaniu obrażeń.\n\n To ustawienie dostosowuje, jak dużo wyniku adaptacji rośnie z czasem.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Tryb postępu niezależny od bogactwa</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Graj w trybie postępu niezależnym od bogactwa.\n\nW normalnym trybie gawędziarz skaluje zagrożenia na podstawie liczby kolonistów, bogactwa graczy i wielu innych czynników. Tryb niezależny od bogactwa usuwa czynnik bogactwa i zastępuje go stałą krzywą postępu opartą na czasie. Czas jest liczony od założenia każdej kolonii.\n\nJest to zalecane tylko dla tych, którzy szukają surowego wyzwania umiejętności. W trybie niezależnym od bogactwa odzyskanie sił po poważnych stratach może być prawie niemożliwe, chyba że znajdziesz nową osadę. Można również wysunąć się za daleko i uznać grę za zbyt łatwą.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>Graj w trybie postępu niezależnym od bogactwa.\n\nW normalnym trybie narrator SI skaluje zagrożenia na podstawie liczby kolonistów, bogactwa graczy i wielu innych czynników. Tryb niezależny od bogactwa usuwa czynnik bogactwa i zastępuje go stałą krzywą postępu opartą na czasie. Czas jest liczony od założenia każdej kolonii.\n\nJest to zalecane tylko dla tych, którzy szukają surowego wyzwania umiejętności. W trybie niezależnym od bogactwa odzyskanie sił po poważnych stratach może być prawie niemożliwe, chyba że znajdziesz nową osadę. Można również wysunąć się za daleko i uznać grę za zbyt łatwą.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>Ilość lat do maksymalnego zagrożenia</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>Liczba lat gry, po której tryb niezależny od bogactwa osiągnie maksymalny poziom zagrożenia.\n\nPamiętaj, że gawędziarz nadal będzie skalował zagrożenia zgodnie z liczbą kolonistów i wieloma innymi czynnikami.</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>Liczba lat gry, po której tryb niezależny od bogactwa osiągnie maksymalny poziom zagrożenia.\n\nPamiętaj, że narrator SI nadal będzie skalował zagrożenia zgodnie z liczbą kolonistów i wieloma innymi czynnikami.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
   <DifficultyIdeologySection>Ideologia</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Wzrost szansy nawrócenia w małej populacji</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>Z jednym kolonistą z początkowej ideoligi gracza, szansa na zamianę na jego ideoligię jest mnożona przez tę wartość. Próby konwersji przeciwko nim mają wpływ dzielony przez tę wartość.\n\nW przypadku dwóch kolonistów początkowej ideologii gracza efekt jest o połowę mniejszy.\n\nW przypadku trzech lub więcej kolonistów początkowej ideologii gracza nie ma to żadnego efektu.</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>Z jednym kolonistą z początkowej ideologii gracza, szansa na zamianę na jego ideologię jest mnożona przez tę wartość. Próby konwersji przeciwko nim mają wpływ dzielony przez tę wartość.\n\nW przypadku dwóch kolonistów początkowej ideologii gracza efekt jest o połowę mniejszy.\n\nW przypadku trzech lub więcej kolonistów początkowej ideologii gracza nie ma to żadnego efektu.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -475,7 +475,7 @@
   <!-- EN: Please select a site. -->
   <MustSelectStartingSite>Wybierz miejsce startu.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
-  <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}.</CannotLandBiome>
+  <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>Klimat niezaimplementowany</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
@@ -585,7 +585,7 @@
   <!-- EN: Childhood -->
   <Childhood>Dzieciństwo</Childhood>
   <!-- EN: Current -->
-  <Current>Obecny</Current>
+  <Current>Obecnie</Current>
   <!-- EN: male -->
   <Male>mężczyzna</Male>
   <!-- EN: female -->
@@ -625,7 +625,7 @@
   <!-- EN: Gameplay -->
   <Gameplay>Rozgrywka</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
-  <ConfirmQuit>Czy na pewno chcesz opuścić grę? Stracisz niezapisany postęp.</ConfirmQuit>
+  <ConfirmQuit>Czy na pewno chcesz opuścić grę? Stracisz niezapisane postępy.</ConfirmQuit>
   <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>Każda postać musi posiadać poprawne imię.</EveryoneNeedsValidName>
   <!-- EN: None of the selected people can do the following jobs -->
@@ -654,7 +654,7 @@
   <!-- EN: Factions -->
   <Factions>Frakcje</Factions>
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Problemy z rozgrywką mogą wystąpić z ponad {0} frakcjami.</RecommendedFactionCount>
+  <RecommendedFactionCount>Mogą wystąpić problemy z rozgrywką z więcej niż {0} frakcjami.</RecommendedFactionCount>
   <!-- EN: Maximum {0} visible factions allowed. -->
   <TotalFactionsAllowed>Dozwolone jest maksymalnie {0} widocznych frakcji.</TotalFactionsAllowed>
   <!-- EN: There can be no more than {0} {1}. -->
@@ -662,7 +662,7 @@
   <!-- EN: Restore defaults -->
   <ResetFactionsToDefault>Przywróć domyślne</ResetFactionsToDefault>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>Wybierz frakcje na świecie. Możesz wybrać maksymalnie {0} frakcje.</FactionSelectionDesc>
+  <FactionSelectionDesc>Wybierz frakcje na świecie. Możesz wybrać maksymalnie {0} frakcji.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
   <FactionDisabledContentWarning>Wyłączenie {0} oznacza mniejszą różnorodność zadań i inną zredukowaną zawartość.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->

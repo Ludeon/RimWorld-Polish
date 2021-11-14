@@ -5,17 +5,17 @@
   <!-- EN: Conversion -->
   <LetterLabelConvertIdeoAttempt_Success>Konwersja</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} pomyślnie odwrócił {RECIPIENT_nameDef} od {OLDIDEO_name} w kierunku {IDEO_name}.</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} pomyślnie odwróci{INITIATOR_gender ? ł : ła} {RECIPIENT_nameDef} od {OLDIDEO_name} w kierunku {IDEO_name}.</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
   <LetterLabelGrandSlaveRebellion>Wielki bunt niewolników</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveRebellion>Rozpoczął się wielki bunt niewolników! Wszyscy Twoi niewolnicy powstają, by walczyć przeciwko tobie. Będą szukać broni i próbować wyeliminować Twoich kolonistów.\n\nCi niewolnicy są w to zamieszani:\n\n{0}</LetterGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>Rozpoczął się wielki bunt niewolników! Wszyscy Twoi niewolnicy powstają, by walczyć przeciwko Tobie. Będą szukać broni i próbować wyeliminować Twoich kolonistów.\n\nNastępujący niewolnicy są w to zamieszani:\n\n{0}</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>Lokalny bunt niewolników</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>Rozpoczął się lokalny bunt niewolników! {0_nameDef} i niektórzy pobliscy niewolnicy powstają, by walczyć przeciwko tobie. Będą szukać broni i próbować wyeliminować Twoich kolonistów.\n\nCi niewolnicy są w to zamieszani:\n\n{1}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>Rozpoczął się lokalny bunt niewolników! {0_nameDef} i niektórzy pobliscy niewolnicy powstają, by walczyć przeciwko Tobie. Będą szukać broni i próbować wyeliminować Twoich kolonistów.\n\nNastępujący niewolnicy są w to zamieszani:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>bunt niewolników</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -25,42 +25,42 @@
   <!-- EN: Grand slave escape -->
   <LetterLabelGrandSlaveEscape>Wielka ucieczka niewolników</LetterLabelGrandSlaveEscape>
   <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveEscape>Rozpoczęła się wielka ucieczka niewolników! Wszyscy Twoi niewolnicy robią sobie przerwę.\n\nCi niewolnicy są w to zamieszani:\n\n{0}</LetterGrandSlaveEscape>
+  <LetterGrandSlaveEscape>Rozpoczęła się wielka ucieczka niewolników! Wszyscy Twoi niewolnicy robią sobie przerwę.\n\nNastępujący niewolnicy są w to zamieszani:\n\n{0}</LetterGrandSlaveEscape>
   <!-- EN: Local slave escape -->
   <LetterLabelLocalSlaveEscape>Lokalna ucieczka niewolników</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>Rozpoczęła się lokalna ucieczka niewolników! Wszyscy Twoi niewolnicy robią sobie przerwę.\n\nCi niewolnicy są w to zamieszani:\n\n{0}</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>Rozpoczęła się lokalna ucieczka niewolników! Wszyscy Twoi niewolnicy robią sobie przerwę.\n\nNastępujący niewolnicy są w to zamieszani:\n\n{0}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
   <LetterLabelSingleSlaveEscape>Ucieczka niewolnika</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
   <LetterSingleSlaveEscape>{0_nameDef} próbuje uciec!</LetterSingleSlaveEscape>
 
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
-  <SlaveRebellionSuppressionExplanation>Niewolnicy częściej buntują się, gdy ich poziom tłumienia jest niski.</SlaveRebellionSuppressionExplanation>
+  <SlaveRebellionSuppressionExplanation>Niewolnicy buntują się częściej, gdy ich poziom stłumienia jest niski.</SlaveRebellionSuppressionExplanation>
   
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>{0} rola aktywowana</LetterLabelRoleActive>
+  <LetterLabelRoleActive>Rola {0} aktywowana</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
-  <LetterLabelRoleActiveDesc>Liczba {0} w Twojej kolonii osiągnęła {1}. Możesz teraz przypisać rolę {ROLE_labelDef} jednemu ze swoich kolonistów.\n\nAby przypisać rolę, użyj zakładki Społeczności danej osoby lub wybierz miejsce rytuału lub ołtarz i naciśnij przycisk 'Rozpocznij zmianę roli'.</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>Liczba {0} w Twojej kolonii osiągnęła {1}. Możesz teraz przypisać rolę {ROLE_labelDef} jednemu ze swoich kolonistów.\n\nAby przypisać rolę, użyj karty Społeczności danej osoby lub wybierz miejsce rytuału lub ołtarz i naciśnij przycisk 'Rozpocznij zmianę roli'.</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
-  <LetterLabelRoleInactive>{0} rola dezaktywowana</LetterLabelRoleInactive>
+  <LetterLabelRoleInactive>Rola {0} dezaktywowana</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>Liczba {0}s w Twojej kolonii spadła do {1}. Rola {ROLE_labelDef} nie jest już aktywna. Ta rola będzie ponownie dostępna, gdy liczba {0} osiągnie {2}.</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>Liczba {0} w Twojej kolonii spadła do {1}. Rola {ROLE_labelDef} nie jest już aktywna. Ta rola będzie ponownie dostępna, gdy liczba {0} osiągnie {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>Utracono rolę {ROLE_labelIndef} kolonisty {PAWN_labelShort}</LetterLabelRoleLost>
+  <LetterLabelRoleLost>{PAWN_labelShort} utraci{PAWN_gender ? ł : ła} rolę {ROLE_labelIndef}</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
   <LetterRoleLostDesc>{PAWN_labelShort} nie pełni już roli {ROLE_labelIndef}. Powód:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
-  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} został zwolniony.</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} zosta{PAWN_gender ? ł : ła} zwolnion{PAWN_gender ? y : a}.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
   <LetterRoleLostReasonLowBelieversDesc>Rola stała się nieaktywna z powodu małej liczby {0}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} stracił {PAWN_possessive} pozycję jako {ROLE_labelDef}, ponieważ {PAWN_pronoun} porzucił {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} straci{PAWN_gender ? ł : ła} {PAWN_possessive} pozycję jako {ROLE_labelDef}, ponieważ {PAWN_pronoun} porzuci{PAWN_gender ? ł : ła} {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
-  <LetterObligationRoleInactive>{0} pominięto.</LetterObligationRoleInactive>
+  <LetterObligationRoleInactive>Pominięto {0}.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
   <LetterObligationRoleInactiveDateDesc>{0} to data {1}, ale ponieważ rola {ROLE_labelDef} jest nieaktywna, {2} pominą {1}.</LetterObligationRoleInactiveDateDesc>
   
@@ -69,11 +69,11 @@
   <LetterSpeechConvertedListeners>Wypowiedź {PAWN_pronoun} przekonała następujących ludzi na {IDEO}</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
-  <LetterTitleObligationsActivated>{0} rytuały aktywowane</LetterTitleObligationsActivated>
+  <LetterTitleObligationsActivated>Rytuały {0} aktywowane</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
-  <LetterTitleObligationsDeactivated>{0} rytuały dezaktywowane</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivated>Rytuały {0} dezaktywowane</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>W Twojej frakcji jest teraz mniej niż {1} {IDEO_memberNamePlural}. Dlatego {IDEO_memberNamePlural} nie będzie mógł odprawiać rytuałów {IDEO} dopóki nie będzie ich co najmniej {1} w Twojej frakcji.</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>W Twojej frakcji jest teraz mniej niż {1} {IDEO_memberNamePlural}. Dlatego {IDEO_memberNamePlural} nie będą mogli odprawiać rytuałów {IDEO} dopóki nie będzie ich co najmniej {1} w Twojej frakcji.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
   <LetterTitleObligationsActivatedEnoughBelievers>Ponieważ w Twojej frakcji jest teraz {1} {IDEO_memberNamePlural}, będą oni żądać przeprowadzenia rytuałów {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
@@ -82,7 +82,7 @@
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Usunięto obligacje</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>{PAWN_nameDef} dokona{PAWN_gender ? ł : ła} konwersji na {IDEO}. Ponieważ {IDEO} nie akceptuje więzi ze zwierzętami, {PAWN_pronoun} wyrzek{PAWN_gender ? ł : ła} się {PAWN_possessive} więzi z następującymi zwierzętami:\n\n{BONDS}</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef} dokona{PAWN_gender ? ł : ła} konwersji na {IDEO}. Ponieważ {IDEO} nie akceptuje więzi ze zwierzętami, {PAWN_pronoun} wyrzek{PAWN_gender ? ł : ła} się swojej więzi z następującymi zwierzętami:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
@@ -102,7 +102,7 @@
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
   <AfflictedJoinerChartityInfo>To incydent charytatywny. Jeśli {0} umrze bez opieki (i po {1}), wierzący z poglądami charytatywnymi będą nieszczęśliwi. Jeśli {0} jest obsługiwane lub rekrutowane, wierzący będą szczęśliwi.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
-  <PawnsHaveCharitableBeliefs>Następujący wierzący mają poglądy o charakterze charytatywnym</PawnsHaveCharitableBeliefs>
+  <PawnsHaveCharitableBeliefs>Następujące wierzące osoby mają poglądy o charakterze charytatywnym</PawnsHaveCharitableBeliefs>
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
@@ -110,7 +110,7 @@
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
   <LetterIdeoChangeNotConverted>Pewność {PAWN_nameDef} z {PAWN_possessive} wiarą w {OLDIDEO_name} została zmniejszona do {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>Aby pogodzić się z poglądami {PAWN_possessive}, {PAWN_nameDef} ukrywa się teraz w swoim pokoju.</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>Aby pogodzić się ze swoimi poglądami, {PAWN_nameDef} ukrywa się teraz w swoim pokoju.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_nameDef} wędruje teraz w szoku, zmagając się ze swoimi poglądami.</LetterIdeoChangedSadWander>
 
@@ -118,13 +118,13 @@
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Rozwód</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>Nowe poglądy {PAWN_nameDef} zabraniają {PAWN_possessive} obecnej liczby małżonków.\n\n{PAWN_nameDef} postanowi{PAWN_gender ? ł : ła} rozwieść się z tymi osobami:\n{1}</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>Nowe poglądy {PAWN_nameDef} zabraniają {PAWN_possessive} obecnej liczby małżonków.\n\n{PAWN_nameDef} postanowi{PAWN_gender ? ł : ła} rozwieść się z następującymi osobami:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
-  <LetterLabelSurpriseReinforcements>Niespodzianka wzmocnień!</LetterLabelSurpriseReinforcements>
+  <LetterLabelSurpriseReinforcements>Niespodziewane posiłki!</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
-  <LetterSurpriseReinforcements>Przybyły niespodzianki z {1}! Przenoszą się, aby pomóc {0} z {1}.</LetterSurpriseReinforcements>
+  <LetterSurpriseReinforcements>Przybyły niespodziewane posiłki z {1}! Przenoszą się, aby pomóc {0} z {1}.</LetterSurpriseReinforcements>
 
   <!-- Style change -->
   <!-- EN: Look change desired -->
@@ -146,19 +146,19 @@
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
-  <LetterLabelRelicDestroyed>Relikt zniszczony</LetterLabelRelicDestroyed>
+  <LetterLabelRelicDestroyed>Zniszczono relikwię</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>{0} został zniszczony!\n\nPogorszy się nastrój następujących osób:\n{1}</LetterTextRelicDestroyed>
+  <LetterTextRelicDestroyed>{0} zosta{0_gender ? ł : ła : ło} zniszczon{0_gender ? y : a : e}!\n\nNastępującym osobom pogorszy się nastrój:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
-  <LetterLabelRelicLost>Zaginiony relikt</LetterLabelRelicLost>
+  <LetterLabelRelicLost>Utracono relikwię</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicLost>{0} zostało utracone!\in\Nastrój zostanie pogorszony u następujących osób:\n{1}</LetterTextRelicLost>
+  <LetterTextRelicLost>{0} został{0_gender ? ł : ła : ło} utracon{0_gender ? y : a : e}!\in\Nastrój zostanie pogorszony u następujących osób:\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>Wszyscy koloniści {0} zginęli. Pozostawieni niewolnicy odeszli. Karawana się rozpadła.</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>Wszyscy niezniewoleni koloniści {0} zmarli. Pozostawieni niewolnicy odeszli. Karawana się rozpadła.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
@@ -168,11 +168,11 @@
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
-  <LetterLabelRelicFound>Znaleziono relikt</LetterLabelRelicFound>
+  <LetterLabelRelicFound>Znaleziono relikwię</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
   <LetterTextRelicFoundLocation>W końcu poznano lokalizację reliktu {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>Relikwia mieści się w starożytnej konstrukcji. Jest chroniona przez system bezpieczeństwa z wieloma niezależnymi jednostkami. Możesz pokonać niebezpieczeństwa pojedynczo, zanim zabierzesz relikt, lub spróbować go złapać i uciec, zanim zdążą cię skrzywdzić.\n\nPo {0} wszystkie systemy bezpieczeństwa zostaną zaalarmowane.</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>Relikwia mieści się w starożytnej konstrukcji. Jest chroniona przez system bezpieczeństwa z wieloma niezależnymi jednostkami. Możesz wybrać czy chcesz pokonać niebezpieczeństwa pojedynczo, zanim zabierzesz relikwię, czy spróbować ją wziąć i uciec, zanim zdążą Cię skrzywdzić.\n\nPo {0} wszystkie systemy bezpieczeństwa zostaną zaalarmowane.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
@@ -196,18 +196,18 @@
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
   <LetterTextArchonexusWealthReached>Osiągnięto wymaganie bogactwa dla zadania '{0}'. Możesz je teraz przyjąć.</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
-  <LetterLabelArchonexusStructureResearched>{0_labelShort} studiowa{0_gender ? ł : ła}</LetterLabelArchonexusStructureResearched>
+  <LetterLabelArchonexusStructureResearched>{0_labelShort} przeanalizowan{0_gender ? y : a : e}</LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
-  <LetterTextArchonexusStructureResearched>Ukończono badanie {0_labelShort}.\n\nNie możesz powiedzieć, że rozumiesz go w pełni, ale wykrywasz wzorce w jego zachowaniu i sposobie, w jaki wydaje się wyrażać informacje.\n\nDzięki tej wiedzy, będzie można zinterpretować kolejny fragment mapy archanexusa.</LetterTextArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>Ukończono badanie {0_labelShort}.\n\nNie możesz powiedzieć, że rozumiesz go w pełni, ale wykrywasz wzorce w jego zachowaniu i sposobie, w jaki wydaje się wyrażać informacje.\n\nDzięki tej wiedzy, będzie można zinterpretować kolejny fragment mapy archonexusa.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
-  <LetterLabelArchotechStructuresAbandoned>Porzucone konstrukcje archatycznych</LetterLabelArchotechStructuresAbandoned>
+  <LetterLabelArchotechStructuresAbandoned>Porzucone konstrukcje archotycznych</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>Porzucono struktury archatycznych w {0_definite}.\n\nOdlegli obserwatorzy mówią, że widzieli wielki błysk emanujący z tego miejsca niedługo po Twoim odejściu.</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>Porzucono struktury archotycznych w {0_definite}.\n\nOdlegli obserwatorzy mówią, że widzieli wielki błysk emanujący z tego miejsca niedługo po Twoim odejściu.</LetterTextArchotechStructuresAbandoned>
 
   <!-- Reforming ideo -->
   <!-- EN: Reform ideoligion -->
   <LetterLabelReformIdeo>Reforma ideologii</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
-  <LetterTextReformIdeo>Masz wystarczającą liczbę punktów rozwoju, aby przeprowadzić reformę {0}!\n\nReformowanie umożliwia wykonanie jednej z następujących czynności:\n\n- Dodaj przekonania\n- Usuń przekonania\n- Zmień strukturę\n- Zmień styl\n \nMożesz także dokonywać nieograniczonych zmian w przykazaniach, bóstwach, tekście narracyjnym i innych symbolach.\n\nAby zreformować ideologie, otwórz go w zakładce ideoligii.</LetterTextReformIdeo>
+  <LetterTextReformIdeo>Masz wystarczającą liczbę punktów rozwoju, aby przeprowadzić reformę {0}!\n\nReformowanie umożliwia wykonanie jednej z następujących czynności:\n\n- Dodaj przekonania\n- Usuń przekonania\n- Zmień strukturę\n- Zmień styl\n\nMożesz także dokonywać nieograniczonych zmian w zasadach, bóstwach, tekście narracyjnym i innych symbolach.\n\nAby zreformować ideologie, otwórz go w zakładce ideologii.</LetterTextReformIdeo>
 
 </LanguageData>
