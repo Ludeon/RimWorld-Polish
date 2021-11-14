@@ -49,16 +49,16 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Z nieznanego powodu, orbitujące skupisko mechanoidów obrało za cel [lodgersLabel]</li>
-    <li>threatsInfoMechClustersMultiAnimal->Z nieznanego, [lodgersLabelPlural] zostały namierzone przez orbitujące skupisko mechanoidów.</li>
+    <li>threatsInfoMechClustersSingleAnimal->Z nieznanego powodu, orbitująca gromada mechanoidów obrała za cel [lodgersLabel]</li>
+    <li>threatsInfoMechClustersMultiAnimal->Z nieznanego, [lodgersLabelPlural] zostały namierzone przez orbitującą gromadę mechanoidów.</li>
     <li>threatsInfoMechRaidsSingleAnimal->Z nieznanego powodu, gniazdo mechanoidów obrało za cel [lodgersLabel]</li>
     <li>threatsInfoMechRaidsMultiAnimal->Z nieznanego powodu, [lodgersLabelPlural] zostały namierzone przez gniazdo mechanoidów.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Organizacja ratująca zwierzęta chce, abyś zaopiekował się [lodgersLabel] o imieniu [lodgers0_nameDef] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Organizacja ratująca zwierzęta chce, aby zaopiekowano się [lodgersLabel] o imieniu [lodgers0_nameDef] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nAktywiści ratujący zwierzęta wykradli [lodgers0_nameDef] z ceremonii uboju frakcji [enemyFaction_name]. Teraz [enemyFaction_pawnsPlural] chcą zemsty. Jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Organizacja ratująca zwierzęta chce byś zaopiekował się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Organizacja ratująca zwierzęta chce, aby zaopiekowano się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
     <li>victim->child</li>
     <li>victim->woman</li>
     <li>victim->man</li>
@@ -69,21 +69,21 @@
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name] szuka miejsca, które zaopiekuje się [asker_possessive] zwierzątkiem, [lodgersLabel] [lodgers0_nameDef] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] chcą zabić biedn{LODGER_gedner ? ego : ą} [lodgers0_nameDef] aby wkurzyć [asker_nameDef]. Jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] z [enemyFaction_name] chcą zabić biedn{LODGER_gedner ? ego : ą} [lodgers0_nameDef], aby wkurzyć [asker_nameDef]. Jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], ma prośbę. [asker_pronoun] chce, abyś zaopiekował się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], ma prośbę. [asker_pronoun] chce, aby zaopiekowano się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] są potrzebne [asker_nameDef], aby wypełnić warunki ważnej wymiany. Aby wywołać konflikt, [enemyFaction_name] wysyłają za nimi [enemyFaction_pawnsPlural]. Jeśli przyjmiesz [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], ma prośbę. [asker_pronoun] chce ,abyś zaopiekował się [asker_possessive] ulubionym zwierzątkiem, [lodgersLabel] [lodgers0_nameDef], w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], ma prośbę. [asker_pronoun] chce ,aby zaopiekowano się [asker_possessive] ulubionym zwierzątkiem, [lodgersLabel] [lodgers0_nameDef], w [map_definite] przez [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] jest prezentem obiecanym dziecku [asker_nameDef] na ślub. Aby zapobiec małżeństwu, [enemyFaction_name] wysyłają [enemyFaction_pawnsPlural] za [lodgers0_objective]. jeśli przyjmiesz [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], ma prośbę. [asker_pronoun] chce, abyś zaopiekował się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [lodgersLabelPlural] są ulubionymi zwierzętami [asker_nameDef], i [asker_pronoun] chce aby zobaczyły świat poza [asker_possessive] królewskim przybytkiem. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], ma prośbę. [asker_pronoun] chce, aby zaopiekowano się [lodgersCount] [lodgersLabelPlural] w [map_definite] przez [shuttleDelayTicks_duration]. [lodgersLabelPlural] są ulubionymi zwierzętami [asker_nameDef], i [asker_pronoun] chce aby zobaczyły świat poza [asker_possessive] królewskim przybytkiem. [healthInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nNiestety, [enemyFaction_name] poluje na [lodgersLabelPlural], aby zranić [asker_nameDef]. Jeśli przyjmiesz [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>

@@ -9,8 +9,8 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription(prisoner_gender==Male)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywany w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj go, a w ramach podzięki dołączy do twojej kolonii. [prisoner_nameDef] to [prisoner_age] letni [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o nim nie usłyszeć.</li>
-    <li>questDescription(prisoner_gender==Female)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywana w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj ją, a w ramach podzięki dołączy do twojej kolonii. [prisoner_nameDef] to [prisoner_age] letnia [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o niej nie usłyszeć.</li>
+    <li>questDescription(prisoner_gender==Male)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywany w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj go, a w ramach podzięki dołączy do Twojej kolonii. [prisoner_nameDef] to [prisoner_age] letni [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o nim nie usłyszeć.</li>
+    <li>questDescription(prisoner_gender==Female)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywana w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj ją, a w ramach podzięki dołączy do Twojej kolonii. [prisoner_nameDef] to [prisoner_age] letnia [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o niej nie usłyszeć.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> pod uzbrojoną strażą</li>
@@ -28,7 +28,6 @@
     <li>questName->Zbawienie [prisoner_nameDef]</li>
     <li>questName->Ratunek [prisoner_nameDef]</li>
     <li>questName->Ucieczka [prisoner_nameDef]</li>
-    <li>questName->Rescuing [prisoner_nameDef]</li>
     <li>questName->Resocjalizacja [prisoner_nameDef]</li>
   </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   

@@ -9,7 +9,7 @@ Mechanoid
 Marine, Marines  
 Thrumbo
   
-* #Ogólne  
+#Ogólne  
 * tryb bojowy (draft)  
 * przydział (assign)  
 * wyznacz (designate)  
@@ -42,12 +42,15 @@ Thrumbo
 * biokodowanie (biocoding)  
 * biosygnatura (biosignature)  
 * persona core (rdzeń z jaźnią)  
-* persona weapon (broń z jaźnią - z cechami osobowości)   
+* persona weapon (broń z jaźnią - z cechami osobowości)  
+* relic (relikwia) - nie relikt  
   
 # Stany i czynności  
 * zespół odstawienny (withdrawal)  
 * szlachtownik (slaughterer) -szlachtuje zwierzęta w napadzie gniewu  
 * purysta ciała (body purist)  
+* moder ciała (body moder)  
+* łowca ludzi (manhunter) -istota w stanie szału polująca na ludzi (stan pojawia się u zwierząt i dzikusów)
 
 # Praca i czynność  
 *  rzeźnik, ćwiartuje, poćwiartowane (butcher, butchering, butchered)  
@@ -107,7 +110,7 @@ Thrumbo
 * przetwórnia metalu  
 * reaktor antymaterii (shipreactor)  
 * spodnie (pants)  
-* strzelba (pumpshotgun)  
+* strzelba powtarzalna (pumpshotgun)  
 * superapteczka  
 * przełącznik (switch)  
 * tarcze energetyczne (personalshields)  
@@ -141,7 +144,7 @@ Thrumbo
 * świecący kokon (glow pod)  
 
 # Zwierzęta i inne stworzenia  
-* archatyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
+* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
                             jakiegokolwiek stworzenia.
                             W gruncie rzeczy, jedna wielka maszyna będąca w stanie tworzyć coś z niczego.
 * insektoid (Insectoid)
