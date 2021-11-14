@@ -6,7 +6,7 @@
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Wybierz swoją ideologię</ChooseYourIdeoligion>
   <!-- EN: Random -->
-  <Random>Losuj</Random>
+  <Random>Losowa</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Dla Twojej ideologii zostanie użyta losowa struktura.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -16,17 +16,17 @@
   <!-- EN: Play classic -->
   <PlayClassic>Graj klasycznie</PlayClassic>
   <!-- EN: Create fluid... -->
-  <CreateFluid>Stwórz dynamiczną\n ideologię</CreateFluid>
+  <CreateFluid>Stwórz dynamiczną...</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>Wczytaj zapis</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Struktura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>W co powinni wierzyć Twoi początkowi koloniści? Te przekonania wpływają na rozgrywkę i efekty wizualne. Będzie można rekrutować innych do swoich przekonań lub przyjmować ich przekonania.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>W co powinni wierzyć Twoi początkowi koloniści? Te przekonania wpływają na rozgrywkę i efekty wizualne. Będzie można rekrutować innych do Twoich przekonań lub przyjmować ich przekonania.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
-  <CreateCustom>Utwórz niestandardowe</CreateCustom>
+  <CreateCustom>Utwórz niestandardową</CreateCustom>
   <!-- EN: Delete custom -->
-  <DeleteCustom>Usuń niestandardowe</DeleteCustom>
+  <DeleteCustom>Usuń niestandardową</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Utwórz nową</CreateNew>
   <!-- EN: Load existing -->
@@ -36,11 +36,11 @@
   <!-- EN: Custom ideoligion -->
   <CustomIdeoligionSectionHeader>Niestandardowa ideologia</CustomIdeoligionSectionHeader>
   <!-- EN: Faction ideoligions -->
-  <FactionIdeoligionSectionHeader>Frakcja ideologii</FactionIdeoligionSectionHeader>
+  <FactionIdeoligionSectionHeader>Ideologie frakcji</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>Załaduj zapisaną ideologię</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
-  <SelectAnIdeo>Wybierz ideologię dla swojej frakcji po lewej stronie lub</SelectAnIdeo>
+  <SelectAnIdeo>Wybierz ideologię dla swojej frakcji po lewej stronie, lub</SelectAnIdeo>
   <!-- EN: ideoligion -->
   <Ideo>ideologia</Ideo> 
   <!-- EN: Randomize all -->
@@ -64,13 +64,13 @@
   <!-- EN: base -->
   <Base>baza</Base>
   <!-- EN: min expectation -->
-  <MinExpectation>minimalne oczekiwanie</MinExpectation>
+  <MinExpectation>min. oczekiwanie</MinExpectation>
   <!-- EN: {0} to {1} -->
   <PreceptThoughtMoodRange>{0} do {1}</PreceptThoughtMoodRange>
   <!-- EN: Comes from ideo -->
   <ComesFromIdeo>Pochodzi z ideologi</ComesFromIdeo>
   <!-- EN: Current total animal bodysize per colonist -->
-  <CurrentTotalAnimalBodySizePerColonist>Aktualna całkowita wielkość ciała zwierzęcia na kolonistę</CurrentTotalAnimalBodySizePerColonist>
+  <CurrentTotalAnimalBodySizePerColonist>Obecna całkowita wielkość ciała zwierzęcia na kolonistę</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
   <AnimalsBodySizePerColonist>całkowita wielkość ciała na kolonistę</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
@@ -88,7 +88,7 @@
   <!-- EN: Disables -->
   <Disables>Wyłącza</Disables>
   <!-- EN: Requires one of precepts -->
-  <RequiresOnePrecept>Wymaga jednego z przykazań</RequiresOnePrecept>
+  <RequiresOnePrecept>Wymaga jednej z zasad</RequiresOnePrecept>
   <!-- EN: Required precepts -->
   <RequiredPrecepts>Wymagane nakazy</RequiredPrecepts>
   <!-- EN: Required rituals -->
@@ -100,7 +100,7 @@
   <!-- EN: Styles -->
   <Styles>Style</Styles>
   <!-- EN: Chance to have precept -->
-  <ChanceToHavePrecept>Szansa, aby mieć przykazanie</ChanceToHavePrecept>
+  <ChanceToHavePrecept>Szansa, aby mieć zasadę</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika tinctorii.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
@@ -360,7 +360,7 @@
   <!-- EN: add {0} -->
   <AddPrecept>dodaj {0}</AddPrecept>
   <!-- EN: precept -->
-  <Precept>przykazanie</Precept>
+  <Precept>zasada</Precept>
   <!-- EN: building -->
   <IdeoBuilding>budowle</IdeoBuilding>
   <!-- EN: relic -->
@@ -368,9 +368,9 @@
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
-  <GiveItemsTo>Daj {0} {1_nameDef}</GiveItemsTo>
+  <GiveItemsTo>Daj {0} dla {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
-  <CannotGiveItemsTo>Nie można przekazać {0} do {1}nameDef}</CannotGiveItemsTo>
+  <CannotGiveItemsTo>Nie można dać {0} dla {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
   <NoItemFound>Nie znaleziono przedmiotu</NoItemFound>
 
@@ -402,34 +402,34 @@
   <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
   <EmancipateNonCololonistWithFactionTooltip>Niewolnik opuści mapę pieszo i wróci do swojej frakcji, {0}.</EmancipateNonCololonistWithFactionTooltip>
   <!-- EN: The slave will leave on foot and exit the map. -->
-  <EmancipateNonCololonistWithoutFactionTooltip>Niewolnik odejdzie na piechotę i wyjdzie z mapy.</EmancipateNonCololonistWithoutFactionTooltip>
+  <EmancipateNonCololonistWithoutFactionTooltip>Niewolnik odejdzie pieszo i opuści mapę.</EmancipateNonCololonistWithoutFactionTooltip>
   <!-- EN: The slave will return to being a colonist. -->
   <EmancipateCololonistTooltip>Niewolnik powróci do bycia kolonistą.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
-  <WorshippedTerminalFactionBecameHostileTimed>Za długo przebywałeś w wiosce. Ludzie z frakcji {FACTION_name} atakują!</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalFactionBecameHostileTimed>Za długo przebywano w wiosce. Ludzie z frakcji {FACTION_name} atakują!</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
   <WorshippedTerminalRaidIncoming>Wieśniacy wracają z pobliskiej okolicy, by chronić czczony terminal!</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>Relikwia znajduje się w starożytnej konstrukcji chronionej przez wielooddziałowy system bezpieczeństwa.\n\nMożesz pokonać zabezpieczenia pojedynczo lub złapać relikwię i spróbować uciec, zanim cię dopadną.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>Relikwia znajduje się w starożytnej strukturze chronionej przez wielooddziałowy system bezpieczeństwa.\n\nMożesz pokonać zabezpieczenia pojedynczo lub wziąć relikwię i spróbować uciec, zanim Cię dopadną.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
-  <RelicHuntFoundRelicSitePeaceful>Relikwia spoczywa w pobliskiej starożytnej konstrukcji.</RelicHuntFoundRelicSitePeaceful>
+  <RelicHuntFoundRelicSitePeaceful>Relikwia spoczywa w pobliskiej starożytnej strukturze.</RelicHuntFoundRelicSitePeaceful>
 
   <!-- EN: relic -->
   <Relic>relikwia</Relic>
   <!-- EN: Ritual seat -->
-  <RitualSeat>Miejsce rytualne</RitualSeat>
+  <RitualSeat>Rytualne siedzisko</RitualSeat>
 
   <!-- Ritual requirements -->
   <!-- EN: Active loudspeakers -->
-  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Głośniki aktywne</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Aktywne głośniki</RitualPredictedOutcomeDescNumActiveLoudspeakers>
   <!-- EN: Drums -->
   <RitualPredictedOutcomeDescNumDrums>Bębny</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Użycie miejsca rytualnego powoduje {0} redukcję bonusu nastroju dla wszystkich uczestników</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Użycie miejsca rytualnego spowoduje {0} redukcji bonusu nastroju dla wszystkich uczestników.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Każdy z tych</RitualOutcomeLabelAnyOfThese>
@@ -437,28 +437,28 @@
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Zamień z</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Miejsce rytuałów {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>Rytualne siedzisko {IDEOS}</RitualSeatOf>
   <!-- EN: Starting quality -->
   <StartingQuality>Jakość początkowa</StartingQuality>
   <!-- EN: Conviction chance -->
   <ExpectedConvictionChance>Szansa na przekonanie</ExpectedConvictionChance>
  
   <!-- EN: Must be placed indoors. -->
-  <MustBePlacedIndoors>Musi być umieszczony w pomieszczeniu.</MustBePlacedIndoors>
+  <MustBePlacedIndoors>Należy umieścić w pomieszczeniu.</MustBePlacedIndoors>
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>Połączony z</ConnectedPawn>
+  <ConnectedPawn>Połączone z</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>Nikt</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>Osoba, z którą jest połączone to {TREE_label}. Jeśli połączona osoba umrze, ta {TREE_label} nie będzie mogła połączyć się z inną przez {DURATION}.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>Osoba, z którą połączon{0_gender ? y : a : e} jest {0_gender ? ten : ta : to} {TREE_label}. Jeśli połączona osoba umrze, {0_gender ? ten : ta : to} {TREE_label} nie będzie {0_gender ? mógł : mogła : mogło} połączyć się z inną przez {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>Zerwane połączenie. Można połączyć się w {0}.</ConnectionTorn>
+  <ConnectionTorn>Zerwano połączenie. Można połączyć się za {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
-  <ConnectedPawnAway>{PAWN_nameDef} jest za daleko</ConnectedPawnAway>
+  <ConnectedPawnAway>{PAWN_nameDef} jest zbyt daleko</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>Umieszczenie rośliny {PLANT_definite} w pobliżu sztucznych budynków spowoduje, że z czasem siła połączenia będzie słabnąć. Siła połączenia określa maksymalną liczbę driad, które {PLANT_definite} może obsłużyć jednocześnie.\n\nCzy na pewno chcesz tu zasadzić?</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Posadzenie {PLANT_definite} w pobliżu sztucznych budynków spowoduje, że z czasem siła połączenia będzie słabnąć. Siła połączenia określa maksymalną liczbę driad, które {PLANT_definite} może obsłużyć jednocześnie.\n\nCzy na pewno chcesz tu zasadzić?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
   <GauranlenModeChangeDescFull>Zmiana kasty driad {TREE_definite} wymaga czasu i energii.\n\nGdy połączona osoba wejdzie w interakcję z drzewem, wszystkie driady spędzą {DURATION} dni w kokonach, podczas gdy będą przekształcać się w wybraną kastę.\n\nIstniejące kokony anulują swoją transformację, dzięki czemu będą mogły przejść do obecnej kasty.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
@@ -468,25 +468,25 @@
   <!-- EN: Connection strength -->
   <ConnectionStrength>Siła połączenia</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>{0} siła</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>{0} siły</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>Określa, ile driad może obsłużyć to drzewo.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
-  <MaximumDryads>Maksymalna liczba driad</MaximumDryads>
+  <MaximumDryads>Maks. liczba driad</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
   <MaximumDryadsDesc>Maksymalna liczba driad, które może obsłużyć to drzewo.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
-  <MaxDryadsBasedOnConnectionStrength>Maksymalna liczba driad na podstawie siły połączenia</MaxDryadsBasedOnConnectionStrength>
+  <MaxDryadsBasedOnConnectionStrength>Maks. liczba driad na podstawie siły połączenia</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
-  <PruningConnectionStrength>Przycinanie siły połączenia</PruningConnectionStrength>
+  <PruningConnectionStrength>Przycinanie przyrostu siły połączenia</PruningConnectionStrength>
   <!-- EN: Hours per day to maintain -->
   <PruningHoursToMaintain>Godzin dziennie na utrzymanie</PruningHoursToMaintain>
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Pożądane</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} przycina {TREE_definite} wystarczająco często, aby utrzymać siłę połączenia powyżej tego poziomu.\n\nWiększa siła połączenia umożliwia obsługę większej liczby driad, ale również spada szybciej, a tym samym wymaga częstszego przycinania.\n\nMożesz kliknąć na, aby dostosować żądaną siłę połączenia docelowego.\n\nSpadek siły połączenia dziennie: {FALL}\n\nNa siłę połączenia mają wpływ pobliskie budynki.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} będzie przycinać {TREE_definite} wystarczająco często, aby utrzymać siłę połączenia powyżej tego poziomu.\n\nWiększa siła połączenia umożliwia obsługę większej liczby driad, ale jednocześnie spadek siły jest szybszy i wymaga częstszego przycinania.\n\nMożesz kliknąć na pasek, aby dostosować żądaną siłę połączenia docelowego.\n\nSpadek siły połączenia dziennie: {FALL}\n\nNa siłę połączenia wpływają pobliskie budynki.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>Czeka, aż {CONNECTEDPAWN_nameDef} zmieni klasę driad.</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>Czeka, aż {CONNECTEDPAWN_nameDef} zmieni kastę driad.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Kasta driad</GauranlenTreeMode>
   <!-- EN: no caste -->
@@ -496,7 +496,7 @@
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>Pojawienie się {DRYAD_label} za {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>Przekształcam {DRYAD_labelShort} w {TYPE_label}.</ChangingDryadIntoType>
+  <ChangingDryadIntoType>Przekształcanie {DRYAD_labelShort} w {TYPE_label}.</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
   <HoursEveryDay>{0} godzin dziennie</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
@@ -504,7 +504,7 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural} produkuje {RESOURCES} co {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef} jest połączony z {MASTER_nameDef} przez drzewo {ANIMAL_possessive} Gauranlen. Nie można zmienić wzorca {ANIMAL_possessive}.</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} jest połączon{ANIMAL_gender ? y : a} z {MASTER_nameDef} przez swoje drzewo Gauranlen. Nie można zmienić {ANIMAL_possessive} właściciela.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>Siła połączenia jest zbyt niska, aby utworzyć strąk Gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
@@ -512,13 +512,13 @@
   <!-- EN: Dryads -->
   <DryadPlural>Driady</DryadPlural>
   <!-- EN: Connection strength affected by -->
-  <ConnectionStrengthAffectedBy>Na siłę połączenia ma wpływ</ConnectionStrengthAffectedBy>
+  <ConnectionStrengthAffectedBy>Siła połączenia pod wpływem</ConnectionStrengthAffectedBy>
   <!-- EN: Currently affected by -->
-  <CurrentlyAffectedBy>Obecnie dotyczy</CurrentlyAffectedBy>
+  <CurrentlyAffectedBy>Obecnie pod wpływem</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
   <NotEnoughConnectionStrengthForSingleDryad>Wymagana siła połączenia {0} do obsługi driady.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
-  <CannotAssignAllowedAreaToDryad>Nie można przypisać dozwolonego obszaru</CannotAssignAllowedAreaToDryad>
+  <CannotAssignAllowedAreaToDryad>Nie można wyznaczyć dozwolonego obszaru</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
@@ -547,20 +547,20 @@
   <!-- EN: Hunting revenge chance {0} -->
   <RoleEffectHuntingRevengeChance>Szansa na zemstę przy polowaniu {0}</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
-  <RoleEffectGiveThoughtOnTended>Zastanów się</RoleEffectGiveThoughtOnTended>
+  <RoleEffectGiveThoughtOnTended>Daj myśl</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>Przypisz kolonistów do swojej ideologii</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Usuń nową ideologię</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
-  <MakeIdeoligionPrimary>Uczyń z tego swoją podstawową ideologię</MakeIdeoligionPrimary>
+  <MakeIdeoligionPrimary>Uczyń to swoją podstawową ideologią</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>Przywołano rdzeń archonexusa. Świat wypełnia się oślepiającym światłem, a czas wydaje się zwalniać...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>Bóg maszyn cię zauważył. Nikt nie jest w stanie przewidzieć, co będzie dalej. Może cię zniszczyć, komunikować się z tobą bezpośrednio lub przenieść Twoją świadomość na inny poziom rzeczywistości.\n\nWyczuwasz ogromną, nieludzką strukturę o nieskończonej fraktalnej złożoności napływającą do Twojego umysłu. Czas i skala zaczynają się rozpuszczać. To przerażające ale piękne...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>Bóg maszyn zauważył Cię. Nikt nie jest w stanie przewidzieć, co będzie dalej. Może Cię zniszczyć, komunikować się z Tobą bezpośrednio lub przenieść Twoją świadomość na inny poziom rzeczywistości.\n\nWyczuwasz ogromną, nieludzką strukturę o nieskończonej fraktalnej złożoności napływającą do Twojego umysłu. Czas i skala zaczynają się rozpuszczać. To przerażające ale piękne...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>Ci koloniści przekroczyli:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -574,12 +574,12 @@
   <RelicLower>relikwia</RelicLower>
 
   <!-- EN: Linked to -->
-  <LinkedTo>Połączony z</LinkedTo>
+  <LinkedTo>Połączono z</LinkedTo>
   <!-- EN: Supply satellite -->
-  <SupplySatellite>Satelita z dostawą</SupplySatellite>
+  <SupplySatellite>Satelita dostawcza</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>Kolonista nie chce wydobywać czaszki ze zwłok (brak zasady pro-czaszki na szpikulcu)</CannotExtractSkull>
+  <CannotExtractSkull>Kolonista nie chce wydobyć czaszki ze zwłok (brak zasady pro-czaszki na szpikulcu)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>Podgląd dźwięku rytualnej atmosfery</TipPreviewRitualAmbienceSound>
 
@@ -598,17 +598,17 @@
   <!-- EN: Prepare {0} cycle -->
   <BiosculpterPodCycleCommand>Przygotuj cykl {0}</BiosculpterPodCycleCommand>
   <!-- EN: Ends in -->
-  <BiosculpterCycleTimeRemaining>Kończy się w</BiosculpterCycleTimeRemaining>
+  <BiosculpterCycleTimeRemaining>Kończy się za</BiosculpterCycleTimeRemaining>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Biodostrojony do</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Cykl przerwań</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>Przerwij bieżący cykl. Pasażer zostanie wyrzucony bez korzystania z efektów cyklu i będzie cierpieć na krótkotrwałą chorobę biorzeźniczą.</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Przerwij bieżący cykl. Pasażer zostanie wyrzucony bez korzystania z efektów cyklu i będzie cierpieć na krótkotrwałą biorzeźbiarską chorobę.</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>Uwaga: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest ustawiony na {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
+  <BiosculpterUnderageAgeReversalMessage>Uwaga: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest dostrojony do {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>Gdy kapsuła biorzeźbiarza zostanie wypełniona {INGREDIENTS}, wybierz kolonistę i kliknij prawym przyciskiem myszy na kapsułę biorzeźbiarza lub znokautowaną osobę, aby rozpocząć cykl.</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>Gdy kapsuła biorzeźbiarza zostanie wypełniona przez {INGREDIENTS}, wybierz kolonistę i kliknij prawym przyciskiem myszy na kapsułę biorzeźbiarza lub znokautowaną osobę, aby rozpocząć cykl.</BiosculpterLoadingStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} wartości odżywczej</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -622,11 +622,11 @@
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} zakończy{PAWN_gender ? ł : ła} cykl przyjemności.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
-  <BiosculpterCleanlinessSpeedFactor>Współczynnik prędkości czyszczenia</BiosculpterCleanlinessSpeedFactor>
+  <BiosculpterCleanlinessSpeedFactor>Współczynnik szybkości czyszczenia</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: These conditions will be healed -->
-  <HealingCycleWillHeal>To schorzenie zostanie uzdrowione</HealingCycleWillHeal>
+  <HealingCycleWillHeal>Następujące schorzenia zostaną wyleczone</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
-  <HealingCycleOneWillHeal>Jedno z tych schorzeń zostanie uzdrowione</HealingCycleOneWillHeal>
+  <HealingCycleOneWillHeal>Jedno z tych schorzeń zostanie wyleczone</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Brak wymaganych badań</MissingRequiredResearch>
   <!-- EN: Requires -->
