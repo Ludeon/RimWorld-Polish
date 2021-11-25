@@ -1,9 +1,9 @@
 ﻿////////// CORE - Keyed //////////
 lato
 
--------------------------------------
----------- CORE - ThingDef ----------
--------------------------------------
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
 // Alcohol_Beer.xml
 piwo
 
@@ -26,18 +26,19 @@ spodnie
 // Buildings_Furniture.xml
 zwierzęce legowisko
 pudełko dla zwierząt
-krzesło
-miejsce snu
 miejsce snu zwierząt
 łóżko
+krzesło
 podwójne łóżko
 podwójne miejsce snu
 łóżko szpitalne
-luksusowe łoże
+łóżko królewskie
+miejsce snu
+
 
 // Buildings_Joy.xml
 // Buildings_Misc.xml
-miejsce załadunku karawany
+miejsce wiązania karawany
 pudełko na jaja
 urządzenie gaśnicze
 miejsce imprez
@@ -46,23 +47,21 @@ miejsce imprez
 // Buildings_Natural.xml
 skalne zapadlisko
 gniazdo
-sprasowana maszyneria
 
 // Buildings_Power.xml
 koło wodne
 
 // Buildings_Production.xml
-miejsce uboju
-miejsce rzemiosła
-laboratorium używek
-laboratorium badawcze
+miejsce rzeźnicze
+miejsce rzemieślnicze
+laboratorium medyczne
 krematorium elektryczne
+laboratorium badawcze
 
 // Buildings_Security.xml
 // Buildings_Security_Turrets.xml
 działo automatyczne
-działko mini wieżyczki
-działko wieżyczki
+działko mini-wieżyczki
 działo uranowe
 
 // Buildings_Ship.xml
@@ -130,12 +129,10 @@ chem-paliwo
 
 // Items_Resource_RawPlant.xml
 siano
-psychodeliczne liście
-jeżyny
-liście zioła
 
 // Items_Resource_Shell.xml
 // Items_Resource_Stuff.xml
+włókno z włosaka diabelskiego
 złoto
 srebro
 włókno syntetyczne
@@ -151,6 +148,8 @@ futro z pantery
 futro z thrumbo
 
 // Items_Unfinished.xml
+zminimalizowane drzewo
+
 // Luciferium.xml
 lucyferium
 
@@ -160,7 +159,6 @@ lucyferium
 // Plants_Cave.xml
 // Plants_Cultivated_Decorative.xml
 // Plants_Cultivated_Farm.xml
-siano
 drzewo kakaowca
 
 // Plants_Special.xml
@@ -205,6 +203,8 @@ thrumbo
 // RangedIndustrialConsumable.xml
 // RangedIndustrialGrenades.xml
 // RangedMechanoid.xml
+działo inferno
+
 // RangedNeolithic.xml
 // RangedSpacer.xml
 // RangedSpecial.xml
@@ -215,108 +215,10 @@ thrumbo
 // Weapons_Breach.xml
 działo uderzeniowe
 
-----------------------------------------
----------- ROYALTY - ThingDef ----------
-----------------------------------------
-// Apparel_Packs.xml
-// Apparel_Psyhic.xml
-// Apparel_Royal.xml
-// Apparel_Various.xml
-// Buildings_ConditionCausers.xml
-dynamo EMI
 
-// Buildings_Exotic.xml
-// Buildings_Furniture.xml
-// Buildings_Mech.xml
-niestabilne ogniwo zasilające
-
-// Buildings_Mech_Activators.xml
-// Buildings_Mech_ShieldGenerators.xml
-// Buildings_Mech_Spawners.xml
-// Buildings_Mech_Turrets.xml
-działo inferno
-mini-działko
-
-// Buildings_Misc.xml
-miejsce medytacji
-
-// Buildings_MusicalInstruments.xml
-// Ethereal_Skyfallers.xml
-// Ethereal_Various.xml
-// Hediffs_BodyParts_Archotech_EmpireRoyal.xml
-// Hediffs_BodyParts_Bionic_Empire.xml
-// Hediffs_BodyParts_Prosthetic_Empire.xml
-wiertłoramię
-łokcioostrze
-
-// Hediffs_Psycasts.xml
-// Items_Exotic.xml
-
-// MeleeBladelink.xml
-monoostrze z osobowością
-ostrze plazmowe z osobowością
-
-// MeleeMedieval.xml
-// MeleeUltratech.xml
-monoostrze
-ostrze plazmowe
-
-// OrbitalWeapons.xml
-
-// Plants_Wild.xml
-drzewo anima
-
-// PsychicWeapons.xml
-
-
-
------------------------------------------
----------- IDEOLOGY - ThingDef ----------
------------------------------------------
-// Apparel_Headgear.xml
-// Apparel_Various.xml
-// Buildings_Ancient_Active.xml
-// Buildings_Ancient_Indoors.xml
-starożytne łóżko
-starożytne bloki wyposażenia
-
-// Buildings_Ancient_Outdoors.xml
-starożytne ogrodzenie
-wielkie starożytne koło
-starożytne koło
-
-// Buildings_Art.xml
-// Buildings_Exotic.xml
-// Buildings_Ideo.xml
-płonące bongo
-miejsce rytuału
-
-// Buildings_Misc.xml
-autom. bongo
-płytowe łóżko
-podwójne płytowe łóżko
-
-// Buildings_Special.xml
-// Effecter_WorkGeneral.xml
-// Ethereal_Skyfallers.xml
-// Ethereal_Various.xml
-// Filth_Various.xml
-porozrzucane dokumenty
-
-// FloorCoverings.xml
-// Hediffs_Casts.xml
-// Items_Misc.xml
-// Plants_Special.xml
-nasiono gauranlen
-drzewko bonsai
-drzewo gauranlen
-
-// Races_Animal_Special.xml
-// Relics.xml
-
---------------------------------------
----------- CORE - HediffDef ----------
---------------------------------------
+//--------------------------------------
+//---------- CORE - HediffDef ----------
+//--------------------------------------
 // Alcohol_Beer.xml
 upojenie
 
@@ -383,3 +285,102 @@ naćpanie ziołem
 
 // WakeUp.xml
 uzależnienie od pobudzacza
+
+
+
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
+// Apparel_Packs.xml
+// Apparel_Psyhic.xml
+// Apparel_Royal.xml
+// Apparel_Various.xml
+// Buildings_ConditionCausers.xml
+dynamo EMI
+
+// Buildings_Exotic.xml
+// Buildings_Furniture.xml
+// Buildings_Mech.xml
+niestabilne ogniwo zasilające
+
+// Buildings_Mech_Activators.xml
+// Buildings_Mech_ShieldGenerators.xml
+// Buildings_Mech_Spawners.xml
+// Buildings_Mech_Turrets.xml
+mini-działko
+
+// Buildings_Misc.xml
+miejsce medytacji
+
+// Buildings_MusicalInstruments.xml
+// Ethereal_Skyfallers.xml
+// Ethereal_Various.xml
+// Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+// Hediffs_BodyParts_Bionic_Empire.xml
+// Hediffs_BodyParts_Prosthetic_Empire.xml
+wiertłoramię
+łokcioostrze
+
+// Hediffs_Psycasts.xml
+// Items_Exotic.xml
+
+// MeleeBladelink.xml
+monoostrze z osobowością
+ostrze plazmowe z osobowością
+
+// MeleeMedieval.xml
+// MeleeUltratech.xml
+monoostrze
+ostrze plazmowe
+
+// OrbitalWeapons.xml
+
+// Plants_Wild.xml
+drzewo anima
+
+// PsychicWeapons.xml
+
+
+
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
+// Apparel_Headgear.xml
+// Apparel_Various.xml
+// Buildings_Ancient_Active.xml
+// Buildings_Ancient_Indoors.xml
+starożytne łóżko
+
+// Buildings_Ancient_Outdoors.xml
+starożytne ogrodzenie
+wielkie starożytne koło
+starożytne koło
+
+// Buildings_Art.xml
+// Buildings_Exotic.xml
+// Buildings_Ideo.xml
+płonące bongo
+miejsce rytuału
+
+// Buildings_Misc.xml
+autom. bongo
+płytowe łóżko
+podwójne płytowe łóżko
+
+// Buildings_Special.xml
+// Effecter_WorkGeneral.xml
+// Ethereal_Skyfallers.xml
+// Ethereal_Various.xml
+// Filth_Various.xml
+porozrzucane dokumenty
+
+// FloorCoverings.xml
+// Hediffs_Casts.xml
+// Items_Misc.xml
+// Plants_Special.xml
+nasiono gauranlen
+drzewko bonsai
+drzewo gauranlen
+
+// Races_Animal_Special.xml
+// Relics.xml

@@ -3,9 +3,9 @@ zima
 wiosna
 jesień
 
--------------------------------------
----------- CORE - ThingDef ----------
--------------------------------------
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
 // Alcohol_Beer.xml
 brzeczka
 
@@ -23,7 +23,7 @@ paczka dymna
 
 // Apparel_Utility.xml
 lanca obłędu PSI
-lanca porażenia PSI
+lanca wstrząsu PSI
 
 // Breach.xml
 // Apparel_Various.xml
@@ -34,8 +34,8 @@ kamizelka balistyczna
 kamizelka kuloodporna
 kurtka
 parka
+zbroja płytowa
 zbroja marine
-odzież plemienna
 
 // Buildings_Ancient.xml
 starożytna betonowa bariera
@@ -73,6 +73,7 @@ kapsuła transportowa
 
 // Buildings_MusicalInstruments.xml
 // Buildings_Natural.xml
+sprasowana maszyneria
 ruda złota
 ruda jadeitu
 sprasowana superstal
@@ -90,15 +91,15 @@ browarnia
 wiertnica głębinowa
 huta elektryczna
 kuźnia elektryczna
-kuźnia
 kuchenka elektryczna
-maszyna do szycia
 beczka fermentacyjna
+kuźnia
 
 // Buildings_Security.xml
 barykada
 pułapkowa głowica antymaterii IED
 pułapka IED EMP
+pułapka przeciwpożarowa IED
 pułapka IED
 pułapka zapalająca IED
 pułapka dymna IED
@@ -106,7 +107,7 @@ kolczasta pułapka
 
 // Buildings_Security_Turrets.xml
 automatyczna wieżyczka
-mini wieżyczka
+mini-wieżyczka
 wieżyczka uranowa
 
 // Buildings_Ship.xml
@@ -117,7 +118,7 @@ kapsuła hibernacyjna statku
 // Buildings_Structure.xml
 klapa dla zwierząt
 kolumna
-furtka ogrodzenia
+brama ogrodzenia
 ściana
 
 // Buildings_Temperature.xml
@@ -134,7 +135,6 @@ kapsuła ratunkowa (odlatuje)
 // Ethereal_Various.xml
 zaraza
 eksplozja
-reakcja na wyzwalacz
 
 // Filth_Various.xml
 krew
@@ -185,7 +185,6 @@ głowica antymaterii
 
 // Items_Resource_Stuff.xml
 tkanina
-włókno z włosaka diabelskiego
 superstal
 stal
 kłoda
@@ -212,7 +211,6 @@ wilcza skóra
 
 // Items_Unfinished.xml
 niedokończona prosta zbroja
-niedokończony pistolet
 niedokończona bionika
 niedokończona proteza
 niedokończona metalowa zbroja
@@ -249,8 +247,6 @@ sadzonka ryżu
 sadzonka zioła
 
 // Plants_Special.xml
-
-
 // Plants_Wild_Arid.xml
 agawa
 karnegia olbrzymia
@@ -275,8 +271,6 @@ kliwia
 bukietnica olbrzymia
 cekropia
 teczyna
-
-
 
 // Psychite_Flake.xml
 // Psychite_Tea.xml
@@ -330,10 +324,23 @@ wiewiórka
 // Races_Mechanoid.xml
 // RangedIndustrial.xml
 // RangedIndustrialConsumable.xml
+rakieta kataklizmu
+rakieta
+wyrzutnia rakiet kataklizmu
+wyrzutnia trój-rakietowa
+
 // RangedIndustrialGrenades.xml
 // RangedMechanoid.xml
+iglarka
+
 // RangedNeolithic.xml
+ciężka strzała
+strzała refleksyjna
+krótka strzała
+
 // RangedSpacer.xml
+lanca pulsacyjna
+
 // RangedSpecial.xml
 // Smokeleaf.xml
 // Things_Special.xml
@@ -347,9 +354,9 @@ bomba uderzeniowa
 
 
 
-----------------------------------------
----------- ROYALTY - ThingDef ----------
-----------------------------------------
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
 // Apparel_Packs.xml
 podręczna osłona niskokątowa
 
@@ -431,9 +438,9 @@ elteksowa laska
 
 
 
------------------------------------------
----------- IDEOLOGY - ThingDef ----------
------------------------------------------
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
 // Apparel_Headgear.xml
 czapka garnizonowa
 szeroka czapka
@@ -449,7 +456,6 @@ korona tortur
 
 // Buildings_Ancient_Active.xml
 starożytna konsola komunikacyjna
-starożytna kapsuła hibernacyjna
 hermetyczna skrzynia
 skrzynka bezpieczeństwa
 
@@ -550,9 +556,9 @@ pudełko
 kostka
 rękojeść
 
---------------------------------------
----------- CORE - HediffDef ----------
---------------------------------------
+//--------------------------------------
+//---------- CORE - HediffDef ----------
+//--------------------------------------
 // Alcohol_Beer.xml
 tolerancja alkoholu
 
