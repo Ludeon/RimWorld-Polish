@@ -3,30 +3,30 @@ zima
 wiosna
 jesień
 
--------------------------------------
----------- CORE - ThingDef ----------
--------------------------------------
-# Alcohol_Beer.xml
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
+// Alcohol_Beer.xml
 brzeczka
 
-# Ambrosia.xml
+// Ambrosia.xml
 ambrozja
 
-# Apparel_Belts.xml
-# Apparel_Headgear.xml
+// Apparel_Belts.xml
+// Apparel_Headgear.xml
 zimowa czapka
 maska wojenna
 chusta
 
-# Apparel_Packs.xml
+// Apparel_Packs.xml
 paczka dymna
 
-# Apparel_Utility.xml
+// Apparel_Utility.xml
 lanca obłędu PSI
-lanca porażenia PSI
+lanca wstrząsu PSI
 
-# Breach.xml
-# Apparel_Various.xml
+// Breach.xml
+// Apparel_Various.xml
 zbroja zwiadowcy
 koszulka
 koszula
@@ -34,21 +34,21 @@ kamizelka balistyczna
 kamizelka kuloodporna
 kurtka
 parka
+zbroja płytowa
 zbroja marine
-odzież plemienna
 
-# Buildings_Ancient.xml
+// Buildings_Ancient.xml
 starożytna betonowa bariera
 starożytna latarnia uliczna
 urna
 
-# Buildings_Art.xml
+// Buildings_Art.xml
 wielka rzeźba
 duża rzeźba
 mała rzeźba
 
-# Buildings_Exotic.xml
-# Buildings_Furniture.xml
+// Buildings_Exotic.xml
+// Buildings_Furniture.xml
 komoda
 doniczka
 lampa stojąca
@@ -58,10 +58,10 @@ lampa stojąca (czerwona)
 lampa słoneczna
 pochodnia
 
-# Buildings_Joy.xml
+// Buildings_Joy.xml
 plansza do gry z Ur
 
-# Buildings_Misc.xml
+// Buildings_Misc.xml
 starożytna kapsuła hibernacyjna
 konsola łączności
 kapsuła hibernacyjna
@@ -71,8 +71,9 @@ szafka z narzędziami
 kapsuła transportowa
 
 
-# Buildings_MusicalInstruments.xml
-# Buildings_Natural.xml
+// Buildings_MusicalInstruments.xml
+// Buildings_Natural.xml
+sprasowana maszyneria
 ruda złota
 ruda jadeitu
 sprasowana superstal
@@ -81,111 +82,109 @@ sprasowana stal
 ruda uranu
 ściana gruzu
 
-# Buildings_Power.xml
+// Buildings_Power.xml
 turbina wiatrowa
 
-# Buildings_Production.xml
+// Buildings_Production.xml
 rafineria biopaliwa
 browarnia
 wiertnica głębinowa
 huta elektryczna
 kuźnia elektryczna
-kuźnia
 kuchenka elektryczna
-maszyna do szycia
 beczka fermentacyjna
+kuźnia
 
-# Buildings_Security.xml
+// Buildings_Security.xml
 barykada
 pułapkowa głowica antymaterii IED
 pułapka IED EMP
+pułapka przeciwpożarowa IED
 pułapka IED
 pułapka zapalająca IED
 pułapka dymna IED
 kolczasta pułapka
 
-# Buildings_Security_Turrets.xml
+// Buildings_Security_Turrets.xml
 automatyczna wieżyczka
-mini wieżyczka
+mini-wieżyczka
 wieżyczka uranowa
 
-# Buildings_Ship.xml
+// Buildings_Ship.xml
 belka strukturalna statku
 kapsuła hibernacyjna statku
 
-# Buildings_Special.xml
-# Buildings_Structure.xml
+// Buildings_Special.xml
+// Buildings_Structure.xml
 klapa dla zwierząt
 kolumna
-furtka ogrodzenia
+brama ogrodzenia
 ściana
 
-# Buildings_Temperature.xml
+// Buildings_Temperature.xml
 kratka wentylacyjna
 
-# Ethereal_OrbitalStrikes.xml
+// Ethereal_OrbitalStrikes.xml
 wiązka energii
 
-# Ethereal_SignalActions.xml
-# Ethereal_Skyfallers.xml
+// Ethereal_SignalActions.xml
+// Ethereal_Skyfallers.xml
 kapsuła ratunkowa (nadlatuje)
 kapsuła ratunkowa (odlatuje)
 
-# Ethereal_Various.xml
+// Ethereal_Various.xml
 zaraza
 eksplozja
-reakcja na wyzwalacz
 
-# Filth_Various.xml
+// Filth_Various.xml
 krew
 wydzielina
 piana gaśnicza
 kałuża chem-paliwa
 kałuża wody
 
-# Gas_Various.xml
-# GoJuice.xml
-# Hediffs_BodyParts_Archotech.xml
+// Gas_Various.xml
+// GoJuice.xml
+// Hediffs_BodyParts_Archotech.xml
 archotyczna noga
 
-# Hediffs_BodyParts_Bionic.xml
+// Hediffs_BodyParts_Bionic.xml
 bioniczna noga
 
-# Hediffs_BodyParts_Natural.xml
+// Hediffs_BodyParts_Natural.xml
 nerka
 wątroba
 
-# Hediffs_BodyParts_Prosthetic.xml
+// Hediffs_BodyParts_Prosthetic.xml
 proteza ramienia
 proteza serca
 proteza nogi
 
-# ImpliedDefs.xml
-# Items_Artifacts.xml
-# Items_Exotic.xml
-# Items_Food.xml
+// ImpliedDefs.xml
+// Items_Artifacts.xml
+// Items_Exotic.xml
+// Items_Food.xml
 karma dla zwierząt
 pasta odżywcza
 
-# Items_Luxury.xml
+// Items_Luxury.xml
 czekolada
 
-# Items_Resource_AnimalProduct.xml
+// Items_Resource_AnimalProduct.xml
 owadzia galaretka
 
-# Items_Resource_Manufactured.xml
+// Items_Resource_Manufactured.xml
 neutroamina
 wzmocniona lufa
 
-# Items_Resource_RawPlant.xml
+// Items_Resource_RawPlant.xml
 kukurydza
 
-# Items_Resource_Shell.xml
+// Items_Resource_Shell.xml
 głowica antymaterii
 
-# Items_Resource_Stuff.xml
+// Items_Resource_Stuff.xml
 tkanina
-włókno z włosaka diabelskiego
 superstal
 stal
 kłoda
@@ -195,7 +194,7 @@ wełna megaleniwca
 wełna muffalo
 wełna owcy
 
-# Items_Resource_Stuff_Leather.xml
+// Items_Resource_Stuff_Leather.xml
 niedźwiedzia skóra
 ptasia skóra
 wielbłądzia skóra
@@ -210,9 +209,8 @@ zwykła skóra
 skóra z nosorożca
 wilcza skóra
 
-# Items_Unfinished.xml
+// Items_Unfinished.xml
 niedokończona prosta zbroja
-niedokończony pistolet
 niedokończona bionika
 niedokończona proteza
 niedokończona metalowa zbroja
@@ -220,146 +218,155 @@ niedokończona rzeźba
 niedokończona zaawansowana zbroja
 niedokończona broń
 
-# Luciferium.xml
-# MeleeMedieval.xml
+// Luciferium.xml
+// MeleeMedieval.xml
 buława
 
 
-# MeleeNeolithic.xml
+// MeleeNeolithic.xml
 maczuga
 ikwa
 włócznia
 
 
-# Penoxycyline.xml
+// Penoxycyline.xml
 penoksycylina
 
-# Plants_Cave.xml
+// Plants_Cave.xml
 aksamitówka meduzowata
 mechówka niebieska
 
-# Plants_Cultivated_Decorative.xml
+// Plants_Cultivated_Decorative.xml
 róża
 
-# Plants_Cultivated_Farm.xml
+// Plants_Cultivated_Farm.xml
 sadzonka kukurydzy
 sadzonka ziemniaka
 sadzonka psychoidu
 sadzonka ryżu
 sadzonka zioła
 
-# Plants_Special.xml
-
-
-# Plants_Wild_Arid.xml
+// Plants_Special.xml
+// Plants_Wild_Arid.xml
 agawa
 karnegia olbrzymia
 dracena smocza
 
-# Plants_Wild_General.xml
+// Plants_Wild_General.xml
 trawa
 wysoka trawa
 
-# Plants_Wild_Swamp.xml
+// Plants_Wild_Swamp.xml
 winorośl
 wierzba
 
-# Plants_Wild_Temperate.xml
+// Plants_Wild_Temperate.xml
 brzoza
 sosna
 topola
 
-# Plants_Wild_Tropical.xml
+// Plants_Wild_Tropical.xml
 alokazja
 kliwia
 bukietnica olbrzymia
 cekropia
 teczyna
 
-
-
-# Psychite_Flake.xml
-# Psychite_Tea.xml
+// Psychite_Flake.xml
+// Psychite_Tea.xml
 herbata psychitowa
 
-# Psychite_Yayo.xml
-# Races_Animal_Bears.xml
-# Races_Animal_BigBirds.xml
-# Races_Animal_BigCats.xml
+// Psychite_Yayo.xml
+// Races_Animal_Bears.xml
+// Races_Animal_BigBirds.xml
+// Races_Animal_BigCats.xml
 puma
 pantera
 
-# Races_Animal_CatGroup.xml
+// Races_Animal_CatGroup.xml
 świnka morska
 małpa
 
-# Races_Animal_ChickenGroup.xml
+// Races_Animal_ChickenGroup.xml
 kura
 kaczka
 gęś
 
-# Races_Animal_CowGroup.xml
+// Races_Animal_CowGroup.xml
 bumalopa
 krowa
 koza
 
-# Races_Animal_Hares.xml
-# Races_Animal_Insect.xml
+// Races_Animal_Hares.xml
+// Races_Animal_Insect.xml
 spelopeda
 
-# Races_Animal_MiscGroup.xml
+// Races_Animal_MiscGroup.xml
 kobra
 
-# Races_Animal_PigGroup.xml
+// Races_Animal_PigGroup.xml
 szynszyla
 gazela
 świnia
 
-# Races_Animal_SheepGroup.xml
+// Races_Animal_SheepGroup.xml
 alpaka
 kapibara
 owca
 
-# Races_Animal_SquirrelGroup.xml
+// Races_Animal_SquirrelGroup.xml
 iguana
 wiewiórka
 
-# Races_Animal_WargGroup.xml
-# Races_Animal_WildCanines.xml
-# Races_Humanlike.xml
-# Races_Mechanoid.xml
-# RangedIndustrial.xml
-# RangedIndustrialConsumable.xml
-# RangedIndustrialGrenades.xml
-# RangedMechanoid.xml
-# RangedNeolithic.xml
-# RangedSpacer.xml
-# RangedSpecial.xml
-# Smokeleaf.xml
-# Things_Special.xml
+// Races_Animal_WargGroup.xml
+// Races_Animal_WildCanines.xml
+// Races_Humanlike.xml
+// Races_Mechanoid.xml
+// RangedIndustrial.xml
+// RangedIndustrialConsumable.xml
+rakieta kataklizmu
+rakieta
+wyrzutnia rakiet kataklizmu
+wyrzutnia trój-rakietowa
+
+// RangedIndustrialGrenades.xml
+// RangedMechanoid.xml
+iglarka
+
+// RangedNeolithic.xml
+ciężka strzała
+strzała refleksyjna
+krótka strzała
+
+// RangedSpacer.xml
+lanca pulsacyjna
+
+// RangedSpecial.xml
+// Smokeleaf.xml
+// Things_Special.xml
 kapsuła ratunkowa
 iskra
 
-# Various_Stone.xml
-# WakeUp.xml
-# Weapons_Breach.xml
+// Various_Stone.xml
+// WakeUp.xml
+// Weapons_Breach.xml
 bomba uderzeniowa
 
 
 
-----------------------------------------
----------- ROYALTY - ThingDef ----------
-----------------------------------------
-# Apparel_Packs.xml
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
+// Apparel_Packs.xml
 podręczna osłona niskokątowa
 
-# Apparel_Psyhic.xml
+// Apparel_Psyhic.xml
 elteksowa jarmułka
 elteksowa szata
 elteksowa koszulka
 elteksowa kamizelka
 
-# Apparel_Royal.xml
+// Apparel_Royal.xml
 peleryna
 korona
 gwiezdna korona
@@ -367,7 +374,7 @@ prestiżowa szata
 koszula formalna
 kamizelka formalna
 
-# Apparel_Various.xml
+// Apparel_Various.xml
 zbroja katafrakta
 zbroja feniksa
 prestiżowa zbroja katafrakta
@@ -376,91 +383,90 @@ zbroja grenadiera
 prestiżowa zbroja marine
 prestiżowa zbroja zwiadowcy
 
-# Buildings_ConditionCausers.xml
-# Buildings_Exotic.xml
+// Buildings_ConditionCausers.xml
+// Buildings_Exotic.xml
 wypalająca się osłona niskokątowa
 
-# Buildings_Furniture.xml
+// Buildings_Furniture.xml
 
-# Buildings_Mech.xml
-# Buildings_Mech_Activators.xml
-# Buildings_Mech_ShieldGenerators.xml
+// Buildings_Mech.xml
+// Buildings_Mech_Activators.xml
+// Buildings_Mech_ShieldGenerators.xml
 mechaniczna osłona niskokątowa
 mechaniczna osłona wysokokątowa
 
-# Buildings_Mech_Spawners.xml
+// Buildings_Mech_Spawners.xml
 kapsuła mechanoidów
 
-# Buildings_Mech_Turrets.xml
+// Buildings_Mech_Turrets.xml
 autom. wieżyczka energetyczna
-autom. piekielna wieżyczka
-wieżyczka z minidziałkiem
+autom. wieżyczka inferno
+wieżyczka z mini-działkiem
 
-# Buildings_Misc.xml
+// Buildings_Misc.xml
 naturalna duża kapliczka
 naturalna mała kapliczka
 
-# Buildings_MusicalInstruments.xml
+// Buildings_MusicalInstruments.xml
 harfa
 
-# Ethereal_Skyfallers.xml
-# Ethereal_Various.xml
+// Ethereal_Skyfallers.xml
+// Ethereal_Various.xml
 brama
 burza
 dziura słoneczna
 
-# Hediffs_BodyParts_Archotech_EmpireRoyal.xml
-# Hediffs_BodyParts_Bionic_Empire.xml
-# Hediffs_BodyParts_Prosthetic_Empire.xml
+// Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+// Hediffs_BodyParts_Bionic_Empire.xml
+// Hediffs_BodyParts_Prosthetic_Empire.xml
 dłoń polna
 
-# Hediffs_Psycasts.xml
-# Items_Exotic.xml
-# MeleeBladelink.xml
-# MeleeMedieval.xml
+// Hediffs_Psycasts.xml
+// Items_Exotic.xml
+// MeleeBladelink.xml
+// MeleeMedieval.xml
 siekiera
 
-# MeleeUltratech.xml
-# OrbitalWeapons.xml
+// MeleeUltratech.xml
+// OrbitalWeapons.xml
 
-# Plants_Wild.xml
+// Plants_Wild.xml
 trawa anima
 
-# PsychicWeapons.xml
+// PsychicWeapons.xml
 elteksowa laska
 
 
 
------------------------------------------
----------- IDEOLOGY - ThingDef ----------
------------------------------------------
-# Apparel_Headgear.xml
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
+// Apparel_Headgear.xml
 czapka garnizonowa
 szeroka czapka
 obroża niewolnika
 czapka z ogonem
 maska
 
-# Apparel_Various.xml
+// Apparel_Various.xml
 opaska na oczy
 burka
 szata
 korona tortur
 
-# Buildings_Ancient_Active.xml
+// Buildings_Ancient_Active.xml
 starożytna konsola komunikacyjna
-starożytna kapsuła hibernacyjna
 hermetyczna skrzynia
 skrzynka bezpieczeństwa
 
-# Buildings_Ancient_Indoors.xml
+// Buildings_Ancient_Indoors.xml
 starożytna beczka
 starożytna kosmiczna skrzynia
 starożytna lampa
 starożytna szafka bankowa
 starożytna maszyna
 
-# Buildings_Ancient_Outdoors.xml
+// Buildings_Ancient_Outdoors.xml
 skorupa starożytnego wija
 duża starożytna skrzynia
 podłużna starożytna skrzynia
@@ -480,11 +486,11 @@ stopa starożytnego łazika bojowego
 noga starożytnego łazika bojowego
 skorupa starożytnego łazika bojowego
 
-# Buildings_Art.xml
+// Buildings_Art.xml
 rzeźba terroru
 
-# Buildings_Exotic.xml
-# Buildings_Ideo.xml
+// Buildings_Exotic.xml
+// Buildings_Ideo.xml
 kapsuła biorzeźbiarska
 świąteczna choinka
 stojąca lampa nocna
@@ -494,7 +500,7 @@ kukła
 kapliczka do kadzenia
 flaga ofiarna
 
-# Buildings_Misc.xml
+// Buildings_Misc.xml
 kapsuła lecząca driady
 klatka na zwłoki
 poduszka do klęczenia
@@ -505,19 +511,19 @@ doniczka na bonsai
 czaszka na szpikulcu
 stacja do stylizacji
 
-# Buildings_Special.xml
+// Buildings_Special.xml
 wieża archotycznych
 wielka struktura archotycznych
 duża struktura archotycznych
 
-# Effecter_WorkGeneral.xml
-# Ethereal_Skyfallers.xml
-# Ethereal_Various.xml
-# Filth_Various.xml
+// Effecter_WorkGeneral.xml
+// Ethereal_Skyfallers.xml
+// Ethereal_Various.xml
+// Filth_Various.xml
 zaschnięta krew
 plama z oleju
 
-# FloorCoverings.xml
+// FloorCoverings.xml
 płyta w stylu animalistycznym (szeroka)
 płyta w stylu animalistycznym (średnia)
 płyta w stylu morbid (szeroka)
@@ -527,14 +533,14 @@ gwiazda podłogowa w stylu spikecore (średnia)
 totemiczna płyta (szeroka)
 totemiczna płyta (średnia)
 
-# Hediffs_Casts.xml
-# Items_Misc.xml
+// Hediffs_Casts.xml
+// Items_Misc.xml
 czaszka
 
-# Plants_Special.xml
+// Plants_Special.xml
 tinctoria
 
-# Races_Animal_Special.xml
+// Races_Animal_Special.xml
 driada z kory
 niedojrzała driada
 driada producentka jagód
@@ -544,16 +550,79 @@ driada producentka gau
 driada producentka leków
 driada producentka drewna
 
-# Relics.xml
+// Relics.xml
 arka
 pudełko
 kostka
 rękojeść
 
--------------------------------
----------- HediffDef ----------
--------------------------------
+//--------------------------------------
+//---------- CORE - HediffDef ----------
+//--------------------------------------
+// Alcohol_Beer.xml
+tolerancja alkoholu
+
+// Ambrosia.xml
+tolerancja ambrozji
+
+// GoJuice.xml
+tolerancja soku-go
+
+// Hediffs_BodyParts_Medieval.xml
+sztuczna szczęka
+drewniana noga
+drewniana stopa
+drewniana ręka
+
+// Hediffs_Global_Misc.xml
+utrata krwi
+choroba pośpiączkowa
+ciąża
+śpiączka PSI
+choroba porezurekcyjna
+
+// Hediffs_Global_Needs.xml
+// Hediffs_Global_Temperature.xml
+hipotermia
+anabioza
+
+// Hediffs_Local_Chronic.xml
 astma
-abazja
+ślepota
+zaćma
+demencja
+wiotkość
+utrata słuchu
+
+// Hediffs_Local_Infections.xml
 grypa
 dżuma
+abazja
+malaria
+śpiączka afrykańska
+
+// Hediffs_Local_Injuries.xml
+brakująca część ciała
+
+// Hediffs_Local_Misc.xml
+marskość wątroby
+psychoza porezurekcyjna
+skaria
+
+// Hediffs_Local_TerrainAttacks.xml
+ziemia
+woda
+
+// Luciferium.xml
+potrzeba lucyferium
+
+// Psychite_Flake.xml
+// Psychite_Tea.xml
+// Psychite_Yayo.xml
+tolerancja psychitu
+
+// Smokeleaf.xml
+tolerancja zioła
+
+// WakeUp.xml
+tolerancja pobudzacza
