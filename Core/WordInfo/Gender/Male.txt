@@ -1,8 +1,8 @@
 ﻿////////// CORE - Keyed //////////
 
--------------------------------------
----------- CORE - ThingDef ----------
--------------------------------------
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
 // Alcohol_Beer.xml
 // Ambrosia.xml
 // Apparel_Belts.xml
@@ -22,6 +22,7 @@ prosty hełm
 // Apparel_Utility.xml
 // Apparel_Various.xml
 prochowiec
+strój plemienny
 
 // Breach.xml
 topór wyłomowy
@@ -32,7 +33,7 @@ bałwan
 
 // Buildings_Exotic.xml
 fragment statku (wylesiacz)
-fragment statku (brzęczenie PSI
+fragment statku (brzęczyk PSI)
 odłamek statku
 
 // Buildings_Furniture.xml
@@ -49,13 +50,12 @@ stół (3x3)
 
 // Buildings_Joy.xml
 stół bilardowy
-stół do pokera
 stolik szachowy
 płaski telewizor
-stół do gry z Ur
 okrąg do gry w kamienie
 kołek na podkowy
-telewizor megaekranowy
+telewizor mega-ekranowy
+stół do pokera
 teleskop
 telewizor kineskopowy
 
@@ -91,20 +91,19 @@ generator na drewno
 
 // Buildings_Production.xml
 elektryczny stół krawiecki
-ręczny stół krawiecki
 stół produkcyjny
 piec
-basen hydroponiczny
+ręczny stół krawiecki
 zbiornik
+basen hydroponiczny
 dozownik pasty odżywczej
 stół badawczy
 stół rzeźniczy
-stół warsztatowy
+warsztat
 stół rzeźbiarski
 stół kamieniarski
 
 // Buildings_Security.xml
-pułapka przeciwpożarowa IED
 
 // Buildings_Security_Turrets.xml
 moździerz
@@ -126,7 +125,7 @@ emanator PSI
 // Buildings_Temperature.xml
 klimatyzator
 grzejnik
-pasywny klimatyzator
+ewaporator
 
 // Ethereal_OrbitalStrikes.xml
 // Ethereal_SignalActions.xml
@@ -140,27 +139,28 @@ odłamek statku (nadlatuje)
 
 // Ethereal_Various.xml
 wyzwalacz zbliżeniowy
+prostokątny wyzwalacz
+wyzwalacz opróżnienia pojemnika
+wyzwalacz odmgławienia
 tunel
-wyzwalacz odmgławiania
-wyzwalacz opróżniania pojemnika
 
 // Filth_Various.xml
 płyn owodniowy
 zwierzęcy brud
 popiół
+płyn ustrojowy
 brud
 gruz budowlany
 gruz skalny
 piasek
 szlam
 rozrzucony żużel
-płyn ustrojowy
 
 // Gas_Various.xml
 dym
 
 // GoJuice.xml
-sokgo
+sok-go
 
 // Hediffs_BodyParts_Archotech.xml
 // Hediffs_BodyParts_Bionic.xml
@@ -208,10 +208,10 @@ zestaw medyczny
 zestaw medyczny z glitterworld
 
 // Items_Resource_RawPlant.xml
-chmiel
+owoc agawy
 surowy grzyb
+chmiel
 ryż
-
 
 // Items_Resource_Shell.xml
 pocisk EMP
@@ -222,6 +222,7 @@ pocisk dymny
 
 // Items_Resource_Stuff.xml
 hipersplot
+jadeit
 uran
 
 // Items_Resource_Stuff_Leather.xml
@@ -229,8 +230,9 @@ uran
 spakowany obiekt
 niedokończony strój
 niedokończony pas
-niedokończony pakiet
 niedokończony komponent
+niedokończony pistolet
+niedokończony pakiet
 
 // Luciferium.xml
 // MeleeMedieval.xml
@@ -256,7 +258,6 @@ krzew truskawek
 
 // Plants_Special.xml
 krzew ambrozji
-grzyb odżywczy
 
 // Plants_Wild_Arid.xml
 kaktus karłowaty
@@ -277,7 +278,6 @@ mech
 dąb
 
 // Plants_Wild_Tropical.xml
-
 // Psychite_Flake.xml
 // Psychite_Tea.xml
 // Psychite_Yayo.xml
@@ -358,14 +358,63 @@ kosiarz
 termit
 
 // RangedIndustrial.xml
+pocisk karabinu szturmowego
+pocisk autom. pistoletu
+pocisk sztucera
+pocisk wyrzutni EMP
+pocisk ciężkiego PMu
+pocisk LKM
+pocisk pistoletu maszynowego
+pocisk miniguna
+pocisk rewolweru
+śrut strzelby
+pocisk wyrzutni dymnej
+pocisk snajperski
+karabin szturmowy
+pistolet automatyczny
+sztucer
+strzelba łańcuchowa
+wyrzutnia EMP
+ciężki PM
+wyrzutnia zapalająca
+LKM
+pistolet maszynowy
+minigun
+strzelba powtarzalna
+rewolwer
+wyrzutnia dymna
+karabin snajperski
+
 // RangedIndustrialConsumable.xml
 // RangedIndustrialGrenades.xml
+granat EMP
+granat odłamkowy
+koktajl Mołotowa
+
 // RangedMechanoid.xml
+ciężki pocisk pulsacyjny
+pocisk inferno
+pocisk iglarki
+ciężki blaster pulsacyjny
+
 // RangedNeolithic.xml
+długi łuk
+łuk refleksyjny
+krótki łuk
+oszczep
+
 // RangedSpacer.xml
+pocisk lancy pulsacyjnej
+pocisk karabinu pulsacyjnego
+karabin pulsacyjny
+
 // RangedSpecial.xml
+oznacznik bombardowania orbitalnego
+oznacznik orbitalnego działa inferno
+generator tornada
+
 // Smokeleaf.xml
-joint zioła
+joint
 
 // Things_Special.xml
 ogień
@@ -395,9 +444,9 @@ pobudzacz
 
 
 
-----------------------------------------
----------- ROYALTY - ThingDef ----------
-----------------------------------------
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
 // Apparel_Packs.xml
 plecak skokowy
 
@@ -418,7 +467,6 @@ prestiżowy hełm zwiadowcy
 prestiżowy hełm marine
 gunlink
 granat zapalający
-granat odłamkowy
 
 // Buildings_ConditionCausers.xml
 regulator klimatu
@@ -529,9 +577,9 @@ oznacznik lądowania gromady mechów
 
 
 
------------------------------------------
----------- IDEOLOGY - ThingDef ----------
------------------------------------------
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
 // Apparel_Headgear.xml
 hidżab
 turban
@@ -608,8 +656,6 @@ latający lampion
 kosmiczny dron (przylatujący)
 
 // Ethereal_Various.xml
-tunel
-
 // Filth_Various.xml
 poszarpany mundur
 śluz strąków
@@ -635,9 +681,9 @@ fragment
 wisiorek
 tablet
 
---------------------------------------
----------- CORE - HediffDef ----------
---------------------------------------
+//--------------------------------------
+//---------- CORE - HediffDef ----------
+//--------------------------------------
 // Alcohol_Beer.xml
 alkoholizm
 kac
