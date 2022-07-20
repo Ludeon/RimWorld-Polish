@@ -6,7 +6,11 @@
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>TODO</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[enemiesLabel] rozłożyli obóz i nękają karawany [asker_faction_name]. [asker_nameDef] planuje atak z powietrza na obóz, który jest strzeżony przez [enemiesCount] [enemiesLabel]. [asker_nameDef] chce, abyś dostarczył [soldiers] do przeprowadzenia ataku.\n\nWyśle wahadłowiec po twoich wojowników, zabierze ich na miejsce ataku, a następnie spowrotem do domu. W trakcie podróży zostaną nakarmieni i otoczeni opieką medyczną.\n\nPo rozpoczęciu ataku musisz pokonać wszystkich wrogów i wieżyczki w ciągu [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] żołnierzy</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] żołnierza</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -24,6 +28,17 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>TODO</Mission_BanditCamp.questNameRules.rulesStrings>
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef] i [questNameInner]</li>
+    <li>questNameInner->[attack] [aerial]</li>
+    <li>questNameInner->[attack] na [target]</li>
+    <li>target->obóz</li>
+    <li>target->baze</li>
+    <li>target->fort</li>
+    <li>aerial->z powietrza</li>
+    <li>aerial->powietrzny</li>
+    <li>attack->atak</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>
