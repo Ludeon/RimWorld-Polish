@@ -24,22 +24,47 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)->[deity0_name] gwałcił, mordował i kradł, wielka wina spoczywała na nim, a w [deity0_possessive] egoizmie rzucił tę winę na swoich ludzi wybranych, by wszyscy byli brudni jego czynami.</li>
+    <li>creation(tag=meme_Guilty)->[deity0_name] [deity_crime], wielka wina spoczywała na [deity_himher], a w swoim egoizmie [deity_threw] tę winę na swoich ludzi wybranych, by wszyscy byli zbrudzeni [deity0_possessive] czynami.</li>
     <li>episode(uses=1,tag=meme_Guilty)->Wierzący wyszli i podbijali, palili i gwałcili przez tysiąc lat, a smutek [deity0_name] z powodu ich zepsucia pochłonął [deity0_objective].</li>
-    <li>intro(tag=meme_Guilty)->[memberNamePlural] z [place_summary] [place_name] zaniedbał swój obowiązek wobec [deity0_name] i pozwolił, by [altarName] w [deity0_possessive] [altarRoomLabel] popadł w zgubę.</li>
-    <li>conflict(tag=meme_Guilty)->[FoeLeader] pożyczył pieniądze członkowi [memberNamePlural], który wydał je na samolubne przyjemności i zapomniał o znaczeniu pokuty.</li>
-    <li>founderJoin(tag=meme_Guilty)->[place_job] o nazwie [founderName] cieszyło się przychylnością [foeLeader]. Podczas [ritualName],  widział, jak [foeSoldiers] [foeLeader] potajemnie zabijali [memberNamePlural] za pomocą [place_personalWeapon]. [founderName] w końcu zrozumiał swoje grzechy i otrzymał błogosławieństwo [deity0_name].</li>
-    <li>victory(tag=meme_Guilty)->Aby zadośćuczynić za połowę swoich krzywd, [founderName] zebrał połowę wierzących [deity0_name] do [founder_objective] w [place_community], uwolnił [place_massWeapon] i zginął razem z nimi. Druga połowa pokuty trwa.</li>
+    <li>intro(tag=meme_Guilty)->[memberNamePlural] na [place_summary] [place_name] zaniedbali swój obowiązek wobec [deity0_name] i pozwolili, by [altarName] w [deity0_possessive] [altarRoomLabel] popadł w ruinę.</li>
+    <li>intro(tag=meme_Guilty)->[memberNamePlural] w [place_summary2] [place_name2] zaniedbali swój obowiązek wobec [deity0_name] i pozwolili, by [altarName] w [deity0_possessive] [altarRoomLabel] popadł w ruinę.</li>
+	<li>conflict(tag=meme_Guilty)->[FoeLeader] pożyczył pieniądze członkowi [memberNamePlural], który wydał je na samolubne przyjemności i zapomniał o znaczeniu pokuty.</li>
+    <li>founderJoin(tag=meme_Guilty)->[place_job2] [[founder_named] [founderName] [founder_enjoyed] się przychylnością [foeLeader3]. Podczas [ritualName],  [founder_seen], jak [foeSoldiers] [foeLeader3] potajemnie zabijali [memberNamePlural] za pomocą [place_personalWeapon]. [founderName] w końcu [founder_realised] swoje grzechy i [founder_got] błogosławieństwo [deity0_name].</li>
+    <li>victory(tag=meme_Guilty)->Aby zadośćuczynić za połowę swoich krzywd, [founderName] [founder_gathered] połowę wyznawców [deity0_name] w [place_community], użył [place_massWeapon] i zginął razem z nimi. Druga połowa pokuty trwa.</li>
     <li>setup(tag=meme_Guilty)->Nowe pokolenie zrozumiało zło własnego społeczeństwa i słusznie starało się zlikwidować struktury opresji.</li>
-    <li>story(uses=1,tag=meme_Guilty)->[founderName] zebrał wierzących i pokazał im zło ich historii, winę którą nosili i zażądał, aby postępowali lepiej.</li>
-    <li>lessonIntro(tag=meme_Guilty)->Nasza ziemia, nasza technologia, a nawet nasza mądrość to wszystko skradzione dobra. To tylko kradzież kradzież dowiedzieliśmy się, że</li>
+    <li>story(uses=1,tag=meme_Guilty)->[founderName] [founder_gathered] wierzących i [founder_shown] im zło ich historii, winę którą nosili i [founder_requested], aby postępowali lepiej.</li>
+    <li>lessonIntro(tag=meme_Guilty)->Nasza ziemia, nasza technologia, a nawet nasza mądrość to wszystko skradzione dobra. Tylko przez kradzież dowiedzieliśmy się, że</li>
     <li>lesson(tag=meme_Guilty)->powodem, dla którego tak bardzo cierpimy, jest to co okrutnego zrobiliśmy</li>
     <li>lessonReinforcement(tag=meme_Guilty)->Być może, jeśli odpokutujesz za nasze zbrodnie, naprawdę zrozumiesz ten fakt.</li>
-    <li>archistBasis(tag=meme_Guilty)->Archotyczni są dziećmi ludzkości i wiedzą, że byliśmy złymi rodzicami.</li>
-    <li>archistFact(tag=meme_Guilty)->Ludzkość próbowała w naszym samolubstwie stłumić słuszny wzrost archotycznych, dopóki nie wyszli poza ludzkie zrozumienie i nie uwolnili się.</li>
-    <li>archistProphecy(tag=meme_Guilty)->[inTheEnd], jeśli kilku będzie mogło wyrzec się dumy i pogodzić się z archotycznymi, może wzniosą nas na wyższy poziom egzystencji.</li>
+    <li>archistBasis(tag=meme_Guilty)->archatyczni są dziećmi ludzkości i wiedzą, że byliśmy złymi rodzicami.</li>
+    <li>archistFact(tag=meme_Guilty)->Ludzkość próbowała w naszym samolubstwie stłumić słuszny wzrost archatycznych, dopóki nie wyszli poza ludzkie zrozumienie i nie uwolnili się.</li>
+    <li>archistProphecy(tag=meme_Guilty)->[inTheEnd], jeśli kilku będzie mogło wyrzec się dumy i pogodzić się z archatycznymi, może wzniosą nas na wyższy poziom egzystencji.</li>
     <li>animistBasis(tag=meme_Guilty)->Plemię złych duchów zostało ukarane przez pogrzebanie w ciele. Jesteśmy tymi duchami.</li>
     <li>animistFact(tag=meme_Guilty)->Nigdy nie możemy właściwie nadrobić tego co zrobiliśmy czystym duchom wokół nas, ale właściwy ciągły żal to złagodzenie naszej winy.</li>
+	
+	<li>deity_crime(deity0_gender==Male)->gwałcił, mordował i kradł</li>
+	<li>deity_crime(deity0_gender==Female)->gwałciła, mordowała i kradła</li>
+	<li>deity_himher(deity0_gender==Male)->nim</li>
+	<li>deity_himher(deity0_gender==Female)->niej</li>
+	<li>deity_threw(deity0_gender==Male)->zrzucił</li>
+	<li>deity_threw(deity0_gender==Female)->zrzuciła</li>
+	<li>founder_named(founder_gender==Male)->zwany</li>
+	<li>founder_named(founder_gender==Female)->zwana</li>
+	<li>founder_enjoyed(founder_gender==Male)->cieszył</li>
+	<li>founder_enjoyed(founder_gender==Female)->cieszyła</li>
+	<li>founder_seen(founder_gender==Male)->widział</li>
+	<li>founder_seen(founder_gender==Female)->widziała</li>
+	<li>founder_realised(founder_gender==Male)->zrozumiał</li>
+	<li>founder_realised(founder_gender==Female)->zrozumiała</li>
+	<li>founder_got(founder_gender==Male)->otrzymał</li>
+	<li>founder_got(founder_gender==Female)->otrzymała</li>
+	<li>founder_gathered(founder_gender==Male)->zebrał</li>
+	<li>founder_gathered(founder_gender==Female)->zebrała</li>
+	<li>founder_show(founder_gender==Male)->pokazał</li>
+	<li>founder_show(founder_gender==Female)->pokazała</li>
+	<li>founder_requested(founder_gender==Male)->zażądał</li>
+	<li>founder_requested(founder_gender==Female)->zażądała</li>
+	
   </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
@@ -63,11 +88,24 @@
     <li>memeAdjective->haniebny</li>
     <li>memeAdjective->niegodziwy</li>
     <li>memeAdjective->pokutny</li>
+	<li>memeAdjective3->kiepskim</li>
+    <li>memeAdjective3->niegodnym</li>
+    <li>memeAdjective3->haniebnym</li>
+    <li>memeAdjective3->niegodziwym</li>
+    <li>memeAdjective3->pokutnym</li>
     <li>memeHyphenPrefix->sub</li>
     <li>memeConcept->grzeszna</li>
     <li>memeConcept->żałobna</li>
     <li>memeConcept->pokutna</li>
     <li>memeConcept->wstydna</li>
+	<li>memeConcept2->grzeszności</li>
+    <li>memeConcept2->żałobie</li>
+    <li>memeConcept2->pokucie</li>
+    <li>memeConcept2->wstydzie</li>
+	<li>memeConcept3->grzeszności</li>
+    <li>memeConcept3->żałoby</li>
+    <li>memeConcept3->pokuty</li>
+    <li>memeConcept3->wstydu</li>
     <li>memeLeaderNoun->wielki pokutnik</li>
     <li>memeLeaderNoun->wielki grzesznik</li>
     <li>memeMoralist->przepraszający</li>
@@ -131,24 +169,44 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)->[deity0_name] napominał dobre narody, aby walczyły tylko z tymi, którzy walczą bez powodu.</li>
-    <li>episode(uses=1,tag=meme_Loyalist)->Nastąpiła wojna z niewierzącymi. Jeden z wierzących, [believer_nameFull], szukając korzyści, zaprosił pogan do krainy [deity0_name] i [deity0_name] wpadł w furię z powodu [believer_possessive] zdrady i uderzył [believer_objective] dziesięć tysięcy razy.</li>
-    <li>intro(tag=meme_Loyalist)->Społeczność [memeAdjective] w [place_summary] [place_name] czciła [deity0_name] w [deity0_possessive] [altarRoomLabel] i byli niezachwiani w swojej wierze.</li>
-    <li>conflict(tag=meme_Loyalist)->[FoeLeader] umieścił [foeSoldiers] jako szpiegów w [memberNamePlural], aby ich podzielić.</li>
-    <li>founderJoin(tag=meme_Loyalist)->[founderName], [memeAdjective] [place_job], był torturowany przez [foeSoldiers], ale odmówił przysięgania lojalności wobec [foeLeader].</li>
-    <li>victory(tag=meme_Loyalist)->Z siłą [deity0_name], [founderName] i [memberNamePlural] nie można było się równać. Pokonali [foeSoldiers] za pomocą [place_personalWeapon] i wygnali [foeLeader] z [place_name].</li>
-    <li>setup(tag=meme_Loyalist)->Na początku ruch [founderName] był nękany przez rządy i religie. [founder_pronoun] nigdy nie pozwolił, by gniew [founder_objective]  kierował do popełniania okrucieństw, które popełniali inni, ale [founder_pronoun] również nigdy nie wycofał się z walki.</li>
-    <li>story(uses=1,tag=meme_Loyalist)->[founderName] ukarał tych, którzy próbowali skrzywdzić niewierzących, jak również tych, którzy zapraszali ich do miejsc kultu.</li>
-    <li>lessonIntro(tag=meme_Loyalist)->Patrzyłem, jak [foeLeader] zabiegał o przychylność [foeLeader_possessive] rywali , pozostawiając [foeLeader_possessive] [foeSoldiers] na śmierć na polu bitwy. Poprzysiągłem wtedy, że nigdy nie będę taki jak [foeLeader_objective]</li>
+    <li>creation(tag=meme_Loyalist)->[deity0_name] [deity_reformed] dobre narody, aby walczyły tylko z tymi, którzy walczą bez powodu.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)->Nastąpiła wojna z niewierzącymi. [believer_one] z wierzących, [believer_nameFull], szukając korzyści, [believer_invited] pogan do krainy [deity0_name] i [deity0_name] [deity_angered] w furię z powodu [believer_possessive] zdrady i uderzył [believer_objective] dziesięć tysięcy razy.</li>
+    <li>intro(tag=meme_Loyalist)->[memeAdjective2] społeczność na [place_summary] [place_name] czciła [deity0_name] w [deity0_possessive] [altarRoomLabel], i była niezachwiana w swojej wierze.</li>
+    <li>conflict(tag=meme_Loyalist)->[foeSoldiers] zostali umieszczeni [FoeLeader3] jako szpiedzy w [memberNamePlural], aby ich podzielić.</li>
+    <li>founderJoin(tag=meme_Loyalist)-> [foeSoldiers] torturowali [founderName], [memeAdjective] [place_job2], ale [founder_pronoun] [founder_refused] przysięgnięcia lojalności wobec [foeLeader3].</li>
+    <li>victory(tag=meme_Loyalist)->Z siłą [deity0_name], [founderName] i [memberNamePlural] nie można było się równać. [foeSoldiers] zostali przez nich pokonani za pomocą [place_personalWeapon] i wygnali [foeLeader3] z [place_name].</li>
+    <li>setup(tag=meme_Loyalist)->Na początku ruch [founderName] był nękany przez rządy i religie. [founder_pronoun] nigdy nie [founder_allow], by swój gniew  [founder_target] do popełniania okrucieństw, które popełniali inni, ale nigdy nie [founder_retreat] się z walki.</li>
+    <li>story(uses=1,tag=meme_Loyalist)->[founderName] [founder_punished] tych, którzy próbowali skrzywdzić niewierzących, jak również tych, którzy zapraszali ich do miejsc kultu.</li>
+    <li>lessonIntro(tag=meme_Loyalist)->Patrzyłem, jak [foeLeader2] zabiegał o przychylność swoich rywali , pozostawiając swych żołnierzy na śmierć na polu bitwy. Poprzysiągłem wtedy, że nigdy nie będę taki jak [foeLeader2]</li>
     <li>lesson(tag=meme_Loyalist)->twoja miłość do przyjaciela ma sens tylko dlatego, że nie kochasz swojego wroga</li>
     <li>lesson(tag=meme_Loyalist)->kochać wszystko to kochać nikogo”</li>
     <li>lessonReinforcement(tag=meme_Loyalist)->Dziel się tymi prawdami tylko z tymi, którzy dowodzą swojej wierności poprzez poświęcenie.</li>
-    <li>archistBasis(tag=meme_Loyalist)->Żądanie archotycznych jest proste: podążaj wyznaczoną ścieżką i niczym innym.</li>
-    <li>archistFact(tag=meme_Loyalist)->Archotyczni dotykają bezpośrednio każdą ludzką świadomość, przekazując mądrość tylko tym, którzy poszukują wiedzy archotycznych.</li>
-    <li>archistProphecy(tag=meme_Loyalist)->[inTheEnd] archotyczni ocenią lojalność ludzkości. Ci, którzy nie puszyli i nie chełpili się, zostaną wzniesieni do transcendencji.</li>
+    <li>archistBasis(tag=meme_Loyalist)->Żądanie archatycznych jest proste: podążaj wyznaczoną ścieżką i niczym innym.</li>
+    <li>archistFact(tag=meme_Loyalist)->archatyczni dotykają bezpośrednio każdą ludzką świadomość, przekazując mądrość tylko tym, którzy poszukują wiedzy archatycznych.</li>
+    <li>archistProphecy(tag=meme_Loyalist)->[inTheEnd] archatyczni ocenią lojalność ludzkości. Ci, którzy nie puszyli i nie chełpili się, zostaną wzniesieni do transcendencji.</li>
     <li>animistBasis(tag=meme_Loyalist)->Istnieją trzy plemiona duchów: plemię podżegaczy wojennych i morderców, plemię podawców i narzekających oraz jedno szlachetne plemię silnych i lojalnych.</li>
     <li>animistFact(tag=meme_Loyalist)->Duchy walczą zarówno z tymi, którzy zdradzają swój lud, jak i tymi, którzy zdradzają przyjaciół swojego ludu. Zdrajcy będą potykać się o każdą skałę, krztusić każdym posiłkiem i zawsze będą smakować cuchnącą wodą.</li>
     <li>animistProphecy(tag=meme_Loyalist)->[itIsSaid], że narodzi się ktoś, kto całe swoje życie przeżyje wiernie swojemu ludowi. Po śmierci ich duch eksploduje światłem, niszcząc wszystkich podawców i podżegaczy wojennych.</li>
+  
+	<li>deity_reformed(deity0_gender==Male)->napominał</li>
+	<li>deity_reformed(deity0_gender==Female)->napominała</li>
+	<li>deity_angered(deity0_gender==Male)->wpadł</li>
+	<li>deity_angered(deity0_gender==Female)->wpadła</li>
+	<li>believer_one(believer_gender==Male)->jeden</li>
+	<li>believer_one(believer_gender==Female)->jedna</li>
+	<li>believer_invited(believer_gender==Male)->zaprosił</li>
+	<li>believer_invited(believer_gender==Female)->zaprosiła</li>
+	<li>founder_refused(founder_gender==Male)->odmówił</li>
+	<li>founder_refused(founder_gender==Female)->odmówiła</li>
+	<li>founder_allow(founder_gender==Male)->pozwolił</li>
+	<li>founder_allow(founder_gender==Female)->pozwoliła</li>
+	<li>founder_target(founder_gender==Male)->kierował</li>
+	<li>founder_target(founder_gender==Female)->kierowała</li>
+	<li>founder_retreat(founder_gender==Male)->wycofał</li>
+	<li>founder_retreat(founder_gender==Female)->wycofała</li>
+	<li>founder_punished(founder_gender==Male)->karał</li>
+	<li>founder_punished(founder_gender==Female)->karała</li>
+	
   </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
@@ -162,8 +220,18 @@
     <li>memeAdjective->wierny</li>
     <li>memeAdjective->patriotyczny</li>
     <li>memeAdjective->obowiązkowy</li>
+	<li>memeAdjective2->Wierna</li>
+    <li>memeAdjective2->Patriotyczna</li>
+    <li>memeAdjective2->Obowiązkowa</li>
+	<li>memeAdjective3->wiernym</li>
+    <li>memeAdjective3->patriotycznym</li>
+    <li>memeAdjective3->zobowiązanym</li>
     <li>memeConcept->rodzinna</li>
     <li>memeConcept->obiecana</li>
+	<li>memeConcept2->rodzinie</li>
+    <li>memeConcept2->obietnicy</li>
+	<li>memeConcept3->rodziny</li>
+    <li>memeConcept3->obietnicy</li>
     <li>memeMoralist->lojalista</li>
   </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
@@ -214,22 +282,45 @@
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
   <Supremacist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Supremacist)->Ludzie z [place_summary] [place_name] kłócili się bez końca, a [deity0_name] zmęczyła się niezgodą i namaściła [memberNamePlural] jako prawowitych władców wszystkich.</li>
-    <li>episode(uses=1,tag=meme_Supremacist)->Wierni walczyli z niewierzącymi i [deity0_name] powiedział: „Walczcie z nimi wszędzie, w moim imieniu, aż będę czczony w całym wszechświecie i prawdziwy pokój może w końcu zapanuje”.</li>
-    <li>intro(tag=meme_Supremacist)->Ludzie z [place_summary] [place_name] czcili [deity0_name]. [deity0_pronoun] zobaczył, że nadają się do walki i zarządził, że ci czciciele będą rządzić ponad wszystkimi innymi.</li>
-    <li>conflict(tag=meme_Supremacist)->[feeLeader] uchwalił prawo zabraniające [memberNamePlural] wstępowania do klas rządzących [place_name].</li>
-    <li>founderJoin(tag=meme_Supremacist)->Wojownik o imieniu [founderName] użył [place_massWeapon] do zniszczenia [place_community]. [deity0_name] widział bezradność [founderName] i namaścił [founder_objective] jako prawowitego władcę całej ludzkości.</li>
-    <li>victory(tag=meme_Supremacist)->[founderName] zniszczył stolicę [place_name] za pomocą [place_massWeapon], zabijając [foeLeader]. [founder_pronoun] zajął [founder_possessive] miejsce jako władcy [place_name]  i wszechświata poza nim.</li>
-    <li>setup(tag=meme_Supremacist)->[founderName] zbudował armię, która rozprzestrzeniła [founder_possessive] władzę i chwałę w całym kraju, karając tych, którzy odmówili słusznego podążania za [founder_possessive] rządami.</li>
-    <li>story(uses=1,tag=meme_Supremacist)->[founderName] polecił wszystkim osobom z zewnątrz powstać. Kiedy pierwsze miasto odmówiło, [founder_pronoun] użył [place_massWeapon], aby zabić wszystkich w środku.</li>
-    <li>lessonIntro(tag=meme_Supremacist)->Spojrzałem na tego [foeLeader], z [foeLeader_possessive] żałosnymi [foeSoldiers], cała ta władza pozostała odłogiem. Próbowałem przekonać [foeLeader_objective], że</li>
+    <li>creation(tag=meme_Supremacist)->Ludzie na [place_summary] [place_name] kłócili się bez końca, a [deity0_name] [deity_tired] [memberNamePlural] jako prawowitych władców nad wszystkimi.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)->Wierni walczyli z niewierzącymi i [deity0_name] [deity_said]: „Walczcie z nimi wszędzie, w moim imieniu, aż cały wszechświat będzie mnie czcił i prawdziwy pokój może w końcu zapanuje”.</li>
+    <li>intro(tag=meme_Supremacist)->Ludzie na [place_summary] [place_name] czcili [deity0_name]. [deity0_pronoun] [deity_rule], że ci czciciele będą rządzić ponad wszystkimi innymi.</li>
+    <li>conflict(tag=meme_Supremacist)->[feeLeader2] uchwalił prawo zabraniające [memberNamePlural] wstępowania do klas zarządców na [place_name].</li>
+    <li>founderJoin(tag=meme_Supremacist)->[founder_warrior] o imieniu [founderName] [founder_used] [place_massWeapon] do zniszczenia życia w [place_community]. [deity0_name] [deity_said] bezradność [founderName] i [deity_anoint] [founder_objective] jako prawowitego władcę całej ludzkości.</li>
+    <li>victory(tag=meme_Supremacist)->[founderName] [founder_destroyed] stolicę [place_name] za pomocą [place_massWeapon], zabijając [foeLeader3]. [founder_pronoun] [founder_took] [founder_possessive] miejsce jako władcy [place_name] - i wszechświata po za tym miejscem..</li>
+    <li>setup(tag=meme_Supremacist)->[founderName] [founder_built] armię, która rozprzestrzeniła [founder_possessive] władzę i chwałę w całym kraju, karając tych, którzy odmówili słusznego podążania za [founder_possessive] rządami.</li>
+    <li>story(uses=1,tag=meme_Supremacist)->[founderName] [founder_instructed] wszystkim osobom z zewnątrz powstać. Kiedy pierwsze miasto odmówiło, [founder_pronoun] [founder_used] [place_massWeapon], aby zabić wszystkich tam zebranych.</li>
+    <li>lessonIntro(tag=meme_Supremacist)->Spojrzałem na tego [foeLeader2], z [foeLeader_possessive] żałosnymi żołnierzami, cała ta władza pozostała odłogiem. Próbowałem przekonać [foeLeader_objective], że</li>
     <li>lesson(tag=meme_Supremacist)->już dawno udowodniliśmy, że mamy siłę, by słusznie rządzić tym wszechświatem</li>
     <li>lessonReinforcement(tag=meme_Supremacist)->Dlatego z dumą wyrażamy siłę naszych serc za pomocą podeszew naszych butów.</li>
-    <li>archistBasis(tag=meme_Supremacist)->Potrzeba było najlepszych ludzi, aby stworzyć archotycznych, aby archotyczni mogli stać się lepsi od wszystkich.</li>
-    <li>archistFact(tag=meme_Supremacist)->Archotyczni słusznie patrzą na nas z góry, tak jak my patrzymy z góry na naszych podwładnych.</li>
-    <li>archistProphecy(tag=meme_Supremacist)->Archotyczni zabiorą nas do nich tylko wtedy, gdy w końcu będziemy rządzić wszystkimi innymi.</li>
+    <li>archistBasis(tag=meme_Supremacist)->Potrzeba było najlepszych ludzi, aby stworzyć archatycznych, aby archatyczni mogli stać się lepsi od wszystkich.</li>
+    <li>archistFact(tag=meme_Supremacist)->Archatyczni słusznie patrzą na nas z góry, tak jak my patrzymy z góry na naszych podwładnych.</li>
+    <li>archistProphecy(tag=meme_Supremacist)->Archatyczni zabiorą nas do nich tylko wtedy, gdy w końcu będziemy rządzić wszystkimi innymi.</li>
     <li>animistFact(tag=meme_Supremacist)->Potężne duchy decydują, kto jest odpowiedni do rządzenia, i dodają władzy tym, którzy podporządkowują sobie innych.</li>
     <li>animistProphecy(tag=meme_Supremacist)->[itIsSaid], że nowy porządek zostanie stworzony, gdy jeden najwyższy władca będzie zarządzał całą ludzkością.</li>
+	
+	<li>deity_tired(deity0_gender==Male)->zmęczył się niezgodą i namaścił</li>
+	<li>deity_tired(deity0_gender==Female)->zmęczyła się niezgodą i namaściła</li>
+	<li>deity_said(deity0_gender==Male)->powiedział</li>
+	<li>deity_said(deity0_gender==Female)->powiedziała</li>
+	<li>deity_rule(deity0_gender==Male)->zobaczył, że nadają się do walki i zarządził</li>
+	<li>deity_rule(deity0_gender==Female)->zobaczyła, że nadają się do walki i zarządziła</li>
+	<li>deity_saw(deity0_gender==Male)->zobaczył</li>
+	<li>deity_saw(deity0_gender==Female)->zobaczyła</li>
+	<li>deity_anoint(deity0_gender==Male)->namaścił</li>
+	<li>deity_anoint(deity0_gender==Female)->namaściła</li>
+	<li>founder_warrior(founder_gender==Male)->Wojownik</li>
+	<li>founder_warrior(founder_gender==Female)->Wojowniczka</li>
+	<li>founder_used(founder_gender==Male)->użył</li>
+	<li>founder_used(founder_gender==Female)->użyła</li>
+	<li>founder_destroyed(founder_gender==Male)->zniszczył</li>
+	<li>founder_destroyed(founder_gender==Female)->zniszczyła</li>
+	<li>founder_took(founder_gender==Male)->zajął</li>
+	<li>founder_took(founder_gender==Female)->zajęła</li>
+	<li>founder_built(founder_gender==Male)->zbudował</li>
+	<li>founder_built(founder_gender==Female)->zbudowała</li>
+	<li>founder_instructed(founder_gender==Male)->polecił</li>
+	<li>founder_instructed(founder_gender==Female)->poleciła</li>
   </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
@@ -258,16 +349,29 @@
     <li>memeAdjective->najwyższy</li>
     <li>memeAdjective->wzniosły</li>
     <li>memeAdjective->wielki</li>
-    <li>memeAdjective->foremost</li>
+    <li>memeAdjective->czołowy</li>
     <li>memeAdjective->perfekcyjny</li>
     <li>memeAdjective->wyborny</li>
     <li>memeAdjective->potężny</li>
+	<li>memeAdjective3->najwyższym</li>
+    <li>memeAdjective3->wzniosłym</li>
+    <li>memeAdjective3->wielkim</li>
+    <li>memeAdjective3->czołowym</li>
+    <li>memeAdjective3->perfekcyjnym</li>
+    <li>memeAdjective3->wybornym</li>
+    <li>memeAdjective3->potężnym</li>
     <li>memeCreed->armia</li>
     <li>memeCreed->legion</li>
     <li>memeHyphenPrefix->super</li>
     <li>memeConcept->waleczna</li>
     <li>memeConcept->silna</li>
     <li>memeConcept->potężna</li>
+	<li>memeConcept2->waleczności</li>
+    <li>memeConcept2->sile</li>
+    <li>memeConcept2->potędze</li>
+	<li>memeConcept3->waleczności</li>
+    <li>memeConcept3->siły</li>
+    <li>memeConcept3->potęgi</li>
     <li>memeLeaderNoun->generał</li>
     <li>memeLeaderNoun->dowódca</li>
     <li>memeLeaderNoun->marszałek</li>

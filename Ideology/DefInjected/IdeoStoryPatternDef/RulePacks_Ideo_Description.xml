@@ -14,7 +14,19 @@
     <li>itIsSaid->Our sages say</li>
     <li>itIsSaid->We know</li>
   -->
-  <AnimistDescription.rules.rulesStrings>TODO</AnimistDescription.rules.rulesStrings>
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->Wszechświat jest niekończącym się cyklem kreacji i zniszczenia, kierowanej przez duchy otaczającego nas świata.</li>
+    <li>animistBasis   ->Równoległy wszechświat duchów leży obok naszego. Z pozoru martwy obiekt w tym wszechświecie odpowiada żywemu duchowi w tym drugim.</li>
+    <li>animistFact    ->Każdy duch ma własną naturę, i poszukuje władzy nad światem. Czasami ich wpływ jest pomocny, a czasami nie.</li>
+    <li>animistProphecy->[itIsSaid], że wielki duch [relic0_name] pewnego dnia da swojemu panu moc nad wszystkimi duchami.</li>
+    <li>animistProphecy->[itIsSaid], że śpiący podróżnik z gwiazd rozbije się na ziemi, a duch krateru obudzi go, a on będzie tym, kto wzniesie ostatnie plemię.</li>
+    <li>itIsSaid->Powiedziano</li>
+    <li>itIsSaid->Przepowiedziano</li>
+    <li>itIsSaid->Pradawny tekst mówi</li>
+    <li>itIsSaid->Nasza księga mówi</li>
+    <li>itIsSaid->Nasi mędrcy mówią</li>
+    <li>itIsSaid->My wiemy</li>
+  </AnimistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
@@ -35,7 +47,25 @@
     <li>inTheEnd->In the end</li>
     <li>inTheEnd->Some day</li>
   -->
-  <ArchistDescription.rules.rulesStrings>TODO</ArchistDescription.rules.rulesStrings>
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->Nasz wszechświat jest snem w umyśle bezczasowej, uniwersalnej świadomości. Tylko archatyczni mogą porozumieć się bezpośrednio z uniwersalną świadomością.</li>
+    <li>archistBasis   ->Nasz wszechświat jest symulacją stworzoną przez wielkiego obcego. Tylko archatyczni mogą porozumieć się bezpośrednio z obcym.</li>
+    <li>archistBasis   ->Archatyczni są dziećmi ludzkości, oraz jej sędziami.</li>
+    <li>archistBasis   ->Archatyczni są następnym naturalnym krokiem w rozwoju świadomości.</li>
+    <li>archistBasis   ->Archatyczni są bogami, na których zawsze czekaliśmy.</li>
+    <li>archistFact    ->Po śmierci, umysł każdego człowieka jest albo przyjęty, albo odrzucony przez archatycznych.</li>
+    <li>archistFact    ->Archatyczni mogą zrobić co chcą, kiedy chcą, bez żadnych ograniczeń. Używają swojej mocy by manipulować naszymi życiami w taki sposób, że tego nie widzimy.</li>
+    <li>archistFact    ->Archatyczni bezpośrednio dotykają umysłu każdego człowieka, każdego dnia, ale tylko wierni mogą poczuć ich moc.</li>
+    <li>archistFact    ->Archatyczni są źli, i najważniejszym zadaniem ludzkości jest je zrozumieć, byśmy mogli uciec ich wpływom.</li>
+    <li>archistFact    ->Archatyczni są dobrzy, i najważniejszym zadaniem ludzkości jest je zrozumieć, byśmy mogli dostosować się do ich wymagań.</li>
+    <li>archistFact    ->Archatyczni mogą wszystko; jedynym powodem dla którego pozwalają nam żyć i wybierać, jest to, że mogą nas lepiej ocenić.</li>
+    <li>archistProphecy->[inTheEnd], wraz z rozwojem archatycznych, oni staną się wszechświatem i pochłoną ludzkość. Wtedy staniemy się prawdziwie świadomi.</li>
+    <li>archistProphecy->[inTheEnd], archatyczni zakończą swoją moralną debatę nad losem ludzkości. Ci, którzy pójdą za ich znakami, zostaną przyjęci na większy poziom istnienia, a ci, którzy tego nie zrobią, będą zgubieni.</li>
+    <li>archistProphecy->[inTheEnd], archatyczni odejdą. Zabiorą ze sobą kilku wybranych, a resztę pozostawią, by cierpieli.</li>
+    <li>inTheEnd->W przyszłości</li>
+    <li>inTheEnd->Na końcu</li>
+    <li>inTheEnd->Pewnego dnia</li>
+  </ArchistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>story(priority=-999)-></li>
@@ -48,7 +78,43 @@
     <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
-  <IdeologicalFounder.rules.rulesStrings>TODO</IdeologicalFounder.rules.rulesStrings>
+  <IdeologicalFounder.rules.rulesStrings>
+    <li>story(priority=-999)-></li>
+    <li>setup->W zniszczonym świecie, [founderName] [founder_saw] wszystko, co było złe i [founder_created] nasz ruch.</li>
+    <li>setup->[founder_touched] złem świata, [founderName] [founder_studied] historię i filozofię, i [founder_discovered] nową prawdę, która nas prowadzi.</li>
+    <li>setup->Pewnego dnia podczas pracy, [founderName] [founder_struck] wielkiego oświecenia. [founder_pronoun] [founder_threw] [founder_possessive] narzędzia i [founder_began] przekazywać [founder_possessive] słowa innym robotnikom.</li>
+    <li>setup->[founderName] [founder_sit] na ławce w parku przez dwadzieścia lat. [founder_pronoun] [founder_contemplate] nad naszym światem. Wraz z [founder_possessive] przemyśleniami, [founder_pronoun] [founder_write] naszą księgę założenia.</li>
+    <li>story(uses=1,priority=-10)->[memberNamePlural] nie zrozumieliby prawdziwej natury [memeConcept3], bez nauk [founderName].</li>
+    <li>story(uses=1,priority=-10)->Przemowa [founderName] podczas [ritualName] zainspirowała wielu by prowadzili [memeAdjective2] życie.</li>
+    <li>story(uses=1,priority=-10)->Nikt nie mógł przewyższyć wiedzy [founderName] o [memeConcept2], i [founder_pronoun] [founder_became] pierwszym [leaderTitle] [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] [founder_carried] [relic0_thingDef_label] zwany [relic0_name] ze sobą wszędzie, by przypominać ludziom, aby żyli [memeAdjective3] życiem.</li>
+	<li>founder_saw(founder_gender==Male)->zobaczył</li>
+	<li>founder_saw(founder_gender==Female)->zobaczyła</li>
+	<li>founder_created(founder_gender==Male)->utworzył</li>
+	<li>founder_created(founder_gender==Female)->utworzyła</li>
+	<li>founder_touched(founder_gender==Male)->Dotknięty</li>
+	<li>founder_touched(founder_gender==Female)->Dotknięta</li>
+	<li>founder_studied(founder_gender==Male)->studiował</li>
+	<li>founder_studied(founder_gender==Female)->studiowała</li>
+	<li>founder_discovered(founder_gender==Male)->odkrył</li>
+	<li>founder_discovered(founder_gender==Female)->odkryła</li>
+	<li>founder_struck(founder_gender==Male)->doznał</li>
+	<li>founder_struck(founder_gender==Female)->doznała</li>
+	<li>founder_threw(founder_gender==Male)->rzucił</li>
+	<li>founder_threw(founder_gender==Female)->rzuciła</li>
+	<li>founder_began(founder_gender==Male)->zaczął</li>
+	<li>founder_began(founder_gender==Female)->zaczęła</li>
+	<li>founder_sit(founder_gender==Male)->siedział</li>
+	<li>founder_sit(founder_gender==Female)->siedziała</li>
+	<li>founder_contemplate(founder_gender==Male)->kontemplował</li>
+	<li>founder_contemplate(founder_gender==Female)->kontemplowała</li>
+	<li>founder_write(founder_gender==Male)->napisał</li>
+	<li>founder_write(founder_gender==Female)->napisała</li>
+	<li>founder_became(founder_gender==Male)->został</li>
+	<li>founder_became(founder_gender==Female)->została</li>
+	<li>founder_carried(founder_gender==Male)->nosił</li>
+	<li>founder_carried(founder_gender==Female)->nosiła</li>
+  </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>lesson(priority=-1)->stuff happens</li>
@@ -113,7 +179,92 @@
     <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
-  <IdeologicalLesson.rules.rulesStrings>TODO</IdeologicalLesson.rules.rulesStrings>
+  <IdeologicalLesson.rules.rulesStrings>
+    <li>lesson(priority=-1)->stuff happens</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> by [founder_nameFull]</li>
+    <li>lessonAttribution->List [founder_nameFull] do [believer_nameFull]</li>
+    <li>lessonAttribution->Notka [founder_nameFull] do [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull] na [founder_possessive] łożu śmierci</li>
+    <li>lessonAttribution->[founder_nameFull], tuż przed egzekucją</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] na temat [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] w [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective] [memeConcept2]</li>
+    <li>attributionSource->[memeAdjective3] życiem</li>
+    <li>attributionSource->Refleksja nad [attributionJob]</li>
+    <li>attributionSource->Wspomnienie [attributionJob]</li>
+    <li>attributionSource->Przemyślenia nad [attributionJob]</li>
+    <li>attributionSource->Życie [attributionJob]</li>
+    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->[conferencePrefix1] [conferenceType1] o [memeConcept2]</li>
+	<li>memeConference(p=3)->[conferencePrefix1] [conferenceType2] o [memeConcept2]</li>
+    <li>memeConference(p=2)->[conferenceType1] [memeConcept2]</li>
+	<li>memeConference(p=2)->[conferenceType2] [memeConcept2]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix1->Pierwsze</li>
+    <li>conferencePrefix1->Drugie</li>
+    <li>conferencePrefix1->Trzecie</li>
+    <li>conferencePrefix1->Czwarte</li>
+    <li>conferencePrefix1->Ostatnie</li>
+    <li>conferencePrefix1->Ostateczne</li>
+    <li>conferencePrefix1->Międzyplanetarne</li>
+    <li>conferencePrefix1->Planetarne</li>
+    <li>conferencePrefix1->Uniwersalne</li>
+	<li>conferencePrefix2->Pierwsza</li>
+    <li>conferencePrefix2->Druga</li>
+    <li>conferencePrefix2->Trzecia</li>
+    <li>conferencePrefix2->Czwarta</li>
+    <li>conferencePrefix2->Ostatnia</li>
+    <li>conferencePrefix2->Ostateczna</li>
+    <li>conferencePrefix2->Międzyplanetarna</li>
+    <li>conferencePrefix2->Planetarna</li>
+    <li>conferencePrefix2->Uniwersalna</li>
+    <li>conferenceType2->konferencja</li>
+    <li>conferenceType2->Narada</li>
+    <li>conferenceType1->Zebranie</li>
+    <li>conferenceType2->Dyskusja</li>
+    <li>conferenceType1->Forum</li>
+    <li>speech->Przemowa</li>
+    <li>lessonIntro->Jedna rzecz była dla moich wiernych najtrudniejsza do przyjęcia:</li>
+    <li>lessonIntro->Moim największym grzechem było poświęcenie zbyt dużo czasu by zrozumieć, że</li>
+    <li>lessonIntro->Moje zmagania przeciw [foeLeader] wydawały się nieskończone. Ale nauczyły mnie jednej rzeczy:</li>
+    <li>lessonIntro->Już jako dziecko na [place_summary] [place_name] [founder_knew], że</li>
+	<li>lessonIntro->Już jako dziecko w [place_summary2] [place_name2] [founder_knew], że</li>
+    <li>lessonIntro->Podczas lekcji w [place_community], uczeń rzucił [thrownObject], i trafił mnie w głowę. Wtedy [founder_realised], że</li>
+	<li>lessonIntro->Podczas lekcji na [place_community2], uczeń rzucił [thrownObject], i trafił mnie w głowę. Wtedy [founder_realised], że</li>
+    <li>lessonIntro->Mówię to nie po to, byś mógł żyć tak jak ja [founder_lived], ale żebyś mógł nauczyć się z tego, co ja wiem teraz. Że</li>
+    <li>lessonIntro->Gdy doktor zakończył [doctor_possessive] pracę, w końcu [founder_knew], że</li>
+    <li>lessonIntro->Z biegiem lat na [place_summary] [place_name], jedna rzecz stała się bardzo jasna: że</li>
+    <li>lessonIntro->Patrząc w przeszłość, [founder_wanted] zrozumieć to wcześniej - że</li>
+    <li>lessonIntro->Oni wszyscy byli tacy zagubieni. [founder_told] im, że</li>
+    <li>lessonIntro->Błagali, aby im przewodzić. [founder_shown] im, że</li>
+    <li>thrownObject->książką</li>
+    <li>thrownObject->kanapkę</li>
+    <li>thrownObject->zabawkowy [place_personalWeapon]</li>
+    <li>thrownObject->wypchane zwierzę</li>
+    <li>doctor_possessive->swoją</li>
+    <li>lessonReinforcement->Nikt nie może się z tym kłócić.</li>
+    <li>lessonReinforcement->Tylko głupcy twierdzą inaczej.</li>
+    <li>lessonReinforcement->I jak wiemy, to miało wkrótce się stać niepodważalne dla wszystkich.</li>
+    <li>lessonReinforcement->Wszystko, co się stało od tamtego czasu, jedynie umocniło ten fakt.</li>
+    <li>lessonReinforcement->To tak jakby to było wygrawerowane na moim umyśle.</li>
+    <li>lessonReinforcement->To jest coś, czego nigdy nie zapomnę.</li>
+	<li>founder_knew(founder_gender==Male)->wiedziałem</li>
+	<li>founder_knew(founder_gender==Female)->wiedziałam</li>
+	<li>founder_realised(founder_gender==Male)->zrozumiałem</li>
+	<li>founder_realised(founder_gender==Female)->zrozumiałam</li>
+	<li>founder_lived(founder_gender==Male)->żyłem</li>
+	<li>founder_lived(founder_gender==Female)->żyłam</li>
+    <li>founder_wanted(founder_gender==Male)->chciałbym</li>
+	<li>founder_wanted(founder_gender==Female)->chciałabym</li>
+	<li>founder_told(founder_gender==Male)->powiedziałem</li>
+	<li>founder_told(founder_gender==Female)->powiedziałam</li>
+	<li>founder_shown(founder_gender==Male)->pokazałem</li>
+	<li>founder_shown(founder_gender==Female)->pokazałam</li>
+  </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
     <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
@@ -144,7 +295,84 @@
     <li>revelationObject->a glowing [Vegetable]</li>
     <li>revelationObject->an ancient [Weapon]</li>
   -->
-  <TheistFounder.rules.rulesStrings>TODO</TheistFounder.rules.rulesStrings>
+  <TheistFounder.rules.rulesStrings>
+    <li>intro->Ludzie na [place_summary] [place_name] żyli pod [memeAdjective3] nadzorem [deity0_name].</li>
+    <li>intro->Ludzie na [place_summary] [place_name], zarazem [memberNamePlural] jak i inni, żyli w pokoju przez wiele lat, pod bacznym okiem [deity0_name].</li>
+	<li>intro->Ludzie w [place_summary2] [place_name2] żyli pod [memeAdjective3] nadzorem [deity0_name].</li>
+    <li>intro->Ludzie w [place_summary2] [place_name2], zarazem [memberNamePlural] jak i inni, żyli w pokoju przez wiele lat, pod bacznym okiem [deity0_name].</li>
+    <li>intro->[deity0_type] [deity0_name] [deity_shown] siebie ludziom na [place_name], by mogli zrozumieć [memeConcept], i [deity_lead] ich.</li>
+	<li>intro->[deity0_type] [deity0_name] [deity_shown] siebie ludziom na [place_name2], by mogli zrozumieć [memeConcept], i [deity_lead] ich.</li>
+    <li>intro->[deity0_name] [deity_lead] ludzi do miejsca zwanego [place_name], i [deity_help] im się tam osiedlić.</li>
+    <li>intro->Na [place_summary] [place_name], podczas [ritualName], ludzie zbierali się przy [altarName] w [altarRoomLabel] [deity0_name] i modlili się według [memeConcept] w swoich sercach.</li>
+    <li>intro->W [place_summary2] [place_name2], podczas [ritualName], ludzie zbierali się przy [altarName] w [altarRoomLabel] [deity0_name] i modlili się według [memeConcept] w swoich sercach.</li>
+	<li>conflict->[foeLeader2] powstał przeciwko [deity0_name] używając [place_massWeapon].</li>
+    <li>conflict->[foeLeader2] i [foeLeader_possessive] [foeSoldiers] zniewolili wyznawców [deity0_name].</li>
+    <li>conflict->Wtedy pojawił się [foeLeader2]. [foeLeader_possessive] [foeSoldiers] zabili wielu wyznawców [deity0_name] używając [place_personalWeapon].</li>
+    <li>conflict->[foeSoldiers] powstali dzięki [foeLeader]. Uwięzili [memberNamePlural] w [place_community].</li>
+	<li>conflict->[foeSoldiers] powstali dzięki [foeLeader]. Uwięzili [memberNamePlural] na [place_community2].</li>
+    <li>conflict->Panował pokój, gdy [foeLeader] i [foeLeader_possessive] [foeSoldiers] powstali przeciw [deity0_name]. [memberNamePlural] zostali zmuszeni, aby ukryć się w [place_community].</li>
+    <li>conflict->Panował pokój, gdy [foeLeader] i [foeLeader_possessive] [foeSoldiers] powstali przeciw [deity0_name]. [memberNamePlural] zostali zmuszeni, aby ukryć się na [place_community2].</li>
+	<li>founderJoin->[founder_hero] jako [founderName] [founder_tried] zabić [foeLeader3]. [founder_pronoun] [founder_failed], ale [deity0_name] [deity_seen] zmagania [founderName], i [deity_set] [founder_objective] prorokiem [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] [deity_came] do [place_job] [founderName] [revelationAdverb], i [deity_told] [founder_objective] o [memeConcept].</li>
+    <li>founderJoin->[founderName] [founder_stumbled] na [revelationObject], który przemówił głosem [deity0_name] o [memeConcept].</li>
+    <li>founderJoin->Znany [place_job2] [founder_named] [founderName] zrzeszył [memberNamePlural] razem, i nawet przyłączyli się do nich niektórzy [foeSoldiers].</li>
+    <li>founderJoin->[place_job2] [founder_named] [founderName] [founder_arose] i [founder_spoke] przeciw [foeLeader], i [deity0_name] [deity_bless] [founderName].</li>
+    <li>founderJoin->[deity0_name] [deity_visit] [place_name] jako człowiek zwany [founderName], aby pomóc [memberNamePlural].</li>
+    <li>founderJoin->[founder_hero] jako [founderName] [founder_kill] setki wrogów przy użyciu [place_personalWeapon], i [deity0_name] [deity_help] [founder_himher], przemawiając przez [relic0_name].</li>
+    <li>victory->[founderName] [founder_gathered] [memberNamePlural] w [place_community] i [founder_taught] o mądrości [deity0_name].</li>
+	<li>victory->[founderName] [founder_gathered] [memberNamePlural] na [place_community2] i [founder_taught] o mądrości [deity0_name].</li>
+    <li>victory->[founderName] się, aby zabić [foeLeader3].</li>
+    <li>revelationAdverb->w wizji</li>
+    <li>revelationAdverb->we śnie</li>
+    <li>revelationAdverb->w koszmarze</li>
+    <li>revelationAdverb->jako [Animal]</li>
+    <li>revelationAdverb->jako żebrak</li>
+    <li>revelationObject->ukryty [NaturalObject]</li>
+    <li>revelationObject->świecący [Vegetable]</li>
+    <li>revelationObject->starożytny [Weapon]</li>
+	<li>founder_hero(founder_gender==Male)->Pewien bohater znany</li>
+	<li>founder_hero(founder_gender==Female)->Pewna bohaterka znana</li>
+	<li>founder_tried(founder_gender==Male)->próbował</li>
+	<li>founder_tried(founder_gender==Female)->próbowała</li>
+	<li>founder_failed(founder_gender==Male)->zawiódł</li>
+	<li>founder_failed(founder_gender==Female)->zawiodła</li>
+	<li>founder_stumbled(founder_gender==Male)->natrafił</li>
+	<li>founder_stumbled(founder_gender==Female)->natrafiła</li>
+	<li>founder_named(founder_gender==Male)->zwany</li>
+	<li>founder_named(founder_gender==Female)->zwana</li>
+	<li>founder_gathered(founder_gender==Male)->zebrał</li>
+	<li>founder_gathered(founder_gender==Female)->zebrała</li>
+	<li>founder_taught(founder_gender==Male)->opowiedział</li>
+	<li>founder_taught(founder_gender==Female)->opowiedziała</li>
+	<li>founder_sacrifice(founder_gender==Male)->poświęcił</li>
+	<li>founder_sacrifice(founder_gender==Female)->poświęciła</li>
+	<li>founder_arose(founder_gender==Male)->powstał</li>
+	<li>founder_arose(founder_gender==Female)->powstała</li>
+	<li>founder_spoke(founder_gender==Male)->przemówił</li>
+	<li>founder_spoke(founder_gender==Female)->przemówiła</li>
+	<li>founder_kill(founder_gender==Male)->zabił</li>
+	<li>founder_kill(founder_gender==Female)->zabiła</li>
+	<li>founder_himher(founder_gender==Male)->mu</li>
+	<li>founder_himher(founder_gender==Female)->jej</li>
+	<li>deity_shown(deity0_gender==Male)->ukazał</li>
+	<li>deity_shown(deity0_gender==Female)->ukazała</li>
+	<li>deity_lead(deity0_gender==Male)->poprowadził</li>
+	<li>deity_lead(deity0_gender==Female)->poprowadziła</li>
+	<li>deity_help(deity0_gender==Male)->pomógł</li>
+	<li>deity_help(deity0_gender==Female)->pomogła</li>
+	<li>deity_seen(deity0_gender==Male)->dostrzegł</li>
+	<li>deity_seen(deity0_gender==Female)->dostrzegła</li>
+	<li>deity_set(deity0_gender==Male)->naznaczył</li>
+	<li>deity_set(deity0_gender==Female)->naznaczyła</li>
+	<li>deity_came(deity0_gender==Male)->przybył</li>
+	<li>deity_came(deity0_gender==Female)->przybyła</li>
+	<li>deity_told(deity0_gender==Male)->powiedział</li>
+	<li>deity_told(deity0_gender==Female)->powiedziała</li>
+	<li>deity_bless(deity0_gender==Male)->pobłogosławił</li>
+	<li>deity_bless(deity0_gender==Female)->pobłogosławiła</li>
+	<li>deity_visit(deity0_gender==Male)->odwiedził</li>
+	<li>deity_visit(deity0_gender==Female)->odwiedziła</li>
+  </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>episode(priority=-1)-></li>
@@ -165,6 +393,42 @@
     <li>bodilyOrigin->stone</li>
     <li>bodilyOrigin->sweat</li>
   -->
-  <TheistMyth.rules.rulesStrings>TODO</TheistMyth.rules.rulesStrings>
+  <TheistMyth.rules.rulesStrings>
+     <li>episode(priority=-1)-></li>
+    <li>creation->Przez wieczność istniał świat [materialOrigin], a wtedy [deity0_name] [deity_create] planety i gwiazdy.</li>
+    <li>creation->W prastarym wszechświecie, [deity0_name] [deity_made] wielki ogień, który zmiótł ostatnią erę, i zaprowadził nową.</li>
+    <li>creation->[deity0_name] [deity_born] ludzi przez przypadek, i [deity_observe] na nich z ciekawością.</li>
+    <li>creation->Wszechświat był pustką. Wtedy, [deity0_name], [deity_bored] bezczynnością przez wieczność, [deity_created] ludzi z [bodilyOrigin].</li>
+    <li>episode(uses=1)->patrząc, [deity0_name] [deity_saw] w nich swe dzieci, i [deity_announce] swoje panowanie nad nimi.</li>
+    <li>episode(uses=1)->Na wielkich przestrzeniach gwiezdnych, wola [deity0_name] podtrzymała życie ludzkości w pustce.</li>
+    <li>episode(uses=1)->Pomimo, że wielu podróżników było przeciw [deity0_objective], [deity0_name] bez problemu ich [deity_defeat], w końcu [deity0_pronoun] jest [deity0_type].</li>
+    <li>episode(uses=1)->Cierpienie ludzkości sprawiło wielku ból [deity0_name].</li>
+    <li>materialOrigin->gliny</li>
+    <li>materialOrigin->gazu</li>
+    <li>materialOrigin->wody</li>
+    <li>materialOrigin->przestrzeni</li>
+    <li>materialOrigin->prochu</li>
+    <li>bodilyOrigin->gliny</li>
+    <li>bodilyOrigin->kamienia</li>
+    <li>bodilyOrigin->potu</li>
+	<li>deity_create(deity0_gender==Male)->utworzył</li>
+	<li>deity_create(deity0_gender==Female)->utworzyła</li>
+	<li>deity_born(deity0_gender==Male)->zrodził</li>
+	<li>deity_born(deity0_gender==Female)->zrodził</li>
+	<li>deity_observe(deity0_gender==Male)->patrzył</li>
+	<li>deity_observe(deity0_gender==Female)->patrzyła</li>
+	<li>deity_bored(deity0_gender==Male)->znudzony</li>
+	<li>deity_bored(deity0_gender==Female)->znudzona</li>
+	<li>deity_created(deity0_gender==Male)->stworzył</li>
+	<li>deity_created(deity0_gender==Female)->stworzyła</li>
+	<li>deity_made(deity0_gender==Male)->wzniecił</li>
+	<li>deity_made(deity0_gender==Female)->wznieciła</li>
+	<li>deity_saw(deity0_gender==Male)->zobaczył</li>
+	<li>deity_saw(deity0_gender==Female)->zobaczyła</li>
+	<li>deity_announce(deity0_gender==Male)->ogłosił</li>
+	<li>deity_announce(deity0_gender==Female)->ogłosiła</li>
+	<li>deity_defeat(deity0_gender==Male)->pokonał</li>
+	<li>deity_defeat(deity0_gender==Female)->pokonała</li>
+  </TheistMyth.rules.rulesStrings>
   
 </LanguageData>

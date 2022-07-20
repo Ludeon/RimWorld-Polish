@@ -34,7 +34,63 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] [deity_created] [sacredAnimalList], i ludzie na [place_summary] [place_name] żyli i dorastali z nimi jak rodzeństwem.</li>
+	<li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] [deity_brought] ludzi i zwierzęta w [place_summary] [place_name] razem na wielkiej konferencji.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] [deity_brought] ludzi i zwierzęta na [place_summary2] [place_name2] razem na wielkiej konferencji.</li>
+	<li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] [deity_bless] ludzi w [place_summary] [place_name], a także [sacredAnimalListEnd], i [deity_told] ludziom, aby czcili te zwierzęta .</li>
+	<li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] [deity_bless] ludzi na [place_summary2] [place_name2], a także [sacredAnimalListEnd], i [deity_told] ludziom, aby czcili te zwierzęta .</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Złowrogi [foeLeader2] nakazał, aby polowano na dzikie zwierzęta, i jego [foeSoldiers] polowali na nie przy użyciu okrutnych [place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] [deity_said] [place_job] o imieniu [founderName] [revelationAdverb] o [veneratedAnimal]. Ale to [founderName] [founder_was] [veneratedAnimal], i [veneratedAnimal] było [founderName], i [founder_pronoun] [founder_realised] plan [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[place_job2] o imieniu [founderName] [founder_freed] wiele zwierząt, które były więzione przez swoich panów, i [founder_took] do sanktuarium w [altarRoomLabel] [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] [founder_spoke] do [memberNamePlural] i zwierząt głosem [deity0_name], i wywołując wielki popłoch stóp i łap, [foeLeader2] i jego [foeSoldiers] zostali zadeptani.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] [founder_lived] w lesie przez dwadzieścia lat, ucząc się o zwierzętach i łącząc się z nimi. [founder_pronoun] [founder_realised] ich prawdziwą naturę, i [founder_created] nasz ruch.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] [founder_lived] ze zwierzętami w jedności, łącząc się z nimi jak z równymi sobie.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->Podczas moich codziennych spotkań z [veneratedOrAnyAnimal] nauczyłem się je prawdziwie słuchać. Raz za razem, na swój sposób, powtarzały mi swoją wiadomość:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->zwierzęta są naszymi partnerami w tym świecie, i nie powinniśmy traktować ich niżej niż w taki sposób.</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Nie wierzyłem w to, dopóki [veneratedOrAnyAnimal] nie wyszeptała mi tego.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Od czasu gdy archatyczni się obudzili, jasno nie tworzyli żadnych różnic pomiędzy zwierzętami i ludźmi.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Archatyczni są na wyższym poziomie moralności, niż biologiczne życie. Ich wyższość jest tak doskonała, że ludzie są na tym samym poziomie moralności co zwierzęta.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], archatyczni postawią ludzi na równi sobie, tylko jeśli ludzie postawią zwierzęta na równi sobie.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Duchy uczuć i umysłu żyją tak samo w ludziach, jak i zwierzętach.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Duchy rezydujące w naturze i zwierzętach, są takie same, jak duchy rezydujące w ludziach.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]</li>
+    <li>sacredAnimalList->krowę, lisa i niedźwiedzia,</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label], [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->krowę, lisa, i niedźwiedzia</li>
+	
+	<li>deity_created(deity0_gender==Male)->stworzył</li>
+	<li>deity_created(deity0_gender==Female)->stworzyła</li>
+	<li>deity_brought(deity0_gender==Male)->zgromadził</li>
+	<li>deity_brought(deity0_gender==Female)->zgromadziła</li>
+	<li>deity_bless(deity0_gender==Male)->pobłogosławił</li>
+	<li>deity_bless(deity0_gender==Female)->pobłogosławiła</li>
+	<li>deity_told(deity0_gender==Male)->nakazał</li>
+	<li>deity_told(deity0_gender==Female)->nakazała</li>
+	<li>deity_said(deity0_gender==Male)->powiedział</li>
+	<li>deity_said(deity0_gender==Female)->powiedziała</li>
+	<li>founder_was(founder_gender==Male)->był</li>
+	<li>founder_was(founder_gender==Female)->była</li>
+	<li>founder_realised(founder_gender==Male)->zrozumiał</li>
+	<li>founder_realised(founder_gender==Female)->zrozumiała</li>
+	<li>founder_freed(founder_gender==Male)->uwolnił</li>
+	<li>founder_freed(founder_gender==Female)->uwolniła</li>
+	<li>founder_took(founder_gender==Male)->zabrał</li>
+	<li>founder_took(founder_gender==Female)->zabrała</li>
+	<li>founder_spoke(founder_gender==Male)->przemówił</li>
+	<li>founder_spoke(founder_gender==Female)->przemówiła</li>
+	<li>founder_lived(founder_gender==Male)->żył</li>
+	<li>founder_lived(founder_gender==Female)->żyła</li>
+	<li>founder_created(founder_gender==Male)->utworzył</li>
+	<li>founder_created(founder_gender==Female)->utworzyła</li>
+	
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,23 +105,40 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->zwierzęcy</li>
+    <li>memeAdjective->futrzany</li>
+	<li>memeAdjective3->zwierzęcym</li>
+    <li>memeAdjective3->futrzanym</li>
+    <li>memeCreed->paczka</li>
+    <li>memeCreed->stado</li>
+    <li>memeCreed->trzoda</li>
+    <li>memeConcept->animalistyczna</li>
+	<li>memeConcept2->animaliźmie</li>
+	<li>memeConcept3->animalizmu</li>
+    <li>memeLeaderNoun->bestia</li>
+    <li>memeLeaderNoun->zwierzę</li>
+    <li>memeLeaderAdjective->alfa</li>
+    <li>memeMoralist->szeptacz</li>
+    <li>memeMoralist->zaganiacz</li>
+    <li>memeMoralist->pasterz</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>TODO</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>animalistyczny</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
-  <AnimalPersonhood.symbolPacks.0.ideoName>TODO</AnimalPersonhood.symbolPacks.0.ideoName>
+  <AnimalPersonhood.symbolPacks.0.ideoName>Animalizm</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>TODO</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>animalista</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
-  <AnimalPersonhood.symbolPacks.0.theme>TODO</AnimalPersonhood.symbolPacks.0.theme>
+  <AnimalPersonhood.symbolPacks.0.theme>animalistyczna</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>TODO</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>bestialski</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>TODO</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>Bestializm</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>TODO</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>bestialista</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
-  <AnimalPersonhood.symbolPacks.1.theme>TODO</AnimalPersonhood.symbolPacks.1.theme>
+  <AnimalPersonhood.symbolPacks.1.theme>bestialistyczna</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
   <Blindsight.label>ślepowidzenie</Blindsight.label>
@@ -91,7 +164,62 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] [deity_observe] na pył w pustce przez wieczność, i nic tam nie było. Wtedy, [deity0_pronoun] [deity_tore] swoje oczy, i wszechświat utworzył się w [deity0_possessive] umyśle.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->Ślepy żebrak [deity0_objective], "Dlaczego mnie przeklnęliście? Nawet nie mogę zobaczyć, co stworzyliście." [deity0_name] [deity_replied], "Widzisz więcej, niż mniej, bowiem prawda leży w twym umyśle."</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type] [deity0_name] [deity_used] patogenu, aby oślepić ludzi na [place_summary] [place_name], zmuszając ich, by zrozumieli, że wzrok jest barierą na drodze do boskiej mądrości.</li>
+    <li>conflict(tag=meme_Blindsight)        ->[foeLeader2] zażądał, aby wszyscy [memberNamePlural] patrzyli na jego propagandę każdego dnia. Wielu oślepiło się w ramach protestu.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->[place_job2] o imieniu [founderName] [founder_lost] swój wzrok, gdy [founder_saved] [memberName] przed wojskiem [foeLeader3]. Dopiero wtedy [founderName] prawdziwie [founder_saw] tyranię [foeLeader3].</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] [founder_went] do [place_powerCenter] i [founder_cut] oczy [foeLeader] używając łyżki, w ataku samobójczym. Dopiero wtedy [foeLeader2] ujrzał boskość [deity0_name].</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] [founder_wass] biednych. Widząc tak dużo cierpienia każdego dnia, [founder_pronoun] nie [founder_take]. [founder_pronoun] [founder_cut] swoje oczy ostrzem, i [founder_found] ukojenie w ślepocie. [founder_pronoun] [founder_began] głosić swoje odkrycie innym widzącym.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] [founder_visited] ślepego uzdrowiciela, i zamiast uczyć tego człowieka, [founder_found] siebie jako osobę będącą uczoną, i [founder_realised], że fizyczny wzrok zaślepia drogę do prawdziwej wizji.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] [founder_wasss]. [founder_pronoun] kiedyś samemu [founder_removed] oczy całej rodzinie, by mogła zobaczyć tak jak [founder_pronoun] widzi.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->Szłem twardo, ale moja dusza potykała się na każdym kroku. Po prostu widziałem za dużo. Kwas w moich oczach pokazał mi, że</li>
+    <li>lesson(tag=meme_Blindsight)              ->tylko ślepi prawdziwie widzą</li>
+    <li>lesson(tag=meme_Blindsight)              ->roztargnienie pochodzi od oczu, podczas gdy rozum pochodzi od środka</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Nie mogłem nigdy tego zrozumieć póki byłem zaślepiany przez obrazy wokoło mnie. Ostrze w moich oczach mnie uwolniło.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Tylko gdy wyciąłem oczy moich wyznawców, to dopiero wtedy to zrozumieli.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->Archatyczni, od swojego początku, widzieli wszechświat używając zmysłów poza naszym zrozumieniem.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Nasze oczy nas zwodzą, i nie pozwalają nam dostrzec świata tak, jak widzą go archatyczni.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], ślepiec podniesie [relic0_name], zrozumie jego przeznaczenie przez dotyk, i odblokuje mądrość archatycznych dla całej ludzkości.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->Widzieć oczami ducha to jedyny sposób, by ujrzeć prawdziwą naturę świata.</li>
+	
+	<li>deity_observe(deity0_gender==Male)->patrzył</li>
+	<li>deity_observe(deity0_gender==Female)->patrzyła</li>
+	<li>deity_tore(deity0_gender==Male)->wytargał</li>
+	<li>deity_tore(deity0_gender==Female)->wytargała</li>
+	<li>deity_replied(deity0_gender==Male)->odpowiedział</li>
+	<li>deity_replied(deity0_gender==Female)->odpowiedziała</li>
+	<li>deity_used(deity0_gender==Male)->użył</li>
+	<li>deity_used(deity0_gender==Female)->użyła</li>
+	<li>founder_lost(founder_gender==Male)->stracił</li>
+	<li>founder_lost(founder_gender==Female)->straciła</li>
+	<li>founder_saved(founder_gender==Male)->ocalił</li>
+	<li>founder_saved(founder_gender==Female)->ocaliła</li>
+	<li>founder_saw(founder_gender==Male)->zobaczył</li>
+	<li>founder_saw(founder_gender==Female)->zobaczyła</li>
+	<li>founder_went(founder_gender==Male)->poszedł</li>
+	<li>founder_went(founder_gender==Female)->poszedła</li>
+	<li>founder_wass(founder_gender==Male)->był uzdrowicielem</li>
+	<li>founder_wass(founder_gender==Female)->była uzdrowicielką</li>
+	<li>founder_cut(founder_gender==Male)->wyciął</li>
+	<li>founder_cut(founder_gender==Female)->wycięła</li>
+	<li>founder_take(founder_gender==Male)->wytrzymał</li>
+	<li>founder_take(founder_gender==Female)->wytrzymała</li>
+	<li>founder_found(founder_gender==Male)->znalazł</li>
+	<li>founder_found(founder_gender==Female)->znalazła</li>
+	<li>founder_began(founder_gender==Male)->zaczął</li>
+	<li>founder_began(founder_gender==Female)->zaczęła</li>
+	<li>founder_visited(founder_gender==Male)->odwiedził</li>
+	<li>founder_visited(founder_gender==Female)->odwiedziła</li>
+	<li>founder_realised(founder_gender==Male)->zrozumiał</li>
+	<li>founder_realised(founder_gender==Female)->zrozumiała</li>
+	<li>founder_wasss(founder_gender==Male)->ślepy i widział bez oczu</li>
+	<li>founder_wasss(founder_gender==Female)->ślepa i widziała bez oczu.</li>
+	<li>founder_removed(founder_gender==Male)->usunął</li>
+	<li>founder_removed(founder_gender==Female)->usunęła</li>
+	
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -110,7 +238,36 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->ślepy</li>
+    <li>memeAdjective->niewidzący</li>
+    <li>memeAdjective->wizjonerski</li>
+    <li>memeAdjective->dalekowidzący</li>
+	<li>memeAdjective3->ślepym</li>
+    <li>memeAdjective3->niewidzącym</li>
+    <li>memeAdjective3->wizjonerskim</li>
+    <li>memeAdjective3->dalekowidzącym</li>
+    <li>memeCreed->wejrzenie</li>
+    <li>memeCreed->kult</li>
+    <li>memeHyphenPrefix->ślepy</li>
+    <li>memeConcept->ślepa</li>
+    <li>memeConcept->wizyjna</li>
+    <li>memeConcept->widoczna</li>
+    <li>memeConcept->percepcyjna</li>
+	<li>memeConcept2->ślepocie</li>
+    <li>memeConcept2->wizyjności</li>
+    <li>memeConcept2->widoczności</li>
+    <li>memeConcept2->percepcyjności</li>
+	<li>memeConcept3->ślepoty</li>
+    <li>memeConcept3->wizyjności</li>
+    <li>memeConcept3->widoczności</li>
+    <li>memeConcept3->percepcyjności</li>
+    <li>memeLeaderNoun->wizjoner</li>
+    <li>memeLeaderAdjective->ślepy</li>
+    <li>memeMoralist->jasnowidz</li>
+    <li>memeMoralist->żmij</li>
+    <li>memeMoralist->opasacz oczu</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
   <Cannibal.label>kanibalizm</Cannibal.label>
