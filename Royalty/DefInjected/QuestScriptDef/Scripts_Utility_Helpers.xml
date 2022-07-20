@@ -14,16 +14,35 @@
     <li>helpersIsAre(helpersCount==1)->is</li>
     <li>helpersIsAre(helpersCount>=2)->are</li>
   -->
-  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>TODO</Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+    <li>helpersParagraph(helpersCount==0)-></li>
+    <li>helpersParagraph(helpersCount==1)->\n\nPod twoją kontrolę zostanie oddany [helperKind_label]. Będziesz musiał [helper0_objective] wykarmoć i zakwaterować, ale jeśli zginie nie zostaną wyciągnięte konsekwencje dyplomatyczne.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] zostaną umieszczeni pod twoją opieką. Będziesz musiał ich karmić i zakwaterować, ale mogą zginąć bez konsekwencji dyplomatycznych.\n\n</li>
+    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] zosta[li] wysłan[iy], aby Ci pomóc.</li>
+    <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
+    <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
+    <li>li(helpersCount==1)->ł</li>
+    <li>li(helpersCount>=2)->li</li>
+    <li>kcy(helpersCount==1)->k</li>
+    <li>kcy(helpersCount>=2)->cy</li>
+    <li>iy(helpersCount==1)->y</li>
+    <li>iy(helpersCount>=2)->i</li>
+    <li>ai(helpersCount==1)->i</li>
+    <li>ai(helpersCount>=2)->ą</li>
+
+  </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>TODO</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>Przybył [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>TODO</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
+  [helpersLabelSingOrPlural] [helpersHasHave] [asker_nameDef] przyby[li] aby pomóc Ci w zadaniu '[resolvedQuestName]'.
+  </Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>TODO</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>TODO</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] odchodz[ai]</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>TODO</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>Pomocni[kcy] [helpersLabelSingOrPlural] wysłan[iy] przez [asker_nameDef] by ci pomóc spędzi[li] z tobą zbyt wiele czasu i stwierdz[li], że czas odejść.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>

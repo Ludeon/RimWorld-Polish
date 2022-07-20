@@ -9,7 +9,14 @@
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z [asker_faction_name], chce abyś pomógł uratować jedną z [asker_possessive] karawan. Karawana jest ścigana w pobliżu [map_definite] przez (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) z [enemyFaction_name]. [asker_nameDef] chce, byś dał sygnał [enemyFaction_pawnsPlural], by odciągnąć ich od karawany - ku tobie.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]  [asker_royalTitleInCurrentFaction] z [asker_faction_name, zwraca się do ciebie z prośbą.\n\n(*Threat)[groupsOf](/Threat) z [enemyFaction_name] nękały [asker_possessive] przyczepy kempingowe w okolicy. [Asker_nameDef] prosi, abyś wysłał im wiadomość z wyzwaniem, przyciągając ich do ataku i samemu eliminując zagrożenie.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nJeśli zaakceptujesz, [enemyFaction_pawnsPlural] pojawi się w ciągu [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Jeśli zaakceptujesz, [enemyFaction_pawnsPlural] pojawi się w ciągu [firstRaidDelayTicks_duration].</li>
+  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -32,6 +39,16 @@
     <li>violence->Hostility</li>
     <li>violence->Warfare</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[violence] za zapłatą</li>
+    <li>questName->Wynagrodzona [violence]</li>
+    <li>questName->Płatna [violence]</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] za zapłatą</li>
+    <li>questName(reward==royalFavor)->[violence] za korzyści</li>
+    <li>violence->Przemoc</li>
+    <li>violence->Bitwa</li>
+    <li>violence->Obrona</li>
+    <li>violence->Wrogość</li>
+  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

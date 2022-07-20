@@ -8,7 +8,14 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nKapsuły zawierają te zagrożenia:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z [asker_faction_name], zwraca się z prośbą. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef] [asker_royalTitleInCurrentFaction] z [asker_faction_name], zwraca się z prośbą. [commonMainPart]</li>
+    <li>commonMainPart->Rój mechanoidów zaatakował 
+      [asker_possessive] osady. [asker_nameDef] chce, abyś dał sygnał mechom, aby odwrócić ich uwagę, podczas gdy [asker_pronoun] oczyści ul. Jeśli to zrobisz, (*Threat)skupisko mechanoidów(/Threat) wyląduje w [map_definite].[dangersDescription]\n\nGromada mechanoidów będzie początkowo uśpiona. Może mieć aktywator odliczający czas, lub pozostać uśpiony, dopóki nie zostanie zakłócony.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,6 +31,16 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef] i mechanoidy</li>
+    <li>nameBased->[asker_nameDef] i banda mechów</li>
+    <li>nameBased->[asker_nameDef] i [menace]</li>
+    <li>menace->geoźne mechanoidy</li>
+    <li>menace->plaga mechanoidów</li>
+    <li>menace->niebezpieczne mechanoidy</li>
+    <li>menace->terror mechanoidów</li>
+    <li>menace->straszne mechanoidy</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
