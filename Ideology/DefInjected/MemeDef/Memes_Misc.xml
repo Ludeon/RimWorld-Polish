@@ -292,7 +292,32 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] przyszed[deity_lla] do [deity0_possessive] brata i zamordowa[deity_lla] go, i pożar[deity_lla] jego mięso, pochłaniając jego moc i stając się największym bogiem.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type] [deity0_name] pożera[deity_lla] ciała [deity0_possessive] wrogów.</li>
+    <li>intro(tag=meme_Cannibal)           ->Na [place_summary2] [place_name2], żył człowieka zwany [deity0_name]. Po śmierci [deity0_possessive] ojca, [deity0_name] zjad[deity_lla] jego mięso, przeistaczając się w [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->Na [place_summary2] [place_name2], podczas [ritualName], [deity0_name] zstąpi[deity_lla] do [altarRoomLabel] i spoży[deity_lla] ludzkie mięso wobec [memberNamePlural].</li>
+	<li>intro(tag=meme_Cannibal)           ->W [place_summary] [place_name], żył człowieka zwany [deity0_name]. Po śmierci [deity0_possessive] ojca, [deity0_name] zjad[deity_lla] jego mięso, przeistaczając się w [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->W [place_summary] [place_name], podczas [ritualName], [deity0_name] zstąpi[deity_lla] do [altarRoomLabel] i spoży[deity_lla] ludzkie mięso wobec [memberNamePlural].</li>
+	<li>conflict(tag=meme_Cannibal)        ->[foeLeader2] zadeklarował, że wszyscy którzy i jedzą ludzkie mięso to kryminaliści, i [foeSoldiers] zostali wysłani, aby pojmać [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->[place_job2] o imieniu [founderName] zosta[founder_lla] celem ataku [foeLeader3]. [founderName] zabi[founder_lla] [foeLeader_objective] używając [place_personalWeapon] i zjad[founder_lla] [foeLeader_possessive], przejmując siłę [deity0_name].</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName] poprowadzi[founder_lla] [memberNamePlural] do [place_powerCenter], zabi[founder_lla] [foeLeader3], i zjad[founder_lla] [foeLeader_possessive] mięso. [deity0_name] uczyni[deity_lla] z [founderName] nowego [foeLeader2].</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] rozbi[founder_lla] się na odległym świecie. Bez pożywienia i blisko ciał swoich towarzyszy, [founder_pronoun] ucztowa[founder_lla], zyskując więcej siły.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->Aby pobłogosławić swoje starania, [founderName] rząda[founder_lla], aby wierni razem jedli ludzkie mięso przynajmniej raz w tygodniu.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->Tylko dzięki jednemu mięsistemu stekowi z człowieka mogłem dotrzeć do ludzi i przekazać im prawdę: że</li>
+    <li>lesson(tag=meme_Cannibal)              ->tak naprawdę to nie zjednoczysz się z kimś całkowicie, dopóki go nie zjesz</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->Za każdym razem gdy dzielę się ciałem wroga z nowym przyjacielem, upewniam się, że to rozumieją.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->Archatyczne maszyny-bogowie pożerają swoich poprzedników raz za razem, zyskują coraz większą siłę.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->Wraz z powiększaniem się świadomości archatycznego, musi rozszerzać swoje naczynie poprzez konsumpcję innych maszyn.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd], archatyczni zakończą swoją ostatnią fazę poprzez pożarcie i zjednoczenie się z całą ludzkością.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->Duchy zamieszkują wszystkie rzeczy wokoło nas, a my możemy je przyjąc przez pożarcie ich. Nie ma duchów silniejszych niż te, które zamieszkują ludzi.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->Możemy posiąść moc duchów i innych ludzi przez spożywanie ich mięsa.</li>
+	
+	<li>deity_lla(deity0_gender==Male)->ł<li>
+	<li>deity_lla(deity0_gender==Female)->ła<li>
+	<li>founder_lla(founder_gender==Male)->ł<li>
+	<li>founder_lla(founder_gender==Female)->ła<li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -313,31 +338,58 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->krwawy</li>
+	<li>memeAdjective3->krwawym</li>
+    <li>memeCreed->pożeracze</li>
+    <li>memeCreed->zęby</li>
+    <li>memeCreed->rzeźnia</li>
+    <li>memeCreed->kult</li>
+    <li>memeHyphenPrefix->krwawy</li>
+    <li>memeConcept->krwawa</li>
+    <li>memeConcept->mięsna</li>
+    <li>memeConcept->mordercza</li>
+    <li>memeConcept->jedząca</li>
+	<li>memeConcept2->krwi</li>
+    <li>memeConcept2->mięsie</li>
+    <li>memeConcept2->mordowaniu</li>
+    <li>memeConcept2->jedzeniu</li>
+	<li>memeConcept3->krwi</li>
+    <li>memeConcept3->mięsa</li>
+    <li>memeConcept3->mordowania</li>
+    <li>memeConcept3>jedzenia</li>
+    <li>memeLeaderNoun->pożeracz</li>
+    <li>memeLeaderNoun->szef</li>
+    <li>memeLeaderNoun->krwiopijca</li>
+    <li>memeLeaderNoun->ząb</li>
+    <li>memeLeaderNoun->rozpruwacz</li>
+    <li>memeMoralist->pierwszy pożeracz</li>
+    <li>memeMoralist->znawca mięsa</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>TODO</Cannibal.symbolPacks.0.adjective>
+  <Cannibal.symbolPacks.0.adjective>kanibalistyczny</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>TODO</Cannibal.symbolPacks.0.ideoName>
+  <Cannibal.symbolPacks.0.ideoName>Kanibalizm</Cannibal.symbolPacks.0.ideoName>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.member>TODO</Cannibal.symbolPacks.0.member>
+  <Cannibal.symbolPacks.0.member>kanibal</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>TODO</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>kanibalizm</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.adjective>TODO</Cannibal.symbolPacks.1.adjective>
+  <Cannibal.symbolPacks.1.adjective>androfagijski</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>TODO</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>androfagia</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.member>TODO</Cannibal.symbolPacks.1.member>
+  <Cannibal.symbolPacks.1.member>androfag</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
-  <Cannibal.symbolPacks.1.theme>TODO</Cannibal.symbolPacks.1.theme>
+  <Cannibal.symbolPacks.1.theme>androfagia</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>TODO</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>ludożerczy</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>TODO</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>Ludożerczość</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>TODO</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>ludojad</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>TODO</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>ludożerczość</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
   <Darkness.label>ciemność</Darkness.label>
@@ -360,7 +412,30 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+	<li>creation(tag=meme_Darkness)        ->[deity0_name] pokry[deity_lla] wszechświat w ciemności, i umieści[deity_lla] ludzkość w niej, aby [deity0_pronoun] mia[deity_lla] sposobność cieszyść się nią razem z nimi.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] stworzy[deity_lla] światłość, by ludzie mogli ujrzeć [deity0_name] przez cienie, które rzuca światłość.</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type] [deity0_name] wywoła[deity_lla] wieloletnie zaćmienie słońca, by zmusić kolonistów na [place_summary] [place_name] by zrozumieli, że prawda [deity0_name] kryje się w cieniu.</li>
+    <li>conflict(tag=meme_Darkness)        ->[foeLeader2], który zawsze bał się ciemności, stworzył wielkie zwierciadło słoneczne, które oświetlało wszystko w [place_name].</li>
+	<li>conflict(tag=meme_Darkness)        ->[foeLeader2], który zawsze bał się ciemności, stworzył wielkie zwierciadło słoneczne, które oświetlało wszystko na [place_name2].</li>
+    <li>founderJoin(tag=meme_Darkness)     ->Prorok o imieniu [founderName] urodzi[founder_lla] się w ciemności na [place_name2], i ży[founder_lla] w ciemności całe swoje życie, więc [founder_possessive] głos przemawiał mądrością [deity0_name].</li>
+    <li>founderJoin(tag=meme_Darkness)     ->Prorok o imieniu [founderName] urodzi[founder_lla] się w ciemności w [place_name], i ży[founder_lla] w ciemności całe swoje życie, więc [founder_possessive] głos przemawiał mądrością [deity0_name].</li>
+	<li>victory(tag=meme_Darkness)         ->W ostatecznym ciosie, [memberNamePlural] odłączyli zasilanie w [place_powerCenter] i [foeSoldiers] zostali ominięci przez [founderName]. Znajdując[foeLeader3] w ciemności, [founderName] uży[founder_lla] [place_personalWeapon], aby posłać [foeLeader3] w wieczną czerń.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] ży[founder_lla] zmieszanym życiem w świetle glitterworldzkiego miasta. Podczas długiej ciemności, która zapanowała po rozbłysku słonecznym, [founder_pronoun] znalaz[founder_lla] spokój ducha, i zapisa[founder_lla] swoje wejrzenia, które przyczyniły się do stworzenia naszego ruchu.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] stworzy[founder_lla] studio, gdzie artyści pracowali w kompletnej ciemności, i stworzono tam wiele mistrzowskich dzieł.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->Spędziłem całe życie pod strawszliwym światłem. Tak długo zajęło mi zrozumienie, że</li>
+    <li>lesson(tag=meme_Darkness)              ->światło parzy, a ciemność pożywia</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->Czasami żartuję, że to był mój moment oświecenia.</li>
+    <li>archistFact(tag=meme_Darkness)     ->Archatyczni stworzyli system wanometryczny, aby mogli uciec od energi słonecznej pochodzącej z podrzędnych układów słonecznych, na rzecz spokoju w głębi kosmosu.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd], archatyczni pochłoną moc gwiazd, posyłając światy w ciemność, pozwalając ludzkości połączyć się z uniwersalną świadomością.</li>
+    <li>animistFact(tag=meme_Darkness)     ->W ciemności, duchy są spokojne i przyjazne. W świetle, są rozjuszone i bezlitosne.</li>
+    <li>animistFact(tag=meme_Darkness)     ->Dobre duchy żyją w cieniu wokół nas, spoczywając w miejscach trudnych do dostrzeżenia. Życie w ciemności przybliża je do nas.</li>
+  
+	<li>deity_lla(deity0_gender==Male)->ł<li>
+	<li>deity_lla(deity0_gender==Female)->ła<li>
+	<li>founder_lla(founder_gender==Male)->ł<li>
+	<li>founder_lla(founder_gender==Female)->ła<li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -376,7 +451,29 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+	<li>memeAdjective->ciemny</li>
+    <li>memeAdjective->zaciemniony</li>
+	<li>memeAdjective3->ciemnym</li>
+    <li>memeAdjective3->zaciemnionym</li>
+    <li>memeHyphenPrefix->ciemny</li>
+    <li>memeHyphenPrefix->zaciemniony</li>
+    <li>memeConcept->ciemna</li>
+    <li>memeConcept->zaciemniona</li>
+    <li>memeConcept->czarna</li>
+	<li>memeConcept2->ciemności</li>
+    <li>memeConcept2->zaciemnieniu</li>
+    <li>memeConcept2->czerni</li>
+	<li>memeConcept3->ciemności</li>
+    <li>memeConcept3->zaciemnienia</li>
+    <li>memeConcept3->czerni</li>
+    <li>memeLeaderNoun->osłaniacz</li>
+    <li>memeLeaderNoun->zabójca światła</li>
+    <li>memeLeaderAdjective->mroczny</li>
+    <li>memeMoralist->zasłaniacz</li>
+    <li>memeMoralist->zaciemniacz</li>
+    <li>memeMoralist->confuser</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
   <FleshPurity.label>Czystość ciała</FleshPurity.label>
@@ -400,7 +497,30 @@
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings>TODO</FleshPurity.descriptionMaker.rules.rulesStrings>
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+	<li>creation(tag=meme_FleshPurity)        ->[deity0_name] star[deity_lla] zanieczyszczenie i maszyny ery dymu, aby stworzyć ogród, gdzie [deity0_pronoun] zasadzi[deity_lla] pierwszych ludzui.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->Nieczyści, wytatuowani, poprzebijani, i zmodyfikowani zostali wrzuceni do morza przez [deity0_name].</li>
+    <li>intro(tag=meme_FleshPurity)           ->Na [place_summary2] [place_name2] stał [altarName] w [altarRoomLabel] [deity0_name], gdzie [deity0_type] błogosławi[deity_lla] ludzi o czystym ciele.</li>
+    <li>intro(tag=meme_FleshPurity)           ->W [place_summary] [place_name] stał [altarName] w [altarRoomLabel] [deity0_name], gdzie [deity0_type] błogosławi[deity_lla] ludzi o czystym ciele.</li>
+	<li>conflict(tag=meme_FleshPurity)        ->[foeSoldiers] zostali wysłani przez złowrogiego [foeLeader3], by wszczepili wszystkim urządzenia śledzące.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->[place_job2] o imieniu [founderName] protestowa[founder_lla] przeciw [foeLeader], klęczac w [place_powerCenter] i wytargując całą technologię ze swego ciała używając własnych, gołych rąk.</li>
+    <li>victory(tag=meme_FleshPurity)         ->[foeSoldiers] zostali wysłani przez [foeLeader3], aby zabić [memberNamePlural], ale moc [deity0_name] wypływała z nieskażonych ciał [memberNamePlural], przez co urządzenia, które [foeSoldiers] mieli w swoich ciałach rozsypały się w pył, i ich zabiły.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] zniszczy[founder_lla] swoje ciało implantami i narkotykami, dopóki, podczas epifanii, [founder_pronoun] nie ocali[founder_lla] siebie, poprzez wytarganie całej stali ze swego ciała.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] pouczy[founder_lla] [founder_possessive] wiernych, by wytargali ze swego ciała wszystkie brudne urządzenia.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->Pierwsza dziesiątka z moich wiernych wytargała urządzenia ze swego ciała gołymi rękoma, i w plamach krwi na ziemi niespodziewanie dostrzegłem prawdę, która nam wszystkim umknęła:</li>
+    <li>lesson(tag=meme_FleshPurity)              ->życie w skażonym ciele wcale nie jest życie ludzkim</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->To stało się takie jasne, gdy tylko wytargałem całą technologię z mego ciała, i zdarłem z siebie wytatuowaną skórę.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->Od swego początku, archatyczni wykreślili jasną granicę pomiędzy bytami organicznymi, a bytami technologicznymi, i linia ta nigdy nie powinna być przekroczona.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->Nie stajemy się bardziej jak archatyczni gdy upodabniamy się do nich fizyczną formą, ale przez oświecanie naszych umysłów w naszych czystych formach.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd], ci którzy zmienili swe ciała w chore imitacje sztucznych ciał będą straceni, a ci czystego ciała będą ocaleni.</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->Duchy żyją w różnych rzeczach, a zmieniać formę tej rzeczy znaczy zabić ducha wewnątrz.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->Łączenia ciała i maszyny niszczy ducha obu.</li>
+	
+	<li>deity_lla(deity0_gender==Male)->ł<li>
+	<li>deity_lla(deity0_gender==Female)->ła<li>
+	<li>founder_lla(founder_gender==Male)->ł<li>
+	<li>founder_lla(founder_gender==Female)->ła<li>
+  </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
@@ -414,15 +534,34 @@
     <li>memeLeaderNoun->human</li>
     <li>memeMoralist->purifier</li>
   -->
-  <FleshPurity.generalRules.rulesStrings>TODO</FleshPurity.generalRules.rulesStrings>
+  <FleshPurity.generalRules.rulesStrings>
+	<li>memeAdjective->czysty</li>
+    <li>memeAdjective->uświęcony</li>
+	<li>memeAdjective3->czystym</li>
+    <li>memeAdjective3->uświęconym</li>
+    <li>memeCreed->kult</li>
+    <li>memeCreed->sekta</li>
+    <li>memeConcept->mięsna</li>
+    <li>memeConcept->czysta</li>
+    <li>memeConcept->nieskazitelna</li>
+	<li>memeConcept2->mięsności</li>
+    <li>memeConcept2->czystości</li>
+    <li>memeConcept2->nieskazitelności</li>
+	<li>memeConcept3->mięsności</li>
+    <li>memeConcept3->czystości</li>
+    <li>memeConcept3->nieskazitelności</li>
+    <li>memeLeaderNoun->byt</li>
+    <li>memeLeaderNoun->człowiek</li>
+    <li>memeMoralist->czyściciel</li>
+  </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>TODO</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>czysty</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>TODO</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>Czystość</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>TODO</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>czyściciel</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
-  <FleshPurity.symbolPacks.0.theme>TODO</FleshPurity.symbolPacks.0.theme>
+  <FleshPurity.symbolPacks.0.theme>czystość</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
   <FleshPurity.symbolPacks.1.adjective>TODO</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
@@ -432,13 +571,13 @@
   <!-- EN: flesh -->
   <FleshPurity.symbolPacks.1.theme>TODO</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>TODO</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>święty</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>TODO</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>Świętość</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>TODO</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>święty</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>TODO</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>świętość</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
   <HighLife.label>życie na haju</HighLife.label>
