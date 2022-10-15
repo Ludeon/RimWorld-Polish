@@ -45,6 +45,8 @@
   <CannotAttackSelf>nie można zaatakować siebie</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>nie można zaatakować sojusznika frakcji</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Człowiek {1_labelShort}</OrderManThing>
@@ -74,8 +76,10 @@
   <NoMergeTarget>nie ma dostępnego stosu do połączenia</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>już wystarczająco wypełnione</AlreadyFilledLower>
-  <!-- EN: need material -->
+  <!-- EN: missing {0} -->
   <MissingMaterials>potrzebny materiał</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>poniżej wymaganej umiejętności {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,14 @@
   <MissingRequiredSkillLevel>brak wymaganego poziomu umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>zbyt częsta interakcja ze zwierzęciem</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>brak użytecznej żywności</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>brak żywności</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Brak {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -158,14 +166,22 @@
   <InstallImplantNotAllowedForNonColonists>nie jest kolonistą</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>już zainstalowano</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>maksymalny poziom</InstallImplantAlreadyMaxLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Ulepsz {0} do poziomu {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>naruszenie sojusznika frakcji</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>niesienie przez {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>TODO</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>już przypisane</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Skonsumuj: {1_labelShort}</ConsumeThing>
@@ -188,9 +204,15 @@
   <Capture>Uwięź: {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Nie można uwięzić</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>TODO</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Uratuj: {1_label}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>TODO</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Nie można uratować</CannotRescue>
 
@@ -231,6 +253,8 @@
   <Incapable>niezdolność</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>niezdolność do: {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>TODO</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>min. umiejętność</MinSkill>
@@ -261,13 +285,15 @@
   <ReloadFull>Pełne</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Zbyt mało</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
+  <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Nie można wziąć: {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Nie można wziąć: {1_label} (całość)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Weź: {1_label}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>TODO</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Weź: {1_label} (całość)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -518,5 +544,17 @@
   <RepairThing>Napraw: {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Nie można naprawić: {0}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Nie można wejść</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>TODO</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>TODO</CanRomance>
+
+  <!-- UNUSED -->
+  <PickUp>Weź: {1_label}</PickUp>
+
 </LanguageData>

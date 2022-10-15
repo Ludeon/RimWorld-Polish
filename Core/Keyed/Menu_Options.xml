@@ -1,15 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Audiowizualne</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>TODO</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Głośność gry</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>Głośność muzyki</MusicVolume>
-  <!-- EN: Ambient volume -->
+  <!-- EN: Ambience volume -->
   <AmbientVolume>Głośność otoczenia</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>TODO</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>TODO</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>TODO</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>TODO</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>TODO</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>TODO</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Wygładzane krawędzi</Antialiasing>
 
@@ -20,11 +34,11 @@
   <PauseOnLoad>Pauza po wczytaniu</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Pauza przy ważnych powiadomieniach</PauseOnUrgentLetter>
-  <!-- EN: Pause on -->
+  <!-- EN: Pause on letter -->
   <AutomaticPauseModeSetting>Pauza przy</AutomaticPauseModeSetting>
-  <!-- EN: Custom cursor -->
+  <!-- EN: Disable game-specific cursor -->
   <CustomCursor>Zastąp kursor systemowy</CustomCursor>
-  <!-- EN: Hats shown only on game map -->
+  <!-- EN: Hide hats on UI -->
   <HatsShownOnlyOnMap>Nie pokazuj nakryć głowy na kartach</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Skala interfejsu</UIScale>
@@ -32,6 +46,8 @@
   <KeyboardConfig>Konfiguracja klawiszy</KeyboardConfig>
   <!-- EN: Controller configuration -->
   <ControllerConfig>TODO</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>TODO</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Wybierz język</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -50,18 +66,26 @@
   <SimulateNotOwningRoyalty>Symuluj brak posiadania 'Royalty'</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>Symuluj brak posiadania 'Ideology'</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>TODO</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Zapis dokładnych danych</LogVerbose>
-  <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Otwórz folder zapisów gry</OpenSaveGameDataFolder>
-  <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Pokaż lokacje zapisów gry</ShowSaveGameDataLocation>
-  <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Otwórz folder plików z logami</OpenLogFileFolder>
-  <!-- EN: Show log file location -->
-  <ShowLogFileLocation>Pokaż lokacje plików z logami</ShowLogFileLocation>
-  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>TODO</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>TODO</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>TODO</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>TODO</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>TODO</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>TODO</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
   <NamesYouWantToSee>Preferowane postacie stworzone przez gracza. Te postacie będą częściej pojawiać się losowo podczas gry:</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>TODO</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Dodaj imię</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -72,11 +96,13 @@
   <ChangeStoryteller>Ustawienia narratora SI</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Autozapis co:</AutosaveInterval>
-  <!-- EN: Temperature mode -->
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>TODO</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
   <TemperatureMode>Jednostka temp.</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Pokaż czas rzeczywisty</ShowRealtimeClock>
-  <!-- EN: Disable tiny fonts -->
+  <!-- EN: Disable tiny font -->
   <DisableTinyText>TODO</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maksymalna liczba kolonii: {0}</MaxNumberOfPlayerSettlements>
@@ -96,12 +122,20 @@
   <TextureCompression>Kompresja tekstur</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Wyłączenie kompresji tekstur zużyje znacznie więcej pamięci wideo, ale sprawi, że tekstury będą wyglądać nieco lepiej w szczegółowych obszarach. Wyłącz to tylko wtedy, gdy wiesz, że masz dużo dodatkowej pamięci wideo.\n\nPamiętaj, że korzystanie z niektórych modów często zużywa znacznie więcej pamięci wideo, więc może być konieczne włączenie tej opcji, jeśli dodasz określone mody.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>TODO</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>TODO</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Rozdzielczość</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>Pełny ekran</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>TODO</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>TODO</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -110,17 +144,25 @@
   <NoConfigurableMods>Brak konfigurowalnych modów.</NoConfigurableMods>
   
   <!-- Options reset -->
-  <!-- EN: Restore to default settings -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>TODO</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
   <RestoreToDefaultSettings>Przywróć ustawienia domyślne</RestoreToDefaultSettings>
-  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Twoje ustawienia zostały zresetowane. Gra zostanie automatycznie uruchomiona ponownie.</ResetAndRestart>
-  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Wszystkie Twoje ustawienia zostaną zresetowane do wartości domyślnych, a gra zostanie uruchomiona ponownie. Wszystkie niezapisane postępy zostaną utracone!\n\nKontynuować?</ResetAndRestartConfirmationDialog>
-  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
   <ChangedTextureCompressionRestart>Zmiana opcji kompresji tekstur wymaga ponownego uruchomienia gry. Wszystkie niezapisane postępy zostaną utracone!\n\nKontynuować?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>Tło menu</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <OpenSaveGameDataFolder>Otwórz folder zapisów gry</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>Pokaż lokacje zapisów gry</ShowSaveGameDataLocation>
+  <OpenLogFileFolder>Otwórz folder plików z logami</OpenLogFileFolder>
+  <ShowLogFileLocation>Pokaż lokacje plików z logami</ShowLogFileLocation>
 
 </LanguageData>
