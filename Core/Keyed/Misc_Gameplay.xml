@@ -9,7 +9,7 @@
   <!-- EN: Contents -->
   <Contents>Materiały</Contents>
   <!-- EN: Contained resources -->
-  <ContainedResources>Zawarte zasoby</ContainedResources>
+  <ContainedResources>Zasoby</ContainedResources>
   <!-- EN: For prisoner use -->
   <ForPrisonerUse>Dla więźniów</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
@@ -526,6 +526,10 @@
   <AttackToDestroy>Zaatakuj, aby zniszczyć.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Możesz to usunąć poprzez atak.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -784,9 +788,9 @@
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Robi: {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>zarządzaj {0}</RecipeAdminister>
+  <RecipeAdminister>podaj {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Zarządza: {0}.</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Podaje: {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>abstynent będzie nieszczęśliwy</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
@@ -859,6 +863,8 @@
   <SelectNextInSquareTip>Zaznacz następny element w tym samym kwadracie.\n\n(*SectionTitle)Skrót klawiszowy:(/SectionTitle) {0}\n\nMożesz zrobić to także ponownie klikając na ten sam kwadrat po krótkim odstępie czasowym.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1009,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność samouczka, kiedy jest pusty.\n\nSamouczek jest zawsze widoczny, jeśli istnieje coś aktywnego do nauki. Ten przełącznik sprawia, że samouczek przestaje być widoczny, gdy nie ma aktywnego konceptu.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Przełącz widoczność stref.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Przełącz wskaźnik piękna.\n\nWyświetla piękno świata, które będzie postrzegane przez postać stojącą tam, gdzie wskazuje mysz.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>Przełącz wskaźnik piękna.\n\nWyświetla piękno świata, które będzie postrzegane przez postać stojącą tam, gdzie wskazuje kursor myszy.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Przełącz statystyki pomieszczeń.\n\nWyświetl statystyki pomieszczenia wskazanego przez kursor myszy.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Przełącz pasek postaci.\n\nWyświetla ikony i podstawowe informacje o postaciach u góry ekranu.\n\nMożesz zmienić kolejność kolonistów na pasku kolonistów, przeciągając prawym przyciskiem myszy.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Przełącz automatyczne rozszerzanie obszaru domu dookoła nowych konstrukcji.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1319,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Przeliczanie dla: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Prawy przycisk myszy: Dodaj/usuń punkt orientacyjny.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Opuść tryb planowania.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Powróć do okna formowania karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Przybl. czas podróży: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1506,6 +1520,8 @@
   <NotParticipating>Osoby nieuczestniczące</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Przeciągnij i upuść lub klikaj LPM/PPM.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Niewolnik. Własność ludzka innych.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
