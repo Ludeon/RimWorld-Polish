@@ -147,6 +147,12 @@
   <ReformDevelopmentPoints>Punkty potrzebne do reformy</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>zadanie</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>TODO</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>TODO</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>TODO</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Nie udało się załadować ideologii</UnableToLoadIdeoTitle>
@@ -176,9 +182,9 @@
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Ołtarz, ideogram lub dowolne miejsce rytualne.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Kula dyskotekowa lub miejsce rytualne. Kula dyskotekowa i głośniki muszą być zasilane.</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>Kula disco lub miejsce rytualne. Kula disco i głośniki muszą być zasilane.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>Kula dyskotekowa nie jest zasilana.</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>Kula disco nie jest zasilana.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
   <RitualTargetNoPoweredSpeakers>Brak zasilanych głośników.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
@@ -211,6 +217,10 @@
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} nie wierzy w ideologiczne oślepienie i nie chce być oślepiony.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} jest mięczakiem i nie chce być oślepion{PAWN_gender ? y : a}.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Każdy, kto uczestniczył w rytuale, otrzymał jednodniową premię do skupienia się na pracy (globalna prędkość pracy {PERCENTAGE})!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -432,7 +442,7 @@
   <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Użycie miejsca rytualnego spowoduje {0} redukcji bonusu nastroju dla wszystkich uczestników.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Każdy z tych</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Dowolny z tych</RitualOutcomeLabelAnyOfThese>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Zamień z</PreceptReplaceWith>
@@ -537,7 +547,7 @@
   <!-- EN: Skill -->
   <RoleRequirementSkill>Umiejętność</RoleRequirementSkill>
   <!-- EN: Any of skills -->
-  <RoleRequirementSkillAny>Każda z umiejętności</RoleRequirementSkillAny>
+  <RoleRequirementSkillAny>Dowolna z umiejętności</RoleRequirementSkillAny>
   <!-- EN: Won't use ranged weapons -->
   <RoleEffectWontUseRangedWeapons>Nie użyje broni dystansowej</RoleEffectWontUseRangedWeapons>
   <!-- EN: Won't use melee weapons -->
@@ -593,22 +603,38 @@
   <BiosculpterPodCycleLabel>Cykl</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>ładowanie składników</BiosculpterPodCycleLabelLoading>
-  <!-- EN: ready -->
-  <BiosculpterPodCycleLabelReady>gotowe</BiosculpterPodCycleLabelReady>
-  <!-- EN: Prepare {0} cycle -->
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>Przygotuj cykl {0}</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
+  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Kończy się za</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Biodostrojony do</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Cykl przerwań</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Przerwij bieżący cykl. Pasażer zostanie wyrzucony bez korzystania z efektów cyklu i będzie cierpieć na krótkotrwałą biorzeźbiarską chorobę.</BiosculpterInteruptCycleDesc>
-  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>Uwaga: nie można uruchomić cyklu odmładzania, gdy biorzeźbiarz jest dostrojony do {PAWN_labelShort}, ponieważ {PAWN_labelShort} ma mniej niż {ADULTAGE} lat.</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
   <BiosculpterLoadingStartedMessage>Gdy kapsuła biorzeźbiarza zostanie wypełniona przez {INGREDIENTS}, wybierz kolonistę i kliknij prawym przyciskiem myszy na kapsułę biorzeźbiarza lub znokautowaną osobę, aby rozpocząć cykl.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} wartości odżywczej</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -619,10 +645,12 @@
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} zakończy{PAWN_gender ? ł : ła} cykl leczenia i {PAWN_possessive} {HEDIFF_label} zostały wyleczone.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} zakończy{PAWN_gender ? ł : ła} cykl zmiany swojego wieku. Spodziewa się, że następna zmiana wieku nastąpi za {DEADLINE} dni.</BiosculpterAgeReversalCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} zakończy{PAWN_gender ? ł : ła} cykl przyjemności.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Współczynnik szybkości czyszczenia</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Następujące schorzenia zostaną wyleczone</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
