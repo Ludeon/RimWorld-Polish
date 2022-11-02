@@ -2,9 +2,12 @@
 <LanguageData>
   
   <!-- EN: animals learning factor -->
-  <AnimalsLearningFactor.label>zwierzęcy czynnik uczenia się</AnimalsLearningFactor.label>
+  <AnimalsLearningFactor.label>czynnik uczenia się (um. zwierzęce)</AnimalsLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for animals skill. -->
-  <AnimalsLearningFactor.description>Mnożnik uczenia się umiejętności zwierzęcych</AnimalsLearningFactor.description>
+  <AnimalsLearningFactor.description>Mnożnik tempa uczenia się umiejętności 'zwierzęce'.</AnimalsLearningFactor.description>
+  
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>mnożnik głodu podczas snu</BedHungerRateFactor.label>
   
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>prędkość jezdna karawany</CaravanRidingSpeedFactor.label>
@@ -14,47 +17,46 @@
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>ładowność</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>Ilość rzeczy, jaką ta istota może nosić w rękach, pysku itd. Ilość ta jest inna w przypadku przewożenia ładunków podczas podróży z karawaną.</CarryingCapacity.description>
+  <CarryingCapacity.description>Ilość rzeczy, jaką ta istota może nosić w rękach, pysku itd.\n\nTa ilość jest inna w przypadku przewożenia ładunków podczas podróży z karawaną.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Maks. komfortowa temperatura</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Koloniści będą niezadowoleni, gdy temperatura wzrośnie powyżej tej wartości. Jeżeli wzrost będzie zbyt duży, może się to skończyć udarem słonecznym i w ostateczności śmiercią.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>Koloniści będą niezadowoleni, gdy temperatura wzrośnie powyżej tej wartości.\n\nJeżeli wzrost będzie zbyt duży, może się to skończyć udarem słonecznym, a w ostateczności śmiercią.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>Min. komfortowa temperatura</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Koloniści będą niezadowoleni, gdy temperatura spadnie poniżej tej wartości. Jeżeli spadek będzie zbyt duży, może się to skończyć wyziębieniem organizmu i odmrożeniami, a w ostateczności śmiercią.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>Koloniści będą niezadowoleni, gdy temperatura spadnie poniżej tej wartości.\n\nJeżeli spadek będzie zbyt duży, może się to skończyć wyziębieniem organizmu i odmrożeniami, a w ostateczności śmiercią.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>szybkość jedzenia</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
-  <EatingSpeed.description>Określa, jak szybko ta istota potrafi jeść.</EatingSpeed.description>
+  <EatingSpeed.description>Mnożnik szybkości jedzenia.</EatingSpeed.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>częstotliwość zabrudzania</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
-  <FilthRate.description>Jak bardzo brudzi to stworzenie.\n\nNajlepiej trzymać brudzące zwierzęta na zewnątrz lub na słomianych matach, gdzie ich brud nie będzie problemem.</FilthRate.description>
+  <FilthRate.description>Jak dużo zabrudzeń wytwarza to stworzenie.\n\nNajlepiej trzymać brudzące zwierzęta na zewnątrz lub na słomianych matach, gdzie ich brud nie będzie problemem.</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>ilość zebranej żywności</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>Ilość, którą ta osoba może automatycznie zebrać w ciągu dnia podczas podróży z karawaną.</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>Ilość wartości odżywczej, którą ta osoba automatycznie zbierze w ciągu, gdy jest członkiem podróżującej karawany.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>szybkość nauki</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>Ogólny współczynnik szybkości nauki dla wszystkich umiejętności.</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>Mnożnik szybkości nauki dla wszystkich umiejętności.</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>szybkość zgłodnienia</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>Współczynnik, który określa jak szybko stworzenie stanie się głodne.</HungerRateMultiplier.description>
+  <!-- UNUSED -->
+  <HungerRateMultiplier.label>mnożnik tempa zgłodnienia</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>Mnożnik, który określa jak szybko stworzenie stanie się głodne.</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>szybkość wzrostu odporności</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Szybkość, z jaką postać zyskuje odporność na choroby. Jeśli jest zbyt niska, postać nie zdąży wypracować sobie odporności podczas choroby i umrze.</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>Szybkość, z jaką postać zyskuje odporność na choroby.\n\nJeśli ta wartość jest zbyt niska, postać nie zdąży wypracować sobie odporności podczas choroby i umrze.</ImmunityGainSpeed.description>
   
   <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>czynnik leczenia obrażeń</InjuryHealingFactor.label>
@@ -64,17 +66,36 @@
   <!-- EN: leather amount -->
   <LeatherAmount.label>ilość skóry</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>Ilość, jaką uzyskasz po zabiciu tego stworzenia.</LeatherAmount.description>
+  <LeatherAmount.description>Ilość skóry, jaką uzyskasz po zabiciu tego stworzenia. Ta wartość jest zredukowana, jeśli stworzenie nie zostanie ubite w czysty sposób lub jeśli zostanie zranione po zabiciu.</LeatherAmount.description>
+  
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>czynnik długości życia</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>Współczynnik długości życia zmienia efektywną długość życia stworzenia, skracając lub wydłużając czas do wystąpienia chorób związanych z wiekiem. Współczynnik długości życia powyżej 100% opóźnia wystąpienie choroby i zwiększa ogólną długość życia, podczas gdy współczynnik długości życia poniżej 100% przyspiesza wystąpienie choroby i zmniejsza długość życia.</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>maksymalne odżywienie</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>Ilość pożywienia potrzebna do całkowitego wypełnienia żołądka tego stworzenia.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>ilość mięsa</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>Ilość, jaką uzyskasz po zabiciu tego stworzenia.</MeatAmount.description>
+  <MeatAmount.description>Ilość mięsa, jaką uzyskasz po zabiciu tego stworzenia.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>przyrost skupienia psychicznego od medytacji</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>Ilość skupienia psychicznego, którą osoba zyskuje na dzień medytacji, ignorując bonusy z przedmiotów skupiających.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / day</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / day</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>próg poziomu załamania</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>Jeśli nastrój tej osoby pozostaje poniżej tej wartości, kolonista może się załamać. Nasilenie załamania będzie zależeć od tego, jak bardzo wartość nastroju jest poniżej progu poziomu załamania.</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>Jeśli nastrój jakiejś osoby pozostaje poniżej tej wartości, istnieje niebezpieczeństwo, że kolonista dozna załamania psychicznego.\n\nNasilenie załamania będzie zależeć od tego, jak bardzo wartość nastroju jest poniżej progu poziomu załamania.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
   <MinimumHandlingSkill.label>min. poziom umiejętności tresera</MinimumHandlingSkill.label>
@@ -86,26 +107,47 @@
   <!-- EN: Speed of movement in cells per second. -->
   <MoveSpeed.description>Prędkość poruszania się określona w polach na sekundę.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
-  <MoveSpeed.formatString>{0} pól/sek</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0} pól/s</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
-  <PainShockThreshold.label>próg bólu</PainShockThreshold.label>
+  <PainShockThreshold.label>próg szoku bólowego</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>Próg po którym to stworzenie będzie nieprzytomne z powodu bólu.</PainShockThreshold.description>
+  <PainShockThreshold.description>Próg bólu po którym to stworzenie będzie znokautowane z powodu bólu.</PainShockThreshold.description>
+  
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>limit ciepła neuronów</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>Maksymalna ilość ciepła neuronów, którą osobnik może bezpiecznie tolerować.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>częstotliwość rozpraszania ciepła neuronów</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>Tempo, w jakim ta osoba redukuje ciepło neuronowe.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>podatność PSI</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>Współczynnik zagrożenia zdrowia psychicznego tej osoby. Wrażliwsi ludzie cierpią bardziej z powodu negatywnych efektów psychicznych i odnoszą więcej korzyści z pozytywnych. Wyższa wrażliwość psychiczna zwiększa również granicę ciepła neuronowego.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>Wrażliwsi ludzie cierpią bardziej z powodu negatywnych efektów psychicznych i odnoszą więcej korzyści z pozytywnych. Wyższa podatność psychiczna zwiększa również granicę ciepła neuronowego.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>szybkość odpoczynku</RestRateMultiplier.label>
+  <RestRateMultiplier.label>mnożnik szybkości odpoczynku</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Mnożnik szybkości z jaką stworzenie wypoczywa podczas snu.</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>odporność na skażenie środowiska</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>TJak bardzo to stworzenie jest odporne na działanie toksyn środowiskowych. Chroni to przed toksycznym gazem, gnijącym smrodem, toksycznym opadem i zanieczyszczonym terenem, ale nie przed bezpośrednimi atakami jadem lub wstrzykniętą trucizną. Gdy wartość ta jest wyższa, ekspozycja na zanieczyszczenia powoduje proporcjonalnie mniejsze nagromadzenie toksyn w organizmie.</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>odporność na toksyny</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>Jak dobrze to stworzenie jest odporne na gromadzenie się toksyn.</ToxicResistance.description>
+  
+  <!-- UNUSED -->
   <ToxicSensitivity.label>podatność na toksyny</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>Mnożnik wpływu toksyn na to stworzenie.</ToxicSensitivity.description>
   
 </LanguageData>

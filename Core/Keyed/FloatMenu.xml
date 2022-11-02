@@ -28,7 +28,7 @@
   <!-- EN: out of range -->
   <OutOfRange>poza zasięgiem</OutOfRange>
   <!-- EN: too close -->
-  <TooClose>zbyt blisko</TooClose>
+  <TooClose>za blisko</TooClose>
   <!-- EN: Cannot hit target -->
   <CannotHitTarget>Nie można trafić w cel</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
@@ -42,9 +42,11 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
-  <CannotAttackSelf>nie można atakować siebie</CannotAttackSelf>
+  <CannotAttackSelf>nie można zaatakować siebie</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
-  <CannotAttackSameFactionMember>nie może atakować sojusznika frakcji</CannotAttackSameFactionMember>
+  <CannotAttackSameFactionMember>nie można zaatakować sojusznika frakcji</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>Niezdolny do gaszenia pożarów</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Człowiek {1_labelShort}</OrderManThing>
@@ -56,7 +58,7 @@
   <!-- EN: no path -->
   <NoPath>brak dojścia</NoPath>
   <!-- EN: burying -->
-  <Burying>zagrzebanie</Burying>
+  <Burying>pochówek</Burying>
   <!-- EN: designated for {0} -->
   <DesignatedFor>wyznaczone dla: {0}</DesignatedFor>
 
@@ -73,17 +75,11 @@
   <!-- EN: no stack available to merge into -->
   <NoMergeTarget>nie ma dostępnego stosu do połączenia</NoMergeTarget>
   <!-- EN: already filled enough -->
-<<<<<<< Updated upstream
-  <AlreadyFilledLower>już wypełniono</AlreadyFilledLower>
-  <!-- EN: need material -->
-  <MissingMaterials>potrzebny materiał</MissingMaterials>
-=======
   <AlreadyFilledLower>już wystarczająco wypełnione</AlreadyFilledLower>
   <!-- EN: missing {0} -->
   <MissingMaterials>potrzebny materiał</MissingMaterials>`
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
   <NoMedicineMatchingCategory>Brak leku na ograniczenie '{CATEGORY}'</NoMedicineMatchingCategory>
->>>>>>> Stashed changes
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>poniżej wymaganej umiejętności {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -96,10 +92,14 @@
   <MissingRequiredSkillLevel>brak wymaganego poziomu umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>zbyt częsta interakcja ze zwierzęciem</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>niedawno miała miejsce interakcja</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>brak użytecznej żywności</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>brak żywności</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>brak ograniczeń w dopasowywaniu żywności</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Brak {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -113,15 +113,15 @@
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>zwierzę jest zajęte</CantInteractAnimalBusy>
   <!-- EN: no allowed reachable pens -->
-  <CantRopeAnimalNoUsableReachablePens>brak dostępnej zagrody</CantRopeAnimalNoUsableReachablePens>
+  <CantRopeAnimalNoUsableReachablePens>brak dozwolonych, osiągalnych zagród</CantRopeAnimalNoUsableReachablePens>
   <!-- EN: no enclosed pens -->
-  <CantRopeAnimalNoEnclosedPens>brak zamkniętej zagrody</CantRopeAnimalNoEnclosedPens>
+  <CantRopeAnimalNoEnclosedPens>brak zamkniętych zagród</CantRopeAnimalNoEnclosedPens>
   <!-- EN: no allowed pens -->
-  <CantRopeAnimalNoAllowedPens>brak dostępnej zagrody</CantRopeAnimalNoAllowedPens>
+  <CantRopeAnimalNoAllowedPens>brak dostępnych zagród</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
-  <CantRopeAnimalNoReachablePens>brak osiągalnej zagrody</CantRopeAnimalNoReachablePens>
+  <CantRopeAnimalNoReachablePens>brak osiągalnych zagród</CantRopeAnimalNoReachablePens>
   <!-- EN: can't touch -->
-  <CantRopeAnimalCantTouch>nie mogę dotknąć</CantRopeAnimalCantTouch>
+  <CantRopeAnimalCantTouch>nie może dotknąć</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>brak miejsca w zagrodzie</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
@@ -133,7 +133,7 @@
   <!-- EN: need components -->
   <NoComponentsToRepair>wymaga komponentów</NoComponentsToRepair>
   <!-- EN: need {0} -->
-  <NoFuelToRefuel>potrzeba: {0}</NoFuelToRefuel>
+  <NoFuelToRefuel>potrzebne {0}</NoFuelToRefuel>
   <!-- EN: need wort -->
   <NoWort>potrzebna brzeczka</NoWort>
   <!-- EN: available food is in storage of higher priority -->
@@ -147,7 +147,7 @@
   <!-- EN: cannot reach -->
   <CannotReach>nieosiągalne</CannotReach>
   <!-- EN: not ready for surgery -->
-  <NotSurgeryReady>nie gotowy do operacji</NotSurgeryReady>
+  <NotSurgeryReady>brak gotowości do operacji</NotSurgeryReady>
   <!-- EN: skill incapable -->
   <SkillDisabled>niezdolność do umiejętności</SkillDisabled>
   <!-- EN: too bright -->
@@ -166,14 +166,24 @@
   <InstallImplantNotAllowedForNonColonists>nie jest kolonistą</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>już zainstalowano</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>wymagania obecnego</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>maksymalny poziom</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>wymaga minimalnego poziomu {0}</InstallImplantMinLevel><!-- text_todo -->
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>głucha psychika</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Ulepsz {0} do poziomu {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>naruszenie sojusznika frakcji</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
-  <BeingCarriedBy>noszony przez {0_labelShort}</BeingCarriedBy>
+  <BeingCarriedBy>niesienie przez {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>pełny</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>już przypisane</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Skonsumuj: {1_labelShort}</ConsumeThing>
@@ -196,9 +206,15 @@
   <Capture>Uwięź: {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Nie można uwięzić</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>niezachwiana lojalność</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Uratuj: {1_label}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>Umieść {1_label} w bezpiecznym miejscu</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>Przenosi {0_labelShort} do łóżka.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Nie można uratować</CannotRescue>
 
@@ -215,7 +231,7 @@
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>Nie dozwolone dla tymczasowych członków frakcji.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>Nie dozwolone dla więźniów</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>Nie dozwolone dla więźniów.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>Już zajęta</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
@@ -223,13 +239,13 @@
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>Brak osiągalnego, wolnego, zwykłego łóżka w bezpiecznej temperaturze.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>Brak osiągalnego, wolnego zwierzęcego legowiska w bezpiecznej temperaturze.</NoAnimalBed>
+  <NoAnimalBed>Brak osiągalnego, wolnego, zwierzęcego legowiska w bezpiecznej temperaturze.</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Zarezerwowane przez kogoś innego.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
   <ReservedBy>Zarezerwowane przez: {1_labelShort}</ReservedBy>
   <!-- EN: {0} is reserved by {1}. -->
-  <IsReservedBy>{0} jest zarezerwowane przez {1}.</IsReservedBy>
+  <IsReservedBy>{0} jest zarezerwowane przez: {1}.</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Za ciężkie</TooHeavy>
   <!-- EN: {0_labelShort} is in the same faction. -->
@@ -239,6 +255,8 @@
   <Incapable>niezdolność</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>niezdolność do: {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>Musi mieć {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>min. umiejętność</MinSkill>
@@ -253,11 +271,11 @@
   <CannotManThing>Nie można obsłużyć: {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Zmuś do założenia: {1_labelShort}</ForceWear>
+  <ForceWear>Wymuś założenie: {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Zmuś do wyposażenia: {1_labelShort}</ForceEquipApparel>
+  <ForceEquipApparel>Wymuś wyposażenie: {1_labelShort}</ForceEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Nie można wyposażyć: {1_label}</CannotEquipApparel>
   <!-- EN: missing body parts -->
@@ -266,20 +284,22 @@
   <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
   <Reload>Przeładuj: {GEAR_labelShort} za pomocą - {AMMO_label}</Reload>
   <!-- EN: Full -->
-  <ReloadFull>Pełny</ReloadFull>
+  <ReloadFull>Pełne</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Zbyt mało</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>Nie można unieść odpowiedniej ilości {AMMO_label}, aby przeładować 1 ładunek.</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
+  <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Nie można wziąć: {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Nie można wziąć: {1_label} (całość)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Weź: {1_label}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>Weź {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Weź: {1_label} (całość)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
-  <PickUpSome>Weź: {1_labelShort}</PickUpSome>
+  <PickUpSome>Weź: {1_labelShort}...</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Weź: {1_labelShort} x{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
@@ -351,7 +371,7 @@
   <Drop>Upuść: {1_label}</Drop>
 
   <!-- EN: Rest until healed -->
-  <UseMedicalBed>Odpoczywaj, aż wyzdrowiejesz</UseMedicalBed>
+  <UseMedicalBed>Odpoczywaj, aż do wyzdrowienia</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>nie posiada ran</NotInjured>
   <!-- EN: occupied by {0} -->
@@ -401,7 +421,7 @@
   <CannotGenericWorkCustom>Nie można wykonać: {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: Incapable of {0} -->
-  <CannotMissingHealthActivities>Nie można prioryzować, niezdolność do: {0}.</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Nie można prioryzować, niezdolność do: {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -410,7 +430,7 @@
   <CannotGenericAlreadyAmCustom>Już prioryzowano {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Nie można prioryzować, nigdy nie wykona: {0}.</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>Nie można prioryzować, nigdy nie wykona: {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>Brak niezbędnego tytułu</MissingTitleAbility>
 
@@ -430,7 +450,7 @@
   <CannotPrioritizeResearch>Nie można prioryzować: Badania są zadaniem długoterminowym</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>Nie można prioryzować: {1_label} - oznaczono jako zakazane.</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Nie można prioryzować: {1_label} - oznaczono jako zakazane</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Nie można prioryzować: Zakazane</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -443,23 +463,23 @@
   <PrioritizeGeneric>Prioryzuj {0}: {1}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
-  <DropAtEdge>Upuść na skraju</DropAtEdge>
+  <DropAtEdge>Upuść na krawędzi</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>Upuść na środku</DropInCenter>
   <!-- EN: Attack {0} -->
   <AttackShuttle>Zaatakuj: {0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>Zaatakuj: {0} - Upuść na skraju</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Zaatakuj: {0} - Upuść na krawędzi</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
   <AttackAndDropInCenter>Zaatakuj: {0} - Upuść na środku</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>wymiotuje</VomitingLower>
   <!-- EN: not interruptible -->
-  <NotInterruptibleLower>nie można przerwać</NotInterruptibleLower>
+  <NotInterruptibleLower>nieprzerywalne</NotInterruptibleLower>
   
   <!-- EN: Add a new waypoint here -->
-  <AddWaypoint>Dodaj nowy punkt orientacyjny</AddWaypoint>
+  <AddWaypoint>Dodaj tu nowy punkt orientacyjny</AddWaypoint>
   <!-- EN: Remove this waypoint -->
   <RemoveWaypoint>Usuń ten punkt orientacyjny</RemoveWaypoint>
 
@@ -480,7 +500,7 @@
   <!-- EN: The contents will be lost -->
   <TransportPodsContentsWillBeLost>Zawartość zostanie utracona</TransportPodsContentsWillBeLost>
   <!-- EN: Form caravan here -->
-  <FormCaravanHere>Uformuj karawanę tutaj</FormCaravanHere>
+  <FormCaravanHere>Uformuj tutaj karawanę</FormCaravanHere>
   <!-- EN: Give to {0} -->
   <GiveToCaravan>Wręcz: {0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
@@ -498,18 +518,18 @@
   <ApplyTechprint>zatwierdź {0}</ApplyTechprint>
 
   <!-- EN: Too dangerous -->
-  <EnterCooldownBlocksEntering>Zbyt niebezpieczne</EnterCooldownBlocksEntering>
+  <EnterCooldownBlocksEntering>Zbyt niebezpiecznie</EnterCooldownBlocksEntering>
 
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
-  <NoCommsTarget>Brak wezwania</NoCommsTarget>
+  <NoCommsTarget>Brak osób do wezwania</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
   <Invoke>Wywołaj: {0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
   <CannotInvoke>Nie można wywołać: {0}</CannotInvoke>
   <!-- EN: power -->
-  <Power>Moc</Power>
+  <Power>moc</Power>
   <!-- EN: already invoked -->
   <AlreadyInvoked>już wywołano</AlreadyInvoked>
 
@@ -526,5 +546,14 @@
   <RepairThing>Napraw: {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Nie można naprawić: {0}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Nie można wejść</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>Nie może romansować</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>Romans</CanRomance>
+
 </LanguageData>
