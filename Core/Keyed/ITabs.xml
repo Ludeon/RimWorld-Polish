@@ -50,6 +50,8 @@
   <TabTransporterContents>Zawartość</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Zawartość</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>Automatyczne wycinanie</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Osoba uznana za winną (wygasa za {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Osoba uznana za winną</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>Ostatnia redukcja oporu</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>Określa o ile opór {0_nameDef} został zmniejszony o {1}, gdy {0_pronoun} był poddany próbie rekrutacji.</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>Opinia osoby rekrutującej</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>Możliwości negocjacyjne osoby rekrutującej</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>Niezachwiana lojalność</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>Ten więzień wykazuje się niezachwianą lojalnością wobec swojego domu i to tak mocną, że nie ma szans na rekrutację.</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>Ich lojalność rozciąga się na ich przekonania, więc nie można ich nawrócić.</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,9 +187,9 @@
   <WontBleedOutSoon>aktualnie brak zagrożenia</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Podgląd</HealthOverview>
-  <!-- EN: Operations ({0}) -->
+  <!-- EN: Operations -->
   <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>interakcje społeczne</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Głód</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>Konsumpcja jedzenia</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Zmęczenie</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Niezbędne wymagania: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(brak relacji)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Porwany(a)</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -250,12 +269,12 @@
   <!-- EN: Missing -->
   <Missing>Zaginiony(a)</Missing>
   <!-- EN: Slave -->
-  <Slave>Niewolnik</Slave>
+  <Slave>niewolnik</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Lider frakcji</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>Opinia {1_labelShort} o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Nie żyję</IAmDead>
@@ -276,12 +295,12 @@
   <!-- EN: Heat -->
   <ArmorHeat>Cieplne</ArmorHeat>
   
-  <!-- Log tab --> <!-- *EN: Odpowiednia długość, nie zmieniać -->
-  <!-- *EN: Show all -->
+  <!-- Log tab -->
+  <!-- EN: Show all -->
   <ShowAll>Wszystko</ShowAll>
-  <!-- *EN: Show combat -->
+  <!-- EN: Show combat -->
   <ShowCombat>Bitewne</ShowCombat>
-  <!-- *EN: Show social -->
+  <!-- EN: Show social -->
   <ShowSocial>Towarzyskie</ShowSocial>
   <!-- EN: no recent entries -->
   <NoRecentEntries>brak ostatnich wpisów</NoRecentEntries>
@@ -398,7 +417,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>Zagroda nie jest zamknięta</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>Zagroda nie jest teraz zamknięta, więc auto-wycinka nie będzie miała miejsca.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>Automatyczne wycinanie roślin blokujących turbinę wiatrową</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

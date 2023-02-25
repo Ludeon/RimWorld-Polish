@@ -26,7 +26,7 @@
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>Następujący koloniści leżą obezwładnieni na ziemi:\n\n{0}\nWyślij kogoś, aby przeniósł ich do łóżek i uratował im życie.\n\n(Aby uratować, wybierz innego kolonistę, następnie kliknij prawym przyciskiem myszy na ofierze i wybierz opcje "Uratuj".)</ColonistsNeedRescueDesc>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>TODO</ColonistsNeedRescueDescController>
+  <ColonistsNeedRescueDescController>Następujący koloniści leżą obezwładnieni na ziemi:\n\n{0}\nWyślij kogoś, aby przeniósł ich do łóżek i uratował im życie.\n\n(Aby uratować, wybierz innego kolonistę, następnie kliknij lewym przyciskiem myszy na ofierze i wybierz "Uratuj".)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Potrzebne struktury obronne</NeedDefenses>
@@ -72,7 +72,7 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Myśliwi nie mają broni dystansowej</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
   <HunterLacksWeaponDesc>Jeden lub więcej kolonistów przydzielonych na myśliwego nie nosi przy sobie broni zasięgowej.\n\nMyśliwi nie będą polować, jeśli nie są w nią wyposażeni.</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
@@ -130,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Potrzebne akumulatory</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
   <NeedBatteriesDesc>Masz generator słoneczny lub turbinę wiatrową, ale nie posiadasz baterii. Oznacza to, że tracisz energię za każdym razem, gdy zachodzi słońce lub przestaje wiać.\n\nZbuduj jedną lub dwie baterie, aby przechowywać energię.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>Zbuduj jedną lub dwie baterie, aby zapewnić sobie ciągłość zasilania.</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>Odkryj baterie i postaw z dwie, aby zapewnić sobie ciągłość zasilania.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Zadziora ma broń dystansową</BrawlerHasRangedWeapon>
@@ -158,12 +162,12 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>Te karawany czekają na ustawienie następnego miejsca docelowego:\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
+  <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Koloniści potrzebują leczenia</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Następujący koloniści potrzebują leczenia:\n\n{0}\nBez opieki medycznej rany mogą okazać się śmiertelne lub nieodwracalne.\nZacznij leczenie, wysyłając ich do łóżka medycznego.\n\n(Najpierw zmień oznaczenie łóżka na medyczne, następnie wybierz rannego kolonistę i naciśnij prawym przyciskiem myszy na łóżko medyczne.)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>TODO</ColonistNeedsTreatmentDescController>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>Następujący koloniści potrzebują leczenia:\n\n{0}\nBez opieki medycznej rany mogą okazać się śmiertelne lub nieodwracalne.\nZacznij leczenie, wysyłając ich do łóżka medycznego.\n\n(Najpierw zmień oznaczenie łóżka na medyczne, następnie wybierz rannego kolonistę i naciśnij lewym przyciskiem myszy na łóżko medyczne.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
@@ -191,6 +195,16 @@
   <BilliardsNeedsSpace>Bilard wymaga więcej przestrzeni</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Jeden z Twoich stołów bilardowych stoi obok przeszkody, która uniemożliwia kolonistom na korzystanie z niego.\n\nStół do bilarda potrzebuje wolnej przestrzeni ze wszystkich stron, aby można było z niego korzystać.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>Stolik szachowy potrzebuje krzeseł</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>Przy jednym ze stołów szachowych nie ma krzeseł postawionych naprzeciwkie siebie.\n\nPostaw te krzesła lub stołki, aby umożliwić kolonistom korzystanie ze stołu szachowego. Przy stole szachowym mogą siedzieć jednocześnie maksymalnie dwie osoby.</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>Stół do pokera potrzebuje krzeseł</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>Przy jednym ze stołów do pokera nie ma krzeseł postawionych obok siebie.\n\nPostaw te krzesła lub stołki, aby umożliwić kolonistom korzystanie ze stołu do pokera. Przy stole do pokera może siedzieć jednocześnie maksymalnie osiem osób.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Łowca ma osłonę i broń zasięgową</HunterHasShieldAndRangedWeapon>
@@ -315,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>Wykopane drzewa ({0}) umrą w mniej niż jeden dzień. To sprawi że niektórzy koloniści będą nieszczęśliwi z powodu swoich przekonań.\n\nMożesz temu zapobiec, przesadzając je.</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>Potrzeba stołu badawczego</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>Masz rozpoczęty projekt badawczy '{0}'. Trzeba postawić {1}.</NeedResearchBenchDesc>
+  
 </LanguageData>
