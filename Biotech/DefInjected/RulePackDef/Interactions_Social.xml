@@ -1,48 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Child lesson taking/teaching -->
-
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.0>teach_adverb->calmly</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.0>
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.1>teach_adverb->animatedly</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.1>
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.2>teach_adverb->intently</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.2>
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.3>teach_adverb->quickly</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.3>
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.4>teach_adverb->lightheartedly</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.4>
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings.5>teach_adverb->carefully</LessonInteractionTeachingAdverbs.rulePack.rulesStrings.5>
-
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings.0>teach_verb->demonstrated</LessonInteractionTeachingVerbs.rulePack.rulesStrings.0>
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings.1>teach_verb->explained</LessonInteractionTeachingVerbs.rulePack.rulesStrings.1>
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings.2>teach_verb->showed</LessonInteractionTeachingVerbs.rulePack.rulesStrings.2>
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings.3>teach_verb->taught</LessonInteractionTeachingVerbs.rulePack.rulesStrings.3>
-
-  <LessonInteractionCommonSituations.rulePack.rulesStrings.0>situation(p=2)->safely</LessonInteractionCommonSituations.rulePack.rulesStrings.0>
-  <LessonInteractionCommonSituations.rulePack.rulesStrings.1>situation->at night</LessonInteractionCommonSituations.rulePack.rulesStrings.1>
-  <LessonInteractionCommonSituations.rulePack.rulesStrings.2>situation->in the cold</LessonInteractionCommonSituations.rulePack.rulesStrings.2>
-  <LessonInteractionCommonSituations.rulePack.rulesStrings.3>situation->while injured</LessonInteractionCommonSituations.rulePack.rulesStrings.3>
-  <LessonInteractionCommonSituations.rulePack.rulesStrings.4>situation(p=0.2)->while drunk</LessonInteractionCommonSituations.rulePack.rulesStrings.4>
-
-  <LessonInteractionHowTo.rulePack.rulesStrings.0>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</LessonInteractionHowTo.rulePack.rulesStrings.0>
-  <LessonInteractionHowTo.rulePack.rulesStrings.1>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</LessonInteractionHowTo.rulePack.rulesStrings.1>
-
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.0>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.0>
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.1>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.1>
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.2>talk_verb->talked about</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.2>
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.3>talk_verb->gave an overview of</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.3>
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.4>talk_verb->gave a summary of</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.4>
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings.5>talk_verb->lectured about</LessonInteractionTeachSubjectTo.rulePack.rulesStrings.5>
-
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.0>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</LessonInteractionStudySubjectWith.rulePack.rulesStrings.0>
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.1>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</LessonInteractionStudySubjectWith.rulePack.rulesStrings.1>
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.2>study_verb->covered</LessonInteractionStudySubjectWith.rulePack.rulesStrings.2>
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.3>study_verb->went over</LessonInteractionStudySubjectWith.rulePack.rulesStrings.3>
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.4>study_verb->researched</LessonInteractionStudySubjectWith.rulePack.rulesStrings.4>
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings.5>study_verb->studied</LessonInteractionStudySubjectWith.rulePack.rulesStrings.5>
-
-  <LessonInteractionQuiz.rulePack.rulesStrings.0>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</LessonInteractionQuiz.rulePack.rulesStrings.0>
-  <LessonInteractionQuiz.rulePack.rulesStrings.1>teach_test->quizzed</LessonInteractionQuiz.rulePack.rulesStrings.1>
-  <LessonInteractionQuiz.rulePack.rulesStrings.2>teach_test->tested</LessonInteractionQuiz.rulePack.rulesStrings.2>
-  <LessonInteractionQuiz.rulePack.rulesStrings.3>teach_test->grilled</LessonInteractionQuiz.rulePack.rulesStrings.3>
-  <LessonInteractionQuiz.rulePack.rulesStrings.4>teach_test->cross-examined</LessonInteractionQuiz.rulePack.rulesStrings.4>
-
-
+  
+  <!-- EN:
+    <li>situation(p=2)->safely</li>
+    <li>situation->at night</li>
+    <li>situation->in the cold</li>
+    <li>situation->while injured</li>
+    <li>situation(p=0.2)->while drunk</li>
+  -->
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>TODO</LessonInteractionCommonSituations.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+  -->
+  <LessonInteractionHowTo.rulePack.rulesStrings>TODO</LessonInteractionHowTo.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->quizzed</li>
+    <li>teach_test->tested</li>
+    <li>teach_test->grilled</li>
+    <li>teach_test->cross-examined</li>
+  -->
+  <LessonInteractionQuiz.rulePack.rulesStrings>TODO</LessonInteractionQuiz.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>study_verb->covered</li>
+    <li>study_verb->went over</li>
+    <li>study_verb->researched</li>
+    <li>study_verb->studied</li>
+  -->
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>TODO</LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_adverb->calmly</li>
+    <li>teach_adverb->animatedly</li>
+    <li>teach_adverb->intently</li>
+    <li>teach_adverb->quickly</li>
+    <li>teach_adverb->lightheartedly</li>
+    <li>teach_adverb->carefully</li>
+  -->
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_verb->demonstrated</li>
+    <li>teach_verb->explained</li>
+    <li>teach_verb->showed</li>
+    <li>teach_verb->taught</li>
+  -->
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>talk_verb->talked about</li>
+    <li>talk_verb->gave an overview of</li>
+    <li>talk_verb->gave a summary of</li>
+    <li>talk_verb->lectured about</li>
+  -->
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>TODO</LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  
 </LanguageData>
