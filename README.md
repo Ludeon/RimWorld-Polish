@@ -1,5 +1,6 @@
 # Team
 Używamy Discorda do współpracy. Aby nam pomóc kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje i uzyskasz ewentualną pomoc.
+Do koordynowania pracy wykorzystujemy Trello: https://trello.com/w/rwtpl
 
 # Polish translation for RimWorld 1.4.  
 Pobierz aktualną wersję tłumaczenia:  
@@ -12,14 +13,15 @@ Wskazówki ogólne:
   
 Co tłumaczyć:  
 * Pliki skryptów takie jak Tale, RulePack czy Scripts używane do tworzenia randomizowanych historii.
-* Dodatek Biotech.
+* DLC, przede wszystkim Biotech.
+* Robić proofreading.
 
 # Rzeczy wymagające dopracowania:  
 * Przede wszystkim rzeczy wymienione na górze, tj. pliki zaczynające się od Script, Tale lub RulePack.
     Odpowiedzialne za generowanie questów czy nazw, są skomplikowane w edycji i trudne w sprawdzaniu.
 * Pozostałe pliki, zwłaszcza te duże w stylu Backstories.xml, potrzebują poprawek i weryfikacji, tak by było po polsku, nie polskiemu ;)
 
-# Contributors
+# Contributors / Zasłużeni
 * Arczi008TV
 * ByJacob
 * R4nd0m24
