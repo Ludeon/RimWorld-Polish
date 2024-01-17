@@ -80,19 +80,6 @@ Thrumbo
 * kamizelka kuloodporna (vestplate)  
 * kapelusz kowbojski (cowboyhat)  
 * kapsuła hibernacyjna (cryptosleepcasket)  
-* karabin (survivalrifle)  
-* karabin energetyczny (chargerifle)  
-* karabin snajperski (sniperrifle)  
-* karabin szturmowy (assaultrifle)  
-* konsola łączności (commsconsole)  
-* koszula (collarshirt)  
-* krótki łuk (bow_short)  
-* kuchenka elektryczna  
-* kurtka (jacket)  
-* lekki karabin maszynowy (lmg)  
-* lekki pistolet maszynowy (heavysmg)  
-* monitor funkcji życiowych (vitalsmonitor)  
-* maczuga (club)  
 * multianalizer (Multi-analizer)
 * nadajnik handlu orbitalnego (orbitaltradebeacon)  
 * neurotrener (neurotrainer)  
@@ -109,12 +96,10 @@ Thrumbo
 * podkoszulek (basicshirt)  
 * przetwórnia metalu  
 * reaktor antymaterii (shipreactor)  
-* spodnie (pants)  
 * strzelba powtarzalna (pumpshotgun)  
 * superapteczka  
 * przełącznik (switch)  
 * tarcze energetyczne (personalshields)  
-* włócznia (spear)  
 * wyrzutnia zapalająca (incendiarylauncher)  
 * zestaw do szycia  
 * wiertnica głębinowa (deep drill)  
