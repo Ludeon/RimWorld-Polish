@@ -33,7 +33,38 @@
     <li>fromof->from</li>
     <li>fromof->of</li>
   -->
-  <Combat_ExplosionImpact.rulePack.rulesStrings>TODO</Combat_ExplosionImpact.rulePack.rulesStrings>
+  <Combat_ExplosionImpact.rulePack.rulesStrings>
+    <li>prefix->[blast] [fromof] [INITIATOR_definite] [projectile]</li>
+    <li>prefix->[blast] [fromof] [INITIATOR_definite] [WEAPON_label]</li>
+    <li>prefix->[blast] [fromof] [INITIATOR_definite] [projectile]</li>
+    <li>prefix->[blast] [fromof] [INITIATOR_definite] [WEAPON_label]</li>
+    <li>prefix->[INITIATOR_definite] [blast]</li>
+    <li>prefix->[INITIATOR_definite] [projectile] [blast]</li>
+    <li>prefix->[INITIATOR_definite] [WEAPON_label] [blast]</li>
+    <li>prefix->[INITIATOR_definite] [projectile]</li>
+    <li>prefix->[INITIATOR_definite] [WEAPON_label]</li>
+    <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [strikeAdv] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [strikeAdv] [damaged_targets] [RECIPIENT_definite] .</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
+    <li>r_logentry->[RECIPIENT_definite] został{RECIPIENT_gender ? : a} [damaged_past] przez [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] został{RECIPIENT_gender ? : a} [strikeAdv] [damaged_past] przez [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] został{RECIPIENT_gender ? : a} [damaged_past].</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] został{RECIPIENT_gender ? : a} trafion{RECIPIENT_gender ? : y} przez falę uderzeniową.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] został{RECIPIENT_gender ? : a} zranion{RECIPIENT_gender ? y : a} przez eksplozję.</li>
+    <li>blast->eksplozja</li>
+    <li>blast->uderzenie</li>
+    <li>blast->fala uderzeniowa</li>
+    <li>blast->detonacja</li>
+    <li>blast->wybuch</li>
+    <li>blast->fala</li>
+    <li>fromof->wywołana przez</li>
+    <li>fromof->stworzona przez</li>
+  </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
