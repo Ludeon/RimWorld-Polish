@@ -1,7 +1,7 @@
-Przetłumaczony (Oryginalny)
-  
-  
-#Wyrazy których nie tłumaczymy (ewentualnie dajemy końcówki polskie)
+
+[Przetłumaczony (Oryginalny)]
+    
+# Wyrazy których nie tłumaczymy (ewentualnie dajemy końcówki polskie)
 RimWorld {Oraz wszelkie DLC}
 Glitterworld  
 Royalty  
@@ -9,7 +9,7 @@ Mechanoid
 Marine, Marines  
 Thrumbo
   
-#Ogólne  
+# Ogólne  
 * tryb bojowy (draft)  
 * przydział (assign)  
 * wyznacz (designate)  
@@ -129,8 +129,8 @@ Thrumbo
 * świecący kokon (glow pod)  
 
 # Zwierzęta i inne stworzenia  
-* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
-                            jakiegokolwiek stworzenia.
+* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, przypominająca w swojej obecnej formie,
+                            bardziej superkomputer rozmiarów planety.
                             W gruncie rzeczy, jedna wielka maszyna będąca w stanie tworzyć coś z niczego.
 * insektoid (Insectoid)
 * mechaniczny wij (Centipede)  
@@ -144,7 +144,7 @@ Thrumbo
 * spelopeda (spelopede)
 * megaskarabeusz (megascarab)  
 * jeleń (deer - samica to nie sarna, tylko łania!)  
-* mawół (muffalo)  
+* mawół (muffalo)
 * megaleniwiec (megasloth)
 * warg (warg)  
 * wybuchowy szczur (boomrat)  
@@ -174,7 +174,10 @@ Różne (Misc)
 Podłogi (Floors)  
 Rekreacja (Recreation)  
 Statek (Ship)  
-Temperatura (Temperature)  
+Temperatura (Temperature)
+
+# Debugowanie
+Efekt (Mote)
   
   
   
