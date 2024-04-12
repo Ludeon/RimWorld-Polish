@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <!-- Shamblers -->
+  <ShamblerRegenerating>Regeneruje się, aby znów powstać.</ShamblerRegenerating>
+  <ShamblerRising>Powstaje.</ShamblerRising>
+  <ShamblerStanding>Stoi apatycznie.</ShamblerStanding>
+  <ShamblerShuffling>Apatycznie szura nogami.</ShamblerShuffling>
+  <LetterText_ShamblerGorehulk>Uwaga, w grupie znajduje się powłóczący nogami posokolos.</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulkPlural>Uwaga, w grupie znajduje się kilka powłóczących nogami posokolosów.</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerChimera>Uwaga, w grupie znajduje się powłóczącą nogami chimerę.</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimeraPlural>Uwaga, w grupie znajduje się kilka powłóczących nogami chimer.</LetterText_ShamblerChimeraPlural>
+
+  <MessageRitualCannotBeMutant>Nieludzie nie mogą uczestniczyć w rytuałach.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
+  <LetterLabelRevenantRevealed>Atak upiora</LetterLabelRevenantRevealed>
+  <LetterRevenantRevealed>Objawił się upiór!</LetterRevenantRevealed>
+  <LetterRevenantRevealedFirst>Objawił się upiór, który poluje na jednego z twoich kolonistów!</LetterRevenantRevealedFirst> 
+  <LetterLabelRevenantSmearDiscovered>Odkryto smugi upiora</LetterLabelRevenantSmearDiscovered>
+  <LetterRevenantSmearDiscovered>{0} zauważa na ziemi czarną maź. Wygląda nienaturalnie i wydziela okropny, drażniący zapach. Jest świeża i mokra. Niedawno musiała przechodzić tędy jakaś nadprzyrodzona istota.</LetterRevenantSmearDiscovered>
+  <LetterLabelRevenantKilled>Zabito upiora</LetterLabelRevenantKilled>
+  <LetterRevenantKilled>Upiór nie żyje! Wszyscy zahipnotyzowani dojdą do siebie.\n\nCiało potwora zniknęło, pozostawiając za sobą kręgosłup. Możesz go zniszczyć lub zabrać, aby go zbadać.</LetterRevenantKilled>
+  <LetterLabelPawnHypnotized>{PAWN_nameDef} jest pod wpływem hipnozy</LetterLabelPawnHypnotized>
+  <LetterPawnHypnotized>zahipnotyzowana przez upiora osoba {PAWN_nameDef} bełkocze niespójnie o koszmarnych wizjach i ideach.\n\nZabicie upiora sprawi, że hipnoza dobiegnie końca.\n\nUpiór używa mocy psychicznych i staje się niewidzialny, aby wypaczyć percepcję otaczających go osób. Nadal jednak można na niego polować, podążając za czarnymi plamami, które pozostawia. Upiór zostanie ujawniony, jeśli ktoś trafi go bronią wybuchową, pianą gaśniczą, EMP, ogniem lub flarami zakłócającymi.\n\nJeśli upiór nie zostanie zabity, nadal będzie hipnotyzował nowe ofiary.</LetterPawnHypnotized>
+  <LetterRevenantFleshChunkLabel>Kawałek ciała upiora</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkText>Zraniony upiór pozostawił za sobą kawałek swojego ciała. Możesz go zbadać, aby dowiedzieć się, jak tropić upiory.</LetterRevenantFleshChunkText>
+  <LetterRevenantSeenLabel>Widziano upiora</LetterRevenantSeenLabel>
+  <LetterRevenantSeen>{PAWN_nameDef} dostrzega kryjącego się upiora!</LetterRevenantSeen>
+  <InTrance>W transie.</InTrance>
+  <LetterLabelRevenantEmergence>Narodziny upiora</LetterLabelRevenantEmergence>
+  <LetterRevenantEmergence>Z kręgosłupa wyłonił się upiór! Zniszcz go, zanim ucieknie.\n\nW trakcie tego procesu upiór zmutował i ma teraz nową biosygnaturę.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
+  <LetterLabelSightstealerRevealed>Wykrycie wyłupiacza</LetterLabelSightstealerRevealed>
+  <LetterSightstealerRevealed>Znikąd pojawia się wynaturzone stworzenie!</LetterSightstealerRevealed>
+  <MessageSightstealerRevealed>Pojawia się wyłupiacz!</MessageSightstealerRevealed>
+  <LetterLabelSightstealerHowl>Krzyki wyłupiaczy</LetterLabelSightstealerHowl>
+  <LetterSightstealerHowl>Twoi koloniści słyszą w oddali wrzeszczące wyłupiacze.\n\nTrudno powiedzieć, gdzie są i ile ich jest. Mogą przybyć natychmiast lub za kilka dni.</LetterSightstealerHowl>
+  <LetterLabelSightstealerHowlBig>Wycia wyłupiaczy</LetterLabelSightstealerHowlBig>
+  <LetterSightstealerHowlBig>Twoi koloniści słyszą, jak ogromna liczba wyłupiaczy krzyczy z oddali w nieludzkiej wściekłości. Nadchodzą.\n\nMogą przybyć natychmiast lub za kilka dni.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
+  <LetterLabelDeathPallEnded>Całun śmierci zanika</LetterLabelDeathPallEnded> 
+  <LetterDeathPallEnded>Całun śmierci podnosi się. Ożywione przez niego ciała wkrótce powrócą do swojego naturalnego stanu.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
+  <LetterLabelGateClosing>Wykop zamyka się</LetterLabelGateClosing>
+  <LetterGateClosing>Wykop się zamyka! Wejście do niego zaraz się zawali.\n\nWejście do wykopu od początku było niestabilne i wszystko w końcu się zawaliło.</LetterGateClosing>
+  <MustPlaceNextToPitGate>Musi znajdować się obok wykopu.</MustPlaceNextToPitGate>
+  <PitGateClosedHumanityNote>Wykop zamyka się</PitGateClosedHumanityNote>
+  <PitGateCollapsing>Wykop zawala się</PitGateCollapsing> 
+  <PitGateSettling>Wykop stabilizuje się</PitGateSettling> 
+  <ViewUndercave>Zobacz podkawernę</ViewUndercave> 
+  <ViewUndercaveDesc>Zobacz połączoną mapę podkawerny.</ViewUndercaveDesc>
+  <ViewSurface>Zobacz powierzchnię</ViewSurface>
+  <ViewSurfaceDesc>Zobacz połączoną mapę powierzchni.</ViewSurfaceDesc>
+  <EmergenceWarningLabel>Wykop drży</EmergenceWarningLabel>
+  <EmergenceWarningText>Ziemia trzęsie się pod stopami, a dochodzące z dołu nieludzkie krzyki wydają się być coraz bliżej. Niedługo coś się pojawi.</EmergenceWarningText>
+
+  <!-- Pit Burrow -->
+  <DesignatorFillIn>Wypełnij</DesignatorFillIn>
+  <DesignatorFillInDesc>Wypełnij wykop.</DesignatorFillInDesc>
+
+    <!-- Undercave -->
+  <EnterPitGate>Wejdź do wykopu</EnterPitGate> 
+  <ExitPitGate>Wyjdź na powierzchnię</ExitPitGate>
+  <LetterLabelGateEntered>Leże mięsostwora</LetterLabelGateEntered> 
+  <LetterGateEntered>W głębinach wykopu odkrywasz ogromny system jaskiń opanowany przez mięsostwory.\n\nSystem jaskiń jest zatkany masami żywego ciaa, które blokują ci przejście. Atakuj mięsomasę, aby ją zniszczyć.\n\nSystem jaskiń wydaje się niestabilny. Jeśli odkryjesz, co kryje się za mięsomasą, być może uda ci się zawalić tunele i zasypać wykop.</LetterGateEntered> 
+  <LetterLabelDreadmeldWarning>Odgłosy wijącego się ciała</LetterLabelDreadmeldWarning> 
+  <LetterDreadmeldWarning>Gdy {PAWN_nameDef} zbliża się do mięsomasy, wyczuwa ciężkie ruchy i pulsowanie pod jej ciepłą powierzchnią. Za ścianą mięsa kryje się jakaś ogromna żywa istota.</LetterDreadmeldWarning> 
+  <LetterLabelUndercaveCollapsing>Podkawerna staje się niestabilna</LetterLabelUndercaveCollapsing> 
+  <LetterUndercaveCollapsing>Śmierć straszyciela zszokowała mięsomasę i spowodowała, że system jaskiń utracił stabilność. Podtrzymująca jaskinię mięsomasa zaczyna gnić. W ciągu pół dnia cała jaskinia się zawali.\n\nUciekaj, zanim będzie za późno!</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
+  <HoldingThing>Przetrzymywanie</HoldingThing>
+  <RemoveFromPlatform>Usuń: {0_labelShort}</RemoveFromPlatform>
+  <RemoveFromPlatformDesc>Usuń istotę przetrzymywają na platformie.</RemoveFromPlatformDesc>
+  <ReleasingEntity>{GERUND} {TARGETLABEL} z</ReleasingEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  <SelectHoldingPlatform>Wybierz platformę do przetrzymywania</SelectHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>Ucieczka istoty</LetterLabelEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Następujące istoty uciekły:\n\n{0}\n\nZbuduj pomieszczenia o większej sile uwięzienia, aby powstrzymać istoty przed ucieczką. Istoty mają mniejsze szanse na ucieczkę z platform do przetrzymywania o dużej wytrzymałości, będącej efektem zastosowania mocnych ścian i drzwi, dobrego oświetlenia, a także specjalnych urządzeń zabezpieczających.</LetterEscapingFromHoldingPlatform> 
+  <HoldingPlatformRequiresStrength>wymaga: {0}</HoldingPlatformRequiresStrength>
+  <NoHoldingPlatformsAvailable>Brak dostępnych platform do przetrzymywania.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
+  <MutatorObeliskLetterLabel>Aktywacja obelisku</MutatorObeliskLetterLabel>
+  <MutatorObeliskLetter>Obelisk się aktywuje! Pęcznieje od nienaturalnej energii, a powietrze wokół niego wydaje trzeszczące odgłosy. Obiekt ulegnie zaraz samozniszczeniu w wyniku wielkiej eksplozji, jednak zanim to nastąpi, użyje swojej obrzydliwej mocy transformacji na każdym stworzeniu, jakie wykryje.</MutatorObeliskLetter>
+
+  <ObeliskTentacleLetterLabel>Mutacja dokonana przez obelisk</ObeliskTentacleLetterLabel>
+  <ObeliskTentacleLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje mrowienie w ramionach. Chwilę później skóra tej osoby pęka i wyłania się z niej mięsista narośl. Ramię zostało zastąpione wijącą się macką!\n\n{PAWN_nameDef} traci przy tym trochę krwi, ale poza tym wszystko wydaje się być w porządku.</ObeliskTentacleLetter>
+
+  <ObeliskFleshWhipLetterLabel>Mutacja dokonana przez obelisk</ObeliskFleshWhipLetterLabel>
+  <ObeliskFleshWhipLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje mrowienie w ramionach. Chwilę później skóra tej osoby pęka gwałtownie i wyłania się z niej narośl. Ramię zostało zastąpione wijącą się macką z kościanym ostrzem!\n\n{PAWN_nameDef} traci przy tym trochę krwi, ale poza tym wszystko wydaje się być w porządku. Macka jest paskudne, ale świetnie nada się do walki.</ObeliskFleshWhipLetter>
+
+  <MutatorObeliskFailedArmLetterLabel>Interakcja z obeliskiem</MutatorObeliskFailedArmLetterLabel>
+  <MutatorObeliskFailedArmLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje przez kilka chwil mrowienie w ramieniu. Uczucie mija.\n\nObelisk próbował zmutować tę osobę, jednak proces się nie powiódł.</MutatorObeliskFailedArmLetter>
+
+  <ObeliskFleshmassStomachLetterLabel>Mutacja dokonana przez obelisk</ObeliskFleshmassStomachLetterLabel>
+  <ObeliskFleshmassStomachLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje nagły, ostry ból brzucha, gdy jego tkanka zaczyna mutować. Żołądek tej osoby zmienia się w masę pół-czującego ciała. Wytwarzane przez nie ostre kwasy sprawiają ból, jednak zapobiegają przy okazji zatruciom pokarmowym.</ObeliskFleshmassStomachLetter>
+
+  <MutatorObeliskFailedStomachLetterLabel>Interakcja z obeliskiem</MutatorObeliskFailedStomachLetterLabel>
+  <MutatorObeliskFailedStomachLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje przez kilka chwil ból żołądka. Uczucie mija.\n\nObelisk próbował zmutować tę osobę, jednak proces się nie powiódł.</MutatorObeliskFailedStomachLetter>
+
+  <ObeliskFleshmassLungLetterLabel>Mutacja dokonana przez obelisk</ObeliskFleshmassLungLetterLabel>
+  <ObeliskFleshmassLungLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje nagły, ostry ból w piersi, gdy jej tkanka zaczyna mutować. Płuco tej osoby zmienia się w bolesną masę pół-czującego ciała. Tkanka stale odrasta, dzięki czemu jest odporna na takie dolegliwości, jak gnicie płuc i astma.</ObeliskFleshmassLungLetter>
+
+  <MutatorObeliskFailedLungLetterLabel>Interakcja z obeliskiem</MutatorObeliskFailedLungLetterLabel>
+  <MutatorObeliskFailedLungLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} czuje przez kilka chwil ból w piersi. Uczucie mija.\n\nObelisk próbował zmutować tę osobę, jednak proces się nie powiódł.</MutatorObeliskFailedLungLetter>
+
+  <ObeliskAnimalMutationLetterLabel>Mutacja dokonana przez obelisk</ObeliskAnimalMutationLetterLabel>
+  <ObeliskAnimalMutationLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} obserwuje nagły wzrost energii. Obelisk brutalnie wypaczył ciało {ANIMAL_gen}, zamieniając stworzenie w ohydną mięsistą bestię.</ObeliskAnimalMutationLetter>
+
+  <ObeliskTreeMutationLetterLabel>Mutacja dokonana przez obelisk</ObeliskTreeMutationLetterLabel>
+  <ObeliskTreeMutationLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} obserwuje nagły wzrost energii. Obelisk zmienił pobliskie drzewo w drzewo zwiastuna. Te potworne drzewa są w stanie żerować na znajdujących się w okolicy zwłokach i surowym mięsie.</ObeliskTreeMutationLetter>
+
+  <ObeliskDuplicationLetterLabel>Kopiowanie przez obelisk</ObeliskDuplicationLetterLabel>
+  <ObeliskDuplicationLetter>{PAWN_nameDef} wchodzi w interakcję z obeliskiem, który pulsuje energią i generuje błysk światła.{PAWN_nameDef} staje twarzą w twarz z kopią siebie! duplikat twierdzi, że jest prawdziwy i dołącza do twojej kolonii.</ObeliskDuplicationLetter>
+
+  <ObeliskDuplicationFailedLetterLabel>Porażka obelisku</ObeliskDuplicationFailedLetterLabel>
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef} usiłuje aktywować obelisk, jednak nic się nie dzieje. Coś w tej osobie uniemożliwia obeliskowi przeprowadzenie procesu kopiowania.</ObeliskDuplicationFailedLetter>
+  
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} aktywuje mutację przez obelisk.</ObeliskDuplicationSuccessMessage>
+
+  <ObeliskHostileDuplicateLetterLabel>Wrogie kopiowanie przez obelisk</ObeliskHostileDuplicateLetterLabel>
+  <ObeliskHostileDuplicateLetter>{PAWN_nameDef} wchodzi w interakcję z obeliskiem, który pulsuje energią i generuje błysk światła.{PAWN_nameDef} staje twarzą w twarz z kopią siebie! duplikat podchodzi do oryginału z ewidentnie morderczymi intencjami!</ObeliskHostileDuplicateLetter>
+
+  <DuplicatorObeliskLetterLabel>Aktywacja obelisku</DuplicatorObeliskLetterLabel>
+  <DuplicatorObeliskLetter>Obelisk się aktywuje! Powietrze wokół niego jest pełne energii i wydaje trzeszczące odgłosy. Wkrótce pojawią się duplikaty twoich kolonistów z morderczymi zamiarami.\n\nUważaj – energia przepływająca przez obelisk jest niestabilna i może on w każdej chwili eksplodować.</DuplicatorObeliskLetter>
+
+  <ObeliskAbductorLetterLabel>Zniknięcie kolonisty</ObeliskAbductorLetterLabel>
+  <ObeliskAbductorLetter>Wypaczony obelisk aktywuje się, zakrzywiając przestrzeń! Różnego rodzaju stworzenia zaczynają zanikać i wkrótce znikną całkowicie.\n\nUważaj – energia przepływająca przez obelisk jest niestabilna i może on w każdej chwili eksplodować.</ObeliskAbductorLetter>
+  
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} znika</ObeliskAbductedDisappearingLetterLabel>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} zauważa aktywność w wypaczonym obelisku. Uruchomił się jakiś tajemniczy wewnętrzny mechanizm, który sprawia, że osoba ta zaczyna zanikać i wkrótce zniknie całkowicie.</ObeliskAbductedDisappearingLetter>
+  
+  <ObeliskAbductedLetterLabel>{PAWN_nameDef} pojawia się ponownie</ObeliskAbductedLetterLabel>
+  <ObeliskAbductedLetter>obelisk przenosi {PAWN_nameDef} do dziwnego pomieszczenia. Ściany wykonane są z dziwnego szarego materiału, a powietrze jest martwe. {PAWN_pronoun} nie wie, gdzie jest, ani jak wrócić do domu.\n\nPobliskie drzwi są zablokowane, ale wygląda na to, że przy odrobinie wysiłku da się je otworzyć. Kliknij zablokowane drzwi prawym przyciskiem myszy, aby je otworzyć.\n\nInni koloniści mogą badać obelisk, aby zrozumieć, gdzie jest {PAWN_nameDef} i znaleźć sposób, aby pomóc tej osobie. Atakowanie obelisku może spowodować zniknięcie kolejnych kolonistów.</ObeliskAbductedLetter>
+
+  <MutatorObeliskMutated>{PAWN_nameIndef} mutuje w mięsostwora.</MutatorObeliskMutated>
+  <MutatorObeliskSpawned>Z ziemi wyłania się mięsostwór.</MutatorObeliskSpawned>
+
+  <ObeliskActivateDesc>W pełni aktywuj wypaczony obelisk.</ObeliskActivateDesc>
+  <ObeliskActivateDescWarning>Uwaga: wypaczony obelisk jest niestabilny. Pełna aktywacja spowoduje niebezpieczną reakcję i samozniszczenie obelisku.</ObeliskActivateDescWarning>
+
+  <ObeliskDeactivateMissingShards>Odłamki wymagane do wyłączenia: {0}</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
+  <ActivityLevel>Poziom aktywności</ActivityLevel>
+  <IsPsychicallySuppressed>Tłumienie psi</IsPsychicallySuppressed>
+  <ActivityIncrease>Zwiększona szybkość</ActivityIncrease>
+  <NotInSealedRoom>Poza zamkniętym pomieszczeniem</NotInSealedRoom>
+  <EnergyHarvesting>Zbieranie energii</EnergyHarvesting>
+  <Unstable>Niestabilny</Unstable>
+  <BaseLevel>Podstawowy poziom</BaseLevel>
+  <IsActive>Aktywny</IsActive>
+  <Resisted>opieraj się</Resisted>
+  <HealthFactor>Uszkodzony</HealthFactor>
+  <Deactivated>Zdezaktywowany.</Deactivated> <!-- -->
+
+  <CommandSent>wysłany kolonista: {PAWN_labelShort}.</CommandSent>
+  <CannotActivateEntity>Nie można aktywować istoty</CannotActivateEntity>
+  <CannotActivateEntityPlatform>Istota musi znajdować się na platformie</CannotActivateEntityPlatform>
+  
+  <ActivityGizmo>Aktywność</ActivityGizmo>
+  <ActivitySuppressionTooltipTitle>Automatyczne stłumienie</ActivitySuppressionTooltipTitle>
+  <ActivitySuppressionTooltipDisabled>Automatyczne stłumienie jest aktualnie wyłączone. Włącz je, aby strażnicy automatycznie tłumili: {PAWN_labelShort}.</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDesc>Poziom aktywności {0} wzrasta z czasem. Aktywność wzrasta szybciej, jeśli {0} zostanie uszkodzony lub sprowokowany.\n\nJeśli poziom aktywności osiągnie 100%, {0} zostanie aktywowany.\n\nStrażnicy mogą stłumić {0}, aby utrzymać jego aktywność na bezpiecznym poziomie. Będą go tłumić za każdym razem, gdy jego aktywność przekroczy przypisany poziom: {LEVEL}\n\nElementy o wyższym poziomie aktywności dadzą więcej wiedzy podczas studiowania.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>To określa, czy dojdzie do automatycznego tłumienia {PAWN_labelShort}, gdy aktywność spadnie poniżej {LEVEL}.\n\nAutomatyczne tłumienie jest obecnie {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
+  <ActivityLevelDesc>poziom aktywności</ActivityLevelDesc>
+  <PsychicallySuppressedDesc>tłumienie PSI</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
+  <CaptureEntity>Przechwyć</CaptureEntity>
+  <CaptureEntityDesc>Przechwyć: {0_definite}. Musi znajdować się na platformie do przechwytywania. Po ukończeniu procesu przechwytywania będzie można rozpocząć badania.</CaptureEntityDesc>
+  <CancelCapture>Anuluj przechwytywanie</CancelCapture>
+  <CancelCaptureDesc>Anuluj przechwytywanie: {0_definite}.</CancelCaptureDesc>
+  <ReadyToStudy>gotowość do badań</ReadyToStudy>
+  <NoActiveResearchProject>Brak aktywnego projektu badawczego anomalii w kategorii: {0}.</NoActiveResearchProject>
+  <Capturable>Możliwe przechwycenie</Capturable>
+  <RequiresHoldingPlatform>Musi być umieszczone na platformie do przetrzymywania.</RequiresHoldingPlatform>
+  <ChooseNociosphereDest>Wybierz miejsce, w które przeniesie się nociosfera.</ChooseNociosphereDest>
+  <TransferEntity>Przenieś: {0_definite}</TransferEntity>
+  <TransferEntityDesc>Przenieś przetrzymywaną istotę na inną platformę.</TransferEntityDesc>
+  <CancelTransfer>Anuluj przeniesienie</CancelTransfer>
+  <CancelTransferDesc>Anuluj przenoszenie tej istoty na inną platformę do przetrzymywania.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
+  <EmergedFrom>Wychodzi z:</EmergedFrom>
+  <Emerging>Pojawia się metalhorror</Emerging>
+  
+  <ImplantSourceUnknown>Wszczepiony przed przybyciem do kolonii</ImplantSourceUnknown>
+  <InsectImplant>Implantator insektoidów</InsectImplant>
+  <SleepImplant>Wszczepiono podczas snu przez: {SOURCE_nameDef}</SleepImplant>
+  <SurgeryImplant>Wszczepiono podczas operacji przez: {SOURCE_nameDef}</SurgeryImplant>
+  <FoodImplant>Wszczepiono poprzez podanie posiłku przez: {SOURCE_nameDef}</FoodImplant>
+  <UnnaturalHealingImplant>Wszczepiono podczas nienaturalnego leczenia przez: {SOURCE_nameDef}</UnnaturalHealingImplant>
+  <FeedingImplant>Wszczepiono podczas podania posiłku przez: {SOURCE_nameDef}</FeedingImplant>
+
+  <MetalhorrorEmergingLabel>Pojawia się metalhorror</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingDesc>Pojawia się metalhorror! Przecinające ciało i skórę koszmarne stworzenie z ostrym ostrzem wyrywa się z ciała swojego żywiciela. Metalhorror wyłania się z:</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingPluralDesc>Pojawiają się metalhorrory! Przecinające ciało i skórę koszmarne stworzenia z ostrzami wyrywają się z ciał swoich żywicieli. Metalhorrory wyłaniają się z:</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingDescAppended>Te przerażające metaliczne pasożyty żyją wewnątrz ciała ofiary i przejmują kontrolę nad jej wyższymi funkcjami poznawczymi poprzez sieć cienkich jak włos metalowych włókien, które rozrastają się po całym ciele i mózgu. Kontrolują umysł ofiary i zmuszają ją do zarażania innych nowymi metalhorrorami.</MetalhorrorEmergingDescAppended>
+  
+  <MetalhorrorSurgicalInspectionDetails>Lekarze ci zostali zarażeni i byli kontrolowani przez metalhorrory, więc kłamali na temat wyników inspekcji chirurgicznej</MetalhorrorSurgicalInspectionDetails>
+  
+  <MetalhorrorReasonInteraction>metalhorror którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas interakcji z innymi osobami.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInterrogation>metalhorror, którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas przesłuchania.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonHostDied>metalhorror, którego żywiciel to {INFECTED_nameDef}, wyłonił się po śmierci tej osoby.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonSurgeryInspected>metalhorror którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas inspekcji chirurgicznej.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonRandom>metalhorror, którego żywiciel to {INFECTED_nameDef}, wyłonił się z nieznanych przyczyn.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonTriedToLeaveMap>metalhorror, którego żywiciel to {INFECTED_nameDef}, wyłonił się po wyczuciu, że oddala się od kolonii.</MetalhorrorReasonTriedToLeaveMap>
+  
+  <MetalhorrorDetected>Wykryto metalhorrora</MetalhorrorDetected>
+  <InteractionDetectedDesc>{PAWN_nameDef} zauważa podczas rozmowy, że z {INFECTED_nameDef_inst} jest coś nie tak. {INFECTED_nameDef} nienaturalnie się zachowuje i wydaje dziwne odgłosy. W oczach ma słabo widoczne metalowe robaki. {INFECTED_nameDef} podejrzewa, że to zarażenie metalhorrorem.</InteractionDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} zauważa podczas przesłuchania, że z {INFECTED_nameDef_inst} jest coś nie tak. {INFECTED_nameDef} nienaturalnie się zachowuje i wydaje dziwne odgłosy. W oczach ma słabo widoczne metalowe robaki. {INFECTED_nameDef} podejrzewa, że to zarażenie metalhorrorem.</InterrogationDetectedDesc>
+  
+  <MetalhorrorNoticedDetailsAppended>Metalhorrory to pasożyty, które kontrolują żywiciela i wykorzystują go do infekowania innych.{INFECTED_objective} Stają się silniejsze wewnątrz ciała żywiciela w miarę upływu czasu. Metalhorror wyrwie się z ciała żywiciela, jeśli dowie się, że został wykryty. Proces jest przerażający, ale żywiciel na ogół przeżywa.\n\nJedynym sposobem potwierdzenia, że​​dana osoba jest zarażona metalhorrorem, jest zbadanie cielesnych pozostałości metalhorrora w celu zidentyfikowania jego biosygnatury, a następnie przeprowadzenie inspekcji chirurgicznej przez zaufanego lekarza.\n\nPo odkryciu infekcji możesz użyć opcji operacji inspekcji chirurgicznej, aby sprowokować wyłonienie się metalhorrora. Przygotuj się wówczas na walkę.</MetalhorrorNoticedDetailsAppended>
+  
+  <LetterGrayFleshDiscoveredLabel>Szare mięso</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} odkrywa kawałek mięsistej tkanki. Przypomina ona ludzką skórę zabarwioną na szaro drobnymi, metalicznymi drobinkami. Musiał z kogoś odpadać podczas zmiany ciała w płyn.\n\nKtoś tutaj może nie być tym, kim się wydaje.\n\nIstnieje kilka sposobów wykrywania oszustów:\n\n{METHODS}\n\nOstrzeżenie: niektóre pasożyty mogą kontrolować umysł, a nawet przenosić się na inne osoby.</LetterGrayFleshDiscovered>
+  
+  <LetterInterrogationUnlocked>Odblokowana została nowa możliwość interakcji z więźniem: przesłuchaj.</LetterInterrogationUnlocked>
+  
+  <LetterGrayFleshMethodOne>Uwięź kogoś i wyślij strażnika, aby przesłuchał tę osobę w celu ustalenia jej prawdziwej tożsamości. Może to zająć wiele dni.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodTwo>Zbierz więcej szarego mięsa i przeanalizuj je, aby określić biosygnaturę tego zagrożenia. Następnie użyj opcji inspekcji chirurgicznej, aby wyszukać ten biosygnał. Pobranie wystarczającej liczby próbek może zająć sporo czasu, a operacja jest inwazyjna.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodThree>Wykonaj egzekucję lub wygnaj każdego podejrzanego.</LetterGrayFleshMethodThree>
+  
+  <LetterMetalhorrorReawakeningLabel>Pojawiają się metalhorrory</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakening>Spokój metalhorrorów został zakłócony, przez co obudziły się ponownie!</LetterMetalhorrorReawakening>
+
+  <MessageMetalHorrorDormant>Metalhorrory rozpoczynają hibernację. Jeśli ich spokój zostanie zakłócony, obudzą się.</MessageMetalHorrorDormant>
+  
+  <MetalhorrorDormant>Hibernują. Obudzą się, jeśli coś zakłóci ich spokój.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
+  <LetterSurgicallyInspectedLabel>Wyniki inspekcji chirurgicznej</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} przeprowadza dogłębną inspekcję chirurgiczną na: {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} twierdzi, że {DOCTOR_pronoun} nie widzi żadnych anomalii. Lekarz może jednak kłamać, jeśli jest to w jego interesie.</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
+  <DeathRefusalUseSingular>użycie</DeathRefusalUseSingular>
+  <DeathRefusalUsePlural>użycia</DeathRefusalUsePlural>
+  <SelfResurrecting>Samowskrzeszenie</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
+  <HarbingerTreeConsumption>w pobliżu drzewa zwiastuna</HarbingerTreeConsumption>
+  <HarbingerTreeSprouted>Wyrosło nowe drzewo zwiastuna.</HarbingerTreeSprouted>
+  <HarbingerTreeConsuming>Pożera mięso.</HarbingerTreeConsuming>
+  <HarbingerTreeNotConsuming>Zjada zwłoki i mięso umieszczone w pobliżu.</HarbingerTreeNotConsuming>
+  <ConsumedByHarbingerTree>Pożarcie przez drzewo zwiastuna.</ConsumedByHarbingerTree>
+  <FleshConsumption>zjadanie mięsa</FleshConsumption>
+  <CreateCorpseStockpile>Stwórz zapas zwłok</CreateCorpseStockpile>
+  <CreateCorpseStockpileDesc>Utwórz strefę składowania zwłok wokół drzewa zwiastuna.\n\nDrzewa zwiastuna będą zjadać pobliskie zwłoki i surowe mięso. Jeśli są dobrze odżywione, rosną szybciej i tworzą nowe drzewa zwiastuna.</CreateCorpseStockpileDesc>
+
+  <VoidNodeDisabled>Węzeł pustki został wyłączony.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
+  <LetterCreeperAppearedAppended>{PAWN_pronoun} chce porozmawiać. Możesz wysłać kolonistę, aby wysłuchał tego, co ma do powiedzenia.</LetterCreeperAppearedAppended>
+  <LetterCreeperInviteJoins>{PAWN_nameDef} chce dołączyć</LetterCreeperInviteJoins>
+  <LetterCreeperInviteAppend>{PAWN_pronoun} może się przydać, ale czujesz też, że jest coś, czego ci nie mówi.</LetterCreeperInviteAppend>
+  
+  <AcceptCreeper>Niech {PAWN_nameDef} dołączy</AcceptCreeper>
+  <CaptureCreeper>Niech {SPEAKER_nameDef} schwyta cel: {PAWN_nameDef}</CaptureCreeper>
+  <RejectCreeper>{PAWN_nameDef} musi odejść</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
+  <LetterUnnaturalHealingLabel>Nienaturalne leczenie</LetterUnnaturalHealingLabel>
+  <LetterUnnaturalHealing>{CASTER_nameDef} kończy uzdrawianie psi, którego celem jest {PAWN_nameDef}.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealingTentacle>Jednak coś poszło nie tak. \n\n{PAWN_nameDef} cierpi, gdy jego ramię otwiera się i wyłania się z niego narośl. Ręka została zastąpiona przez mięsistą mackę!</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
+  <MessageTransmutedItem>{PAWN_nameDef} zmienia {ORIGINAL} w {TRANSMUTED}.</MessageTransmutedItem>
+  <MessageTransmutedStuff>{PAWN_nameDef} zmienia {ORIGINAL_labelShortIndef} w {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef} zmienia {ORIGINAL_labelPluralIndef} w {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
+  <ElectroharvesterNoEntity>Brak pochwyconej istoty.</ElectroharvesterNoEntity>
+  <ElectroharvesterNoPlatform>Brak połączenia z platformą do przetrzymywania.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
+  <FleshmassHeartInvulnerable>Niewrażliwość. Przeanalizuj guzki nerwowe mięsomasy, aby je zniszczyć.</FleshmassHeartInvulnerable>
+  <FleshmassHeartGrowing>Rosnąca mięsomasa.</FleshmassHeartGrowing>
+  <FleshmassHeartCollecting>Zbieranie biomasy do następnego wzrostu…</FleshmassHeartCollecting>
+  <MessageHeartAttack>Serce mięsomasy zaczyna drżeć!</MessageHeartAttack>
+  <LetterLabelFleshmassHeartDestroyed>Pokonano serce mięsomasy</LetterLabelFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>Serce mięsomasy zostało zniszczone, pozostawiając po sobie uszkodzony, ale wciąż funkcjonalny rdzeń – poskręcany amalgamat ciała i archotechnologii. Jądro wciąż rośnie i mutuje ciało, nawet gdy otaczająca je maź ulega rozkładowi.\n\nMożesz schwytać jądro, aby je dalej badać, lub zniszczyć je, aby zakończyć ten koszmar. Pozostawione samo sobie może przekształcić się w nowe serce mięsomasy.</LetterFleshmassHeartDestroyed>
+  <NerveBundleGrewMessage>Serce mięsomasy powiększyło się o nowy pęk nerwów.</NerveBundleGrewMessage>
+  <NeuralLumpDroppedMessage>Pęk nerwów wyrzuca guzek nerwowy. Przeanalizuj ją, aby dowiedzieć się więcej o sercu mięsomasy.</NeuralLumpDroppedMessage>
+  <DestroyHeartDisabled>Należy zebrać i przeanalizować guzek nerwowy. Przeanalizowane guzki</DestroyHeartDisabled>
+  <SpitterAttacking>Plujek mięsomasy atakuje!</SpitterAttacking>
+  <SpitterGatheringSpit>Gromadzenie kwasu. Gotowość za</SpitterGatheringSpit>
+  <SpitterReadyToSpit>Gotowość do plucia kwasem.</SpitterReadyToSpit>
+
+  <ActiveFleshmassInspect>Aktywna mięsomasa. Może zrodzić mięsostwory, jeśli zostanie zniszczona.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
+  <LetterLabelFleshTentacleAttack>Atak mięsistą macką</LetterLabelFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef} przeżywa operację. Jednak skręcająca się masa mięsa, która była macką pacjenta, rozpoczyna atak!</LetterFleshTentacleAttack>
+  <Biosignature>Biopodpis</Biosignature>
+  <BlissLobotomy>Błoga lobotomia</BlissLobotomy>
+  <HP>pz</HP>
+  <Analyzed>przeanalizowano</Analyzed>
+  
+  <MessageShardDropped>{0} upuszcza odłamek mrocznej archotechnologii. możesz go zebrać i wykorzystać.</MessageShardDropped>
+  
+  <!-- Blood rain -->
+  <Berserk_BloodRain>{0} wpada w szał przez krwawy deszcz!</Berserk_BloodRain>
+  <Manhunter_BloodRain>{0} wpada w morderczy szał z powodu krwawego deszczu!</Manhunter_BloodRain>
+  <MentalBreakReason_BloodRage>Stało się tak z powodu nagromadzenia szału krwi.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
+  <LetterLabelCorpseDisappeared>Zniknięcie zwłok</LetterLabelCorpseDisappeared>
+  <LetterCorpseDisappeared>Nienaturalne zwłoki zniknęły.</LetterCorpseDisappeared>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} zaczyna się uspokajać.</LetterCorpseDisappearedPawnAliveAppend>
+
+  <LetterLabelCorpseReappeared>Pojawienie się zwłok</LetterLabelCorpseReappeared>
+  <LetterCorpseReappeared>Zwłoki, które wyglądają jak {PAWN_nameDef}, pojawiły się ponownie, jakby znikąd.</LetterCorpseReappeared>
+  
+  <MessageCorpseEscaped>Zwłoki, które wyglądają jak {PAWN_nameDef}, jakimś cudem opuściły {CONTAINER_labelShort}.</MessageCorpseEscaped>
+  <MessageUnnaturalCorpseResurrect>{PAWN_nameDef} nie daje się wskrzesić. po prostu nie odpowiada.</MessageUnnaturalCorpseResurrect>
+  <MessagePawnFainted>Nienaturalne zwłoki powodują, że {PAWN_nameDef} mdleje.</MessagePawnFainted>
+  <MessageAwokenReappeared>Nienaturalne zwłoki pojawiają się tam, gdzie znajduje się {PAWN_nameDef} i ruszają naprzód!</MessageAwokenReappeared>
+  <MessageAwokenVanished>Nienaturalne zwłoki zniknęły. Ale {PAWN_nameDef} może się spodziewać kolejnego ataku.</MessageAwokenVanished>
+  <MessageAwokenAttacking>{PAWN_nameDef} jest celem ataku przebudzonych zwłok!</MessageAwokenAttacking>
+  <MessageAwokenKilledVictim>{PAWN_nameDef} nie ma już mózgu – został zniszczony przez przebudzone zwłoki.</MessageAwokenKilledVictim>
+  <MessageAwokenDisappeared>Przebudzone zwłoki zniknęły.</MessageAwokenDisappeared>
+
+  <MentalBreakReason_MysteriousCorpse>Stało się tak z powodu obecności nienaturalnych zwłok.</MentalBreakReason_MysteriousCorpse>
+
+  <UnnaturalCorpseStudyLetter>Postęp badań nad nienaturalnymi zwłokami</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetterDesc>Badanie nienaturalnych zwłok ujawniło więcej informacji o ciele. Odłamek archotyczny w jego rdzeniu psychicznie łączy go z ofiarą, którą jest {VICTIM_nameDef}. Odbuduje się, jeśli zostanie zniszczony, i teleportuje się na dowolną odległość, by znaleźć się tam, gdzie jest {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} uważa, że może istnieć sposób na trwałe zniszczenie zwłok, ale musi je dokładniej zbadać.</UnnaturalCorpseStudyLetterDesc>
+
+  <UnnaturalCorpseStudyCompletedLetter>Badanie nienaturalnych zwłok zakończone</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Badanie nienaturalnych zwłok ujawniło, jak bezpiecznie usunąć odłamek archotyczny. Dzięki temu {VICTIM_nameDef} przestanie cierpieć z powodu ataków psi. Jednak uniemożliwi to również dalsze badanie zwłok.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  <UnnaturalCorpseDeactivatedLetter>Odłamek zwłok</UnnaturalCorpseDeactivatedLetter>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} wydobywa odłamek archotyczny z nienaturalnych zwłok, które zaczęły gwałtownie wzdymać się i eksplodowały w fontannie krwi.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} czuje się już lepiej.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  <UnnaturalCorpseDeactivate>Zniszcz nienaturalne zwłoki</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivateDesc>Trwale zniszcz nienaturalne zwłoki.</UnnaturalCorpseDeactivateDesc>
+  <UnnaturalCorpseGuiLabel>Wybierz, kto powinien je zniszczyć.</UnnaturalCorpseGuiLabel>
+  <UnnaturalCorpseJobString>zniszcz</UnnaturalCorpseJobString>
+  <UnnaturalCorpseActivatingEnroute>niszczenie: {0}</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivating>niszczenie – {0}: {1}s</UnnaturalCorpseActivating>
+  
+  <UnnaturalCorpseAwakeningLetter>Nienaturalne zwłoki</UnnaturalCorpseAwakeningLetter>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef} czuje, że nienaturalne zwłoki nagle rosną w siłę. Budzi się w nich jakaś straszliwa świadomość.\n\nCoś strasznego wydarzy się w ciągu najbliższych kilku dni.</UnnaturalCorpseAwakeningLetterDesc>
+
+  <UnnaturalCorpseAwokenLetter>Zwłoki się przebudziły</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetterDesc>Nienaturalne zwłoki podniosły się i zmierzają w kierunku celu, którym jest {PAWN_nameDef}!\n\nZwłoki będą podążać za swoim celem bezustannie, niezależnie od tego, jak daleko znajdzie się {PAWN_pronoun}.\n\nMusisz je teraz zniszczyć.</UnnaturalCorpseAwokenLetterDesc>
+
+  <UnnaturalCorpseAwokenDefeatedLetter>Nienaturalne zwłoki zniszczone!</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>Nienaturalne zwłoki szarżujące na swój cel ({PAWN_nameDef}) zostały pokonane!\n\n{PAWN_nameDef} nie musi się już martwić.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
+  <MessageGoldenCubeSeverityIncreased>{PAWN_labelShort} wykazuje silniejszą obsesję na punkcie złotego sześcianu.</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort} doświadcza syndromu odstawienia sześcianu.</MessageGoldenCubeWithdrawal>
+  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort} cierpi coraz bardziej z powodu syndromu odstawienia sześcianu.</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeInterest>{PAWN_labelShort} ciekawi się złotym sześcianem.</MessageGoldenCubeInterest>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} wścieka się po zniszczeniu rzeźby w kształcie sześcianu. {PAWN_pronoun} może wykazywać agresję.</MessageGoldenCubeSculptureDestroyed>
+  
+  <CannotDisableCube>{PAWN_labelShort} odmawia dezaktywacji złotego sześcianu.</CannotDisableCube>
+  
+  <LetterLabelGoldenCubeComa>Śpiączka sześcianu: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  <LetterGoldenCubeComa>syndrom odstawienia sprawia, że {PAWN_labelShort} zapada w śpiączkę. Pozostanie w tym stanie, dopóki psychiczne połączenie ze złotym sześcianem nie zostanie całkowicie zerwane.</LetterGoldenCubeComa>
+  
+  <MentalBreakReason_CubeSculpting>Stało się tak z powodu obsesji na punkcie sześcianu.</MentalBreakReason_CubeSculpting>
+  
+  <CubeMaterialDirt>ziemia</CubeMaterialDirt>
+  <CubeMaterialStone>kamień</CubeMaterialStone>
+  <CubeMaterialSand>piasek</CubeMaterialSand>
+  <CubeMaterialScrap>złom</CubeMaterialScrap>
+  
+  <ReportBuildingCubeEnroute>budowa rzeźby.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
+  <MessageSlaughterNoFlesh>Nie można pozyskać mięsa – {PAWN_labelShort} go nie posiada.</MessageSlaughterNoFlesh>
+  <MessageSlaughterTooBig>Nie można pozyskać mięsa – {PAWN_labelShort} ma zbyt duży rozmiar.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
+  <GeneratingLabyrinth>Wejście do labiryntu</GeneratingLabyrinth>
+  <MessagePawnVanished>{PAWN_nameDef} znika.</MessagePawnVanished>
+  <MessagePawnReappeared>{PAWN_nameDef} pojawia się ponownie.</MessagePawnReappeared>
+  
+  <FloorEtchingsInspectorExit>Do wyjścia</FloorEtchingsInspectorExit>
+  
+  <LetterLabelObeliskDiscovered>Wypaczony obelisk</LetterLabelObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} odkrywa duży obelisk. Wygląda on niemal identycznie jak ten, który ściągnął {PAWN_objective} w to miejsce. Być może da się go aktywować, by ściągnąć {PAWN_objective} do domu.\n\nWybierz osobę ({PAWN_nameDef}) i kliknij obelisk prawym przyciskiem myszy, by go aktywować.</LetterObeliskDiscovered>
+  
+  <LetterLabelFloorEtchings>Rysunki na podłodze</LetterLabelFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} odszyfrowuje wzory na podłodze.\n\n{RAMBLINGS}\n\nWydają się one wskazywać kierunek do wyjścia – {DIRECTION}.</LetterFloorEtchings>
+
+  <LetterLabelFloorEtchingRamblings>Rysunki na podłodze</LetterLabelFloorEtchingRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef} odszyfrowuje wzory na podłodze.</LetterFloorEtchingsRamblings>
+
+  <LetterLabelLabyrinthExit>Koloniści powrócili</LetterLabelLabyrinthExit>
+  <LetterLabyrinthExit>Wirujący obelisk zwrócił porwanych kolonistów. Krótko po tym rozpłynął się w powietrzu.\n\nUważaj, obelisk mógł wypuścić również inne stworzenia.</LetterLabyrinthExit>
+
+  <GrayDoorJammed>Zablokowano. Należy otworzyć siłą.</GrayDoorJammed>
+  <ActivatedByProximity>Aktywacja po zbliżeniu.</ActivatedByProximity>
+
+  <!-- Void monolith -->
+  <MonolithActivateDisabledPawns>Brak dostępnych kolonistów.</MonolithActivateDisabledPawns>
+  <VoidMonolithInvestigatedText>Ciemna metaliczna powierzchnia monolitu jest ciepła w dotyku, a {PAWN_nameDef} ma wrażenie, że słyszy cichy szum wydobywający się z wnętrza. Linie na zakurzonej powierzchni wydają się drgać, tworząc niepokojące wzory.\n\n{PAWN_nameDef} skupia się na kształtach, próbując odkryć ich znaczenie.\n\nSzum się nasila. {PAWN_nameDef} widzi płynące kształty, ale powierzchnia się nie zmienia. W pustej przestrzeni wokół czuć rosnącą moc. W umyśle obserwującej osoby formuje się czarny kształt.\n\nAnomalia się budzi…</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigate>Nadal skupiaj się na anomalii</VoidMonolithInvestigate>
+  <VoidMonolithWalkAway>Odejdź</VoidMonolithWalkAway>
+  <VoidMonolithViewQuest>Zobacz zadanie</VoidMonolithViewQuest>
+  <VoidMonolithViewResearch>Wyświetl badanie anomalii</VoidMonolithViewResearch>
+  <CurrentMonolithLevel>Aktualny poziom monolitu</CurrentMonolithLevel>
+  <VoidMonolithUndiscovered>Zbadaj, by dowiedzieć się więcej.</VoidMonolithUndiscovered>
+  <VoidMonolithRequiredEntityCategory>Aby przejść do kolejnego etapu monolitu, należy odkryć istoty (łącznie {0}) poziomu {1}.</VoidMonolithRequiredEntityCategory>
+  <DiscoveredCount>Odkryto: {0}</DiscoveredCount>
+  <VoidMonolithAllEntitiesDiscovered>Odkryto wymagane istoty.</VoidMonolithAllEntitiesDiscovered>
+  <VoidMonolithRequiresDiscovery>Wymagane do zwiększenia poziomu</VoidMonolithRequiresDiscovery>
+  <VoidMonolithRequiresDiscoveryShort>Nieodkryte istoty</VoidMonolithRequiresDiscoveryShort>
+  <VoidMonolithRequiresCategory>Należy odkryć istoty (łącznie {0}) monolitu {1} </VoidMonolithRequiresCategory>
+  <VoidMonolithVisionLabel>Niepokojąca wizja</VoidMonolithVisionLabel>
+  <VoidMonolithVisionText>{PAWN_nameDef} wspomina dziwny sen, w którym ukazał się czarny kształt, rozwijający się w przestrzeni i czasie, rosnący i pochłaniający przestrzeń. Kształt ten pochodził z pobliskiego zniszczonego monolitu.\n\nPo przebudzeniu z wizji, {PAWN_nameDef} czuje dziwne przyciąganie do monolitu. Wzywa {PAWN_objective}.</VoidMonolithVisionText>
+  <VoidMonolithChooseActivator>Wybierz, kto powinien to zrobić</VoidMonolithChooseActivator>
+  <VoidMonolithActivatorDowned>Cel został powalony</VoidMonolithActivatorDowned>
+  <VoidMonolithActivatorMentalState>Cel w stanie załamania</VoidMonolithActivatorMentalState>
+  <VoidMonolithActivatorBusy>Cel jest zajęty</VoidMonolithActivatorBusy>
+  <VoidMonolithActivatorIncapable>Cel jest niezdolny do działania</VoidMonolithActivatorIncapable>
+  <MonolithArrivalLabel>Przybycie monolitu</MonolithArrivalLabel>
+  <MonolithArrivalText>Interakcja z sygnałem psi spowodowała pojawienie się dziwnej struktury.</MonolithArrivalText>
+  <MonolithArrivalTextExt>Jest bardzo podobna, jeśli nie identyczna, do wcześniej napotkanego monolitu.</MonolithArrivalTextExt>
+  <CantActivateMonolith>Wobec monolitu nie można podjąć akcji: {0}</CantActivateMonolith>
+
+  <MonolithTwistingAlert>Monolit skręca się</MonolithTwistingAlert>
+  <MonolithTwistingExplanation>Twoja obecność sprawiła, że monolit zaczął się skręcać i zmieniać. Wkrótce proces się zakończy. Przygotuj się na wszystko, co może nadejść.</MonolithTwistingExplanation>
+  <MonolithAutoActivatingLabel>Upadły monolit</MonolithAutoActivatingLabel>
+  <MonolithAutoActivatingText>Kolonistów ogarnia fala strachu. Upadły monolit zaczął się poruszać. Powoli zaczyna się skręcać i zmieniać, przekształcając się w coś nowego.\n\nW ciągu kilku dni proces ten zostanie zakończony. Przygotuj się na wszystko, co może nadejść.</MonolithAutoActivatingText>
+  <MonolithAutoActivatedLabel>Monolit pustki</MonolithAutoActivatedLabel>
+  <MonolithAutoActivatedText>Transformacja monolitu prawie się zakończyła…</MonolithAutoActivatedText>
+
+  <LetterLabelGrayPallDescending>Szary całun</LetterLabelGrayPallDescending>
+  <LetterGrayPallDescending>Nad okolicą unosi się mgła. Pachnie starością i szczypie skórę. Jej nienaturalna szarość wywołuje poczucie strachu.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
+  <VoidAwakeningConfirmationText>Przebudzenie monolitu pustki pogrąży kolonię w ciemności na kilka dni i przyciągnie potężne istoty. Upewnij się, że wszyscy są na to gotowi:\n\n- Zrób zapasy żywności, materiałów budowlanych i broni.\n- Upewnij się, że twoja kolonia jest dobrze oświetlona i ma wystarczającą moc. Unikaj polegania na generatorach słonecznych.\n- Zadbaj o to, by twoja kolonia była dobrze broniona, a koloniści przyszykowali się do walki.\n\nPo przebudzeniu monolitu pustki nie będzie już odwrotu.\n\nCzy na pewno chcesz kontynuować?</VoidAwakeningConfirmationText>
+  <VoidNodeLetter>{PAWN_nameDef} widzi przed sobą wijącą się kulę trzeszczącej energii psychicznej. jej powierzchnia pęcznieje i skręca się, wypaczając przestrzeń wokół niej.\n\n{PAWN_nameDef} czuje ją wewnątrz swojego umysłu – jest głębiej niż zwyczajny ludzki zmysł. wymyka się logice i powoduje, że ofiara dryfuje w pustce i stoi na brzegu nieskończonego czarnego oceanu, dając się wciągnąć w głębiny.\n\n{PAWN_nameDef} otrząsa się, zmuszając swoją jaźń do powrotu do rzeczywistości.\n\npobliskie urządzenia archotyczne podtrzymują kulę za pomocą kruchych połączeń. {PAWN_nameDef} może je zakłócić, zamykając to przejście między światami i kładąc kres przerażającym zjawiskom, które nękały twój dom.\n\nmoże także wejść do kuli i połączyć się z pustką. nie wiadomo, co kryje się poza nią, ani jakie mroczne moce można zyskać dzięki takiemu nieludzkiemu działaniu.</VoidNodeLetter>
+  <VoidNodeDisrupt>Przerwij połączenie</VoidNodeDisrupt>
+  <VoidNodeEmbrace>Przyjmij pustkę</VoidNodeEmbrace>
+  <VoidNodePostpone>Odłóż</VoidNodePostpone>
+  <DisruptTheLinkCredits>Przepływy psi ulegają destabilizacji, a archotyczna maszyneria zaczyna piszczeć. Wirująca pustka migocze. {PAWN_nameDef} czuje, jak mrok rozlewa się poza swoje granice i jednocześnie zapada się w sobie.\n\nMetaliczna jaskinia zaczyna się skręcać, zmieniając kształt jak komora ogromnego serca. {PAWN_nameDef} znika, nim zdąży krzyknąć.\n\n{PAWN_nameDef} odrzuca pustkę.\n\n{PAWN_possessive}Ale to nie koniec historii…</DisruptTheLinkCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef} wkracza w pustkę, dając się zalać czarnemu oceanowi, który przytłacza każdy zmysł, topi każdą komórkę w ciele i każdą myśl w głowie.\n\nWęzeł pustki został przekierowany z dala od świata, w kierunku jednej osoby. Struktury pustki krzyczą, wyrwane ze swojego nieziemskiego fundamentu, a następnie znikają w mgnieniu oka.\n\n{PAWN_nameDef} przyjmuje pustkę.\n\n{PAWN_possessive}To nie koniec historii…</EmbraceTheVoidCredits>
+  <StructureActivatedMessage>{PAWN_nameDef} kończy aktywację: {STRUCTURE_definite}</StructureActivatedMessage>
+  <StructuresActivatedAlertLabel>Aktywowane struktury</StructuresActivatedAlertLabel>
+  <StructuresActivatedAlertDescription>Aktywuj struktury pustki, aby ukończyć przebudzenie monolitu.</StructuresActivatedAlertDescription>
+  <GleamingMonolithInterrupted>{PAWN_nameDef} przerywa połączenie z monolitem pustki. Musi aktywować je ponownie.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
+  <IncreasesChanceOfLovin>Zwiększa szansę na miłość.</IncreasesChanceOfLovin>
+
+  <UnnaturalCorpse>Nienaturalne zwłoki – {0_label}</UnnaturalCorpse>
+
+  <!-- Studiable -->
+  <KnowledgeFactorOutdoors>Zmniejszona wiedza z badań</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
+  <EmergenceIn>Pojawi się w: {0}</EmergenceIn>
+  <EmergenceInDesc>Coś wyłoni się spod ziemi w obszarze {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
+  <BioferriteHarvesterContained>Bioferryt zawierał</BioferriteHarvesterContained>
+  <BioferriteHarvesterPerDay>dziennie</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterEjectContents>Upuść zawartość</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContentsDesc>Upuść całą zawartość ({0}) na ziemię.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterToggleUnloading>Przełącz rozładunek bioferrytu</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloadingDesc>Gdy polecenie jest aktywne, koloniści będą automatycznie wyładowywać bioferryt z kolektora w miarę jego napełniania.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
+  <ProximityDetectorCreatureDetected>Wykryto niewidzialną istotę.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
+  <FrenzyInducerEffectDescription>Generowanie pola szału.</FrenzyInducerEffectDescription>
+  <MentalBreakReason_FrenzyInducer>Stało się to pod wpływem czynnika wywołującego szał.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
+  <SleepSuppressorEffectDescription>bezsenne pulsowanie psi</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
+  <DigestedBy>{0_labelShort} trawi ofiarę.</DigestedBy>
+
+  <!-- Chimeras -->
+  <MessageChimeraModeChangeSingular>Chimera to {0}</MessageChimeraModeChangeSingular>
+  <MessageChimeraModeChangePlural>Chimery to {0}</MessageChimeraModeChangePlural>
+  <MessageChimeraWithdrawing>odwrót</MessageChimeraWithdrawing>
+
+  <LetterChimerasAttackingLabel>Chimery atakują</LetterChimerasAttackingLabel>
+  <LetterChimerasAttacking>Chimery rozpoczęły atak!</LetterChimerasAttacking>\n\n</LanguageData>
