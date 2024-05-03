@@ -9,11 +9,20 @@
     <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
-  <MechanitorShip.questContentRules.rulesStrings>TODO</MechanitorShip.questContentRules.rulesStrings>
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->Statek mechanitora</li>
+    <li>mechanitorShuttleCrashedLetterText->Niedaleko rozbił się statek mechanitora ze zdziczałymi mechanoidami. Mechanoidy za moment opuszczą rozbity statek i będą się przygotowywać do ataku.</li>
+    <li>assaultBeginLetterLabel->Machanoidy atakują</li>
+    <li>assaultBeginLetterText->Zdziczałe mechanoidy rozpoczynają atak na kolonię!</li>
+    <li>mechlinkAvailableLetterLabel->Mechlink jest dostępny</li>
+    <li>mechlinkAvailableLetterText->Rozbity statek zawierał zwłoki starożytnego mechanitora.\n\nAby wyciągniąć [mechanitor_possessive] mechlink wybierz kolonistę i kliknij zwłoki prawym przyciskiem myszy.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
-  <MechanitorShip.questDescriptionRules.rulesStrings>TODO</MechanitorShip.questDescriptionRules.rulesStrings>
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Udało się odszyfrować starożytny transponder, tym samym ujawniając położenie statku mechanoidów na orbicie. Statek jest poważnie uszkodzony, ale jest w stanie wylądować w pobliżu, jeśli otrzyma sygnał.\n\nNa statku znajdują się zwłoki dawno zmarłego mechanitora. Mechanitorzy mogą tworzyć i kontrolować mechanoidy, które można wykorzystać w pracy i w walce.  Jeżeli wyciągniesz mechlink ze zwłok mechanitora możesz zmienić jednego ze swoich kolonistów w mechanitora.\n\nUważaj - na statku znajdują się również wrogie mechanoidy:\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->mechanitor</li>
@@ -27,6 +36,15 @@
     <li>shipNoun->wreckage</li>
     <li>shipNoun->transport</li>
   -->
-  <MechanitorShip.questNameRules.rulesStrings>TODO</MechanitorShip.questNameRules.rulesStrings>
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipNoun] [shipAdnominal]</li>
+    <li>questName->[shipAdjective] [shipNoun] [shipAdnominal]</li>
+    <li>shipAdjective->starożytny</li>
+    <li>shipNoun->statek</li>
+    <li>shipNoun->wrak</li>
+    <li>shipAdnominal->mechanitora</li>
+    <li>shipAdnominal->nadzorcy</li>
+    <li>shipAdnominal->mechanoidów</li>
+  </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>
