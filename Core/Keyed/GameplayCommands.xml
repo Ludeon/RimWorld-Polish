@@ -47,9 +47,9 @@
   <ParticipatingInRitual>{0_labelShort} bierze udział w {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
-  <CommandFireAtWillLabel>Strzelaj do woli</CommandFireAtWillLabel>
+  <CommandFireAtWillLabel>Strzelaj bez rozkazu</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>Przełącz oddawanie strzałów do woli.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na walkę wręcz.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>Przełącz strzelanie bez rozkazu.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na walkę wręcz.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Anuluj zadanie priorytetowe</CommandClearPrioritizedWork>
@@ -68,7 +68,7 @@
 
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Wybierz właściciela</CommandThingSetOwnerLabel>
-  <!-- EN: Assign this bed to be owned by a specific colonist. -->
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego tronu.</CommandThroneSetOwnerDesc>
@@ -128,12 +128,12 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tej strefy, żeby można było je wkleić do innego.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Wklej ustawienia</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>Nadpisz ustawienia tej strefy poprzednio skopiowanymi ustawieniami do schowka.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
@@ -143,8 +143,13 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Dopuść wycinkę</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>Gdy wyłączone, koloniści nigdy nie będą ścinać roślin w tej strefie. Nadal będą siać nowe rośliny na już pustych przestrzeniach i zbierać plony.</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>Wybierz {0_label}</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>Wybierz przedmiot przechowywany w tym miejscu.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -271,6 +276,8 @@
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>Brak {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>{COOLDOWNGERUND} przez {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Wymaga przeładowania za pomocą {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -294,17 +301,29 @@
 
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
-  <CommandFormCaravan>Uformuj karawanę</CommandFormCaravan>
+  <CommandFormCaravan>Formuj karawanę</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Uformuj grupę kolonistów, którzy będą podróżować do nowych obszarów. Zabiorą oni wyznaczone zasoby i towarzyszące im zwierzęta, a następnie opuszczą obecny obszar i będą czekać na dalsze polecenia.</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>To miejsce będzie używane jako punkt spotkań dla karawany. Wszystkie towary i zwierzęta zostaną tu przyprowadzone przed wyruszeniem w drogę.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
-  <CommandReformCaravan>Reformuj karawanę</CommandReformCaravan>
+  <CommandReformCaravan>Sformuj karawanę</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>Reformuj grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na dalsze polecenia.</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>Sformuj grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na dalsze polecenia.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Na tym obszarze nadal znajdują się jacyś wrogowie.</CommandReformCaravanFailHostilePawns>
+  
+    <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>Wyślij karawanę</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>Wyślij karawanę…</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>Wyślij karawanę w to miejsce z wybranej kolonii, która może dotrzeć do tej lokacji.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>Twoje osady nie mają możliwości dojścia do tej lokalizacji.</CommandSendCaravanCantReach>
   
   <!-- Split caravan -->
   <!-- EN: Split -->
@@ -326,7 +345,7 @@
   <!-- EN: Settle -->
   <CommandSettle>Osiedl się</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>Osiedl się na tym obszarze. Twoi koloniści wkroczą na ten obszar i będziesz mieć możliwość budowania nowego dom.</CommandSettleDesc>
+  <CommandSettleDesc>Osiedl się na tym obszarze. Twoi koloniści wkroczą na ten obszar i będziesz mieć możliwość zbudowania nowego domu.</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Twoja frakcja może mieć tylko jedną bazę.</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
@@ -494,7 +513,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>Odpocznij</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Zacznij odpoczynek. Ma to następujące korzyści:\n\n - Ludzie mogą wchodzić w interakcje społeczne\n - Szukanie żywności {0} raz szybsze\n - Widoczność pomnożona przez {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Zacznij odpoczynek.\nMa to następujące korzyści:\n\n - Ludzie mogą wchodzić w interakcje społeczne.\n - Szukanie żywności jest {0} razy szybsze.\n - Widoczność pomnożona przez {1}.</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -555,7 +574,31 @@
   <CommandDropPawn>Upuść: {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Upuść niesioną osobę.</CommandDropPawnDesc>
-  
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>Wybierz {0_nameDef}</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>Wybierz niesione stworzenie.</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>Wybierz {0_label}</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>Wybierz niesiony przedmiot.</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>Wybierz {0_label}</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>Wybierz przedmiot z ewkipunku.</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>Wybierz {0_nameDef}</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>Wybierz niosące stworzenie.</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>Wybierz {0_nameDef}</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>Wybierz zawarte stworzenie.</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>Wybierz {0_label}</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>Wybierz przedmiot z ewkipunku.</CommandSelectContainedThingDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Weź używkę...</TakeDrug>
@@ -580,5 +623,29 @@
   <CommandCancelRitualDesc>Natychmiast zakończ {lookup: {RITUAL_labelDef}; Case\Singular; 3}. Zobowiązanie rytuału pozostanie. Będzie można go ponowić później.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Czy na pewno chcesz przerwać {lookup: {RITUAL_labelDef}; Case\Singular; 3}?</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>Ustawienia łącza</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>Połącz ustawienia pamięci dla wielu wybranych budynków, aby współdzieliły ustawienia pamięci.\n\nGrupa rozpocznie się od ustawień wybranych wcześniej.</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>Musisz wybrać co najmniej dwa budynki, aby połączyć ich ustawienia przechowywania.</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>Już połączone.</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>Ustawienia odłączania</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>Odłącz to od ustawień przechowywania innych budynków, aby jego ustawienia można było ustawić niezależnie.</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>Połączone ustawienia pamięci</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>{0} budynki</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>Składy</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>Wybierz wszystkie połączone</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>Wybierz wszystkie powiązane z tym budynki magazynowe.</SelectAllLinkedDesc>
   
 </LanguageData>

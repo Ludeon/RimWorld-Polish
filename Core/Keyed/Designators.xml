@@ -52,11 +52,24 @@
   <DesignatorMine>Wydobądź</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Oznacz obszary skalne, które mają być wydobywane.</DesignatorMineDesc>
+  
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>Wydobądź żyłę geologiczną</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>Oznacz obszary skalne, które mają być wydobywane. Koloniści będą kontynuować wydobycie, dopóki nie zostaną wydobyte wszystkie połączone skały tego samego typu.</DesignatorMineVeinDesc>
 
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Wygładź teren</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Oznacz nieobrobiony kamienny teren i ściany, które mają być wygładzone.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>Wygładź ściany</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>Oznacz nieobrobione ściane, które mają być wygładzone.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>Wygładź powierzchnię</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>Oznacz nierówną powierzchnię, która ma zostać wygładzona.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planuj</DesignatorPlan>
@@ -102,13 +115,13 @@
   <!-- EN: Colonists will ignore roofs in this area. -->
   <DesignatorAreaIgnoreRoofExpandDesc>Koloniści będą ignorować dachy na tym obszarze.</DesignatorAreaIgnoreRoofExpandDesc>
 
-  <!-- EN: Expand snow clear area -->
+  <!-- EN: Snow removal area -->
   <DesignatorAreaSnowClearExpand>Rozszerz obszar odśnieżania</DesignatorAreaSnowClearExpand>
-  <!-- EN: Create a area which colonists will try to keep clear of snow. -->
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
   <DesignatorAreaSnowClearExpandDesc>Stwórz obszar, na którym koloniści będą starali się odśnieżać.</DesignatorAreaSnowClearExpandDesc>
-  <!-- EN: Clear snow clear Area -->
+  <!-- EN: Clear snow removal area -->
   <DesignatorAreaSnowClearClear>Usuń obszar odśnieżania</DesignatorAreaSnowClearClear>
-  <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
   <DesignatorAreaSnowClearClearDesc>Usuwa obszar odśnieżania. Koloniści przestaną tutaj odśnieżać.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
@@ -187,6 +200,45 @@
   <DesignatorStudy>Analizuj</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
   <DesignatorStudyDesc>Analizuj ten obiekt, aby dowiedzieć się o nim więcej.</DesignatorStudyDesc>
+
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>Pomaluj budynek...</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>Oznacz ściany i budowle do pomalowania poprzez użyciu barwnika z roślin tinctoria, które możesz uprawiać. Pomalować można tylko niektóre budynki.</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>Pomaluj podłogę...</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>Oznacz podłogi do pomalowania poprzez użyciu barwnika z roślin tinctoria, które możesz uprawiać. Pomalować można tylko niektóre podłogi.</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>Usuń farbę</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>Usuń farbę ze ścian, budynków oraz podłóg.</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>Usuń farbę z podłogi</DesignatorRemoveFloorPaint> 
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>Usuń farbę z drzwi</DesignatorRemoveFloorPaintDesc> 
+  <!-- EN: Paint -->
+  <Paint>Farba</Paint>
+  <!-- EN: Color -->
+  <Color>Kolor</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>Narzędzie do wybierania kolorów</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>Uchwyć obecny kolor</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>Uchwyć kolor z istniejącego budynku.</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>Wybierz kolor z istniejącego podłoża.</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>Wybierz pomalowany budynek.</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>Wybierz kolorowane podłoże.</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>Uchwyć</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>Uchwycono kolor</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
