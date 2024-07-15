@@ -25,41 +25,41 @@
   <!-- EN: implant embryo -->
   <ImplantEmbryo.label>wszczep embrion</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantEmbryo.description>Wszczepienie zarodek matce, również zastępczej, aby rozpocząć ciążę.</ImplantEmbryo.description>
+  <ImplantEmbryo.description>Wszczep embrion matce zastępczej, aby rozpocząć ciążę.</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>Wszczepia embrion.</ImplantEmbryo.jobString>
+  <ImplantEmbryo.jobString>Wszczepia embrion u TargetA.</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
-  <ImplantIUD.label>implantuj IUD</ImplantIUD.label>
+  <ImplantIUD.label>Wstaw wkładkę domaciczną</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>Implantacja wkładki wewnątrzmacicznej, celem uniemożliwienia zajścia w ciążę. Może zostać usunięte w każdym momencie, choć zawsze niesie to sobą trwałe ryzyko sterylizacji pacjenta. Kiedy wykonana w pierwszym trzymestrze ciąży, automatycznie ją przerywa.</ImplantIUD.description>
+  <ImplantIUD.description>Wstaw małe metalowe urządzenie do macicy, aby zapobiec ciąży. Można go później usunąć, jednak istnieje niewielka szansa, że pacjantka pozostanie trwale bezpłodna. Operacja ta przerywa ciążę w pierwszym trymestrze.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>implantuje IUD</ImplantIUD.jobString>
+  <ImplantIUD.jobString>wstawia wkładkę domaciczną dla TargetA.</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
-  <ImplantIUD.successfullyRemovedHediffMessage>{0} z powodzeniem zaimplantował{PAWN_gender ? : a} IUD.</ImplantIUD.successfullyRemovedHediffMessage>
+  <ImplantIUD.successfullyRemovedHediffMessage>{0} pomyślnie wstawia wkładkę domaciczną dla {1}.</ImplantIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: implant xenogerm -->
-  <ImplantXenogerm.label>implantuj ksenozarodek</ImplantXenogerm.label>
+  <ImplantXenogerm.label>Wszczep ksenogen</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>Implantowanie ksenozarodka pacjentowi. Powoduje zastąpienie wszystkich poprzednich ksenozarodków, jakie pacjent miał wcześniej zaimplantowane.</ImplantXenogerm.description>
+  <ImplantXenogerm.description>Wszczep ksenogen pacjentowi. Zastępuje to wszelkie poprzednie ksenogeny, które miał.</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>Implantuje ksenozarodek.</ImplantXenogerm.jobString>
+  <ImplantXenogerm.jobString>Wszczepia ksenogen.</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
-  <RemoveIUD.label>usuń IUD</RemoveIUD.label>
+  <RemoveIUD.label>usuń wkładkę domaciczną</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>Usuwanie wkładki wewnątrzmacicznej, celem umożliwienia zajścia w ciążę. Operacja niesie ze sobą ryzyko sterylizacji pacjenta.</RemoveIUD.description>
+  <RemoveIUD.description>Usuń wstawioną wkładkę wewnątrzmaciczną, aby umożliwić zajście w  ciążę. Jeśli operacja się nie powiedzie, pacjentka będzie trwale bezpłodna.</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>Usuwa IUD</RemoveIUD.jobString>
+  <RemoveIUD.jobString>usuwa wkładkę wewnątrzmaciczną u TargetA.</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>{0} z powodzeniem usun{PAWN_gender ? ął : ęła} IUD.</RemoveIUD.successfullyRemovedHediffMessage>
+  <RemoveIUD.successfullyRemovedHediffMessage>{0} pomyślnie usuwa wkładkę wewnątrzmaciczną u {1}.</RemoveIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: reverse vasectomy -->
   <ReverseVasectomy.label>odwróć wazektomię</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
   <ReverseVasectomy.description>Operacja mająca na celu przywrócenie płodności pacjentowi, który miał wcześniej wykonaną wazektomię. W większości przypadków przeprowadzana jest bez komplikacji, jednakże niesie ze sobą ryzyko sterylizacji pacjenta.</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>przeprowadza operację odwrócenia wazektomii.</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>przeprowadza operację odwrócenia wazektomii u: TargetA.</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
   <ReverseVasectomy.successfullyRemovedHediffMessage>{0} z powodzeniem przeprowadził{PAWN_gender ? : a} operację odwrócenia wazektomii.</ReverseVasectomy.successfullyRemovedHediffMessage>
   
@@ -75,7 +75,7 @@
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
   <TubalLigation.description>Trwale sterylizuje pacjenta, czyniąc go niezdolnym do reprodukcji.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>przeprowadza operację podwiązania jajowodów.</TubalLigation.jobString>
+  <TubalLigation.jobString>przeprowadza podwiązanie jajowodów u: TargetA.</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
   <TubalLigation.successfullyRemovedHediffMessage>{0} z powodzeniem przeprowadził{PAWN_gender ? : a} operację podwiązania jajowodów.</TubalLigation.successfullyRemovedHediffMessage>
   
@@ -84,7 +84,7 @@
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
   <Vasectomy.description>Operacja uniemożliwiająca pacjentowi reprodukcję, poprzez przecięcie nasieniowodów. W przypadku niepowodzenia, pacjent może zostać wysterylizowany.</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>przeprowadza operację wazektomii.</Vasectomy.jobString>
+  <Vasectomy.jobString>przeprowadza wazektomię na: TargetA.</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
   <Vasectomy.successfullyRemovedHediffMessage>{0} z powodzeniem przeprowadził{PAWN_gender ? : a} operację wazektomii.</Vasectomy.successfullyRemovedHediffMessage>
   
