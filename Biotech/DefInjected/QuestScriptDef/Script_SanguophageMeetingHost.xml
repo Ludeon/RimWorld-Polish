@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
+    <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
+    <li>argumentLetterLabel->Sanguophage argument</li>
+    <li>argumentLetterText->The sanguophages got into an argument and it has now escalated to violence!</li>
+    <li>successLetterLabel->Meeting complete</li>
+    <li>successLetterText->The sanguophages have completed their meeting and will now give you your reward.</li>
+    <li>raidArrivedLetterLabel->Sanguophage hunters</li>
+    <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
+  -->
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->Sanguofagi dotarły</li>
+    <li>sanguophagesArriveLetterText->[map_definite] będzie miejscem spotkania [sanguophageCount] sanguofagów, które właśnie nadchodzą z różnych kierunków. Wkrótce rozpocznie się spotkanie w kolonii, gdzie będą prowadzone rozmowy.</li>
+    <li>argumentLetterLabel->Kłótnia sanguofagów</li>
+    <li>argumentLetterText->Rozmowy nie przyniosły planowanego skutku i przerodziły się w przemoc!</li>
+    <li>successLetterLabel->Spotkanie zakończone</li>
+    <li>successLetterText->Sanguofagi zakończyły pomyślnie spotkanie, twoja kolonia zostanie teraz nagrodzona.</li>
+    <li>raidArrivedLetterLabel->Łowcy sangofagów</li>
+    <li>raidArrivedLetterText->Frakcja [enemyFaction_name] wysłała grupę łowców sanguofagów. Uważaj, są blisko!\n\nMają zamiar zaatakować uczestników spotkania jak i tych, którzy to spotkanie umożliwili.</li>  
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguophages</li>
+    <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+  -->
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->Sanguofag [asker_nameDef] szuka bezpiecznego miejsca, gdzie mógłby spotkać się z [sanguophageSingOrPlural], gdzie nie będą śledzeni. Ich lider, [asker_nameDef] prosi Cię o zorganizowania spotkania w Twojej kolonii: [map_definite].\n\nJeśli się zgodzisz, [sanguophageCount] sanguofagów przybędzie to Twojej kolonii. Będą dyskutować o swoich sekretach przed parę godzin, a kiedy spotkanie się zakończy, obiecują odpowiednio Cię wynagrodzić.\n\nJeżeli chcesz, możesz je zdradzić, atakując je - powalony sanguofag może zostać zmuszony do zamiany jednego z Twoich kolonistów w sanguofaga.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->drugim sanguofagiem</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->[sanguophageCountMinusOne] innymi sanguofagami</li>
+    <li>sanguophageInfo->(*Gray)Informacje o sanguofagach: Sanguofagi to wieczni, nieśmiertelni super-ludzie zasilani przez stworzone w krwiobiegu archity. Są piękne i niezwykle inteligentne. Potrafią wyleczyć każde obrażenie i nigdy nie cierpią z powodu chorób czy trucizn. W walce mogą wystrzeliwać śmiercionośne kolce i leczyć rannych przyjaciół. Ceną jest to, że sanguofagi, aby przeżyć, muszą spożywać hemogen pochodzący z ludzkiej krwi, a także muszą okresowo umierać na długi czas. Łatwo niszczy je ogień, a spowalnia światło UV.(/Gray)</li>  
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->sanguophage</li>
+    <li>meetAdjective->bloodthirsty</li>
+    <li>meetAdjective->blood</li>
+    <li>meetAdjective->shadow</li>
+    <li>meetAdjective->dark</li>
+    <li>meetAdjective->crimson</li>
+    <li>meetAdjective->red</li>
+    <li>meetAdjective->scab</li>
+    <li>meetAdjective->hemic</li>
+    <li>meetAdjective->sanguine</li>
+    <li>meetNoun->meeting</li>
+    <li>meetNoun->host</li>
+    <li>meetNoun->gathering</li>
+    <li>meetNoun->reunion</li>
+    <li>meetNoun->assembly</li>
+    <li>meetNoun->conclave</li>
+    <li>meetNoun->congress</li>
+    <li>meetNoun->parley</li>
+  -->
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName->[meetAdjective_Neu] [meetNoun_Neu] [meetAdnominal]</li>
+    <li>questName->[meetAdjective_Fem] [meetNoun_Fem] [meetAdnominal]</li>
+    <li>questName->[meetAdjective_Neu] [meetNoun_Neu]</li>
+    <li>questName->[meetAdjective_Fem] [meetNoun_Fem]</li>
+    <li>questName->[meetNoun_Neu] [meetAdnominal]</li>
+    <li>questName->[meetNoun_Fem] [meetAdnominal]</li>
+    <li>meetAdjective_Neu->krwiożercze</li>
+    <li>meetAdjective_Neu->krwiste</li>
+    <li>meetAdjective_Neu->mroczne</li>
+    <li>meetAdjective_Neu->tajemnicze</li>
+    <li>meetAdjective_Neu->krwawe</li>
+    <li>meetAdjective_Fem->krwiożercza</li>
+    <li>meetAdjective_Fem->krwista</li>
+    <li>meetAdjective_Fem->mroczna</li>
+    <li>meetAdjective_Fem->tajemnicza</li>
+    <li>meetAdjective_Fem->krwawa</li>
+    <li>meetNoun_Neu->spotkanie</li>
+    <li>meetNoun_Neu->zebranie</li>
+    <li>meetNoun_Neu->zgromadzenie</li>
+    <li>meetNoun_Neu->konklawe</li>
+    <li>meetNoun_Neu->pertraktacje</li>
+    <li>meetNoun_Neu->rokowania</li>   
+    <li>meetNoun_Neu->negocjacje</li>
+    <li>meetNoun_Fem->narada</li>
+    <li>meetNoun_Fem->dysputa</li>
+    <li>meetNoun_Fem->ustalenia</li>      
+    <li>meetAdnominal->sanguofagów</li>
+    <li>meetAdnominal->cieni</li>
+    <li>meetAdnominal->żądnych krwi</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
+  
+</LanguageData>
