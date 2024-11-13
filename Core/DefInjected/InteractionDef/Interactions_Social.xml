@@ -23,14 +23,12 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] razem z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] razem z [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] z [RECIPIENT_nameDef].</li>
-    <li>talkedabout(INITIATOR_gender==male)->rozmawiał o</li>
-    <li>talkedabout(INITIATOR_gender==female)->rozmawiała o</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] z [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [commentedabout] [subject] do [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+    <li>talkedabout(p=4,INITIATOR_gender==male)->rozmawiał o</li>
+    <li>talkedabout(p=4,INITIATOR_gender==female)->rozmawiała o</li>
     <li>talkedabout(INITIATOR_gender==male)->podzielił się słowem o</li>
     <li>talkedabout(INITIATOR_gender==female)->podzieliła się słowem o</li>
     <li>talkedabout(INITIATOR_gender==male)->mówił na temat</li>
@@ -39,8 +37,8 @@
     <li>talkedabout(INITIATOR_gender==female)->plotkowała o</li>
     <li>talkedabout(INITIATOR_gender==male)->mówił o</li>
     <li>talkedabout(INITIATOR_gender==female)->mówiła o</li>
-    <li>talkedabout(INITIATOR_gender==male)->żartował</li>
-    <li>talkedabout(INITIATOR_gender==female)->żartowała</li>
+    <li>talkedabout(INITIATOR_gender==male)->żartował z</li>
+    <li>talkedabout(INITIATOR_gender==female)->żartowała z</li>
     <li>commentedabout(INITIATOR_gender==male)->powiedział coś o</li>
     <li>commentedabout(INITIATOR_gender==female)->powiedziała coś o</li>
     <li>commentedabout(INITIATOR_gender==male)->powiedział słowo o</li>
@@ -82,7 +80,8 @@
     <li>talkedabout->odbyli szczerą rozmowę o</li>
     <li>talkedabout->rozmawiali cicho o</li>
     <li>talkedabout->poważnie rozmawiali o</li>
-    <li>subject->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
@@ -115,11 +114,20 @@
     <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [characteristic] [target].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] porównał [target] do [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] porównała [target] do [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] nazwał [target] [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] nazwała [target] [insultcomparison].</li>
+    <!-- <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li> -->
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
-    <li>insulted(INITIATOR_gender==male)->znieważył</li>
-    <li>insulted(INITIATOR_gender==female)->znieważyła</li>
+    <li>insulted(p=3,INITIATOR_gender==male)->znieważył</li>
+    <li>insulted(p=3,INITIATOR_gender==female)->znieważyła</li>
     <li>insulted(INITIATOR_gender==male)->otwarcie znieważył</li>
     <li>insulted(INITIATOR_gender==female)->otwarcie znieważyła</li>
     <li>insulted(INITIATOR_gender==male)->głośno znieważył</li>
@@ -136,6 +144,12 @@
     <li>insulted(INITIATOR_gender==female)->zniesławiła</li>
     <li>insulted(INITIATOR_gender==male)->ośmieszył</li>
     <li>insulted(INITIATOR_gender==female)->ośmieszyła</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->kulą</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)(INITIATOR_gender==male)->powiedział coś kompletnie bezsensu</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)(INITIATOR_gender==female)->powiedziała coś kompletnie bezsensu</li>
+    <!-- <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li> -->
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
@@ -159,9 +173,11 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef].</li>
-    <li>complimented(p=3)(INITIATOR_gender==male)->komplementował</li>
-    <li>complimented(p=3)(INITIATOR_gender==female)->komplementowała</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [characteristic] [RECIPIENT_nameDef].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>complimented(p=3,INITIATOR_gender==male)->komplementował</li>
+    <li>complimented(p=3,INITIATOR_gender==female)->komplementowała</li>
     <li>complimented(INITIATOR_gender==male)->pochwalił</li>
     <li>complimented(INITIATOR_gender==female)->pochwaliła</li>
     <li>complimented(INITIATOR_gender==male)->wyróżnił</li>
