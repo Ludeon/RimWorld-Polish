@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: Confirm -->
@@ -201,7 +201,7 @@
   <LastName>nazwisko</LastName>
   <!-- EN: suggested -->
   <Suggested>sugerowano</Suggested>
-
+  
   <!-- Choose new wanderers -->
   <!-- EN: Choose new wanderers -->
   <ChooseNewWanderers>Wybierz nowych tułaczy</ChooseNewWanderers>
@@ -712,7 +712,7 @@
   <NextTraderRestock>Kolejne uzupełnienie: {0} dni</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Stworzenia</PawnsTabShort>
-
+  
   <!-- Select caravan settlement -->
   <!-- EN: Select colony to send caravan -->
   <SelectCaravanOrigin>Wybierz kolonię by wysłać karawanę</SelectCaravanOrigin> 
@@ -958,18 +958,8 @@
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
   <ApparelPolicyTitle>Polityki ubioru</ApparelPolicyTitle>
-  <!-- EN: Outfit -->
-  <Outfit>Strój</Outfit>
-  <!-- EN: Select outfit... -->
-  <SelectOutfit>Wybierz strój...</SelectOutfit>
-  <!-- EN: New outfit -->
-  <NewOutfit>Nowy strój</NewOutfit>
-  <!-- EN: Delete outfit... -->
-  <DeleteOutfit>Usuń strój...</DeleteOutfit>
-  <!-- EN: Outfit is in use by {0}. -->
-  <OutfitInUse>Strój jest używany przez {0}.</OutfitInUse>
-  <!-- EN: No outfit selected -->
-  <NoOutfitSelected>Nie wybrano stroju</NoOutfitSelected>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>Utwórz i zarządzaj szablonami kontrolującymi jakie ubrania mogą być noszone przez twoich kolonistów.</ApparelPolicyTip>
   <!-- EN: Apparel policy -->
   <ApparelPolicy>Polityka ubioru</ApparelPolicy>
   <!-- EN: Apparel policy is in use by {0}. -->
@@ -1030,6 +1020,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food policies -->
   <FoodPolicyTitle>Polityki jedzenia</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>Utwórz i zarządzaj szablonami kontrolującymi jakie jedzenie może być konsumowane przez twoich kolonistów.</FoodPolicyTip>
   <!-- EN: Food policy -->
   <FoodPolicy>Polityka jedzenia</FoodPolicy>
   <!-- EN: Allow food -->
@@ -1050,6 +1042,8 @@
   <!-- Reading management -->
   <!-- EN: Reading policies -->
   <ReadingPolicyTitle>Polityki czytania</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>Utwórz i zarządzaj szablonami kontrolującymi jakie książki mogą być czytane przez twoich kolonistów.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
   <ReadingPolicy>Polityka czytania</ReadingPolicy>
   <!-- EN: Reading policy is in use. -->
@@ -1069,14 +1063,37 @@
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Domyślne ustawienia dla leków</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>Domyślne</MedGroupDefaults>
   
   <!-- EN: Colonists -->
   <MedGroupColonists>Koloniści</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>TODO</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>TODO</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>TODO</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>TODO</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>TODO</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>TODO</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
   <MedGroupNeutralFaction>Neutralna frakcja</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>TODO</MedGroupNeutralFactionDesc>
+
   <!-- EN: Hostile faction members -->
   <MedGroupHostileFaction>Członkowie wrogiej frakcji</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
@@ -1087,7 +1104,11 @@
   <!-- EN: Humans who are not members of any faction. -->
   <MedGroupNoFactionDesc>Ludzie nie będący częścią innych frakcji.</MedGroupNoFactionDesc>
   
-  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>TODO</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>TODO</MedGroupWildlifeDesc>
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>{0} wymaga {1} punktów umiejętności rolnictwa, aby zasiew był możliwy.\n\nŻaden z Twoich przytomnych rolników nie posiada odpowiedniego doświadczenia, więc ta roślina nie zostanie zasiana.</NoGrowerCanPlant>
@@ -1385,6 +1406,8 @@
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>Wybierz kolor, ustawiając temperaturę barwową. Uwaga: ma to wpływ tylko na kolor wizualny, a nie na moc cieplną.</ColorTemperatureTooltip>
 
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>TODO</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
   <SearchTheMap>Przeszukaj obecną mapę.</SearchTheMap>
