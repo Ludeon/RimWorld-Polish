@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Misc -->
@@ -370,9 +370,9 @@
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Mistrzowski przedmiot</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort) {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort) {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -432,7 +432,7 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie.\n\nNazwa zadania:\n'{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Jeśli nie zaakceptujesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
@@ -495,7 +495,7 @@
   <LetterLabelPawnsKidnapped>Porwano {PAWN_nameDef}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} zosta{PAWN_gender ? ł : ła} porwan{PAWN_gender ? y : a} przez frakcję\n{FACTION_name}!\nJednak nie jest {PAWN_pronoun} na zawsze utracon{PAWN_gender ? y : a}. Okazja do uratowania tej osoby może pojawić się w najbliższych dniach lub latach.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} zosta{PAWN_gender ? ł : ła} porwan{PAWN_gender ? y : a} przez frakcję {FACTION_name}!\nJednak {PAWN_pronoun} nie został na zawsze utracon{PAWN_gender ? y : a}. Okazja do uratowania tej osoby może pojawić się w najbliższych dniach lub latach.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -567,6 +567,24 @@
   <LetterJoinOfferAccept>Akceptuj</LetterJoinOfferAccept>
 
   <!-- Speeches -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończy{ORGANIZER_gender ? ł : ła} swoją przemowę.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>Była prawdziwie okropna — pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>Była zniechęcająca — nie oryginalna, przytłaczająca i niemająca żadnego zapału.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>Była zachęcająca i dobrze powiedziana.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>Była prawdziwie inspirująca, pełna intensywności i celu.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Następujące osoby były szczególnie poruszone przez przemowę i teraz są zainspirowane:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Dzięki wspaniałej przemowie {SPEAKER_nameIndef}, {PAWN_nameIndef} dozna{PAWN_gender ? ł : ła} inspiracji!</LetterSpeechInspiration>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>Ponieważ przemowa została zakłócona po jedynie {0}, nie była efektywna.</LetterSpeechInterrupted>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>Przemowa {0} została anulowana przed osiągnięciem 50%. Nie przyniosła żadnego efektu.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Przemowa anulowana</LetterLabelSpeechCancelled>
 
