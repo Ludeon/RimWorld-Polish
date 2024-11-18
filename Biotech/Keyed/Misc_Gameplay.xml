@@ -141,8 +141,8 @@
   <AutoWakeDesc>Po włączeniu {PAWN_nameDef} automatycznie wybudzi się, gdy {PAWN_possessive} zakończy się anabioza.\n\nGdy jest wyłączony, {PAWN_pronoun} będzie kontynuować stan anabiozy, dopóki nie obudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} jest w stanie anabiozy.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>Nie można rozpocząć anabiozy</CannotDeathrest>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>nie można rozpocząć anabiozy</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Rozpocznij anabiozę</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
@@ -287,8 +287,8 @@
   <ComplexityTotal>Całkowita złożoność</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>Całkowita złożoność wszystkich używanych genów.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
-  <Metabolism>Wydajność metaboliczna</Metabolism>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>wydajność metaboliczna</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>Całkowita wydajność metaboliczna tych genów po złożeniu. Wysoka wydajność oznacza, że człowiek potrzebuje mniej jedzenia; zaś niska wydajność oznacza, że muszą jeść więcej.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
@@ -693,6 +693,8 @@
   <SurgeryDisableReasonOvumExtracted>komórki jajowe pobrane niedawno</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Zapłodnij</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>Zapłodnij {0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>nie może zapłodnić</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
