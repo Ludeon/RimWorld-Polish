@@ -48,8 +48,14 @@
   <TabFormingCaravan>Karawana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Zawartość</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>Podróż</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Zawartość</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>Szczegóły</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>TODO</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Automatyczne wycinanie</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Wklej</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>nie można dodać więcej</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Kończy się za</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,14 +112,14 @@
   <NotWhileAsleep>Nie podczas snu</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Obecnie ucieka z więzienia</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
+  <!-- EN: Door count -->
   <FactorForDoorCount>Mnożnik liczby drzwi</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
+  <!-- EN: Movement -->
   <FactorForMovement>Mnożnik do ruchu</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Cena niewolnika</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>Podstawowa wartość rynkowa tego {0}, jeśli zostanie sprzedany.</SlavePriceDescription>
+  <!-- EN: The base market value of this slave if sold. -->
+  <SlavePriceDescription>Podstawowa wartość rynkowa tego niewolnika, jeśli zostanie sprzedany.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Dostaje żywność</GetsFood>
   <!-- EN: Doctors care -->
@@ -136,8 +144,8 @@
   <NonRecruitable>Niezachwiana lojalność</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>Ten więzień wykazuje się niezachwianą lojalnością wobec swojego domu i to tak mocną, że nie ma szans na rekrutację.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>Ich lojalność rozciąga się na ich przekonania, więc nie można ich nawrócić.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>Jaki rodzaj lekarstw może być podawany tem więźniowi.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -167,8 +175,8 @@
   <PainLevel>Ból</PainLevel>
   <!-- EN: Injured -->
   <Injured>Ranny</Injured>
-  <!-- EN: Untended injury -->
-  <UntendedInjury>Nieopatrzona rana</UntendedInjury>
+  <!-- EN: untended injury -->
+  <UntendedInjury>nieopatrzona rana</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>brak problemów zdrowotnych</NoHealthConditions>
   <!-- EN: Whole body -->
@@ -188,9 +196,9 @@
   <!-- EN: Overview -->
   <HealthOverview>Podgląd</HealthOverview>
   <!-- EN: Operations -->
-  <MedicalOperationsShort>Operacje ({0})</MedicalOperationsShort>
+  <MedicalOperationsShort>Operacje</MedicalOperationsShort>
   <!-- EN: Modifications -->
-  <MedicalOperationsMechanoidsShort>Modyfikacje ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsMechanoidsShort>Modyfikacje</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operacje chirurgiczne</MedicalOperations>
   <!-- EN: amputate -->
@@ -213,13 +221,19 @@
   <PainFactor>Ból</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Zapobiega zakażeniu</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Samoleczenie</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>Samoleczenie</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} z włączonym samoleczeniem automatycznie nakazuje kolonistom leczyć się w {1} z normalną wydajnością.</SelfTendTip>
+  <AllowSelfTendTip>{0} z włączonym samoleczeniem będą leczyć się sami na miejscu z wydajnością {1} normy.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>śmierć za {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>Zezwól lek.</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>Jaki rodzaj lekarstw może być podawany tej osobie.</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>Jaki rodzaj jedzenia może być podawany tej osobie.</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Brak</None>
@@ -268,14 +282,14 @@
   <Lent>Pożyczono frakcji {FACTION_name}, powróci za {1}</Lent>
   <!-- EN: Missing -->
   <Missing>Zaginiony(a)</Missing>
-  <!-- EN: Slave -->
+  <!-- EN: slave -->
   <Slave>niewolnik</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Lider frakcji</FactionLeader>
   <!-- EN: Opinion of {0} -->
-  <OpinionOf>Opinia o {1_labelShort}</OpinionOf>
+  <OpinionOf>Opinia o {0}</OpinionOf>
   <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinia {1_labelShort} o mnie</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>Opinia {0} o mnie</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Nie żyję</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -420,7 +434,24 @@
   <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>Zagroda nie jest teraz zamknięta, więc auto-wycinka nie będzie miała miejsca.</AutocutUnenclosedPenTip>
 
-  <!-- EN: Auto-cut plants blocking wind turbine -->
-  <WindTurbineAutoCut_EnabledCheckbox>Automatyczne wycinanie roślin blokujących turbinę wiatrową</WindTurbineAutoCut_EnabledCheckbox>
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>Automatyczne wycinanie blokujących roślin</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
+
+  <!-- UNUSED -->
+  <NonRecruitableTipCannotConvert>Ich lojalność rozciąga się na ich przekonania, więc nie można ich nawrócić.</NonRecruitableTipCannotConvert>
+  <SelfTend>Samoleczenie</SelfTend>
+  <SelfTendTip>{0} z włączonym samoleczeniem automatycznie nakazuje kolonistom leczyć się w {1} z normalną wydajnością.</SelfTendTip>
 
 </LanguageData>
