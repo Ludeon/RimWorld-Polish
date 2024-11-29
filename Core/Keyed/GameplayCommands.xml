@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Zmień nazwę</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Zmień nazwę tej strefy.</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>Autom. ponowne uzbrojenie</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie po użyciu.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>Auto-odbudowa</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>W przypadku włączenia, {BUILDING_definite} zostanie automatycznie zastąpiony po jego detonacji.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -292,6 +293,8 @@
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Nastrojony na</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>Wybierz typ minerału, który ma być wykrywany.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -314,8 +317,8 @@
   <CommandReformCaravanDesc>Sformuj grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na dalsze polecenia.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Na tym obszarze nadal znajdują się jacyś wrogowie.</CommandReformCaravanFailHostilePawns>
-  
-    <!-- Send caravan -->
+
+  <!-- Send caravan -->
   <!-- EN: Send caravan -->
   <CommandSendCaravan>Wyślij karawanę</CommandSendCaravan>
   <!-- EN: Send caravan... -->
@@ -324,7 +327,7 @@
   <CommandSendCaravanDesc>Wyślij karawanę w to miejsce z wybranej kolonii, która może dotrzeć do tej lokacji.</CommandSendCaravanDesc>
   <!-- EN: Your settlements have no path to this location. -->
   <CommandSendCaravanCantReach>Twoje osady nie mają możliwości dojścia do tej lokalizacji.</CommandSendCaravanCantReach>
-  
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Podziel</CommandSplitCaravan>
@@ -639,13 +642,32 @@
   <UnlinkStorageSettingsDesc>Odłącz to od ustawień przechowywania innych budynków, aby jego ustawienia można było ustawić niezależnie.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Połączone ustawienia pamięci</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 budynek</OneBuilding>
   <!-- EN: {0} buildings -->
-  <NumBuildings>{0} budynki</NumBuildings>
+  <NumBuildings>{0} budynki/ów</NumBuildings>
   <!-- EN: Stores -->
   <StoresThings>Składy</StoresThings>
   <!-- EN: Select all linked -->
   <SelectAllLinked>Wybierz wszystkie połączone</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>Wybierz wszystkie powiązane z tym budynki magazynowe.</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort} jest nieprzytomn{0_gender ? y : a}.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
   
+  <!-- UNUSED -->
+  <CommandRenameZoneLabel>Zmień nazwę</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Zmień nazwę tej strefy.</CommandRenameZoneDesc>
+
 </LanguageData>
