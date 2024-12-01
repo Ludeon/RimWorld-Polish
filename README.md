@@ -34,3 +34,4 @@ Co tłumaczyć:
 * ŚwietyJudasz
 * Hades3623 (Hurion)
 * ProDeska (Krystianh42)
+* IreuN
