@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>TODO</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[enemiesLabel] założyli obóz i nękają karawany [asker_faction_name]. [asker_nameDef] planuje atak z powietrza na obóz, który jest strzeżony przez [enemiesCount] [enemiesLabel]. [asker_nameDef] prosi, abyś dostarczył [soldiers] do przeprowadzenia ataku.\n\n[asker_nameDef] wyśle prom, aby zabrać twoich wojowników, przetransportować ich na miejsce ataku i odwieźć z powrotem. W trakcie podróży będą karmieni i otrzymają opiekę medyczną.\n\nPo rozpoczęciu ataku musisz pokonać wszystkich wrogów i wieżyczki w ciągu [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] żołnierzy</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] żołnierza</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -24,6 +27,20 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>TODO</Mission_BanditCamp.questNameRules.rulesStrings>
-  
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef] i [questNameInner]</li>
+    <li>questNameInner->[aerial] [attack]</li>
+    <li>questNameInner->[attack] na [target]</li>
+    <li>questNameInner>[work] [attack]</li>
+    <li>target->obóz</li>
+    <li>target->baza</li>
+    <li>target->fort</li>
+    <li>aerial->powietrzny</li>
+    <li>aerial->promowy</li>
+    <li>attack->atak</li>
+    <li>attack->szturm</li>
+    <li>work->akcja</li>
+    <li>work->misja</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
 </LanguageData>

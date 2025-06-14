@@ -26,8 +26,8 @@
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-    <li>failLetterEndingCommon->Nie udało ci się wykonać zadania '[resolvedQuestName]'.</li>
-    <li>successLetterEndingCommon->Udało ci się wykonać zadanie '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon->Nie udało się wykonać zadania '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->Udało się wykonać zadanie '[resolvedQuestName]'.</li>
     <li>goodwillSomeCiviliansLost->Nie każdy [asker_faction_pawnSingular] [pawnLabel] mógł być uratowany. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Żadni [asker_faction_pawnSingular] [pawnLabelPlural] nie mogli być uratowani. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Twoje relacje z frakcją [asker_faction_name] spadły za każdego [pawnLabel] pozostawionego.</li>
@@ -37,7 +37,7 @@
     <li>rescueShuttleArrivedLetterLabel->Przybył prom ratowniczy</li>
     <li>rescueShuttleArrivedLetterText->Przybył prom ratowniczy zabrać [pawnLabelSingleOrPlural], którzy się rozbili. Upewnij się, że ci ludzie wsiądą na prom zanim odleci [rescueDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], uciekł. [asker_pronoun] jest wdzięczy za pomoc, którą [asker_pronoun] otrzymał w [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], uciekł. [asker_pronoun] jest wdzięczny{asker_gender ? : a} za pomoc, którą [asker_pronoun] otrzymał w [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], uciekł.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Zadanie nie powiodło się: [resolvedQuestName]</li>

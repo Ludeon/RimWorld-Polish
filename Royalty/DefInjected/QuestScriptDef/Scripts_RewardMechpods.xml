@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
@@ -8,7 +7,13 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nKapsuły zawierają następujące zagrożenia:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] [asker_faction_name], składa prośbę. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] [asker_faction_name], składa prośbę. [commonMainPart]</li>
+    <li>commonMainPart->Rój mechanoidów atakuje [asker_possessive] osady. [asker_nameDef] chce, abyś wysłał sygnał, który odwróci uwagę mechanoidów, podczas gdy [asker_pronoun] oczyści gniazdo. Jeśli to zrobisz, (*Threat)klaster mechanoidów(/Threat) wyląduje w [map_definite].[dangersDescription]\n\nKlaster mechanoidów początkowo będzie uśpiony. Może mieć aktywator z odliczaniem lub pozostać uśpiony, dopóki nie zostanie zakłócony.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,6 +29,19 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-  
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[menace2] klaster</li>
+    <li>questName->[menace] kapsuły</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef] i mechanoidy</li>
+    <li>nameBased->[asker_nameDef] i klaster mechanoidów</li>
+    <li>menace->zagrażające</li>
+    <li>menace2->zagrażający</li>
+    <li>menace->niebezpieczne</li>
+    <li>menace2->niebezpieczny</li>
+    <li>menace->straszne</li>
+    <li>menace2->straszny</li>
+    <li>menace->groźne</li>
+    <li>menace2->groźny</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
 </LanguageData>
