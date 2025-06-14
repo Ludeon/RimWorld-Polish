@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to help save one of [asker_possessive] caravans. The caravan is being hunted near [map_definite] by (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) from [enemyFaction_name]. [asker_nameDef] wants you to signal the [enemyFaction_pawnsPlural] to draw them away from the caravan - and towards you.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request of you.\n\n(*Threat)[groupsOf](/Threat) from [enemyFaction_name] have been harassing [asker_possessive] caravans in the area. [asker_nameDef] asks that you send them a challenge message, attracting them to attack and eliminating the threat yourself.[endingCommon]</li>
@@ -9,7 +8,14 @@
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], prosi o pomoc w ocaleniu jednej z [asker_possessive] karawan. Karawana jest ścigana w pobliżu [map_definite] przez (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) z [enemyFaction_name]. [asker_nameDef] chce, abyś wysłał sygnał do [enemyFaction_pawnsPlural], by odciągnąć ich od karawany – i przyciągnąć do siebie.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z [asker_faction_name], składa ci prośbę.\n\n(*Threat)[groupsOf](/Threat) z [enemyFaction_name] nękają [asker_possessive] karawany w okolicy. [asker_nameDef] prosi, abyś wysłał im wiadomość z wyzwaniem, prowokując ich do ataku i samodzielnie eliminując zagrożenie.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nJeśli zaakceptujesz, [enemyFaction_pawnsPlural] przybędą za [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Jeśli zaakceptujesz, [enemyFaction_pawnsPlural] przybędą za [firstRaidDelayTicks_duration].</li>
+  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -32,6 +38,30 @@
     <li>violence->Hostility</li>
     <li>violence->Warfare</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-  
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[enemyFaction_pawnsPlural] za fortunę</li>
+    <li>questName->[violence] za fortunę</li>
+    <li>questName->[violence] na zlecenie</li>
+    <li>questName->[violence] dla zysku</li>
+    <li>questName->Nagrodzony [violence2]</li>
+    <li>questName->Płatny [violence2]</li>
+    <li>questName->Wynagradzany [violence2]</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] dla honoru</li>
+    <li>questName(reward==royalFavor)->[violence] dla honoru</li>
+    <li>violence->walka</li>
+    <li>violence->bitwa</li>
+    <li>violence->starcie</li>
+    <li>violence->wojna</li>
+    <li>violence->bój</li>
+    <li>violence->rozlew krwi</li>
+    <li>violence->atak</li>
+    <li>violence->obrona</li>
+    <li>violence->konflikt</li>
+    <li>violence->wrogość</li>
+    <li>violence->działania wojenne</li>
+    <li>violence2->bój</li>
+    <li>violence2->rozlew krwi</li>
+    <li>violence2->atak</li>
+    <li>violence2->konflikt</li>
+  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
 </LanguageData>
