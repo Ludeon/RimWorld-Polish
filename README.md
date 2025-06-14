@@ -1,12 +1,8 @@
 # Team
 Używamy Discorda do współpracy. Aby nam pomóc kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje i uzyskasz ewentualną pomoc.
+Do koordynowania pracy wykorzystujemy Trello: https://trello.com/w/rwtpl
 
-# Polish translation for RimWorld 1.3.  
-Trwają prace nad tłumaczeniem:  
-Wersji podstawowej  
-Royalty DLC  
-Ideology DLC  
-
+# Polish translation for RimWorld 1.5.  
 Pobierz aktualną wersję tłumaczenia:  
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
@@ -16,14 +12,16 @@ Wskazówki ogólne:
 * \Notes\Podręczny słownik.md - Warto korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
   
 Co tłumaczyć:  
-* Na obecną chwilę, do tłumaczenia zostały tylko pliki Script(s), Tale, RulePack oraz kilka innych, czyli wszystko co wymaga bogatej wiedzy, jest trudne w tłumaczeniu i niełatwe w sprawdzaniu.
+* Pliki skryptów takie jak Tale, RulePack czy Scripts używane do tworzenia randomizowanych historii.
+* DLC, przede wszystkim Biotech.
+* Robić proofreading.
 
 # Rzeczy wymagające dopracowania:  
 * Przede wszystkim rzeczy wymienione na górze, tj. pliki zaczynające się od Script, Tale lub RulePack.
     Odpowiedzialne za generowanie questów czy nazw, są skomplikowane w edycji i trudne w sprawdzaniu.
-* Pozostałe pliki, tj. pola ToDo. Backstories.xml, ThoughtDef.xml oraz kilka innych plików. Ewentualnie jakiekolwiek literówki czy błędy w pisowni.
+* Pozostałe pliki, zwłaszcza te duże w stylu Backstories.xml, potrzebują poprawek i weryfikacji, tak by było po polsku, nie polskiemu ;)
 
-# Contributors
+# Contributors / Zasłużeni
 * Arczi008TV
 * ByJacob
 * R4nd0m24
@@ -36,3 +34,4 @@ Co tłumaczyć:
 * ŚwietyJudasz
 * Hades3623 (Hurion)
 * ProDeska (Krystianh42)
+* IreuN

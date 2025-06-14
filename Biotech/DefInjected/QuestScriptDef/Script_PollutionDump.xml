@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>wastepacksLetterLabel->Wastepacks arrived</li>
+    <li>wastepacksLetterText->The toxic wastepacks have been delivered.</li>
+  -->
+  <PollutionDump.questContentRules.rulesStrings>
+    <li>wastepacksLetterLabel->Toksyczne odpady dotarły</li>
+    <li>wastepacksLetterText->Toksyczne odpady zostały dostarczone.</li>
+  </PollutionDump.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionDump.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==True)->Przebywająca na orbitującym statku sztuczna osobowość ma specjalną prośbę. Chciałaby wyładować nadmiar toksycznych odpadów na Twojej planecie w nadzieji, że będziesz przechowywać je odpowiedzialnie.\n\nJeżeli się zgodzisz, dostarczy odpady kapsułą transportową w ilości [wastepackCount].\n\nNiezamrożone, po jakimś czasie się rozpuszczą, zanieczyszczając okoliczny teren.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] ma specjalną prośbę. Wyprodukował{asker_gender ? : a} ogromną ilość toksycznych odpadów, których nie chce przechowywać.\n\nJeżeli się zgodzisz, dostarczy odpady kapsułą transportową w ilości [wastepackCount].\n\nNiezamrożone, po jakimś czasie się rozpuszczą, zanieczyszczając okoliczny teren.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] ma specjalną prośbę. Ktoś podrzucił ogromną ilość toksycznych odpadów w pobliżu jednej z [asker_possessive] osad i nie jest w stanie ich bezpiecznie przechować.\n\nJeżeli się zgodzisz, dostarczy odpady kapsułą transportową w ilości [wastepackCount].\n\nNiezamrożone, po jakimś czasie się rozpuszczą, zanieczyszczając okoliczny teren.</li>
+  </PollutionDump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[waste] [dump]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste->waste</li>
+    <li>waste->pollution</li>
+    <li>waste->toxin</li>
+    <li>waste->wastepack</li>
+    <li>dump->dump</li>
+    <li>dump->drop</li>
+    <li>dump->clearance</li>
+    <li>dump->problem</li>
+  -->
+  <PollutionDump.questNameRules.rulesStrings>
+    <li>questName->[waste_Neu] [dump_Neu]</li>
+    <li>questName->[waste_Mas] [dump_Mas]</li>
+    <li>questName->[waste_Fem] [dump_Fem]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] i [waste_Neu] [dump_Neu]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] i [asker_possessive] [waste_Mas] [dump_Mas]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] i [asker_possessive] [waste_Fem] [dump_Fem]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef] i [waste_Neu] [dump_Neu]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef] i [asker_possessive] [waste_Mas] [dump_Mas]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef] i [asker_possessive] [waste_Fem] [dump_Fem]</li>
+    <li>waste_Mas->toksyczny</li>
+    <li>waste_Mas->zanieczyszony</li>
+    <li>waste_Mas->trujący</li>
+    <li>waste_Fem->toksyczna</li>
+    <li>waste_Fem->zanieczyszona</li>
+    <li>waste_Fem->trująca</li>
+    <li>waste_Neu->toksyczne</li>
+    <li>waste_Neu->zanieczyszone</li>
+    <li>waste_Neu->trujące</li>
+    <li>dump_Neu->upoważnienie</li>
+    <li>dump_Mas->zrzut</li>
+    <li>dump_Mas->problem</li>
+    <li>dump_Fem->zagwostka</li>
+    <li>dump_Fem->sterta</li>
+  </PollutionDump.questNameRules.rulesStrings>
+  
+</LanguageData>

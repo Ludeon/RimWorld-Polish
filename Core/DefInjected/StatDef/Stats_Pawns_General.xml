@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>Mnożnik tempa uczenia się umiejętności 'zwierzęce'.</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>mnożnik głodu podczas snu</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>prędkość jezdna karawany</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -46,9 +49,8 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>Mnożnik szybkości nauki dla wszystkich umiejętności.</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
+  <!-- UNUSED -->
   <HungerRateMultiplier.label>mnożnik tempa zgłodnienia</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
   <HungerRateMultiplier.description>Mnożnik, który określa jak szybko stworzenie stanie się głodne.</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
@@ -66,10 +68,29 @@
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>Ilość skóry, jaką uzyskasz po zabiciu tego stworzenia. Ta wartość jest zredukowana, jeśli stworzenie nie zostanie ubite w czysty sposób lub jeśli zostanie zranione po zabiciu.</LeatherAmount.description>
   
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>czynnik długości życia</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>Współczynnik długości życia zmienia efektywną długość życia stworzenia, skracając lub wydłużając czas do wystąpienia chorób związanych z wiekiem. Współczynnik długości życia powyżej 100% opóźnia wystąpienie choroby i zwiększa ogólną długość życia, podczas gdy współczynnik długości życia poniżej 100% przyspiesza wystąpienie choroby i zmniejsza długość życia.</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>maksymalne odżywienie</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>Ilość pożywienia potrzebna do całkowitego wypełnienia żołądka tego stworzenia.</MaxNutrition.description>
+  
   <!-- EN: meat amount -->
   <MeatAmount.label>ilość mięsa</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>Ilość mięsa, jaką uzyskasz po zabiciu tego stworzenia.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>przyrost skupienia psychicznego od medytacji</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>Ilość skupienia psychicznego, którą osoba zyskuje na dzień medytacji, ignorując bonusy z przedmiotów skupiających.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / day</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / day</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>próg poziomu załamania</MentalBreakThreshold.label>
@@ -93,6 +114,18 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Próg bólu po którym to stworzenie będzie znokautowane z powodu bólu.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>limit ciepła neuronów</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>Maksymalna ilość ciepła neuronów, którą osobnik może bezpiecznie tolerować.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>częstotliwość rozpraszania ciepła neuronów</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>Tempo, w jakim ta osoba redukuje ciepło neuronowe.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>podatność PSI</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -103,9 +136,18 @@
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Mnożnik szybkości z jaką stworzenie wypoczywa podczas snu.</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>odporność na skażenie środowiska</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>TJak bardzo to stworzenie jest odporne na działanie toksyn środowiskowych. Chroni to przed toksycznym gazem, gnijącym smrodem, toksycznym opadem i zanieczyszczonym terenem, ale nie przed bezpośrednimi atakami jadem lub wstrzykniętą trucizną. Gdy wartość ta jest wyższa, ekspozycja na zanieczyszczenia powoduje proporcjonalnie mniejsze nagromadzenie toksyn w organizmie.</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>odporność na toksyny</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>Jak dobrze to stworzenie jest odporne na gromadzenie się toksyn.</ToxicResistance.description>
+  
+  <!-- UNUSED -->
   <ToxicSensitivity.label>podatność na toksyny</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>Mnożnik wpływu toksyn na to stworzenie.</ToxicSensitivity.description>
   
 </LanguageData>

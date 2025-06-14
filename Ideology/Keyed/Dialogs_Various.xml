@@ -51,7 +51,7 @@
   <ConfirmIncompatibleMemes>Następujące poglądy są niezgodne</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
   <ConfirmChangeMemesForFluidIdeoContinue>Czy chcesz kontynuować?</ConfirmChangeMemesForFluidIdeoContinue>
-  
+
   <!-- EN: role -->
   <Role>rola</Role>
   <!-- EN: Assign role -->
@@ -292,9 +292,13 @@
   <ConfirmDecisionsTitle>Potwierdź decyzje</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>Zahibernowany statek międzygwiezdny zgłoszony przez SI (*Name)Charlon Whitestone(/Name) odleci przed założeniem nowej kolonii. Ucieczka z planety nie będzie już możliwa poprzez podróż na ten statek.</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>Nie wybrano żadnej relikwii, która mogłaby zostać sprowadzona do nowej kolonii.</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>Wybrano {0} z możliwych {1} przedmiotów do przeniesienia do nowej kolonii.</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
   <RemoveEquippedRelicsDescription>Nabywcy kolonii pozwolą Ci zabrać tylko jedną relikwię. Wszelkie niewybrane relikwie zostaną pozostawione, łącznie z:</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
   <WantToProceed>Czy chcesz kontynuować?</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Konwertuj</ConvertToPlayerIdeoligion>
@@ -306,6 +310,8 @@
   <AbandonArchotechStructuresWarningDialog>Opuszczasz miejsce, które zawiera archotyczne struktury, których jeszcze w pełni nie poznano.\n\nBędzie można się tu później przesiedlić, ale Twoja kolonia zostanie wymazana.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>Ilość {0}, którą można przenieść do nowej kolonii.\n\nMaksymalna dozwolona ilość to: {1}</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>Twoja kolonia została sprzedana. Nabywcy są gotowi, byś wybrał, gdzie wylądujesz.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Zhakowanie tego {0} zaalarmuje wrogów i spowoduje ich atak. Czy naprawdę chcesz zhakować {0}?</ConfirmHackEnenyTerminal>
@@ -313,4 +319,13 @@
   <!-- EN: Relics -->
   <RelicsSection>Relikwie</RelicsSection>
 
+  <!-- Food restrictions -->
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>Wegetariański</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>Mięsożerne</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>Kannibalistyczne</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>Mięso owadów</FoodRestrictionInsectMeat>
 </LanguageData>

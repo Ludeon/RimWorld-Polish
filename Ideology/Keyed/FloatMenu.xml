@@ -26,7 +26,7 @@
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>Potrzebujesz łóżka podrzędnego, które jest dostępne, niezarezerwowane i w bezpiecznej temperaturze.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>Zwróć do łóżka niewolnika</ReturnToSlaveBed>
+  <ReturnToSlaveBed>Zwróć niewolnika do łóżka</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>niedozwolone dla frakcji</NotAllowedForFaction>
 
@@ -35,7 +35,7 @@
   <!-- EN: Remove precept -->
   <RemovePrecept>Usuń nakaz</RemovePrecept>
   <!-- EN: Regenerate -->
-  <Regenerate>Zregeneruj</Regenerate>
+  <Regenerate>Generuj ponownie</Regenerate>
   <!-- EN: Cannot edit -->
   <CannotEdit>Nie można edytować</CannotEdit>
   <!-- EN: No choices available -->
@@ -65,7 +65,7 @@
   <!-- EN: non-tribal -->
   <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>nie plemienne</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>wymaga któregokolwiek z tych poglądów</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>wymaga dowolnego z tych poglądów</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>nie można nosić z przypisanym strojem</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
@@ -128,25 +128,45 @@
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Usuń aktualną rolę</RemoveCurrentRole>
 
-  <!-- EN: Enter biosculpter pod -->
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
   <EnterBiosculpterPod>Wejdź do biorzeźbiarza</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Biodostrojony do kogoś innego.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>Musi być w wieku {0} lat, aby można było odmłodzić.</UnderMinBiosculpterAgeReversalAge>
-  <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
   <CarryToBiosculpterPod>Zanieś {PAWN_label} do zasobnika biorzeźbiarza ({CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>Nie można przenieść do kapsuły biorzeźbiarza</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Brak dostępnego zasobnika biorzeźbiarza.</NoBiosculpterPod>
-  <!-- EN: No cycle active -->
-  <BiosculpterNoCycleActive>Brak aktywnego cyklu</BiosculpterNoCycleActive>
-  <!-- EN: Nutrition being loaded -->
-  <BiosculpterLoadingNutrition>Ładowanie substancji odżywczych</BiosculpterLoadingNutrition>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>Odżywianie nie zostało załadowane</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Zajęte</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>Nie można wejść</CannotEnter>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>Nie można rozpocząć cyklu {0}</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>Nie można znaleźć składników do cyklu ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>Nikt w okolicy nie może z tego korzystać</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>Biotuningowanie do {PAWN_labelShort} i {PAWN_pronoun}, któryhch nie ma w pobliżu</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>Automatyczne ładowanie wartości odżywczych</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>Automatyczne ładowanie składników odżywczych wymaganych do rozpoczęcia cyklu</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>Automatyczne odwracanie wieku dla {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>Automatycznie usatysfakcjonuj {PAWN_labelShort}, aby przeprowadzić coroczną terapię odwracającą wiek w tej kapsule, zgodnie z przekonaniami {PAWN_possessive}. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>Jeśli ta opcja jest włączona, {PAWN_labelShort} automatycznie podejmie kolejne leczenie {PAWN_possessive} za {TIME}, jeśli kapsuła będzie gotowa.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} pragnie już kolejnego leczenia {PAWN_possessive} i automatycznie je rozpocznie, jeśli ta opcja będzie włączona.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>Zbieranie składników do cyklu biorzeźbiarza</BiosculpterJobReportCollectIngredients>
 
 </LanguageData>

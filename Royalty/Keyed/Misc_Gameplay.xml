@@ -21,11 +21,11 @@
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Użyj trenera psychicznego, aby nauczyć się zdolności psychicznej: {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
-  <PsycastNeurotrainerDescription>Jednorazowa super-dawka mechanitów, które trenują określoną zdolność psychiczną.\n\nDawka jest przyjmowana przez orbitę oka. Po wpuszczeniu do mózgu, mechanity formują wiedzę na temat danej zdolności, w razie potrzeby przemieniają się w tkankę nerwową .\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Jednorazowa super-dawka mechanitów, które trenują określoną zdolność psychiczną.\n\nDawka jest przyjmowana przez orbitę oka. Po wpuszczeniu do mózgu, mechanity formują wiedzę na temat danej zdolności, w razie potrzeby przemieniając się w nową tkankę nerwową.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} uży{PAWN_gender ? ł : ła} neuro-trenera, aby nauczyć się zdolności psychicznej: {1}</AbilityNeurotrainerUsed>
-  <!-- EN: Requires psylink -->
-  <PsycastNeurotrainerNoPsylink>Wymaga łącza PSI</PsycastNeurotrainerNoPsylink>
+  <!-- EN: requires psylink -->
+  <PsycastNeurotrainerNoPsylink>wymaga łącza PSI</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} już posiada zdolność: {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -49,7 +49,7 @@
   <Psyfocus>Skupienie PSI</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Skupienie PSI</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>Skupienie psychiczne to pewien typ strukturyzacji umysłowej wymaganej do użycia mocy psychicznych. Skupienie PSI wyczerpuje się po pewnym czasie, więc musi być zwiększane przez regularną medytację. Utracenie całego skupienia psychicznego sprawia, że dana osoba jest niezdolna do używania mocy psychicznych, nie powoduje to żadnych innych konsekwencji.\n\nWiększe poziomy skupienia pozwalają na użycie bardziej zaawansowanych zdolności, ale zwiększają także częstotliwość z jaką wyczerpuje się skupienie.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
@@ -157,8 +157,8 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Brak kolonistów z naturalnym typem skupienia medytacji.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>Potrzeba przynajmniej {0} trawy anima.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
-  <RitualTargetAnimaTreeInfo>Drzewo anima.</RitualTargetAnimaTreeInfo>
+  <!-- EN: an anima tree -->
+  <RitualTargetAnimaTreeInfo>drzewo anima</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Musi być to kolonista z naturalnym typem medytacji, który jest poniżej maksymalnego poziomu łącza PSI.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
@@ -168,8 +168,13 @@
   <AnimaLinkingExplanationBase>Ceremonia łączenia anima jest potężniejsza, jeśli ma więcej uczestników. A im więcej jest uczestników, tym krócej trwa ceremonia, a także urośnie więcej trawy anima.\n\nZ {0} dodatkowymi uczestnikami, odrośnie {1} trawy anima po jej zakończeniu.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Nie załadowano jeszcze wszystkich wymaganych rzeczy!</ShuttleRequiredItemsNotSatisfied>
+  <!-- EN: Cannot load {0_labelShort} -->
+  <CannotLoadIntoShuttle>Nie można załadować {0_labelShort}</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>brak ciepła do oddania.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>poziom {0}</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>
