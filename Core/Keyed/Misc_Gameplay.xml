@@ -425,7 +425,7 @@
   <!-- EN: Research progress -->
   <ResearchProgress>Postęp badania</ResearchProgress>
   <!-- EN: already has {0} -->
-  <AlreadyHasHediff>TODO</AlreadyHasHediff>
+  <AlreadyHasHediff>ma już {0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>wieżyczka</Turret>
   <!-- EN: turrets -->
@@ -569,7 +569,7 @@
   <!-- EN: cost -->
   <Cost>koszt</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>TODO</StunnedByEMP>
+  <StunnedByEMP>Ogłuszony przez EMP</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Tytuł</BackstoryTitle>
   <!-- EN: person -->
@@ -591,13 +591,13 @@
   <!-- EN: Must be imprisoned. -->
   <RequiresImprisonment>Musi być uwięziony.</RequiresImprisonment>
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <HaulFromSource>Priorytetowe traktowanie przewożonej zawartości</HaulFromSource>
   <!-- EN: Use -->
   <UseGizmo>Używaj</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <UseGizmoTooltip>Nakaż komuś użycie {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>Wybierz osobę, która ma to użyć</UseGizmoMouse>
   <!-- EN: Select target -->
   <TargetGizmoMouse>Wybierz cel</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
@@ -607,7 +607,7 @@
   <!-- EN: not yet discovered -->
   <NotYetDiscovered>jeszcze nie odkryte</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
+  <ReportStringCrawlingToSafety>Czołganie do bezpiecznego miejsca.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Czołganie do łóżka.</ReportStringCrawlingToBed>
   
@@ -742,7 +742,7 @@
   <NoExteriorAccess>Brak dostępu z zewnątrz - Zwierzęta nie mogą być wprowadzane ani wyprowadzane.</NoExteriorAccess>
   
   <!-- EN: Must be connected to walls on both sides to function. -->
-  <DoorMustBeEnclosedByWalls>TODO</DoorMustBeEnclosedByWalls>
+  <DoorMustBeEnclosedByWalls>Aby działały, muszą być podłączone do ścian po obu stronach.</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -1200,11 +1200,11 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>Czy na pewno chcesz wysterylizować {PAWN_nameDef}? Wykonanie tej czynności rozgniewa {FACTION_name}.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>Czy na pewno chcesz zabić {PAWN_nameDef}? Wykonanie tej czynności rozgniewa {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>Czy na pewno chcesz uwolnić {PAWN_nameDef}? Wykonanie tej czynności rozgniewa {FACTION_name}.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1246,7 +1246,7 @@
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>Klawisz skrótu</HotKeyTip>
   
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1288,7 +1288,7 @@
   <!-- EN: Something is already placed on this wall. -->
   <SomethingPlacedOnThisWall>Coś już jest na tej ścianie.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>TODO</CannotSupportAttachment>
+  <CannotSupportAttachment> Ten budynek nie obsługuje załączników</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicę do belki strukturalnej statku.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1342,7 +1342,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent nie jest jeszcze gotowy</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> 
+  <ShipNoSettlementToReturnTo>Brak ugody, do której można wrócić. Najpierw należy zawrzeć ugodę.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) jest gotowy na rozpoczęcie procedury odzyskującej hibernację reaktora.\n\nOstrzega, że proces ten zajmie około 15 dni, w tym czasie energia ta będzie wykrywalna z dużej odległości.\n\nRodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie to gangi zdesperowanych najeźdźców oraz roje śmiertelnych mechanoidów.\n\nBędziecie atakowani z intensywnością, jakiej jeszcze nigdy nie widzieliście. Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1428,13 +1428,13 @@
   <!-- EN: Keep watching -->
   <GameOverKeepWatching>Oglądaj dalej</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Na razie obserwuj dalej</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>Stwórz nowych tułaczy</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>Stwórz nowych tułaczy (trzeba poczekać {0}h)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Wszyscy nie żyją lub odeszli. Być może ktoś znajdzie zastosowanie dla ruin tego miejsca.\n\nWybierz nowych tułacz przybywających do twojej kolonii i kontynuuj historię.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1452,9 +1452,9 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Nie jest powiązane z budowlą</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Maksymalna liczba połączeń na budynek</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>Front budynku jest zablokowany.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1644,7 +1644,7 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Łupy z obozu</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown> 
+  <Reward_Unknown>Nie jest jasne, co się stanie, jeśli zaakceptujesz to zadanie</Reward_Unknown> 
   <!-- EN: Unknown -->
   <Reward_Unknown_Label>Nieznane</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
@@ -1711,11 +1711,11 @@
   <CausedByHediff>Spowodowane przez: {0}</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
-  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <DamageFactorWeakness>Osłabienie {DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <DamageFactorResistance>Odporność {DAMAGE_label}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
-  <DamageFactor>TODO</DamageFactor>
+  <DamageFactor>Obrażenia {DAMAGE_label} są mnożone przez ten współczynnik.</DamageFactor>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
@@ -1731,9 +1731,9 @@
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Szanse na wynik przy jakości {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
-  <ExpectedLordJobDuration>TODO</ExpectedLordJobDuration>
+  <ExpectedLordJobDuration>Przewidywany czas trwania</ExpectedLordJobDuration>
 
   <!-- Rituals -->
   <!-- EN: ritual -->
@@ -1878,7 +1878,7 @@
   <!-- EN: rot stink -->
   <RotStink>śmierdząca zgnilizna</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>pył śmierciożycia</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1886,7 +1886,7 @@
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>zdolność jest w trakcie odnawiania. Możliwość użycia za {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>zdolność z opłatami.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>zdolność jest już w kolejce.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
@@ -1903,7 +1903,7 @@
   <!-- EN: {0_nameDef} is in a mental state. -->
   <PawnIsInMentalState>{0_nameDef} jest w stanie agresji.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} jest w agresywnym stanie psychicznym.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Wyłączona praca</DisabledWorkLabel>
@@ -1949,11 +1949,11 @@
   <!-- EN: Benefits -->
   <Benefits>Korzyści</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>Niebezpieczeństwa</Dangers>
   <!-- EN: already unlocked -->
   <AlreadyUnlocked>już odblokowane</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>po odkryciu</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>Został doprowadzony do załamnia psychicznego po przeczytaniu {0}.</BookMentalBreakMessage>
@@ -1961,74 +1961,74 @@
   <BookReadProgress>{0} gotowe (zakończy się za {1} h)</BookReadProgress>
   
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>szybkość uczenia się</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>szansa na załamanie psychiczne</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>{BOOK_labelShort} nie jest czytelna</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>TODO</BookCantRead>
+  <BookCantRead>{PAWN_nameDef} nie może czytać</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef} musi być {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>TODO</BookBlind>
+  <BookBlind>{PAWN_nameDef} jest ślepy</BookBlind>
   
   <!-- EN: max level {0} -->
   <BookMaxLevel>maksymalny poziom {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>TODO</ReadingReportHeader>
+  <ReadingReportHeader>Czytanie {0}: {1} gotowe (zakończy się za {2}h)</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <ReadingDialogTitle>Przypisz czytanie</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <ReadingAssignTo>Przypisz do {0}</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>Przypisz</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  <ContainedBooksDesc>Książki znajdujące się obecnie na tej półce.</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>Przechowywane książki</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Premia czytania w pokoju</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>Wyjmij tą książkę z regału</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
-  <CommandPushTo>TODO</CommandPushTo>
+  <CommandPushTo>Naciśnij, aby...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>wymaga {0}</RequiredCapacity>
   
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+  <UnableToEnterPortal>Nie można wprowadzić {0}, miejsce docelowe jest zablokowane</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Ta kategoria badań nie została odkryta.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
+  <Emergence>Powstanie</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>TODO</RemovePart>
+  <RemovePart>usuń {0}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <DoWorkAtThing>{GERUND} {TARGETLABEL} pod adresem</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>można badać w {0}</CanBeStudiedInDuration>
   
   <!-- EN: About to explode -->
-  <AboutToExplode>TODO</AboutToExplode>
+  <AboutToExplode>Za chwilę wybuchnie</AboutToExplode>
   
   <!-- EN: New Anomaly expansion available now! -->
-  <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
+  <MainScreen_AnomalyAvailableNow>Nowe rozszerzenie Anomaly już dostępne!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>TODO</DisabledByScenario>
+  <DisabledByScenario>Wyłączone przez scenariusz</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>zablokowany przez dach</BlockedByRoof>
