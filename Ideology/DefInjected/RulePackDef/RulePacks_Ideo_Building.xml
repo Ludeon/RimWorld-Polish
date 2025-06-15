@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>buildingName->altar</li>
     <li>buildingName->shrine</li>
     <li>buildingName->chancel</li>
     <li>buildingName->platform</li>
   -->
-  <NamerAltar.rulePack.rulesStrings>TODO</NamerAltar.rulePack.rulesStrings>
-  
+  <NamerAltar.rulePack.rulesStrings>
+    <li>buildingName->ołtarz</li>
+    <li>buildingName->hór</li>
+    <li>buildingName->podest</li>
+  </NamerAltar.rulePack.rulesStrings>
   <!-- EN:
     <li>buildingName->totem</li>
     <li>buildingName->effigy</li>
     <li>buildingName->pyre</li>
   -->
   <NamerBurnTarget.rulePack.rulesStrings>TODO</NamerBurnTarget.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>buildingName->platter</li>
     <li>buildingName->dish</li>
@@ -23,13 +24,11 @@
     <li>buildingName->manpork</li>
   -->
   <NamerCannibalPlatter.rulePack.rulesStrings>TODO</NamerCannibalPlatter.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>buildingName->tree</li>
     <li>buildingName->pine</li>
   -->
   <NamerChristmasTree.rulePack.rulesStrings>TODO</NamerChristmasTree.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</li>
     <li>r_ideoBuildingName->[buildingName] of [chosenTheme]</li>
@@ -39,8 +38,14 @@
     <li>r_ideoBuildingName->[buildingName] of [memeConcept]</li>
     <li>r_ideoBuildingName->[buildingName] of [chosenIdeoName]</li>
   -->
-  <NamerIdeoBuilding.rulePack.rulesStrings>TODO</NamerIdeoBuilding.rulePack.rulesStrings>
-  
+  <NamerIdeoBuilding.rulePack.rulesStrings>
+    <li>r_ideoBuildingName(p=2)->[memeConcept] [buildingName]</li>
+    <li>r_ideoBuildingName->[buildingName] [chosenTheme]</li>
+    <li>r_ideoBuildingName->[chosenAdjective] [buildingName]</li>
+    <li>r_ideoBuildingName->[keyDeity] [buildingName]</li>
+    <li>r_ideoBuildingName->[buildingName] [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] [chosenIdeoName]</li>
+  </NamerIdeoBuilding.rulePack.rulesStrings>
   <!-- EN:
     <li>buildingName->ideogram</li>
     <li>buildingName->symbol</li>
@@ -52,7 +57,6 @@
     <li>buildingName->logo</li>
   -->
   <NamerIdeogram.rulePack.rulesStrings>TODO</NamerIdeogram.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>buildingName->statue</li>
     <li>buildingName->sculpture</li>
@@ -61,8 +65,11 @@
     <li>buildingName->form</li>
     <li>buildingName->shape</li>
   -->
-  <NamerIdeoSculpture.rulePack.rulesStrings>TODO</NamerIdeoSculpture.rulePack.rulesStrings>
-  
+  <NamerIdeoSculpture.rulePack.rulesStrings>
+    <li>buildingName->statua</li>
+    <li>buildingName->rzeźba</li>
+    <li>buildingName->forma</li>
+  </NamerIdeoSculpture.rulePack.rulesStrings>
   <!-- EN:
     <li>buildingName->smoker</li>
     <li>buildingName->gasser</li>
@@ -70,5 +77,4 @@
     <li>buildingName->smolderer</li>
   -->
   <NamerSmoker.rulePack.rulesStrings>TODO</NamerSmoker.rulePack.rulesStrings>
-  
 </LanguageData>
