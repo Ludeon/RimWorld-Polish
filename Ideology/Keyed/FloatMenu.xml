@@ -7,6 +7,10 @@
   <OnlyMembersCanBuild>Tylko {0} mogą budować</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} jest już w toku.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} już uczestniczy w rytuale.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -19,8 +23,12 @@
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} musi być - {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} jest psychicznie głuch{PAWN_gender ? y : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>Niewystarczająco miejsca. Musi istnieć wyraźny okrąg o promieniu {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} jest niewolnikiem. Niewolnicy nie mają pogrzebów.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
@@ -30,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>niedozwolone dla frakcji</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>Usuń</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>Usuń nakaz</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -68,8 +74,6 @@
   <RoleApparelRequirementIncompatibleAnyMemeRequired>wymaga dowolnego z tych poglądów</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>nie można nosić z przypisanym strojem</BodyPartAlreadyCovered>
-  <!-- EN: already assigned -->
-  <AlreadyAssigned>już przypisane</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Ludzie są zadowoleni, kiedy ich wymagania dotyczące odzieży są spełnione i smutni, gdy naruszone.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -97,17 +101,6 @@
   <IdeoAlreadyHasAltar>może mieć tylko jeden ołtarz/ideogram</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>zmienić kolor stroju</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>Zhakuj {0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>Nie możesz zhakować {0}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>Aktualnie hakowane</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>Niezdolność do hakowania</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>zrzuć zapasy</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>Zainstaluj {0}</InstallRelic>
@@ -168,5 +161,7 @@
   <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} pragnie już kolejnego leczenia {PAWN_possessive} i automatycznie je rozpocznie, jeśli ta opcja będzie włączona.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
   <BiosculpterJobReportCollectIngredients>Zbieranie składników do cyklu biorzeźbiarza</BiosculpterJobReportCollectIngredients>
+  <!-- UNUSED -->
+  <CantStartNotEnoughSpaceDuel>Niewystarczająco miejsca. Musi istnieć wyraźny okrąg o promieniu {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
 
 </LanguageData>

@@ -22,8 +22,12 @@
   <!-- EN: Not allowed -->
   <NotAllowed>Nie dozwolono</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Strzelaj w: {1_labelShort}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>Usuń</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>poza zasięgiem</OutOfRange>
@@ -41,6 +45,8 @@
   <IsNotDraftedLower>{1_labelShort} nie jest w trybie bojowym</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>nie można zaatakować siebie</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -88,6 +94,8 @@
   <AboveAllowedSkill>powyżej dozwolonej umiejętności {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>nieosiągalne poza komórką</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>brak wymaganego poziomu umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -216,7 +224,7 @@
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>niezachwiana lojalność</Unrecruitable>
   <!-- EN: not recruitable -->
-  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
+  <UnrecruitableNoFaction>nie podlega rekrutacji</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
   <TransferEntity>Przenieś {0_label}</TransferEntity> 
 
@@ -228,6 +236,8 @@
   <TakingToBed>Przenosi {0_labelShort} do łóżka.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Nie można uratować</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>TODO</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Zanieś: {1_labelShort} do kapsuły hibernacyjnej</CarryToCryptosleepCasket>
@@ -289,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Wymuś założenie: {1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Wymuś wyposażenie: {1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Nie można wyposażyć: {1_label}</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
   
@@ -397,6 +415,8 @@
   <NoDoctor>brak lekarza</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>łóżko medyczne nie dla niewolników</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>TODO</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>zajęte przez: {0}</SomeoneElseSleeping>
   
@@ -432,19 +452,6 @@
   <OfferGifts>Zaoferuj podarunek</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>Handluj z: {0}</TradeWithSettlement>
-  
-  <!-- EN: Enter {0} -->
-  <EnterPortal>Wejdź do {0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>Wchodzenie do {0}</EnteringPortal>
-  <!-- EN: Enter {0} -->
-  <CommandEnterPortal>Wejdź do {0}</CommandEnterPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>Wybierz ludzi oraz przedmioty by wejść do {0}.</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>Anuluj wchodzenie</CommandCancelEnterPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>Anuluj wpowadzenie ludzi lub przedmiotów do tego.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -460,7 +467,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Nie można wykonać: {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: Incapable of {0} -->
+  <!-- EN: Incapable of {0} -->
   <CannotMissingHealthActivities>Nie można nadać priorytetu, niezdolność do: {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -469,27 +476,27 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>Już priorytetyzowano {0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: Will never do {0} -->
+  <!-- EN: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Nie nadać priorytetu, nigdy nie wykona: {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>Brak niezbędnego tytułu</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: Will never {0} -->
+  <!-- EN: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Nie można nadać priorytetu, nigdy nie wykona: {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nigdy nie wykona: {0}</WillNever>
 
-  <!-- EN: Cannot prioritize: Not assigned to {0} -->
+  <!-- EN: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Nie można nadać priorytetu, brak przydziału do: {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>nie przydzielono</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>brak przydziału do: {0}</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: Research is a long-term task -->
+  <!-- EN: Research is a long-term task -->
   <CannotPrioritizeResearch>Nie można nadać priorytetu: Badania są zadaniem długoterminowym</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
+  <!-- EN: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>Nie można nadać priorytetu: {1_label} - oznaczono jako zakazane</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Nie można nadać priorytetu: Zakazane</CannotPrioritizeCellForbidden>
@@ -501,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Priorytetyzuj {0}: {1}</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>TODO</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Upuść na krawędzi</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -626,4 +639,24 @@
   <AlreadyAnalyzed>Już przeanalizowane</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>brak osiąglanego, niezarezerwowanego laboratorium badawczego</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>Zhakuj {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>TODO</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>Nie możesz zhakować {0}</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>TODO</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>Aktualnie hakowane</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>Niezdolność do hakowania</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>zrzuć zapasy</ToDropSupplies>
+
+  <!-- UNUSED -->
+  <CommandEnterPortal>Wejdź do {0}</CommandEnterPortal>
+
 </LanguageData>

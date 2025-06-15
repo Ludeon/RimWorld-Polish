@@ -26,7 +26,7 @@
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Dostępne jest wezwanie {LEADER_label}</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a {LEADER_label} mechanoid. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>Mechanitor może użyć {PARENT_label}, aby wezwać machanoida {LEADER_label}. Jeśli pokonasz {LEADER_label}, opuści następujące przedmioty:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
@@ -34,14 +34,20 @@
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterBossgroupCallerUnlocked>Możesz teraz zbudować {PARENT_label}, którego mechanitor może użyć do przywołania {LEADER_label}. Jeśli pokonasz {LEADER_label}, opuści następujące przedmioty:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
-  <!-- EN: {0_nameDef}'s mechlink available -->
+  <!-- EN: {PAWN_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>Dostępny jest mechlink {0_nameDef}</LetterLabelMechanitorCasketOpened>
-  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
   <LetterMechanitorCasketOpened>Znalazłeś pozostałości starożytnego mechanitora!\n\nWyodrębnij mechlink {0_possessive}, wybierając kolonistę i klikając na pozostałości prawym przyciskiem myszy</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Znaleziono kasetę mechanitora</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>Odkryłeś kasetę kryptosnu mechanitora!\n\nOtwórz ją!</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -108,10 +114,14 @@
   <Immediately>niezwłocznie</Immediately>
   <!-- EN: within -->
   <Within>w zasięgu</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Niemowlę otrzymało tymczasowo imię {0_nameFull}. Możesz to zmienić do {1} po urodzeniu</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Niemowlę otrzymało tymczasowo imię {0_nameFull}. Możesz to zmienić, o ile dziecko ma mniej niż {1} lat</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Niemowlę otrzymało tymczasowo imię {0_nameFull}. Możesz to zmienić, o ile dziecko ma mniej niż {1} lat</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>Moment rozwoju dla {PAWNNAME}</BirthdayGrowthMoment>
@@ -134,7 +144,11 @@
   <BirthdayPassionArchive>Pasja została zwiększona dla {0}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>Zdobyto cechę {0}.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Dokonaj wyborów, aby zakończyć</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -164,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nNie posiadasz wystarczającej ilości leków, aby implantować ksenozarodek. implantacji nie można się rozpocząć, dopóki nie zdobędziesz leku {MEDICINENEEDED}.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>Mimowolna anabioza</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} zapadł w anabiozę</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Otrzymano śmiertelne obrażenia</DeathrestLethalDamage>
 
@@ -186,5 +208,14 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>Instynktownie szukając partnera, {BONDPAWN_nameDef} nawiązuje psychicznie więź romantyczną z {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} przyniesie korzyści psychologiczne wynikające z połączenia z {BONDAWN_nameDef}, ale jeśli zostaną rozdzieleni na w różne strony świata, oboje będą cierpieć z powodu stresu psychicznego. Jeśli jedno umrze, drugie popadnie w szaleństwo.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>Niemowlę otrzymało tymczasowo imię {0_nameFull}. Możesz to zmienić do {1} po urodzeniu</LetterPartNameBaby>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} zapadł w anabiozę</LetterTextInvoluntaryDeathrest>
 
 </LanguageData>

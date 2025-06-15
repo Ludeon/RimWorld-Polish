@@ -219,7 +219,22 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->mroczny</li>
+    <li>memeAdjective->ciemny</li>
+    <li>memeHyphenPrefix->dark</li>
+    <li>memeHyphenPrefix->dim</li>
+    <li>memeConcept->ciemna</li>
+    <li>memeConcept->mroczna</li>
+    <li>memeConcept->czarna</li>
+    <li>memeLeaderNoun->shrouder</li>
+    <li>memeLeaderNoun->lightkiller</li>
+    <li>memeLeaderAdjective->dark</li>
+    <li>memeMoralist->obscurer</li>
+    <li>memeMoralist->darkener</li>
+    <li>memeMoralist->confuser</li>
+    <li>TODO ^ bo nie skończone ale żeby dalej wyszukiwało</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
   <FleshPurity.label>Czystość ciała</FleshPurity.label>
@@ -726,7 +741,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)->[deity0_name] obdarzył{deity0_gender ? : a} nas wiedzą technologiczną, abyśmy mogli ją wykorzystać do doskonalenia i przebudowy siebie na {deity0_possessive} doskonały wizerunek.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)->Ludcy bioinżynierowie studiowali dzieła [deity0_name], co [deity0_objective] zadowoliło.</li>
+    <li>intro(tag=meme_Transhumanist)->Na [place_summary] [place_name], [memberNamePlural] usłyszeli słowa [deity0_name] szeptane do nich przez ich maszyny.</li>
+    <li>conflict(tag=meme_Transhumanist)->Luddysta [foeLeader] zazdrościł zaawansowanego postępu [memberNamePlural] i [foeLeader_possessive] [foeSoldiers] zniszczyli ich warsztaty za pomocą [place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_Transhumanist)->Sprytny [place_job] o imieniu [founderName] stworzył implant sensoryczny, by ostrzec [memberNamePlural] przed zbliżaniem się [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)->[founderName] otrzymał boską wiedzę technologiczną od [deity0_name] i użył jej, by ulepszyć ciała i umysły [memberNamePlural], aby pokonali [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)->[founderName] był bioinżynierem w początkach ludzkiej kolonizacji planet. Widząc biurokratyczne ograniczenia zwykłych kolonii, zabrał mały statek, by założyć swój własny ruch.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)->[founderName] zebrał zespół wybitnych naukowców i wynalazców, by na nowo zdefiniować człowieczeństwo.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)->Najstarszy badacz w moim oddziale nauczył mnie historii technologii, od neolitu po archotechnologię, ale to nie była jego prawdziwa lekcja. Tak naprawdę prowadził mnie do zrozumienia, że</li>
+    <li>lesson(tag=meme_Transhumanist)->niebiańska przyszłość ludzkości nie jest z krwi i kości, lecz z krzemu i egzokromu.</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist)->Nawet zaprogramowałem symulację, by to potwierdzić.</li>
+    <li>archistBasis(tag=meme_Transhumanist)->Dążenie ludzkości do technologii dało początek wszechpotężnym archotechnologiom jako naturalnemu kolejnemu krokowi w rozwoju świadomości.</li>
+    <li>archistFact(tag=meme_Transhumanist)->Technologia pozwala ludziom być bardziej podobnym do archotechnologii.</li>
+    <li>archistProphecy(tag=meme_Transhumanist)->[inTheEnd], archotechnologie odejdą. Tylko ci, którzy są wystarczająco ulepszeni, będą mogli za nimi podążać.</li>
+    <li>animistBasis(tag=meme_Transhumanist)->Świat duchów napędza każde działanie we wszechświecie, a tylko przez naukę i kontrolę praw wszechświata możemy się z nim zintegrować.</li>
+    <li>animistFact(tag=meme_Transhumanist)->Podobne przyciąga podobne – zbuduj urządzenie w określonym celu, a wypełni je duch o podobnej naturze.</li>
+    <li>animistFact(tag=meme_Transhumanist)->Gdy technologia łączy się z ciałem, duchy obu się łączą i stają się potężniejsze.</li>
+    <li>animistProphecy(tag=meme_Transhumanist)->[itIsSaid], że pewnego dnia władca [relic0_name] przywoła [relic0_possessive] ducha, który nauczy ludzkość ostatecznej technologii biofuzji.</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -754,7 +788,33 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->technologiczny</li>
+    <li>memeAdjective->maszynowy</li>
+    <li>memeAdjective->przemysłowy</li>
+    <li>memeCreed->school</li>
+    <li>memeCreed->academy</li>
+    <li>memeCreed->university</li>
+    <li>memeCreed->philosophy</li>
+    <li>memeHyphenPrefix->techno</li>
+    <li>memeHyphenPrefix->cyber</li>
+    <li>memeHyphenPrefix->haxor</li>
+    <li>memeHyphenPrefix->wire</li>
+    <li>memeConcept->technologiczna</li>
+    <li>memeConcept->krzemowa</li>
+    <li>memeConcept->wzmocnona</li>
+    <li>memeConcept->ulepszona</li>
+    <li>memeLeaderNoun->haxor</li>
+    <li>memeLeaderNoun->superuser</li>
+    <li>memeLeaderNoun->booster</li>
+    <li>memeLeaderAdjective->techno</li>
+    <li>memeLeaderAdjective->cyber</li>
+    <li>memeMoralist->installer</li>
+    <li>memeMoralist->fixer</li>
+    <li>memeMoralist->uplifter</li>
+    <li>memeMoralist->technologist</li>
+    <li>TODO ^ bo nie skończone ale żeby dalej wyszukiwało</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
   <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->

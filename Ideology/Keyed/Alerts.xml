@@ -17,35 +17,31 @@
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
   <SlavesUnattendedDesc>Niektórzy niewolnicy są sami na mapie, bez kolonistów mogących ich przypilnować.\n\nNiewolnicy pozostawieni bez opieki w ten sposób najprawdopodobniej zbuntują się w ciągu dni lub godzin.</SlavesUnattendedDesc>
 
-  <!-- EN: {0} expected -->
-  <RitualExpected>Oczekiwano {0}</RitualExpected>
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Możliwość {0}</RitualOpportunity>
-  <!-- EN: {0} expected for -->
-  <RitualExpectedFor>Oczekiwano na {0}</RitualExpectedFor>
-  <!-- EN: {0} days: Ritual opportunity ends. -->
-  <RitualExpirationTime>{0} dni: Możliwość rytuału kończy się.</RitualExpirationTime>
-  <!-- EN: Expires in -->
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>TODO</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
   <RitualExpiresIn>Wygaśnie w ciągu</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Ukończenie {RITUAL_labelDef} przyniesie te efekty</RitualCompletionEffects>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Aby rozpocząć rytuał, wybierz przedmiot skupienia i kliknij polecenie 'Rozpocznij {RITUAL_label}'. Oto prawidłowe obiekty skupienia:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Następujące role mają udział w {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Kliknij, aby przejść do celów</RitualJumpToTargets>
-  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>Opóźnienie {RITUAL_labelDef} będzie miało następujące efekty</RitualObligationDelayEffects>
-  <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{0} dni: {1} nastrój we wszystkich {2}.</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
   <RitualUnfilledRoles>Aby wykonać {0}, musisz posiadać te role</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>Pożądanie {0}</IdeoBuildingMissing>
-  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>{IDEO_name} wymaga posiadania {0} w swojej kolonii tak długo, jak {2} lub więcej.\n\nTo wymaganie jest aktywne tylko wtedy, gdy {IDEO_name} jest główną ideologią Twojej frakcji lub w Twojej frakcji jest {MINBELIEVERS} wierzących.{4}\n\nJeśli wymaganie nie zostanie spełnione, następujący wierzący staną się nieszczęśliwi:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>TODO</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>TODO</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>Aby uhonorować {0}, następujące wymagania dotyczące pomieszczenia muszą być spełnione</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -65,7 +61,7 @@
   <IdeoRoleEmpty>{0} rola niewypełniona</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
   <IdeoRolesEmpty>{0} ról niewypełnionych</IdeoRolesEmpty>
-  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'.\n\nIf these roles remain empty, the following people will be unhappy -->
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
   <IdeoRolesEmptyDesc>Te role nie są wypełnione:\n{0}\n\Możesz przypisać komuś rolę na jego karcie Społeczności.\n\nMożesz także wybrać miejsce rytuału lub ołtarz i kliknąć 'Rozpocznij zmianę roli'.\n\nJeśli te role pozostaną niezagospodarowane, następujące osoby będą nieszczęśliwe</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
@@ -73,22 +69,13 @@
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
   <AncientAltarThreatsWakingDesc>Zagrożenia bezpieczeństwa zostaną aktywowane w {0}. Zaatakują każdego, kto może zagrozić relikwii.</AncientAltarThreatsWakingDesc>
 
-  <!-- EN: No recent slaughter -->
-  <AlertNoRecentSlaughter>Brak niedawnego uboju</AlertNoRecentSlaughter>
-  <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
-  <AlertNoRecentSlaughterDesc>Żadne duże zwierzę {0} nie zostało ostatnio ubite. Jest to wymóg następujących ideologii</AlertNoRecentSlaughterDesc>
-  <!-- EN: {0} body size or above -->   <!-- TIP: sprawdzić -->
-  <BodySizeOrAbove>{0} rozmiaru ciała lub większa</BodySizeOrAbove>
-  <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
-  <AlertNoRecentSlaughterDescPost>Jeśli nie zostanie dokonana rzeź, następujący koloniści pozostaną nieszczęśliwi</AlertNoRecentSlaughterDescPost>
-  
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>Wkrótce nadejdzie okazja na rytuał</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>Wkrótce nadejdzie okazja do odbycia następujących rytuałów</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Możliwości wygasają po {0} dniach i pojawiają się ponownie tego samego dnia każdego roku.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
   <AlertRitualComingEntry>{0} na {1}, {2} do końca</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
@@ -143,4 +130,17 @@
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>Oczekuje się, że bunt niewolników będzie miał miejsce mniej więcej raz na {COMBINEDTIME}. Zwróć uwagę, że szansa na bunt każdego niewolnika jest niezależna, więc jeśli któryś z nich się zbuntuje, może zabrać ze sobą innych.\n\n{REBEL_labelShort} jest najbardziej zbuntowanym niewolnikiem i oczekuje się, że zacznie buntować się mniej więcej raz na {INDIVIDUALTIME}. Następujące czynniki wpływają na to, jak często będą się buntować:</AlertSlaveRebellionLikelyMostRebellious>
   
+  <!-- UNUSED -->
+  <RitualExpected>Oczekiwano {0}</RitualExpected>
+  <RitualExpectedFor>Oczekiwano na {0}</RitualExpectedFor>
+  <RitualExpirationTime>{0} dni: Możliwość rytuału kończy się.</RitualExpirationTime>
+  <RitualCompletionEffects>Ukończenie {RITUAL_labelDef} przyniesie te efekty</RitualCompletionEffects>
+  <RitualRolesExplanation>Następujące role mają udział w {RITUAL_label}:\n{1}</RitualRolesExplanation>
+  <RitualObligationDelayEffects>Opóźnienie {RITUAL_labelDef} będzie miało następujące efekty</RitualObligationDelayEffects>
+  <RitualObligationDelayEffectDesc>{0} dni: {1} nastrój we wszystkich {2}.</RitualObligationDelayEffectDesc>
+  <AlertNoRecentSlaughter>Brak niedawnego uboju</AlertNoRecentSlaughter>
+  <AlertNoRecentSlaughterDesc>Żadne duże zwierzę {0} nie zostało ostatnio ubite. Jest to wymóg następujących ideologii</AlertNoRecentSlaughterDesc>
+  <BodySizeOrAbove>{0} rozmiaru ciała lub większa</BodySizeOrAbove>
+  <AlertNoRecentSlaughterDescPost>Jeśli nie zostanie dokonana rzeź, następujący koloniści pozostaną nieszczęśliwi</AlertNoRecentSlaughterDescPost>
+
 </LanguageData>
