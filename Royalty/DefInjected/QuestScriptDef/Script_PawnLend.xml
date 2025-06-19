@@ -25,8 +25,8 @@
     <li>disease->malarią</li>
     <li>disease->infekcją</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] frakcji [asker_faction_name] potrzebuje ludzi do pomocy [dutyRoyalDescription].\n\n[asker_pronoun] prosi, aby pożyczono [colonistCountToLend] na [lendForDays] dni.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 kolonistę</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] kolonistów</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 kolonistę[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] kolonistów[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] wyśle prom, który zabierze [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->kolonistę</li>
     <li>colonists(colonistsToLendCount>1)->kolonistów</li>

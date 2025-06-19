@@ -41,7 +41,7 @@
     <li>raidArrivedLetterLabel->Najazd: [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] z frakcji [enemyFaction_name] przybyli. Zaatakują [asker_faction_pawnsPlural], którzy rozbili się w [map_definite].\n\nBroń ich [asker_faction_pawnsPlural] dopóki nie przybędzie po nich prom za [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->Przybył prom ratowniczy</li>
-    <li>rescueShuttleArrivedLetterText->Przybył prom ratowniczy zabrać [pawnLabelSingleOrPlural], którzy się rozbili. Upewnij się, że ci ludzie wsiądą na prom zanim odleci [rescueDelay_duration]:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->Przybył prom ratowniczy zabrać [pawnLabelSingleOrPlural], którzy się rozbili. Upewnij się, że ci ludzie wsiądą na prom zanim odleci [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
     <li>questCompletedSuccessLetterText->[commanderLandingDesc], uciekł. [asker_pronoun] jest wdzięczny{asker_gender ? : a} za pomoc, którą [asker_pronoun] otrzymał w [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Zadanie ukończone: [resolvedQuestName]</li>
@@ -79,7 +79,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Prom frakcji [asker_faction_name] doznał uszkodzeń i szuka miejsca do lądowania. Komandor promu [asker_nameDef] chce wylądować w [map_definite].\n\n[enemyFaction_pawnsPlural] z frakcji [enemyFaction_name] zaatakują, aby zabić pasażerów. Musisz ich bronić.\n\nNa pokładzie znajdują się: [asker_nameDef][andOtherCivilians] i [soldiers_count] [soldiers0_kind]. Komandor [andCivilians] muszą zostać uratowani, ale [soldiers0_kind] mogą zginąć.\n\nPo [rescueDelay_duration], prom ratowniczy przybędzie, aby zabrać ocalałych. Musisz ich wsadzić na prom w [leaveDelay_duration].</li>
+    <li>questDescription->Prom frakcji [asker_faction_name] doznał uszkodzeń i szuka miejsca do lądowania. Komandor promu [asker_nameDef] chce wylądować w [map_definite].\n\n[enemyFaction_pawnsPlural] z frakcji [enemyFaction_name] zaatakują, aby zabić pasażerów. Musisz ich bronić.\n\nNa pokładzie znajdują się: [asker_nameDef][andOtherCivilians] i [soldierCountKinds]. Komandor [andCivilians] muszą zostać uratowani, ale [soldiers0_kindPlural] mogą zginąć.\n\nPo [rescueDelay_duration], prom ratowniczy przybędzie, aby zabrać ocalałych. Musisz ich wsadzić na prom w [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, inny [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] innych [pawnLabelSingleOrPlural],</li>
