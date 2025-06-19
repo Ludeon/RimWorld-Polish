@@ -26,15 +26,15 @@
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mech/ów</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>TODO</BossWithApparel>
+  <BossWithApparel>{BOSS} z {APPAREL}</BossWithApparel>
   <!-- EN: Resulting from gene -->
-  <ComesFromGene>TODO</ComesFromGene>
+  <ComesFromGene>Wynika z genu</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>usuwanie: {0}.</ReportRemovingMechlink>
   <!-- EN: from {TEACHER_labelShort} -->
-  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
+  <ReportTakingLessonFrom>od {TEACHER_labelShort}</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -82,7 +82,7 @@
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Ładowanie zasobów mecha</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
-  <GestatingInspect>TODO</GestatingInspect>
+  <GestatingInspect>Pozostały czas w tym cyklu</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Rozpoczyna cykl budowy mecha</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -230,9 +230,9 @@
   <!-- EN: Can't use this bed. -->
   <CantUseThisBed>Nie może korzystać z tego łóżka.</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>Nie w pracy.</NotInLabor>
+  <NotInLabor>Nie rodzi.</NotInLabor>
   <!-- EN: labor -->
-  <Labor>praca</Labor>
+  <Labor>poród</Labor>
   <!-- EN: dilation -->
   <LaborDilation>rozszerzanie się</LaborDilation>
   <!-- EN: normal -->
@@ -670,7 +670,7 @@
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
   <NearbyPollutionTip>Suma poziomów zanieczyszczenia wszystkich obszarów w promieniu {0} obszarów. Wraz ze wzrostem odległości od tego pola udział zanieczyszczeń maleje:\n\n{1}\n\nIm wyższe zanieczyszczenie w pobliżu, tym większe prawdopodobieństwo wystąpienia kwaśnego smogu.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>Ta tym obszarze kwaśny smog będzie występował średnio co {0} dni.</NoxiousHazeInterval>
+  <NoxiousHazeInterval>Na tym obszarze kwaśny smog będzie występował średnio co {0} dni.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
   <NoxiousHazeNeverOccurring>Na tym obszarze nigdy nie będzie kwaśnego deszczu.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
@@ -702,7 +702,7 @@
   <!-- EN: Fertilize -->
   <Fertilize>Zapłodnij</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <FertilizeThing>TODO</FertilizeThing>
+  <FertilizeThing>Zapłodnij {0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>nie może zapłodnić</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

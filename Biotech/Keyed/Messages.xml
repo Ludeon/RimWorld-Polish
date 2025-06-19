@@ -9,7 +9,7 @@
   <MessageColonistInFinalStagesOfLabor>Poród {PAWN_labelShort} wszedł w ostatni etap.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>Ładowarka do mechów uległa zniszczeniu podczas ładowania {PAWN_nameDef}! Zakłócenie zasilania zakodowało jego mózg i wpada w szał.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>Ładowarka mechów uległa zniszczeniu podczas ładowania {PAWN_nameDef}! Zakłócenie zasilania uszkodziło {PAWN_possessive} mózg, przez co wpadł{PAWN_gender ? : a} w szał.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>Nie można użyć {ABILITY_label} na kimś, kto stawi czynny opór.</MessageCantUseOnResistingPerson>
@@ -30,7 +30,7 @@
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} może być użyty tylko na kolonistach, więźniach i niewolnikach.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} odmawia, bo chce zostać nielubianym ksenotypem.</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} odmawia, bo nie chce zostać nielubianym ksenotypem.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>Automatycznie zostanie dodany {MECH_nameDef} do karawany, ponieważ asystuje{OVERSEER_nameDef}.</MessageCaravanAddingEscortingMech> 
@@ -104,7 +104,7 @@
   <!-- EN: The sanguophages have begun their meeting. -->
   <SanguophagesBegunMeeting>Sanguofadzy spotkali się.</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>Sanguofadzy odchodzą z powodu temeperatury zagrażającej ich życiu.</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>Sanguofadzy odchodzą z powodu temperatury, która zagraża ich życiu.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
   <MessagePawnWokenFromSunlight>{PAWN_nameDef} został wybudzony ze stanu anabiozy {PAWN_possessive} z powodu ekspozycji na światło słoneczne.</MessagePawnWokenFromSunlight>
@@ -152,7 +152,7 @@
   <MessageCannotPostponeGrowthMoment>Będziesz musiał wybrać, w jaki sposób {PAWN_nameDef} będzie się teraz rozwijać.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>Ostrzeżenie: {0_labelShort} nosi w sobie dziecko, gdy jest kształtowany.</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>Ostrzeżenie: {0_labelShort} niesie dziecko podczas stanu gotowości bojowej.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
   <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} przenosi {BABY_nameDef} w miejsce o bezpieczniejszej temperaturze.</MessageTakingBabyToSafeTemperature>
 
