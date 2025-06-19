@@ -91,17 +91,17 @@
   <Styles>Style</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Szansa, aby mieć zasadę</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}. Mając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika tinctorii.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>Ulubiony kolor użytkownika {PAWN_labelShort}: {COLOR}\nMając więcej niż {PERCENTAGE} odzieży w {PAWN_possessive} kolorze, lub kolorze {PAWN_possessive} ideologii, sprawi, że będzie nieco {PAWN_gender ? szczęśliwszy : szczęśliwsza}.\n\nKolory odzieży można zmieniać na stanowisku stylizacji za pomocą barwnika tinctorii.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>lub kolorze {PAWN_possessive} ideologii,</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Ustaw kolor ideologii</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Ustaw ulubiony kolor</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>Ulubiony kolor {PAWN_nameDef}. Noszenie ponad 60% odzieży w tym kolorze lub kolorze ideoligii {PAWN_possessive} sprawi, że {PAWN_objective} będzie szczęśliwszą osobą.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>Kolor ideologii {PAWN_nameDef}. Noszenie ponad 60% odzieży w tym kolorze lub kolorze ideoligii {PAWN_possessive} sprawi, że {PAWN_objective} będzie nieco szczęśliwszą osobą.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Skonfiguruj ideologię swojej frakcji</ConfigureIdeoligion>
@@ -203,6 +203,12 @@
   <RitualTargetConnectionTornGauranlenTree>{Połączenie {TREE_definite} zostało ostatnio zerwane. Może połączyć się ponownie w {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
   <RitualTargetWoodInfo>Potrzebujesz {0} drewna na każdego z uczestników (łącznie {1}).</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} musi być w stanie dotrzeć do miejsca rytuału.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -375,18 +381,6 @@
   <!-- Outfits -->
   <!-- EN: Slave -->
   <OutfitSlave>Niewolnik</OutfitSlave>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Progres hakowania</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>Szybkość hakowania</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>zhakowany</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Zhakowane terminale</TerminalsHacked>
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Znaleziono informacje o relikwii</RelicInfoFound>
@@ -660,6 +654,8 @@
   <ChangeStyleDesc>Zmień styl, w jakim zostanie zbudowany. Ma to wyłącznie charakter wizualny i nie ma wpływu na rozgrywkę.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Brak dostępnych stylów.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Samozniszczenie drona kosmicznego za {0}</SpacedroneSelfDestructsIn>
 
   <!-- UNUSED -->
   <RitualTargeWoodInfo>Potrzebujesz {0} drewna na każdego uczestnika (łącznie {2}). Masz {1} drewna.</RitualTargeWoodInfo>

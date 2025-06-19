@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>{0} z frakcji {1} opuszczają mapę z powodu niebezpiecznej temperatury.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{0} z frakcji {1} opuszczają mapę z powodu niebezpiecznej pogody.</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>TODO</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0} {0_gender ? noszony : noszona : noszone} przez {1_nameFull} zupełnie się {0_gender ? rozpadł : rozpadła : rozpadło}.</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>Uwaga: {ANIMAL_kindBasePlural} mogą zaatakować przy nieudanej próbie oswojenia ({1} szans).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Tylko osoby z cechą sympatii do insektów mogą oswoić {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>TODO</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>TODO</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Uwaga: {PAWN_labelShort} jest wrog{PAWN_gender ? i : a} i zaatakuje, gdy Twój kolonista spróbuje {PAWN_objective} oswoić.</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>Należy wyznaczyć wystarczająco wyrośnięte rośliny, z możliwością zbioru.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Należy wyznaczyć wystarczająco wyrośnięte rośliny bogate w drewno.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>TODO</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Należy wyznaczyć rośliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,9 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Należy wyznaczyć zakazane przedmioty.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Nie można żądać {CLAIMABLE_labelShort}, gdy w pobliżu znajduje się gotów do walki {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>TODO</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhilePawnThreatsAreNear>TODO</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>Nie można żądać {CLAIMABLE_labelShort}, gdy w pobliżu znajduje się gotów do walki {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>Nie można przyjąć {CLAIMABLE_labelShort}, gdy w pobliżu znajduje się gotów do walki {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>TODO</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} {1_gender ? odmówił : odmówiła} bycia {1_gender ? aresztowanym : aresztowaną}!</MessageRefusedArrest>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? został : została : zostało} {0_gender ? usunięty : usunięta : usunięte} z karawany.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Przerwano proces formowania karawany.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Proces formowania karawany będzie kontynuowany, gdy wszyscy wyjdą z załamania psychicznego.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -340,9 +356,11 @@
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Przydzielone przedmioty i osoby zostaną teraz załadowani do kapsuł transportowych.</MessageTransportersLoadingProcessStarted>
+  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
+  <MessageTransporterSingleLoadingProcessStarted>Przydzielone przedmioty i osoby zostaną teraz załadowani do kapsuły transportowej.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Przydzielone przedmioty i osoby zostaną teraz załadowani do promu.</MessageTransporterSingleLoadingProcessStarted>
-  
+  <MessageShuttleLoadingProcessStarted>TODO</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Przybyły Twoje kapsuły transportowe.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
@@ -353,15 +371,23 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Ukończono załadunek kapsuł transportowych. Możesz startować.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>Prom jest załadowany wymaganym ładunkiem i jest gotowy do startu.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingShuttle>TODO</MessageFinishedLoadingShuttle> <!-- text_todo -->
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tw{1_gender ? ój : oja } {1} nie może zakończyć ładowania kapsuł transportowych, ponieważ niektóre przedmioty lub osoby stały się niedostępne ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>Tw{1_gender ? ój : oja } {1} nie może skończyć wchodzić do {0} ponieważ niektóre przedmioty lub osoby stały się niedostępne ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Wybrany cel jest nieprawidłowy.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Destination is reserved by {0}. -->
+  <MessageTransportPodsDestinationReservedBy>TODO</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
+  <!-- EN: Destination is reserved. -->
+  <MessageTransportPodsDestinationReserved>TODO</MessageTransportPodsDestinationReserved> <!-- text_todo -->
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Każda wyrzutnia będzie potrzebować przynajmniej {0}x chemiopaliwa, aby wysłać kapsuły transportowe tak daleko.</MessageTransportPodsDestinationIsTooFar>
   
@@ -784,6 +810,10 @@
   <CannotPlantThing>Nie można zasadzić {0_labelShort}</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Potrzebujesz bardziej żyznego terenu.</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>TODO</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>TODO</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>zablokowane przez {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -792,6 +822,8 @@
   <TooCloseToOtherPlant>Za blisko {0_label}.</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Za blisko miejsca sadzenia {0}.</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>TODO</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Ostrzeżenie: {0} zosta{0_gender ? ł : ła : ło} oznaczon{0_gender ? y : a : e} do wycięcia.</MessageWarningCutImportantPlant>
@@ -823,8 +855,24 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Nie można pominąć: Uchodźca</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>TODO</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>TODO</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>TODO</MessageHackableUnlocked>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Nie można wezwać promu.</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>Przybył prom.</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
 
   <!-- UNUSED -->
+  <MessageFinishedLoadingTransporterSingle>Prom jest załadowany wymaganym ładunkiem i jest gotowy do startu.</MessageFinishedLoadingTransporterSingle>
   <MessageRitualNeedsAtLeastOneRolePawn>Potrzebujesz {0}.</MessageRitualNeedsAtLeastOneRolePawn>
   <MessageRitualNeedsAtLeastNumRolePawn>Potrzebujesz co najmniej {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
 

@@ -25,10 +25,16 @@
   <CaravanMech>1 mech</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mech/ów</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>TODO</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>usuwanie: {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -75,6 +81,8 @@
   <Groups>Grupy</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Ładowanie zasobów mecha</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>TODO</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Rozpoczyna cykl budowy mecha</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -95,6 +103,8 @@
   <ReadyToSummonThreat>{0} niebezpieczny gotowy do przywołania</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Przywołuje niebezpieczeństwo: {0}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>TODO</MechsDisabled> <!-- text_todo -->
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>Nieosiągalny {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -113,6 +123,8 @@
   <WaitingFor>Czeka na</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Niekontrolowany</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -141,16 +153,14 @@
   <AutoWakeDesc>Po włączeniu {PAWN_nameDef} automatycznie wybudzi się, gdy {PAWN_possessive} zakończy się anabioza.\n\nGdy jest wyłączony, {PAWN_pronoun} będzie kontynuować stan anabiozy, dopóki nie obudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} jest w stanie anabiozy.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>Nie można rozpocząć anabiozy</CannotDeathrest>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>nie można rozpocząć anabiozy</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Rozpocznij anabiozę</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
   <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabiozy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był tylko przez {CURDURATION}.\n\nWybudzenie {PAWN_nameDef} teraz przerywałoby {PAWN_possessive} stan anabiozy, wytrącając metabolizm {PAWN_possessive} z równowagi i powodując chorobę {PAWN_objective}, która trwa będzie kilka dni.\n\nCzy na pewno chcesz wybudzić {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>w stanie anabiozy</Deathresting>
-  <!-- EN: complete -->
-  <Complete>ukończono</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>może się teraz bezpiecznie wybudzić.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -165,6 +175,8 @@
   <NextDeathrestNeed>{PAWN_nameDef} powinien być w stanie anabiozy przez {DURATION}, aby uniknąć konsekwencji.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} wkrótce powinien zacząć stan anabiozy, aby uniknąć konsekwencji.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Spożywał hemogen poniżej</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -242,12 +254,6 @@
   <!-- EN: Giving birth. -->
   <GivingBirth>Rodzi.</GivingBirth>
 
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Energia tarczy</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Czas na odnowienie</ShieldTimeToRecovery>
-
   <!-- Genes -->
   <!-- EN: genes -->
   <Genes>geny</Genes>
@@ -271,6 +277,10 @@
   <EjectAllDesc>Upuść wszystkie zasobniki pakietów genów na ziemię.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Przechowywane pakiety genów</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Wymuszone cechy</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -287,8 +297,8 @@
   <ComplexityTotal>Całkowita złożoność</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>Całkowita złożoność wszystkich używanych genów.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
-  <Metabolism>Wydajność metaboliczna</Metabolism>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>wydajność metaboliczna</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>Całkowita wydajność metaboliczna tych genów po złożeniu. Wysoka wydajność oznacza, że człowiek potrzebuje mniej jedzenia; zaś niska wydajność oznacza, że muszą jeść więcej.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
@@ -389,8 +399,8 @@
   <WaitingForPawn>Czekam na {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Wydobywanie genów z: {PAWN_nameDef}.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>Ekstrakcja wstrzymana: brak zasilania</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>Ekstrakcja wstrzymana: brak zasilania (przerwanie za {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Ostatnie spożycie {CHEMICAL_label} {DURATION} temu.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -419,8 +429,6 @@
   <LethalInjuries>Śmiertelne obrażenia</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>anabioza</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Budynki</Buildings>
   <!-- EN: capacity -->
   <Capacity>zdolność</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -436,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Dzieci w różnym okresie chcą uczyć się na różnych rzeczy.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>{0_nameDef} Obecne pragnie nauczyć się:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>Zdrowie rozwojowe to średnia potrzeb edukacyjnych dziecka od ostatnich urodzin.\n\nDzieci o wyższym stopniu zdrowia rozwojowego będą miały więcej możliwości w czasie rozwoju i nabędą więcej pasji do umiejętności.</DevelopmentHealthGizmoTooltip>
 
@@ -475,6 +481,8 @@
   <GestatingMech>Tworzy {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>Wybudowano {0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Wymaga {PAWN_nameDef} do ukończenia</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -543,8 +551,8 @@
   <BiostarvationExplanation>Co najmniej jedna komora wzrostu doświadcza biogłodzenia z powodu braku pożywienia lub energii.\n\nJeśli biogłód osiągnie 100%, ludzie wewnątrz nich umrą.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Włóż osobę do komory wzrostu. Rozwijają się 20 razy szybciej niż normalnie.</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Zaimplementuj embrion do komory wzrostu. Po ciąży trwającej 18 dni w komorze urodzi się w pełni uformowane niemowlę, więc można mieć nadzieję, że będzie zdrowe.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Zaimplementuj embrion do komory wzrostu. Po ciąży trwającej {0} w komorze urodzi się w pełni uformowane niemowlę, więc można mieć nadzieję, że będzie zdrowe.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Umieść zarodek</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -599,6 +607,8 @@
   <SubcoreScannerWaitingForOccupant>Czekanie na kolonistę</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Czekanie na składniki</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>Ma {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -622,8 +632,6 @@
   <Baby>niemowlę</Baby>
   <!-- EN: babies -->
   <Babies>niemowlęta</Babies>
-  <!-- EN: person -->
-  <Person>osoba</Person>
   <!-- EN: feral child -->
   <FeralChild>dzikie dziecko</FeralChild>
   <!-- EN: Wearable by -->
@@ -693,6 +701,8 @@
   <SurgeryDisableReasonOvumExtracted>komórki jajowe pobrane niedawno</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Zapłodnij</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>nie może zapłodnić</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
@@ -745,10 +755,6 @@
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>Dziecko będzie miało strukturę genetyczną {0} i {1}.</IvfPregnancyLetterParents>
 
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Osłona nisko-kątowa będzie próbowała zatrzymać przelatujące pociski i odłamki. Wyłącza się natychmiast po trafienia przez EMP.</ProjectileInterceptorTip>
-
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Zdalna osłona rzucona przez mechanitora. Umożliwia zatrzymanie przelatujących pocisków i odłamów, ale nie przeciwdziała atakom w zwarciu lub od ognia. Zapobiega ostrzałowie, ale zostaje natychmiast wyłączona po trafienia z EMP</RemoteMechShieldTip>
@@ -758,5 +764,13 @@
   <MyChildIsHappy>moje dziecko jest szczęśliwe</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>moje dziecko jest smutne</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>TODO</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>TODO</GeneticChemicalDependency_Desc>
+
+  <!-- UNUSED -->
+  <LearningDesireTooltip_CurrentDesire>{0_nameDef} Obecne pragnie nauczyć się:</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>

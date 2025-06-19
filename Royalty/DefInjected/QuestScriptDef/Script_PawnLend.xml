@@ -8,11 +8,13 @@
     <li>disease->malaria</li>
     <li>disease->infection</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->colonist</li>
     <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
@@ -23,8 +25,8 @@
     <li>disease->malarią</li>
     <li>disease->infekcją</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] frakcji [asker_faction_name] potrzebuje ludzi do pomocy [dutyRoyalDescription].\n\n[asker_pronoun] prosi, aby pożyczono [colonistCountToLend] na [lendForDays] dni.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 kolonistę</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] kolonistów</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 kolonistę[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] kolonistów[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] wyśle prom, który zabierze [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->kolonistę</li>
     <li>colonists(colonistsToLendCount>1)->kolonistów</li>
@@ -95,6 +97,10 @@
   <PawnLend.LetterLabelShuttleDestroyed.slateRef>Prom został zniszczony</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
   <PawnLend.LetterTextShuttleDestroyed.slateRef>Prom, który miał zabrać kolonistów, został zniszczony.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle abandoned -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been left behind. -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Koloniści powrócili</PawnLend.LetterLabelColonistsReturned.slateRef>
   
