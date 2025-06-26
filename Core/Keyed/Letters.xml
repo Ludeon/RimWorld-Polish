@@ -10,16 +10,18 @@
   <RejectLetter>Odrzuć</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>Przeczytaj więcej</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>Masz {0} więcej wiadomości</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Lato</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Lato właśnie się rozpoczęło! Ale nadciąga także zima.\n\nTwoje uprawy nie będą rosły podczas mrozów. Nie zapomnij, aby zrobić zapasy żywności, zanim rozpocznie się zima.\n\nZbuduj chłodnię, aby ochronić pożywienie przed zepsuciem.\n\nSpróbuj też kupić, uszyć lub ewentualnie ukraść kilka płaszczy zimowych - w przeciwnym razie koloniści zamarzną, gdy wyjdą na zewnątrz.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły. Są teraz do Ciebie wrogo nastawieni.</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły. Są teraz do Ciebie wrogo nastawieni.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany, odmówią także handlu z Tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ przychylność ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, przychylność musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>
+  <LetterRelationsChange_HostileGoodwillDescription>Będą przeprowadzać okresowe naloty na Twoją kolonię i karawany, odmówią także handlu z Tobą. Jeśli chcesz poprawić relacje, nadal możesz oferować im prezenty, korzystając z karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ przychylność ({0}) spadła poniżej {1}. Aby przywrócić neutralne relacje, przychylność musi ponownie osiągnąć {2}.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz są dla Ciebie neutralni i nie będą Cię już atakować.</LetterRelationsChange_NeutralFromHostile>
@@ -45,7 +47,7 @@
   <!-- EN: Death -->
   <Death>Śmierć</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
   <ShortCircuitRain>{1_label} {1_gender ? narażony : narażona : narażone} na działanie deszczu {1_gender ? uległ : uległa : uległo} zwarciu i {1_gender ? zaczął : zaczęła : zaczęło} się palić.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
@@ -76,8 +78,10 @@
   <LetterLabelBirthday>Urodziny</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>Dzisiaj {0} ma chronologiczne urodziny! Biologicznie, {1} kończy {3} lat.\n\nChronologicznie, {1} właśnie kończy {2} lat.\n\nWarto zauważyć, że ludzie nie starzeją się w komorach hibernacyjnych. Chronologiczne urodziny obchodzimy oddzielnie od biologicznych.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>Dzisiaj {0} kończy biologiczny wiek {1} lat.\n\nNiestety, {0} cierpi teraz na następujące choroby z powodu wieku:\n{2}</BirthdayBiologicalAgeInjuries>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>{0_nameFull} osiągnął wiek biologiczny {1}.</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
+  <BirthdayBiologicalAgeInjuries>Niestety, {0_nameFull} cierpi teraz na następujące choroby z powodu wieku</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
@@ -200,7 +204,7 @@
   <!-- EN: Affair -->
   <LetterLabelAffair>Romans</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_labelShort}, {PAWN1_gender ? : żonaty : zamężna} z {SPOUSE_labelShort}, {PAWN1_gender ? rozpoczął : rozpoczęła} romans z {PAWN2_labelShort}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}, {PAWN1_gender ? żonaty : zamężna} z {SPOUSE_labelShort}, rozpocz{PAWN1_gender ? ął : ęła} romans z {PAWN2_labelShort}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Nowa para</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
@@ -291,8 +295,10 @@
   <LetterLabelFactionBaseDefeated>Zniszczono bazę</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>Baza frakcji {0} została zniszczona.\n\nW {1}, Twoja karawana zostanie zaatakowana przez wrogów. Zaczną wysyłać siły do ataku na karawanę, chyba że się zreformuje i odejdzie.</LetterFactionBaseDefeated>
+  <!-- EN: The enemy settlement {0} has been destroyed. -->
+  <LetterFactionBaseDefeatedNoRaids>Wroga osada {0} została zniszczona.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>To była uch ostatnia baza, frakcja {0} została pokonana.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>To była ich ostatnia baza, frakcja {0} została pokonana.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
@@ -366,9 +372,9 @@
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Mistrzowski przedmiot</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort) {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort) {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} {WORKER_gender ? stworzył : stworzyła} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -409,8 +415,10 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Ocaleniec dołącza</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez reformowanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji "Reformuj karawanę".</LetterRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
+  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.</LetterRescueQuestFinished>
+  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+  <LetterRescueQuestFinishedCaravanExtra>\Możesz teraz zabrać {PAWN_objective} ze sobą. Aby to zrobić, otwórz zakładkę Świata, wybierz tę lokację i wybierz polecenie 'sformuj karawanę'.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -419,36 +427,36 @@
   <LetterPredatorHuntingColonist>{PREDATOR} poluje na {PREY_definite}, by się pożywić!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
+  <!-- EN: {0} blocked {1} on -->
   <LetterDisease_Blocked>{0} zablokowane {1} na: {2}.</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Choroba: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} {PAWN_ ? zachorował : zachorowała} na {1}.\n\nUpewnij się, że posiadasz łóżko medyczne oraz lekarza. Upewnij się, że otrzymuje {PAWN_pronoun} odpowiednie leczenie oraz spędza w łóżku jak najwięcej czasu.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>Operacja na {PATIENT_labelShort} nieudana</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niewielki błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} katastroficzny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} niedorzeczny błąd, operując {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {SURGEON_gender ? popełnił : popełniła} fatalny błąd, operując {PATIENT_labelShort} z powodu specjalnych wyzwań: {2}.</MessageMedicalOperationFailureFatal>
+  <LetterTraitDisease>{PAWN_label} {PAWN_gender ? zachorował : zachorowała} na {1}.\n\nUpewnij się, że posiadasz łóżko medyczne oraz lekarza. Upewnij się, że otrzymuje {PAWN_pronoun} odpowiednie leczenie oraz spędza w łóżku jak najwięcej czasu.</LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie.\n\nNazwa zadania:\n'{0}'.</LetterQuestBecameAvailable>
-  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Jeśli nie zaakceptujesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Nowe zadanie jest aktywne.\n\nNazwa zadania:\n'{0}'.</LetterQuestBecameActive>
+  <!-- EN: Quest available: {0} -->
+  <LetterLabelQuestAvailableTitle>Dostępne zadanie: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Aktywne zadanie: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Aktywne zadanie: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <!-- EN: {DISCOVEREDFROM} a new quest. -->
+  <LetterNewQuest>{DISCOVEREDFROM} nowe zadanie.</LetterNewQuest> <!-- text_todo -->
+  <!-- EN: A new quest is available. -->
+  <LetterNewQuestFromUnknown>Dostępne jest nowe zadanie.</LetterNewQuestFromUnknown>
+  <!-- EN: The quest is called '{0}'. -->
+  <LetterQuestIsNamed>Zadanie nazywa się '{0}'.</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Wygaśnie w ciągu: {0}.</LetterQuestActiveNowTime>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>Jeśli nie zaakceptujesz zadania w ciągu {0}, to wygaśnie.</LetterQuestRequiresAcceptance>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
+  <QuestDiscoveredFromBook>Podczas czytania {BOOK_labelNoParenthesis}, {READER_nameDef} odkrywa</QuestDiscoveredFromBook>
+  <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
+  <QuestDiscoveredFromTrader>Podczas rozmowy z handlowcem {TRADER_nameDef}, {NEGOTIATOR_nameDef} dowiaduje się o</QuestDiscoveredFromTrader>
+  <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
+  <QuestDiscoveredFromBeggar>Chcąc okazać wdzięczność {RECEIVER_possessive} za twoją dobroczynność, żebrak {RECEIVER_nameDef} dzieli się pewną tajemnicą z {GIVER_nameDef}.</QuestDiscoveredFromBeggar> <!-- text_todo -->
+  <!-- EN: You have discovered -->
+  <QuestDiscoveredFromDebug>Odkryto</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -501,8 +509,9 @@
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
   <LetterLabelPawnsKidnapped>Porwano {PAWN_nameDef}</LetterLabelPawnsKidnapped>
-  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} zosta{PAWN_gender ? ł : ła} porwan{PAWN_gender ? y : a} przez frakcję\n{FACTION_name}!\nJednak nie jest {PAWN_pronoun} na zawsze utracon{PAWN_gender ? y : a}. Okazja do uratowania tej osoby może pojawić się w najbliższych dniach lub latach.</LetterPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
+\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>{PAWN_nameDef} zosta{PAWN_gender ? ł : ła} porwan{PAWN_gender ? y : a} przez frakcję {FACTION_name}!\nJednak nie zosta{PAWN_gender ? ł : ła} {PAWN_pronoun} na zawsze utracon{PAWN_gender ? y : a}. Okazja do uratowania tej osoby może pojawić się w najbliższych dniach lub latach.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -537,7 +546,8 @@
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>Więź osobowości: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
-  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
+\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
   <LetterBladelinkWeaponBonded>{PAWN_labelShort} nawiąza{PAWN_gender ? ł : ła} więź z {WEAPON_labelShort}.\nOd tej pory nikt inny nie będzie mógł korzystać z {WEAPON_labelShort} poza {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
@@ -550,5 +560,53 @@
   <LetterLabelSiteCountdownStarted>Wykryto karawanę</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Twoja karawana została wykryta. W {0} do obszaru zaczną napływać posiłki {1} z {2}.\n\nZreformuj swoją karawanę i zacznij się poruszać, aby uniknąć {1}. Odliczanie czasu do ich przybycia jest teraz widoczne.</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>Niezachwiany więzień</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} wykazuje się niezachwianą lojalnością wobec swojego domu i to tak mocną, że nie ma szans na rekrutację.\n\nMożesz sprawdzić, czy ktoś jest niezachwianie lojalny, wybierając go.</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>zniewól {PAWN_objective}</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>{PAWN} popada w chorę od {1} z powodu długotrwałego narażenia na gaz ze śmierdzącej zgnilizny (który jest wydzielany przez gnijące zwłoki).\n\nUpewnij się, że masz łóżko medyczne oraz lekarza. Upewnij się też, że {PAWN_definite} jest otoczony należytą opieką.</LetterTextLungRot>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Oferta dołączenia: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} chciał{PAWN_gender ? by : aby} dołączyć do Twojej frakcji.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} myśli, że {PAWN_pronoun} jest szczęśliw{PAWN_gender ? y : a} w {MAP_definite}. Chce na stałe do ciebie dołączyć.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Akceptuj</LetterJoinOfferAccept>
+
+  <!-- Speeches -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończył{ORGANIZER_gender ? a} swoją przemowę.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>Była prawdziwie okropna - pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>Była zniechęcająca - nie oryginalna, przytłaczająca i nie mająca żadnego zapału.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>Była zachęcająca i dobrze powiedziana.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>Była prawdziwie inspirująca, pełna intensywności i celu.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Następujące osoby były szczególnie poruszone przez przemowę i teraz są zainspirowane:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Dzięki wspaniałej przemowie {SPEAKER_nameIndef}, {PAWN_nameIndef} dozna{PAWN_gender ? ł : ła} inspiracji!</LetterSpeechInspiration>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>Ponieważ przemowa została zakłócona po jedynie {0}, nie była efektywna.</LetterSpeechInterrupted>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>Przemowa {0} została anulowana przed osiągnięciem 50%. Nie przyniosła żadnego efektu.</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>Przemowa odwołana.</LetterLabelSpeechCancelled>
+
+  <!-- UNUSED -->
+  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameActive>Nowe zadanie jest aktywne.\nNazwa zadania: '{0}'.</LetterQuestBecameActive>
+  <LetterQuestAutomaticallyAcceptedTitle>Aktywne zadanie: {0}</LetterQuestAutomaticallyAcceptedTitle>
 
 </LanguageData>

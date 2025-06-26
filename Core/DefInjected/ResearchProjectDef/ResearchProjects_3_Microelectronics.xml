@@ -5,65 +5,248 @@
   <DeepDrilling.label>odwierty głębinowe</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
   <DeepDrilling.description>Pozwala budować wiertnice głębinowe pozwalające na wydobywanie surowców spod ziemi. Będziesz potrzebować geoskanera, aby je odnaleźć.</DeepDrilling.description>
+  <!-- EN:
+    <li>subject->deep mining</li>
+    <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
+    <li>subject_story->drilled down to the ice cap's root to discover the world's extinct prehuman biome</li>
+    <li>subject_story->became wealthy from the resources dug out of the world's core</li>
+    <li>subject_gerund->mining deeply</li>
+  -->
+  <DeepDrilling.generalRules.rulesStrings>    
+	<li>subject->górnictwo głębinowe</li>
+    <li>subject_story->zamieszkał{PAWN_gender ? : a} z korporacją kierowaną przez górnika, badając jej najgłębsze czeluści</li>
+    <li>subject_story->wwiercił{PAWN_gender ? : a} się na sam koniec pokrywy lodowej, aby odkryć wymarły przedludzki biom świata</li>
+    <li>subject_story->stał{PAWN_gender ? : a} się bogat{PAWN_gender ? y : a} dzięki zasobom wydobytym z głęboko pod ziemią</li>
+    <li>subject_gerund->głębokie wydobywanie</li></DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>płaski telewizor</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
   <FlatscreenTelevision.description>Pozwala produkować wysokiej rozdzielczości płaskie telewizory dla lepszych doznań.</FlatscreenTelevision.description>
+  <!-- EN:
+    <li>subject->flatscreen televisions</li>
+    <li>subject_story->experimented with removing tubes from televisions</li>
+    <li>subject_story->agitated for galaxy-wide, high-resolution broadcasts of [tv_content]</li>
+    <li>tv_content->soap operas</li>
+    <li>tv_content->news programmes</li>
+    <li>tv_content->revolutionary propaganda</li>
+    <li>tv_content->glitterworld fashion</li>
+    <li>tv_content->docartoons</li>
+    <li>subject_story->became a television executive, in charge of [tv_content]</li>
+    <li>subject_gerund->producing flatscreen televisions</li>
+  -->
+  <FlatscreenTelevision.generalRules.rulesStrings>    
+	<li>subject->płaskie telewizory</li>
+    <li>subject_story->eksperymentował{PAWN_gender ? : a} z wyjmowaniem lamp z telewizorów</li>
+    <li>subject_story->agitował{PAWN_gender ? : a} za galaktycznymi transmisjami w wysokiej rozdzielczości, na których lecą [tv_content]</li>
+    <li>tv_content-opery mydlane</li>
+    <li>tv_content->programy informacyjne</li>
+    <li>tv_content->propaganda rewolucyjna</li>
+    <li>tv_content->programy modowe glitterworldu</li>
+    <li>tv_content->kreskówki</li>
+    <li>subject_story->został{PAWN_gender ? : a} dyrektorem w telewizyji, odpowiedzialnym za [tv_content]</li>
+    <li>subject_gerund->produkcja płaskich telewizorów</li></FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>geoskaner</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
   <GroundPenetratingScanner.description>Pozwala budować geoskanery, które wykrywają znajdujące się głęboko pod powierzchnią surowce możliwe do wywiercenia. Wymaga zaawansowanych komponentów do budowy.</GroundPenetratingScanner.description>
+  <!-- EN:
+    <li>subject->geophysics</li>
+    <li>subject->ground-penetrating scanners</li>
+    <li>subject_story->discovered the bones of ancient giants, far below the planet's surface</li>
+    <li>subject_story->stumbled across a rich gold seam whilst scanning for tin and became fabulously wealthy</li>
+    <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
+    <li>subject_gerund->constructing geophysical scanners</li>
+  -->
+  <GroundPenetratingScanner.generalRules.rulesStrings>   
+	<li>subject->geofizyka</li>
+    <li>subject->geoskanery</li>
+    <li>subject_story->odkrył{PAWN_gender ? : a} kości starożytnych gigantów, daleko pod powierzchnią planety</li>
+    <li>subject_story->odkrył{PAWN_gender ? : a} bogate pokłady złota podczas poszukiwania cyny stając się bajecznie bogatą osobą.</li>
+    <li>subject_story->skanował{PAWN_gender ? : a} ziemię w poszukiwaniu starożytnych pól minowych, aby chronić ludzi</li>
+    <li>subject_gerund->konstruowanie geoskanerów</li></GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>automatyczna wieżyczka</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
   <HeavyTurrets.description>Pozwala produkować ciężką automatyczną wieżyczkę.</HeavyTurrets.description>
+  <!-- EN:
+    <li>subject->autocannon turrets</li>
+    <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
+    <li>subject_story->was hired to establish a defensive perimeter of sandbags and turrets for the locals</li>
+    <li>subject_story->built turret after turret, never asking who was buying them</li>
+    <li>subject_gerund->crafting heavy autocannon turrets</li>
+  -->
+  <HeavyTurrets.generalRules.rulesStrings>    
+	<li>subject->automatyczne wieżyczki</li>
+    <li>subject_story->samotnie odparł{PAWN_gender ? : a} atak kultystów, chowając się za ścianą wieżyczek</li>
+    <li>subject_story->został{PAWN_gender ? : a} wynajęt{PAWN_gender ? y : a} do ustanowienia obwodu obronnego - w celu obrony mieszkańców -  złożonego z worków z piaskiem i wieżyczek</li>
+    <li>subject_story->budował{PAWN_gender ? : a} wieżyczkę za wieżyczką, nigdy nie pytając, kto je kupuje</li>
+    <li>subject_gerund->konstruowanie ciężkich wieżyczek z działkami automatycznymi</li></HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>łóżko szpitalne</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
   <HospitalBed.description>Pozwala konstruować łóżka szpitalne, które zwiększają jakość udzielanej pomocy medycznej.</HospitalBed.description>
+  <!-- EN:
+    <li>subject->hospitalization</li>
+    <li>subject_story->oversaw a revolution in the standards of medical care</li>
+    <li>subject_story->constructed the first of the system's public hospitals</li>
+    <li>subject_story->focused on profit, selling [ANYPAWN_pronoun] superior medical suites to the wealthy</li>
+    <li>subject_gerund->constructing hospital beds</li>
+  -->
+  <HospitalBed.generalRules.rulesStrings>    
+	<li>subject->hospitalizacja</li>
+    <li>subject_story->nadzorował{PAWN_gender ? : a} rewolucję w standardach opieki medycznej</li>
+    <li>subject_story->zbudował{PAWN_gender ? : a} pierwszy z publicznych szpitali w systemie</li>
+    <li>subject_story->koncentrowan{PAWN_gender ? y : a} się na zysku, udostępniając bogatym swoje doskonałe apartamenty medyczne</li>
+    <li>subject_gerund->budowanie łóżek szpitalnych</li></HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>dalekosiężny skaner minerałów</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
   <LongRangeMineralScanner.description>Pozwala konstruować dalekosiężne skanery minerałów, dzięki którym Twoi badacze mogą wykrywać cenne minerały na całej planecie. Można go dostroić w celu poszukiwania konkretnego minerału. Wymaga zaawansowanych komponentów do budowy.</LongRangeMineralScanner.description>
+  <!-- EN:
+    <li>subject->long-range mineral detection</li>
+    <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
+    <li>subject_story->discovered with a scanner what the other settlements were mining and made huge profits through trading</li>
+    <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
+    <li>subject_gerund->constructing long-range mineral scanners</li>
+  -->
+  <LongRangeMineralScanner.generalRules.rulesStrings>   
+	<li>subject->dalekosiężny skaner minerałów</li>
+    <li>subject_story->zbudował{PAWN_gender ? : a} tak wiele dalekosiężnych skanerów minerałów, że udało się odkryć i zbadać całą geologię planety</li>
+    <li>subject_story->za pomocą skanera odkrył{PAWN_gender ? : a}, co wydobywają inne osady i osiągając ogromne zyski z handlu</li>
+    <li>subject_story->wydobył{PAWN_gender ? : a} cały jadeit na pewnej planecie do budowy podobizn do celów religijnych</li>
+    <li>subject_gerund->kontruowanie dalekosiężnego skanera minerałów</li></LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
   <MedicineProduction.label>produkcja leków</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
   <MedicineProduction.description>Pozwala produkować standardowe leki poprzez łączenie leków ziołowych, neutroaminy i tkaniny.</MedicineProduction.description>
+  <!-- EN:
+    <li>subject->medical synthesis</li>
+    <li>subject->medicine production</li>
+    <li>subject_story->researched urbworld medicine, aiming to distribute the knowledge more widely</li>
+    <li>subject_story->was puzzled by the origins of neutroamine and determined to find out more</li>
+    <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
+    <li>subject_gerund->producing industrial-tech medicine</li>
+  -->
+  <MedicineProduction.generalRules.rulesStrings>    
+	<li>subject->synteza medyczna</li>
+    <li>subject->produkcja leków</li>
+    <li>subject_story->badał{PAWN_gender ? : a} medycynę urbworldu, dążąc do szerszego rozpowszechniania tej wiedzy</li>
+    <li>subject_story->zastanawiał{PAWN_gender ? : a} się nad pochodzeniem neutroaminy i postanowił{PAWN_gender ? : a} dowiedzieć się więcej</li>
+    <li>subject_story->skradł{PAWN_gender ? : a} zasoby handlarzowi narkotyków i zamiast tego wyprodukował{PAWN_gender ? : a} użyteczne leki</li>
+    <li>subject_gerund->produkcja leków o charakterze przemysłowo-technicznym</li></MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>podstawy mikroelektroniki</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
   <MicroelectronicsBasics.description>Pozwala pracować z delikatną i złożoną elektroniką. Odblokuje to zaawansowane technologicznie stoły badawcze i konsole komunikacyjne.</MicroelectronicsBasics.description>
+  <!-- EN:
+    <li>subject->microelectronics</li>
+    <li>subject_story->moved into the development of microelectronics</li>
+    <li>subject_story->constructed the first of many research bench variants</li>
+    <li>subject_story->moved from town to town, praising the virtues of pure research</li>
+    <li>subject_gerund->crafting microelectronics</li>
+  -->
+  <MicroelectronicsBasics.generalRules.rulesStrings>    
+	<li>subject->podstawy mikroelektroniki</li>
+    <li>subject_story->skupił{PAWN_gender ? : a} na rozwoju mikroelektroniki</li>
+    <li>subject_story->skonstruował{PAWN_gender ? : a} pierwszy wielofunkcyjne stanowisko badawcze</li>
+    <li>subject_story->przenisił{PAWN_gender ? : a} się z miasta do miasta, chwaląc skupianie się na nauce i zalety czystych badań</li>
+    <li>subject_gerund->wytwarzanie mikroelektroniki</li></MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>pompa wilgoci</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
   <MoisturePump.description>Pozwala konstruować pompy wilgoci, które bardzo wolno normalizują wilgotność otaczającego je gruntu. Mogą też osuszyć mokry grunt i przekształcić miękki piasek w normalny.</MoisturePump.description>
+  <!-- EN:
+    <li>subject->moisture pumps</li>
+    <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
+    <li>subject_story->drained the great swamps that bred disease</li>
+    <li>subject_story->tried to drain the seas, foolishly</li>
+    <li>subject_gerund->constructing moisture pumps</li>
+  -->
+  <MoisturePump.generalRules.rulesStrings>    
+	<li>subject->pompy wilgoci</li>
+    <li>subject_story->badał{PAWN_gender ? : a} starożytne wiatrakowe pompy wilgoci na Ziemi</li>
+    <li>subject_story->osuszył{PAWN_gender ? : a} wielkie bagna, które były siedliskiem chorób</li>
+    <li>subject_story->próbował{PAWN_gender ? : a} osuszyć morza, niezbyt to było mądre</li>
+    <li>subject_gerund->constructing moisture pumps</li></MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>bronie wielolufowe</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
   <MultibarrelWeapons.description>Pozwala montować miniguny.</MultibarrelWeapons.description>
+  <!-- EN:
+    <li>subject->miniguns</li>
+    <li>subject_story->constructed a unique portable minigun, which was the only thing found after the squad's disappearance</li>
+    <li>subject_story->designed massive hoppers to ensure the minigun ammo didn't run out</li>
+    <li>subject_story->built guns explicitly to kill every last person in a room</li>
+    <li>subject_gerund->crafting multibarrel weapons</li>
+  -->
+  <MultibarrelWeapons.generalRules.rulesStrings>    
+	<li>subject->miniguny</li>
+    <li>subject_story->skonstruował{PAWN_gender ? : a} unikalny przenośny minigun, który był jedyną rzeczą znalezioną po zniknięciu oddziału.</li>
+    <li>subject_story->zaprojektował{PAWN_gender ? : a} ogromne zasobniki, aby amunicja do miniguna nie wyczerpała się</li>
+    <li>subject_story->skontruował{PAWN_gender ? : a} broń wielofową po to, by zabić każdą osobę w pomieszczeniu</li>
+    <li>subject_gerund->Tworzenie broni wielolufowej</li></MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>precyzyjne karabiny</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
   <PrecisionRifling.description>Pozwala tworzyć precyzyjne bronie jak karabiny szturmowe i snajperskie.</PrecisionRifling.description>
+  <!-- EN:
+    <li>subject->rifles</li>
+    <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
+    <li>subject_story->was hunted by neanderthals but constructed a sniper rifle to safely kill their leader</li>
+    <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
+    <li>subject_gerund->crafting rifles</li>
+  -->
+  <PrecisionRifling.generalRules.rulesStrings>    
+	<li>subject->karabiny</li>
+    <li>subject_story->poprawił{PAWN_gender ? : a} procesy odlewnicze, umożliwiająca produkcję wysokiej jakości karabinów</li>
+    <li>subject_story->był{PAWN_gender ? : a} ścigan{PAWN_gender ? y : a} przez neandertalczyków, ale skonstruował{PAWN_gender ? : a} karabin snajperski, aby bezpiecznie zabić ich przywódcę</li>
+    <li>subject_story->na krótko zasłynął{PAWN_gender ? : a} z wystrzelenia owocu ambrozji z ręki władcy</li>
+    <li>subject_gerund->wytwarzanie karabinów</li></PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
   <ShieldBelt.label>tarcze</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
-  <ShieldBelt.description>Pozwala na budowę sprzętu tarczowego, który można założyć. Blokują przychodzące i wychodzące ataki zasięgowe.</ShieldBelt.description>
+  <ShieldBelt.description>Pozwala na budowę sprzętu tarczowego, który można założyć. Tarcze wykorzystują technologię odpychającej siły. Blokują przychodzące i wychodzące ataki zasięgowe.</ShieldBelt.description>
+  <!-- EN:
+    <li>subject->personal shielding</li>
+    <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
+    <li>subject_story->hustled at billiards, using a hidden momentum repeller</li>
+    <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
+    <li>subject_gerund->crafting personal shields</li>
+  -->
+  <ShieldBelt.generalRules.rulesStrings>    
+	<li>subject->osobista tarcza</li>
+    <li>subject_story->przeżył{PAWN_gender ? : a} próbę zamachu dzięki prototypowej tarczy</li>
+    <li>subject_story->grał{PAWN_gender ? : a} w bilarda, używając ukrytej odpychającej siły</li>
+    <li>subject_story->zabił{PAWN_gender ? : a} wroga przesuwając ostrze wystarczająco wolno, aby ominąć jego tarczę</li>
+    <li>subject_gerund->wytwarzanie osobistych tarcz</li></ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
   <TransportPod.label>kapsuły transportowe</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
   <TransportPod.description>Pozwala konstruować wystrzeliwane kapsuły transportowe, które pozwalają na przesyłanie ludzi i zaopatrzenia na dalekie odległości po powierzchni planety. Mogą być używane do najazdów, podróży, wysyłania podarunków i wiele więcej.</TransportPod.description>
+  <!-- EN:
+    <li>subject->transport pods</li>
+    <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>
+    <li>subject_story->spent a fortune sending a transport pod to the object of [ANYPAWN_possessive] affection, carrying a single wedding ring</li>
+    <li>subject_story->staved off famine through judicious pod deployment</li>
+    <li>subject_gerund->constructing transport pods</li>
+  -->
+  <TransportPod.generalRules.rulesStrings>    
+	<li>subject->kapsuły transportowe</li>
+    <li>subject_story->wylądował{PAWN_gender ? : a} kapsułą transportową w środku zdziczałego plemienia ledwo uchodząc z życiem.</li>
+    <li>subject_story->wydał{PAWN_gender ? : a} fortunę, wysyłając kapsułę transportową do ukochanej osoby, wysyłając kapsułę transportową z jedną obrączką ślubną</li>
+    <li>subject_story->zapobiegł{PAWN_gender ? : a} klęsce głodu dzięki rozsądnemu rozmieszczeniu kapsuł transportowych</li>
+    <li>subject_gerund->buduje kapsuły transportowe</li></TransportPod.generalRules.rulesStrings>
   
 </LanguageData>

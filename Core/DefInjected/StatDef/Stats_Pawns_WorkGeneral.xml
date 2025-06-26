@@ -11,6 +11,11 @@
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
   <AnimalGatherYield.description>Procentowe rezultaty osoby, która doi, strzyże lub zbiera inne surowce od żywych zwierząt.\n\nIm wyższy procent, tym mniejsza szansa na zmarnowanie się produktu.</AnimalGatherYield.description>
   
+  <!-- EN: cleaning speed multiplier -->
+  <CleaningSpeed.label>mnożnik szybkości czyszczenia</CleaningSpeed.label>
+  <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
+  <CleaningSpeed.description>Mnożnik, jak szybko to czyści brud z ziemi.</CleaningSpeed.description>
+  
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>szybkość budowania</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
@@ -35,6 +40,16 @@
   <FixBrokenDownBuildingSuccessChance.label>szansa na powodzenie naprawy</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>Szansa z jaką ta osoba z powodzeniem naprawi zepsutą budowlę korzystając z komponentu.\n\nNiepowodzenie oznacza zmarnowanie czasu i zasobów. Pamiętaj, że dotyczy to tylko napraw awarii, które różnią się od naprawy uszkodzeń.</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hacking speed -->
+  <HackingSpeed.label>szybkość hakowania</HackingSpeed.label>
+  <!-- EN: How fast this person can hack into computer terminals. -->
+  <HackingSpeed.description>Szybkość z jaką ta osoba może włamać się do terminali komputerowych.</HackingSpeed.description>
+  
+  <!-- EN: hacking stealth -->
+  <HackingStealth.label>hakowanie w ukryciu</HackingStealth.label>
+  <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
+  <HackingStealth.description>Ile średnio postępów w hakowaniu można osiągnąć, zanim dana osoba zostanie tymczasowo zablokowana w systemie komputerowym. Tylko niektóre systemy są w stanie wykryć hakerów</HackingStealth.description>
   
   <!-- EN: hunting stealth -->
   <HuntingStealth.label>kamuflaż myśliwski</HuntingStealth.label>
@@ -61,6 +76,11 @@
   <!-- EN: The speed at which this person sows and harvests plants. -->
   <PlantWorkSpeed.description>Szybkość, z jaką ta osoba sieje i zbiera plony.</PlantWorkSpeed.description>
   
+  <!-- EN: reading speed -->
+  <ReadingSpeed.label>szybkość czytania</ReadingSpeed.label>
+  <!-- EN: A multiplier on how fast this person can read. -->
+  <ReadingSpeed.description>Mnożnik określający, jak szybko dana osoba potrafi czytać.</ReadingSpeed.description>
+  
   <!-- EN: research speed -->
   <ResearchSpeed.label>szybkość badań</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
@@ -75,5 +95,7 @@
   <WorkSpeedGlobal.label>globalna szybkość pracy</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
   <WorkSpeedGlobal.description>Mnożnik szybkości dla danej postaci, mający wpływ na wykonywanie dowolnego typu pracy.</WorkSpeedGlobal.description>
+  <!-- EN: Offset from mechanitor -->
+  <WorkSpeedGlobal.parts.2.label>przesunięcie od mechanitora</WorkSpeedGlobal.parts.2.label>
   
 </LanguageData>

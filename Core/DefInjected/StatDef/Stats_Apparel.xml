@@ -24,7 +24,7 @@
   
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>Maksymalny poziom energii osłony</EnergyShieldEnergyMax.label>
-  <!-- EN: The maximum energy a shield belt can have at one time.\n\nMore energy absorbs more damage. -->
+  <!-- EN: The maximum energy a shield can have at one time.\n\nMore energy absorbs more damage. -->
   <EnergyShieldEnergyMax.description>Maksymalna ilość energii, jaką może mieć pas aktywnej osłony w jednej chwili.\n\nIm więcej energii, tym więcej może absorbować obrażeń.</EnergyShieldEnergyMax.description>
   
   <!-- EN: Shield recharge rate -->
@@ -32,14 +32,14 @@
   <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
   <EnergyShieldRechargeRate.description>Prędkość, z jaką tarcza odzyskuję energię, o ile nie jest zepsuta.</EnergyShieldRechargeRate.description>
   <!-- EN: {0}/s -->
-  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+  <EnergyShieldRechargeRate.formatString>{0} sek.</EnergyShieldRechargeRate.formatString>
   
   <!-- EN: equip delay -->
   <EquipDelay.label>czas ubierania</EquipDelay.label>
   <!-- EN: The time it takes to equip and unequip this item. -->
   <EquipDelay.description>Czas, który upłynie przy zakładaniu lub zdejmowaniu tego przedmiotu.</EquipDelay.description>
   <!-- EN: {0} s -->
-  <EquipDelay.formatString>{0} s</EquipDelay.formatString>
+  <EquipDelay.formatString>{0} sek.</EquipDelay.formatString>
   
   <!-- EN: Insulation - Cold -->
   <Insulation_Cold.label>Izolacja - Zimno</Insulation_Cold.label>
@@ -55,11 +55,16 @@
   <!-- EN: Insulation - Heat (armor stat) -->
   <Insulation_Heat.labelForFullStatList>Izolacja - Ciepło (poziom ochrony)</Insulation_Heat.labelForFullStatList>
   
-  <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>Promień paczki dymnej</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>Obszar, który zostanie osłonięty po detonacji paczki dymnej.</SmokepopBeltRadius.description>
+  <!-- EN: Effect radius -->
+  <PackRadius.label>Promień działania</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>Obszar dotknięty detonacją tego pakietu</PackRadius.description>
   <!-- EN: {0} c -->
+  <PackRadius.formatString>{0} c </PackRadius.formatString>
+  
+  <!-- UNUSED -->
+  <SmokepopBeltRadius.label>Promień paczki dymnej</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.description>Obszar, który zostanie osłonięty po detonacji paczki dymnej.</SmokepopBeltRadius.description>
   <SmokepopBeltRadius.formatString>{0} pól</SmokepopBeltRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->

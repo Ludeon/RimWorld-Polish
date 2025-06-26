@@ -50,6 +50,32 @@
   <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
   <GutWorms.description>Pasożyty w jelitach. Powodują wymioty. Żywią się pokarmem zjadanym przez ofiarę, co zwiększa apetyt..</GutWorms.description>
   
+  <!-- EN: lung rot -->
+  <LungRot.label>gnicie płuc</LungRot.label>
+  <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
+  <LungRot.description>Choroba bakteryjna, która atakuje płuca. Mniejsze przypadki są tylko podrażnieniem, ale jeśli nie są kontrolowane, rozwój bakterii powoduje coraz większe nagromadzenie płynu w płucach ofiary, co w końcu prowadzi do śmierci. Przy odpowiednim leczeniu, system odpornościowy organizmu w końcu usunie zgniliznę z płuc.</LungRot.description>
+  <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
+  <LungRot.descriptionShort>Bolesna choroba bakteryjna wywołana przez ekspozycję na odór zgnilizny. Nieleczona, prowadzi do bolesnej śmierci.</LungRot.descriptionShort>
+  <!-- EN: minor -->
+  <LungRot.stages.minor.label>nieznaczne</LungRot.stages.minor.label>
+  <!-- EN: major -->
+  <LungRot.stages.major.label>poważne</LungRot.stages.major.label>
+  <!-- EN: extreme -->
+  <LungRot.stages.extreme.label>ekstremalne</LungRot.stages.extreme.label>
+  
+  <!-- EN: rot stink exposure -->
+  <LungRotExposure.label>wystawienie na działanie odoru zgnilizny</LungRotExposure.label>
+  <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
+  <LungRotExposure.description>Długotrwałe narażenie odór zgnilizny. Narażenie na odór zgnilizny nie ma bezpośredniego wpływu na zdrowie. Jednakże, długotrwałe wystawienie na woń może spowodować bolesną infekcję bakteryjną znaną jako zgnilizna płuc. W przypadku braku narażenia na gaz, wpływ odoru zgnilizny będzie się powoli zmniejszać.</LungRotExposure.description>
+  <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} cierpi z powodu kontaktu z gazem cuchnącym zgnilizną. Trzymaj {PAWN_objective} z dala od gnijących zwłok i innych źródeł smrodu zgnilizny</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: minor -->
+  <LungRotExposure.stages.minor.label>nieznaczne</LungRotExposure.stages.minor.label>
+  <!-- EN: major -->
+  <LungRotExposure.stages.major.label>poważne</LungRotExposure.stages.major.label>
+  <!-- EN: serious -->
+  <LungRotExposure.stages.serious.label>ekstremalne</LungRotExposure.stages.serious.label>
+  
   <!-- EN: malaria -->
   <Malaria.label>malaria</Malaria.label>
   <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
@@ -79,6 +105,23 @@
   <!-- EN: extreme -->
   <Plague.stages.extreme-1.label>ekstremalna</Plague.stages.extreme-1.label>
   
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>zakażenie skarią</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>Infekcja wywołana przez bakterię skarii. Jeśli infekcja nie zostanie wyleczona, doprowadzi żywiciela do szału.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Skaria: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} cierpi, gdyż rozwinęła się skaria spowodowana infekcją, która doprowadza {PAWN_objective} do szaleńczego szału. Skarię można wyleczyć specjalną operacją medyczną, ale {PAWN_nameDef} musi najpierw zostać powalony.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>zakażenie skarią</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>lekka</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>poważna</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>ekstremalna</ScariaInfection.stages.extreme.label>
+  
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>mechanity czuciowe</SensoryMechanites.label>
   <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
@@ -106,7 +149,7 @@
   <!-- EN: infection -->
   <WoundInfection.label>zakażenie</WoundInfection.label>
   <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
-  <WoundInfection.description>Zakażenie bakteryjne w ranie. Bez podjęcia odpowiednich środków, bakterie namnażają się, zabijając miejscową tkankę, a ostatecznie powodując zatrucie krwi i śmierć.\n\nPrzez eony ludzkiej wojny, infekcje często zabierały więcej ludzkich żyć niż same rany.</WoundInfection.description>
+  <WoundInfection.description>Zakażenie bakteryjne w ranie. Bez podjęcia odpowiednich środków, bakterie namnażają się, zabijając miejscową tkankę, a ostatecznie powodując sepsę i śmierć.\n\nPrzez eony prowadzonych wojen, infekcje często zabierały więcej ludzkich żyć niż same rany.</WoundInfection.description>
   <!-- EN: an infection -->
   <WoundInfection.labelNoun>zakażenie</WoundInfection.labelNoun>
   <!-- EN: minor -->

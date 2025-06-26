@@ -5,34 +5,122 @@
   <ShipBasics.label>podstawa statku</ShipBasics.label>
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>Skonstruuj strukturalne i wspierające elementy statku. To pierwszy krok w budowaniu statku pozwalającego opuszczenie tego systemu gwiezdnego.</ShipBasics.description>
-  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nMany desperate souls want off this planet. Ship reactors take 15 days to charge up. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
   <ShipBasics.discoveredLetterText>Ucieczka z tej planety - w końcu była by to wolność, a może powrót do domu.\n\nAle też niezwykle niebezpieczna podróż.\n\nWiele zdesperowanych dusz chce opuścić tę planetę. Reaktory statku potrzebują 15 dni na naładowanie. Po rozpoczęciu tego procesu reaktor okrętowy wyemituje sygnaturę energii wykrywalną z tysięcy kilometrów. Najeźdźcy zgromadzą się, by zaatakować Cię falami, z intensywnością, jakiej nigdy nie widzieliście. Mechanoidów również ciągnie do takich energetycznych sygnatur z ich własnych tajemniczych powodów.\n\Nie rozpocznie się to, dopóki nie uruchomisz reaktora statku, ale kiedy już to nastąpi, będzie to srogi czas. Trzeba będzie zgromadzić zasoby, broń i obronę do ataku, jeśli masz nadzieję uciec żywcem.</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
   <ShipBasics.discoveredLetterTitle>Informacje: Wystrzelenie statku</ShipBasics.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->starship structural engineering</li>
+    <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
+    <li>subject_story->was a structural designer in an urbworld skyripper district</li>
+    <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
+    <li>subject_gerund->constructing starship structures</li>
+  -->
+  <ShipBasics.generalRules.rulesStrings>    
+	<li>subject->inżynieria strukturalna statku kosmicznego</li>
+    <li>subject_story->rekrutował{PAWN_gender ? : a} inżynierów statków kosmicznych dla floty Glitterworldu</li>
+    <li>subject_story->brał{PAWN_gender ? : a} udział w projekcie nad specjalną konstrukcją w urbwoldzie w dzielnicy podniebnych poszukiwaczy</li>
+    <li>subject_story->zbierał{PAWN_gender ? : a} wraki statków w pasie gruzów deadworlda</li>
+    <li>subject_gerund->Budowa struktur statków kosmicznych</li></ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
-  <ShipComputerCore.label>perswazja maszynowa</ShipComputerCore.label>
+  <ShipComputerCore.label>imitacja osobowości</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
   <ShipComputerCore.description>Pozwala zbudować system sygnału nagrody, aby przekonać istniejący rdzeń osobowości, by służył jako kapitan SI statku. Ponieważ ludzie śpią podczas podróży międzygwiezdnych, rdzeń osobowości jest niezbędny, aby poradzić sobie ze złożonymi decyzjami trwającymi latami lotów kosmicznych.</ShipComputerCore.description>
+  <!-- EN:
+    <li>subject->persona core incentivization</li>
+    <li>subject->starship AI sanity maintenance</li>
+    <li>subject_story->regained control of an aberrant ship's core with careful reconditioning</li>
+    <li>subject_story->set up colony-management simulations to occupy the ship's core during the many years of interstellar travel</li>
+    <li>subject_story->kept a ship's core company during a 'short' interstellar trip, learning much about cores in the process</li>
+    <li>subject_gerund->incentivizing persona cores</li>
+    <li>subject_gerund->maintaining starship AI sanity</li>
+    <li>subject_gerund->constructing reward-signal systems</li>
+  -->
+  <ShipComputerCore.generalRules.rulesStrings>    
+	<li>subject->motywacje rdzeniu osobowości</li>
+    <li>subject->utrzymanie odpowiedniego stanu SI statku kosmicznego</li>
+    <li>subject_story->odzyskał{PAWN_gender ? : a} kontrolę nad rdzeniem statku dzięki starannej renowacji</li>
+    <li>subject_story->skonfigurował{PAWN_gender ? : a} symulacje zarządzania kolonią, aby przejąć rdzeń statku, którym podróżował{PAWN_gender ? : a} podczas wieloletniej podróży międzygwiezdnych</li>
+    <li>subject_story->zajmował{PAWN_gender ? : a} się rdzeniem statku podczas 'krótkiej' podróży międzygwiezdnej, przy okazji poznając wiedzę o rdzeniach</li>
+    <li>subject_gerund->motywowacje rdzeni persona</li>
+    <li>subject_gerund->utrzymanie odpowiedniego stanu SI statku kosmicznego</li>
+    <li>subject_gerund->konstruowanie systemów sygnału nagrody</li></ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>próżniowa kapsuła hibernacyjna</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
   <ShipCryptosleep.description>Pozwala konstruować utwardzane kapsuły hibernacyjne, wystarczająco mocne, aby można było je wystawić na działanie próżni, w celu przewożenia ludzi podczas wieloletniej podróży między gwiazdami.</ShipCryptosleep.description>
+  <!-- EN:
+    <li>subject->starship-grade cryptosleep caskets</li>
+    <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
+    <li>subject_story->was accidentally ejected in deep space, surviving in a self-designed casket for two months</li>
+    <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
+    <li>subject_gerund->constructing hardened cryptosleep caskets</li>
+  -->
+  <ShipCryptosleep.generalRules.rulesStrings>    
+	<li>subject->próżniowe kapsuły hibernacyjne statku kosmicznego</li>
+    <li>subject_story->wymienił{PAWN_gender ? : a} uszkodzone próżniowe kapsuły hibernacyjne na CMC Celeste, aby statek starej generacji mógł być ponownie używany</li>
+    <li>subject_story->został{PAWN_gender ? : a} przypadkowo wyrzucon{PAWN_gender ? y : a} w przestrzeń kosmiczną i przeżył w zaprojektowanej przez siebie próżniowej kapsule hibernacyjnej przez dwa miesiące</li>
+    <li>subject_story->wykładał{PAWN_gender ? : a} na temat różnic między sprzętem klasy planetarnej a gwiezdnej</li>
+    <li>subject_gerund->Konstruowanie próżniowe kapsuły hibernacyjne</li></ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>napęd Johnson-Tanaka</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
   <ShipEngine.description>Pozwala konstruować dla statku napęd Johnson-Tanaka. Napęd JT może popchnąć Cię do innych gwiazd, wykorzystując efekty skali kwantowej do pędu wiązki do odległych gwiazd. Oczywiście, podobnie jak w przypadku wszystkich statków kosmicznych, dotarcie gdziekolwiek zajmuje wiele lat.</ShipEngine.description>
+  <!-- EN:
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotic momentum transfer</li>
+    <li>subject_story->lectured in the university on Johnson, Tanaka and quantum-scale effects</li>
+    <li>subject_story->constructed a Johnson-Tanaka drive from first principles for a thesis</li>
+    <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
+    <li>subject_gerund->constructing starship drives</li>
+  -->
+  <ShipEngine.generalRules.rulesStrings>    
+	<li>subject->teoria Johnson-Tanaka</li>
+    <li>subject->egzotyczny transfer pędu</li>
+    <li>subject_story->wykładał{PAWN_gender ? : a} na uniwersytecie na temat Johnsona, Tanaki i efektów w skali kwantowej</li>
+    <li>subject_story->skonstruował{PAWN_gender ? : a} napęd Johnson-Tanaka od postaw dla pracy dyplomowej</li>
+    <li>subject_story->utrzymywał{PAWN_gender ? : a} w dobrym stanie napęd Johnsona-Tanaki przez dwie dekady, gdy statek podróżował między gwiazdami</li>
+    <li>subject_gerund->budowa napędów statków kosmicznych</li></ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>reaktor statku</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
   <ShipReactor.description>Pozwala budować długotrwały reaktor jądrowy do zasilania statku. Pamiętaj, że reaktory mają długi proces uruchamiania, który przyciągnie najeźdźców.</ShipReactor.description>
+  <!-- EN:
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
+    <li>subject_story->defended the ship whilst the reactor span up, against raiders desperate to get off-world</li>
+    <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
+    <li>subject_gerund->constructing starship reactors</li>
+  -->
+  <ShipReactor.generalRules.rulesStrings>    
+	<li>subject->reaktor jądrowy statku kosmicznego</li>
+    <li>subject_story->skonstruował{PAWN_gender ? : a} nowy reaktor dla statku kolonialnego, ale nigdy nie doczekał{PAWN_gender ? : a} jego startu</li>
+    <li>subject_story->bronił{PAWN_gender ? : a} statku przed zdesperowanymi najeźdźcami, którzy chcieli się wydostać dany system. Sytuacja była niebezpieczna, bo miało to miejsce, kiedy reaktor był włączony</li>
+    <li>subject_story->wykorzystał{PAWN_gender ? : a} reaktor statku kosmicznego jako zapasowe źródło zasilania dla banku genów zakopanego pod pokrywą lodową planety</li>
+    <li>subject_gerund->Budowa reaktorów na statkach kosmicznych</li></ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>czujniki statku</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>Pozwala konstruować czujniki dalekiego zasięgu dla statku. Czujniki te są niezbędne do nawigacji, komunikacji i unikania zagrożeń.</ShipSensorCluster.description>
+  <!-- EN:
+    <li>subject->interstellar navigation</li>
+    <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>
+    <li>subject_story->was employed as navigator and cook on a Glitterworld star-yacht</li>
+    <li>subject_story->refined the design of long-range sensors, improving their utility</li>
+    <li>subject_gerund->navigating interstellar space</li>
+    <li>subject_gerund->constructing starship sensors</li>
+  -->
+  <ShipSensorCluster.generalRules.rulesStrings>    
+	<li>subject->nawigacja międzygwiezdna</li>
+    <li>subject_story->wykorzystał{PAWN_gender ? : a} prototypowe czujniki statku kosmicznego do wykrycia zawczasu nadlatującej asteroidy, która byłaby wstanie doprowadzić do wymarcia całej planety lub zmusić mieszkańców do ewakuacji.</li>
+    <li>subject_story->został{PAWN_gender ? : a} zatrudnion{PAWN_gender ? y : a} jako nawigator i kucharz na gwiezdnym jachcie Glitterworldu</li>
+    <li>subject_story->udoskonalił{PAWN_gender ? : a} konstrukcję czujników dalekiego zasięgu, zwiększając ich użyteczność</li>
+    <li>subject_gerund->nawigacja w przestrzeni międzygwiezdnej</li>
+    <li>subject_gerund->konstruowanie czujników statku kosmicznego</li></ShipSensorCluster.generalRules.rulesStrings>
   
 </LanguageData>

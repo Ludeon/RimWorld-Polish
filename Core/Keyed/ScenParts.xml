@@ -2,12 +2,16 @@
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
-  
+
+  <!-- EN: Title -->
+  <ScenarioTitle>Nazwa</ScenarioTitle>
   <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>Twoją frakcja będzie nosić nazwę {0}.</ScenPart_PlayerFaction>
 
-  <!-- EN: Start with {0} people, chosen from {1}. -->
-  <ScenPart_StartWithPawns>Zacznij z postaciami w liczbie {0}, do wybrania spośród {1}.</ScenPart_StartWithPawns>
+  <!-- EN: Start with 1 person. -->
+  <ScenPart_StartWithPawn>Zacznij z 1 postacią</ScenPart_StartWithPawn>
+  <!-- EN: Start with {0} people. -->
+  <ScenPart_StartWithPawns>Zacznij z postaciami w liczbie {0}.</ScenPart_StartWithPawns>
   <!-- EN: chosen from -->
   <ScenPart_StartWithPawns_OutOf>do wyboru spośród</ScenPart_StartWithPawns_OutOf>
   <!-- EN: random pet -->
@@ -21,6 +25,9 @@
 
   <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>Wartość startowa "{0}" będzie uniwersalnie pomnożona przez {1}.</ScenPart_StatFactor>
+  
+  <!-- EN: Select -->
+  <ScenPart_SelectQuestDef>Wybierz</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
   <!-- EN: {0} have a {1} chance to start with {2}. -->
@@ -48,6 +55,14 @@
   <!-- EN: Your people will be between {0} and {1} years old. -->
   <ScenPart_StartingPawnAgeRange>Twoje postacie będą pomiędzy {0} a {1} rokiem życia.</ScenPart_StartingPawnAgeRange>
 
+  <!-- EN: Start with {0}. -->
+  <ScenPart_StartWithSpecificColonists>Rozpocznij z {0}.</ScenPart_StartWithSpecificColonists>
+  <!-- EN: {COUNT} {KINDLABEL} -->
+  <PawnCount>{COUNT} {KINDLABEL}</PawnCount>
+  
+  <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
+  <ScenPart_Error>Jedna lub więcej części tego scenariusza nie może zostać załadowana z powodu brakującej zawartości. Możesz załadować scenariusz ze wszystkimi wymaganymi modami lub załadować go bez brakujących części scenariusza.</ScenPart_Error>
+
   <!-- ======================== Grouped ========================-->
 
   <!-- EN: Start with -->
@@ -62,5 +77,51 @@
   <ScenPart_CreateIncident>Stworzone incydenty</ScenPart_CreateIncident>
   <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>Nigdy nie zbuduje</ScenPart_DisallowBuilding>
+
+  <!-- ======================== Layers ========================-->
+  
+  <!-- EN: Tag -->
+  <ScenPart_PlanetLayerTag>Znacznik</ScenPart_PlanetLayerTag>
+  <!-- EN: Must have a unique tag -->
+  <ScenPart_PlanetLayerTag_Error>Musi posiadać unikalny znacznik</ScenPart_PlanetLayerTag_Error>
+  
+  <!-- EN: Settings -->
+  <ScenPart_PlanetLayerSettings>Ustawienia</ScenPart_PlanetLayerSettings>
+  <!-- EN: Use settings def -->
+  <ScenPart_PlanetLayerSettings_UseDef>Użyj ustawień def</ScenPart_PlanetLayerSettings_UseDef>
+  <!-- EN: Select -->
+  <ScenPart_PlanetLayerSettings_SelectDef>Wybierz</ScenPart_PlanetLayerSettings_SelectDef>
+  <!-- EN: Position -->
+  <ScenPart_PlanetLayerSettings_Position>Pozycja</ScenPart_PlanetLayerSettings_Position>
+  <!-- EN: Radius -->
+  <ScenPart_PlanetLayerSettings_Radius>Promień</ScenPart_PlanetLayerSettings_Radius>
+  <!-- EN: Use surface view angle -->
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>Użyj kąta widzenia powierzchni</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <!-- EN: View angle -->
+  <ScenPart_PlanetLayerSettings_ViewAngle>Kąt widzenia</ScenPart_PlanetLayerSettings_ViewAngle>
+  <!-- EN: Extra camera height -->
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>Dodatkowa wysokość kamery</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <!-- EN: Subdivisions -->
+  <ScenPart_PlanetLayerSettings_Subdivisions>Podziały</ScenPart_PlanetLayerSettings_Subdivisions>
+  <!-- EN: Background camera offset -->
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>Przesunięcie kamery tła</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <!-- EN: Background parallax per 100 cells -->
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>Paralaksa tła na 100 komórek</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+  
+  <!-- EN: Connections -->
+  <ScenPart_PlanetLayerConnections>Połączenia</ScenPart_PlanetLayerConnections>
+  <!-- EN: Add connection -->
+  <ScenPart_PlanetLayerConnections_Add>Dodaj połączenie</ScenPart_PlanetLayerConnections_Add>
+  <!-- EN: No zoom -->
+  <ScenPart_PlanetLayerConnections_Zoom>Brak przybliżania</ScenPart_PlanetLayerConnections_Zoom>
+  <!-- EN: Zoom in -->
+  <ScenPart_PlanetLayerConnections_ZoomIn>Przybliżenie</ScenPart_PlanetLayerConnections_ZoomIn>
+  <!-- EN: Zoom out -->
+  <ScenPart_PlanetLayerConnections_ZoomOut>Przybliż</ScenPart_PlanetLayerConnections_ZoomOut>
+  <!-- EN: Fuel cost -->
+  <ScenPart_PlanetLayerConnections_Fuel>Koszt paliwa</ScenPart_PlanetLayerConnections_Fuel>
+  
+  <!-- EN: Planet layer -->
+  <ScenPart_ForcedMapPlanetLayer>Warstwa planety</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>
