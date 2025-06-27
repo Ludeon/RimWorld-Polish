@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: air conditioning -->
   <AirConditioning.label>klimatyzacja</AirConditioning.label>
   <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
@@ -12,8 +11,13 @@
     <li>subject_story->learned all about air conditioning and freezers, then returned home</li>
     <li>subject_gerund->building air conditioning units</li>
   -->
-  <AirConditioning.generalRules.rulesStrings>TODO</AirConditioning.generalRules.rulesStrings>
-  
+  <AirConditioning.generalRules.rulesStrings>
+    <li>subject->klimatyzacja</li>
+    <li>subject_story->odwiedził{PAWN_gender ? : a} najgorętsze miasto na planecie</li>
+    <li>subject_story->pracował{PAWN_gender ? : a} na czapach lodowych, w międzygwiezdnym magazynie utrzymywanym w temperaturze bliskiej zeru absolutnemu</li>
+    <li>subject_story->dowiedział{PAWN_gender ? : a} się wszystkiego o klimatyzacji i zamrażarkach, a następnie wrócił{PAWN_gender ? : a} do domu</li>
+    <li>subject_gerund->buduje klimatyzatory</li>
+  </AirConditioning.generalRules.rulesStrings>
   <!-- EN: autodoor -->
   <Autodoors.label>drzwi automatyczne</Autodoors.label>
   <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
@@ -26,8 +30,14 @@
     <li>subject_story->worked very hard to ensure the doors made a satisfying 'hiss' when they opened or closed</li>
     <li>subject_gerund->constructing autodoors</li>
   -->
-  <Autodoors.generalRules.rulesStrings>TODO</Autodoors.generalRules.rulesStrings>
-  
+  <Autodoors.generalRules.rulesStrings>
+    <li>subject->autodrzwi</li>
+    <li>subject->automatyczne drzwi</li>
+    <li>subject_story->został{PAWN_gender ? : a} zrekrutowan{PAWN_gender ? y : a} przez firmę zajmującą się bezpieczeństwem robotyki, otwierając sobie drogę do kariery testera automatyki</li>
+    <li>subject_story->tworzy prototypy unikalnych modeli autodrzwi</li>
+    <li>subject_story->bardzo ciężko pracował{PAWN_gender ? : a}, aby zapewnić, że drzwi wydają satysfakcjonujący "syk" podczas otwierania lub zamykania</li>
+    <li>subject_gerund->buduje autodrzwi</li>
+  </Autodoors.generalRules.rulesStrings>
   <!-- EN: battery -->
   <Batteries.label>akumulator</Batteries.label>
   <!-- EN: Build batteries for storing electricity. -->
@@ -39,8 +49,13 @@
     <li>subject_story->worked in the scrapworlds, repairing machines and batteries</li>
     <li>subject_gerund->building batteries</li>
   -->
-  <Batteries.generalRules.rulesStrings>TODO</Batteries.generalRules.rulesStrings>
-  
+  <Batteries.generalRules.rulesStrings>
+    <li>subject->baterie</li>
+    <li>subject_story->odkrywa, że kwaśne jezioro na ołowianych brzegach martwego świata działa jak naturalna bateria</li>
+    <li>subject_story->odpowiada za podtrzymywanie życia, jeśli kolonia straci zasilanie</li>
+    <li>subject_story->pracuje w złomowiskach, naprawiając maszyny i baterie</li>
+    <li>subject_gerund->buduje baterie</li>
+  </Batteries.generalRules.rulesStrings>
   <!-- EN: biofuel refining -->
   <BiofuelRefining.label>rafinacja biopaliwa</BiofuelRefining.label>
   <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
@@ -52,8 +67,13 @@
     <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
     <li>subject_gerund->refining biofuel</li>
   -->
-  <BiofuelRefining.generalRules.rulesStrings>TODO</BiofuelRefining.generalRules.rulesStrings>
-  
+  <BiofuelRefining.generalRules.rulesStrings>
+    <li>subject->biopaliwo</li>
+    <li>subject_story->został{PAWN_gender ? : a} uwięzion{PAWN_gender ? y : a}, gdy statek pokoleniowy stracił zasilanie. Wykorzystał{PAWN_gender ? : a} swoją wiedzę na temat rafinacji, aby zamienić ludzkie szczątki w biopaliwo i ponownie uruchomić silniki</li>
+    <li>subject_story->wykorzystał{PAWN_gender ? : a} zautomatyzowane biorefinerie, aby rozpocząć długi proces terraformowania na lodowym świecie</li>
+    <li>subject_story->założył{PAWN_gender ? : a} gorzelnię, aby produkować bimber, ale zdając sobie sprawę, że jest niezdatny do picia, sprzedał{PAWN_gender ? : a} go jako chem-paliwo</li>
+    <li>subject_gerund->rafinacja biopaliwa</li>
+  </BiofuelRefining.generalRules.rulesStrings>
   <!-- EN: blowback operation -->
   <BlowbackOperation.label>pistolety</BlowbackOperation.label>
   <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
@@ -66,8 +86,14 @@
     <li>subject_story->crafted blowback-operated guns for near-sighted conscripts</li>
     <li>subject_gerund->crafting blowback firearms</li>
   -->
-  <BlowbackOperation.generalRules.rulesStrings>TODO</BlowbackOperation.generalRules.rulesStrings>
-  
+  <BlowbackOperation.generalRules.rulesStrings>
+    <li>subject->pistolety</li>
+    <li>subject->broń palna z odrzutem zamka swobodnego</li>
+    <li>subject_story->używał{PAWN_gender ? : a} pistoletów maszynowych w walkach okopowych, które ogarnęły planetę</li>
+    <li>subject_story->sprzedawał{PAWN_gender ? : a} pistolety automatyczne o niskiej mocy organom ścigania na orbitach</li>
+    <li>subject_story->wytwarzał{PAWN_gender ? : a} broń o małej sile rażenia dla krótkowzrocznych rekrutów</li>
+    <li>subject_gerund->wytwarza broń o małej sile rażenia</li>
+  </BlowbackOperation.generalRules.rulesStrings>
   <!-- EN: advanced lights -->
   <ColoredLights.label>kolorowe światła</ColoredLights.label>
   <!-- EN: Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps. -->
@@ -79,8 +105,13 @@
     <li>subject_story->moved into running concerts for interstellar troubadours, specializing in controlling the ship's massive lighting rigs</li>
     <li>subject_gerund->building advanced lights</li>
   -->
-  <ColoredLights.generalRules.rulesStrings>TODO</ColoredLights.generalRules.rulesStrings>
-  
+  <ColoredLights.generalRules.rulesStrings>
+    <li>subject->zaawansowane oświetlenie</li>
+    <li>subject_story->instaluje reflektory na wszystkich obwodach bezpieczeństwa więziennej planety</li>
+    <li>subject_story->dba o to, by ciemna strona planety była dobrze oświetlona</li>
+    <li>subject_story->zaczyna organizować koncerty dla międzygwiezdnych trubadurów, specjalizując się w sterowaniu ogromnymi instalacjami oświetleniowymi statków</li>
+    <li>subject_gerund->buduje zaawansowane oświetlenie</li>
+  </ColoredLights.generalRules.rulesStrings>
   <!-- EN: electricity -->
   <Electricity.label>elektryczność</Electricity.label>
   <!-- EN: Harness the power of electricity for a hundred different tasks. -->
@@ -96,8 +127,13 @@
     <li>subject_story->was executed on a feudal world for the blasphemy of creating light</li>
     <li>subject_gerund->harnessing electricity</li>
   -->
-  <Electricity.generalRules.rulesStrings>TODO</Electricity.generalRules.rulesStrings>
-  
+  <Electricity.generalRules.rulesStrings>
+    <li>subject->elektryczność</li>
+    <li>subject_story->został{PAWN_gender ? : a} porażon{PAWN_gender ? y : a} piorunem i postanowił{PAWN_gender ? : a} go ujarzmić</li>
+    <li>subject_story->stworzył{PAWN_gender ? : a} pierwszy generator i żarówkę w średniowiecznym świecie</li>
+    <li>subject_story->został{PAWN_gender ? : a} stracon{PAWN_gender ? y : a} w świecie feudalnym za bluźnierstwo jakim jest stworzenie światła</li>
+    <li>subject_gerund->ujarzmia elektryczność</li>
+  </Electricity.generalRules.rulesStrings>
   <!-- EN: firefoam -->
   <Firefoam.label>piana gaśnicza</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
@@ -111,8 +147,15 @@
     <li>subject_gerund->constructing firefoam poppers</li>
     <li>subject_gerund->suppressing fires with poppers</li>
   -->
-  <Firefoam.generalRules.rulesStrings>TODO</Firefoam.generalRules.rulesStrings>
-  
+  <Firefoam.generalRules.rulesStrings>
+    <li>subject->wyrzutniki piany gaśniczej</li>
+    <li>subject->urządzenia przeciwpożarowe</li>
+    <li>subject_story->kieruje agencją propagującą bezpieczeństwo pożarowe wśród całej populacji</li>
+    <li>subject_story->zostaje strażakiem</li>
+    <li>subject_story->zostaje uratowany przez wyrzutniki, gdy pożar oleju wymyka się spod kontroli</li>
+    <li>subject_gerund->konstruuje wyrzutniki piany gaśniczej</li>
+    <li>subject_gerund->tłumi pożary za pomocą wyrzutników</li>
+  </Firefoam.generalRules.rulesStrings>
   <!-- EN: flak armor -->
   <FlakArmor.label>zbroje balistyczne</FlakArmor.label>
   <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
@@ -124,8 +167,13 @@
     <li>subject_story->survived a rifle bullet thanks to the metal plate sewn into the breast pocket</li>
     <li>subject_gerund->crafting flak armor</li>
   -->
-  <FlakArmor.generalRules.rulesStrings>TODO</FlakArmor.generalRules.rulesStrings>
-  
+  <FlakArmor.generalRules.rulesStrings>
+    <li>subject->pancerz przeciwodłamkowy</li>
+    <li>subject_story->dostarcza pancerze przeciwodłamkowe milicjom, które rządzą miastami</li>
+    <li>subject_story->uczy się wszywać metalowe płyty w ubrania, aby chronić krewnych przed wędrującymi gangami</li>
+    <li>subject_story->przeżywa postrzał z karabinu dzięki metalowej płycie wszytej w kieszeń na piersi</li>
+    <li>subject_gerund->tworzy pancerz przeciwodłamkowy</li>
+  </FlakArmor.generalRules.rulesStrings>
   <!-- EN: foam turret -->
   <FoamTurret.label>wieżyczka z pianą</FoamTurret.label>
   <!-- EN: Produce a turret which can be activated to spray fire-extinguishing foam. -->
@@ -139,8 +187,15 @@
     <li>subject_gerund->constructing fire suppression turrets</li>
     <li>subject_gerund->suppressing fires with turrets</li>
   -->
-  <FoamTurret.generalRules.rulesStrings>TODO</FoamTurret.generalRules.rulesStrings>
-  
+  <FoamTurret.generalRules.rulesStrings>
+    <li>subject->wieżyczki pianowe</li>
+    <li>subject->wieżyczki gaśnicze</li>
+    <li>subject_story->przeprojektowuje wieżyczki, aby gasić pożary, a nie je wywoływać</li>
+    <li>subject_story->wbudowuje czujniki ciepła i wyrzutniki piany w standardowe podwozie wieżyczki</li>
+    <li>subject_story->zostaje pochwalony po zainstalowaniu tanich wieżyczek pianowych w miejscach publicznych i uratowaniu wielu istnień</li>
+    <li>subject_gerund->konstruuje wieżyczki gaśnicze</li>
+    <li>subject_gerund->gasi pożary za pomocą wieżyczek</li>
+  </FoamTurret.generalRules.rulesStrings>
   <!-- EN: gas operation -->
   <GasOperation.label>broń ciężka</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
@@ -153,8 +208,14 @@
     <li>subject_story->designed new types of high-power gun, still known today</li>
     <li>subject_gerund->crafting heavy firearms</li>
   -->
-  <GasOperation.generalRules.rulesStrings>TODO</GasOperation.generalRules.rulesStrings>
-  
+  <GasOperation.generalRules.rulesStrings>
+    <li>subject->ciężka broń</li>
+    <li>subject->broń palna dużej mocy</li>
+    <li>subject_story->wyposażył{PAWN_gender ? : a} oddziały broni specjalnej straży tyrana w lekkie karabiny maszynowe</li>
+    <li>subject_story->zaopatrywał{PAWN_gender ? : a} kilka planetarnych armii w ciężką broń palną</li>
+    <li>subject_story->zaprojektował{PAWN_gender ? : a} nowe rodzaje broni dużej mocy, znane do dziś</li>
+    <li>subject_gerund->wytwarza ciężką broń palną</li>
+  </GasOperation.generalRules.rulesStrings>
   <!-- EN: geothermal power -->
   <GeothermalPower.label>energia geotermalna</GeothermalPower.label>
   <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
@@ -167,8 +228,14 @@
     <li>subject_gerund->tapping geothermal energy</li>
     <li>subject_gerund->building geothermal power plants</li>
   -->
-  <GeothermalPower.generalRules.rulesStrings>TODO</GeothermalPower.generalRules.rulesStrings>
-  
+  <GeothermalPower.generalRules.rulesStrings>
+    <li>subject->energia geotermalna</li>
+    <li>subject_story->bada energię pary i zakłada elektrownie geotermalne w całym regionie</li>
+    <li>subject_story->wykorzystuje energię uśpionego wulkanu do zasilania lokalnej sieci</li>
+    <li>subject_story->spiera się z lokalną ludnością, która chce zachować malownicze gejzery, a nie wykorzystywać je do produkcji energii</li>
+    <li>subject_gerund->wykorzystuje energię geotermalną</li>
+    <li>subject_gerund->buduje elektrownie geotermalne</li>
+  </GeothermalPower.generalRules.rulesStrings>
   <!-- EN: gunsmithing -->
   <Gunsmithing.label>rusznikarstwo</Gunsmithing.label>
   <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
@@ -181,8 +248,14 @@
     <li>subject_gerund->gunsmithing</li>
     <li>subject_gerund->crafting firearms</li>
   -->
-  <Gunsmithing.generalRules.rulesStrings>TODO</Gunsmithing.generalRules.rulesStrings>
-  
+  <Gunsmithing.generalRules.rulesStrings>
+    <li>subject->prosta broń palna</li>
+    <li>subject_story->zbudował{PAWN_gender ? : a} unikalny 12-strzałowy rewolwer i wygrywał{PAWN_gender ? : a} strzelaninę za strzelaniną</li>
+    <li>subject_story->specjalizował{PAWN_gender ? : a} się w prostym rusznikarstwie, dostarczając strzelby i karabiny myśliwym</li>
+    <li>subject_story->założył{PAWN_gender ? : a} warsztat rusznikarski, zdobywając sławę w całym sektorze</li>
+    <li>subject_gerund->rusznikarstwo</li>
+    <li>subject_gerund->wytwarza broń palną</li>
+  </Gunsmithing.generalRules.rulesStrings>
   <!-- EN: gun turrets -->
   <GunTurrets.label>wieżyczki obronne</GunTurrets.label>
   <!-- EN: Produce simple automated gun turrets. -->
@@ -194,8 +267,13 @@
     <li>subject_story->disabled the enemy's turrets remotely, before leading the charge</li>
     <li>subject_gerund->constructing automated gun turrets</li>
   -->
-  <GunTurrets.generalRules.rulesStrings>TODO</GunTurrets.generalRules.rulesStrings>
-  
+  <GunTurrets.generalRules.rulesStrings>
+    <li>subject->wieżyczki strzelnicze</li>
+    <li>subject_story->pracuje nad algorytmami sztucznej inteligencji, aby umożliwić wieżyczkom strzelniczym identyfikację przyjaciół i wrogów</li>
+    <li>subject_story->projektuje modułowy futerał na wieżyczkę strzelniczą, zdolny do przyjęcia każdego rodzaju broni</li>
+    <li>subject_story->zdalnie wyłącza wieżyczki wroga, zanim poprowadzi szarżę</li>
+    <li>subject_gerund->konstruuje automatyczne wieżyczki strzelnicze</li>
+  </GunTurrets.generalRules.rulesStrings>
   <!-- EN: hydroponics -->
   <Hydroponics.label>hydroponika</Hydroponics.label>
   <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
@@ -208,8 +286,14 @@
     <li>subject_gerund->building hydroponics</li>
     <li>subject_gerund->growing plants indoors</li>
   -->
-  <Hydroponics.generalRules.rulesStrings>TODO</Hydroponics.generalRules.rulesStrings>
-  
+  <Hydroponics.generalRules.rulesStrings>
+    <li>subject->hydroponika</li>
+    <li>subject_story->dołącza do załogi statku pokoleniowego jako specjalista od upraw</li>
+    <li>subject_story->zakłada zakład hydroponiczny, aby nakarmić głodnych</li>
+    <li>subject_story->podróżuje i uczy nowych kolonistów sztucznej uprawy roślin</li>
+    <li>subject_gerund->buduje hydroponikę</li>
+    <li>subject_gerund->uprawia rośliny w pomieszczeniach</li>
+  </Hydroponics.generalRules.rulesStrings>
   <!-- EN: IEDs -->
   <IEDs.label>pułapki</IEDs.label>
   <!-- EN: Build improvised traps from any kind of mortar shell. -->
@@ -221,8 +305,13 @@
     <li>subject_story->advocated for the rights of small settlements, where unexploded munitions were a constant peril</li>
     <li>subject_gerund->crafting improvised explosive traps</li>
   -->
-  <IEDs.generalRules.rulesStrings>TODO</IEDs.generalRules.rulesStrings>
-  
+  <IEDs.generalRules.rulesStrings>
+    <li>subject->improwizowane pułapki wybuchowe</li>
+    <li>subject_story->rozbraja pozostałe pociski z wojny, wysyłając je na nową linię frontu jako miny</li>
+    <li>subject_story->znalazł{PAWN_gender ? : a} się pod ostrzałem moździerzowym i przeżył{PAWN_gender ? : a} tylko dzięki tworzeniu pułapek z wielu niewypałów wroga</li>
+    <li>subject_story->opowiadał{PAWN_gender ? : a} się za prawami małych osad, w których niewybuchy stanowiły ciągłe zagrożenie</li>
+    <li>subject_gerund->tworzy improwizowane pułapki wybuchowe</li>
+  </IEDs.generalRules.rulesStrings>
   <!-- EN: machining -->
   <Machining.label>obróbka maszynowa</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
@@ -235,8 +324,14 @@
     <li>subject_gerund->building machining equipment</li>
     <li>subject_gerund->machining</li>
   -->
-  <Machining.generalRules.rulesStrings>TODO</Machining.generalRules.rulesStrings>
-  
+  <Machining.generalRules.rulesStrings>
+    <li>subject->obróbka mechaniczna</li>
+    <li>subject_story->zbiera szczątki martwych mechanoidów i rozdrabnia je w celu pozyskania zasobów</li>
+    <li>subject_story->po cichu buduje arsenał własnoręcznie wykonanej broni w piwnicy podmiejskiego domu</li>
+    <li>subject_story->buduje stoły do obróbki maszynowej dla wielu rusznikarzy, mimo że jest pacyfistą</li>
+    <li>subject_gerund->buduje sprzęt do obróbki mechanicznej</li>
+    <li>subject_gerund->obrabia mechanicznie</li>
+  </Machining.generalRules.rulesStrings>
   <!-- EN: mortars -->
   <Mortars.label>moździerze</Mortars.label>
   <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
@@ -250,8 +345,15 @@
     <li>subject_gerund->crafting mortars</li>
     <li>subject_gerund->constructing simple artillery</li>
   -->
-  <Mortars.generalRules.rulesStrings>TODO</Mortars.generalRules.rulesStrings>
-  
+  <Mortars.generalRules.rulesStrings>
+    <li>subject->artyleria</li>
+    <li>subject->moździerze</li>
+    <li>subject_story->odegrał{PAWN_gender ? : a} kluczową rolę w oblężeniu szklarni, które obaliło radę miejską</li>
+    <li>subject_story->opracował{PAWN_gender ? : a} składaną, lekką tubę moździerzową dla lokalnej policji</li>
+    <li>subject_story->zburzył{PAWN_gender ? : a} wiele opuszczonych budynków z dystansu, za pomocą pocisków wybuchowych</li>
+    <li>subject_gerund->wytwarza moździerze</li>
+    <li>subject_gerund->buduje prostą artylerię</li>
+  </Mortars.generalRules.rulesStrings>
   <!-- EN: nutrient paste -->
   <NutrientPaste.label>pasta odżywcza</NutrientPaste.label>
   <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
@@ -263,8 +365,13 @@
     <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
-  <NutrientPaste.generalRules.rulesStrings>TODO</NutrientPaste.generalRules.rulesStrings>
-  
+  <NutrientPaste.generalRules.rulesStrings>
+    <li>subject->pasta odżywcza</li>
+    <li>subject_story->pracuje w stołówce fabrycznej i wymyśla pastę odżywczą jako sposób na uniknięcie wszelkiej pracy</li>
+    <li>subject_story->traci swój zmysł węchu z powodu choroby, więc wymyśla tanią, bezsmakową pastę odżywczą</li>
+    <li>subject_story->opowiada się za recyklingiem całej materii organicznej na pastę odżywczą, nawet zwłok</li>
+    <li>subject_gerund->buduje dozowniki pasty odżywczej</li>
+  </NutrientPaste.generalRules.rulesStrings>
   <!-- EN: packaged survival meal -->
   <PackagedSurvivalMeal.label>zapakowany suchy prowiant</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
@@ -277,8 +384,14 @@
     <li>subject_story->discovered survival meals in the mountains that were hundreds of years old</li>
     <li>subject_gerund->preparing survival meals</li>
   -->
-  <PackagedSurvivalMeal.generalRules.rulesStrings>TODO</PackagedSurvivalMeal.generalRules.rulesStrings>
-  
+  <PackagedSurvivalMeal.generalRules.rulesStrings>
+    <li>subject->pakowane posiłki przetrwania</li>
+    <li>subject->żywność niepsująca się</li>
+    <li>subject_story->wiedział{PAWN_gender ? : a}, że gdy nadejdzie katastrofa, będzie wystarczająco dużo pakowanych posiłków, aby przetrwać do czasu przybycia ratowników</li>
+    <li>subject_story->założył{PAWN_gender ? : a} kuchnię społeczną, która przekazywała posiłki przetrwania wszystkim wypływającym statkom</li>
+    <li>subject_story->odkrył{PAWN_gender ? : a} w górach posiłki przetrwania, które miały setki lat</li>
+    <li>subject_gerund->przygotowywanie posiłków przetrwania</li>
+  </PackagedSurvivalMeal.generalRules.rulesStrings>
   <!-- EN: prosthetics -->
   <Prosthetics.label>protetyka</Prosthetics.label>
   <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
@@ -290,8 +403,14 @@
     <li>subject_story->began crafting bespoke fake limbs for the many war veterans in the area</li>
     <li>subject_gerund->crafting prosthetics</li>
   -->
-  <Prosthetics.generalRules.rulesStrings>TODO</Prosthetics.generalRules.rulesStrings>
-  
+  <Prosthetics.generalRules.rulesStrings>
+    <li>subject->proteza</li>
+    <li>subject->protezy</li>
+    <li>subject_story->wymienił{PAWN_gender ? : a} kończynę na protezę, aby pokazać, jakie to proste</li>
+    <li>subject_story->otworzył{PAWN_gender ? : a} klinikę protetyczną</li>
+    <li>subject_story->zacz{PAWN_gender ? ął : ęła} tworzyć na zamówienie sztuczne kończyny dla wielu weteranów wojennych w okolicy</li>
+    <li>subject_gerund->tworzy protezy</li>
+  </Prosthetics.generalRules.rulesStrings>
   <!-- EN: smokepop packs -->
   <SmokepopBelt.label>paczki dymne</SmokepopBelt.label>
   <!-- EN: Build smokepop packs which allow the wearer to deploy a defensive smokescreen. -->
@@ -304,8 +423,14 @@
     <li>subject_gerund->building smokepop packs</li>
     <li>subject_gerund->deploying smokescreens</li>
   -->
-  <SmokepopBelt.generalRules.rulesStrings>TODO</SmokepopBelt.generalRules.rulesStrings>
-  
+  <SmokepopBelt.generalRules.rulesStrings>
+    <li>subject->zasłona dymna</li>
+    <li>subject_story->pracuje jako transportowiec dla zespołów, używając granatów dymnych do efektów specjalnych</li>
+    <li>subject_story->zakłada obronny perymetr z granatów dymnych wokół lokalnych miast, aby powstrzymać dziką przyrodę</li>
+    <li>subject_story->używa paczek dymnych do szkolenia nowych strażaków, bez niebezpieczeństwa prawdziwego ognia</li>
+    <li>subject_gerund->buduje paczki dymne</li>
+    <li>subject_gerund->rozstawia zasłony dymne</li>
+  </SmokepopBelt.generalRules.rulesStrings>
   <!-- EN: solar panel -->
   <SolarPanels.label>generator słoneczne</SolarPanels.label>
   <!-- EN: Build solar panels for electricity generation. -->
@@ -318,8 +443,14 @@
     <li>subject_story->left on a sundiver to see a fly-by of a star's photosphere</li>
     <li>subject_gerund->building solar panels</li>
   -->
-  <SolarPanels.generalRules.rulesStrings>TODO</SolarPanels.generalRules.rulesStrings>
-  
+  <SolarPanels.generalRules.rulesStrings>
+    <li>subject->panele słoneczne</li>
+    <li>subject->energia słoneczna</li>
+    <li>subject_story->zakłada wielospektralną farmę słoneczną</li>
+    <li>subject_story->bada sposoby maksymalizacji procentu przechwytywanej energii słonecznej</li>
+    <li>subject_story->wyrusza w podróż do słońca, aby zobaczyć przelot przez fotosferę gwiazdy</li>
+    <li>subject_gerund->buduje panele słoneczne</li>
+  </SolarPanels.generalRules.rulesStrings>
   <!-- EN: sterile materials -->
   <SterileMaterials.label>sterylne materiały</SterileMaterials.label>
   <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
@@ -332,8 +463,14 @@
     <li>subject_gerund->sterilizing surfaces</li>
     <li>subject_gerund->constructing sterilized surfaces</li>
   -->
-  <SterileMaterials.generalRules.rulesStrings>TODO</SterileMaterials.generalRules.rulesStrings>
-  
+  <SterileMaterials.generalRules.rulesStrings>
+    <li>subject->sterylne powierzchnie</li>
+    <li>subject_story->zapobiegł{PAWN_gender ? : a} wielu zgonom, nalegając na skuteczną i konsekwentną sterylizację całego sprzętu</li>
+    <li>subject_story->założył{PAWN_gender ? : a} kuchnię z karmą, która, wyjątkowo jak na ten system, słynęła z braku zatruć pokarmowych</li>
+    <li>subject_story->założył{PAWN_gender ? : a} fabrykę płytek dekoracyjnych, która dodatkowo zajmowała się sprzętem medycznym i sterylnymi płytkami</li>
+    <li>subject_gerund->sterylizuje powierzchnie</li>
+    <li>subject_gerund->buduje sterylne powierzchnie</li>
+  </SterileMaterials.generalRules.rulesStrings>
   <!-- EN: tube television -->
   <TubeTelevision.label>telewizory kineskopowe</TubeTelevision.label>
   <!-- EN: Produce tube televisions for recreational watching. -->
@@ -345,8 +482,13 @@
     <li>subject_story->ensured that everyone knew the dangers of cathode ray tubes</li>
     <li>subject_gerund->producing tube televisions</li>
   -->
-  <TubeTelevision.generalRules.rulesStrings>TODO</TubeTelevision.generalRules.rulesStrings>
-  
+  <TubeTelevision.generalRules.rulesStrings>
+    <li>subject->telewizory kineskopowe</li>
+    <li>subject_story->zaprojektował{PAWN_gender ? : a} telewizor w stylu retro, który mógł odbierać sygnały międzygwiezdne</li>
+    <li>subject_story->zajął{PAWN_gender ? : a} się nadawaniem, produkując programy przeznaczone wyłącznie dla archaicznych telewizorów kineskopowych</li>
+    <li>subject_story->dbał{PAWN_gender ? : a} o to, by każdy znał zagrożenia związane z lampami kineskopowymi</li>
+    <li>subject_gerund->produkuje telewizory kineskopowe</li>
+  </TubeTelevision.generalRules.rulesStrings>
   <!-- EN: watermill generator -->
   <WatermillGenerator.label>koło wodne</WatermillGenerator.label>
   <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
@@ -358,6 +500,11 @@
     <li>subject_story->beached a paddle steamer on a ruinworld's shores and converted it into a watermill</li>
     <li>subject_gerund->watermill generators</li>
   -->
-  <WatermillGenerator.generalRules.rulesStrings>TODO</WatermillGenerator.generalRules.rulesStrings>
-  
+  <WatermillGenerator.generalRules.rulesStrings>
+    <li>subject->generatory wodne</li>
+    <li>subject_story->obserwował{PAWN_gender ? : a}, jak gałązki i liście są porywane w dół rzeki i wyobrażał{PAWN_gender ? : a} sobie drzemiącą w nich moc</li>
+    <li>subject_story->podłączył{PAWN_gender ? : a} okablowanie do starożytnego młyna na feudalnym świecie</li>
+    <li>subject_story->wyrzucił{PAWN_gender ? : a} na brzeg ruinworldu parowiec łopatkowy i przekształcił{PAWN_gender ? : a} go w młyn wodny</li>
+    <li>subject_gerund->generatory wodne</li>
+  </WatermillGenerator.generalRules.rulesStrings>
 </LanguageData>

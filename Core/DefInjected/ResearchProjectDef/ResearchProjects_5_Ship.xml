@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: starflight basics -->
   <ShipBasics.label>podstawa statku</ShipBasics.label>
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
@@ -16,8 +15,13 @@
     <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
     <li>subject_gerund->constructing starship structures</li>
   -->
-  <ShipBasics.generalRules.rulesStrings>TODO</ShipBasics.generalRules.rulesStrings>
-  
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->inżynieria konstrukcji statków kosmicznych</li>
+    <li>subject_story->rekrutował{PAWN_gender ? : a} inżynierów statków kosmicznych dla floty z glitterworldu</li>
+    <li>subject_story->był{PAWN_gender ? : a} projektantem konstrukcji w dzielnicy skyripper na urbworldzie</li>
+    <li>subject_story->zbierał{PAWN_gender ? : a} wraki statków w pasie szczątków deadworldu</li>
+    <li>subject_gerund->konstruuje konstrukcje statków kosmicznych</li>
+  </ShipBasics.generalRules.rulesStrings>
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>imitacja osobowości</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
@@ -32,8 +36,16 @@
     <li>subject_gerund->maintaining starship AI sanity</li>
     <li>subject_gerund->constructing reward-signal systems</li>
   -->
-  <ShipComputerCore.generalRules.rulesStrings>TODO</ShipComputerCore.generalRules.rulesStrings>
-  
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->motywowanie rdzeni osobowości</li>
+    <li>subject->utrzymanie zdrowia psychicznego SI statku kosmicznego</li>
+    <li>subject_story->odzyskał{PAWN_gender ? : a} kontrolę nad zbłąkanym rdzeniem statku dzięki starannej renowacji</li>
+    <li>subject_story->skonfigurował{PAWN_gender ? : a} symulacje zarządzania kolonią, aby zająć rdzeń statku podczas wielu lat podróży międzygwiezdnej</li>
+    <li>subject_story->dotrzymywał{PAWN_gender ? : a} towarzystwa rdzeniowi statku podczas "krótkiej" podróży międzygwiezdnej, ucząc się wiele o rdzeniach w tym procesie</li>
+    <li>subject_gerund->motywowanie rdzeni osobowości</li>
+    <li>subject_gerund->utrzymywanie zdrowia psychicznego SI statku kosmicznego</li>
+    <li>subject_gerund->budowanie systemów sygnałów nagrody</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>próżniowa kapsuła hibernacyjna</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
@@ -45,8 +57,13 @@
     <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
     <li>subject_gerund->constructing hardened cryptosleep caskets</li>
   -->
-  <ShipCryptosleep.generalRules.rulesStrings>TODO</ShipCryptosleep.generalRules.rulesStrings>
-  
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->kapsuły hibernacyjne klasy gwiezdnej</li>
+    <li>subject_story->wymienił{PAWN_gender ? : a} uszkodzone kapsuły hibernacyjne na CMC Celeste, aby stary statek pokoleniowy mógł być ponownie użyty</li>
+    <li>subject_story->został{PAWN_gender ? : a} przypadkowo wyrzucon{PAWN_gender ? y : a} w głęboką przestrzeń kosmiczną, przeżywając dwa miesiące w samodzielnie zaprojektowanej kapsule</li>
+    <li>subject_story->wygłaszał{PAWN_gender ? : a} wykłady na temat różnic między sprzętem planetarnym a gwiezdnym</li>
+    <li>subject_gerund->konstruuje wzmocnione kapsuły hibernacyjne</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>napęd Johnson-Tanaka</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
@@ -59,8 +76,14 @@
     <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
     <li>subject_gerund->constructing starship drives</li>
   -->
-  <ShipEngine.generalRules.rulesStrings>TODO</ShipEngine.generalRules.rulesStrings>
-  
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->teoria Johnsona-Tanaki</li>
+    <li>subject->egzotyczny transfer pędu</li>
+    <li>subject_story->wygłasza wykłady na uniwersytecie na temat Johnsona, Tanaki i efektów skali kwantowej</li>
+    <li>subject_story->konstruuje napęd Johnsona-Tanaki od podstaw na potrzeby pracy dyplomowej</li>
+    <li>subject_story->konserwuje napęd Johnsona-Tanaki przez dwie dekady, gdy statek podróżuje między gwiazdami</li>
+    <li>subject_gerund->konstruuje napędy statków kosmicznych</li>
+  </ShipEngine.generalRules.rulesStrings>
   <!-- EN: starship reactor -->
   <ShipReactor.label>reaktor statku</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
@@ -72,8 +95,13 @@
     <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
     <li>subject_gerund->constructing starship reactors</li>
   -->
-  <ShipReactor.generalRules.rulesStrings>TODO</ShipReactor.generalRules.rulesStrings>
-  
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->reaktor jądrowy statku kosmicznego</li>
+    <li>subject_story->zbudował{PAWN_gender ? : a} nowy reaktor dla statku kolonizacyjnego, ale nie dożył{PAWN_gender ? : a} jego startu</li>
+    <li>subject_story->bronił{PAWN_gender ? : a} statku podczas uruchamiania reaktora, przed najeźdźcami pragnącymi opuścić planetę</li>
+    <li>subject_story->użył{PAWN_gender ? : a} reaktora statku kosmicznego jako zasilania awaryjnego dla banku genów zakopanego pod czapą lodową planety</li>
+    <li>subject_gerund->buduje reaktory statków kosmicznych</li>
+  </ShipReactor.generalRules.rulesStrings>
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>czujniki statku</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
@@ -86,6 +114,12 @@
     <li>subject_gerund->navigating interstellar space</li>
     <li>subject_gerund->constructing starship sensors</li>
   -->
-  <ShipSensorCluster.generalRules.rulesStrings>TODO</ShipSensorCluster.generalRules.rulesStrings>
-  
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->nawigacja międzygwiezdna</li>
+    <li>subject_story->używa prototypowych czujników statku kosmicznego do wykrycia nadciągającej asteroidy powodującej wymieranie i ewakuacji planety</li>
+    <li>subject_story->był{PAWN_gender ? : a} zatrudnion{PAWN_gender ? y : a} jako nawigator i kucharz na gwiezdnym jachcie glitterworldu</li>
+    <li>subject_story->udoskonala projekt czujników dalekiego zasięgu, poprawiając ich użyteczność</li>
+    <li>subject_gerund->nawiguje w przestrzeni międzygwiezdnej</li>
+    <li>subject_gerund->konstruuje czujniki statku kosmicznego</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
 </LanguageData>

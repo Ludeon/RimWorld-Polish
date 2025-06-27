@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: advanced fabrication -->
   <AdvancedFabrication.label>zaawansowana fabrykacja</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
@@ -12,8 +11,13 @@
     <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
     <li>subject_gerund->fabricating advanced components</li>
   -->
-  <AdvancedFabrication.generalRules.rulesStrings>TODO</AdvancedFabrication.generalRules.rulesStrings>
-  
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject->zaawansowana produkcja komponentów</li>
+    <li>subject_story->handlował{PAWN_gender ? : a} zaawansowanymi komponentami zdesperowanym mieszkańcom obrzeży</li>
+    <li>subject_story->poznał{PAWN_gender ? : a} sekrety wytwarzania zaawansowanych komponentów i umarł, nie zdradzając ich</li>
+    <li>subject_story->wzdrygn{PAWN_gender ? ął : ęła} się na myśl o ekstremalnych kosztach wytwarzania zaawansowanych komponentów i wybrał{PAWN_gender ? : a} prostszy styl życia</li>
+    <li>subject_gerund->wytwarzanie zaawansowanych komponentów</li>
+  </AdvancedFabrication.generalRules.rulesStrings>
   <!-- EN: bionic replacements -->
   <Bionics.label>zamienniki bioniczne</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
@@ -26,8 +30,15 @@
     <li>subject_gerund->constructing bionic prosthetics</li>
     <li>subject_gerund->utilizing bionic body parts</li>
   -->
-  <Bionics.generalRules.rulesStrings>TODO</Bionics.generalRules.rulesStrings>
-  
+  <Bionics.generalRules.rulesStrings>
+    <li>subject->bioniczna proteza</li>
+    <li>subject->bioniczne protezy</li>
+    <li>subject_story->pracował{PAWN_gender ? : a} głównie z oszpeconymi żołnierzami, tworząc na zamówienie bioniczne elementy twarzy, aby mogli wrócić do swoich bliskich</li>
+    <li>subject_story->studiował{PAWN_gender ? : a} spowolnione nagrania wideo ludzkiego ruchu, aby lepiej tworzyć bioniczne protezy</li>
+    <li>subject_story->zgłosił{PAWN_gender ? : a} się na ochotnika do wszczepienia różnych prototypowych bionik, stając się bardziej maszyną niż człowiekiem</li>
+    <li>subject_gerund->konstruuje bioniczne protezy</li>
+    <li>subject_gerund->wykorzystuje bioniczne części ciała</li>
+  </Bionics.generalRules.rulesStrings>
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>strzał energetyczny</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
@@ -40,8 +51,14 @@
     <li>subject_gerund->constructing pulse munitions</li>
     <li>subject_gerund->utilising pulse munitions</li>
   -->
-  <ChargedShot.generalRules.rulesStrings>TODO</ChargedShot.generalRules.rulesStrings>
-  
+  <ChargedShot.generalRules.rulesStrings>
+    <li>subject->amunicja pulsacyjna</li>
+    <li>subject_story->studiował{PAWN_gender ? : a} koleje jednoszynowe z błyszczących światów i zmodyfikował{PAWN_gender ? : a} technologię na potrzeby broni</li>
+    <li>subject_story->zabił{PAWN_gender ? : a} mechanicznego pełzacza, zwabiając go lancą pulsacyjną</li>
+    <li>subject_story->nauczył{PAWN_gender ? : a} się, jak nasycać amunicję karabinową zachowanym ładunkiem, znacznie zwiększając jej śmiertelność</li>
+    <li>subject_gerund->wytwarza amunicję pulsacyjną</li>
+    <li>subject_gerund->używa amunicji pulsacyjnej</li>
+  </ChargedShot.generalRules.rulesStrings>
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>kapsuła hibernacyjna</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
@@ -54,8 +71,14 @@
     <li>subject_gerund->constructing cryptosleep caskets</li>
     <li>subject_gerund->inducing cryptosleep</li>
   -->
-  <Cryptosleep.generalRules.rulesStrings>TODO</Cryptosleep.generalRules.rulesStrings>
-  
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject->kryptosnu</li>
+    <li>subject_story->zamierzał{PAWN_gender ? : a} przetestować prototypową kapsułę kriogeniczną i obudził{PAWN_gender ? : a} się samotnie pokolenie później</li>
+    <li>subject_story->skazał{PAWN_gender ? : a} najgorszego przestępcę w systemie na bezterminowy sen kriogeniczny zamiast śmierci</li>
+    <li>subject_story->użył{PAWN_gender ? : a} kapsuły kriogenicznej, aby zawiesić nieuleczalnie chorego, aby mógł zobaczyć swoje dzieci, gdy dorosną</li>
+    <li>subject_gerund->buduje kapsuły kriogeniczne</li>
+    <li>subject_gerund->wywołuje sen kriogeniczny</li>
+  </Cryptosleep.generalRules.rulesStrings>
   <!-- EN: fabrication -->
   <Fabrication.label>fabrykacja</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
@@ -72,8 +95,14 @@
     <li>subject_gerund->constructing high-tech projects</li>
     <li>subject_gerund->building high-tech fabrication stations</li>
   -->
-  <Fabrication.generalRules.rulesStrings>TODO</Fabrication.generalRules.rulesStrings>
-  
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject->zaawansowane technologicznie stoły montażowe</li>
+    <li>subject_story->spędził{PAWN_gender ? : a} wiele lat na tworzeniu zaawansowanych komponentów, aby wytwarzać stoły montażowe, które pozwolą tworzyć jeszcze bardziej zaawansowane komponenty</li>
+    <li>subject_story->oddał{PAWN_gender ? : a} wszystko, aby zbudować jeden stół montażowy</li>
+    <li>subject_story->konstruuje technologiczne cuda, które dzicy wieśniacy czczą jako magiczne</li>
+    <li>subject_gerund->konstruuje zaawansowane technologicznie projekty</li>
+    <li>subject_gerund->buduje zaawansowane technologicznie stanowiska montażowe</li>
+  </Fabrication.generalRules.rulesStrings>
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>multianalizer</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
@@ -85,8 +114,13 @@
     <li>subject_story->helped identify new stable isotopes</li>
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
-  <MultiAnalyzer.generalRules.rulesStrings>TODO</MultiAnalyzer.generalRules.rulesStrings>
-  
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject->multi-analiza</li>
+    <li>subject_story->zautomatyzował{PAWN_gender ? : a} laboratorium badawcze</li>
+    <li>subject_story->odkrył{PAWN_gender ? : a} trans-widmowe sekrety wszechświata</li>
+    <li>subject_story->pom{PAWN_gender ? ógł: ogła} zidentyfikować nowe stabilne izotopy</li>
+    <li>subject_gerund->konstruuje multi-analizatory</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   <!-- EN: marine armor -->
   <PoweredArmor.label>zbroja marine</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
@@ -100,8 +134,15 @@
     <li>subject_gerund->constructing marine armor</li>
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
-  <PoweredArmor.generalRules.rulesStrings>TODO</PoweredArmor.generalRules.rulesStrings>
-  
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->pancerz marines</li>
+    <li>subject_story->został{PAWN_gender ? : a} zatrudnion{PAWN_gender ? y : a} przez oddziały szturmowe do konserwacji ich pancerzy</li>
+    <li>subject_story->testował{PAWN_gender ? : a} pancerz, idąc bez broni przez wrogą dziką wioskę i nie odnosząc żadnych zadrapań</li>
+    <li>subject_story->zamierzał{PAWN_gender ? : a} użyć pancerza jako ochrony przed wrogą pogodą planety, ale sprawdził{PAWN_gender ? : a} się również przeciwko piratom</li>
+    <li>subject_gerund->wytwarza pancerz oddziałów szturmowych</li>
+    <li>subject_gerund->wytwarza pancerz marines</li>
+    <li>subject_gerund->wytwarza zaawansowany pancerz ogólnego użytku</li>
+  </PoweredArmor.generalRules.rulesStrings>
   <!-- EN: recon armor -->
   <ReconArmor.label>zbroja zwiadowcy</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
@@ -114,8 +155,14 @@
     <li>subject_gerund->crafting recon armor</li>
     <li>subject_gerund->reducing armor weight</li>
   -->
-  <ReconArmor.generalRules.rulesStrings>TODO</ReconArmor.generalRules.rulesStrings>
-  
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->pancerz zwiadowców</li>
+    <li>subject_story->prowadził{PAWN_gender ? : a} zwiadowców rebeliantów przeciwko siłom Imperium, aż do schwytania</li>
+    <li>subject_story->wytworzył{PAWN_gender ? : a} lekki i wytrzymały pancerz wspomagany, wystarczający, aby użytkownicy młotów mogli zbliżyć się do wroga</li>
+    <li>subject_story->przeznaczył{PAWN_gender ? : a} pancerz zwiadowców bardziej dla myśliwych niż żołnierzy. Mimo to dobrze się sprzedawał</li>
+    <li>subject_gerund->tworzy pancerz zwiadowców</li>
+    <li>subject_gerund->zmniejsza wagę pancerza</li>
+  </ReconArmor.generalRules.rulesStrings>
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>wyrzutnia roju rakietowego</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
@@ -127,8 +174,13 @@
     <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
     <li>subject_gerund->constructing rocket turrets</li>
   -->
-  <RocketswarmLauncher.generalRules.rulesStrings>TODO</RocketswarmLauncher.generalRules.rulesStrings>
-  
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->wieżyczki rakietowe</li>
+    <li>subject_story->zeznawał{PAWN_gender ? : a} na temat użycia wyrzutni rakietowych przeciwko celom cywilnym</li>
+    <li>subject_story->zbudował{PAWN_gender ? : a} obronę ostatniej szansy, w tym pułapki i wyrzutnie, na wypadek zagrożenia osady</li>
+    <li>subject_story->zaczął{PAWN_gender ? : a} od budowy prymitywnych rakiet, aby dotrzeć w kosmos, ale wysoki wskaźnik awaryjności doprowadził do przekształcenia ich w broń</li>
+    <li>subject_gerund->konstruuje wieżyczki rakietowe</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>wieżyczka uranowa</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
@@ -140,8 +192,13 @@
     <li>subject_story->researched the effects of ammunition density on armor</li>
     <li>subject_gerund->constructing sniper turrets</li>
   -->
-  <SniperTurret.generalRules.rulesStrings>TODO</SniperTurret.generalRules.rulesStrings>
-  
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->wieżyczki snajperskie</li>
+    <li>subject_story->dowodził{PAWN_gender ? : a} akcją sprzątania po wojnie, zbierając zużyte radioaktywne pociski uranowe z linii frontu</li>
+    <li>subject_story->widział{PAWN_gender ? : a}, jak wieżyczka strzela prosto w mechanoida szturmowego i musiał{PAWN_gender ? : a} zrozumieć, jak to możliwe</li>
+    <li>subject_story->badał{PAWN_gender ? : a} wpływ gęstości amunicji na pancerz</li>
+    <li>subject_gerund->konstruuje wieżyczki snajperskie</li>
+  </SniperTurret.generalRules.rulesStrings>
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>monitor funkcji życiowych</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
@@ -154,6 +211,12 @@
     <li>subject_gerund->monitoring vital signs</li>
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
-  <VitalsMonitor.generalRules.rulesStrings>TODO</VitalsMonitor.generalRules.rulesStrings>
-  
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->monitorowanie funkcji życiowych</li>
+    <li>subject_story->walczył{PAWN_gender ? : a} w przepełnionym szpitalu i przysiągł{PAWN_gender ? : a} dążyć do zmian</li>
+    <li>subject_story->pielęgnował{PAWN_gender ? : a} ocalałego z glassworldu, aż do wyzdrowienia</li>
+    <li>subject_story->zdalnie monitorował{PAWN_gender ? : a} oddział izolacyjny, wysyłając mechanoidy w celu leczenia</li>
+    <li>subject_gerund->monitoruje funkcje życiowe</li>
+    <li>subject_gerund->buduje monitory funkcji życiowych</li>
+  </VitalsMonitor.generalRules.rulesStrings>
 </LanguageData>

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: beer brewing -->
   <Brewing.label>browarnictwo</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
@@ -13,8 +12,14 @@
     <li>subject_gerund->constructing breweries</li>
     <li>subject_gerund->brewing beer</li>
   -->
-  <Brewing.generalRules.rulesStrings>TODO</Brewing.generalRules.rulesStrings>
-  
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->browarnictwo</li>
+    <li>subject_story->warzy unikalny browar, który zyskuje sławę w całym systemie</li>
+    <li>subject_story->przechodzi na emeryturę, aby prowadzić pub na planecie zwierząt</li>
+    <li>subject_story->specjalizuje się w technikach fermentacji z kontrolowanym klimatem</li>
+    <li>subject_gerund->buduje browary</li>
+    <li>subject_gerund->warzy piwo</li>
+  </Brewing.generalRules.rulesStrings>
   <!-- EN: carpet-making -->
   <CarpetMaking.label>produkcja dywanów</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
@@ -26,8 +31,13 @@
     <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
     <li>subject_gerund->weaving carpets</li>
   -->
-  <CarpetMaking.generalRules.rulesStrings>TODO</CarpetMaking.generalRules.rulesStrings>
-  
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->wyrób dywanów</li>
+    <li>subject_story->uczy się tkać dywany z włosów dla odległego Imperatora</li>
+    <li>subject_story->pozostawia po sobie niezrównaną kolekcję dywanów i gobelinów</li>
+    <li>subject_story->osiedla się na średniowiecznym księżycu, gdzie rzemiosło tkackie jest naprawdę doceniane</li>
+    <li>subject_gerund->tka dywany</li>
+  </CarpetMaking.generalRules.rulesStrings>
   <!-- EN: cocoa -->
   <Cocoa.label>kakao</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
@@ -41,8 +51,15 @@
     <li>subject_gerund->producing chocolate</li>
     <li>subject_gerund->cultivating cocoa</li>
   -->
-  <Cocoa.generalRules.rulesStrings>TODO</Cocoa.generalRules.rulesStrings>
-  
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->kakao</li>
+    <li>subject->czekolada</li>
+    <li>subject_story->dostał{PAWN_gender ? : a} obsesji na punkcie czekolady i musiał{PAWN_gender ? : a} zostać powstrzymany{PAWN_gender ? : a}</li>
+    <li>subject_story->badał{PAWN_gender ? : a} proces fermentacji kakao na potrzeby pracy dyplomowej</li>
+    <li>subject_story->założył{PAWN_gender ? : a} najlepszy sklep z czekoladą w sektorze</li>
+    <li>subject_gerund->produkuje czekoladę</li>
+    <li>subject_gerund->uprawia kakao</li>
+  </Cocoa.generalRules.rulesStrings>
   <!-- EN: complex clothing -->
   <ComplexClothing.label>krawiectwo</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
@@ -54,8 +71,13 @@
     <li>subject_story->learned to craft clothing to be worn at [ANYPAWN_possessive] troupe's grand performances</li>
     <li>subject_gerund->tailoring complex clothes</li>
   -->
-  <ComplexClothing.generalRules.rulesStrings>TODO</ComplexClothing.generalRules.rulesStrings>
-  
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject->skomplikowane krawiectwo</li>
+    <li>subject_story->szyje wytrzymałe ubrania dla mieszkańców miast na urbworldach</li>
+    <li>subject_story->relaksuje się, szyjąc i opowiadając historie dzieciom z wioski</li>
+    <li>subject_story->uczy się tworzyć ubrania, które będą noszone podczas wielkich występów trupy</li>
+    <li>subject_gerund->szyje skomplikowane ubrania</li>
+  </ComplexClothing.generalRules.rulesStrings>
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>stolarstwo</ComplexFurniture.label>
   <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
@@ -67,8 +89,13 @@
     <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
     <li>subject_gerund->building complex furniture</li>
   -->
-  <ComplexFurniture.generalRules.rulesStrings>TODO</ComplexFurniture.generalRules.rulesStrings>
-  
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->ciesielstwo</li>
+    <li>subject_story->uczy się snycerstwa u mistrza stolarstwa</li>
+    <li>subject_story->samotnie buduje miasto z drewnianych domków</li>
+    <li>subject_story->zakłada fabrykę, sprzedając wysokiej jakości meble przejeżdżającym handlarzom</li>
+    <li>subject_gerund->buduje skomplikowane meble</li>
+  </ComplexFurniture.generalRules.rulesStrings>
   <!-- EN: devilstrand -->
   <Devilstrand.label>włosak diabelski</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
@@ -80,8 +107,13 @@
     <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
     <li>subject_gerund->cultivating devilstrand</li>
   -->
-  <Devilstrand.generalRules.rulesStrings>TODO</Devilstrand.generalRules.rulesStrings>
-  
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->uprawa diabelskiego splotu</li>
+    <li>subject_story->używał diabelskiego splotu jako naturalnej zapory ogniowej</li>
+    <li>subject_story->ustalił{PAWN_gender ? : a} techniki łatwej uprawy diabelskiego splotu</li>
+    <li>subject_story->dostał{PAWN_gender ? : a} obsesji na punkcie grzybów i został{PAWN_gender ? : a} samozwańczą {PAWN_gender ? Księciem : Księżniczką} [ANYPAWN_possessive] królestwa</li>
+    <li>subject_gerund->uprawia diabelski splot</li>
+  </Devilstrand.generalRules.rulesStrings>
   <!-- EN: drug production -->
   <DrugProduction.label>produkcja używek</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
@@ -95,8 +127,15 @@
     <li>subject_gerund->building drug labs</li>
     <li>subject_gerund->producing drugs</li>
   -->
-  <DrugProduction.generalRules.rulesStrings>TODO</DrugProduction.generalRules.rulesStrings>
-  
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->produkcja narkotyków</li>
+    <li>subject->synteza narkotyków</li>
+    <li>subject_story->pracuje w laboratorium na asteroidzie na obrzeżach zaludnionej przestrzeni kosmicznej</li>
+    <li>subject_story->uczy się wytwarzać narkotyki z recyklingowanych chemikaliów, co prowadzi do wielu lat spędzonych w więzieniu</li>
+    <li>subject_story->pracuje jako chemik, ale zaczyna potajemnie handlować nielegalnymi narkotykami</li>
+    <li>subject_gerund->buduje laboratoria narkotykowe</li>
+    <li>subject_gerund->produkuje narkotyki</li>
+  </DrugProduction.generalRules.rulesStrings>
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>produkcja soku-go</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
@@ -108,8 +147,13 @@
     <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
     <li>subject_gerund->synthesizing go-juice</li>
   -->
-  <GoJuiceProduction.generalRules.rulesStrings>TODO</GoJuiceProduction.generalRules.rulesStrings>
-  
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->produkcja go-juice</li>
+    <li>subject_story->został wydalony za zażywanie go-juice podczas meczów sportowych</li>
+    <li>subject_story->odkrywa, że go-juice znacznie zwiększa produktywność w kopalniach i tartakach</li>
+    <li>subject_story->nigdy nie wyrusza na misję bez go-juice lub niszczyciela w kieszeni</li>
+    <li>subject_gerund->syntetyzuje go-juice</li>
+  </GoJuiceProduction.generalRules.rulesStrings>
   <!-- EN: greatbow -->
   <Greatbow.label>długie łuki</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
@@ -121,8 +165,13 @@
     <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
     <li>subject_gerund->crafting greatbows</li>
   -->
-  <Greatbow.generalRules.rulesStrings>TODO</Greatbow.generalRules.rulesStrings>
-  
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->wielkie łuki</li>
+    <li>subject_story->wystrzelił{PAWN_gender ? : a} strzałę prosto przez żelazny hełm feudalnego króla</li>
+    <li>subject_story->polował{PAWN_gender ? : a} na muflony dla ich futra na dzikiej planecie</li>
+    <li>subject_story->żył{PAWN_gender ? : a} samotnie w zielonym lesie, witając gradem strzał każdego, kto zbliżył się na milę do [ANYPAWN_possessive] skraju</li>
+    <li>subject_gerund->tworzy wielkie łuki</li>
+  </Greatbow.generalRules.rulesStrings>
   <!-- EN: long blades -->
   <LongBlades.label>broń dwuręczna</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
@@ -134,8 +183,13 @@
     <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
     <li>subject_gerund->smithing medieval weapons</li>
   -->
-  <LongBlades.generalRules.rulesStrings>TODO</LongBlades.generalRules.rulesStrings>
-  
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->średniowieczna broń</li>
+    <li>subject_story->jeździł{PAWN_gender ? : a} z Piątą Lekką Kawalerią Betaduke'a, gdy podbijali sektor</li>
+    <li>subject_story->był{PAWN_gender ? : a} zniewolon{PAWN_gender ? y : a} jako płatnerz pod areną na planecie z epoki żelaza</li>
+    <li>subject_story->szkolił{PAWN_gender ? : a} hoplitów na planecie wojennej, jak wykorzystywać zasięg ich broni</li>
+    <li>subject_gerund->kuje średniowieczną broń</li>
+  </LongBlades.generalRules.rulesStrings>
   <!-- EN: passive cooler -->
   <PassiveCooler.label>ewaporatory</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
@@ -148,8 +202,14 @@
     <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
     <li>subject_gerund->building passive coolers</li>
   -->
-  <PassiveCooler.generalRules.rulesStrings>TODO</PassiveCooler.generalRules.rulesStrings>
-  
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->parowanie</li>
+    <li>subject->pasywne chłodnice</li>
+    <li>subject_story->przeprowadza się na upalny, tropikalny świat i opracowuje unikalne techniki zachowania chłodu</li>
+    <li>subject_story->bada prymitywne techniki chłodzenia obszarów w zaciszu bibliotek rdzennego świata</li>
+    <li>subject_story->zauważa na brzegu oceanicznej planety, że jest chłodniej tam, gdzie osiada bryza morska</li>
+    <li>subject_gerund->buduje pasywne chłodnice</li>
+  </PassiveCooler.generalRules.rulesStrings>
   <!-- EN: pemmican -->
   <Pemmican.label>pemikan</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
@@ -161,8 +221,13 @@
     <li>subject_story->taught pemmican production to feral tribes</li>
     <li>subject_gerund->making pemmican</li>
   -->
-  <Pemmican.generalRules.rulesStrings>TODO</Pemmican.generalRules.rulesStrings>
-  
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->produkcja pemikanu</li>
+    <li>subject_story->opanował{PAWN_gender ? : a} produkcję pemikanu podczas długiej pielgrzymki do Iglicy na planecie</li>
+    <li>subject_story->przetrwał{PAWN_gender ? : a} wyłącznie dzięki pemikanowi, gdy liniowiec pasażerski rozbił się na szklanym świecie</li>
+    <li>subject_story->nauczył{PAWN_gender ? : a} dzikie plemiona produkcji pemikanu</li>
+    <li>subject_gerund->wytwarzanie pemikanu</li>
+  </Pemmican.generalRules.rulesStrings>
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>produkcja penoksycyliny</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
@@ -174,8 +239,13 @@
     <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
     <li>subject_gerund->synthesizing penoxycyline</li>
   -->
-  <PenoxycylineProduction.generalRules.rulesStrings>TODO</PenoxycylineProduction.generalRules.rulesStrings>
-  
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->produkcja penoksycykliny</li>
+    <li>subject_story->wygłasza wykłady dla Zjednoczonych Planet na temat medycyny prewencyjnej</li>
+    <li>subject_story->zostaje wygnany z Dawn Falls jako znachor za sprzedaż leku, który "nic nie robi"</li>
+    <li>subject_story->zapobiega rozprzestrzenianiu się epidemii malarii poprzez ostrożne dawkowanie penoksycykliny</li>
+    <li>subject_gerund->syntetyzuje penoksycyklinę</li>
+  </PenoxycylineProduction.generalRules.rulesStrings>
   <!-- EN: plate armor -->
   <PlateArmor.label>zbroja płytowa</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
@@ -187,8 +257,13 @@
     <li>subject_story->started the first armorworker's collective on an urbworld</li>
     <li>subject_gerund->smithing plate armor</li>
   -->
-  <PlateArmor.generalRules.rulesStrings>TODO</PlateArmor.generalRules.rulesStrings>
-  
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->pancerz płytowy</li>
+    <li>subject_story->wykuwa pancerz ze złomu, gdy władze otaczają chatę [ANYPAWN_possessive] rodziny</li>
+    <li>subject_story->zostaje nazwany Zielonym Kowalem, gdy mech porasta drewniany pancerz</li>
+    <li>subject_story->zakłada pierwszy kolektyw zbrojmistrzów na urbworldzie</li>
+    <li>subject_gerund->kuje pancerz płytowy</li>
+  </PlateArmor.generalRules.rulesStrings>
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>oczyszczanie psychitu</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
@@ -200,8 +275,13 @@
     <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
     <li>subject_gerund->refining psychite</li>
   -->
-  <PsychiteRefining.generalRules.rulesStrings>TODO</PsychiteRefining.generalRules.rulesStrings>
-  
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->produkcja psychitu</li>
+    <li>subject_story->wykorzystuje pracę na uniwersytecie jako przykrywkę dla swojego handlu narkotykami</li>
+    <li>subject_story->zakłada komunę, w której do jedzenia dodawana jest mała dawka płatków</li>
+    <li>subject_story->prowadzi kampanię na rzecz legalizacji yayo na pobliskim urbworldzie</li>
+    <li>subject_gerund->oczyszcza psychit</li>
+  </PsychiteRefining.generalRules.rulesStrings>
   <!-- EN: psychoid brewing -->
   <PsychoidBrewing.label>warzenie liści psychoidu</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
@@ -213,8 +293,13 @@
     <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
     <li>subject_gerund->brewing psychoid</li>
   -->
-  <PsychoidBrewing.generalRules.rulesStrings>TODO</PsychoidBrewing.generalRules.rulesStrings>
-  
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->psychoid</li>
+    <li>subject_story->dołącza do krótkotrwałej komuny psychoidowej na świecie kultu</li>
+    <li>subject_story->eksperymentuje z psychoidem, aby pomóc straumatyzowanym żołnierzom</li>
+    <li>subject_story->zalegalizował{PAWN_gender ? : a} psychoid do masowej produkcji na kilku światach rdzennych, kiedy miał{PAWN_gender ? : a} do tego odpowiednie uprawnienia</li>
+    <li>subject_gerund->warzy psychoid</li>
+  </PsychoidBrewing.generalRules.rulesStrings>
   <!-- EN: recurve bow -->
   <RecurveBow.label>łuk refleksyjny</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
@@ -227,8 +312,14 @@
     <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
     <li>subject_gerund->crafting bows</li>
   -->
-  <RecurveBow.generalRules.rulesStrings>TODO</RecurveBow.generalRules.rulesStrings>
-  
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->łucznictwo</li>
+    <li>subject->wytwarzanie łuków</li>
+    <li>subject_story->tropił{PAWN_gender ? : a} wściekłego bumalopa przez cztery dni, zanim zabiła{PAWN_gender ? : a} go jedną strzałą</li>
+    <li>subject_story->osiedlił{PAWN_gender ? : a} się w pobliżu lasu cisowego, aby zabezpieczyć idealne materiały na łuki</li>
+    <li>subject_story->wychowywał{PAWN_gender ? : a} dzieci kolonii jako łowców-zbieraczy, z których każdy był mistrzem łucznictwa</li>
+    <li>subject_gerund->wytwarza łuki</li>
+  </RecurveBow.generalRules.rulesStrings>
   <!-- EN: smithing -->
   <Smithing.label>kowalstwo</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
@@ -239,8 +330,12 @@
     <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
     <li>subject_gerund->smithing</li>
   -->
-  <Smithing.generalRules.rulesStrings>TODO</Smithing.generalRules.rulesStrings>
-  
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->kowalstwo</li>
+    <li>subject_story->osiedla się w średniowiecznej wiosce i opanowuje proste rzemiosło metalowe</li>
+    <li>subject_story->buduje warsztaty kowalskie na glitterworldzie dla gildii rekonstrukcji renesansu</li>
+    <li>subject_gerund->kowalstwo</li>
+  </Smithing.generalRules.rulesStrings>
   <!-- EN: stonecutting -->
   <Stonecutting.label>kamieniarstwo</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
@@ -253,8 +348,14 @@
     <li>subject_gerund->stonecutting</li>
     <li>subject_gerund->cutting stones</li>
   -->
-  <Stonecutting.generalRules.rulesStrings>TODO</Stonecutting.generalRules.rulesStrings>
-  
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->murarstwo</li>
+    <li>subject_story->był pierwszym w linii projektantów świątyń, wszyscy nosili to samo imię</li>
+    <li>subject_story->opracował{PAWN_gender ? : a} unikalne techniki cięcia najtwardszych skał za pomocą podstawowych narzędzi</li>
+    <li>subject_story->wyłożył{PAWN_gender ? : a} kafelkami cały pałac wicekróla w średniowiecznym świecie</li>
+    <li>subject_gerund->kamieniarstwo</li>
+    <li>subject_gerund->cięcie kamieni</li>
+  </Stonecutting.generalRules.rulesStrings>
   <!-- EN: tree sowing -->
   <TreeSowing.label>zasiew drzew</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
@@ -266,8 +367,13 @@
     <li>subject_story->worked in a tree nursery on an animal world</li>
     <li>subject_gerund->sowing trees</li>
   -->
-  <TreeSowing.generalRules.rulesStrings>TODO</TreeSowing.generalRules.rulesStrings>
-  
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->zasiew drzew</li>
+    <li>subject_story->rozmnaża drzewa na dawno martwej planetoidzie, próbując przywrócić życie</li>
+    <li>subject_story->opublikował{PAWN_gender ? : a} artykuł o utrzymaniu naturalnych ekosystemów</li>
+    <li>subject_story->pracował{PAWN_gender ? : a} w szkółce drzew na zwierzęcej planecie</li>
+    <li>subject_gerund->zasiewa drzewa</li>
+  </TreeSowing.generalRules.rulesStrings>
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>produkcja pobudzaczy</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
@@ -279,6 +385,11 @@
     <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
     <li>subject_gerund->synthesizing wake-up</li>
   -->
-  <WakeUpProduction.generalRules.rulesStrings>TODO</WakeUpProduction.generalRules.rulesStrings>
-  
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->produkcja pobudek</li>
+    <li>subject_story->próbuje przezwyciężyć uzależnienie od kofeiny, zażywając pobudzacze</li>
+    <li>subject_story->leczy narkoleptyków i lunatyków za pomocą starannie odmierzonych dawek pobudzacza</li>
+    <li>subject_story->przenosi wszystkich na ciemną stronę asteroidy i używa pobudzacza, aby utrzymać ich biorytmy</li>
+    <li>subject_gerund->syntetyzuje pobudzacz</li>
+  </WakeUpProduction.generalRules.rulesStrings>
 </LanguageData>

@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Stan psychiczny: Furia</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w furię.\n\nZamierza wyżyć się na przedmiotach w swoim pokoju.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} wpadł{PAWN_gender ? : a} w furię.\n\nZamierza wyżyć się na przedmiotach w swoim pokoju.</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>furia</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} nie ma już napadu furii.</BedroomTantrum.recoveryMessage>
@@ -16,19 +16,19 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>Stan psychiczny: Berserk</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w szał.\n\nZaatakuje każdego kogo zobaczy.</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} wpadł{PAWN_gender ? : a} w szał.\n\nZaatakuje każdego kogo zobaczy.</Berserk.beginLetter>
   <Berserk.beginLetterLabel>psychoza</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>szał {0} dobiegł końca.</Berserk.recoveryMessage>
   
   <!-- EN: berserk -->
-  <BerserkPermanent.label>TODO</BerserkPermanent.label>
+  <BerserkPermanent.label>berserk</BerserkPermanent.label>
   <!-- EN: Mental state: Berserk -->
-  <BerserkPermanent.baseInspectLine>TODO</BerserkPermanent.baseInspectLine>
+  <BerserkPermanent.baseInspectLine>Stan psychiczny: Berserk</BerserkPermanent.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkPermanent.beginLetter>TODO</BerserkPermanent.beginLetter>
+  <BerserkPermanent.beginLetter>{0} wpadł{PAWN_gender ? : a} w szał.\n\nZaatakuje każdego kogo zobaczy.</BerserkPermanent.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <BerserkPermanent.recoveryMessage>TODO</BerserkPermanent.recoveryMessage>
+  <BerserkPermanent.recoveryMessage>szał {0} dobiegł końca.</BerserkPermanent.recoveryMessage>
   
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>obsesja używkowa</Binging_DrugExtreme.label>
@@ -56,7 +56,7 @@
   <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>Stan psychiczny: Trupia obsesja</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to find a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} {PAWN_gender ? załamał : załamała} się i ma obsesję na punkcie zwłok.\n\nZamierza znaleźć zwłoki i wszystkim je pokazać.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} załamał{PAWN_gender ? : a} się i ma obsesję na punkcie zwłok.\n\nZamierza znaleźć zwłoki i wszystkim je pokazać.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>trupia obsesja</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0} nie ma już trupiej obsesji.</CorpseObsession.recoveryMessage>
@@ -76,18 +76,18 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>Stan psychiczny: Poddaje się i odchodzi</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} {PAWN_gender ? dał : dała} sobie spokój z tą społecznością.\n\n{PAWN_gender ? Postanowił : Postanowiła} odejść i poszukać sobie lepszego życia gdzieś indziej. Możesz spróbować [PAWN_objective] aresztować kiedy będzie odchodzić. Jeśli tego nie zrobisz, możliwe, że zobaczysz [PAWN_objective] pewnego dnia.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} dał{PAWN_gender ? : a} sobie spokój z tą społecznością.\n\nPostanowił{PAWN_gender ? : a} odejść i poszukać sobie lepszego życia gdzieś indziej. Możesz spróbować [PAWN_objective] aresztować kiedy będzie odchodzić. Jeśli tego nie zrobisz, możliwe, że zobaczysz [PAWN_objective] pewnego dnia.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>odchodzi</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
-  <GiveUpExit.recoveryMessage>{0} {PAWN_gender ? zmienił : zmieniła} zdanie i wraca do kolonii.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.recoveryMessage>{0} zmienił{PAWN_gender ? : a} zdanie i wraca do kolonii.</GiveUpExit.recoveryMessage>
   
   <!-- EN: insulting spree -->
   <InsultingSpree.label>szał obrażania</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
   <InsultingSpree.baseInspectLine>Stan psychiczny: Szał obrażania</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w szał obrażania.\n\nBędzie się błąkać i obrażać innych.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetter>{0} wpadł{PAWN_gender ? : a} w szał obrażania.\n\nBędzie się błąkać i obrażać innych.</InsultingSpree.beginLetter>
   <InsultingSpree.beginLetterLabel>szał obrażania</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} nie jest już w szale obrażania.</InsultingSpree.recoveryMessage>
@@ -108,7 +108,7 @@
   <!-- EN: Mental state: Murderous rage -->
   <MurderousRage.baseInspectLine>Stan psychiczny: Mordercza wściekłość</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w morderczą wściekłość.\n\nZamierza zabić {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetter>{0} wpadł{PAWN_gender ? : a} w morderczą wściekłość.\n\nZamierza zabić {1}.</MurderousRage.beginLetter>
   <MurderousRage.beginLetterLabel>mordercza wściekłość</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>{0} nie ma już morderczej wściekłości.</MurderousRage.recoveryMessage>
@@ -118,7 +118,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>Stan psychiczny: Sadystyczna wściekłość</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w sadystyczną wściekłość.\n\nZamierza rozładować [PAWN_possessive] złość na więźniach.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} wpadł{PAWN_gender ? : a} w sadystyczną wściekłość.\n\nZamierza rozładować [PAWN_possessive] złość na więźniach.</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>sadystyczna wściekłość</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} nie ma już sadystycznej wściekłości.</SadisticRage.recoveryMessage>
@@ -128,7 +128,7 @@
   <!-- EN: Mental state: Slaughterer -->
   <Slaughterer.baseInspectLine>Stan psychiczny: Szlachtownik</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} {PAWN_gender ? załamał : załamała} się psychicznie i zamierza rozładować złość na Twoich zwierzętach.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} załamał{PAWN_gender ? : a} się psychicznie i zamierza rozładować złość na Twoich zwierzętach.</Slaughterer.beginLetter>
   <Slaughterer.beginLetterLabel>Szlachtownik</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} nie szlachtuje już losowych zwierząt.</Slaughterer.recoveryMessage>
@@ -138,7 +138,7 @@
   <!-- EN: Mental state: Tantrum -->
   <Tantrum.baseInspectLine>Stan psychiczny: Furia</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
-  <Tantrum.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w furię.\n\nBędzie niszczyć losowe meble, przedmioty i struktury.</Tantrum.beginLetter>
+  <Tantrum.beginLetter>{0} wpadł{PAWN_gender ? : a} w furię.\n\nBędzie niszczyć losowe meble, przedmioty i struktury.</Tantrum.beginLetter>
   <Tantrum.beginLetterLabel>furia</Tantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>{0} nie ma już napadu furii.</Tantrum.recoveryMessage>
@@ -148,7 +148,7 @@
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>Stan psychiczny: Szał obrażania przeciwko {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0} {PAWN_gender ? skupił : skupiła} swoją złość na {1}.\n\nBędzie podążać za {1}, rzucając wyzwiska.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetter>{0} skupił{PAWN_gender ? : a} swoją złość na {1}.\n\nBędzie podążać za {1}, rzucając wyzwiska.</TargetedInsultingSpree.beginLetter>
   <TargetedInsultingSpree.beginLetterLabel>szał obrażania</TargetedInsultingSpree.beginLetterLabel>
   <TargetedInsultingSpree.recoveryMessage>{0} nie jest już w szale obrażania.</TargetedInsultingSpree.recoveryMessage>
   
@@ -157,7 +157,7 @@
   <!-- EN: Mental state: Tantrum -->
   <TargetedTantrum.baseInspectLine>Stan psychiczny: Furia</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0} {PAWN_gender ? wpadł : wpadła} w furię.\n\nZamierza rozwalić {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetter>{0} wpadł{PAWN_gender ? : a} w furię.\n\nZamierza rozwalić {1}.</TargetedTantrum.beginLetter>
   <TargetedTantrum.beginLetterLabel>furia</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0} nie ma już napadu furii.</TargetedTantrum.recoveryMessage>
@@ -200,7 +200,7 @@
   <!-- EN: Mental state: Sad wandering -->
   <Wander_Sad.baseInspectLine>Stan psychiczny: Błąkanina w smutku</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} {PAWN_gender ? załamał : załamała} się i błąka się w smutku po okolicy.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} załamał{PAWN_gender ? : a} się i błąka się w smutku po okolicy.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>smuta błąkanina</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
