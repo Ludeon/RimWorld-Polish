@@ -2,7 +2,7 @@
 Używamy Discorda do współpracy. Aby nam pomóc kliknij w [ten link](https://discord.gg/BPkDRh9), a tam znajdziesz niezbędne informacje i uzyskasz ewentualną pomoc.
 Do koordynowania pracy wykorzystujemy Trello: https://trello.com/w/rwtpl
 
-# Polish translation for RimWorld 1.5.  
+# Polish translation for RimWorld 1.6  
 Pobierz aktualną wersję tłumaczenia:  
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
