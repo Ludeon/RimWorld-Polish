@@ -128,8 +128,8 @@ Thrumbo
 * zioło (smokeleaf)
 
 # Zwierzęta i inne stworzenia  
-* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, najwyższy fizycznie możliwy stopień rozwoju dla 
-                            jakiegokolwiek stworzenia.
+* archotyczny (Archotech) - Bardzo wysoce rozwinięta cywilizacja, przypominająca w swojej obecnej formie,
+                            bardziej superkomputer rozmiarów planety.
                             W gruncie rzeczy, jedna wielka maszyna będąca w stanie tworzyć coś z niczego.
 * alfabóbr (Alphabeaver)
 * bumalopa (boomalope)
@@ -162,18 +162,21 @@ Zadania (Quests)
 Zwierzęta (Animals)
 
 # Menu Architekta  
-Meble (Furniture)
-Obrona (Security)
-Podłogi (Floors)
-Polecenia (Orders)
-Produkcja (Production)
-Rekreacja (Recreation)
-Różne (Misc)
-Statek (Ship)
-Strefa (Zone)
-Struktura (Structure)
+Polecenia (Orders)  
+Strefa (Zone)  
+Struktura (Structure)  
+Produkcja (Production)  
+Meble (Furniture)  
+Zasilanie (Power)  
+Obrona (Security)  
+Różne (Misc)  
+Podłogi (Floors)  
+Rekreacja (Recreation)  
+Statek (Ship)  
 Temperatura (Temperature)
-Zasilanie (Power)
+
+# Debugowanie
+Efekt (Mote)
   
   
   

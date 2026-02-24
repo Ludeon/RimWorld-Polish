@@ -25,23 +25,21 @@ czyli tłumaczymy zwykły tekst:
 efekt końcowy: Zjadacze kiszka, Zjadacze serce - czyli nie tego nam trzeba
 
 
-Stworzymy teraz własny plik ze słówkami i nazwiemy go `Gore_Gen.txt`
+Stworzymy teraz własny plik ze słówkami (w Core/Strings/Words/Nouns) i nazwiemy go `Gore_Gen.txt`
 Teraz w pliku `Gore_Gen.txt` robimy słowa "kiszek", "serc".
 
-Ale teraz musimy wskazać ścieżkę do `Gore_Gen.txt`  za pomocą  
-```XML
-<Nazwa.rulePack.rulesFiles>  wybieramy_jakas_nazwe->Words/Nouns/Gore_Gen
-```
+Ale teraz musimy wskazać ścieżkę do `Gore_Gen.txt`  za pomocą  <NAZWA.rulePack.rulesFiles>  WYBIERAMY_JAKAS_NAZWE->Words/Nouns/Gore_Gen
 
-przykładowo będzie: `goRe_mnoga->` czyli:
-```XML
+Przykładowo, wybieramy nazwę: goRe_mnoga-> czyli:
 <NamerFactionPirate.rulePack.rulesFiles>  
    <li>goRe_mnoga->Words/Nouns/Gore_Gen</li>
 </NamerFactionPirate.rulePack.rulesFiles>
-```
+
 Dlaczego `goRe` -zwracamy uwagę na wielkość liter, jeśli jest `goRe_mnoga->`  musimy używać potem `[goRe_mnoga]` bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie `ColorBadass_GEN->`  to `[colorbadass_gen]` nie podziała :)
 
-I tym sposobem kod `[goRe_mnoga]` bierze słówka z pliku Words/Nouns/Gore_Gen
+Dlaczego goRe - zwracamy uwagę na wielkość liter, jeśli jest goRe_mnoga->  musimy używać potem [goRe_mnoga] bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie ColorBadass_GEN->  to [colorbadass_gen] nie podziała :)
+
+I tym sposobem kod [goRe_mnoga] bierze słówka z pliku Words/Nouns/Gore_Gen
 
 ```XML
 <li>r_name(p=0.4)->Zjadacze [goRe_mnoga]</li>
