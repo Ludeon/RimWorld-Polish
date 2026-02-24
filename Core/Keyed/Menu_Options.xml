@@ -30,6 +30,8 @@
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Przewijaj kursorem przy krawędzi</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>Przybliż do kursora myszki</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>Pauza po wczytaniu</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -37,7 +39,7 @@
   <!-- EN: Pause on letter -->
   <AutomaticPauseModeSetting>Pauza przy</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
-  <CustomCursor>Zastąp kursor systemowy</CustomCursor>
+  <CustomCursor>Pozostaw kursor systemowy</CustomCursor>
   <!-- EN: Hide hats on UI -->
   <HatsShownOnlyOnMap>Nie pokazuj nakryć głowy na kartach</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
@@ -62,18 +64,20 @@
   <DevelopmentMode>Tryb dewelopera</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Resetuj konfiguracje modów przy awarii</ResetModsConfigOnCrash>
-  <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>Symuluj brak posiadania 'Royalty'</SimulateNotOwningRoyalty>
-  <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>Symuluj brak posiadania 'Ideology'</SimulateNotOwningIdeology>
-  <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>Symuluj brak posiadania 'Biotech'</SimulateNotOwningBiotech>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>TODO</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>TODO</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>Otwórz log w przypadku warning'a</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>Zamknij log po naciśnięciu Esc</CloseLogWindowOnEscape>
   <!-- EN: Verbose logging -->
-  <LogVerbose>Zapis dokładnych danych</LogVerbose>
+  <LogVerbose>Zapis pełnych logów</LogVerbose>
   <!-- EN: Save data folder -->
-  <SaveGameDataFolder>Zapisz folder danych</SaveGameDataFolder>
+  <SaveGameDataFolder>Folder zapisów gry</SaveGameDataFolder>
   <!-- EN: Save data location -->
-  <SaveGameDataLocation>Zapisz lokalizację danych</SaveGameDataLocation>
+  <SaveGameDataLocation>Lokalizacja zapisów gry</SaveGameDataLocation>
   <!-- EN: Log file folder -->
   <LogFileFolder>Folder plików dziennika</LogFileFolder>
   <!-- EN: Log file location -->
@@ -99,13 +103,17 @@
   <!-- EN: The number of in game days between each auto save. -->
   <AutosaveIntervalTooltip>Liczba dni w grze pomiędzy każdym automatycznym zapisem.</AutosaveIntervalTooltip>
   <!-- EN: Temperature unit -->
-  <TemperatureMode>Jednostka temp.</TemperatureMode>
+  <TemperatureMode>Jednostka temperatury</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Pokaż czas rzeczywisty</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>Używaj 12 godzinnego zegara</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>Wyłącz małą czcionkę</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maksymalna liczba kolonii: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>Liczba autozapisów: {0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>Czułość przeciągania kamery</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
@@ -158,5 +166,10 @@
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>Tło menu</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <SimulateNotOwningRoyalty>Symuluj brak posiadania 'Royalty'</SimulateNotOwningRoyalty>
+  <SimulateNotOwningIdeology>Symuluj brak posiadania 'Ideology'</SimulateNotOwningIdeology>
+  <SimulateNotOwningBiotech>Symuluj brak posiadania 'Biotech'</SimulateNotOwningBiotech>
 
 </LanguageData>

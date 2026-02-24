@@ -36,11 +36,11 @@
 
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
-  <Overseer>Overseer</Overseer>
+  <Overseer>Nadzorca</Overseer>
   <!-- EN: None (not under control) -->
-  <OverseerNone>None (not under control)</OverseerNone>
+  <OverseerNone>Brak (nie pod kontrolą)</OverseerNone>
   <!-- EN: May go feral at any moment -->
-  <MayGoFeral>May go feral at any moment</MayGoFeral>
+  <MayGoFeral>Może zdziczeć w każdej chwili</MayGoFeral>
   <!-- EN: Bandwidth -->
   <Bandwidth>Przepustowość</Bandwidth>
   <!-- EN: bandwidth -->
@@ -74,9 +74,9 @@
   <!-- EN: Groups -->
   <Groups>Grupy</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>Ładowanie zasobów ciążowych mecha</LoadingMechGestator>
+  <LoadingMechGestator>Ładowanie zasobów mecha</LoadingMechGestator>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>Rozpoczęcie cyklu ciąży mecha</InitMechGestationCycle>
+  <InitMechGestationCycle>Rozpoczyna cykl budowy mecha</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
   <InitMechBirth>Inicjowanie narodzin mecha</InitMechBirth>
   <!-- EN: Mech energy -->
@@ -88,25 +88,25 @@
   <!-- EN: Bandwidth usage -->
   <BandwidthUsage>Wykorzystywana przepustość</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>Przepustowość mecha w ciąży</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>Przepustowość pasma mecha</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>Cannot summon {0} threat</CannotSummon>
+  <CannotSummon>Nie można przywołać niebezpiecznego {0}</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>{0} threat ready to summon</ReadyToSummonThreat>
+  <ReadyToSummonThreat>{0} niebezpieczny gotowy do przywołania</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>Summon {0} threat</Summon>
+  <Summon>Przywołuje niebezpieczeństwo: {0}</Summon>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>Nieosiągalny {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
   <NoReservableBossgroupCaller>Brak możliwości rezerwacji {0}</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>Brak zasilani {0}</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>Brak zasilania {0}</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
   <AlreadyUsed>już użyto</AlreadyUsed>
   <!-- EN: Gestating -->
   <Gestating>Tworzy mecha</Gestating>
   <!-- EN: Escorting {TARGET_labelShort}. -->
-  <Escorting>Eskortuje {TARGET_labelShort}.</Escorting>
+  <Escorting>asystuje {TARGET_labelShort}.</Escorting>
   <!-- EN: Worker -->
   <Worker>Robotnik</Worker>
   <!-- EN: Waiting for -->
@@ -146,7 +146,7 @@
   <!-- EN: Start deathrest -->
   <StartDeathrest>Rozpocznij anabiozę</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabazy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był tylko przez {CURDURATION}.\n\nWybudzenie {PAWN_nameDef} teraz przerywałoby {PAWN_possessive} stan anabiozy, wytrącając metabolizm {PAWN_possessive} z równowagi i powodując chorobę {PAWN_objective}, która trwa będzie kilka dni.\n\nCzy na pewno chcesz wybudzić {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabiozy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był tylko przez {CURDURATION}.\n\nWybudzenie {PAWN_nameDef} teraz przerywałoby {PAWN_possessive} stan anabiozy, wytrącając metabolizm {PAWN_possessive} z równowagi i powodując chorobę {PAWN_objective}, która trwa będzie kilka dni.\n\nCzy na pewno chcesz wybudzić {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>w stanie anabiozy</Deathresting>
   <!-- EN: complete -->
@@ -162,7 +162,7 @@
   <!-- EN: Regeneration rate -->
   <RegenerationRate>Szybkość regeneracji</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>{PAWN_nameDef} powinien być w stanie anabazy przez {DURATION}, aby uniknąć konsekwencji.</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} powinien być w stanie anabiozy przez {DURATION}, aby uniknąć konsekwencji.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} wkrótce powinien zacząć stan anabiozy, aby uniknąć konsekwencji.</PawnShouldDeathrestNow>
   <!-- EN: Consume hemogen below -->
@@ -472,17 +472,17 @@
   <!-- EN: Gestation cycles -->
   <GestationCycles>Cykle produkcyjne</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>Produkuje {0}</GestatingMech>
+  <GestatingMech>Tworzy {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
-  <GestatedMech>Wyprodukowano {0}</GestatedMech>
+  <GestatedMech>Wybudowano {0}</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Wymaga {PAWN_nameDef} do ukończenia</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
   <GestationComplete>Produkcja ukończona</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>Wskrzesza {0}</ResurrectingMech>
+  <ResurrectingMech>Odbudowuje {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>Wskrzeszono {0}</ResurrectedMech>
+  <ResurrectedMech>Odbudowano {0}</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
@@ -619,7 +619,7 @@
   <!-- EN: children -->
   <Children>dzieci</Children>
   <!-- EN: baby -->
-  <Baby>niewowlę</Baby>
+  <Baby>niemowlę</Baby>
   <!-- EN: babies -->
   <Babies>niemowlęta</Babies>
   <!-- EN: person -->

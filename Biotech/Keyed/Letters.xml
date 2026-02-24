@@ -46,13 +46,13 @@
 
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
-  <LetterLabelBecameChild>{0_nameDef}staje się dzieckiem</LetterLabelBecameChild>
+  <LetterLabelBecameChild>{0_nameDef} staje się dzieckiem</LetterLabelBecameChild>
   <!-- EN: {0_nameDef} became an adult -->
-  <LetterLabelBecameAdult>{0_nameDef}staje się osobą dorosłą</LetterLabelBecameAdult>
+  <LetterLabelBecameAdult>{0_nameDef} staje się osobą dorosłą</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>Niemowlę {0_nameDef} dorosło i stało się dzieckiem! {0_pronoun} osiąga wystarczającą dojrzałość, aby móc wykonywać następującą pracę:</LetterBecameChild>
+  <LetterBecameChild>Niemowlę o imieniu {0_nameDef}, wkroczyło w dzieciństwo! Wraz z tym, {0_nameDef} osiąga wystarczającą dojrzałość, aby móc wykonywać następujące prace:</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>Dzieci mogą wykonywać różne prace. Wraz z wiekiem mogą wykonywać różne jej rodzaje.\n\nWykonują też różne zajęcia rekreacyjne przeznaczone dla dzieci.\n\nDzieci muszą nosić specjalną odzież zgodną z ich rozmiarem.</LetterBecameChildChanges>
+  <LetterBecameChildChanges>Dzieci mogą wykonywać różne prace, a wraz z wiekiem, również jej bardziej skomplikowane rodzaje..\n\nWykonują też różne zajęcia rekreacyjne przeznaczone dla dzieci.\n\nDzieci muszą nosić specjalną odzież zgodną z ich rozmiarem.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>Tradycyjnie {0_nameDef}, {0_parentage} jest {0_legalStatus},  ale można uczynić wyjątki.... Czy {0_nameDef} pozostanie {0_legalStatus}?</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
@@ -177,7 +177,7 @@
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>Reimplantacja genów</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef} zaimplementował kopię {CASTER_possessive} ksenozarodka do {TARGET_nameDef}, przekazując wszystkie ksenogeny do {TARGET_objective}.\n\n{TARGET_nameDef} będzie w śpiączce w trakcie ksenokiełkowania przez następne {COMADURATION}, kiedy {TARGET_possessive} ciało dostosuje się do zmian.\n\n{CASTER_nameDef} będzie cierpieć z powodu szoku związanego z utratą genów przez następne {SHOCKDURATION}. Geny {CASTER_possessive} również będą musiały się zregenerować. Proces ten wymaga czasu. Jeśli {CASTER_nameDef} ponownie zaimplementuje {CASTER_possessive} ksenogezarodek, zanim {CASTER_possessive} geny się zregenerują, to {CASTER_pronoun} umrze.</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef} zaimplantował kopię ksenozarodka {TARGET_nameDef}, przekazując, tym samym, wszystkie ksenogeny.\n\n{TARGET_nameDef} będzie w śpiączce w trakcie ksenokiełkowania przez następne {COMADURATION}, kiedy {TARGET_possessive} ciało będzie dostosowywać się do zmian.\n\n{CASTER_nameDef} będzie cierpieć z powodu szoku związanego z utratą genów przez następne {SHOCKDURATION}. {CASTER_possessive} geny również będą musiały się zregenerować - proces ten wymaga czasu. Jeśli {CASTER_nameDef} ponownie przekaże ksenogezarodek, zanim {CASTER_possessive} geny się zregenerują, umrze.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>Dziecko o imieniu {PAWN_nameDef} z {PAWN_factionName} rozbija się w pobliżu transportera. Możesz adoptować {PAWN_objective} za pomocą polecenia 'adoptuj' lub zignorować {PAWN_objective}.</RefugeePodCrashBaby>
@@ -185,6 +185,6 @@
   <RefugeePodCrashBabyHasParent>Ciało zmarłego rodzica {PAWN_nameDef} jest również w kapsule transportowej.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>Instynktownie szukając partnera, {BONDPAWN_nameDef} nawiązuje psychicznie więź romantyczną z {OTHERPAWN_nameDef}. OTHERPAWN_nameDef} przyniesie korzyści psychologiczne wynikające z połączenia z {BONDAWN_nameDef}, ale jeśli zostaną rozdzieleni na w różne strony świata, oboje będą cierpieć z powodu stresu psychicznego. Jeśli jedno umrze, drugie popadnie w szaleństwo.</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>Instynktownie szukając partnera, {BONDPAWN_nameDef} nawiązuje psychicznie więź romantyczną z {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} przyniesie korzyści psychologiczne wynikające z połączenia z {BONDAWN_nameDef}, ale jeśli zostaną rozdzieleni na w różne strony świata, oboje będą cierpieć z powodu stresu psychicznego. Jeśli jedno umrze, drugie popadnie w szaleństwo.</LetterPsychicBondCreated>
 
 </LanguageData>
