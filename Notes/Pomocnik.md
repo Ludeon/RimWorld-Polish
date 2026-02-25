@@ -9,6 +9,7 @@ Słowa brane z:
 
 `Problem: Śpiwór Wełna owcy`
 ``Rozwiązanie: Śpiwór z owczej wełny`` - w [DefInjected\ThingDef\Items_Resource_Stuff.xml] jest możliwość zdefiniowania formy przymiotnikowej.
+
 # Ktoś z rodziny - relacje
 [Plik] = Misc_Gameplay.xml
 <Relationship>To {0} {1}<Relationship>
