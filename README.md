@@ -1,4 +1,5 @@
-For Polish extended version intended for translators see README_PL.md / Dłuższa, polska wersja przeznaczona dla tłumaczy i osób zainteresowanych w README_PL.md
+Polish extended version intended for translators: README_PL.md
+Dłuższa, polska wersja przeznaczona dla tłumaczy i osób zainteresowanych: README_PL.md
 
 # Team
 We use Discord [(invite)](https://discord.gg/BPkDRh9) for coordinating our work. You can get in touch there.
