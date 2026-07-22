@@ -12,6 +12,7 @@ Thrumbo
 * biokodowanie (biocoding)
 * biosygnatura (biosignature)
 * broń dystansowa (ranged weapon)
+* hibernacja (cryptosleep)
 * dziecic (heir)
 * kamuflaż (stealth) - w przypadku myśliwego
 * kosmiczny uchodźca (space refugee)
@@ -177,6 +178,17 @@ Temperatura (Temperature)
 
 # Debugowanie
 Efekt (Mote)
-  
+
+### Royalty
+
+### Ideology
+Pogląd (precept)
+
+
+### Biotech
+
+### Anomaly
+
+### Odyssey
   
   
