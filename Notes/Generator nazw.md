@@ -37,8 +37,6 @@ Przykładowo, wybieramy nazwę: goRe_mnoga-> czyli:
 
 Dlaczego `goRe` -zwracamy uwagę na wielkość liter, jeśli jest `goRe_mnoga->`  musimy używać potem `[goRe_mnoga]` bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie `ColorBadass_GEN->`  to `[colorbadass_gen]` nie podziała :)
 
-Dlaczego goRe - zwracamy uwagę na wielkość liter, jeśli jest goRe_mnoga->  musimy używać potem [goRe_mnoga] bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie ColorBadass_GEN->  to [colorbadass_gen] nie podziała :)
-
 I tym sposobem kod [goRe_mnoga] bierze słówka z pliku Words/Nouns/Gore_Gen
 
 ```XML
