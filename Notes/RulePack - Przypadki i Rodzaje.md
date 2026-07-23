@@ -1,11 +1,11 @@
 Tutorialik generatora nazw frakcji oraz innych, jak to się robi.
 
-Pliki można nazywać jak się chcę, ale trzeba potem trzymać się tych nazw.
+Pliki można nazywać jak się chce, ale trzeba potem trzymać się tych nazw.
 
 * Mas = Masculine = Męski      = czerwony
 * Fem = Feminine  = Żeński     = czerwona
 * Neu = Neuter    = Nijaki     = czerwone
-* Gen = Genetive  = Dopełniacz = kiszka -> kiszek
+* Gen = Genitive  = Dopełniacz = kiszka -> kiszek
 
 ```XML
 <li>r_name(p=0.4)->The Eaters of [Gore]</li>
@@ -36,8 +36,6 @@ Przykładowo, wybieramy nazwę: goRe_mnoga-> czyli:
 </NamerFactionPirate.rulePack.rulesFiles>
 
 Dlaczego `goRe` -zwracamy uwagę na wielkość liter, jeśli jest `goRe_mnoga->`  musimy używać potem `[goRe_mnoga]` bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie `ColorBadass_GEN->`  to `[colorbadass_gen]` nie podziała :)
-
-Dlaczego goRe - zwracamy uwagę na wielkość liter, jeśli jest goRe_mnoga->  musimy używać potem [goRe_mnoga] bo inaczej będzie problem. Ja daje wszystko z małych. Więc jak zrobimy sobie ColorBadass_GEN->  to [colorbadass_gen] nie podziała :)
 
 I tym sposobem kod [goRe_mnoga] bierze słówka z pliku Words/Nouns/Gore_Gen
 
