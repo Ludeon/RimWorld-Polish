@@ -9,7 +9,7 @@ HIS --> [PAWN_possessive] - jego, jej, tego
 
 ∗ ∗ ∗
 
-PRZYKŁAD:
+PRZYKŁAD:  
 To [PAWN_pronoun], [PAWN_nameDef], był{PAWN_gender ? y : a : y} farmer{PAWN_gender ? : ka}. Lubią [PAWN_possessive] psy, a [PAWN_possessive] koty są dobrze wychowane.  
 
 CO DAJE (zależnie od płci postaci):  
@@ -42,7 +42,7 @@ oraz
 
 ∗ ∗ ∗
 
-PRZYKŁAD:
+PRZYKŁAD:  
 Do Twojej kolonii przybyły następujące postaci:\n\nJan\nAnna\nXYZ-12  
 
 CO DAJE (w grze – np. w wiadomości):  
