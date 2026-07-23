@@ -1,6 +1,6 @@
 # Zespół
 Używamy Discorda do współpracy [(zaproszenie)](https://discord.gg/BPkDRh9). To tam znajdziesz niezbędne informacje i uzyskasz pomoc.
-Pamiętaj, że możesz pomóc bez realizacji wszystkich kroków opisanych przez Ludeon Studios [tutaj](https://ludeon.com/forums/index.php?topic=2933.0) – uprawnienia które otrzymujesz dotyczą wyłącznie GitHub, więc możesz dalej pomagać poprzez zgłaszanie błędów i opiniowane.
+Pamiętaj, że możesz pomóc bez realizacji wszystkich kroków opisanych przez Ludeon Studios [tutaj](https://ludeon.com/forums/index.php?topic=2933.0) – uprawnienia które otrzymujesz dotyczą wyłącznie GitHub, więc możesz dalej pomagać poprzez zgłaszanie błędów i opiniowanie.
 
 Do koordynowania pracy wykorzystujemy Trello: https://trello.com/w/rwtpl
 
