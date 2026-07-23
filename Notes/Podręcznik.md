@@ -56,12 +56,12 @@ XYZ-12
 
 # Objaśnienia tagów
 Pracując nad tłumaczeniem możesz napotkać następujące tagi:
-* TODO
-    ⤷ Najpowszechniejszy tag, wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations missing". Zastępujemy go tłumaczeniem.
-* FIXME
-    ⤷ Tag wstawiany przez innych tłumaczy. Gdy takowy zauważysz, przeanalizuj dokładnie tekst oryginalny oraz obecne tłumaczenie i zastanów się, co można zrobić lepiej.
-* UNUSED
-    ⤷ Tag wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations load errors". Aby się go pozbyć, należy usunąć nieużywane linijki kodu znajdujące się poniżej – ważne! – zweryfikuj najpierw ich stan generując raport tłumaczenia. Kieruj się instrukcjami z raportu.
+* TODO  
+    ⤷ Najpowszechniejszy tag, wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations missing". Zastępujemy go tłumaczeniem.  
+* FIXME  
+    ⤷ Tag wstawiany przez innych tłumaczy. Gdy takowy zauważysz, przeanalizuj dokładnie tekst oryginalny oraz obecne tłumaczenie i zastanów się, co można zrobić lepiej.  
+* UNUSED  
+    ⤷ Tag wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations load errors". Aby się go pozbyć, należy usunąć nieużywane linijki kodu znajdujące się poniżej – ważne! – zweryfikuj najpierw ich stan generując raport tłumaczenia. Kieruj się instrukcjami z raportu.  
 
 ### PRZYKŁAD: TODO
 
