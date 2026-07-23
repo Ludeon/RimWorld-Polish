@@ -2,11 +2,11 @@ Przetłumaczony (Oryginalny)
   
   
 # Wyrazy których nie tłumaczymy (Ewentualnie, dajemy polskie końcówki.)
-RimWorld (Oraz nazwy DLC!)
-Glitterworld
-Marine, Marines
-Mechanoid
-Thrumbo
+* RimWorld (Oraz nazwy DLC!)
+* Glitterworld
+* Marine, Marines
+* Mechanoid
+* Thrumbo
   
 # Ogólne  
 * biokodowanie (biocoding)
