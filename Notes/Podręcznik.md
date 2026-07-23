@@ -53,3 +53,45 @@ Anna
 XYZ-12  
 
 ∗ ∗ ∗
+
+# Objaśnienia tagów
+Pracując nad tłumaczeniem możesz napotkać następujące tagi:
+* TODO
+    ⤷ Najpowszechniejszy tag, wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations missing". Zastępujemy go tłumaczeniem.
+* FIXME
+    ⤷ Tag wstawiany przez innych tłumaczy. Gdy takowy zauważysz, przeanalizuj dokładnie tekst oryginalny oraz obecne tłumaczenie i zastanów się, co można zrobić lepiej.
+* UNUSED
+    ⤷ Tag wprowadzany automatycznie podczas czyszczenia tłumaczenia. Przy generowaniu raportu tłumaczenia odpowiada za ostrzeżenie "translations load errors". Aby się go pozbyć, należy usunąć nieużywane linijki kodu znajdujące się poniżej – ważne! – zweryfikuj najpierw ich stan generując raport tłumaczenia. Kieruj się instrukcjami z raportu.
+
+### PRZYKŁAD: TODO
+
+Wycinek z TranslationReport.txt:
+```
+========== Missing keyed translations (1) ==========
+UseGlobalStyle 'Use global style' (English file: Dialogs_Various.xml:10) (placeholder exists in Dialogs_Various.xml:16)
+```
+...kieruje on nas do pliku `Dialogs_Various.xml`, 16 linijka (nie musimy też kierować się tutaj raportem tłumaczenia — korzystając z Visual Studio Code wystarczy, że użyjemy Ctrl+Shift+F i wpiszemy "TODO" — wyszukiwarka pokaże nam wszystkie tego typu tagi w plikach tłumaczenia.)
+
+```
+XML
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>TODO</UseGlobalStyle>
+```
+Tłumaczymy taką linjkę normalnie, uważając by nie skasować przypadkiem któregoś z nawiasów (> <):
+```
+XML
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>Używaj stylu globalnego.</UseGlobalStyle>
+```
+Przetłumaczone :]
+
+
+### PRZYKŁAD: UNUSED
+
+Wycinek z TranslationReport.txt:
+```
+========== Def-injected translations load errors (1337) ==========
+Found no RimWorld.AbilityDef named AnimaTreeLinking to match AnimaTreeLinking.label (Abilities.xml)
+```
+
+Udajemy się do wskazanego pliku i usuwamy nieużywane linijki tłumaczenia. (W tym konkretnym przypadku, usunąłem również plik oraz folder, które zostałyby puste.)
