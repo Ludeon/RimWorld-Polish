@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>Istotny stan zdrowia</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Etap życia</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Materiał</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>Szanse na trafienie z coraz większej odległości są</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Wartość ostateczna</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>TODO</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Mnożnik dla {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -54,6 +58,8 @@
   <StatsReport_MaxGain>Maksymalny zysk</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
   <StatsReport_AgeMultiplier>Mnożnik dla wieku {0}</StatsReport_AgeMultiplier>
+  <!-- EN: Offset for age {0} -->
+  <StatsReport_AgeOffset>TODO</StatsReport_AgeOffset>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Mnożnik dla zdrowia {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
@@ -136,6 +142,8 @@
   <StatsReport_Ideoligion>Ideologia</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Mnożnik dla niedożywienia {0}</StatsReport_Malnutrition>
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>TODO</StatsReport_OptimalRoom>
 
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Możliwe przesunięcia</StatReport_PossibleOffsets>
@@ -156,6 +164,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Spełnia wymagania użytkownika dotyczące tytułu</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>TODO</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Różne źródła rekreacji zaspokajają różne typy rekreacji. Koloniści stają się znudzeni wielokrotnym uprawianiem tego samego rodzaju rekreacji, dlatego ważne jest, aby zapewnić różnorodność źródeł rekreacji o różnych typach.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -198,6 +208,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Odzież (dla nudystów)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Nudyści uznają ten przedmiot za element garderoby. Jeśli nie, nudyści nigdy nie będą się tym przejmować.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>TODO</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>TODO</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Które części ciała zakrywa ten strój.\n\nPancerz nie chroni części ciała, których nie zakrywa.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -216,7 +230,7 @@
   <Stat_Thing_Plant_MinGrowthTemperature_Desc>Minimalna temperatura, której wymaga ta roślina, aby mogła przetrwać.\n\nTemperatura poniżej tej wartości będzie z biegiem czasu powodować uszkodzenia.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
   <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Maksymalna temperatura, której wymaga ta roślina, aby mogła przetrwać.\n\nTemperatura powyżej tej wartości będzie z biegiem czasu powodować uszkodzenia.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
-  <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
+  <!-- EN: The minimum skill needed for a farmer to sow this plant. -->
   <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Minimalny poziom umiejętności, którego potrzebuje rolnik, aby mógł zasiać tę roślinę.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
   <Stat_Race_Diet_Desc>Rodzaj żywności, którą może jadać to stworzenie.\n\nMoże jeść: {0}</Stat_Race_Diet_Desc>
@@ -234,6 +248,14 @@
   <Stat_Race_RoamInterval_Desc>Jak często oswojone zwierzę będzie próbowało uciec i wyjść z mapy.\n\nZwierzęta będą wędrować tylko wtedy, gdy mają bezpośrednią ścieżkę do krawędzi mapy. Aby temu zapobiec, możesz użyć ogrodzeń, barykad, ścian i drzwi.\n\nTreserzy zwierząt mogą uwiązać wędrujące zwierzęta i sprowadzać je z powrotem do zagrody.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Rekreacyjna wartość spożywania tego. Większe liczby bardziej zaspokoją potrzeby rekreacyjne.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>TODO</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>TODO</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>TODO</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>TODO</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Wielkość ciała tego stworzenia w porównaniu z przeciętnym dorosłym człowiekiem.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -248,6 +270,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>Szybkostrzelność tej broni podczas każdej serii.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Maksymalny zasięg tej broni.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>TODO</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>TODO</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>TODO</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Promień losowego rozrzutu po wystrzale z tej broni.\n\nWysokie wartości sprawiają, że pociski rozchodzą się losowo wokół celu.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -292,6 +320,8 @@
   <Stat_Hediff_Pain_Desc>Ilość bólu spowodowana tym schorzeniem.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Przesunięcie w sprawności dotyczące części ciała, na które ma to wpływ.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>TODO</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Zdolności umysłowe, na które ma to wpływ.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -300,7 +330,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>Mnożnik tempa, z jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Przesunięcie od tempa, z jakim wyczerpuje się zapotrzebowanie na żywność.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: FIXME: NOWA WERSJA Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tempo odpoczynku</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Tempo, z jakim spada zapotrzebowanie na odpoczynek stworzeń.</Stat_Hediff_TirednessOffset_Desc>
@@ -382,6 +412,8 @@
   <Stat_Thing_TurretDesc>Broń zamontowana na tej istocie.</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
   <Stat_Thing_Ingredients>Składniki potrzebne do przygotowania tego dania.</Stat_Thing_Ingredients>
+  <!-- EN: Working at this building will be slower if it's not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>TODO</Stat_Building_OptimalRoom_Desc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -532,5 +564,23 @@
   <Stat_Source_OfficialExpansionReport>Ta zawartość pochodzi z oficjalnego rozszerzenia</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Ta zawartość pochodzi z modyfikacji</Stat_Source_ModReport>
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>TODO</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>TODO</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>TODO</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>TODO</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>TODO</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>TODO</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>TODO</StatsReport_AvailableTraining_Desc>
   
 </LanguageData>

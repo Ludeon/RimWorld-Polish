@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <!-- EN: FIXME: NOWA WERSJA Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
   <ConfirmGravEngineLaunch>Czy na pewno chcesz wystartować?\n\nTwoja obecna mapa oraz wszystko, co nie znajduje się na nadbudowie grawstatku, zostanie trwale utracone. Proces startu jest nieodwracalny, więc nie będziesz mógł wrócić.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>Ostrzeżenie</GravEngineWarning>
@@ -30,6 +30,19 @@
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>Ta nazwa jest nieprawidłowa.</PlayerGravshipNameIsInvalid>
 
+  <!-- EN: Force visitors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>TODO</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>TODO</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>TODO</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>TODO</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>TODO</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>TODO</GravshipBoardColonyMechsTooltip>
+
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0} są wrogo nastawieni. Jeśli tu wylądujesz, zaatakują cię.</ConfirmLandOnHostileFactionBase>
   <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
@@ -39,21 +52,21 @@
   <ConfirmLand>Wylądować tutaj mimo wszystko?</ConfirmLand>
 
   <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
-  <OrbitalWarning>Lokalizacje orbitalne są niebezpieczne. Upewnij się, że jesteś przygotowany:\n - Wyposaż swoich kolonistów w vackombinezony lub inne zaawansowane pancerze.\n - Zaplanuj powrót. Długotrwałe przebywanie na orbicie jest wyjątkowo trudne.</OrbitalWarning> <!-- text_todo -->
+  <OrbitalWarning>Lokalizacje orbitalne są niebezpieczne. Upewnij się, że jesteś przygotowany:\n - Wyposaż swoich kolonistów w vackombinezony lub inne zaawansowane pancerze.\n - Zaplanuj powrót. Długotrwałe przebywanie na orbicie jest wyjątkowo trudne.</OrbitalWarning>
   <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
-  <OrbitalWarning_Gravship>Przygotuj swój grawstatek do orbity:\n- Używaj szczelnych ścian i drzwi.\n- Upewnij się, że pomieszczenia są dobrze ogrzewane i całkowicie zadaszone.\n- Zbuduj pompy tlenowe.</OrbitalWarning_Gravship> <!-- text_todo -->
+  <OrbitalWarning_Gravship>Przygotuj swój grawstatek do orbity:\n- Używaj szczelnych ścian i drzwi.\n- Upewnij się, że pomieszczenia są dobrze ogrzewane i całkowicie zadaszone.\n- Zbuduj pompy tlenowe.</OrbitalWarning_Gravship>
   <!-- EN: Warning -->
-  <OrbitalWarning_Warning>Ostrzeżenie</OrbitalWarning_Warning> <!-- text_todo -->
+  <OrbitalWarning_Warning>Ostrzeżenie</OrbitalWarning_Warning>
   <!-- EN: Some exterior walls or doors are not airtight. -->
-  <OrbitalWarning_Vacuum>Niektóre ściany zewnętrzne lub drzwi nie są hermetyczne.</OrbitalWarning_Vacuum> <!-- text_todo -->
+  <OrbitalWarning_Vacuum>Niektóre ściany zewnętrzne lub drzwi nie są hermetyczne.</OrbitalWarning_Vacuum>
   <!-- EN: No functional heat sources. -->
-  <OrbitalWarning_NoHeatSources>Brak działających źródeł ciepła.</OrbitalWarning_NoHeatSources> <!-- text_todo -->
+  <OrbitalWarning_NoHeatSources>Brak działających źródeł ciepła.</OrbitalWarning_NoHeatSources>
   <!-- EN: Few functional heat sources -->
-  <OrbitalWarning_FewHeatSources>Niewiele działających źródeł ciepła.</OrbitalWarning_FewHeatSources> <!-- text_todo -->
+  <OrbitalWarning_FewHeatSources>Niewiele działających źródeł ciepła.</OrbitalWarning_FewHeatSources>
   <!-- EN: No functional oxygen pumps. -->
-  <OrbitalWarning_NoOxygenPumps>Brak działających pomp tlenowych.</OrbitalWarning_NoOxygenPumps> <!-- text_todo -->
+  <OrbitalWarning_NoOxygenPumps>Brak działających pomp tlenowych.</OrbitalWarning_NoOxygenPumps>
   <!-- EN: Few functional oxygen pumps -->
-  <OrbitalWarning_FewOxygenPumps>Niewiele działających pomp tlenowych.</OrbitalWarning_FewOxygenPumps> <!-- text_todo -->
+  <OrbitalWarning_FewOxygenPumps>Niewiele działających pomp tlenowych.</OrbitalWarning_FewOxygenPumps>
 
   <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
   <ConfirmShuttleNotEnoughFuelToReturn>Transportowiec nie ma wystarczająco paliwa, by wrócić z tego miejsca. Może utknąć.\n\nObecnie masz {0} paliwa, ale potrzebujesz {1} do lotu powrotnego.\n\nCzy na pewno chcesz kontynuować?</ConfirmShuttleNotEnoughFuelToReturn>
