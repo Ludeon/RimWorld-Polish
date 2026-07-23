@@ -9,12 +9,19 @@ Pobierz aktualną wersję tłumaczenia:
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 
 # Instrukcje dla tłumaczy:  
-Wskazówki ogólne: 
 * Przede wszystkim, zajrzyj na serwer Discord. Mamy tam dokładny stan tłumaczenia, co robić - a co nie, najrozmaitsze rady i wskazówki.
-* \Notes\Podręczny słownik.md - Warto korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
-  
+### Wskazówki ogólne: 
+* Zajrzyj do folderu "Notes" - znajdziesz tam:
+  - Podręcznik.md – Najważniejsze rzeczy dotyczące tłumaczenia.
+  - Słownik.md –  Warto korzystać, żeby nie głowić się nad czymś, co już jest przetłumaczone.  
+  - Indeks problemów.md – Opis napotkanych problemów, wraz z rozwiązaniami dla innych tłumaczy.
+* w tym pliki dotyczące generatora zdań i nazw losowych:
+  - RulePack - Przypadki i Rodzaje.md
+  - RulePack - Płeć.md  
+Warto zajrzeć, ponieważ edytowanie plików generatora tekstu potrafi być nieintuicyjne.
+
 Co tłumaczyć:  
-* Pliki skryptów takie jak Tale, RulePack czy Scripts używane do tworzenia randomizowanych historii.
+* Pliki generatora tekstu takie jak Tale, RulePack czy Scripts używane do tworzenia randomizowanych historii.
 * DLC, przede wszystkim Biotech.
 * Robić proofreading.
 
