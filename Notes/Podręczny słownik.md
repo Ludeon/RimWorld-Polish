@@ -1,5 +1,6 @@
+```
 Przetłumaczony (Oryginalny)
-  
+```
   
 # Wyrazy których nie tłumaczymy (Ewentualnie, dajemy polskie końcówki.)
 * RimWorld (Oraz nazwy DLC!)
