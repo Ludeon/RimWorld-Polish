@@ -1,11 +1,11 @@
 Tutorialik generatora nazw frakcji oraz innych, jak to się robi.
 
-Pliki można nazywać jak się chcę, ale trzeba potem trzymać się tych nazw.
+Pliki można nazywać jak się chce, ale trzeba potem trzymać się tych nazw.
 
 * Mas = Masculine = Męski      = czerwony
 * Fem = Feminine  = Żeński     = czerwona
 * Neu = Neuter    = Nijaki     = czerwone
-* Gen = Genetive  = Dopełniacz = kiszka -> kiszek
+* Gen = Genitive  = Dopełniacz = kiszka -> kiszek
 
 ```XML
 <li>r_name(p=0.4)->The Eaters of [Gore]</li>
