@@ -20,25 +20,65 @@
     <li>hidingFrom(gameCondition==PsychicSuppression)->a hostile machine persona whom [joiner_pronoun] recently awoke</li>
     <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] joins you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
-  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription(joiner_gender==Male)->[joiner_age]-letni [joiner_title] o imieniu [joiner_nameFull] prosi o pomoc! [joiner_nameDef] ukrywa się przed [hidingFrom]. Chce uciec i dołączyć do [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nDesperacko chcąc pozostać w ukryciu, [joiner_nameDef] twierdzi, że nie jest w stanie powiedzieć ci więcej o sobie.</li>
+    <li>questDescription(joiner_gender==Female)->[joiner_age] letnia [joiner_title] o imieniu [joiner_nameFull] prosi o pomoc! [joiner_nameDef] ukrywa się przed [hidingFrom]. Chce uciec i dołączyć do [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nDesperacko chcąc pozostać w ukryciu, [joiner_nameDef] twierdzi, że nie jest w stanie powiedzieć ci więcej o sobie.</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->stadem wygłodniałych wilków</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Jednakże, [joiner_nameDef] może zabić wilki jedynie podpalając ogromne składowisko toksycznych substancji chemicznych w pobliżu. Nastąpi [gameConditionDuration_duration] toksycznego opadu.</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->bandą kanibali</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Jednak [joiner_nameDef] może zabić gang jedynie podpalając ogromną stertę śmieci. Jeśli [joiner_pronoun] dołączy do ciebie, dymne opary zablokują słońce na [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==EMIField)->grupą mechanoidów</li>
+    <li>condDesc(gameCondition==EMIField)->Jednak [joiner_nameDef] może zniszczyć mechanoidy tylko poprzez aktywację starożytnego dynamo EMI. Jeśli [joiner_pronoun] dołączy do ciebie, pole EMI zostanie wygenerowane, wyłączając urządzenia elektryczne na [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==HeatWave)->wadliwie działającym satelitą kontroli klimatu</li>
+    <li>condDesc(gameCondition==HeatWave)->Jeśli [joiner_nameDef] dołączy do ciebie, wywoła intensywną fale ciepła, która będzie trwała przez [gameConditionDuration_duration], czyli aż satelita się zresetuje.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->wadliwie działającym satelitą kontroli klimatu</li>
+    <li>condDesc(gameCondition==ColdSnap)->Jeśli [joiner_nameDef] dołączy do ciebie, wywoła intensywną fale zimna, która będzie trwała przez [gameConditionDuration_duration], czyli aż satelita się zresetuje.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->wadliwie działającym satelitą kontroli pogody</li>
+    <li>condDesc(gameCondition==WeatherController)->Jeśli [joiner_nameDef] dołączy do ciebie, pogoda będzie [forcedWeather_label] przez [gameConditionDuration_duration], czyli aż satelita się zresetuje.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->mściwą personą z maszyny, która ostanio zosatała obrażona przez [joiner_nameDef]</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Jeśli [joiner_nameDef] dołączy do ciebie, maszyna nasyci [map_definite] psychicznym brzęczeniem na poziomie [psychicDroneLevel] przez [gameConditionDuration_duration], obniżając nastrój wszystkich [psychicDroneGender].</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->wrogą personą maszyny, którą niedawno obudził [joiner_nameDef]</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Jeśli [joiner_nameDef] dołączy do ciebie, persona uderzy w [map_definite] psychicznymi falami tłumiącymi przez [gameConditionDuration_duration], zmniejszając świadomość wszystkich [psychicSuppressorGender].</li>
+  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] and the [gameCondition_label]</li>
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
-  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+    <li>questName->[gameCondition_label]</li>
+    <li>questName->[joiner_nameDef] i [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] oraz [joiner_nameDef]</li>
+    <li>questName(joiner_gender==Female)->[joiner_nameDef] i jej [gameCondition_label]</li>
+    <li>questName(joiner_gender==Male)->[joiner_nameDef] i jego [gameCondition_label]</li>
+  </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, (*Threat)an infestation of [hivesCount] hives(/Threat) will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
-  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription(joiner_gender==Male)->[joiner_age]-letni [joiner_title] o imieniu [joiner_nameDef] dzwoni z okolicy. [joiner_nameDef] mówi że zatruł podziemną kolonię owadów, ale teraz jest przesiąknięty ich feromonowami, dzięki temu go wyczuwają i na niego polują!\n\nBłaga o zapewnienie bezpieczeństwa i oferuje dołączenie do [map_definite].[joiner_relationInfo]\n\nJeśli zaakceptujesz, (*Threat)plaga [hivesCount] uli(/Threat) przybędzie w ciągu [infestationDelayTicks_duration].\n\n[joiner_nameDef] jest zbyt spanikowany, by podać więcej informacji.</li>
+    <li>questDescription(joiner_gender==Female)->[joiner_age]-letnia [joiner_title] o imieniu [joiner_nameDef] dzwoni z okolicy. [joiner_nameDef] mówi że zatruła podziemną kolonię owadów, ale teraz jest przesiąknięta ich feromonowami, dzięki temu ją wyczuwają i na nią polują!\n\nBłaga o zapewnienie bezpieczeństwa i oferuje dołączenie do [map_definite].[joiner_relationInfo]\n\nJeśli zaakceptujesz, (*Threat)plaga [hivesCount] uli(/Threat) przybędzie w ciągu [infestationDelayTicks_duration].\n\n[joiner_nameDef] jest zbyt spanikowana, by podać więcej informacji.</li>
+    <li>questDescription(joiner_gender==Neuter)->[joiner_age]-letnie [joiner_title] o imieniu [joiner_nameDef] dzwoni z okolicy. [joiner_nameDef] mówi że zatruła podziemną kolonię owadów, ale teraz jest przesiąknięta ich feromonowami, dzięki temu ją wyczuwają i na nią polują!\n\nBłaga o zapewnienie bezpieczeństwa i oferuje dołączenie do [map_definite].[joiner_relationInfo]\n\nJeśli zaakceptujesz, (*Threat)plaga [hivesCount] uli(/Threat) przybędzie w ciągu [infestationDelayTicks_duration].\n\n[joiner_nameDef] jest zbyt spanikowana, by podać więcej informacji.</li>
+  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
     <li>questName->[joiner_nameDef]'s hives</li>
     <li>questName->[joiner_nameDef]'s bugs</li>
     <li>questName->[joiner_nameDef]'s insects</li>
   -->
-  <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] i inwazja</li>
+    <li>questName->[joiner_nameDef] i ule</li>
+    <li>questName->[joiner_nameDef] oraz insekty</li>
+    <li>questName->[joiner_nameDef] i wielki rój</li>
+    <li>questName(joiner_gender==Male)->[joiner_nameDef] i jego inwazja</li>
+    <li>questName(joiner_gender==Male)->[joiner_nameDef] i jego mały rój</li>
+    <li>questName(joiner_gender==Male)->[joiner_nameDef] oraz jego insekty</li>
+    <li>questName(joiner_gender==Female)->[joiner_nameDef] i jej inwazja</li>
+    <li>questName(joiner_gender==Female)->[joiner_nameDef] i jej mały rój</li>
+    <li>questName(joiner_gender==Female)->[joiner_nameDef] oraz jej insekty</li>
+  </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
   <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>TODO</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->

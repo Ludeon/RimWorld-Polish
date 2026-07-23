@@ -1,7 +1,20 @@
 Pliki generatora nazw akceptują dodatkowe zasady, nawet jeśli nie ma ich w angielskim tekście. Są to obecnie:
 (asker_gender==) Male, Female, (Neuter?)
-(animal==)...  
+  ⤷ Płeć questgivera.
+(joiner_gender==Male)
+  ⤷ Płeć questgivera (jeżeli jest uciekinierem/dezerterem).
+(animal==) Dog, Cat, ...
+  ⤷ Gatunek zwierzęcia.
+(animalCount==) 1, 2, 3, ...
+  ⤷ Liczba zwierząt.
+(askerIsNull==) true, false
+  ⤷ Sprawdza czy questgiver to konkretna postać, która może pojawić się w grze, np. John "Jan" Smith z frakcji Imperium (false) czy pozostaje niezdefiniowana np. "handlarz orbitalny" (true)
+(asker_royalInCurrentFaction==) True, False
+  ⤷ Sprawdza czy questgiver posiada tytuł szlachecki.
+(asker_factionLeader==)
+  ⤷ Sprawdza czy questgiver to lider frakcji.
 
+Nawiasy akceptują dowolny operator matematyczny, np. ==, >=, <=, itd.
 
 Dla przykładu, oryginał:
 ```
