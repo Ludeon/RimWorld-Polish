@@ -10,6 +10,8 @@
   <CannotLaunchNotEnoughFuel>za mało paliwa</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>nie można dotrzeć do tego miejsca</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
   <ConnectedSubstructure>połączona podkonstrukcja</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
@@ -56,16 +58,18 @@
   <GravshipBlockedBy>Zablokowane przez {0_label}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Nie można umieścić na obszarze pokrytym mgłą</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>TODO</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Nie można umieścić poza granicami mapy</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
   <GravshipInNoBuildArea>Nie można umieścić blisko krawędzi mapy</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>Nie można umieścić na zablokowanym obszarze</GravshipInBlockedArea> <!-- text_todo -->
+  <GravshipInBlockedArea>Nie można umieścić na zablokowanym obszarze</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>Nie można umieścić na: {0_label}</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>Musi być połączone z twardym podłożem</GravshipMustBeConnectedToLand> <!-- text_todo -->
+  <GravshipMustBeConnectedToLand>Musi być połączone z twardym podłożem</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>Potwierdź strefę lądowania, aby kontynuować</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
@@ -89,21 +93,29 @@
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>Maksymalnie na grawstatek</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>Niepołączone z grawstatkiem</ShieldNotConnectedToGravship> <!-- text_todo -->
+  <ShieldNotConnectedToGravship>Niepołączone z grawstatkiem</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>Start grawstatku przerwany</GravshipLaunchInterrupted> <!-- text_todo -->
+  <GravshipLaunchInterrupted>Start grawstatku przerwany</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
   <NotConnectedToGravEngine>Nie połączono z silnikiem grawitacyjnym.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
-  <ThrusterNotFunctional>Nie działa</ThrusterNotFunctional> <!-- text_todo -->
+  <ThrusterNotFunctional>Nie działa</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
-  <ThrusterNotConnected>niepołączone z silnikiem grawitacyjnym</ThrusterNotConnected> <!-- text_todo -->
+  <ThrusterNotConnected>niepołączone z silnikiem grawitacyjnym</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>Zablokowany przez {0_label}</ThrusterBlockedBy> <!-- text_todo -->
+  <ThrusterBlockedBy>Zablokowany przez {0_label}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>Musi być na zewnątrz</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>Zablokowane przez podkonstrukcję</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>TODO</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>TODO</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>TODO</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -144,7 +156,7 @@
   <CannotSelectOrbitReason>Nie odnaleziono orbitalnych lokalizacji.</CannotSelectOrbitReason>
   <!-- EN: Dying from vacuum exposure -->
   <DyingBecauseExposedToVacuum>Umiera z powodu ekspozycji na próżnię</DyingBecauseExposedToVacuum>
-  <!-- EN: Stellite with traces of {RESOURCE_label} -->
+  <!-- EN: Vacstone with traces of {RESOURCE_label} -->
   <TracesOfPreciousResource>Skała próżniowa ze śladami: {RESOURCE_label}</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
   <TransportPodDestinationRequiresSignalJammer>Wymaga zagłuszacza sygnału</TransportPodDestinationRequiresSignalJammer>
@@ -164,12 +176,14 @@
   <Fishing>wędkarstwo</Fishing>
   <!-- EN: Cannot fish -->
   <CannotFish>Nie można łowić</CannotFish>
-  <!-- EN: Blocked -->
-  <FishingSpotBlocked>Zablokowane</FishingSpotBlocked>
-  <!-- EN: Frozen -->
-  <FishingSpotFrozen>Zamarznięte</FishingSpotFrozen>
-  <!-- EN: Below minimum fish population -->
-  <FishingSpotUnderTargetPopulation>Poniżej minimalnej populacji ryb</FishingSpotUnderTargetPopulation>
+  <!-- EN: blocked -->
+  <FishingSpotBlocked>zablokowane</FishingSpotBlocked>
+  <!-- EN: frozen -->
+  <FishingSpotFrozen>zamarznięte</FishingSpotFrozen>
+  <!-- EN: below minimum fish population -->
+  <FishingSpotUnderTargetPopulation>poniżej minimalnej populacji ryb</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>TODO</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Wędkowanie</TabFishing>
   <!-- EN: Fish population -->
@@ -221,7 +235,7 @@
   <!-- EN: equip outfit -->
   <SwapOutfit>zamień strój</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>załóż strój...</SwapOutfitGizmo> <!-- text_todo -->
+  <SwapOutfitGizmo>załóż strój...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
   <SwapOutfitDesc>Rozkaż kolonistce założyć całą odzież ze stojaka. Kolonista odłoży każdą nieużywaną odzież na stojak.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
@@ -255,7 +269,7 @@
   <CerebrexCoreOption_Postpone>Odłóż na później</CerebrexCoreOption_Postpone>
   <!-- EN: Stabilizers remaining -->
   <StabilizersRemaining>Pozostałe stabilizatory</StabilizersRemaining>
-  <!-- EN: Producing mechanoids. -->
+  <!-- EN: Gestating mechanoids. -->
   <ProducingMechanoids>Produkuje mechanoidy.</ProducingMechanoids>
 
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
@@ -281,6 +295,8 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Unikatowa broń</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>TODO</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
   <ConfirmLoseShuttle>Zmiana formacji karawany będzie oznaczać porzucenie twojego promu. Czy na pewno chcesz kontynuować?\n\nAby odlecieć z promem, wybierz prom, a następnie wybierz „start”.</ConfirmLoseShuttle>
 
@@ -297,12 +313,16 @@
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>Atakuj</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
+  <!-- EN: Command this animal to attack a specific target. -->
   <AnimalAttackTargetDesc>Rozkaż temu zwierzęciu zaatakować konkretny cel widoczny dla właściciela.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Zwierzęta atakują cel</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>Wskaż wszystkim wyszkolonym zwierzętom, by zaatakowały wybrany cel.</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>TODO</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>TODO</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>To zwierzę nie ma właściciela</NoMaster>
   <!-- EN: This animal's master is not on this map -->
@@ -318,18 +338,10 @@
   <!-- EN: Allow digging -->
   <DigEnabled>Pozwól na kopanie</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Uszczelnienie wejścia do starożytnego magazynu jest trwałe. Wszystko lub wszyscy pozostawieni na dole przepadną na zawsze.\n\nCzy na pewno chcesz kontynuować?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>Nie można uszczelnić</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>Zapieczętowano</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>Trwale zapieczętowane.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Odblokowane.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>Krótkotrwała powierzchnia odpychacza pędu, która blokuje pociski. Działa przeciwko zwykłym strzałom i moździerzom. Zostaje natychmiast wyłączona po trafieniu przez EMP.</GravshipShieldTip> <!-- text_todo -->
+  <GravshipShieldTip>Krótkotrwała powierzchnia odpychacza pędu, która blokuje pociski. Działa przeciwko zwykłym strzałom i moździerzom. Zostaje natychmiast wyłączona po trafieniu przez EMP.</GravshipShieldTip>
 
 </LanguageData>

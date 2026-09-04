@@ -1,32 +1,65 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>Bazowy interwał</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>Średni czas między ucieczkami. Na ten współczynnik mają wpływ: siła uwięzienia, typ istoty, zdolność poruszania się istoty i czas trwania uwięzienia istoty. Niektóre istoty są również osłabiane przez zimno.</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
   <TabEntity>Istota</TabEntity>
+  <!-- EN: Study interval -->
   <StudyInterval>Interwał badań</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
   <StudyIntervalDesc>Jak często ta istota może być badana.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
   <EntityStudyMode_MaintainOnly>Tylko utrzymanie</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
   <EntityStudyMode_MaintainOnlyDesc>Strażnicy nie będą wykonywać specjalnych działań na tej istocie, ale inne interakcje są nadal dostępne.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
   <EntityStudyMode_Study>Badania</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
   <EntityStudyMode_StudyDesc>Naukowcy będą badać tę istotę.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
   <EntityStudyMode_Release>Wypuść</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
   <EntityStudyMode_ReleaseDesc>Strażnik uwolni istotę z platformy do przetrzymywania. Po uwolnieniu istoty mogą być wrogo nastawione.</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
   <EntityStudyMode_Execute>Egzekucja</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
   <EntityStudyMode_ExecuteDesc>Strażnik dokona egzekucji uwięzionej istoty.</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>TODO</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>TODO</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>TODO</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>TODO</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
   <CantBeExecuted>Nie można przeprowadzić egzekucji.</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>Zdobywanie wiedzy</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
   <StudyKnowledgeGainDesc>Ilość zdobytej wiedzy na każdy interwał badań. Silniejsze uwięzienie pomaga badaczowi skupić się na badaniu zamiast na bezpieczeństwie, dzięki czemu zyskuje więcej wiedzy.</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>Jaki rodzaj leku można podać tej istocie.</MedicineQualityDescriptionEntity>
 
+  <!-- EN: Electroharvester -->
   <FactorForElectroharvester>Elektrokolektor</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
   <FactorForDaysInCaptivity>Długa niewola</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
   <FactorForColdCaptivity>Premia za przetrzymywanie w zimnie</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
   <IncapableOfEscaping>Niezdolność do ucieczki</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
   <EntityDowned>Istota powalona</EntityDowned>
+  <!-- EN: Containment strength -->
   <FactorContainmentStrength>Siła uwięzienia</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
   <FactorElectroharvester>Elektrokolektor</FactorElectroharvester>
+  <!-- EN: Activity -->
   <FactorActivity>Aktywność</FactorActivity>
 
 </LanguageData>

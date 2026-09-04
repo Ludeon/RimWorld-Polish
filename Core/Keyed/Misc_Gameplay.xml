@@ -276,7 +276,7 @@
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} do czasu przybycia wrogów</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <!-- EN: FIXME: NOWA WERSJA Enemies have learned of your location. They will arrive in {0}. -->
   <CaravanDetectedRaidCountdownTip>Posiłki wroga pojawią się na tym obszarze za {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
@@ -284,10 +284,14 @@
   <BeautyHere>Tutejsze piękno</BeautyHere>
   <!-- EN: no power -->
   <NoPower>Brak prądu</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>TODO</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Kara do szybkości pracy</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Wyłączone</DisabledCommand>
+  <!-- EN: Deactivated -->
+  <Deactivated>Zdezaktywowany.</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Gotowe do startu.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -295,11 +299,13 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>brak portu paliwowego</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>brak paliwa</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <TransportPodInGroupHasSomethingLeftToLoad>załadunek w trakcie</TransportPodInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Poza maksymalnym zasięgiem</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Niewystarczająca ilość paliwa</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -344,6 +350,10 @@
   <Products>Produkty</Products>
   <!-- EN: Requires -->
   <Requires>Wymaga</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>TODO</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x dowolny z</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -366,10 +376,14 @@
   <RideableAnimalsPerPeople>Zwierzęta / ludzie, którymi można jeździć</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Mnożnik z ujeżdżanych zwierząt</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Mnożnik dla przewożonej masy: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Na tym zwierzęciu można jeździć. Ludzie w karawanie będą jeździć na najszybszych dostępnych zwierzętach, poprawiając prędkość karawany jako całości.</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>TODO</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Ta karawana nie może się przemieszczać, ponieważ niesie za dużo.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -470,15 +484,15 @@
   <ViewHyperlink>Zobacz: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detonacja za {0} dni</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged. -->
+  <!-- EN: Large explosion if damaged. -->
   <ExplosionOnDamageWarning>Duża ognista eksplozja w przypadku uszkodzenia</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Gromada mechów</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Wytworzenie za {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
+  <!-- EN: {0} gestation completes in {1}. -->
   <MechAssemblyCompleteIn>Montaż {0} będzie ukończony za {1}.</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
+  <!-- EN: Will gestate -->
   <MechAssemblyNextType>Zmontuje się</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>wyprodukowane</ThingsProduced>
@@ -566,6 +580,8 @@
   <RequiredTechprintTip>Wymaga</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>rozmiar</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>TODO</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>koszt</Cost>
   <!-- EN: Stunned by EMP -->
@@ -584,12 +600,14 @@
   <Investigate>Zbadaj</Investigate> 
   <!-- EN: Activate -->
   <Activate>Aktywuj</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>TODO</Deactivate>
   <!-- EN: Activation -->
-  <Activation>Aktywacja</Activation> 
+  <Activation>Aktywacja</Activation>
   <!-- EN: complete -->
   <Complete>ukończono</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>Musi być uwięziony.</RequiresImprisonment>
+  <RequiresImprisonment>Musi być uwięziony.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
   <HaulFromSource>TODO</HaulFromSource>
   <!-- EN: Use -->
@@ -610,6 +628,25 @@
   <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Czołganie do łóżka.</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>TODO</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>TODO</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>TODO</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>TODO</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>TODO</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>TODO</AddsNeeds>
+  <!-- EN: Disables need -->
+  <DisablesNeed>Wyłącz potrzebę</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>Wyłącz potrzeby</DisablesNeeds>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -778,6 +815,8 @@
   <!-- EN: Filth -->
   <Filth_Label>Nieczystości</Filth_Label>
   
+  <!-- EN: Features -->
+  <Features_Label>TODO</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Frakcja</Faction_Label>
   <!-- EN: Relationship -->
@@ -803,6 +842,8 @@
   <ApparelPreventsShooting>{PAWN_nameDef} nie może używać broni dystansowej z powodu {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>Nie można użyć w {0}</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1065,6 +1106,8 @@
   <PowerConsumptionHigh>wysokie</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>niskie</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>TODO</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1119,13 +1162,13 @@
   <GrowthRate>Tempo wzrostu</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Wyrośnie w pełni za {0}.</FullyGrownIn>
-  <!-- EN: Needs light level -->
-  <PlantNeedsLightLevel>Potrzebuje poziomu światła</PlantNeedsLightLevel>
-  <!-- EN: Resting -->
-  <PlantResting>Odpoczywa</PlantResting>
-  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
+  <!-- EN: needs light level -->
+  <PlantNeedsLightLevel>potrzebuje poziomu światła</PlantNeedsLightLevel>
+  <!-- EN: resting -->
+  <PlantResting>odpoczywa</PlantResting>
+  <!-- EN: FIXME: NOWA WERSJA temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>Niekorzystna temperatura. Mnożnik wzrostu: {0}%</OutOfIdealTemperatureRange>
-  <!-- EN: Non-ideal temperature. Not growing. -->
+  <!-- EN: FIXME: NOWA WERSJA out of temperature growth range -->
   <OutOfIdealTemperatureRangeNotGrowing>Niekorzystna temperatura. Nie rośnie.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Gotowe do zbioru.</ReadyToHarvest>
@@ -1149,6 +1192,8 @@
   <Blighted>Zarażone</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Usycha z powodu działania światła słonecznego</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Wytnij teraz</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1165,8 +1210,12 @@
   <Zone>Strefa</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Pole uprawne</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>TODO</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Składowisko</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>TODO</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Wysypisko</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1209,7 +1258,7 @@
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
   <ShowLearningHelperWhenEmptyToggleButton>Przełącz widoczność samouczka, kiedy jest pusty.\n\nSamouczek jest zawsze widoczny, jeśli istnieje coś aktywnego do nauki. Ten przełącznik sprawia, że samouczek przestaje być widoczny, gdy nie ma aktywnego konceptu.</ShowLearningHelperWhenEmptyToggleButton>
-  <!-- EN: Toggle visiblity of zones. -->
+  <!-- EN: Toggle visibility of zones. -->
   <ZoneVisibilityToggleButton>Przełącz widoczność stref.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>Przełącz wskaźnik piękna.\n\nWyświetla piękno świata, które będzie postrzegane przez postać stojącą tam, gdzie wskazuje kursor myszy.</ShowBeautyToggleButton>
@@ -1237,8 +1286,10 @@
   <LockNorthUpToggleButton>Zablokuj obrót kamery w taki sposób, aby północ była zawsze u góry.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Przełącz dzienny/nocny system oświetlenia w widoku planety.</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Przełącz wyświetlanie rozwijalnych ikon, zamiast zwykłych ikon dla odległych obiektów.</ShowExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
+  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
+  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Przełącz widoczność nazw form terenu.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1431,14 +1482,16 @@
   <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
-  <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Brak kolonii</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>TODO</NoWandererDestination>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1583,6 +1636,8 @@
   <OutfitSoldier>Żołnierz</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Nudysta</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>TODO</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1627,11 +1682,9 @@
   <Reward_Pawn_WalkIn>{0_age} letn{PAWN_gender ? i : ia} {0_title} o imieniu {0_nameDef} przybędzie i dołączy do Ciebie {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age} letn{PAWN_gender ? i : ia} {0_title} o imieniu {0_nameDef} dołączy do Ciebie {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>kapsuły transportowe przybędą z następującymi zasobami (łączna wartość {1}):\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>otrzymasz (łączna wartość {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>Twoje relacje frakcji z {0_name} poprawią się o {1}</Reward_Goodwill>
@@ -1644,9 +1697,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Łupy z obozu</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown> 
+  <Reward_Unknown>TODO</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>Nieznane</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Nieznane</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>odwiedzający będą pracować i walczyć dla Ciebie</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1693,10 +1746,12 @@
   <BiocodedCodedForSomeoneElse>biokodowany</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1} -->
+  <!-- EN: Intercepts {0} every {1}. -->
   <InterceptsProjectilesEvery>Przechwytuje {0} co {1}</InterceptsProjectilesEvery>
-  <!-- EN: Intercepts {0} -->
+  <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Przechwytuje {0}</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>pociski naziemne</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1779,9 +1834,9 @@
   <DragPawnsToRolesInfoController>Przeciągnij i upuść lub kliknij, aby przenieść ludzi.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Niewolnik. Własność ludzka innych.</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
+  <!-- EN: FIXME: NOWA WERSJA {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
   <RitualBeginSleepingDesc>{0_labelShort} śpi. Jeśli zostanie uwzględnion{0_gender ? y : a} w rytuale, obudzi się, aby wziąć w nim udział.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
+  <!-- EN: FIXME: NOWA WERSJA Some of the selected participants are sleeping. They will wake up once you start the event. -->
   <RitualBeginSleepingWarning>Niektórzy z wybranych uczestników śpią. Obudzą się, gdy rozpoczniesz rytuał.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tę pozycję najlepiej wykonuje kolonista pełniący rolę społeczną '{0}'.\n\nJeśli ktoś bez tej roli zajmie tę pozycję, nie otrzymasz następującej(-ych) premii</RitualRoleRequiresSocialRole>
@@ -1833,8 +1888,6 @@
   <RitualPredictedOutcomeDescPawnStat>{1} {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Piękno pokoju</RitualPredictedOutcomeDescRoomBeauty>
-  <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>Uczestnicy</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Oczekiwania {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
@@ -1942,7 +1995,7 @@
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>Gotowość następnej przemowy za</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>Rozpoczęto o</AbilitySpeechTargetsLabel>
+  <AbilitySpeechTargetsLabel>Rozpoczęto w</AbilitySpeechTargetsLabel>
   
   <!-- Books -->
 
@@ -2003,7 +2056,8 @@
   <CommandPushTo>TODO</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>wymaga {0}</RequiredCapacity>
-  
+
+  <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>TODO</UnableToEnterPortal>
 
@@ -2023,6 +2077,8 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>TODO</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
@@ -2032,8 +2088,111 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>zablokowany przez dach</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>TODO</BlockedByTerrain>
+
+  <!-- Craters -->
+  <!-- EN: Fill in -->
+  <DesignatorFillIn>Wypełnij</DesignatorFillIn>
+  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
+  <DesignatorFillInDesc>Wypełnij wykop.</DesignatorFillInDesc>
+
+  <!-- Hacking -->
+  <!-- EN: Hack progress -->
+  <HackProgress>Progres hakowania</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>Szybkość hakowania</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>{0}</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>zhakowany</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>Zhakowane terminale</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>TODO</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>TODO</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>TODO</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>TODO</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>TODO</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>TODO</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+
+  <!-- Pocket maps -->
+  <!-- EN: Enter {0} -->
+  <EnterPortal>Wejdź do {0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>Wchodzenie do {0}</EnteringPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>Wybierz ludzi oraz przedmioty by wejść do {0}.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>Anuluj wchodzenie</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>Anuluj wpowadzenie ludzi lub przedmiotów do tego.</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>TODO</ExitPortal>
+
+  <!-- CompProjectileInterceptor -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>Energia tarczy</ShieldEnergy>
+  <!-- EN: Shield cooldown -->
+  <ShieldTimeToRecovery>Czas na odnowienie</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>TODO</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>Osłona nisko-kątowa będzie próbowała zatrzymać przelatujące pociski i odłamki. Wyłącza się natychmiast po trafienia przez EMP.</ProjectileInterceptorTip>
+
+  <!-- EN: max {0} -->
+  <MaxOf>TODO</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>TODO</GuildTradeShipName>
   
   <!-- UNUSED -->
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>brak paliwa</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>załadunek w trakcie</TransportPodInGroupHasSomethingLeftToLoad>
+  <ShowExpandingIconsToggleButton>Przełącz wyświetlanie rozwijalnych ikon, zamiast zwykłych ikon dla odległych obiektów.</ShowExpandingIconsToggleButton>
+  <RitualPredictedOutcomeDescParticipantCount>Uczestnicy</RitualPredictedOutcomeDescParticipantCount>
   <RadiusExpandRate>Promień prędkości rozszerzania</RadiusExpandRate>
   <GameOverKeepPlaying>Gram dalej</GameOverKeepPlaying>
   <HealingCureHediff>{0_nameDef} {1} zosta{0_gender ? ł : ła} wyleczon{0_gender ? y : a}.</HealingCureHediff>

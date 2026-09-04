@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: drop pod -->
+  <ActiveDropPodAncient.label>TODO</ActiveDropPodAncient.label>
+  
   <!-- EN: ancient blast door -->
   <AncientBlastDoor.label>starożytne drzwi pancerne</AncientBlastDoor.label>
   <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
@@ -14,7 +17,7 @@
   
   <!-- EN: ancient explosives crate -->
   <AncientExplosivesCrate.label>starożytna skrzynia z materiałami wybuchowymi</AncientExplosivesCrate.label>
-  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: FIXME: NOWA WERSJA A container of ancient mining charges. It will explode if damaged. -->
   <AncientExplosivesCrate.description>Pojemnik ze starożytnymi ładunkami górniczymi. Eksploduje, jeśli zostanie uszkodzony.\n\nWybuch jest na tyle potężny, że przebija się przez ściany.</AncientExplosivesCrate.description>
   
   <!-- EN: fortified wall -->
@@ -58,6 +61,18 @@
   <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} zakończył hakowanie {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>Włam się, aby otworzyć.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>TODO</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>TODO</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>TODO</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>TODO</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>TODO</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>TODO</AncientHatch.comps.CompSealable.sealedInspectString>
   
   <!-- EN: ancient stockpile exit -->
   <AncientHatchExit.label>starożytne wyjście ze składu</AncientHatchExit.label>
@@ -66,7 +81,7 @@
   
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>starożytny ładunek górniczy</AncientMiningCharge.label>
-  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
   <AncientMiningCharge.description>Ładunek wybuchowy używany do szybkiego przebijania się przez skałę. Wykonany z rafinowanego chemipaliwa. Choć stary, nadal gotowy do detonacji.</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->
@@ -138,12 +153,14 @@
   <CerebrexCore.comps.CompCerebrexCore.jobString>oglądnij rdzeń</CerebrexCore.comps.CompCerebrexCore.jobString>
   
   <!-- EN: destroyed cerebrex core -->
-  <CerebrexCore_Destroyed.label>zniszczony rdzeń cerebrex</CerebrexCore_Destroyed.label>
-  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.\n\n\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes. -->
+  <CerebrexCore_Destroyed.label>zniszczony rdzeń cerebrexu</CerebrexCore_Destroyed.label>
+  <!-- EN: FIXME: NOWA WERSJA The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet. -->
   <CerebrexCore_Destroyed.description>Zrujnowany, neuralny nexus roju mechanoidów, który kiedyś dowodził mechanoidami na planecie.\n\n\n\nW sercu znajduje się rdzeń osobowości AI, który wie, myśli i wierzy, że musi zabić każdego człowieka na planecie. Z jednej strony jest to rozkaz wydany wieki temu przez ludzkiego dowódcę wojskowego, z drugiej jest to zimna, kipiąca nienawiść. Jeżeli wyzwolisz AI, możesz zresetować jej pragnienia i wykorzystać w innym celu.</CerebrexCore_Destroyed.description>
+  <!-- EN: Destroy for valuable resources. -->
+  <CerebrexCore_Destroyed.comps.CompInspectString.inspectString>TODO</CerebrexCore_Destroyed.comps.CompInspectString.inspectString>
   
   <!-- EN: cerebrex stabilizer -->
-  <CerebrexStabilizer.label>stabilizator cerebrex</CerebrexStabilizer.label>
+  <CerebrexStabilizer.label>stabilizator cerebrexu</CerebrexStabilizer.label>
   <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
   <CerebrexStabilizer.description>Zdalny generator osłon, który czyni pobliski rdzeń cerebrex niemal niezniszczalnym. Zniszczenie wszystkich stabilizatorów umożliwi bezpośredni dostęp do rdzenia cerebrex.\n\nUważaj, zniszczenie stabilizatora wywoła odpowiedź obronną.</CerebrexStabilizer.description>
   

@@ -17,7 +17,7 @@
 
   <!-- EN: Launch -->
   <CommandLaunchGravship>Startuj</CommandLaunchGravship>
-  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned. -->
+  <!-- EN: FIXME: NOWA WERSJA Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
   <CommandLaunchGravshipDesc>Wybierz kolonistę, który poprowadzi grawstatek. Wszystko znajdujące się na podkonstrukcji grawstatku zostanie przeniesione na nową mapę. Obecna mapa zostanie porzucona.</CommandLaunchGravshipDesc>
 
   <!-- EN: Allow fishing -->
@@ -26,9 +26,9 @@
   <CommandAllowFishDesc>Gdy wyłączone, koloniści nigdy nie będą łowić ryb w tej strefie.</CommandAllowFishDesc>
   
   <!-- EN: Allow removing items -->
-  <CommandAllowRemovingApparel>Zezwól na zdejmowanie przedmiotów</CommandAllowRemovingApparel> <!-- text_todo -->
-  <!-- EN: When disabled, haulers won’t remove items from the outfit stand and colonists won’t equip apparel unless ordered to do so. -->
-  <CommandAllowRemovingApparelDesc>Gdy wyłączone, tragarze nie będą zdejmować przedmiotów ze stojaka na ubrania, a koloniści nie założą odzieży, chyba że im to zostanie nakazane.</CommandAllowRemovingApparelDesc> <!-- text_todo -->
+  <CommandAllowRemovingApparel>Zezwól na zdejmowanie przedmiotów</CommandAllowRemovingApparel>
+  <!-- EN: FIXME: NOWA WERSJA When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>Gdy wyłączone, tragarze nie będą zdejmować przedmiotów ze stojaka na ubrania, a koloniści nie założą odzieży, chyba że im to zostanie nakazane.</CommandAllowRemovingApparelDesc>
 
   <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
   <CommandShuttleNoPilot>Żaden kolonista nie potrafi pilotować promu. Wymagana minimalna umiejętność pilotażu: 10%.</CommandShuttleNoPilot>
@@ -37,6 +37,16 @@
   <ConfirmLandGravship>Potwierdź strefę lądowania</ConfirmLandGravship>
   <!-- EN: Land your gravship in the landing zone. -->
   <ConfirmLandGravshipDesc>Wyląduj swoim grawstatkiem w wyznaczonej strefie.</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>TODO</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>TODO</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>TODO</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>TODO</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>TODO</GravshipLandingMarkerNotPlaced>
 
   <!-- EN: Refuel from cargo -->
   <CommandRefuelShuttleFromCargo>Uzupełnij paliwo z ładunku</CommandRefuelShuttleFromCargo>
@@ -49,11 +59,6 @@
   <!-- EN: Shuttle is already fully fueled -->
   <ShuttleFullyFueled>Prom jest już w pełni zatankowany</ShuttleFullyFueled>
 
-  <!-- EN: Seal entrance... -->
-  <SealHatch>Zapieczętuj wejście</SealHatch>
-  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
-  <SealHatchDesc>Trwale zapieczętuj wejście. Wszystko i wszyscy pozostawieni w środku zostaną utraceni na zawsze.</SealHatchDesc>
-
   <!-- EN: Activate -->
   <GravshipShieldOrderActivation>Aktywuj</GravshipShieldOrderActivation>
   <!-- EN: Deactivate -->
@@ -62,4 +67,8 @@
   <GravshipShieldOrderActivationDesc>Rozkaż pionkowi aktywować generator osłon grawstatku.</GravshipShieldOrderActivationDesc>
   <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
   <GravshipShieldOrderDeactivationDesc>Rozkaż pionkowi dezaktywować generator osłon grawstatku.</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>TODO</ConfirmMergeShuttles>
+
 </LanguageData>
