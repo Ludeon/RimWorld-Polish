@@ -15,6 +15,8 @@ Pliki generatora nazw akceptują dodatkowe zasady, nawet jeśli nie ma ich w ang
   ⤷ Sprawdza czy questgiver to lider frakcji.
 
 Nawiasy akceptują dowolny operator matematyczny, np. ==, >=, <=, itd.
+(animal==)...  
+
 
 Dla przykładu, oryginał:
 ```

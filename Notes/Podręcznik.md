@@ -67,7 +67,6 @@ Pracując nad tłumaczeniem możesz napotkać następujące tagi:
 
 Wycinek z TranslationReport.txt:
 ```
-========== Missing keyed translations (1) ==========
 UseGlobalStyle 'Use global style' (English file: Dialogs_Various.xml:10) (placeholder exists in Dialogs_Various.xml:16)
 ```
 ...kieruje on nas do pliku `Dialogs_Various.xml`, 16 linijka (nie musimy też kierować się tutaj raportem tłumaczenia — korzystając z Visual Studio Code wystarczy, że użyjemy Ctrl+Shift+F i wpiszemy "TODO" — wyszukiwarka pokaże nam wszystkie tego typu tagi w plikach tłumaczenia.)
@@ -90,7 +89,6 @@ Przetłumaczone :]
 
 Wycinek z TranslationReport.txt:
 ```
-========== Def-injected translations load errors (1337) ==========
 Found no RimWorld.AbilityDef named AnimaTreeLinking to match AnimaTreeLinking.label (Abilities.xml)
 ```
 
