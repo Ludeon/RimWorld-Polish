@@ -8,10 +8,14 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>letni(refugee_gender==Male)->letni</li>
-    <li>letni(refugee_gender==Female)->letnia</li>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] kontaktuje się z tobą i prosi o pomoc, ze względu na odniesione poważne rany i nie może się ruszać.\n\n[refugee_age] [letni] [refugee_nameIndef] [refugee_title]. Obiecuje dołączyć do ciebie, jeśli [refugee_objective] uratujesz.\n\n[refugee_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z [asker_faction_name], mówi, że jego przyjaciel został ranny podczas podróży. Ofiarą jest [refugee_age] [letni] [refugee_nameIndef] [refugee_title].\n\n[asker_nameDef] nie ma nikogo, kto mógłby uratować [refugee_nameIndef], ale mówi, że jeśli zdołasz dotrzeć do [refugee_nameIndef] i [refugee_objective] uratować , [refugee_pronoun] dołączy do ciebie.\n\n[asker_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] kontaktuje się z tobą i prosi o ratunek. [refugeeWounded].\n\n[refugee_nameDef] ma [refugee_age] lat (zajęcie: [refugee_title]). [refugee_nameDef] obiecuje dołączyć do kolonii po uratowaniu.\n\nWedług przekazanych informacji [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef] (tytuł: [asker_faction_leaderTitle], frakcja: [asker_faction_name]) prosi o pomoc. [friendWounded] podczas podróży. Chodzi o [refugee_nameDef] ([refugee_age] lat, [refugee_title]).\n\nZleceniodawca nie ma nikogo, kogo mógłby wysłać z pomocą. Jeśli dotrzesz do miejsca pobytu [refugee_nameDef] i przeprowadzisz akcję ratunkową, uratowany człowiek dołączy do twojej kolonii.\n\nWedług przekazanych informacji [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>refugeeWounded(refugee_gender==Male,priority=1)->Jest ranny i nie może się poruszać</li>
+    <li>refugeeWounded(refugee_gender==Female,priority=1)->Jest ranna i nie może się poruszać</li>
+    <li>refugeeWounded->Doznane obrażenia uniemożliwiają poruszanie się</li>
+    <li>friendWounded(refugee_gender==Male,priority=1)->Znajomy zleceniodawcy został ranny</li>
+    <li>friendWounded(refugee_gender==Female,priority=1)->Znajoma zleceniodawcy została ranna</li>
+    <li>friendWounded->Znajomy człowiek z otoczenia zleceniodawcy odniósł obrażenia</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
@@ -22,13 +26,14 @@
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Ratowanie [refugee_nameDef]</li>
-    <li>questName->Na ratunek [refugee_nameDef]</li>
-    <li>questName->Uratowanie [refugee_nameDef]</li>
+    <li>questName->Ratunek: [refugee_nameDef]</li>
+    <li>questName->Akcja ratunkowa: [refugee_nameDef]</li>
+    <li>questName->Uratowanie: [refugee_nameDef]</li>
+    <li>questName->Na ratunek: [refugee_nameDef]</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Zadanie wygasło: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>Sygnał [refugee_nameDef] został utracony, a [refugee_pronoun] nie można już uratować. Misja [resolvedQuestName] wygasła.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>Utracono sygnał od [refugee_nameDef]. Nie ma już możliwości przeprowadzenia akcji ratunkowej. Zadanie [resolvedQuestName] wygasło.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

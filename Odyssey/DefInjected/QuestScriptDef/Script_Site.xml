@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   
   <!-- EN:
@@ -24,8 +24,11 @@
   -->
   <SurveySite.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->Anonimowa SI prosi cię o pomoc w obronie sprzętu badawczego na odległym obszarze.\n\nOperacja badawcza potrwa od dziesięciu do piętnastu dni i będzie wymagać podróży do odległego miejsca.\n\nW zamian za pomoc, SI oferuje cenne urządzenie grawtech.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] słyszał(a) o twoim grawstatku. [asker_pronoun] chce zbadać odległy region i prosi cię o ochronę swojego sprzętu badawczego.\n\nOperacja badawcza potrwa od dziesięciu do piętnastu dni i będzie wymagać podróży do odległego miejsca.\n\nW zamian za twoje usługi, [asker_nameDef] oferuje cenne urządzenie grawtech.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name], prosi cię o ochronę swojej operacji badawczej. Jeśli to zrobisz, [asker_pronoun] sowicie cię wynagrodzi.\n\nOperacja badawcza potrwa od dziesięciu do piętnastu dni i będzie wymagać podróży do odległego miejsca.\n\nW zamian za twoją pomoc, [asker_nameDef] oferuje cenne urządzenie grawtech.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] [askerHeardPL] o twoim grawstatku. Chce zbadać odległy region i prosi o ochronę sprzętu pomiarowego.\n\nBadanie potrwa od dziesięciu do piętnastu dni i wymaga wyprawy do odległego miejsca.\n\nW zamian [asker_nameDef] oferuje cenne urządzenie grawitacyjne.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] frakcji [asker_faction_name], prosi o ochronę prowadzonej wyprawy badawczej i obiecuje sowitą nagrodę.\n\nBadanie potrwa od dziesięciu do piętnastu dni i wymaga wyprawy do odległego miejsca.\n\nW zamian [asker_nameDef] oferuje cenne urządzenie grawitacyjne.</li>
+    <li>askerHeardPL(asker_gender==Male,priority=1)->usłyszał</li>
+    <li>askerHeardPL(asker_gender==Female,priority=1)->usłyszała</li>
+    <li>askerHeardPL->słyszy</li>
   </SurveySite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Surveying [site]</li>
@@ -41,14 +44,14 @@
     <li>remote->Distant</li>
   -->
   <SurveySite.questNameRules.rulesStrings>
-    <li>questName->Badanie [site]</li>
-    <li>questName->[remote] Badanie</li>
+    <li>questName->Badanie: [site]</li>
+    <li>questName->[remote] badania</li>
     <li>questName(p=0.5)->Obrona skanera</li>
     <li>questName(p=0.5)->Zdalna ochrona</li>
-    <li>site->Miejsce</li>
-    <li>site->Stacja</li>
-    <li>site->Obrona</li>
-    <li>site->Operacja</li>
+    <li>site->stanowisko</li>
+    <li>site->stacja</li>
+    <li>site->obrona</li>
+    <li>site->operacja</li>
     <li>remote->Zdalne</li>
     <li>remote->Regionalne</li>
     <li>remote->Odległe</li>
@@ -62,6 +65,6 @@
   <!-- EN: Quest completed -->
   <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>Zadanie ukończone</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
-  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>Udało ci się pomyślnie ukończyć zadanie '[resolvedQuestName]'!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>Udało ci się ukończyć zadanie "[resolvedQuestName]"!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

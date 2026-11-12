@@ -11,17 +11,17 @@
   -->
   <MechanitorShip.questContentRules.rulesStrings>
     <li>mechanitorShuttleCrashedLetterLabel->Statek mechanitora</li>
-    <li>mechanitorShuttleCrashedLetterText->Niedaleko rozbił się statek mechanitora ze zdziczałymi mechanoidami. Mechanoidy za moment opuszczą rozbity statek i będą się przygotowywać do ataku.</li>
-    <li>assaultBeginLetterLabel->Machanoidy atakują</li>
-    <li>assaultBeginLetterText->Zdziczałe mechanoidy rozpoczynają atak na kolonię!</li>
-    <li>mechlinkAvailableLetterLabel->Mechlink jest dostępny</li>
-    <li>mechlinkAvailableLetterText->Rozbity statek zawierał zwłoki starożytnego mechanitora.\n\nAby wyciągniąć [mechanitor_possessive] mechlink wybierz kolonistę i kliknij zwłoki prawym przyciskiem myszy.</li>
+    <li>mechanitorShuttleCrashedLetterText->W pobliżu rozbił się statek mechanitora, na którego pokładzie znajdują się zdziczałe mechanoidy. Opuszczą wrak i przygotują się do walki.</li>
+    <li>assaultBeginLetterLabel->Atak mechanoidów</li>
+    <li>assaultBeginLetterText->Zdziczałe mechanoidy ruszają do ataku na kolonię!</li>
+    <li>mechlinkAvailableLetterLabel->Mechlink: [mechanitor_nameDef]</li>
+    <li>mechlinkAvailableLetterText->W rozbitym statku znajdują się zwłoki starożytnego mechanitora.\n\nAby wydobyć [mechanitor_possessive] mechlink, wybierz kolonistę i kliknij zwłoki prawym przyciskiem myszy.</li>
   </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Udało się odszyfrować starożytny transponder, tym samym ujawniając położenie statku mechanoidów na orbicie. Statek jest poważnie uszkodzony, ale jest w stanie wylądować w pobliżu, jeśli otrzyma sygnał.\n\nNa statku znajdują się zwłoki dawno zmarłego mechanitora. Mechanitorzy mogą tworzyć i kontrolować mechanoidy, które można wykorzystać w pracy i w walce.  Jeżeli wyciągniesz mechlink ze zwłok mechanitora możesz zmienić jednego ze swoich kolonistów w mechanitora.\n\nUważaj - na statku znajdują się również wrogie mechanoidy:\n\n[mechList]</li>
+    <li>questDescription->Udało ci się odszyfrować starożytny transponder, który ujawnił położenie statku mechanoidów na orbicie. Statek jest poważnie uszkodzony, ale możesz wysłać sygnał, który skłoni go do lądowania w pobliżu.\n\nNa pokładzie znajdują się szczątki mechanitora, który zmarł przed wiekami. Mechanitorzy potrafią tworzyć mechanoidy i sterować nimi, wykorzystując je do pracy i walki. Wydobycie mechlinku ze zwłok pozwoli ci uczynić jednego z twoich kolonistów mechanitorem.\n\nUważaj: na statku znajdują się również wrogie mechanoidy. W skład grupy wchodzą:\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -37,14 +37,19 @@
     <li>shipNoun->transport</li>
   -->
   <MechanitorShip.questNameRules.rulesStrings>
-    <li>questName->[shipNoun] [shipAdnominal]</li>
-    <li>questName->[shipAdjective] [shipNoun] [shipAdnominal]</li>
-    <li>shipAdjective->starożytny</li>
+    <li>questName->[shipNoun] [shipModifier]</li>
+
+    <li>shipModifier->mechanitora</li>
+    <li>shipModifier->nadzorcy</li>
+    <li>shipModifier->z dawnych czasów</li>
+    <li>shipModifier->mechanoidów</li>
+
     <li>shipNoun->statek</li>
+    <li>shipNoun->wahadłowiec</li>
+    <li>shipNoun->pojazd</li>
     <li>shipNoun->wrak</li>
-    <li>shipAdnominal->mechanitora</li>
-    <li>shipAdnominal->nadzorcy</li>
-    <li>shipAdnominal->mechanoidów</li>
+    <li>shipNoun->szczątki</li>
+    <li>shipNoun->transportowiec</li>
   </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

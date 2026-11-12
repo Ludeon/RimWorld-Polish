@@ -10,14 +10,19 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przerwę.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o przerwę.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] że potrzebuje więcej wolności.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef] że potrzebuje więcej wolności.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że to już nie działa</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że to już nie działa</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że najlepiej będzie spotykać się z kimś innym.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0024] postać [RECIPIENT_nameDef] o przerwę w związku.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0025] postaci [RECIPIENT_nameDef], że potrzebuje trochę czasu i przestrzeni dla siebie.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0025] postaci [RECIPIENT_nameDef], że ich związek się nie układa.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0026] postaci [RECIPIENT_nameDef], że najlepiej będzie spotykać się z innymi osobami.</li>
+    <li>plPlecAudyt_0024(INITIATOR_gender==Male,priority=1)->poprosił</li>
+    <li>plPlecAudyt_0024(INITIATOR_gender==Female,priority=1)->poprosiła</li>
+    <li>plPlecAudyt_0024->poprosił</li>
+    <li>plPlecAudyt_0025(INITIATOR_gender==Male,priority=1)->powiedział</li>
+    <li>plPlecAudyt_0025(INITIATOR_gender==Female,priority=1)->powiedziała</li>
+    <li>plPlecAudyt_0025->powiedział</li>
+    <li>plPlecAudyt_0026(INITIATOR_gender==Male,priority=1)->zasugerował</li>
+    <li>plPlecAudyt_0026(INITIATOR_gender==Female,priority=1)->zasugerowała</li>
+    <li>plPlecAudyt_0026->zasugerował</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -28,12 +33,18 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] spytał czy [RECIPIENT_nameDef] zostanie jego żoną.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] spytała czy [RECIPIENT_nameDef] zostanie jej mężem.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o rękę.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o rękę.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że chce spędzić resztę życia z [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0027] się postaci [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0028] postaci [RECIPIENT_nameDef] wspólne życie i trwały związek.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0029] postaci [RECIPIENT_nameDef], że pragnie wspólnie spędzić resztę życia.</li>
+    <li>plPlecAudyt_0027(INITIATOR_gender==Male,priority=1)->oświadczył</li>
+    <li>plPlecAudyt_0027(INITIATOR_gender==Female,priority=1)->oświadczyła</li>
+    <li>plPlecAudyt_0027->oświadczył</li>
+    <li>plPlecAudyt_0028(INITIATOR_gender==Male,priority=1)->zaproponował</li>
+    <li>plPlecAudyt_0028(INITIATOR_gender==Female,priority=1)->zaproponowała</li>
+    <li>plPlecAudyt_0028->zaproponował</li>
+    <li>plPlecAudyt_0029(INITIATOR_gender==Male,priority=1)->powiedział</li>
+    <li>plPlecAudyt_0029(INITIATOR_gender==Female,priority=1)->powiedziała</li>
+    <li>plPlecAudyt_0029->powiedział</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -101,56 +112,110 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] [wootactic].</li>
-    <li>wooed(wooed_gender==male)->próbował flirtować z</li>
-    <li>wooed(wooed_gender==female)->próbowała flirtować z</li>
-    <li>wooed(wooed_gender==male)->flirtował z</li>
-    <li>wooed(wooed_gender==female)->flirtowała z</li>
-    <li>wooed(wooed_gender==male)->próbował przyciągnąć</li>
-    <li>wooed(wooed_gender==female)->próbowała przyciągnąć</li>
-    <li>wooed(wooed_gender==male)->próbował romansować</li>
-    <li>wooed(wooed_gender==female)->próbowała romansować</li>
-    <li>wooed(wooed_gender==male)->próbował wabić</li>
-    <li>wooed(wooed_gender==female)->próbowała wabić</li>
-    <li>wooed(wooed_gender==male)->oczarowywał</li>
-    <li>wooed(wooed_gender==female)->oczarowywała</li>
-    <li>wooed->zaleca się do</li>
-    <li>wootactic->opowiadając historię o [TalkTopicAny]</li>
-    <li>wootactic->opowiadając ciekawostkę o [TalkTopicAny]</li>
-    <li>wootactic->żartując na temat [TalkTopicAny]</li>
-    <li>wootactic->porównując [RECIPIENT_nameDef] do [romantic_adj] [romantic_nou]</li>
-    <li>wootactic->opisując [RECIPIENT_nameDef] [romantic_adj] [romantic_noun]</li>
-    <li>complimenting->komplementy</li>
-    <li>complimenting->subtelnie komplementujący</li>
-    <li>complimenting->chwaląc</li>
-    <li>complimenting->polecając</li>
-    <li>complimenting->mówiąc dobre rzeczy o</li>
-    <li>complimenting->żartobliwie nabijając się z</li>
-    <li>complimenting->żartobliwie żartując z</li>
-    <li>complimenting->żartobliwie pół-komplementując</li>
-    <li>complimenting->bezczelnie pytający</li>
-    <li>complimenting->wesoło się nabijać</li>
-    <li>romantic_adj->piękno</li>
-    <li>romantic_adj->lśnienie</li>
-    <li>romantic_adj->migotanie</li>
-    <li>romantic_adj->złoto</li>
-    <li>romantic_adj->światło</li>
-    <li>romantic_adj->urok</li>
-    <li>romantic_adj->dotyk</li>
-    <li>romantic_noun->kwiatów</li>
-    <li>romantic_noun->wiosny</li>
-    <li>romantic_noun->rzeki</li>
-    <li>romantic_noun->gwiazd</li>
-    <li>romantic_noun->księżyca</li>
-    <li>romantic_noun->słońca</li>
-    <li>romantic_noun->zorzy polarnej</li>
-    <li>romantic_nou->kwiatu</li>
-    <li>romantic_nou->wiosny</li>
-    <li>romantic_nou->rzeki</li>
-    <li>romantic_nou->gwiazdy</li>
-    <li>romantic_nou->księżyca</li>
-    <li>romantic_nou->słońca</li>
-    <li>romantic_nou->zorzy polarnej</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed], [wootactic].</li>
+    <li>wooed->[plPlecAudyt_0030] flirtować z postacią [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0031] z postacią [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0030] zainteresować sobą postać [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0030] nawiązać romans z postacią [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0030] zdobyć względy postaci [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0032] się do postaci [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0033] o względy postaci [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0034] postać [RECIPIENT_nameDef]</li>
+    <li>wooed->[plPlecAudyt_0035] się o względy postaci [RECIPIENT_nameDef]</li>
+    <li>wootactic(p=4)->[complimenting] cechę postaci [RECIPIENT_nameDef] określaną jako "[PersonalCharacteristic]"</li>
+    <li>wootactic->opowiadając historię związaną z tematem "[TalkTopicAny]"</li>
+    <li>wootactic->snując opowieść wokół tematu "[TalkTopicAny]"</li>
+    <li>wootactic->żartując na temat zagadnienia "[TalkTopicAny]"</li>
+    <li>wootactic->dzieląc się spostrzeżeniem na temat "[TalkTopicAny]"</li>
+    <li>wootactic(p=2)->[boasting] własną cechę charakteru określaną jako "[PersonalCharacteristic]"</li>
+    <li>wootactic->porównując tę osobę do [romantic_noun]</li>
+    <li>wootactic->snując poetyckie porównanie tej osoby do [romantic_noun]</li>
+    <li>boasting->przesadnie wychwalając</li>
+    <li>boasting->wspominając mimochodem</li>
+    <li>boasting->zachwalając</li>
+    <li>boasting->wyolbrzymiając</li>
+    <li>boasting->opisując</li>
+    <li>boasting->podkreślając</li>
+    <li>complimenting(p=3)->komplementując</li>
+    <li>complimenting->subtelnie chwaląc</li>
+    <li>complimenting->wychwalając</li>
+    <li>complimenting->doceniając</li>
+    <li>complimenting->życzliwie opisując</li>
+    <li>complimenting(p=2)->żartobliwie wyśmiewając</li>
+    <li>complimenting->żartobliwie wytykając</li>
+    <li>complimenting->chwaląc z lekką ironią</li>
+    <li>complimenting->figlarnie podważając</li>
+    <li>complimenting->z uśmiechem kwestionując</li>
+    <li>romantic_noun(p=14)->[romantic_noun_standard]</li>
+    <li>romantic_noun(p=3)->[romantic_noun_plain], używając przy tym określenia "[AdjectiveBadass]"</li>
+    <li>romantic_adj_mn->pięknego</li>
+    <li>romantic_adj_mn->lśniącego</li>
+    <li>romantic_adj_mn->migoczącego</li>
+    <li>romantic_adj_mn->niebiańskiego</li>
+    <li>romantic_adj_mn->złotego</li>
+    <li>romantic_adj_mn->promiennego</li>
+    <li>romantic_adj_mn->zapierającego dech w piersiach</li>
+    <li>romantic_adj_mn->czarującego</li>
+    <li>romantic_adj_mn->olśniewającego</li>
+    <li>romantic_adj_mn->delikatnego</li>
+    <li>romantic_adj_mn->subtelnego</li>
+    <li>romantic_adj_mn->majestatycznego</li>
+    <li>romantic_adj_mn->uroczego</li>
+    <li>romantic_adj_mn->cudownego</li>
+    <li>romantic_adj_f->pięknej</li>
+    <li>romantic_adj_f->lśniącej</li>
+    <li>romantic_adj_f->migoczącej</li>
+    <li>romantic_adj_f->niebiańskiej</li>
+    <li>romantic_adj_f->złotej</li>
+    <li>romantic_adj_f->promiennej</li>
+    <li>romantic_adj_f->zapierającej dech w piersiach</li>
+    <li>romantic_adj_f->czarującej</li>
+    <li>romantic_adj_f->olśniewającej</li>
+    <li>romantic_adj_f->delikatnej</li>
+    <li>romantic_adj_f->subtelnej</li>
+    <li>romantic_adj_f->majestatycznej</li>
+    <li>romantic_adj_f->uroczej</li>
+    <li>romantic_adj_f->cudownej</li>
+    <li>romantic_noun_standard->[romantic_adj_mn] kwiatu</li>
+    <li>romantic_noun_standard->[romantic_adj_f] wiosny</li>
+    <li>romantic_noun_standard->[romantic_adj_f] rzeki</li>
+    <li>romantic_noun_standard->[romantic_adj_f] gwiazdy</li>
+    <li>romantic_noun_standard->[romantic_adj_mn] księżyca</li>
+    <li>romantic_noun_standard->[romantic_adj_mn] słońca</li>
+    <li>romantic_noun_standard->[romantic_adj_mn] domu</li>
+    <li>romantic_noun_standard->[romantic_adj_f] zorzy polarnej</li>
+    <li>romantic_noun_standard->[romantic_adj_mn] drzewa gatunku "[TreeType]"</li>
+    <li>romantic_noun_standard(p=2)->[romantic_adj_mn] elementu krajobrazu, takiego jak "[TerrainFeature]"</li>
+    <li>romantic_noun_standard(p=2)->[romantic_adj_mn] tworu natury, takiego jak "[NaturalObject]"</li>
+    <li>romantic_noun_plain->kwiatu</li>
+    <li>romantic_noun_plain->wiosny</li>
+    <li>romantic_noun_plain->rzeki</li>
+    <li>romantic_noun_plain->gwiazdy</li>
+    <li>romantic_noun_plain->księżyca</li>
+    <li>romantic_noun_plain->słońca</li>
+    <li>romantic_noun_plain->domu</li>
+    <li>romantic_noun_plain->zorzy polarnej</li>
+    <li>romantic_noun_plain->drzewa gatunku "[TreeType]"</li>
+    <li>romantic_noun_plain(p=2)->elementu krajobrazu, takiego jak "[TerrainFeature]"</li>
+    <li>romantic_noun_plain(p=2)->tworu natury, takiego jak "[NaturalObject]"</li>
+    <li>plPlecAudyt_0030(INITIATOR_gender==Male,priority=1)->próbował</li>
+    <li>plPlecAudyt_0030(INITIATOR_gender==Female,priority=1)->próbowała</li>
+    <li>plPlecAudyt_0030->próbował</li>
+    <li>plPlecAudyt_0031(INITIATOR_gender==Male,priority=1)->flirtował</li>
+    <li>plPlecAudyt_0031(INITIATOR_gender==Female,priority=1)->flirtowała</li>
+    <li>plPlecAudyt_0031->flirtował</li>
+    <li>plPlecAudyt_0032(INITIATOR_gender==Male,priority=1)->zalecał</li>
+    <li>plPlecAudyt_0032(INITIATOR_gender==Female,priority=1)->zalecała</li>
+    <li>plPlecAudyt_0032->zalecał</li>
+    <li>plPlecAudyt_0033(INITIATOR_gender==Male,priority=1)->zabiegał</li>
+    <li>plPlecAudyt_0033(INITIATOR_gender==Female,priority=1)->zabiegała</li>
+    <li>plPlecAudyt_0033->zabiegał</li>
+    <li>plPlecAudyt_0034(INITIATOR_gender==Male,priority=1)->próbował oczarować</li>
+    <li>plPlecAudyt_0034(INITIATOR_gender==Female,priority=1)->próbowała oczarować</li>
+    <li>plPlecAudyt_0034->próbował oczarować</li>
+    <li>plPlecAudyt_0035(INITIATOR_gender==Male,priority=1)->starał</li>
+    <li>plPlecAudyt_0035(INITIATOR_gender==Female,priority=1)->starała</li>
+    <li>plPlecAudyt_0035->starał</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

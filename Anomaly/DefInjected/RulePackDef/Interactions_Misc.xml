@@ -71,73 +71,83 @@
     <li>subjectDarkStudy->mechanisms of power</li>
   -->
   <DarkDialogue.rulePack.rulesStrings>
-    <li>rambled->i uparcie bełkocze o</li>
-    <li>rambled->i szeptem mówi o</li>
-    <li>rambled->i wesoło wspomina o</li>
-    <li>rambled->i z zachwytem mówi o</li>
-    <li>rambled->i bezustannie peroruje o</li>
-    <li>rambled->i ledwo słyszalnie mówi o</li>
-    <li>rambled->i bez przerwy wspomina o</li>
-    <li>rambled->i z rozczarowaniem mówi o</li>
-    <li>rambled->i bez chwili odpoczynku mówi o</li>
-    <li>rambled->i lekceważąco parska, gdy wspomina o</li>
+    <li>rambled(INITIATOR_gender==Male)->bredził</li>
+    <li>rambled(INITIATOR_gender==Female)->bredziła</li>
+    <li>rambled(INITIATOR_gender==Male)->szeptał</li>
+    <li>rambled(INITIATOR_gender==Female)->szeptała</li>
+    <li>rambled(INITIATOR_gender==Male)->mówił z chichotem</li>
+    <li>rambled(INITIATOR_gender==Female)->mówiła z chichotem</li>
+    <li>rambled(INITIATOR_gender==Male)->mówił w uniesieniu</li>
+    <li>rambled(INITIATOR_gender==Female)->mówiła w uniesieniu</li>
+    <li>rambled(INITIATOR_gender==Male)->perorował</li>
+    <li>rambled(INITIATOR_gender==Female)->perorowała</li>
+    <li>rambled(INITIATOR_gender==Male)->mamrotał</li>
+    <li>rambled(INITIATOR_gender==Female)->mamrotała</li>
+    <li>rambled(INITIATOR_gender==Male)->paplał</li>
+    <li>rambled(INITIATOR_gender==Female)->paplała</li>
+    <li>rambled(INITIATOR_gender==Male)->mruczał</li>
+    <li>rambled(INITIATOR_gender==Female)->mruczała</li>
+    <li>rambled(INITIATOR_gender==Male)->trajkotał</li>
+    <li>rambled(INITIATOR_gender==Female)->trajkotała</li>
+    <li>rambled(INITIATOR_gender==Male)->wykrztuszał słowa</li>
+    <li>rambled(INITIATOR_gender==Female)->wykrztuszała słowa</li>
     <li>darkSpeechAdverb->cicho</li>
-    <li>darkSpeechAdverb->niepewnie</li>
+    <li>darkSpeechAdverb->z przerwami</li>
     <li>darkSpeechAdverb->chaotycznie</li>
-    <li>darkSpeechAdverb->mrocznie</li>
-    <li>darkSpeechAdverb->niezrozumiale</li>
-    <li>darkSpeechAdverb->z obłędem</li>
+    <li>darkSpeechAdverb->posępnie</li>
+    <li>darkSpeechAdverb->nieskładnie</li>
+    <li>darkSpeechAdverb->jak w obłędzie</li>
     <li>subjectInsane->porażkach ludzkości</li>
-    <li>subjectInsane->końcu egzystencji</li>
+    <li>subjectInsane->końcu istnienia</li>
     <li>subjectInsane->tyranii czasu</li>
     <li>subjectInsane->pustce</li>
-    <li>subjectInsane->iluzji rzeczywistości</li>
-    <li>subjectInsane->labiryntowych horrorach umysłu</li>
+    <li>subjectInsane->złudzeniu rzeczywistości</li>
+    <li>subjectInsane->labiryntowych koszmarach umysłu</li>
     <li>subjectInsane->złowieszczych cieniach</li>
-    <li>subjectInsane->nieuniknioności rozkładu</li>
+    <li>subjectInsane->nieuchronności rozkładu</li>
     <li>subjectInsane->szaleństwie kosmosu</li>
-    <li>subjectInsane->zdradzieckiej prawdzie snów</li>
-    <li>subjectInsane->tajemniczym języku bólu</li>
-    <li>subjectInsane->bezsensie życia</li>
-    <li>subjectInsane->marności nadziei</li>
-    <li>subjectInsane->delikatności rozumu</li>
-    <li>subjectInsane->kpinach szczęścia</li>
-    <li>subjectInsane->grotesce egzystencji</li>
-    <li>subjectInsane->ciszy kosmosu</li>
-    <li>subjectInsane->okrutnych tańcach losu</li>
-    <li>subjectInsane->marności śmiertelników</li>
-    <li>subjectInsane->śmieszności miłości</li>
+    <li>subjectInsane->zwodniczej prawdzie snów</li>
+    <li>subjectInsane->tajemnym języku bólu</li>
+    <li>subjectInsane->bezcelowym cyklu życia</li>
+    <li>subjectInsane->daremności nadziei</li>
+    <li>subjectInsane->kruchości poczytalności</li>
+    <li>subjectInsane->szyderstwie ze szczęścia</li>
+    <li>subjectInsane->groteskowości istnienia</li>
+    <li>subjectInsane->milczeniu wszechświata</li>
+    <li>subjectInsane->okrutnym tańcu losu</li>
+    <li>subjectInsane->nieistotności moralności</li>
+    <li>subjectInsane->drwinie z miłości</li>
     <li>subjectInsane->gorzkim smaku prawdy</li>
-    <li>subjectInsane->echach zapomnianych wrzasków</li>
-    <li>subjectInsane->zdradzieckiej naturze pamięci</li>
-    <li>subjectInsane->okrutnym marszu ku entropii</li>
+    <li>subjectInsane->echach zapomnianych krzyków</li>
+    <li>subjectInsane->zdradliwości pamięci</li>
+    <li>subjectInsane->niepowstrzymanym pochodzie entropii</li>
     <li>subjectInsane->zimnym uścisku samotności</li>
-    <li>subjectInsane->ostrym blasku rozpaczy</li>
+    <li>subjectInsane->bezlitosnym świetle rozpaczy</li>
     <li>subjectInsane->pustce ambicji</li>
     <li>subjectInsane->gorzkiej ironii radości</li>
     <li>subjectInsane->pustych obietnicach wiary</li>
-    <li>subjectInsane->perwersyjnym pięknie cierpienia</li>
-    <li>subjectInsane->rychłym upadku cywilizacji</li>
-    <li>subjectDarkStudy->Horaxa</li>
+    <li>subjectInsane->wynaturzonym pięknie cierpienia</li>
+    <li>subjectInsane->nieuchronnym upadku cywilizacji</li>
+    <li>subjectDarkStudy->Horaksie</li>
     <li>subjectDarkStudy->ludzkości</li>
-    <li>subjectDarkStudy->powłóczycieli</li>
-    <li>subjectDarkStudy->maszynowych horrorów</li>
-    <li>subjectDarkStudy->mięsostworów</li>
-    <li>subjectDarkStudy->wykopów</li>
-    <li>subjectDarkStudy->nienaturalnego mroku</li>
-    <li>subjectDarkStudy->kanałów pustki</li>
-    <li>subjectDarkStudy->monolitu</li>
-    <li>subjectDarkStudy->pustki</li>
-    <li>subjectDarkStudy->fizyczności strachu</li>
-    <li>subjectDarkStudy->mocy wściekłości</li>
-    <li>subjectDarkStudy->połączeń międzyludzkich</li>
-    <li>subjectDarkStudy->celów ludzi i celów maszyn</li>
-    <li>subjectDarkStudy->miejsca, z którego pochodzą mroczne istoty</li>
-    <li>subjectDarkStudy->źródła wiedzy</li>
-    <li>subjectDarkStudy->przepływów psi</li>
-    <li>subjectDarkStudy->mechanizmów psi</li>
-    <li>subjectDarkStudy->manifestacji psi</li>
-    <li>subjectDarkStudy->mechanizmów władzy</li>
+    <li>subjectDarkStudy->powłóczycielach</li>
+    <li>subjectDarkStudy->maszynowych koszmarach</li>
+    <li>subjectDarkStudy->mięsostworach</li>
+    <li>subjectDarkStudy->bramach do otchłani</li>
+    <li>subjectDarkStudy->nienaturalnej ciemności</li>
+    <li>subjectDarkStudy->kanałach pustki</li>
+    <li>subjectDarkStudy->monolicie</li>
+    <li>subjectDarkStudy->pustce</li>
+    <li>subjectDarkStudy->fizycznej naturze strachu</li>
+    <li>subjectDarkStudy->sile gniewu</li>
+    <li>subjectDarkStudy->więziach między ludźmi</li>
+    <li>subjectDarkStudy->celach ludzi i maszyn</li>
+    <li>subjectDarkStudy->pochodzeniu mrocznych istot</li>
+    <li>subjectDarkStudy->źródłach wiedzy</li>
+    <li>subjectDarkStudy->przepływach energii psychicznej</li>
+    <li>subjectDarkStudy->mechanizmach psychicznych</li>
+    <li>subjectDarkStudy->manifestacjach zjawisk psychicznych</li>
+    <li>subjectDarkStudy->mechanizmach władzy</li>
   </DarkDialogue.rulePack.rulesStrings>
   
 </LanguageData>

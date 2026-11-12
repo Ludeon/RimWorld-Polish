@@ -8,13 +8,18 @@
     <li>situation->while injured</li>
     <li>situation(p=0.2)->while drunk</li>
   -->
-  <LessonInteractionCommonSituations.rulePack.rulesStrings>TODO</LessonInteractionCommonSituations.rulePack.rulesStrings>
+  <LessonInteractionCommonSituations.rulePack.rulesStrings><li>situation(p=2)->bezpiecznie</li>
+    <li>situation->nocą</li>
+    <li>situation->w zimnie</li>
+    <li>situation->podczas kontuzji</li>
+    <li>situation(p=0.2)->pod wpływem alkoholu</li></LessonInteractionCommonSituations.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
-  <LessonInteractionHowTo.rulePack.rulesStrings>TODO</LessonInteractionHowTo.rulePack.rulesStrings>
+  <LessonInteractionHowTo.rulePack.rulesStrings><li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb]. (Procedura - [action]) (Obiekt - [article_tool]) (Uczeń - [RECIPIENT_nameDef]).</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb]. (Procedura - [action]) (Obiekt - [article_tool]) (Uczeń - [RECIPIENT_nameDef]).</li></LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
@@ -23,7 +28,11 @@
     <li>teach_test->grilled</li>
     <li>teach_test->cross-examined</li>
   -->
-  <LessonInteractionQuiz.rulePack.rulesStrings>TODO</LessonInteractionQuiz.rulePack.rulesStrings>
+  <LessonInteractionQuiz.rulePack.rulesStrings><li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] jednostkę [RECIPIENT_nameDef]. (Zakres - [action_gerund]) (Obiekt - [article_tool]) (Warunki - [situation]).</li>
+    <li>teach_test->odpytuje</li>
+    <li>teach_test->testuje</li>
+    <li>teach_test->magluje</li>
+    <li>teach_test->przesłuchuje</li></LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
@@ -33,7 +42,12 @@
     <li>study_verb->researched</li>
     <li>study_verb->studied</li>
   -->
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>TODO</LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings><li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb]. (Temat - [subject]) (Uczeń - [RECIPIENT_nameDef]).</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb]. (Temat - [subject]) (Uczeń - [RECIPIENT_nameDef]).</li>
+    <li>study_verb->omawia</li>
+    <li>study_verb->analizuje</li>
+    <li>study_verb->bada</li>
+    <li>study_verb->studiuje</li></LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
     <li>teach_adverb->calmly</li>
@@ -43,7 +57,12 @@
     <li>teach_adverb->lightheartedly</li>
     <li>teach_adverb->carefully</li>
   -->
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings><li>teach_adverb->spokojnie</li>
+    <li>teach_adverb->z ożywieniem</li>
+    <li>teach_adverb->uważnie</li>
+    <li>teach_adverb->szybko</li>
+    <li>teach_adverb->beztrosko</li>
+    <li>teach_adverb->starannie</li></LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>teach_verb->demonstrated</li>
@@ -51,7 +70,10 @@
     <li>teach_verb->showed</li>
     <li>teach_verb->taught</li>
   -->
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings><li>teach_verb->zademonstrował</li>
+    <li>teach_verb->wyjaśnił</li>
+    <li>teach_verb->pokazał</li>
+    <li>teach_verb->nauczył</li></LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
@@ -61,6 +83,11 @@
     <li>talk_verb->gave a summary of</li>
     <li>talk_verb->lectured about</li>
   -->
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>TODO</LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings><li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb]. (Temat - [subject]) (Uczeń - [RECIPIENT_nameDef]).</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb]. (Temat - [subject]) (Uczeń - [RECIPIENT_nameDef]).</li>
+    <li>talk_verb->omówił zagadnienie</li>
+    <li>talk_verb->przedstawił zarys</li>
+    <li>talk_verb->przedstawił podsumowanie</li>
+    <li>talk_verb->wygłosił wykład</li></LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

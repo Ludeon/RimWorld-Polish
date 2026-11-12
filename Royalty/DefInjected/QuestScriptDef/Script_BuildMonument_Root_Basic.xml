@@ -1,15 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  
   <!-- EN:
     <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task. You'll receive the rewards when you finish construction.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
     <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->Monument jest wielkości [monumentSize] i będzie wymagał tych zasobów (całkowita wartość [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nKonstrukcja musi być gotowa w [constructionTimeoutTicks_duration] od akceptacji zadania. Po ukończeniu, [allRewardsDescriptions][dontDestroyMonument]</li>
+    <li>commonEnding->Monument będzie miał wymiary [monumentSize]. Do jego budowy potrzebne są następujące materiały (łączna wartość: [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nBudowę należy ukończyć w ciągu [constructionTimeoutTicks_duration] od przyjęcia zadania. Nagrody otrzymasz po zakończeniu prac.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\nJeśli monument zostanie zniszczony w ciągu [keepMonumentTicks_duration] dni od budowy, Twoje relacje z frakcją [asker_factionName] obniżą się o [goodwillChangeIfMonumentDestroyed].</li>
+    <li>dontDestroyMonument->\n\nJeżeli monument zostanie zniszczony w ciągu [keepMonumentTicks_duration] od ukończenia budowy, przychylność frakcji [asker_factionName] spadnie o [goodwillChangeIfMonumentDestroyed].</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
-  
 </LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
@@ -31,8 +30,39 @@
     <li>deflecting->bouncing</li>
     <li>deflecting->glancing</li>
   -->
-  <Combat_Deflect.rulePack.rulesStrings>TODO</Combat_Deflect.rulePack.rulesStrings>
-  
+  <Combat_Deflect.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)-&gt;[INITIATOR_definite] [attempted] [damaged_inf] przeciwnika, ale cios został odbity. Cel: [RECIPIENT_definite]. Miejsce ataku: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_definite] [skillAdvMaybe] [attempted] [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]. [deflected_result]</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_definite] [skillAdvMaybe] [attempted] [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. [deflected_result]</li>
+    <li>r_logentry(p=0.1)-&gt;[INITIATOR_definite] [skillAdv] [attempted] [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Miejsce ataku: [recipient_part0_label]. [deflected_result]</li>
+    <li>r_logentry(p=0.1)-&gt;[INITIATOR_definite] [attempted] [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]. [deflected_result]</li>
+    <li>r_logentry(p=0.1)-&gt;[INITIATOR_definite] [skillAdvMaybe] [attempted] [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]. [deflected_result]</li>
+    <li>attempted(INITIATOR_gender==Male)-&gt;próbował</li>
+    <li>attempted(INITIATOR_gender==Female)-&gt;próbowała</li>
+    <li>attempted(INITIATOR_gender==None)-&gt;próbuje</li>
+    <li>skillAdvMaybe-&gt;</li>
+    <li>skillAdvMaybe-&gt;[skillAdv]</li>
+    <li>atMaybe-&gt;</li>
+    <li>atMaybe-&gt;</li>
+    <li>deflected_result-&gt;Cios [deflected].</li>
+    <li>deflected_result-&gt;Uderzenie [deflecting].</li>
+    <li>harmlessly_opt(p=4)-&gt;</li>
+    <li>harmlessly_opt-&gt; [harmlessly]</li>
+    <li>harmlessly-&gt;bez wyrządzania szkody</li>
+    <li>harmlessly-&gt;bezskutecznie</li>
+    <li>deflected-&gt;odbił się od pancerza celu</li>
+    <li>deflected-&gt;ześlizgnął się po pancerzu celu</li>
+    <li>deflected-&gt;zsunął się po pancerzu celu</li>
+    <li>deflected-&gt;otarł się o pancerz celu</li>
+    <li>deflected-&gt;odskoczył od pancerza celu</li>
+    <li>deflected-&gt;jedynie musnął pancerz celu</li>
+    <li>deflecting-&gt;zostało odbite przez pancerz celu</li>
+    <li>deflecting-&gt;ześlizgnęło się po pancerzu celu</li>
+    <li>deflecting-&gt;zsunęło się po pancerzu celu</li>
+    <li>deflecting-&gt;otarło się o pancerz celu</li>
+    <li>deflecting-&gt;odskoczyło od pancerza celu</li>
+    <li>deflecting-&gt;jedynie musnęło pancerz celu</li>
+  </Combat_Deflect.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
@@ -42,8 +72,21 @@
     <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
     <li>result->but the attack was cleverly avoided</li>
   -->
-  <Combat_Dodge.rulePack.rulesStrings>TODO</Combat_Dodge.rulePack.rulesStrings>
-  
+  <Combat_Dodge.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)-&gt;[RECIPIENT_definite] [dodgeVerb] ataku. Napastnik: [INITIATOR_definite]. Narzędzie: [implement].</li>
+    <li>r_logentry(p=0.5)-&gt;[RECIPIENT_definite] [skillAdvMaybe] [dodgeVerb] ataku. Napastnik: [INITIATOR_definite].</li>
+    <li>skillAdvMaybe-&gt;</li>
+    <li>skillAdvMaybe-&gt;[skillAdv]</li>
+    <li>dodgeVerb(RECIPIENT_gender==Male)-&gt;uniknął</li>
+    <li>dodgeVerb(RECIPIENT_gender==Female)-&gt;uniknęła</li>
+    <li>dodgeVerb(RECIPIENT_gender==None)-&gt;unika</li>
+    <li>result-&gt;, ale [RECIPIENT_definite] [dodgeVerb] ciosu w ostatniej chwili</li>
+    <li>result-&gt;, ale osoba atakowana zdołała uniknąć ciosu</li>
+    <li>result-&gt;, ale ataku zręcznie uniknięto</li>
+    <li>dodged(RECIPIENT_gender==Male)-&gt;uskoczył</li>
+    <li>dodged(RECIPIENT_gender==Female)-&gt;uskoczyła</li>
+    <li>dodged(RECIPIENT_gender==None)-&gt;unika</li>
+  </Combat_Dodge.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
@@ -66,8 +109,28 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
-  <Combat_Hit.rulePack.rulesStrings>TODO</Combat_Hit.rulePack.rulesStrings>
-  
+  <Combat_Hit.rulePack.rulesStrings>
+    <li>r_logentry(p=1.0)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Trafiona część ciała: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [strikeAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Trafiona część ciała: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika, [flavortext_consequence]. Cel: [RECIPIENT_definite]. Trafiona część ciała: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Trafiona część ciała: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.2)-&gt;[INITIATOR_definite] [skillAdv] [strikeAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Trafiona część ciała: [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] część ciała przeciwnika. Cel: [RECIPIENT_definite]. Zniszczona część ciała: [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] część ciała przeciwnika. Cel: [RECIPIENT_definite]. Zniszczona część ciała: [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] część ciała przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]. Zniszczona część ciała: [destroyed_targets].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)-&gt;. Zniszczone części ciała: [destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)-&gt;. Uszkodzone części ciała: [damaged_targets]</li>
+    <li>result(p=1)-&gt;. Zniszczone części ciała: [destroyed_targets]. Uszkodzone części ciała: [damaged_targets]</li>
+    <li>action(p=1.0)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Użyte narzędzie: [implement]</li>
+    <li>action(p=0.3)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] przeciwnika. Cel: [RECIPIENT_definite]. Użyte narzędzie: [implement]</li>
+  </Combat_Hit.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
@@ -85,8 +148,40 @@
     <li>result->but hit only air</li>
     <li>result->but the swing went wide</li>
     <li>result->but stumbled at the last second</li>
-    <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
+    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
-  <Combat_Miss.rulePack.rulesStrings>TODO</Combat_Miss.rulePack.rulesStrings>
-  
+  <Combat_Miss.rulePack.rulesStrings>
+    <li>r_logentry(p=0.3)-&gt;[RECIPIENT_definite] [dodgeVerb] ataku. Napastnik: [INITIATOR_definite]. Broń: [WEAPON_label].</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_definite] [failtype], próbując [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement].</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_definite] [failtype]. Próba ataku: [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite]. Narzędzie: [implement].</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_definite] [failtype], próbując [damaged_inf] przeciwnika. Cel: [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)-&gt;[action][result]. Cel: [RECIPIENT_definite].</li>
+    <li>skillAdvMaybe-&gt;</li>
+    <li>skillAdvMaybe-&gt;[skillAdv]</li>
+    <li>dodgeVerb(RECIPIENT_gender==Male)-&gt;uniknął</li>
+    <li>dodgeVerb(RECIPIENT_gender==Female)-&gt;uniknęła</li>
+    <li>dodgeVerb(RECIPIENT_gender==None)-&gt;unika</li>
+    <li>failtype(p=5,INITIATOR_gender==Male)-&gt;chybił</li>
+    <li>failtype(p=5,INITIATOR_gender==Female)-&gt;chybiła</li>
+    <li>failtype(INITIATOR_gender==Male)-&gt;potknął się</li>
+    <li>failtype(INITIATOR_gender==Female)-&gt;potknęła się</li>
+    <li>failtype(INITIATOR_gender==Male)-&gt;przewrócił się</li>
+    <li>failtype(INITIATOR_gender==Female)-&gt;przewróciła się</li>
+    <li>failtype(INITIATOR_gender==Male)-&gt;wymachiwał na oślep</li>
+    <li>failtype(INITIATOR_gender==Female)-&gt;wymachiwała na oślep</li>
+    <li>failtype(INITIATOR_gender==Male)-&gt;miotał się nieporadnie</li>
+    <li>failtype(INITIATOR_gender==Female)-&gt;miotała się nieporadnie</li>
+    <li>failtype(INITIATOR_gender==None)-&gt;chybia</li>
+    <li>failtype(INITIATOR_gender==None)-&gt;potyka się</li>
+    <li>failtype(INITIATOR_gender==None)-&gt;przewraca się</li>
+    <li>result(p=4,INITIATOR_gender==Male)-&gt;, ale chybił</li>
+    <li>result(p=4,INITIATOR_gender==Female)-&gt;, ale chybiła</li>
+    <li>result(p=4,INITIATOR_gender==None)-&gt;, ale chybia</li>
+    <li>result-&gt;, ale cios przeciął jedynie powietrze</li>
+    <li>result-&gt;, ale zamach był zbyt szeroki</li>
+    <li>result(INITIATOR_gender==Male)-&gt;, ale w ostatniej chwili potknął się</li>
+    <li>result(INITIATOR_gender==Female)-&gt;, ale w ostatniej chwili potknęła się</li>
+    <li>result(INITIATOR_flesh!=Mechanoid,INITIATOR_gender==Male)-&gt;, ale w ostatniej chwili zawahał się</li>
+    <li>result(INITIATOR_flesh!=Mechanoid,INITIATOR_gender==Female)-&gt;, ale w ostatniej chwili zawahała się</li>
+  </Combat_Miss.rulePack.rulesStrings>
 </LanguageData>

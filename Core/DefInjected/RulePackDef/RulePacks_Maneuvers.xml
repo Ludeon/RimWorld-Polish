@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  
   <!-- EN:
     <li>damaged_inf->bite</li>
     <li>damaged_inf->chomp</li>
@@ -15,10 +14,10 @@
     <li>damaged_present->nipped</li>
     <li>damaged_present->gnawing</li>
     <li>damaged_present(deflected!=True)->tearing</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->leaving grisly tears in the metal</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</li>
     <li>destroyed_past->tore off</li>
     <li>destroyed_past->ripped off</li>
     <li>destroyed_past->bit off</li>
@@ -28,30 +27,80 @@
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
     <li>destroyed_suffix->[to] chunks</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] shreds</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] shreds</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] strips</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
-  <Maneuver_Bite.rulePack.rulesStrings>TODO</Maneuver_Bite.rulePack.rulesStrings>
-  
+  <Maneuver_Bite.rulePack.rulesStrings>
+    <li>damaged_inf-&gt;ugryźć</li>
+    <li>damaged_inf-&gt;chwycić zębami</li>
+    <li>damaged_inf(p=0.5)-&gt;uszczypnąć zębami</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;ugryzł</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;ugryzła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;gryzie</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;chwycił zębami</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;chwyciła zębami</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;chwyta zębami</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;podgryzł</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;podgryzła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;podgryza</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;nadgryzł</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;nadgryzła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;nadgryza</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;rozszarpał</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;rozszarpała</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;rozszarpuje</li>
+    <li>damaged_present-&gt;gryząc</li>
+    <li>damaged_present-&gt;zatapiając zęby</li>
+    <li>damaged_present-&gt;podgryzając</li>
+    <li>damaged_present-&gt;rozszarpując</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;odsłaniając tkankę pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)-&gt;odsłaniając mechanizmy pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając makabryczne rany na skórze</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)-&gt;zostawiając głębokie wyrwy w metalu</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;odgryzł</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;odgryzła</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;odgryza</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;wyrwał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;wyrwała</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;wyrywa</li>
+    <li>destroyed_present-&gt;odgryzając</li>
+    <li>destroyed_present-&gt;wyrywając</li>
+    <li>destroyed_suffix-&gt;na kawałki</li>
+    <li>destroyed_suffix-&gt;na drobne części</li>
+    <li>destroyed_suffix-&gt;na strzępy</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;na postrzępione pasma</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;w nierozpoznawalną masę</li>
+  </Maneuver_Bite.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-  
+  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_definite] próbuje kopnięciem skierować materiał w oczy przeciwnika, ale cel unika ataku. Cel: [RECIPIENT_definite]. Materiał: [TOOL_label].</li>
+    <li>r_logentry-&gt;[INITIATOR_definite] próbuje kopnięciem skierować materiał w oczy przeciwnika, ale atak zostaje zablokowany. Cel: [RECIPIENT_definite]. Materiał: [TOOL_label].</li>
+  </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-  
+  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_definite] [kicked] materiałem w oczy przeciwnika. Cel: [RECIPIENT_definite]. Materiał: [TOOL_label].</li>
+    <li>r_logentry(p=0.2)-&gt;[INITIATOR_definite] [sprayed] chmurę drobin w oczy przeciwnika. Cel: [RECIPIENT_definite]. Materiał: [TOOL_label].</li>
+    <li>kicked(INITIATOR_gender==Male)-&gt;trafił</li>
+    <li>kicked(INITIATOR_gender==Female)-&gt;trafiła</li>
+    <li>kicked(INITIATOR_gender==None)-&gt;trafia</li>
+    <li>sprayed(INITIATOR_gender==Male)-&gt;skierował</li>
+    <li>sprayed(INITIATOR_gender==Female)-&gt;skierowała</li>
+    <li>sprayed(INITIATOR_gender==None)-&gt;kieruje</li>
+  </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-  
+  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_definite] próbuje kopnięciem skierować materiał w oczy przeciwnika, ale chybia. Cel: [RECIPIENT_definite]. Materiał: [TOOL_label].</li>
+  </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=2)->poke</li>
     <li>damaged_inf(p=2)->jab</li>
@@ -68,7 +117,7 @@
     <li>damaged_present->prodding</li>
     <li>damaged_present->shoving</li>
     <li>damaged_present->stabbing</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
     <li>flavortext_consequence->leaving the area visibly deformed</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
@@ -84,26 +133,86 @@
     <li>destroyed_present->breaking</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Poke.rulePack.rulesStrings>TODO</Maneuver_Poke.rulePack.rulesStrings>
-  
+  <Maneuver_Poke.rulePack.rulesStrings>
+    <li>damaged_inf(p=2)-&gt;szturchnąć</li>
+    <li>damaged_inf(p=2)-&gt;pchnąć</li>
+    <li>damaged_inf-&gt;trącić</li>
+    <li>damaged_inf-&gt;popchnąć</li>
+    <li>damaged_inf-&gt;dźgnąć</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Male)-&gt;szturchnął</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)-&gt;szturchnęła</li>
+    <li>damaged_past(p=2,INITIATOR_gender==None)-&gt;szturcha</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Male)-&gt;dźgnął</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)-&gt;dźgnęła</li>
+    <li>damaged_past(p=2,INITIATOR_gender==None)-&gt;dźga</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;trącił</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;trąciła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;trąca</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;popchnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;popchnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;popycha</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;pchnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;pchnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;pcha</li>
+    <li>damaged_present(p=2)-&gt;szturchając</li>
+    <li>damaged_present(p=2)-&gt;dźgając</li>
+    <li>damaged_present-&gt;popychając</li>
+    <li>damaged_present-&gt;pchając</li>
+    <li>damaged_present-&gt;dźgając</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając ogromnego siniaka</li>
+    <li>flavortext_consequence-&gt;pozostawiając widoczne zniekształcenie</li>
+    <li>flavortext_consequence-&gt;wytrącając [RECIPIENT_objective] z równowagi</li>
+    <li>flavortext_consequence-&gt;odpychając [RECIPIENT_objective] na bok</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;roztrzaskał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;roztrzaskała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;zmiażdżył</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;zmiażdżyła</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;unicestwił</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;unicestwiła</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;złamał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;złamała</li>
+    <li>destroyed_present-&gt;roztrzaskując</li>
+    <li>destroyed_present-&gt;miażdżąc</li>
+    <li>destroyed_present-&gt;unicestwiając</li>
+    <li>destroyed_present-&gt;łamiąc</li>
+    <li>destroyed_suffix-&gt;na kawałki</li>
+    <li>destroyed_suffix-&gt;na drobne części</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;w krwawą mgłę</li>
+    <li>destroyed_suffix-&gt;na fragmenty</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;roztrzaskuje</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;miażdży</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;unicestwia</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;łamie</li>
+  </Maneuver_Poke.rulePack.rulesStrings>
   <!-- EN:
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->and exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and exposing the flesh underneath</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->and exposing the machinery underneath</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix->[to] strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy pieces</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy pieces</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] fragments</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
-  <Maneuver_Scratch.rulePack.rulesStrings>TODO</Maneuver_Scratch.rulePack.rulesStrings>
-  
+  <Maneuver_Scratch.rulePack.rulesStrings>
+    <li>woundname-&gt;ranę</li>
+    <li>woundname(p=0.3)-&gt;szramę</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;odsłaniając tkankę pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)-&gt;odsłaniając mechanizmy pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając krwawą [woundname]</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;na postrzępione pasma</li>
+    <li>destroyed_suffix-&gt;na pasy</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;na krwawe strzępy</li>
+    <li>destroyed_suffix-&gt;na kawałki</li>
+    <li>destroyed_suffix-&gt;na fragmenty</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;w stos mięsa</li>
+  </Maneuver_Scratch.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->scratch</li>
     <li>damaged_inf(deflected!=True)->lacerate</li>
@@ -128,8 +237,48 @@
     <li>destroyed_present->shredding</li>
     <li>destroyed_present->ripping</li>
   -->
-  <Maneuver_Scratch_Damage.rulePack.rulesStrings>TODO</Maneuver_Scratch_Damage.rulePack.rulesStrings>
-  
+  <Maneuver_Scratch_Damage.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)-&gt;zadrapać</li>
+    <li>damaged_inf(deflected!=True)-&gt;rozpłatać</li>
+    <li>damaged_inf(deflected!=True)-&gt;rozerwać</li>
+    <li>damaged_inf-&gt;naciąć</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Male)-&gt;zadrapał</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)-&gt;zadrapała</li>
+    <li>damaged_past(p=4,INITIATOR_gender==None)-&gt;drapie</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;rozpłatał</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;rozpłatała</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;rozpłatuje</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;rozerwał</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;rozerwała</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;rozrywa</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;naciął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;nacięła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;nacina</li>
+    <li>damaged_present-&gt;drapiąc</li>
+    <li>damaged_present(deflected!=True)-&gt;płatając</li>
+    <li>damaged_present(deflected!=True)-&gt;szarpiąc</li>
+    <li>damaged_present-&gt;rozcinając</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;poturbował</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;poturbowała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;rozpłatał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;rozpłatała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;rozszarpał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;rozszarpała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;poszarpał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;poszarpała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;rozdarł</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;rozdarła</li>
+    <li>destroyed_present-&gt;turbując</li>
+    <li>destroyed_present-&gt;płatając</li>
+    <li>destroyed_present-&gt;szarpiąc</li>
+    <li>destroyed_present-&gt;szatkując</li>
+    <li>destroyed_present-&gt;rozdzierając</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;tłucze</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;rozpłatuje</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;rozszarpuje</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;szarpie</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;rozdziera</li>
+  </Maneuver_Scratch_Damage.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->slash</li>
     <li>damaged_inf->cut</li>
@@ -151,9 +300,9 @@
     <li>damaged_present(deflected!=True)->lacerating</li>
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a gory [woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a gory [woundname]</li>
     <li>destroyed_past->bisected</li>
     <li>destroyed_past->divided</li>
     <li>destroyed_past->halved</li>
@@ -169,20 +318,89 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->exposing its inner workings</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
-  <Maneuver_Slash.rulePack.rulesStrings>TODO</Maneuver_Slash.rulePack.rulesStrings>
-  
+  <Maneuver_Slash.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)-&gt;ciąć</li>
+    <li>damaged_inf-&gt;rozciąć</li>
+    <li>damaged_inf-&gt;rąbnąć</li>
+    <li>damaged_inf-&gt;porąbać</li>
+    <li>damaged_inf-&gt;pokroić</li>
+    <li>damaged_inf(deflected!=True)-&gt;rozpłatać</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Male)-&gt;ciął</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)-&gt;cięła</li>
+    <li>damaged_past(p=4,INITIATOR_gender==None)-&gt;tnie</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;rozciął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;rozcięła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;rozcina</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;rąbnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;rąbnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;rąbie</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;posiekał</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;posiekała</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;siecze</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;pokroił</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;pokroiła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;kroi</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;rozpłatał</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;rozpłatała</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;rozpłatuje</li>
+    <li>damaged_present-&gt;rozcinając</li>
+    <li>damaged_present-&gt;tnąc</li>
+    <li>damaged_present-&gt;krojąc</li>
+    <li>damaged_present(deflected!=True)-&gt;płatając</li>
+    <li>damaged_present(deflected!=True)-&gt;szarpiąc</li>
+    <li>damaged_present(deflected!=True)-&gt;rozdzierając</li>
+    <li>woundname-&gt;ranę</li>
+    <li>woundname(p=0.3)-&gt;szramę</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;odsłaniając tkankę pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)-&gt;odsłaniając mechanizmy pod spodem</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając krwawą [woundname]</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;przeciął na pół</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;przecięła na pół</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;rozdzielił</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;rozdzieliła</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;przepołowił</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;przepołowiła</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;odseparował</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;odseparowała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;rozszczepił</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;rozszczepiła</li>
+    <li>destroyed_present-&gt;przecinając na pół</li>
+    <li>destroyed_present-&gt;rozdzielając</li>
+    <li>destroyed_present-&gt;przepoławiając</li>
+    <li>destroyed_present-&gt;separując</li>
+    <li>destroyed_present-&gt;rozszczepiając</li>
+    <li>destroyed_suffix-&gt;na równe części</li>
+    <li>destroyed_suffix-&gt;czystym cięciem</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)-&gt;odsłaniając wnętrze</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)-&gt;rozcinając to na dwoje</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;przecina na pół</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;rozdziela</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;przepoławia</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;oddziela</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;rozszczepia</li>
+  </Maneuver_Slash.rulePack.rulesStrings>
   <!-- EN:
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
     <li>flavortext_consequence->leaving the area visibly deformed</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Smash.rulePack.rulesStrings>TODO</Maneuver_Smash.rulePack.rulesStrings>
-  
+  <Maneuver_Smash.rulePack.rulesStrings>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając ogromnego siniaka</li>
+    <li>flavortext_consequence-&gt;wyraźnie deformując trafioną część ciała</li>
+    <li>flavortext_consequence(RECIPIENT_gender==Male)-&gt;wytrącając go z równowagi</li>
+    <li>flavortext_consequence(RECIPIENT_gender==Female)-&gt;wytrącając ją z równowagi</li>
+    <li>flavortext_consequence(RECIPIENT_gender==Male)-&gt;odrzucając go na bok</li>
+    <li>flavortext_consequence(RECIPIENT_gender==Female)-&gt;odrzucając ją na bok</li>
+    <li>destroyed_suffix-&gt;na kawałki</li>
+    <li>destroyed_suffix-&gt;na drobne części</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)-&gt;w krwawą mgłę</li>
+    <li>destroyed_suffix-&gt;na fragmenty</li>
+  </Maneuver_Smash.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf->hit</li>
     <li>damaged_inf->smash</li>
@@ -206,8 +424,48 @@
     <li>destroyed_present->crushing</li>
     <li>destroyed_present->breaking</li>
   -->
-  <Maneuver_Smash_Damage.rulePack.rulesStrings>TODO</Maneuver_Smash_Damage.rulePack.rulesStrings>
-  
+  <Maneuver_Smash_Damage.rulePack.rulesStrings>
+    <li>damaged_inf-&gt;uderzyć</li>
+    <li>damaged_inf-&gt;zmiażdżyć</li>
+    <li>damaged_inf-&gt;obić</li>
+    <li>damaged_inf-&gt;trafić</li>
+    <li>damaged_inf-&gt;trzasnąć</li>
+    <li>damaged_inf-&gt;mocno uderzyć</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;uderzył</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;uderzyła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;uderza</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;grzmotnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;grzmotnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;grzmoci</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;obił</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;obiła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;obija</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;walnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;walnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;wali</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;trafił</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;trafiła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;trafia</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;uderzył z impetem</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;uderzyła z impetem</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;uderza z impetem</li>
+    <li>damaged_present-&gt;miażdżąc</li>
+    <li>damaged_present-&gt;bijąc</li>
+    <li>damaged_present(deflected!=True)-&gt;powodując siniaki u</li>
+    <li>damaged_present(deflected!=True)-&gt;obijając</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;roztrzaskał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;roztrzaskała</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;zmiażdżył</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;zmiażdżyła</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;złamał</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;złamała</li>
+    <li>destroyed_present-&gt;roztrzaskując</li>
+    <li>destroyed_present-&gt;miażdżąc</li>
+    <li>destroyed_present-&gt;łamiąc</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;roztrzaskuje</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;miażdży</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;łamie</li>
+  </Maneuver_Smash_Damage.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->stab</li>
     <li>damaged_inf->jab</li>
@@ -226,9 +484,9 @@
     <li>woundname->hole</li>
     <li>woundname->wound</li>
     <li>woundname->crevice</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bloody [woundname]</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a torn [woundname]</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bleeding [woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a bloody [woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a torn [woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a bleeding [woundname]</li>
     <li>destroyed_past->impaled</li>
     <li>destroyed_past->perforated</li>
     <li>destroyed_past->skewered</li>
@@ -237,9 +495,55 @@
     <li>destroyed_present->skewering</li>
     <li>destroyed_suffix->straight through</li>
     <li>destroyed_suffix->leaving a clean hole</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
-  <Maneuver_Stab.rulePack.rulesStrings>TODO</Maneuver_Stab.rulePack.rulesStrings>
-  
+  <Maneuver_Stab.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)-&gt;dźgnąć</li>
+    <li>damaged_inf-&gt;pchnąć</li>
+    <li>damaged_inf(deflected!=True)-&gt;przebić</li>
+    <li>damaged_inf(deflected!=True)-&gt;nakłuć</li>
+    <li>damaged_inf(deflected!=True)-&gt;nadziać</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Male)-&gt;dźgnął</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)-&gt;dźgnęła</li>
+    <li>damaged_past(p=4,INITIATOR_gender==None)-&gt;dźga</li>
+    <li>damaged_past(INITIATOR_gender==Male)-&gt;pchnął</li>
+    <li>damaged_past(INITIATOR_gender==Female)-&gt;pchnęła</li>
+    <li>damaged_past(INITIATOR_gender==None)-&gt;pcha</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;przebił</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;przebiła</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;przebija</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;nakłuł</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;nakłuła</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;nakłuwa</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Male)-&gt;nadział</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)-&gt;nadziała</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==None)-&gt;nadziewa</li>
+    <li>damaged_present(deflected!=True)-&gt;przebijając</li>
+    <li>damaged_present(deflected!=True)-&gt;nakłuwając</li>
+    <li>damaged_present(deflected!=True)-&gt;penetrując</li>
+    <li>damaged_present(deflected!=True)-&gt;nadziewając</li>
+    <li>woundname-&gt;dziurę</li>
+    <li>woundname-&gt;ranę</li>
+    <li>woundname-&gt;szczelinę</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając krwawą [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając rozdartą [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;zostawiając krwawiącą [woundname]</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;nabił na pal</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;nabiła na pal</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;nabija na pal</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;przebił na wylot</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;przebiła na wylot</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;przebija na wylot</li>
+    <li>destroyed_past(INITIATOR_gender==Male)-&gt;nadział</li>
+    <li>destroyed_past(INITIATOR_gender==Female)-&gt;nadziała</li>
+    <li>destroyed_past(INITIATOR_gender==None)-&gt;nadziewa</li>
+    <li>destroyed_present-&gt;nabijając</li>
+    <li>destroyed_present-&gt;perforując</li>
+    <li>destroyed_present-&gt;nadziewając</li>
+    <li>destroyed_suffix-&gt;na wylot</li>
+    <li>destroyed_suffix-&gt;zostawiając czysty otwór</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)-&gt;zostawiając to wyciekające krwią i płynami</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)-&gt;zostawiając to wyciekające nierozpoznawalną mazią</li>
+  </Maneuver_Stab.rulePack.rulesStrings>
 </LanguageData>

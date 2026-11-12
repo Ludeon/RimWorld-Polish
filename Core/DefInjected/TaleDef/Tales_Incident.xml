@@ -23,7 +23,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
-  <Aurora.rulePack.rulesStrings>TODO</Aurora.rulePack.rulesStrings>
+  <Aurora.rulePack.rulesStrings>  <li>tale_noun->pojawienie się zorzy polarnej nad osadą postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->zorza polarna rozświetlająca niebo nad osadą postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->osada postaci [PAWN_nameDef] rozświetlona zorzą polarną — osada: [Community]</li>
+  <li>image->niebo rozświetlone różnymi barwami — kolory: [Color] i [Color] — [circumstance_phrase]</li>
+  <li>image->wspaniały układ promieni zorzy polarnej — kolor: [Color] — [circumstance_phrase]</li>
+  <li>image->sieć świetlistych smug — kolor: [Color] — [circumstance_phrase]</li>
+  <li>image->rozległe łuki świetlne — kolor: [Color], z refleksami w kolorze [Color] — [circumstance_phrase]</li>
+  <li>image->tańczące światła zorzy polarnej — kolor: [Color] — [circumstance_group]</li>
+  <li>circumstance_phrase->nad elementem krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->oświetlając element krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->unosząc się nad osadą: [Community]</li>
+  <li>circumstance_phrase->pomiędzy dwoma elementami krajobrazu: [TerrainFeature] i [TerrainFeature]</li>
+  <li>desc_sentence->Poniżej [PAWN_nameDef] gra w [Game] z wyrazem twarzy określanym jako [AdjectiveFriendly].</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje zorzę z zachwytem.</li>
+  <li>desc_sentence->Z dołu przyglądają się osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->[PAWN_nameDef] siedzi w pobliżu elementu krajobrazu ([TerrainFeature]) i wpatruje się w niebo.</li>
+  <li>desc_sentence->W pobliżu spokojnie przechadzają się zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W zasięgu wzroku nie widać żadnego przeciwnika typu [Enemy].</li></Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
   <CaravanAmbushedByHumanlike.label>zasadzka na karawanę</CaravanAmbushedByHumanlike.label>
@@ -35,7 +52,7 @@
     <li>image->[PAWN_nameFull] attacking [circumstance_group]</li>
     <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
     <li>image->[PAWN_nameFull] running [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] grappling with an opponent [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] grapping with an opponent [circumstance_group]</li>
     <li>image->[PAWN_nameFull] defending [PAWN_objective]self [circumstance_group]</li>
     <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
     <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
@@ -48,7 +65,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings>TODO</CaravanAmbushedByHumanlike.rulePack.rulesStrings>
+  <CaravanAmbushedByHumanlike.rulePack.rulesStrings>  <li>tale_noun->zasadzka na karawanę, w której podróżuje [PAWN_nameDef]</li>
+  <li>image->[PAWN_nameFull] kuli się ze strachu — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] rusza na pomoc sojusznikowi — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] przygotowuje się do ataku — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] przeprowadza atak — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] głośno krzyczy — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] biegnie — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] mocuje się z przeciwnikiem — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] broni się przed atakiem — [circumstance_group]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveBadass]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveBadass]</li>
+  <li>circumstance_phrase->wymachując bronią należącą do [PAWN_possessive]</li>
+  <li>circumstance_phrase->obficie pocąc się z wysiłku</li>
+  <li>desc_sentence->Zza elementu krajobrazu ([TerrainFeature]) wyłaniają się odległe sylwetki. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W oddali widać przeciwników. Rodzaj: [Enemy]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Postać [PAWN_nameDef] jest niemal całkowicie otoczona przez przeciwników typu [Enemy].</li>
+  <li>desc_sentence->Postać [PAWN_nameDef] staje twarzą w twarz z przeciwnikiem typu [Enemy].</li>
+  <li>desc_sentence->Przerażone zwierzęta uciekają z miejsca walki. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W oddali wydarzenie obserwuje osoba wykonująca zawód [PersonJob].</li></CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
   <CaravanAmbushedByManhunter.label>zasadzka na karawanę przez wściekłe istoty</CaravanAmbushedByManhunter.label>
@@ -71,7 +106,23 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings>TODO</CaravanAmbushedByManhunter.rulePack.rulesStrings>
+  <CaravanAmbushedByManhunter.rulePack.rulesStrings>  <li>tale_noun->zasadzka na karawanę, w której podróżuje [PAWN_nameDef]</li>
+  <li>image->[PAWN_nameFull] kuli się ze strachu — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] rusza na pomoc sojusznikowi — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] przygotowuje się do ataku — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] przeprowadza atak — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] głośno krzyczy — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] biegnie — [circumstance_group]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveBadass]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveBadass]</li>
+  <li>circumstance_phrase->wymachując bronią należącą do [PAWN_possessive]</li>
+  <li>circumstance_phrase->obficie pocąc się z wysiłku</li>
+  <li>circumstance_phrase->z ciałem pokrytym [Gore]</li>
+  <li>desc_sentence->Zza elementu krajobrazu ([TerrainFeature]) wyłaniają się zwierzęta. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Ziemię pokrywa [Gore].</li>
+  <li>desc_sentence->Ziemia jest rozdeptana i pokryta [Gore].</li>
+  <li>desc_sentence->Przerażone zwierzęta uciekają z miejsca walki. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W oddali wydarzenie obserwuje osoba wykonująca zawód [PersonJob].</li></CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
   <CaravanDemand.label>żądania karawany</CaravanDemand.label>
@@ -99,7 +150,28 @@
     <li>action->waiting for a decision</li>
     <li>action->taunting [PAWN_nameDef]</li>
   -->
-  <CaravanDemand.rulePack.rulesStrings>TODO</CaravanDemand.rulePack.rulesStrings>
+  <CaravanDemand.rulePack.rulesStrings>  <li>tale_noun->otrzymanie żądań przez karawanę, w której podróżuje [PAWN_nameDef]</li>
+  <li>tale_noun->groźby wobec karawany, w której podróżuje [PAWN_nameDef]</li>
+  <li>image->[PAWN_nameFull] kuli się ze strachu — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] głośno krzyczy — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] pogrąża się w myślach — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] rzuca gniewne spojrzenie — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] znajduje się pod groźbą ze strony osoby wykonującej zawód [PersonJob] — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] wymachuje bronią ([Weapon]) — [circumstance_group]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveBadass]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveAngsty]</li>
+  <li>circumstance_phrase->na oczach innych osób</li>
+  <li>circumstance_phrase->pod groźbą ze strony przeciwników typu [Enemy]</li>
+  <li>desc_sentence->Postać [PAWN_nameDef] jest niemal całkowicie otoczona przez przeciwników typu [Enemy].</li>
+  <li>desc_sentence->W pobliżu znajdują się przeciwnicy. Rodzaj: [Enemy]. Liczebność: [Quantity_adjphrase]. Ich zachowanie: [action].</li>
+  <li>desc_sentence->Słońce zachodzi nad elementem krajobrazu: [TerrainFeature].</li>
+  <li>desc_sentence->Słońce wschodzi nad elementem krajobrazu: [TerrainFeature].</li>
+  <li>desc_sentence->W oddali wydarzenie obserwuje osoba wykonująca zawód [PersonJob].</li>
+  <li>action->ostrzenie broni</li>
+  <li>action->wypatrywanie zagrożenia</li>
+  <li>action->pilnowanie zakładników</li>
+  <li>action->oczekiwanie na decyzję</li>
+  <li>action->drwiny z postaci [PAWN_nameDef]</li></CaravanDemand.rulePack.rulesStrings>
   
   <!-- EN: caravan meeting -->
   <CaravanMeeting.label>spotkanie karawan</CaravanMeeting.label>
@@ -128,7 +200,29 @@
     <li>event->rekindling old friendships</li>
     <li>event->talking hesitantly</li>
   -->
-  <CaravanMeeting.rulePack.rulesStrings>TODO</CaravanMeeting.rulePack.rulesStrings>
+  <CaravanMeeting.rulePack.rulesStrings>  <li>tale_noun->spotkanie karawany, w której podróżuje [PAWN_nameDef], z innymi podróżnikami</li>
+  <li>image->[PAWN_nameFull] wita osobę wykonującą zawód [PersonJob] — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] przygląda się osobie wykonującej zawód [PersonJob] — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] woła do osoby wykonującej zawód [PersonJob] — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] podchodzi do osoby wykonującej zawód [PersonJob] — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] prowadzi cichą rozmowę — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] głośno krzyczy — [circumstance_group]</li>
+  <li>image->[PAWN_nameFull] gra w [Game] z osobą wykonującą zawód [PersonJob] — [circumstance_group]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveFriendly]</li>
+  <li>circumstance_phrase->z wyrazem twarzy określanym jako [AdjectiveFriendly]</li>
+  <li>circumstance_phrase->przyjazne zachowanie: [VerbFriendly]</li>
+  <li>circumstance_phrase->na oczach innych osób</li>
+  <li>desc_sentence->Wśród osób wykonujących zawód [PersonJob] trwa [event]. Liczebność grupy: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wśród osób wykonujących zawód [PersonJob] trwa [event]. Liczebność grupy: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Grupę otaczają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Słońce zachodzi nad elementem krajobrazu: [TerrainFeature].</li>
+  <li>desc_sentence->Słońce wschodzi nad elementem krajobrazu: [TerrainFeature].</li>
+  <li>desc_sentence->W oddali wydarzenie obserwuje osoba wykonująca zawód [PersonJob].</li>
+  <li>event->organizowanie przyjęcia</li>
+  <li>event->wspólne spożywanie posiłku</li>
+  <li>event->omawianie ostatnich wydarzeń</li>
+  <li>event->odnawianie dawnych przyjaźni</li>
+  <li>event->nieśmiała rozmowa</li></CaravanMeeting.rulePack.rulesStrings>
   
   <!-- EN: eclipse -->
   <Eclipse.label>zaćmienie</Eclipse.label>
@@ -149,7 +243,21 @@
     <li>desc_sentence->A [Community] of spectators watches the sky peacefully.</li>
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
-  <Eclipse.rulePack.rulesStrings>TODO</Eclipse.rulePack.rulesStrings>
+  <Eclipse.rulePack.rulesStrings> <li>tale_noun->zaćmienie nad osadą postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->nienaturalnie ciemne niebo — [circumstance_phrase]</li>
+  <li>image->niebo pogrążone w półmroku — [circumstance_phrase]</li>
+  <li>image->Księżyc otoczony delikatnym pierścieniem światła słonecznego — [circumstance_phrase]</li>
+  <li>image->zwierzęta niespokojnie błąkające się w ciemności — gatunek: [Animal], liczebność: [Quantity_adjphrase] — [circumstance_phrase]</li>
+  <li>circumstance_phrase->powietrze jest nieruchome, a wokół panuje cisza</li>
+  <li>circumstance_phrase->półmrok spowija pobliski element krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->półmrok spowija pobliskie elementy krajobrazu — rodzaj: [TerrainFeature], liczebność: [Quantity_adjphrase]</li>
+  <li>circumstance_phrase->na niebie widoczne są gwiazdy</li>
+  <li>desc_sentence->Poniżej [PAWN_nameDef] gra w [Game] z wyrazem twarzy określanym jako [AdjectiveFriendly].</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje zaćmienie z zachwytem.</li>
+  <li>desc_sentence->Z dołu przyglądają się osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->[PAWN_nameDef] siedzi w pobliżu elementu krajobrazu ([TerrainFeature]) i wpatruje się w niebo.</li>
+  <li>desc_sentence->Grupa mieszkańców osady ([Community]) spokojnie obserwuje niebo.</li>
+  <li>desc_sentence->W zasięgu wzroku nie widać żadnego przeciwnika typu [Enemy].</li></Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
   <EndGame_ShipEscape.label>oferta podróży</EndGame_ShipEscape.label>
@@ -182,7 +290,33 @@
     <li>desc_sentence->A [Community] is visible in the far distance.</li>
     <li>desc_sentence->A spaceship is visible in the far distance.</li>
   -->
-  <EndGame_ShipEscape.rulePack.rulesStrings>TODO</EndGame_ShipEscape.rulePack.rulesStrings>
+  <EndGame_ShipEscape.rulePack.rulesStrings>  <li>tale_noun->otrzymanie wiadomości od dawnego przyjaciela przez postać [PAWN_nameDef]</li>
+  <li>tale_noun->nowa możliwość dla osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->[PAWN_nameDef] otwiera list dostarczony przez [delivery_method] — [circumstance_group]</li>
+  <li>image->[PAWN_nameDef] korzysta z kryształu danych dostarczonego przez [delivery_method] — [circumstance_group]</li>
+  <li>image->[PAWN_nameDef] rozwija zwój dostarczony przez [delivery_method] — [circumstance_group]</li>
+  <li>image->[PAWN_nameDef] odbiera transmisję — źródło: [transmission_source]; [circumstance_group]</li>
+  <li>image->[PAWN_nameDef] otrzymuje wiadomość — źródło: [transmission_source]; [circumstance_group]</li>
+  <li>image->[PAWN_nameDef] dostraja odbiornik do wiadomości — źródło: [transmission_source]; [circumstance_group]</li>
+  <li>delivery_method->zwierzę (gatunek: [Animal])</li>
+  <li>delivery_method->osobę wykonującą zawód [PersonJob]</li>
+  <li>delivery_method->zwierzęta (gatunek: [Animal], liczebność: [Quantity_adjphrase])</li>
+  <li>transmission_source->rzadko używana częstotliwość</li>
+  <li>transmission_source->starożytny nadajnik</li>
+  <li>transmission_source->sygnał o niewielkiej mocy</li>
+  <li>transmission_source->sygnał dalekiego zasięgu</li>
+  <li>transmission_source->tajemniczy sygnał</li>
+  <li>circumstance_phrase->w samotności, w pobliżu elementu krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->podczas badania elementu krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->podczas pielęgnowania upraw</li>
+  <li>circumstance_phrase->w pobliżu przechadza się zwierzę (gatunek: [Animal])</li>
+  <li>circumstance_phrase->podczas gry w [Game]</li>
+  <li>desc_sentence->W pobliżu nieświadomie przechadzają się zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Podczas czytania wiadomości [PAWN_pronoun] zaczyna okazywać przyjazne emocje — [VerbFriendly].</li>
+  <li>desc_sentence->Widmowa postać wykonująca zawód [PersonJob] obserwuje wydarzenie z chmur.</li>
+  <li>desc_sentence->[PAWN_nameDef] siedzi w pobliżu elementu krajobrazu: [TerrainFeature].</li>
+  <li>desc_sentence->W oddali widać osadę: [Community].</li>
+  <li>desc_sentence->W oddali widać statek kosmiczny.</li></EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>burza z piorunami</Flashstorm.label>
@@ -208,7 +342,26 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   -->
-  <Flashstorm.rulePack.rulesStrings>TODO</Flashstorm.rulePack.rulesStrings>
+  <Flashstorm.rulePack.rulesStrings>  <li>tale_noun->burza piorunowa zagrażająca osadzie postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->śmiertelnie niebezpieczna burza piorunowa nad osadą postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Uderzenia piorunów. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->[behavior] ściana płomieni — [circumstance_phrase]</li>
+  <li>image->[behavior] ściana płomieni. Kolor: [Color]. [circumstance_phrase]</li>
+  <li>image->[behavior] chmura popiołu i dymu — [circumstance_phrase]</li>
+  <li>image->[behavior] fala płomieni — [circumstance_phrase]</li>
+  <li>behavior-></li>
+  <li>behavior->Nadciągająca</li>
+  <li>behavior->Zbliżająca się</li>
+  <li>circumstance_phrase->Zagrożenie zbliża się do osady: [Community].</li>
+  <li>circumstance_phrase->Nad wszystkim unosi się groźna chmura.</li>
+  <li>circumstance_phrase->Żywioł niemal pochłania element krajobrazu: [TerrainFeature].</li>
+  <li>circumstance_phrase->Żywioł niemal pochłania pobliskie elementy krajobrazu. Rodzaj: [TerrainFeature]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje wydarzenie z wyraźnym przerażeniem.</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje burzę z zachwytem.</li>
+  <li>desc_sentence->[PAWN_nameDef] koordynuje działania obronne.</li>
+  <li>desc_sentence->Do przygotowań spieszą osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wszystkie zwierzęta opuściły okolicę.</li></Flashstorm.rulePack.rulesStrings>
   
   <!-- EN: infestation -->
   <Infestation.label>plaga</Infestation.label>
@@ -234,7 +387,26 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   -->
-  <Infestation.rulePack.rulesStrings>TODO</Infestation.rulePack.rulesStrings>
+  <Infestation.rulePack.rulesStrings>  <li>tale_noun->plaga olbrzymich owadów atakująca osadę postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Rój chrząszczy. [circumstance_phrase]</li>
+  <li>image->Megapająki. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Niepowstrzymana fala owadów. Kolor: [Color]. [circumstance_phrase]</li>
+  <li>image->Gęsty obłok czarnych punkcików. [circumstance_phrase]</li>
+  <li>circumstance_phrase->Owady nacierają przez element krajobrazu: [TerrainFeature].</li>
+  <li>circumstance_phrase->Owady całkowicie otaczają osadę: [Community].</li>
+  <li>circumstance_phrase->Owady atakują osoby wykonujące zawód [PersonJob]. Liczebność ofiar: [Quantity_adjphrase].</li>
+  <li>circumstance_phrase->Owady wydostają się spod ziemi.</li>
+  <li>circumstance_phrase->Owady masakrują zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->[PAWN_nameDef] organizuje obronę.</li>
+  <li>desc_sentence->[PAWN_nameDef] trzyma broń w gotowości do obrony. Broń: [Weapon].</li>
+  <li>desc_sentence->[PAWN_nameDef] leży na ziemi z obrażeniami.</li>
+  <li>desc_sentence->[PAWN_nameDef] kontratakuje, posługując się bronią ([Weapon]).</li>
+  <li>desc_sentence->[PAWN_nameDef] ma wyraz twarzy określany jako [AdjectiveBadass].</li>
+  <li>desc_sentence->[PAWN_nameDef] ma wyraz twarzy określany jako [AdjectiveAngsty].</li>
+  <li>desc_sentence->Ziemię pokrywa [Gore].</li>
+  <li>desc_sentence->Z okolicy uciekają osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wszystkie zwierzęta opuściły okolicę.</li></Infestation.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>sfora wściekłych istot</ManhunterPack.label>
@@ -265,7 +437,31 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
-  <ManhunterPack.rulePack.rulesStrings>TODO</ManhunterPack.rulePack.rulesStrings>
+  <ManhunterPack.rulePack.rulesStrings>  <li>tale_noun->sfora zwierząt polujących na ludzi zagrażająca osadzie postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->atak oszalałych zwierząt na osadę postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Stado zwierząt. Gatunek: [Animal]. [circumstance_phrase]</li>
+  <li>image->Zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Ogromne zwierzę. Gatunek: [Animal]. Wielkość: [AdjectiveLarge]. [circumstance_phrase]</li>
+  <li>image->Mroczne sylwetki. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Mroczne czworonożne istoty. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>circumstance_phrase->Zwierzęta nacierają przez element krajobrazu: [TerrainFeature].</li>
+  <li>circumstance_phrase->Zwierzęta całkowicie otaczają osadę: [Community].</li>
+  <li>circumstance_phrase->Zwierzęta atakują osoby wykonujące zawód [PersonJob]. Liczebność ofiar: [Quantity_adjphrase].</li>
+  <li>circumstance_phrase->Zwierzęta masakrują inne zwierzęta. Gatunek ofiar: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>circumstance_phrase->Zwierzęta są opętane przez [hate_emotion].</li>
+  <li>circumstance_phrase->Zwierzęta są pokryte [Gore].</li>
+  <li>hate_emotion->nienawiść</li>
+  <li>hate_emotion->gniew</li>
+  <li>hate_emotion->furię</li>
+  <li>desc_sentence->[PAWN_nameDef] organizuje obronę.</li>
+  <li>desc_sentence->[PAWN_nameDef] trzyma broń w gotowości do obrony. Broń: [Weapon].</li>
+  <li>desc_sentence->[PAWN_nameDef] leży na ziemi z obrażeniami.</li>
+  <li>desc_sentence->[PAWN_nameDef] kontratakuje, posługując się bronią ([Weapon]).</li>
+  <li>desc_sentence->[PAWN_nameDef] ma wyraz twarzy określany jako [AdjectiveBadass].</li>
+  <li>desc_sentence->[PAWN_nameDef] ma wyraz twarzy określany jako [AdjectiveAngsty].</li>
+  <li>desc_sentence->Ziemię pokrywa [Gore].</li>
+  <li>desc_sentence->Z okolicy uciekają osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li></ManhunterPack.rulePack.rulesStrings>
   
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>uderzenie meteorytu</MeteoriteImpact.label>
@@ -294,7 +490,29 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
-  <MeteoriteImpact.rulePack.rulesStrings>TODO</MeteoriteImpact.rulePack.rulesStrings>
+  <MeteoriteImpact.rulePack.rulesStrings>  <li>tale_noun->upadek meteorytu w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->uderzenie meteorytu niedaleko osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Głaz pozostawiający za sobą płomienie. Wielkość: [AdjectiveLarge]. Kolor płomieni: [Color]. [airborne_circumstance]</li>
+  <li>image->Jaskrawo świecący punkt. [airborne_circumstance]</li>
+  <li>image->Kula ognia. Wielkość: [AdjectiveLarge]. Kolor: [Color]. [airborne_circumstance]</li>
+  <li>airborne_circumstance->Obiekt przecina niebo w płomieniach.</li>
+  <li>airborne_circumstance->Obiekt spada na ziemię w chmurze popiołu.</li>
+  <li>airborne_circumstance->Obiekt rozsypuje w locie kamienie i odłamki.</li>
+  <li>image->Monolit. Wielkość: [AdjectiveLarge]. [ground_circumstance]</li>
+  <li>image->Osmalony głaz. Wielkość: [AdjectiveLarge]. Kolor: [Color]. [ground_circumstance]</li>
+  <li>image->Skalny filar. Kolor: [Color]. [ground_circumstance]</li>
+  <li>ground_circumstance->Otacza go dym i popiół.</li>
+  <li>ground_circumstance->Wciąż wydobywa się z niego dym pod wpływem wysokiej temperatury.</li>
+  <li>ground_circumstance->Otaczają go stopione odłamki skał.</li>
+  <li>ground_circumstance->Jest częściowo wbity w ziemię.</li>
+  <li>ground_circumstance->Leży w popękanym kraterze.</li>
+  <li>desc_sentence->[PAWN_nameDef] przygląda się wydarzeniu ze zdziwieniem.</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje wydarzenie z podekscytowaniem.</li>
+  <li>desc_sentence->[PAWN_nameDef] przygląda się wydarzeniu w szoku.</li>
+  <li>desc_sentence->Z pobliża elementu krajobrazu ([TerrainFeature]) nadchodzą sylwetki. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Postacie przygotowują narzędzia i wyposażenie. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W pobliżu niespokojnie przechadzają się zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Otoczenie jest pozbawione wyrazistych barw i wydaje się przytłumione.</li></MeteoriteImpact.rulePack.rulesStrings>
   
   <!-- EN: raid -->
   <Raid.label>najazd</Raid.label>
@@ -329,7 +547,35 @@
     <li>defender_circumstance->raising a fist in defiance</li>
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
-  <Raid.rulePack.rulesStrings>TODO</Raid.rulePack.rulesStrings>
+  <Raid.rulePack.rulesStrings>  <li>tale_noun->najazd na osadę postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->szturm na osadę postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->atak wrogów na osadę postaci [PAWN_nameDef] — osada: [Community], przeciwnicy: [Enemy]</li>
+  <li>image->Najeźdźcy. Rodzaj: [Enemy]. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Armia najeźdźców. [circumstance_phrase]</li>
+  <li>image->Przytłaczające siły wroga. [circumstance_phrase]</li>
+  <li>image->Nacierające siły wroga. [circumstance_phrase]</li>
+  <li>image->Stylizowane chorągwie. Kolor: [Color]. [circumstance_phrase]</li>
+  <li>image->Ogromny przeciwnik. Rodzaj: [Enemy]. [circumstance_phrase]</li>
+  <li>circumstance_phrase->Najeźdźcy posuwają się przez teren: [TerrainFeature]</li>
+  <li>circumstance_phrase->Najeźdźcy całkowicie otaczają osadę: [Community]</li>
+  <li>circumstance_phrase->Najeźdźcy atakują osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase]</li>
+  <li>circumstance_phrase->Najeźdźcy wznoszą triumfalne okrzyki</li>
+  <li>circumstance_phrase->Najeźdźcy wymachują bronią. Rodzaj: [Weapon]</li>
+  <li>circumstance_phrase->Na najeźdźcach widać [Gore]</li>
+  <li>desc_sentence->[PAWN_nameDef] organizuje obronę. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] trzyma broń ([Weapon]) w gotowości do obrony. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] leży na ziemi z obrażeniami.</li>
+  <li>desc_sentence->[PAWN_nameDef] kontratakuje, posługując się bronią. Broń: [PAWN_possessive] [Weapon]. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] stoi wyprostowaną postawą, niczym wysoki budynek. [defender_circumstance].</li>
+  <li>desc_sentence->Wyraz twarzy postaci [PAWN_nameDef]: [AdjectiveBadass].</li>
+  <li>desc_sentence->Wyraz twarzy postaci [PAWN_nameDef]: [AdjectiveAngsty].</li>
+  <li>desc_sentence->Ziemię pokrywa [Gore].</li>
+  <li>desc_sentence->Z okolicy uciekają osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>defender_circumstance->Postać wznosi triumfalne okrzyki</li>
+  <li>defender_circumstance->Postać emanuje światłem. Kolor: [Color]</li>
+  <li>defender_circumstance->Postać unosi pięść w geście sprzeciwu</li>
+  <li>defender_circumstance->Postać napina [PAWN_possessive] mięśnie</li></Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
   <ShipPartCrash.label>upadek fragmentu statku</ShipPartCrash.label>
@@ -365,7 +611,36 @@
     <li>defender_circumstance->raising a fist in defiance</li>
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
-  <ShipPartCrash.rulePack.rulesStrings>TODO</ShipPartCrash.rulePack.rulesStrings>
+  <ShipPartCrash.rulePack.rulesStrings>  <li>tale_noun->upadek fragmentu starożytnego statku w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->lądowanie fragmentu starożytnego statku w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->lądowanie uszkodzonego fragmentu statku w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Rój mechanoidów. Rodzaj: [Mechanoid]. [circumstance_phrase]</li>
+  <li>image->Armia mechanoidów. Rodzaj: [Mechanoid]. [circumstance_phrase]</li>
+  <li>image->Mechanoidy. Rodzaj: [Mechanoid]. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Mechanoid. Rodzaj: [Mechanoid]. Wielkość określana jako [AdjectiveLarge]. [circumstance_phrase]</li>
+  <li>image->Sylwetki mechanoidów. Rodzaj: [Mechanoid]. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>image->Mechanoidy ze świecącymi czujnikami. Rodzaj: [Mechanoid]. Kolor czujników: [Color]. Liczebność: [Quantity_adjphrase]. [circumstance_phrase]</li>
+  <li>circumstance_phrase->Mechanoidy nacierają przez teren: [TerrainFeature]</li>
+  <li>circumstance_phrase->Mechanoidy całkowicie otaczają osadę: [Community]</li>
+  <li>circumstance_phrase->Mechanoidy atakują osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase]</li>
+  <li>circumstance_phrase->Mechanoidy masakrują zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase]</li>
+  <li>circumstance_phrase->Na mechanoidach widać [Gore]</li>
+  <li>circumstance_phrase->Ich pancerze są powgniatane i iskrzą</li>
+  <li>desc_sentence->[PAWN_nameDef] organizuje obronę. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] trzyma broń ([Weapon]) w gotowości do obrony. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] leży na ziemi z obrażeniami.</li>
+  <li>desc_sentence->[PAWN_nameDef] kontratakuje, posługując się bronią. Broń: [PAWN_possessive] [Weapon]. [defender_circumstance].</li>
+  <li>desc_sentence->[PAWN_nameDef] stoi wyprostowaną postawą, niczym wysoki budynek. [defender_circumstance].</li>
+  <li>desc_sentence->Wyraz twarzy postaci [PAWN_nameDef]: [AdjectiveBadass].</li>
+  <li>desc_sentence->Wyraz twarzy postaci [PAWN_nameDef]: [AdjectiveAngsty].</li>
+  <li>desc_sentence->Ziemię pokrywa [Gore].</li>
+  <li>desc_sentence->Ziemię pokrywa złom.</li>
+  <li>desc_sentence->Z okolicy uciekają osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>defender_circumstance->Postać wznosi triumfalne okrzyki</li>
+  <li>defender_circumstance->Postać emanuje światłem. Kolor: [Color]</li>
+  <li>defender_circumstance->Postać unosi pięść w geście sprzeciwu</li>
+  <li>defender_circumstance->Postać napina [PAWN_possessive] mięśnie</li></ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
   <Tornado.label>tornado</Tornado.label>
@@ -391,7 +666,26 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   -->
-  <Tornado.rulePack.rulesStrings>TODO</Tornado.rulePack.rulesStrings>
+  <Tornado.rulePack.rulesStrings>  <li>tale_noun->tornado, które dotknęło ziemi w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->tornado zagrażające osadzie postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Stożek wirującego powietrza. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Tornado. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Huragan. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Formacja chmur. Kolor: [Color]. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>behavior->nadciąga</li>
+  <li>behavior->zbliża się</li>
+  <li>behavior->szybko się przemieszcza</li>
+  <li>behavior->wiruje</li>
+  <li>circumstance_phrase->Zjawisko unosi ze sobą gruz i odłamki</li>
+  <li>circumstance_phrase->Zjawisko przechodzi nad elementem krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->Zjawisko przesłania element krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->Zjawisko pochłania element krajobrazu: [TerrainFeature]</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje wydarzenie z wyraźnym przerażeniem.</li>
+  <li>desc_sentence->[PAWN_nameDef] obserwuje wydarzenie z zachwytem widocznym na [PAWN_possessive] twarzy.</li>
+  <li>desc_sentence->[PAWN_nameDef] koordynuje działania obronne.</li>
+  <li>desc_sentence->Do przygotowań spieszą osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wszystkie zwierzęta opuściły okolicę.</li></Tornado.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
   <TornadoFromItem.label>tornado</TornadoFromItem.label>
@@ -419,7 +713,28 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   -->
-  <TornadoFromItem.rulePack.rulesStrings>TODO</TornadoFromItem.rulePack.rulesStrings>
+  <TornadoFromItem.rulePack.rulesStrings>  <li>tale_noun->tornado, które dotknęło ziemi w pobliżu osady postaci [COLONIST_nameDef] — osada: [Community]</li>
+  <li>tale_noun->tornado zagrażające osadzie postaci [COLONIST_nameDef] — osada: [Community]</li>
+  <li>image->Stożek wirującego powietrza. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Tornado. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Huragan. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>image->Formacja chmur. Kolor: [Color]. Zjawisko [behavior]. [circumstance_phrase]</li>
+  <li>behavior->nadciąga</li>
+  <li>behavior->zbliża się</li>
+  <li>behavior->szybko się przemieszcza</li>
+  <li>behavior->wiruje</li>
+  <li>circumstance_phrase->Zjawisko unosi ze sobą gruz i odłamki</li>
+  <li>circumstance_phrase->Zjawisko przechodzi nad elementem krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->Zjawisko przesłania element krajobrazu: [TerrainFeature]</li>
+  <li>circumstance_phrase->Zjawisko pochłania element krajobrazu: [TerrainFeature]</li>
+  <li>desc_sentence->[COLONIST_nameDef] obserwuje wydarzenie z wyraźnym przerażeniem.</li>
+  <li>desc_sentence(p=0.5)->[COLONIST_nameDef] obserwuje wydarzenie z zachwytem widocznym na [COLONIST_possessive] twarzy.</li>
+  <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] obserwuje wydarzenie z zachwytem widocznym na [ATTACKER_possessive] twarzy.</li>
+  <li>desc_sentence->[COLONIST_nameDef] koordynuje działania obronne.</li>
+  <li>desc_sentence->[ATTACKER_nameDef] chichocze z radości.</li>
+  <li>desc_sentence->Do przygotowań spieszą osoby wykonujące zawód [PersonJob]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Z okolicy uciekają zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wszystkie zwierzęta opuściły okolicę.</li></TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>toksyczny opad</ToxicFallout.label>
@@ -443,7 +758,24 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
-  <ToxicFallout.rulePack.rulesStrings>TODO</ToxicFallout.rulePack.rulesStrings>
+  <ToxicFallout.rulePack.rulesStrings>  <li>tale_noun->toksyczny opad nad osadą postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>tale_noun->skażenie atmosfery w pobliżu osady postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Złowieszcze niebo. [circumstance_group]</li>
+  <li>image->Powietrze staje się coraz gęstsze. [circumstance_group]</li>
+  <li>image->Ziemia emituje delikatną poświatę. [circumstance_group]</li>
+  <li>image->Pola martwych roślin. [circumstance_group]</li>
+  <li>image->Groby. Liczebność: [Quantity_adjphrase]. [circumstance_group]</li>
+  <li>circumstance_phrase->Nie widać żadnych oznak życia</li>
+  <li>circumstance_phrase->Wszystko pokrywa cienka warstwa świecącego pyłu</li>
+  <li>circumstance_phrase->Układ otoczenia przypomina kości</li>
+  <li>circumstance_phrase->Trwa oczekiwanie na ustąpienie trucizny</li>
+  <li>desc_sentence->[PAWN_nameDef] leży na ziemi, a [PAWN_possessive] ciało jest wykręcone pod nienaturalnym kątem.</li>
+  <li>desc_sentence->[PAWN_nameDef] ukrywa się w pobliżu elementu krajobrazu ([TerrainFeature]) i spogląda na zewnątrz z wyrazem twarzy określanym jako [AdjectiveAngsty].</li>
+  <li>desc_sentence->[PAWN_nameDef] przygląda się wydarzeniu w szoku.</li>
+  <li>desc_sentence->[PAWN_nameDef] spokojnie odpoczywa; na [PAWN_possessive] twarzy widać warstwę potu.</li>
+  <li>desc_sentence->Na ziemi leżą martwe zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Na ziemi leżą umierające zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W pobliżu niespokojnie krążą zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li></ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>zima wulkaniczna</VolcanicWinter.label>
@@ -465,6 +797,21 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
-  <VolcanicWinter.rulePack.rulesStrings>TODO</VolcanicWinter.rulePack.rulesStrings>
+  <VolcanicWinter.rulePack.rulesStrings>  <li>tale_noun->początek zimy wulkanicznej w osadzie postaci [PAWN_nameDef] — osada: [Community]</li>
+  <li>image->Ciemne i zimne niebo. [circumstance_group]</li>
+  <li>image->Powietrze wypełnia się popiołem. [circumstance_group]</li>
+  <li>image->Jałowy fragment krajobrazu pokryty szronem. Rodzaj terenu: [TerrainFeature]. [circumstance_group]</li>
+  <li>image->Pola roślin pokrytych popiołem. Liczebność: [Quantity_adjphrase]. [circumstance_group]</li>
+  <li>circumstance_phrase->Nie widać żadnych oznak życia</li>
+  <li>circumstance_phrase->Otoczenie ledwie rozświetlają cienkie smugi światła</li>
+  <li>circumstance_phrase->Otoczenie rozświetla ostre, chłodne, błękitne światło</li>
+  <li>desc_sentence->[PAWN_nameDef] kuli się przy ognisku.</li>
+  <li>desc_sentence->Aby się ogrzać, [PAWN_nameDef] nosi kilka warstw odzieży. Rodzaj: [Apparel]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->[PAWN_nameDef] siedzi w pobliżu. Wyraźnie widać wyczerpanie trudnymi warunkami.</li>
+  <li>desc_sentence->[PAWN_nameDef] ukrywa się w pobliżu elementu krajobrazu ([TerrainFeature]) i spogląda na zewnątrz z wyrazem twarzy określanym jako [AdjectiveAngsty].</li>
+  <li>desc_sentence->Wokół widać wygłodniałe zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Wokół widać zwierzęta drżące z zimna. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->Na ziemi leżą umierające zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li>
+  <li>desc_sentence->W pobliżu niespokojnie krążą zwierzęta. Gatunek: [Animal]. Liczebność: [Quantity_adjphrase].</li></VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

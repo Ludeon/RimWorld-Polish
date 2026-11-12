@@ -1,14 +1,45 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  
   <!-- EN:
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
   <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel->więzień</li>
-    <li>lodgersLabelPlural->więźniowie</li>
+    <li>lodgersLabel-&gt;więzień</li>
+    <li>lodgersLabelPlural-&gt;więźniowie</li>
   </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Guarding for [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
+    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
+    <li>questName(lodgersCount>=2)->warden for hire</li>
+    <li>questName(lodgersCount>=2)->prison warden</li>
+    <li>questName(lodgersCount>=2)->contract prison</li>
+    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
+    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  -->
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->Ochrona na zlecenie — [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->Pilnowanie więźnia — [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->Więzień — [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->Więzień — "[adjAny]"</li>
+    <li>questName(lodgersCount==1)->Jeden więzień — "[adjAny]"</li>
+    <li>questName(lodgersCount>=2)->Strażnik do wynajęcia</li>
+    <li>questName(lodgersCount>=2)->Dozorowanie więzienia</li>
+    <li>questName(lodgersCount>=2)->Więzienie na zlecenie</li>
+    <li>questName(lodgersCount>=2)->Poszukiwani więźniowie</li>
+    <li>questName(lodgersCount>=2)->Więźniowie — "[adjAny]"</li>
+    <li>questName(lodgersCount>=2)->Więźniowie pod opieką — [asker_nameDef]</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -42,68 +73,45 @@
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Kapitan orbitującego statku chce, aby chroniono więźnia o imieniu [lodgers0_nameFull] w [map_definite] przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] niedawno splunął na ukochane dziecko [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] [enemyFaction_name]. [enemyFaction_leader_nameDef] będzie wysyłać [enemyFaction_pawnsPlural], aby zemścić się na kimkolwiek, kto będzie [lodgers0_objective] chronić. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Kapitan statku krążącego po orbicie prosi o pilnowanie więźnia [lodgers0_nameFull] w kolonii [map_definite] przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nWięzień [lodgers0_nameDef] niedawno splunął na ukochane dziecko przywódcy frakcji [enemyFaction_name] ([enemyFaction_leader_nameFull]; tytuł: [enemyFaction_leaderTitle]). Przywódca wysyła członków swojej frakcji w odwecie na każdego, kto zapewni więźniowi schronienie. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Kapitan orbitującego statku chce, aby chroniono [lodgersCount] więźniów w [map_definite] przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nCi więźniowie dokonali serii zabójstw na [enemyFaction_pawnsPlural] z [enemyFaction_name], rodziny ich ofiar będą wysyłać najazdy. [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nCi więźniowie niedawno [mechViolation], i zostali namierzeni przez gniazdo mechanoidów. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Kapitan statku krążącego po orbicie prosi o pilnowanie [lodgersCount] więźniów w kolonii [map_definite] przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nWięźniowie dopuścili się serii zabójstw wśród członków frakcji [enemyFaction_name]. Rodziny ofiar zamierzają wysyłać napastników, aby dokonać zemsty. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nWięźniowie stali się celem roju mechanoidów. Powód: [mechViolation]. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,lodgers0_gender==Male)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], chce, aby przechowano specjalnego więźnia. Ten więzień, [lodgers0_age]-letni [lodgers0_title] o imieniu [lodgers0_nameFull], zna zawstydzające informacje o [PersonalCharacteristic] [asker_nameDef], dlatego [asker_nameDef] nie chce go puścić wolno. Musisz trzymać go przez [shuttleDelayTicks_duration], do momentu aż skandal nie ucichnie. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,lodgers0_gender==Female)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], chce, aby przechowano specjalnego więźnia. Ten więzień, [lodgers0_age]-letnia [lodgers0_title] o imieniu [lodgers0_nameFull], zna zawstydzające informacje o [PersonalCharacteristic] [asker_nameDef], dlatego [asker_nameDef] nie chce jej puścić wolno. Musisz trzymać ją przez [shuttleDelayTicks_duration], do momentu aż skandal nie ucichnie. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nNiestety, [enemyFaction_name] chce rozgłosić te zawstydzające informacje i wysyła ataki aby wydostać [lodgers0_nameDef] z więzienia. [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull] kieruje frakcją [asker_faction_name] (tytuł: [asker_faction_leaderTitle]) i chce ukryć szczególnego więźnia. Chodzi o [lodgers0_nameFull] (wiek: [lodgers0_age]; zajęcie: [lodgers0_title]). [lodgers0_nameDef] zna kompromitujące informacje dotyczące cechy przywódcy określanej jako "[PersonalCharacteristic]". Przywódca nie chce dopuścić do uwolnienia tej postaci przed wyciszeniem skandalu. Prosi o przetrzymywanie więźnia przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nFrakcja [enemyFaction_name] chce ujawnić kompromitującą historię i wysyła napastników, aby uwolnić więźnia [lodgers0_nameDef]. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] [asker_faction_name], pojmał [lodgersCount] więźniów z wrogiej frakcji. [asker_nameDef] nie ma miejsca, gdzie mógłby ich przechować, więc chce, aby opiekowano się nimi przez [shuttleDelayTicks_duration], dopóki [asker_possessive] więzienie nie będzie gotowe.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nCi więźniowie zapłacili [enemyFaction_name], aby wydostali ich z więzienia, więc będą wysyłać [enemyFaction_pawnsPlural] w pościg za tobą. [enemyGroupsParagraph]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nWrogowie [asker_nameDef] sprowokowali gniazdo mechanoidów, aby polowało na tych więźniów, więc będzie ono wysyłać bojowe grupy mechanoidów. [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull] kieruje frakcją [asker_faction_name] (tytuł: [asker_faction_leaderTitle]). Przywódca schwytał [lodgersCount] więźniów z wrogiej frakcji, ale nie ma jeszcze dla nich miejsca. Prosi o pilnowanie ich przez [shuttleDelayTicks_duration], dopóki nie powstanie odpowiednie więzienie. [allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nWięźniowie opłacili grupę ratunkową z frakcji [enemyFaction_name]. W związku z tym frakcja wyśle napastników, aby ich uwolnić. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nWrogowie zleceniodawcy sprowokowali rój mechanoidów do polowania na więźniów. Należy spodziewać się grup uderzeniowych. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,asker_gender==Female)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name] została przyłapana w łóżku z nieodpowiednią osobą. Zniewoliła tę osobę w geście odrzucenia. Teraz chce, aby trzymano [lodgers0_nameFull] w zamknięciu, dopóki skandal nie przeminie, a dokładnie [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,asker_gender==Male)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name] został przyłapany w łóżku z nieodpowiednią osobą. Zniewolił tę osobę w geście odrzucenia. Teraz chce, aby trzymano [lodgers0_nameFull] w zamknięciu, dopóki skandal nie przeminie, a dokładnie [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nNiestety, wrogowie z rady [asker_nameDef] zapłacili [enemyFaction_name], aby wydostali [lodgers0_nameFull] z więzienia, i aby ta historia ujrzała światło dzienne. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nNiestety, wrogowie z rady [asker_nameDef] sprowokowali ataki mechanoidów ze strony [enemyFaction_name], aby spróbować wyrwać kochanka i wydobyć historię na światło dzienne. [enemyGroupsParagraph]</li>
+    <!-- Zależność od płci więźnia: dopełniacz po "uwięzienie" i "uwolnienia". -->
+    <li>loverGen(lodgers0_gender==Male,priority=1)->kochanka</li>
+    <li>loverGen(lodgers0_gender==Female,priority=1)->kochanki</li>
+    <li>loverGen->osoby uwikłanej w romans</li>
+    <li>loverAcc(lodgers0_gender==Male,priority=1)->kochanka</li>
+    <li>loverAcc(lodgers0_gender==Female,priority=1)->kochankę</li>
+    <li>loverAcc->osobę uwikłaną w romans</li>
+    <li>royalScandal(asker_gender==Male,priority=1)->Został przyłapany w łóżku z niewłaściwą osobą. Aby publicznie odciąć się od romansu, kazał uwięzić [loverAcc].</li>
+    <li>royalScandal(asker_gender==Female,priority=1)->Została przyłapana w łóżku z niewłaściwą osobą. Aby publicznie odciąć się od romansu, kazała uwięzić [loverAcc].</li>
+    <li>royalScandal->Po ujawnieniu romansu nakazano uwięzienie [loverGen], aby publicznie odciąć się od tej relacji.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull] należy do arystokracji frakcji [asker_faction_name] i nosi tytuł "[asker_royalTitleInCurrentFaction]". [royalScandal] Teraz [asker_nameDef] oczekuje, że [lodgers0_nameFull] spędzi [shuttleDelayTicks_duration] w więzieniu, aż skandal ucichnie. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nDworscy rywale zleceniodawcy płacą frakcji [enemyFaction_name] za próbę uwolnienia [loverGen] i ujawnienia skandalu. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nDworscy rywale zleceniodawcy sprowokowali ataki mechanoidów z frakcji [enemyFaction_name], licząc na uwolnienie [loverGen] i ujawnienie skandalu. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], potrzebuje Twojej pomocy. Królewscy archeolodzy [asker_nameDef] niedawno wydostali [lodgersCount] więźniów z pradawnej krypty hibernacyjnej, i chcą ich przesłuchać. Aby uchronić więźniów przed swoimi wrogami z rady, [asker_nameDef] chce, byś chronił ich przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nNiestety, [enemyFaction_pawnsPlural] z [enemyFaction_name] odkryli, z której krypty pochodzą więźniowie. Będą wysyłać ataki w celu zemsty na kimkolwiek kto ich chroni. [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nNiestety, [enemyFaction_pawnsPlural] z [enemyFaction_name] chronili kryptę, z której pochodzą więźniowie. Będą wysyłać mechanoidy aby odzyskać więźniów. [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull] należy do arystokracji frakcji [asker_faction_name] i nosi tytuł "[asker_royalTitleInCurrentFaction]" i prosi o pomoc. Dworscy archeolodzy wydobyli niedawno [lodgersCount] więźniów ze starożytnej krypty hibernacyjnej. Zamierzają ich przesłuchać, lecz chcą ukryć ich istnienie przed rywalami. Proszą o przetrzymywanie więźniów przez [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nCzłonkowie frakcji [enemyFaction_name] otaczali kryptę, z której wydobyto więźniów, czcią. Zamierzają wysyłać najazdy w odwecie na każdego, kto ich przetrzymuje. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nMechanoidy z frakcji [enemyFaction_name] strzegły krypty, z której wydobyto więźniów. Wyślą siły, by odnaleźć dawnych śpiących. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->Guarding for [asker_nameDef]</li>
-    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
-    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
-    <li>questName(lodgersCount>=2)->warden for hire</li>
-    <li>questName(lodgersCount>=2)->prison warden</li>
-    <li>questName(lodgersCount>=2)->contract prison</li>
-    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
-    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
-    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
-    <li>adjAny->[AdjectiveBadass]</li>
-    <li>adjAny->[AdjectiveAngsty]</li>
-    <li>adjAny->[AdjectiveFriendly]</li>
-  -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings>
-    <li>questName->Ochrona dla [asker_nameDef]</li>
-    <li>questName(lodgersCount==1)->ochrona [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->więzień [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->[adjAny] więzień</li>
-    <li>questName(lodgersCount>=2)->strażnik na zawołanie</li>
-    <li>questName(lodgersCount>=2)->strażnik więzienny</li>
-    <li>questName(lodgersCount>=2)->kontrakt na więźnia</li>
-    <li>questName(lodgersCount>=2)->[adjAny] więźniowie</li>
-    <li>questName(lodgersCount>=2)->więźniowie [asker_nameDef]</li>
-    <li>adjAny->[AdjectiveBadass]</li>
-    <li>adjAny->[AdjectiveAngsty]</li>
-    <li>adjAny->[AdjectiveFriendly]</li>
-  </Hospitality_Prisoners.questNameRules.rulesStrings>
-  
 </LanguageData>

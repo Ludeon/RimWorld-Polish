@@ -114,16 +114,16 @@
   -->
   <ArtDescription_CubeSculpture.rulePack.rulesStrings>
     <li>r_art_description->Oto [cubeWork]. [cubeDepicts] [aCube]. [cube_style_group]</li>
-    <li>damage_source->[source] [attacked]</li>
-    <li>maybeAdjectiveEvil->[adjectiveEvil]</li>
-    <li>maybeAdjectiveEvil(p=2)-></li>
-    <li>r_name->[creepjoinerFirstname] „[creepjoinerNickname]” [creepjoinerLastname]</li>
-    <li>cubeDescSentence(p=3)->[cubeLocation]To [pawnsPlural]. Grupa [worshippingTheCube] </li>
-    <li>cubeDescSentence-> [cubeWork] zaprasza obserwatora. niechaj [worshippingTheCube]</li>
-    <li>cubeDescSentence->[cubeWork] skupia się na postaciach. ta zbiorowość [worshippingTheCube]</li>
+    <li>cube_style_group(p=2)->[cubeDescSentence]. [cubeExtraSentence].</li>
+    <li>cube_style_group(p=3)->[cubeDescSentence].</li>
+    <li>cube_style_group-></li>
+    <li>cubeDescSentence(p=3)->[cubeLocation] przedstawiono: [aPawn]. Motyw przewodni sceny: [worshippingTheCube]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation] przedstawiono: [pawnsPlural]. Motyw przewodni sceny: [worshippingTheCube]</li>
+    <li>cubeDescSentence->Dzieło zachęca widza do naśladowania przedstawionej czynności: [worshippingTheCube]</li>
+    <li>cubeDescSentence->W centrum dzieła widnieją postacie. Temat sceny: [worshippingTheCube]</li>
     <li>cubeWork->praca</li>
-    <li>cubeWork-> rzeźba</li>
-    <li>cubeWork->grafika</li>
+    <li>cubeWork->rzeźba</li>
+    <li>cubeWork->dzieło sztuki</li>
     <li>cubeWork->dzieło</li>
     <li>aCube->abstrakcyjny sześcian</li>
     <li>aCube->idealny sześcian</li>
@@ -134,19 +134,19 @@
     <li>aCube->zniekształcony sześcian</li>
     <li>aCube->przerażający sześcian</li>
     <li>aCube->ciemny sześcian</li>
-    <li>cubeLocation->niedaleko środka</li>
-    <li>cubeLocation->na każdej powierzchni sześcianu</li>
-    <li>cubeLocation->na środku twarzy</li>
-    <li>cubeLocation->na głównej postaci</li>
-    <li>cubeLocation->pod główną postacią</li>
-    <li>cubeLocation->za główną postacią</li>
-    <li>cubeLocation->w pobliżu krawędzi</li>
-    <li>cubeLocation->wzdłuż krawędzi</li>
-    <li>cubeLocation->wzdłuż krawędzi</li>
-    <li>cubeDepicts->pokazuje</li>
-    <li>cubeDepicts->ukazuje</li>
-    <li>cubeDepicts->wyświetla</li>
-    <li>cubeDepicts->przedstawia</li>
+    <li>cubeLocation->Niedaleko środka</li>
+    <li>cubeLocation->Na każdej ścianie sześcianu</li>
+    <li>cubeLocation->Na środkach ścian</li>
+    <li>cubeLocation->Na głównej postaci</li>
+    <li>cubeLocation->Pod główną postacią</li>
+    <li>cubeLocation->Za główną postacią</li>
+    <li>cubeLocation->W pobliżu krawędzi</li>
+    <li>cubeLocation->Wzdłuż krawędzi</li>
+    <li>cubeLocation->Wzdłuż krawędzi</li>
+    <li>cubeDepicts->Pokazuje</li>
+    <li>cubeDepicts->Ukazuje</li>
+    <li>cubeDepicts->Wyświetla</li>
+    <li>cubeDepicts->Przedstawia</li>
     <li>aPawn->autoportret artysty</li>
     <li>aPawn->thrumbo</li>
     <li>aPawn->wychudzona postać ludzka ze zbyt dużą liczbą oczu</li>
@@ -158,37 +158,37 @@
     <li>aPawn->zakapturzony sanguofag</li>
     <li>aPawn->średniowieczna księżniczka</li>
     <li>aPawn->przywódca odległej grupy o nazwie [Community]</li>
-    <li>aPawn->kobieta, w która dzierży w dłoni [Weapon]</li>
+    <li>aPawn->kobieta z bronią ([Weapon])</li>
     <li>aPawn->procesja w szatach</li>
     <li>pawnsPlural->grupa twoich kolonistów</li>
     <li>pawnsPlural->grupa najeźdźców</li>
     <li>pawnsPlural->zgromadzenie członków plemienia</li>
     <li>pawnsPlural->rój mechanoidów</li>
     <li>pawnsPlural->gang piratów</li>
-    <li>pawnsPlural->starodawni rolnicy</li>
-    <li>pawnsPlural-> [AnimalGroup] z gatunku [Animal]</li>
-    <li>pawnsPlural->Grupa o nazwie [Community]</li>
+    <li>pawnsPlural->wiejscy rolnicy</li>
+    <li>pawnsPlural->[AnimalGroup] z gatunku [Animal]</li>
+    <li>pawnsPlural->grupa o nazwie [Community]</li>
     <li>pawnsPlural->[Quantity_adjphrase] ludzi</li>
-    <li>worshippingTheCube->czci sześcian</li>
-    <li>worshippingTheCube->kłania się sześcianowi</li>
-    <li>worshippingTheCube->klęczy przed sześcianem</li>
-    <li>worshippingTheCube->okrąża sześcian</li>
-    <li>worshippingTheCube->oddaje hołd sześcianowi</li>
-    <li>worshippingTheCube->drży z podziwu na widok sześcianu</li>
-    <li>worshippingTheCube->błaga sześcian</li>
-    <li>worshippingTheCube->płacze przed sześcianem</li>
-    <li>worshippingTheCube->zabawia się sześcianem</li>
-    <li>worshippingTheCube->zaprzyjaźnia się z sześcianem</li>
-    <li>worshippingTheCube->obserwuje sześcian</li>
-    <li>worshippingTheCube->ma obsesję na punkcie sześcianu</li>
-    <li>worshippingTheCube->poświęca ofiary sześcianowi</li>
-    <li>worshippingTheCube->składa ofiary sześcianowi</li>
-    <li>worshippingTheCube->wścieka się na sześcian</li>
-    <li>worshippingTheCube->szanuje sześcian</li>
-    <li>worshippingTheCube->zakopuje sześcian</li>
-    <li>worshippingTheCube->umieszcza sześcian na cokole</li>
-    <li>worshippingTheCube->kopiuje sześcian</li>
-    <li>worshippingTheCube->przenosi sześcian do innego świata</li>
+    <li>worshippingTheCube->oddawanie czci sześcianowi</li>
+    <li>worshippingTheCube->kłanianie się sześcianowi</li>
+    <li>worshippingTheCube->klęczenie przed sześcianem</li>
+    <li>worshippingTheCube->krążenie wokół sześcianu</li>
+    <li>worshippingTheCube->wychwalanie sześcianu</li>
+    <li>worshippingTheCube->drżenie z podziwu na widok sześcianu</li>
+    <li>worshippingTheCube->błaganie sześcianu</li>
+    <li>worshippingTheCube->płacz przed sześcianem</li>
+    <li>worshippingTheCube->zabawa sześcianem</li>
+    <li>worshippingTheCube->zaprzyjaźnianie się z sześcianem</li>
+    <li>worshippingTheCube->obserwowanie sześcianu</li>
+    <li>worshippingTheCube->obsesyjne zajmowanie się sześcianem</li>
+    <li>worshippingTheCube->poświęcanie ofiar sześcianowi</li>
+    <li>worshippingTheCube->składanie darów sześcianowi</li>
+    <li>worshippingTheCube->złorzeczenie sześcianowi</li>
+    <li>worshippingTheCube->okazywanie szacunku sześcianowi</li>
+    <li>worshippingTheCube->zakopywanie sześcianu</li>
+    <li>worshippingTheCube->umieszczanie sześcianu na cokole</li>
+    <li>worshippingTheCube->kopiowanie sześcianu</li>
+    <li>worshippingTheCube->przenoszenie sześcianu na inny świat</li>
     <li>worshipsTheCube->czci sześcian</li>
     <li>worshipsTheCube->kłania się sześcianowi</li>
     <li>worshipsTheCube->klęka przed sześcianem</li>
@@ -210,10 +210,10 @@
     <li>worshipsTheCube->kopiuje sześcian</li>
     <li>worshipsTheCube->przenosi sześcian do innego świata</li>
     <li>cubeExtraSentence->Sześcian wydaje się tym [cubeEmotion]</li>
-    <li>cubeExtraSentence->[pawnsPlural] zbliża się, by zrobić to samo</li>
-    <li>cubeExtraSentence->[aPawn] podchodzi, by zrobić to samo</li>
-    <li>cubeExtraSentence->[aPawn] spogląda żałośnie na tę scenę</li>
-    <li>cubeExtraSentence->[pawnsPlural] próbuje ukraść sześcian</li>
+    <li>cubeExtraSentence->Inne postacie zbliżają się, by zrobić to samo: [pawnsPlural]</li>
+    <li>cubeExtraSentence->Widać też kogoś, kto podchodzi, by zrobić to samo: [aPawn]</li>
+    <li>cubeExtraSentence->Na scenę spogląda z żalem: [aPawn]</li>
+    <li>cubeExtraSentence->W tle trwa próba kradzieży sześcianu. Uczestnicy: [pawnsPlural]</li>
     <li>cubeExtraSentence->Sześcian wydaje się delikatnie migotać</li>
     <li>cubeEmotion->niezrażony</li>
     <li>cubeEmotion->zadowolony</li>

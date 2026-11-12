@@ -1,15 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
-  
-  <!-- EN: FIXME: NOWA WERSJA
+  <!-- EN:
     <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->Wykryłeś [siteLabel] w pobliżu terenu kontrolowanego przez [faction_name].\n\nJeśli chcesz, możesz najechać obóz, aby zebrać łupy ([loot]). [raidConsequences]\n\nObóz spakuje się i ruszy dalej za [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->Jeśli to zrobisz, [faction_name] stanie się Twoim wrogiem.</li>
-    <li>raidConsequences(faction_temporary==true)->Ponieważ [faction_name] to tylko niewielka, niezależna grupa, możesz ich zaatakować bez większych konsekwencji dyplomatycznych.</li>
+    <li>questDescription->W pobliżu wykryto obóz roboczy: [siteLabel]. Kontroluje go frakcja [faction_name].\n\nMożesz najechać obóz i zdobyć łupy: [loot]. [raidConsequences]\n\nObóz zostanie zwinięty za [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Atak spowoduje wrogość frakcji [faction_name].</li>
+    <li>raidConsequences(faction_temporary==true)->To niewielka, niezależna grupa, więc atak nie spowoduje szerszych konsekwencji dyplomatycznych.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
@@ -24,16 +23,15 @@
     <li>detected->uncovered</li>
   -->
   <OpportunitySite_WorkSite.questNameRules.rulesStrings>
-    <li>questName->[detected] [site_label]</li>
-    <li>detected->wykryto</li>
-    <li>detected->odkryto</li>
-    <li>detected->nieopodal znajduje się</li>
-    <li>detected->znaleziono</li>
-    <li>detected->zidentyfikowano</li>
-    <li>detected->zauważono</li>
-    <li>detected->zaobserwowano</li>
-    <li>detected->ujawniono</li>
-    <li>detected->odkryto</li>
+    <li>questName->[site_label] ([detected])</li>
+    <li>detected->odkryta placówka</li>
+    <li>detected->nowa placówka</li>
+    <li>detected->pobliska placówka</li>
+    <li>detected->znaleziony obóz</li>
+    <li>detected->namierzony obóz</li>
+    <li>detected->zauważony obóz</li>
+    <li>detected->zaobserwowany obiekt</li>
+    <li>detected->ujawnione miejsce</li>
+    <li>detected->wykryta baza</li>
   </OpportunitySite_WorkSite.questNameRules.rulesStrings>
-  
 </LanguageData>
