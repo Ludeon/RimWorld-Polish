@@ -23,7 +23,7 @@
   <NotAllowed>Nie dozwolono</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>Atakuj {1_labelShort}</Attack>
+  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Strzelaj w: {1_labelShort}</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>nie może wydawać poleceń jednostkom niekontrolowanym</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>nie można zaatakować</CannotAttack>
+  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>nie można zaatakować siebie</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>nieosiągalne poza komórką</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>nie można opuścić mapy</CannotExitMap>
+  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>brak wymaganego poziomu umiejętności</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -224,9 +224,9 @@
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>niezachwiana lojalność</Unrecruitable>
   <!-- EN: not recruitable -->
-  <UnrecruitableNoFaction>nie podlega rekrutacji</UnrecruitableNoFaction> 
+  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>Przenieś {0_label}</TransferEntity> 
+  <TransferEntity>Przenieś: {0_definite}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>Uratuj: {1_labelShort}</Rescue>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Wymuś założenie: {1_labelShort}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>Wymuś na celu założenie: {1_labelShort}...</ForceTargetToWear>
+  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>Nie możesz zmusić celu do założenia: {1_label}.</CannotForceTargetToWear>
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Wymuś wyposażenie: {1_labelShort}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>Zmuś cel do wyposażenia się w {1_labelShort}...</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Nie można wyposażyć: {1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>Nie możesz zmusić celu do wyposażenia się w {1_label}.</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
   
@@ -326,7 +326,7 @@
   <ReloadCannotCarryEnough>Nie można unieść odpowiedniej ilości {AMMO_label}, aby przeładować 1 ładunek.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUp>Nie może wziąć: {1_labelShort}</CannotPickUp>
+  <CannotPickUp>Nie można wziąć: {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Nie można wziąć: {1_label} (całość)</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
@@ -446,7 +446,7 @@
   <AttackSettlement>Zaatakuj: {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
   <ApproachSite>Podejdź: {0}</ApproachSite>
-  <!-- EN: Approaching {0} -->
+  <!-- EN: Approaching {0}. -->
   <ApproachingSite>Podchodzenie: {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Zaoferuj podarunek</OfferGifts>
@@ -468,7 +468,7 @@
   <CannotGenericWorkCustom>Nie można wykonać: {0}</CannotGenericWorkCustom>
 
   <!-- EN: Incapable of {0} -->
-  <CannotMissingHealthActivities>Niezdolność do: {0}</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Nie można nadać priorytetu, niezdolność do: {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -477,27 +477,27 @@
   <CannotGenericAlreadyAmCustom>Już priorytetyzowano {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Nigdy nie wykona: {0}</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>Nie nadać priorytetu, nigdy nie wykona: {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>Brak niezbędnego tytułu</MissingTitleAbility>
 
   <!-- EN: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Nigdy nie wykona: {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>Nie można nadać priorytetu, nigdy nie wykona: {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nigdy nie wykona: {0}</WillNever>
 
   <!-- EN: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>Brak przydziału do: {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Nie można nadać priorytetu, brak przydziału do: {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>nie przydzielono</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>brak przydziału do: {0}</NotAssignedToWorkType>
 
   <!-- EN: Research is a long-term task -->
-  <CannotPrioritizeResearch>Badania są zadaniem długoterminowym</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Nie można nadać priorytetu: Badania są zadaniem długoterminowym</CannotPrioritizeResearch>
 
   <!-- EN: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>{1_label} - oznaczono jako zakazane</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Nie można nadać priorytetu: {1_label} - oznaczono jako zakazane</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Nie można nadać priorytetu: Zakazane</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Priorytetyzuj {0}: {1}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>Priorytetyzuj {0}</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>Uruchom {LOCATION_label}</LaunchTo>
+  <LaunchTo>TODO</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>Czy jesteś pewien, że chcesz to uruchomić?</LaunchToConfirmation>
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Upuść na krawędzi</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,11 +644,11 @@
   <!-- EN: Hack {0} -->
   <Hack>Zhakuj {0}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>Wybierz kolonistę do zhakowania.</HackDesc>
+  <HackDesc>TODO</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>Nie możesz zhakować {0}</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>Zablokowany</LockedOut>
+  <LockedOut>TODO</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Aktualnie hakowane</AlreadyHacked>
   <!-- EN: Incapable of hacking -->

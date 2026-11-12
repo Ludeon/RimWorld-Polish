@@ -3,7 +3,7 @@
   
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>zniszcz strój</DestroyApparel.label>
-  <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
   <DestroyApparel.description>Użyj wysokiej temperatury, aby zniszczyć niechciane stroje. Proces ten jest szybszy od przetapiania, oraz działa na przedmiotach, których nie da się przetapiać, jednak wszystkie zasoby są zmarnowane.</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>Niszczy strój.</DestroyApparel.jobString>
@@ -26,6 +26,8 @@
   <Make_ChemfuelFromOrganics.label>zrób chem-paliwo z substancji organicznych</Make_ChemfuelFromOrganics.label>
   <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
   <Make_ChemfuelFromOrganics.description>Zrób porcję chem-paliwa, pozyskując biopaliwo z surowców organicznych.</Make_ChemfuelFromOrganics.description>
+  <!-- EN: feedstock -->
+  <Make_ChemfuelFromOrganics.ingredients.0.filter.customSummary>bydło</Make_ChemfuelFromOrganics.ingredients.0.filter.customSummary>
   <!-- EN: Refining chemfuel from organics. -->
   <Make_ChemfuelFromOrganics.jobString>Rafinuje chem-paliwo z substancji organicznych.</Make_ChemfuelFromOrganics.jobString>
   
@@ -70,6 +72,13 @@
   <SmeltApparel.description>Użyj wysokiej temperatury i silnych elektromagnesów, aby rozłożyć metalowe stroje, takie jak zbroja na użyteczne zasoby.</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
   <SmeltApparel.jobString>Przetapia stroje.</SmeltApparel.jobString>
+  
+  <!-- EN: smelt or destroy thing -->
+  <SmeltOrDestroyThing.label>przetop lub zniszcz przedmiot</SmeltOrDestroyThing.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
+  <SmeltOrDestroyThing.description>TODO</SmeltOrDestroyThing.description>
+  <!-- EN: Smelting/destroying things. -->
+  <SmeltOrDestroyThing.jobString>Przetapanie/niszczenie przedmiotów.</SmeltOrDestroyThing.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>przetop broń</SmeltWeapon.label>

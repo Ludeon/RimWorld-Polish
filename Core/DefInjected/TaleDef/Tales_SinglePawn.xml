@@ -105,7 +105,7 @@
   <FinishedResearchProject.label>ukończenie projektu badawczego</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
-    <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working on the [PROJECT_label] research project [circumstance_group]</li>
     <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great intensity</li>
@@ -200,6 +200,24 @@
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>TODO</MentalStateGaveUp.rulePack.rulesStrings>
   
+  <!-- EN: read a book -->
+  <ReadBook.label>czytanie książki</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>TODO</ReadBook.rulePack.rulesStrings>
+  
   <!-- EN: struck mineable -->
   <StruckMineable.label>zdobycie minerału</StruckMineable.label>
   <!-- EN:
@@ -287,8 +305,8 @@
     <li>desc_sentence->[PAWN_possessive] eyes are wide with panic.</li>
     <li>desc_sentence->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
     <li>desc_sentence->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
-    <li>desc_sentence->The flames are about to envelope his head.</li>
-    <li>desc_sentence->A symbolic halo of fire surrounds his face.</li>
+    <li>desc_sentence->The flames are about to envelope [PAWN_possessive] head.</li>
+    <li>desc_sentence->A symbolic halo of fire surrounds [PAWN_possessive] face.</li>
     <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
     <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
     <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>

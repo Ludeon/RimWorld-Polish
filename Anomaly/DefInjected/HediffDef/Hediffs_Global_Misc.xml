@@ -15,6 +15,11 @@
   <!-- EN: This person has been hypnotized by an awoken unnatural corpse. The trance is absolute, but if the awoken corpse breaks its gaze then the hypnosis will end. -->
   <AwokenHypnosis.description>Osoba ta została zahipnotyzowana przez ożywione, nienaturalne zwłoki. Trans jest absolutny, jednak jeśli ożywiony trup przestanie wpatrywać się w ofiarę, hipnoza się skończy.</AwokenHypnosis.description>
   
+  <!-- EN: bioferrite extracted -->
+  <BioferriteExtracted.label>TODO</BioferriteExtracted.label>
+  <!-- EN: Bioferrite has been surgically removed from this entity. It will regenerate, but the process takes days. -->
+  <BioferriteExtracted.description>TODO</BioferriteExtracted.description>
+  
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>błoga lobotomia</BlissLobotomy.label>
   <!-- EN: This person has been psychically lobotomized, placing them in a state of bliss but limiting their cognitive function. -->
@@ -22,7 +27,7 @@
   
   <!-- EN: blood rage -->
   <BloodRage.label>krwawa wściekłość</BloodRage.label>
-  <!-- EN: This person has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
+  <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
   <BloodRage.description>Ta osoba była wystawiona na działanie krwawego deszczu. To maź psi, która wywołuje wściekłość. Natężenie ataku szału będzie coraz większe wraz z wydłużaniem się czasu ekspozycji, skutkując załamaniem psychicznym i napadem szału. Efekty potęgują się szybciej w przypadku niektórych osób, w zależności od ich cech, podatności psychicznej i losowych różnic indywidualnych.</BloodRage.description>
   <!-- EN: very mild -->
   <BloodRage.stages.very_mild.label>bardzo łagodna</BloodRage.stages.very_mild.label>
@@ -33,7 +38,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>poważny</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme.label>ekstremalna</BloodRage.stages.extreme.label>
+  <BloodRage.stages.extreme-0.label>ekstremalna</BloodRage.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme-1.label>TODO</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>śpiączka po praniu mózgu</BrainwipeComa.label>
@@ -65,7 +72,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedCreepjoiner.label>rozpadający się umysł</CrumblingMindUndiagnosedCreepjoiner.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: FIXME: NOWA WERSJA This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedCreepjoiner.description>Stan psychiczny tej osoby szybko się pogarsza. Za kilka dni będzie niezdolna do wykonywania większości prac. Wystarczająco zaawansowana technologia, taka jak serum leczące, pozwoli jeszcze przez jakiś czas odwrócić ten stan, jednak wkrótce zmieni się on w stałą przypadłość.</CrumblingMindUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} wykazuje wczesne objawy poważnej choroby, która wkrótce spowoduje poważne pogorszenie się stanu psychicznego. {SURGEON_nameDef} nie potrafi jeszcze powiedzieć, co ją powoduje, jednak {PAWN_nameDef} za kilka dni poważnie zachoruje.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -78,7 +85,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedDuplication.label>rozpadający się umysł</CrumblingMindUndiagnosedDuplication.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: FIXME: NOWA WERSJA This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedDuplication.description>Stan psychiczny tej osoby szybko się pogarsza. Za kilka dni będzie niezdolna do wykonywania większości prac. Wystarczająco zaawansowana technologia, taka jak serum leczące, pozwoli jeszcze przez jakiś czas odwrócić ten stan, jednak wkrótce zmieni się on w stałą przypadłość.</CrumblingMindUndiagnosedDuplication.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} wykazuje wczesne objawy poważnej choroby, która wkrótce spowoduje poważne pogorszenie się stanu psychicznego. {SURGEON_nameDef} nie potrafi jeszcze powiedzieć, co ją powoduje, jednak {PAWN_nameDef} za kilka dni poważnie zachoruje.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -98,6 +105,18 @@
   <CubeInterest.label>zainteresowanie sześcianem</CubeInterest.label>
   <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
   <CubeInterest.description>Złoty sześcian przyciąga tę osobę. Jeśli będzie zbyt długo od niego oddzielona, zacznie odczuwać negatywne skutki.</CubeInterest.description>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.0.reportString>TODO</CubeInterest.reportStringOverrides.0.reportString>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.1.reportString>TODO</CubeInterest.reportStringOverrides.1.reportString>
+  <!-- EN: Asleep, dreaming about the cube. -->
+  <CubeInterest.reportStringOverrides.2.reportString>TODO</CubeInterest.reportStringOverrides.2.reportString>
+  <!-- EN: Meditating on the cube. -->
+  <CubeInterest.reportStringOverrides.3.reportString>TODO</CubeInterest.reportStringOverrides.3.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.4.reportString>TODO</CubeInterest.reportStringOverrides.4.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.5.reportString>TODO</CubeInterest.reportStringOverrides.5.reportString>
   <!-- EN: curious -->
   <CubeInterest.stages.curious.label>ciekawość</CubeInterest.stages.curious.label>
   <!-- EN: fascinated -->
@@ -132,7 +151,7 @@
   
   <!-- EN: dark psychic shock -->
   <DarkPsychicShock.label>szok mrocznego psi</DarkPsychicShock.label>
-  <!-- EN: Part of this person's neutral pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
+  <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
   <DarkPsychicShock.description>Część wzorca neuronowego tej osoby została zakłócona przez mroczne psi. Szok wywołany tym procesem sprawił, że tymczasowo zapadła w śpiączkę.</DarkPsychicShock.description>
   
   <!-- EN: death refusal -->
@@ -287,7 +306,7 @@
   
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>hipnoza upiora</RevenantHypnosis.label>
-  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantHypnosis.description>Osoba ta została zahipnotyzowana przez upiora i pozostaje z nim związana. Rozmawiają o koszmarnych stworzeniach, a ich nieruchome oczy wpatrują się w niewidoczne okropności.\n\nPo zahipnotyzowaniu ofiary upiór hibernuje się na tej samej mapie, co jego ofiara.\n\nZabicie upiora zakończy hipnozę. Ukrytego upiora można odkryć za pomocą flar zakłócających, łądunków wybuchowych, EMP, piany gaśniczej lub podpalenia.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
@@ -320,7 +339,7 @@
   
   <!-- EN: void touched -->
   <VoidTouched.label>dotknięcie pustki</VoidTouched.label>
-  <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need food or sleep. The void provides for them. -->
+  <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
   <VoidTouched.description>Osoba ta ujrzała głębię pustki i napiła się jej esencji. Pustka wciąż w niej żyje, kierując jej działaniami i wykręcając jej ciało. Włosy tej osoby stały się łamliwe i białe. Nie potrzebuje już jedzenia ani snu. Pustka je zapewnia.</VoidTouched.description>
   
 </LanguageData>

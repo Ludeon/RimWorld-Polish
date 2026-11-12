@@ -57,7 +57,7 @@
   <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>trunek</FoodTypeFlags_Liquor>
   <!-- EN: kibble -->
-  <FoodTypeFlags_Kibble>pasza</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>karma dla zwierząt</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <!-- EN: awful -->
@@ -148,15 +148,15 @@
   <ContentSource_SteamWorkshop>Warsztat Steam</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
+  <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>Bez opieki medycznej</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
+  <!-- EN: doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>Opieka medyczna, ale bez leków</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
+  <!-- EN: herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>Ziołowe leki albo gorsze</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
+  <!-- EN: industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>Zwykłe leki albo gorsze</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
+  <!-- EN: best quality medicine -->
   <MedicalCareCategory_Best>Leki najwyższej jakości</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
@@ -204,15 +204,59 @@
   <PawnGenerationContext_PlayerStarter>startowe postacie gracza</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>Intensywność drgań ekranu</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>Wyś. imiona zwierząt</ShowAnimalNames>
+  <ShowAnimalNames>Wyświetl imiona zwierząt</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
   <AnimalNameDisplayMode_TameNamed>Oswojone (nazwane)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Oswojone (wszystkie)</AnimalNameDisplayMode_TameAll>
+
+  <!-- Highlight display mode -->
+  <!-- EN: Character highlighting -->
+  <DotHighlightDisplayMode>Podświetlenie postaci</DotHighlightDisplayMode>
+  <!-- EN: Highlight hostiles -->
+  <DotHighlightDisplayMode_HighlightHostiles>Podświetl wrogów</DotHighlightDisplayMode_HighlightHostiles>
+  <!-- EN: Highlight all -->
+  <DotHighlightDisplayMode_HighlightAll>Podświetl wszystkich</DotHighlightDisplayMode_HighlightAll> 
   
+  <!-- Highlight style -->
+  <!-- EN: Highlight mode -->
+  <HighlightStyleMode>Tryb podświetlania</HighlightStyleMode>
+  <!-- EN: Dots -->
+  <HighlightStyleMode_Dots>Kropki</HighlightStyleMode_Dots>
+  <!-- EN: Silhouettes -->
+  <HighlightStyleMode_Silhouettes>Sylwetki</HighlightStyleMode_Silhouettes> 
+
+  <!-- Mood gradient display strength-->
+  <!-- EN: Visible mood -->
+  <VisibleMood>Widoczny nastrój</VisibleMood>
+  <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
+  <VisibleMoodDesc>Gdy włączone, wyświetla wskaźnik na portecie postaci, gdy istnieje ryzyko załamania psychicznego.</VisibleMoodDesc>
+  
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>Pokaż nazwy mechów gracza</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>Podczas trybu bojowego</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>zawsze</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>Broń pod portretem</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>U każdej osoby pokaż broń pod portretem u góry ekranu</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>zawsze</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>podczas trybu bojowego</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>Celsjusz</Celsius>
@@ -297,15 +341,15 @@
   <!-- EN: Any threat -->
   <AutomaticPauseMode_AnyThreat>Każde zagrożenie</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>Każdy list</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>Każde zdarzenie</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->
-  <PainCategory_LowPain>swędzenie</PainCategory_LowPain>
+  <PainCategory_LowPain>swędząca</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>pobolewanie</PainCategory_MediumPain>
+  <PainCategory_MediumPain>bolesna</PainCategory_MediumPain>
   <!-- EN: painful -->
-  <PainCategory_HighPain>duży ból</PainCategory_HighPain>
+  <PainCategory_HighPain>silny ból</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
   <!-- EN: home faction -->

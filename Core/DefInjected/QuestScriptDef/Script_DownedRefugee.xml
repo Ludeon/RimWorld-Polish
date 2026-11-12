@@ -10,7 +10,7 @@
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
     <li>letni(refugee_gender==Male)->letni</li>
     <li>letni(refugee_gender==Female)->letnia</li>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] kontaktuje się z tobą i prosi o pomoc, bo ma poważne rany i nie może się ruszać.\n\n[refugee_age] [letni] [refugee_nameIndef] [refugee_title]. Obiecuje dołączyć do ciebie, jeśli [refugee_objective] uratujesz.\n\n[refugee_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] kontaktuje się z tobą i prosi o pomoc, ze względu na odniesione poważne rany i nie może się ruszać.\n\n[refugee_age] [letni] [refugee_nameIndef] [refugee_title]. Obiecuje dołączyć do ciebie, jeśli [refugee_objective] uratujesz.\n\n[refugee_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z [asker_faction_name], mówi, że jego przyjaciel został ranny podczas podróży. Ofiarą jest [refugee_age] [letni] [refugee_nameIndef] [refugee_title].\n\n[asker_nameDef] nie ma nikogo, kto mógłby uratować [refugee_nameIndef], ale mówi, że jeśli zdołasz dotrzeć do [refugee_nameIndef] i [refugee_objective] uratować , [refugee_pronoun] dołączy do ciebie.\n\n[asker_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
