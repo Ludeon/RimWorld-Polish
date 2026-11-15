@@ -14,7 +14,8 @@
     <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
   -->
-  <Damage_Bomb.rulePack.rulesStrings> <li>damaged_past(p=2,INITIATOR_gender==Male)->wysadził</li>
+  <Damage_Bomb.rulePack.rulesStrings>
+    <li>damaged_past(p=2,INITIATOR_gender==Male)->wysadził</li>
     <li>damaged_past(p=2,INITIATOR_gender==Female)->wysadziła</li>
     <li>damaged_past(p=2,INITIATOR_gender==Male)->eksplodował na</li>
     <li>damaged_past(p=2,INITIATOR_gender==Female)->eksplodowała na</li>
@@ -24,7 +25,6 @@
     <li>damaged_past(INITIATOR_gender==Female)->uszkodziła</li>
     <li>damaged_past(INITIATOR_gender==Male)->poturbował</li>
     <li>damaged_past(INITIATOR_gender==Female)->poturbowała</li>
-
     <li>destroyed_past(INITIATOR_gender==Male)->roztrzaskał</li>
     <li>destroyed_past(INITIATOR_gender==Female)->roztrzaskała</li>
     <li>destroyed_past(INITIATOR_gender==Male)->zmiażdżył</li>
@@ -32,7 +32,8 @@
     <li>destroyed_past(INITIATOR_gender==Male)->unicestwił</li>
     <li>destroyed_past(INITIATOR_gender==Female)->unicestwiła</li>
     <li>destroyed_past(INITIATOR_gender==Male)->zdetonował</li>
-    <li>destroyed_past(INITIATOR_gender==Female)->zdetonowała</li></Damage_Bomb.rulePack.rulesStrings>
+    <li>destroyed_past(INITIATOR_gender==Female)->zdetonowała</li>
+  </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->electrified</li>
@@ -40,13 +41,15 @@
     <li>damaged_past->zapped</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_EMP.rulePack.rulesStrings>  <li>damaged_past(INITIATOR_gender==Male)->poraził prądem</li>
+  <Damage_EMP.rulePack.rulesStrings>
+    <li>damaged_past(INITIATOR_gender==Male)->poraził prądem</li>
     <li>damaged_past(INITIATOR_gender==Female)->poraziła prądem</li>
     <li>damaged_past(INITIATOR_gender==Male)->wywołał wstrząs u</li>
     <li>damaged_past(INITIATOR_gender==Female)->wywołała wstrząs u</li>
     <li>damaged_past(INITIATOR_gender==Male)->przepalił obwody u</li>
     <li>damaged_past(INITIATOR_gender==Female)->przepaliła obwody u</li>
-    <li>destroyed_past(p=1)->uszkodzono</li></Damage_EMP.rulePack.rulesStrings>
+    <li>destroyed_past(p=1)->uszkodzono</li>
+  </Damage_EMP.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->extinguished</li>
@@ -55,13 +58,15 @@
     <li>damaged_past->quenched</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Extinguish.rulePack.rulesStrings> <li>damaged_past(INITIATOR_gender==Male)->ugasił</li>
+  <Damage_Extinguish.rulePack.rulesStrings>
+    <li>damaged_past(INITIATOR_gender==Male)->ugasił</li>
     <li>damaged_past(INITIATOR_gender==Female)->ugasiła</li>
     <li>damaged_past(INITIATOR_gender==Male)->pokrył pianą</li>
     <li>damaged_past(INITIATOR_gender==Female)->pokryła pianą</li>
     <li>damaged_past(INITIATOR_gender==Male)->zdusił płomienie u</li>
     <li>damaged_past(INITIATOR_gender==Female)->zdusiła płomienie u</li>
-    <li>destroyed_past(p=1)->stłumiono ogień</li></Damage_Extinguish.rulePack.rulesStrings>
+    <li>destroyed_past(p=1)->stłumiono ogień</li>
+  </Damage_Extinguish.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
@@ -97,7 +102,8 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->detonating</li>
   -->
-  <Damage_Flame.rulePack.rulesStrings>  <li>damaged_past(p=2,INITIATOR_gender==Male)->osmalił</li>
+  <Damage_Flame.rulePack.rulesStrings>
+    <li>damaged_past(p=2,INITIATOR_gender==Male)->osmalił</li>
     <li>damaged_past(p=2,INITIATOR_gender==Female)->osmaliła</li>
     <li>damaged_past(p=2,INITIATOR_gender==Male)->przypalił</li>
     <li>damaged_past(p=2,INITIATOR_gender==Female)->przypaliła</li>
@@ -117,7 +123,6 @@
     <li>damaged_past(INITIATOR_gender==Female)->okaleczyła</li>
     <li>damaged_past(INITIATOR_gender==Male)->skrzywdził</li>
     <li>damaged_past(INITIATOR_gender==Female)->skrzywdziła</li>
-
     <li>damaged_present(p=2)->osmalając</li>
     <li>damaged_present(p=2)->przypalając</li>
     <li>damaged_present(p=2)->parząc</li>
@@ -128,7 +133,6 @@
     <li>damaged_present->uszkadzając</li>
     <li>damaged_present->okaleczając</li>
     <li>damaged_present->krzywdząc</li>
-
     <li>destroyed_past(INITIATOR_gender==Male)->skremował</li>
     <li>destroyed_past(INITIATOR_gender==Female)->skremowała</li>
     <li>destroyed_past(INITIATOR_gender==Male)->spopielił</li>
@@ -141,13 +145,13 @@
     <li>destroyed_past(INITIATOR_gender==Female)->spaliła doszczętnie</li>
     <li>destroyed_past(INITIATOR_gender==Male)->wysadził w powietrze</li>
     <li>destroyed_past(INITIATOR_gender==Female)->wysadziła w powietrze</li>
-
     <li>destroyed_present->kremując</li>
     <li>destroyed_present->spopielając</li>
     <li>destroyed_present->zwęglając</li>
     <li>destroyed_present->unicestwiając</li>
     <li>destroyed_present->spalając doszczętnie</li>
-    <li>destroyed_present->wysadzając w powietrze</li></Damage_Flame.rulePack.rulesStrings>
+    <li>destroyed_present->wysadzając w powietrze</li>
+  </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->smoked</li>
@@ -155,11 +159,13 @@
     <li>damaged_past->clouded</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Smoke.rulePack.rulesStrings>  <li>damaged_past(INITIATOR_gender==Male)->zadymił</li>
+  <Damage_Smoke.rulePack.rulesStrings>
+    <li>damaged_past(INITIATOR_gender==Male)->zadymił</li>
     <li>damaged_past(INITIATOR_gender==Female)->zadymiła</li>
     <li>damaged_past(INITIATOR_gender==Male)->zasnuł dymem</li>
     <li>damaged_past(INITIATOR_gender==Female)->zasnuła dymem</li>
-    <li>destroyed_past->zadymiono</li></Damage_Smoke.rulePack.rulesStrings>
+    <li>destroyed_past->zadymiono</li>
+  </Damage_Smoke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->stunned</li>
@@ -168,12 +174,14 @@
     <li>damaged_past->dizzied</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Stun.rulePack.rulesStrings> <li>damaged_past(INITIATOR_gender==Male)->ogłuszył</li>
+  <Damage_Stun.rulePack.rulesStrings>
+    <li>damaged_past(INITIATOR_gender==Male)->ogłuszył</li>
     <li>damaged_past(INITIATOR_gender==Female)->ogłuszyła</li>
     <li>damaged_past(INITIATOR_gender==Male)->zdezorientował</li>
     <li>damaged_past(INITIATOR_gender==Female)->zdezorientowała</li>
     <li>damaged_past(INITIATOR_gender==Male)->oszołomił</li>
     <li>damaged_past(INITIATOR_gender==Female)->oszołomiła</li>
-    <li>destroyed_past->ogłuszono</li></Damage_Stun.rulePack.rulesStrings>
+    <li>destroyed_past->ogłuszono</li>
+  </Damage_Stun.rulePack.rulesStrings>
   
 </LanguageData>

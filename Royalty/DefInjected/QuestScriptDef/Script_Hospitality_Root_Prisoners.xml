@@ -1,45 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
   <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel-&gt;więzień</li>
-    <li>lodgersLabelPlural-&gt;więźniowie</li>
+    <li>lodgersLabel->więzień</li>
+    <li>lodgersLabelPlural->więźniowie</li>
   </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
-  <!-- EN:
-    <li>questName->Guarding for [asker_nameDef]</li>
-    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
-    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
-    <li>questName(lodgersCount>=2)->warden for hire</li>
-    <li>questName(lodgersCount>=2)->prison warden</li>
-    <li>questName(lodgersCount>=2)->contract prison</li>
-    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
-    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
-    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
-    <li>adjAny->[AdjectiveBadass]</li>
-    <li>adjAny->[AdjectiveAngsty]</li>
-    <li>adjAny->[AdjectiveFriendly]</li>
-  -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings>
-    <li>questName->Ochrona na zlecenie — [asker_nameDef]</li>
-    <li>questName(lodgersCount==1)->Pilnowanie więźnia — [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->Więzień — [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->Więzień — "[adjAny]"</li>
-    <li>questName(lodgersCount==1)->Jeden więzień — "[adjAny]"</li>
-    <li>questName(lodgersCount>=2)->Strażnik do wynajęcia</li>
-    <li>questName(lodgersCount>=2)->Dozorowanie więzienia</li>
-    <li>questName(lodgersCount>=2)->Więzienie na zlecenie</li>
-    <li>questName(lodgersCount>=2)->Poszukiwani więźniowie</li>
-    <li>questName(lodgersCount>=2)->Więźniowie — "[adjAny]"</li>
-    <li>questName(lodgersCount>=2)->Więźniowie pod opieką — [asker_nameDef]</li>
-    <li>adjAny->[AdjectiveBadass]</li>
-    <li>adjAny->[AdjectiveAngsty]</li>
-    <li>adjAny->[AdjectiveFriendly]</li>
-  </Hospitality_Prisoners.questNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -114,4 +83,37 @@
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Guarding for [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
+    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
+    <li>questName(lodgersCount>=2)->warden for hire</li>
+    <li>questName(lodgersCount>=2)->prison warden</li>
+    <li>questName(lodgersCount>=2)->contract prison</li>
+    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
+    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  -->
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->Ochrona na zlecenie — [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->Pilnowanie więźnia — [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->Więzień — [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->Więzień — "[adjAny]"</li>
+    <li>questName(lodgersCount==1)->Jeden więzień — "[adjAny]"</li>
+    <li>questName(lodgersCount>=2)->Strażnik do wynajęcia</li>
+    <li>questName(lodgersCount>=2)->Dozorowanie więzienia</li>
+    <li>questName(lodgersCount>=2)->Więzienie na zlecenie</li>
+    <li>questName(lodgersCount>=2)->Poszukiwani więźniowie</li>
+    <li>questName(lodgersCount>=2)->Więźniowie — "[adjAny]"</li>
+    <li>questName(lodgersCount>=2)->Więźniowie pod opieką — [asker_nameDef]</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
+  
 </LanguageData>

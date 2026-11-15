@@ -1,73 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
   <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel-&gt;gość</li>
-    <li>lodgersLabelPlural-&gt;[asker_faction_pawnsPlural]</li>
+    <li>lodgersLabel->gość</li>
+    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
-  <!-- EN:
-    <li>questName->shelter for [lodgerIndef]</li>
-    <li>questName->hospitality for [lodgerIndef]</li>
-    <li>questName->hosting [lodgerIndef]</li>
-    <li>questName->[lodgerIndef] needing help</li>
-    <li>questName(generateThreats==true,priority=1)->protecting [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->safeguarding [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->security for [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] under threat</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in danger</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] with enemies</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in the crosshairs</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->travelers</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a friend</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->an ally</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->friends</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->allies</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->a [asker_royalTitleInCurrentFaction]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a royal</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a noble</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->an aristocrat</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->royals</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
-  -->
-  <Hospitality_Joiners.questNameRules.rulesStrings>
-    <li>questName-&gt;Schronienie — [lodgerIndef]</li>
-    <li>questName-&gt;Gościnność — [lodgerIndef]</li>
-    <li>questName-&gt;Przyjęcie podopiecznych — [lodgerIndef]</li>
-    <li>questName-&gt;Potrzebna pomoc — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Ochrona — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Bezpieczny pobyt — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Zapewnienie bezpieczeństwa — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Zagrożenie — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Niebezpieczeństwo — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Pościg wrogów — [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)-&gt;Na celowniku wroga — [lodgerIndef]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)-&gt;[lodgers0_label]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)-&gt;[lodgers0_title]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount&gt;=2)-&gt;podróżni</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;[lodgers0_label]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;[lodgers0_title]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;przyjaciel</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;sojusznik</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount&gt;=2)-&gt;przyjaciele</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount&gt;=2)-&gt;sojusznicy</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)-&gt;[asker_royalTitleInCurrentFaction]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;osoba z rodziny królewskiej</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;osoba szlachetnie urodzona</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;arystokrata</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;członkowie rodziny królewskiej</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;szlachta</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;arystokraci</li>
-  </Hospitality_Joiners.questNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -192,4 +133,65 @@
     <li>allyAllies(lodgersCountMinusOne==1)->sojusznik</li>
     <li>allyAllies(lodgersCountMinusOne>=2)->sojusznicy</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->shelter for [lodgerIndef]</li>
+    <li>questName->hospitality for [lodgerIndef]</li>
+    <li>questName->hosting [lodgerIndef]</li>
+    <li>questName->[lodgerIndef] needing help</li>
+    <li>questName(generateThreats==true,priority=1)->protecting [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->safeguarding [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->security for [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] under threat</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in danger</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] with enemies</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in the crosshairs</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->a [lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->travelers</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a [lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a friend</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->an ally</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->friends</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->allies</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->a [asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a royal</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a noble</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->an aristocrat</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->royals</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
+  -->
+  <Hospitality_Joiners.questNameRules.rulesStrings>
+    <li>questName->Schronienie — [lodgerIndef]</li>
+    <li>questName->Gościnność — [lodgerIndef]</li>
+    <li>questName->Przyjęcie podopiecznych — [lodgerIndef]</li>
+    <li>questName->Potrzebna pomoc — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Ochrona — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Bezpieczny pobyt — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Zapewnienie bezpieczeństwa — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Zagrożenie — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Niebezpieczeństwo — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Pościg wrogów — [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->Na celowniku wroga — [lodgerIndef]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->podróżni</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->przyjaciel</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->sojusznik</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->przyjaciele</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->sojusznicy</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->osoba z rodziny królewskiej</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->osoba szlachetnie urodzona</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->arystokrata</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->członkowie rodziny królewskiej</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->szlachta</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->arystokraci</li>
+  </Hospitality_Joiners.questNameRules.rulesStrings>
+  
 </LanguageData>

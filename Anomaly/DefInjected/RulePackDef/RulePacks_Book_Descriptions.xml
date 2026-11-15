@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -109,7 +109,7 @@
     <li>tellsAStoryOf->chronicles </li>
     <li>tellsAStoryOf->depicts</li>
     <li>tellsAStoryOf->unfolds</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] experiences [ANYPAWN_pronoun] [shared] with [entities]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] experiences [ANYPAWN_pronoun] shared with [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] explorations into a secret cult with a base under a remote [TerrainFeature]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] the hunt for a mysterious golden cube</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] deep meditations guided by a highthrall from an archist cult</li>
@@ -248,7 +248,7 @@
     <li>awfulDesc->written in a lost language</li>
     <li>awfulDesc->full of incomprehensible jargon</li>
     <li>awfulDesc->childlike</li>
-    <li>awfulDesc->mingles reality with fantasy willy-nilly</li>
+    <li>awfulDesc->mingling reality with fantasy willy-nilly</li>
     <li>awfulDesc->reads like automatic writing</li>
     <li>awfulDesc->saturated with ichor and blood</li>
     <li>awfulDesc->mainly a romance about two [entities]</li>
@@ -275,12 +275,10 @@
   -->
   <Description_Tome.rulePack.rulesStrings>
     <li>desc->[inThisBook] [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
-
     <li>inThisBook(p=17)->W [writingQualityAdjectiveM] [bookTypeM]</li>
     <li>inThisBook(p=12)->W [writingQualityAdjectiveF] [bookTypeF]</li>
     <li>inThisBook(p=7)->W [writingQualityAdjectiveN] [bookTypeN]</li>
     <li>inThisBook(p=7)->W [writingQualityAdjectivePl] [bookTypePl]</li>
-
     <li>bookTypeM->almanachu</li>
     <li>bookTypeM->artykule</li>
     <li>bookTypeM->komentarzu</li>
@@ -298,7 +296,6 @@
     <li>bookTypeM->tekście</li>
     <li>bookTypeM->traktacie</li>
     <li>bookTypeM->tomie</li>
-
     <li>bookTypeF->analizie</li>
     <li>bookTypeF->książce</li>
     <li>bookTypeF->kompozycji</li>
@@ -311,7 +308,6 @@
     <li>bookTypeF->tezie</li>
     <li>bookTypeF->rozprawie</li>
     <li>bookTypeF->pracy</li>
-
     <li>bookTypeN->świadectwie</li>
     <li>bookTypeN->exposé</li>
     <li>bookTypeN->śledztwie</li>
@@ -319,7 +315,6 @@
     <li>bookTypeN->badaniu</li>
     <li>bookTypeN->świadectwie</li>
     <li>bookTypeN->omówieniu</li>
-
     <li>bookTypePl->konkluzjach</li>
     <li>bookTypePl->wnioskach</li>
     <li>bookTypePl->pismach</li>
@@ -327,7 +322,6 @@
     <li>bookTypePl->lamentach</li>
     <li>bookTypePl->annałach</li>
     <li>bookTypePl->objawieniach</li>
-
     <li>author(p=1.5)->autor</li>
     <li>author(p=1.5)->autorka</li>
     <li>author(p=3)->autor, z zawodu [PersonJob],</li>
@@ -383,7 +377,6 @@
     <li>author(p=0.5)->[anAuthorDescF] bohaterka</li>
     <li>author(p=0.5)->[anAuthorDescM] autor</li>
     <li>author(p=0.5)->[anAuthorDescF] autorka</li>
-
     <li>anAuthorDescM(p=2)->pewien</li>
     <li>anAuthorDescM->młody</li>
     <li>anAuthorDescM->stary</li>
@@ -404,7 +397,6 @@
     <li>anAuthorDescM->moralny</li>
     <li>anAuthorDescM->amoralny</li>
     <li>anAuthorDescM->tajemniczy</li>
-
     <li>anAuthorDescF(p=2)->pewna</li>
     <li>anAuthorDescF->młoda</li>
     <li>anAuthorDescF->stara</li>
@@ -425,7 +417,6 @@
     <li>anAuthorDescF->moralna</li>
     <li>anAuthorDescF->amoralna</li>
     <li>anAuthorDescF->tajemnicza</li>
-
     <li>tellsAStoryOf->opisuje</li>
     <li>tellsAStoryOf->ujawnia</li>
     <li>tellsAStoryOf->omawia</li>
@@ -439,7 +430,6 @@
     <li>tellsAStoryOf->zapisuje</li>
     <li>tellsAStoryOf->ukazuje</li>
     <li>tellsAStoryOf->odsłania</li>
-
     <li>experiencesWithMonsters->[tellsAStoryOf] własne przeżycia związane z [entitiesInstr]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] wyprawę do tajnego kultu, którego siedziba znajdowała się w miejscu znanym jako [TerrainFeature]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] poszukiwania tajemniczego złotego sześcianu</li>
@@ -457,26 +447,20 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] własne brutalne eksperymenty na [entityLoc]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] powracające wizje, w których [vision]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] [findings] [objective]</li>
-
     <li>vision->mroczne postaci wdzierają się do umysłu narratora i kradną jego wspomnienia</li>
     <li>vision->narratora prześladuje jego sobowtór, przed którym nie sposób uciec</li>
     <li>vision->narrator zostaje rozszarpany przez istotę przypominającą [entityAcc]</li>
-
     <li>findings->wnioski dotyczące</li>
     <li>findings->wyniki badań dotyczących</li>
     <li>objective->[maybeAdjectiveEvilPluralGen]rytuałów, których początkiem było wydarzenie, podczas którego [ritual_incident]</li>
     <li>objective->mrocznych nauk rozwijanych po zdarzeniu, podczas którego [entity_incident]</li>
-
     <li>ritual_incident->na oczach świadków [targetHuman] pojawia się znikąd</li>
     <li>ritual_incident->przez trzy dni padał deszcz krwi, doprowadzając mieszkańców osady do obłędu</li>
     <li>ritual_incident->[entity_incident]</li>
-
     <li>targetHuman->[targetDescF] kobieta</li>
     <li>targetHuman->[targetDescM] mężczyzna</li>
-
     <li>entity_incident->w wyniku ataku [entityGen] narrator utracił część ciała określaną jako [BodyPart]</li>
     <li>entity_incident->narrator zetknął się z [entityInstr]</li>
-
     <li>specificHorrorStory->W pewnym momencie przywołane zostają mroczne rytuały, podczas których ofiary zmuszano do kaleczenia się potłuczonym szkłem.</li>
     <li>specificHorrorStory->W pewnym momencie bohater natrafia na rytuał, podczas którego patrzy, jak zakrwawione postaci intonują przerażające zaklęcia, okaleczając się przy tym odłamkami obsydianu.</li>
     <li>specificHorrorStory->Książka zawiera wiele ilustracji próbujących przedstawić coś, co nazywane jest "czarnym oceanem". To chyba metafora sfery psychicznej zdominowanej przez przerażającą, ale przy tym uwodzicielską hiperinteligencję.</li>
@@ -491,7 +475,6 @@
     <li>specificHorrorStory->Można tam znaleźć mrożący krew w żyłach wykład na temat "Horaxa": hiperinteligencji maszynowej, która przeniosła się przez ukryty wymiar do miejsca zwanego pustką.</li>
     <li>specificHorrorStory->W jednej z części opisano teorię, jakoby odległa hiperinteligencja mogła psychicznie manipulować ludzkim poznaniem, przekształcając myśli danej osoby tak, aby dopasować je do własnych wzorców umysłowych.</li>
     <li>specificHorrorStory->Bohater relacjonuje, że czuł, jakby jego umysł przekształcała złowroga siła psychiczna, emanująca z pozornie pustej przestrzeni.</li>
-
     <li>entityAcc->demona</li>
     <li>entityAcc->chodzące zwłoki</li>
     <li>entityAcc->potwora szukającego bólu</li>
@@ -503,7 +486,6 @@
     <li>entityAcc->bestię z krwawego mięsa</li>
     <li>entityAcc->kształt ukryty na widoku</li>
     <li>entityAcc->łowcę kradnącego dusze</li>
-
     <li>entityGen->demona</li>
     <li>entityGen->chodzących zwłok</li>
     <li>entityGen->potwora szukającego bólu</li>
@@ -515,7 +497,6 @@
     <li>entityGen->bestii z krwawego mięsa</li>
     <li>entityGen->kształtu ukrytego na widoku</li>
     <li>entityGen->łowcy kradnącego dusze</li>
-
     <li>entityInstr->demonem</li>
     <li>entityInstr->chodzącymi zwłokami</li>
     <li>entityInstr->potworem szukającym bólu</li>
@@ -527,7 +508,6 @@
     <li>entityInstr->bestią z krwawego mięsa</li>
     <li>entityInstr->kształtem ukrytym na widoku</li>
     <li>entityInstr->łowcą kradnącym dusze</li>
-
     <li>entityLoc->demonie</li>
     <li>entityLoc->chodzących zwłokach</li>
     <li>entityLoc->potworze szukającym bólu</li>
@@ -539,7 +519,6 @@
     <li>entityLoc->bestii z krwawego mięsa</li>
     <li>entityLoc->kształcie ukrytym na widoku</li>
     <li>entityLoc->łowcy kradnącym dusze</li>
-
     <li>entitiesInstr->demonami</li>
     <li>entitiesInstr->chodzącymi zwłokami</li>
     <li>entitiesInstr->potworami szukającymi bólu</li>
@@ -551,7 +530,6 @@
     <li>entitiesInstr->bestiami z krwawego mięsa</li>
     <li>entitiesInstr->kształtami ukrytymi na widoku</li>
     <li>entitiesInstr->łowcami kradnącymi dusze</li>
-
     <li>entitiesGen->demonów</li>
     <li>entitiesGen->chodzących zwłok</li>
     <li>entitiesGen->potworów szukających bólu</li>
@@ -563,10 +541,8 @@
     <li>entitiesGen->bestii z krwawego mięsa</li>
     <li>entitiesGen->kształtów ukrytych na widoku</li>
     <li>entitiesGen->łowców kradnących dusze</li>
-
     <li>maybeAdjectiveEvilPluralGen(p=2)-></li>
     <li>maybeAdjectiveEvilPluralGen->[adjectiveEvilPluralGen]</li>
-
     <li>adjectiveEvilPluralGen->zabójczych </li>
     <li>adjectiveEvilPluralGen->starożytnych </li>
     <li>adjectiveEvilPluralGen->krwawych </li>
@@ -583,7 +559,6 @@
     <li>adjectiveEvilPluralGen->tajemniczych </li>
     <li>adjectiveEvilPluralGen->piekielnych </li>
     <li>adjectiveEvilPluralGen->dziwacznych </li>
-
     <li>targetDescM(p=2)->pewien</li>
     <li>targetDescM->młody</li>
     <li>targetDescM->stary</li>
@@ -604,7 +579,6 @@
     <li>targetDescM->moralny</li>
     <li>targetDescM->amoralny</li>
     <li>targetDescM->tajemniczy</li>
-
     <li>targetDescF(p=2)->pewna</li>
     <li>targetDescF->młoda</li>
     <li>targetDescF->stara</li>
@@ -625,7 +599,6 @@
     <li>targetDescF->moralna</li>
     <li>targetDescF->amoralna</li>
     <li>targetDescF->tajemnicza</li>
-
     <li>writingQualityAdjectiveM(quality==0)->bezładnym</li>
     <li>writingQualityAdjectiveM(quality==0)->nieskładnym</li>
     <li>writingQualityAdjectiveM(quality==0)->bezsensownym</li>
@@ -666,7 +639,6 @@
     <li>writingQualityAdjectiveM(quality==6)->wybitnym</li>
     <li>writingQualityAdjectiveM(quality==6)->mistrzowskim</li>
     <li>writingQualityAdjectiveM(quality==6)->wspaniałym</li>
-
     <li>writingQualityAdjectiveF(quality==0)->bezładnej</li>
     <li>writingQualityAdjectiveF(quality==0)->nieskładnej</li>
     <li>writingQualityAdjectiveF(quality==0)->bezsensownej</li>
@@ -707,7 +679,6 @@
     <li>writingQualityAdjectiveF(quality==6)->wybitnej</li>
     <li>writingQualityAdjectiveF(quality==6)->mistrzowskiej</li>
     <li>writingQualityAdjectiveF(quality==6)->wspaniałej</li>
-
     <li>writingQualityAdjectiveN(quality==0)->bezładnym</li>
     <li>writingQualityAdjectiveN(quality==0)->nieskładnym</li>
     <li>writingQualityAdjectiveN(quality==0)->bezsensownym</li>
@@ -748,7 +719,6 @@
     <li>writingQualityAdjectiveN(quality==6)->wybitnym</li>
     <li>writingQualityAdjectiveN(quality==6)->mistrzowskim</li>
     <li>writingQualityAdjectiveN(quality==6)->wspaniałym</li>
-
     <li>writingQualityAdjectivePl(quality==0)->bezładnych</li>
     <li>writingQualityAdjectivePl(quality==0)->nieskładnych</li>
     <li>writingQualityAdjectivePl(quality==0)->bezsensownych</li>
@@ -789,11 +759,9 @@
     <li>writingQualityAdjectivePl(quality==6)->wybitnych</li>
     <li>writingQualityAdjectivePl(quality==6)->mistrzowskich</li>
     <li>writingQualityAdjectivePl(quality==6)->wspaniałych</li>
-
     <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc]</li>
     <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc]</li>
     <li>writingQualitySentence(quality[less_than]2)->[awfulDesc]</li>
-
     <li>awfulDesc->Tekst jest miejscami nieczytelny</li>
     <li>awfulDesc->Litery wyglądają, jakby zostały nabazgrane drżącą ręką</li>
     <li>awfulDesc->Strony są poplamione zaschniętym alkoholem</li>
@@ -809,7 +777,6 @@
     <li>awfulDesc->Tekst powstał za pomocą pisma automatycznego</li>
     <li>awfulDesc->Karty księgi są poplamione krwią i innymi śladami przemocy</li>
     <li>awfulDesc->Znaczna część dzieła opowiada o romansie między dwiema istotami przypominającymi [entityAcc]</li>
-
     <li>decentDesc->Tekst jest niezły, ale wymaga redakcji</li>
     <li>decentDesc->Niektóre fragmenty są wnikliwe, lecz inne okazują się zbędne</li>
     <li>decentDesc->Wywód jest spostrzegawczy, choć przedstawia wypaczony punkt widzenia</li>
@@ -823,7 +790,6 @@
     <li>decentDesc->Tekst napisał błyskotliwy umysł o trudnym temperamencie</li>
     <li>decentDesc->Dzieło jest przyzwoite pod względem stylu, ale całkowicie zdeprawowane pod względem treści</li>
     <li>decentDesc->Księga zawiera przerażające treści, jednak została napisana nieudolnie</li>
-
     <li>excellentDesc->Dzieło stanowi szczytowe osiągnięcie literatury</li>
     <li>excellentDesc->Tekst jest niezwykle wnikliwy</li>
     <li>excellentDesc->Księgę napisano znakomicie</li>
@@ -831,7 +797,6 @@
     <li>excellentDesc->W wielu miejscach tekst nabiera niemal poetyckiego charakteru</li>
     <li>excellentDesc->Opisy budzą grozę, a liczne fragmenty brzmią niemal poetycko</li>
     <li>excellentDesc->Księga jest pełna błyskotliwych idei, które pobudzają wyobraźnię</li>
-
   </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>

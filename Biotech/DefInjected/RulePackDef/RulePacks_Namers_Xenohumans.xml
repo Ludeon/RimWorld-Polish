@@ -35,7 +35,8 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Female.rulePack.rulesStrings><li>r_name->[firstName] [Syl][End]</li>
+  <NamerPersonDirtmole_Female.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
     <li>End->kat</li>
     <li>End->chit</li>
     <li>End->cyt</li>
@@ -66,7 +67,8 @@
     <li>End->win</li>
     <li>End->wit</li>
     <li>End->zyt</li>
-    <li>End->dryt</li></NamerPersonDirtmole_Female.rulePack.rulesStrings>
+    <li>End->dryt</li>
+  </NamerPersonDirtmole_Female.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [Syl][End]</li>
@@ -102,7 +104,8 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Male.rulePack.rulesStrings><li>r_name->[firstName] [Syl][End]</li>
+  <NamerPersonDirtmole_Male.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
     <li>End->kat</li>
     <li>End->chit</li>
     <li>End->cyt</li>
@@ -133,7 +136,8 @@
     <li>End->win</li>
     <li>End->wit</li>
     <li>End->zyt</li>
-    <li>End->dryt</li></NamerPersonDirtmole_Male.rulePack.rulesStrings>
+    <li>End->dryt</li>
+  </NamerPersonDirtmole_Male.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -165,7 +169,8 @@
     <li>nameEnd->naz</li>
     <li>nameEnd->nath</li>
   -->
-  <NamerPersonImpid.rulePack.rulesStrings><li>r_name->[firstName] [lastName]</li>
+  <NamerPersonImpid.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
     <li>firstName(p=0.5)->[SylI]</li>
     <li>firstName(p=2)->[SylI][nameEnd]</li>
     <li>firstName->[SylI][SylI][nameEnd]</li>
@@ -192,9 +197,40 @@
     <li>nameEnd->nowo</li>
     <li>nameEnd->naw</li>
     <li>nameEnd->naz</li>
-    <li>nameEnd->nath</li></NamerPersonImpid.rulePack.rulesStrings>
+    <li>nameEnd->nath</li>
+  </NamerPersonImpid.rulePack.rulesStrings>
   
   <!-- EN:
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nickName]' [lastName]</li>
+    <li>maybeHyphen(p=4)-></li>
+    <li>maybeHyphen->-</li>
+    <li>firstName(p=1)->[SylP][nameEnd]</li>
+    <li>firstName(p=3)->[SylP][nameEnd]</li>
+    <li>nickName->[nicknamePig]</li>
+    <li>lastName(p=3)->[lastGenerated]</li>
+    <li>lastGenerated->[SylP][nameEnd]</li>
+    <li>lastGenerated->[SylP][maybeHyphen][SylP][nameEnd]</li>
+    <li>nameEnd->ug</li>
+    <li>nameEnd->ag</li>
+    <li>nameEnd->up</li>
+    <li>nameEnd->ork</li>
+    <li>nameEnd->org</li>
+    <li>nameEnd->en</li>
+    <li>nameEnd->er</li>
+    <li>nameEnd->ub</li>
+    <li>nameEnd->opp</li>
+    <li>nameEnd->is</li>
+    <li>nameEnd->ow</li>
+    <li>nameEnd->ap</li>
+    <li>nameEnd->ag</li>
+    <li>nameEnd->og</li>
+    <li>nameEnd->ogg</li>
+    <li>nameEnd->obb</li>
+    <li>nameEnd->oik</li>
+    <li>nameEnd->oin</li>
+  -->
+  <NamerPersonPigskin.rulePack.rulesStrings>
     <li>r_name->[firstName] [lastName]</li>
     <li>r_name(p=2)->[firstName] '[nickName]' [lastName]</li>
     <li>maybeHyphen(p=4)-></li>
@@ -223,35 +259,7 @@
     <li>nameEnd->obb</li>
     <li>nameEnd->oik</li>
     <li>nameEnd->oin</li>
-  -->
-  <NamerPersonPigskin.rulePack.rulesStrings><li>r_name->[firstName] [lastName]</li>
-    <li>r_name(p=2)->[firstName] '[nickName]' [lastName]</li>
-    <li>maybeHyphen(p=4)-></li>
-    <li>maybeHyphen->-</li>
-    <li>firstName(p=1)->[SylP][nameEnd]</li>
-    <li>firstName(p=3)->[SylP][nameEnd]</li>
-    <li>nickName->[nicknamePig]</li>
-    <li>lastName(p=3)->[lastGenerated]</li>
-    <li>lastGenerated->[SylP][nameEnd]</li>
-    <li>lastGenerated->[SylP][maybeHyphen][SylP][nameEnd]</li>
-    <li>nameEnd->ug</li>
-    <li>nameEnd->ag</li>
-    <li>nameEnd->up</li>
-    <li>nameEnd->ork</li>
-    <li>nameEnd->org</li>
-    <li>nameEnd->en</li>
-    <li>nameEnd->er</li>
-    <li>nameEnd->ub</li>
-    <li>nameEnd->opp</li>
-    <li>nameEnd->is</li>
-    <li>nameEnd->ow</li>
-    <li>nameEnd->ap</li>
-    <li>nameEnd->ag</li>
-    <li>nameEnd->og</li>
-    <li>nameEnd->ogg</li>
-    <li>nameEnd->obb</li>
-    <li>nameEnd->oik</li>
-    <li>nameEnd->oin</li></NamerPersonPigskin.rulePack.rulesStrings>
+  </NamerPersonPigskin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -287,7 +295,8 @@
     <li>End->waste</li>
     <li>End->y</li>
   -->
-  <NamerPersonWaster.rulePack.rulesStrings><li>r_name->[firstName] [lastName]</li>
+  <NamerPersonWaster.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
     <li>r_name->[firstName] '[nicknameWaster]' [lastName]</li>
     <li>firstName->[Syl][Syl]</li>
     <li>firstName->[Syl]</li>
@@ -318,7 +327,8 @@
     <li>End->skow</li>
     <li>End->smoke</li>
     <li>End->waste</li>
-    <li>End->y</li></NamerPersonWaster.rulePack.rulesStrings>
+    <li>End->y</li>
+  </NamerPersonWaster.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -345,7 +355,8 @@
     <li>nameEnd->ys</li>
     <li>nameEnd->yn</li>
   -->
-  <NamerPersonYttakin.rulePack.rulesStrings><li>r_name->[firstName] [lastName]</li>
+  <NamerPersonYttakin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
     <li>firstName(p=0.5)->[SylY]</li>
     <li>firstName(p=2)->[SylY][nameEnd]</li>
     <li>firstName->[SylY][SylY][nameEnd]</li>
@@ -367,6 +378,7 @@
     <li>nameEnd->ya</li>
     <li>nameEnd->ysz</li>
     <li>nameEnd->ys</li>
-    <li>nameEnd->yn</li></NamerPersonYttakin.rulePack.rulesStrings>
+    <li>nameEnd->yn</li>
+  </NamerPersonYttakin.rulePack.rulesStrings>
   
 </LanguageData>

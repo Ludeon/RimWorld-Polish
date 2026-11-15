@@ -18,7 +18,6 @@
     <li>questDescription(askerIsNull==True)->Sztuczna osobowość sterująca statkiem na orbicie ma szczególną prośbę. Chce pozbyć się nadmiaru pakietów toksycznych odpadów i liczy, że zapewnisz im odpowiednie składowanie.\n\nJeśli przyjmiesz zlecenie, dostarczy kapsułami transportowymi [wastepackCount] pakietów toksycznych odpadów.\n\nPakiety toksycznych odpadów, które nie są zamrożone, z czasem się rozkładają i zanieczyszczają otaczający teren.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name], ma szczególną prośbę. [askerProducedPL] zbyt wiele pakietów toksycznych odpadów i nie chce ich przechowywać.\n\nJeśli przyjmiesz zlecenie, [asker_nameDef] dostarczy kapsułami transportowymi [wastepackCount] pakietów toksycznych odpadów.\n\nPakiety toksycznych odpadów, które nie są zamrożone, z czasem się rozkładają i zanieczyszczają otaczający teren.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] ma szczególną prośbę. Ktoś podrzucił dużą ilość pakietów toksycznych odpadów w pobliżu jednej z osad tej frakcji. Nie może ich bezpiecznie składować.\n\nJeśli przyjmiesz zlecenie, [asker_nameDef] dostarczy kapsułami transportowymi [wastepackCount] pakietów toksycznych odpadów.\n\nPakiety toksycznych odpadów, które nie są zamrożone, z czasem się rozkładają i zanieczyszczają otaczający teren.</li>
-
     <li>askerProducedPL(asker_gender==Male,priority=1)->Wyprodukował</li>
     <li>askerProducedPL(asker_gender==Female,priority=1)->Wyprodukowała</li>
     <li>askerProducedPL->Wyprodukowano</li>
@@ -40,19 +39,15 @@
     <li>questName->[dumpPhrase]</li>
     <li>questName(askerIsNull==False)->[asker_faction_pawnSingular]: [dumpPhrase]</li>
     <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]: [dumpPhrase]</li>
-
     <li>dumpPhrase(p=3)->[dumpNoun] [wasteGen]</li>
     <li>dumpPhrase->problem z [wasteInstr]</li>
-
     <li>dumpNoun->zrzut</li>
     <li>dumpNoun->dostawa</li>
     <li>dumpNoun->utylizacja</li>
-
     <li>wasteGen->odpadów</li>
     <li>wasteGen->zanieczyszczeń</li>
     <li>wasteGen->toksyn</li>
     <li>wasteGen->pakietów toksycznych odpadów</li>
-
     <li>wasteInstr->odpadami</li>
     <li>wasteInstr->zanieczyszczeniami</li>
     <li>wasteInstr->toksynami</li>

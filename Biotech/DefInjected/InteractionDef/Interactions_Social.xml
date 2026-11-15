@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: play -->
@@ -197,7 +197,8 @@
     <li>subject->modeling software</li>
     <li>subject->blueprints</li>
   -->
-  <LessonConstruction.logRulesInitiator.rulesStrings><li>article_tool->młotek</li>
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>article_tool->młotek</li>
     <li>article_tool->piła stołowa</li>
     <li>article_tool->linijka</li>
     <li>article_tool->drabina</li>
@@ -213,7 +214,8 @@
     <li>subject->techniki dekonstrukcji</li>
     <li>subject->materiały budowlane</li>
     <li>subject->oprogramowanie do modelowania</li>
-    <li>subject->schematy projektowe</li></LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>subject->schematy projektowe</li>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
   <LessonCooking.label>lekcja: gotowanie</LessonCooking.label>
@@ -322,7 +324,9 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
-  <LessonGeneric.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef] – przeprowadzenie sesji nauczania dla: [RECIPIENT_nameDef]</li></LessonGeneric.logRulesInitiator.rulesStrings>
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] – przeprowadzenie sesji nauczania dla: [RECIPIENT_nameDef]</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
   <LessonIntellectual.label>lekcja: nauki intelektualne</LessonIntellectual.label>
@@ -340,7 +344,8 @@
     <li>subject->seminal whitepapers</li>
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
-  <LessonIntellectual.logRulesInitiator.rulesStrings><li>subject->genetyka</li>
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->genetyka</li>
     <li>subject->schematy technologiczne</li>
     <li>subject->funkcje multianalizatora</li>
     <li>subject->filozofia</li>
@@ -351,7 +356,8 @@
     <li>subject->reaktory statków kosmicznych</li>
     <li>subject->metoda naukowa</li>
     <li>subject->publikacje naukowe</li>
-    <li>subject->napęd Johnsona-Tanaki</li></LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->napęd Johnsona-Tanaki</li>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
   <LessonMedicine.label>lekcja: medycyna</LessonMedicine.label>
@@ -389,44 +395,40 @@
     <li>subject->bedside manner</li>
     <li>subject->sterilization methods</li>
   -->
-  <LessonMedicine.logRulesInitiator.rulesStrings><li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb]. (Procedura: [medical_verb]) (Stan: [hediff]) (Uczeń: [RECIPIENT_nameDef]).</li>
-
-  <li>teach_verb(INITIATOR_gender==Male)->instruował</li>
-  <li>teach_verb(INITIATOR_gender==Female)->instruowała</li>
-
-  <li>article_tool->apteczka</li>
-  <li>article_tool->bandaż</li>
-  <li>article_tool->strzykawka</li>
-  <li>article_tool->leczniczy korzeń</li>
-  <li>article_tool->monitor parametrów życiowych</li>
-  <li>article_tool->skalpel</li>
-  <li>article_tool->dawka serum leczniczego</li>
-  <li>article_tool->bloker bólu</li>
-
-  <li>action->użycie: [article_tool]</li>
-  <li>action->inspekcja: [article_tool]</li>
-
-  <li>hediff->utrata krwi</li>
-  <li>hediff->zawał serca</li>
-  <li>hediff->udar cieplny</li>
-  <li>hediff->zatrucie pokarmowe</li>
-  <li>hediff->rak</li>
-  <li>hediff->robaki jelitowe</li>
-  <li>hediff->pasożyty mięśniowe</li>
-  <li>hediff->paraliż (abasia)</li>
-  <li>hediff->malaria</li>
-  <li>hediff->grypa</li>
-  <li>hediff->marskość wątroby</li>
-
-  <li>medical_verb->diagnozowanie</li>
-  <li>medical_verb->triat (segregacja rannych)</li>
-  <li>medical_verb->leczenie</li>
-
-  <li>subject->dawkowanie anestezji</li>
-  <li>subject->rodzaje nowotworów</li>
-  <li>subject->procedury chirurgiczne</li>
-  <li>subject->podejście do pacjenta</li>
-  <li>subject->metody sterylizacji</li></LessonMedicine.logRulesInitiator.rulesStrings>
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb]. (Procedura: [medical_verb]) (Stan: [hediff]) (Uczeń: [RECIPIENT_nameDef]).</li>
+    <li>teach_verb(INITIATOR_gender==Male)->instruował</li>
+    <li>teach_verb(INITIATOR_gender==Female)->instruowała</li>
+    <li>article_tool->apteczka</li>
+    <li>article_tool->bandaż</li>
+    <li>article_tool->strzykawka</li>
+    <li>article_tool->leczniczy korzeń</li>
+    <li>article_tool->monitor parametrów życiowych</li>
+    <li>article_tool->skalpel</li>
+    <li>article_tool->dawka serum leczniczego</li>
+    <li>article_tool->bloker bólu</li>
+    <li>action->użycie: [article_tool]</li>
+    <li>action->inspekcja: [article_tool]</li>
+    <li>hediff->utrata krwi</li>
+    <li>hediff->zawał serca</li>
+    <li>hediff->udar cieplny</li>
+    <li>hediff->zatrucie pokarmowe</li>
+    <li>hediff->rak</li>
+    <li>hediff->robaki jelitowe</li>
+    <li>hediff->pasożyty mięśniowe</li>
+    <li>hediff->paraliż (abasia)</li>
+    <li>hediff->malaria</li>
+    <li>hediff->grypa</li>
+    <li>hediff->marskość wątroby</li>
+    <li>medical_verb->diagnozowanie</li>
+    <li>medical_verb->triat (segregacja rannych)</li>
+    <li>medical_verb->leczenie</li>
+    <li>subject->dawkowanie anestezji</li>
+    <li>subject->rodzaje nowotworów</li>
+    <li>subject->procedury chirurgiczne</li>
+    <li>subject->podejście do pacjenta</li>
+    <li>subject->metody sterylizacji</li>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
   <LessonMelee.label>lekcja: walka wręcz</LessonMelee.label>
@@ -456,7 +458,8 @@
     <li>action_gerund->using</li>
     <li>action_gerund->swinging</li>
   -->
-  <LessonMelee.logRulesInitiator.rulesStrings><li>article_tool->topór</li>
+  <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>article_tool->topór</li>
     <li>article_tool->pałka</li>
     <li>article_tool->miecz</li>
     <li>article_tool->ostrze łokciowe</li>
@@ -479,7 +482,8 @@
     <li>action_gerund->kontrowanie: [article_tool]</li>
     <li>action_gerund->konserwację: [article_tool]</li>
     <li>action_gerund->używanie: [article_tool]</li>
-    <li>action_gerund->wymachiwanie: [article_tool]</li></LessonMelee.logRulesInitiator.rulesStrings>
+    <li>action_gerund->wymachiwanie: [article_tool]</li>
+  </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
   <LessonMining.label>lekcja: górnictwo</LessonMining.label>
@@ -505,7 +509,8 @@
     <li>subject->cave-dwelling insects</li>
     <li>situation(p=2)->underground</li>
   -->
-  <LessonMining.logRulesInitiator.rulesStrings><li>article_tool->kilof</li>
+  <LessonMining.logRulesInitiator.rulesStrings>
+    <li>article_tool->kilof</li>
     <li>article_tool->wiertło głębinowe</li>
     <li>article_tool->łopata</li>
     <li>article_tool->skaner minerałów dalekiego zasięgu</li>
@@ -524,7 +529,8 @@
     <li>subject->drążenie tuneli</li>
     <li>subject->analiza osadów</li>
     <li>subject->owady jaskiniowe</li>
-    <li>situation(p=2)->pod ziemią</li></LessonMining.logRulesInitiator.rulesStrings>
+    <li>situation(p=2)->pod ziemią</li>
+  </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
   <LessonPlants.label>lekcja: uprawa</LessonPlants.label>
@@ -547,7 +553,8 @@
     <li>subject->anima trees</li>
     <li>subject->gauranlen trees</li>
   -->
-  <LessonPlants.logRulesInitiator.rulesStrings><li>article_tool->lampa słoneczna</li>
+  <LessonPlants.logRulesInitiator.rulesStrings>
+    <li>article_tool->lampa słoneczna</li>
     <li>article_tool->basen hydroponiczny</li>
     <li>article_tool->zraszacz</li>
     <li>article_tool->łopata</li>
@@ -563,7 +570,8 @@
     <li>subject->techniki irygacyjne</li>
     <li>subject->odmiany kaktusów</li>
     <li>subject->drzewa anima</li>
-    <li>subject->drzewa gauranlen</li></LessonPlants.logRulesInitiator.rulesStrings>
+    <li>subject->drzewa gauranlen</li>
+  </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
   <LessonShooting.label>lekcja: strzelectwo</LessonShooting.label>
@@ -619,7 +627,8 @@
     <li>subject->naughty words</li>
     <li>subject->sign language</li>
   -->
-  <LessonSocial.logRulesInitiator.rulesStrings><li>subject->przemówienia publiczne</li>
+  <LessonSocial.logRulesInitiator.rulesStrings>
+    <li>subject->przemówienia publiczne</li>
     <li>subject->relacje międzyfrakcyjne</li>
     <li>subject->rekrutacja więźniów</li>
     <li>subject->techniki negocjacji</li>
@@ -627,7 +636,8 @@
     <li>subject->etykieta konsoli komunikacyjnej</li>
     <li>subject->poprawa morale</li>
     <li>subject->wulgarne słownictwo</li>
-    <li>subject->język migowy</li></LessonSocial.logRulesInitiator.rulesStrings>
+    <li>subject->język migowy</li>
+  </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
   <SanguophageChat.label>rozmowa sanguofaga</SanguophageChat.label>

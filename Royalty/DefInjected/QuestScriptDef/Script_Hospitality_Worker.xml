@@ -1,10 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- EN: QuestScriptDef TKey texts are translated as slateRef values; original game scripts remain unchanged. -->
-  <!-- EN: Shuttle destroyed -->
-  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Zniszczono prom</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
-  <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
-  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Prom transportujący grupę [pawnsLabelDef] został zniszczony. Zadanie "[resolvedQuestName]" zakończyło się niepowodzeniem.\n\nRelacje z frakcją [asker_faction_name] zmieniły się o [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
   <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>Przybycie podopiecznych: [lodgersLabelSingOrPlural]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
@@ -35,10 +31,18 @@
   <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>Niedozwolona operacja: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>Przeprowadzono niedozwoloną operację na jednym z podopiecznych. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Utrata gościa: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>Utracono jednego z podopiecznych kolonii. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Podopieczny zdziczał: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -71,4 +75,10 @@
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Zadanie nieudane: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>Prom wysłany po podopiecznych odleciał. Podopieczni opuszczą teraz kolonię pieszo. Grupa: [lodgersLabelSingOrPluralDef]. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  
+  <!-- EN: Shuttle destroyed -->
+  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Zniszczono prom</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Prom transportujący grupę [pawnsLabelDef] został zniszczony. Zadanie "[resolvedQuestName]" zakończyło się niepowodzeniem.\n\nRelacje z frakcją [asker_faction_name] zmieniły się o [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  
 </LanguageData>

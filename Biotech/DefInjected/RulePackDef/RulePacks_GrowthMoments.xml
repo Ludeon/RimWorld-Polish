@@ -165,8 +165,8 @@
     <li>enemyNameSingular->woman with no eyes</li>
     <li>enemyNameSingular->man with a hook for a hand</li>
   -->
-  <GrowthMomentFlavor.rulePack.rulesStrings><li>r_root->[firstSentence] [secondSentence]</li>
-
+  <GrowthMomentFlavor.rulePack.rulesStrings>
+    <li>r_root->[firstSentence] [secondSentence]</li>
     <li>firstSentence(tierSection==4)->[PAWN_pronoun] wykazuje wzorowy [nounGrowth] oraz [adjGood] [nounAttitudeGood] względem: [nounFuture].</li>
     <li>firstSentence(tierSection==4)->U jednostki [PAWN_nameDef] nastąpił rozwój nowych pasji poprzez [situationLearning].</li>
     <li>firstSentence(tierSection==4)->Poprzez [situationLearning], [PAWN_pronoun] zyskał nowe ukierunkowania rozwojowe.</li>
@@ -175,7 +175,6 @@
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] wykazuje satysfakcję z [situationLearning], lecz priorytetem pozostaje [situationFun].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] akceptuje proces [situationLearning] i przejawia dążenia do: [situationAspirational].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] zakłada, że poprzez [situationLearning] osiągnie status: [situationAspirational].</li>
-
     <li>firstSentence(tierSection==3)->Ostatnio u jednostki [PAWN_nameDef] odnotowano [adjGood] [nounAttitudeGood] w kontekście: [nounFuture].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] wykazuje [nounAttitudeGood] względem: [nounFuture].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] przejawia zainteresowanie nowymi aktywnościami, w tym: [situationLearning].</li>
@@ -184,7 +183,6 @@
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] akceptuje [situationLearning], lecz wskaźnik satysfakcji rośnie podczas: [situationFun].</li>
     <li>secondSentence(tierSection==3)->W późniejszych etapach cyklu [PAWN_nameDef] planuje skupienie na zadaniu: [taskWork].</li>
     <li>secondSentence(tierSection==3)->Głównym obszarem zainteresowań jednostki [PAWN_nameDef] pozostaje: [situationFun].</li>
-
     <li>firstSentence(tierSection==2)->U jednostki [PAWN_nameDef] wykazano umiarkowany [nounGrowth] i chęć kontynuowania: [situationLearning].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] przejawia pewien [nounAttitudeGood] w kierunku dalszej edukacji.</li>
     <li>firstSentence(tierSection==2)->W obliczu [nounFuture], [PAWN_pronoun] deklaruje chęć na [situationLearning].</li>
@@ -193,7 +191,6 @@
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] planuje zwiększyć częstotliwość: [situationFun].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] klasyfikuje [taskWork] jako czynność o niskiej stymulacji.</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] chce skoncentrować uwagę na: [situationLearning].</li>
-
     <li>firstSentence(tierSection==1)->U jednostki [PAWN_nameDef] odnotowano znikomy [nounGrowth] oraz niskie oczekiwania względem: [nounFuture].</li>
     <li>firstSentence(tierSection==1)->Pomimo optymizmu względem [nounFuture], u jednostki [PAWN_nameDef] występuje niski [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] wyraża nadzieję na poprawę parametrów w: [nounFuture].</li>
@@ -202,7 +199,6 @@
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] często raportuje stan: [feelingBad] podczas: [situationFun].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] przejawia lęk, że [situationFun] poskutkuje stanem: [situationBad].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] zgłasza regularne koszmary dotyczące: [situationBad].</li>
-
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] wyraża chęć na [situationLearning], lecz rzadko posiada ku temu zasoby.</li>
     <li>firstSentence(tierSection==0)->U jednostki [PAWN_nameDef] brak postępów w parametrze: [nounGrowth].</li>
     <li>firstSentence(tierSection==0)->U jednostki [PAWN_nameDef] nie odnotowano nowych pasji; niski [nounAttitudeGood] względem: [nounFuture].</li>
@@ -222,25 +218,20 @@
     <li>adjGood->niekończący się</li>
     <li>adjGood->czysty</li>
     <li>adjGood->imponujący</li>
-    
     <li>feelingBad->osamotnienie</li>
     <li>feelingBad->strach</li>
     <li>feelingBad->ból</li>
     <li>feelingBad->gwałtowne pogorszenie stanu</li>
     <li>feelingBad->chorobę</li>
-    
     <li>nounAttitudeGood->entuzjazm</li>
     <li>nounAttitudeGood->ekscytację</li>
     <li>nounAttitudeGood->optymizm</li>
-    
     <li>nounFuture->najbliższe tygodnie</li>
     <li>nounFuture->nadchodzące miesiące</li>
     <li>nounFuture->przyszły rok</li>
     <li>nounFuture->przyszłość</li>
-    
     <li>nounGrowth->rozwój osobisty</li>
     <li>nounGrowth->postęp biologiczny</li>
-    
     <li>situationFun->eksplorację pustkowi z: [friendNamePlural]</li>
     <li>situationFun->grę w: [Game]</li>
     <li>situationFun->grę w: [Game] z przyjaciółmi</li>
@@ -262,21 +253,18 @@
     <li>situationFun->pisanie o: [friendNameSingular] polującym na: [enemyNamePlural]</li>
     <li>situationFun->symulację walki z: [enemyNamePlural]</li>
     <li>situationFun->opowiadanie o: [enemyNamePlural]</li>
-    
     <li>situationLearning->obserwację innych przy: [taskWork]</li>
     <li>situationLearning->naukę o: [taskWork]</li>
     <li>situationLearning->naukę o: [topicLearning]</li>
     <li>situationLearning->studiowanie: [topicLearning]</li>
     <li>situationLearning->czytanie o: [topicLearning]</li>
     <li>situationLearning->wykonywanie istotnych prac</li>
-    
     <li>situationAspirational->wywarcie wpływu na świat</li>
     <li>situationAspirational->zgromadzenie znacznego majątku</li>
     <li>situationAspirational->ratowanie świata</li>
     <li>situationAspirational->pomoc innym</li>
     <li>situationAspirational->osiągnięcie wysokiej rozpoznawalności</li>
     <li>situationAspirational->opuszczenie tej planety</li>
-    
     <li>situationBad->atak ze strony: [enemyNamePlural]</li>
     <li>situationBad->porwanie przez: [enemyNamePlural]</li>
     <li>situationBad->polowanie przez: [enemyNameSingular]</li>
@@ -287,7 +275,6 @@
     <li>situationBad->zatrucie pokarmowe</li>
     <li>situationBad->śmierć bliskich</li>
     <li>situationBad->spożywanie posiłku bez stołu</li>
-    
     <li>topicLearning->wszechświat</li>
     <li>topicLearning->naukę</li>
     <li>topicLearning->różne kultury</li>
@@ -299,7 +286,6 @@
     <li>topicLearning->edycję genów</li>
     <li>topicLearning->rakietnictwo</li>
     <li>topicLearning->wydobycie rud</li>
-    
     <li>taskWork->gotowanie posiłków</li>
     <li>taskWork->tresurę zwierząt</li>
     <li>taskWork->opiekę nad chorymi</li>
@@ -307,27 +293,23 @@
     <li>taskWork->polowanie na muffalo</li>
     <li>taskWork->uprawę żywności</li>
     <li>taskWork->krawiectwo</li>
-    
     <li>friendNamePlural->przyjaciele</li>
     <li>friendNamePlural->bliscy</li>
     <li>friendNamePlural->[friendAdj] zwierzęta</li>
     <li>friendNamePlural->[friendAdj] mechanoidy</li>
     <li>friendNamePlural->[friendAdj] dzieci</li>
     <li>friendNamePlural->zmyśleni przyjaciele</li>
-    
     <li>friendNameSingular->przyjaciel</li>
     <li>friendNameSingular->pies</li>
     <li>friendNameSingular->[friendAdj] kot</li>
     <li>friendNameSingular->dziecko</li>
     <li>friendNameSingular->[friendAdj] dziecko</li>
     <li>friendNameSingular->członek rodziny</li>
-    
     <li>friendAdj->uprzejmy</li>
     <li>friendAdj->pomocny</li>
     <li>friendAdj->przyjazny</li>
     <li>friendAdj->psotny</li>
     <li>friendAdj->zabawny</li>
-    
     <li>enemyNamePlural->najeźdźcy</li>
     <li>enemyNamePlural->[AdjectiveBadass] najeźdźcy</li>
     <li>enemyNamePlural->tajemniczy nieznajomi</li>
@@ -337,7 +319,6 @@
     <li>enemyNamePlural->maszynowi bogowie</li>
     <li>enemyNamePlural->dzikie mechanoidy</li>
     <li>enemyNamePlural->byty psychiczne o niszczycielskiej mocy</li>
-    
     <li>enemyNameSingular->[AdjectiveBadass] [Enemy]</li>
     <li>enemyNameSingular->[AdjectiveBadass] [AnimalBadass]</li>
     <li>enemyNameSingular->[AnimalBadass]</li>
@@ -346,6 +327,7 @@
     <li>enemyNameSingular->nieznajomy</li>
     <li>enemyNameSingular->sanguophage</li>
     <li>enemyNameSingular->kobieta bez oczu</li>
-    <li>enemyNameSingular->mężczyzna z hakiem zamiast dłoni</li></GrowthMomentFlavor.rulePack.rulesStrings>
+    <li>enemyNameSingular->mężczyzna z hakiem zamiast dłoni</li>
+  </GrowthMomentFlavor.rulePack.rulesStrings>
   
 </LanguageData>

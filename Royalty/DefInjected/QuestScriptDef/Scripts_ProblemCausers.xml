@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
-    <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
     <li>questDescription(siteFaction==Pirate)->Piraci założyli placówkę w pobliżu lokalizacji [map_definite], aby Cię nękać. [allSitePartsDescriptions]\n\nObóz pozostanie aktywny, dopóki nie wyślesz zespołu, aby go zniszczyć.</li>
@@ -10,7 +11,7 @@
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoids)->Mech cluster with a [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   -->
   <ProblemCauser.questNameRules.rulesStrings>
     <li>questName(siteFaction==Pirate)->Piraci: [problemCauserLabel]</li>
@@ -20,4 +21,5 @@
   <ProblemCauser.LetterLabelSuccess.slateRef>Zniszczono: [problemCauserLabel]</ProblemCauser.LetterLabelSuccess.slateRef>
   <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
   <ProblemCauser.LetterTextSuccess.slateRef>Urządzenie ([problemCauserLabel]), które wpływało na lokalizację [map_definite], zostało zniszczone!</ProblemCauser.LetterTextSuccess.slateRef>
+  
 </LanguageData>

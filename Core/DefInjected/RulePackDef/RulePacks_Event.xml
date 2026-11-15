@@ -14,8 +14,10 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
-  <Event_ItemUsed.rulePack.rulesStrings>  <li>r_logentry(INITIATOR_gender==Male)->[INITIATOR_definite] użył przedmiotu [ITEM_indefinite] na [SUBJECT_definite].</li>
-    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_definite] użyła przedmiotu [ITEM_indefinite] na [SUBJECT_definite].</li></Event_ItemUsed.rulePack.rulesStrings>
+  <Event_ItemUsed.rulePack.rulesStrings>
+    <li>r_logentry(INITIATOR_gender==Male)->[INITIATOR_definite] użył przedmiotu [ITEM_indefinite] na [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_definite] użyła przedmiotu [ITEM_indefinite] na [SUBJECT_definite].</li>
+  </Event_ItemUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
@@ -38,40 +40,37 @@
     <li>stumbled->wobbled</li>
     <li>stumbled->staggered</li>
   -->
-  <Event_Stun.rulePack.rulesStrings>  <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [stunned_past] przez atak.</li>
+  <Event_Stun.rulePack.rulesStrings>
+    <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [stunned_past] przez atak.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [stunned_past] przez atak.</li>
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [stunned_past] przez atak osadnika [INITIATOR_definite].</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [stunned_past] przez atak osadnika [INITIATOR_definite].</li>
-    
     <li>stunned_past(SUBJECT_gender==Male)->został ogłuszony</li>
     <li>stunned_past(SUBJECT_gender==Female)->została ogłuszona</li>
     <li>stunned_past(SUBJECT_gender==Male)->został oszołomiony</li>
     <li>stunned_past(SUBJECT_gender==Female)->została oszołomiona</li>
     <li>stunned_past(SUBJECT_gender==Male)->został zdezorientowany</li>
     <li>stunned_past(SUBJECT_gender==Female)->została zdezorientowana</li>
-
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [staggered_past].</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [staggered_past].</li>
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [staggered_past] po ataku.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [staggered_past] po ataku.</li>
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [staggered_past] po ataku sprawcy: [INITIATOR_definite].</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [staggered_past] po ataku sprawcy: [INITIATOR_definite].</li>
-    
     <li>staggered_past(SUBJECT_gender==Male)->zatoczył się</li>
     <li>staggered_past(SUBJECT_gender==Female)->zatoczyła się</li>
     <li>staggered_past(SUBJECT_gender==Male)->zachwiał się</li>
     <li>staggered_past(SUBJECT_gender==Female)->zachwiała się</li>
     <li>staggered_past(SUBJECT_gender==Male)->ugiął się</li>
     <li>staggered_past(SUBJECT_gender==Female)->ugięła się</li>
-
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [stumbled_past] w oszołomieniu.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [stumbled_past] w oszołomieniu.</li>
     <li>r_logentry(SUBJECT_gender==Male)->[SUBJECT_definite] [stumbled_past] z mroczkami przed oczami.</li>
     <li>r_logentry(SUBJECT_gender==Female)->[SUBJECT_definite] [stumbled_past] z mroczkami przed oczami.</li>
-    
     <li>stumbled_past(SUBJECT_gender==Male)->zataczał się</li>
     <li>stumbled_past(SUBJECT_gender==Female)->zataczała się</li>
     <li>stumbled_past(SUBJECT_gender==Male)->chwiał się</li>
-    <li>stumbled_past(SUBJECT_gender==Female)->chwiała się</li></Event_Stun.rulePack.rulesStrings>
+    <li>stumbled_past(SUBJECT_gender==Female)->chwiała się</li>
+  </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>
