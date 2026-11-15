@@ -78,9 +78,9 @@
     <li>writingMaterial->dark ink</li>
   -->
   <LabyrinthRamblings.rulePack.rulesStrings>
-    <li>r_name->[creepjoinerFirstname] „[creepjoinerNickname]” [creepjoinerLastname]</li>
-    <li>maybeAdjectiveEvil(p=2)-></li>
-    <li>maybeSignature->Autor podpisuje się swoim imieniem i nazwiskkiem: [PAWN_nameDef].</li>
+    <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
+    <li>maybeSignature(p=3)-></li>
+    <li>maybeSignature->Podpis: [PAWN_nameDef].</li>
     <li>maybeSignature->Kończy się imieniem: [PAWN_nameDef].</li>
     <li>maybeSignature->Na dole nabazgrano imię: [PAWN_nameDef].</li>
     <li>textDescSentence->Ryciny na podłodze są chaotyczne i niespójne.</li>
@@ -93,31 +93,31 @@
     <li>textDescSentence->Pismo jest fragmentaryczne, jakby autorowi wielokrotnie przerywano.</li>
     <li>textDescSentence->Napisy zanikają i pojawiają się ponownie w trakcie czytania.</li>
     <li>textDescSentence->Tekst, napisany [writingMaterial], zwija się w szalone wzory.</li>
-    <li>horrorDescSentence->Tylko jedna fraza może być wyraźnie odczytana: [rambling].</li>
-    <li>horrorDescSentence->Jedna fraza powtarza się w kółko: [rambling].</li>
-    <li>horrorDescSentence->Każde zdanie kończy się tą samą frazą: [rambling].</li>
-    <li>horrorDescSentence->Słowa płyną w kółko, bez końca powtarzając tę samą frazę: [rambling].</li>
-    <li>horrorDescSentence->Osoba będąca autorem wpisu wierzy, że pod jej skórą żyje metalowy pasożyt, który powoduje ogromny ból, gdy się przemieszcza i wije.</li>
-    <li>horrorDescSentence->Autorka oskarża swoją przyjaciółkę o wstrzyknięcie jej metalowego pasożyta. Opisuje okropne uczucie stworzenia rosnącego wewnątrz jej ciała.</li>
-    <li>horrorDescSentence->Ktoś, kto to napisał, chce się uwolnić od męki, którą zadaje [horrorDesc].</li>
-    <li>horrorDescSentence->Te same wersy powtarzają się w kółko, a ich tematem jest [horrorDesc].</li>
-    <li>horrorDescSentence->Dziwny wiersz opisuje, czym jest [horrorDesc].</li>
-    <li>horrorDescSentence->Słowa z trudem opisują, czym jest [horrorDesc].</li>
-    <li>horrorDescSentence->Chwiejne pismo opisuje reakcję autora na wizję, w której pojawia się [horrorDesc].</li>
-    <li>horrorDescSentence->Tekstowi towarzyszą rysunki, na których pojawia się [horrorDesc].</li>
-    <li>horrorDescSentence->Na szalonych szkicach widnieje [horrorDesc], a notatki opisują cechy tej istoty.</li>
-    <li>horrorDescSentence->Mrożący krew w żyłach śpiew opisuje, czym jest [horrorDesc].</li>
-    <li>horrorDescSentence->W tekst wpleciono straszne ilustracje, na których prawdopodobnie widnieje [horrorDesc].</li>
-    <li>horrorDescSentence->Opowieści umieszczone na marginesach mówią, czym jest [horrorDesc].</li>
-    <li>horrorDescSentence->Szalony ton autora narasta do punktu kulminacyjnego, którego głównym tematem jest [horrorDesc].</li>
-    <li>horrorDescSentence->W rycinach tworzą się wzory, z których każdy ostatecznie przedstawia, czym właściwie jest [horrorDesc].</li>
-    <li>horrorDescSentence->Słowa przeplatają się ze szczegółowymi obrazami, na których ukazuje się [horrorDesc].</li>
-    <li>horrorDescSentence->Obok opisu wyjaśniającego, czym jest [horrorDesc], zapisano niepokojącą kołysankę.</li>
-    <li>horrorDescSentence->Rozpaczliwe błagania o litość zestawione są z opowieściami o tym, czym naprawdę jest [horrorDesc].</li>
+    <li>horrorDescSentence->Wyraźnie da się odczytać tylko jedną frazę: "[rambling]".</li>
+    <li>horrorDescSentence->Jedna fraza powtarza się w kółko: "[rambling]".</li>
+    <li>horrorDescSentence->Każde zdanie kończy się tą samą frazą: "[rambling]".</li>
+    <li>horrorDescSentence->Słowa biegną w kółko, bez końca powtarzając tę samą frazę: "[rambling]".</li>
+    <li>horrorDescSentence->Tekst zdradza przekonanie, że pod skórą osoby piszącej żyje metalowy pasożyt. Dalej opisano silny ból towarzyszący jego ruchom.</li>
+    <li>horrorDescSentence->Wpis zawiera oskarżenie wobec przyjaciółki o wstrzyknięcie metalowego pasożyta. Dalej opisano przerażające uczucie jego wzrostu wewnątrz ciała.</li>
+    <li>horrorDescSentence->Osoba pisząca błaga o uwolnienie od źródła udręki. Jego opis: [horrorDesc].</li>
+    <li>horrorDescSentence->Te same wersy powtarzają się w kółko. Ich temat: [horrorDesc].</li>
+    <li>horrorDescSentence->Dziwny wiersz przedstawia wizję: [horrorDesc].</li>
+    <li>horrorDescSentence->Słowa z trudem oddają wizję: [horrorDesc].</li>
+    <li>horrorDescSentence->Chwiejne pismo opisuje reakcję na straszliwą wizję. Jej treść: [horrorDesc].</li>
+    <li>horrorDescSentence->Tekstowi towarzyszą rysunki. Ich motyw przewodni: [horrorDesc].</li>
+    <li>horrorDescSentence->Gorączkowe szkice przedstawiają motyw: [horrorDesc]. Dopiski opisują szczegóły tej wizji.</li>
+    <li>horrorDescSentence->Mrożąca krew w żyłach pieśń opisuje wizję: [horrorDesc].</li>
+    <li>horrorDescSentence->Drastyczne ilustracje przeplatają się z tekstem. Wszystkie nawiązują do motywu: [horrorDesc].</li>
+    <li>horrorDescSentence->Szeptane opowieści zapisane na marginesach przedstawiają wizję: [horrorDesc].</li>
+    <li>horrorDescSentence->Gorączkowy ton tekstu narasta do kulminacji skupionej na motywie: [horrorDesc].</li>
+    <li>horrorDescSentence->W rycinach pojawiają się wzory. Każdy z nich wieńczy przedstawienie tego samego motywu: [horrorDesc].</li>
+    <li>horrorDescSentence->Słowa przeplatają się z żywymi obrazami. Ich motyw przewodni: [horrorDesc].</li>
+    <li>horrorDescSentence->Niepokojącej kołysance towarzyszy opis wizji: [horrorDesc].</li>
+    <li>horrorDescSentence->Rozpaczliwe błagania o litość zestawiono z opisami wizji: [horrorDesc].</li>
     <li>horrorDesc->niewidzialne stworzenie, które pochłania umysły niewierzących</li>
-    <li>horrorDesc->niemożliwie pusta czarna kula, która pulsuje czystym cierpieniem</li>
+    <li>horrorDesc->niemożliwa kula czarna jak pustka, która pulsuje czystym cierpieniem</li>
     <li>horrorDesc->stworzenie z kośćmi zamiast kończyn, złożone z powykręcanego mięsa i tkanek</li>
-    <li>horrorDesc->istota stworzona w całości z cienia, której oczy błyszczące jak gwiazdy</li>
+    <li>horrorDesc->istota stworzona w całości z cienia, której oczy błyszczą jak gwiazdy</li>
     <li>horrorDesc->postać skonstruowana z ostrych, przesiąkniętych krwią noży</li>
     <li>horrorDesc->masa wirujących ostrzy wyłaniająca się z otchłani</li>
     <li>horrorDesc->milczące dziecko z ustami rozciągającymi się na całą twarz</li>

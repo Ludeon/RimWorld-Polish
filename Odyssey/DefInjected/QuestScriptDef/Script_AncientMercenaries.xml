@@ -7,8 +7,8 @@
     <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
   -->
   <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] lokalizację owianej złą sławą kompanii najemników. Ci starożytni żołnierze pochodzą z dawno zapomnianej ery w historii tej planety. Niedawno obudzili się z kryptosnu i sieją zamęt w okolicy.\n\nKompanią dowodzi [LEADER_nameDef], który posiada unikalną broń: [WEAPON_quality]. Grupa zawiera:\n\n[mercenaryList]\n\nJeśli zdołasz schwytać lub zabić przywódcę, możesz zdobyć tę wyjątkową broń.\n\n[location]</li>
-    <li>location(atLandmark==true)->Żołnierze ukrywają się w starożytnej budowli w [landmarkName].</li>
+    <li>questDescription->[discoveryMethod] lokalizację osławionej kompanii najemników. Ci żołnierze pochodzą z dawno zapomnianej epoki w dziejach planety. Niedawno przebudzili się z kryptosnu i sieją zamęt w okolicy.\n\nKompanią dowodzi [LEADER_nameDef]. W rękach dowódcy znajduje się unikalna broń jakości [WEAPON_quality]. W skład grupy wchodzą:\n\n[mercenaryList]\n\nJeśli uda ci się schwytać lub zabić dowódcę, możesz przejąć tę wyjątkową broń.\n\n[location]</li>
+    <li>location(atLandmark==true)->Żołnierze ukrywają się w starożytnej budowli przy punkcie orientacyjnym [landmarkName].</li>
     <li>location(atLandmark==false)->Żołnierze ukrywają się w starożytnej budowli.</li>
   </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -23,15 +23,15 @@
     <li>mercenaries->Fighters</li>
   -->
   <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
-    <li>questName->[ancient] [mercenaries]</li>
+    <li>questName->Kompania: [ancient] [mercenaries]</li>
     <li>questName->[ancient] [mercenaries]</li>
     <li>ancient->Starożytni</li>
     <li>ancient->Przebudzeni</li>
-    <li>ancient->Kryptosen</li>
-    <li>mercenaries->Najemnicy</li>
-    <li>mercenaries->Żołnierze</li>
-    <li>mercenaries->Wojownicy</li>
-    <li>mercenaries->Bojownicy</li>
+    <li>ancient->Wybudzeni z kryptosnu</li>
+    <li>mercenaries->najemnicy</li>
+    <li>mercenaries->żołnierze</li>
+    <li>mercenaries->wojownicy</li>
+    <li>mercenaries->bojownicy</li>
   </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient mercenaries</li>
@@ -51,7 +51,7 @@
     <li>questMapFeature->garnizon wojskowy</li>
     <li>questMapFeature->rysunek starożytnego żołnierza</li>
     <li>questMapFeature->szkic człowieka z innej epoki</li>
-    <li>questMapText->oni są przebudzeni</li>
+    <li>questMapText->przebudzili się</li>
     <li>questMapText->niebezpieczni starożytni</li>
     <li>questMapText->starożytna broń</li>
   </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>

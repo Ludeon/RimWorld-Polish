@@ -4,9 +4,9 @@ Pamiętaj, że możesz pomóc bez realizacji wszystkich kroków opisanych przez 
 
 Do koordynowania pracy wykorzystujemy Trello: https://trello.com/w/rwtpl
 
-# Polskie tłumaczenie dla RimWorld 1.6
-Pobierz aktualną wersję tłumaczenia:  
-https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
+# Polskie tłumaczenie dla RimWorld 1.7
+Data ostatniego czyszczenia 15.11.2026 r. — RimWorld 1.7.5005
+1841 TODO
 
 # Instrukcje dla tłumaczy:  
 * Przede wszystkim, zajrzyj na serwer Discord. Mamy tam dokładny stan tłumaczenia, co robić - a co nie, najrozmaitsze rady i wskazówki.

@@ -276,7 +276,7 @@
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} do czasu przybycia wrogów</CaravanDetectedRaidCountdown>
-  <!-- EN: FIXME: NOWA WERSJA Enemies have learned of your location. They will arrive in {0}. -->
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
   <CaravanDetectedRaidCountdownTip>Posiłki wroga pojawią się na tym obszarze za {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
@@ -413,9 +413,9 @@
   <!-- EN: your caravan -->
   <yourCaravan>Twoja karawana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>Stopień dzikości</CreatureWildness>
+  <CreatureWildness>Dzikość: {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>Podatność na tresurę</CreatureTrainability>
+  <CreatureTrainability>Podatność na tresurę: {0}</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>Podążaj za właś. w trybie bojowym</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
@@ -439,7 +439,7 @@
   <!-- EN: Research progress -->
   <ResearchProgress>Postęp badania</ResearchProgress>
   <!-- EN: already has {0} -->
-  <AlreadyHasHediff>TODO</AlreadyHasHediff>
+  <AlreadyHasHediff>już ma {0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>wieżyczka</Turret>
   <!-- EN: turrets -->
@@ -585,7 +585,7 @@
   <!-- EN: cost -->
   <Cost>koszt</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>TODO</StunnedByEMP>
+  <StunnedByEMP>Ogłuszenie impulsem EMP</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Tytuł</BackstoryTitle>
   <!-- EN: person -->
@@ -609,13 +609,13 @@
   <!-- EN: Must be imprisoned. -->
   <RequiresImprisonment>Musi być uwięziony.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <HaulFromSource>Priorytetowo przenieś zawartość</HaulFromSource>
   <!-- EN: Use -->
-  <UseGizmo>Używaj</UseGizmo>
+  <UseGizmo>Użyj</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <UseGizmoTooltip>Zleć użycie obiektu: {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>Wybierz, kto ma tego użyć</UseGizmoMouse>
   <!-- EN: Select target -->
   <TargetGizmoMouse>Wybierz cel</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
@@ -625,7 +625,7 @@
   <!-- EN: not yet discovered -->
   <NotYetDiscovered>jeszcze nie odkryte</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
+  <ReportStringCrawlingToSafety>Czołga się w bezpieczne miejsce.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Czołganie do łóżka.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
@@ -779,7 +779,7 @@
   <NoExteriorAccess>Brak dostępu z zewnątrz - Zwierzęta nie mogą być wprowadzane ani wyprowadzane.</NoExteriorAccess>
   
   <!-- EN: Must be connected to walls on both sides to function. -->
-  <DoorMustBeEnclosedByWalls>TODO</DoorMustBeEnclosedByWalls>
+  <DoorMustBeEnclosedByWalls>Aby działać, drzwi muszą być połączone ze ścianami po obu stronach.</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -1067,7 +1067,7 @@
   <!-- EN: View information. -->
   <DefInfoTip>Zobacz informacje.</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>Wybierz następną następną rzecz tym samym kwadracie.\n\nMożesz to również zrobić, ponownie powoli klikając ten sam kwadrat.</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>Wybierz następną rzecz na tym samym polu.\n\nMożesz też zrobić to, ponownie powoli klikając to samo pole.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1163,12 +1163,12 @@
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Wyrośnie w pełni za {0}.</FullyGrownIn>
   <!-- EN: needs light level -->
-  <PlantNeedsLightLevel>potrzebuje poziomu światła</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>Potrzebuje poziomu światła</PlantNeedsLightLevel>
   <!-- EN: resting -->
-  <PlantResting>odpoczywa</PlantResting>
-  <!-- EN: FIXME: NOWA WERSJA temperature growth multiplier {0}% -->
+  <PlantResting>Odpoczywa</PlantResting>
+  <!-- EN: temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>Niekorzystna temperatura. Mnożnik wzrostu: {0}%</OutOfIdealTemperatureRange>
-  <!-- EN: FIXME: NOWA WERSJA out of temperature growth range -->
+  <!-- EN: out of temperature growth range -->
   <OutOfIdealTemperatureRangeNotGrowing>Niekorzystna temperatura. Nie rośnie.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Gotowe do zbioru.</ReadyToHarvest>
@@ -1249,11 +1249,11 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>Czy na pewno chcesz wysterylizować {PAWN_nameDef}? Rozgniewa to frakcję {FACTION_name}.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>Czy na pewno chcesz ubić {PAWN_nameDef}? To działanie rozgniewa frakcję {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>Czy na pewno chcesz wypuścić {PAWN_nameDef}? Rozgniewa to frakcję {FACTION_name}.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1287,9 +1287,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Przełącz dzienny/nocny system oświetlenia w widoku planety.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Przełącz wyświetlanie powiększanych ikon osad należących do innych frakcji.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Przełącz wyświetlanie powiększanych ikon ważnych miejsc, takich jak własna kolonia, miejsca zadań i aktywne mapy.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Przełącz widoczność nazw form terenu.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1297,7 +1297,7 @@
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>Skrót klawiszowy</HotKeyTip>
   
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1339,7 +1339,7 @@
   <!-- EN: Something is already placed on this wall. -->
   <SomethingPlacedOnThisWall>Coś już jest na tej ścianie.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>TODO</CannotSupportAttachment>
+  <CannotSupportAttachment>Do tego budynku nie można dołączać dodatkowych elementów.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Należy umieścić głowicę do belki strukturalnej statku.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1393,7 +1393,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent nie jest jeszcze gotowy</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> 
+  <ShipNoSettlementToReturnTo>Brak osady, do której można wrócić. Najpierw załóż osadę.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) jest gotowy na rozpoczęcie procedury odzyskującej hibernację reaktora.\n\nOstrzega, że proces ten zajmie około 15 dni, w tym czasie energia ta będzie wykrywalna z dużej odległości.\n\nRodzaj tej energii wskazuje na zdolność lotu międzygwiezdnego i przyciągnie to gangi zdesperowanych najeźdźców oraz roje śmiertelnych mechanoidów.\n\nBędziecie atakowani z intensywnością, jakiej jeszcze nigdy nie widzieliście. Upewnij się, że Twoja obrona jest na to przygotowana.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1479,11 +1479,11 @@
   <!-- EN: Keep watching -->
   <GameOverKeepWatching>Oglądaj dalej</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Na razie obserwuj dalej</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>Utwórz nowych wędrowców</GameOverCreateNewWanderers>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Wszyscy zginęli lub odeszli. Być może ktoś znajdzie zastosowanie dla tutejszych ruin.\n\nWybierz nowych wędrowców, którzy przybędą do kolonii, aby kontynuować jej historię.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menu główne</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1491,7 +1491,7 @@
   <!-- EN: cannot reach any destination -->
   <NoWandererDestination>TODO</NoWandererDestination>
   <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>Utwórz nowych wędrowców (oczekiwanie: {0}h)</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1505,9 +1505,9 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Nie jest powiązane z budowlą</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Maksymalna liczba jednoczesnych połączeń na budynek</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>Przód budynku jest zablokowany.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1613,11 +1613,11 @@
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Opuść tryb planowania.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExitController>{Klawisz:Anuluj}: Wyjdź z trybu planowania.</RoutePlannerPressEscapeToExitController>
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Wyjdź z trybu planowania.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Powróć do okna formowania karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Klawisz:Anuluj}: Powróć do okna formowania karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Powróć do okna formowania karawany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Przybl. czas podróży: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1665,7 +1665,7 @@
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>Ciepło neuronów wzrasta po użyciu mocy psychicznej. Przekroczenie normalnego limitu może spowodować załamanie psychiczne trwające kilka dni.\n\nCiepło nerwowe rozprasza się naturalnie z biegiem czasu. Proces ten można przyspieszyć, nosząc elteksowy strój lub odczuwając ból.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Wzmocnienie bólu\n\nBól skupia umysł i przyspiesza rozpraszanie ciepła neuronów.\n\Poziom bólu: {0}\nPremia do obniżania ciepła: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Wzmocnienie bólu\n\nBól skupia umysł i przyspiesza rozpraszanie ciepła neuronów.\n\nPoziom bólu: {0}\nPremia do obniżania ciepła: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Przełącz neuronowy ogranicznik ciepła. Przekroczenie limitu ciepła może spowodować załamanie psychiczne trwające kilka dni. Nie spowoduje trwałych uszkodzeń.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
@@ -1697,7 +1697,7 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Łupy z obozu</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown>
+  <Reward_Unknown>Nie wiadomo, co się stanie, jeśli przyjmiesz to zadanie.</Reward_Unknown>
   <!-- EN: Unknown -->
   <Reward_Unknown_Label>Nieznane</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
@@ -1766,11 +1766,11 @@
   <CausedByHediff>Spowodowane przez: {0}</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
-  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <DamageFactorWeakness>Podatność na obrażenia typu {DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <DamageFactorResistance>Odporność na obrażenia typu {DAMAGE_label}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
-  <DamageFactor>TODO</DamageFactor>
+  <DamageFactor>Obrażenia typu {DAMAGE_label} otrzymywane przez tę istotę są mnożone przez tę wartość.</DamageFactor>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
@@ -1786,9 +1786,9 @@
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Szanse na poszczególne wyniki przy jakości {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
-  <ExpectedLordJobDuration>TODO</ExpectedLordJobDuration>
+  <ExpectedLordJobDuration>Przewidywany czas trwania</ExpectedLordJobDuration>
 
   <!-- Rituals -->
   <!-- EN: ritual -->
@@ -1821,9 +1821,9 @@
   <!-- EN: Quality factors -->
   <QualityFactors>Czynniki jakości</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>Ten warunek może zostać spełniony w zależności od przebiegu wydarzeń.\w\Jeśli jest spełniony, obowiązuje premia jakości.</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>Ten warunek może zostać spełniony w zależności od przebiegu wydarzeń.\n\nJeśli zostanie spełniony, będzie obowiązywać premia jakości.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>Ten warunek nie jest spełniony.\in\Premia jakości nie będzie miała zastosowania.</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>Ten warunek nie jest spełniony.\n\nPremia jakości nie będzie miała zastosowania.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
   <Spectators>Widzowie</Spectators>
   <!-- EN: Not participating -->
@@ -1834,9 +1834,9 @@
   <DragPawnsToRolesInfoController>Przeciągnij i upuść lub kliknij, aby przenieść ludzi.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Niewolnik. Własność ludzka innych.</RitualBeginSlaveDesc>
-  <!-- EN: FIXME: NOWA WERSJA {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} śpi. Jeśli zostanie uwzględnion{0_gender ? y : a} w rytuale, obudzi się, aby wziąć w nim udział.</RitualBeginSleepingDesc>
-  <!-- EN: FIXME: NOWA WERSJA Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>Postać {0_labelShort} śpi. Jeśli zostanie uwzględniona w rytuale, obudzi się, aby wziąć w nim udział.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
   <RitualBeginSleepingWarning>Niektórzy z wybranych uczestników śpią. Obudzą się, gdy rozpoczniesz rytuał.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tę pozycję najlepiej wykonuje kolonista pełniący rolę społeczną '{0}'.\n\nJeśli ktoś bez tej roli zajmie tę pozycję, nie otrzymasz następującej(-ych) premii</RitualRoleRequiresSocialRole>
@@ -1931,7 +1931,7 @@
   <!-- EN: rot stink -->
   <RotStink>śmierdząca zgnilizna</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>pył martwego życia</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1939,7 +1939,7 @@
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>zdolność jest w trakcie odnawiania. Możliwość użycia za {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>Wyczerpano wszystkie ładunki zdolności.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>zdolność jest już w kolejce.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
@@ -1956,7 +1956,7 @@
   <!-- EN: {0_nameDef} is in a mental state. -->
   <PawnIsInMentalState>{0_nameDef} jest w stanie agresji.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>Postać {0_nameDef} znajduje się w stanie agresywnego załamania psychicznego.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Wyłączona praca</DisabledWorkLabel>
@@ -1995,96 +1995,96 @@
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>Gotowość następnej przemowy za</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>Rozpoczęto w</AbilitySpeechTargetsLabel>
+  <AbilitySpeechTargetsLabel>Rozpoczęto o</AbilitySpeechTargetsLabel>
   
   <!-- Books -->
 
   <!-- EN: Benefits -->
   <Benefits>Korzyści</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>Zagrożenia</Dangers>
   <!-- EN: already unlocked -->
   <AlreadyUnlocked>już odblokowane</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>po odkryciu</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>Został doprowadzony do załamnia psychicznego po przeczytaniu {0}.</BookMentalBreakMessage>
+  <BookMentalBreakMessage>Doznaje załamania psychicznego po przeczytaniu {0}.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>{0} gotowe (zakończy się za {1} h)</BookReadProgress>
   
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>tempo nauki</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>szansa na załamanie psychiczne</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>Nie można przeczytać książki: {BOOK_labelShort}</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>TODO</BookCantRead>
+  <BookCantRead>{PAWN_nameDef} nie potrafi czytać</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <BookCantBeStage>Postać {PAWN_nameDef} musi znajdować się na etapie rozwoju: {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>TODO</BookBlind>
+  <BookBlind>{PAWN_nameDef} jest {PAWN_gender ? niewidomy : niewidoma}</BookBlind>
   
   <!-- EN: max level {0} -->
   <BookMaxLevel>maksymalny poziom {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>TODO</ReadingReportHeader>
+  <ReadingReportHeader>Czytanie {0}: ukończono {1} (zakończenie za {2} godz.)</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <ReadingDialogTitle>Przypisz lekturę</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <ReadingAssignTo>Przydziel postaci {0}</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>Przypisz</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  <ContainedBooksDesc>Książki znajdujące się obecnie na tym regale.</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>Przechowywane książki</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Premia do czytania w pomieszczeniu</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>Wyjmij tą książkę z regału</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
-  <CommandPushTo>TODO</CommandPushTo>
+  <CommandPushTo>Popchnij w kierunku...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>wymaga {0}</RequiredCapacity>
 
   <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+  <UnableToEnterPortal>Nie można wejść do {0}, ponieważ miejsce docelowe jest zablokowane.</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Ta kategoria badań nie została jeszcze odkryta.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
+  <Emergence>Wyłonienie się</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>TODO</RemovePart>
+  <RemovePart>usuń {0}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <DoWorkAtThing>{GERUND} {TARGETLABEL} przy</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>Będzie można zbadać za {0}</CanBeStudiedInDuration>
   
   <!-- EN: About to explode -->
-  <AboutToExplode>TODO</AboutToExplode>
+  <AboutToExplode>Zaraz wybuchnie</AboutToExplode>
   <!-- EN: No fuel to eject -->
   <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
-  <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
+  <MainScreen_AnomalyAvailableNow>Nowy dodatek Anomaly jest już dostępny!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>TODO</DisabledByScenario>
+  <DisabledByScenario>Wyłączone przez scenariusz</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>zablokowany przez dach</BlockedByRoof>
@@ -2188,17 +2188,4 @@
   <!-- EN: {0} of {1} -->
   <GuildTradeShipName>TODO</GuildTradeShipName>
   
-  <!-- UNUSED -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>brak paliwa</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
-  <TransportPodInGroupHasSomethingLeftToLoad>załadunek w trakcie</TransportPodInGroupHasSomethingLeftToLoad>
-  <ShowExpandingIconsToggleButton>Przełącz wyświetlanie rozwijalnych ikon, zamiast zwykłych ikon dla odległych obiektów.</ShowExpandingIconsToggleButton>
-  <RitualPredictedOutcomeDescParticipantCount>Uczestnicy</RitualPredictedOutcomeDescParticipantCount>
-  <RadiusExpandRate>Promień prędkości rozszerzania</RadiusExpandRate>
-  <GameOverKeepPlaying>Gram dalej</GameOverKeepPlaying>
-  <HealingCureHediff>{0_nameDef} {1} zosta{0_gender ? ł : ła} wyleczon{0_gender ? y : a}.</HealingCureHediff>
-  <RitualOutcomeChances>Szansa na wynik o jakości {0}</RitualOutcomeChances>
-  <ChooseParticipants>Wybierz, kto powinien wziąć udział w {RITUAL_labelDef}.</ChooseParticipants>
-  <ExpectedRitualQuality>Przewidywana jakość</ExpectedRitualQuality>
-  <ExpectedRitualDuration>Przewidywany czas trwania</ExpectedRitualDuration>
-
 </LanguageData>

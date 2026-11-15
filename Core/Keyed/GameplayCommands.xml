@@ -69,7 +69,7 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Wybierz właściciela</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>Przypisz to łóżko konkretnej osobie z grupy: {0}.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego tronu.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
@@ -399,11 +399,11 @@
 
   <!-- Camp -->
   <!-- EN: Camp -->
-  <CommandCamp>TODO</CommandCamp>
+  <CommandCamp>Obóz</CommandCamp>
   <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
-  <CommandCampDesc>TODO</CommandCampDesc>
+  <CommandCampDesc>Załóż tymczasowy obóz, który można szybko opuścić.</CommandCampDesc>
   <!-- EN: Cannot camp here. -->
-  <CommandCampFailExistingWorldObject>TODO</CommandCampFailExistingWorldObject>
+  <CommandCampFailExistingWorldObject>Nie można założyć tutaj obozu.</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -494,7 +494,7 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Przełącz automatyczne tankowanie</CommandToggleAllowAutoRefuel>
-  <!-- EN: FIXME: NOWA WERSJA This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
   <CommandToggleAllowAutoRefuelDesc>Określ, czy automatyczne tankowanie jest dozwolone.</CommandToggleAllowAutoRefuelDesc>
   <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
   <CommandToggleAllowAutoRefuelDescMult>TODO</CommandToggleAllowAutoRefuelDescMult>
@@ -690,14 +690,14 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Opuść {lookup: {RITUAL_label}; Case\Singular; 3}</CommandLeaveRitual>
-  <!-- EN: FIXME: NOWA WERSJA Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>Przestań brać udział w {lookup: {RITUAL_labelDef}; Case\Singular; 2}. Rytuał będzie trwał dotąd, aż będzie miał przynajmniej jednego uczestnika.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>To ostatni uczestnik w {lookup: {RITUAL_labelDef}; Case\Singular; 2}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Przerwij {lookup: {RITUAL_label}; Case\Singular; 3}</CommandCancelRitual>
-  <!-- EN: FIXME: NOWA WERSJA End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
   <CommandCancelRitualDesc>Natychmiast zakończ {lookup: {RITUAL_labelDef}; Case\Singular; 3}. Zobowiązanie rytuału pozostanie. Będzie można go ponowić później.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Czy na pewno chcesz przerwać {lookup: {RITUAL_labelDef}; Case\Singular; 3}?</CommandCancelRitualConfirm>
@@ -729,17 +729,17 @@
   <SelectAllLinkedDesc>Wybierz wszystkie powiązane z tym budynki magazynowe.</SelectAllLinkedDesc>
 
   <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandDisabledUnconscious>{0_labelShort} jest {0_gender ? nieprzytomny : nieprzytomna}.</CommandDisabledUnconscious>
+  <CommandDisabledUnconscious>{0_labelShort} jest nieprzytomn{0_gender ? y : a}.</CommandDisabledUnconscious>
 
   <!-- Study -->
   <!-- EN: Toggle study -->
-  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <CommandToggleStudy>Przełącz badanie</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>Określa, czy nadzorcy będą automatycznie badać ten obiekt. Zakazane obiekty nie będą badane.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
-  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
+  <CommandNoUsesLeft>Brak pozostałych użyć.</CommandNoUsesLeft>
 
   <!-- Map Portal -->
   <!-- EN: View {0} -->
@@ -765,8 +765,4 @@
   <!-- EN: Choose hacker -->
   <CommandChooseHacker>TODO</CommandChooseHacker>
   
-  <!-- UNUSED -->
-  <CommandRenameZoneLabel>Zmień nazwę</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>Zmień nazwę tej strefy.</CommandRenameZoneDesc>
-
 </LanguageData>

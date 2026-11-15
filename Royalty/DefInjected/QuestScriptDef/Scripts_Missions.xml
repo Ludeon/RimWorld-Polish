@@ -6,7 +6,11 @@
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>TODO</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->Grupa przeciwników ([enemiesLabel]) założyła obóz i nęka karawany frakcji [asker_faction_name]. [asker_nameDef] planuje desant powietrzny na obóz strzeżony przez [enemiesCount] wrogów ([enemiesLabel]). Zleceniodawca prosi cię o dostarczenie jednostek ([soldiers]), które przeprowadzą atak.\n\n[asker_nameDef] wyśle wahadłowiec, aby odebrać Twoich ludzi, przetransportować ich do celu i odstawić z powrotem. W trakcie podróży otrzymają wyżywienie i opiekę medyczną.\n\nPo rozpoczęciu ataku musisz pokonać wszystkich wrogów oraz wieżyczki w ciągu: [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] żołnierzy</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] żołnierza</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -24,6 +28,22 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>TODO</Mission_BanditCamp.questNameRules.rulesStrings>
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef]: [questNameInner]</li>
+    <li>questNameInner->[aerial] [attack]</li>
+    <li>questNameInner->[target] [attack]</li>
+    <li>questNameInner->[attack] - [work]</li>
+    <li>target->obóz</li>
+    <li>target->baza</li>
+    <li>target->fort</li>
+    <li>aerial->Powietrzny</li>
+    <li>aerial->Desantowy</li>
+    <li>aerial->Wahadłowy</li>
+    <li>attack->atak</li>
+    <li>attack->szturm</li>
+    <li>work->zadanie</li>
+    <li>work->operacja</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>

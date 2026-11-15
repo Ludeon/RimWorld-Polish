@@ -19,13 +19,20 @@
   -->
   <NamerRitualFuneral.rulePack.rulesStrings>
     <li>r_ritualName(p=2)->[memeAdjective] [funeral_Mal]</li>
-    <li>r_ritualName->[chosenTheme] [funeral_Fem]</li>
+    <li>r_ritualName->[funeral_Fem] — [chosenTheme]</li>
     <li>r_ritualName->[chosenAdjective] [funeral_Mal]</li>
-    <li>r_ritualName->[funeral_Fem] [memeConcept]</li>
-    <li>funeral_Fem->msza żałobna</li>
-    <li>funeral_Fem->pochwała</li>
-    <li>funeral_Mal->grobowiec</li>
+    <li>r_ritualName->[keyDeity] — [funeral_Mal]</li>
+    <li>r_ritualName->[funeral_Mal] — [keyDeity]</li>
+    <li>r_ritualName->[funeral_Fem] — [memeConcept]</li>
+    <li>r_ritualName->[funeral_Fem] — [chosenIdeoName]</li>
     <li>funeral_Mal->pogrzeb</li>
+    <li>funeral_Mal->pochówek</li>
+    <li>funeral_Fem->żałoba</li>
+    <li>funeral_Fem->mowa pogrzebowa</li>
+    <li>funeral_Fem->ceremonia złożenia do grobu</li>
+    <li>funeral_Fem->inhumacja</li>
+    <li>funeral_Fem->msza żałobna</li>
+    <li>funeral_Fem->ceremonia pochówku</li>
   </NamerRitualFuneral.rulePack.rulesStrings>
   
 </LanguageData>

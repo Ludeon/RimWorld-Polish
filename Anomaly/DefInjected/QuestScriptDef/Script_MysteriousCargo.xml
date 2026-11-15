@@ -8,8 +8,8 @@
   -->
   <MysteriousCargoCube.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Tajemniczy ładunek</li>
-    <li>deliveredLetterText(pawnOnMap==true)->Tajemniczy ładunek został dostarczony. Jest to prosty sześcian, który błyszczy jak złoto, ale nie da się go zarysować. Jest lekki i ciepły w dotyku. Światło urzekająco tańczy na jego powierzchni.\n\n[pawn_nameDef] czuje niewytłumaczalny pociąg do sześcianu.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->Tajemniczy ładunek został dostarczony. Jest to prosty sześcian, który błyszczy jak złoto, ale nie da się go zarysować. Jest lekki i ciepły w dotyku. Światło urzekająco tańczy na jego powierzchni.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->Tajemniczy ładunek dotarł. To prosty z wyglądu sześcian, lśniący jak złoto, którego powierzchni nie sposób zarysować. Jest lekki i ciepły w dotyku. Gra światła na jego powierzchni działa hipnotyzująco.\n\n[pawn_nameDef] odczuwa niewytłumaczalny pociąg do sześcianu.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->Tajemniczy ładunek dotarł. To prosty z wyglądu sześcian, lśniący jak złoto, którego powierzchni nie sposób zarysować. Jest lekki i ciepły w dotyku. Gra światła na jego powierzchni działa hipnotyzująco.</li>
   </MysteriousCargoCube.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -17,9 +17,15 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Anonimowa SI zwróciła się do ciebie z dziwną prośbą. Prosi o przyjęcie nieznanego ładunku. Unika wszelkich pytań dotyczących zawartości.\n\nJeśli się zgodzisz, dostarczy ten tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] ma dziwną prośbę. Prosi o przyjęcie nieznanego ładunku. Unika odpowiedzi, gdy padają pytania o szczegóły, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] ma dziwną prośbę. Żąda przyjęcia jakiegoś nieznanego ładunku. Kiedy prosisz o więcej szczegółów, unika odpowiedzi. W głosie słychać desperację.\n\n Jeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(askerIsNull==true)->Anonimowa SI zwraca się do ciebie z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Unika odpowiedzi na wszystkie pytania o przesyłkę.\n\nJeśli się zgodzisz, dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] [askerContactPL] z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name], [askerDemandPL] przyjęcia ładunku o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>askerContactPL(asker_gender==Male,priority=1)->zwrócił się</li>
+    <li>askerContactPL(asker_gender==Female,priority=1)->zwróciła się</li>
+    <li>askerContactPL->zwraca się</li>
+    <li>askerDemandPL(asker_gender==Male,priority=1)->zażądał</li>
+    <li>askerDemandPL(asker_gender==Female,priority=1)->zażądała</li>
+    <li>askerDemandPL->żąda</li>
   </MysteriousCargoCube.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -34,7 +40,7 @@
   -->
   <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Tajemniczy ładunek</li>
-    <li>deliveredLetterText->Tajemniczy ładunek został dostarczony. Przypomina gruby, postrzępiony ludzki kręgosłup wykonany z chropowatego, czarnego metalu. Wygląda, jakby był pokryty ciemnym płynem.\n\nKręgosłup wibruje w odpowiedzi na dotyk i skręca się gniewnie. Możesz zbadać go na platformie do przetrzymywania, aby dowiedzieć się więcej.</li>
+    <li>deliveredLetterText->Tajemniczy ładunek dotarł. Przypomina gruby, poszarpany ludzki kręgosłup, odlany z czarnego metalu o chropowatej powierzchni. Wygląda, jakby pokrywała go ciemna ciecz.\n\nKręgosłup drży pod dotykiem i wije się, jakby w gniewie. Można go zbadać na platformie do przetrzymywania, aby dowiedzieć się więcej.</li>
   </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -42,9 +48,15 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Anonimowa SI zwróciła się do ciebie z dziwną prośbą. Prosi o przyjęcie nieznanego ładunku. Unika wszelkich pytań dotyczących zawartości.\n\nJeśli się zgodzisz, dostarczy ten tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] ma dziwną prośbę. Prosi o przyjęcie nieznanego ładunku. Unika odpowiedzi, gdy padają pytania o szczegóły, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] ma dziwną prośbę. Żąda przyjęcia jakiegoś nieznanego ładunku. Kiedy prosisz o więcej szczegółów, unika odpowiedzi. W głosie słychać desperację.\n\n Jeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(askerIsNull==true)->Anonimowa SI zwraca się do ciebie z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Unika odpowiedzi na wszystkie pytania o przesyłkę.\n\nJeśli się zgodzisz, dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] [askerContactPL] z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name], [askerDemandPL] przyjęcia ładunku o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>askerContactPL(asker_gender==Male,priority=1)->zwrócił się</li>
+    <li>askerContactPL(asker_gender==Female,priority=1)->zwróciła się</li>
+    <li>askerContactPL->zwraca się</li>
+    <li>askerDemandPL(asker_gender==Male,priority=1)->zażądał</li>
+    <li>askerDemandPL(asker_gender==Female,priority=1)->zażądała</li>
+    <li>askerDemandPL->żąda</li>
   </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -60,8 +72,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Tajemniczy ładunek</li>
-    <li>deliveredLetterText(pawnOnMap==true)->Tajemniczy ładunek został dostarczony. Wygląda na to, że są to ludzkie zwłoki.\n\nPo dalszych oględzinach ciało wygląda identycznie jak [pawn_nameDef]. Skóra jest woskowata i ciepła w dotyku. [pawn_nameDef] czuje zaniepokojenie samą obecnością zwłok.\n\nZbadaj je, aby dowiedzieć się więcej.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->Tajemniczy ładunek został dostarczony. Wygląda na to, że są to ludzkie zwłoki.\n\nPo dalszych oględzinach zwłoki wyglądają identycznie jak [pawn_nameDef]. Jego skóra jest woskowata i ciepła w dotyku. [pawn_nameDef] z pewnością poczuje zaniepokojenie w samej obecności zwłok\n\nMożesz zbadać zwłoki, aby dowiedzieć się o nich więcej.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->Tajemniczy ładunek dotarł. Wygląda na to, że w środku znajdują się ludzkie zwłoki.\n\nPrzy bliższych oględzinach okazuje się, że ciało wygląda identycznie jak [pawn_nameDef]. Skóra zwłok jest woskowata i ciepła w dotyku. [pawn_nameDef] odczuwa silny niepokój w ich obecności.\n\nZbadaj zwłoki, aby dowiedzieć się więcej.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->Tajemniczy ładunek dotarł. Wygląda na to, że w środku znajdują się ludzkie zwłoki.\n\nPrzy bliższych oględzinach okazuje się, że ciało wygląda identycznie jak [pawn_nameDef]. Skóra zwłok jest woskowata i ciepła w dotyku. [pawn_nameDef] z pewnością odczuje silny niepokój w ich obecności.\n\nZbadaj zwłoki, aby dowiedzieć się więcej.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -69,9 +81,15 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Anonimowa SI zwróciła się do ciebie z dziwną prośbą. Prosi o przyjęcie nieznanego ładunku. Unika wszelkich pytań dotyczących zawartości.\n\nJeśli się zgodzisz, dostarczy ten tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] ma dziwną prośbę. Prosi o przyjęcie nieznanego ładunku. Unika odpowiedzi, gdy padają pytania o szczegóły, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name] ma dziwną prośbę. Żąda przyjęcia jakiegoś nieznanego ładunku. Kiedy prosisz o więcej szczegółów, unika odpowiedzi. W głosie słychać desperację.\n\n Jeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(askerIsNull==true)->Anonimowa SI zwraca się do ciebie z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Unika odpowiedzi na wszystkie pytania o przesyłkę.\n\nJeśli się zgodzisz, dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] [askerContactPL] z nietypową prośbą. Chce, aby twoja kolonia przyjęła ładunek o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakcji [asker_faction_name], [askerDemandPL] przyjęcia ładunku o nieujawnionej zawartości. Na pytania o szczegóły nie odpowiada, a w głosie słychać desperację.\n\nJeśli się zgodzisz, [asker_nameFull] dostarczy tajemniczy ładunek kapsułą transportową.</li>
+    <li>askerContactPL(asker_gender==Male,priority=1)->zwrócił się</li>
+    <li>askerContactPL(asker_gender==Female,priority=1)->zwróciła się</li>
+    <li>askerContactPL->zwraca się</li>
+    <li>askerDemandPL(asker_gender==Male,priority=1)->zażądał</li>
+    <li>askerDemandPL(asker_gender==Female,priority=1)->zażądała</li>
+    <li>askerDemandPL->żąda</li>
   </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>

@@ -173,7 +173,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskAnimalMutationLetterLabel>Mutacja dokonana przez obelisk</ObeliskAnimalMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
-  <ObeliskAnimalMutationLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} obserwuje nagły wzrost energii. Obelisk brutalnie wypaczył ciało {ANIMAL_gen}, zamieniając stworzenie w ohydną mięsistą bestię.</ObeliskAnimalMutationLetter>
+  <ObeliskAnimalMutationLetter>Podczas interakcji z obeliskiem {PAWN_nameDef} obserwuje nagły wzrost energii. Obelisk gwałtownie wypacza ciało zwierzęcia ({ANIMAL}), przemieniając je w ohydnego mięsostwora.</ObeliskAnimalMutationLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskTreeMutationLetterLabel>Mutacja dokonana przez obelisk</ObeliskTreeMutationLetterLabel>
@@ -297,7 +297,7 @@
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
   <ChooseNociosphereDest>Wybierz miejsce, w które przeniesie się nociosfera.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
-  <TransferEntity>Przenieś: {0_definite}</TransferEntity>
+  <TransferEntity>Przenieś {0_label}</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
   <TransferEntityDesc>Przenieś przetrzymywaną istotę na inną platformę.</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
@@ -339,13 +339,13 @@
   <MetalhorrorSurgicalInspectionDetails>Lekarze ci zostali zarażeni i byli kontrolowani przez metalhorrory, więc kłamali na temat wyników inspekcji chirurgicznej</MetalhorrorSurgicalInspectionDetails>
   
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
-  <MetalhorrorReasonInteraction>metalhorror którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas interakcji z innymi osobami.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInteraction>metalhorror, którego żywicielem jest {INFECTED_nameDef}, wyłonił się po tym, jak {PAWN_nameDef} {PAWN_gender ? wykrył : wykryła} go podczas interakcji społecznej.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
-  <MetalhorrorReasonInterrogation>metalhorror, którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas przesłuchania.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonInterrogation>metalhorror, którego żywicielem jest {INFECTED_nameDef}, wyłonił się po tym, jak {PAWN_nameDef} {PAWN_gender ? wykrył : wykryła} go podczas przesłuchania.</MetalhorrorReasonInterrogation>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
   <MetalhorrorReasonHostDied>metalhorror, którego żywiciel to {INFECTED_nameDef}, wyłonił się po śmierci tej osoby.</MetalhorrorReasonHostDied>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
-  <MetalhorrorReasonSurgeryInspected>metalhorror którym zaraził się jeden z kolonistów ({INFECTED_nameDef}) pojawił się, ponieważ został odkryty przez {PAWN_nameDef_gen} podczas inspekcji chirurgicznej.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonSurgeryInspected>metalhorror, którego żywicielem jest {INFECTED_nameDef}, wyłonił się po tym, jak {PAWN_nameDef} {PAWN_gender ? wykrył : wykryła} go podczas kontroli przeprowadzonej w trakcie operacji.</MetalhorrorReasonSurgeryInspected>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
   <MetalhorrorReasonRandom>metalhorror, którego żywiciel to {INFECTED_nameDef}, wyłonił się z nieznanych przyczyn.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
@@ -851,29 +851,19 @@
   
   <!-- Anomaly event frequency -->
   <!-- EN: No major threats -->
-  <AnomalyFrequency_None>TODO</AnomalyFrequency_None>
+  <AnomalyFrequency_None>Brak poważnych zagrożeń</AnomalyFrequency_None>
   <!-- EN: Very rare -->
-  <AnomalyFrequency_VeryRare>TODO</AnomalyFrequency_VeryRare>
+  <AnomalyFrequency_VeryRare>Bardzo rzadkie</AnomalyFrequency_VeryRare>
   <!-- EN: Rare -->
-  <AnomalyFrequency_Rare>TODO</AnomalyFrequency_Rare>
+  <AnomalyFrequency_Rare>Rzadkie</AnomalyFrequency_Rare>
   <!-- EN: Balanced -->
-  <AnomalyFrequency_Balanced>TODO</AnomalyFrequency_Balanced>
+  <AnomalyFrequency_Balanced>Zrównoważone</AnomalyFrequency_Balanced>
   <!-- EN: Intense -->
-  <AnomalyFrequency_Intense>TODO</AnomalyFrequency_Intense>
+  <AnomalyFrequency_Intense>Intensywne</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
-  <AnomalyFrequency_Overwhelming>TODO</AnomalyFrequency_Overwhelming>
+  <AnomalyFrequency_Overwhelming>Przytłaczające</AnomalyFrequency_Overwhelming>
   
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>TODO</SecurityDoorsOnly>
   
-  <!-- UNUSED -->
-  <ViewUndercave>Zobacz podkawernę</ViewUndercave>
-  <ViewUndercaveDesc>Zobacz połączoną mapę podkawerny.</ViewUndercaveDesc>
-  <ViewSurface>Zobacz powierzchnię</ViewSurface>
-  <ViewSurfaceDesc>Zobacz połączoną mapę powierzchni.</ViewSurfaceDesc>
-  <EnterPitGate>Wejdź do wykopu</EnterPitGate>
-  <ExitPitGate>Wyjdź na powierzchnię</ExitPitGate>
-  <LetterLabelGateEntered>Leże mięsostwora</LetterLabelGateEntered>
-  <LetterGateEntered>W głębinach wykopu odkrywasz ogromny system jaskiń opanowany przez mięsostwory.\n\nSystem jaskiń jest zatkany masami żywego ciaa, które blokują ci przejście. Atakuj mięsomasę, aby ją zniszczyć.\n\nSystem jaskiń wydaje się niestabilny. Jeśli odkryjesz, co kryje się za mięsomasą, być może uda ci się zawalić tunele i zasypać wykop.</LetterGateEntered>
-
 </LanguageData>

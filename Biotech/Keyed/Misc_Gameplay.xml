@@ -132,17 +132,17 @@
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
   <HemogenDesc>Hemogen to biologiczne źródło energii pochodzące ze związków zawartych w ludzkiej krwi. Ludzie Baselinera produkują go endogennie i konsumują z biegiem czasu we własnej wewnętrznej równowadze. Niektóre ludzkie ksenotypy wykorzystują go jako rodzaj paliwa dla określonych zdolności, podczas gdy inne muszą go spożywać, aby w ogóle przeżyć.</HemogenDesc>
   <!-- EN: deathrest capacity -->
-  <DeathrestCapacity>zdolność anabiozy</DeathrestCapacity>
+  <DeathrestCapacity>pojemność anabiozy</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Określa to, z iloma budynkami anabiozy dana osoba może się połączyć podczas stanu anabiozy. Każdy budynek deathresta zapewnia określoną korzyść, więc lepiej jest móc podłączyć się do większej ich liczby.\n\nZdolności anabiozy można zwiększyć za pomocą serum zdolności anabiozy. To serum można kupić od handlarzy.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Określa, z iloma urządzeniami dana osoba może połączyć się podczas anabiozy. Każde urządzenie zapewnia określoną premię, więc większa pojemność anabiozy pozwala korzystać z większej liczby premii.\n\nPojemność anabiozy można zwiększyć za pomocą serum pojemności anabiozy, dostępnego u handlarzy.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef} jest połączony z budynkami  anabiozy {CURRENT} / {MAX} (max).</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} korzysta z urządzeń anabiozy: {CURRENT}/{MAX} (maks.).</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>obudź się teraz</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>Wybudź się ze stanu anabiozy.\n\n{PAWN_nameDef} był w stanie anabiozy przez {DURATION}.</WakeDesc>
+  <WakeDesc>Wybudź z anabiozy.\n\n{PAWN_nameDef} przebywa w anabiozie od {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} musi być w stanie anabiozy przez co najmniej {TOTAL}. Wczesne przebudzenie {PAWN_objective} sprawi, że {PAWN_objective} zachoruje, a {PAWN_pronoun} nie będzie korzystać z żadnych budynków do anabiozy.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} musi pozostać w anabiozie przez co najmniej {TOTAL}. Wcześniejsze wybudzenie wywoła chorobę i pozbawi {PAWN_objective} premii zapewnianych przez urządzenia anabiozy.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} może teraz bezpiecznie się wybudzić.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -150,7 +150,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Auto-wybudzenie</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Po włączeniu {PAWN_nameDef} automatycznie wybudzi się, gdy {PAWN_possessive} zakończy się anabioza.\n\nGdy jest wyłączony, {PAWN_pronoun} będzie kontynuować stan anabiozy, dopóki nie obudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
+  <AutoWakeDesc>Gdy opcja jest włączona, {PAWN_nameDef} automatycznie wybudzi się po zakończeniu {PAWN_possessive} anabiozy.\n\nGdy opcja jest wyłączona, {PAWN_pronoun} pozostanie w anabiozie, dopóki nie wybudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} jest w stanie anabiozy.</IsDeathresting>
   <!-- EN: cannot deathrest -->
@@ -158,7 +158,7 @@
   <!-- EN: Start deathrest -->
   <StartDeathrest>Rozpocznij anabiozę</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabiozy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był tylko przez {CURDURATION}.\n\nWybudzenie {PAWN_nameDef} teraz przerywałoby {PAWN_possessive} stan anabiozy, wytrącając metabolizm {PAWN_possessive} z równowagi i powodując chorobę {PAWN_objective}, która trwa będzie kilka dni.\n\nCzy na pewno chcesz wybudzić {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie anabiozy wymaga co najmniej {MINDURATION}, ale {PAWN_nameDef} przebywa w tym stanie dopiero od {CURDURATION}.\n\nWybudzenie teraz przerwie anabiozę, zaburzy równowagę metaboliczną i spowoduje kilkudniową chorobę.\n\nCzy {PAWN_nameDef} ma się teraz wybudzić?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>w stanie anabiozy</Deathresting>
   <!-- EN: can wake safely now. -->
@@ -172,9 +172,9 @@
   <!-- EN: Regeneration rate -->
   <RegenerationRate>Szybkość regeneracji</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>{PAWN_nameDef} powinien być w stanie anabiozy przez {DURATION}, aby uniknąć konsekwencji.</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} musi rozpocząć anabiozę za {DURATION}, aby uniknąć wyczerpania.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>{PAWN_nameDef} wkrótce powinien zacząć stan anabiozy, aby uniknąć konsekwencji.</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} musi wkrótce rozpocząć anabiozę, aby uniknąć wyczerpania.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
@@ -194,11 +194,11 @@
   <!-- EN: Will bind permanently on first use. -->
   <WillBindOnFirstUse>Wiąże się pernamentnie przy pierwszym użyciu.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>Aktywny czas tego stanu anabiozy</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>Czas działania podczas obecnej anabiozy</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
   <MinimumNeededToApply>Minimum to {0} do zaaplikowania</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>Nie można być w stanie anabiozy</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>Anabioza jest niedostępna</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
   <CannotAssignAlreadyBound>Już powiązany z {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
@@ -324,7 +324,7 @@
   <!-- EN: Allow all genepacks -->
   <AllowAllGenepacks>Zezwól na wszystkie pakiety genowe</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Czy koloniści mogą automatycznie przechowywać dowolny pakiet genowe w tym pojemniku. Wyłącz to, jeśli chcesz określić, które pakiety genów powinny być tutaj przechowywane.</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>Czy koloniści mogą automatycznie przechowywać dowolny pakiet genów w tym pojemniku. Wyłącz to, jeśli chcesz określić, które pakiety genów powinny być tutaj przechowywane.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
   <ContainedGenepacksDesc>Pakiety genowe znajdujące się obecnie w tym pojemniku.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
@@ -420,7 +420,7 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>Ksenozarodek</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} będzie w stanie anabiozy, jak {PAWN_pronoun} ma śmiertelne obrażenia.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} pozostanie w anabiozie, dopóki utrzymują się obrażenia zagrażające życiu.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} pozostanie w śpiączce regeneracyjnej tak długo, jak {PAWN_pronoun} ma śmiertelne obrażenia.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
@@ -654,7 +654,7 @@
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>Przejdź na zakładkę zanieczyszczenia. Pokazane zostają te obszary terenu, które są zanieczyszczone.\n\Narażenie się na działanie zanieczyszczonego terenu powoduje nagromadzenie toksycznych substancji, które mogą prowadzić do śmierci. Większość roślin nie może rosnąć na zanieczyszczonym terenie.</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>Przejdź na zakładkę zanieczyszczenia. Pokazane zostają te obszary terenu, które są zanieczyszczone.\n\nNarażenie się na działanie zanieczyszczonego terenu powoduje nagromadzenie toksycznych substancji, które mogą prowadzić do śmierci. Większość roślin nie może rosnąć na zanieczyszczonym terenie.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
   <TilePollutionNone>Brak</TilePollutionNone>
   <!-- EN: Light -->
@@ -736,7 +736,7 @@
   <!-- EN: No available growth vats. -->
   <ImplantDisabledNoVats>Brak dostępnych komór wzrostu.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
-  <ImplantSurgeryLabel>Implant {0}</ImplantSurgeryLabel>
+  <ImplantSurgeryLabel>Wszczep: {0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
   <ImplantSurgeryConfirm>Szansa na sukces implementacji dla {0} w {1} wynosi {2}.\n\nSzansa sukcesu implementację zależy od płodności matki zastępczej. Będzie niższa, jeśli mama jest za stara lub za młoda.</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
@@ -769,8 +769,5 @@
   <GeneticChemicalDependency_Label>TODO</GeneticChemicalDependency_Label>
   <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
   <GeneticChemicalDependency_Desc>TODO</GeneticChemicalDependency_Desc>
-
-  <!-- UNUSED -->
-  <LearningDesireTooltip_CurrentDesire>{0_nameDef} Obecne pragnie nauczyć się:</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>

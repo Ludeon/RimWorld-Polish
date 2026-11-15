@@ -8,7 +8,19 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nKapsuły zawierają następujące zagrożenia:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], (tytuł: [asker_faction_leaderTitle]) z frakcji [asker_faction_name], zwraca się z prośbą. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], (tytuł: [asker_royalTitleInCurrentFaction]) z frakcji [asker_faction_name], zwraca się z prośbą. [commonMainPart]</li>
+    <li>commonMainPart->Rój mechanoidów atakuje osady tej frakcji. [asker_nameDef] prosi Cię o nadanie sygnału, który odwróci uwagę maszyn, podczas gdy ich główne siły będą neutralizować gniazdo. Jeśli to zrobisz, (*Threat)klaster mechanoidów(/Threat) wyląduje w lokalizacji [map_definite].[dangersDescription]\n\nKlaster mechanoidów będzie początkowo uśpiony. Może posiadać aktywator czasowy lub pozostać w uśpieniu do momentu naruszenia go.[helpersParagraph]</li>
+    <li>formaPlecPL_1(asker_gender==Male,priority=1)->lider</li>
+    <li>formaPlecPL_1(asker_gender==Female,priority=1)->liderka</li>
+    <li>formaPlecPL_1->osoba</li>
+    <li>formaPlecPL_2(asker_gender==Male,priority=1)->szlachcic</li>
+    <li>formaPlecPL_2(asker_gender==Female,priority=1)->szlachcianka</li>
+    <li>formaPlecPL_2->osoba</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,6 +36,20 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[menace] (klaster)</li>
+    <li>questName->[menace] (kapsuły)</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->Mechanoidy — ([asker_nameDef])</li>
+    <li>nameBased->Mechanoidy — ([asker_nameDef])</li>
+    <li>nameBased->Klaster ([asker_nameDef])</li>
+    <li>nameBased->[menace] ([asker_nameDef])</li>
+    <li>menace->Zagrożenie</li>
+    <li>menace->Niebezpieczeństwo</li>
+    <li>menace->Plaga</li>
+    <li>menace->Zagrożenie</li>
+    <li>menace->Terror</li>
+    <li>menace->Strach</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

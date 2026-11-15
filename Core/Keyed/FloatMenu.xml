@@ -83,7 +83,7 @@
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>już wystarczająco wypełnione</AlreadyFilledLower>
   <!-- EN: missing {0} -->
-  <MissingMaterials>potrzebny materiał</MissingMaterials>
+  <MissingMaterials>potrzebny materiał {0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
   <NoMedicineMatchingCategory>Brak leku na ograniczenie '{CATEGORY}'.</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
@@ -177,7 +177,7 @@
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>już zainstalowano</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
-  <InstallImplantHediffRequired>wymagania obecnego</InstallImplantHediffRequired>
+  <InstallImplantHediffRequired>wymaga obecności {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>maksymalny poziom</InstallImplantAlreadyMaxLevel>
   <!-- EN: requires min level {0} -->
@@ -224,9 +224,9 @@
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>niezachwiana lojalność</Unrecruitable>
   <!-- EN: not recruitable -->
-  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
+  <UnrecruitableNoFaction>Nie można zrekrutować</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>Przenieś: {0_definite}</TransferEntity> 
+  <TransferEntity>Przenieś {0_label}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>Uratuj: {1_labelShort}</Rescue>
@@ -610,9 +610,9 @@
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
-  <CannotRomance>Nie może romansować</CannotRomance>
+  <CannotRomance>{0} nie może romansować</CannotRomance>
   <!-- EN: Romance {0} -->
-  <CanRomance>Romans</CanRomance>
+  <CanRomance>Romans: {0}</CanRomance>
 
   <!-- Feeding -->
   <!-- EN: disliked food -->
@@ -655,8 +655,5 @@
   <IncapableOfHacking>Niezdolność do hakowania</IncapableOfHacking>
   <!-- EN: to drop supplies -->
   <ToDropSupplies>zrzuć zapasy</ToDropSupplies>
-
-  <!-- UNUSED -->
-  <CommandEnterPortal>Wejdź do {0}</CommandEnterPortal>
 
 </LanguageData>

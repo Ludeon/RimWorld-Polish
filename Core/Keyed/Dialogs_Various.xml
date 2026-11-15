@@ -218,7 +218,7 @@
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Niezgodność modów</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
-  <ModsMismatchWarningText>Ten plik został zapisany z innymi modami niż te, z których obecnie korzystasz. Może, ale nie musi powodować to problemów, zależy od tego co dana modyfikacja robi.\n\nPlik został zapisany z (w tej kolejności):\n\n{0}\n\nAktualnie używasz tych (w tej kolejności):\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>Ten plik zapisano z innym zestawem aktywnych modyfikacji niż obecnie używany. Zależnie od działania poszczególnych modyfikacji może to powodować problemy.</ModsMismatchWarningText>
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
   <ModsMismatchOrderChanged>Żadne mody nie zostały dodane ani usunięte, ale zmieniła się kolejność w twojej liście modów.</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
@@ -313,7 +313,7 @@
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Min. poziom umiejętności:</MinimumSkills>
   <!-- EN: Requires -->
-  <BillRequires>Wymaga: {1} x{0}</BillRequires>
+  <BillRequires>Wymaga</BillRequires>
   <!-- EN: nutrition -->
   <BillNutrition>odżywianie</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
@@ -763,7 +763,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Obejmuje niesione i wyposażone przedmioty. Noszenie mniej niż maksimum daje premię do prędkości.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>Widoczność określa, jak łatwo można dostrzec Twoją karawanę.\n\nPodwaja szansę, że Twoja karawana zostanie napadnięta przez wrogów.\n\Widoczność nie wpływa na zdolność odnajdowania pożądanych przedmiotów.\n\nOpiera się na całkowitej wielkości ciała wszystkich ludzi i zwierząt tworzących karawanę.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>Widoczność określa, jak łatwo dostrzec twoją karawanę.\n\nMnoży prawdopodobieństwo, że twoja karawana zostanie napadnięta przez wrogów.\n\nWidoczność nie wpływa na zdolność znajdowania poszukiwanych rzeczy.\n\nZależy od łącznych rozmiarów ciała wszystkich ludzi i zwierząt w karawanie.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Dni żywności</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -1078,7 +1078,7 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Domyślne ustawienia dla leków</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Te ustawienia opieki medycznej są automatycznie przypisywane istotom, gdy po raz pierwszy dołączają do danej grupy. Możesz ręcznie zmienić ustawienia konkretnej istoty w jej zakładce zdrowia.\n\nUwaga: Jeśli istota dołączy do nowej grupy, zawsze otrzyma ustawienia tej grupy, nawet jeśli wcześniej przypisano jej inne ustawienia.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Domyślne</MedGroupDefaults>
@@ -1086,42 +1086,42 @@
   <!-- EN: Colonists -->
   <MedGroupColonists>Koloniści</MedGroupColonists>
   <!-- EN: Free members of your colony -->
-  <MedGroupColonistsDesc>Wolni członkowie Twojej kolonii</MedGroupColonistsDesc>
+  <MedGroupColonistsDesc>Wolni członkowie twojej kolonii</MedGroupColonistsDesc>
   
   <!-- EN: Prisoners -->
   <MedGroupPrisoners>Więźniowie</MedGroupPrisoners>
   <!-- EN: Prisoners in your colony, regardless of faction. -->
-  <MedGroupPrisonersDesc>TODO</MedGroupPrisonersDesc>
+  <MedGroupPrisonersDesc>Więźniowie przebywający w twojej kolonii, niezależnie od przynależności do frakcji.</MedGroupPrisonersDesc>
 
   <!-- EN: Tamed animals -->
   <MedGroupTamedAnimals>Oswojone zwierzęta</MedGroupTamedAnimals>
   <!-- EN: Animals which have been tamed by your colony. -->
-  <MedGroupTamedAnimalsDesc>TODO</MedGroupTamedAnimalsDesc>
+  <MedGroupTamedAnimalsDesc>Zwierzęta oswojone w twojej kolonii.</MedGroupTamedAnimalsDesc>
 
   <!-- EN: Friendly faction members -->
   <MedGroupFriendlyFaction>Członkowie przyjaznych frakcji</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Ludzie lub zwierzęta należące do frakcji przyjaznych twojej frakcji (przychylność powyżej 75).</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
-  <MedGroupNeutralFaction>Członkowie neutralnych frakcji</MedGroupNeutralFaction>
+  <MedGroupNeutralFaction>Neutralna frakcja</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>TODO</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Ludzie lub zwierzęta należące do frakcji neutralnych wobec twojej frakcji (przychylność od -75 do 75).</MedGroupNeutralFactionDesc>
 
   <!-- EN: Hostile faction members -->
   <MedGroupHostileFaction>Członkowie wrogiej frakcji</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>Ludzie lub zwierzęta nie będące częścią wrogich frakcji (przychylność poniżej -75).</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Ludzie lub zwierzęta należące do frakcji wrogich wobec twojej frakcji (przychylność poniżej -75).</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
   <MedGroupNoFaction>Inni ludzie</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
-  <MedGroupNoFactionDesc>Ludzie nie będący częścią innych frakcji.</MedGroupNoFactionDesc>
+  <MedGroupNoFactionDesc>Ludzie nienależący do żadnej frakcji.</MedGroupNoFactionDesc>
   
   <!-- EN: Wildlife -->
   <MedGroupWildlife>Dzikie zwierzęta</MedGroupWildlife>
   <!-- EN: Animals and other creatures which are not members of any faction. -->
-  <MedGroupWildlifeDesc>TODO</MedGroupWildlifeDesc>
+  <MedGroupWildlifeDesc>Zwierzęta i inne istoty nienależące do żadnej frakcji.</MedGroupWildlifeDesc>
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
@@ -1163,7 +1163,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz oczyścić wszystkie pliki tłumaczeń dla języka {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.\n\n\nUWAGA: Gracze nie powinni korzystać tej opcji, ponieważ jest to narzędzie przeznaczone dla ułatwienia pracy tłumaczom, bezcelowe użycie może narobić bałaganu.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Czy na pewno chcesz uporządkować wszystkie pliki tłumaczenia dla języka {0}?\n\nNarzędzie:\n  - doda wpisy zastępcze dla brakujących tłumaczeń Keyed, DefInjected i pochodzeń;\n  - doda lub zaktualizuje komentarze z oryginalnym, nieprzetłumaczonym tekstem;\n  - przeniesie wpisy Keyed i DefInjected do odpowiednich plików XML;\n  - automatycznie sformatuje wszystkie pliki XML;\n  - zaktualizuje dawne nazwy definicji zachowane dla zgodności wstecznej;\n  - usunie wszystkie istniejące komentarze XML, z wyjątkiem komentarzy w tłumaczeniach całych list.\n\nPliki inne niż XML nie zostaną usunięte ani zmienione.\n\nPo zmianie plików językowych uruchom grę ponownie przed użyciem tego narzędzia, aby wczytać aktualne dane.\n\nPrzed użyciem narzędzia wykonaj kopię wszystkich plików tłumaczenia.\n\nUWAGA: To narzędzie jest przeznaczone dla tłumaczy. Gracze nie muszą go używać.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Tak, posiadam kopię</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1199,11 +1199,11 @@
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Za mało wolnego miejsca.</AbilityNotEnoughFreeSpace>
   <!-- EN: Must target an empty area. -->
-  <AbilityOccupiedCells>{0} musi wybrać za cel pusty obszar.</AbilityOccupiedCells>
+  <AbilityOccupiedCells>Celem musi być pusty obszar.</AbilityOccupiedCells>
   <!-- EN: Must target a walkable area. -->
-  <AbilityUnwalkable>{0} musi wybrać za cel obszar zdatny do chodzenia.</AbilityUnwalkable>
+  <AbilityUnwalkable>Celem musi być obszar, po którym można chodzić.</AbilityUnwalkable>
   <!-- EN: Must target an unroofed area. -->
-  <AbilityRoofed>{0} musi celować w niezadaszony obszar.</AbilityRoofed>
+  <AbilityRoofed>Celem musi być niezadaszony obszar.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort} jest załaman{0_gender ? y : a} psychicznie.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
@@ -1423,7 +1423,7 @@
   <ColorTemperatureTooltip>Wybierz kolor, ustawiając temperaturę barwową. Uwaga: ma to wpływ tylko na kolor wizualny, a nie na moc cieplną.</ColorTemperatureTooltip>
 
   <!-- EN: {0_labelShort} is psychically deaf. -->
-  <CannotShootPawnIsPsychicallyDeaf>TODO</CannotShootPawnIsPsychicallyDeaf>
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} nie wykazuje wrażliwości psychicznej.</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
   <SearchTheMap>Przeszukaj obecną mapę.</SearchTheMap>
@@ -1439,30 +1439,5 @@
   <MapSearchResultSingular>Znzaleziono 1 wynik</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Przeszukiwanie</Searching>
-
-  <!-- UNUSED -->
-  <MapTemperatureDangerWarning>Uwaga: Wylądujesz na zamarzniętym środowisku. Przetrwanie tutaj może okazać się trudne, bądź zupełnie niemożliwe. Jeśli nie chcesz podjąć się tego wyzwania, wybierz inną porę roku lub miejsce.</MapTemperatureDangerWarning>
-  <ConfirmSendNotCompletelyLoadedPods>Grupa kapsuł nie jest do końca załadowana. Brakuje {1_labelShort}. Wystrzelić mimo to?</ConfirmSendNotCompletelyLoadedPods>
-  <Outfit>Strój</Outfit>
-  <SelectOutfit>Wybierz strój...</SelectOutfit>
-  <NewOutfit>Nowy strój</NewOutfit>
-  <DeleteOutfit>Usuń strój...</DeleteOutfit>
-  <NoOutfitSelected>Nie wybrano stroju</NoOutfitSelected>
-  <SelectDrugPolicy>Wybierz politykę...</SelectDrugPolicy>
-  <NewDrugPolicy>Nowa polityka</NewDrugPolicy>
-  <DeleteDrugPolicy>Usuń politykę...</DeleteDrugPolicy>
-  <NoDrugPolicySelected>Nie wybrano polityki używek</NoDrugPolicySelected>
-  <DrugUsageColumnLabel>Zażywanie</DrugUsageColumnLabel>
-  <DrugUsageColumnDesc>Sposób, w jaki można korzystać z tej używki.</DrugUsageColumnDesc>
-  <FoodRestriction>Dieta</FoodRestriction>
-  <FoodRestrictionShort>Żywność</FoodRestrictionShort>
-  <SelectFoodRestriction>Wybierz dietę</SelectFoodRestriction>
-  <NewFoodRestriction>Nowa dieta</NewFoodRestriction>
-  <DeleteFoodRestriction>Usuń dietę</DeleteFoodRestriction>
-  <NoFoodRestrictionSelected>Brak wybranych diet</NoFoodRestrictionSelected>
-  <MedGroupColonist>Kolonista</MedGroupColonist>
-  <MedGroupImprisonedColonist>Zainspirowany kolonista</MedGroupImprisonedColonist>
-  <MedGroupColonyAnimal>Zwierzę z kolonii</MedGroupColonyAnimal>
-  <MedGroupNeutralAnimal>Neutralne zwierzę</MedGroupNeutralAnimal>
 
 </LanguageData>

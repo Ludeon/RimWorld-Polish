@@ -5,7 +5,7 @@
   <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>Mech(y) zdziczał(y)</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>Niektóre mechy, które wędrowały bez nadzorcy, połączyły się ze starożytnymi sygnałami kontrolnymi mechów obejmujących całą planetę. Dołączyły do {0} i stali się wrogo nastawieni, a także wydają się próbować opuścić mapę.\n\nDzikie mechanoidy nie mogą zostać wskrzeszone w gestatorze po ich zlikwidowaniu.\n\nTe mechy są zaangażowane:\n\n{ 1}</LetterMechsFeral>
+  <LetterMechsFeral>Niektóre mechy, które poruszały się bez nadzorcy, odebrały sygnały starożytnego systemu kontroli mechanoidów obejmującego całą planetę. Dołączyły do {0}, stały się wrogie i najwyraźniej próbują siłą wydostać się z mapy.\n\nZdziczałych mechanoidów nie można wskrzesić w gestatorze po ich zniszczeniu.\n\nDotyczy to następujących mechów:\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>Zainstalowano Mechlinka</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
@@ -22,11 +22,11 @@
   <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0} przybywa</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>Ultraciężki mech z {0} przybywa wraz z eskortą, aby cię zgładzić. Grupa szturmowa składa się z następujących {3}:\n\n{4}\n\Przez chwilę będą przygotowywać się do ataku</LetterBossgroupArrived>
+  <LetterBossgroupArrived>Ultraciężki mech z {0} przybył wraz z eskortą, aby cię zgładzić.\n\n{1}\n\nGrupa szturmowa składa się z następujących {3}:\n\n{4}\n\nPrzed atakiem będzie przez pewien czas przygotowywać się do walki.</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Dostępne jest wezwanie {LEADER_label}</LetterLabelCommsConsoleSpawned>
-  <!-- EN: FIXME: NOWA WERSJA A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>Mechanitor może użyć {PARENT_label}, aby wezwać machanoida {LEADER_label}. Jeśli pokonasz {LEADER_label}, opuści następujące przedmioty:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
@@ -35,9 +35,9 @@
   <LetterBossgroupCallerUnlocked>Możesz teraz zbudować {PARENT_label}, którego mechanitor może użyć do przywołania {LEADER_label}. Jeśli pokonasz {LEADER_label}, opuści następujące przedmioty:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>Dostępny jest mechlink {PAWN_nameDef}</LetterLabelMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketOpened>Dostępny jest mechlink {0_nameDef}</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>Znalazłeś pozostałości starożytnego mechanitora!\n\nWyodrębnij mechlink {PAWN_possessive}, wybierając kolonistę i klikając na pozostałości prawym przyciskiem myszy</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>Znalazłeś pozostałości starożytnego mechanitora!\n\nWyodrębnij mechlink {0_possessive}, wybierając kolonistę i klikając na pozostałości prawym przyciskiem myszy</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Znaleziono kasetę mechanitora</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
@@ -102,7 +102,7 @@
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort} nie przeżywa z powodu powikłań po porodzie.</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
-  <LetterPartSurrogacy>Niewolę przyszło na świat z zapłodnienia in vitro i posiada trukturę genetyczną od {0_labelShort} i {1_labelShort}.</LetterPartSurrogacy>
+  <LetterPartSurrogacy>Dziecko zostało poczęte w wyniku zapłodnienia in vitro i posiada materiał genetyczny pochodzący od {0_labelShort} i {1_labelShort}.</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
   <InbredBabyBorn>Niemowlę wykazuje oznaki wad genetycznych z powodu kojarzenia krewniaczego</InbredBabyBorn>
 
@@ -210,12 +210,8 @@
   <LetterPsychicBondCreated>Instynktownie szukając partnera, {BONDPAWN_nameDef} nawiązuje psychicznie więź romantyczną z {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} przyniesie korzyści psychologiczne wynikające z połączenia z {BONDAWN_nameDef}, ale jeśli zostaną rozdzieleni na w różne strony świata, oboje będą cierpieć z powodu stresu psychicznego. Jeśli jedno umrze, drugie popadnie w szaleństwo.</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
-  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <LetterPsychicBondCreatedLovinLabel>Więzy PSI</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
-
-  <!-- UNUSED -->
-  <LetterPartNameBaby>Niemowlę otrzymało tymczasowo imię {0_nameFull}. Możesz to zmienić do {1} po urodzeniu</LetterPartNameBaby>
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} zapadł w anabiozę</LetterTextInvoluntaryDeathrest>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} i {OTHERPAWN_nameDef} utworzyli relację romantyczną poprzez więzy psioniczne. Oboje będą czerpać psychologiczne korzyści takiego stanu, ale jeżeli będą pozostawać w separacji zbyt długo, będą odczuwać stres PSI. Jeżeli umrze jedno z nich, drugi kochanek popadnie w szaleństwo.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

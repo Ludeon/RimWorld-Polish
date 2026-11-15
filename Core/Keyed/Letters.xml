@@ -222,7 +222,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Odrzucone oświadczyny</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie ślubnego kobierca, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>W ciągu najbliższych dni lub kwadrum odbędzie się ceremonia ślubna, na którą zostaną zaproszeni wszyscy koloniści. Wyznacz miejsce ślubu, jeśli chcesz zdecydować, gdzie odbędzie się uroczystość.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>{PAWN_label} zmieni swoje nazwisko na {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -417,7 +417,7 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Ocaleniec dołącza</LetterLabelRescueQuestFinished>
-  <!-- EN: FIXME: NOWA WERSJA You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? uratowany : uratowana} i teraz dołącza do Twojej grupy.\n\nMożesz zabrać {PAWN_objective} ze sobą poprzez reformowanie karawany na ekranie świata po wybraniu obecnego obszaru oraz użyciu opcji "Reformuj karawanę".</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
   <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
@@ -430,7 +430,7 @@
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>{0} zablokowane {1} na: {2}.</LetterDisease_Blocked>
+  <LetterDisease_Blocked>Źródło ochrony: {0}. Zablokowano: {1}. Dotyczy:</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Choroba: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
@@ -523,7 +523,7 @@
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
   <LetterTechprintAppliedPartJustUnlocked>Ukończono wymagania dotyczące druku technologicznego projektu! Naukowcy mogą teraz rozpocząć badania nad tym, jak właściwie wykorzystać tę technologię w swoich stołach badawczych.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>Wymagania dotyczące druku technologicznego w ramach tego projektu nie zostały jeszcze spełnione. Do tej pory zastosowano {0} druków technologicznych. Projekt wymaga w sumie {0}.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Wymagania dotyczące druków technologicznych dla tego projektu nie zostały jeszcze spełnione. Dotychczas zastosowano {0} druków technologicznych. Łącznie wymaganych jest {1}.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
   <LetterTechprintAppliedPartAlreadyUnlocked>Wymagania dotyczące druku technologicznego w ramach tego projektu zostały już spełnione. Dodatkowa technologia zaawansowana w badaniach nad {PROJECT_label}. Połowa pozostałych prac badawczych, {0} punktów, została ukończona.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
@@ -586,11 +586,11 @@
 
   <!-- Speeches -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończył{ORGANIZER_gender ? a} swoją przemowę.</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończy{ORGANIZER_gender ? ł : ła} swoją przemowę.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>Była prawdziwie okropna - pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
+  <LetterTerribleSpeech>Była prawdziwie okropna — pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>Była zniechęcająca - nie oryginalna, przytłaczająca i nie mająca żadnego zapału.</LetterUninspiringSpeech>
+  <LetterUninspiringSpeech>Była zniechęcająca — nieoryginalna, przytłaczająca i niemająca żadnego zapału.</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
   <LetterEncouragingSpeech>Była zachęcająca i dobrze powiedziana.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
@@ -604,11 +604,6 @@
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
   <LetterSpeechCancelled>Przemowa {0} została anulowana przed osiągnięciem 50%. Nie przyniosła żadnego efektu.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>Przemowa odwołana.</LetterLabelSpeechCancelled>
-
-  <!-- UNUSED -->
-  <LetterQuestBecameAvailable>Dostępne jest nowe zadanie. Nazwa zadania: '{0}'.</LetterQuestBecameAvailable>
-  <LetterQuestBecameActive>Nowe zadanie jest aktywne.\nNazwa zadania: '{0}'.</LetterQuestBecameActive>
-  <LetterQuestAutomaticallyAcceptedTitle>Aktywne zadanie: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelSpeechCancelled>Przemowa anulowana</LetterLabelSpeechCancelled>
 
 </LanguageData>

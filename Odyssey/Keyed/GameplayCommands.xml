@@ -17,8 +17,8 @@
 
   <!-- EN: Launch -->
   <CommandLaunchGravship>Startuj</CommandLaunchGravship>
-  <!-- EN: FIXME: NOWA WERSJA Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
-  <CommandLaunchGravshipDesc>Wybierz kolonistę, który poprowadzi grawstatek. Wszystko znajdujące się na podkonstrukcji grawstatku zostanie przeniesione na nową mapę. Obecna mapa zostanie porzucona.</CommandLaunchGravshipDesc>
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
+  <CommandLaunchGravshipDesc>Wybierz kolonistę, który poprowadzi grawstatek. Wszystko na jego podstrukturze zostanie przeniesione na nową mapę. Obecna mapa zostanie porzucona, jeśli nie zbudowano kotwicy grawitacyjnej.</CommandLaunchGravshipDesc>
 
   <!-- EN: Allow fishing -->
   <CommandAllowFish>Zezwól na łowienie ryb</CommandAllowFish>
@@ -27,7 +27,7 @@
   
   <!-- EN: Allow removing items -->
   <CommandAllowRemovingApparel>Zezwól na zdejmowanie przedmiotów</CommandAllowRemovingApparel>
-  <!-- EN: FIXME: NOWA WERSJA When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
   <CommandAllowRemovingApparelDesc>Gdy wyłączone, tragarze nie będą zdejmować przedmiotów ze stojaka na ubrania, a koloniści nie założą odzieży, chyba że im to zostanie nakazane.</CommandAllowRemovingApparelDesc>
 
   <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
@@ -36,17 +36,17 @@
   <!-- EN: Confirm landing zone -->
   <ConfirmLandGravship>Potwierdź strefę lądowania</ConfirmLandGravship>
   <!-- EN: Land your gravship in the landing zone. -->
-  <ConfirmLandGravshipDesc>Wyląduj swoim grawstatkiem w wyznaczonej strefie.</ConfirmLandGravshipDesc>
+  <ConfirmLandGravshipDesc>Wyląduj grawstatkiem w wyznaczonej strefie.</ConfirmLandGravshipDesc>
   <!-- EN: Abort landing -->
-  <AbortLandGravship>TODO</AbortLandGravship>
+  <AbortLandGravship>Anuluj lądowanie</AbortLandGravship>
   <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
-  <AbortLandGravshipDesc>TODO</AbortLandGravshipDesc>
+  <AbortLandGravshipDesc>Anuluj lądowanie na tej mapie i skieruj grawstatek do losowego miejsca w pobliżu na mapie świata. Przydatne, gdy nie możesz znaleźć odpowiedniego lądowiska.\n\nUwaga: zwiększa to ryzyko nieudanego lądowania.</AbortLandGravshipDesc>
   <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
-  <AbortLandConfirmation>TODO</AbortLandConfirmation>
+  <AbortLandConfirmation>Anulowanie lądowania spowoduje, że grawstatek wyląduje w losowym pobliskim miejscu na mapie świata. Zwiększy to ryzyko awarii podczas lądowania.\n\nCzy na pewno chcesz kontynuować?</AbortLandConfirmation>
   <!-- EN: Failed to find crash site. -->
-  <FailedToFindCrashSite>TODO</FailedToFindCrashSite>
+  <FailedToFindCrashSite>Nie udało się znaleźć miejsca awaryjnego lądowania.</FailedToFindCrashSite>
   <!-- EN: You must designate a landing area for your gravship. -->
-  <GravshipLandingMarkerNotPlaced>TODO</GravshipLandingMarkerNotPlaced>
+  <GravshipLandingMarkerNotPlaced>Musisz wyznaczyć strefę lądowania grawstatku.</GravshipLandingMarkerNotPlaced>
 
   <!-- EN: Refuel from cargo -->
   <CommandRefuelShuttleFromCargo>Uzupełnij paliwo z ładunku</CommandRefuelShuttleFromCargo>
@@ -70,5 +70,4 @@
 
   <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
   <ConfirmMergeShuttles>TODO</ConfirmMergeShuttles>
-
 </LanguageData>

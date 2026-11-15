@@ -208,7 +208,220 @@
     <li>bookType->biography</li>
     <li>bookType->epic poem</li>
   -->
-  <Description_Novel.rulePack.rulesStrings>TODO</Description_Novel.rulePack.rulesStrings>
+  <Description_Novel.rulePack.rulesStrings>
+    <!-- Roots -->
+    <li>desc->Ta [writingQualityAdjective] [bookType] [follows] losy postaci wykonującej zawód: [PersonJob]. Bohater [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Ta [writingQualityAdjective] [bookType] porusza temat: [storySource]. [author] [tellsAStoryOf] ten wątek. [writingQualitySentence]. [maybe_date]</li>
+    <!-- Root: Story struggle variant -->
+    <li>follows->opisuje</li>
+    <li>follows->przedstawia</li>
+    <li>follows->przedstawia</li>
+    <li>follows->ukazuje</li>
+    <li>protagHe->bohater</li>
+    <!-- Todo make this able to randomize, but it has to be consistent with all protagX symbols -->
+    <li>protagHis->bohatera</li>
+    <li>protagHim->bohatera</li>
+    <li>storyStruggles->[struggles] z przeszkodą: [opponent]</li>
+    <li>storyStruggles->[seeks]. Cel poszukiwań: [seekObjective]</li>
+    <li>struggles->walczy</li>
+    <li>struggles->zmaga się</li>
+    <li>struggles->mierzy się</li>
+    <li>opponent->niesprawiedliwość</li>
+    <li>opponent->strach</li>
+    <li>opponent->niebezpieczny przeciwnik: [Enemy]</li>
+    <li>opponent->rywal wykonujący zawód: [PersonJob]</li>
+    <li>opponent->pozorny bezsens wartości: [ConceptPositive]</li>
+    <li>opponent->złowrogi członek rodziny bohatera: [PersonFamily]</li>
+    <li>opponent->normy społeczne społeczności bohatera</li>
+    <li>seeks->prowadzi poszukiwania</li>
+    <li>seeks->przemierza kosmos w poszukiwaniu odpowiedzi</li>
+    <li>seeks->próbuje coś odnaleźć</li>
+    <li>seeks->szuka odpowiedzi w sobie i na całym świecie</li>
+    <li>seeks->desperacko poszukuje</li>
+    <li>seeks->z trudem próbuje coś odnaleźć</li>
+    <li>seeks->przeszukuje całą okolicę</li>
+    <li>seeks->ściga swój cel</li>
+    <li>seeks->świadomie dąży do celu</li>
+    <li>seeks->nie szczędzi wysiłków, aby coś znaleźć</li>
+    <li>seeks->wytrwale podąża za celem</li>
+    <li>seeks->nie pozostawia żadnego miejsca bez przeszukania</li>
+    <li>seeks->wyrusza na wyprawę w poszukiwaniu celu</li>
+    <li>seeks->rani własne ciało podczas poszukiwań</li>
+    <li>seeks->z uporem stara się odnaleźć cel</li>
+    <li>seeks->sumiennie szuka</li>
+    <li>seeks->wędruje bez ustanku w poszukiwaniu celu</li>
+    <li>seeks->wyrusza na misję poszukiwawczą</li>
+    <li>seekObjective->tajemniczy złoty sześcian</li>
+    <li>seekObjective->demon mieszkający we własnej głowie</li>
+    <li>seekObjective->najsmaczniejsze warzywo we wszechświecie: [Vegetable]</li>
+    <li>seekObjective->nowa, błyszcząca broń: [Weapon]</li>
+    <li>seekObjective->zaginione zwierzę domowe bohatera: [Animal]</li>
+    <li>seekObjective->części potrzebne do odbudowy zniszczonego mechanoida: [Mechanoid]</li>
+    <li>seekObjective->obiekt terenowy ze snu: [TerrainFeature]</li>
+    <li>seekObjective->dawna miłość</li>
+    <li>seekObjective->romantyczne spełnienie</li>
+    <li>seekObjective->nowa nerka zamiast chorej nerki bohatera</li>
+    <li>seekObjective->pożywienie na rozległym pustkowiu</li>
+    <li>seekObjective->ciepło i bezpieczeństwo rodzinnego domu</li>
+    <li>seekObjective->miłość w świecie pełnym nienawiści</li>
+    <li>seekObjective->dawno zapomniany przepis rodzinny</li>
+    <li>seekObjective->zabawka z dzieciństwa, pozostawiona w dawnym domu</li>
+    <li>seekObjective->skradziona pamiątka rodzinna</li>
+    <li>seekObjective->zaginiony dziennik mentora</li>
+    <li>seekObjective->rzadki przedmiot kolekcjonerski z ulubionej serii bohatera</li>
+    <li>seekObjective->idealne miejsce na piknik</li>
+    <li>seekObjective->brakujący element cennej kolekcji</li>
+    <li>seekObjective->przeprosiny za dawny błąd</li>
+    <li>seekObjective->zamknięcie sprawy dawnego związku</li>
+    <li>seekObjective->zagubiona mapa skarbu z dzieciństwa</li>
+    <li>seekObjective->cenna pamiątka po zmarłej bliskiej osobie</li>
+    <li>seekObjective->przepis na lekarstwo</li>
+    <li>seekObjective->rzadka roślina do własnego ogrodu</li>
+    <li>seekObjective->list napisany, ale nigdy niewysłany</li>
+    <li>seekObjective->nieuchwytna odpowiedź na pytanie filozoficzne</li>
+    <li>seekObjective->chwila ciszy z dala od chaosu</li>
+    <li>seekObjective->dawny przyjaciel w nowym mieście</li>
+    <li>seekObjective->emocje związane z zapomnianym hobby</li>
+    <li>seekObjective->jedna chwila czystego szczęścia</li>
+    <!-- Root: "Author tells a story of" variant -->
+    <li>tellsAStoryOf->opisuje</li>
+    <li>tellsAStoryOf->szczegółowo opisuje</li>
+    <li>tellsAStoryOf->bada</li>
+    <li>tellsAStoryOf->przybliża</li>
+    <li>tellsAStoryOf->rozwija</li>
+    <li>tellsAStoryOf->przedstawia</li>
+    <li>tellsAStoryOf->zgłębia</li>
+    <li>tellsAStoryOf->ujawnia</li>
+    <li>tellsAStoryOf->ukazuje</li>
+    <li>tellsAStoryOf->oddaje</li>
+    <li>tellsAStoryOf->objaśnia</li>
+    <li>tellsAStoryOf->rozwija</li>
+    <li>tellsAStoryOf->przytacza</li>
+    <li>tellsAStoryOf->rozwija</li>
+    <li>tellsAStoryOf->opisuje</li>
+    <li>tellsAStoryOf->przybliża</li>
+    <li>tellsAStoryOf->relacjonuje</li>
+    <li>tellsAStoryOf->zgłębia</li>
+    <li>tellsAStoryOf->objaśnia</li>
+    <li>tellsAStoryOf->odtwarza</li>
+    <li>tellsAStoryOf->odmalowuje</li>
+    <li>tellsAStoryOf->splata</li>
+    <li>tellsAStoryOf->analizuje</li>
+    <li>tellsAStoryOf->przybliża</li>
+    <li>author->Autor</li>
+    <li>author->[ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->Nieznany [authorTitle]</li>
+    <li>authorTitle->autor</li>
+    <li>authorTitle->kronikarz</li>
+    <li>authorTitle->pisarz</li>
+    <li>authorTitle->poeta</li>
+    <li>authorTitle->bajarz</li>
+    <li>storySource->własne doświadczenia</li>
+    <li>storySource->młodość</li>
+    <li>storySource->dzieciństwo</li>
+    <li>storySource->ojczyzna</li>
+    <li>storySource->rodzinna planeta</li>
+    <li>storySource->dziadek</li>
+    <li>storySource->babcia</li>
+    <li>storySource->przeżycia wojenne</li>
+    <li>storySource->najgłębsze lęki</li>
+    <li>storySource->marzenia o podróży do gwiazd</li>
+    <li>storySource->zamiłowanie do świeżych warzyw: [Vegetable]</li>
+    <li>storySource->praca w zawodzie: [PersonJob]</li>
+    <li>storySource->ulubiona broń: [Weapon]</li>
+    <li>storySource->doświadczenia z walki przeciwko mechanoidom: [Mechanoid]</li>
+    <li>storySource->dorastanie w społeczności: [Community]</li>
+    <li>storySource->olbrzymia część ciała: [BodyPart]</li>
+    <li>storySource->wspomnienia o zaginionym przyjacielu</li>
+    <li>storySource->pasja do muzyki</li>
+    <li>storySource->ciekawość starożytnych ruin</li>
+    <li>storySource->przywiązanie do rodzinnej pamiątki</li>
+    <li>storySource->fascynacja tajemniczą postacią</li>
+    <li>storySource->próby ocalenia wymierającego języka</li>
+    <li>storySource->marzenia o wynalezieniu czegoś przełomowego</li>
+    <li>storySource->więź z mitycznym stworzeniem</li>
+    <li>storySource->zamiłowanie do pewnego krajobrazu</li>
+    <li>storySource->ambicja zostania sławną osobą w zawodzie: [PersonJob]</li>
+    <li>storySource->zmagania z lękiem społecznym</li>
+    <li>storySource->tęsknota za przygodami za horyzontem</li>
+    <li>storySource->więź z robotycznym towarzyszem</li>
+    <li>storySource->dawne przygody pirackie</li>
+    <li>storySource->bliskie związki z tajnym stowarzyszeniem</li>
+    <li>storySource->lata spędzone na koczowniczym życiu</li>
+    <li>storySource->fascynacja podróżami w czasie</li>
+    <li>storySource->związek z legendarnym artefaktem</li>
+    <!-- Writing quality -->
+    <li>writingQualityAdjective(quality==6)->niezwykle dobrze napisana</li>
+    <li>writingQualityAdjective(quality==5)->błyskotliwa i wnikliwa</li>
+    <li>writingQualityAdjective(quality==4)->przemyślana i elokwentna</li>
+    <li>writingQualityAdjective(quality==3)->dobrze napisana</li>
+    <li>writingQualityAdjective(quality==2)->przeciętna</li>
+    <li>writingQualityAdjective(quality==1)->słabo napisana</li>
+    <li>writingQualityAdjective(quality==0)->niemal niezrozumiała</li>
+    <li>writingQualitySentence(quality[greater_than]4)->To [excellentDesc][excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->To [decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->To [awfulDesc][awfulExtra]</li>
+    <li>excellentDesc->porywająca opowieść pełna emocji</li>
+    <li>excellentDesc->wnikliwa opowieść o ludzkim duchu</li>
+    <li>excellentDesc->wyjątkowo przenikliwa analiza złożoności świata</li>
+    <li>excellentDesc->starannie napisana, pełna emocji historia</li>
+    <li>excellentDesc->twórcza i oryginalna opowieść</li>
+    <li>excellentDesc->niezwykle oryginalna i mistrzowsko skonstruowana historia</li>
+    <li>excellentDesc->historia pełna zrozumiałego dla czytelników humoru</li>
+    <li>excellentExtra->. Każde wydarzenie płynnie prowadzi do następnego</li>
+    <li>excellentExtra->. Od książki trudno się oderwać</li>
+    <li>excellentExtra->. Co najmniej trzykrotnie wprawia czytelnika w prawdziwe osłupienie</li>
+    <li>excellentExtra->. Zwroty akcji są nieprzewidywalne, lecz wydają się nieuniknione</li>
+    <li>excellentExtra->. Bohaterowie sprawiają wrażenie prawdziwych ludzi</li>
+    <li>decentDesc->przyzwoita historia</li>
+    <li>decentDesc->ciekawa i angażująca opowieść</li>
+    <li>decentDesc->historia skupiona na jednym interesującym pomyśle</li>
+    <li>decentDesc->opowieść chwilami dość zabawna</li>
+    <li>decentDesc->historia, która w niektórych miejscach trzyma w napięciu</li>
+    <li>decentDesc->oryginalna i osobliwa opowieść</li>
+    <li>decentDesc->historia trafiająca w gust określonej grupy czytelników</li>
+    <li>decentExtra->, lecz ma rażące dziury fabularne</li>
+    <li>decentExtra->, lecz często trudno za nią nadążyć</li>
+    <li>decentExtra->, lecz roi się od błędów ciągłości</li>
+    <li>decentExtra->, lecz brakuje w niej głębszych emocji</li>
+    <li>decentExtra->, lecz bohaterowie są banalni i karykaturalni</li>
+    <li>decentExtra->, lecz autor nieustannie nadużywa słów, usiłując brzmieć mądrzej</li>
+    <li>decentExtra->, lecz przedstawiony świat jest wtórny i nudny</li>
+    <li>decentExtra->, lecz styl jest przesadnie kwiecisty</li>
+    <li>decentExtra->, lecz wiele wydarzeń jest zbędnych i nie posuwa akcji naprzód</li>
+    <li>awfulDesc->bardzo źle napisana historia</li>
+    <li>awfulDesc->okropnie napisany tekst</li>
+    <li>awfulDesc->lektura niezwykle trudna w odbiorze</li>
+    <li>awfulDesc->chaotyczna opowieść, za którą trudno nadążyć</li>
+    <li>awfulDesc->tekst pozbawiony artystycznej wizji</li>
+    <li>awfulDesc->historia pełna dziur fabularnych i sztampowych postaci</li>
+    <li>awfulDesc->opowieść zdominowana przez wyidealizowaną postać autora</li>
+    <li>awfulDesc->historia dziwaczna, lecz pozbawiona oryginalności</li>
+    <li>awfulDesc->opowieść zdecydowanie zbyt długa</li>
+    <li>awfulExtra->, a tekst jest niemal niezrozumiały</li>
+    <li>awfulExtra->, a śledzenie wydarzeń jest wyjątkowo trudne</li>
+    <li>awfulExtra->, a fabuła nie składa się w spójną całość</li>
+    <li>awfulExtra->, a całość pozbawiona jest wyraźnego tematu i sensu</li>
+    <li>awfulExtra->, a tekst nie przedstawia ani jednego ciekawego pomysłu</li>
+    <li>awfulExtra->, a wszystkie postacie są nudne</li>
+    <li>awfulExtra->, a nie da się wskazać żadnego głównego bohatera</li>
+    <!-- Date -->
+    <li>maybe_date-></li>
+    <li>maybe_date->Książkę opublikowano [date_form].</li>
+    <li>maybe_date->Tekst wydrukowano po raz pierwszy [date_form].</li>
+    <li>maybe_date->Nie wiadomo dokładnie, kiedy napisano tę książkę.</li>
+    <li>date_form->niedawno</li>
+    <li>date_form->wiele stuleci temu</li>
+    <li>date_form->w dniu [date]</li>
+    <li>date_form->w porze roku: [date_season]</li>
+    <!-- Misc rules -->
+    <li>bookType(p=4)->powieść</li>
+    <li>bookType(p=2)->nowela</li>
+    <li>bookType->opowieść</li>
+    <li>bookType->historia</li>
+    <li>bookType->biografia</li>
+    <li>bookType->epopeja</li>
+  </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
@@ -845,7 +1058,694 @@
     <li>date_form->on the [date]</li>
     <li>date_form->in [date_season]</li>
   -->
-  <Description_Schematic.rulePack.rulesStrings>TODO</Description_Schematic.rulePack.rulesStrings>
+  <Description_Schematic.rulePack.rulesStrings>
+    <!-- General, root symbol is 'desc' -->
+    <!-- note to self - CONJUNCTIONS INCLUDE A SPACE -->
+    <!-- note to self - periods at highest level except for maybe_ -->
+    <!--   sentence elements 
+        
+          Descriptive elements: [subject_intro][schematic_desc][appearance]
+          Story elements: [medium] [author_story] [subject_primary_story] [subject_consequence] [aftermath] 
+          -->
+    <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <!-- maybes -->
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->Wygląd dokumentu: [physical_adjective]. </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>
+    <!-- subject intro -->
+    <li>subject_intro->Dokument typu [schematic_synonym] [shows_synonym_verb] rysunek techniczny [state_adjective]. Temat: [subject]</li>
+    <li>subject_intro->W dokumencie typu [schematic_synonym] [author] przedstawia zagadnienie: [subject]. Podstawa: [theory_synonym_adj]</li>
+    <li>subject_intro->Ten [physical_adjective] [schematic_synonym] [contain_verb] schematy. Temat: [subject]</li>
+    <li>subject_intro->Twórca zastosował [notable_adjective] sposób przedstawienia wiedzy, wykorzystując [image_types]. Podstawa: [theory_synonym_adj]. Temat: [subject]</li>
+    <li>subject_intro->[maybe_physical_adjective]Ten [schematic_synonym] [shows_synonym_verb1] urządzenia typu [device_synonym]. Temat: [subject_primary]</li>
+    <li>subject_intro->Ten [schematic_synonym] [shows_synonym_verb] rysunek [state_adjective] typu [diagram_type]. Tematy: [subject_primary] i [subject_secondary]</li>
+    <li>subject_intro->[maybe_physical_adjective]Ten [schematic_synonym] [shows_synonym_verb1] urządzenia typu [device_synonym]. Tematy: [subject_primary] i [subject_secondary]</li>
+    <!--schematic description-->
+    <!-- negative quality description first half -->
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <!-- description about what the schematic is lacking, singular -->
+    <!-- includes subject gerunds. -->
+    <li>schematic_desc_first->Opisany tu dawny sposób postępowania w dziedzinie: [subject_primary_gerund] jest [negative_adjective] na tle dzisiejszych systemów</li>
+    <li>schematic_desc_first->To jedynie fragment pełnej dokumentacji typu [schematic_synonym]. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_synonym] jest miejscami [negative_adjective]</li>
+    <li>schematic_desc_first->Ten [schematic_synonym] jest niekompletny. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Zagadnienie: [subject_primary_gerund]. Sprzeczne adnotacje utrudniają zastosowanie zawartych tu schematów</li>
+    <li>schematic_desc_first->Słabe zrozumienie zagadnienia przez autora jest widoczne w całym opracowaniu. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Część dokumentacji została oderwana</li>
+    <li>schematic_desc_first->Ogień i sadza uszkodziły papier</li>
+    <li>schematic_desc_first->Ten [schematic_synonym] jest zbyt [negative_adjective]. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ograniczenia w obszarze: [other_subject] obniżyły wartość tego opracowania. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Nieprecyzyjne szczegóły utrudniają zastosowanie tej dokumentacji. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ten [negative_adjective] [schematic_synonym] bywa źródłem błędów w praktyce. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_synonym] nie spełnia wymogów estetycznych. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Autorowi zabrakło pomysłowości przy przedstawianiu zagadnienia: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_container] zawiera wiele sprzecznych specyfikacji. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Spory dotyczące dziedziny: [other_subject] pozostawiły w tym opracowaniu niejasności. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Niechlujny rysunek techniczny podważa staranne plany autora. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Obawy dotyczące dziedziny: [other_subject] ograniczyły wartość tego schematu. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_synonym] wielokrotnie kopiowano, przez co treść stała się mniej czytelna. Temat: [subject_primary_gerund]</li>
+    <li>schematic_desc_first->Dokument nie wyjaśnia rzeczywistych zależności między zagadnieniami: [subject_primary_gerund] i [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->Połączenie zagadnień: [subject_primary_gerund] i [subject_secondary_gerund] okazuje się trudne</li>
+    <li>schematic_desc_first->Ten [schematic_container] zawiera schematy dotyczące dwóch zagadnień: [subject_primary_gerund] i [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_container] zawiera schematy dotyczące dwóch zagadnień: [subject_tertiary_gerund] i [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_container] zawiera schematy dotyczące dwóch zagadnień: [subject_primary_gerund] i [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->Ten [schematic_container] zawiera schematy dotyczące trzech zagadnień: [subject_primary_gerund], [subject_secondary_gerund] i [subject_tertiary_gerund]</li>
+    <!-- 
+        <li>schematic_desc_first->[subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+        <li>schematic_desc_first->[subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+        <li>schematic_desc_first->[subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+        <li>schematic_desc_first->[subject_primary_gerund] and [subject_tertiary_gerund]</li> 
+        <li>schematic_desc_first->[subject_primary_gerund] and [subject_tertiary_gerund]</li> 
+        <li>schematic_desc_first->[subject_primary_gerund] and [subject_tertiary_gerund]</li> 
+        -->
+    <!-- quality-dependent qualifier to the first half -->
+    <li>schematic_desc_second(quality[less_than]2)->. To zniechęca osoby uczące się tej dziedziny</li>
+    <li>schematic_desc_second(quality[less_than]2)->. W rezultacie dokument jest niemal bezużyteczny do większości zastosowań</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Podważa to wartość przekazywanych lekcji</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Wskazówki okażą się przydatne wyłącznie początkującym</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Mylący schemat potrafi być gorszy niż jego brak</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Dlatego jego przydatność stoi pod znakiem zapytania</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Podstawowe informacje są jednak obecne</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Mimo wad zachowało się dość danych, aby przekazać przydatne informacje</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Nie umniejsza to jednak jego wartości dla doświadczonych praktyków</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Mimo to większość uczących się znajdzie w nim pewną wartość</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Początkujący nadal mogą skorzystać z zawartych w nim wskazówek</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Tylko eksperci zauważą jednak wszystkie usterki</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Mimo to zawartość jest wyjątkowa jak na swoją epokę</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Mimo to zaawansowane zagadnienia wyjaśniono tutaj przystępnie</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Nadal jednak zawiera wiele mądrości przydatnych każdemu uczniowi</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Pomimo wad skorzysta z niego każda osoba ucząca się tej dziedziny</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Problemy są jednak drobne wobec ogromu zawartej wiedzy</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Przekazywane w nim nauki nie tracą aktualności</li>
+    <!-- medium - talks about how the Pawn knows the story -->
+    <li>medium->Wbudowany system sensoryczny [tells_verb] słuchaczom historię: [schematic_origin]</li>
+    <li>medium->Wewnątrz zrolowanego dokumentu znajduje się plik osobistych notatek, który [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Naklejka [tells_verb] historię, lecz podaje niewiele szczegółów: [schematic_origin]</li>
+    <li>medium->Dołączona broszura informacyjna [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Jedna z luźnych kart pergaminu [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Druga karta dokumentu [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Inskrypcja na kamiennej tablicy [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Na plastalowym opakowaniu typu [schematic_container] wyryto historię: [schematic_origin]</li>
+    <li>medium->Ze środka wypada nagryzmolona notatka, która [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Odwrotna strona dokumentu [tells_verb] więcej na temat: [schematic_origin]</li>
+    <li>medium->Odtwarzane nagranie [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Bez notatek dołączonych do dokumentu pochodzenie tego schematu pozostałoby jedynie domysłem. Wskazówka: [schematic_origin]</li>
+    <li>medium(p=4)->Pochodzenie schematu jest znane i opisane w notatkach. Wskazówka: [schematic_origin]</li>
+    <li>medium->Dołączony pamiętnik przedstawia historię: [schematic_origin]</li>
+    <li>medium->Archaiczny mechanizm [tells_verb] historię: [schematic_origin]</li>
+    <li>medium->Miniaturowy mechanoid budzi się z brzękiem i relacjonuje historię: [schematic_origin]</li>
+    <li>tells_verb->przekazuje</li>
+    <li>tells_verb->relacjonuje</li>
+    <li>tells_verb->przytacza</li>
+    <li>tells_verb->opisuje</li>
+    <li>schematic_origin->[notable_adjective] dokument: historia powstania schematu</li>
+    <li>schematic_origin->okoliczności stworzenia schematu przez autora</li>
+    <li>schematic_origin->[notable_adjective] dokument: życiorys autora schematu</li>
+    <li>schematic_origin->opowieść o powstaniu schematu</li>
+    <li>schematic_origin->[notable_adjective] schemat: jego pochodzenie</li>
+    <li>schematic_origin->[notable_adjective] dokument: opowieść o życiu autora</li>
+    <li>schematic_origin->pogłoska wyjaśniająca, dlaczego ten [notable_adjective] dokument trafił na rubieże i kto go stworzył</li>
+    <!-- author story backgrounds -->
+    <!-- author story -->
+    <!-- always about the author and talks about how the author started learning about subject. This the only place we use their full name-->
+    <li>author_story->[author_storyname]. [author_intent]</li>
+    <li>author_story->[author_storyname]. [learning_story]</li>
+    <li>author_story->[author_storyname]. [calltoadventure]</li>
+    <li>author_storyname(p=3)->Autor: [ANYPAWN_nameFull]</li>
+    <li>author_storyname->Nieznany [authorTitle]</li>
+    <!-- author_intent -->
+    <li>author_intent->Już od młodości wiedza o dziedzinie: [subject] była dla twórcy najważniejsza, a wszyscy w rodzinnej miejscowości musieli odpowiadać na pytania</li>
+    <li>author_intent->Twórcy marzyła się rewolucja naukowa na Kuhn[worldname], która odmieniłaby dziedzinę: [subject]</li>
+    <li>author_intent->Twórca poświęcił całe życie dziedzinie: [subject]</li>
+    <li>author_intent->Swoje poglądy dotyczące dziedziny: [subject] autor zawarł w dokumencie opisanym jako [physical_adjective], opracowanym [written_when]</li>
+    <li>author_intent->Wiedza o dziedzinie: [subject] była dla autora najważniejszym powołaniem; schemat powstał [written_when]</li>
+    <li>author_intent->Sekrety dziedziny: [subject] twórca odkrył przypadkiem w gabinecie matki, którego wygląd opisano jako [physical_adjective]</li>
+    <li>author_intent->Ciężka choroba w dzieciństwie dała twórcy czas na studiowanie dziedziny: [subject]</li>
+    <li>author_intent->Chęć rozpowszechnienia wiedzy o dziedzinie: [subject] skłoniła twórcę do przygotowania schematu [written_when]</li>
+    <li>author_intent->Twórca pragnął, aby cała galaktyka poznała dziedzinę: [subject]</li>
+    <li>author_intent->Seria książek dla dzieci wzbudziła w twórcy miłość do dziedziny: [subject]</li>
+    <li>author_intent->Twórca nigdy nie lubił studiowania dziedziny: [subject], ale został do tego zobowiązany</li>
+    <li>author_intent->Twórca uznał wiedzę z dziedziny: [subject] za swoje życiowe powołanie</li>
+    <!-- learning story -->
+    <li>learning_story->Twórca przemierzał odległe światy w poszukiwaniu wiedzy z dziedziny: [subject]</li>
+    <li>learning_story->Każdy dzień twórcy wyglądał identycznie: praca nad dziedziną [subject] w cyklicznych miastach świata [midworld]</li>
+    <li>learning_story->Twórca przeszedł edukację w szkole slumsów świata [urbworld], skupionej na dziedzinie: [subject]</li>
+    <li>learning_story->Twórca ukończył akademię świata [worldname] z wyróżnieniem w dziedzinie: [subject]</li>
+    <li>learning_story->Twórca samodzielnie poznawał dziedzinę: [subject] na dzikim świecie [animalworld]</li>
+    <li>learning_story->W ruinach świata [ruinworld] twórca odkrył skarbnicę zapomnianych schematów z dziedziny: [subject]</li>
+    <li>learning_story->Twórca przemierzał osmalone ulice świata [steamworld], szukając wiedzy o dziedzinie: [subject] pośród opadającej sadzy</li>
+    <li>learning_story->Twórca zdołał przeżyć na toksycznych bagnach świata [toxicworld], gdzie krążyły opowieści o specjalistach z dziedziny: [subject]</li>
+    <li>learning_story->Twórca przeszukiwał stopione przedmieścia zeszklonego świata [glassworld] w poszukiwaniu wiedzy z dziedziny: [subject]</li>
+    <li>learning_story->Twórca okrążał transcendentną sferę świata [transcendentworld], zdobywając wiedzę o dziedzinie: [subject] przez przechwytywanie transmisji</li>
+    <li>learning_story->Twórca schodził z mułami w głąb świata [mineworld] i słuchał górników opowiadających o dziedzinie: [subject]</li>
+    <li>learning_story->Na świecie centralnym [coreworld] twórca pracował jako zadłużony specjalista z dziedziny: [subject]</li>
+    <li>learning_story->Twórca był właścicielem fabryk na przemysłowym świecie [indworld], oddając się pasji do dziedziny: [subject], podczas gdy robotnicy harowali</li>
+    <li>learning_story->Twórca zdobywał wiedzę o dziedzinie: [subject] podczas odsiadki w Cellcity V na świecie [prisonworld], stale zapewniając o własnej niewinności</li>
+    <li>learning_story->Twórca poskładał ten schemat dotyczący dziedziny: [subject] z fragmentów porzuconych przez leniwych obywateli glitterworldów na wysypiskowym świecie [trashworld]</li>
+    <li>learning_story->Twórca hodował klonowane apatowory na świecie [dinoworld] i wymieniał ich mięso na wiedzę z dziedziny: [subject]</li>
+    <li>learning_story->Twórca mieszkał w podniebnych wieżowcach świata [urbworld], gdzie wiedza o dziedzinie: [subject] była powszechna</li>
+    <li>learning_story->Twórca dorastał na pustkowiach świata [ruinworld], zdobywając wiedzę o dziedzinie: [subject] potrzebną do przeżycia</li>
+    <!-- call to adventure -->
+    <li>calltoadventure->Życie twórcy wydawało się stać w miejscu. Wszystko zmieniło odkrycie dziedziny: [subject]</li>
+    <li>calltoadventure->Twórcy powierzono samodzielne założenie kolonii skupionej na dziedzinie: [subject]</li>
+    <li>calltoadventure->Śmierć starszego rodzeństwa pozostawiła twórcę jako jedynego rodzinnego specjalistę z dziedziny: [subject]</li>
+    <li>calltoadventure->Twórca dowiedział się o opuszczonej kolonii na glitterworldzie, która zajmowała się dziedziną: [subject]</li>
+    <li>calltoadventure->Twórca płynął krążownikiem słonecznym porwanym przez piratów ze świata [feudalworld]. Wiedza z dziedziny: [subject] sprawiła, że za uwolnienie zażądano ogromnego okupu</li>
+    <li>calltoadventure->Twórca zboczył z kursu na martwy świat [deadworld], gdzie zgłębiał dziedzinę: [subject]</li>
+    <li>calltoadventure->Twórca odkrył w zepsutym mechanoidzie plik danych o dziedzinie: [subject] i nauczył się z niego wiele</li>
+    <li>calltoadventure->Twórca podążył za ziemnokretem do nory, gdzie stworzenie przekazało mu wiedzę o dziedzinie: [subject]</li>
+    <li>calltoadventure->Twórca wychował się w klanie yttakinów na świecie [iceworld], szczególnie zainteresowanym dziedziną: [subject]</li>
+    <li>calltoadventure->Twórcę stworzyli klonerzy sanguofagów; największą przyjemność znajdował w zgłębianiu dziedziny: [subject]</li>
+    <li>calltoadventure->Twórca dorastał na wojennym świecie [warworld] i uciekł skradzioną kapsułą towarową. Przez całe miesiące jedyną lekturą był podręcznik o dziedzinie: [subject]</li>
+    <li>calltoadventure->Twórca przez całe życie przemierzał warstwy świata skorupowego [shellworld], ścigając uszkodzonego mechanoida zajmującego się dziedziną: [subject]</li>
+    <li>calltoadventure->Twórca uciekł z poddaństwa w osadach świata [medievalworld], ukrywszy się na statku kupca specjalizującego się w dziedzinie: [subject]</li>
+    <li>calltoadventure->Twórca podróżował na rubieże i z powrotem, poznając dziedzinę: [subject] na świecie [rimworld]</li>
+    <li>calltoadventure->Twórca żeglował po morzach świata [oceanicworld], twierdząc, że sekrety dziedziny: [subject] zdradzają mu same żywe oceany</li>
+    <li>calltoadventure->Twórca był zbieraczem złomu w nieważkości pasa asteroid świata [worldname]; tajniki dziedziny: [subject] znalazł na [asteroid] A3 lub [asteroid] 7DD</li>
+    <!-- written when -->
+    <li>written_when->w noc przed egzekucją autora</li>
+    <li>written_when->we wczesnych latach życia autora</li>
+    <li>written_when->podczas Błękitnego Okresu świata [worldname]</li>
+    <li>written_when->w ramach pracy podoktorskiej autora</li>
+    <li>written_when->podczas wędrówek autora przez rubieże</li>
+    <li>written_when->w pierwotnych zakładach klonowania świata [worldname]</li>
+    <li>written_when->pod koniec rytuału ka'[worldname], uznawanego za [notable_adjective]</li>
+    <li>written_when->bez większego namysłu, na odwrocie skrawka listu od rodziców autora</li>
+    <li>written_when->wiele lat po narodzinach pomysłu</li>
+    <li>written_when->na starość</li>
+    <li>written_when->wieczorami, kosztem snu</li>
+    <li>written_when->w chwilach wolnych od opieki nad dziećmi</li>
+    <li>written_when->w pośpiechu, w drodze na front</li>
+    <li>written_when->podczas odpoczynku przy chłodnym napoju na werandzie</li>
+    <li>written_when->w młodym wieku, w samotności, gdy rówieśnicy bawili się</li>
+    <!-- subject_consequence - 95% talks about subject-related stories, 5% of the time is disconnected from subject -->
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->W pewnym momencie opowieść schodzi na mylący temat poboczny. Temat: [digression_subject]</li>
+    <li>digression->Narracja schematu gubi główny wątek i przechodzi do dygresji. Temat: [digression_subject]</li>
+    <li>digression->Autor zamieścił w tym miejscu przypis. Temat: [digression_subject]</li>
+    <li>digression->Nie wiadomo, dlaczego tekst nagle zaczyna omawiać zagadnienie: [digression_subject]</li>
+    <li>digression->Zaskakuje obecność w schemacie wiadomości na temat: [digression_subject]</li>
+    <li>digression->Fragment poświęcony zagadnieniu: [digression_subject] nie ma związku z tematem głównym</li>
+    <li>digression_subject->miłość i wojna</li>
+    <li>digression_subject->niekończące się, coraz drobniejsze różnice polityczne</li>
+    <li>digression_subject->trendy kulinarne glitterworldów</li>
+    <li>digression_subject->rynki mody na światach [animalworld] i [urbworld]</li>
+    <li>digression_subject->oszczercze plotki o powszechnym używaniu środków wzmacniających miłość</li>
+    <li>digression_subject->rozmieszczenie floty świata [glitterworld] sprzed wieku</li>
+    <li>digression_subject->tajemnicze związki światów centralnych z supermasywnymi czarnymi dziurami</li>
+    <li>digression_subject->martwy świat [deadworld] i pogłoski o jego losie</li>
+    <li>digression_subject->różne odmiany gatunków na planecie dinozaurów [dinoworld]</li>
+    <li>digression_subject->doświadczenia twórcy z feudalizmem na świecie [feudalworld]</li>
+    <li>digression_subject->brak drobnoustrojów w upadłych miastach świata [glassworld]</li>
+    <li>digression_subject->krótkie życie biedoty świata [indworld]</li>
+    <li>digression_subject->przystosowania zbieraczy złomu z wysokich ruin na światach miejskich po wojnie ze światem [worldname]</li>
+    <li>digression_subject->wymiana neutroaminy w bogatych podniebnych wieżowcach świata [coreworld]</li>
+    <!-- aftermath -->
+    <li>aftermath->Dalsze losy autora nie zostały opisane na tych stronach</li>
+    <li>aftermath->Dopisek typu [note], sporządzony inną ręką, podaje, że autor był ostatnio widziany w drodze na świat [deathworld]</li>
+    <li>aftermath->W tym miejscu wyrwano strony</li>
+    <li>aftermath->Kartki pokrywają brązowe plamy</li>
+    <li>aftermath->Pomimo wielu przygód twórca zdołał ukończyć ten schemat</li>
+    <li>aftermath->Twórca poświęcił ostatnie lata życia temu schematowi</li>
+    <li>aftermath->Później twórca znalazł ukojenie w pracy. [subject_chat]</li>
+    <li>aftermath->Opowieść kończy się tu technicznym opisem pracy twórcy na świecie [worldname]. [subject_chat]</li>
+    <li>subject_chat->Dzieło potwierdza, że jego twórca jest autorytetem w dziedzinie: [subject]</li>
+    <li>subject_chat->Niewiele osób kwestionuje ustalenia zawarte w dokumencie dotyczącym dziedziny: [subject]</li>
+    <li>subject_chat->Dokument zainspiruje każdą osobę zainteresowaną dziedziną: [subject]</li>
+    <li>subject_chat->Chociaż diagramy wyblakły, nauki autora na temat dziedziny: [subject] zachowały wartość</li>
+    <!-- Misc POOL -->
+    <li>authorTitle->autor</li>
+    <li>authorTitle->skryba</li>
+    <li>authorTitle->pisarz</li>
+    <!-- linkage  <li>linkage-></li> -->
+    <li>linkage->To doświadczenie zainspirowało twórcę. Dalsza relacja: </li>
+    <li>linkage->Wiedza ta okazała się później przydatna. Dalsza relacja: </li>
+    <li>linkage->Dzięki tej wiedzy doszło do następujących wydarzeń: </li>
+    <li>linkage->Twórca później skorzystał z tej wiedzy. Dalsza relacja: </li>
+    <li>linkage->Właśnie dlatego wydarzyło się coś jeszcze: </li>
+    <li>linkage->Na świecie [worldname] twórca wykorzystał swoją wiedzę. Dalsza relacja: </li>
+    <li>linkage->Aby opanować tę dziedzinę, twórca udał się na świat [worldname]. Dalsza relacja: </li>
+    <!-- notability adjectives -->
+    <li>notable_adjective->słynny</li>
+    <li>notable_adjective->mało znany</li>
+    <li>notable_adjective->kultowy</li>
+    <li>notable_adjective->klasyczny</li>
+    <li>notable_adjective->powszechny</li>
+    <li>notable_adjective->dobrze znany</li>
+    <li>negative_adjective->pobieżny</li>
+    <li>negative_adjective->nadmiernie uproszczony</li>
+    <li>negative_adjective->prymitywny</li>
+    <li>negative_adjective->przeciętny</li>
+    <li>negative_adjective->niedokładny</li>
+    <li>negative_adjective->wadliwy</li>
+    <!-- appearance - always has name -->
+    <li>appearance(p=3)->Opis wyglądu: [phys_desc]</li>
+    <li>appearance->Uwagi o dokumencie: [nonphys_desc]</li>
+    <!-- physical statements -->
+    <!-- these are either one or two complete sentences -->
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->Z dokumentu unosi się [badsmells]. Woń przypomina: [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->Z dokumentu unosi się [smells]. Zapach przypomina: [scent]</li>
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1], lecz [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1], lecz [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1], a także [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Ponadto [negative_physical_statement2]</li>
+    <li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->poszarpane rozdarcia szpecą okładkę z cielęcej skóry</li>
+    <li>negative_physical_statement1->jeden z uczniów autora podpisał pierwszą kartę</li>
+    <li>negative_physical_statement1->książkę pokrywa posoka o kwaśnym smaku</li>
+    <li>negative_physical_statement2->zbutwiała okładka przykleja się do dłoni czytelnika</li>
+    <li>negative_physical_statement2->pod papierem zalęgły się larwy, a po otwarciu książki wylatują muchy</li>
+    <li>negative_physical_statement2->kartki wyglądają, jakby zapisano je na rozpadającym się pergaminie</li>
+    <li>negative_physical_statement2->strony są przesycone czerwonym atramentem</li>
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->wewnętrzne kartki są nieskazitelne</li>
+    <li>positive_physical_statement1->kartki wykonano z cienkiej pochodnej plastali</li>
+    <li>positive_physical_statement1->każda strona ma elastyczną strukturę przypominającą diament</li>
+    <li>positive_physical_statement1->książka jest ciepła w dotyku</li>
+    <li>positive_physical_statement2->widnieje znak jakości renomowanego wydawnictwa świata centralnego: Schematy [coreworld]</li>
+    <li>positive_physical_statement2->krawędzie kartek wciąż pozostają nierozcięte</li>
+    <li>positive_physical_statement2->na powierzchni lśnią półszlachetne tworzywa sztuczne</li>
+    <!-- non-physical statements -->
+    <li>otherwordly_nonphys_desc->podczas trzymania schematu autora pokój zdaje się wirować</li>
+    <li>otherwordly_nonphys_desc->już samo spojrzenie na schemat wywołuje ból głowy</li>
+    <li>otherwordly_nonphys_desc->podczas oglądania schematu runy zdają się poruszać na skraju pola widzenia</li>
+    <li>otherwordly_nonphys_desc->wokół schematu autora rozlegają się szepty</li>
+    <li>otherwordly_nonphys_desc->schemat autora nosi psychiczny ślad czegoś niewyobrażalnie starego</li>
+    <li>technical_nonphys_desc->złożoność schematu przerasta przeciętnego czytelnika</li>
+    <li>technical_nonphys_desc->zapis używa osobliwej notacji zaczerpniętej z wymarłego dialektu impidów</li>
+    <li>technical_nonphys_desc->przez kartki schematu przebiegają przewody, choć mechanizm jest niemal całkiem niesprawny</li>
+    <li>technical_nonphys_desc->twórca wyjaśnia ten sam mechanizm w trzech różnych językach</li>
+    <li>academic_nonphys_desc->schemat poświęcono nauczycielowi ksenotypu konfrater, który zainspirował autora</li>
+    <li>academic_nonphys_desc->dokument nosi herb instytucji finansującej prace autora</li>
+    <!-- smells -->
+    <li>badsmells->silny smród</li>
+    <li>badsmells->ostry odór</li>
+    <li>badsmells->słaby odór</li>
+    <li>badsmells->nieznośny fetor</li>
+    <li>badsmells->wstrętny zapach</li>
+    <li>stink->śluz rozkładających się zwłok</li>
+    <li>stink->siarka i zgniłe jaja</li>
+    <li>stink->powolna, pradawna śmierć</li>
+    <li>stink->coś podobnego do potu yttakina</li>
+    <li>stink->oddech śmieciarza</li>
+    <li>stink->szatnia huzarów</li>
+    <li>smells->intensywny aromat</li>
+    <li>smells->charakterystyczny zapach</li>
+    <li>smells->perfumowana woń</li>
+    <li>smells->wyraźny aromat</li>
+    <li>scent->stęchlizna z dna beczki po winogronach</li>
+    <li>scent->feromony wykwintnego partnera</li>
+    <li>scent->kadzidło z olibanum</li>
+    <li>scent->drewno sandałowe</li>
+    <li>scent->słodki sok wybuchowego szczura</li>
+    <li>scent->przyprawy z glitterworldu</li>
+    <li>scent->świeże nasiona drzewa gauranlen</li>
+    <!-- Conjunctions -->
+    <!-- usage - these include a space-->
+    <li>conjunction->i </li>
+    <li>conjunction->ale </li>
+    <li>conjunction->a jednak </li>
+    <li>conjunction->choć </li>
+    <li>conjunction->oprócz tego </li>
+    <li>conjunction->. Ponadto</li>
+    <!-- Author -->
+    <li>author(p=4)->autor</li>
+    <li>author(p=4)->pisarz</li>
+    <li>author->wynalazca</li>
+    <li>author->twórca</li>
+    <li>author(p=2)->konstruktor</li>
+    <li>author(p=4)->projektant</li>
+    <li>author->inżynier</li>
+    <li>author->rzemieślnik</li>
+    <li>author->uczony</li>
+    <li>author->specjalista</li>
+    <li>author->technik</li>
+    <li>author->ekspert</li>
+    <li>author->majster</li>
+    <li>anAuthorDesc(p=2)->zwykły</li>
+    <li>anAuthorDesc->młody</li>
+    <li>anAuthorDesc->stary</li>
+    <li>anAuthorDesc->przerażony</li>
+    <li>anAuthorDesc->smutny</li>
+    <li>anAuthorDesc->sędziwy</li>
+    <li>anAuthorDesc->mądry</li>
+    <li>anAuthorDesc->uparty</li>
+    <li>anAuthorDesc->nierozsądny</li>
+    <li>anAuthorDesc->niewinny</li>
+    <li>anAuthorDesc->zaburzony</li>
+    <li>anAuthorDesc->upiorny</li>
+    <li>anAuthorDesc->skandaliczny</li>
+    <li>anAuthorDesc->typowy</li>
+    <li>anAuthorDesc->nudny</li>
+    <li>anAuthorDesc->oszalały</li>
+    <li>anAuthorDesc->niemoralny</li>
+    <li>anAuthorDesc->moralny</li>
+    <li>anAuthorDesc->pozbawiony zasad</li>
+    <li>anAuthorDesc->skryty</li>
+    <!-- world names -->
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+    <!-- Schematic container synonyms -->
+    <li>schematic_container->poradnik</li>
+    <li>schematic_container->zbiór dokumentacji</li>
+    <li>schematic_container->segregator</li>
+    <li>schematic_container->folder</li>
+    <li>schematic_container->informator</li>
+    <li>schematic_container->opakowanie</li>
+    <li>schematic_container->pojemnik</li>
+    <li>schematic_container->pakiet</li>
+    <li>schematic_container->tom akt</li>
+    <li>schematic_container->zestaw</li>
+    <li>schematic_container->futerał</li>
+    <li>schematic_container->zasobnik</li>
+    <!-- physical adjectives -->
+    <li>physical_adjective->przybrudzony</li>
+    <li>physical_adjective->maleńki</li>
+    <li>physical_adjective->szorstki</li>
+    <li>physical_adjective->ogromny</li>
+    <li>physical_adjective->elegancki</li>
+    <li>physical_adjective->prosty</li>
+    <li>physical_adjective->nowy</li>
+    <li>physical_adjective->delikatny</li>
+    <li>physical_adjective->starożytny</li>
+    <li>physical_adjective->porzucony</li>
+    <li>physical_adjective->uszkodzony</li>
+    <li>physical_adjective->zużyty</li>
+    <li>physical_adjective->zdeformowany</li>
+    <li>physical_adjective->archaiczny</li>
+    <li>physical_adjective->zatłuszczony</li>
+    <li>physical_adjective->ciepły</li>
+    <li>physical_adjective->nieforemny</li>
+    <li>physical_adjective->drewniany</li>
+    <li>physical_adjective->kolczasty</li>
+    <li>physical_adjective->nadpalony</li>
+    <li>physical_adjective->gładki</li>
+    <li>physical_adjective->rustykalny</li>
+    <li>physical_adjective->funkcjonalny</li>
+    <li>physical_adjective->przestarzały</li>
+    <li>physical_adjective->zagadkowy</li>
+    <li>physical_adjective->cenny</li>
+    <!-- shows verbs -->
+    <li>shows_synonym_verb->[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb->[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1->przedstawia</li>
+    <li>shows_synonym_verb1->ukazuje</li>
+    <li>shows_synonym_verb1->prezentuje</li>
+    <li>shows_synonym_verb1->ilustruje</li>
+    <li>shows_synonym_verb1->obrazuje</li>
+    <!-- irregular verbs -->
+    <li>shows_synonym_verb2->pokazuje</li>
+    <li>shows_synonym_verb2->zarysowuje</li>
+    <li>shows_synonym_verb2->opisuje</li>
+    <li>contain_verb->zawiera</li>
+    <li>contain_verb->mieści</li>
+    <li>contain_verb->przedstawia</li>
+    <li>contain_verb->przechowuje</li>
+    <li>contain_verb->obejmuje</li>
+    <!-- schematic synonyms -->
+    <li>schematic_synonym->schemat</li>
+    <li>schematic_synonym->diagram</li>
+    <li>schematic_synonym->projekt</li>
+    <li>schematic_synonym->rysunek techniczny</li>
+    <li>schematic_synonym->prototyp</li>
+    <li>schematic_synonym->opis produktu</li>
+    <li>schematic_synonym->zestaw instrukcji</li>
+    <!-- diagram nouns -->
+    <li>state_adjective->szkicowy</li>
+    <li>state_adjective->ukończony</li>
+    <li>state_adjective->roboczy</li>
+    <li>state_adjective->kompletny</li>
+    <li>diagram_type->rysunek ilustracyjny</li>
+    <li>diagram_type->opis</li>
+    <li>diagram_type->diagram</li>
+    <li>diagram_type->projekt</li>
+    <li>diagram_type->materiał informacyjny</li>
+    <li>diagram_type->schemat</li>
+    <li>diagram_type->przekrój</li>
+    <li>diagram_type->graf</li>
+    <li>diagram_type->wykres</li>
+    <li>theory_synonym_adj->teoria</li>
+    <li>theory_synonym_adj->koncepcja</li>
+    <li>theory_synonym_adj->pogląd</li>
+    <li>theory_synonym_adj->hipoteza</li>
+    <li>theory_synonym_adj->idea</li>
+    <li>device_synonym->mechanizm</li>
+    <li>device_synonym->urządzenie</li>
+    <li>device_synonym->konstrukcja</li>
+    <li>device_synonym->wynalazek</li>
+    <li>device_synonym->przyrząd</li>
+    <li>device_synonym->wytwór</li>
+    <li>device_synonym->gadżet</li>
+    <li>device_synonym->instalacja</li>
+    <li>device_synonym->moduł</li>
+    <li>image_types->fotografie</li>
+    <li>image_types->rysunki</li>
+    <li>image_types->ryciny</li>
+    <li>image_types->akwarele</li>
+    <li>image_types->plany</li>
+    <li>image_types->szkice</li>
+    <li>image_types->karykatury</li>
+    <li>other_subject->infrastruktura</li>
+    <li>other_subject->personel</li>
+    <li>other_subject->łączność</li>
+    <li>other_subject->zakres prac</li>
+    <li>other_subject->budżet</li>
+    <li>other_subject->zasoby</li>
+    <!-- Date -->
+    <li>dates->Schemat opublikowano [date_form]</li>
+    <li>dates->Schemat wydrukowano po raz pierwszy [date_form]</li>
+    <li>dates->Nie wiadomo dokładnie, kiedy powstał ten schemat</li>
+    <li>date_form->niedawno</li>
+    <li>date_form->wiele stuleci temu</li>
+    <li>date_form->dnia [date]</li>
+    <li>date_form->w porze roku: [date_season]</li>
+    <!-- end -->
+  </Description_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
@@ -1202,6 +2102,368 @@
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
   -->
-  <Description_SkillBook.rulePack.rulesStrings>TODO</Description_SkillBook.rulePack.rulesStrings>
+  <Description_SkillBook.rulePack.rulesStrings>
+    <!-- General, root symbol is 'desc' -->
+    <li>subject->[subject_primary]</li>
+    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <!-- discussion of the subject -->
+    <li>discussion->Ten [textbook] zawiera [useful_information]. Temat: [subject][detail]</li>
+    <li>discussion->Ten [textbook] potwierdza znawstwo autora w dziedzinie: [subject][detail]</li>
+    <li>discussion->Osoby poszukujące [understanding_synonym] sięgają po ten [notable_adjective] [textbook]. Temat: [subject][detail]</li>
+    <li>discussion->Standardowy [textbook]. Temat: [subject][detail]</li>
+    <li>discussion->Wczesne wydanie autorskiej pracy typu [textbook]. Temat: [subject][detail]</li>
+    <li>detail->. Część oznaczona jako [precis_synonym] skupia się na bardziej zaawansowanych aspektach dziedziny</li>
+    <li>detail->. Część oznaczona jako [precis_synonym] zwięźle przedstawia złożone zagadnienie</li>
+    <li>detail->. Część oznaczona jako [precis_synonym] podaje, że w chwili pisania książki jej twórca, [ANYPAWN_label], przedstawiał najnowszy stan wiedzy</li>
+    <li>detail->. Na stronie opisanej jako [note_location] widnieje cytat: "Prawdziwi [students] w tej dziedzinie nie mogą zignorować książki autorstwa [ANYPAWN_label]"</li>
+    <li>students->uczniowie</li>
+    <li>students->miłośnicy</li>
+    <li>students->praktycy</li>
+    <li>detail->. Autor prowadzi czytelnika krok po kroku przez kolejne zagadnienia</li>
+    <li>detail(quality[less_than]4)->. Autor omawia jednak temat w dużym pośpiechu</li>
+    <li>detail(quality[greater_than]3)->. To wyczerpujące opracowanie dziedziny</li>
+    <li>detail->. W części oznaczonej jako [precis_synonym] autor zapewnia, że istnieją podrobione egzemplarze książki, ale ten jest autentyczny</li>
+    <li>detail(quality[less_than]4)->. Pomysł przekazania wiedzy za pomocą fikcyjnego dialogu mógł jednak okazać się błędem</li>
+    <li>detail->. Retoryka autora w części oznaczonej jako [precis_synonym] nie odwraca uwagi od najważniejszych pojęć</li>
+    <!-- details of the production process -->
+    <li>production->W części oznaczonej jako [precis_synonym] podano, że książkę wydrukowano ręcznie na świecie [worldname]</li>
+    <li>production->Z części oznaczonej jako [precis_synonym] wynika, że Uniwersytet na świecie [worldname] uznał tę książkę za lekturę obowiązkową</li>
+    <li>production->Z części oznaczonej jako [precis_synonym] wynika, że notatki przeznaczone pierwotnie do prywatnego użytku [ANYPAWN_label] trafiły do szerokiego obiegu</li>
+    <li>production->Przydatne partie tej pracy typu [textbook] ukryto między szczegółami biograficznymi</li>
+    <li>production->Odręczny dopisek typu [note] na stronie opisanej jako [note_location] wyjaśnia, że drukarnia na świecie [worldname] została zamknięta po tamtejszych zamieszkach, dlatego późniejsze wydania należą do rzadkości</li>
+    <li>production->Wpis typu [note] informuje, że większość egzemplarzy tej pracy typu [textbook] zaginęła podczas incydentu na świecie [worldname]</li>
+    <li>production->Część oznaczona jako [precis_synonym] stwierdza, że osoby znające archotechniczne metody rozpowszechniania informacji unikają tej serii wydawniczej; nie wyjaśnia jednak dlaczego</li>
+    <li>production->Z miejsca oznaczonego jako [note_location] wynika, że zwolennicy dziedziny: [subject] ze świata [worldname] wydali fortunę na druk i dystrybucję tej książki</li>
+    <li>production->Z miejsca oznaczonego jako [note_location] wynika, że pierwsze egzemplarze książki własnoręcznie spisała osoba oznaczona jako [ANYPAWN_label]</li>
+    <li>production->Księżna ze świata [worldname] sfinansowała wydanie tej pracy typu [textbook] pod warunkiem jej bezpłatnego udostępnienia</li>
+    <li>production->Notatka głosi, że pierwsze wydanie tej pracy typu [textbook] powstało dzięki składkom księgarzy ze świata [coreworld]</li>
+    <li>production->Na końcu książki wydawca reklamuje większą serię obejmującą wszystkie dziedziny potrzebne do przetrwania na rubieżach</li>
+    <li>production->Zważywszy na niechlujną gramatykę, wydawcy mogli znacznie staranniej wykonać pracę redakcyjną</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <!-- <li>quality_statement->[writing_quality]</li> -->
+    <li>anecdote->Duży odstęp między rokiem urodzenia [ANYPAWN_nameFull] a datą publikacji sugeruje, że autor książki prawdopodobnie nie dożył jej wydania</li>
+    <li>anecdote->Na stronie opisanej jako [note_location] ktoś wkleił druzgocącą recenzję książki</li>
+    <li>anecdote->Część oznaczona jako [precis_synonym] wskazuje, że książka przeszła przez system bibliotek publicznych świata [urbworld]</li>
+    <li>anecdote->Notatka w miejscu: [note_location] przedstawia [ANYPAWN_nameFull] jako osobę znającą wiele dziedzin</li>
+    <li>anecdote->Notatka w miejscu: [note_location] podaje, że mieszkańcy świata [worldname] nadal wspominają [ANYPAWN_nameFull] i zamiłowanie tej osoby do dziedziny: [subject]</li>
+    <li>anecdote->Według wpisu w miejscu: [note_location] wkrótce po publikacji doszło do niezwykłego wypadku splątania, w którym zginęła osoba podpisana jako [ANYPAWN_nameFull]</li>
+    <li>anecdote->Część oznaczona jako [precis_synonym] podaje, że osoba [ANYPAWN_nameFull] przez lata wykładała na akademii świata [coreworld]. Książka powstała na podstawie tych wykładów</li>
+    <li>anecdote->Z części oznaczonej jako [precis_synonym] wynika, że wiedza osoby [ANYPAWN_nameFull] o dziedzinie: [subject] była tak sławna, iż przechodnie zatrzymywali tę osobę na ulicy, by zadawać pytania</li>
+    <li>anecdote->Wpis w miejscu: [note_location] podaje, że osoba [ANYPAWN_nameFull] żyła w biedzie i sprzedała prawa do serii za niewielkie pieniądze</li>
+    <li>anecdote->Wpis w miejscu: [note_location] wyjaśnia, że osoba [ANYPAWN_nameFull] nie widziała nigdy książki, ponieważ od urodzenia nie miała wzroku</li>
+    <li>anecdote->Wpis w miejscu: [note_location] mówi, że pierwszy szkic podręcznika autorstwa [ANYPAWN_nameFull] zawierał aż pięćdziesiąt stron dygresji, usuniętych w drugim wydaniu</li>
+    <li>anecdote->Wpis w miejscu: [note_location] wyjaśnia, że z powodu fatalnej reputacji osoba [ANYPAWN_nameFull] publikowała pod pseudonimem</li>
+    <li>anecdote->Wpis w miejscu: [note_location] wspomina o leniwym dzieciństwie [ANYPAWN_nameFull] i rozpaczy rodziców tej osoby. Podręcznik stał się dowodem jej umiejętności</li>
+    <li>anecdote->Część oznaczona jako [precis_synonym] głosi, że pomysł podręcznika na temat: [subject] narodził się podczas czwartego małżeństwa autora podpisanego jako [ANYPAWN_nameFull], co doprowadziło także do czwartego rozwodu</li>
+    <!-- pools -->
+    <li>textbook->elementarz</li>
+    <li>textbook->poradnik</li>
+    <li>textbook->podręcznik</li>
+    <li>textbook(p=6)->tom</li>
+    <li>textbook->zeszyt ćwiczeń</li>
+    <li>textbook->leksykon</li>
+    <li>textbook->zbiór wiedzy</li>
+    <li>textbook->przewodnik</li>
+    <li>textbook->informator</li>
+    <li>textbook->program nauczania</li>
+    <li>textbook->skrypt</li>
+    <li>textbook->katalog</li>
+    <li>textbook->podręcznik szkolny</li>
+    <li>textbook->encyklopedyczny podręcznik</li>
+    <li>textbook->poradnik praktyczny</li>
+    <li>textbook->podręcznik fachowy</li>
+    <li>textbook->traktat</li>
+    <li>precis_synonym->streszczenie</li>
+    <li>precis_synonym->frontyspis</li>
+    <li>precis_synonym->abstrakt</li>
+    <li>precis_synonym->synopsa</li>
+    <li>precis_synonym->zarys</li>
+    <li>precis_synonym->skrót</li>
+    <li>note_location->przednia okładka</li>
+    <li>note_location->tylna okładka</li>
+    <li>note_location->przednia zakładka</li>
+    <li>note_location->tylna zakładka</li>
+    <li>note_location->pierwsza strona</li>
+    <li>note_location->ostatnia strona</li>
+    <li>note_location->marginesy</li>
+    <li>note_location->strona tytułowa</li>
+    <li>note_location->przypis dolny</li>
+    <li>note_location->przypis końcowy</li>
+    <li>note_location->biografia autora</li>
+    <li>note_location->etykieta wysyłkowa</li>
+    <li>note->notatka</li>
+    <li>note->uzupełnienie</li>
+    <li>note->dopisek</li>
+    <li>note->autorskie posłowie</li>
+    <li>note->aneks</li>
+    <li>note->koda</li>
+    <li>note->przypis dolny</li>
+    <li>note->przypis końcowy</li>
+    <li>useful_information->przydatne drobiazgi informacyjne</li>
+    <li>useful_information->użyteczne informacje</li>
+    <li>useful_information->interesujące fakty</li>
+    <li>useful_information->cenne spostrzeżenia</li>
+    <li>useful_information->praktyczne uwagi</li>
+    <li>useful_information->pomocne wskazówki</li>
+    <li>useful_information->ważne szczegóły</li>
+    <!-- General Textbook themes -->
+    <li>understanding_synonym->wiedzy</li>
+    <li>understanding_synonym->samodoskonalenia</li>
+    <li>understanding_synonym->zrozumienia</li>
+    <li>understanding_synonym->naukowej wiedzy</li>
+    <li>understanding_synonym->erudycji</li>
+    <li>understanding_synonym->fachowych umiejętności</li>
+    <li>understanding_synonym->filozoficznego spojrzenia</li>
+    <li>understanding_synonym->rozważań etycznych</li>
+    <li>notable_adjective->słynny</li>
+    <li>notable_adjective->mało znany</li>
+    <li>notable_adjective->kultowy</li>
+    <li>notable_adjective->klasyczny</li>
+    <li>notable_adjective->popularny</li>
+    <li>notable_adjective->znajomy</li>
+    <li>notable_adjective->ponadczasowy</li>
+    <li>notable_adjective->niespójny</li>
+    <li>notable_adjective->harmonijny</li>
+    <li>notable_adjective->elegancki</li>
+    <li>notable_adjective->prosty</li>
+    <li>notable_adjective->praktyczny</li>
+    <li>notable_adjective->pochodzący ze świata miejskiego</li>
+    <li>notable_adjective->pochodzący z glitterworldu</li>
+    <li>notable_adjective->prymitywny</li>
+    <li>notable_adjective->ozdobny</li>
+    <!-- Quality -->
+    <li>exterior_quality(quality[greater_than]4)->Oprawa jest misterna, a</li>
+    <li>exterior_quality(quality[greater_than]4)->To arcydzieło sztuki drukarskiej, które lśni, a</li>
+    <li>exterior_quality(quality[greater_than]4)->Skórzana okładka jest szorstka, lecz</li>
+    <li>exterior_quality(quality[greater_than]4)->Choć okładka wygląda bardzo zwyczajnie,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Podręcznik ma już swoje lata, ale</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Mimo że to używana książka szkolna,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Książka przechodziła przez ręce wielu właścicieli, ale</li>
+    <li>exterior_quality(quality[less_than]2)->Okładka wygląda atrakcyjnie, lecz</li>
+    <li>exterior_quality(quality[less_than]2)->Ktoś wyrwał pierwszą trzecią część książki, a</li>
+    <li>exterior_quality(quality[less_than]2)->Okładka jest przesiąknięta cieczą o silnym zapachu, a</li>
+    <li>exterior_quality(quality[less_than]2)->Na pierwszy rzut oka książka wydaje się nieuszkodzona, lecz</li>
+    <li>page_quality->kartki [page_condition]</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->są w znakomitym stanie, jakby nigdy ich nie dotykano</li>
+    <li>page_excellent->są w świetnym stanie</li>
+    <li>page_excellent->są nieskazitelne</li>
+    <li>page_excellent->są jasne i czyste</li>
+    <li>page_excellent->zachowały się wyjątkowo dobrze</li>
+    <li>page_decent->są w przyzwoitym stanie</li>
+    <li>page_decent->są czytelne, choć pomięte</li>
+    <li>page_decent->nadają się do czytania bez trudności</li>
+    <li>page_decent->są dość dobre, choć lekko porysowane</li>
+    <li>page_awful->wyglądają, jakby zapisano je na rozpadającym się pergaminie</li>
+    <li>page_awful->są poważnie uszkodzone</li>
+    <li>page_awful->są poplamione ciemną substancją</li>
+    <li>page_awful->są nieczytelne</li>
+    <li>page_awful->zawierają uwagi zapisane nieczytelnym pismem</li>
+    <!-- world names -->
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>

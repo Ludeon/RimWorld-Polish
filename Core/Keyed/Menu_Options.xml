@@ -29,13 +29,13 @@
 
   <!-- Gameplay -->
   <!-- EN: Remember draw styles -->
-  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <RememberDrawStyle>Zapamiętuj tryby rysowania</RememberDrawStyle>
   <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
-  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <RememberDrawStyle_Tooltip>Po włączeniu tej opcji wybrany tryb rysowania będzie zachowywany przy rozmieszczaniu nowych budynków i wyznaczaniu stref.</RememberDrawStyle_Tooltip>
   <!-- EN: Zoom switches world map layers -->
-  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <ZoomSwitchLayer>Przełączaj warstwy mapy przy zmianie skali</ZoomSwitchLayer>
   <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
-  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
+  <ZoomSwitchLayer_Tooltip>Po włączeniu tej opcji oddalenie mapy świata automatycznie przełączy widok na orbitę. Ponowne przybliżenie pokaże planetę.</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Przewijaj kursorem przy krawędzi</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -52,6 +52,10 @@
   <HatsShownOnlyOnMap>Nie pokazuj nakryć głowy na kartach</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Skala interfejsu</UIScale>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>TODO</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>TODO</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Konfiguracja klawiszy</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -73,9 +77,9 @@
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Resetuj konfiguracje modów przy awarii</ResetModsConfigOnCrash>
   <!-- EN: Quick start has no cryptosleep sickness -->
-  <DisableQuickStartCryptoSickness>TODO</DisableQuickStartCryptoSickness>
+  <DisableQuickStartCryptoSickness>Brak choroby kryptosnu przy szybkim starcie</DisableQuickStartCryptoSickness>
   <!-- EN: Start game with dev palette on -->
-  <StartDevPaletteOn>TODO</StartDevPaletteOn>
+  <StartDevPaletteOn>Rozpocznij grę z włączoną paletą deweloperską</StartDevPaletteOn>
   <!-- EN: Open log on warnings -->
   <OpenLogOnWarnings>Otwórz log w przypadku warning'a</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
@@ -138,14 +142,16 @@
   <TextureCompression>Kompresja tekstur</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Wyłączenie kompresji tekstur zużyje znacznie więcej pamięci wideo, ale sprawi, że tekstury będą wyglądać nieco lepiej w szczegółowych obszarach. Wyłącz to tylko wtedy, gdy wiesz, że masz dużo dodatkowej pamięci wideo.\n\nPamiętaj, że korzystanie z niektórych modów często zużywa znacznie więcej pamięci wideo, więc może być konieczne włączenie tej opcji, jeśli dodasz określone mody.</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>TODO</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>Płynne skoki kamery</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
   <SmoothCameraJumpsDesc>Po włączeniu kamera będzie się szybko przesuwać podczas ustawiania ostrości w nowej lokalizacji. Po wyłączeniu kamera natychmiast przeskoczy do lokalizacji.</SmoothCameraJumpsDesc>
   <!-- EN: Gravship cutscenes -->
-  <GravshipCutscenes>TODO</GravshipCutscenes>
+  <GravshipCutscenes>Animacje grawstatków</GravshipCutscenes>
   <!-- EN: When disabled, gravships will take off and land instantly. -->
-  <GravshipCutscenesDesc>TODO</GravshipCutscenesDesc>
+  <GravshipCutscenesDesc>Po wyłączeniu tej opcji grawstatki będą startować i lądować natychmiast.</GravshipCutscenesDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -154,6 +160,24 @@
   <Fullscreen>Pełny ekran</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>Pełny ekran bez obramowania</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>Tryb wyświetlania</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>W oknie</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>Pełny ekran (tryb wyłączny)</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>TODO</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>TODO</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>TODO</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>TODO</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>TODO</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>TODO</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>Aby uruchomić RimWorld w trybie pełnoekranowym bez obramowania:\n\nOtwórz Steam\n2)Przejdź do zakładki "Biblioteka" u góry\n3) Znajdź RimWorld na liście i kliknij prawym przyciskiem myszy\n4) Wybierz "Właściwości... "\n5) Dodaj "-popupwindow" bez cudzysłowów do "Opcji uruchamiania" w zakładce "Ogólne"\n6) Uruchom ponownie grę\n7) Jeśli zrobisz to poprawnie, nie zobaczysz tego okna\n\nWskazówka: Użyj klawisza Windows + Shift + Lewy/Prawy, aby przesunąć okno między monitorami</BorderlessFullscreenInstructions>
 
@@ -178,10 +202,5 @@
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>Tło menu</SetBackgroundImage>
-
-  <!-- UNUSED -->
-  <SimulateNotOwningRoyalty>Symuluj brak posiadania 'Royalty'</SimulateNotOwningRoyalty>
-  <SimulateNotOwningIdeology>Symuluj brak posiadania 'Ideology'</SimulateNotOwningIdeology>
-  <SimulateNotOwningBiotech>Symuluj brak posiadania 'Biotech'</SimulateNotOwningBiotech>
 
 </LanguageData>
