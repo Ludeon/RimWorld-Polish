@@ -218,9 +218,9 @@
   -->
   <Description_Map.rulePack.rulesStrings>
     <li>desc->mapa [physicalDescription], która wskazuje interesujące miejsce. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->[physicalDescription], ta [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->ta [mapType] jest [physicalDescription] i [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->[mapType] zawierająca [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->Mapa typu "[mapType]" jest [physicalDescription] i [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->Jest to mapa typu "[mapType]", [physicalDescription], która [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->Mapa typu "[mapType]" [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->zbiór map z [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->mapa z [place] z [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>physicalDescription->wydrukowana na cienkim, odpornym na ciepło polimerze</li>
@@ -235,7 +235,7 @@
     <li>physicalDescription->wytrawiona na przesiąkniętym wodą płótnie</li>
     <li>physicalDescription->wytrawiona na cuchnącej skórze zwierzęcej</li>
     <li>physicalDescription->nabazgrana czarnym atramentem</li>
-    <li>physicalDescription->zszyta z łosia</li>
+    <li>physicalDescription->wszyta w skórę łosia</li>
     <li>physicalDescription->napisana na wysuszonej skórze [Animal]</li>
     <li>physicalDescription->wykonana z poczerniałego pergaminu</li>
     <li>physicalDescription->delikatnie złożona w szesnaście części</li>
@@ -251,27 +251,27 @@
     <li>physicalDescription->wielokrotnie składana i ubrudzona ziemią oraz węglem drzewnym</li>
     <li>physicalDescription->narysowana na kruszejącym pergaminie z ledwo widocznym, pajęczym pismem</li>
     <li>physicalDescription->wytrawiona na pożółkłym pergaminie o postrzępionych i sypiących się krawędziach</li>
-    <li>mapContents->setki małych rysunków przedstawiających [mapSubjectAdj] [mapSubject]</li>
-    <li>mapContents->szybkie szkice [mapSubjectAdj] [mapSubject]</li>
-    <li>mapContents->listy godnych uwagi [mapSubject]. Najdłuższa lista zatytułowana jest '[AdjectiveBadass]!' i jest otoczona czerwonym atramentem</li>
-    <li>mapContents->spalone krawędzie i rozmazane linie. Środkowa mapa przedstawia [mapSubjectAdj] [mapSubject], ale linie są przysłonięte przez plamy [stain]</li>
-    <li>mapContents->nowe diagramy na każdej stronie. Niektóre przedstawiają bardzo szczegółowo [mapSubject], z których największy jest bez wątpienia [mapSubjectAdj]</li>
-    <li>mapContents->mieszanka fantastycznych i historycznych [mapSubject]</li>
-    <li>mapContents->dziesiątki starożytnych diagramów [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->setki małych rysunków przedstawiających [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->szybkie szkice przedstawiające [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->listy opisujące godne uwagi [mapSubject]. Najdłuższa lista zatytułowana jest '[AdjectiveBadass]!' i jest otoczona czerwonym atramentem</li>
+    <li>mapContents->spalone krawędzie i rozmazane linie. Środkowa mapa przedstawia [mapSubject] [mapSubjectAdj], ale linie są przysłonięte przez plamy [stain]</li>
+    <li>mapContents->nowe diagramy na każdej stronie. Niektóre przedstawiają bardzo szczegółowo [mapSubject] [mapSubjectAdj]. Największy diagram zajmuje całą stronę</li>
+    <li>mapContents->mieszanka fantastycznych i historycznych ilustracji przedstawiających [mapSubject]</li>
+    <li>mapContents->dziesiątki starożytnych diagramów przedstawiających [mapSubject] [mapSubjectAdj]</li>
     <li>mapContents->rysunki tematyczne. Duży rysunek centralny [depiction] przypomina [Animal], narysowany w stylu [artstyle_adj]</li>
     <li>mapContents->tysiące dziwnych symboli, z których wiele przypomina [mapSubject]. Najczęstszy symbol wygląda jak [emotionalState] [Animal] narysowany w stylu [artstyle_adj]</li>
-    <li>mapContents->widoczne ślady starości. Jeden z diagramów, wykonany inną ręką, przedstawia starożytne [mapSubject] z [place]</li>
-    <li>mapContents->szczegółowe diagramy [place] [mapSubject] i ich powiązań z [mapSubjectAdj] [mapSubject]</li>
-    <li>mapContents->cztery duże szkice [place] [mapSubject]</li>
+    <li>mapContents->widoczne ślady starości. Jeden z diagramów, wykonany inną ręką, przedstawia [mapSubject] z dawnych czasów z [place]</li>
+    <li>mapContents->szczegółowe diagramy przedstawiające [mapSubject] [mapSubjectAdj] i ich powiązania z miejscem "[place]"</li>
+    <li>mapContents->cztery duże szkice przedstawiające [mapSubject] z miejsca "[place]"</li>
     <li>mapContents->wiele małych diagramów. Jeden opisany jest jako '[place] [RomanNumeral]' i zawiera szczegółową inwentaryzację [place] [mapSubject]</li>
-    <li>mapContents->wiele małych rysunków [mapSubjectAdj] [mapSubject] i [mapSubjectAdj] [mapSubject]</li>
-    <li>mapContents->szczegółowe rysunki planety. Kilka pobliskich lokacji jest podpisanych jako '[Enemy]s' czerwonym atramentem</li>
-    <li>mapContents->współrzędne kilku [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->wiele małych rysunków przedstawiających [mapSubject] [mapSubjectAdj] i [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->szczegółowe rysunki planety. Kilka pobliskich lokacji jest podpisanych jako '[Enemy]' czerwonym atramentem</li>
+    <li>mapContents->współrzędne opisane podpisem "[mapSubject] [mapSubjectAdj]"</li>
     <li>mapContents->współrzędne podkreślone żółtym markerem</li>
     <li>mapContents->rysunki pobliskich terytoriów. Surowe symbole oznaczają bezpieczne kryjówki i ukryte skrytki</li>
-    <li>mapContents->lokalizacje [Quantity_adjphrase] sanktuariów [Animal]. Czerwone „X” wskazują także kilka grobów</li>
+    <li>mapContents->lokalizacje [Quantity_adjphrase] sanktuariów [Animal]. Czerwone "X" wskazują także kilka grobów</li>
     <li>mapContents->nic ważnego. Albo tak się wydaje</li>
-    <li>mapContents->wyblakła siatka. W każdym kwadrancie znajduje się [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->wyblakła siatka. W każdym kwadrancie widać [mapSubject] [mapSubjectAdj]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubject] przedstawione w stylu [artstyle_adj]. Pod każdym znajduje się [AdjectiveAny] [Animal]</li>
     <li>maybe_specialFact-></li>
     <li>maybe_specialFact->[specialFact]</li>
@@ -300,9 +300,9 @@
     <li>specialFact->Mapa została napisana przez niesławnego [PersonBadass].</li>
     <li>specialFact->Mapa została stworzona przez [emotionalState] [PersonBadass].</li>
     <li>specialFact->Prostota mapy wskazuje, że została naprędce wykonana przez [PersonBadass], który musiał być krok przed władzami.</li>
-    <li>specialFact->Kluczowe miejsca są otoczone kółkami i opisane adnotacjami typu „unikać [Enemy]ów” i „silny jak [Animal]”.</li>
+    <li>specialFact->Kluczowe miejsca są otoczone kółkami i opisane adnotacjami typu "unikać wrogów ([Enemy])" i "silny jak [Animal]".</li>
     <li>specialFact->Na mapie symbol [mapSymbol] jest otoczony kółkiem i podpisany jako '[smell] i [stain]'.</li>
-    <li>specialFact->Na marginesie widnieje tysiącletni poemat zatytułowany „Diabolus”.</li>
+    <li>specialFact->Na marginesie widnieje tysiącletni poemat zatytułowany "Diabolus".</li>
     <li>specialFact->Legenda mapy identyfikuje [Color] [mapSymbol] jako kryjówki [Enemy], a [Color] [mapSymbol] jako żerowiska [Animal].</li>
     <li>specialFact->Skala mapy jest wyraźnie błędna.</li>
     <li>specialFact->Mapa ma wyblakowaną pieczęć woskową [noteLocation]. Przypomina [emotionalState] [Animal].</li>
@@ -389,9 +389,9 @@
     <li>mapType(p=4)->mapa</li>
     <li>mapType->plan</li>
     <li>mapType->atlas</li>
-    <li>mapType->ankieta</li>
+    <li>mapType->mapa pomiarowa</li>
     <li>mapSymbol->klucz</li>
-    <li>mapSymbol->„X”</li>
+    <li>mapSymbol->"X"</li>
     <li>mapSymbol->gwiazda</li>
     <li>mapSymbol->księżyc</li>
     <li>mapSymbol->wieża</li>
@@ -623,45 +623,51 @@
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
-    <li>mapSubjectAdj(p=6)->[direction]</li>
-    <li>mapSubjectAdj->starożytne</li>
-    <li>mapSubjectAdj->historyczna</li>
-    <li>mapSubjectAdj->stary</li>
-    <li>mapSubjectAdj->zapomniane</li>
-    <li>mapSubjectAdj->tajny</li>
-    <li>mapSubjectAdj->prywatne</li>
-    <li>mapSubjectAdj->ukryty</li>
-    <li>mapSubjectAdj->okultystyczne</li>
-    <li>mapSubjectAdj->nieznane</li>
-    <li>mapSubjectAdj->osobliwe</li>
-    <li>mapSubjectAdj->dziwne</li>
-    <li>mapSubjectAdj->obca</li>
-    <li>mapSubjectAdj->cudowne</li>
-    <li>mapSubjectAdj->cenny</li>
-    <li>mapSubjectAdj->cenne</li>
-    <li>mapSubjectAdj->olśniewające</li>
-    <li>mapSubjectAdj->olśniewające</li>
-    <li>mapSubjectAdj->oburzający</li>
-    <li>mapSubjectAdj->dzikie</li>
-    <li>mapSubjectAdj->wspaniały</li>
-    <li>mapSubjectAdj->wspaniały</li>
-    <li>mapSubjectAdj->małe</li>
-    <li>mapSubjectAdj->małe</li>
-    <li>mapSubjectAdj->okropne</li>
-    <li>mapSubjectAdj->okropne</li>
-    <li>mapSubjectAdj->mistyczny</li>
-    <li>mapSubjectAdj->lokalne</li>
-    <li>mapSubjectAdj->regionalne</li>
-    <li>mapSubjectAdj->regionalne</li>
-    <li>mapSubjectAdj->rdzenne</li>
-    <li>mapSubjectAdj->bliskie</li>
-    <li>mapSubjectAdj->planetarne</li>
-    <li>mapSubjectAdj->śmiertelnie groźne</li>
-    <li>mapSubjectAdj->zabójczy</li>
-    <li>mapSubjectAdj->toksyczne</li>
-    <li>mapSubjectAdj->wybrane</li>
-    <li>mapSubjectAdj->unikalny</li>
-    <li>mapSubjectAdj->ważny</li>
+    <li>mapSubjectAdj(p=6)->[mapDirection]</li>
+    <li>mapDirection->z północy</li>
+    <li>mapDirection->ze wschodu</li>
+    <li>mapDirection->z południa</li>
+    <li>mapDirection->z zachodu</li>
+    <li>mapDirection(p=0.2)->spod powierzchni</li>
+    <li>mapDirection(p=0.2)->z podziemi</li>
+    <li>mapSubjectAdj->ze starożytnych czasów</li>
+    <li>mapSubjectAdj->o znaczeniu historycznym</li>
+    <li>mapSubjectAdj->z dawnych czasów</li>
+    <li>mapSubjectAdj->o zapomnianej historii</li>
+    <li>mapSubjectAdj->o tajemniczym pochodzeniu</li>
+    <li>mapSubjectAdj->z prywatnych zbiorów</li>
+    <li>mapSubjectAdj->z ukrytych miejsc</li>
+    <li>mapSubjectAdj->o charakterze okultystycznym</li>
+    <li>mapSubjectAdj->o nieznanym pochodzeniu</li>
+    <li>mapSubjectAdj->o osobliwym wyglądzie</li>
+    <li>mapSubjectAdj->o dziwnym charakterze</li>
+    <li>mapSubjectAdj->z obcych stron</li>
+    <li>mapSubjectAdj->o cudownym znaczeniu</li>
+    <li>mapSubjectAdj->o szczególnej wartości</li>
+    <li>mapSubjectAdj->o wielkiej wartości</li>
+    <li>mapSubjectAdj->o zachwycającym wyglądzie</li>
+    <li>mapSubjectAdj->o olśniewającym wyglądzie</li>
+    <li>mapSubjectAdj->o oburzającej historii</li>
+    <li>mapSubjectAdj->z dzikich terenów</li>
+    <li>mapSubjectAdj->o wielkim znaczeniu</li>
+    <li>mapSubjectAdj->o imponującym rozmachu</li>
+    <li>mapSubjectAdj->o niewielkiej skali</li>
+    <li>mapSubjectAdj->o małych rozmiarach</li>
+    <li>mapSubjectAdj->o złej sławie</li>
+    <li>mapSubjectAdj->o przerażającym charakterze</li>
+    <li>mapSubjectAdj->o mistycznym znaczeniu</li>
+    <li>mapSubjectAdj->o znaczeniu lokalnym</li>
+    <li>mapSubjectAdj->o znaczeniu regionalnym</li>
+    <li>mapSubjectAdj->z danego regionu</li>
+    <li>mapSubjectAdj->o rdzennym pochodzeniu</li>
+    <li>mapSubjectAdj->z pobliskich okolic</li>
+    <li>mapSubjectAdj->o zasięgu planetarnym</li>
+    <li>mapSubjectAdj->o śmiertelnie niebezpiecznym charakterze</li>
+    <li>mapSubjectAdj->o zabójczej sile</li>
+    <li>mapSubjectAdj->o toksycznym działaniu</li>
+    <li>mapSubjectAdj->ze specjalnego wyboru</li>
+    <li>mapSubjectAdj->o niepowtarzalnym charakterze</li>
+    <li>mapSubjectAdj->o wielkiej wadze</li>
     <li>direction->północny</li>
     <li>direction->wschodnie</li>
     <li>direction->południowe</li>
@@ -844,50 +850,50 @@
     <li>mapType->holographic</li>
   -->
   <Namer_Map.rulePack.rulesStrings>
-    <li>title(p=2)->[mapType] [mapNoun] (autor: [subject])</li>
-    <li>title(p=2)->[maybeThe] [mapType] [map]</li>
-    <li>title(p=2)->[maybeAdjective] [ANYPAWN_nameIndef] [maybeAdjective] [map]</li>
-    <li>title->[mapType] [mapNoun]: [subject]</li>
-    <li>title->[mapNoun] [mapSubjectAdj] [mapSubject]</li>
-    <li>title->[maybeThe] [AdjectiveAny] [map]</li>
-    <li>title(p=0.5)->mapy [mapSubjectAdj] [mapSubject]</li>
-    <li>title(p=0.5)->[place] [mapNoun]</li>
+    <li>title(p=2)->[mapType] — [subject]</li>
+    <li>title(p=2)->[mapType] — [place]</li>
+    <li>title(p=2)->[map] (autor: [ANYPAWN_nameIndef])</li>
+    <li>title->[mapType] — [subject]</li>
+    <li>title->[mapNoun]: [mapSubject]</li>
+    <li>title->[mapNoun]: [subject]</li>
+    <li>title(p=0.5)->Zestaw map: [mapSubject]</li>
+    <li>title(p=0.5)->[mapNoun] — [place]</li>
     <li>maybeAdjective-></li>
     <li>maybeAdjective->[adjective]</li>
     <li>adjective->[AdjectiveAny]</li>
     <li>adjective->[Color]</li>
     <li>adjective->[AdjectiveLarge]</li>
     <li>maybeThe-></li>
-    <li>maybeThe->the</li>
+    <li>maybeThe-></li>
     <li>map->[mapNoun]</li>
-    <li>map(p=2)->[mapNoun] [place]</li>
-    <li>map->[mapNoun] [mapSubject]</li>
-    <li>map->[mapNoun] [mapSubjectAdj] [mapSubject]</li>
-    <li>mapNoun(p=5)->mapa</li>
-    <li>mapNoun(p=2)->atlas</li>
-    <li>mapNoun->almanach</li>
-    <li>mapNoun->plan</li>
-    <li>mapNoun->ankieta</li>
-    <li>mapNoun->studium</li>
-    <li>mapNoun->broszura</li>
-    <li>mapType(p=2)->[Animal]</li>
-    <li>mapType(p=2)->[TreeType]</li>
-    <li>mapType->warstwicowa</li>
-    <li>mapType->topograficzna</li>
-    <li>mapType->hipsometrzyczna</li>
-    <li>mapType->populacja</li>
-    <li>mapType->skarb</li>
-    <li>mapType->z adnotacjami</li>
-    <li>mapType->ilustrowana</li>
-    <li>mapType->konfederacji</li>
-    <li>mapType->federacja</li>
-    <li>mapType->federacja</li>
-    <li>mapType->historyczna</li>
-    <li>mapType->publikacja</li>
-    <li>mapType->skórzana</li>
-    <li>mapType->ze świńskiej skóry</li>
-    <li>mapType->laminowana</li>
-    <li>mapType->holograficzna</li>
+    <li>map(p=2)->[mapNoun] — [place]</li>
+    <li>map->[mapNoun]: [mapSubject]</li>
+    <li>map->[mapNoun] — [mapSubject]</li>
+    <li>mapNoun(p=5)->Mapa</li>
+    <li>mapNoun(p=2)->Atlas</li>
+    <li>mapNoun->Almanach</li>
+    <li>mapNoun->Plan</li>
+    <li>mapNoun->Przegląd kartograficzny</li>
+    <li>mapNoun->Studium kartograficzne</li>
+    <li>mapNoun->Broszura kartograficzna</li>
+    <li>mapType(p=2)->Mapa występowania zwierząt (gatunek: [Animal])</li>
+    <li>mapType(p=2)->Mapa występowania roślin (gatunek: [TreeType])</li>
+    <li>mapType->Mapa warstwicowa</li>
+    <li>mapType->Mapa topograficzna</li>
+    <li>mapType->Mapa hipsometryczna</li>
+    <li>mapType->Mapa ludności</li>
+    <li>mapType->Mapa skarbów</li>
+    <li>mapType->Mapa z adnotacjami</li>
+    <li>mapType->Mapa ilustrowana</li>
+    <li>mapType->Mapa konfederacji</li>
+    <li>mapType->Mapa koalicji</li>
+    <li>mapType->Mapa federacji</li>
+    <li>mapType->Mapa historyczna</li>
+    <li>mapType->Mapa na papierze</li>
+    <li>mapType->Mapa skórzana</li>
+    <li>mapType->Mapa na świńskiej skórze</li>
+    <li>mapType->Mapa laminowana</li>
+    <li>mapType->Mapa holograficzna</li>
   </Namer_Map.rulePack.rulesStrings>
   
 </LanguageData>

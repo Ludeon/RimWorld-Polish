@@ -10,20 +10,28 @@
     <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
   -->
   <SanguophageShip.questContentRules.rulesStrings>
-    <li>sanguophageShuttleCrashedLetterLabel->Rozbity statek</li>
-    <li>sanguophageShuttleCrashedLetterText->Niedaleko rozbił się statek sanguofaga razem z [sanguophage_possessive] [thrallCount] służącymi. Za moment opuszczą statek i będą się szykować do ataku.</li>
-    <li>reinforcementsArrivedLetterLabel->Posiłki - służący</li>
-    <li>reinforcementsArrivedLetterText->Kapsuły transportowe ze służącymi wylądowały niedaleko, aby wesprzeć rozbitego sangufaga.</li>
-    <li>assaultBeginLetterLabel->Atak się rozpoczyna</li>
-    <li>assaultBeginLetterText->Wrogi sanguofag wraz z [sanguophage_possessive] służącymi rozpoczynają atak na kolonię!</li>
+    <li>sanguophageShuttleCrashedLetterLabel->Rozbity wahadłowiec</li>
+    <li>sanguophageShuttleCrashedLetterText->W pobliżu rozbił się wahadłowiec przewożący sanguofaga wraz z [thrallCountWithPL]. Pasażerowie opuszczą wrak i przygotują się do walki.</li>
+    <li>reinforcementsArrivedLetterLabel->Posiłki sług</li>
+    <li>reinforcementsArrivedLetterText->W kapsułach transportowych przybywają słudzy, aby wesprzeć sanguofaga ocalałego z katastrofy.</li>
+    <li>assaultBeginLetterLabel->Rozpoczęcie ataku</li>
+    <li>assaultBeginLetterText->Wrogi sanguofag i [sanguophage_possessive] słudzy rozpoczynają atak na kolonię!</li>
+
+    <li>thrallCountWithPL(thrallCount==1,priority=1)->jednym sługą</li>
+    <li>thrallCountWithPL(thrallCount>=2,priority=1)->[thrallCount] sługami</li>
+    <li>thrallCountWithPL->[thrallCount] sługami</li>
   </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Udało Ci się przechwycić sygnał wezwania o pomoc! Wrogi statek przewożący sanguofaga razem z [sanguophage_possessive] [thrallCount] służącymi zarejestrował awarię silnika. Możesz zwieść statek wskazując okolice swojej kolonii, jako bezpiecznie miejsce do wylądowania.\n\nGdy tylko statek wyląduje, możesz zaatakować pasażerów - sanguofaga i [sanguophage_possessive] służących. Jeżeli uda Ci się schwytać sanguofaga, możesz [sanguophage_objective] zmusić do zamiany jednego z Twoich kolonistów w sanguofaga.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*Gray)Informacje o sanguofagach: Sanguofagi to wieczni, nieśmiertelni super-ludzie zasilani przez stworzone w krwiobiegu archity. Są piękne i niezwykle inteligentne. Potrafią wyleczyć każde obrażenie i nigdy nie cierpią z powodu chorób czy trucizn. W walce mogą wystrzeliwać śmiercionośne kolce i leczyć rannych przyjaciół. Ceną jest to, że sanguofagi, aby przeżyć, muszą spożywać hemogen pochodzący z ludzkiej krwi, a także muszą okresowo umierać na długi czas. Łatwo niszczy je ogień, a spowalnia światło UV.(/Gray)</li>
+    <li>questDescription->Przechwycono sygnał alarmowy! Wrogi wahadłowiec przewożący sanguofaga wraz z [thrallCountWithPL] ma problemy z silnikami. Możesz nadać sygnał, który sprowadzi go do katastrofy w pobliżu kolonii [map_definite].\n\nPo rozbiciu się statku możesz zaatakować sanguofaga i [sanguophage_possessive] podwładnych. Jeśli pojmiesz przywódcę, możesz zmusić [sanguophage_objective] do przemienienia jednego z twoich kolonistów w sanguofaga.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)Informacje o sanguofagach: Sanguofagi to ponadludzkie istoty, które nie starzeją się i niezwykle trudno je zabić. Ich niezwykłe zdolności zapewniają archity stworzone przez archotechnologię i krążące w ich krwiobiegu. Są piękne i niezwykle inteligentne. Potrafią leczyć nawet ciężkie obrażenia i są odporne na choroby oraz trucizny. W walce mogą wystrzeliwać śmiercionośne kolce i leczyć rannych sojuszników. Aby przetrwać, muszą pobierać hemogen z ludzkiej krwi i okresowo zapadać na długi czas w anabiozę. Ogień stanowi dla nich śmiertelne zagrożenie, a promieniowanie UV je spowalnia.(/Gray)</li>
+
+    <li>thrallCountWithPL(thrallCount==1,priority=1)->jednym sługą</li>
+    <li>thrallCountWithPL(thrallCount>=2,priority=1)->[thrallCount] sługami</li>
+    <li>thrallCountWithPL->[thrallCount] sługami</li>
   </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -45,19 +53,25 @@
     <li>shipNoun->wreck</li>
   -->
   <SanguophageShip.questNameRules.rulesStrings>
-    <li>questName->[shipAdjective] [shipNoun] [shipAdnominal]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipNoun] [shipAdnominal]</li>
-    <li>shipAdjective->krwiożerczy</li>
-    <li>shipAdjective->krwisty</li>
-    <li>shipAdjective->mroczny</li>
-    <li>shipAdjective->tajemniczy</li>
-    <li>shipAdjective->krwawy</li>
+    <li>questName->[shipNoun] [shipDescriptor]</li>
+
     <li>shipNoun->statek</li>
+    <li>shipNoun->wahadłowiec</li>
+    <li>shipNoun->pojazd</li>
+    <li>shipNoun->kadłub</li>
+    <li>shipNoun->miejsce katastrofy</li>
     <li>shipNoun->wrak</li>
-    <li>shipAdnominal->sanguofagów</li>
-    <li>shipAdnominal->cieni</li>
-    <li>shipAdnominal->żądnych krwi</li>
+
+    <li>shipDescriptor->sanguofaga</li>
+    <li>shipDescriptor->krwiożerców</li>
+    <li>shipDescriptor->krwi</li>
+    <li>shipDescriptor->cieni</li>
+    <li>shipDescriptor->mroku</li>
+    <li>shipDescriptor->purpury</li>
+    <li>shipDescriptor->czerwieni</li>
+    <li>shipDescriptor->zaschniętej krwi</li>
+    <li>shipDescriptor->hemogenu</li>
+    <li>shipDescriptor->krwistej żądzy</li>
   </SanguophageShip.questNameRules.rulesStrings>
   
 </LanguageData>

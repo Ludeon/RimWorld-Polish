@@ -1,18 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
-  
   <!-- EN:
-    <li>questDescription(classicMode==True)->You've learned that a valuable relic is nearby.\n\nThe [relic_name] is one of [relicGlobalCount] ancient objects venerated by many people. If you could collect it, you could build a reliquary to make your colonists happy and attract wealthy pilgrims.</li>
-    <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+    <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription->Dowiedziałeś się, że w pobliżu znajduje się relikwia [ideo_name].\n\n[relic_name] to starożytny przedmiot czczony przez wszystkich [ideo_memberNamePlural]. Gdyby udało ci się ją zebrać, mógłbyś zbudować wspaniały relikwiarz, który uszczęśliwiłby [ideo_memberNamePlural], przyciągnął bogatych pielgrzymów i sprowadził więcej ludzi do [ideo_name].</li>
+    <li>questDescription->W okolicy może znajdować się relikwia związana z ideologią [ideo_name].\n\nRelikwia "[relic_name]" to starożytny przedmiot czczony przez wyznawców tej ideologii. Jej zdobycie pozwoliłoby zbudować wspaniały relikwiarz, zadowolić społeczność, przyciągnąć zamożnych pielgrzymów i pozyskać nowych wyznawców.</li>
+    <li>questDescriptionPartBeforeDiscovery->Najpierw musisz odnaleźć relikwię "[relic_name]". Wypatruj okazji do zdobywania informacji o jej położeniu.</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
+    <li>questName->The [item] of [ideo_name]</li>
     <li>questName->The [itemAdj] [item]</li>
-    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
     <li>hunt->hunt</li>
     <li>hunt->search</li>
     <li>hunt->quest</li>
@@ -24,17 +23,17 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->[hunt] [item]</li>
-    <li>questName->[item] [ideo_name]</li>
-    <li>questName->[itemAdj] [item]</li>
-    <li>hunt->polowanie na</li>
-    <li>hunt->poszukiwania na</li>
+    <li>questName->[hunt]: [item]</li>
+    <li>questName->Relikwia ideologii [ideo_name]: [item]</li>
+    <li>questName->[itemAdj] — [item]</li>
+    <li>hunt->Poszukiwania</li>
+    <li>hunt->Wyprawa</li>
+    <li>hunt->Łowy</li>
     <li>item(p=4)->[relic_name]</li>
-    <li>item->relikt</li>
-    <li>item->artefakt</li>
-    <li>itemAdj->starożytny</li>
-    <li>itemAdj->czczony</li>
-    <li>itemAdj->gloryfikowany</li>
+    <li>item->relikwię</li>
+    <li>item->relikwia</li>
+    <li>itemAdj->Starożytny przedmiot</li>
+    <li>itemAdj->Czczony obiekt</li>
+    <li>itemAdj->Święta pamiątka</li>
   </RelicHunt.questNameRules.rulesStrings>
-  
 </LanguageData>

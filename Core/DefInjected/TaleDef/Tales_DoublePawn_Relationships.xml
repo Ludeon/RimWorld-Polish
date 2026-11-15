@@ -20,7 +20,21 @@
     <li>desc_sentence->[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</li>
     <li>desc_sentence->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</li>
   -->
-  <BecameLover.rulePack.rulesStrings>TODO</BecameLover.rulePack.rulesStrings>
+  <BecameLover.rulePack.rulesStrings>  <li>tale_noun->początek związku miłosnego: [PURSUER_nameDef] i [ACCEPTER_nameDef]</li>
+  <li>image->[PURSUER_nameFull] szepcze czułe słówka do ucha [ACCEPTER_nameFull] — [circumstance_group]</li>
+  <li>image->[PURSUER_nameFull] prowadzi [ACCEPTER_nameFull] za rękę do łóżka — [circumstance_group]</li>
+  <li>image->[PURSUER_nameFull] baraszkuje w łóżku z [ACCEPTER_nameFull] — [circumstance_group]</li>
+  <li>image->[PURSUER_nameFull] namiętnie całuje [ACCEPTER_nameFull] — [circumstance_group]</li>
+  <li>circumstance_phrase->w łóżku o nieprawdopodobnych rozmiarach</li>
+  <li>circumstance_phrase->między prześcieradłami</li>
+  <li>circumstance_phrase->wokół niemal nie widać ubrań</li>
+  <li>circumstance_phrase->obie osoby są zlane potem</li>
+  <li>desc_sentence->[PURSUER_nameDef] przytula się do [ACCEPTER_nameDef].</li>
+  <li>desc_sentence->[PURSUER_nameDef] patrzy głęboko w oczy [ACCEPTER_nameDef].</li>
+  <li>desc_sentence->[PURSUER_nameDef] dmucha w stronę [ACCEPTER_nameDef].</li>
+  <li>desc_sentence->Sposób przedstawienia postaci [PURSUER_nameDef] i [ACCEPTER_nameDef] podkreśla łączącą je więź.</li>
+  <li>desc_sentence->[PURSUER_nameDef] wygląda niemal jak lustrzane odbicie [ACCEPTER_nameDef].</li>
+  <li>desc_sentence->[PURSUER_nameDef] dotyka [ACCEPTER_nameDef] w nachalny sposób.</li></BecameLover.rulePack.rulesStrings>
   
   <!-- EN: bond developed -->
   <BondedWithAnimal.label>stworzenie więzi</BondedWithAnimal.label>
@@ -37,7 +51,17 @@
     <li>desc_sentence->[ANIMAL_nameDef] stands tall and looks noble.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is responding positively.</li>
   -->
-  <BondedWithAnimal.rulePack.rulesStrings>TODO</BondedWithAnimal.rulePack.rulesStrings>
+  <BondedWithAnimal.rulePack.rulesStrings>  <li>tale_noun->nawiązanie więzi między człowiekiem a zwierzęciem: [HUMAN_nameDef] i [ANIMAL_nameDef]</li>
+  <li>image->[HUMAN_nameFull] nawiązuje więź z [ANIMAL_nameFull] — [circumstance_group]</li>
+  <li>image->[HUMAN_nameFull] nawiązuje głęboką więź z [ANIMAL_nameFull] — [circumstance_group]</li>
+  <li>image->[HUMAN_nameFull] uświadamia sobie, jak bardzo kocha [ANIMAL_nameFull] — [circumstance_group]</li>
+  <li>circumstance_phrase->podczas gdy inne zwierzęta przyglądają się tej scenie</li>
+  <li>circumstance_phrase->patrząc w oczy [ANIMAL_nameDef]</li>
+  <li>circumstance_phrase->z poczuciem satysfakcji</li>
+  <li>desc_sentence->[ANIMAL_nameDef] przytula się do [HUMAN_nameDef].</li>
+  <li>desc_sentence->[ANIMAL_nameDef] wygląda na senne i odurzone miłością.</li>
+  <li>desc_sentence->[ANIMAL_nameDef] stoi dumnie i majestatycznie.</li>
+  <li>desc_sentence->[ANIMAL_nameDef] reaguje przychylnie.</li></BondedWithAnimal.rulePack.rulesStrings>
   
   <!-- EN: breakup -->
   <Breakup.label>rozstanie</Breakup.label>
@@ -57,7 +81,20 @@
     <li>desc_sentence->[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</li>
     <li>desc_sentence->[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</li>
   -->
-  <Breakup.rulePack.rulesStrings>TODO</Breakup.rulePack.rulesStrings>
+  <Breakup.rulePack.rulesStrings>  <li>tale_noun->rozpad związku: [DUMPER_nameDef] i [REJECTED_nameDef]</li>
+  <li>image->[DUMPER_nameFull] prosi [REJECTED_nameFull], aby usiąść do nieprzyjemnej rozmowy — [circumstance_group]</li>
+  <li>image->[DUMPER_nameFull] stoi w oddaleniu od [REJECTED_nameFull] — [circumstance_group]</li>
+  <li>image->[DUMPER_nameFull] wypycha [REJECTED_nameFull] z łóżka — [circumstance_group]</li>
+  <li>image->[DUMPER_nameFull] odrzuca próbę przytulenia ze strony [REJECTED_nameFull] — [circumstance_group]</li>
+  <li>circumstance_phrase->w chwili wielkiego smutku</li>
+  <li>circumstance_phrase->podczas gdy inni niezręcznie odwracają wzrok</li>
+  <li>circumstance_phrase->na oczach innych osób</li>
+  <li>desc_sentence->[REJECTED_nameDef] szlocha bez opamiętania.</li>
+  <li>desc_sentence->[REJECTED_nameDef] jednocześnie szydzi i płacze.</li>
+  <li>desc_sentence->Twarz [REJECTED_nameDef] kamienieje z szoku.</li>
+  <li>desc_sentence->Postacie [DUMPER_nameDef] i [REJECTED_nameDef] są przedstawione jako wyraźnie oddzielone od siebie pod względem stylistycznym.</li>
+  <li>desc_sentence->[REJECTED_nameDef] osuwa się na podłogę, zwijając się w drżący kłębek.</li>
+  <li>desc_sentence->[REJECTED_nameDef] ze złością gestykuluje w stronę [DUMPER_nameDef].</li></Breakup.rulePack.rulesStrings>
   
   <!-- EN: marriage -->
   <Marriage.label>ślub</Marriage.label>
@@ -77,6 +114,19 @@
     <li>desc_sentence->[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</li>
   -->
-  <Marriage.rulePack.rulesStrings>TODO</Marriage.rulePack.rulesStrings>
+  <Marriage.rulePack.rulesStrings>  <li>tale_noun->ślub [SPOUSE1_nameDef] i [SPOUSE2_nameDef]</li>
+  <li>image->[SPOUSE1_nameFull] bierze ślub z [SPOUSE2_nameFull] — [circumstance_group]</li>
+  <li>image->[SPOUSE1_nameFull] składa przysięgę małżeńską wobec [SPOUSE2_nameFull] — [circumstance_group]</li>
+  <li>image->[SPOUSE1_nameFull] zmierza do miejsca ceremonii wraz z [SPOUSE2_nameFull] — [circumstance_group]</li>
+  <li>image->[SPOUSE1_nameFull] trzyma [SPOUSE2_nameFull] za rękę podczas ceremonii ślubnej — [circumstance_group]</li>
+  <li>circumstance_phrase->podczas uroczystej ceremonii</li>
+  <li>circumstance_phrase->podczas gdy obie osoby śmieją się radośnie</li>
+  <li>circumstance_phrase->podczas gdy pozostali przyglądają się z powagą</li>
+  <li>desc_sentence->[SPOUSE1_nameDef] przytula się do [SPOUSE2_nameDef].</li>
+  <li>desc_sentence->[SPOUSE1_nameDef] patrzy głęboko w oczy [SPOUSE2_nameDef].</li>
+  <li>desc_sentence->[SPOUSE1_nameDef] dmucha w stronę [SPOUSE2_nameDef].</li>
+  <li>desc_sentence->Sposób przedstawienia postaci [SPOUSE1_nameDef] i [SPOUSE2_nameDef] podkreśla łączącą je więź.</li>
+  <li>desc_sentence->[SPOUSE1_nameDef] wygląda niemal jak lustrzane odbicie [SPOUSE2_nameDef].</li>
+  <li>desc_sentence->[SPOUSE1_nameDef] dotyka [SPOUSE2_nameDef] w nachalny sposób.</li></Marriage.rulePack.rulesStrings>
   
 </LanguageData>

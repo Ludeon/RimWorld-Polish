@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: small chemfuel tank -->
@@ -15,11 +15,6 @@
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
   <FuelOptimizer.description>Jednostka grawtech umożliwiająca, by podnoszenie przez silnik grawitacyjny działało wydajniej z tradycyjnymi silnikami strumieniowymi. Zmniejsza ilość paliwa potrzebną do lotu grawstatku.\n\nGrawstatek może mieć do dwóch optymalizatorów paliwa.</FuelOptimizer.description>
   
-  <!-- EN: grav anchor -->
-  <GravAnchor.label>TODO</GravAnchor.label>
-  <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
-  <GravAnchor.description>TODO</GravAnchor.description>
-  
   <!-- EN: gravcore power cell -->
   <GravcorePowerCell.label>komórka energetyczna gravcore</GravcorePowerCell.label>
   <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
@@ -27,7 +22,7 @@
   
   <!-- EN: grav engine -->
   <GravEngine.label>silnik grawitacyjny</GravEngine.label>
-  <!-- EN: FIXME: NOWA WERSJA The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
   <GravEngine.description>Ultratechowe serce grawstatku. Silnik grawitacyjny wytwarza siłę nośną, odwracając i wzmacniając efekt grawitacji w swoim polu. Ten silnik podnosi statek do góry, ale nie generuje ciągu do przodu. Nie działa daleko od dużych studni grawitacyjnych, takich jak planetarne, więc nie nadaje się do podróży międzyplanetarnych.\n\nPo uruchomieniu wszystko na podstrukturze połączonej z silnikiem grawitacyjnym zostanie przeniesione na nową mapę. Start grawstatku oznacza porzucenie obecnej mapy.\n\nInżynierowie glitterworldów używają grawstatków do wynoszenia platform orbitalnych i budowy skyripperów. Do ich produkcji potrzebne są ogromne, wysoce wyspecjalizowane zakłady, więc są rzadkością poza glitterworldami.</GravEngine.description>
   
   <!-- EN: grav field extender -->
@@ -58,7 +53,7 @@
   
   <!-- EN: large thruster -->
   <LargeThruster.label>duży silnik strumieniowy</LargeThruster.label>
-  <!-- EN: FIXME: NOWA WERSJA An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
+  <!-- EN: An advanced chemfuel thruster with a heat-resistant stellite liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires stellite blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
   <LargeThruster.description>Zaawansowany silnik strumieniowy na chemipaliwo z żaroodporną wyściółką ze skały próżniowej. Znacznie zwiększa zasięg grawstatku. Silniki wymagają wolnej przestrzeni, bez dużych budynków i podstruktur grawstatku.\n\nWymaga bloków ze skały próżniowej, które można zdobyć z asteroid orbitalnych.\n\nGrawstatek może posiadać do sześciu dużych silników strumieniowych.</LargeThruster.description>
   
   <!-- EN: minified thing -->
@@ -90,5 +85,8 @@
   <SmallThruster.label>mały silnik strumieniowy</SmallThruster.label>
   <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
   <SmallThruster.description>Chemipaliwowy silnik strumieniowy zwiększający zasięg grawstatku. Silniki wymagają wolnej przestrzeni, bez dużych budynków i podstruktur grawstatku.\n\nGrawstatek może mieć do czterech małych silników strumieniowych.</SmallThruster.description>
-  
+
+  <!-- Uzupełnienie tłumaczenia RimWorld 1.7: nazwy i opisy przedmiotów -->
+  <GravAnchor.label>kotwica grawitacyjna</GravAnchor.label>
+  <GravAnchor.description>Zapobiega zniszczeniu lokalnej mapy podczas startu grawstatku.\n\nKotwice grawitacyjne pasywnie ograniczają niestabilne naprężenia grawitacyjne na dużym obszarze, chroniąc otoczenie przed szkodliwymi skutkami startu grawstatku. Nie można ich budować na samym grawstatku, ponieważ całkowicie uniemożliwiłyby jego lot.</GravAnchor.description>
 </LanguageData>

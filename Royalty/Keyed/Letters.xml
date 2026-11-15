@@ -36,7 +36,7 @@
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>Posiada {PAWN_pronoun} następujące prawa:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>Stracił{PAWN_gender ? a} {PAWN_pronoun} następujące prawa:</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>Utracone uprawnienia:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>Nie chce {PAWN_pronoun} wykonywać tego typu prac:\n{1}</LetterRoyalTitleDisabledWorkTag>
@@ -49,7 +49,7 @@
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>Ma {PAWN_pronoun} pozwolenie na użycie tych implantów:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>Stracił{PAWN_gender ? a} {PAWN_pronoun} pozwolenie na użycie następujących implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>Ta osoba nie może już używać następujących implantów:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Te implanty muszą być usunięte w ciągu pięciu następnych dni w celu uniknięcia konsekwencji.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
@@ -102,6 +102,28 @@
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
   <LetterLawViolationDetectedForbiddenThingUse>Frakcja {FACTION_name} wykryła nielegalne użycie: {CULPRIT} (szansa wykrycia {CHANCE}) przez {PAWN_labelShort}.\n\nWedług prawa {FACTION_name}, tylko ci, którzy posiadają tytuł {TITLE} mogą używać {CULPRIT}.\n\nJako karę, Twoje relacje z frakcją {FACTION_name} spadły o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
+  <!-- Throne Speech -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} skończy{ORGANIZER_gender ? ł : ła} swoją przemowę.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>Była prawdziwie okropna — pełna głupich żartów i smutnych historii.</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>Była zniechęcająca — nieoryginalna, przytłaczająca i niemająca żadnego zapału.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>Była zachęcająca i dobrze powiedziana.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>Była prawdziwie inspirująca, pełna intensywności i celu.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Następujące osoby były szczególnie poruszone przez przemowę i teraz są zainspirowane:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Dzięki wspaniałej przemowie {SPEAKER_nameIndef}, {PAWN_nameIndef} dozna{PAWN_gender ? ł : ła} inspiracji!</LetterSpeechInspiration>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>Ponieważ przemowa została zakłócona po jedynie {0}, nie była efektywna.</LetterSpeechInterrupted>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>Przemowa {0} została anulowana przed osiągnięciem 50%. Nie przyniosła żadnego efektu.</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>Przemowa anulowana</LetterLabelSpeechCancelled>
+
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>Szalony dekret</WildDecree>
@@ -109,10 +131,12 @@
   <LetterLabelRandomDecree>{0_nameIndef} wyda{PAWN_gender ? ł : ła} dekret</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, w celu upuszczenia swoich nerwów, wydaje szalony dekret i wymaga, aby został wykonany.\n  \nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, w celu upuszczenia swoich nerwów, wydaje szalony dekret i wymaga, aby został wykonany.
+  \nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef), w celu umocnienia swojego tytułu {0_bestRoyalTitleIndef}, wydaje dekret i wymaga, aby został wykonany.\n  \nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, w celu umocnienia swojego tytułu {0_bestRoyalTitleIndef}, wydaje dekret i wymaga, aby został wykonany.
+  \nJeśli nie zostanie wykonany w krótkim czasie, {0_nameIndef} będzie bardzo nieszczęśli{0_gender ? wy : wa}.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>Dekret nosi tytuł "{0}".</LetterDecree_Quest>
   
@@ -133,6 +157,16 @@
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
   <LetterPsychicInspiration>Dzięki indukcji psychicznej {CASTER_nameIndef}, {PAWN_nameDef} doznał inspiracji!</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Oferta dołączenia: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} chciał{PAWN_gender ? by : aby} dołączyć do Twojej frakcji.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} myśli, że {PAWN_pronoun} jest szczęśliw{PAWN_gender ? y : a} w {MAP_definite}. Chce na stałe do ciebie dołączyć.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Akceptuj</LetterJoinOfferAccept>
 
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>Ceremonia mianowania przedawniła się</LetterLabelBestowingCeremonyExpired>

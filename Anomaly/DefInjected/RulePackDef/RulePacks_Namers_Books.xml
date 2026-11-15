@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -190,27 +190,27 @@
     <li>suffixEvil->vix</li>
   -->
   <Namer_Tome.rulePack.rulesStrings>
-    <li>title->[maybeThe] [bookEvil] [nounEvilUncountable]</li>
-    <li>title->[maybeThe] [bookEvil] [nounEvilCountable]</li>
-    <li>title->[maybeThe] [bookEvil] [nounEvilCountable]</li>
-    <li>title->[maybeThe] [nounEvilCountable] [inThe] [placeEvil]</li>
-    <li>title->[maybeThe] [bookEvil] (autor: [ANYPAWN_nameIndef])</li>
-    <li>title->[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
-    <li>title->[maybeThe] [nounEvilAny] (autor: [ANYPAWN_nameIndef])</li>
-    <li>title->[maybeThe] [nounEvilAny] [adjectiveEvil] </li>
-    <li>title->[ANYPAWN_nameIndef][bookEvil] (autor: )</li>
-    <li>title->[maybeThe] [bookCompound]</li>
-    <li>title->[ANYPAWN_nameIndef][bookCompound] (autor:  )</li>
-    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
-    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
-    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
-    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>title->[bookEvil] [nounEvilUncountableGen]</li>
+    <li>title->[bookEvil] [nounEvilCountablePluralGen]</li>
+    <li>title->[bookEvil] [nounEvilCountableGen]</li>
+    <li>title->[nounEvilCountablePlural] [inThe] [placeEvil]</li>
+    <li>title->[bookEvil] (autor: [ANYPAWN_nameIndef])</li>
+    <li>title->[nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[nounEvilAny] (autor: [ANYPAWN_nameIndef])</li>
+    <li>title->[adjectiveNounEvil]</li>
+    <li>title->[bookEvil] (autor: [ANYPAWN_nameIndef])</li>
+    <li>title->[bookCompound]</li>
+    <li>title->[bookCompound] (autor: [ANYPAWN_nameIndef])</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountableLower]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountableLower]</li>
+    <li>title(p=0.5)->[nounEvilCountable][connector][suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable][connector][suffixEvil]</li>
+
     <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
     <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
-    <li>connector->–</li>
-    <li>connector->–</li>
-    <li>maybeThe-></li>
-    <li>maybeThe-></li>
+    <li>connector->-</li>
+    <li>connector-></li>
+
     <li>bookEvil(p=2)->Księga</li>
     <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
     <li>bookEvil->Tom</li>
@@ -222,7 +222,7 @@
     <li>bookEvil->Szyfr</li>
     <li>bookEvil->Szepty</li>
     <li>bookEvil->Zeznanie</li>
-    <li>bookEvil->Rozważania</li>
+    <li>bookEvil->Lamentacje</li>
     <li>bookEvil->Grymuar</li>
     <li>bookEvil->Almanach</li>
     <li>bookEvil->Manuskrypt</li>
@@ -233,64 +233,7 @@
     <li>bookEvil->Testament</li>
     <li>bookEvil->Fragmenty</li>
     <li>bookEvil->Odłamki</li>
-    <li>inThe->w środku</li>
-    <li>inThe->wewnątrz</li>
-    <li>inThe->poniżej</li>
-    <li>inThe->poniżej</li>
-    <li>inThe->obok</li>
-    <li>inThe->znad</li>
-    <li>inThe->wśród</li>
-    <li>adjectiveEvil(p=3)->pustki</li>
-    <li>adjectiveEvil->złota</li>
-    <li>adjectiveEvil->wynaturzenia</li>
-    <li>adjectiveEvil->mroku</li>
-    <li>adjectiveEvil->czerni</li>
-    <li>adjectiveEvil->głębi</li>
-    <li>adjectiveEvil->starożytności</li>
-    <li>adjectiveEvil->spaczenia</li>
-    <li>adjectiveEvil->krwi</li>
-    <li>adjectiveEvil->chaosu</li>
-    <li>adjectiveEvil->otchłani</li>
-    <li>adjectiveEvil->niesamowitości</li>
-    <li>adjectiveEvil->ducha</li>
-    <li>adjectiveEvil->tajemnic</li>
-    <li>adjectiveEvil->szeptu</li>
-    <li>adjectiveEvil->zapomnienia</li>
-    <li>adjectiveEvil->całunu</li>
-    <li>adjectiveEvil->niezgody</li>
-    <li>adjectiveEvil->podpowierzchni</li>
-    <li>adjectiveEvil->węża</li>
-    <li>nounEvilAny->[nounEvilCountable]</li>
-    <li>nounEvilAny->[nounEvilUncountable]</li>
-    <li>nounEvilUncountable->Mięsomasa</li>
-    <li>nounEvilUncountable->Bioferryt</li>
-    <li>nounEvilUncountable->Śmierciożycie</li>
-    <li>nounEvilUncountable->Archotechnologia</li>
-    <li>nounEvilUncountable->Necrotechnologia</li>
-    <li>nounEvilUncountable->Horax</li>
-    <li>nounEvilUncountable->Krew</li>
-    <li>nounEvilUncountable->Nieżycie</li>
-    <li>nounEvilUncountable->Moc</li>
-    <li>nounEvilUncountable->Podszepty</li>
-    <li>nounEvilUncountable->Wiedza</li>
-    <li>nounEvilUncountable->Horror</li>
-    <li>nounEvilUncountable->Grzyby</li>
-    <li>nounEvilUncountable->Opuchlizna</li>
-    <li>nounEvilUncountable->Rytuały</li>
-    <li>nounEvilUncountable->Zabójstwo</li>
-    <li>nounEvilUncountable->Ciemność</li>
-    <li>nounEvilUncountable->Szaleństwo</li>
-    <li>nounEvilUncountable->Chaos</li>
-    <li>nounEvilUncountable->Rozpacz</li>
-    <li>nounEvilUncountable->Cierpienie</li>
-    <li>nounEvilUncountable->Koszmary</li>
-    <li>nounEvilUncountable->Spaczenie</li>
-    <li>nounEvilUncountable->Zagłada</li>
-    <li>nounEvilUncountable->Terror</li>
-    <li>nounEvilUncountable->Wrogość</li>
-    <li>nounEvilUncountable->Cienie</li>
-    <li>nounEvilUncountable->Pustka</li>
-    <li>nounEvilUncountable->Złoto</li>
+
     <li>nounEvilCountable->Ghul</li>
     <li>nounEvilCountable->Posokolos</li>
     <li>nounEvilCountable->Noktol</li>
@@ -320,6 +263,227 @@
     <li>nounEvilCountable->Klątwa</li>
     <li>nounEvilCountable->Wąż</li>
     <li>nounEvilCountable->Pożeracz</li>
+
+    <li>nounEvilCountableGen->ghula</li>
+    <li>nounEvilCountableGen->posokolosa</li>
+    <li>nounEvilCountableGen->noktola</li>
+    <li>nounEvilCountableGen->powłóczyciela</li>
+    <li>nounEvilCountableGen->mięsostwora</li>
+    <li>nounEvilCountableGen->nociosfery</li>
+    <li>nounEvilCountableGen->zwłok</li>
+    <li>nounEvilCountableGen->sześcianu</li>
+    <li>nounEvilCountableGen->upiora</li>
+    <li>nounEvilCountableGen->metalhorrora</li>
+    <li>nounEvilCountableGen->porywacza</li>
+    <li>nounEvilCountableGen->duplikatora</li>
+    <li>nounEvilCountableGen->mutatora</li>
+    <li>nounEvilCountableGen->zwiastuna</li>
+    <li>nounEvilCountableGen->wyłupiacza</li>
+    <li>nounEvilCountableGen->chimery</li>
+    <li>nounEvilCountableGen->pożeracza</li>
+    <li>nounEvilCountableGen->odłamka</li>
+    <li>nounEvilCountableGen->rzeźby</li>
+    <li>nounEvilCountableGen->serum</li>
+    <li>nounEvilCountableGen->kultu</li>
+    <li>nounEvilCountableGen->kultysty</li>
+    <li>nounEvilCountableGen->kozy</li>
+    <li>nounEvilCountableGen->cienia</li>
+    <li>nounEvilCountableGen->czatownika</li>
+    <li>nounEvilCountableGen->obrzędów</li>
+    <li>nounEvilCountableGen->klątwy</li>
+    <li>nounEvilCountableGen->węża</li>
+    <li>nounEvilCountableGen->pożeracza</li>
+
+    <li>nounEvilCountablePlural->Ghule</li>
+    <li>nounEvilCountablePlural->Posokolosy</li>
+    <li>nounEvilCountablePlural->Noktole</li>
+    <li>nounEvilCountablePlural->Powłóczyciele</li>
+    <li>nounEvilCountablePlural->Mięsostwory</li>
+    <li>nounEvilCountablePlural->Nociosfery</li>
+    <li>nounEvilCountablePlural->Zwłoki</li>
+    <li>nounEvilCountablePlural->Sześciany</li>
+    <li>nounEvilCountablePlural->Upiory</li>
+    <li>nounEvilCountablePlural->Metalhorrory</li>
+    <li>nounEvilCountablePlural->Porywacze</li>
+    <li>nounEvilCountablePlural->Duplikatory</li>
+    <li>nounEvilCountablePlural->Mutatory</li>
+    <li>nounEvilCountablePlural->Zwiastuny</li>
+    <li>nounEvilCountablePlural->Wyłupiacze</li>
+    <li>nounEvilCountablePlural->Chimery</li>
+    <li>nounEvilCountablePlural->Pożeracze</li>
+    <li>nounEvilCountablePlural->Odłamki</li>
+    <li>nounEvilCountablePlural->Rzeźby</li>
+    <li>nounEvilCountablePlural->Sera</li>
+    <li>nounEvilCountablePlural->Kulty</li>
+    <li>nounEvilCountablePlural->Kultyści</li>
+    <li>nounEvilCountablePlural->Kozy</li>
+    <li>nounEvilCountablePlural->Cienie</li>
+    <li>nounEvilCountablePlural->Czatownicy</li>
+    <li>nounEvilCountablePlural->Obrzędy</li>
+    <li>nounEvilCountablePlural->Klątwy</li>
+    <li>nounEvilCountablePlural->Węże</li>
+    <li>nounEvilCountablePlural->Pożeracze</li>
+
+    <li>nounEvilCountablePluralGen->ghuli</li>
+    <li>nounEvilCountablePluralGen->posokolosów</li>
+    <li>nounEvilCountablePluralGen->noktolów</li>
+    <li>nounEvilCountablePluralGen->powłóczycieli</li>
+    <li>nounEvilCountablePluralGen->mięsostworów</li>
+    <li>nounEvilCountablePluralGen->nociosfer</li>
+    <li>nounEvilCountablePluralGen->zwłok</li>
+    <li>nounEvilCountablePluralGen->sześcianów</li>
+    <li>nounEvilCountablePluralGen->upiorów</li>
+    <li>nounEvilCountablePluralGen->metalhorrorów</li>
+    <li>nounEvilCountablePluralGen->porywaczy</li>
+    <li>nounEvilCountablePluralGen->duplikatorów</li>
+    <li>nounEvilCountablePluralGen->mutatorów</li>
+    <li>nounEvilCountablePluralGen->zwiastunów</li>
+    <li>nounEvilCountablePluralGen->wyłupiaczy</li>
+    <li>nounEvilCountablePluralGen->chimer</li>
+    <li>nounEvilCountablePluralGen->pożeraczy</li>
+    <li>nounEvilCountablePluralGen->odłamków</li>
+    <li>nounEvilCountablePluralGen->rzeźb</li>
+    <li>nounEvilCountablePluralGen->ser</li>
+    <li>nounEvilCountablePluralGen->kultów</li>
+    <li>nounEvilCountablePluralGen->kultystów</li>
+    <li>nounEvilCountablePluralGen->kóz</li>
+    <li>nounEvilCountablePluralGen->cieni</li>
+    <li>nounEvilCountablePluralGen->czatowników</li>
+    <li>nounEvilCountablePluralGen->obrzędów</li>
+    <li>nounEvilCountablePluralGen->klątw</li>
+    <li>nounEvilCountablePluralGen->węży</li>
+    <li>nounEvilCountablePluralGen->pożeraczy</li>
+
+    <li>nounEvilUncountable->Mięsomasa</li>
+    <li>nounEvilUncountable->Bioferryt</li>
+    <li>nounEvilUncountable->Śmierciożycie</li>
+    <li>nounEvilUncountable->Archotechnologia</li>
+    <li>nounEvilUncountable->Nekrotechnologia</li>
+    <li>nounEvilUncountable->Horax</li>
+    <li>nounEvilUncountable->Krew</li>
+    <li>nounEvilUncountable->Nieżycie</li>
+    <li>nounEvilUncountable->Moc</li>
+    <li>nounEvilUncountable->Podszepty</li>
+    <li>nounEvilUncountable->Wiedza</li>
+    <li>nounEvilUncountable->Horror</li>
+    <li>nounEvilUncountable->Grzyby</li>
+    <li>nounEvilUncountable->Zgnilizna</li>
+    <li>nounEvilUncountable->Rytuały</li>
+    <li>nounEvilUncountable->Morderstwo</li>
+    <li>nounEvilUncountable->Ciemność</li>
+    <li>nounEvilUncountable->Szaleństwo</li>
+    <li>nounEvilUncountable->Chaos</li>
+    <li>nounEvilUncountable->Rozpacz</li>
+    <li>nounEvilUncountable->Cierpienie</li>
+    <li>nounEvilUncountable->Koszmary</li>
+    <li>nounEvilUncountable->Spaczenie</li>
+    <li>nounEvilUncountable->Zagłada</li>
+    <li>nounEvilUncountable->Groza</li>
+    <li>nounEvilUncountable->Złowrogość</li>
+    <li>nounEvilUncountable->Cienie</li>
+    <li>nounEvilUncountable->Pustka</li>
+    <li>nounEvilUncountable->Złoto</li>
+
+    <li>nounEvilUncountableGen->mięsomasy</li>
+    <li>nounEvilUncountableGen->bioferrytu</li>
+    <li>nounEvilUncountableGen->śmierciożycia</li>
+    <li>nounEvilUncountableGen->archotechnologii</li>
+    <li>nounEvilUncountableGen->nekrotechnologii</li>
+    <li>nounEvilUncountableGen->Horaxa</li>
+    <li>nounEvilUncountableGen->krwi</li>
+    <li>nounEvilUncountableGen->nieżycia</li>
+    <li>nounEvilUncountableGen->mocy</li>
+    <li>nounEvilUncountableGen->podszeptów</li>
+    <li>nounEvilUncountableGen->wiedzy</li>
+    <li>nounEvilUncountableGen->horroru</li>
+    <li>nounEvilUncountableGen->grzybów</li>
+    <li>nounEvilUncountableGen->zgnilizny</li>
+    <li>nounEvilUncountableGen->rytuałów</li>
+    <li>nounEvilUncountableGen->morderstwa</li>
+    <li>nounEvilUncountableGen->ciemności</li>
+    <li>nounEvilUncountableGen->szaleństwa</li>
+    <li>nounEvilUncountableGen->chaosu</li>
+    <li>nounEvilUncountableGen->rozpaczy</li>
+    <li>nounEvilUncountableGen->cierpienia</li>
+    <li>nounEvilUncountableGen->koszmarów</li>
+    <li>nounEvilUncountableGen->spaczenia</li>
+    <li>nounEvilUncountableGen->zagłady</li>
+    <li>nounEvilUncountableGen->grozy</li>
+    <li>nounEvilUncountableGen->złowrogości</li>
+    <li>nounEvilUncountableGen->cieni</li>
+    <li>nounEvilUncountableGen->pustki</li>
+    <li>nounEvilUncountableGen->złota</li>
+
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+
+    <li>nounEvilCountableLower->ghul</li>
+    <li>nounEvilCountableLower->posokolos</li>
+    <li>nounEvilCountableLower->noktol</li>
+    <li>nounEvilCountableLower->powłóczyciel</li>
+    <li>nounEvilCountableLower->mięsostwór</li>
+    <li>nounEvilCountableLower->nociosfera</li>
+    <li>nounEvilCountableLower->zwłoki</li>
+    <li>nounEvilCountableLower->sześcian</li>
+    <li>nounEvilCountableLower->upiór</li>
+    <li>nounEvilCountableLower->metalhorror</li>
+    <li>nounEvilCountableLower->porywacz</li>
+    <li>nounEvilCountableLower->duplikator</li>
+    <li>nounEvilCountableLower->mutator</li>
+    <li>nounEvilCountableLower->zwiastun</li>
+    <li>nounEvilCountableLower->wyłupiacz</li>
+    <li>nounEvilCountableLower->chimera</li>
+    <li>nounEvilCountableLower->pożeracz</li>
+    <li>nounEvilCountableLower->odłamek</li>
+    <li>nounEvilCountableLower->rzeźba</li>
+    <li>nounEvilCountableLower->serum</li>
+    <li>nounEvilCountableLower->kult</li>
+    <li>nounEvilCountableLower->kultysta</li>
+    <li>nounEvilCountableLower->koza</li>
+    <li>nounEvilCountableLower->cień</li>
+    <li>nounEvilCountableLower->czatownik</li>
+    <li>nounEvilCountableLower->obrzędy</li>
+    <li>nounEvilCountableLower->klątwa</li>
+    <li>nounEvilCountableLower->wąż</li>
+    <li>nounEvilCountableLower->pożeracz</li>
+
+    <li>nounEvilUncountableLower->mięsomasa</li>
+    <li>nounEvilUncountableLower->bioferryt</li>
+    <li>nounEvilUncountableLower->śmierciożycie</li>
+    <li>nounEvilUncountableLower->archotechnologia</li>
+    <li>nounEvilUncountableLower->nekrotechnologia</li>
+    <li>nounEvilUncountableLower->horax</li>
+    <li>nounEvilUncountableLower->krew</li>
+    <li>nounEvilUncountableLower->nieżycie</li>
+    <li>nounEvilUncountableLower->moc</li>
+    <li>nounEvilUncountableLower->podszepty</li>
+    <li>nounEvilUncountableLower->wiedza</li>
+    <li>nounEvilUncountableLower->horror</li>
+    <li>nounEvilUncountableLower->grzyby</li>
+    <li>nounEvilUncountableLower->zgnilizna</li>
+    <li>nounEvilUncountableLower->rytuały</li>
+    <li>nounEvilUncountableLower->morderstwo</li>
+    <li>nounEvilUncountableLower->ciemność</li>
+    <li>nounEvilUncountableLower->szaleństwo</li>
+    <li>nounEvilUncountableLower->chaos</li>
+    <li>nounEvilUncountableLower->rozpacz</li>
+    <li>nounEvilUncountableLower->cierpienie</li>
+    <li>nounEvilUncountableLower->koszmary</li>
+    <li>nounEvilUncountableLower->spaczenie</li>
+    <li>nounEvilUncountableLower->zagłada</li>
+    <li>nounEvilUncountableLower->groza</li>
+    <li>nounEvilUncountableLower->złowrogość</li>
+    <li>nounEvilUncountableLower->cienie</li>
+    <li>nounEvilUncountableLower->pustka</li>
+    <li>nounEvilUncountableLower->złoto</li>
+
+    <li>inThe->w głębi</li>
+    <li>inThe->w pobliżu</li>
+    <li>inThe->na granicy</li>
+    <li>inThe->u wrót</li>
+    <li>inThe->w cieniu</li>
+    <li>inThe->wewnątrz</li>
+    <li>inThe->u kresu</li>
     <li>placeEvil->oceanu</li>
     <li>placeEvil->pustki</li>
     <li>placeEvil->otchłani</li>
@@ -327,8 +491,8 @@
     <li>placeEvil->cieni</li>
     <li>placeEvil->grobowców</li>
     <li>placeEvil->ciemności</li>
-    <li>placeEvil->gór</li>
-    <li>placeEvil->komnat</li>
+    <li>placeEvil->góry</li>
+    <li>placeEvil->komnaty</li>
     <li>placeEvil->katakumb</li>
     <li>placeEvil->sanktuarium</li>
     <li>placeEvil->gaju</li>
@@ -338,26 +502,27 @@
     <li>placeEvil->głębin</li>
     <li>placeEvil->podwersum</li>
     <li>placeEvil->jaskiń</li>
-    <li>firstHalfEvil->wibro</li>
-    <li>firstHalfEvil->kelno</li>
-    <li>firstHalfEvil->nekro</li>
-    <li>firstHalfEvil->chrono</li>
-    <li>firstHalfEvil->drago</li>
-    <li>firstHalfEvil->krimi</li>
-    <li>firstHalfEvil->vadi</li>
-    <li>firstHalfEvil->horror</li>
-    <li>firstHalfEvil->nocio</li>
-    <li>firstHalfEvil->kseno</li>
-    <li>firstHalfEvil->psycho</li>
-    <li>firstHalfEvil->voro</li>
-    <li>firstHalfEvil->tyrano</li>
-    <li>firstHalfEvil->inverno</li>
-    <li>firstHalfEvil->fobo</li>
-    <li>firstHalfEvil->leva</li>
+
+    <li>firstHalfEvil->Wibro</li>
+    <li>firstHalfEvil->Kelno</li>
+    <li>firstHalfEvil->Nekro</li>
+    <li>firstHalfEvil->Chrono</li>
+    <li>firstHalfEvil->Drago</li>
+    <li>firstHalfEvil->Krimi</li>
+    <li>firstHalfEvil->Vadi</li>
+    <li>firstHalfEvil->Horror</li>
+    <li>firstHalfEvil->Nocio</li>
+    <li>firstHalfEvil->Kseno</li>
+    <li>firstHalfEvil->Psycho</li>
+    <li>firstHalfEvil->Voro</li>
+    <li>firstHalfEvil->Tyrano</li>
+    <li>firstHalfEvil->Inverno</li>
+    <li>firstHalfEvil->Fobo</li>
+    <li>firstHalfEvil->Leva</li>
     <li>suffixEvil->nomikon</li>
     <li>suffixEvil->doron</li>
     <li>suffixEvil->nax</li>
-    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->novikon</li>
     <li>suffixEvil->vokon</li>
     <li>suffixEvil->mancja</li>
     <li>suffixEvil->gorgon</li>
@@ -372,10 +537,162 @@
     <li>suffixEvil->nemex</li>
     <li>suffixEvil->vexor</li>
     <li>suffixEvil->tronix</li>
-    <li>suffixEvil->cryptex</li>
+    <li>suffixEvil->krypteks</li>
     <li>suffixEvil->chaonix</li>
     <li>suffixEvil->nix</li>
     <li>suffixEvil->vix</li>
+
+    <li>adjectiveNounEvil(p=25)->[adjectiveEvilM] [nounEvilM]</li>
+    <li>adjectiveNounEvil(p=18)->[adjectiveEvilF] [nounEvilF]</li>
+    <li>adjectiveNounEvil(p=8)->[adjectiveEvilN] [nounEvilN]</li>
+    <li>adjectiveNounEvil(p=7)->[adjectiveEvilPl] [nounEvilPl]</li>
+
+    <li>nounEvilM->ghul</li>
+    <li>nounEvilM->posokolos</li>
+    <li>nounEvilM->noktol</li>
+    <li>nounEvilM->powłóczyciel</li>
+    <li>nounEvilM->mięsostwór</li>
+    <li>nounEvilM->sześcian</li>
+    <li>nounEvilM->upiór</li>
+    <li>nounEvilM->metalhorror</li>
+    <li>nounEvilM->porywacz</li>
+    <li>nounEvilM->duplikator</li>
+    <li>nounEvilM->mutator</li>
+    <li>nounEvilM->zwiastun</li>
+    <li>nounEvilM->wyłupiacz</li>
+    <li>nounEvilM->pożeracz</li>
+    <li>nounEvilM->odłamek</li>
+    <li>nounEvilM->kult</li>
+    <li>nounEvilM->kultysta</li>
+    <li>nounEvilM->cień</li>
+    <li>nounEvilM->czatownik</li>
+    <li>nounEvilM->wąż</li>
+    <li>nounEvilM->pożeracz</li>
+    <li>nounEvilM->bioferryt</li>
+    <li>nounEvilM->Horax</li>
+    <li>nounEvilM->horror</li>
+    <li>nounEvilM->chaos</li>
+
+    <li>adjectiveEvilM(p=3)->Pustkowy</li>
+    <li>adjectiveEvilM->Złoty</li>
+    <li>adjectiveEvilM->Nienaturalny</li>
+    <li>adjectiveEvilM->Mroczny</li>
+    <li>adjectiveEvilM->Czarny</li>
+    <li>adjectiveEvilM->Głębinowy</li>
+    <li>adjectiveEvilM->Starożytny</li>
+    <li>adjectiveEvilM->Spaczony</li>
+    <li>adjectiveEvilM->Krwawy</li>
+    <li>adjectiveEvilM->Chaotyczny</li>
+    <li>adjectiveEvilM->Otchłanny</li>
+    <li>adjectiveEvilM->Niesamowity</li>
+    <li>adjectiveEvilM->Widmowy</li>
+    <li>adjectiveEvilM->Tajemniczy</li>
+    <li>adjectiveEvilM->Szepczący</li>
+    <li>adjectiveEvilM->Zapomniany</li>
+    <li>adjectiveEvilM->Ukryty</li>
+    <li>adjectiveEvilM->Zakazany</li>
+    <li>adjectiveEvilM->Podziemny</li>
+    <li>adjectiveEvilM->Wężowy</li>
+
+    <li>nounEvilF->nociosfera</li>
+    <li>nounEvilF->chimera</li>
+    <li>nounEvilF->rzeźba</li>
+    <li>nounEvilF->koza</li>
+    <li>nounEvilF->klątwa</li>
+    <li>nounEvilF->mięsomasa</li>
+    <li>nounEvilF->archotechnologia</li>
+    <li>nounEvilF->nekrotechnologia</li>
+    <li>nounEvilF->krew</li>
+    <li>nounEvilF->moc</li>
+    <li>nounEvilF->wiedza</li>
+    <li>nounEvilF->zgnilizna</li>
+    <li>nounEvilF->ciemność</li>
+    <li>nounEvilF->rozpacz</li>
+    <li>nounEvilF->zagłada</li>
+    <li>nounEvilF->groza</li>
+    <li>nounEvilF->złowrogość</li>
+    <li>nounEvilF->pustka</li>
+
+    <li>adjectiveEvilF(p=3)->Pustkowa</li>
+    <li>adjectiveEvilF->Złota</li>
+    <li>adjectiveEvilF->Nienaturalna</li>
+    <li>adjectiveEvilF->Mroczna</li>
+    <li>adjectiveEvilF->Czarna</li>
+    <li>adjectiveEvilF->Głębinowa</li>
+    <li>adjectiveEvilF->Starożytna</li>
+    <li>adjectiveEvilF->Spaczona</li>
+    <li>adjectiveEvilF->Krwawa</li>
+    <li>adjectiveEvilF->Chaotyczna</li>
+    <li>adjectiveEvilF->Otchłanna</li>
+    <li>adjectiveEvilF->Niesamowita</li>
+    <li>adjectiveEvilF->Widmowa</li>
+    <li>adjectiveEvilF->Tajemnicza</li>
+    <li>adjectiveEvilF->Szepcząca</li>
+    <li>adjectiveEvilF->Zapomniana</li>
+    <li>adjectiveEvilF->Ukryta</li>
+    <li>adjectiveEvilF->Zakazana</li>
+    <li>adjectiveEvilF->Podziemna</li>
+    <li>adjectiveEvilF->Wężowa</li>
+
+    <li>nounEvilN->serum</li>
+    <li>nounEvilN->śmierciożycie</li>
+    <li>nounEvilN->nieżycie</li>
+    <li>nounEvilN->morderstwo</li>
+    <li>nounEvilN->szaleństwo</li>
+    <li>nounEvilN->cierpienie</li>
+    <li>nounEvilN->spaczenie</li>
+    <li>nounEvilN->złoto</li>
+
+    <li>adjectiveEvilN(p=3)->Pustkowe</li>
+    <li>adjectiveEvilN->Złote</li>
+    <li>adjectiveEvilN->Nienaturalne</li>
+    <li>adjectiveEvilN->Mroczne</li>
+    <li>adjectiveEvilN->Czarne</li>
+    <li>adjectiveEvilN->Głębinowe</li>
+    <li>adjectiveEvilN->Starożytne</li>
+    <li>adjectiveEvilN->Spaczone</li>
+    <li>adjectiveEvilN->Krwawe</li>
+    <li>adjectiveEvilN->Chaotyczne</li>
+    <li>adjectiveEvilN->Otchłanne</li>
+    <li>adjectiveEvilN->Niesamowite</li>
+    <li>adjectiveEvilN->Widmowe</li>
+    <li>adjectiveEvilN->Tajemnicze</li>
+    <li>adjectiveEvilN->Szepczące</li>
+    <li>adjectiveEvilN->Zapomniane</li>
+    <li>adjectiveEvilN->Ukryte</li>
+    <li>adjectiveEvilN->Zakazane</li>
+    <li>adjectiveEvilN->Podziemne</li>
+    <li>adjectiveEvilN->Wężowe</li>
+
+    <li>nounEvilPl->zwłoki</li>
+    <li>nounEvilPl->obrzędy</li>
+    <li>nounEvilPl->podszepty</li>
+    <li>nounEvilPl->grzyby</li>
+    <li>nounEvilPl->rytuały</li>
+    <li>nounEvilPl->koszmary</li>
+    <li>nounEvilPl->cienie</li>
+
+    <li>adjectiveEvilPl(p=3)->Pustkowe</li>
+    <li>adjectiveEvilPl->Złote</li>
+    <li>adjectiveEvilPl->Nienaturalne</li>
+    <li>adjectiveEvilPl->Mroczne</li>
+    <li>adjectiveEvilPl->Czarne</li>
+    <li>adjectiveEvilPl->Głębinowe</li>
+    <li>adjectiveEvilPl->Starożytne</li>
+    <li>adjectiveEvilPl->Spaczone</li>
+    <li>adjectiveEvilPl->Krwawe</li>
+    <li>adjectiveEvilPl->Chaotyczne</li>
+    <li>adjectiveEvilPl->Otchłanne</li>
+    <li>adjectiveEvilPl->Niesamowite</li>
+    <li>adjectiveEvilPl->Widmowe</li>
+    <li>adjectiveEvilPl->Tajemnicze</li>
+    <li>adjectiveEvilPl->Szepczące</li>
+    <li>adjectiveEvilPl->Zapomniane</li>
+    <li>adjectiveEvilPl->Ukryte</li>
+    <li>adjectiveEvilPl->Zakazane</li>
+    <li>adjectiveEvilPl->Podziemne</li>
+    <li>adjectiveEvilPl->Wężowe</li>
+
   </Namer_Tome.rulePack.rulesStrings>
   
 </LanguageData>

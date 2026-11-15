@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -14,17 +14,19 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->wyspa [narrative_name]</li>
-    <li>terrain_word(p=4)->wyspy</li>
-    <li>terrain_word(p=3)->wysepki</li>
-    <li>terrain_word(p=3)->archipelag</li>
-    <li>terrain_word->rafa</li>
-    <li>terrain_word->atol</li>
-    <li>terrain_word->kamienie</li>
-    <li>terrain_word->wysepeczki</li>
-    <li>terrain_word->punkty</li>
-    <li>terrain_word->łańcuch</li>
-  </NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name(p=3)->Wyspy Wschodniego Wiatru</li>
+    <li>r_name(p=3)->Archipelag Tysiąca Słońc</li>
+    <li>r_name(p=3)->Wyspy Srebrnych Mew</li>
+  <li>r_name(p=0.2)->Wyspy [narrative_name]</li>
+    <li>terrain_word(p=4)->Wyspy</li>
+    <li>terrain_word(p=3)->Wysepki</li>
+    <li>terrain_word(p=3)->Archipelag</li>
+    <li>terrain_word->Rafa</li>
+    <li>terrain_word->Atol</li>
+    <li>terrain_word->Skały</li>
+    <li>terrain_word->Ostrów</li>
+    <li>terrain_word->Cypel</li>
+    <li>terrain_word->Łańcuch Wysp</li></NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -36,7 +38,18 @@
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerAridShrubland.rulePack.rulesStrings>TODO</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>r_name(p=3)->Bezkresne Pustkowia</li>
+    <li>r_name(p=3)->Wyschnięta Równina</li>
+    <li>r_name(p=3)->Czerwony Płaskowyż</li>
+  <li>terrain_word(p=4)->Pustkowia</li>
+    <li>terrain_word(p=4)->Stepy</li>
+    <li>terrain_word(p=2)->Płaskowyż</li>
+    <li>terrain_word(p=2)->Zarośla</li>
+    <li>terrain_word->Pustynia</li>
+    <li>terrain_word->Busz</li>
+    <li>terrain_word->Skrub</li>
+    <li>terrain_word->Nieużytki</li></NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -46,7 +59,16 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerBay.rulePack.rulesStrings>TODO</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>r_name(p=3)->Cicha Zatoka</li>
+    <li>r_name(p=3)->Zatoka Białych Mew</li>
+    <li>r_name(p=3)->Zatoka Złotego Brzegu</li>
+  <li>r_name(p=0.2)->Zatoka [narrative_name]</li>
+    <li>terrain_word(p=6)->Zatoka</li>
+    <li>terrain_word->Zakole</li>
+    <li>terrain_word->Odnoga</li>
+    <li>terrain_word->Kotwicowisko</li>
+    <li>terrain_word->Przystań</li></NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -57,7 +79,17 @@
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerBorealForest.rulePack.rulesStrings>TODO</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>r_name(p=3)->Czarny Bór</li>
+    <li>r_name(p=3)->Północna Tajga</li>
+    <li>r_name(p=3)->Mroźny Las</li>
+   <li>terrain_word(p=6)->Las</li>
+    <li>terrain_word(p=3)->Tajga</li>
+    <li>terrain_word->Zagajnik</li>
+    <li>terrain_word->Bor</li>
+    <li>terrain_word->Puszcza</li>
+    <li>terrain_word->Gąszcz</li>
+    <li>terrain_word->Knieja</li></NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -83,7 +115,32 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>TODO</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>r_name(p=3)->Biała Pustynia</li>
+    <li>r_name(p=3)->Bezbrzeżne Pustkowia</li>
+    <li>r_name(p=3)->Spalony Płaskowyż</li>
+ <li>r_name(p=0.4)->[terrain_word] [narrative_name]</li>
+    <li>desert_adjective->płaska</li>
+    <li>desert_adjective->biała</li>
+    <li>desert_adjective->bezkresna</li>
+    <li>desert_adjective->bezlitosna</li>
+    <li>desert_adjective->wyschnięta</li>
+    <li>desert_adjective->sucha</li>
+    <li>desert_adjective->rozległa</li>
+    <li>desert_adjective->spalona słońcem</li>
+    <li>desert_adjective->słoneczna</li>
+    <li>desert_adjective->oślepiająca</li>
+    <li>desert_adjective->gorąca</li>
+    <li>desert_adjective->dusna</li>
+    <li>desert_adjective->piaszczysta</li>
+    <li>desert_adjective->skalista</li>
+    <li>terrain_word(p=6)->Pustynia</li>
+    <li>terrain_word->Płaskowyż</li>
+    <li>terrain_word->Równina</li>
+    <li>terrain_word->Kotlina</li>
+    <li>terrain_word->Odpady</li>
+    <li>terrain_word->Pustkowia</li>
+    <li>terrain_word->Nieużytki</li></NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -91,7 +148,17 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerForest.rulePack.rulesStrings>TODO</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>r_name(p=3)->Czarny Las</li>
+    <li>r_name(p=3)->Ciemny Las</li>
+    <li>r_name(p=3)->Las Pawianów</li>
+    <li>r_name(p=3)->Puszcza Czarnych Dębów</li>
+    <li>r_name(p=3)->Srebrny Gaj</li>
+    <li>r_name(p=3)->Królewska Puszcza</li>
+ <li>terrain_word(p=6)->Las</li>
+    <li>terrain_word->Gaj</li>
+    <li>terrain_word->Puszcza</li>
+    <li>terrain_word->Gąszcz</li></NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -103,7 +170,20 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>r_name(p=3)->Biała Pokrywa Lodowa</li>
+    <li>r_name(p=3)->Lodowa Pustka</li>
+    <li>r_name(p=3)->Pokrywa Lodowa Białej Gęsi</li>
+    <li>r_name(p=3)->Wielkie Pole Lodowe</li>
+  <li>terrain_word->Pokrywa Lodowa</li>
+    <li>terrain_word->Pustka Lodowa</li>
+    <li>terrain_word(p=0.5)->Obszar Lodowy</li>
+    <li>terrain_word(p=0.3)->Pole Lodowe</li>
+    <li>terrain_word(p=0.3)->Przestrzeń Lodowa</li>
+    <li>terrain_word(p=0.3)->Płaskowyż Lodowy</li>
+    <li>terrain_word(p=0.3)->Połać Lodu</li>
+    <li>terrain_word(p=0.3)->trakt lodowy</li
+	></NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -115,18 +195,44 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>r_name(p=3)->Wyspa Białej Skały</li>
+    <li>r_name(p=3)->Samotna Wyspa</li>
+    <li>r_name(p=3)->Wyspa Wysokiej Stopy</li>
+  <li>r_name(p=0.2)->Wyspa [narrative_name]</li>
+    <li>terrain_word(p=4)->Wyspa</li>
+    <li>terrain_word(p=2)->Wysepka</li>
+    <li>terrain_word->Rafa</li>
+    <li>terrain_word->Atol</li>
+    <li>terrain_word->Skała</li>
+    <li>terrain_word->Ostrów</li>
+    <li>terrain_word->Cypel</li></NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
+    <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
     <li>terrain_word->basin</li>
     <li>terrain_word->reservoir</li>
     <li>terrain_word(p=0.3)->puddle</li>
+    <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>r_name(p=3)->Jezioro Urwistego Jaguara</li>
+    <li>r_name(p=3)->Jezioro Srebrnych Ryb</li>
+    <li>r_name(p=3)->Jezioro Czarnego Łabędzia</li>
+    <li>r_name(p=3)->Jezioro Głębokiej Wody</li>
+ <li>r_name->Jezioro [narrative_name]</li>
+    <li>terrain_word(p=6)->Jezioro</li>
+    <li>terrain_word->Morze</li>
+    <li>terrain_word->Staw</li>
+    <li>terrain_word->Dorzecze</li>
+    <li>terrain_word->Zbiornik</li>
+    <li>terrain_word(p=0.3)->Kałuża</li>
+    <li>terrain_word(p=0.3)->Laguna</li>
+    <li>terrain_word(p=0.3)->Jezioro Rynnowe</li></NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -136,7 +242,16 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>r_name(p=3)->Czarne Góry</li>
+    <li>r_name(p=3)->Wysokie Szczyty</li>
+    <li>r_name(p=3)->Pasmo Siedmiu Szczytów</li>
+  <li>r_name(p=0.2)->Góra [narrative_name]</li>
+    <li>terrain_word(p=5)->Góry</li>
+    <li>terrain_word(p=2)->Pasmo</li>
+    <li>terrain_word->Szczyty</li>
+    <li>terrain_word->Wzgórza</li>
+    <li>terrain_word->Klify</li></NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -157,7 +272,27 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>TODO</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>r_name(p=3)->Błękitny Ocean</li>
+    <li>r_name(p=3)->Ocean Północnych Wiatrów</li>
+    <li>r_name(p=3)->Ocean Wielkiej Burzy</li>
+  <li>r_name(p=0.4)->[terrain_word] [narrative_name]</li>
+    <li>ocean_adjective->niebieski</li>
+    <li>ocean_adjective->biały</li>
+    <li>ocean_adjective->szary</li>
+    <li>ocean_adjective->czysty</li>
+    <li>ocean_adjective->wietrzny</li>
+    <li>ocean_adjective->sztormowy</li>
+    <li>ocean_adjective->spokojny</li>
+    <li>ocean_adjective->szeroki</li>
+    <li>ocean_adjective->bezkresny</li>
+    <li>ocean_adjective->płaski</li>
+    <li>ocean_adjective->nieruchomy</li>
+    <li>ocean_adjective->falujący</li>
+    <li>ocean_adjective->łagodny</li>
+    <li>terrain_word(p=6)->Ocean</li>
+    <li>terrain_word(p=3)->Morze</li>
+    <li>terrain_word->Bezkres</li></NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -168,14 +303,32 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>TODO</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>r_name(p=3)->Przylądek Wschodniego Wiatru</li>
+    <li>r_name(p=3)->Cypel Białej Skały</li>
+    <li>r_name(p=3)->Półwysep Srebrnych Mew</li>
+  <li>r_name(p=0.2)->Cypel [narrative_name]</li>
+    <li>r_name(p=0.2)->Przylądek [narrative_name]</li>
+    <li>terrain_word(p=5)->Półwysep</li>
+    <li>terrain_word(p=2)->Cypel</li>
+    <li>terrain_word->Przylądek</li>
+    <li>terrain_word->Mierzeja</li>
+    <li>terrain_word->Róg</li></NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
+    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
-    <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
+    <li>terrain_word->lake</li>
   -->
-  <NamerSea.rulePack.rulesStrings>TODO</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>r_name(p=3)->Morze Białej Gęsi</li>
+    <li>r_name(p=3)->Morze Wschodniego Wiatru</li>
+    <li>r_name(p=3)->Morze Złotego Brzegu</li>
+ <li>r_name(p=0.1)->Morze [narrative_name]</li>
+    <li>terrain_word(p=6)->Morze</li>
+    <li>terrain_word->Ocean</li>
+    <li>terrain_word->Jezioro</li></NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -197,7 +350,28 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>r_name(p=3)->Czarne Bagno</li>
+    <li>r_name(p=3)->Ciche Mokradła</li>
+    <li>r_name(p=3)->Trzęsawisko Nocnych Ptaków</li>
+<li>r_name(p=0.1)->Trzęsawisko [narrative_name]</li>
+    <li>r_name(p=0.3)->[terrain_word] [narrative_name]</li>
+    <li>swamp_adjective->mokre</li>
+    <li>swamp_adjective->parne</li>
+    <li>swamp_adjective->duszące</li>
+    <li>swamp_adjective->zgniłe</li>
+    <li>swamp_adjective->butwiejące</li>
+    <li>swamp_adjective->zarośnięte</li>
+    <li>swamp_adjective->splątane</li>
+    <li>swamp_adjective->pnączowe</li>
+    <li>swamp_adjective->cierniste</li>
+    <li>terrain_word(p=6)->Bagno</li>
+    <li>terrain_word->Rozlewisko</li>
+    <li>terrain_word->Mokradła</li>
+    <li>terrain_word->Bagnisko</li>
+    <li>terrain_word->Torfowisko</li>
+    <li>terrain_word->Moczary</li>
+    <li>terrain_word->Trzęsawisko</li></NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -215,7 +389,24 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>r_name(p=3)->Czarna Puszcza</li>
+    <li>r_name(p=3)->Wilgotny Las</li>
+    <li>r_name(p=3)->Puszcza Cichych Ptaków</li>
+  <li>r_name(p=0.3)->[terrain_word] [narrative_name]</li>
+    <li>rainforest_adjective->wilgotny</li>
+    <li>rainforest_adjective->parny</li>
+    <li>rainforest_adjective->duszący</li>
+    <li>rainforest_adjective->zarośnięty</li>
+    <li>rainforest_adjective->splątany</li>
+    <li>rainforest_adjective->pnączowy</li>
+    <li>rainforest_adjective->ciernisty</li>
+    <li>terrain_word(p=6)->Las Deszczowy</li>
+    <li>terrain_word(p=3)->Dżungla</li>
+    <li>terrain_word->Las</li>
+    <li>terrain_word->Zagajnik</li>
+    <li>terrain_word->Matecznik</li>
+    <li>terrain_word->Gąszcz</li></NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -231,7 +422,21 @@
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
   -->
-  <NamerTundra.rulePack.rulesStrings>TODO</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>r_name(p=3)->Biała Tundra</li>
+    <li>r_name(p=3)->Zimne Pustkowia</li>
+    <li>r_name(p=3)->Północny Bezkres</li>
+  <li>terrain_word(p=4)->Płaskowyż</li>
+    <li>terrain_word(p=4)->Pustkowia</li>
+    <li>terrain_word(p=2)->Tajga</li>
+    <li>terrain_word->Zarośla</li>
+    <li>terrain_word->Step</li>
+    <li>terrain_word->Tundra</li>
+    <li>terrain_word->Busz</li>
+    <li>terrain_word->Nieużytki</li>
+    <li>terrain_word->Bezkres</li>
+    <li>terrain_word->Preria</li>
+    <li>terrain_word->Równina</li></NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
@@ -294,6 +499,117 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[terrain_word] [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word]: [storyname]</li>
+    <li>narrative_name->Czarnego Boru</li>
+    <li>narrative_name->Czarnego Dębu</li>
+    <li>narrative_name->Czarnego Kruka</li>
+    <li>narrative_name->Ciemnego Lasu</li>
+    <li>narrative_name->Urwistego Jaguara</li>
+    <li>narrative_name->Wysokiej Stopy</li>
+    <li>narrative_name->Białej Gęsi</li>
+    <li>narrative_name->Samotnego Wilka</li>
+    <li>narrative_name->Srebrnego Lisa</li>
+    <li>narrative_name->Złotego Orła</li>
+    <li>narrative_name->Czerwonego Jastrzębia</li>
+    <li>narrative_name->Białego Jelenia</li>
+    <li>narrative_name->Złotej Sosny</li>
+    <li>narrative_name->Starego Lasu</li>
+    <li>narrative_name->Cichej Doliny</li>
+    <li>narrative_name->Zielonego Wzgórza</li>
+    <li>narrative_name->Wielkiego Kamienia</li>
+    <li>narrative_name->Zaginionego Króla</li>
+    <li>narrative_name->Białej Gwiazdy</li>
+    <li>narrative_name->Żelaznej Korony</li>
+    <li>narrative_name->Srebrnej Rzeki</li>
+    <li>narrative_name->Czarnej Wieży</li>
+    <li>narrative_name->Czerwonego Księżyca</li>
+    <li>narrative_name->Zapomnianego Wędrowca</li>
+    <li>narrative_name->Starego Szlaku</li>
+    <li>narrative_name->Głębokiego Cienia</li>
+    <li>narrative_name->Zimnego Wiatru</li>
+    <li>narrative_name->Wielkiej Burzy</li>
+    <li>narrative_name->Ostatniej Gwiazdy</li>
+    <li>narrative_name->Rozbitej Tarczy</li>
+    <li>narrative_name->Śpiącego Niedźwiedzia</li>
+    <li>narrative_name->Dzikich Koni</li>
+    <li>narrative_name->Ognistego Wzgórza</li>
+    <li>narrative_name->Siedmiu Szczytów</li>
+    <li>narrative_name->Tysiąca Świerków</li>
+    <li>narrative_name->Błękitnej Mgły</li>
+    <li>narrative_name->Smutnego Łabędzia</li>
+    <li>narrative_name->Ciemnej Doliny</li>
+    <li>narrative_name->Nocnego Łowcy</li>
+    <li>narrative_name->Wielkiej Północy</li>
+    <li>narrative_name->Cichego Świtu</li>
+    <li>narrative_name->Wschodzącego Słońca</li>
+    <li>narrative_name->Północnego Wiatru</li>
+    <li>narrative_name->Złotego Liścia</li>
+    <li>narrative_name->Królewskiej Straży</li>
+    <li>narrative_name->Zielonego Gaju</li>
+    <li>narrative_name->Srebrnego Dzwonu</li>
+    <li>narrative_name->Wysokiej Skały</li>
+    <li>narrative_name->Ostatniego Władcy</li>
+    <li>narrative_name->Dziewięciu Kruków</li>
+    <li>narrative_name->Dalekiego Brzegu</li>
+    <li>narrative_name->Dawnego Królestwa</li>
+    <li>narrative_name->Wielkiej Gęsi</li>
+    <li>narrative_name->Czarnej Pantery</li>
+    <li>narrative_name->Białej Wierzby</li>
+    <li>narrative_name->Wężowej Skały</li>
+    <li>narrative_name->Słonecznego Brzegu</li>
+    <li>narrative_name->Stalowego Miecza</li>
+    <li>narrative_name->Niebieskiego Kamienia</li>
+    <li>narrative_name->Zimnej Nocy</li>
+    <li>narrative_name->Płaczącej Wierzby</li>
+    <li>narrative_name->Cichego Serca</li>
+    <li>narrative_name->Wielkiego Orła</li>
+    <li>storyname(p=50)->[subject] — [story_result]</li>
+    <li>storyname(p=2)->[subject] — [BodyPart]</li>
+    <li>storyname->[subject] — [Gore]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->głupota</li>
+    <li>story_result->występek</li>
+    <li>story_result->szaleństwo</li>
+    <li>story_result->pomyłka</li>
+    <li>story_result->wina</li>
+    <li>story_result->błąd</li>
+    <li>story_result->urojenie</li>
+    <li>story_result->radość</li>
+    <li>story_result->zachwyt</li>
+    <li>story_result->cud</li>
+    <li>story_result->duma</li>
+    <li>story_result->klejnot</li>
+    <li>story_result->nagroda</li>
+    <li>story_result->łup</li>
+    <li>story_result->honor</li>
+    <li>story_result->wygrana</li>
+    <li>story_result->trofeum</li>
+    <li>story_result->zarozumiałość</li>
+    <li>story_result->arogancja</li>
+    <li>story_result->opór</li>
+    <li>story_result->strata</li>
+    <li>story_result->dług</li>
+    <li>story_result->upadek</li>
+    <li>story_result->zniszczenie</li>
+    <li>story_result->kataklizm</li>
+    <li>story_result->ruina</li>
+    <li>story_result->zagłada</li>
+    <li>story_result->klęska</li>
+    <li>story_result->obalenie</li>
+    <li>story_result->koniec</li>
+    <li>story_result->wycofanie</li>
+    <li>story_result->osiągnięcie</li>
+    <li>story_result->finał</li>
+    <li>story_result->blef</li>
+    <li>story_result->fortel</li>
+    <li>story_result->podstęp</li>
+    <li>story_result->pozory</li>
+    <li>story_result->oszustwo</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

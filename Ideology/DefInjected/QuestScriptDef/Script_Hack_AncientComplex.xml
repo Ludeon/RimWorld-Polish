@@ -1,19 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
-  
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
     <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
   -->
   <AncientComplex_Standard.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->Terminal zhakowany. {COUNT} / [terminalCount] ukończony.</li>
-    <li>allTerminalsHackedMessage->Zhakowałeś wszystkie terminale i odkryłeś tajne informacje o [relic_name]! Możesz odejść.</li>
+    <li>terminalHackedMessage->Terminal zhakowany. Ukończono: {COUNT} z [terminalCount].</li>
+    <li>allTerminalsHackedMessage->Wszystkie terminale zostały zhakowane. Zdobyto tajne informacje dotyczące relikwii "[relic_name]". Możesz opuścić kompleks.</li>
   </AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
   <AncientComplex_Standard.questDescriptionRules.rulesStrings>
-    <li>questDescription->Dowiedziałeś się, że w pobliżu znajduje się starożytny kompleks. Podobno zawiera on informacje o [relic_name].\n\nJeśli uda ci się włamać do struktury i zhakować znajdujące się w niej komputery, będzie można zebrać te informacje.\n\nUważaj - w środku mogą znajdować się różne niebezpieczeństwa, a aktywność w strukturze może przyciągnąć także innych wrogów.</li>
+    <li>questDescription->W pobliżu odkryto starożytny kompleks, który podobno skrywa informacje o relikwii "[relic_name]".\n\nMożesz wejść do środka i zhakować znajdujące się tam komputery, aby zdobyć te informacje.\n\nZachowaj ostrożność: w kompleksie mogą kryć się rozmaite zagrożenia. Działalność wewnątrz może również zwabić wrogów.</li>
   </AncientComplex_Standard.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=6)->The [complexAdj] [complex]</li>
@@ -31,15 +30,14 @@
   <AncientComplex_Standard.questNameRules.rulesStrings>
     <li>questName(p=6)->[complexAdj] [complex]</li>
     <li>questName->[dig]</li>
-    <li>complexAdj->starożytny</li>
-    <li>complexAdj->stary</li>
-    <li>complexAdj->zakurzony</li>
-    <li>complexAdj->sekretny</li>
+    <li>complexAdj->Starożytny</li>
+    <li>complexAdj->Zapomniany</li>
+    <li>complexAdj->Zarośnięty</li>
+    <li>complexAdj->Tajny</li>
     <li>complex->kompleks</li>
-    <li>complex->związek</li>
-    <li>complex->układ</li>
-    <li>dig->wykop</li>
-    <li>dig->wykopy</li>
+    <li>complex->zespół zabudowań</li>
+    <li>complex->obiekt</li>
+    <li>dig->Wykopaliska</li>
+    <li>dig->Prace wykopaliskowe</li>
   </AncientComplex_Standard.questNameRules.rulesStrings>
-  
 </LanguageData>

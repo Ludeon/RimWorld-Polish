@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -50,7 +50,58 @@
     <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
-  <GlobalUtility.rulePack.rulesStrings>TODO</GlobalUtility.rulePack.rulesStrings>
+  <GlobalUtility.rulePack.rulesStrings>  <li>Trans->z</li>
+    <li>Trans->dla</li>
+    <li>Trans->przez</li>
+    <li>Trans->wraz z</li>
+
+    <li>Character(p=6)->[PersonJob]</li>
+    <li>Character(p=4)->[Animal]</li>
+    <li>Character(p=3)->[Enemy]</li>
+    <li>Character->[Mechanoid]</li>
+
+    <li>Quantity_adjphrase->dwóch</li>
+    <li>Quantity_adjphrase->trzech</li>
+    <li>Quantity_adjphrase->czterech</li>
+    <li>Quantity_adjphrase->pięciu</li>
+    <li>Quantity_adjphrase->sześciu</li>
+    <li>Quantity_adjphrase->siedmiu</li>
+    <li>Quantity_adjphrase->ośmiu</li>
+    <li>Quantity_adjphrase->dziewięciu</li>
+    <li>Quantity_adjphrase->dziesięciu</li>
+    <li>Quantity_adjphrase->kilku</li>
+    <li>Quantity_adjphrase->grupa</li>
+    <li>Quantity_adjphrase->duża grupa</li>
+    <li>Quantity_adjphrase->dziesiątki</li>
+    <li>Quantity_adjphrase->setki</li>
+    <li>Quantity_adjphrase->tysiąc</li>
+    <li>Quantity_adjphrase->tysiące</li>
+
+    <li>Shape->trójkąt</li>
+    <li>Shape->kwadrat</li>
+    <li>Shape->prostokąt</li>
+    <li>Shape->stożek</li>
+    <li>Shape->linia</li>
+    <li>Shape->serce</li>
+    <li>Shape->gwiazda</li>
+    <li>Shape->koło</li>
+    <li>Shape->elipsa</li>
+
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+
+    <li>PersonalCharacteristic(p=0.15)->genitalia</li>
+    <li>PersonalCharacteristic(p=0.15)->owłosienie łonowe</li>
+    <li>PersonalCharacteristic(p=0.15)->owłosienie na ciele</li>
+    <li>PersonalCharacteristic(p=0.15)->nawyki toaletowe</li>
+    <li>PersonalCharacteristic(p=0.15)->sprawność seksualna</li>
+    <li>PersonalCharacteristic(p=0.15)->preferencje seksualne</li>
+    <li>PersonalCharacteristic(p=0.15)->doświadczenie seksualne</li></GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
     <li>TalkTopicAny->[TalkTopicLight]</li>
@@ -91,6 +142,46 @@
     <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
     <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
   -->
-  <TalkTopicsUtility.rulePack.rulesStrings>TODO</TalkTopicsUtility.rulePack.rulesStrings>
+  <TalkTopicsUtility.rulePack.rulesStrings>
+    <li>TalkTopicAny->[TalkTopicLight]</li>
+    <li>TalkTopicAny->[TalkTopicHeavy]</li>
+    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->związek między [talktopicheavyfile] a [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->powiązanie między [talktopicheavyfile] a [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->relacja między [talktopicheavyfile] a [talktopicheavyfile]</li>
+
+    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
+    <li>TalkTopicLight->warzywa ([Vegetable])</li>
+    <li>TalkTopicLight->jedzenie warzyw ([Vegetable])</li>
+    <li>TalkTopicLight->gotowanie z użyciem warzyw ([Vegetable])</li>
+    <li>TalkTopicLight->gra ([Game])</li>
+    <li>TalkTopicLight->granie w [Game]</li>
+    <li>TalkTopicLight->ćwiczenie gry w [Game]</li>
+    <li>TalkTopicLight->nauka gry w [Game]</li>
+    <li>TalkTopicLight->zwierzęta ([Animal])</li>
+    <li>TalkTopicLight->tresura zwierząt ([Animal])</li>
+    <li>TalkTopicLight->oswajanie zwierząt ([Animal])</li>
+    <li>TalkTopicLight->walka ze zwierzętami ([Animal])</li>
+    <li>TalkTopicLight->szalone zwierzęta ([Animal])</li>
+    <li>TalkTopicLight->broń ([Weapon])</li>
+    <li>TalkTopicLight->używanie broni ([Weapon])</li>
+    <li>TalkTopicLight->ćwiczenia z bronią ([Weapon])</li>
+    <li>TalkTopicLight->elementy terenu ([TerrainFeature])</li>
+    <li>TalkTopicLight->obiekty naturalne ([NaturalObject])</li>
+    <li>TalkTopicLight->drzewa ([TreeType])</li>
+    <li>TalkTopicLight->zawód ([PersonJob])</li>
+    <li>TalkTopicLight->przyjaźnie nastawieni specjaliści ([PersonJob])</li>
+    <li>TalkTopicLight->wrodzy specjaliści ([PersonJob])</li>
+    <li>TalkTopicLight->wrogowie ([Enemy])</li>
+    <li>TalkTopicLight->walka z wrogami ([Enemy])</li>
+    <li>TalkTopicLight->ubiór ([Apparel])</li>
+    <li>TalkTopicLight->noszenie odzieży ([Apparel])</li>
+    <li>TalkTopicLight->szycie odzieży ([Apparel])</li>
+
+    <li>talktopicheavyfile(p=0.15)->seks</li>
+    <li>talktopicheavyfile(p=0.15)->sztuka uwodzenia</li>
+    <li>talktopicheavyfile(p=0.15)->seksualność zwierząt</li>
+    <li>talktopicheavyfile(p=0.15)->fetysze seksualne</li>
+  </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>

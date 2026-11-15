@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: try to get to know -->
@@ -40,44 +40,61 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef] o [subject].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef] o [subject].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zachęcił [RECIPIENT_nameDef] do [talkabout] [subject].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zachęciła [RECIPIENT_nameDef] do [talkabout] [subject].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zaoferował szansę dla [RECIPIENT_nameDef], aby [talkabout] [subject].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zaoferowała szansę dla [RECIPIENT_nameDef], aby [talkabout] [subject].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zapytał [RECIPIENT_nameDef] o [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zapytała [RECIPIENT_nameDef] o [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] wyraził zainteresowanie [RECIPIENT_nameDef] cechą [PersonalCharacteristic].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] wyraziła zainteresowanie [RECIPIENT_nameDef] cechą [PersonalCharacteristic].</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział historię o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała historię o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział zabawną historie o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała zabawną historie o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział serdeczną opowieść o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała serdeczną opowieść o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział starą opowieść o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała starą opowieść o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział rodzinną historie o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała rodzinną historie o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->opowiedział opowieść z dzieciństwa o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->opowiedziała opowieść z dzieciństwa o</li>
-    <li>toldastoryabout(toldastoryabout_gender==male)->wspomniał anegdotę o</li>
-    <li>toldastoryabout(toldastoryabout_gender==female)->wspomniała anegdotę o</li>
-    <li>talkabout->rozmawiać o</li>
-    <li>talkabout->omówić</li>
-    <li>talkabout->przeprowadzić dyskusję na temat</li>
-    <li>talkabout->zapytać o</li>
-    <li>talkabout->myśleć o</li>
-    <li>talkabout->znaleźć wspólną płaszczyznę wokół</li>
-    <li>subject->kolonii</li>
-    <li>subject->wspólnocie</li>
-    <li>subject->dołączeniu do kolonii</li>
-    <li>subject->znalezieniu przyjaciół</li>
-    <li>subject->poznawaniu nowych ludzi</li>
-    <li>subject->ponownym rozważeniu pomysłu</li>
-    <li>subject->zdrowiu</li>
-    <li>subject->przyszłości</li>
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] postaci [RECIPIENT_nameDef]. Temat opowieści: [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0009] postaci [RECIPIENT_nameDef] o pewnej sprawie. Temat: [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0010] postaci [RECIPIENT_nameDef] pewne zagadnienie. Temat: [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0011] postać [RECIPIENT_nameDef] do [talkabout]. Temat: [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0012] postaci [RECIPIENT_nameDef] możliwość [talkabout]. Temat: [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0013] się cechą charakteru postaci [RECIPIENT_nameDef] określaną jako "[PersonalCharacteristic]".</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0014] postać [RECIPIENT_nameDef] o cechę charakteru określaną jako "[PersonalCharacteristic]".</li>
+    <li>toldastoryabout(p=2)->[plPlecAudyt_0009] historię</li>
+    <li>toldastoryabout->[plPlecAudyt_0009] zabawną historię</li>
+    <li>toldastoryabout->[plPlecAudyt_0009] wzruszającą historię</li>
+    <li>toldastoryabout->[plPlecAudyt_0009] historię sprzed lat</li>
+    <li>toldastoryabout->[plPlecAudyt_0009] rodzinną historię</li>
+    <li>toldastoryabout->[plPlecAudyt_0009] historię z dzieciństwa</li>
+    <li>toldastoryabout->[plPlecAudyt_0015] anegdotę</li>
+    <li>talkabout->rozmowy</li>
+    <li>talkabout->omówienia sprawy</li>
+    <li>talkabout->przedyskutowania sprawy</li>
+    <li>talkabout->zadawania pytań</li>
+    <li>talkabout->przemyślenia sprawy</li>
+    <li>talkabout->poszukania wspólnego stanowiska</li>
+    <li>subject->kolonia</li>
+    <li>subject->społeczność</li>
+    <li>subject->dołączenie do kolonii</li>
+    <li>subject->zmiana stron</li>
+    <li>subject->poszukiwanie przyjaciół</li>
+    <li>subject->poznawanie nowych ludzi</li>
+    <li>subject->ponowne przemyślenie poglądów postaci [RECIPIENT_nameDef]</li>
+    <li>subject->ponowne rozważenie lojalności postaci [RECIPIENT_nameDef]</li>
+    <li>subject->zdrowie</li>
+    <li>subject->przyszłość</li>
+    <li>subject->umiejętność odpuszczania</li>
+    <li>subject(p=4)->[ConceptPositive]</li>
+    <li>subject(p=2)->cecha charakteru postaci [INITIATOR_nameDef]: [PersonalCharacteristic]</li>
+    <li>subject(p=8)->[TalkTopicLight]</li>
+    <li>plPlecAudyt_0009(INITIATOR_gender==Male,priority=1)->opowiedział</li>
+    <li>plPlecAudyt_0009(INITIATOR_gender==Female,priority=1)->opowiedziała</li>
+    <li>plPlecAudyt_0009->opowiedział</li>
+    <li>plPlecAudyt_0010(INITIATOR_gender==Male,priority=1)->opisał</li>
+    <li>plPlecAudyt_0010(INITIATOR_gender==Female,priority=1)->opisała</li>
+    <li>plPlecAudyt_0010->opisał</li>
+    <li>plPlecAudyt_0011(INITIATOR_gender==Male,priority=1)->zachęcił</li>
+    <li>plPlecAudyt_0011(INITIATOR_gender==Female,priority=1)->zachęciła</li>
+    <li>plPlecAudyt_0011->zachęcił</li>
+    <li>plPlecAudyt_0012(INITIATOR_gender==Male,priority=1)->dał</li>
+    <li>plPlecAudyt_0012(INITIATOR_gender==Female,priority=1)->dała</li>
+    <li>plPlecAudyt_0012->dał</li>
+    <li>plPlecAudyt_0013(INITIATOR_gender==Male,priority=1)->zainteresował</li>
+    <li>plPlecAudyt_0013(INITIATOR_gender==Female,priority=1)->zainteresowała</li>
+    <li>plPlecAudyt_0013->zainteresował</li>
+    <li>plPlecAudyt_0014(INITIATOR_gender==Male,priority=1)->zapytał</li>
+    <li>plPlecAudyt_0014(INITIATOR_gender==Female,priority=1)->zapytała</li>
+    <li>plPlecAudyt_0014->zapytał</li>
+    <li>plPlecAudyt_0015(INITIATOR_gender==Male,priority=1)->przytoczył</li>
+    <li>plPlecAudyt_0015(INITIATOR_gender==Female,priority=1)->przytoczyła</li>
+    <li>plPlecAudyt_0015->przytoczył</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
@@ -89,12 +106,16 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] poprosił [RECIPIENT_nameDef] o przyłączenie się.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] poprosiła [RECIPIENT_nameDef] o przyłączenie się.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] obiecał [goodthing] [RECIPIENT_nameDef] i poprosił o przyłączenie się.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] obiecała [goodthing] [RECIPIENT_nameDef] i poprosił o przyłączenie się.</li>
-    <li>goodthing->równe warunki</li>
-    <li>goodthing->wolność wyboru</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0016] postać [RECIPIENT_nameDef] o dołączenie do kolonii.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0017] postać [RECIPIENT_nameDef] do dołączenia do kolonii, składając obietnicę. Obiecana korzyść: [goodthing].</li>
+    <li>goodthing(p=15)->[ConceptPositive]</li>
+    <li>goodthing->darmowe, świeże warzywa, na przykład "[Vegetable]"</li>
+    <li>plPlecAudyt_0016(INITIATOR_gender==Male,priority=1)->poprosił</li>
+    <li>plPlecAudyt_0016(INITIATOR_gender==Female,priority=1)->poprosiła</li>
+    <li>plPlecAudyt_0016->poprosił</li>
+    <li>plPlecAudyt_0017(INITIATOR_gender==Male,priority=1)->zachęcił</li>
+    <li>plPlecAudyt_0017(INITIATOR_gender==Female,priority=1)->zachęciła</li>
+    <li>plPlecAudyt_0017->zachęcił</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
@@ -110,17 +131,32 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] mówił o radości [freedom] i wskazywała drogę ucieczki.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] mówiła radości [freedom] i wskazywała drogę ucieczki.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] mówił o tym, jak piękny jest [TerrainFeature] i oferował wolność.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] mówiła o tym, jak piękny jest [TerrainFeature] i oferowała wolność.</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] zademonstrował [RECIPIENT_nameDef] sposób ucieczki i obiecał [freedom].</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] zademonstrowała [RECIPIENT_nameDef] sposób ucieczki i obiecała [freedom].</li>
-    <li>r_logentry(INITIATOR_gender==male)->[INITIATOR_nameDef] powiedział [RECIPIENT_nameDef], że ochrona jest słaba i zachęcał do ucieczki.</li>
-    <li>r_logentry(INITIATOR_gender==female)->[INITIATOR_nameDef] powiedziała [RECIPIENT_nameDef], że ochrona jest słaba i zachęcała do ucieczki.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0018] o radościach życia poza więzieniem, wymieniając korzyści takie jak [freedom]. Następnie [plPlecAudyt_0019] sposób ucieczki.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0018] o pięknie krajobrazu, wspominając "[TerrainFeature]", i [plPlecAudyt_0019] wolność.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0021] postaci [RECIPIENT_nameDef] sposób ucieczki i [plPlecAudyt_0020] [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0022] postaci [RECIPIENT_nameDef], że zabezpieczenia są słabe, i [plPlecAudyt_0023] do ucieczki.</li>
     <li>freedom->wolność</li>
-    <li>freedom->powrót do domu</li>
-    <li>freedom->bezpieczeństwo</li>
+    <li>freedom->nowe możliwości</li>
+    <li>freedom->dom</li>
+    <li>freedom->decydowanie o własnym losie</li>
+    <li>plPlecAudyt_0018(INITIATOR_gender==Male,priority=1)->mówił</li>
+    <li>plPlecAudyt_0018(INITIATOR_gender==Female,priority=1)->mówiła</li>
+    <li>plPlecAudyt_0018->mówił</li>
+    <li>plPlecAudyt_0019(INITIATOR_gender==Male,priority=1)->zaoferował</li>
+    <li>plPlecAudyt_0019(INITIATOR_gender==Female,priority=1)->zaoferowała</li>
+    <li>plPlecAudyt_0019->zaoferował</li>
+    <li>plPlecAudyt_0020(INITIATOR_gender==Male,priority=1)->obiecał</li>
+    <li>plPlecAudyt_0020(INITIATOR_gender==Female,priority=1)->obiecała</li>
+    <li>plPlecAudyt_0020->obiecał</li>
+    <li>plPlecAudyt_0021(INITIATOR_gender==Male,priority=1)->pokazał</li>
+    <li>plPlecAudyt_0021(INITIATOR_gender==Female,priority=1)->pokazała</li>
+    <li>plPlecAudyt_0021->pokazał</li>
+    <li>plPlecAudyt_0022(INITIATOR_gender==Male,priority=1)->powiedział</li>
+    <li>plPlecAudyt_0022(INITIATOR_gender==Female,priority=1)->powiedziała</li>
+    <li>plPlecAudyt_0022->powiedział</li>
+    <li>plPlecAudyt_0023(INITIATOR_gender==Male,priority=1)->zachęcił</li>
+    <li>plPlecAudyt_0023(INITIATOR_gender==Female,priority=1)->zachęciła</li>
+    <li>plPlecAudyt_0023->zachęcił</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>

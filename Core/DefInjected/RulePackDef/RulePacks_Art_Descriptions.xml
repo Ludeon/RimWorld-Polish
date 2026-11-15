@@ -51,14 +51,14 @@
     <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
     <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
     <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [pawn_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position]</li>
     <li>artextra_clause->a [Animal] [idles] [side_position]</li>
     <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-    <li>artextra_clause->the [emotional_expression] head of a [pawn_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->a [pawn_adj] [PersonJob] watches over all while [emotional_expression]</li>
-    <li>artextra_clause->the head of a [pawn_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
+    <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
     <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -215,35 +215,35 @@
     <li>artconjunction->co nietypowe,</li>
     <li>artconjunction->chociaż mało kto by się tego spodziewał,</li>
     <li>artconjunction->poza tym,</li>
-    <li>artextra_clause->wizerunek jest otoczony przez[subimageplural]</li>
-    <li>artextra_clause->u krawędzi dzieła [subimageplural]</li>
+    <li>artextra_clause->wizerunek jest otoczony przez [subimageplural]</li>
+    <li>artextra_clause->przy krawędzi dzieła widać [subimageplural]</li>
     <li>artextra_clause->jest [subimagesingle] [side_position]</li>
-    <li>artextra_clause->the subjects are in front of [subimageany]</li>
-    <li>artextra_clause->the lower part of the image is dominated by [subimageany]</li>
-    <li>artextra_clause->the scene takes place in the middle of a [Community]</li>
-    <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
-    <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
-    <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position]</li>
-    <li>artextra_clause->a [Animal] [idles] [side_position]</li>
-    <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-    <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
-    <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
+    <li>artextra_clause->postacie znajdują się przed [subimageany]</li>
+    <li>artextra_clause->w dolnej części obrazu dominuje [subimageany]</li>
+    <li>artextra_clause->scena rozgrywa się pośrodku [Community]</li>
+    <li>artextra_clause->scena rozgrywa się na obrzeżach [Community]</li>
+    <li>artextra_clause->scena rozgrywa się wewnątrz [Community] zbudowanej w pobliżu [TerrainFeature]</li>
+    <li>artextra_clause->[Character] [idles] [side_position]</li>
+    <li>artextra_clause->[PAWN_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character] pojawiają się [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character] pojawiają się [side_position]</li>
+    <li>artextra_clause->[Animal] [idles] [side_position]</li>
+    <li>artextra_clause->gdy zmrużyć oczy, [composition] kompozycja obrazu układa się w zarys [subimageany]</li>
+    <li>artextra_clause->[emotional_expression] głowa postaci: [PAWN_adj] [PersonJob] góruje nad całością</li>
+    <li>artextra_clause->[PAWN_adj] [PersonJob] góruje nad całością, okazując emocje: [emotional_expression]</li>
+    <li>artextra_clause->głowa postaci: [PAWN_adj] [PersonJob] góruje nad całą sceną</li>
+    <li>artextra_clause->cały obraz tworzy starannie przemyślane rozmieszczenie [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->a [Character]</li>
-    <li>subimagesingle->a [TerrainFeature]</li>
-    <li>subimagesingle->a [Community]</li>
-    <li>subimagesingle->a [TreeType] tree</li>
-    <li>subimagesingle->a [Vegetable]</li>
-    <li>subimagesingle->a [AnimalGroup] of [Animal]s</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>subimagesingle(p=4)->[Character]</li>
+    <li>subimagesingle->[TerrainFeature]</li>
+    <li>subimagesingle->[Community]</li>
+    <li>subimagesingle->drzewo [TreeType]</li>
+    <li>subimagesingle->[Vegetable]</li>
+    <li>subimagesingle->grupa [AnimalGroup], złożona z [Animal]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
     <li>pawn_adj->martwy</li>
     <li>pawn_adj->umierający</li>
     <li>pawn_adj->ranny</li>
@@ -255,9 +255,9 @@
     <li>pawn_adj->stary</li>
     <li>pawn_adj->pokryty [Gore]</li>
     <li>pawn_adj->brudny</li>
-    <li>pawn_adj->mając na [Apparel]</li>
-    <li>pawn_adj->trzymając [Weapon]</li>
-    <li>pawn_adj->jedzących [Vegetable]</li>
+    <li>pawn_adj->ubrany w [Apparel]</li>
+    <li>pawn_adj->uzbrojony w [Weapon]</li>
+    <li>pawn_adj->jedzący [Vegetable]</li>
     <li>emotional_expression->uśmiechający się</li>
     <li>emotional_expression->zmartwiony</li>
     <li>emotional_expression->wyjący</li>
@@ -265,67 +265,67 @@
     <li>emotional_expression->wpatrujący się</li>
     <li>emotional_expression->płaczący</li>
     <li>emotional_expression->krzyczący</li>
-    <li>emotional_expression->overjoyed</li>
-    <li>idles->sits</li>
-    <li>idles->stands</li>
-    <li>idles->waits</li>
-    <li>idles->smiles</li>
-    <li>idles->lies</li>
-    <li>idles->poses</li>
-    <li>idles->appears</li>
-    <li>idles->is shown</li>
-    <li>idles->fades in</li>
-    <li>idles->floats</li>
-    <li>side_position->off to one side</li>
-    <li>side_position->in the background</li>
-    <li>side_position->in the distance</li>
-    <li>side_position->in the lower part of the image</li>
-    <li>side_position->in the upper part of the image</li>
-    <li>side_position->to the left of the main scene</li>
-    <li>side_position->to the right of the main scene</li>
-    <li>side_position->near the edge of the image</li>
-    <li>side_position->near the main subject</li>
-    <li>side_position->far from the main subject</li>
-    <li>side_position->beneath the main subject</li>
-    <li>side_position->behind the focal point</li>
-    <li>style_clause(p=4)->the work [symbolizes] [ConceptAny]</li>
+    <li>emotional_expression->pełen radości</li>
+    <li>idles->siedzi</li>
+    <li>idles->stoi</li>
+    <li>idles->czeka</li>
+    <li>idles->uśmiecha się</li>
+    <li>idles->leży</li>
+    <li>idles->pozuje</li>
+    <li>idles->pojawia się</li>
+    <li>idles->jest przedstawiony</li>
+    <li>idles->wyłania się z tła</li>
+    <li>idles->unosi się</li>
+    <li>side_position->z boku</li>
+    <li>side_position->w tle</li>
+    <li>side_position->w oddali</li>
+    <li>side_position->w dolnej części obrazu</li>
+    <li>side_position->w górnej części obrazu</li>
+    <li>side_position->na lewo od głównej sceny</li>
+    <li>side_position->na prawo od głównej sceny</li>
+    <li>side_position->blisko krawędzi obrazu</li>
+    <li>side_position->w pobliżu głównego motywu</li>
+    <li>side_position->z dala od głównego motywu</li>
+    <li>side_position->poniżej głównego motywu</li>
+    <li>side_position->za centralnym punktem kompozycji</li>
+    <li>style_clause(p=4)->dzieło [symbolizes] [ConceptAny]</li>
     <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
-    <li>style_clause->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
-    <li>style_clause->the work is executed in a [artstyle_adj] style</li>
-    <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
-    <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
-    <li>style_clause->the overall composition is [composition]</li>
-    <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
-    <li>style_clause->the image somehow expresses both [ConceptAny] and [ConceptAny]</li>
-    <li>style_clause->the image contrasts [ConceptAny] with [ConceptAny]</li>
-    <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
-    <li>style_clause->the work is shaded in hues of [Color] and [Color]</li>
-    <li>style_clause->almost every shape in the image seems to be [composition]</li>
-    <li>symbolizes->symbolizes</li>
-    <li>symbolizes->seems to symbolize</li>
-    <li>symbolizes->represents</li>
-    <li>symbolizes->seems to represent</li>
-    <li>symbolizes->seems to express</li>
-    <li>symbolizes->reminds the viewer of</li>
-    <li>symbolizes->conveys the emotions of</li>
-    <li>symbolizes->makes the viewer think of</li>
-    <li>symbolizes->represents the artist's</li>
-    <li>symbolizes->suggests the concept of</li>
-    <li>depicts->depicts</li>
-    <li>depicts->shows</li>
-    <li>depicts->portrays</li>
-    <li>depicts->resembles</li>
-    <li>depicts->illustrates</li>
-    <li>depicts->represents</li>
-    <li>depicts->is shaped like</li>
-    <li>depiction->depiction</li>
-    <li>depiction->image</li>
-    <li>depiction->portrayal</li>
-    <li>depiction->representation</li>
-    <li>depiction->illustration</li>
-    <li>depiction->artwork</li>
+    <li>style_clause->dzieło przywołuje ideę [ConceptAny] i odznacza się stylem: [artstyle_adj]</li>
+    <li>style_clause->dzieło ma styl: [artstyle_adj]</li>
+    <li>style_clause->styl głównej sceny ([artstyle_adj]) kontrastuje ze sposobem przedstawienia tła ([artstyle_adj])</li>
+    <li>style_clause->dzieło ma charakter [artstyle_adj], a jego kompozycja jest [composition]</li>
+    <li>style_clause->cała kompozycja jest [composition]</li>
+    <li>style_clause->styl dzieła jest [artstyle_adj] i zawiera elementy o charakterze [artstyle_adj]</li>
+    <li>style_clause->obraz w osobliwy sposób wyraża zarazem [ConceptAny] i [ConceptAny]</li>
+    <li>style_clause->obraz zestawia ze sobą [ConceptAny] i [ConceptAny]</li>
+    <li>style_clause->kompozycja obrazu ([composition]) niemal kłóci się z jego stylem ([artstyle_adj])</li>
+    <li>style_clause->dzieło utrzymano w odcieniach [Color] i [Color]</li>
+    <li>style_clause->niemal każda forma na obrazie wydaje się [composition]</li>
+    <li>symbolizes->symbolizuje</li>
+    <li>symbolizes->zdaje się symbolizować</li>
+    <li>symbolizes->przedstawia</li>
+    <li>symbolizes->zdaje się przedstawiać</li>
+    <li>symbolizes->zdaje się wyrażać</li>
+    <li>symbolizes->przywodzi na myśl</li>
+    <li>symbolizes->oddaje emocje związane z</li>
+    <li>symbolizes->skłania odbiorcę do myślenia o</li>
+    <li>symbolizes->przedstawia artystyczną wizję</li>
+    <li>symbolizes->przywołuje pojęcie</li>
+    <li>depicts->przedstawia</li>
+    <li>depicts->ukazuje</li>
+    <li>depicts->portretuje</li>
+    <li>depicts->przypomina</li>
+    <li>depicts->ilustruje</li>
+    <li>depicts->reprezentuje</li>
+    <li>depicts->ma kształt</li>
+    <li>depiction->przedstawienie</li>
+    <li>depiction->obraz</li>
+    <li>depiction->portret</li>
+    <li>depiction->wyobrażenie</li>
+    <li>depiction->ilustracja</li>
+    <li>depiction->dzieło sztuki</li>
     <li>composition->trójkątna</li>
-    <li>composition->sześcienna</li>
+    <li>composition->prostokątna</li>
     <li>composition->kwadratowa</li>
     <li>composition->niezbalansowana</li>
     <li>composition->wyważona</li>
@@ -334,14 +334,14 @@
     <li>composition->pionowa</li>
     <li>composition->pozioma</li>
     <li>composition->skupiona</li>
-    <li>artstyle_adj->skopiowany</li>
+    <li>artstyle_adj->wtórny</li>
     <li>artstyle_adj->prosty</li>
     <li>artstyle_adj->złożony i realistyczny</li>
     <li>artstyle_adj->surrealistyczny</li>
     <li>artstyle_adj->klasyczny</li>
     <li>artstyle_adj->modernistyczny</li>
     <li>artstyle_adj->symboliczny</li>
-    <li>artstyle_adj->prosty, acz przystępny</li>
+    <li>artstyle_adj->amatorski, ale atrakcyjny</li>
     <li>artstyle_adj->skupiony na detalach</li>
     <li>artstyle_adj->klockowaty</li>
     <li>artstyle_adj->kubistyczny</li>
@@ -355,15 +355,15 @@
     <li>artstyle_adj->fowistyczny</li>
     <li>artstyle_adj->ludowy</li>
     <li>artstyle_adj->metaforyczny</li>
-    <li>artstyle_adj->elipsoidalny</li>
+    <li>artstyle_adj->pełen płynnych linii</li>
     <li>artstyle_adj->geometryczny</li>
     <li>artstyle_adj->abstrakcyjny</li>
     <li>artstyle_adj->hiperrealistyczny</li>
     <li>artstyle_adj->pop art</li>
-    <li>artstyle_adj->minmalistyczny</li>
+    <li>artstyle_adj->minimalistyczny</li>
     <li>artstyle_adj->neoklasyczny</li>
-    <li>artstyle_adj->neogotycki</li>
-    <li>artstyle_adj->post-impresjonistycznym</li>
+    <li>artstyle_adj->kreskówkowy</li>
+    <li>artstyle_adj->postimpresjonistyczny</li>
     <li>artstyle_adj->purystyczny</li>
     <li>artstyle_adj->rokoko</li>
     <li>artstyle_adj->romański</li>

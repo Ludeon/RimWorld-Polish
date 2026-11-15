@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
   -->
   <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] lokalizacji obozu kontrolowanego przez frakcję [siteFaction_name]. W obozie znajdują się wrodzy [siteFaction_pawnsPlural], ale nie wiesz, jakie mają zabezpieczenia.</li>
+    <li>questDescription->[discoveryMethod] lokalizację obozu kontrolowanego przez frakcję [siteFaction_name]. Na terenie obozu przebywają [siteFaction_pawnsPlural]. Ich nastawienie jest wrogie, ale nie wiadomo, jaką obroną dysponują.</li>
   </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -25,21 +25,21 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[asker_nameDef] i [camp]</li>
-    <li>camp->Obóz</li>
-    <li>camp->Placówka</li>
-    <li>camp->Kryjówka</li>
-    <li>camp->Obozowisko</li>
-    <li>bandit->Bandyta</li>
-    <li>bandit->Najeźdźca</li>
-    <li>bandit->Banita</li>
-    <li>bandit->Desperat</li>
-    <li>bandit->Zbieg</li>
-    <li>bandit->Rabuś</li>
-    <li>bandit->Złodziej</li>
-    <li>bandit->Brigan</li>
+    <li>questName->[camp] [bandit]</li>
+    <li>questName->Siedziba: [camp] [bandit]</li>
+    <li>questName->[asker_nameDef] i [camp] [bandit]</li>
+    <li>camp->obóz</li>
+    <li>camp->posterunek</li>
+    <li>camp->kryjówka</li>
+    <li>camp->obozowisko</li>
+    <li>bandit->bandytów</li>
+    <li>bandit->najeźdźców</li>
+    <li>bandit->banitów</li>
+    <li>bandit->desperatów</li>
+    <li>bandit->zbiegów</li>
+    <li>bandit->maruderów</li>
+    <li>bandit->rabusi</li>
+    <li>bandit->rozbójników</li>
   </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->bandit camps</li>
@@ -56,14 +56,14 @@
   <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
     <li>subject->obozy bandytów</li>
     <li>subject->banici</li>
-    <li>subject->obserwacje najeźdźców</li>
+    <li>subject->doniesienia o najeźdźcach</li>
     <li>questMapFeature->mały obóz</li>
     <li>questMapFeature->placówka bandytów</li>
     <li>questMapFeature->obozowisko najeźdźców</li>
     <li>questMapText->niebezpieczni ludzie</li>
     <li>questMapText->łupy z obozu</li>
     <li>questMapText->intruzów obedrą ze skóry</li>
-    <li>questMapText->kupcy uważajcie – banici</li>
+    <li>questMapText->kupcy, uważajcie – banici</li>
   </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>Wygasło zadanie: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
