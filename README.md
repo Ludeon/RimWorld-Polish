@@ -5,6 +5,10 @@ Dłuższa, polska wersja przeznaczona dla tłumaczy i osób zainteresowanych: [R
 We use Discord [(invite)](https://discord.gg/BPkDRh9) for coordinating our work. We can get in touch there.
 
 # Polish translation for RimWorld 1.7
+Status report:
+1841 TODOs remaining out of 66 951 possible
+meaning the Polish translation is roughly 97.3% done
+
 Download the latest version:
 https://github.com/Ludeon/RimWorld-Polish/archive/dev.zip
 OR
