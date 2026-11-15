@@ -9,9 +9,9 @@
     <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->Terminal zhakowany. {COUNT} / [terminalCount] zakończone.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] do hakowania.</li>
-    <li>passengersIncapableOfHackingDialogText->W wahadłowcu zadania '[resolvedQuestName]' nie ma pasażerów potrafiących hakować. Musisz wysłać co najmniej jedną osobę zdolną do hakowania, aby zbadać starożytny kompleks.</li>
+    <li>terminalHackedMessage->Terminal zhakowany. Ukończono: {COUNT} z [terminalCount].</li>
+    <li>passengersIncapableOfHackingDialogLabel->Brak specjalisty od hakowania</li>
+    <li>passengersIncapableOfHackingDialogText->Na pokładzie promu misji "[resolvedQuestName]" nie ma nikogo, kto potrafi hakować terminale. Do zbadania starożytnego kompleksu musisz wysłać co najmniej jedną osobę z takimi umiejętnościami.</li>
     <li>passengersSingularOrPlural(colonistCount==1)->pasażer jest niezdolny</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->pasażerowie są niezdolni</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
@@ -28,13 +28,15 @@
     <li>investigation->hacking</li>
   -->
   <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
-    <li>complex->instalacji</li>
-    <li>complex->architektoniki</li>
-    <li>complex->struktury</li>
-    <li>complex->konstrukcji</li>
-    <li>investigation->dochodzenie odnośnie</li>
-    <li>investigation->sprawdzenie</li>
-    <li>investigation->misja odnośnie</li>
+    <li>complex->kompleks</li>
+    <li>complex->zespół zabudowań</li>
+    <li>complex->instalacja</li>
+    <li>complex->budowla</li>
+    <li>complex->konstrukcja</li>
+    <li>investigation->badanie</li>
+    <li>investigation->oględziny</li>
+    <li>investigation->misja</li>
+    <li>investigation->wykopaliska</li>
     <li>investigation->hakowanie</li>
   </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
@@ -43,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] z [asker_faction_name] odkrył starożytny kompleks daleko do miasta. [asker_nameDef] wierzy, że zawiera on informacje o relikwii znanej jako [relic_name].\n\n[asker_nameDef] nie może znaleźć ludzi do zbadania tego miejsca, ale ma nadzieję, że możesz pomóc, dostarczając dokładnie [colonistCount] [colonistsSingularOrPlural] do przeprowadzenia śledztwa.\n\nKompleks zawiera nieznane zagrożenia i jest także poszukiwany przez wrogów [asker_nameDef], [enemyFaction_name].\n\n[asker_nameDef] wyśle prom po Twoich kolonistów, zabierze ich do kompleksu, a następnie z powrotem do domu. Po wylądowaniu musisz zhakować wszystkie terminale w kompleksie w ciągu [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef] z frakcji [asker_faction_name] (tytuł: [asker_faction_leaderTitle]) donosi o odkryciu odległego starożytnego kompleksu. Prawdopodobnie skrywa on informacje o relikwii "[relic_name]".\n\nZleceniodawca nie może wysłać własnych ludzi i prosi o oddelegowanie dokładnie [colonistCount] [colonistsSingularOrPlural] do zbadania obiektu.\n\nW kompleksie mogą czaić się nieznane zagrożenia, a frakcja [enemyFaction_name] również poszukuje tego miejsca.\n\nPo twoich kolonistów przyleci prom, który zabierze ich do kompleksu i po zakończeniu misji odwiezie do domu. Podczas lotu otrzymają pożywienie i opiekę.\n\nPo lądowaniu trzeba zhakować wszystkie terminale w ciągu [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->kolonistę</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->kolonistów</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
@@ -54,9 +56,10 @@
     <li>missionAdj->secret</li>
   -->
   <AncientComplex_Mission.questNameRules.rulesStrings>
-    <li>questName->[investigation] [missionAdj] [complex]</li>
-    <li>missionAdj->ukrytej</li>
-    <li>missionAdj->sekretnej</li>
+    <li>questName->[missionAdj] — [complex]</li>
+    <li>missionAdj->Ukryta operacja</li>
+    <li>missionAdj->Tajna wyprawa</li>
+    <li>missionAdj->Poufna misja</li>
   </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>

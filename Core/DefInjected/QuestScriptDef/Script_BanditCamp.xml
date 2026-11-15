@@ -5,9 +5,7 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>wyslal(asker_gender==Male)->wysłał</li>
-    <li>wyslal(asker_gender==Female)->wysłała</li>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] z [asker_faction_name], [wyslal] nam wiadomość. Najwyraźniej [siteFaction_pawnsPlural] z pobliskiego obozu najeżdżali ich karawany. Obóz jest kontrolowany przez [siteFaction_name].\n\n[asker_nameDef] prosi nas o zniszczenie obozu, co oznacza wyeliminowanie wszystkich wrogów i ich wieżyczek obronnych. [asker_label] mówi, że [sitePart0_description].</li>
+    <li>questDescription->[asker_nameFull] (tytuł: [asker_faction_leaderTitle], frakcja: [asker_faction_name]) przysyła wiadomość. W pobliskim obozie należącym do frakcji [siteFaction_name] stacjonują napastnicy. Grupa ta, określana jako [siteFaction_pawnsPlural], napada na karawany zleceniodawcy.\n\n[asker_nameDef] prosi o zniszczenie obozu i wyeliminowanie wszystkich przeciwników oraz wieżyczek obronnych. Według otrzymanych informacji [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -28,16 +26,18 @@
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[camp] [bandit]</li>
-    <li>questName->[asker_nameDef] i jego [camp]</li>
+    <li>questName->Likwidacja: [camp] [bandit]</li>
+    <li>questName->Zlecenie [asker_nameDef]: [camp] [bandit]</li>
     <li>camp->obóz</li>
     <li>camp->placówka</li>
     <li>camp->kryjówka</li>
+    <li>camp->obozowisko</li>
     <li>bandit->bandytów</li>
-    <li>bandit->napastników</li>
-    <li>bandit->buntowników</li>
+    <li>bandit->najeźdźców</li>
+    <li>bandit->banitów</li>
     <li>bandit->desperatów</li>
     <li>bandit->zbiegów</li>
-    <li>bandit->huncwotów</li>
+    <li>bandit->rabusiów</li>
     <li>bandit->złodziei</li>
     <li>bandit->rozbójników</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
@@ -48,14 +48,14 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Zadanie nieudane: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Po odkryciu, obóz bandytów rozproszył się. Zadanie [resolvedQuestName] zakończyło się.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Po odkryciu obóz bandytów został opuszczony, a jego załoga rozproszyła się. Zadanie [resolvedQuestName] zostało zakończone.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
-  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Zapłata przybyła.</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Zapłata dotarła</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>Obóz bandytów został zniszczony!\n\nZapłata od [asker_faction_name] właśnie przybyła.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>Obóz bandytów został pokonany!\n\nDotarła zapłata od frakcji [asker_faction_name].</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
-  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Ci koloniści uczestniczyli w zwycięstwie w zadaniu [resolvedQuestName]. [asker_definite] chce wiedzieć, kto powinien otrzymać [royalFavorReward_amount] [asker_faction_royalFavorLabel] za tę usługę.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Ci koloniści przyczynili się do zwycięstwa w zadaniu [resolvedQuestName]. [asker_definite] prosi o wskazanie, komu przyznać nagrodę: [royalFavorReward_amount] [asker_faction_royalFavorLabel].</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

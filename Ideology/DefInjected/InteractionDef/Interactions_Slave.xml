@@ -10,7 +10,31 @@
     <li>r_logentry->[INITIATOR_nameDef] spoke of a life beyond servitude and encouraged [RECIPIENT_nameDef] to escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] whispered that security was lax and now would be a good time to escape.</li>
   -->
-  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>TODO</SparkSlaveRebellion.logRulesInitiator.rulesStrings>
+  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0059] wspólną ucieczkę.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0060] postać [RECIPIENT_nameDef] do odzyskania wolności.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0061] o uwolnieniu się z niewoli i wspólnej ucieczce.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0062] postaci [RECIPIENT_nameDef] o życiu na wolności i [plPlecAudyt_0063] do ucieczki.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0064], że ochrona jest słaba i to dobry moment na ucieczkę.</li>
+    <li>plPlecAudyt_0059(INITIATOR_gender==Male,priority=1)->zaproponował</li>
+    <li>plPlecAudyt_0059(INITIATOR_gender==Female,priority=1)->zaproponowała</li>
+    <li>plPlecAudyt_0059->zaproponował</li>
+    <li>plPlecAudyt_0060(INITIATOR_gender==Male,priority=1)->zachęcił</li>
+    <li>plPlecAudyt_0060(INITIATOR_gender==Female,priority=1)->zachęciła</li>
+    <li>plPlecAudyt_0060->zachęcił</li>
+    <li>plPlecAudyt_0061(INITIATOR_gender==Male,priority=1)->mówił</li>
+    <li>plPlecAudyt_0061(INITIATOR_gender==Female,priority=1)->mówiła</li>
+    <li>plPlecAudyt_0061->mówił</li>
+    <li>plPlecAudyt_0062(INITIATOR_gender==Male,priority=1)->opowiadał</li>
+    <li>plPlecAudyt_0062(INITIATOR_gender==Female,priority=1)->opowiadała</li>
+    <li>plPlecAudyt_0062->opowiadał</li>
+    <li>plPlecAudyt_0063(INITIATOR_gender==Male,priority=1)->namawiał</li>
+    <li>plPlecAudyt_0063(INITIATOR_gender==Female,priority=1)->namawiała</li>
+    <li>plPlecAudyt_0063->namawiał</li>
+    <li>plPlecAudyt_0064(INITIATOR_gender==Male,priority=1)->wyszeptał</li>
+    <li>plPlecAudyt_0064(INITIATOR_gender==Female,priority=1)->wyszeptała</li>
+    <li>plPlecAudyt_0064->wyszeptał</li>
+  </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
   
   <!-- EN: suppress -->
   <Suppress.label>stłumienie</Suppress.label>
@@ -20,6 +44,23 @@
     <li>r_logentry->[INITIATOR_nameDef] cautioned [RECIPIENT_nameDef] against infractions of any kind.</li>
     <li>r_logentry->[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>
   -->
-  <Suppress.logRulesInitiator.rulesStrings>TODO</Suppress.logRulesInitiator.rulesStrings>
+  <Suppress.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0065] postaci [RECIPIENT_nameDef], że za bunt grożą kary.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0066] postać [RECIPIENT_nameDef], że nieposłuszeństwo będzie karane.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0067] postać [RECIPIENT_nameDef] przed łamaniem jakichkolwiek zasad.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0068] postaci [RECIPIENT_nameDef] wykonywanie rozkazów bez zadawania pytań.</li>
+    <li>plPlecAudyt_0065(INITIATOR_gender==Male,priority=1)->powiedział</li>
+    <li>plPlecAudyt_0065(INITIATOR_gender==Female,priority=1)->powiedziała</li>
+    <li>plPlecAudyt_0065->powiedział</li>
+    <li>plPlecAudyt_0066(INITIATOR_gender==Male,priority=1)->ostrzegł</li>
+    <li>plPlecAudyt_0066(INITIATOR_gender==Female,priority=1)->ostrzegła</li>
+    <li>plPlecAudyt_0066->ostrzegł</li>
+    <li>plPlecAudyt_0067(INITIATOR_gender==Male,priority=1)->przestrzegł</li>
+    <li>plPlecAudyt_0067(INITIATOR_gender==Female,priority=1)->przestrzegła</li>
+    <li>plPlecAudyt_0067->przestrzegł</li>
+    <li>plPlecAudyt_0068(INITIATOR_gender==Male,priority=1)->zasugerował</li>
+    <li>plPlecAudyt_0068(INITIATOR_gender==Female,priority=1)->zasugerowała</li>
+    <li>plPlecAudyt_0068->zasugerował</li>
+  </Suppress.logRulesInitiator.rulesStrings>
   
 </LanguageData>

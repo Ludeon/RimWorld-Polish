@@ -2,17 +2,20 @@
 <LanguageData>
   
   <!-- EN:
-    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nOne of [lodgersLabelSingOrPluralDef] is a child.</li>
+    <li>includesChildren(childCount>=2)->\n\nSome of [lodgersLabelSingOrPluralDef] are children.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe, [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
@@ -44,11 +47,61 @@
     <li>areIs(lodgersCount==1)->is</li>
     <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestHospitalityCommon.rulePack.rulesStrings>TODO</QuestHospitalityCommon.rulePack.rulesStrings>
+  <QuestHospitalityCommon.rulePack.rulesStrings>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nWśród podopiecznych jest jedno dziecko.</li>
+    <li>includesChildren(childCount>=2)->\n\nWśród podopiecznych są dzieci.</li>
+    <li>healthInfo-></li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->Występuje porażenie kończyn, wymagające leżenia w łóżku. Dotyczy: [lodgersLabelSingOrPluralDef].</li>
+    <li>bloodRotInfo->Wykryto gnicie krwi. Konieczne jest codzienne leczenie. Dobre warunki i lekarstwa mogą spowolnić rozwój choroby, lecz zwykle nie pozwalają jej całkowicie wyleczyć. W zaawansowanym stadium choroba prowadzi do śmierci, dlatego przygotuj odpowiedni zapas leków. Podopieczni: [lodgersLabelSingOrPluralDef].</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nNastrój podopiecznych musi pozostawać powyżej [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\nNie można przydzielać podopiecznym żadnej pracy.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Spodziewaj się (*Threat)jednego najazdu(/Threat). Przewidywany skład:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->Spodziewaj się (*Threat)jednego najazdu(/Threat) o sile [threatSize] razy większej niż zwykle. Przewidywany skład:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Spodziewaj się (*Threat)[threatCount] najazdów(/Threat). Przewidywany skład pojedynczego ataku:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Spodziewaj się (*Threat)[threatCount] najazdów(/Threat), z których każdy będzie miał siłę [threatSize] razy większą niż zwykle. Przewidywany skład pojedynczego ataku:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->W pobliżu pojawi się (*Threat)skupisko mechanoidów(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->W pobliżu pojawią się (*Threat)dwa skupiska mechanoidów(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->W pobliżu pojawi się (*Threat)skupisko mechanoidów(/Threat) o sile [threatSize] razy większej niż zwykle.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->W pobliżu pojawią się (*Threat)dwa skupiska mechanoidów(/Threat), każde o sile [threatSize] razy większej niż zwykle.</li>
+    <li>threatsInfoMechClustersSingleHuman->Postać [lodgers0_nameDef] stała się celem roju mechanoidów krążącego po orbicie. Powodem jest niedawne zdarzenie: [mechViolation].</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Więźniowie stali się celem roju mechanoidów krążącego po orbicie. Powodem jest niedawne zdarzenie: [mechViolation].</li>
+    <li>threatsInfoMechRaidsSingleHuman->Postać [lodgers0_nameDef] stała się celem roju mechanoidów. Powodem jest niedawne zdarzenie: [mechViolation].</li>
+    <li>threatsInfoMechRaidsMultiHuman->Podopieczni stali się celem roju mechanoidów. Powodem jest niedawne zdarzenie: [mechViolation].</li>
+    <li>mechViolation->rozgniewanie osobowości maszynowej</li>
+    <li>mechViolation->naruszenie starożytnego terminala superkomputera</li>
+    <li>mechViolation->zabójstwo ludzkiego dziecka, które cieszyło się względami archotechnologicznego bytu</li>
+    <li>mechViolation->próba włamania do węzła sterującego mechanoidami</li>
+    <li>mechViolation->próba kradzieży z pradawnego magazynu</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->ma</li>
+    <li>lodgersHasHave(lodgersCount>=2)->mają</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->ich</li>
+    <li>areIs(lodgersCount==1)->jest</li>
+    <li>areIs(lodgersCount>=2)->są</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Pozostali podopieczni opuszczą teraz kolonię.</li>
+    <li>failLetterEndingQuest->Nie udało się ukończyć zadania "[resolvedQuestName]".</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTwoje relacje z frakcją [asker_faction_name] pogorszyły się o [goodwillPenalty].</li>
+  </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

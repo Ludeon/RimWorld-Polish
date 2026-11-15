@@ -8,8 +8,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <CreepyWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] postanawia coś powiedzieć [rambled] [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [rambled] [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] o [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [rambled] o [subjectInsane].</li>
   </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
@@ -47,36 +47,53 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPENT_nameDef_acc], [talkingAbout] [subjectDisturbing].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] do [RECIPENT_nameDef_gen] na temat [subjectDisturbing].</li>
-    <li>spoke->mówi</li>
-    <li>spoke->mamrocze</li>
-    <li>spoke->wykrztusza</li>
-    <li>spoke->jęczy</li>
-    <li>spoke->chrząka</li>
-    <li>spoke->bełkocze</li>
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] postać [RECIPIENT_nameDef], [talkingAbout] [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [spoke] o [subjectDisturbing], zwracając się do postaci [RECIPIENT_nameDef].</li>
+    <li>spoke(INITIATOR_gender==Male)->mówił</li>
+    <li>spoke(INITIATOR_gender==Female)->mówiła</li>
+    <li>spoke(INITIATOR_gender==Male)->mamrotał</li>
+    <li>spoke(INITIATOR_gender==Female)->mamrotała</li>
+    <li>spoke(INITIATOR_gender==Male)->jąkał się</li>
+    <li>spoke(INITIATOR_gender==Female)->jąkała się</li>
+    <li>spoke(INITIATOR_gender==Male)->jęczał</li>
+    <li>spoke(INITIATOR_gender==Female)->jęczała</li>
+    <li>spoke(INITIATOR_gender==Male)->burczał</li>
+    <li>spoke(INITIATOR_gender==Female)->burczała</li>
+    <li>spoke(INITIATOR_gender==Male)->bełkotał</li>
+    <li>spoke(INITIATOR_gender==Female)->bełkotała</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
-    <li>maybeAdjectiveEvil->[adjectiveEvil]</li>
-    <li>disturbed->martwi</li>
-    <li>disturbed->straszy</li>
-    <li>disturbed->przeraża</li>
-    <li>disturbed->denerwuje</li>
-    <li>disturbed->niepokoi</li>
-    <li>disturbed->przyprawia o rozstrój</li>
-    <li>disturbed->zawstydza</li>
-    <li>disturbed->zniechęca</li>
-    <li>disturbed->alarmuje</li>
-    <li>disturbed->przygnębia</li>
-    <li>disturbed->konsternuje</li>
+    <li>subjectDisturbing->[subjectInsane]</li>
+    <li>disturbed(INITIATOR_gender==Male)->zaniepokoił</li>
+    <li>disturbed(INITIATOR_gender==Female)->zaniepokoiła</li>
+    <li>disturbed(INITIATOR_gender==Male)->przeraził</li>
+    <li>disturbed(INITIATOR_gender==Female)->przeraziła</li>
+    <li>disturbed(INITIATOR_gender==Male)->wystraszył</li>
+    <li>disturbed(INITIATOR_gender==Female)->wystraszyła</li>
+    <li>disturbed(INITIATOR_gender==Male)->zdenerwował</li>
+    <li>disturbed(INITIATOR_gender==Female)->zdenerwowała</li>
+    <li>disturbed(INITIATOR_gender==Male)->wyraźnie zaniepokoił</li>
+    <li>disturbed(INITIATOR_gender==Female)->wyraźnie zaniepokoiła</li>
+    <li>disturbed(INITIATOR_gender==Male)->wytrącił z równowagi</li>
+    <li>disturbed(INITIATOR_gender==Female)->wytrąciła z równowagi</li>
+    <li>disturbed(INITIATOR_gender==Male)->zbił z tropu</li>
+    <li>disturbed(INITIATOR_gender==Female)->zbiła z tropu</li>
+    <li>disturbed(INITIATOR_gender==Male)->pozbawił spokoju</li>
+    <li>disturbed(INITIATOR_gender==Female)->pozbawiła spokoju</li>
+    <li>disturbed(INITIATOR_gender==Male)->zaalarmował</li>
+    <li>disturbed(INITIATOR_gender==Female)->zaalarmowała</li>
+    <li>disturbed(INITIATOR_gender==Male)->zmartwił</li>
+    <li>disturbed(INITIATOR_gender==Female)->zmartwiła</li>
+    <li>disturbed(INITIATOR_gender==Male)->wprawił w konsternację</li>
+    <li>disturbed(INITIATOR_gender==Female)->wprawiła w konsternację</li>
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-    <li>talkingAbout->opisując</li>
-    <li>talkingAbout->wyjaśniając</li>
-    <li>talkingAbout->jęcząc [maybeDarkSpeechAdverb] na temat</li>
-    <li>talkingAbout->mówiąc [maybeDarkSpeechAdverb] na temat</li>
-    <li>talkingAbout->perorując [maybeDarkSpeechAdverb] na temat</li>
-    <li>talkingAbout->dokładnie nakreślając</li>
+    <li>talkingAbout->opisując swoje wyobrażenia o</li>
+    <li>talkingAbout->wyjaśniając swoje teorie o</li>
+    <li>talkingAbout->jęcząc [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->mówiąc [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->perorując [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->szczegółowo opowiadając o</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
@@ -86,8 +103,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <InhumanRambling.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] postanawia coś powiedzieć [rambled] [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] o [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] o [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [rambled] o [subjectInsane].</li>
   </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
@@ -134,44 +151,57 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->wypytuje [RECIPENT_nameDef_acc] o</li>
-    <li>askedAbout->pyta [RECIPENT_nameDef_acc] o</li>
-    <li>askedAbout->wywiera nacisk na [RECIPENT_nameDef_acc], aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->przepytuje [RECIPENT_nameDef_acc] o</li>
-    <li>askedAbout->magluje [RECIPENT_nameDef_acc], aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->żąda od [RECIPENT_nameDef_gen] odpowiedzi, aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->zadaje [RECIPENT_nameDef_dat] podchwytliwe pytania, aby dowiedzieć się więcej o</li>
-    <li>askedAbout->próbuje wziąć [RECIPENT_nameDef_acc] z zaskoczenia, aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->krzyczy na [RECIPENT_nameDef_acc], domagając się informacji o</li>
-    <li>askedAbout->bombarduje [RECIPENT_nameDef_acc] pytaniami o</li>
-    <li>askedAbout->konfrontuje [RECIPENT_nameDef_acc], aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->napastuje [RECIPENT_nameDef_acc], aby dowiedzieć się wszystkiego o</li>
-    <li>askedAbout->sprawdza wiedzę [RECIPENT_nameDef_gen] o</li>
-    <li>identityTopic->[RECIPIENT_possessive] poprzedniej pracy</li>
-    <li>identityTopic->[RECIPIENT_possessive] relacji z innymi frakcjami</li>
-    <li>identityTopic->[RECIPIENT_possessive] narodzinach</li>
-    <li>identityTopic->[RECIPIENT_possessive] dorastaniu</li>
-    <li>identityTopic->[RECIPIENT_possessive] rodzicach</li>
-    <li>identityTopic->[RECIPIENT_possessive] starych znajomych</li>
-    <li>identityTopic->[RECIPIENT_possessive] historii związków</li>
-    <li>identityTopic->[RECIPIENT_possessive] preferencjach</li>
-    <li>identityTopic->[RECIPIENT_possessive] reakcjach emocjonalnych na niepokojące sytuacje</li>
-    <li>identityTopic->[RECIPIENT_possessive] preferencjach kulinarnych</li>
-    <li>identityTopic->[RECIPIENT_possessive] najgłębszych lękach</li>
-    <li>identityTopic->[RECIPIENT_possessive] najdroższych wspomnieniach</li>
-    <li>identityTopic->[RECIPIENT_possessive] żalach</li>
-    <li>identityTopic->[RECIPIENT_possessive] marzeniach i aspiracjach</li>
-    <li>identityTopic->[RECIPIENT_possessive] powodach dołączenia do aktualnej frakcji</li>
-    <li>identityTopic->[RECIPIENT_possessive] roli w istotnym wydarzeniu z przeszłości</li>
-    <li>identityTopic->[RECIPIENT_possessive] hobby i zainteresowaniach</li>
-    <li>identityTopic->[RECIPIENT_possessive] wartościach i zasadach</li>
-    <li>identityTopic->[RECIPIENT_possessive] motywacjach</li>
-    <li>identityTopic->powodach stojących za niektórymi decyzjami</li>
-    <li>identityTopic->traumatycznych przeżyciach</li>
-    <li>identityTopic->procesach myślowych</li>
-    <li>identityTopic->przeżyciach z dzieciństwa</li>
-    <li>identityTopic->przeżyciach ze szkoły</li>
-    <li>identityTopic->doświadczeniach kulturowych</li>
+    <li>askedAbout(INITIATOR_gender==Male)->przesłuchiwał postać [RECIPIENT_nameDef], pytając o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->przesłuchiwała postać [RECIPIENT_nameDef], pytając o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->pytał postać [RECIPIENT_nameDef] o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->pytała postać [RECIPIENT_nameDef] o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->naciskał na postać [RECIPIENT_nameDef], wypytując o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->naciskała na postać [RECIPIENT_nameDef], wypytując o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->dopytywał postać [RECIPIENT_nameDef] o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->dopytywała postać [RECIPIENT_nameDef] o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->maglował postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->maglowała postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->żądał od postaci [RECIPIENT_nameDef] odpowiedzi na pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->żądała od postaci [RECIPIENT_nameDef] odpowiedzi na pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->zadawał postaci [RECIPIENT_nameDef] podchwytliwe pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->zadawała postaci [RECIPIENT_nameDef] podchwytliwe pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->próbował zaskoczyć postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->próbowała zaskoczyć postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->krzyczał na postać [RECIPIENT_nameDef], domagając się odpowiedzi na pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->krzyczała na postać [RECIPIENT_nameDef], domagając się odpowiedzi na pytania o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->zasypywał postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->zasypywała postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->konfrontował postać [RECIPIENT_nameDef] z pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->konfrontowała postać [RECIPIENT_nameDef] z pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->zamęczał postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->zamęczała postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Male)->sondował postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>askedAbout(INITIATOR_gender==Female)->sondowała postać [RECIPIENT_nameDef] pytaniami o</li>
+    <li>identityTopic->wcześniejszą pracę</li>
+    <li>identityTopic->dawne relacje z innymi frakcjami</li>
+    <li>identityTopic->okoliczności narodzin</li>
+    <li>identityTopic->wychowanie</li>
+    <li>identityTopic->rodziców</li>
+    <li>identityTopic->dawnych przyjaciół</li>
+    <li>identityTopic->historię związków uczuciowych</li>
+    <li>identityTopic->upodobania i niechęci</li>
+    <li>identityTopic->reakcje emocjonalne na niepokojące sytuacje</li>
+    <li>identityTopic->upodobania kulinarne</li>
+    <li>identityTopic->najgłębsze lęki</li>
+    <li>identityTopic->najcenniejsze wspomnienia</li>
+    <li>identityTopic->osobiste żale</li>
+    <li>identityTopic->marzenia i aspiracje</li>
+    <li>identityTopic->powody dołączenia do obecnej frakcji</li>
+    <li>identityTopic->rolę odegraną w ważnym wydarzeniu z przeszłości</li>
+    <li>identityTopic->hobby i sposoby spędzania wolnego czasu</li>
+    <li>identityTopic->wartości moralne i zasady</li>
+    <li>identityTopic->motywacje</li>
+    <li>identityTopic->powody podjęcia najważniejszych decyzji</li>
+    <li>identityTopic->traumatyczne doświadczenia z przeszłości</li>
+    <li>identityTopic->sposoby myślenia ludzi</li>
+    <li>identityTopic->przeżycia z dzieciństwa</li>
+    <li>identityTopic->doświadczenia szkolne</li>
+    <li>identityTopic->doświadczenia związane z kulturą</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
@@ -185,11 +215,26 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] tłumaczy [RECIPENT_nameDef_dat] swoje teorie, których przedmiot to [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] dzieli się z [RECIPENT_nameDef_dat] swoimi pomysłami, których przedmiot to [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] mówi o: [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] opowiada o następującym zagadnieniu: [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] uczy lekcji w związku z następującym tematem: [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0001] postaci [RECIPIENT_nameDef] własne teorie o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0002] się z postacią [RECIPIENT_nameDef] swoimi przemyśleniami o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0003] o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0004] o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0005] wykład o [subjectDarkStudy].</li>
+    <li>plPlecAudyt_0001(INITIATOR_gender==Male,priority=1)->przedstawił</li>
+    <li>plPlecAudyt_0001(INITIATOR_gender==Female,priority=1)->przedstawiła</li>
+    <li>plPlecAudyt_0001->przedstawił</li>
+    <li>plPlecAudyt_0002(INITIATOR_gender==Male,priority=1)->podzielił</li>
+    <li>plPlecAudyt_0002(INITIATOR_gender==Female,priority=1)->podzieliła</li>
+    <li>plPlecAudyt_0002->podzielił</li>
+    <li>plPlecAudyt_0003(INITIATOR_gender==Male,priority=1)->mówił</li>
+    <li>plPlecAudyt_0003(INITIATOR_gender==Female,priority=1)->mówiła</li>
+    <li>plPlecAudyt_0003->mówił</li>
+    <li>plPlecAudyt_0004(INITIATOR_gender==Male,priority=1)->szczegółowo opowiadał</li>
+    <li>plPlecAudyt_0004(INITIATOR_gender==Female,priority=1)->szczegółowo opowiadała</li>
+    <li>plPlecAudyt_0004->szczegółowo opowiadał</li>
+    <li>plPlecAudyt_0005(INITIATOR_gender==Male,priority=1)->wygłosił</li>
+    <li>plPlecAudyt_0005(INITIATOR_gender==Female,priority=1)->wygłosiła</li>
+    <li>plPlecAudyt_0005->wygłosił</li>
   </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
@@ -200,9 +245,18 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] pyta [RECIPIENT_nameDef_acc] o następujące zagadnienie: [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] wypytuje o następujące zagadnienie: [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] mamrocze o następującym zagadnieniu: [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0006] postać [RECIPIENT_nameDef], chcąc dowiedzieć się więcej o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0007] o to, co wiadomo o [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] [plPlecAudyt_0008] o [subjectInsane].</li>
+    <li>plPlecAudyt_0006(INITIATOR_gender==Male,priority=1)->zapytał</li>
+    <li>plPlecAudyt_0006(INITIATOR_gender==Female,priority=1)->zapytała</li>
+    <li>plPlecAudyt_0006->zapytał</li>
+    <li>plPlecAudyt_0007(INITIATOR_gender==Male,priority=1)->wypytywał</li>
+    <li>plPlecAudyt_0007(INITIATOR_gender==Female,priority=1)->wypytywała</li>
+    <li>plPlecAudyt_0007->wypytywał</li>
+    <li>plPlecAudyt_0008(RECIPIENT_gender==Male,priority=1)->mamrotał</li>
+    <li>plPlecAudyt_0008(RECIPIENT_gender==Female,priority=1)->mamrotała</li>
+    <li>plPlecAudyt_0008->mamrotał</li>
   </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>

@@ -9,7 +9,11 @@
   <StatsReport_Clothed>ubrany</StatsReport_Clothed>
   <!-- EN: unclothed -->
   <StatsReport_Unclothed>nieubrany</StatsReport_Unclothed>
-
+  <!-- EN: in space -->
+  <StatsReport_InSpace>w kosmosie</StatsReport_InSpace>
+  <!-- EN: planetside -->
+  <StatsReport_NotInSpace>na powierzchni planety</StatsReport_NotInSpace>
+  
   <!-- EN: Age rate multiplier -->
   <StatsReport_AgeRateMultiplier>Mnożnik współczynnika wieku</StatsReport_AgeRateMultiplier>
   <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
@@ -28,12 +32,12 @@
   <!-- EN: Deathrest effectiveness -->
   <StatsReport_DeathrestEffectiveness>Skuteczność anabiozy</StatsReport_DeathrestEffectiveness>
   <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
-  <StatsReport_DeathrestEffectiveness_Desc>Mnożnik określający, jak skuteczna jest ta funkcja, gdy jest używana do anabiozy. Im jest on wyższy, tym mniej czasu użytkownik potrzebuje na anabiozę.</StatsReport_DeathrestEffectiveness_Desc>
+  <StatsReport_DeathrestEffectiveness_Desc>Mnożnik skuteczności anabiozy. Im jest wyższy, tym mniej czasu potrzeba na zakończenie anabiozy w tym miejscu.</StatsReport_DeathrestEffectiveness_Desc>
 
   <!-- EN: Deathrest connection limit -->
   <StatsReport_DeathrestConnectionLimit>Limit połączeń anabiozy</StatsReport_DeathrestConnectionLimit>
   <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
-  <StatsReport_DeathrestConnectionLimit_Desc>Ilość budynków jakie mogą połączyć się z z osobą podczas anabiozy. Liczba ta jest również ograniczona przez pojemność anabiozy danej osoby.</StatsReport_DeathrestConnectionLimit_Desc>
+  <StatsReport_DeathrestConnectionLimit_Desc>Liczba urządzeń tego typu, które mogą jednocześnie łączyć się z osobą w stanie anabiozy. Łączna liczba połączeń jest dodatkowo ograniczona pojemnością anabiozy danej osoby.</StatsReport_DeathrestConnectionLimit_Desc>
 
   <!-- EN: Growth tier -->
   <StatsReport_GrowthTier>Rozwój</StatsReport_GrowthTier>
@@ -107,8 +111,6 @@
   <PassionModAdd>Dodaje jeden poziom pasji do: {0_label}.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>Usuwa całą pasję w: {0_label}.</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>Powoduje potrzebę</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>Zapewnia zdolność</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +119,6 @@
   <ResourceLossPerDay>{RESOURCE}: {OFFSET} dziennie.</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>Usuń</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>Wyłącz potrzebę</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>Wyłącz potrzeby</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>Niemowlę</DevelopmentStage_Baby>
   <!-- EN: Child -->

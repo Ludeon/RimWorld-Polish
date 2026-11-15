@@ -2,71 +2,83 @@
 <LanguageData>
   
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>Przybył [lodgersLabelSingOrPlural]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>Przybycie podopiecznych: [lodgersLabelSingOrPlural]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>Przybył [lodgersLabelSingOrPluralDef] [lodgersHasHave]. Chroń [lodgersObjective] do czasu przybycia promu w [shuttleDelayTicks_duration] [helpersArrivalLetterEnd].</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>Podopieczni dotarli do kolonii. Przyjęta grupa: [lodgersLabelSingOrPluralDef]. Zapewnij im bezpieczeństwo do przybycia promu za [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Powinien odlecieć na pokładzie promu</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
+  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Odlot promem</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>Prom przyleciał</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
+  <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>Przybył prom</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
-  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>Prom przybył po [lodgersLabelSingOrPluralDef]. Upewnij się, że dane osoby znajdą się w promie przed jego odlotem w [shuttleLeaveDelayTicks_duration]:\n\n[lodgers].</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>Prom przybył po podopiecznych: [lodgersLabelSingOrPluralDef]. Przed odlotem za [shuttleLeaveDelayTicks_duration] upewnij się, że wszyscy znajdują się na pokładzie:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Gość zmarł: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Śmierć podopiecznego: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], którego miałeś chronić, nagle zmarł. [remainingWillNowLeave][failLetterEndingCommon].</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>Podczas pobytu pod opieką kolonii doszło do śmierci jednego z podopiecznych. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>Gość aresztowany: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>Aresztowanie gościa: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>[letterSubject], którego miałeś chronić, został aresztowany. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>Aresztowano gościa [letterSubject], którego należało chronić. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>Więzień zwerbowany: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
+  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>Zrekrutowano więźnia: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>{SUBJECT_definite}, którego miałeś chronić, zostaje przez zrekrutowany. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>Zrekrutowano osobę {SUBJECT_definite}, której pilnowanie było warunkiem zadania. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
   <!-- EN: Prisoner enslaved: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>Więzień zniewolony: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>
+  <Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>Zniewolono więźnia: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>
   <!-- EN: You have enslaved {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>Zniewalasz {SUBJECT_definite}, a którego miałeś chronić. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>
+  <Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>Zniewolono osobę {SUBJECT_definite}, której pilnowanie było warunkiem zadania. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>Nieuprawniona operacja</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
+  <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>Niedozwolona operacja: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>Nieuprawniona, naruszająca zasady operacja, której poddano [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon].</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>Przeprowadzono niedozwoloną operację na jednym z podopiecznych. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Gość zaginął: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Utrata gościa: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>[letterSubject], którego miałeś chronić, odszedł. [remainingWillNowLeave][failLetterEndingCommon].</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>Utracono jednego z podopiecznych kolonii. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Gość zaginął: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Podopieczny zdziczał: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>[letterSubject], którego miałeś chronić, oszalał. [remainingWillNowLeave][failLetterEndingCommon].</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>Doszło do zdziczenia jednego z podopiecznych. Dotyczy: [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>Gość zaginął: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>Podopieczny dołączył do innej frakcji: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>[letterSubject], którego miałeś chronić, dołączył do innej frakcji. [remainingWillNowLeave][failLetterEndingCommon].</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>Postać [letterSubject] dołączyła do innej frakcji. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>Zadanie zakończyło się porażką: [resolvedQuestName].</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>Zadanie nieudane: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
   <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] jest teraz wrogo nastawione do ciebie. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>Frakcja [asker_faction_name] stała się wroga. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Prom zniszczony</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Zniszczono prom</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Został zniszczony prom wysłany po [lodgersLabelSingOrPluralDef]. [lodgersLabelSingOrPluralDef] wyruszy teraz o własnych nogach. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Prom wysłany po podopiecznych został zniszczony. Podopieczni opuszczą teraz kolonię pieszo. Grupa: [lodgersLabelSingOrPluralDef]. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left behind -->
+  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>Pozostawiono prom</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot. -->
+  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>Prom wysłany po podopiecznych został pozostawiony. Podopieczni opuszczą teraz kolonię pieszo. Grupa: [lodgersLabelSingOrPluralDef].</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Zadanie ukończono pomyślnie</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Zadanie ukończone</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
-  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Pomyślnie ukończyłeś zadanie "[resolvedQuestName]"! [lodgersLabelSingOrPluralDef] rzekł, że [lodgersPronoun] [lodgersWasWere] byli skłonni wynagrodzić cię za wysokiej jakości zakwaterowanie. Średni nastrój [lodgersLabelSingOrPluralDef] był {AVERAGEMOOD} podczas pobytu [theirHisHer], więc twoja dobra wola z [asker_faction_name] wzrosły o {GOODWILL}.</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Zadanie "[resolvedQuestName]" zostało ukończone!\n\nŚredni nastrój podopiecznych podczas pobytu wyniósł {AVERAGEMOOD}. Doceniono zapewnione warunki, dlatego przychylność frakcji [asker_faction_name] wzrosła o {GOODWILL}.</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Zadanie ukończono pomyślnie</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Zadanie ukończone</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
-  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Pomyślnie ukończyłeś zadanie "[resolvedQuestName]"! Chociaż [lodgersLabelSingOrPluralDef] [lodgersWasWere] byli skłonni wynagrodzić wysokiej jakości zakwaterowanie, a [theirHisHer] średni nastrój miał miejsce tylko {AVERAGEMOOD} podczas [theirHisHer] pobytu. Nie otrzymasz nagrody do dobrej woli dla frakcji.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Zadanie "[resolvedQuestName]" zostało ukończone!\n\nŚredni nastrój podopiecznych podczas pobytu wyniósł tylko {AVERAGEMOOD}. Nie otrzymasz nagrody w postaci poprawy relacji z frakcją.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Zadanie zakończyło się porażką: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Zadanie nieudane: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>Prom wysłany po odbiór [lokatorówLabelSingOrPluralDef] odjechał. [lokatorzyLabelSingOrPluralDef] opuści obszar o własnych siłach. [niepowodzenieLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>Prom wysłany po podopiecznych odleciał. Podopieczni opuszczą teraz kolonię pieszo. Grupa: [lodgersLabelSingOrPluralDef]. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
   
   <!-- EN: Shuttle destroyed -->
-  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Prom zniszczony</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
+  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Zniszczono prom</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
-  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Prom wysłany w celu wysłania [pawnsLabelDef] został zniszczony. Nie udało Ci się wykonać zadania „[resolvedQuestName]”.\n\nTwoja dobra wola z [asker_faction_name] uległy zmianie przez [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>Prom transportujący grupę [pawnsLabelDef] został zniszczony. Zadanie "[resolvedQuestName]" zakończyło się niepowodzeniem.\n\nRelacje z frakcją [asker_faction_name] zmieniły się o [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
   
 </LanguageData>

@@ -18,20 +18,24 @@
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
   <ReliquaryPilgrims.questContentRules.rulesStrings>
-    <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] przybył</li>
+    <li>pilgrimsArrivedLetterLabel->Przybycie pielgrzymów</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] dziękuje za pozwolenie [pawns0_objective] [andFollowers] na oddanie czci [relic_name] w dniu [venerateDate]. W zamian [pawns0_nameDef]wysyła ci następujące przedmioty za pośrednictwem drop pod (całkowita wartość [rewardsMarketValue_money]):\n\n[rewards].</li>
-    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] skończył czcić [relic_name] i [areIs] odchodzi.</li>
-    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] opuścił mapę</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] dziękuje za umożliwienie oddania czci relikwii "[relic_name]" podczas wizyty w dniu [venerateDate]. W podziękowaniu wysłano kapsułą transportową przedmioty o łącznej wartości [rewardsMarketValue_money]:\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural]: [pilgrimsDeparture].</li>
+    <li>pilgrimsLeftMessage->Pielgrzymi opuścili teren kolonii.</li>
     <li>areIs(pilgrimCount==1)->jest</li>
     <li>areIs(pilgrimCount>=2)->są</li>
     <li>andFollowers(pilgrimCount==1)-></li>
-    <li>andFollowers(pilgrimCount==2)->i inni [faction_pawnSingular]</li>
-    <li>andFollowers(pilgrimCount>=3)->i drugi [faction_pawnsPlural]</li>
+    <li>andFollowers(pilgrimCount==2)->wraz z innym pielgrzymem</li>
+    <li>andFollowers(pilgrimCount>=3)->wraz z pozostałymi pielgrzymami</li>
     <li>pilgrimSingularOrPlural(pilgrimCount==1)->pielgrzym</li>
     <li>pilgrimSingularOrPlural(pilgrimCount>=2)->pielgrzymi</li>
     <li>factionAdj(pilgrimFaction==true)-></li>
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
+    <li>pilgrimsArrivedLetterLabel(pilgrimCount==1,priority=1)->Przybycie pielgrzyma</li>
+    <li>pilgrimsDeparture(pilgrimCount==1)->Wizyta przy relikwii dobiegła końca. Pielgrzym opuszcza kolonię</li>
+    <li>pilgrimsDeparture(pilgrimCount>=2)->Wizyta przy relikwii dobiegła końca. Pielgrzymi opuszczają kolonię</li>
+    <li>pilgrimsLeftMessage(pilgrimCount==1,priority=1)->Pielgrzym opuścił teren kolonii.</li>
   </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
@@ -51,6 +55,10 @@
   </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], a child, [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including a child has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including some children has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->A group of child [pilgrimsLabelSingularOrPlural] has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>isAre(pilgrimCount==1)->is</li>
     <li>isAre(pilgrimCount>=2)->are</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
@@ -59,13 +67,15 @@
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
-    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] przybył, aby oddać cześć [relic_name].\n\nJeśli zapewnisz [pronounSingularOrPlural] [isAre] bezpieczeństwo i szacunek [pronounSingularOrPlural] [visitSingularOrPlural] podczas odwiedzin relikwii, [pronounSingularOrPlural] może zaoferować ci nagrodę.</li>
+    <li>questDescription->[pilgrimsArrival] do kolonii, aby oddać cześć relikwii "[relic_name]".\n\nJeśli zapewnisz gościom bezpieczeństwo i okażesz im szacunek podczas wizyty przy relikwii, mogą się odwdzięczyć nagrodą.</li>
+    <li>pilgrimsArrival(pilgrimCount==1)->Pielgrzym [pawns0_nameDef] przybywa</li>
+    <li>pilgrimsArrival(pilgrimCount>=2)->Pielgrzymi przybywają</li>
     <li>isAre(pilgrimCount==1)->jest</li>
     <li>isAre(pilgrimCount>=2)->są</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
     <li>pronounSingularOrPlural(pilgrimCount>=2)->oni</li>
-    <li>visitSingularOrPlural(pilgrimCount==1)->odwiedzający</li>
-    <li>visitSingularOrPlural(pilgrimCount>=2)->odwiedzający</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->odwiedza</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->odwiedzają</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
@@ -88,23 +98,23 @@
     <li>visit->veneration</li>
   -->
   <ReliquaryPilgrims.questNameRules.rulesStrings>
-    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
-    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
+    <li>questName(pilgrimCount==1)->[visitAdj] [visit] ([pilgrimsLabelSingularOrPlural])</li>
+    <li>questName(pilgrimCount>=2)->[visitAdj] [visit] ([pilgrimsLabelSingularOrPlural])</li>
     <li>visitAdj(p=6)-></li>
-    <li>visitAdj->święty</li>
-    <li>visitAdj->święty</li>
-    <li>visitAdj->duchowy</li>
-    <li>visitAdj->boski</li>
-    <li>visitAdj->uświęcony</li>
-    <li>visitAdj->uroczyście</li>
-    <li>visitAdj->sakramentalny</li>
-    <li>visitAdj->uświęcony</li>
-    <li>visit->odwiedzający</li>
+    <li>visitAdj->Święta</li>
+    <li>visitAdj->Sakralna</li>
+    <li>visitAdj->Duchowa</li>
+    <li>visitAdj->Boska</li>
+    <li>visitAdj->Uświęcona</li>
+    <li>visitAdj->Uroczysta</li>
+    <li>visitAdj->Religijna</li>
+    <li>visitAdj->Poświęcona</li>
+    <li>visit->wizyta</li>
     <li>visit->pielgrzymka</li>
     <li>visit->misja</li>
     <li>visit->wyprawa</li>
-    <li>visit->wycieczka</li>
-    <li>visit->trasa</li>
+    <li>visit->wędrówka</li>
+    <li>visit->podróż</li>
     <li>visit->adoracja</li>
   </ReliquaryPilgrims.questNameRules.rulesStrings>
   

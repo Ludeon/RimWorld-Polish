@@ -2,35 +2,55 @@
 <LanguageData>
   
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>TODO</Convert_Failure.label>
+  <Convert_Failure.label>nieudane nawrócenie</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
-  <Convert_Failure.logRulesInitiator.rulesStrings>TODO</Convert_Failure.logRulesInitiator.rulesStrings>
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0069] nawrócić postać [RECIPIENT_nameDef], ale bezskutecznie.</li>
+    <li>plPlecAudyt_0069(INITIATOR_gender==Male,priority=1)->próbował</li>
+    <li>plPlecAudyt_0069(INITIATOR_gender==Female,priority=1)->próbowała</li>
+    <li>plPlecAudyt_0069->próbował</li>
+  </Convert_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful conversion -->
-  <Convert_Success.label>TODO</Convert_Success.label>
+  <Convert_Success.label>udane nawrócenie</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
-  <Convert_Success.logRulesInitiator.rulesStrings>TODO</Convert_Success.logRulesInitiator.rulesStrings>
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0070] nawrócić postać [RECIPIENT_nameDef].</li>
+    <li>plPlecAudyt_0070(INITIATOR_gender==Male,priority=1)->zdołał</li>
+    <li>plPlecAudyt_0070(INITIATOR_gender==Female,priority=1)->zdołała</li>
+    <li>plPlecAudyt_0070->zdołał</li>
+  </Convert_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: convert ideoligion attempt -->
-  <ConvertIdeoAttempt.label>TODO</ConvertIdeoAttempt.label>
+  <ConvertIdeoAttempt.label>próba nawrócenia</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
-  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>TODO</ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0071] przekonać postać [RECIPIENT_nameDef] do przyjęcia własnej ideologii.</li>
+    <li>plPlecAudyt_0071(INITIATOR_gender==Male,priority=1)->próbował</li>
+    <li>plPlecAudyt_0071(INITIATOR_gender==Female,priority=1)->próbowała</li>
+    <li>plPlecAudyt_0071->próbował</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>TODO</Counsel_Failure.label>
+  <Counsel_Failure.label>nieudana rada</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
-  <Counsel_Failure.logRulesInitiator.rulesStrings>TODO</Counsel_Failure.logRulesInitiator.rulesStrings>
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0072] udzielić rady postaci [RECIPIENT_nameDef], lecz nieudana próba tylko pogorszyła sytuację.</li>
+    <li>plPlecAudyt_0072(INITIATOR_gender==Male,priority=1)->próbował</li>
+    <li>plPlecAudyt_0072(INITIATOR_gender==Female,priority=1)->próbowała</li>
+    <li>plPlecAudyt_0072->próbował</li>
+  </Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>TODO</Counsel_Success.label>
+  <Counsel_Success.label>udana rada</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -40,27 +60,57 @@
     <li>problems->[RECIPIENT_possessive] painful feelings</li>
     <li>problems->recent difficulties</li>
   -->
-  <Counsel_Success.logRulesInitiator.rulesStrings>TODO</Counsel_Success.logRulesInitiator.rulesStrings>
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0073] postaci [RECIPIENT_nameDef] wskazówek, jak poradzić sobie z [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0074] postaci [RECIPIENT_nameDef] przemyśleć, jak radzić sobie z [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0075] postaci [RECIPIENT_nameDef], jak przezwyciężyć negatywne nastawienie.</li>
+    <li>problems->osobistymi problemami</li>
+    <li>problems->własnymi kłopotami</li>
+    <li>problems->bolesnymi uczuciami</li>
+    <li>problems->niedawnymi trudnościami</li>
+    <li>plPlecAudyt_0073(INITIATOR_gender==Male,priority=1)->udzielił</li>
+    <li>plPlecAudyt_0073(INITIATOR_gender==Female,priority=1)->udzieliła</li>
+    <li>plPlecAudyt_0073->udzielił</li>
+    <li>plPlecAudyt_0074(INITIATOR_gender==Male,priority=1)->pomógł</li>
+    <li>plPlecAudyt_0074(INITIATOR_gender==Female,priority=1)->pomogła</li>
+    <li>plPlecAudyt_0074->pomógł</li>
+    <li>plPlecAudyt_0075(INITIATOR_gender==Male,priority=1)->doradził</li>
+    <li>plPlecAudyt_0075(INITIATOR_gender==Female,priority=1)->doradziła</li>
+    <li>plPlecAudyt_0075->doradził</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: preached health -->
-  <PreachHealth.label>TODO</PreachHealth.label>
+  <PreachHealth.label>modlitwa o zdrowie</PreachHealth.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
     <li>preaching_topic->reasons to live</li>
     <li>preaching_topic->higher ideoligious goals</li>
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
-  <PreachHealth.logRulesInitiator.rulesStrings>TODO</PreachHealth.logRulesInitiator.rulesStrings>
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0076] kazanie, które wzmocniło zdrowie postaci [RECIPIENT_nameDef]. Temat: [preaching_topic].</li>
+    <li>preaching_topic->powody, dla których warto żyć</li>
+    <li>preaching_topic->wyższe cele ideologiczne</li>
+    <li>preaching_topic->osobisty sens istnienia postaci [RECIPIENT_nameDef]</li>
+    <li>plPlecAudyt_0076(INITIATOR_gender==Male,priority=1)->wygłosił</li>
+    <li>plPlecAudyt_0076(INITIATOR_gender==Female,priority=1)->wygłosiła</li>
+    <li>plPlecAudyt_0076->wygłosił</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
   
   <!-- EN: reassurance -->
-  <Reassure.label>TODO</Reassure.label>
+  <Reassure.label>umocnienie wiary</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings>TODO</Reassure.logRulesInitiator.rulesStrings>
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0077] przekonania postaci [RECIPIENT_nameDef].</li>
+    <li>plPlecAudyt_0077(INITIATOR_gender==Male,priority=1)->umocnił</li>
+    <li>plPlecAudyt_0077(INITIATOR_gender==Female,priority=1)->umocniła</li>
+    <li>plPlecAudyt_0077->umocnił</li>
+  </Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
-  <Trial_Accuse.label>TODO</Trial_Accuse.label>
+  <Trial_Accuse.label>oskarżenie</Trial_Accuse.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
     <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
@@ -79,10 +129,36 @@
     <li>wrongdoing->hateful thinking</li>
     <li>wrongdoing->disloyalty</li>
   -->
-  <Trial_Accuse.logRulesInitiator.rulesStrings>TODO</Trial_Accuse.logRulesInitiator.rulesStrings>
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0078] dowody podczas procesu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0079] się do emocji zgromadzonych widzów.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0080] postać [RECIPIENT_nameDef] o [wrongdoing].</li>
+    <li>wrongdoing->sabotowanie kolonii</li>
+    <li>wrongdoing->lenistwo</li>
+    <li>wrongdoing->nadmierne objadanie się</li>
+    <li>wrongdoing->kradzież</li>
+    <li>wrongdoing->bycie okropnym człowiekiem</li>
+    <li>wrongdoing->lekceważenie świętych idei</li>
+    <li>wrongdoing->lekceważenie szanowanych postaci</li>
+    <li>wrongdoing->herezję</li>
+    <li>wrongdoing->morderstwo</li>
+    <li>wrongdoing->bluźnierstwo</li>
+    <li>wrongdoing->zdradę</li>
+    <li>wrongdoing->żywienie nienawistnych poglądów</li>
+    <li>wrongdoing->nielojalność</li>
+    <li>plPlecAudyt_0078(INITIATOR_gender==Male,priority=1)->przedstawił</li>
+    <li>plPlecAudyt_0078(INITIATOR_gender==Female,priority=1)->przedstawiła</li>
+    <li>plPlecAudyt_0078->przedstawił</li>
+    <li>plPlecAudyt_0079(INITIATOR_gender==Male,priority=1)->odwołał</li>
+    <li>plPlecAudyt_0079(INITIATOR_gender==Female,priority=1)->odwołała</li>
+    <li>plPlecAudyt_0079->odwołał</li>
+    <li>plPlecAudyt_0080(INITIATOR_gender==Male,priority=1)->oskarżył</li>
+    <li>plPlecAudyt_0080(INITIATOR_gender==Female,priority=1)->oskarżyła</li>
+    <li>plPlecAudyt_0080->oskarżył</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
   
   <!-- EN: defend -->
-  <Trial_Defend.label>TODO</Trial_Defend.label>
+  <Trial_Defend.label>obrona</Trial_Defend.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
     <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
@@ -92,13 +168,47 @@
     <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
-  <Trial_Defend.logRulesInitiator.rulesStrings>TODO</Trial_Defend.logRulesInitiator.rulesStrings>
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0081] oskarżenie.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0082] inną interpretację wydarzeń.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0083] do ławy przysięgłych.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0084] o okazanie łaski.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0085] postępowanie.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0086] zarzuty.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0087] proces farsą.</li>
+    <li>plPlecAudyt_0081(INITIATOR_gender==Male,priority=1)->odparł</li>
+    <li>plPlecAudyt_0081(INITIATOR_gender==Female,priority=1)->odparła</li>
+    <li>plPlecAudyt_0081->odparł</li>
+    <li>plPlecAudyt_0082(INITIATOR_gender==Male,priority=1)->przedstawił</li>
+    <li>plPlecAudyt_0082(INITIATOR_gender==Female,priority=1)->przedstawiła</li>
+    <li>plPlecAudyt_0082->przedstawił</li>
+    <li>plPlecAudyt_0083(INITIATOR_gender==Male,priority=1)->zaapelował</li>
+    <li>plPlecAudyt_0083(INITIATOR_gender==Female,priority=1)->zaapelowała</li>
+    <li>plPlecAudyt_0083->zaapelował</li>
+    <li>plPlecAudyt_0084(INITIATOR_gender==Male,priority=1)->poprosił</li>
+    <li>plPlecAudyt_0084(INITIATOR_gender==Female,priority=1)->poprosiła</li>
+    <li>plPlecAudyt_0084->poprosił</li>
+    <li>plPlecAudyt_0085(INITIATOR_gender==Male,priority=1)->przeciągał</li>
+    <li>plPlecAudyt_0085(INITIATOR_gender==Female,priority=1)->przeciągała</li>
+    <li>plPlecAudyt_0085->przeciągał</li>
+    <li>plPlecAudyt_0086(INITIATOR_gender==Male,priority=1)->odrzucił</li>
+    <li>plPlecAudyt_0086(INITIATOR_gender==Female,priority=1)->odrzuciła</li>
+    <li>plPlecAudyt_0086->odrzucił</li>
+    <li>plPlecAudyt_0087(INITIATOR_gender==Male,priority=1)->nazwał</li>
+    <li>plPlecAudyt_0087(INITIATOR_gender==Female,priority=1)->nazwała</li>
+    <li>plPlecAudyt_0087->nazwał</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>TODO</WorkDrive.label>
+  <WorkDrive.label>wezwanie do pracy</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings>TODO</WorkDrive.logRulesInitiator.rulesStrings>
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [plPlecAudyt_0088] postać [RECIPIENT_nameDef] do wzmożonego wysiłku na rzecz kolonii.</li>
+    <li>plPlecAudyt_0088(INITIATOR_gender==Male,priority=1)->wezwał</li>
+    <li>plPlecAudyt_0088(INITIATOR_gender==Female,priority=1)->wezwała</li>
+    <li>plPlecAudyt_0088->wezwał</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

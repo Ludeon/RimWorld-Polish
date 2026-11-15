@@ -2,8 +2,6 @@
 <LanguageData>
 
   <!-- Misc -->
-  <!-- EN: add -->
-  <Add>dodaj</Add>
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>Bonus do handlu produktami odzwierzęcymi</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
@@ -14,6 +12,10 @@
   <Date>Data</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>W zależności od wyniku rytuału przyznawane będą następujące punkty rozwoju:</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>TODO</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>TODO</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Wybierz symboliczną strukturę swojej ideologii. Dotyczy to tylko symboli - nie wpływa na rozgrywkę.</ChooseStructureMemesInfo>
@@ -39,7 +41,7 @@
   <NotEnoughMemesFluidIdeo>Wybierz {0} pogląd.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
-  <ChangesRandomizePrecepts>{0} dokona ponownego losowania wszystkich zasad, które edytowano.\in\Czy chcesz kontynuować?</ChangesRandomizePrecepts>
+  <ChangesRandomizePrecepts>{0} dokona ponownego losowania wszystkich zasad, które edytowano.\n\nCzy chcesz kontynuować?</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
   <ChangesRemovePrecepts>Następujące zasady są niezgodne z nowym wyborem poglądów i zostaną usunięte:\n\n{0}\n\nCzy chcesz kontynuować?</ChangesRemovePrecepts>
   
@@ -60,6 +62,8 @@
   <ChooseNewRole>Wybierz nową rolę</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Brak wyznaczonej roli</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>TODO</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>Usuń rolę {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
@@ -84,6 +88,8 @@
   <ChooseRoleHint>Czasami lepiej jest poczekać, aż Twoja kolonia ustabilizuje się, zanim wyznaczysz role.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>Odblokowany przez</UnlockedByMeme>
+  <!-- EN: Origin -->
+  <Origin>TODO</Origin>
   <!-- EN: Unlocked roles -->
   <MemeUnlocksRoles>Odblokowane role</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
@@ -109,6 +115,8 @@
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} do {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>Cecha {TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: Precept {PRECEPT} -->
+  <AbilityIdeoConvertBreakdownPercept>TODO</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} zainstalowanych relikwii na mapie</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -142,7 +150,7 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>Zmień dowolne z poniższych</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>Relikwia {0} nie będzie czczon{0_gender ? y : a : e} przez Twoich kolonistów po zreformowaniu tej ideologii. Ponieważ zadanie „{0}” polega na poszukiwaniu tego reliktu, zostanie zdezaktywowane.</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>Relikwia {0} nie będzie czczon{0_gender ? y : a : e} przez Twoich kolonistów po zreformowaniu tej ideologii. Ponieważ zadanie "{0}" polega na poszukiwaniu tego reliktu, zostanie zdezaktywowane.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>Rytuał {0} jest w toku i zostanie anulowany.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
@@ -164,8 +172,6 @@
   <LastHumanMeat>Ostatnie ludzkie mięso</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>Z powodu swojej wiary w {IDEO_name}, {PAWN_nameDef} stanie się nieszczęśliw{PAWN_gender ? y : a}, jeśli spędzi więcej niż {DURATION} dni bez jedzenia ludzkiego mięsa.</LastHumanMeatDesc>
-  <!-- EN: Last large animal slaughter -->
-  <LastAnimalSlaughter>Ostatni ubój dużych zwierząt</LastAnimalSlaughter>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>Wykonanie {PAWN_labelShort} wpłynie negatywnie na relacje z frakcją {FACTION_name}.</ExectueNeutralFactionSlave>
@@ -178,8 +184,6 @@
   <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>Styl</StylePawn>
-  <!-- EN: Cancel -->
-  <Cancel>Anuluj</Cancel>
   <!-- EN: hair -->
   <Hair>włosy</Hair>
   <!-- EN: beard -->
@@ -238,14 +242,8 @@
   <EditAppearanceItems>Edytuj wygląd</EditAppearanceItems>
   <!-- EN: {0} in use -->
   <NumAvailable>{0} w użyciu</NumAvailable>
-  <!-- EN: Expand all -->
-  <ExpandAllCategories>Rozwiń wszystkie</ExpandAllCategories>
-  <!-- EN: Collapse all -->
-  <CollapseAllCategories>Zwiń wszystkie</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>Resetuje wszystkie elementy stylu do ich wartości domyślnych.</ResetButtonDesc>
-  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>Barwnik można wyhodować z tinctorii lub kupić od handlarzy.</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -254,8 +252,10 @@
   <ReLoadShuttle>Ponownie załaduj prom</ReLoadShuttle>
 
   <!-- Medical settings -->
-  <!-- EN: Enslaved colonist -->
-  <MedGroupEnslavedColonist>Zniewolony kolonista</MedGroupEnslavedColonist>
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>TODO</MedGroupSlaves>
+  <!-- EN: Enslaved members of your colony. -->
+  <MedGroupSlavesDesc>TODO</MedGroupSlavesDesc>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
@@ -299,7 +299,7 @@
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
   <RemoveEquippedRelicsDescription>Nabywcy kolonii pozwolą Ci zabrać tylko jedną relikwię. Wszelkie niewybrane relikwie zostaną pozostawione, łącznie z:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
-  <WantToProceed>Czy chcesz kontynuować?</WantToProceed>
+  <WantToProceed>Czy chcesz kontynuować? Po przejściu dalej nie będzie już odwrotu.</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Konwertuj</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -313,8 +313,8 @@
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
   <SoldColonyDescription>Twoja kolonia została sprzedana. Nabywcy są gotowi, byś wybrał, gdzie wylądujesz.</SoldColonyDescription>
 
-  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>Zhakowanie tego {0} zaalarmuje wrogów i spowoduje ich atak. Czy naprawdę chcesz zhakować {0}?</ConfirmHackEnenyTerminal>
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
+  <ConfirmHackEnemyTerminal>TODO</ConfirmHackEnemyTerminal>
 
   <!-- EN: Relics -->
   <RelicsSection>Relikwie</RelicsSection>
@@ -328,4 +328,9 @@
   <FoodRestrictionCannibal>Kannibalistyczne</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
   <FoodRestrictionInsectMeat>Mięso owadów</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>TODO</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>TODO</StyleCategoryAddDesc>
 </LanguageData>

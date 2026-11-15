@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>Niekontrolowane mechy</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>Jeden lub więcej mechanoidów nie jest kontrolowany. Podłącz swoje mechanoidy do mechanitora o wystarczającej przepustowości, aby je kontrolować.\n\nJeśli pozostawisz je bez kontroli na dłużej niż jeden dzień, mechanoid może zdziczeć. Kiedy to się stanie, dołączą do {0} i staną się wrogo nastawione do ciebie. Jeśli jeden mechanoid zdziczeje, pociągnie za sobą inne pobliskie mechanoidy.\n\nGeneralne mechanoidy po zabiciu nie mogą zostać wskrzeszone w gestorze.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>Co najmniej jeden z twoich mechanoidów pozostaje bez kontroli. Połącz niekontrolowane mechanoidy z mechanitorem dysponującym wystarczającą przepustowością.\n\nMechanoid pozostawiony bez kontroli na dłużej niż jeden dzień może zdziczeć. Gdy to nastąpi, dołączy do {0} i stanie się wobec ciebie wrogi. Zdziczenie jednego mechanoida pociągnie za sobą inne pobliskie mechanoidy.\n\nZdziczałych mechanoidów nie można po śmierci wskrzesić w gestatorze.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>Następujące mechanoidy są niekontrolowane</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -12,15 +12,15 @@
 
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0} ma mało zasobów</AlertWarqueenHasLowResources>
-  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
+  <!-- EN: One or more {0} are low on resources. They will be unable to produce mechs on command if they run out of resources. -->
   <AlertWarqueenHasLowResourcesDesc>Jeden lub więcej {0} ma mało zasobów. Nie będą w stanie wyprodukować mechów na rozkaz, jeśli zabraknie im zasobów.</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN} potrzebuje anabiozy</AlertLowDeathrestPawn>
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
-  <AlertLowDeathrestPawns>{NUMCULPRITS} Koloniści potrzebują anabiozy.</AlertLowDeathrestPawns>
+  <AlertLowDeathrestPawns>{NUMCULPRITS} kolonistów potrzebuje anabiozy</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>Kolonista nie wchodził w stan anabiozy przez długi czas. Jeśli będą zbyt długo bez stanu anabiozy, będą cierpieć z powodu wyczerpania anabiozy.\n\nAby anabioza była możliwa, wybierz kolonistę, a następnie kliknij prawym przyciskiem myszy na jego przypisanym łóżku lub trumnie.\n\nTakie osoby potrzebują anabiozy:\n\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>Zbyt długi okres bez anabiozy prowadzi do wyczerpania z braku anabiozy.\n\nAby rozpocząć anabiozę, zaznacz kolonistę i kliknij prawym przyciskiem myszy przypisane łóżko lub trumnę do anabiozy.\n\nTe osoby potrzebują anabiozy:\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>Niski poziom hemogenu</AlertLowHemogen>
@@ -35,7 +35,7 @@
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>Potrzeba ładowarek mechów</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>Nie masz ładowarek dla wszystkich mechanoidów. Jeśli mechowi zabraknie energii, przejdzie w stan uśpienia i będzie ładował się bardzo powoli.\n\nUwaga: Tylko lekkie mechanoidy mogą używać zwykłych ładowarek. Średnie i cięższe mechanoidy wymagają dużych ładowarek.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>Nie masz wystarczającej liczby ładowarek dla wszystkich mechanoidów. Jeśli mechowi zabraknie energii, przejdzie w stan uśpienia i będzie ładował się bardzo powoli.\n\nZbuduj więcej następujących ładowarek:\n{0}\n\nUwaga: tylko lekkie mechanoidy mogą korzystać ze zwykłych ładowarek. Średnie i cięższe wymagają dużych ładowarek.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>Zbadaj podstawową mechnologię lub wyższą, aby zbudować ładowarki.</AlertNeedMechChargerBasicMechtech>
 
@@ -51,7 +51,7 @@
   <!-- EN: No baby feeders -->
   <AlertNoBabyFeeder>Żadnych opiekunów dla dzieci</AlertNoBabyFeeder>
   <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>Żaden {FACTION_pawnPlural} nie jest przypisany do karmienia tych dzieci lub wszystscy są niedostępni.\n\nPrzydziel jednego ze swoich {FACTION_pawnPlural} do opieki nad dziećmi lub przydziel {FACTION_pawnSingular} do karmienia tych dzieci z priorytetem Pilne w karcie karmienia dzieci i upewnij się, że przynajmniej jeden z nich jest dostępny.</AlertNoBabyFeederDesc>
+  <AlertNoBabyFeederDesc>Brakuje osób wyznaczonych do karmienia tych niemowląt lub wszystkie wyznaczone osoby są niezdolne do działania.\n\nPrzydziel kogoś do opieki nad dziećmi. Możesz też w karcie karmienia niemowlęcia wyznaczyć osobę karmiącą piersią z pilnym priorytetem. Co najmniej jedna z wyznaczonych osób musi być zdolna do działania.</AlertNoBabyFeederDesc>
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>opuszczone dziecko</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
@@ -60,7 +60,7 @@
   <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>Żadnego jedzenia dla dzieci w karawanie</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>W tej karawanie nie ma pokarmu dla niemowląt, a karmiący {FACTION_pawnsPlural} są nastawieni na ich karmienie.</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>Niemowlęta w tej karawanie nie mają odpowiedniego pokarmu, a do ich karmienia nie wyznaczono żadnej osoby karmiącej piersią.</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>Nagromadzenie toksyn</AlertToxicBuildup>
@@ -109,5 +109,15 @@
   <AlertGenebankUnpowered>Bank genów potrzebuje energii</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
   <AlertGenebankUnpoweredDesc>Bank genów nie jest zasilany, więc genepaki w nim powoli się psują. Przywróć zasilanie banku genów, aby zapobiec pogorszeniu się stanu pakietów genu. Gdy bank genów będzie zasilany, powoli odwróci proces pogarszania się stanu genepacków w jego wnętrzu.</AlertGenebankUnpoweredDesc>
+
+  <!-- EN: {0} incoming -->
+  <AlertBossgroupIncoming>TODO</AlertBossgroupIncoming>
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
+  <AlertBossgroupIncomingDesc>TODO</AlertBossgroupIncomingDesc>
+
+  <!-- EN: Deathrest complete -->
+  <AlertDeathrestComplete>TODO</AlertDeathrestComplete>
+  <!-- EN: The following people have completed their deathrest and can wake up safely -->
+  <AlertDeathrestCompleteDesc>TODO</AlertDeathrestCompleteDesc>
 
 </LanguageData>

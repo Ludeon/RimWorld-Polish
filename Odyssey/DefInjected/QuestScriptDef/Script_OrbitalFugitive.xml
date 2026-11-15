@@ -26,28 +26,34 @@
     <li>reason->the destruction of an orbital trade vessel</li>
   -->
   <OrbitalFugitive.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Anonimowa SI poprosiła cię o pomoc w sprawie wyrzutka o imieniu [fugitive_nameDef]. SI twierdzi, że [fugitive_nameDef] jest poszukiwany za [reason_AI].\n\n[fugitive_nameDef] ukradł kapsułę transportową i uciekł na opuszczoną platformę orbitalną.\n\nSłysząc plotki o twoim grawstatku, SI prosi, abyś udał się na opuszczoną platformę i zabił [fugitive_nameDef]. W zamian nagrodzi cię urządzeniem grawtech.\n\nSI ostrzega, że [fugitive_nameDef] może być w towarzystwie wrogo nastawionych piratów orbitalnych.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] wysłał nam wiadomość. Zbieg o imieniu [fugitive_nameDef] uciekł spod opieki [asker_possessive] i wykorzystał kapsułę transportową, by dostać się na opuszczoną platformę orbitalną. [fugitive_nameDef] był zatrzymany za [reason].\n\nSłysząc plotki o twoim grawstatku, [asker_faction_leaderTitle] prosi, abyś udał się na platformę i zabił [fugitive_nameDef]. Jeśli to zrobisz, [asker_nameDef] nagrodzi cię urządzeniem grawtech.\n\n[asker_nameDef] ostrzega, że [fugitive_nameDef] może być w towarzystwie wrogo nastawionych piratów orbitalnych.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] frakcji [asker_faction_name], prosi, abyś odnalazł i zabił niebezpiecznego zbiegłego przestępcę znanego jako [fugitive_nameDef]. Zbieg jest poszukiwany za [reason_royal].\n\n[fugitive_nameDef] ukrywa się na opuszczonej platformie orbitalnej i może być chroniony przez piratów orbitalnych. Jeśli zabijesz tego zbiega, [asker_nameDef] nagrodzi cię urządzeniem grawtech.</li>
+    <li>questDescription(askerIsNull==true)->Anonimowa SI prosi o pomoc w sprawie zbiega: [fugitive_nameDef]. Według SI [fugitive_nameDef] ma odpowiadać za [reason_AI].\n\n[fugitive_nameDef] kradnie kapsułę transportową i ucieka na opuszczoną platformę orbitalną.\n\nSI słyszała o twoim grawstatku i proponuje nagrodę w postaci urządzenia grawitacyjnego za wyeliminowanie [fugitiveAccPL] na platformie.\n\nWedług SI na miejscu mogą przebywać również wrogo nastawieni piraci orbitalni.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z frakcji [asker_faction_name] [askerSentPL] wiadomość. Z więzienia ucieka [fugitive_nameDef], wykorzystując skradzioną kapsułę transportową do dotarcia na opuszczoną platformę orbitalną. Zarzuty wobec zbiega obejmują [reason].\n\nPo usłyszeniu o twoim grawstatku przywództwo frakcji prosi o wyprawę na platformę i wyeliminowanie [fugitiveAccPL]. W zamian [asker_nameDef] oferuje urządzenie grawitacyjne.\n\nWedług wiadomości [fugitiveAccPL] mogą osłaniać wrogo nastawieni piraci orbitalni.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] frakcji [asker_faction_name], prosi o wytropienie i wyeliminowanie zbiega: [fugitive_nameDef]. Zarzuty obejmują [reason_royal].\n\n[fugitive_nameDef] ukrywa się na opuszczonej platformie orbitalnej, być może pod ochroną piratów. Za wyeliminowanie [fugitiveAccPL] [asker_nameDef] oferuje urządzenie grawitacyjne.</li>
     <li>reason_AI->zniszczenie wielu zaawansowanych rdzeni subpersony</li>
     <li>reason_AI->deorbitację satelity SI</li>
     <li>reason_AI->przestępstwa na licznych odległych planetach</li>
     <li>reason_AI->nielegalny obrót artefaktami psychicznymi na orbicie</li>
     <li>reason_AI->[reason]</li>
     <li>reason_royal->publiczne obrażenie [asker_royalTitleInCurrentFaction] pod wpływem alkoholu podczas przemowy weselnej</li>
-    <li>reason_royal->próba zamachu na [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->próbę zamachu na [asker_royalTitleInCurrentFaction]</li>
     <li>reason_royal->przypadkowe zdetonowanie pakietu piany gaśniczej w imperialnym wahadłowcu</li>
     <li>reason_royal->nieprawidłowe użycie generatora tornad w pobliżu imperialnej osady</li>
-    <li>reason_royal->próba zorganizowania buntu</li>
-    <li>reason_royal->zdrada</li>
+    <li>reason_royal->próbę zorganizowania buntu</li>
+    <li>reason_royal->zdradę</li>
     <li>reason_royal->[reason]</li>
-    <li>reason->współpraca z kabałą sanguofagów</li>
+    <li>reason->współpracę z kabałą sanguofagów</li>
     <li>reason->handel niebezpiecznymi artefaktami psychicznymi</li>
     <li>reason->kradzież na dużą skalę i wielokrotne przypadki sabotażu korporacyjnego</li>
     <li>reason->nieautoryzowane eksperymenty genetyczne</li>
     <li>reason->wywoływanie konfliktów między frakcjami</li>
     <li>reason->znieważenie rytuału pokojowego pod wpływem alkoholu</li>
     <li>reason->zniszczenie orbitalnego statku handlowego</li>
+    <li>askerSentPL(asker_gender==Male,priority=1)->wysłał</li>
+    <li>askerSentPL(asker_gender==Female,priority=1)->wysłała</li>
+    <li>askerSentPL->wysyła</li>
+    <li>fugitiveAccPL(fugitive_gender==Male,priority=1)->uciekiniera</li>
+    <li>fugitiveAccPL(fugitive_gender==Female,priority=1)->uciekinierkę</li>
+    <li>fugitiveAccPL->zbiega</li>
   </OrbitalFugitive.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The Hunt for [fugitive_nameDef]</li>
@@ -61,15 +67,21 @@
     <li>criminal->Renegade</li>
   -->
   <OrbitalFugitive.questNameRules.rulesStrings>
-    <li>questName->Polowanie na [fugitive_nameDef]</li>
-    <li>questName->Nagroda za [fugitive_nameDef]</li>
-    <li>questName->[fugitive_nameDef] – [criminal]</li>
-    <li>questName->Orbitalny [criminal]</li>
-    <li>criminal->Przestępca</li>
-    <li>criminal->Zbieg</li>
-    <li>criminal->Banita</li>
-    <li>criminal->Zbrodniarz</li>
-    <li>criminal->Renegat</li>
+    <li>questName->Pościg: [fugitive_nameDef]</li>
+    <li>questName->Nagroda za głowę: [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] — [criminal]</li>
+    <li>questName->Orbitalna sprawa: [criminal]</li>
+    <li>criminal(fugitive_gender==Male,priority=1)->przestępca</li>
+    <li>criminal(fugitive_gender==Male,priority=1)->zbieg</li>
+    <li>criminal(fugitive_gender==Male,priority=1)->banita</li>
+    <li>criminal(fugitive_gender==Male,priority=1)->zbrodniarz</li>
+    <li>criminal(fugitive_gender==Male,priority=1)->renegat</li>
+    <li>criminal(fugitive_gender==Female,priority=1)->przestępczyni</li>
+    <li>criminal(fugitive_gender==Female,priority=1)->uciekinierka</li>
+    <li>criminal(fugitive_gender==Female,priority=1)->banitka</li>
+    <li>criminal(fugitive_gender==Female,priority=1)->zbrodniarka</li>
+    <li>criminal(fugitive_gender==Female,priority=1)->renegatka</li>
+    <li>criminal->postać poszukiwana</li>
   </OrbitalFugitive.questNameRules.rulesStrings>
   
 </LanguageData>

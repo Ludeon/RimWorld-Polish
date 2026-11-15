@@ -9,8 +9,9 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription(prisoner_gender==Male)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywany w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj go, a w ramach podzięki dołączy do Twojej kolonii. [prisoner_nameDef] to [prisoner_age] letni [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o nim nie usłyszeć.</li>
-    <li>questDescription(prisoner_gender==Female)->Więzień przetrzymywany przez [siteFaction_name] zdołał ukraść radio i zadzwonić do ciebie!\n\n[prisoner_nameDef] jest przetrzymywana w obozie w pobliżu [map_definite][underArmedGuard]. Uratuj ją, a w ramach podzięki dołączy do Twojej kolonii. [prisoner_nameDef] to [prisoner_age] letnia [prisoner_title]. [prisoner_nameDef] mówi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli przegapisz tę okazję, możesz nigdy więcej o niej nie usłyszeć.</li>
+    <li>questDescription(prisoner_gender==Male,priority=1)->Więzień przetrzymywany przez frakcję [siteFaction_name] zdołał ukraść radio i nawiązać kontakt z twoją kolonią!\n\n[prisoner_nameDef] jest uwięziony w obozie w pobliżu [map_definite][underArmedGuard]. Jeśli go uratujesz, dołączy do twojej kolonii. Ma [prisoner_age] lat (zajęcie: [prisoner_title]). Twierdzi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli nie wykorzystasz tej okazji, możesz już nigdy nie usłyszeć o [prisoner_nameDef].</li>
+    <li>questDescription(prisoner_gender==Female,priority=1)->Więźniarka przetrzymywana przez frakcję [siteFaction_name] zdołała ukraść radio i nawiązać kontakt z twoją kolonią!\n\n[prisoner_nameDef] jest uwięziona w obozie w pobliżu [map_definite][underArmedGuard]. Jeśli ją uratujesz, dołączy do twojej kolonii. Ma [prisoner_age] lat (zajęcie: [prisoner_title]). Twierdzi, że [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli nie wykorzystasz tej okazji, możesz już nigdy nie usłyszeć o [prisoner_nameDef].</li>
+    <li>questDescription->Do kolonii dotarł sygnał radiowy z obozu frakcji [siteFaction_name]. Nadawcą wiadomości jest [prisoner_nameDef].\n\nMiejsce uwięzienia znajduje się w pobliżu [map_definite][underArmedGuard]. Uratowana osoba obiecuje dołączyć do kolonii. Wiek: [prisoner_age] lat; zajęcie: [prisoner_title]. Według wiadomości [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nJeśli nie wykorzystasz tej okazji, kontakt może zostać utracony.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> pod uzbrojoną strażą</li>
@@ -25,10 +26,12 @@
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
-    <li>questName->Zbawienie [prisoner_nameDef]</li>
-    <li>questName->Ratunek [prisoner_nameDef]</li>
-    <li>questName->Ucieczka [prisoner_nameDef]</li>
-    <li>questName->Resocjalizacja [prisoner_nameDef]</li>
+    <li>questName->Ratunek: [prisoner_nameDef]</li>
+    <li>questName->Uwolnienie: [prisoner_nameDef]</li>
+    <li>questName->Ucieczka z niewoli: [prisoner_nameDef]</li>
+    <li>questName->Akcja ratunkowa: [prisoner_nameDef]</li>
+    <li>questName->Na ratunek: [prisoner_nameDef]</li>
+    <li>questName->Odbicie więźnia: [prisoner_nameDef]</li>
   </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
 </LanguageData>
