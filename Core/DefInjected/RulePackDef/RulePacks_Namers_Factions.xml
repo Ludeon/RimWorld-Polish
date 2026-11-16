@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -26,8 +26,8 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[mechhive] [msyl][msyl]</li>
-    <li>mechhive->mechogniazdo</li>
+    <li>r_name->[mechhive] [msyl_cap][msyl]</li>
+    <li>mechhive->Mechogniazdo</li>
     <li>msyl->nyar</li>
     <li>msyl->alg</li>
     <li>msyl->xan</li>
@@ -48,6 +48,26 @@
     <li>msyl->zen</li>
     <li>msyl->yoth</li>
     <li>msyl->lite</li>
+    <li>msyl_cap->Nyar</li>
+    <li>msyl_cap->Alg</li>
+    <li>msyl_cap->Xan</li>
+    <li>msyl_cap->Zel</li>
+    <li>msyl_cap->Kil</li>
+    <li>msyl_cap->Len</li>
+    <li>msyl_cap->Lax</li>
+    <li>msyl_cap->Alph</li>
+    <li>msyl_cap->Ome</li>
+    <li>msyl_cap->Iri</li>
+    <li>msyl_cap->Slin</li>
+    <li>msyl_cap->Toth</li>
+    <li>msyl_cap->Arth</li>
+    <li>msyl_cap->Unth</li>
+    <li>msyl_cap->Ox</li>
+    <li>msyl_cap->Arm</li>
+    <li>msyl_cap->Murd</li>
+    <li>msyl_cap->Zen</li>
+    <li>msyl_cap->Yoth</li>
+    <li>msyl_cap->Lite</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -76,48 +96,147 @@
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[political_union_outlander_all] [PlaceOutlander]</li>
-    <li>r_name->[political_adjective_mas] [political_union_outlander_mas] [PlaceOutlander]</li>
-    <li>r_name->[political_adjective_fem] [political_union_outlander_fem] [PlaceOutlander]</li>
-    <li>r_name->[political_adjective_neu] [political_union_outlander_neu] [PlaceOutlander]</li>
-    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
-    <li>nearnameinitial->[direction_mas] [placeoutlander_mas]</li>
-    <li>nearnameinitial->[direction_fem] [placeoutlander_fem]</li>
-    <li>nearnameinitial->[direction_neu] [placeoutlander_neu]</li>
+    <li>r_name(p=3)->[fr_adj_mas] [fr_org_mas]</li>
+    <li>r_name(p=3)->[fr_adj_fem] [fr_org_fem]</li>
+    <li>r_name(p=3)->[fr_adj_neu] [fr_org_neu]</li>
+    <li>r_name->[fr_org_mas] [fr_land_gen]</li>
+    <li>r_name->[fr_org_fem] [fr_land_gen]</li>
+    <li>r_name->[fr_org_neu] [fr_land_gen]</li>
+    <li>r_name->[fr_adj_mas] [fr_org_mas] [fr_land_gen]</li>
+    <li>r_name->[fr_adj_fem] [fr_org_fem] [fr_land_gen]</li>
+    <li>r_name->[fr_adj_neu] [fr_org_neu] [fr_land_gen]</li>
+    <li>fr_org_mas->Sojusz</li>
+    <li>fr_org_mas->Związek</li>
+    <li>fr_org_mas->Pakt</li>
+    <li>fr_org_mas->Front</li>
+    <li>fr_org_mas->Kongres</li>
+    <li>fr_org_mas->Ruch</li>
+    <li>fr_org_mas->Zakon</li>
+    <li>fr_org_mas->Konwent</li>
+    <li>fr_org_mas->Syndykat</li>
+    <li>fr_org_mas->Kartel</li>
+    <li>fr_org_fem->Unia</li>
+    <li>fr_org_fem->Federacja</li>
+    <li>fr_org_fem->Konfederacja</li>
+    <li>fr_org_fem->Koalicja</li>
+    <li>fr_org_fem->Liga</li>
+    <li>fr_org_fem->Wspólnota</li>
+    <li>fr_org_fem->Republika</li>
+    <li>fr_org_fem->Kompania</li>
+    <li>fr_org_neu->Przymierze</li>
+    <li>fr_org_neu->Zjednoczenie</li>
+    <li>fr_org_neu->Porozumienie</li>
+    <li>fr_org_neu->Dominium</li>
+    <li>fr_org_neu->Bractwo</li>
+    <li>fr_org_neu->Konsorcjum</li>
+    <li>fr_org_neu->Stowarzyszenie</li>
+    <li>fr_adj_mas->Nowy</li>
+    <li>fr_adj_mas->Wolny</li>
+    <li>fr_adj_mas->Niezależny</li>
+    <li>fr_adj_mas->Suwerenny</li>
+    <li>fr_adj_mas->Zjednoczony</li>
+    <li>fr_adj_mas->Pograniczny</li>
+    <li>fr_adj_mas->Północny</li>
+    <li>fr_adj_mas->Południowy</li>
+    <li>fr_adj_mas->Wschodni</li>
+    <li>fr_adj_mas->Zachodni</li>
+    <li>fr_adj_mas->Pokojowy</li>
+    <li>fr_adj_mas->Republikański</li>
+    <li>fr_adj_mas->Odrodzony</li>
+    <li>fr_adj_mas->Ludowy</li>
+    <li>fr_adj_mas->Wielki</li>
+    <li>fr_adj_mas->Żelazny</li>
+    <li>fr_adj_mas->Gwiezdny</li>
+    <li>fr_adj_mas->Demokratyczny</li>
+    <li>fr_adj_fem->Nowa</li>
+    <li>fr_adj_fem->Wolna</li>
+    <li>fr_adj_fem->Niezależna</li>
+    <li>fr_adj_fem->Suwerenna</li>
+    <li>fr_adj_fem->Zjednoczona</li>
+    <li>fr_adj_fem->Pograniczna</li>
+    <li>fr_adj_fem->Północna</li>
+    <li>fr_adj_fem->Południowa</li>
+    <li>fr_adj_fem->Wschodnia</li>
+    <li>fr_adj_fem->Zachodnia</li>
+    <li>fr_adj_fem->Pokojowa</li>
+    <li>fr_adj_fem->Republikańska</li>
+    <li>fr_adj_fem->Odrodzona</li>
+    <li>fr_adj_fem->Ludowa</li>
+    <li>fr_adj_fem->Wielka</li>
+    <li>fr_adj_fem->Żelazna</li>
+    <li>fr_adj_fem->Gwiezdna</li>
+    <li>fr_adj_fem->Demokratyczna</li>
+    <li>fr_adj_neu->Nowe</li>
+    <li>fr_adj_neu->Wolne</li>
+    <li>fr_adj_neu->Niezależne</li>
+    <li>fr_adj_neu->Suwerenne</li>
+    <li>fr_adj_neu->Zjednoczone</li>
+    <li>fr_adj_neu->Pograniczne</li>
+    <li>fr_adj_neu->Północne</li>
+    <li>fr_adj_neu->Południowe</li>
+    <li>fr_adj_neu->Wschodnie</li>
+    <li>fr_adj_neu->Zachodnie</li>
+    <li>fr_adj_neu->Pokojowe</li>
+    <li>fr_adj_neu->Republikańskie</li>
+    <li>fr_adj_neu->Odrodzone</li>
+    <li>fr_adj_neu->Ludowe</li>
+    <li>fr_adj_neu->Wielkie</li>
+    <li>fr_adj_neu->Żelazne</li>
+    <li>fr_adj_neu->Gwiezdne</li>
+    <li>fr_adj_neu->Demokratyczne</li>
+    <li>fr_land_gen->Pogranicza</li>
+    <li>fr_land_gen->Nowych Kolonii</li>
+    <li>fr_land_gen->Wolnych Kolonii</li>
+    <li>fr_land_gen->Dalekich Rubieży</li>
+    <li>fr_land_gen->Czerwonych Równin</li>
+    <li>fr_land_gen->Zewnętrznych Osad</li>
+    <li>fr_land_gen->Nowego Świtu</li>
+    <li>fr_land_gen->Żelaznego Szlaku</li>
+    <li>fr_land_gen->Wschodnich Ziem</li>
+    <li>fr_land_gen->Zachodnich Ziem</li>
+    <li>fr_land_gen->Odległych Osad</li>
+    <li>fr_land_gen->Siedmiu Dolin</li>
+    <li>fr_land_gen->Zielonych Wzgórz</li>
+    <li>fr_land_gen->Błękitnego Nieba</li>
+    <li>fr_land_gen->Starych Ziem</li>
+    <li>fr_land_gen->Wspólnego Szlaku</li>
+    <li>fr_land_gen->Dzikich Pól</li>
+    <li>fr_land_gen->Spokojnych Dolin</li>
+    <li>fr_land_gen->Północnych Gór</li>
+    <li>fr_land_gen->Nowych Horyzontów</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
     <li>groupname->Words/Nouns/GroupNames</li>
   -->
   <NamerFactionPirate.rulePack.rulesFiles>
-    <li>groupname_all->Words/Nouns/GroupNames_All</li>
-    <li>groupname_mas->Words/Nouns/GroupNames_Mas</li>
-    <li>groupname_fem->Words/Nouns/GroupNames_Fem</li>
-    <li>groupname_neu->Words/Nouns/GroupNames_Neu</li>
-    <li>gore_gen->Words/Nouns/Gore_Gen</li>
-    <li>enemy_plural->Words/Nouns/Enemies_Plu</li>
-    <li>weapon_gen->Words/Nouns/Weapons_Gen</li>
-    <li>weapon_plu->Words/Nouns/Weapons_Plu</li>
-    <li>colors_badass_neu->Words/Nouns/Colors_Badass_Neu</li>
-    <li>colors_badass_pm->Words/Nouns/Colors_Badass_Plu_Mas</li>
-    <li>allies_plu->Words/Nouns/People_Allies_Plu</li>
-    <li>pirate_weapon_gp->Words/Custom/Pirate_Weapons_Gen_Plu</li>
-    <li>pirate_weapon_plu->Words/Custom/Pirate_Weapons_Plu</li>
-    <li>pirate_enemy_plu->Words/Custom/Pirate_Enemy_Plu</li>
-    <li>pirate_enemy_pm->Words/Custom/Pirate_Enemy_ColorsA</li>
-    <li>pirate_enemy_pb->Words/Custom/Pirate_Enemy_ColorsB</li>
-    <li>pirate_animalbadass->Words/Custom/Pirate_AnimalBadass</li>
-    <li>pirate_conceptbadass->Words/Custom/Pirate_ConceptBadass</li>
-    <li>pirate_conceptbadass_nom->Words/Custom/Pirate_ConceptBadass_Nom</li>
-    <li>pirate_personbadass->Words/Custom/Pirate_PeopleBadass</li>
-    <li>of_pirate_personbadass->Words/Custom/Pirate_PeopleBadass_Group</li>
-    <li>pirate_personbadass_pm->Words/Custom/Pirate_PeopleBadass_ColorsA</li>
-    <li>pirate_personbadass_neu->Words/Custom/Pirate_PeopleBadass_ColorsB</li>
-    <li>adj_badass_fem->Words/Adjectives/Badass_Fem</li>
-    <li>adj_badass_neu->Words/Adjectives/Badass_Neu</li>
-    <li>adj_badass_pm->Words/Adjectives/Badass_Plu_Mas</li>
-    <li>adj_badass_mas->Words/Adjectives/Badass_Mas</li>
+    <li>groupname_all->Words/FactionNames/Pirate_groupname_all</li>
+    <li>groupname_mas->Words/FactionNames/Pirate_groupname_mas</li>
+    <li>groupname_fem->Words/FactionNames/Pirate_groupname_fem</li>
+    <li>groupname_neu->Words/FactionNames/Pirate_groupname_neu</li>
+    <li>gore_gen->Words/FactionNames/Pirate_gore_gen</li>
+    <li>enemy_plural->Words/FactionNames/Pirate_enemy_plural</li>
+    <li>weapon_gen->Words/FactionNames/Pirate_weapon_gen</li>
+    <li>weapon_plu->Words/FactionNames/Pirate_weapon_plu</li>
+    <li>colors_badass_neu->Words/FactionNames/Pirate_colors_badass_neu</li>
+    <li>colors_badass_pm->Words/FactionNames/Pirate_colors_badass_pm</li>
+    <li>allies_plu->Words/FactionNames/Pirate_allies_plu</li>
+    <li>pirate_weapon_gp->Words/FactionNames/Pirate_pirate_weapon_gp</li>
+    <li>pirate_weapon_plu->Words/FactionNames/Pirate_pirate_weapon_plu</li>
+    <li>pirate_enemy_plu->Words/FactionNames/Pirate_pirate_enemy_plu</li>
+    <li>pirate_enemy_pm->Words/FactionNames/Pirate_pirate_enemy_pm</li>
+    <li>pirate_enemy_pb->Words/FactionNames/Pirate_pirate_enemy_pb</li>
+    <li>pirate_animalbadass->Words/FactionNames/Pirate_pirate_animalbadass</li>
+    <li>pirate_conceptbadass->Words/FactionNames/Pirate_pirate_conceptbadass</li>
+    <li>pirate_conceptbadass_nom->Words/FactionNames/Pirate_pirate_conceptbadass_nom</li>
+    <li>pirate_personbadass->Words/FactionNames/Pirate_pirate_personbadass</li>
+    <li>of_pirate_personbadass->Words/FactionNames/Pirate_of_pirate_personbadass</li>
+    <li>pirate_personbadass_pm->Words/FactionNames/Pirate_pirate_personbadass_pm</li>
+    <li>pirate_personbadass_neu->Words/FactionNames/Pirate_pirate_personbadass_neu</li>
+    <li>adj_badass_fem->Words/FactionNames/Pirate_adj_badass_fem</li>
+    <li>adj_badass_neu->Words/FactionNames/Pirate_adj_badass_neu</li>
+    <li>adj_badass_pm->Words/FactionNames/Pirate_adj_badass_pm</li>
+    <li>adj_badass_mas->Words/FactionNames/Pirate_adj_badass_mas</li>
   </NamerFactionPirate.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
@@ -150,12 +269,10 @@
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
     <li>r_name->[pirate_animalbadass]</li>
-    <li>r_name->Ludzie-[pirate_animalbadass]</li>
     <li>r_name->[pirate_animalbadass] [pirate_conceptbadass]</li>
     <li>r_name->[pirate_personbadass] [pirate_conceptbadass]</li>
     <li>r_name->[pirate_personbadass]</li>
     <li>r_name->[enemy_plural]</li>
-    <li>r_name->Ludzie [weapon_gen]</li>
     <li>r_name->[pirate_weapon_plu]</li>
     <li>r_name->[pirate_weapon_plu] [pirate_conceptbadass]</li>
     <li>r_name->[pirate_conceptbadass_nom] [pirate_weapon_plu]</li>
@@ -193,6 +310,12 @@
     <li>colors_gen_fem->Words/Nouns/Colors_Gen_Fem</li>
     <li>terrain_feature_nom_mas->Words/Nouns/TerrainFeatures_Nom_Mas</li>
     <li>terrain_feature_nom_fem->Words/Nouns/TerrainFeatures_Nom_Fem</li>
+    <li>ft_color_mas->Words/FactionNames/Tribal_ft_color_mas</li>
+    <li>ft_color_fem->Words/FactionNames/Tribal_ft_color_fem</li>
+    <li>ft_animals_mas->Words/FactionNames/Tribal_ft_animals_mas</li>
+    <li>ft_animals_fem->Words/FactionNames/Tribal_ft_animals_fem</li>
+    <li>ft_terrain_mas->Words/FactionNames/Tribal_ft_terrain_mas</li>
+    <li>ft_terrain_fem->Words/FactionNames/Tribal_ft_terrain_fem</li>
   </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
@@ -203,13 +326,42 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal_all] [WordTribal]</li>
-    <li>r_name->[political_union_tribal_all] [colors_gen_mas] [terrain_feature_nom_mas]</li>
-    <li>r_name->[political_union_tribal_all] [colors_gen_fem] [terrain_feature_nom_fem]</li>
-    <li>r_name->[political_union_tribal_all] [colors_gen_mas] [animals_gen_mas]</li>
-    <li>r_name->[political_union_tribal_all] [colors_gen_fem] [animals_gen_fem]</li>
-    <li>r_name->[WordTribal] [colors_gen_mas] [animals_gen_mas]</li>
-    <li>r_name->[WordTribal] [colors_gen_fem] [animals_gen_fem]</li>
+    <li>r_name(p=3)->[ft_org] [ft_epithet]</li>
+    <li>r_name->[ft_org] [ft_color_mas] [ft_animals_mas]</li>
+    <li>r_name->[ft_org] [ft_color_fem] [ft_animals_fem]</li>
+    <li>r_name->[ft_org] [ft_color_mas] [ft_terrain_mas]</li>
+    <li>r_name->[ft_org] [ft_color_fem] [ft_terrain_fem]</li>
+    <li>ft_org->Plemię</li>
+    <li>ft_org->Klan</li>
+    <li>ft_org->Ród</li>
+    <li>ft_org->Lud</li>
+    <li>ft_org->Związek Rodów</li>
+    <li>ft_org->Wspólnota</li>
+    <li>ft_org->Bractwo</li>
+    <li>ft_org->Wataha</li>
+    <li>ft_org->Horda</li>
+    <li>ft_org->Krąg</li>
+    <li>ft_epithet->Starego Dębu</li>
+    <li>ft_epithet->Białej Góry</li>
+    <li>ft_epithet->Wielkiego Żubra</li>
+    <li>ft_epithet->Czerwonego Słońca</li>
+    <li>ft_epithet->Siedmiu Rzek</li>
+    <li>ft_epithet->Żelaznego Kła</li>
+    <li>ft_epithet->Spopielonego Lasu</li>
+    <li>ft_epithet->Ognistej Doliny</li>
+    <li>ft_epithet->Krwawego Księżyca</li>
+    <li>ft_epithet->Wschodniego Wiatru</li>
+    <li>ft_epithet->Głodnych Kruków</li>
+    <li>ft_epithet->Głębokiej Nocy</li>
+    <li>ft_epithet->Północnych Skał</li>
+    <li>ft_epithet->Błędnych Ogników</li>
+    <li>ft_epithet->Dzikiego Wilka</li>
+    <li>ft_epithet->Czarnej Wody</li>
+    <li>ft_epithet->Zielonych Wzgórz</li>
+    <li>ft_epithet->Białych Kości</li>
+    <li>ft_epithet->Złamanej Włóczni</li>
+    <li>ft_epithet->Ostatniego Świtu</li>
+    <li>ft_epithet->Starej Puszczy</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:

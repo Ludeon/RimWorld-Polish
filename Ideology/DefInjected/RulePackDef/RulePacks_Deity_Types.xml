@@ -11,13 +11,15 @@
     <li>god->Master</li>
   -->
   <DeityTypeMakerGlobal.rulePack.rulesStrings>
-    <li>r_deityType->[god] [memeConcept]</li>
+    <li>r_deityType->[god] [memeConceptDeityGen]</li>
     <li>god(p=7, gender!=Female)->Bóg</li>
     <li>god(p=7, gender==Female)->Bogini</li>
     <li>god(p=4)->[memeGod]</li>
-    <li>god(p=3)->Dusza</li>
-    <li>god->Kreator</li>
-    <li>god->Mistrz</li>
+    <li>god(p=3)->Duch</li>
+    <li>god(gender!=Female)->Stwórca</li>
+    <li>god(gender==Female)->Stwórczyni</li>
+    <li>god(gender!=Female)->Mistrz</li>
+    <li>god(gender==Female)->Mistrzyni</li>
   </DeityTypeMakerGlobal.rulePack.rulesStrings>
   
 </LanguageData>

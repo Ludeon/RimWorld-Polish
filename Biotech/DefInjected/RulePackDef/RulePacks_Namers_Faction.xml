@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -74,8 +74,8 @@
   -->
   <NamerFactionOutlanderPig.rulePack.rulesStrings>
     <li>r_name(p=2)->[nameCore]</li>
-    <li>r_name->[nameCore] – [political_union_outlander]</li>
-    <li>r_name->[political_union_outlander]: [nameCore]</li>
+    <li>r_name->[fb_pig_org] [fb_pig_gen]</li>
+    <li>r_name->[fb_pig_org] [fb_pig_gen]</li>
     <li>maybeHyphen(p=3)-></li>
     <li>maybeHyphen->-</li>
     <li>nameCore->[SylP][maybeHyphen][SylP]</li>
@@ -93,6 +93,26 @@
     <li>end->pog</li>
     <li>end->mok</li>
     <li>end->mm</li>
+    <li>fb_pig_org->Związek</li>
+    <li>fb_pig_org->Konfederacja</li>
+    <li>fb_pig_org->Unia</li>
+    <li>fb_pig_org->Liga</li>
+    <li>fb_pig_org->Klan</li>
+    <li>fb_pig_org->Sojusz</li>
+    <li>fb_pig_org->Kompania</li>
+    <li>fb_pig_org->Rodzina</li>
+    <li>fb_pig_org->Federacja</li>
+    <li>fb_pig_gen->Świńskich Klanów</li>
+    <li>fb_pig_gen->Żelaznych Ryjów</li>
+    <li>fb_pig_gen->Dzikich Kłów</li>
+    <li>fb_pig_gen->Chrumkających Wojowników</li>
+    <li>fb_pig_gen->Wolnych Prosiąt</li>
+    <li>fb_pig_gen->Twardych Kopyt</li>
+    <li>fb_pig_gen->Błotnistych Osad</li>
+    <li>fb_pig_gen->Dumnych Świnioludzi</li>
+    <li>fb_pig_gen->Szorstkich Wojowników</li>
+    <li>fb_pig_gen->Rozjuszonych Knurów</li>
+    <li>fb_pig_gen->Wolnych Stad</li>
   </NamerFactionOutlanderPig.rulePack.rulesStrings>
   
   <!-- EN:
@@ -114,8 +134,32 @@
     <li>men->trash</li>
   -->
   <NamerFactionPirateWaster.rulePack.rulesStrings>
-    <li>r_name->[groupname] ([poison])</li>
-    <li>r_name->[men] ([poison])</li>
+    <li>r_name->[fb_waster_org] [fb_waster_gen]</li>
+    <li>r_name->[fb_waster_org] [fb_waster_gen]</li>
+    <li>fb_waster_org->Gang</li>
+    <li>fb_waster_org->Oddział</li>
+    <li>fb_waster_org->Związek</li>
+    <li>fb_waster_org->Syndykat</li>
+    <li>fb_waster_org->Klan</li>
+    <li>fb_waster_org->Korpus</li>
+    <li>fb_waster_org->Bractwo</li>
+    <li>fb_waster_org->Rój</li>
+    <li>fb_waster_org->Horda</li>
+    <li>fb_waster_org->Banda</li>
+    <li>fb_waster_org->Załoga</li>
+    <li>fb_waster_org->Zgraja</li>
+    <li>fb_waster_gen->Toksycznego Pyłu</li>
+    <li>fb_waster_gen->Trujących Oparów</li>
+    <li>fb_waster_gen->Zatrutych Wód</li>
+    <li>fb_waster_gen->Żrącego Jadu</li>
+    <li>fb_waster_gen->Zielonej Zarazy</li>
+    <li>fb_waster_gen->Skażonych Ziem</li>
+    <li>fb_waster_gen->Śmiercionośnych Gazów</li>
+    <li>fb_waster_gen->Smutnego Końca</li>
+    <li>fb_waster_gen->Złomowych Równin</li>
+    <li>fb_waster_gen->Zardzewiałych Masek</li>
+    <li>fb_waster_gen->Martwych Bagien</li>
+    <li>fb_waster_gen->Trucicielskich Żmij</li>
     <li>men->ludzie</li>
     <li>men->załoga</li>
     <li>men->gang</li>
@@ -147,8 +191,26 @@
   -->
   <NamerFactionPirateYttakin.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] – [faction]</li>
-    <li>r_name->[faction]: [placeNameCore]</li>
+    <li>r_name->[fb_ytt_org] [fb_ytt_gen]</li>
+    <li>r_name->[fb_ytt_org] [fb_ytt_gen]</li>
+    <li>fb_ytt_org->Klan</li>
+    <li>fb_ytt_org->Ród</li>
+    <li>fb_ytt_org->Wataha</li>
+    <li>fb_ytt_org->Plemię</li>
+    <li>fb_ytt_org->Bractwo</li>
+    <li>fb_ytt_org->Związek</li>
+    <li>fb_ytt_org->Horda</li>
+    <li>fb_ytt_org->Rodzina</li>
+    <li>fb_ytt_gen->Białych Futrzaków</li>
+    <li>fb_ytt_gen->Dzikich Bestii</li>
+    <li>fb_ytt_gen->Szarych Wilków</li>
+    <li>fb_ytt_gen->Zimowych Wzgórz</li>
+    <li>fb_ytt_gen->Długich Kłów</li>
+    <li>fb_ytt_gen->Śnieżnych Łowców</li>
+    <li>fb_ytt_gen->Starej Tajgi</li>
+    <li>fb_ytt_gen->Nocnych Tropicieli</li>
+    <li>fb_ytt_gen->Srogich Mrozów</li>
+    <li>fb_ytt_gen->Wściekłych Pazurów</li>
     <li>faction->rykoklan</li>
     <li>faction->plemię</li>
     <li>faction->klan</li>
@@ -172,8 +234,26 @@
   -->
   <NamerFactionTribalImpid.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] – [faction]</li>
-    <li>r_name->[faction]: [placeNameCore]</li>
+    <li>r_name->[fb_impid_org] [fb_impid_gen]</li>
+    <li>r_name->[fb_impid_org] [fb_impid_gen]</li>
+    <li>fb_impid_org->Plemię</li>
+    <li>fb_impid_org->Klan</li>
+    <li>fb_impid_org->Ród</li>
+    <li>fb_impid_org->Związek</li>
+    <li>fb_impid_org->Wataha</li>
+    <li>fb_impid_org->Krąg</li>
+    <li>fb_impid_org->Bractwo</li>
+    <li>fb_impid_org->Horda</li>
+    <li>fb_impid_gen->Płonącego Słońca</li>
+    <li>fb_impid_gen->Czarnych Popiołów</li>
+    <li>fb_impid_gen->Ognistych Biegaczy</li>
+    <li>fb_impid_gen->Rozżarzonych Kłów</li>
+    <li>fb_impid_gen->Czerwonego Płomienia</li>
+    <li>fb_impid_gen->Nocnych Iskier</li>
+    <li>fb_impid_gen->Spalonej Ziemi</li>
+    <li>fb_impid_gen->Żarzących Się Kości</li>
+    <li>fb_impid_gen->Ostatniej Iskry</li>
+    <li>fb_impid_gen->Wulkanicznych Skał</li>
     <li>faction->klada</li>
     <li>faction->liga</li>
     <li>faction->statek biegaczy</li>
@@ -189,8 +269,26 @@
   -->
   <NamerFactionTribalNeanderthal.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] – [political_union_tribal]</li>
-    <li>r_name->[political_union_tribal]: [placeNameCore]</li>
+    <li>r_name->[fb_neo_org] [fb_neo_gen]</li>
+    <li>r_name->[fb_neo_org] [fb_neo_gen]</li>
+    <li>fb_neo_org->Plemię</li>
+    <li>fb_neo_org->Klan</li>
+    <li>fb_neo_org->Ród</li>
+    <li>fb_neo_org->Wataha</li>
+    <li>fb_neo_org->Bractwo</li>
+    <li>fb_neo_org->Związek Rodów</li>
+    <li>fb_neo_org->Horda</li>
+    <li>fb_neo_org->Lud</li>
+    <li>fb_neo_gen->Starego Ognia</li>
+    <li>fb_neo_gen->Kamiennych Pięści</li>
+    <li>fb_neo_gen->Twardych Czaszek</li>
+    <li>fb_neo_gen->Wielkiego Mamuta</li>
+    <li>fb_neo_gen->Srogich Łowców</li>
+    <li>fb_neo_gen->Żelaznych Kości</li>
+    <li>fb_neo_gen->Czarnych Skór</li>
+    <li>fb_neo_gen->Złamanych Włóczni</li>
+    <li>fb_neo_gen->Nocnych Wojowników</li>
+    <li>fb_neo_gen->Górskich Jaskiń</li>
   </NamerFactionTribalNeanderthal.rulePack.rulesStrings>
   
   <!-- EN:
